@@ -1,0 +1,11 @@
+# Artefactos de revisión (regenerables, no parte del sitio publicado)
+01-Diseno-Cursos/*.pdf
+01-Diseno-Cursos/Curso-01-preview-*.png
+05-Generador-Cursos/previews/
+
+# Workspace clasp (si se usa a futuro)
+.clasp-workspace/
+
+# Sistema
+Thumbs.db
+.DS_Store

@@ -1,0 +1,13 @@
+[
+  {
+    "courseId": "bienvenida-programa-jovenes",
+    "title": "Bienvenida al Programa de Jóvenes",
+    "description": "El primer paso en la Línea Programa de Jóvenes. En ~25 minutos vas a entender qué es realmente el Programa de Jóvenes (y qué no), desarmar los mitos del dirigente nuevo, ubicar las 5 ramas y la documentación marco, y dar tu primer compromiso concreto. Sin tecnicismos, con ejemplos del día a día de una unidad.",
+    "icon": "🎒",
+    "duration": "25 minutos",
+    "modules": 6,
+    "status": "active",
+    "file": "bienvenida-programa-jovenes.html",
+    "folder": "bienvenida-programa-jovenes"
+  }
+]

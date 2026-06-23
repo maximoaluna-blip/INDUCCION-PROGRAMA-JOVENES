@@ -1,0 +1,568 @@
+{
+  "courseId": "bienvenida-programa-jovenes",
+  "title": "Bienvenida al Programa de Jóvenes",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "El primer paso en la Línea Programa de Jóvenes. En ~25 minutos vas a entender qué es realmente el Programa de Jóvenes (y qué no), desarmar los mitos del dirigente nuevo, ubicar las 5 ramas y la documentación marco, y dar tu primer compromiso concreto. Sin tecnicismos, con ejemplos del día a día de una unidad.",
+  "icon": "🎒",
+  "duration": "25 minutos",
+  "totalContentModules": 5,
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Bienvenida",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>~25 minutos.</strong> Al final vas a tener claro qué es el Programa de Jóvenes, por qué te aplica a ti <strong>incluso si nunca fuiste scout</strong>, y cuál es tu primer compromiso."
+        },
+        {
+          "type": "paragraph",
+          "text": "Te damos la bienvenida. Si estás aquí es porque vas a acompañar a alguien a crecer — y eso, aunque suene sencillo, es de las cosas más importantes que hace el Movimiento. Detrás de cada lobato, scout, nómada o rover que sonríe en una foto, hay un adulto que escogió estar ahí. Hoy esa persona eres tú."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que vas a vivir en este curso"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Qué es realmente el Programa de Jóvenes (y qué no es).",
+            "Los 5 mitos que estorban al dirigente y cómo desarmarlos.",
+            "Las 5 ramas, los grupos naturales y la documentación marco.",
+            "Por qué la calidad del Programa toca las 6 áreas de crecimiento del protagonista.",
+            "Tu primer compromiso concreto."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "No lo apures. Tómalo lección por lección, y escribe tus reflexiones pensando en una unidad concreta: la tuya, o la que sueñas con acompañar."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🎒 ¿Qué es Programa de Jóvenes, en realidad?",
+      "emoji": "🎒",
+      "navLabel": "¿Qué es PJ?",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el Programa de Jóvenes es una <strong>alianza educativa</strong>, no un manual de actividades."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si abres la Política Nacional de Programa de Jóvenes vas a leer que es la “totalidad de oportunidades de aprendizaje, definidas por su Propósito, por sus Oportunidades de Aprendizaje y por el Método Scout”. Es exacto. Y, si nunca has hecho un curso así, es difícil de digerir. Vamos a llegar a esa frase, pero por el camino aterrizado."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mira tu propia unidad y vas a ver Programa por todos lados"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "La jefa de Manada",
+              "description": "Cambia el orden de la reunión porque los lobatos llegaron cansados. <em>→ adaptación pedagógica</em>",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            },
+            {
+              "title": "El dirigente",
+              "description": "Se sienta 20 min con un scout a preguntarle qué le gustaría aprender este trimestre. <em>→ progresión personal (acompañar)</em>",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "El subjefe de Tropa",
+              "description": "Deja que la patrulla cocine sola aunque tarde el doble. <em>→ aprender haciendo</em>",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "La dirigente de Comunidad",
+              "description": "Acompaña a los nómadas a presentar un proyecto en la junta de acción comunal. <em>→ participación en la comunidad</em>",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "El dirigente de Clan",
+              "description": "Decide no decirle al rover cómo planear el peregrinaje y solo le hace preguntas. <em>→ apoyo del adulto</em>",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            },
+            {
+              "title": "El asistente",
+              "description": "Se acuerda del nombre del lobato nuevo y le pregunta cómo le fue en el colegio. <em>→ vida de grupo</em>",
+              "color": "#e0f7fa",
+              "borderColor": "#00acc1"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ninguno de estos adultos está pensando “estoy aplicando el Método Scout”. Pero todos lo están haciendo. Y todos, de alguna forma, están firmando esa alianza educativa con el joven que tienen al frente."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que dice la política textualmente",
+          "source": "Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024), §5.1 — Definición del Programa de Jóvenes.",
+          "text": "El Programa de Jóvenes en el Movimiento Scout es la totalidad de las oportunidades de aprendizaje de las que los jóvenes pueden beneficiarse (Qué), creadas para alcanzar el propósito del Movimiento Scout (Por qué), y que se vive a través del Método Scout (Cómo)."
+        },
+        {
+          "type": "info-box",
+          "text": "En palabras simples: el Programa de Jóvenes es la <strong>alianza educativa entre quien crece y quien acompaña</strong>. Lo que pasa entre tú y un protagonista, semana a semana, año tras año, hasta que él o ella se vaya con herramientas para la vida."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en una reunión de tu unidad (o la unidad que acompañas) en las últimas dos semanas. Escribe dos momentos donde, sin nombrarlo así, estaban haciendo Programa de Jóvenes de calidad. Y un momento donde sospechas que pudieron hacer más."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar a los 5 mitos 🧨",
+        "questions": [
+          {
+            "text": "Según lo que viste en esta lección, ¿cuál es la definición que más se ajusta a Programa de Jóvenes?",
+            "options": [
+              "Es la guía de actividades semanales que la DNPJ publica cada año para cada rama.",
+              "Es la totalidad de oportunidades de aprendizaje que vive un protagonista, definida por su porqué, su qué y su cómo.",
+              "Es el conjunto de insignias y especialidades que un joven puede obtener."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Una dirigente llega a la reunión, ve al grupo disperso y cansado, y cambia su plan para armar una dinámica corta que los reconecte antes de seguir. Según esta lección, ¿qué está haciendo?",
+            "options": [
+              "Está improvisando: se salió de la guía oficial, así que dejó de hacer Programa.",
+              "Está haciendo Programa de Jóvenes: adaptó la experiencia al grupo real que tenía al frente — eso es la alianza educativa.",
+              "Solo hará Programa si después registra el cambio en el formato correspondiente."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "🧨 Los 5 mitos del dirigente nuevo",
+      "emoji": "🧨",
+      "navLabel": "5 mitos",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> lo que crees que es “saber escultismo” no siempre es saberlo. Vale la pena revisar tus supuestos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hablemos de los cinco mitos que escuchamos una y otra vez cuando un adulto entra al Movimiento. Si alguna vez has pensado uno de estos, no estás solo. Pero queremos que salgas de aquí pensando distinto."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mito 1 — “Yo no fui scout, no estoy en capacidad de hacer esto”"
+        },
+        {
+          "type": "paragraph",
+          "text": "El escultismo se aprende caminando, no se hereda. Muchos de los mejores dirigentes nunca fueron protagonistas de niños. Lo que sí necesitas es: querer estar, dejarte formar y respetar la propuesta. El resto se aprende junto a otros dirigentes y al lado de los propios jóvenes. La Política Nacional de Adultos en el Movimiento existe precisamente para formarte paso a paso."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mito 2 — “Hacer Programa es seguir la guía oficial al pie de la letra”"
+        },
+        {
+          "type": "paragraph",
+          "text": "La guía es una orientación, no una receta. El Modelo de Aplicación 2026 insiste: la alianza es con el grupo concreto que tienes al frente, en su territorio, con sus historias y sus preguntas. La guía te da el qué y el cómo; tú —con los jóvenes— defines el cuándo, dónde, con quién y para qué local."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mito 3 — “A los chicos hay que entretenerlos”"
+        },
+        {
+          "type": "paragraph",
+          "text": "El Programa no entretiene, <strong>educa</strong>. Una reunión donde los chicos se rieron mucho pero no aprendieron nada, no se conocieron mejor y no avanzaron en ninguna área de crecimiento, fue una linda fiesta, no una reunión scout. El filtro <strong>DURASLID</strong> (desafiante, útil, recompensante, atractiva, segura, lúdica, inclusiva, diversa) está para evitar reuniones que solo cumplan una o dos de las ocho."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mito 4 — “Los jóvenes deciden cuando yo se los permito”"
+        },
+        {
+          "type": "paragraph",
+          "text": "La PNPJ es radical en esto. El Movimiento Scout es <strong>de los jóvenes y para los jóvenes</strong>, apoyado por adultos. No al revés. Tu rol es apoyar, acompañar y enlazar —no dirigir—. Si los jóvenes solo deciden lo que tú permites, no estás aplicando el Método: estás aplicando otra cosa que se le parece pero no lo es."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mito 5 — “Esto se hace por amor, así que no necesita estructura”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Claro que se hace por amor — Baden-Powell lo dijo en 1922, lo verás en el próximo curso. <strong>Y</strong> justo porque se hace por amor, exige más estructura, no menos. La protección del joven (A Salvo del Peligro), la planeación de la reunión, el seguimiento de la progresión, los protocolos de actividad: todo eso es la forma en que el amor se hace responsable. Amar sin cuidar no es amar; es buena intención."
+        },
+        {
+          "type": "info-box",
+          "text": "Si hubo un mito que reconociste como tuyo: bienvenido al club. Ahora lo importante es que ya tienes con qué responderle a quien lo repita —incluso si esa persona eres tú mismo."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Cuál de los 5 mitos te resonó más como algo que has pensado o has escuchado en tu unidad? Escríbele tu propia refutación, en una o dos frases, con palabras tuyas."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar a tu Programa en una página 🗺️",
+        "questions": [
+          {
+            "text": "Un dirigente nuevo te dice: “Yo no fui scout cuando niño, mejor me retiro, no estoy en capacidad.” ¿Cuál es la mejor respuesta según esta lección?",
+            "options": [
+              "“Tienes razón, vamos a buscar a alguien con más experiencia.”",
+              "“Lo que necesitas no es haber sido scout, es querer estar y dejarte formar. La Política de Adultos existe para eso.”",
+              "“Te recomiendo que primero leas todas las guías oficiales y luego vuelves.”"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "En una unidad, el dirigente decide cada actividad, cada fecha, cada equipo. Los jóvenes solo “votan” lo que él ya propuso. ¿Qué mito está viviendo?",
+            "options": [
+              "Mito 1 — no fui scout.",
+              "Mito 3 — hay que entretenerlos.",
+              "Mito 4 — los jóvenes deciden cuando yo se los permito."
+            ],
+            "correctIndex": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "🗺️ Tu Programa en una página",
+      "emoji": "🗺️",
+      "navLabel": "En una página",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> conozco las 5 ramas, los grupos naturales y la documentación marco."
+        },
+        {
+          "type": "paragraph",
+          "text": "En los próximos cursos entras al detalle. Pero antes necesitas un mapa simple. El Programa de Jóvenes en la ASC se organiza en 5 ramas por edades, cada una con su grupo natural (la forma en que los jóvenes se agrupan dentro de la unidad) y su marco simbólico (el universo narrativo que la sostiene)."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🐻 Rama Familia — Cachorros (5–6 años)",
+              "description": "Grupo natural: <strong>Camadas</strong> y Círculo de Familia. Marco simbólico: Hermanos de Mowgli.",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "🐺 Rama Manada — Lobatos (7–10 años)",
+              "description": "Grupo natural: <strong>Seisenas</strong>. Marco simbólico: Libro de las Tierras Vírgenes.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "⚜️ Rama Tropa — Scouts (11–14 años)",
+              "description": "Grupo natural: <strong>Patrullas</strong>. Marco simbólico: marco propio Scout.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🧗 Rama Comunidad — Nómadas (15–17 años)",
+              "description": "Grupo natural: equipos de Comunidad. Marco simbólico: Aventura y Ciudadanía.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🏔️ Rama Clan — Rovers (18–20 años)",
+              "description": "Grupo natural: equipos de Clan. Marco simbólico: Rovering propio.",
+              "color": "#ede7f6",
+              "borderColor": "#5e35b1"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tu rol como dirigente está en una de estas ramas. Pero todo el grupo —desde la familia más chiquita hasta el clan— forma un solo recorrido educativo. Lo que un cachorro vive a los 5 años lo prepara para la travesía a los 14, y lo que vivió en la tropa lo sostiene en su partida rover a los 20."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La documentación marco que rige todo"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Política Nacional de Programa de Jóvenes</strong> (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024) — la norma marco del PJ.",
+            "<strong>Modelo de Aplicación “El Gran Juego para la Vida”</strong> (DNPJ 2026) — el manual pedagógico que aterriza la política al día a día.",
+            "<strong>Guías de Dirigente por rama</strong> (Familia, Manada, Tropa, Comunidad, Clan — DNPJ 2026) — la guía específica de tu rama.",
+            "<strong>Herramientas de Seguimiento de la Progresión Personal 2.0</strong> (DNPJ) — la caja de herramientas evaluativas que usarán todos los dirigentes."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "Los puedes consultar todos en <a href=\"https://scout.org.co/biblioteca\" target=\"_blank\" rel=\"noopener\">scout.org.co/biblioteca</a>. No tienes que aprendértelos. Solo saber que existen y dónde encontrarlos cuando los necesites. En los Cursos 4 y 5 los vamos a recorrer juntos."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver el corazón de la política",
+          "source": "Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. N° 617 de 2024), §5.2 — Características del Programa de Jóvenes.",
+          "text": "Está diseñado “por” y “con” los jóvenes, no simplemente “para” ellos… reconociéndolos como los principales agentes de su desarrollo."
+        }
+      ],
+      "reflection": {
+        "prompt": "En tu unidad o la unidad que vas a acompañar, ¿sabrías nombrar qué rama es, qué edades cubre, cuál es su grupo natural y cuál su marco simbólico? Anota lo que sepas y lo que no — eso vale más que adivinar."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar a por qué importa 💡",
+        "questions": [
+          {
+            "text": "Los Lobatos son la rama Manada y se agrupan en…",
+            "options": [
+              "Patrullas, bajo el marco simbólico Scout.",
+              "Seisenas, bajo el marco simbólico del Libro de las Tierras Vírgenes.",
+              "Camadas, bajo el marco simbólico de los Hermanos de Mowgli."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "¿Cuál es la norma marco vigente que rige hoy al Programa de Jóvenes en la ASC?",
+            "options": [
+              "El Reglamento de la Red Nacional de Jóvenes (Acuerdo CSN 556).",
+              "La Política Nacional de Programa de Jóvenes (Acuerdo CSN 617 de 2024).",
+              "El Manual de Implementación del Marco de Mundo Mejor (junio 2021)."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "💡 Por qué un Programa de calidad cambia la vida de los chicos",
+      "emoji": "💡",
+      "navLabel": "Por qué importa",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el Programa toca las 6 áreas de crecimiento del protagonista."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hasta acá hablamos de definiciones, ramas y documentos. Suena lejano del lobato que llega a la reunión del sábado. Pero quiero que veas algo que vemos pocas veces: cuando el Programa es de calidad, un protagonista crece en seis dimensiones a la vez. Cuando no, ninguna."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tres historias reales (con detalles cambiados)"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "Lobato A — Cuando el Programa es solo entretenimiento",
+              "description": "Mariana llegó a la Manada a los 8 años. Le encantaban los juegos. Estuvo tres años. Su dirigente nunca planeó una reunión pensando en áreas de crecimiento ni hizo seguimiento a su progresión. A los 11 años se fue. “Era divertido, pero ya me aburrí”, dijo. Nunca supo que pudo haber escogido sus propios proyectos."
+            },
+            {
+              "title": "Scout B — Cuando el Programa funciona como sistema",
+              "description": "Camilo entró a la Tropa a los 11. Su patrulla decidía qué cocinar, cómo armar el campamento, qué proyecto de servicio harían en el barrio. Su dirigente se sentaba con él cada trimestre y le preguntaba qué quería trabajar. A los 14 hizo su Travesía y pasó a Comunidad. A los 22 entró a estudiar trabajo social “porque en los scouts aprendí que se puede cambiar algo en serio”."
+            },
+            {
+              "title": "Rover C — Cuando el Programa se hace alianza",
+              "description": "Sofía entró a Clan a los 18. Su dirigente nunca le dijo qué hacer; le hizo preguntas. Sofía propuso, equivocó, ajustó, lideró un proyecto de paz con un colegio rural. A los 20 hizo su Partida Rover. Hoy, a los 28, dirige el equipo regional de jóvenes y forma a otros dirigentes. “Lo que aprendí en el Clan no me lo enseñó nadie — lo viví.”"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "El Programa no es un fin en sí mismo. Es la condición silenciosa para que la experiencia scout transforme la vida del protagonista."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las 6 áreas de crecimiento"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Corporalidad</strong> — que el protagonista cuide y conozca su cuerpo.",
+            "<strong>Creatividad</strong> — que explore, invente, resuelva problemas con imaginación.",
+            "<strong>Carácter</strong> — que decida, asuma responsabilidades, construya autonomía.",
+            "<strong>Afectividad</strong> — que reconozca, exprese y regule sus emociones.",
+            "<strong>Sociabilidad</strong> — que conviva, coopere, sirva y ejerza ciudadanía.",
+            "<strong>Espiritualidad</strong> — que se haga preguntas grandes y construya sentido."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "En el Curso 5 de esta línea vas a recorrer cómo el Modelo de Aplicación 2026 desdobla estas 6 áreas en competencias terminales e intermedias por rama. Hoy solo guarda el mapa."
+        }
+      ],
+      "reflection": {
+        "prompt": "De las tres historias, ¿cuál se parece más a algo que has visto o escuchado en un grupo cercano (no necesariamente el tuyo)? Escribe en una frase qué hizo (o no hizo) el adulto, y qué área de crecimiento se vio afectada."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar a tu primer compromiso ✍️",
+        "questions": [
+          {
+            "text": "En la historia de Mariana, lo que faltó fue principalmente…",
+            "options": [
+              "Que sus dirigentes la dejaran ganar más juegos.",
+              "Que el Programa fuera planeado intencionalmente para tocar todas las áreas de crecimiento, no solo el entretenimiento.",
+              "Que Mariana entrara a la rama más tarde."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Según esta lección, las 6 áreas de crecimiento son…",
+            "options": [
+              "Las 6 ramas del Movimiento (Familia, Manada, Tropa, Comunidad, Clan + Adultos).",
+              "Las 6 dimensiones del desarrollo integral del protagonista: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad.",
+              "Las 6 prioridades estratégicas del Plan Trienal Mundial OMMS."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "✍️ Tu primer compromiso",
+      "emoji": "✍️",
+      "navLabel": "Tu compromiso",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> saber sin actuar no transforma; el primer paso es chico y concreto."
+        },
+        {
+          "type": "paragraph",
+          "text": "Llegaste hasta acá. Antes de pasar al Curso 2 necesitamos algo: que conviertas lo que viste en un primer paso concreto."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Imagina al protagonista que vas a acompañar"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dibuja (o toma foto a un dibujo, o sube una imagen que lo represente) cómo te imaginas a un protagonista de tu rama dentro de tres años, si vivió un Programa de calidad contigo al lado. No es un examen artístico: es un ancla visual del joven al que vas a acompañar."
+        },
+        {
+          "type": "photo-upload",
+          "photoId": "bienvenida-pj-protagonista-sonado",
+          "prompt": "Tu protagonista de programa dentro de 3 años",
+          "hint": "Puedes dibujarlo en papel y tomarle foto, o usar cualquier imagen que para ti represente ese joven que aprendió, decidió, sirvió y creció. Es solo para ti — la guardamos en tu navegador.",
+          "buttonLabel": "📷 Subir mi imagen"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Un compromiso chico, concreto y tuyo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Completa esta plantilla en tu reflexión: <em>“Esta semana, en mi unidad, voy a ______ (algo que muestre que el Programa es alianza, no manual). Lo voy a hacer con ______ (otro dirigente, un protagonista, una familia). Y la señal de que se cumplió será ______ (algo observable, no una intención).”</em>"
+        },
+        {
+          "type": "mission-box",
+          "text": "No prometas grande. Promete chico. La diferencia entre un dirigente que transforma y uno que se quema son cien promesas chicas cumplidas, no una grande olvidada."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que viene"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "💗 <strong>Curso 2</strong> — La Educación por el Amor: la apuesta de Baden-Powell.",
+            "🌟 <strong>Curso 3</strong> — Características Esenciales del Movimiento Scout.",
+            "🧭 <strong>Curso 4</strong> — El Método Scout y sus 8 elementos.",
+            "📜 <strong>Curso 5</strong> — La PNPJ y “El Gran Juego para la Vida”.",
+            "🗺️ <strong>Curso 6</strong> — Mi Compromiso con el Programa de Jóvenes (plan personal)."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "Bienvenido al equipo de los que acompañan. Lo que viene vale el viaje."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe tu compromiso completo siguiendo la plantilla. Esto te lo enviaremos por correo cuando descargues tu certificado, para que lo recuerdes en una semana."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Obtener mi certificado 🎓",
+        "questions": [
+          {
+            "text": "¿Cuál de estos compromisos cumple mejor el criterio “chico, concreto y tuyo”?",
+            "options": [
+              "“Voy a transformar la cultura del Programa en mi región este año.”",
+              "“En la próxima reunión voy a dejar que mi equipo decida una parte de la actividad, en vez de decidirla yo.”",
+              "“Voy a estudiarme el Modelo de Aplicación completo antes del próximo sábado.”"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Según el cierre del curso, los dirigentes que transforman se construyen sobre…",
+            "options": [
+              "Una promesa grande que inspira al equipo.",
+              "Cien promesas chicas cumplidas.",
+              "La cantidad de campamentos que organizaron."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "El Programa es alianza",
+      "emoji": "🎒",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Mito-buster",
+      "emoji": "🧨",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Conozco mi Programa",
+      "emoji": "🗺️",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Veo por qué importa",
+      "emoji": "💡",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Constructor de Programa",
+      "emoji": "🎒",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "BIENVENIDA AL PROGRAMA DE JÓVENES",
+    "description": "ha completado el Curso 1 de la Línea Programa de Jóvenes, reconociendo el Programa de Jóvenes como una alianza educativa entre quien crece y quien acompaña, y dando su primer compromiso concreto como dirigente al servicio de los protagonistas de programa de la Asociación Scouts de Colombia"
+  }
+}
