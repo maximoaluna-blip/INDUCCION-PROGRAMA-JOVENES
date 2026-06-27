@@ -193,12 +193,22 @@ INDUCCION-PROGRAMA-JOVENES/
     ```bash
     node 05-Generador-Cursos/verificar-backend.js
     ```
-12. **Commit + push:**
+12. **Commit + push** del repo de la línea:
     ```bash
     git add . && git commit -m "Agregar Curso N: <título>" && git push
     ```
 
 GitHub Pages redespliega automáticamente. ~1 min después el curso está vivo.
+
+> ⚠️ **Construir el curso ≠ publicar la línea.** GitHub Pages sirve desde la **raíz** del repo: si la raíz no tiene `index.html`, la URL pública de la línea da 404. Ver §3-bis.
+
+#### Fase de publicación de la LÍNEA (§3-bis) — al estrenar la línea o cambiar el nº de cursos activos
+
+Procedimiento universal en `../MANUAL-CREACION-CURSOS.md` §A.3-bis y `../CLAUDE.md` §7-bis. Datos propios de **Programa de Jóvenes**:
+
+13. **Raíz del repo** (ya existe desde 27-jun-2026): verificar que `index.html` (con botón `.back-portal`) + `404.html` siguen presentes.
+14. **Portal** `../PORTAL-ADULTOS-ASC/lineas.json` → entrada `"id": "programa-jovenes"`: mantener `status: "active"`, `url: "https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/"`, `color: "#00afef"`, y **actualizar `coursesActive`** al nº de cursos con `status: "active"` (`coursesPlanned: 24`). Sincronizar la tabla del `README.md` del portal.
+15. Push del repo del portal + **verificar en producción** (landing 200, curso 200, tarjeta clickeable).
 
 ---
 
