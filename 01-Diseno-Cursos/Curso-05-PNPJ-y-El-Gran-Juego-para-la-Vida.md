@@ -193,7 +193,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 6. **`paragraph`** — _"Por cada área, el Modelo de Aplicación 2026 define **competencias terminales** (qué debería poder hacer el protagonista al egresar de la rama) y **competencias intermedias** (los pasos para llegar). Lo importante: las áreas son las mismas en todas las ramas; lo que cambia es el nivel de complejidad de la competencia."_
 7. **`paragraph`** — _"Ejemplo: en **Corporalidad**, un cachorro de 6 años trabaja 'fortalecer habilidades motoras finas y gruesas'; un lobato de 9 años, 'afianzar hábitos de higiene'; un scout de 13 años, 'reconocer y valorar su cuerpo como medio de expresión'; un nómada de 16, 'tomar decisiones informadas sobre su salud sexual y reproductiva'; un rover de 19, 'sostener un proyecto personal de salud integral'. Misma área, distintos niveles."_
 8. **`heading` (nivel 3)** — _"Cómo se evalúa la progresión en las áreas"_
-9. **`paragraph`** — _"No con exámenes. Con observación, conversación y reconocimiento. Las **Herramientas de Seguimiento de la Progresión Personal 2.0** (DNPJ) traen 9 técnicas: observación en acción, anecdotario, registro conflicto-resolución, listas de cotejo, rúbricas, autoevaluación tipo semáforo, coevaluación '2+1', coevaluación por preguntas, registro escrito. El instrumento operativo es el **Registro de Acompañamiento a la Progresión Personal** (Excel DNPJ-2026-021)."_
+9. **`paragraph`** — _"No con exámenes. Con observación, conversación y reconocimiento. Las **Herramientas de Seguimiento de la Progresión Personal 2.0** (DNPJ) ofrecen un **banco de técnicas** — por ejemplo: observación en acción, anecdotario, registro conflicto-resolución, listas de cotejo, rúbricas, autoevaluación tipo semáforo y coevaluación. No hay que usarlas todas: se eligen una o dos según la experiencia. El instrumento operativo es el **Registro de Acompañamiento a la Progresión Personal** (Excel DNPJ-2026-021)."_
 10. **`info-box`** — _"En el Curso 12 del Nivel 2 vas a aprender estas técnicas en profundidad. Hoy solo guarda el principio: la progresión se observa, no se examina."_
 
 **Reflexión:** _"De las 6 áreas, ¿cuál crees que **menos se trabaja explícitamente** en tu unidad (o en las que conoces)? ¿Por qué?"_
@@ -209,7 +209,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 > **P2.** ¿Cómo se evalúa la progresión personal en el Modelo de Aplicación 2026?
 >
 > a) _Con exámenes escritos al final de cada trimestre._
-> b) _Con observación, conversación y reconocimiento usando 9 técnicas (Herramientas 2.0)._  ✅
+> b) _Con observación, conversación y reconocimiento, usando un banco de técnicas (Herramientas 2.0)._  ✅
 > c) _Solo con la autoevaluación del propio protagonista._
 
 **Logro:** "Veo las áreas".

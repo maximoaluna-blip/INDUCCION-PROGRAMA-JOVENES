@@ -314,7 +314,7 @@
         },
         {
           "type": "paragraph",
-          "text": "No con exámenes. Con observación, conversación y reconocimiento. Las <strong>Herramientas de Seguimiento de la Progresión Personal 2.0</strong> (DNPJ) traen 9 técnicas: observación en acción, anecdotario, registro conflicto-resolución, listas de cotejo, rúbricas, autoevaluación tipo semáforo, coevaluación \"2+1\", coevaluación por preguntas, registro escrito. El instrumento operativo es el <strong>Registro de Acompañamiento a la Progresión Personal</strong> (Excel DNPJ-2026-021)."
+          "text": "No con exámenes. Con observación, conversación y reconocimiento. Las <strong>Herramientas de Seguimiento de la Progresión Personal 2.0</strong> (DNPJ) ofrecen un <strong>banco de técnicas</strong> — por ejemplo: observación en acción, anecdotario, registro conflicto-resolución, listas de cotejo, rúbricas, autoevaluación tipo semáforo y coevaluación. No hay que usarlas todas: se eligen una o dos según la experiencia. El instrumento operativo es el <strong>Registro de Acompañamiento a la Progresión Personal</strong> (Excel DNPJ-2026-021)."
         },
         {
           "type": "info-box",
@@ -341,7 +341,7 @@
             "text": "¿Cómo se evalúa la progresión personal en el Modelo de Aplicación 2026?",
             "options": [
               "Con exámenes escritos al final de cada trimestre.",
-              "Con observación, conversación y reconocimiento usando 9 técnicas (Herramientas 2.0).",
+              "Con observación, conversación y reconocimiento, usando un banco de técnicas (Herramientas 2.0).",
               "Solo con la autoevaluación del propio protagonista."
             ],
             "correctIndex": 1
