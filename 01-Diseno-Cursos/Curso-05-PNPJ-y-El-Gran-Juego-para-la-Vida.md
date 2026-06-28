@@ -1,8 +1,8 @@
-# Diseño del Curso 5 — 📜 La PNPJ y "El Gran Juego para la Vida"
+# Diseño del Curso 6 — 📜 La PNPJ y "El Gran Juego para la Vida"
 
-**Línea:** Programa de Jóvenes · **Nivel:** 1 (Fundamentación) · **Posición:** Curso 5 de 6 del Nivel 1.
+**Línea:** Programa de Jóvenes · **Nivel:** 1 (Fundamentación) · **Posición:** Curso 6 de 7 del Nivel 1.
 
-> Aterrizaje al contexto colombiano. Tras el porqué (Curso 2), el qué (Curso 3) y el cómo (Curso 4), este curso muestra cómo la Asociación Scouts de Colombia tradujo todo eso en una política nacional y un modelo de aplicación operativos: 5 ramas, 6 áreas de crecimiento, 3 etapas × 3 momentos, ABP, DURASLID y los 3 roles del dirigente.
+> Aterrizaje al contexto colombiano. Tras el porqué (Curso 2), los conceptos de la educación (Curso 3), el qué (Curso 4) y el cómo (Curso 5), este curso muestra cómo la Asociación Scouts de Colombia tradujo todo eso en una política nacional y un modelo de aplicación operativos: 5 ramas, 6 áreas de crecimiento, 3 etapas × 3 momentos, ABP, DURASLID y los 3 roles del dirigente.
 
 ---
 
@@ -17,7 +17,7 @@
 | Duración | ~35 min |
 | Lecciones de contenido | 7 + intro + certificado |
 | Audiencia primaria | Todo adulto que cursa el Nivel 1 de la Línea Programa de Jóvenes. |
-| Pre-requisitos | Curso 4 — El Método Scout y sus 8 elementos (recomendado). |
+| Pre-requisitos | Curso 5 — El Método Scout y sus 8 elementos (recomendado). |
 | Logro final | "Conozco el Modelo" |
 
 ---
@@ -68,7 +68,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 **Secciones (en orden):**
 
 1. **`info-box`** — Tiempo (~35 min) y promesa: _"Al final vas a poder abrir el Modelo de Aplicación 2026 y entender qué dice cada capítulo, sin perderte."_
-2. **`paragraph`** — Saludo. Mensaje: este curso es la columna documental de la línea. Trae los Cursos 2, 3 y 4 frescos.
+2. **`paragraph`** — Saludo. Mensaje: este curso es la columna documental de la línea. Trae los Cursos 2 a 5 frescos.
 3. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 4. **`list`** — Las 6 ideas (lecciones 2-7):
     - La Política Nacional vigente (PNPJ 2024).
@@ -101,7 +101,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 5. **`list`** — 5 novedades clave:
     - **Adopta el Método Scout en su versión 2019** (8 elementos: la Naturaleza se desdobla como elemento autónomo).
     - **Incorpora las 6 áreas de crecimiento** alineadas con los 4 pilares UNESCO (conocer, hacer, vivir juntos, ser).
-    - **Define competencias terminales e intermedias** por rama y por área (lo que en Curso 4 era abstracto, aquí es concreto).
+    - **Define competencias terminales e intermedias** por rama y por área (lo que en Curso 5 era abstracto, aquí es concreto).
     - **Pone al joven al centro** con el concepto de "protagonista de programa" (no participante, no miembro, no usuario).
     - **Reconoce el territorio** como concepto integrador: no solo el espacio físico, también el social, cultural y comunitario.
 6. **`heading` (nivel 3)** — _"La PNPJ y su Modelo de Aplicación"_
@@ -151,7 +151,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
     - **10 → 11: Manada → Tropa** — paso a la patrulla, autonomía mayor.
     - **14 → 15: Tropa → Comunidad** — el paso a la adolescencia tardía y al trabajo por proyectos.
     - **17 → 18: Comunidad → Clan** — paso al Movimiento adulto-joven, mayor toma de decisiones, articulación con RDJ.
-9. **`info-box`** — _"En los Cursos 7–11 del Nivel 2 vas a profundizar la rama donde sirves (o donde vas a servir). Hoy solo guarda el mapa."_
+9. **`info-box`** — _"En los Cursos 8–12 del Nivel 2 vas a profundizar la rama donde sirves (o donde vas a servir). Hoy solo guarda el mapa."_
 
 **Reflexión:** _"En tu unidad, ¿qué tan bien cuidan las transiciones entre ramas? ¿Has visto protagonistas perderse en la transición? ¿Qué fue lo que falló?"_
 
@@ -180,7 +180,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Apertura: _"En el Curso 2 viste los 4 objetivos que B-P propuso en 1922. En el Curso 3 viste los 5 ámbitos OMMS 2019. Hoy ves la versión colombiana: **6 áreas de crecimiento** que la PNPJ 2024 alinea con los cuatro pilares de la educación de la UNESCO (aprender a conocer, hacer, vivir juntos y ser) y aplica a todas las ramas."_
+2. **`paragraph`** — Apertura: _"En el Curso 2 viste los 4 objetivos que B-P propuso en 1922. En el Curso 4 viste los 5 ámbitos OMMS 2019. Hoy ves la versión colombiana: **6 áreas de crecimiento** que la PNPJ 2024 alinea con los cuatro pilares de la educación de la UNESCO (aprender a conocer, hacer, vivir juntos y ser) y aplica a todas las ramas."_
 3. **`heading` (nivel 3)** — _"Las 6 áreas de crecimiento"_
 4. **`method-grid`** — Las 6 áreas con icono, color y descripción breve:
     - 💪 **Corporalidad** — Cuidar y conocer el cuerpo: actividad física, higiene, alimentación, sueño, sexualidad responsable, cuidado de la salud.
@@ -194,7 +194,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 7. **`paragraph`** — _"Ejemplo: en **Corporalidad**, un cachorro de 6 años trabaja 'fortalecer habilidades motoras finas y gruesas'; un lobato de 9 años, 'afianzar hábitos de higiene'; un scout de 13 años, 'reconocer y valorar su cuerpo como medio de expresión'; un nómada de 16, 'tomar decisiones informadas sobre su salud sexual y reproductiva'; un rover de 19, 'sostener un proyecto personal de salud integral'. Misma área, distintos niveles."_
 8. **`heading` (nivel 3)** — _"Cómo se evalúa la progresión en las áreas"_
 9. **`paragraph`** — _"No con exámenes. Con observación, conversación y reconocimiento. Las **Herramientas de Seguimiento de la Progresión Personal 2.0** (DNPJ) ofrecen un **banco de técnicas** — por ejemplo: observación en acción, anecdotario, registro conflicto-resolución, listas de cotejo, rúbricas, autoevaluación tipo semáforo y coevaluación. No hay que usarlas todas: se eligen una o dos según la experiencia. El instrumento operativo es el **Registro de Acompañamiento a la Progresión Personal** (Excel DNPJ-2026-021)."_
-10. **`info-box`** — _"En el Curso 12 del Nivel 2 vas a aprender estas técnicas en profundidad. Hoy solo guarda el principio: la progresión se observa, no se examina."_
+10. **`info-box`** — _"En el Curso 13 del Nivel 2 vas a aprender estas técnicas en profundidad. Hoy solo guarda el principio: la progresión se observa, no se examina."_
 
 **Reflexión:** _"De las 6 áreas, ¿cuál crees que **menos se trabaja explícitamente** en tu unidad (o en las que conoces)? ¿Por qué?"_
 
@@ -236,7 +236,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
     - 🚀 **Profundizo** — Autonomía y transferencia. Hago solo. Enseño a otros. Llevo la práctica a contextos nuevos.
 7. **`heading` (nivel 3)** — _"Cómo se cruzan etapas y momentos"_
 8. **`paragraph`** — _"Un mismo protagonista en **etapa de Adaptación** suele estar en **momento Exploro** en muchos contenidos. Uno en **Progresión** está en **Aplico** y empieza a **Profundizar** algunos. Uno en **Transición** ya ha **Profundizado** varios y empieza a enseñar a los más nuevos. Las secuencias no son rígidas, pero ayudan a planear oportunidades acordes al momento del protagonista."_
-9. **`info-box`** — _"El Modelo de Aplicación de Bolsillo (14 páginas) trae el ciclo pedagógico **Vivir → Mirar → Comprender → Proyectar**, que es la versión corta de los 3 momentos aplicada a una sola lección o reunión. Volverás a verlo en el Curso 13 (Planeación de Reuniones)."_
+9. **`info-box`** — _"El Modelo de Aplicación de Bolsillo (14 páginas) trae el ciclo pedagógico **Vivir → Mirar → Comprender → Proyectar**, que es la versión corta de los 3 momentos aplicada a una sola lección o reunión. Volverás a verlo en el Curso 14 (Planeación de Reuniones)."_
 
 **Reflexión:** _"Piensa en un protagonista de tu unidad. ¿En qué etapa de vida en la rama está (Adaptación, Progresión, Transición)? ¿Y en qué momento de aprendizaje está respecto a uno de los contenidos que está trabajando? Sé concreto."_
 
@@ -267,7 +267,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — Apertura: _"El Modelo trae cuatro herramientas operativas que vas a usar todas las semanas. Aquí las recogemos en una sola lección para que las tengas juntas. Las profundizarás después en los cursos del Nivel 2."_
 3. **`heading` (nivel 3)** — _"Herramienta 1 — Los 3 roles del dirigente: Apoyar, Acompañar, Enlazar"_
-4. **`method-grid`** — Los 3 roles (recordatorio del Curso 4 L5):
+4. **`method-grid`** — Los 3 roles (recordatorio del Curso 5 L5):
     - 🛟 **Apoyar** — preparar las condiciones, asegurar los recursos, sostener la planeación.
     - 👣 **Acompañar** — estar presente en el proceso del protagonista, sin reemplazarlo.
     - 🔗 **Enlazar** — conectar al protagonista con el grupo, con la familia, con el territorio y con la institución.
@@ -278,7 +278,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 9. **`paragraph`** — _"El Modelo integra el ABP al ciclo de programa de la unidad en cinco momentos: primero el grupo hace un **diagnóstico participativo** (mira qué pasa a su alrededor y qué quiere cambiar); luego **planifica** el proyecto; después lo **ejecuta paso a paso**, ajustando sobre la marcha; lo **presenta en público**; y al final **evalúa y transfiere** lo aprendido a la vida diaria. Cada momento pasa por el filtro DURASLID, para que la experiencia sea desafiante, útil y atractiva."_
 10. **`heading` (nivel 3)** — _"Herramienta 4 — Territorio como concepto integrador"_
 11. **`paragraph`** — _"El **territorio** no es solo el espacio físico donde está el grupo. Es el conjunto de relaciones sociales, culturales y comunitarias que rodean al protagonista. La PNPJ pide que el Programa **se ancle al territorio**: que los proyectos sirvan al barrio, que los marcos simbólicos dialoguen con la cultura local, que la unidad sea reconocida como actor de su comunidad."_
-12. **`info-box`** — _"En los cursos del Nivel 2 (12 — Seguimiento, 13 — Planeación, 14 — Ciclo con ABP) vas a dominar estas herramientas en detalle. Hoy guarda el inventario."_
+12. **`info-box`** — _"En los cursos del Nivel 2 (13 — Seguimiento, 14 — Planeación, 15 — Ciclo con ABP) vas a dominar estas herramientas en detalle. Hoy guarda el inventario."_
 
 **Reflexión:** _"De las 4 herramientas (3 roles, DURASLID, ABP, territorio), ¿cuál te parece más urgente fortalecer en tu unidad? ¿Por qué?"_
 
@@ -318,11 +318,11 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
     - _"Mi rol principal en esta rama es: **Apoyar / Acompañar / Enlazar** (subraya el que más te toca)."_
 5. **`mission-box`** — _"Guarda este mapa. Te servirá cada vez que vayas a planear una reunión, un campamento o un proyecto."_
 6. **`heading` (nivel 3)** — _"Lo que viene"_
-7. **`list`** — Mapa del Curso 6 y de los Niveles 2-4:
-    - 🗺️ **Curso 6** — Mi Compromiso con el Programa de Jóvenes: tu plan personal completo, integrando los 5 cursos del Nivel 1.
-    - 🐻🐺⚜️🧗🏔️ **Nivel 2 — Cursos 7–11** — Profundización por rama (toma el de la tuya).
-    - 🛠️ **Nivel 2 — Cursos 12, 13, 14** — Seguimiento, Planeación, Ciclo de Programa con ABP.
-    - 🛡️ **Nivel 4 — Curso 24** — A Salvo del Peligro (habilitante).
+7. **`list`** — Mapa del Curso 7 y de los Niveles 2-4:
+    - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes: tu plan personal completo, integrando los 5 cursos del Nivel 1.
+    - 🐻🐺⚜️🧗🏔️ **Nivel 2 — Cursos 8–12** — Profundización por rama (toma el de la tuya).
+    - 🛠️ **Nivel 2 — Cursos 13, 14, 15** — Seguimiento, Planeación, Ciclo de Programa con ABP.
+    - 🛡️ **Nivel 4 — Curso 25** — A Salvo del Peligro (habilitante).
 8. **`info-box`** — Despedida: _"Ya sabes qué dice Colombia. Te queda un curso para cerrar el Nivel 1. Buen camino."_
 
 **Reflexión:** _"Escribe tu mapa del Modelo completo (paso 4) y guárdalo. Te lo enviaremos por correo con tu certificado."_
@@ -335,7 +335,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 > b) _Tener a mano los datos clave de tu rol (rama, grupo natural, marco, áreas prioritarias, rol principal) cuando planees._  ✅
 > c) _Presentarlo en la asamblea regional como tu plan de comisionado._
 
-> **P2.** Al cerrar el Curso 5, ya tienes claros…
+> **P2.** Al cerrar el Curso 6, ya tienes claros…
 >
 > a) _Solo el documento PNPJ, no su aplicación._
 > b) _El marco normativo (PNPJ), las 5 ramas, las 6 áreas, las 3 etapas × 3 momentos y las 4 herramientas operativas._  ✅
@@ -363,18 +363,18 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 
 ### 6.1 Hacia adelante
 
-- **L3 (5 ramas) → Cursos 7–11 del Nivel 2:** cada curso desarrolla una rama en profundidad.
-- **L4 (6 áreas) → Curso 12:** Seguimiento de la Progresión Personal.
-- **L5 (etapas + momentos) → Curso 13:** Planeación de Reuniones y Oportunidades de Aprendizaje.
-- **L6 (3 roles + DURASLID + ABP + territorio) → Cursos 12, 13, 14:** las herramientas operativas se profundizan ahí.
-- **L7 → Curso 6:** el mapa personal alimenta el Plan Personal del Dirigente del Curso 6.
+- **L3 (5 ramas) → Cursos 8–12 del Nivel 2:** cada curso desarrolla una rama en profundidad.
+- **L4 (6 áreas) → Curso 13:** Seguimiento de la Progresión Personal.
+- **L5 (etapas + momentos) → Curso 14:** Planeación de Reuniones y Oportunidades de Aprendizaje.
+- **L6 (3 roles + DURASLID + ABP + territorio) → Cursos 13, 14, 15:** las herramientas operativas se profundizan ahí.
+- **L7 → Curso 7:** el mapa personal alimenta el Plan Personal del Dirigente del Curso 7.
 
 ### 6.2 Hacia atrás
 
 - **Curso 1 (Bienvenida)** → la L4 panorámica de PJ se profundiza aquí.
 - **Curso 2 (Educación por el Amor)** → los 4 objetivos de B-P son la semilla de las 6 áreas (L4).
-- **Curso 3 (Características Esenciales)** → los 5 ámbitos OMMS son la base de las 6 áreas (L4).
-- **Curso 4 (Método Scout)** → los 8 elementos se aplican aquí a las 5 ramas con sus particularidades.
+- **Curso 4 (Características Esenciales)** → los 5 ámbitos OMMS son la base de las 6 áreas (L4).
+- **Curso 5 (Método Scout)** → los 8 elementos se aplican aquí a las 5 ramas con sus particularidades.
 
 ### 6.3 Cross-línea
 
@@ -421,12 +421,12 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 | Lecciones de 3–8 min | ✅ rango 3–6 min |
 | Lenguaje conversacional, tutea | ✅ |
 | Citas oficiales plegables | ✅ 1 cita PNPJ 2024 (suficiente, el curso es operativo más que doctrinal) |
-| Patrón 6.2 — Anti-definición + reformulación accesible | ✅ **variante narrativa**. La L2 abre con contexto histórico que prepara la cita (_"El 11 de diciembre de 2024 el Consejo Scout Nacional aprobó el Acuerdo C.S.N. N° 617..."_) y cada lección cierra con un `info-box` operativo que aterriza el contenido (ej. L4: _"En el Curso 12 del Nivel 2 vas a aprender estas técnicas en profundidad"_). La fórmula literal "Si abres…" no aplica porque el curso es operativo, no densamente doctrinal. |
+| Patrón 6.2 — Anti-definición + reformulación accesible | ✅ **variante narrativa**. La L2 abre con contexto histórico que prepara la cita (_"El 11 de diciembre de 2024 el Consejo Scout Nacional aprobó el Acuerdo C.S.N. N° 617..."_) y cada lección cierra con un `info-box` operativo que aterriza el contenido (ej. L4: _"En el Curso 13 del Nivel 2 vas a aprender estas técnicas en profundidad"_). La fórmula literal "Si abres…" no aplica porque el curso es operativo, no densamente doctrinal. |
 | Reflexión personal por lección | ✅ excepto intro |
 | Mini-quiz por lección | ✅ 2 por lección |
 | 4–6 logros + 1 final | ⚠️ 6 + 1 final (límite superior justificado por número de lecciones) |
 | L1 `isIntro: true` sin quiz | ✅ |
-| Conexión cross-course | ✅ con Cursos 1, 2, 3, 4, 6 y muchos cursos del Nivel 2 |
+| Conexión cross-course | ✅ con Cursos 1, 2, 4, 5, 7 y muchos cursos del Nivel 2 |
 | 3 exigencias propias de PJ | ✅ DURASLID (L6), alianza joven-adulto (L6 — Apoyar/Acompañar/Enlazar), educación por el amor implícita |
 
 ---
@@ -438,8 +438,8 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 3. **Generar el JSON** del curso siguiendo `course-schema.json`.
 4. **Generar HTML** con `node build-course.js pnpj-gran-juego-para-la-vida`.
 5. **Generar preview PDF** y revisar.
-6. **Pilotar** junto a los Cursos 1–4 con los mismos 5–10 dirigentes.
+6. **Pilotar** junto a los Cursos 1–5 con los mismos 5–10 dirigentes.
 
 ---
 
-_Documento de diseño del Curso 5, versión inicial — 28 de mayo de 2026. Fuentes angulares: Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024) y Modelo de Aplicación "El Gran Juego para la Vida" (DNPJ-2026-024, 109 pp) + Modelo de Aplicación de Bolsillo (DNPJ-2026-063, 14 pp). Validado contra el marco metodológico de la plataforma._
+_Documento de diseño del Curso 6, versión inicial — 28 de mayo de 2026. Fuentes angulares: Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024) y Modelo de Aplicación "El Gran Juego para la Vida" (DNPJ-2026-024, 109 pp) + Modelo de Aplicación de Bolsillo (DNPJ-2026-063, 14 pp). Validado contra el marco metodológico de la plataforma._

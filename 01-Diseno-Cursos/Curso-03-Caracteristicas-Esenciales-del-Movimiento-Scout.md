@@ -1,8 +1,8 @@
-# Diseño del Curso 3 — 🌟 Características Esenciales del Movimiento Scout
+# Diseño del Curso 4 — 🌟 Características Esenciales del Movimiento Scout
 
-**Línea:** Programa de Jóvenes · **Nivel:** 1 (Fundamentación) · **Posición:** Curso 3 de 6 del Nivel 1.
+**Línea:** Programa de Jóvenes · **Nivel:** 1 (Fundamentación) · **Posición:** Curso 4 de 7 del Nivel 1.
 
-> Identidad doctrinal del Movimiento. Tras el "porqué" (Curso 2 — B-P 1922) y antes del "cómo" (Curso 4 — Método Scout), este curso entrega el "qué": qué es exactamente el Movimiento Scout, cuál es su Propósito, cuáles sus Principios y qué seis rasgos lo distinguen de cualquier otra propuesta educativa.
+> Identidad doctrinal del Movimiento. Tras el "porqué" (Curso 2 — B-P 1922) y antes del "cómo" (Curso 5 — Método Scout), este curso entrega el "qué": qué es exactamente el Movimiento Scout, cuál es su Propósito, cuáles sus Principios y qué seis rasgos lo distinguen de cualquier otra propuesta educativa.
 
 ---
 
@@ -241,7 +241,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - ℹ️ **Apoyo informativo** — dar la información que el joven necesita para decidir, sin decidir por él.
     - ✅ **Apoyo evaluativo** — ayudar al joven a mirar su propio proceso y a celebrarlo o ajustarlo.
 8. **`heading` (nivel 3)** — _"Primum non nocere"_
-9. **`paragraph`** — _"Es una frase latina que significa **'lo primero, no hacer daño'**. La OMMS la usa en p. 33 para subrayar la responsabilidad ética del adulto en el Movimiento: verificación previa de antecedentes, formación obligatoria, nombramiento por tiempo limitado, supervisión por pares. La protección del joven es lo primero. Por eso, en esta línea, **el Curso 24 (A Salvo del Peligro) es habilitante**: ningún adulto avanza al Nivel 2 sin completarlo."_
+9. **`paragraph`** — _"Es una frase latina que significa **'lo primero, no hacer daño'**. La OMMS la usa en p. 33 para subrayar la responsabilidad ética del adulto en el Movimiento: verificación previa de antecedentes, formación obligatoria, nombramiento por tiempo limitado, supervisión por pares. La protección del joven es lo primero. Por eso, en esta línea, **el Curso 25 (A Salvo del Peligro) es habilitante**: ningún adulto avanza al Nivel 2 sin completarlo."_
 10. **`info-box`** — _"Esta lección es probablemente la más importante del Nivel 1. Si te quedas con una sola idea de los 6 cursos, que sea esta: tu trabajo no es dirigir al joven. Es apoyarlo para que él se desarrolle. La diferencia parece pequeña; en la práctica, lo cambia todo."_
 
 **Reflexión:** _"Recuerda una situación reciente donde tomaste una decisión 'en nombre' de un joven o de un grupo de jóvenes (no por una emergencia, simplemente porque te parecía más rápido). Escribe brevemente: ¿qué pasó? ¿Qué hubiera pasado si lo hubieran decidido ellos?"_
@@ -284,9 +284,9 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 8. **`info-box`** — _"Si respondes 'sí' a las 4, es escultismo. Si respondes 'no' a alguna, no necesariamente está mal — pero no es escultismo. Eso no la descalifica como actividad: solo significa que para esa actividad necesitas otro marco, no este."_
 9. **`heading` (nivel 3)** — _"Lo que viene"_
 10. **`list`** — Mapa de los siguientes cursos:
-    - 🧭 **Curso 4** — El Método Scout y sus 8 elementos: la herramienta práctica con la que aterrizas el Propósito y los Principios a una reunión real.
-    - 📜 **Curso 5** — La PNPJ y "El Gran Juego para la Vida": cómo Colombia aterriza todo esto en su Modelo de Aplicación 2026.
-    - 🗺️ **Curso 6** — Mi Compromiso con el Programa de Jóvenes.
+    - 🧭 **Curso 5** — El Método Scout y sus 8 elementos: la herramienta práctica con la que aterrizas el Propósito y los Principios a una reunión real.
+    - 📜 **Curso 6** — La PNPJ y "El Gran Juego para la Vida": cómo Colombia aterriza todo esto en su Modelo de Aplicación 2026.
+    - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes.
 11. **`info-box`** — Despedida: _"Bienvenido al equipo de los que pueden explicar lo que hacen. Lo que viene vale el viaje."_
 
 **Reflexión:** _"Escribe tu frase de una línea (paso 4). Te la enviaremos por correo con tu certificado para que la tengas a mano."_
@@ -326,10 +326,10 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 ### 6.1 Hacia adelante (dentro del Nivel 1 de PJ)
 
-- **L2 (Propósito) → Curso 5:** los 5 ámbitos OMMS son la base de las 6 áreas PNPJ que el Curso 5 desarrolla con sus competencias terminales e intermedias.
-- **L3 (Principios) → Curso 4:** los 3 Principios se aterrizan en el primer elemento del Método (Promesa y Ley) que el Curso 4 desarrolla.
-- **L5 (alianza joven-adulto) → Curso 4:** la alianza se concreta en el elemento **Apoyo del Adulto** del Método.
-- **L5 (Primum non nocere) → Curso 24 (A Salvo del Peligro):** anuncia el curso habilitante del Nivel 4.
+- **L2 (Propósito) → Curso 6:** los 5 ámbitos OMMS son la base de las 6 áreas PNPJ que el Curso 6 desarrolla con sus competencias terminales e intermedias.
+- **L3 (Principios) → Curso 5:** los 3 Principios se aterrizan en el primer elemento del Método (Promesa y Ley) que el Curso 5 desarrolla.
+- **L5 (alianza joven-adulto) → Curso 5:** la alianza se concreta en el elemento **Apoyo del Adulto** del Método.
+- **L5 (Primum non nocere) → Curso 25 (A Salvo del Peligro):** anuncia el curso habilitante del Nivel 4.
 
 ### 6.2 Hacia atrás
 
@@ -368,7 +368,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 | Imagen de portada | PNG | Por crear | Estilo institucional — color azul OMMS #6122BD + iconografía de las características. |
 | Diagrama "5 ámbitos OMMS → 6 áreas PNPJ" | SVG | Por crear | Útil en L2. Visualiza la correspondencia. |
 
-**Decisión sugerida:** lanzar el Curso 3 sin video. Si tras piloto los adultos piden ejemplos en imágenes, agregar fotos de actividades reales que ilustren los 6 elementos.
+**Decisión sugerida:** lanzar el Curso 4 sin video. Si tras piloto los adultos piden ejemplos en imágenes, agregar fotos de actividades reales que ilustren los 6 elementos.
 
 ---
 
@@ -380,12 +380,12 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 | Lecciones de 3–8 min | ✅ rango 3–6 min |
 | Lenguaje conversacional, tutea | ✅ |
 | Citas oficiales plegables | ✅ 4 citas OMMS 2019 |
-| Patrón 6.2 — Anti-definición + reformulación accesible | ✅ **variante narrativa**. Cada lección doctrinal abre con una pregunta o contexto que prepara al lector antes de la cita (ej. L2: _"Antes de hablar de cómo se hace algo, conviene saber para qué se hace"_) y cierra con un `info-box` que aterriza la idea a la práctica (ej. L4: _"Cuando dudes si una práctica es scout o no, hazte 3 preguntas..."_). La fórmula literal "Si abres…" se reserva para cursos con citas más densas (ver Curso 04 L2). |
+| Patrón 6.2 — Anti-definición + reformulación accesible | ✅ **variante narrativa**. Cada lección doctrinal abre con una pregunta o contexto que prepara al lector antes de la cita (ej. L2: _"Antes de hablar de cómo se hace algo, conviene saber para qué se hace"_) y cierra con un `info-box` que aterriza la idea a la práctica (ej. L4: _"Cuando dudes si una práctica es scout o no, hazte 3 preguntas..."_). La fórmula literal "Si abres…" se reserva para cursos con citas más densas (ver Curso 05 L2). |
 | Reflexión personal por lección | ✅ excepto intro |
 | Mini-quiz por lección | ✅ 2 por lección |
 | 4–6 logros + 1 final | ✅ 5 + 1 |
 | L1 `isIntro: true` sin quiz | ✅ |
-| Conexión cross-course | ✅ con Cursos 1, 2, 4, 5, 24 y cross-línea |
+| Conexión cross-course | ✅ con Cursos 1, 2, 5, 6, 25 y cross-línea |
 | 3 exigencias propias de PJ | ✅ educación por el amor (L3), alianza joven-adulto eje del curso (L5), DURASLID implícito |
 
 ---
@@ -401,4 +401,4 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 ---
 
-_Documento de diseño del Curso 3, versión inicial — 28 de mayo de 2026. Fuente angular: "Características Esenciales del Movimiento Scout", Organización Mundial del Movimiento Scout, Oficina Scout Mundial, Kuala Lumpur, noviembre 2019. Validado contra el marco metodológico de la plataforma._
+_Documento de diseño del Curso 4, versión inicial — 28 de mayo de 2026. Fuente angular: "Características Esenciales del Movimiento Scout", Organización Mundial del Movimiento Scout, Oficina Scout Mundial, Kuala Lumpur, noviembre 2019. Validado contra el marco metodológico de la plataforma._

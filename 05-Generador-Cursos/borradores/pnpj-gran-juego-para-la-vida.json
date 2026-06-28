@@ -2,7 +2,7 @@
   "courseId": "pnpj-gran-juego-para-la-vida",
   "title": "La PNPJ y \"El Gran Juego para la Vida\"",
   "subtitle": "El Programa de Jóvenes aterrizado a Colombia",
-  "description": "El Curso 5 de la Línea Programa de Jóvenes. En ~35 minutos vas a aterrizar todo lo aprendido al contexto colombiano: la Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. 617 de 2024) y su Modelo de Aplicación \"El Gran Juego para la Vida\" (DNPJ 2026). Vas a recorrer las 5 ramas, las 6 áreas de crecimiento, las 3 etapas × 3 momentos y las herramientas operativas, y a construir tu mapa personal del Modelo.",
+  "description": "El Curso 6 de la Línea Programa de Jóvenes. En ~35 minutos vas a aterrizar todo lo aprendido al contexto colombiano: la Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. 617 de 2024) y su Modelo de Aplicación \"El Gran Juego para la Vida\" (DNPJ 2026). Vas a recorrer las 5 ramas, las 6 áreas de crecimiento, las 3 etapas × 3 momentos y las herramientas operativas, y a construir tu mapa personal del Modelo.",
   "icon": "📜",
   "duration": "35 minutos",
   "totalContentModules": 6,
@@ -20,7 +20,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Te damos la bienvenida a este curso, la columna documental de toda la línea. Tras el porqué (Curso 2), el qué (Curso 3) y el cómo (Curso 4), aquí ves cómo la Asociación Scouts de Colombia tradujo todo eso en una política nacional y un modelo de aplicación operativos. Trae los Cursos 2, 3 y 4 frescos: hoy los vas a aterrizar a Colombia."
+          "text": "Te damos la bienvenida a este curso, la columna documental de toda la línea. Tras el porqué (Curso 2), los conceptos de la educación (Curso 3), el qué (Curso 4) y el cómo (Curso 5), aquí ves cómo la Asociación Scouts de Colombia tradujo todo eso en una política nacional y un modelo de aplicación operativos. Trae los Cursos 2 a 5 frescos: hoy los vas a aterrizar a Colombia."
         },
         {
           "type": "heading",
@@ -76,7 +76,7 @@
           "items": [
             "<strong>Adopta el Método Scout en su versión 2019</strong> (8 elementos: la Naturaleza se desdobla como elemento autónomo).",
             "<strong>Incorpora las 6 áreas de crecimiento</strong> alineadas con los 4 pilares UNESCO (conocer, hacer, vivir juntos, ser).",
-            "<strong>Define competencias terminales e intermedias</strong> por rama y por área (lo que en Curso 4 era abstracto, aquí es concreto).",
+            "<strong>Define competencias terminales e intermedias</strong> por rama y por área (lo que en Curso 5 era abstracto, aquí es concreto).",
             "<strong>Pone al joven al centro</strong> con el concepto de \"protagonista de programa\" (no participante, no miembro, no usuario).",
             "<strong>Reconoce el territorio</strong> como concepto integrador: no solo el espacio físico, también el social, cultural y comunitario."
           ]
@@ -203,7 +203,7 @@
         },
         {
           "type": "info-box",
-          "text": "En los Cursos 7–11 del Nivel 2 vas a profundizar la rama donde sirves (o donde vas a servir). Hoy solo guarda el mapa."
+          "text": "En los Cursos 8–12 del Nivel 2 vas a profundizar la rama donde sirves (o donde vas a servir). Hoy solo guarda el mapa."
         }
       ],
       "reflection": {
@@ -246,7 +246,7 @@
         },
         {
           "type": "paragraph",
-          "text": "En el Curso 2 viste los 4 objetivos que B-P propuso en 1922. En el Curso 3 viste los 5 ámbitos OMMS 2019. Hoy ves la versión colombiana: <strong>6 áreas de crecimiento</strong> que la PNPJ 2024 alinea con los cuatro pilares de la educación de la UNESCO (aprender a conocer, hacer, vivir juntos y ser) y aplica a todas las ramas."
+          "text": "En el Curso 2 viste los 4 objetivos que B-P propuso en 1922. En el Curso 4 viste los 5 ámbitos OMMS 2019. Hoy ves la versión colombiana: <strong>6 áreas de crecimiento</strong> que la PNPJ 2024 alinea con los cuatro pilares de la educación de la UNESCO (aprender a conocer, hacer, vivir juntos y ser) y aplica a todas las ramas."
         },
         {
           "type": "heading",
@@ -318,7 +318,7 @@
         },
         {
           "type": "info-box",
-          "text": "En el Curso 12 del Nivel 2 vas a aprender estas técnicas en profundidad. Hoy solo guarda el principio: la progresión se observa, no se examina."
+          "text": "En el Curso 13 del Nivel 2 vas a aprender estas técnicas en profundidad. Hoy solo guarda el principio: la progresión se observa, no se examina."
         }
       ],
       "reflection": {
@@ -430,7 +430,7 @@
         },
         {
           "type": "info-box",
-          "text": "El Modelo de Aplicación de Bolsillo (14 páginas) trae el ciclo pedagógico <strong>Vivir → Mirar → Comprender → Proyectar</strong>, que es la versión corta de los 3 momentos aplicada a una sola lección o reunión. Volverás a verlo en el Curso 13 (Planeación de Reuniones)."
+          "text": "El Modelo de Aplicación de Bolsillo (14 páginas) trae el ciclo pedagógico <strong>Vivir → Mirar → Comprender → Proyectar</strong>, que es la versión corta de los 3 momentos aplicada a una sola lección o reunión. Volverás a verlo en el Curso 14 (Planeación de Reuniones)."
         }
       ],
       "reflection": {
@@ -536,7 +536,7 @@
         },
         {
           "type": "info-box",
-          "text": "En los cursos del Nivel 2 (12 — Seguimiento, 13 — Planeación, 14 — Ciclo con ABP) vas a dominar estas herramientas en detalle. Hoy guarda el inventario."
+          "text": "En los cursos del Nivel 2 (13 — Seguimiento, 14 — Planeación, 15 — Ciclo con ABP) vas a dominar estas herramientas en detalle. Hoy guarda el inventario."
         }
       ],
       "reflection": {
@@ -603,10 +603,10 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "🗺️ <strong>Curso 6</strong> — Mi Compromiso con el Programa de Jóvenes: tu plan personal completo, integrando los 5 cursos del Nivel 1.",
-            "🐻🐺⚜️🧗🏔️ <strong>Nivel 2 — Cursos 7–11</strong> — Profundización por rama (toma el de la tuya).",
-            "🛠️ <strong>Nivel 2 — Cursos 12, 13, 14</strong> — Seguimiento, Planeación, Ciclo de Programa con ABP.",
-            "🛡️ <strong>Nivel 4 — Curso 24</strong> — A Salvo del Peligro (habilitante)."
+            "🗺️ <strong>Curso 7</strong> — Mi Compromiso con el Programa de Jóvenes: tu plan personal completo, integrando los 5 cursos del Nivel 1.",
+            "🐻🐺⚜️🧗🏔️ <strong>Nivel 2 — Cursos 8–12</strong> — Profundización por rama (toma el de la tuya).",
+            "🛠️ <strong>Nivel 2 — Cursos 13, 14, 15</strong> — Seguimiento, Planeación, Ciclo de Programa con ABP.",
+            "🛡️ <strong>Nivel 4 — Curso 25</strong> — A Salvo del Peligro (habilitante)."
           ]
         },
         {
@@ -631,7 +631,7 @@
             "correctIndex": 1
           },
           {
-            "text": "Al cerrar el Curso 5, ya tienes claros…",
+            "text": "Al cerrar el Curso 6, ya tienes claros…",
             "options": [
               "Solo el documento PNPJ, no su aplicación.",
               "El marco normativo (PNPJ), las 5 ramas, las 6 áreas, las 3 etapas × 3 momentos y las 4 herramientas operativas.",
@@ -689,6 +689,6 @@
   ],
   "certificate": {
     "courseName": "LA PNPJ Y \"EL GRAN JUEGO PARA LA VIDA\"",
-    "description": "ha completado el Curso 5 de la Línea Programa de Jóvenes, situando la Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. 617 de 2024) y su Modelo de Aplicación \"El Gran Juego para la Vida\" como marco vigente del Programa de Jóvenes en Colombia, y reconociendo las 5 ramas, las 6 áreas de crecimiento, las 3 etapas y los 3 momentos, y las herramientas operativas del Modelo al servicio de los protagonistas de programa de la Asociación Scouts de Colombia"
+    "description": "ha completado el Curso 6 de la Línea Programa de Jóvenes, situando la Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. 617 de 2024) y su Modelo de Aplicación \"El Gran Juego para la Vida\" como marco vigente del Programa de Jóvenes en Colombia, y reconociendo las 5 ramas, las 6 áreas de crecimiento, las 3 etapas y los 3 momentos, y las herramientas operativas del Modelo al servicio de los protagonistas de programa de la Asociación Scouts de Colombia"
   }
 }

@@ -1,0 +1,463 @@
+{
+  "courseId": "como-se-educa-hoy",
+  "title": "Cómo se Educa Hoy",
+  "subtitle": "Conceptos clave de la educación — la base de todo lo que sigue",
+  "description": "El Curso 3 de la Línea Programa de Jóvenes, y un paréntesis necesario antes de entrar de lleno a lo scout. En ~30 minutos vas a entender qué es educar, los cuatro pilares de la educación (UNESCO), cómo aprenden de verdad las personas, dónde se aprende (educación formal, no formal e informal) y por qué el aprender haciendo funciona. No es teoría por la teoría: es la base que hace que el Método Scout, las ramas y el Modelo —que vienen después— se entiendan como la aplicación de estas ideas.",
+  "icon": "🎓",
+  "duration": "30 minutos",
+  "totalContentModules": 5,
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Bienvenida",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>~30 minutos.</strong> Al final vas a tener un lenguaje claro sobre <strong>cómo se educa</strong> — y vas a ver por qué todo lo scout que viene después no es más que la aplicación de estas ideas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hagamos una pausa antes de entrar a lo scout. Ya viste el <strong>porqué</strong> (la educación por el amor, Curso 2). Antes del <strong>qué</strong> scout (Curso 4) y del <strong>cómo</strong> (Curso 5), conviene poner una base que casi nadie nos da: ¿qué es educar, en realidad? ¿Cómo aprende una persona? ¿Dónde se aprende? Porque tú no vas a dar clase: vas a <strong>diseñar experiencias para que otros aprendan</strong>. Y eso pide entender el oficio."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que vas a vivir en este curso"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Qué es educar hoy y los retos que la educación enfrenta.",
+            "Los 4 pilares de la educación según la UNESCO.",
+            "Los 7 principios de cómo aprenden de verdad las personas.",
+            "Dónde se aprende: educación formal, no formal e informal (y dónde encaja el escultismo).",
+            "Por qué el <em>aprender haciendo</em> funciona — y cómo eso prepara todo lo que viene."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "Estos conceptos no son scouts: son de la educación en general. Pero guárdalos bien, porque desde el próximo curso vas a empezar a reconocerlos por todos lados: el Método, las ramas, el Modelo… todo es esto, aplicado."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🌍 ¿Qué es educar, hoy?",
+      "emoji": "🌍",
+      "navLabel": "Qué es educar",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> educar no es llenar de datos; es preparar a una persona para responder a la vida, durante toda la vida."
+        },
+        {
+          "type": "paragraph",
+          "text": "Solemos pensar la educación como “lo que pasa en el colegio”: un adulto que sabe, frente a unos chicos que no, transmitiendo contenidos. Pero la educación, en serio, es algo más grande y más largo. Es la forma en que una sociedad le pasa a la siguiente generación lo que aprendió, para que pueda responder a sus propios desafíos."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo lo define el Movimiento",
+          "source": "Características Esenciales del Movimiento Scout (OMMS, 2019), p. 9 — citando el enfoque de la UNESCO.",
+          "text": "En el sentido más amplio, la educación es un proceso de por vida que permite el desarrollo continuo de las habilidades de una persona, tanto como individuo como miembro de la sociedad."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Por qué hoy la educación tiene retos nuevos"
+        },
+        {
+          "type": "paragraph",
+          "text": "El mundo cambia rápido y se vuelve complejo: desigualdad, crisis ambiental, conflictos, transformación digital. La UNESCO dice que para responder a eso ya no basta con “dar materia”: hace falta una educación que despierte el pensamiento crítico, la creatividad y la capacidad de convivir y decidir. Por eso la educación va <strong>mucho más allá del aula</strong>, tanto en lo que abarca como en el tiempo que dura."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📦 La idea vieja",
+              "description": "Educar = transmitir contenidos de quien sabe a quien no sabe, en un lugar (el aula) y un tiempo (la infancia y juventud).",
+              "color": "#eceff1",
+              "borderColor": "#90a4ae"
+            },
+            {
+              "title": "🌱 La idea de hoy",
+              "description": "Educar = acompañar el desarrollo de una persona entera, toda la vida, en muchos lugares, para que pueda responder a los desafíos de su tiempo.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "Guarda esta idea: si educar es <strong>preparar para la vida</strong> y no “pasar contenidos”, entonces un campamento, un proyecto de servicio o una reunión bien pensada educan tanto o más que una clase. Ahí entra el escultismo."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en algo importante que sepas hacer hoy (cocinar, liderar, resolver un problema, tratar a la gente). ¿Lo aprendiste en un aula o en otro lado? Escribe dónde y cómo lo aprendiste de verdad."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar a los 4 pilares 🏛️",
+        "questions": [
+          {
+            "text": "Un papá te dice: “Mi hijo va a los scouts a jugar; para educarse ya está el colegio”. Según esta lección, ¿qué le falta a esa idea?",
+            "options": [
+              "Nada: tiene razón, educar es lo que pasa en el colegio; los scouts son tiempo libre.",
+              "Que educar es preparar para la vida y ocurre toda la vida y en muchos lugares; una experiencia scout bien pensada también educa, no solo entretiene.",
+              "Que el colegio en realidad no educa; solo los scouts educan de verdad."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Dos personas discuten. Una dice: “educar es meter la mayor cantidad de contenidos en la cabeza del chico mientras es joven”. La otra: “educar es acompañar a una persona toda la vida para que pueda responder a lo que le toque”. Según cómo lo define el Movimiento (citando a la UNESCO), ¿quién se acerca más?",
+            "options": [
+              "La primera: educar es acumular contenidos en la etapa de formación.",
+              "La segunda: educar es un proceso de por vida que desarrolla a la persona como individuo y como miembro de la sociedad.",
+              "Ninguna: educar es solo preparar para aprobar los exámenes que pone la sociedad."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "🏛️ Los 4 pilares de la educación",
+      "emoji": "🏛️",
+      "navLabel": "4 pilares",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> una educación completa sostiene a la persona en cuatro frentes a la vez — no solo en el saber."
+        },
+        {
+          "type": "paragraph",
+          "text": "En 1996, una comisión internacional le entregó a la UNESCO un informe famoso —<em>“La educación encierra un tesoro”</em>, dirigido por Jacques Delors— que resumió la educación en <strong>cuatro pilares</strong>. No son cuatro materias: son cuatro tipos de aprendizaje que toda persona necesita, y que se sostienen entre sí. El Movimiento Scout los adoptó como base."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver los 4 pilares textuales",
+          "source": "Características Esenciales del Movimiento Scout (OMMS, 2019), p. 10 — citando el Informe Delors a la UNESCO, «La educación encierra un tesoro» (1996).",
+          "text": "La educación es un proceso continuo, un desarrollo holístico de por vida, que cuenta con el apoyo de cada uno de los cuatro pilares definidos en el informe UNESCO: aprender a ser, aprender a conocer, aprender a hacer y aprender a vivir juntos."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🧠 Aprender a CONOCER",
+              "description": "Tener una cultura amplia y, a la vez, profundizar en algunas cosas. Sobre todo: <strong>aprender a aprender</strong>, para seguir aprendiendo toda la vida.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🛠️ Aprender a HACER",
+              "description": "No solo habilidades para un oficio, sino la capacidad de <strong>enfrentar situaciones</strong> y trabajar en equipo.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🤝 Aprender a VIVIR JUNTOS",
+              "description": "Comprender al otro, apreciar que dependemos unos de otros, y sostener valores de respeto, paz y justicia.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🌟 Aprender a SER",
+              "description": "Desarrollar la propia personalidad y poder actuar con cada vez más <strong>autonomía, juicio y responsabilidad</strong>.",
+              "color": "#ede7f6",
+              "borderColor": "#5e35b1"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Por qué importan los cuatro, juntos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Una educación que solo desarrolla el “conocer” produce gente que sabe mucho y no sabe convivir, o que no decide por sí misma. Los cuatro pilares son un recordatorio de que la persona es entera. Cuando planees una experiencia para tus chicos, vale preguntarte: ¿esto solo los hace <em>saber</em>, o también los hace <em>hacer</em>, <em>convivir</em> y <em>ser</em>?"
+        },
+        {
+          "type": "info-box",
+          "text": "Pista para más adelante: cuando en el Curso 6 veas las <strong>6 áreas de crecimiento</strong> de la Asociación Scouts de Colombia, vas a notar que son una versión más detallada de esta misma idea. La raíz es esta."
+        }
+      ],
+      "reflection": {
+        "prompt": "De los 4 pilares (conocer, hacer, vivir juntos, ser), ¿cuál crees que la educación que tú recibiste trabajó MENOS? ¿Y cuál te gustaría que tus chicos vivieran más?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar a cómo aprendemos 🧩",
+        "questions": [
+          {
+            "text": "Una dirigente arma un trimestre lleno de talleres donde los chicos memorizan datos y técnicas, pero nunca tienen que decidir, convivir en equipo ni mirarse a sí mismos. Mirando los 4 pilares, ¿qué está pasando?",
+            "options": [
+              "Está bien: si dominan los datos y las técnicas, ya están educados.",
+              "Está trabajando sobre todo “aprender a conocer/hacer” y dejando de lado “vivir juntos” y “ser”; la educación queda incompleta.",
+              "Está fallando porque a esa edad solo importa “aprender a ser”."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Un joven que aprende a entender a los demás, a cooperar y a sostener el respeto y la paz está desarrollando sobre todo el pilar de…",
+            "options": [
+              "Aprender a conocer.",
+              "Aprender a vivir juntos.",
+              "Aprender a hacer."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "🧩 Cómo aprenden de verdad las personas",
+      "emoji": "🧩",
+      "navLabel": "Cómo aprenden",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> hay evidencia sobre cómo aprende la gente. No es magia ni opinión: son condiciones que puedes crear a propósito."
+        },
+        {
+          "type": "paragraph",
+          "text": "La investigación educativa (recogida por la OCDE) resume en <strong>siete principios</strong> lo que sabemos sobre cómo aprenden las personas, en cualquier entorno. Léelos pensando en una reunión tuya: vas a ver que varios ya los haces sin nombrarlos, y que otros son justo lo que falta cuando una actividad “no prende”."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver los 7 principios textuales",
+          "source": "Características Esenciales del Movimiento Scout (OMMS, 2019), p. 11 — citando «The Nature of Learning», OCDE (2010).",
+          "text": "1. Los sujetos que aprenden deben estar en el centro del proceso. 2. El aprendizaje es un proceso social, principalmente cooperativo. 3. Las emociones y la motivación son parte integral del aprendizaje. 4. El aprendizaje debe tener en cuenta las diferencias individuales. 5. El desafío y el esfuerzo son esenciales, no la sobrecarga. 6. La evaluación formativa y la claridad de las expectativas promueven el aprendizaje. 7. El aprendizaje se promueve al crear vínculos entre dominios de conocimiento y con la comunidad y el mundo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los 7 principios, en cristiano"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>El que aprende, al centro.</strong> No el que enseña: el protagonista es quien aprende.",
+            "<strong>Se aprende con otros.</strong> Aprender es social; en equipo se aprende más.",
+            "<strong>Emoción y motivación cuentan.</strong> Sin ganas ni vínculo, no hay aprendizaje que pegue.",
+            "<strong>Cada quien es distinto.</strong> Hay ritmos e intereses diferentes; uno solo no le sirve a todos.",
+            "<strong>Reto sí, sobrecarga no.</strong> Demasiado fácil aburre; demasiado difícil frustra. El punto justo enseña.",
+            "<strong>Retroalimentar mientras se hace.</strong> Decirle al joven cómo va —y qué se espera— mientras aprende, no solo al final.",
+            "<strong>Conectar con la vida.</strong> Lo que se enlaza con el mundo real y con la comunidad se aprende de verdad."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "Mira lo que NO aparece en la lista: “explicar muy bien”. Aprender no es, sobre todo, que alguien explique bien; es que el que aprende esté activo, motivado, retado y acompañado. Ese giro lo cambia todo en cómo planeas."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en una actividad tuya (o que viviste) que “no prendió”: los chicos se aburrieron o no aprendieron nada. Mirando los 7 principios, ¿cuál o cuáles le faltaron?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar a dónde se aprende 🏫",
+        "questions": [
+          {
+            "text": "Un dirigente prepara una charla larga, clarísima y muy bien explicada; los chicos escuchan sentados 40 minutos y al final no recuerdan casi nada. Según los principios de cómo se aprende, ¿qué falló sobre todo?",
+            "options": [
+              "Nada: si la explicación fue clara, el aprendizaje está garantizado.",
+              "Que el que aprende estuvo pasivo: faltó ponerlo al centro, activo, retado y aprendiendo con otros.",
+              "Que la charla fue muy corta; debió durar el doble para que quedara."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Le das a una patrulla un reto que les queda enorme y se frustran; a otra, uno tan fácil que se aburren. ¿Qué principio del aprendizaje no estás cuidando?",
+            "options": [
+              "El reto y el esfuerzo en su punto justo (ni sobrecarga ni demasiado fácil).",
+              "Que el aprendizaje es un proceso social.",
+              "Que hay que conectar con la comunidad y el mundo."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "🏫 Dónde se aprende",
+      "emoji": "🏫",
+      "navLabel": "Dónde se aprende",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el aula no es el único lugar donde se aprende. Hay tres grandes contextos — y el escultismo vive en uno muy potente."
+        },
+        {
+          "type": "paragraph",
+          "text": "La UNESCO distingue <strong>tres tipos de educación</strong> según dónde y cómo ocurre. No es que uno sea mejor que otro: se complementan. Saber en cuál juega el escultismo te ayuda a entender qué se espera de ti — y qué no."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🏫 Educación FORMAL",
+              "description": "Institucionalizada, planificada y con títulos: el sistema escolar y las universidades. Lleva a un certificado oficial reconocido por el Estado.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "⚜️ Educación NO FORMAL",
+              "description": "También es <strong>intencional y planeada</strong>, pero fuera del sistema escolar: complementa o amplía lo formal. <strong>Aquí vive el Movimiento Scout</strong>, junto al trabajo juvenil y la formación permanente.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🏠 Educación INFORMAL",
+              "description": "El aprendizaje de la vida diaria, no institucionalizado: la familia, el trabajo, la comunidad, lo cotidiano. Pasa todo el tiempo, sin programa.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El escultismo es educación NO formal — y eso importa"
+        },
+        {
+          "type": "paragraph",
+          "text": "Que el escultismo sea educación <strong>no formal</strong> significa dos cosas. Primero: es <strong>intencional y planeada</strong> — no es solo “pasarla bien”; hay un propósito educativo detrás de cada actividad. Segundo: no reemplaza al colegio ni a la familia; los <strong>complementa</strong>. Tú no eres el profesor del chico ni su papá: eres el adulto que le ofrece un espacio educativo distinto, voluntario y poderoso."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué dice la fuente",
+          "source": "Características Esenciales del Movimiento Scout (OMMS, 2019), p. 11 — clasificación de la UNESCO (CITE 2011).",
+          "text": "Educación no formal: educación institucionalizada, intencional y planificada por un proveedor de educación, que es un adicional, una alternativa y/o un complemento de la educación formal… (por ejemplo, el Movimiento Scout…)."
+        },
+        {
+          "type": "info-box",
+          "text": "Dato de hoy: las fronteras entre estos tres tipos se están borrando — los colegios usan cada vez más métodos no formales (proyectos, juego, trabajo en equipo). Es decir: el mundo se está pareciendo cada vez más a como el escultismo educa hace más de un siglo."
+        }
+      ],
+      "reflection": {
+        "prompt": "Tú aprendiste cosas valiosas en los tres contextos. Escribe una cosa que aprendiste en la educación FORMAL (colegio), una en la NO FORMAL (un club, deporte, scouts, taller) y una en la INFORMAL (casa, calle, vida). ¿Cuál te marcó más?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar a aprender haciendo 🔨",
+        "questions": [
+          {
+            "text": "Un dirigente nuevo dice: “Como esto no es el colegio, aquí no hay que planear nada; los chicos vienen a jugar y ya”. Según lo que viste sobre la educación no formal, ¿qué le corriges?",
+            "options": [
+              "Nada: la educación no formal es justamente jugar sin planear.",
+              "Que la educación no formal SÍ es intencional y planeada: el juego tiene detrás un propósito educativo, aunque no se parezca a una clase.",
+              "Que debería planear sus reuniones exactamente como una clase de colegio."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Una familia le enseña a un niño a compartir y a respetar en el día a día, sin programa ni institución. ¿Qué tipo de educación es?",
+            "options": [
+              "Educación formal.",
+              "Educación informal.",
+              "Educación no formal."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "🔨 Aprender haciendo (y tu mirada de educador)",
+      "emoji": "🔨",
+      "navLabel": "Aprender haciendo",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> se aprende de verdad cuando se hace, se equivoca y se reflexiona — no cuando solo se escucha."
+        },
+        {
+          "type": "paragraph",
+          "text": "Junta todo lo anterior y aparece una conclusión: la educación que prepara para la vida, que toca los cuatro pilares, que pone al que aprende al centro y que vive fuera del aula… se construye sobre todo <strong>haciendo</strong>. A esto se le llama <strong>aprendizaje experiencial</strong>: aprender desde la experiencia directa, no desde la pura teoría."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver el enfoque experiencial",
+          "source": "Características Esenciales del Movimiento Scout (OMMS, 2019), p. 17.",
+          "text": "El aprendizaje activo ilustra el enfoque práctico del Movimiento Scout para la educación, basado en la experiencia directa más que en la mera enseñanza teórica… la adquisición de nuevas competencias se logra mediante la práctica de diversas actividades, entretenidas y relevantes, que llevan a los jóvenes a actuar, cometer errores, reflexionar y descubrir."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La clave que casi siempre se olvida: la reflexión"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ojo: <strong>hacer no basta</strong>. Un chico puede armar una carpa diez veces y no aprender nada si nadie lo ayuda a mirar qué pasó. La experiencia educa cuando se cierra con <strong>reflexión</strong>: ¿qué hiciste?, ¿qué salió bien?, ¿qué cambiarías? Experiencia + reflexión = aprendizaje. Por eso, en cada lección de estos cursos, después de leer te pedimos que <em>reflexiones</em>. No es relleno: es el cierre que convierte lo leído en algo tuyo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que viene es esto, aplicado"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "🌟 <strong>Curso 4 — Características Esenciales:</strong> qué es exactamente el Movimiento Scout (su identidad), construida sobre esta propuesta educativa.",
+            "🧭 <strong>Curso 5 — El Método Scout:</strong> el “sistema” con el que el escultismo pone en práctica el aprender haciendo, el equipo, el reto y la reflexión.",
+            "📜 <strong>Curso 6 — La PNPJ y el Modelo colombiano:</strong> cómo Colombia organiza todo esto en ramas, áreas de crecimiento y herramientas.",
+            "🗺️ <strong>Curso 7 — Mi Compromiso:</strong> tu plan personal como educador scout."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "Desde aquí dejas de ser “alguien que organiza actividades” y te vuelves <strong>un educador</strong> que sabe lo que hace. Lo que sigue ya no son reglas sueltas: es la aplicación de lo que aprendiste hoy. <strong>Tu primer gesto de educador no es grande: es preguntarte, antes de tu próxima reunión, “¿esto solo los hace saber, o también hacer, convivir y ser?”. Con eso ya empezaste.</strong>"
+        }
+      ],
+      "reflection": {
+        "prompt": "Completa, pensando en tu rol: «Antes pensaba que educar a mis chicos era ______. Después de este curso entiendo que es ______. Lo primero que voy a cambiar en cómo planeo una reunión es ______.»"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Obtener mi certificado 🎓",
+        "questions": [
+          {
+            "text": "Una patrulla cocina sola en un campamento, les queda regular, y el dirigente pasa al siguiente punto sin detenerse a conversar qué pasó. Según el aprendizaje experiencial, ¿qué se perdió?",
+            "options": [
+              "Nada: ya hicieron la actividad, con eso aprendieron.",
+              "La reflexión: hacer sin mirar lo que pasó deja la experiencia a medias; el aprendizaje se cierra reflexionando.",
+              "El aprendizaje se perdió porque la comida quedó regular."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Según este curso, ¿por qué cada lección de la plataforma te pide escribir una reflexión al final?",
+            "options": [
+              "Para llenar un requisito y poder avanzar.",
+              "Porque la experiencia (leer, vivir algo) se convierte en aprendizaje propio cuando se cierra con reflexión.",
+              "Para que el formador califique qué tan bien escribes."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    }
+  ],
+  "achievements": [
+    { "id": "achievement-1", "name": "Listo para mirar la educación", "emoji": "👋", "unlockOnModule": 1 },
+    { "id": "achievement-2", "name": "Sé qué es educar", "emoji": "🌍", "unlockOnModule": 2 },
+    { "id": "achievement-3", "name": "Conozco los 4 pilares", "emoji": "🏛️", "unlockOnModule": 3 },
+    { "id": "achievement-4", "name": "Sé cómo se aprende", "emoji": "🧩", "unlockOnModule": 4 },
+    { "id": "achievement-5", "name": "Sé dónde se aprende", "emoji": "🏫", "unlockOnModule": 5 },
+    { "id": "achievement-final", "name": "Pienso como educador", "emoji": "🎓", "unlockOnModule": -1 }
+  ],
+  "certificate": {
+    "courseName": "CÓMO SE EDUCA HOY",
+    "description": "ha completado el Curso 3 de la Línea Programa de Jóvenes, comprendiendo qué es educar, los cuatro pilares de la educación de la UNESCO, cómo aprenden las personas, los tres tipos de educación y el aprendizaje experiencial, como base conceptual para vivir el Programa de Jóvenes como un verdadero educador al servicio de los protagonistas de programa de la Asociación Scouts de Colombia"
+  }
+}

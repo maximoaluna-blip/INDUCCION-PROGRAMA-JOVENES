@@ -22,9 +22,20 @@
     "folder": "educacion-por-el-amor"
   },
   {
+    "courseId": "como-se-educa-hoy",
+    "title": "Cómo se Educa Hoy",
+    "description": "El Curso 3 de la Línea Programa de Jóvenes, y un paréntesis necesario antes de entrar de lleno a lo scout. En ~30 minutos vas a entender qué es educar, los cuatro pilares de la educación (UNESCO), cómo aprenden de verdad las personas, dónde se aprende (educación formal, no formal e informal) y por qué el aprender haciendo funciona. No es teoría por la teoría: es la base que hace que el Método Scout, las ramas y el Modelo —que vienen después— se entiendan como la aplicación de estas ideas.",
+    "icon": "🎓",
+    "duration": "30 minutos",
+    "modules": 6,
+    "status": "active",
+    "file": "como-se-educa-hoy.html",
+    "folder": "como-se-educa-hoy"
+  },
+  {
     "courseId": "caracteristicas-esenciales-movimiento-scout",
     "title": "Características Esenciales del Movimiento Scout",
-    "description": "El Curso 3 de la Línea Programa de Jóvenes entrega la identidad doctrinal del Movimiento: su Propósito, sus 3 Principios y los 6 elementos que lo distinguen de cualquier otra propuesta para jóvenes. Al final vas a poder explicarle a alguien externo qué es el Movimiento Scout en menos de un minuto, sin recurrir a uniformes ni a campamentos.",
+    "description": "El Curso 4 de la Línea Programa de Jóvenes entrega la identidad doctrinal del Movimiento: su Propósito, sus 3 Principios y los 6 elementos que lo distinguen de cualquier otra propuesta para jóvenes. Al final vas a poder explicarle a alguien externo qué es el Movimiento Scout en menos de un minuto, sin recurrir a uniformes ni a campamentos.",
     "icon": "🌟",
     "duration": "30 minutos",
     "modules": 6,
@@ -46,7 +57,7 @@
   {
     "courseId": "pnpj-gran-juego-para-la-vida",
     "title": "La PNPJ y \"El Gran Juego para la Vida\"",
-    "description": "El Curso 5 de la Línea Programa de Jóvenes. En ~35 minutos vas a aterrizar todo lo aprendido al contexto colombiano: la Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. 617 de 2024) y su Modelo de Aplicación \"El Gran Juego para la Vida\" (DNPJ 2026). Vas a recorrer las 5 ramas, las 6 áreas de crecimiento, las 3 etapas × 3 momentos y las herramientas operativas, y a construir tu mapa personal del Modelo.",
+    "description": "El Curso 6 de la Línea Programa de Jóvenes. En ~35 minutos vas a aterrizar todo lo aprendido al contexto colombiano: la Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. 617 de 2024) y su Modelo de Aplicación \"El Gran Juego para la Vida\" (DNPJ 2026). Vas a recorrer las 5 ramas, las 6 áreas de crecimiento, las 3 etapas × 3 momentos y las herramientas operativas, y a construir tu mapa personal del Modelo.",
     "icon": "📜",
     "duration": "35 minutos",
     "modules": 7,
@@ -57,7 +68,7 @@
   {
     "courseId": "mi-compromiso-programa-jovenes",
     "title": "Mi Compromiso con el Programa de Jóvenes",
-    "description": "El cierre del Nivel 1 de la Línea Programa de Jóvenes. En ~30 minutos vas a convertir los Cursos 1 a 5 en un Plan Personal de Dirigente firmable: revisas tu brújula, defines tu rol, rama y áreas prioritarias, planeas tu próxima reunión y tu proyecto del trimestre, trazas tu ruta de formación y firmas tu promesa personal. No hay contenido nuevo: integras lo que ya tienes en algo accionable.",
+    "description": "El cierre del Nivel 1 de la Línea Programa de Jóvenes. En ~30 minutos vas a convertir los Cursos 1 a 6 en un Plan Personal de Dirigente firmable: revisas tu brújula, defines tu rol, rama y áreas prioritarias, planeas tu próxima reunión y tu proyecto del trimestre, trazas tu ruta de formación y firmas tu promesa personal. No hay contenido nuevo: integras lo que ya tienes en algo accionable.",
     "icon": "🗺️",
     "duration": "30 minutos",
     "modules": 6,

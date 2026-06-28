@@ -1,6 +1,6 @@
-# Diseño del Curso 6 — 🗺️ Mi Compromiso con el Programa de Jóvenes
+# Diseño del Curso 7 — 🗺️ Mi Compromiso con el Programa de Jóvenes
 
-**Línea:** Programa de Jóvenes · **Nivel:** 1 (Fundamentación) · **Posición:** Curso 6 de 6 del Nivel 1.
+**Línea:** Programa de Jóvenes · **Nivel:** 1 (Fundamentación) · **Posición:** Curso 7 de 7 del Nivel 1.
 
 > Cierre de la ruta. Tras la bienvenida, la educación por el amor, las características esenciales, el método y el modelo colombiano, este curso convierte los 5 anteriores en un plan personal firmable. No introduce contenido nuevo: integra todo lo visto en una herramienta accionable para el día a día del dirigente.
 
@@ -16,8 +16,8 @@
 | Icono | 🗺️ |
 | Duración | ~30 min |
 | Lecciones de contenido | 6 + intro + certificado |
-| Audiencia primaria | Todo adulto que ha completado los Cursos 1–5 del Nivel 1. |
-| Pre-requisitos | Cursos 1, 2, 3, 4 y 5 del Nivel 1 (los 5 anteriores). |
+| Audiencia primaria | Todo adulto que ha completado los Cursos 1–6 del Nivel 1. |
+| Pre-requisitos | Cursos 1, 2, 3, 4, 5 y 6 del Nivel 1 (los 6 anteriores). |
 | Logro final | "Dirigente con Plan" |
 
 ---
@@ -26,7 +26,7 @@
 
 Al completar este curso, el adulto:
 
-1. **Integra** los aprendizajes de los Cursos 1–5 en una visión personal del propio rol como dirigente de PJ.
+1. **Integra** los aprendizajes de los Cursos 1–6 en una visión personal del propio rol como dirigente de PJ.
 2. **Construye** un Plan Personal de Dirigente con compromisos chicos, concretos y observables para el próximo trimestre.
 3. **Selecciona** los cursos del Nivel 2 y del Nivel 4 que más le servirán según su rama y rol.
 4. **Compromete** una primera acción de aplicación del Método Scout en su próxima reunión real.
@@ -70,7 +70,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 2. **`paragraph`** — Reconocimiento: _"Llegaste hasta acá. Tomaste 5 cursos. Leíste a Baden-Powell, a la OMMS, a la PNPJ. Te asomaste a los 8 elementos del Método y al Modelo de Aplicación colombiano. Reflexionaste, contestaste quizzes, escribiste compromisos parciales. Hoy todo eso se vuelve plan."_
 3. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 4. **`list`** — Las 5 ideas:
-    - Revisión de tu brújula: qué te quedó de los Cursos 1–5.
+    - Revisión de tu brújula: qué te quedó de los Cursos 1–6.
     - Definición de tu rol, rama y áreas prioritarias del trimestre.
     - Tu próxima reunión y tu proyecto del trimestre, planeados con los 8 elementos del Método.
     - Tu ruta de formación: qué cursos del Nivel 2 y del Nivel 4 vas a tomar primero.
@@ -94,7 +94,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 3. **`brujula-display`** — Componente que muestra al adulto sus propias reflexiones acumuladas:
     - `sourceCourses`: `["bienvenida-programa-jovenes", "educacion-por-el-amor", "caracteristicas-esenciales-movimiento-scout", "metodo-scout-8-elementos", "pnpj-gran-juego-para-la-vida"]`
     - `displayMode`: `lecciones-clave`
-    - Muestra reflexiones de cierre por curso: Curso 1 L6 (compromiso primera semana), Curso 2 L6 (compromiso pedagógico), Curso 3 L6 (frase de definición), Curso 4 L8 (ajuste de reunión), Curso 5 L7 (mapa del Modelo).
+    - Muestra reflexiones de cierre por curso: Curso 1 L6 (compromiso primera semana), Curso 2 L6 (compromiso pedagógico), Curso 4 L6 (frase de definición), Curso 5 L8 (ajuste de reunión), Curso 6 L7 (mapa del Modelo).
 4. **`heading` (nivel 3)** — _"Tres preguntas para mirar el camino"_
 5. **`paragraph`** — Plantilla de auto-revisión:
     - _"¿Cuál idea de los 5 cursos **más me transformó la mirada** sobre el Programa de Jóvenes? Escríbela en una frase."_
@@ -218,39 +218,39 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Apertura: _"Hoy cierras el Nivel 1. La línea tiene 4 niveles. Aquí defines cuál curso del Nivel 2 vas a tomar primero y cuándo vas a hacer el Curso 24 (A Salvo del Peligro — habilitante)."_
-3. **`heading` (nivel 3)** — _"Tu curso de rama del Nivel 2 (Cursos 7–11)"_
+2. **`paragraph`** — Apertura: _"Hoy cierras el Nivel 1. La línea tiene 4 niveles. Aquí defines cuál curso del Nivel 2 vas a tomar primero y cuándo vas a hacer el Curso 25 (A Salvo del Peligro — habilitante)."_
+3. **`heading` (nivel 3)** — _"Tu curso de rama del Nivel 2 (Cursos 8–12)"_
 4. **`paragraph`** — _"Cada dirigente toma el curso de su rama. La plataforma te lo sugiere automáticamente según la rama que declaraste en la L3 de este curso."_
 5. **`list`** — Recordatorio de los 5 cursos por rama:
-    - 🐻 **Curso 7** — Rama Familia (Cachorros, 5-6 años).
-    - 🐺 **Curso 8** — Rama Manada (Lobatos, 7-10 años).
-    - ⚜️ **Curso 9** — Rama Tropa Scout (11-14 años).
-    - 🧗 **Curso 10** — Rama Comunidad (Nómadas, 15-17 años).
-    - 🏔️ **Curso 11** — Rama Clan (Rovers, 18-20 años).
-6. **`heading` (nivel 3)** — _"Los 3 cursos pedagógicos operativos (Cursos 12, 13, 14)"_
+    - 🐻 **Curso 8** — Rama Familia (Cachorros, 5-6 años).
+    - 🐺 **Curso 9** — Rama Manada (Lobatos, 7-10 años).
+    - ⚜️ **Curso 10** — Rama Tropa Scout (11-14 años).
+    - 🧗 **Curso 11** — Rama Comunidad (Nómadas, 15-17 años).
+    - 🏔️ **Curso 12** — Rama Clan (Rovers, 18-20 años).
+6. **`heading` (nivel 3)** — _"Los 3 cursos pedagógicos operativos (Cursos 13, 14, 15)"_
 7. **`paragraph`** — _"Estos los toman todos los dirigentes de unidad. Recomendamos este orden, según tu rol:"_
 8. **`list`** — Orden sugerido:
-    - **Si tu foco es acompañar la progresión personal** (uno-a-uno con los protagonistas) → empieza por el **Curso 12 (Seguimiento de la Progresión)**.
-    - **Si eres Jefe o Subjefe de Rama** → empieza por el **Curso 13 (Planeación de Reuniones)** y luego el **Curso 14 (Ciclo con ABP)**.
+    - **Si tu foco es acompañar la progresión personal** (uno-a-uno con los protagonistas) → empieza por el **Curso 13 (Seguimiento de la Progresión)**.
+    - **Si eres Jefe o Subjefe de Rama** → empieza por el **Curso 14 (Planeación de Reuniones)** y luego el **Curso 15 (Ciclo con ABP)**.
     - **Si eres Asistente o entras nuevo** → orden libre, según prioridad de tu unidad.
-9. **`heading` (nivel 3)** — _"Curso 24 — A Salvo del Peligro: HABILITANTE"_
-10. **`info-box`** — _"**Importante**: ningún dirigente avanza al Nivel 2 sin haber completado el Curso 24 (A Salvo del Peligro aplicado al Programa). Es el único curso del Nivel 4 que es prerrequisito real. Tómalo en paralelo con tu primer curso del Nivel 2."_
+9. **`heading` (nivel 3)** — _"Curso 25 — A Salvo del Peligro: HABILITANTE"_
+10. **`info-box`** — _"**Importante**: ningún dirigente avanza al Nivel 2 sin haber completado el Curso 25 (A Salvo del Peligro aplicado al Programa). Es el único curso del Nivel 4 que es prerrequisito real. Tómalo en paralelo con tu primer curso del Nivel 2."_
 11. **`paragraph`** — _"Los otros 4 cursos del Nivel 4 (Marco de Mundo Mejor, Kit Constructores de Paz, Kit HeForShe, Kit Patrimonito) se toman según interés o convocatorias nacionales. No tienen orden obligatorio."_
 
 **Reflexión:** _"Escribe cuál será **el primer curso del Nivel 2** que vas a tomar (de los 8) y cuándo planeas empezarlo. Sé específico (semana, mes)."_
 
 **Quiz (2 preguntas):**
 
-> **P1.** Un dirigente ya terminó el Nivel 1 y quiere arrancar el Curso 9 (Rama Tropa) del Nivel 2 la próxima semana, pero todavía no ha hecho el Curso 24 (A Salvo del Peligro). ¿Qué pasa?
+> **P1.** Un dirigente ya terminó el Nivel 1 y quiere arrancar el Curso 10 (Rama Tropa) del Nivel 2 la próxima semana, pero todavía no ha hecho el Curso 25 (A Salvo del Peligro). ¿Qué pasa?
 >
-> a) _Puede arrancar el Curso 9 sin problema; el Curso 24 es opcional y lo hace cuando quiera._
-> b) _No puede avanzar al Nivel 2 hasta completar el Curso 24; lo ideal es tomarlo en paralelo con su primer curso de Nivel 2._  ✅
+> a) _Puede arrancar el Curso 10 sin problema; el Curso 25 es opcional y lo hace cuando quiera._
+> b) _No puede avanzar al Nivel 2 hasta completar el Curso 25; lo ideal es tomarlo en paralelo con su primer curso de Nivel 2._  ✅
 > c) _Solo lo necesita si su grupo está en una zona de alto riesgo._
 
 > **P2.** Un dirigente nuevo de Manada que se enfocará en acompañar la progresión personal debería empezar el Nivel 2 con…
 >
-> a) _El Curso 8 (Rama Manada) y el Curso 12 (Seguimiento de la Progresión)._  ✅
-> b) _El Curso 14 (Ciclo con ABP) primero, luego el resto._
+> a) _El Curso 9 (Rama Manada) y el Curso 13 (Seguimiento de la Progresión)._  ✅
+> b) _El Curso 15 (Ciclo con ABP) primero, luego el resto._
 > c) _Los cursos del Nivel 3 directamente._
 
 **Logro:** "Sé qué viene".
@@ -279,7 +279,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
     - _"Me comprometo a vivir el Programa de Jóvenes como una alianza educativa entre jóvenes y adultos, no como un manual."_
     - _"Me comprometo a educar por el amor, no por el temor."_
     - _"Me comprometo a aplicar el Método Scout como sistema completo, no como menú."_
-    - _"Me comprometo a tomar el Curso 24 (A Salvo del Peligro) antes de avanzar al Nivel 2."_
+    - _"Me comprometo a tomar el Curso 25 (A Salvo del Peligro) antes de avanzar al Nivel 2."_
     - _"Y me comprometo a revisar y ajustar este Plan Personal de Dirigente, junto con mi par, cada **[frecuencia que elegí]**."_
 8. **`mission-box`** — _"Lee tu promesa en voz alta antes de descargar tu certificado. Lo que se dice cobra peso. Lo que se escribe se queda."_
 9. **`photo-upload`**
@@ -289,7 +289,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
     - `buttonLabel`: "Subir foto de mi promesa"
 10. **`heading` (nivel 3)** — _"Lo que viene"_
 11. **`list`** — Mapa hacia los Niveles 2-4:
-    - **Inmediato**: Curso 24 (A Salvo del Peligro — habilitante).
+    - **Inmediato**: Curso 25 (A Salvo del Peligro — habilitante).
     - **Próximo mes**: tu curso de rama del Nivel 2 + un curso pedagógico operativo (12, 13 o 14).
     - **Próximos meses**: el resto del Nivel 2, el Nivel 3 (cuando ejerzas un cargo) y los demás cursos del Nivel 4.
 12. **`info-box`** — Despedida: _"Bienvenido al equipo de los dirigentes con plan. El Movimiento te necesitaba. Tu unidad también. Buen camino, hermano mayor."_
@@ -332,15 +332,15 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 ### 6.1 Hacia atrás (los 5 cursos del Nivel 1)
 
 - **L2 — `brujula-display`** lee las reflexiones de **los 5 cursos anteriores** y se las muestra al adulto como insumo.
-- **L3 — áreas y roles** integra Curso 3 (Características Esenciales — alianza joven-adulto), Curso 4 (Método — Apoyo del Adulto) y Curso 5 (PNPJ — 6 áreas + 3 roles).
-- **L4 — reunión y proyecto** opera con los 8 elementos del Curso 4 y el filtro DURASLID del Curso 5.
-- **L6 — promesa** recoge la educación por el amor del Curso 2, los principios del Curso 3 y el compromiso pedagógico del Curso 2.
+- **L3 — áreas y roles** integra Curso 4 (Características Esenciales — alianza joven-adulto), Curso 5 (Método — Apoyo del Adulto) y Curso 6 (PNPJ — 6 áreas + 3 roles).
+- **L4 — reunión y proyecto** opera con los 8 elementos del Curso 5 y el filtro DURASLID del Curso 6.
+- **L6 — promesa** recoge la educación por el amor del Curso 2, los principios del Curso 4 y el compromiso pedagógico del Curso 2.
 
 ### 6.2 Hacia adelante (Niveles 2, 3, 4)
 
-- **L5 → Cursos 7–11 (rama)**: recomendación automática según la rama declarada en L3.
-- **L5 → Cursos 12, 13, 14 (pedagógicos)**: orden recomendado según rol.
-- **L5 + L6 → Curso 24 (A Salvo del Peligro)**: prerrequisito habilitante.
+- **L5 → Cursos 8–12 (rama)**: recomendación automática según la rama declarada en L3.
+- **L5 → Cursos 13, 14, 15 (pedagógicos)**: orden recomendado según rol.
+- **L5 + L6 → Curso 25 (A Salvo del Peligro)**: prerrequisito habilitante.
 - **L6 → par dirigente**: vínculo informal de acompañamiento entre niveles.
 
 ### 6.3 Cross-línea
@@ -388,12 +388,12 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 | Curso entre 20 y 40 min | ✅ ~30 min |
 | Lecciones de 3–8 min | ✅ rango 3–6 min |
 | Lenguaje conversacional, tutea | ✅ |
-| Citas oficiales plegables | ⚠️ ninguna (justificado: este curso es de integración personal, no doctrinal — la doctrina está en los Cursos 1-5). |
+| Citas oficiales plegables | ⚠️ ninguna (justificado: este curso es de integración personal, no doctrinal — la doctrina está en los Cursos 1-6). |
 | Reflexión personal por lección | ✅ excepto intro |
 | Mini-quiz por lección | ✅ 2 por lección |
 | 4–6 logros + 1 final | ✅ 5 + 1 |
 | L1 `isIntro: true` sin quiz | ✅ |
-| Conexión cross-course | ✅ con TODOS los Cursos 1-5 del Nivel 1, con Niveles 2, 3, 4 y cross-línea |
+| Conexión cross-course | ✅ con TODOS los Cursos 1-6 del Nivel 1, con Niveles 2, 3, 4 y cross-línea |
 | 3 exigencias propias de PJ | ✅ alianza joven-adulto (L3, L6), DURASLID (L4), educación por el amor (L6) |
 
 ---
@@ -410,4 +410,4 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 ---
 
-_Documento de diseño del Curso 6, versión inicial — 28 de mayo de 2026. Este curso cierra la ruta del Nivel 1 de la Línea Programa de Jóvenes. Integra los aprendizajes de los Cursos 1-5 en un Plan Personal de Dirigente y una Promesa personal. Validado contra el marco metodológico de la plataforma._
+_Documento de diseño del Curso 7, versión inicial — 28 de mayo de 2026. Este curso cierra la ruta del Nivel 1 de la Línea Programa de Jóvenes. Integra los aprendizajes de los Cursos 1-6 en un Plan Personal de Dirigente y una Promesa personal. Validado contra el marco metodológico de la plataforma._

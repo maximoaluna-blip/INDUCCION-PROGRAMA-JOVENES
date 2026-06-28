@@ -191,7 +191,7 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
     - **Modelo de Aplicación "El Gran Juego para la Vida"** (DNPJ 2026) — el manual pedagógico que aterriza la política al día a día.
     - **Guías de Dirigente por rama** (Familia, Manada, Tropa, Comunidad, Clan — DNPJ 2026) — la guía específica de tu rama.
     - **Herramientas de Seguimiento de la Progresión Personal 2.0** (DNPJ) — la caja de herramientas evaluativas que usarán todos los dirigentes.
-7. **`info-box`** — _"Los puedes consultar todos en https://scout.org.co/biblioteca · No tienes que aprendértelos. Solo saber que existen y dónde encontrarlos cuando los necesites. En los Cursos 4 y 5 los vamos a recorrer juntos."_
+7. **`info-box`** — _"Los puedes consultar todos en https://scout.org.co/biblioteca · No tienes que aprendértelos. Solo saber que existen y dónde encontrarlos cuando los necesites. En los Cursos 5 y 6 los vamos a recorrer juntos."_
 8. **`policy-quote`** — Cita textual de la PNPJ 2024:
     - `text`: _"Está diseñado “por” y “con” los jóvenes, no simplemente “para” ellos… reconociéndolos como los principales agentes de su desarrollo."_
     - `source`: "Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. N° 617 de 2024), §5.2 — Características del Programa de Jóvenes."
@@ -239,7 +239,7 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
     - **Afectividad** — que reconozca, exprese y regule sus emociones.
     - **Sociabilidad** — que conviva, coopere, sirva y ejerza ciudadanía.
     - **Espiritualidad** — que se haga preguntas grandes y construya sentido.
-8. **`info-box`** — Anuncio: _"En el Curso 5 de esta línea vas a recorrer cómo el Modelo de Aplicación 2026 desdobla estas 6 áreas en competencias terminales e intermedias por rama. Hoy solo guarda el mapa."_
+8. **`info-box`** — Anuncio: _"En el Curso 6 de esta línea vas a recorrer cómo el Modelo de Aplicación 2026 desdobla estas 6 áreas en competencias terminales e intermedias por rama. Hoy solo guarda el mapa."_
 
 **Reflexión:** _"De las tres historias, ¿cuál se parece más a algo que has visto o escuchado en un grupo cercano (no necesariamente el tuyo)? Escribe en una frase qué hizo (o no hizo) el adulto, y qué área de crecimiento se vio afectada."_
 
@@ -282,10 +282,11 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 9. **`heading` (nivel 3)** — _"Lo que viene"_
 10. **`list`** — Mapa de los siguientes 5 cursos del Nivel 1, con icono y nombre:
     - 💗 **Curso 2** — La Educación por el Amor: la apuesta de Baden-Powell.
-    - 🌟 **Curso 3** — Características Esenciales del Movimiento Scout.
-    - 🧭 **Curso 4** — El Método Scout y sus 8 elementos.
-    - 📜 **Curso 5** — La PNPJ y "El Gran Juego para la Vida".
-    - 🗺️ **Curso 6** — Mi Compromiso con el Programa de Jóvenes (plan personal).
+    - 🎓 **Curso 3** — Cómo se Educa Hoy: los conceptos clave de la educación, antes de lo scout.
+    - 🌟 **Curso 4** — Características Esenciales del Movimiento Scout.
+    - 🧭 **Curso 5** — El Método Scout y sus 8 elementos.
+    - 📜 **Curso 6** — La PNPJ y "El Gran Juego para la Vida".
+    - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes (plan personal).
 11. **`info-box`** — Despedida: _"Bienvenido al equipo de los que acompañan. Lo que viene vale el viaje."_
 
 **Reflexión:** _"Escribe tu compromiso completo siguiendo la plantilla. Esto te lo enviaremos por correo cuando descargues tu certificado para que lo recuerdes en una semana."_

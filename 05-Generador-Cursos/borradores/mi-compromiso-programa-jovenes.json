@@ -2,7 +2,7 @@
   "courseId": "mi-compromiso-programa-jovenes",
   "title": "Mi Compromiso con el Programa de Jóvenes",
   "subtitle": "Tu plan personal de dirigente — cierre del Nivel 1",
-  "description": "El cierre del Nivel 1 de la Línea Programa de Jóvenes. En ~30 minutos vas a convertir los Cursos 1 a 5 en un Plan Personal de Dirigente firmable: revisas tu brújula, defines tu rol, rama y áreas prioritarias, planeas tu próxima reunión y tu proyecto del trimestre, trazas tu ruta de formación y firmas tu promesa personal. No hay contenido nuevo: integras lo que ya tienes en algo accionable.",
+  "description": "El cierre del Nivel 1 de la Línea Programa de Jóvenes. En ~30 minutos vas a convertir los Cursos 1 a 6 en un Plan Personal de Dirigente firmable: revisas tu brújula, defines tu rol, rama y áreas prioritarias, planeas tu próxima reunión y tu proyecto del trimestre, trazas tu ruta de formación y firmas tu promesa personal. No hay contenido nuevo: integras lo que ya tienes en algo accionable.",
   "icon": "🗺️",
   "duration": "30 minutos",
   "totalContentModules": 5,
@@ -31,7 +31,7 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "Revisión de tu brújula: qué te quedó de los Cursos 1–5.",
+            "Revisión de tu brújula: qué te quedó de los Cursos 1–6.",
             "Definición de tu rol, rama y áreas prioritarias del trimestre.",
             "Tu próxima reunión y tu proyecto del trimestre, planeados con los 8 elementos del Método.",
             "Tu ruta de formación: qué cursos del Nivel 2 y del Nivel 4 vas a tomar primero.",
@@ -60,7 +60,7 @@
         },
         {
           "type": "info-box",
-          "text": "🧭 <strong>Tu brújula del Nivel 1.</strong> Recupera las reflexiones de cierre que escribiste en cada curso: el compromiso de la primera semana (Curso 1, L6), tu compromiso pedagógico (Curso 2, L6), tu frase de definición (Curso 3, L6), tu ajuste de reunión (Curso 4, L8) y tu mapa del Modelo (Curso 5, L7). Tenlas a la vista mientras construyes tu plan."
+          "text": "🧭 <strong>Tu brújula del Nivel 1.</strong> Recupera las reflexiones de cierre que escribiste en cada curso: el compromiso de la primera semana (Curso 1, L6), tu compromiso pedagógico (Curso 2, L6), tu frase de definición (Curso 4, L6), tu ajuste de reunión (Curso 5, L8) y tu mapa del Modelo (Curso 6, L7). Tenlas a la vista mientras construyes tu plan."
         },
         {
           "type": "heading",
@@ -272,12 +272,12 @@
         },
         {
           "type": "paragraph",
-          "text": "Hoy cierras el Nivel 1. La línea tiene 4 niveles. Aquí defines cuál curso del Nivel 2 vas a tomar primero y cuándo vas a hacer el Curso 24 (A Salvo del Peligro — habilitante)."
+          "text": "Hoy cierras el Nivel 1. La línea tiene 4 niveles. Aquí defines cuál curso del Nivel 2 vas a tomar primero y cuándo vas a hacer el Curso 25 (A Salvo del Peligro — habilitante)."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Tu curso de rama del Nivel 2 (Cursos 7–11)"
+          "text": "Tu curso de rama del Nivel 2 (Cursos 8–12)"
         },
         {
           "type": "paragraph",
@@ -287,17 +287,17 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "🐻 <strong>Curso 7</strong> — Rama Familia (Cachorros, 5-6 años).",
-            "🐺 <strong>Curso 8</strong> — Rama Manada (Lobatos, 7-10 años).",
-            "⚜️ <strong>Curso 9</strong> — Rama Tropa Scout (11-14 años).",
-            "🧗 <strong>Curso 10</strong> — Rama Comunidad (Nómadas, 15-17 años).",
-            "🏔️ <strong>Curso 11</strong> — Rama Clan (Rovers, 18-20 años)."
+            "🐻 <strong>Curso 8</strong> — Rama Familia (Cachorros, 5-6 años).",
+            "🐺 <strong>Curso 9</strong> — Rama Manada (Lobatos, 7-10 años).",
+            "⚜️ <strong>Curso 10</strong> — Rama Tropa Scout (11-14 años).",
+            "🧗 <strong>Curso 11</strong> — Rama Comunidad (Nómadas, 15-17 años).",
+            "🏔️ <strong>Curso 12</strong> — Rama Clan (Rovers, 18-20 años)."
           ]
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Los 3 cursos pedagógicos operativos (Cursos 12, 13, 14)"
+          "text": "Los 3 cursos pedagógicos operativos (Cursos 13, 14, 15)"
         },
         {
           "type": "paragraph",
@@ -307,19 +307,19 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "<strong>Si tu foco es acompañar la progresión personal</strong> (uno-a-uno con los protagonistas) → empieza por el <strong>Curso 12 (Seguimiento de la Progresión)</strong>.",
-            "<strong>Si eres Jefe o Subjefe de Rama</strong> → empieza por el <strong>Curso 13 (Planeación de Reuniones)</strong> y luego el <strong>Curso 14 (Ciclo con ABP)</strong>.",
+            "<strong>Si tu foco es acompañar la progresión personal</strong> (uno-a-uno con los protagonistas) → empieza por el <strong>Curso 13 (Seguimiento de la Progresión)</strong>.",
+            "<strong>Si eres Jefe o Subjefe de Rama</strong> → empieza por el <strong>Curso 14 (Planeación de Reuniones)</strong> y luego el <strong>Curso 15 (Ciclo con ABP)</strong>.",
             "<strong>Si eres Asistente o entras nuevo</strong> → orden libre, según prioridad de tu unidad."
           ]
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Curso 24 — A Salvo del Peligro: HABILITANTE"
+          "text": "Curso 25 — A Salvo del Peligro: HABILITANTE"
         },
         {
           "type": "info-box",
-          "text": "<strong>Importante</strong>: ningún dirigente avanza al Nivel 2 sin haber completado el Curso 24 (A Salvo del Peligro aplicado al Programa). Es el único curso del Nivel 4 que es prerrequisito real. Tómalo en paralelo con tu primer curso del Nivel 2."
+          "text": "<strong>Importante</strong>: ningún dirigente avanza al Nivel 2 sin haber completado el Curso 25 (A Salvo del Peligro aplicado al Programa). Es el único curso del Nivel 4 que es prerrequisito real. Tómalo en paralelo con tu primer curso del Nivel 2."
         },
         {
           "type": "paragraph",
@@ -334,10 +334,10 @@
         "nextLabel": "Continuar a mi par y mi promesa 🤝",
         "questions": [
           {
-            "text": "Un dirigente ya terminó el Nivel 1 y quiere arrancar el Curso 9 (Rama Tropa) del Nivel 2 la próxima semana, pero todavía no ha hecho el Curso 24 (A Salvo del Peligro). ¿Qué pasa?",
+            "text": "Un dirigente ya terminó el Nivel 1 y quiere arrancar el Curso 10 (Rama Tropa) del Nivel 2 la próxima semana, pero todavía no ha hecho el Curso 25 (A Salvo del Peligro). ¿Qué pasa?",
             "options": [
-              "Puede arrancar el Curso 9 sin problema; el Curso 24 es opcional y lo hace cuando quiera.",
-              "No puede avanzar al Nivel 2 hasta completar el Curso 24; lo ideal es tomarlo en paralelo con su primer curso de Nivel 2.",
+              "Puede arrancar el Curso 10 sin problema; el Curso 25 es opcional y lo hace cuando quiera.",
+              "No puede avanzar al Nivel 2 hasta completar el Curso 25; lo ideal es tomarlo en paralelo con su primer curso de Nivel 2.",
               "Solo lo necesita si su grupo está en una zona de alto riesgo."
             ],
             "correctIndex": 1
@@ -345,8 +345,8 @@
           {
             "text": "Un dirigente nuevo de Manada que se enfocará en acompañar la progresión personal debería empezar el Nivel 2 con…",
             "options": [
-              "El Curso 8 (Rama Manada) y el Curso 12 (Seguimiento de la Progresión).",
-              "El Curso 14 (Ciclo con ABP) primero, luego el resto.",
+              "El Curso 9 (Rama Manada) y el Curso 13 (Seguimiento de la Progresión).",
+              "El Curso 15 (Ciclo con ABP) primero, luego el resto.",
               "Los cursos del Nivel 3 directamente."
             ],
             "correctIndex": 0
@@ -388,7 +388,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Yo, <strong>[tu nombre]</strong>, completé el Nivel 1 de la Línea Programa de Jóvenes el día <strong>[fecha]</strong>.<br>Asumí los aprendizajes de los Cursos 1 a 6 como brújula de mi servicio al Movimiento Scout.<br>Me comprometo a vivir el Programa de Jóvenes como una alianza educativa entre jóvenes y adultos, no como un manual.<br>Me comprometo a educar por el amor, no por el temor.<br>Me comprometo a aplicar el Método Scout como sistema completo, no como menú.<br>Me comprometo a tomar el Curso 24 (A Salvo del Peligro) antes de avanzar al Nivel 2.<br>Y me comprometo a revisar y ajustar este Plan Personal de Dirigente, junto con mi par, cada <strong>[frecuencia que elegí]</strong>."
+          "text": "Yo, <strong>[tu nombre]</strong>, completé el Nivel 1 de la Línea Programa de Jóvenes el día <strong>[fecha]</strong>.<br>Asumí los aprendizajes de los Cursos 1 a 6 como brújula de mi servicio al Movimiento Scout.<br>Me comprometo a vivir el Programa de Jóvenes como una alianza educativa entre jóvenes y adultos, no como un manual.<br>Me comprometo a educar por el amor, no por el temor.<br>Me comprometo a aplicar el Método Scout como sistema completo, no como menú.<br>Me comprometo a tomar el Curso 25 (A Salvo del Peligro) antes de avanzar al Nivel 2.<br>Y me comprometo a revisar y ajustar este Plan Personal de Dirigente, junto con mi par, cada <strong>[frecuencia que elegí]</strong>."
         },
         {
           "type": "mission-box",
@@ -410,7 +410,7 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "<strong>Inmediato</strong>: Curso 24 (A Salvo del Peligro — habilitante).",
+            "<strong>Inmediato</strong>: Curso 25 (A Salvo del Peligro — habilitante).",
             "<strong>Próximo mes</strong>: tu curso de rama del Nivel 2 + un curso pedagógico operativo (12, 13 o 14).",
             "<strong>Próximos meses</strong>: el resto del Nivel 2, el Nivel 3 (cuando ejerzas un cargo) y los demás cursos del Nivel 4."
           ]
@@ -489,6 +489,6 @@
   ],
   "certificate": {
     "courseName": "MI COMPROMISO CON EL PROGRAMA DE JÓVENES",
-    "description": "ha completado el Curso 6 de la Línea Programa de Jóvenes, cerrando el Nivel 1 con un Plan Personal de Dirigente y una Promesa personal que integran los aprendizajes de los Cursos 1 a 5, comprometiéndose a vivir el Programa de Jóvenes como una alianza educativa al servicio de los protagonistas de la Asociación Scouts de Colombia"
+    "description": "ha completado el Curso 7 de la Línea Programa de Jóvenes, cerrando el Nivel 1 con un Plan Personal de Dirigente y una Promesa personal que integran los aprendizajes de los Cursos 1 a 6, comprometiéndose a vivir el Programa de Jóvenes como una alianza educativa al servicio de los protagonistas de la Asociación Scouts de Colombia"
   }
 }

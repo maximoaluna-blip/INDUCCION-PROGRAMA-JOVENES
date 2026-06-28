@@ -1,8 +1,8 @@
 # Diseño del Curso 2 — 💗 La Educación por el Amor
 
-**Línea:** Programa de Jóvenes · **Nivel:** 1 (Fundamentación) · **Posición:** Curso 2 de 6 del Nivel 1.
+**Línea:** Programa de Jóvenes · **Nivel:** 1 (Fundamentación) · **Posición:** Curso 2 de 7 del Nivel 1.
 
-> Brújula ética del Programa. Antes de aprender el Método (Curso 4) o aterrizarlo a Colombia (Curso 5), el dirigente recibe el "porqué" que Baden-Powell le dio al Movimiento en 1922: educar por el amor, no por el temor. Sin este curso, todo el Método es técnica sin alma.
+> Brújula ética del Programa. Antes de aprender el Método (Curso 5) o aterrizarlo a Colombia (Curso 6), el dirigente recibe el "porqué" que Baden-Powell le dio al Movimiento en 1922: educar por el amor, no por el temor. Sin este curso, todo el Método es técnica sin alma.
 
 ---
 
@@ -62,7 +62,7 @@ Este hook se enuncia en la lección 3 y atraviesa todo el curso. Su función es 
 
 ### 4.2 Lección 1 — 👋 Bienvenida (3 min, isIntro: true)
 
-**Idea central:** Antes de aprender el Método (Curso 4), recibe la brújula que lo guía.
+**Idea central:** Antes de aprender el Método (Curso 5), recibe la brújula que lo guía.
 
 **Secciones (en orden):**
 
@@ -247,7 +247,7 @@ Este hook se enuncia en la lección 3 y atraviesa todo el curso. Su función es 
     - Cuando observas a un protagonista, **míralo entero**, no solo lo que se ve en formación.
     - Cuando construyes un proyecto, asegúrate de que **invite a hacer, a servir, a cuidarse y a pensar** —no solo una de las cuatro—.
     - Cuando registras la progresión, **anota avances en las 6 áreas**, aunque algunas crezcan más despacio.
-10. **`info-box`** — _"En el Curso 5 vas a ver con más detalle cómo el Modelo de Aplicación 2026 organiza las competencias por área y por rama. Hoy solo guarda esta idea: lo que enseñas siempre toca a la persona entera."_
+10. **`info-box`** — _"En el Curso 6 vas a ver con más detalle cómo el Modelo de Aplicación 2026 organiza las competencias por área y por rama. Hoy solo guarda esta idea: lo que enseñas siempre toca a la persona entera."_
 
 **Reflexión:** _"De las 6 áreas de crecimiento (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad), ¿cuál crees que **más se descuida** en tu unidad (o en las unidades que conoces)? ¿Por qué?"_
 
@@ -288,10 +288,11 @@ Este hook se enuncia en la lección 3 y atraviesa todo el curso. Su función es 
 7. **`paragraph`** — Plantilla: _"Esta semana, en mi unidad/familia/aula, voy a reemplazar la práctica __________ por la práctica __________. La señal de que se cumplió será __________."_
 8. **`heading` (nivel 3)** — _"Lo que viene"_
 9. **`list`** — Mapa del Curso 3 y siguientes:
-    - 🌟 **Curso 3** — Características Esenciales del Movimiento Scout: el Propósito, los Principios, los 6 elementos definitorios.
-    - 🧭 **Curso 4** — El Método Scout y sus 8 elementos: la herramienta metodológica con la que aterrizas el amor a una reunión concreta.
-    - 📜 **Curso 5** — La PNPJ y "El Gran Juego para la Vida": cómo Colombia aterriza todo esto en su Modelo de Aplicación 2026.
-    - 🗺️ **Curso 6** — Mi Compromiso con el Programa de Jóvenes: tu plan personal.
+    - 🎓 **Curso 3** — Cómo se Educa Hoy: los conceptos clave de la educación.
+    - 🌟 **Curso 4** — Características Esenciales del Movimiento Scout: el Propósito, los Principios, los 6 elementos definitorios.
+    - 🧭 **Curso 5** — El Método Scout y sus 8 elementos: la herramienta metodológica con la que aterrizas el amor a una reunión concreta.
+    - 📜 **Curso 6** — La PNPJ y "El Gran Juego para la Vida": cómo Colombia aterriza todo esto en su Modelo de Aplicación 2026.
+    - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes: tu plan personal.
 10. **`info-box`** — Despedida: _"Cuando dudes, recuerda la idea que B-P hizo suya en Ginebra, del educador Edmundo Holmes: 'Aprender haciendo y contribuyendo a la formación del propio yo y no recibiendo pasivamente las ideas de otros; ese es el principio.' Buen camino."_
 
 **Reflexión:** _"Escribe tu compromiso pedagógico completo (plantilla del paso 7). Te lo enviaremos por correo con tu certificado para que lo recuerdes."_
@@ -331,10 +332,10 @@ Este hook se enuncia en la lección 3 y atraviesa todo el curso. Su función es 
 
 ### 6.1 Hacia adelante (dentro del Nivel 1 de PJ)
 
-- **L4 → Curso 3:** los 4 pilares de la educación por el amor anclan los **Principios** del Movimiento (Curso 3): deber con Dios, con los otros y consigo mismo.
-- **L4 → Curso 4:** la "autoeducación voluntaria" es la definición misma del Método Scout (Curso 4).
-- **L5 → Curso 5:** los 4 objetivos de la instrucción son la semilla directa de las 6 áreas de crecimiento que el Curso 5 va a desarrollar con el Modelo de Aplicación 2026.
-- **L6 → Curso 6:** la auto-revisión y el compromiso pedagógico alimentan el Plan Personal del Curso 6.
+- **L4 → Curso 4:** los 4 pilares de la educación por el amor anclan los **Principios** del Movimiento (Curso 4): deber con Dios, con los otros y consigo mismo.
+- **L4 → Curso 5:** la "autoeducación voluntaria" es la definición misma del Método Scout (Curso 5).
+- **L5 → Curso 6:** los 4 objetivos de la instrucción son la semilla directa de las 6 áreas de crecimiento que el Curso 6 va a desarrollar con el Modelo de Aplicación 2026.
+- **L6 → Curso 7:** la auto-revisión y el compromiso pedagógico alimentan el Plan Personal del Curso 7.
 
 ### 6.2 Hacia atrás (con el Curso 1)
 
@@ -392,7 +393,7 @@ Este hook se enuncia en la lección 3 y atraviesa todo el curso. Su función es 
 | Mini-quiz 1–3 preguntas, 70 % | ✅ 2 preguntas por lección |
 | 4–6 logros + 1 final | ✅ 5 + 1 |
 | Lección 1 marcada `isIntro: true` sin quiz | ✅ |
-| Conexión cross-course | ✅ con Cursos 1, 3, 4, 5, 6 y cross-línea |
+| Conexión cross-course | ✅ con Cursos 1, 4, 5, 6, 7 y cross-línea |
 | Cumple las 3 exigencias propias de PJ (DURASLID implícito, educación por el amor — eje, alianza joven-adulto) | ✅ es el curso que las funda |
 
 ---

@@ -2,7 +2,7 @@
   "courseId": "caracteristicas-esenciales-movimiento-scout",
   "title": "Características Esenciales del Movimiento Scout",
   "subtitle": "El \"qué\" del Movimiento según la OMMS (Kuala Lumpur, 2019)",
-  "description": "El Curso 3 de la Línea Programa de Jóvenes entrega la identidad doctrinal del Movimiento: su Propósito, sus 3 Principios y los 6 elementos que lo distinguen de cualquier otra propuesta para jóvenes. Al final vas a poder explicarle a alguien externo qué es el Movimiento Scout en menos de un minuto, sin recurrir a uniformes ni a campamentos.",
+  "description": "El Curso 4 de la Línea Programa de Jóvenes entrega la identidad doctrinal del Movimiento: su Propósito, sus 3 Principios y los 6 elementos que lo distinguen de cualquier otra propuesta para jóvenes. Al final vas a poder explicarle a alguien externo qué es el Movimiento Scout en menos de un minuto, sin recurrir a uniformes ni a campamentos.",
   "icon": "🌟",
   "duration": "30 minutos",
   "totalContentModules": 5,
@@ -432,7 +432,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Es una frase latina que significa <strong>'lo primero, no hacer daño'</strong>. La OMMS la usa en p. 33 para subrayar la responsabilidad ética del adulto en el Movimiento: verificación previa de antecedentes, formación obligatoria, nombramiento por tiempo limitado, supervisión por pares. La protección del joven es lo primero. Por eso, en esta línea, <strong>el Curso 24 (A Salvo del Peligro) es habilitante</strong>: ningún adulto avanza al Nivel 2 sin completarlo."
+          "text": "Es una frase latina que significa <strong>'lo primero, no hacer daño'</strong>. La OMMS la usa en p. 33 para subrayar la responsabilidad ética del adulto en el Movimiento: verificación previa de antecedentes, formación obligatoria, nombramiento por tiempo limitado, supervisión por pares. La protección del joven es lo primero. Por eso, en esta línea, <strong>el Curso 25 (A Salvo del Peligro) es habilitante</strong>: ningún adulto avanza al Nivel 2 sin completarlo."
         },
         {
           "type": "info-box",
@@ -522,9 +522,9 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "🧭 <strong>Curso 4</strong> — El Método Scout y sus 8 elementos: la herramienta práctica con la que aterrizas el Propósito y los Principios a una reunión real.",
-            "📜 <strong>Curso 5</strong> — La PNPJ y \"El Gran Juego para la Vida\": cómo Colombia aterriza todo esto en su Modelo de Aplicación 2026.",
-            "🗺️ <strong>Curso 6</strong> — Mi Compromiso con el Programa de Jóvenes."
+            "🧭 <strong>Curso 5</strong> — El Método Scout y sus 8 elementos: la herramienta práctica con la que aterrizas el Propósito y los Principios a una reunión real.",
+            "📜 <strong>Curso 6</strong> — La PNPJ y \"El Gran Juego para la Vida\": cómo Colombia aterriza todo esto en su Modelo de Aplicación 2026.",
+            "🗺️ <strong>Curso 7</strong> — Mi Compromiso con el Programa de Jóvenes."
           ]
         },
         {
@@ -601,6 +601,6 @@
   ],
   "certificate": {
     "courseName": "CARACTERÍSTICAS ESENCIALES DEL MOVIMIENTO SCOUT",
-    "description": "ha completado el Curso 3 de la Línea Programa de Jóvenes, reconociendo el Propósito, los 3 Principios y los 6 elementos que definen al Movimiento Scout según las Características Esenciales de la OMMS (2019), y comprendiendo la alianza joven-adulto como criterio para evaluar su propia práctica al servicio de los protagonistas de programa de la Asociación Scouts de Colombia"
+    "description": "ha completado el Curso 4 de la Línea Programa de Jóvenes, reconociendo el Propósito, los 3 Principios y los 6 elementos que definen al Movimiento Scout según las Características Esenciales de la OMMS (2019), y comprendiendo la alianza joven-adulto como criterio para evaluar su propia práctica al servicio de los protagonistas de programa de la Asociación Scouts de Colombia"
   }
 }

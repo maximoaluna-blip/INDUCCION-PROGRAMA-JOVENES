@@ -1,8 +1,8 @@
 # Diseño del Curso 4 — 🧭 El Método Scout y sus 8 elementos
 
-**Línea:** Programa de Jóvenes · **Nivel:** 1 (Fundamentación) · **Posición:** Curso 4 de 6 del Nivel 1.
+**Línea:** Programa de Jóvenes · **Nivel:** 1 (Fundamentación) · **Posición:** Curso 5 de 7 del Nivel 1.
 
-> Herramienta metodológica del Movimiento. Tras el porqué (Curso 2) y el qué (Curso 3), este curso entrega el **cómo**: los 8 elementos del Método Scout adoptados por la 41ª Conferencia Scout Mundial (Resolución 2017-04) y por la PNPJ 2024. El curso más largo y más importante del Nivel 1.
+> Herramienta metodológica del Movimiento. Tras el porqué (Curso 2) y el qué (Curso 4), este curso entrega el **cómo**: los 8 elementos del Método Scout adoptados por la 41ª Conferencia Scout Mundial (Resolución 2017-04) y por la PNPJ 2024. El curso más largo y más importante del Nivel 1.
 
 ---
 
@@ -17,7 +17,7 @@
 | Duración | ~40 min |
 | Lecciones de contenido | 8 + intro + certificado |
 | Audiencia primaria | Todo adulto que cursa el Nivel 1 de la Línea Programa de Jóvenes. |
-| Pre-requisitos | Curso 3 — Características Esenciales (recomendado). |
+| Pre-requisitos | Curso 4 — Características Esenciales (recomendado). |
 | Logro final | "Practicante del Método" |
 
 ---
@@ -226,7 +226,7 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 
 1. **`info-box`** — Idea central de la lección.
 2. **`heading` (nivel 3)** — _"Elemento 5 — Apoyo del Adulto"_
-3. **`paragraph`** — _"En el Curso 3 viste la frase eje del Movimiento (OMMS 2019, p. 21): de jóvenes, para jóvenes, **apoyado por adultos**. Aquí ese 'apoyo' se vuelve elemento metodológico. Las Características Esenciales enuncian **4 tipos de apoyo del adulto** (recordatorio del Curso 3, L5): educativo, emocional, informativo, evaluativo."_
+3. **`paragraph`** — _"En el Curso 4 viste la frase eje del Movimiento (OMMS 2019, p. 21): de jóvenes, para jóvenes, **apoyado por adultos**. Aquí ese 'apoyo' se vuelve elemento metodológico. Las Características Esenciales enuncian **4 tipos de apoyo del adulto** (recordatorio del Curso 4, L5): educativo, emocional, informativo, evaluativo."_
 4. **`paragraph`** — _"El Modelo de Aplicación 2026 traduce esto en **3 roles del dirigente**: **Apoyar** (preparar las condiciones para que el joven actúe), **Acompañar** (estar presente en el proceso), **Enlazar** (conectar al joven con el grupo, la familia, el territorio y la institución)."_
 5. **`policy-quote`** — Cita de B-P sobre el rol:
     - `text`: _"El instructor no es un maestro: es un hermano mayor."_
@@ -321,7 +321,7 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 5. **`paragraph`** — _"Una unidad con Programa de calidad muestra las 4 Dinámicas activas a la vez. Una unidad que solo cuida los Objetivos pero descuida la Vida de Grupo se vuelve fría. Una que solo cuida la Vida de Grupo pero no tiene Objetivos se vuelve divertida pero no educativa."_
 6. **`heading` (nivel 3)** — _"El filtro DURASLID"_
 7. **`paragraph`** — _"El Modelo de Aplicación 2026 añade un filtro práctico para evaluar la calidad de cada Oportunidad de Aprendizaje: **DURASLID**. Toda actividad debería ser **D**esafiante, **U**til, **R**ecompensante, **A**tractiva, **S**egura, **L**údica, **I**nclusiva y **D**iversa. Si una actividad solo cumple 2 o 3 de los 8 atributos, hay algo que ajustar."_
-8. **`info-box`** — _"En el Curso 13 del Nivel 2 vas a aprender a planear reuniones aplicando DURASLID con la herramienta oficial Excel DNPJ. Hoy solo guarda el filtro."_
+8. **`info-box`** — _"En el Curso 14 del Nivel 2 vas a aprender a planear reuniones aplicando DURASLID con la herramienta oficial Excel DNPJ. Hoy solo guarda el filtro."_
 
 **Reflexión:** _"De las 4 Dinámicas (Objetivos, Oportunidades, Vida de Grupo, Estructura), ¿cuál es la que **mejor** funciona en tu unidad y cuál la que **peor**?"_
 
@@ -367,8 +367,8 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 8. **`mission-box`** — _"El Método se aprende aplicándolo. Cada reunión es un ensayo. Si una semana no funciona, ajustas la siguiente. Si una se queda corta en un elemento, lo trabajas en la otra. El sistema es flexible; lo no negociable es seguir integrando los 8."_
 9. **`heading` (nivel 3)** — _"Lo que viene"_
 10. **`list`** — Mapa:
-    - 📜 **Curso 5** — La PNPJ y "El Gran Juego para la Vida": cómo Colombia aterriza el Método al Modelo de Aplicación 2026, las 5 ramas y las 6 áreas de crecimiento.
-    - 🗺️ **Curso 6** — Mi Compromiso con el Programa de Jóvenes: tu plan personal de dirigente.
+    - 📜 **Curso 6** — La PNPJ y "El Gran Juego para la Vida": cómo Colombia aterriza el Método al Modelo de Aplicación 2026, las 5 ramas y las 6 áreas de crecimiento.
+    - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes: tu plan personal de dirigente.
 11. **`info-box`** — Despedida: _"Bienvenido al equipo de los que aplican el Método con conciencia. Lo que viene vale el viaje."_
 
 **Reflexión:** _"Escribe tu ajuste de esta semana (paso 7) y guárdalo. Lo vas a recibir por correo con tu certificado."_
@@ -412,20 +412,20 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 
 ### 6.1 Hacia adelante (dentro del Nivel 1 de PJ)
 
-- **L4 (Progresión Personal) → Curso 5:** las 6 áreas de crecimiento y las competencias terminales/intermedias por rama se desarrollan en el Curso 5.
-- **L7 (DURASLID) → Curso 5:** filtro completo y herramienta de evaluación operativa.
-- **L4 (Sistema de Equipos) → cursos de rama del Nivel 2 (Cursos 7–11):** cada rama desarrolla su propio grupo natural.
-- **L8 → Curso 6:** el checklist de los 8 elementos se incorpora al plan personal del dirigente.
+- **L4 (Progresión Personal) → Curso 6:** las 6 áreas de crecimiento y las competencias terminales/intermedias por rama se desarrollan en el Curso 6.
+- **L7 (DURASLID) → Curso 6:** filtro completo y herramienta de evaluación operativa.
+- **L4 (Sistema de Equipos) → cursos de rama del Nivel 2 (Cursos 8–12):** cada rama desarrolla su propio grupo natural.
+- **L8 → Curso 7:** el checklist de los 8 elementos se incorpora al plan personal del dirigente.
 
 ### 6.2 Hacia atrás
 
 - **Curso 2 (Educación por el Amor)** → "Aprender Haciendo" es la versión metodológica de la "autoeducación voluntaria" que B-P propuso en 1922.
-- **Curso 3 (Características Esenciales)** → "Apoyo del Adulto" es la versión metodológica de la "alianza joven-adulto" del Curso 3 L5.
+- **Curso 4 (Características Esenciales)** → "Apoyo del Adulto" es la versión metodológica de la "alianza joven-adulto" del Curso 4 L5.
 - **Curso 1 (Bienvenida)** → el `method-grid` de la L2 del Curso 1 (6 ejemplos cotidianos) anclaba los elementos que aquí se sistematizan.
 
 ### 6.3 Cross-línea
 
-- **Con A Salvo del Peligro (Curso 24)**: el elemento **Apoyo del Adulto** se cuida con A Salvo del Peligro.
+- **Con A Salvo del Peligro (Curso 25)**: el elemento **Apoyo del Adulto** se cuida con A Salvo del Peligro.
 - **Con DI Curso 8 (Planeación)**: las 4 Dinámicas son insumo del Plan de Grupo (área Programa de Jóvenes).
 
 ---
