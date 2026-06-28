@@ -127,11 +127,11 @@
         "nextLabel": "Continuar a los 5 mitos 🧨",
         "questions": [
           {
-            "text": "Según lo que viste en esta lección, ¿cuál es la definición que más se ajusta a Programa de Jóvenes?",
+            "text": "Un compañero te dice: 'Programa de Jóvenes es la guía de actividades que la DNPJ publica cada año'. ¿Qué le falta a esa idea, según esta lección?",
             "options": [
-              "Es la guía de actividades semanales que la DNPJ publica cada año para cada rama.",
-              "Es la totalidad de oportunidades de aprendizaje que vive un protagonista, definida por su porqué, su qué y su cómo.",
-              "Es el conjunto de insignias y especialidades que un joven puede obtener."
+              "Nada: la guía oficial es exactamente lo que es el Programa.",
+              "Le falta lo esencial: el Programa es la totalidad de oportunidades de aprendizaje que se vive como alianza entre joven y adulto; la guía es solo una herramienta.",
+              "Le falta mencionar que también incluye las insignias y especialidades."
             ],
             "correctIndex": 1
           },
@@ -228,13 +228,13 @@
             "correctIndex": 1
           },
           {
-            "text": "En una unidad, el dirigente decide cada actividad, cada fecha, cada equipo. Los jóvenes solo “votan” lo que él ya propuso. ¿Qué mito está viviendo?",
+            "text": "En una unidad, el dirigente decide cada actividad, cada fecha y cada equipo; los jóvenes solo 'votan' lo que él ya propuso. Según esta lección, ¿qué le dirías para ayudarlo a corregir el rumbo?",
             "options": [
-              "Mito 1 — no fui scout.",
-              "Mito 3 — hay que entretenerlos.",
-              "Mito 4 — los jóvenes deciden cuando yo se los permito."
+              "Que está bien: alguien tiene que poner orden, y los jóvenes ya participan votando.",
+              "Que el Movimiento es de los jóvenes y para los jóvenes; su rol es apoyar y acompañar, no decidir por ellos. Que empiece dejándoles una decisión real.",
+              "Que primero termine de formarse y, cuando domine las guías, ya podrá soltarles decisiones."
             ],
-            "correctIndex": 2
+            "correctIndex": 1
           }
         ]
       }
@@ -425,11 +425,11 @@
             "correctIndex": 1
           },
           {
-            "text": "Según esta lección, las 6 áreas de crecimiento son…",
+            "text": "Camilo, en la Tropa, aprendió a decidir con su patrulla qué cocinar y qué proyecto de servicio hacer, y a asumir las consecuencias. ¿Qué área de crecimiento se estaba trabajando, sobre todo?",
             "options": [
-              "Las 6 ramas del Movimiento (Familia, Manada, Tropa, Comunidad, Clan + Adultos).",
-              "Las 6 dimensiones del desarrollo integral del protagonista: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad.",
-              "Las 6 prioridades estratégicas del Plan Trienal Mundial OMMS."
+              "Corporalidad, porque cocinar implica el cuerpo.",
+              "Carácter: estaba decidiendo, asumiendo responsabilidades y construyendo autonomía.",
+              "Espiritualidad, porque el servicio siempre es espiritual."
             ],
             "correctIndex": 1
           }
@@ -517,11 +517,11 @@
             "correctIndex": 1
           },
           {
-            "text": "Según el cierre del curso, los dirigentes que transforman se construyen sobre…",
+            "text": "Dos dirigentes arrancan el año. Uno anuncia: 'voy a transformar el Programa de mi grupo'. El otro dice: 'esta semana voy a dejar que la patrulla escoja el juego'. Según el cierre del curso, ¿quién tiene más probabilidad de sostener el cambio?",
             "options": [
-              "Una promesa grande que inspira al equipo.",
-              "Cien promesas chicas cumplidas.",
-              "La cantidad de campamentos que organizaron."
+              "El primero, porque una meta grande inspira más al equipo.",
+              "El segundo, porque la transformación se construye con muchas promesas chicas cumplidas, no con una grande que se olvida.",
+              "Da igual: lo que cuenta es cuántos campamentos logre organizar cada uno."
             ],
             "correctIndex": 1
           }

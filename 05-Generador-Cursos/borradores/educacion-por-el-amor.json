@@ -112,11 +112,11 @@
         "nextLabel": "Continuar a la educación por el temor 😨",
         "questions": [
           {
-            "text": "El informe de B-P en Ginebra 1922 se llamó…",
+            "text": "El informe de B-P en Ginebra 1922 se titula 'La educación por el amor en sustitución de la educación por el temor'. Más allá del título, ¿qué estaba proponiendo con esa frase?",
             "options": [
-              "“Cómo formar buenos soldados desde la infancia.”",
-              "“La educación por el amor en sustitución de la educación por el temor.”",
-              "“El Manual del Scoutmaster.”"
+              "Reemplazar los castigos por premios más atractivos para el joven.",
+              "Cambiar el motor de la educación: dejar de mover al joven con miedo y empezar a moverlo con el deseo de aprender y de servir.",
+              "Sustituir la formación militar por formación deportiva al aire libre."
             ],
             "correctIndex": 1
           },
@@ -226,11 +226,11 @@
           {
             "text": "Según esta lección, ¿cuál es el problema principal de educar con recompensas externas (“si cumples, te doy algo”)?",
             "options": [
-              "Que las recompensas son costosas para el grupo.",
-              "Que el joven aprende a hacer lo correcto solo mientras lo miran, sin construir sentido interno.",
-              "Que las recompensas no son legales en algunos países."
+              "Que el premio enseña al joven a hacer lo correcto solo mientras lo miran, sin construir un sentido interno.",
+              "Ninguno: premiar siempre es buena idea porque refuerza la conducta deseada.",
+              "Que el problema no es la recompensa sino que sea pequeña; con un premio mayor sí funciona."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "Un dirigente avergüenza públicamente a un lobato que no se sabe la promesa. Está aplicando…",
@@ -331,11 +331,11 @@
         "nextLabel": "Continuar a los 4 objetivos de la instrucción 🎯",
         "questions": [
           {
-            "text": "Según B-P, ¿en qué consiste la educación?",
+            "text": "Un dirigente nuevo te dice: 'Yo enseño bien porque mis chicos se saben de memoria la Ley y la Promesa.' Según la educación por el amor que propuso B-P, ¿qué le falta a esa idea?",
             "options": [
-              "En introducir en el cerebro del niño una cierta dosis de conocimiento.",
-              "En despertarle el deseo de conocer e indicarle el modo de estudiar.",
-              "En transmitirle las costumbres y valores de su nación."
+              "Nada: memorizar la Ley y la Promesa es exactamente lo que B-P pedía.",
+              "Que saber de memoria no es lo mismo que despertar el deseo de conocer: el chico repite, pero no necesariamente quiere ni entiende.",
+              "Que primero deben aprenderse el himno y los nudos antes que la Ley."
             ],
             "correctIndex": 1
           },
@@ -442,11 +442,11 @@
         "nextLabel": "Continuar a tu revisión pedagógica ✍️",
         "questions": [
           {
-            "text": "Los 4 objetivos que B-P propuso en 1922 son…",
+            "text": "Estás planeando una salida y solo incluiste juegos físicos y deporte. Mirando los 4 objetivos que B-P propuso en 1922, ¿qué te están avisando que falta equilibrar?",
             "options": [
-              "Religión, patria, familia, trabajo.",
-              "Carácter e inteligencia, habilidad manual, hábito de servir al prójimo, salud y vigor físico.",
-              "Obediencia, disciplina, esfuerzo, lealtad."
+              "Nada: con salud y vigor físico ya cubriste lo esencial.",
+              "Que tocaste sobre todo la salud y el vigor físico, pero dejaste fuera el carácter, la habilidad manual y el servicio al prójimo.",
+              "Que B-P pedía concentrarse en un solo objetivo por salida para no dispersar."
             ],
             "correctIndex": 1
           },

@@ -112,11 +112,11 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
 
 **Quiz (2 preguntas):**
 
-> **P1.** Según lo que viste en esta lección, ¿cuál de las siguientes es la definición que más se ajusta a Programa de Jóvenes?
+> **P1.** Un compañero te dice: _"Programa de Jóvenes es la guía de actividades que la DNPJ publica cada año"._ ¿Qué le falta a esa idea, según esta lección?
 >
-> a) _Es la guía de actividades semanales que la DNPJ publica cada año para cada rama._
-> b) _Es la totalidad de oportunidades de aprendizaje que vive un protagonista, definida por su porqué, su qué y su cómo._  ✅
-> c) _Es el conjunto de insignias y especialidades que un joven puede obtener._
+> a) _Nada: la guía oficial es exactamente lo que es el Programa._
+> b) _Le falta lo esencial: el Programa es la totalidad de oportunidades de aprendizaje que se vive como alianza entre joven y adulto; la guía es solo una herramienta._  ✅
+> c) _Le falta mencionar que también incluye las insignias y especialidades._
 
 > **P2.** Una dirigente llega a la reunión, ve al grupo disperso y cansado, y cambia su plan para armar una dinámica corta que los reconecte antes de seguir. Según esta lección, ¿qué está haciendo?
 >
@@ -160,11 +160,11 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 > b) _"Lo que necesitas no es haber sido scout, es querer estar y dejarte formar. La Política de Adultos existe para eso."_  ✅
 > c) _"Te recomiendo que primero leas todas las guías oficiales y luego vuelves."_
 
-> **P2.** En una unidad, el dirigente decide cada actividad, cada fecha, cada equipo. Los jóvenes solo "votan" lo que él ya propuso. ¿Qué mito está viviendo?
+> **P2.** En una unidad, el dirigente decide cada actividad, cada fecha y cada equipo; los jóvenes solo "votan" lo que él ya propuso. Según esta lección, ¿qué le dirías para ayudarlo a corregir el rumbo?
 >
-> a) _Mito 1 — no fui scout._
-> b) _Mito 3 — hay que entretenerlos._
-> c) _Mito 4 — los jóvenes deciden cuando yo se los permito._  ✅
+> a) _Que está bien: alguien tiene que poner orden, y los jóvenes ya participan votando._
+> b) _Que el Movimiento es de los jóvenes y para los jóvenes; su rol es apoyar y acompañar, no decidir por ellos. Que empiece dejándoles una decisión real._  ✅
+> c) _Que primero termine de formarse y, cuando domine las guías, ya podrá soltarles decisiones._
 
 **Logro:** "Mito-buster".
 
@@ -251,11 +251,11 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 > b) _Que el Programa fuera planeado intencionalmente para tocar todas las áreas de crecimiento, no solo el entretenimiento._  ✅
 > c) _Que Mariana entrara a la rama más tarde._
 
-> **P2.** Según esta lección, las 6 áreas de crecimiento son…
+> **P2.** Camilo, en la Tropa, aprendió a decidir con su patrulla qué cocinar y qué proyecto de servicio hacer, y a asumir las consecuencias. ¿Qué área de crecimiento se estaba trabajando, sobre todo?
 >
-> a) _Las 6 ramas del Movimiento (Familia, Manada, Tropa, Comunidad, Clan + Adultos)._
-> b) _Las 6 dimensiones del desarrollo integral del protagonista que el Programa toca: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad._  ✅
-> c) _Las 6 prioridades estratégicas del Plan Trienal Mundial OMMS._
+> a) _Corporalidad, porque cocinar implica el cuerpo._
+> b) _Carácter: estaba decidiendo, asumiendo responsabilidades y construyendo autonomía._  ✅
+> c) _Espiritualidad, porque el servicio siempre es espiritual._
 
 **Logro:** "Veo por qué importa".
 
@@ -298,11 +298,11 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 > b) _"En la próxima reunión voy a dejar que mi equipo decida una parte de la actividad, en vez de decidirla yo."_  ✅
 > c) _"Voy a estudiarme el Modelo de Aplicación completo antes del próximo sábado."_
 
-> **P2.** Según el cierre del curso, los dirigentes que transforman se construyen sobre…
+> **P2.** Dos dirigentes arrancan el año. Uno anuncia: _"voy a transformar el Programa de mi grupo"._ El otro dice: _"esta semana voy a dejar que la patrulla escoja el juego"._ Según el cierre del curso, ¿quién tiene más probabilidad de sostener el cambio?
 >
-> a) _Una promesa grande que inspira al equipo._
-> b) _Cien promesas chicas cumplidas._  ✅
-> c) _La cantidad de campamentos que organizaron._
+> a) _El primero, porque una meta grande inspira más al equipo._
+> b) _El segundo, porque la transformación se construye con muchas promesas chicas cumplidas, no con una grande que se olvida._  ✅
+> c) _Da igual: lo que cuenta es cuántos campamentos logre organizar cada uno._
 
 **Logro al completar:** "Constructor de Programa" (logro final del curso, `unlockOnModule: -1`).
 

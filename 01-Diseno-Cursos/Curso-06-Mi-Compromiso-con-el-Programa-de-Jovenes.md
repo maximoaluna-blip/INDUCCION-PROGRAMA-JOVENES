@@ -151,17 +151,17 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 **Quiz (2 preguntas):**
 
-> **P1.** Al elegir las 2 áreas prioritarias del trimestre, el criterio sugerido es…
+> **P1.** Marcela ama el área de Creatividad y se le da fácil. Pero su Manada llega dispersa y se trata mal entre lobatos. Según el criterio de esta lección, ¿en qué 2 áreas debería poner foco este trimestre?
 >
-> a) _Las que más te gustan o más manejas._
-> b) _Las que más necesita tu unidad ahora._  ✅
-> c) _Las que el Comisionado Regional priorizó para todo el país._
+> a) _Creatividad y otra que le guste, porque va a disfrutar más el trimestre._
+> b) _Carácter y Sociabilidad, porque son las que su unidad más necesita ahora, aunque no sean sus favoritas._  ✅
+> c) _Las 6 áreas a la vez, para no dejar ninguna por fuera._
 
-> **P2.** El rol prioritario del trimestre (Apoyar/Acompañar/Enlazar) se elige…
+> **P2.** Andrés es buenísimo Enlazando: consigue aliados, gestiona permisos, conecta con los papás. Pero le cuesta Acompañar uno-a-uno a sus protagonistas. ¿Cuál rol del Modelo debería elegir como prioritario del trimestre?
 >
-> a) _Por edad del dirigente — los nuevos Apoyan, los veteranos Enlazan._
-> b) _El que más te haga falta fortalecer, no el que ya manejas bien._  ✅
-> c) _Aleatoriamente entre los 3._
+> a) _Enlazar, para seguir explotando lo que ya hace bien._
+> b) _Acompañar, porque es el que más le hace falta fortalecer._  ✅
+> c) _Da igual cuál: los tres roles se desarrollan solos con el tiempo._
 
 **Logro:** "Sé dónde estoy parado".
 
@@ -241,11 +241,11 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 **Quiz (2 preguntas):**
 
-> **P1.** El Curso 24 (A Salvo del Peligro) es…
+> **P1.** Un dirigente ya terminó el Nivel 1 y quiere arrancar el Curso 9 (Rama Tropa) del Nivel 2 la próxima semana, pero todavía no ha hecho el Curso 24 (A Salvo del Peligro). ¿Qué pasa?
 >
-> a) _Opcional, solo para quienes trabajan en zonas de alto riesgo._
-> b) _Habilitante: ningún dirigente avanza al Nivel 2 sin completarlo._  ✅
-> c) _Solo aplica a Comisionados Nacionales._
+> a) _Puede arrancar el Curso 9 sin problema; el Curso 24 es opcional y lo hace cuando quiera._
+> b) _No puede avanzar al Nivel 2 hasta completar el Curso 24; lo ideal es tomarlo en paralelo con su primer curso de Nivel 2._  ✅
+> c) _Solo lo necesita si su grupo está en una zona de alto riesgo._
 
 > **P2.** Un dirigente nuevo de Manada que se enfocará en acompañar la progresión personal debería empezar el Nivel 2 con…
 >

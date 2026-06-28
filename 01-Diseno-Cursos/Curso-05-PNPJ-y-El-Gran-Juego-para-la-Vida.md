@@ -112,11 +112,11 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 
 **Quiz (2 preguntas):**
 
-> **P1.** La Política Nacional de Programa de Jóvenes vigente es…
+> **P1.** Un dirigente dice: "Yo me guío por la Política Interamericana de Programa de Jóvenes." ¿Qué le responderías según esta lección?
 >
-> a) _Una resolución de la DNPJ de 2026._
-> b) _El Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024._  ✅
-> c) _La Política Interamericana de 2022._
+> a) _"Está perfecto, esa es la norma que rige el PJ en Colombia."_
+> b) _"Esa es la base internacional, pero en Colombia la norma vigente es la PNPJ —el Acuerdo C.S.N. 617 de 2024— que la adapta a nuestro país."_  ✅
+> c) _"Esa política quedó sin efecto; ya no existe ninguna referencia internacional."_
 
 > **P2.** ¿Cuál es la relación entre la PNPJ y "El Gran Juego para la Vida"?
 >
@@ -157,11 +157,11 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 
 **Quiz (2 preguntas):**
 
-> **P1.** Los **Lobatos** (7–10 años) se agrupan en…
+> **P1.** Llega a tu grupo Samuel, de 8 años. Por su edad le corresponde la Manada. ¿En qué subgrupo natural va a estar y bajo qué marco simbólico va a jugar?
 >
-> a) _Patrullas, marco simbólico Scout._
-> b) _Seisenas, marco simbólico Libro de las Tierras Vírgenes._  ✅
-> c) _Camadas, marco simbólico Hermanos de Mowgli._
+> a) _En una Patrulla, con el marco Scout propio._
+> b) _En una Seisena, con el Libro de las Tierras Vírgenes._  ✅
+> c) _En una Camada, con los Hermanos de Mowgli (marco de Familia)._
 
 > **P2.** El paso a la adolescencia tardía y al trabajo por proyectos ocurre en la transición entre…
 >
@@ -200,11 +200,11 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 
 **Quiz (2 preguntas):**
 
-> **P1.** Las 6 áreas de crecimiento de la PNPJ 2024 son…
+> **P1.** Una dirigente cuenta: "En mi seisena trabajé que los lobatos reconozcan cuándo están bravos y aprendan a calmarse antes de explotar." ¿Qué área de crecimiento está trabajando sobre todo?
 >
-> a) _Físico, mental, social, espiritual, intelectual, religioso._
-> b) _Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad._  ✅
-> c) _Cuerpo, alma, mente, espíritu, vínculos, valores._
+> a) _Corporalidad._
+> b) _Afectividad._  ✅
+> c) _Sociabilidad._
 
 > **P2.** ¿Cómo se evalúa la progresión personal en el Modelo de Aplicación 2026?
 >
@@ -242,17 +242,17 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 
 **Quiz (2 preguntas):**
 
-> **P1.** Las 3 etapas de vida en la unidad son…
+> **P1.** Valentina entró hace un mes a la Tropa. Todavía está conociendo a su patrulla, aprendiendo cómo funciona el marco simbólico y haciéndose parte. ¿En qué etapa de vida en la unidad está?
 >
-> a) _Inicio, Desarrollo, Cierre._
-> b) _Adaptación, Progresión, Transición._  ✅
-> c) _Cachorro, Lobato, Scout._
+> a) _Adaptación._  ✅
+> b) _Progresión._
+> c) _Transición._
 
-> **P2.** ¿Qué momento de aprendizaje vive un protagonista cuando ya hace la práctica solo y empieza a enseñar a otros?
+> **P2.** Mateo ya monta su carpa sin ayuda y esta semana le enseñó a dos lobatos nuevos cómo hacerlo. Respecto a esa habilidad, ¿en qué momento de aprendizaje está?
 >
-> a) _Exploro._
-> b) _Aplico._
-> c) _Profundizo._  ✅
+> a) _Exploro (apenas la está descubriendo)._
+> b) _Aplico (la practica con apoyo)._
+> c) _Profundizo (la domina y la transfiere a otros)._  ✅
 
 **Logro:** "Veo el camino".
 
@@ -284,11 +284,11 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 
 **Quiz (2 preguntas):**
 
-> **P1.** Los 3 roles del dirigente en el Modelo de Aplicación 2026 son…
+> **P1.** Un dirigente prepara los materiales, reserva el lugar y deja lista la planeación para que la patrulla pueda ejecutar su proyecto. Según el Modelo 2026, ¿qué rol está ejerciendo?
 >
-> a) _Jefe, Subjefe y Asistente._
-> b) _Apoyar, Acompañar y Enlazar._  ✅
-> c) _Instruir, Evaluar y Reconocer._
+> a) _El de Jefe que da las órdenes (término que el Modelo dejó atrás)._
+> b) _Apoyar._  ✅
+> c) _Enlazar._
 
 > **P2.** El "territorio" en el Modelo de Aplicación 2026 es…
 >

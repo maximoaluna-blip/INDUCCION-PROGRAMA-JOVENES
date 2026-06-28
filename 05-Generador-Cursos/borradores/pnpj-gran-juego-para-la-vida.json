@@ -103,11 +103,11 @@
         "nextLabel": "Continuar a las 5 ramas 🐺",
         "questions": [
           {
-            "text": "La Política Nacional de Programa de Jóvenes vigente es…",
+            "text": "Un dirigente dice: 'Yo me guío por la Política Interamericana de Programa de Jóvenes.' ¿Qué le responderías según esta lección?",
             "options": [
-              "Una resolución de la DNPJ de 2026.",
-              "El Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024.",
-              "La Política Interamericana de 2022."
+              "'Está perfecto, esa es la norma que rige el PJ en Colombia.'",
+              "'Esa es la base internacional, pero en Colombia la norma vigente es la PNPJ —el Acuerdo C.S.N. 617 de 2024— que la adapta a nuestro país.'",
+              "'Esa política quedó sin efecto; ya no existe ninguna referencia internacional.'"
             ],
             "correctIndex": 1
           },
@@ -214,11 +214,11 @@
         "nextLabel": "Continuar a las 6 áreas 🌱",
         "questions": [
           {
-            "text": "Los Lobatos (7–10 años) se agrupan en…",
+            "text": "Llega a tu grupo Samuel, de 8 años. Por su edad le corresponde la Manada. ¿En qué subgrupo natural va a estar y bajo qué marco simbólico va a jugar?",
             "options": [
-              "Patrullas, marco simbólico Scout.",
-              "Seisenas, marco simbólico Libro de las Tierras Vírgenes.",
-              "Camadas, marco simbólico Hermanos de Mowgli."
+              "En una Patrulla, con el marco Scout propio.",
+              "En una Seisena, con el Libro de las Tierras Vírgenes.",
+              "En una Camada, con los Hermanos de Mowgli (marco de Familia)."
             ],
             "correctIndex": 1
           },
@@ -329,11 +329,11 @@
         "nextLabel": "Continuar a etapas y momentos ⏳",
         "questions": [
           {
-            "text": "Las 6 áreas de crecimiento de la PNPJ 2024 son…",
+            "text": "Una dirigente cuenta: 'En mi seisena trabajé que los lobatos reconozcan cuándo están bravos y aprendan a calmarse antes de explotar.' ¿Qué área de crecimiento está trabajando sobre todo?",
             "options": [
-              "Físico, mental, social, espiritual, intelectual, religioso.",
-              "Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad.",
-              "Cuerpo, alma, mente, espíritu, vínculos, valores."
+              "Corporalidad.",
+              "Afectividad.",
+              "Sociabilidad."
             ],
             "correctIndex": 1
           },
@@ -441,20 +441,20 @@
         "nextLabel": "Continuar a las herramientas 🛠️",
         "questions": [
           {
-            "text": "Las 3 etapas de vida en la unidad son…",
+            "text": "Valentina entró hace un mes a la Tropa. Todavía está conociendo a su patrulla, aprendiendo cómo funciona el marco simbólico y haciéndose parte. ¿En qué etapa de vida en la unidad está?",
             "options": [
-              "Inicio, Desarrollo, Cierre.",
-              "Adaptación, Progresión, Transición.",
-              "Cachorro, Lobato, Scout."
+              "Adaptación.",
+              "Progresión.",
+              "Transición."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
-            "text": "¿Qué momento de aprendizaje vive un protagonista cuando ya hace la práctica solo y empieza a enseñar a otros?",
+            "text": "Mateo ya monta su carpa sin ayuda y esta semana le enseñó a dos lobatos nuevos cómo hacerlo. Respecto a esa habilidad, ¿en qué momento de aprendizaje está?",
             "options": [
-              "Exploro.",
-              "Aplico.",
-              "Profundizo."
+              "Exploro (apenas la está descubriendo).",
+              "Aplico (la practica con apoyo).",
+              "Profundizo (la domina y la transfiere a otros)."
             ],
             "correctIndex": 2
           }
@@ -547,11 +547,11 @@
         "nextLabel": "Continuar a mi mapa del Modelo ✍️",
         "questions": [
           {
-            "text": "Los 3 roles del dirigente en el Modelo de Aplicación 2026 son…",
+            "text": "Un dirigente prepara los materiales, reserva el lugar y deja lista la planeación para que la patrulla pueda ejecutar su proyecto. Según el Modelo 2026, ¿qué rol está ejerciendo?",
             "options": [
-              "Jefe, Subjefe y Asistente.",
-              "Apoyar, Acompañar y Enlazar.",
-              "Instruir, Evaluar y Reconocer."
+              "El de Jefe que da las órdenes (término que el Modelo dejó atrás).",
+              "Apoyar.",
+              "Enlazar."
             ],
             "correctIndex": 1
           },

@@ -109,11 +109,11 @@ Este hook se enuncia en la lección 3 y atraviesa todo el curso. Su función es 
 
 **Quiz (2 preguntas):**
 
-> **P1.** El informe de B-P en Ginebra 1922 se llamó…
+> **P1.** El informe de B-P en Ginebra 1922 se titula "La educación por el amor en sustitución de la educación por el temor". Más allá del título, ¿qué estaba proponiendo con esa frase?
 >
-> a) _"Cómo formar buenos soldados desde la infancia."_
-> b) _"La educación por el amor en sustitución de la educación por el temor."_  ✅
-> c) _"El Manual del Scoutmaster."_
+> a) _Reemplazar los castigos por premios más atractivos para el joven._
+> b) _Cambiar el motor de la educación: dejar de mover al joven con miedo y empezar a moverlo con el deseo de aprender y de servir._  ✅
+> c) _Sustituir la formación militar por formación deportiva al aire libre._
 
 > **P2.** B-P pronunció este informe en…
 >
@@ -160,9 +160,9 @@ Este hook se enuncia en la lección 3 y atraviesa todo el curso. Su función es 
 
 > **P1.** Según esta lección, ¿cuál es el problema principal de educar con recompensas externas ("si cumples, te doy algo")?
 >
-> a) _Que las recompensas son costosas para el grupo._
-> b) _Que el joven aprende a hacer lo correcto solo mientras lo miran, sin construir sentido interno._  ✅
-> c) _Que las recompensas no son legales en algunos países._
+> a) _Que el premio enseña al joven a hacer lo correcto solo mientras lo miran, sin construir un sentido interno._  ✅
+> b) _Ninguno: premiar siempre es buena idea porque refuerza la conducta deseada._
+> c) _Que el problema no es la recompensa sino que sea pequeña; con un premio mayor sí funciona._
 
 > **P2.** Un dirigente avergüenza públicamente a un lobato que no se sabe la promesa. Está aplicando…
 >
@@ -205,11 +205,11 @@ Este hook se enuncia en la lección 3 y atraviesa todo el curso. Su función es 
 
 **Quiz (2 preguntas):**
 
-> **P1.** Según B-P, ¿en qué consiste la educación?
+> **P1.** Un dirigente nuevo te dice: "Yo enseño bien porque mis chicos se saben de memoria la Ley y la Promesa." Según la educación por el amor que propuso B-P, ¿qué le falta a esa idea?
 >
-> a) _En introducir en el cerebro del niño una cierta dosis de conocimiento._
-> b) _En despertarle el deseo de conocer e indicarle el modo de estudiar._  ✅
-> c) _En transmitirle las costumbres y valores de su nación._
+> a) _Nada: memorizar la Ley y la Promesa es exactamente lo que B-P pedía._
+> b) _Que saber de memoria no es lo mismo que despertar el deseo de conocer: el chico repite, pero no necesariamente quiere ni entiende._  ✅
+> c) _Que primero deben aprenderse el himno y los nudos antes que la Ley._
 
 > **P2.** ¿Cuál es la diferencia entre planear una reunión "por el temor" y una "por el amor", según esta lección?
 >
@@ -253,11 +253,11 @@ Este hook se enuncia en la lección 3 y atraviesa todo el curso. Su función es 
 
 **Quiz (2 preguntas):**
 
-> **P1.** Los 4 objetivos que B-P propuso en 1922 son…
+> **P1.** Estás planeando una salida y solo incluiste juegos físicos y deporte. Mirando los 4 objetivos que B-P propuso en 1922, ¿qué te están avisando que falta equilibrar?
 >
-> a) _Religión, patria, familia, trabajo._
-> b) _Carácter e inteligencia, habilidad manual, hábito de servir al prójimo, salud y vigor físico._  ✅
-> c) _Obediencia, disciplina, esfuerzo, lealtad._
+> a) _Nada: con salud y vigor físico ya cubriste lo esencial._
+> b) _Que tocaste sobre todo la salud y el vigor físico, pero dejaste fuera el carácter, la habilidad manual y el servicio al prójimo._  ✅
+> c) _Que B-P pedía concentrarse en un solo objetivo por salida para no dispersar._
 
 > **P2.** ¿Cuál es la relación entre los 4 objetivos de B-P (1922) y las 6 áreas de crecimiento de la PNPJ 2024?
 >

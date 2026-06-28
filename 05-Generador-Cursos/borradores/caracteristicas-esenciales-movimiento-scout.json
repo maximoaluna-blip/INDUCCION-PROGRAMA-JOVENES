@@ -141,11 +141,11 @@
             "correctIndex": 0
           },
           {
-            "text": "El Propósito menciona 5 ámbitos integrados. ¿Cuáles son?",
+            "text": "Un dirigente arma solo torneos deportivos y excursiones físicas, semana tras semana. Según el Propósito OMMS, ¿qué problema tiene?",
             "options": [
-              "Físico, mental, religioso, deportivo, académico.",
-              "Físico, intelectual, emocional, social, espiritual.",
-              "Cuerpo, alma, espíritu, mente, corazón."
+              "Ninguno: lo físico es lo más importante del escultismo.",
+              "Descuida los otros ámbitos: el Propósito busca los 5 integrados (físico, intelectual, emocional, social, espiritual), no uno solo.",
+              "Debería hacer solo actividades espirituales para compensar."
             ],
             "correctIndex": 1
           }
@@ -236,11 +236,11 @@
             "correctIndex": 1
           },
           {
-            "text": "Según esta lección, ¿qué hacer si dudas si una práctica es scout o no?",
+            "text": "Un dirigente quiere saber si su nueva actividad 'noche de talentos' es realmente scout. Según esta lección, ¿cómo lo decide?",
             "options": [
-              "Consultar al Comisionado Nacional de Programa de Jóvenes.",
-              "Preguntarse si la práctica cuida los 3 Principios: deber con Dios, con los otros, con uno mismo.",
-              "Revisar si está en la guía oficial de la rama."
+              "Consultando al Comisionado Nacional de Programa de Jóvenes.",
+              "Preguntándose si la actividad cuida los 3 Principios: deber con Dios (el sentido), con los otros (la fraternidad) y con uno mismo (el crecimiento).",
+              "Revisando si aparece en la guía oficial de la rama."
             ],
             "correctIndex": 1
           }
@@ -447,20 +447,20 @@
         "nextLabel": "Continuar a tu frase 🖊️",
         "questions": [
           {
-            "text": "Según la frase eje del Movimiento (OMMS 2019, p. 28), el rol del adulto en el escultismo es…",
+            "text": "En una reunión de equipo, otro dirigente dice: 'el grupo es nuestro, nosotros decidimos qué hacen los chicos'. Según la frase eje OMMS 2019, ¿qué le respondes?",
             "options": [
-              "Gestionar el Movimiento en nombre de los jóvenes.",
-              "Apoyar el Movimiento que es de los jóvenes y para los jóvenes.",
-              "Reemplazar a los padres en la formación de los jóvenes."
+              "Tiene razón: los adultos gestionan el Movimiento en nombre de los jóvenes.",
+              "Que es al revés: el Movimiento es de los jóvenes y para los jóvenes; el adulto apoya, no gestiona en su nombre.",
+              "Que eso depende de la rama: en las menores sí decide el adulto."
             ],
             "correctIndex": 1
           },
           {
-            "text": "El principio \"Primum non nocere\" en el Movimiento Scout significa que…",
+            "text": "Por 'Primum non nocere' (lo primero, no hacer daño), el Movimiento exige verificación de antecedentes, formación obligatoria y supervisión antes de poner a un adulto frente a jóvenes. ¿Qué prioriza esto?",
             "options": [
-              "El adulto no debe contradecir las decisiones del joven.",
-              "Lo primero es no hacer daño: por eso hay verificación de adultos, formación, supervisión y A Salvo del Peligro habilitante.",
-              "Los adultos no pueden tocar a los jóvenes en ninguna circunstancia."
+              "Que el adulto nunca contradiga las decisiones del joven.",
+              "Que la protección del joven está antes que la comodidad o la antigüedad del adulto.",
+              "Que ningún adulto puede tener contacto con jóvenes."
             ],
             "correctIndex": 1
           }

@@ -117,11 +117,11 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 > b) _Hacerlo feliz — eso es solo un efecto secundario._
 > c) _Convertirlo en líder — eso es para otros movimientos._
 
-> **P2.** El Propósito menciona 5 ámbitos integrados. ¿Cuáles son?
+> **P2.** Un dirigente arma solo torneos deportivos y excursiones físicas, semana tras semana. Según el Propósito OMMS, ¿qué problema tiene?
 >
-> a) _Físico, mental, religioso, deportivo, académico._
-> b) _Físico, intelectual, emocional, social, espiritual._  ✅
-> c) _Cuerpo, alma, espíritu, mente, corazón._
+> a) _Ninguno: lo físico es lo más importante del escultismo._
+> b) _Descuida los otros ámbitos: el Propósito busca los 5 integrados (físico, intelectual, emocional, social, espiritual), no uno solo._  ✅
+> c) _Debería hacer solo actividades espirituales para compensar._
 
 **Logro:** "Tengo el Propósito".
 
@@ -161,11 +161,11 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 > b) _Reconoce la dimensión espiritual del desarrollo y respeta la fe o búsqueda de cada quien._  ✅
 > c) _Excluye a quienes no profesan una religión._
 
-> **P2.** Según esta lección, ¿qué hacer si dudas si una práctica es scout o no?
+> **P2.** Un dirigente quiere saber si su nueva actividad 'noche de talentos' es realmente scout. Según esta lección, ¿cómo lo decide?
 >
-> a) _Consultar al Comisionado Nacional de Programa de Jóvenes._
-> b) _Preguntarse si la práctica cuida los 3 Principios: deber con Dios, con los otros, con uno mismo._  ✅
-> c) _Revisar si está en la guía oficial de la rama._
+> a) _Consultando al Comisionado Nacional de Programa de Jóvenes._
+> b) _Preguntándose si la actividad cuida los 3 Principios: deber con Dios (el sentido), con los otros (la fraternidad) y con uno mismo (el crecimiento)._  ✅
+> c) _Revisando si aparece en la guía oficial de la rama._
 
 **Logro:** "Conozco los Principios".
 
@@ -248,17 +248,17 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 **Quiz (2 preguntas):**
 
-> **P1.** Según la frase eje del Movimiento (OMMS 2019, p. 28), el rol del adulto en el escultismo es…
+> **P1.** En una reunión de equipo, otro dirigente dice: 'el grupo es nuestro, nosotros decidimos qué hacen los chicos'. Según la frase eje OMMS 2019, ¿qué le respondes?
 >
-> a) _Gestionar el Movimiento en nombre de los jóvenes._
-> b) _Apoyar el Movimiento que es de los jóvenes y para los jóvenes._  ✅
-> c) _Reemplazar a los padres en la formación de los jóvenes._
+> a) _Tiene razón: los adultos gestionan el Movimiento en nombre de los jóvenes._
+> b) _Que es al revés: el Movimiento es de los jóvenes y para los jóvenes; el adulto apoya, no gestiona en su nombre._  ✅
+> c) _Que eso depende de la rama: en las menores sí decide el adulto._
 
-> **P2.** El principio "Primum non nocere" en el Movimiento Scout significa que…
+> **P2.** Por "Primum non nocere" (lo primero, no hacer daño), el Movimiento exige verificación de antecedentes, formación obligatoria y supervisión antes de poner a un adulto frente a jóvenes. ¿Qué prioriza esto?
 >
-> a) _El adulto no debe contradecir las decisiones del joven._
-> b) _Lo primero es no hacer daño: por eso hay verificación de adultos, formación, supervisión y A Salvo del Peligro habilitante._  ✅
-> c) _Los adultos no pueden tocar a los jóvenes en ninguna circunstancia._
+> a) _Que el adulto nunca contradiga las decisiones del joven._
+> b) _Que la protección del joven está antes que la comodidad o la antigüedad del adulto._  ✅
+> c) _Que ningún adulto puede tener contacto con jóvenes._
 
 **Logro:** "Sé cuál es mi rol".
 

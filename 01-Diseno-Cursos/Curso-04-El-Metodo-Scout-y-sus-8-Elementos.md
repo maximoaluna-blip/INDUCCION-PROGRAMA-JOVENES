@@ -119,11 +119,11 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 
 **Quiz (2 preguntas):**
 
-> **P1.** Según la definición oficial OMMS 2019, el Método Scout es…
+> **P1.** Un dirigente nuevo te dice: "Este año en mi tropa trabajo a fondo Naturaleza y Aprender Haciendo, y dejo Marco Simbólico para más adelante; cada rama escoge lo suyo". Según lo que viste, ¿qué le respondes?
 >
-> a) _Una lista de 8 técnicas educativas que se aplican por separado._
-> b) _Un sistema de autoeducación progresiva basado en la interacción de 8 elementos igualmente importantes._  ✅
-> c) _El conjunto de actividades y juegos que se hacen en una reunión scout._
+> a) _Bien pensado: cada rama elige los elementos que mejor le caen._
+> b) _Cuidado: el Método es un sistema, no un menú. Si dejas un elemento por fuera, lo que queda ya no es el Método completo._  ✅
+> c) _Da igual el orden, mientras al final del año hayas tocado los 8 alguna vez._
 
 > **P2.** "Igualmente importantes" en la definición del Método significa que…
 >
@@ -167,11 +167,11 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 > b) _La Promesa sin Ley es palabra vacía; la Ley sin Promesa es regla externa. Se sostienen mutuamente._  ✅
 > c) _La Ley se enseña a los Lobatos y la Promesa a los Scouts._
 
-> **P2.** La regla del Aprender Haciendo dice que…
+> **P2.** El sábado, un lobato lleva 10 minutos peleando con un nudo que le queda flojo. Según Aprender Haciendo, ¿qué haces?
 >
-> a) _El dirigente debe demostrar primero cómo se hace, luego dejar al joven repetir._
-> b) _Si el dirigente hace por el joven, el joven no aprende: prepara el escenario para que él intente._  ✅
-> c) _Los jóvenes deben aprender solo de los manuales oficiales._
+> a) _Se lo amarras tú bien hecho para que no se frustre y seguir con la actividad._
+> b) _Le muestras una vez completo y le pides que te copie el movimiento._
+> c) _Le das una pista pequeña y lo dejas seguir intentando, aunque tarde._  ✅
 
 **Logro:** "Ética + práctica".
 
@@ -208,11 +208,11 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 > b) _Es el camino individual de cada protagonista, a su ritmo, en las 6 áreas de crecimiento._  ✅
 > c) _Es la suma de insignias que un joven obtiene en su rama._
 
-> **P2.** El Sistema de Equipos significa que…
+> **P2.** Una manada hace toda la reunión junta, en círculo grande, dirigida por la vieja loba; las seisenas no operan solas en ningún momento. ¿Qué elemento del Método está roto?
 >
-> a) _La unidad opera como un solo gran grupo dirigido por el adulto._
-> b) _Los jóvenes viven el Movimiento en pequeños grupos donde lideran entre pares: camadas, seisenas, patrullas, equipos._  ✅
-> c) _Cada protagonista actúa de forma independiente._
+> a) _Ninguno: trabajar en gran grupo es lo normal en Manada._
+> b) _El Sistema de Equipos: el pequeño grupo (seisena) no está viviendo ni decidiendo nada por sí mismo._  ✅
+> c) _La Progresión Personal, porque no se entregaron insignias._
 
 **Logro:** "Crezco con otros".
 
@@ -246,11 +246,11 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 
 **Quiz (2 preguntas):**
 
-> **P1.** Los 3 roles del dirigente según el Modelo de Aplicación 2026 son…
+> **P1.** En tu reunión, una patrulla tiene que organizar su rincón. ¿Cuál de estas acciones encaja con el rol de Apoyar (preparar las condiciones para que el joven actúe), y no con dirigir?
 >
-> a) _Liderar, planear y supervisar._
-> b) _Apoyar, Acompañar y Enlazar._  ✅
-> c) _Instruir, evaluar y reconocer._
+> a) _Les organizas tú el rincón para que quede bien y ahorrar tiempo._
+> b) _Dejas listos los materiales y el espacio, y los dejas decidir cómo lo arman._  ✅
+> c) _Les dices paso a paso dónde va cada cosa mientras ellos miran._
 
 > **P2.** El Marco Simbólico de la rama Manada se basa en…
 >
@@ -333,11 +333,11 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 > b) _Objetivos Educativos, Oportunidades de Aprendizaje, Vida de Grupo, Estructura y Funcionamiento._  ✅
 > c) _Apoyar, Acompañar, Enlazar, Evaluar._
 
-> **P2.** ¿Qué significa DURASLID?
+> **P2.** Diseñaste una actividad muy divertida y segura, pero los chicos no aprenden nada nuevo con ella ni los reta. Pasada por el filtro DURASLID, ¿qué falla?
 >
-> a) _Un programa de capacitación para dirigentes nuevos._
-> b) _Un filtro de calidad: Desafiante, Útil, Recompensante, Atractiva, Segura, Lúdica, Inclusiva, Diversa._  ✅
-> c) _Una organización mundial de protección del medio ambiente._
+> a) _Nada: si es lúdica y segura, ya cumple._
+> b) _Le faltan atributos como Desafiante y Útil; DURASLID pide los 8, no solo diversión._  ✅
+> c) _Falla solo si no es Inclusiva; los demás atributos son opcionales._
 
 **Logro:** "Veo el método en vivo".
 

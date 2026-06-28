@@ -171,20 +171,20 @@
         "nextLabel": "Continuar a mi reunión y mi proyecto 🛠️",
         "questions": [
           {
-            "text": "Al elegir las 2 áreas prioritarias del trimestre, el criterio sugerido es…",
+            "text": "Marcela ama el área de Creatividad y se le da fácil. Pero su Manada llega dispersa y se trata mal entre lobatos. Según el criterio de esta lección, ¿en qué 2 áreas debería poner foco este trimestre?",
             "options": [
-              "Las que más te gustan o más manejas.",
-              "Las que más necesita tu unidad ahora.",
-              "Las que el Comisionado Regional priorizó para todo el país."
+              "Creatividad y otra que le guste, porque va a disfrutar más el trimestre.",
+              "Carácter y Sociabilidad, porque son las que su unidad más necesita ahora, aunque no sean sus favoritas.",
+              "Las 6 áreas a la vez, para no dejar ninguna por fuera."
             ],
             "correctIndex": 1
           },
           {
-            "text": "El rol prioritario del trimestre (Apoyar/Acompañar/Enlazar) se elige…",
+            "text": "Andrés es buenísimo Enlazando: consigue aliados, gestiona permisos, conecta con los papás. Pero le cuesta Acompañar uno-a-uno a sus protagonistas. ¿Cuál rol del Modelo debería elegir como prioritario del trimestre?",
             "options": [
-              "Por edad del dirigente — los nuevos Apoyan, los veteranos Enlazan.",
-              "El que más te haga falta fortalecer, no el que ya manejas bien.",
-              "Aleatoriamente entre los 3."
+              "Enlazar, para seguir explotando lo que ya hace bien.",
+              "Acompañar, porque es el que más le hace falta fortalecer.",
+              "Da igual cuál: los tres roles se desarrollan solos con el tiempo."
             ],
             "correctIndex": 1
           }
@@ -334,11 +334,11 @@
         "nextLabel": "Continuar a mi par y mi promesa 🤝",
         "questions": [
           {
-            "text": "El Curso 24 (A Salvo del Peligro) es…",
+            "text": "Un dirigente ya terminó el Nivel 1 y quiere arrancar el Curso 9 (Rama Tropa) del Nivel 2 la próxima semana, pero todavía no ha hecho el Curso 24 (A Salvo del Peligro). ¿Qué pasa?",
             "options": [
-              "Opcional, solo para quienes trabajan en zonas de alto riesgo.",
-              "Habilitante: ningún dirigente avanza al Nivel 2 sin completarlo.",
-              "Solo aplica a Comisionados Nacionales."
+              "Puede arrancar el Curso 9 sin problema; el Curso 24 es opcional y lo hace cuando quiera.",
+              "No puede avanzar al Nivel 2 hasta completar el Curso 24; lo ideal es tomarlo en paralelo con su primer curso de Nivel 2.",
+              "Solo lo necesita si su grupo está en una zona de alto riesgo."
             ],
             "correctIndex": 1
           },

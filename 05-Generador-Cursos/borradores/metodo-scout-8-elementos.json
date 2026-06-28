@@ -133,11 +133,11 @@
         "nextLabel": "Continuar a los elementos 1 y 2 📜",
         "questions": [
           {
-            "text": "Según la definición oficial OMMS 2019, el Método Scout es…",
+            "text": "Un dirigente nuevo te dice: 'Este año en mi tropa trabajo a fondo Naturaleza y Aprender Haciendo, y dejo Marco Simbólico para más adelante; cada rama escoge lo suyo'. Según lo que viste, ¿qué le respondes?",
             "options": [
-              "Una lista de 8 técnicas educativas que se aplican por separado.",
-              "Un sistema de autoeducación progresiva basado en la interacción de 8 elementos igualmente importantes.",
-              "El conjunto de actividades y juegos que se hacen en una reunión scout."
+              "Bien pensado: cada rama elige los elementos que mejor le caen.",
+              "Cuidado: el Método es un sistema, no un menú. Si dejas un elemento por fuera, lo que queda ya no es el Método completo.",
+              "Da igual el orden, mientras al final del año hayas tocado los 8 alguna vez."
             ],
             "correctIndex": 1
           },
@@ -219,13 +219,13 @@
             "correctIndex": 1
           },
           {
-            "text": "La regla del Aprender Haciendo dice que…",
+            "text": "El sábado, un lobato lleva 10 minutos peleando con un nudo que le queda flojo. Según Aprender Haciendo, ¿qué haces?",
             "options": [
-              "El dirigente debe demostrar primero cómo se hace, luego dejar al joven repetir.",
-              "Si el dirigente hace por el joven, el joven no aprende: prepara el escenario para que él intente.",
-              "Los jóvenes deben aprender solo de los manuales oficiales."
+              "Se lo amarras tú bien hecho para que no se frustre y seguir con la actividad.",
+              "Le muestras una vez completo y le pides que te copie el movimiento.",
+              "Le das una pista pequeña y lo dejas seguir intentando, aunque tarde."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           }
         ]
       }
@@ -323,11 +323,11 @@
             "correctIndex": 1
           },
           {
-            "text": "El Sistema de Equipos significa que…",
+            "text": "Una manada hace toda la reunión junta, en círculo grande, dirigida por la vieja loba; las seisenas no operan solas en ningún momento. ¿Qué elemento del Método está roto?",
             "options": [
-              "La unidad opera como un solo gran grupo dirigido por el adulto.",
-              "Los jóvenes viven el Movimiento en pequeños grupos donde lideran entre pares: camadas, seisenas, patrullas, equipos.",
-              "Cada protagonista actúa de forma independiente."
+              "Ninguno: trabajar en gran grupo es lo normal en Manada.",
+              "El Sistema de Equipos: el pequeño grupo (seisena) no está viviendo ni decidiendo nada por sí mismo.",
+              "La Progresión Personal, porque no se entregaron insignias."
             ],
             "correctIndex": 1
           }
@@ -420,11 +420,11 @@
         "nextLabel": "Continuar a los elementos 7 y 8 🌳",
         "questions": [
           {
-            "text": "Los 3 roles del dirigente según el Modelo de Aplicación 2026 son…",
+            "text": "En tu reunión, una patrulla tiene que organizar su rincón. ¿Cuál de estas acciones encaja con el rol de Apoyar (preparar las condiciones para que el joven actúe), y no con dirigir?",
             "options": [
-              "Liderar, planear y supervisar.",
-              "Apoyar, Acompañar y Enlazar.",
-              "Instruir, evaluar y reconocer."
+              "Les organizas tú el rincón para que quede bien y ahorrar tiempo.",
+              "Dejas listos los materiales y el espacio, y los dejas decidir cómo lo arman.",
+              "Les dices paso a paso dónde va cada cosa mientras ellos miran."
             ],
             "correctIndex": 1
           },
@@ -600,11 +600,11 @@
             "correctIndex": 1
           },
           {
-            "text": "¿Qué significa DURASLID?",
+            "text": "Diseñaste una actividad muy divertida y segura, pero los chicos no aprenden nada nuevo con ella ni los reta. Pasada por el filtro DURASLID, ¿qué falla?",
             "options": [
-              "Un programa de capacitación para dirigentes nuevos.",
-              "Un filtro de calidad: Desafiante, Útil, Recompensante, Atractiva, Segura, Lúdica, Inclusiva, Diversa.",
-              "Una organización mundial de protección del medio ambiente."
+              "Nada: si es lúdica y segura, ya cumple.",
+              "Le faltan atributos como Desafiante y Útil; DURASLID pide los 8, no solo diversión.",
+              "Falla solo si no es Inclusiva; los demás atributos son opcionales."
             ],
             "correctIndex": 1
           }
