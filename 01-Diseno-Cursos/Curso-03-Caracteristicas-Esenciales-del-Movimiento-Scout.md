@@ -235,13 +235,13 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 4. **`heading` (nivel 3)** — _"Lo que esto significa para tu rol"_
 5. **`paragraph`** — _"El adulto no es el jefe del joven. Es su aliado. El joven es el protagonista; tú eres su apoyo. Esa palabra —apoyo— es exacta: no es 'guía' (te seguiría), no es 'instructor' (te imitaría), no es 'jefe' (te obedecería). Es **apoyo**: estás cuando hace falta, no estorbas cuando no."_
 6. **`heading` (nivel 3)** — _"Los 4 tipos de apoyo del adulto"_
-7. **`method-grid`** — 4 tipos según OMMS 2019, p. 18:
+7. **`method-grid`** — 4 tipos según OMMS 2019, p. 19:
     - 📚 **Apoyo educativo** — facilitar oportunidades de aprendizaje, sugerir desafíos, sostener el ciclo de programa.
     - 💗 **Apoyo emocional** — acompañar al protagonista en sus momentos de duda, frustración o alegría.
     - ℹ️ **Apoyo informativo** — dar la información que el joven necesita para decidir, sin decidir por él.
     - ✅ **Apoyo evaluativo** — ayudar al joven a mirar su propio proceso y a celebrarlo o ajustarlo.
 8. **`heading` (nivel 3)** — _"Primum non nocere"_
-9. **`paragraph`** — _"Es una frase latina que significa **'lo primero, no hacer daño'**. La OMMS la usa en p. 32 para subrayar la responsabilidad ética del adulto en el Movimiento: verificación previa de antecedentes, formación obligatoria, nombramiento por tiempo limitado, supervisión por pares. La protección del joven es lo primero. Por eso, en esta línea, **el Curso 24 (A Salvo del Peligro) es habilitante**: ningún adulto avanza al Nivel 2 sin completarlo."_
+9. **`paragraph`** — _"Es una frase latina que significa **'lo primero, no hacer daño'**. La OMMS la usa en p. 33 para subrayar la responsabilidad ética del adulto en el Movimiento: verificación previa de antecedentes, formación obligatoria, nombramiento por tiempo limitado, supervisión por pares. La protección del joven es lo primero. Por eso, en esta línea, **el Curso 24 (A Salvo del Peligro) es habilitante**: ningún adulto avanza al Nivel 2 sin completarlo."_
 10. **`info-box`** — _"Esta lección es probablemente la más importante del Nivel 1. Si te quedas con una sola idea de los 6 cursos, que sea esta: tu trabajo no es dirigir al joven. Es apoyarlo para que él se desarrolle. La diferencia parece pequeña; en la práctica, lo cambia todo."_
 
 **Reflexión:** _"Recuerda una situación reciente donde tomaste una decisión 'en nombre' de un joven o de un grupo de jóvenes (no por una emergencia, simplemente porque te parecía más rápido). Escribe brevemente: ¿qué pasó? ¿Qué hubiera pasado si lo hubieran decidido ellos?"_
