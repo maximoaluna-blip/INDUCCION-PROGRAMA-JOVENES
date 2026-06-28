@@ -1,0 +1,494 @@
+{
+  "courseId": "mi-compromiso-programa-jovenes",
+  "title": "Mi Compromiso con el Programa de Jóvenes",
+  "subtitle": "Tu plan personal de dirigente — cierre del Nivel 1",
+  "description": "El cierre del Nivel 1 de la Línea Programa de Jóvenes. En ~30 minutos vas a convertir los Cursos 1 a 5 en un Plan Personal de Dirigente firmable: revisas tu brújula, defines tu rol, rama y áreas prioritarias, planeas tu próxima reunión y tu proyecto del trimestre, trazas tu ruta de formación y firmas tu promesa personal. No hay contenido nuevo: integras lo que ya tienes en algo accionable.",
+  "icon": "🗺️",
+  "duration": "30 minutos",
+  "totalContentModules": 5,
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Bienvenida",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>~30 minutos.</strong> Al final vas a tener un Plan Personal de Dirigente firmado, descargable en PDF, con compromisos chicos y concretos para el próximo trimestre. Y un par dirigente con quien compartirlo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Llegaste hasta acá. Tomaste 5 cursos. Leíste a Baden-Powell, a la OMMS, a la PNPJ. Te asomaste a los 8 elementos del Método y al Modelo de Aplicación colombiano. Reflexionaste, contestaste quizzes, escribiste compromisos parciales. Hoy todo eso se vuelve plan."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que vas a vivir en este curso"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Revisión de tu brújula: qué te quedó de los Cursos 1–5.",
+            "Definición de tu rol, rama y áreas prioritarias del trimestre.",
+            "Tu próxima reunión y tu proyecto del trimestre, planeados con los 8 elementos del Método.",
+            "Tu ruta de formación: qué cursos del Nivel 2 y del Nivel 4 vas a tomar primero.",
+            "Tu par dirigente y tu promesa personal."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "Hoy no aprendes contenido nuevo. Integras lo que ya tienes en un plan que puedas mirar dentro de un mes y ajustar. Tómate el tiempo. Vale el viaje."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🪞 Mi brújula: qué me quedó del Nivel 1",
+      "emoji": "🪞",
+      "navLabel": "Mi brújula",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> revisión guiada de las reflexiones acumuladas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Antes de planear, miremos hacia atrás. Las reflexiones que escribiste en cada curso son tu <strong>brújula personal</strong>: lo que más te resonó, lo que más te costó, lo que reconociste como propio. Aquí las vamos a recuperar."
+        },
+        {
+          "type": "info-box",
+          "text": "🧭 <strong>Tu brújula del Nivel 1.</strong> Recupera las reflexiones de cierre que escribiste en cada curso: el compromiso de la primera semana (Curso 1, L6), tu compromiso pedagógico (Curso 2, L6), tu frase de definición (Curso 3, L6), tu ajuste de reunión (Curso 4, L8) y tu mapa del Modelo (Curso 5, L7). Tenlas a la vista mientras construyes tu plan."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tres preguntas para mirar el camino"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "¿Cuál idea de los 5 cursos <strong>más me transformó la mirada</strong> sobre el Programa de Jóvenes? Escríbela en una frase.",
+            "¿Cuál práctica <strong>me di cuenta que estoy haciendo mal o ausente</strong>, y necesito ajustar?",
+            "¿Cuál fortaleza <strong>ya tengo</strong> que el Movimiento necesita de mí?"
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "Esta auto-revisión es la materia prima de tu plan. Lo que escribas aquí va a guiar los compromisos de las próximas lecciones. Sé honesto y específico."
+        }
+      ],
+      "reflection": {
+        "prompt": "Responde las 3 preguntas del paso anterior. No copies de tus reflexiones anteriores; reescribe con la perspectiva de quien ya terminó los 5 cursos."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar a mi rol y mi rama 🎯",
+        "questions": [
+          {
+            "text": "Una \"brújula personal\" en este Nivel 1 es…",
+            "options": [
+              "Un instrumento físico que se regala al cerrar el curso.",
+              "El conjunto de reflexiones que escribiste en cada curso, que ahora guía la construcción de tu plan.",
+              "La hoja de ruta de los cursos siguientes."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "¿Para qué sirve la auto-revisión de la L2 antes de planear?",
+            "options": [
+              "Para repasar el contenido de los 5 cursos en clave de examen.",
+              "Para identificar la idea más transformadora, la práctica a ajustar y la fortaleza ya presente — insumos directos del plan.",
+              "Para evaluar si los cursos estuvieron bien diseñados."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "🎯 Mi rol, mi rama, mis prioridades",
+      "emoji": "🎯",
+      "navLabel": "Rol y rama",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> defino dónde sirvo y qué áreas trabajo este trimestre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tu plan personal arranca con tu rol concreto. Si sirves en Manada, no vas a planear como sirves en Clan. Si eres asistente, no vas a planear como un jefe de rama. Vamos al detalle."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mi rol y mi rama"
+        },
+        {
+          "type": "paragraph",
+          "text": "Anota en tu reflexión tu ámbito de servicio: <strong>rama</strong> (Familia, Manada, Tropa, Comunidad, Clan, Equipo de Programa de Grupo, Comisión Regional PJ, Comisión Nacional PJ o Red de Jóvenes); <strong>cargo</strong> actual o esperado (Asistente, Subjefe de Rama, Jefe de Rama, Consejero Juvenil, Comisionado de PJ, Coordinador RDJ u otro); el <strong>grupo scout o ámbito</strong> donde sirves (nombre del grupo, región); y la <strong>cantidad de protagonistas</strong> que acompañas o acompañarás."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mis áreas prioritarias del trimestre"
+        },
+        {
+          "type": "paragraph",
+          "text": "De las 6 áreas de crecimiento (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad), elige <strong>2 áreas</strong> donde quieras poner foco este trimestre. No las que más amas; las que más necesita tu unidad ahora."
+        },
+        {
+          "type": "plan-builder",
+          "builderId": "pj-areas-prioritarias",
+          "competences": [
+            { "id": "corporalidad", "name": "Corporalidad" },
+            { "id": "creatividad", "name": "Creatividad" },
+            { "id": "caracter", "name": "Carácter" },
+            { "id": "afectividad", "name": "Afectividad" },
+            { "id": "sociabilidad", "name": "Sociabilidad" },
+            { "id": "espiritualidad", "name": "Espiritualidad" }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mi rol principal del trimestre"
+        },
+        {
+          "type": "paragraph",
+          "text": "De los 3 roles del Modelo de Aplicación (Apoyar, Acompañar, Enlazar), ¿cuál vas a fortalecer este trimestre? El que más te haga falta, no el que ya manejas bien. Anota tu elección y por qué en tu reflexión."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe en una frase: ¿cómo conecta tu rol prioritario del trimestre (Apoyar, Acompañar o Enlazar) con las 2 áreas de crecimiento que elegiste?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar a mi reunión y mi proyecto 🛠️",
+        "questions": [
+          {
+            "text": "Al elegir las 2 áreas prioritarias del trimestre, el criterio sugerido es…",
+            "options": [
+              "Las que más te gustan o más manejas.",
+              "Las que más necesita tu unidad ahora.",
+              "Las que el Comisionado Regional priorizó para todo el país."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "El rol prioritario del trimestre (Apoyar/Acompañar/Enlazar) se elige…",
+            "options": [
+              "Por edad del dirigente — los nuevos Apoyan, los veteranos Enlazan.",
+              "El que más te haga falta fortalecer, no el que ya manejas bien.",
+              "Aleatoriamente entre los 3."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "🛠️ Mi próxima reunión + mi proyecto del trimestre",
+      "emoji": "🛠️",
+      "navLabel": "Reunión y proyecto",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> 1 reunión y 1 proyecto planeados con los 8 elementos + DURASLID."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esta es la lección donde el plan se vuelve acción. Vas a planear concretamente: una reunión que vas a tener esta o la próxima semana, y un proyecto que tu unidad va a vivir en el próximo trimestre."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mi próxima reunión: los 8 elementos en acción"
+        },
+        {
+          "type": "paragraph",
+          "text": "En tu reflexión, fija tu próxima reunión: la <strong>fecha</strong>; el <strong>tema o foco principal</strong>; el <strong>elemento del Método</strong> que vas a fortalecer especialmente y <strong>cómo</strong> lo vas a fortalecer (1-2 líneas); y cuál de los 8 atributos <strong>DURASLID</strong> (Desafiante, Útil, Recompensante, Atractiva, Segura, Lúdica, Inclusiva, Diversa) está en riesgo y necesita atención."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mi proyecto del trimestre"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un proyecto scout no es una actividad. Es una experiencia con propuesta (de quién surge), decisión (cómo se elige), preparación (qué se necesita), desarrollo (cómo se ejecuta), evaluación (qué aprendimos). Lo más importante: <strong>lo proponen los protagonistas</strong>, no los adultos. Tu rol es Apoyar, Acompañar y Enlazar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Anota en tu reflexión: el <strong>nombre tentativo</strong> del proyecto; <strong>de dónde surgió la idea</strong> (de los protagonistas, del adulto que la abrirá a votación, o aún no surgió y la próxima reunión la abren); <strong>qué áreas de crecimiento toca</strong> (mínimo 2 de las 6); y <strong>cómo se conecta con el territorio</strong> (barrio, comunidad, escuela)."
+        },
+        {
+          "type": "info-box",
+          "text": "Si te quedaste atascado en algún campo, está bien. Marca \"por definir\" y vuelve más tarde. El plan se construye, no se improvisa."
+        }
+      ],
+      "reflection": {
+        "prompt": "Imagina que tu plan se cumple al 80%. Al final del trimestre, ¿qué se va a notar en tu unidad que hoy no se nota? Sé concreto."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar a mi ruta de formación 📚",
+        "questions": [
+          {
+            "text": "Un proyecto scout, según el Modelo de Aplicación 2026, idealmente…",
+            "options": [
+              "Lo propone el dirigente y lo ejecutan los protagonistas.",
+              "Surge de los protagonistas; el dirigente Apoya, Acompaña y Enlaza.",
+              "Lo asigna el Comisionado Regional según el plan nacional."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "¿Por qué se planea pensando en un elemento del Método y un atributo DURASLID?",
+            "options": [
+              "Para cumplir un requisito de la PNPJ.",
+              "Para hacer consciente lo que la reunión va a fortalecer especialmente, en vez de confiarlo a la intuición.",
+              "Para evitar tener que aplicar los 8 elementos."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "📚 Mi ruta de formación: Niveles 2 y 4",
+      "emoji": "📚",
+      "navLabel": "Ruta de formación",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> selecciono cursos según rama y rol."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hoy cierras el Nivel 1. La línea tiene 4 niveles. Aquí defines cuál curso del Nivel 2 vas a tomar primero y cuándo vas a hacer el Curso 24 (A Salvo del Peligro — habilitante)."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tu curso de rama del Nivel 2 (Cursos 7–11)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cada dirigente toma el curso de su rama. La plataforma te lo sugiere automáticamente según la rama que declaraste en la L3 de este curso."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "🐻 <strong>Curso 7</strong> — Rama Familia (Cachorros, 5-6 años).",
+            "🐺 <strong>Curso 8</strong> — Rama Manada (Lobatos, 7-10 años).",
+            "⚜️ <strong>Curso 9</strong> — Rama Tropa Scout (11-14 años).",
+            "🧗 <strong>Curso 10</strong> — Rama Comunidad (Nómadas, 15-17 años).",
+            "🏔️ <strong>Curso 11</strong> — Rama Clan (Rovers, 18-20 años)."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los 3 cursos pedagógicos operativos (Cursos 12, 13, 14)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Estos los toman todos los dirigentes de unidad. Recomendamos este orden, según tu rol:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Si tu foco es acompañar la progresión personal</strong> (uno-a-uno con los protagonistas) → empieza por el <strong>Curso 12 (Seguimiento de la Progresión)</strong>.",
+            "<strong>Si eres Jefe o Subjefe de Rama</strong> → empieza por el <strong>Curso 13 (Planeación de Reuniones)</strong> y luego el <strong>Curso 14 (Ciclo con ABP)</strong>.",
+            "<strong>Si eres Asistente o entras nuevo</strong> → orden libre, según prioridad de tu unidad."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Curso 24 — A Salvo del Peligro: HABILITANTE"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Importante</strong>: ningún dirigente avanza al Nivel 2 sin haber completado el Curso 24 (A Salvo del Peligro aplicado al Programa). Es el único curso del Nivel 4 que es prerrequisito real. Tómalo en paralelo con tu primer curso del Nivel 2."
+        },
+        {
+          "type": "paragraph",
+          "text": "Los otros 4 cursos del Nivel 4 (Marco de Mundo Mejor, Kit Constructores de Paz, Kit HeForShe, Kit Patrimonito) se toman según interés o convocatorias nacionales. No tienen orden obligatorio."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe cuál será el primer curso del Nivel 2 que vas a tomar (de los 8) y cuándo planeas empezarlo. Sé específico (semana, mes)."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar a mi par y mi promesa 🤝",
+        "questions": [
+          {
+            "text": "El Curso 24 (A Salvo del Peligro) es…",
+            "options": [
+              "Opcional, solo para quienes trabajan en zonas de alto riesgo.",
+              "Habilitante: ningún dirigente avanza al Nivel 2 sin completarlo.",
+              "Solo aplica a Comisionados Nacionales."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Un dirigente nuevo de Manada que se enfocará en acompañar la progresión personal debería empezar el Nivel 2 con…",
+            "options": [
+              "El Curso 8 (Rama Manada) y el Curso 12 (Seguimiento de la Progresión).",
+              "El Curso 14 (Ciclo con ABP) primero, luego el resto.",
+              "Los cursos del Nivel 3 directamente."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "🤝 Mi par dirigente + Promesa personal",
+      "emoji": "🤝",
+      "navLabel": "Par y promesa",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> comparto el plan con un par + firmo mi promesa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Los planes que se guardan en el cajón no se cumplen. Los que se comparten con un par, sí. Cerramos el Nivel 1 con dos actos: identificar un par dirigente con quien compartir el plan, y firmar una promesa personal."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mi par dirigente"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un par dirigente puede ser: otro adulto de tu mismo consejo de grupo, alguien de tu rama en otro grupo de la región, un dirigente con quien hiciste un curso de formación. La función: compartirle el plan, contar cómo va cada mes, ajustar juntos. No es un jefe ni un evaluador; es un compañero de camino."
+        },
+        {
+          "type": "paragraph",
+          "text": "Anota en tu reflexión: el <strong>nombre</strong> del par dirigente, su <strong>grupo o ámbito</strong>, <strong>cuándo</strong> le compartirás el plan, y con <strong>qué frecuencia</strong> se reunirán para revisar avances (semanal, quincenal o mensual)."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mi promesa personal del Nivel 1"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yo, <strong>[tu nombre]</strong>, completé el Nivel 1 de la Línea Programa de Jóvenes el día <strong>[fecha]</strong>.<br>Asumí los aprendizajes de los Cursos 1 a 6 como brújula de mi servicio al Movimiento Scout.<br>Me comprometo a vivir el Programa de Jóvenes como una alianza educativa entre jóvenes y adultos, no como un manual.<br>Me comprometo a educar por el amor, no por el temor.<br>Me comprometo a aplicar el Método Scout como sistema completo, no como menú.<br>Me comprometo a tomar el Curso 24 (A Salvo del Peligro) antes de avanzar al Nivel 2.<br>Y me comprometo a revisar y ajustar este Plan Personal de Dirigente, junto con mi par, cada <strong>[frecuencia que elegí]</strong>."
+        },
+        {
+          "type": "mission-box",
+          "text": "Lee tu promesa en voz alta antes de descargar tu certificado. Lo que se dice cobra peso. Lo que se escribe se queda."
+        },
+        {
+          "type": "photo-upload",
+          "photoId": "pj-promesa-personal-nivel-1",
+          "prompt": "Foto de tu promesa firmada (opcional)",
+          "hint": "Si quieres, imprime la promesa, fírmala a mano y súbele la foto. Es solo para ti — la guardamos en tu navegador.",
+          "buttonLabel": "📷 Subir foto de mi promesa"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que viene"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Inmediato</strong>: Curso 24 (A Salvo del Peligro — habilitante).",
+            "<strong>Próximo mes</strong>: tu curso de rama del Nivel 2 + un curso pedagógico operativo (12, 13 o 14).",
+            "<strong>Próximos meses</strong>: el resto del Nivel 2, el Nivel 3 (cuando ejerzas un cargo) y los demás cursos del Nivel 4."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "Bienvenido al equipo de los dirigentes con plan. El Movimiento te necesitaba. Tu unidad también. Buen camino, hermano mayor."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe tu promesa personal completa (la plantilla de arriba) y agrega una línea propia tuya — algo que solo tú podrías comprometer, según tu camino. Esta promesa te la enviaremos por correo con tu certificado."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Obtener mi certificado 🎓",
+        "questions": [
+          {
+            "text": "¿Por qué se sugiere compartir el plan con un par dirigente, no con un jefe?",
+            "options": [
+              "Porque los jefes están ocupados con otras tareas.",
+              "Porque el par es compañero de camino, no evaluador: sostiene sin juzgar y permite ajuste mutuo.",
+              "Porque el plan es secreto y el jefe no debe verlo."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "La promesa personal del Nivel 1 es…",
+            "options": [
+              "Un trámite administrativo necesario para obtener el certificado.",
+              "Un acto de compromiso explícito que convierte el aprendizaje en orientación viva del servicio.",
+              "Una promesa de cumplir los 5 cursos restantes del Nivel 1."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Listo para integrar",
+      "emoji": "👋",
+      "unlockOnModule": 1
+    },
+    {
+      "id": "achievement-2",
+      "name": "Veo mi camino",
+      "emoji": "🪞",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-3",
+      "name": "Sé dónde estoy parado",
+      "emoji": "🎯",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-4",
+      "name": "Tengo planes concretos",
+      "emoji": "🛠️",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-5",
+      "name": "Sé qué viene",
+      "emoji": "📚",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-final",
+      "name": "Dirigente con Plan",
+      "emoji": "🗺️",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "MI COMPROMISO CON EL PROGRAMA DE JÓVENES",
+    "description": "ha completado el Curso 6 de la Línea Programa de Jóvenes, cerrando el Nivel 1 con un Plan Personal de Dirigente y una Promesa personal que integran los aprendizajes de los Cursos 1 a 5, comprometiéndose a vivir el Programa de Jóvenes como una alianza educativa al servicio de los protagonistas de la Asociación Scouts de Colombia"
+  }
+}

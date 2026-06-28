@@ -153,7 +153,7 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 7. **`paragraph`** — _"Es el principio pedagógico que B-P pidió prestado a John Dewey y a la educación activa de comienzos del siglo XX. **No se aprende escuchando; se aprende intentando, equivocándose y mejorando.** En la unidad, esto significa: dejar que la patrulla cocine sola aunque tarde el doble; dejar que el lobato amarre el nudo aunque le quede flojo; dejar que el rover lidere el proyecto aunque a veces se atasque."_
 8. **`policy-quote`** — Cita de B-P:
     - `text`: _"El método de instrucción en el escultismo es el de crear en el muchacho el deseo de aprender por sí mismo."_
-    - `source`: "Baden-Powell, citado en The Scout Method, OMMS 2019, p. 18."
+    - `source`: "Baden-Powell."
     - `label`: "📋 La cita de Aprender Haciendo"
 9. **`info-box`** — _"Si el dirigente hace por el joven, el joven no aprende. Esa es la regla. Tu trabajo es preparar el escenario para que él intente, no resolver lo que él puede resolver."_
 
@@ -185,7 +185,7 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 
 1. **`info-box`** — Idea central de la lección.
 2. **`heading` (nivel 3)** — _"Elemento 3 — Progresión Personal"_
-3. **`paragraph`** — _"Es el camino individual de crecimiento del protagonista en las 6 áreas (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad). No es competitiva: cada joven avanza a su ritmo. Se construye con el acompañamiento del **dirigente** (en sus roles de apoyar, acompañar y enlazar), en momentos de conversación y reconocimiento. Se registra en el **Registro de Acompañamiento a la Progresión Personal** (DNPJ-2026-021) y se sostiene con las **Herramientas de Seguimiento 2.0**."_
+3. **`paragraph`** — _"La PNPJ 2024 lo titula **'Progreso personal'**: es el camino individual de crecimiento del protagonista en las 6 áreas (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad). No es competitiva: cada joven avanza a su ritmo. Se construye con el acompañamiento del **dirigente** (en sus roles de apoyar, acompañar y enlazar), en momentos de conversación y reconocimiento. Se registra en el **Registro de Acompañamiento a la Progresión Personal** (DNPJ-2026-021) y se sostiene con las **Herramientas de Seguimiento 2.0**."_
 4. **`paragraph`** — _"El Modelo de Aplicación 2026 enuncia 3 momentos de aprendizaje en cada oportunidad: **Exploro** (primer contacto), **Aplico** (práctica acompañada), **Profundizo** (transferencia y autonomía). Verlas como un ciclo, no como un examen."_
 5. **`heading` (nivel 3)** — _"Elemento 4 — Sistema de Equipos"_
 6. **`paragraph`** — _"Los jóvenes no viven el Movimiento en grupo grande; lo viven en **pequeños grupos** donde se sienten conocidos, donde toman decisiones, donde aprenden a liderar entre pares. Cada rama tiene su grupo natural: Camadas (Familia), Seisenas (Manada), Patrullas (Tropa), equipos de Comunidad y de Clan."_
@@ -226,7 +226,7 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 
 1. **`info-box`** — Idea central de la lección.
 2. **`heading` (nivel 3)** — _"Elemento 5 — Apoyo del Adulto"_
-3. **`paragraph`** — _"En el Curso 3 viste la frase eje del Movimiento (OMMS 2019, p. 28): de jóvenes, para jóvenes, **apoyado por adultos**. Aquí ese 'apoyo' se vuelve elemento metodológico. Las Características Esenciales enuncian **4 tipos de apoyo del adulto** (recordatorio del Curso 3, L5): educativo, emocional, informativo, evaluativo."_
+3. **`paragraph`** — _"En el Curso 3 viste la frase eje del Movimiento (OMMS 2019, p. 21): de jóvenes, para jóvenes, **apoyado por adultos**. Aquí ese 'apoyo' se vuelve elemento metodológico. Las Características Esenciales enuncian **4 tipos de apoyo del adulto** (recordatorio del Curso 3, L5): educativo, emocional, informativo, evaluativo."_
 4. **`paragraph`** — _"El Modelo de Aplicación 2026 traduce esto en **3 roles del dirigente**: **Apoyar** (preparar las condiciones para que el joven actúe), **Acompañar** (estar presente en el proceso), **Enlazar** (conectar al joven con el grupo, la familia, el territorio y la institución)."_
 5. **`policy-quote`** — Cita de B-P sobre el rol:
     - `text`: _"El instructor no es un maestro: es un hermano mayor."_
@@ -275,9 +275,9 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
     - `text`: _"Para quienes tienen ojos para ver y oídos para oír, el bosque es a la vez un laboratorio, un club y un templo."_
     - `source`: "Baden-Powell, Rovering to Success, citado en The Scout Method, OMMS 2019, p. 25."
     - `label`: "📋 La frase de B-P sobre la naturaleza"
-5. **`paragraph`** — _"En la PNPJ 2024, la Naturaleza se desdobla como elemento autónomo (antes estaba integrada con otros), reconociendo que su pérdida es lo que más afecta a la calidad del Programa actual: cada vez se acampa menos, se camina menos, se está menos al aire libre. La política pide recuperar ese eje."_
+5. **`paragraph`** — _"La PNPJ 2024 reconoce la Naturaleza como un elemento propio del Método, e insiste en que implica mucho más que hacer actividades al aire libre: se trata de un contacto constructivo con el entorno natural. Por eso preocupa que cada vez se acampe menos, se camine menos, se esté menos en contacto real con la naturaleza. La política pide recuperar ese eje."_
 6. **`heading` (nivel 3)** — _"Elemento 8 — Participación en la Comunidad"_
-7. **`paragraph`** — _"El Movimiento no educa para encerrarse en la unidad. Educa para servir y participar. La Participación en la Comunidad incluye proyectos de servicio en el barrio, articulación con organizaciones locales, ejercicio de ciudadanía en espacios públicos. La PNPJ 2024 lo nombra como **'territorio'**: el espacio físico, social, cultural y comunitario donde el joven ejerce su ciudadanía activa."_
+7. **`paragraph`** — _"El Movimiento no educa para encerrarse en la unidad. Educa para servir y participar. La Participación en la Comunidad incluye proyectos de servicio en el barrio, articulación con organizaciones locales, ejercicio de ciudadanía en espacios públicos. La PNPJ 2024 lo titula **'Participación comunitaria'**: ayudar a construir un mundo mejor desde la ciudadanía activa, en el **territorio** —el espacio físico, social, cultural y comunitario— donde el joven vive."_
 8. **`policy-quote`** — Cita:
     - `text`: _"El servicio no debe verse simplemente como hacer cosas para los demás, sino que, por la implicación, supone hacer cosas con los demás."_
     - `source`: "The Scout Method, OMMS 2019, p. 27."

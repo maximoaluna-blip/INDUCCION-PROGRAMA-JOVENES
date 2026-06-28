@@ -90,7 +90,7 @@ Este hook se enuncia en la lección 3 y atraviesa todo el curso. Su función es 
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Apertura: _"El 1 de agosto de 1922, en Ginebra, Robert Baden-Powell —el militar inglés que 15 años antes había fundado el Movimiento Scout— se subió al estrado del 3er Congreso Internacional sobre Moral y Educación. Estaba en el Instituto Jean-Jacques Rousseau, una de las casas pedagógicas más importantes del mundo (lo que después se convertiría en parte de la UNESCO). Tenía 65 años, había vivido la Primera Guerra Mundial, y vio cómo Europa estaba a punto de cometer el mismo error otra vez."_
+2. **`paragraph`** — Apertura: _"El 1 de agosto de 1922, en Ginebra, Robert Baden-Powell —el militar inglés que 15 años antes había fundado el Movimiento Scout— se subió al estrado del 3er Congreso Internacional sobre Moral y Educación. Estaba en el Instituto Jean-Jacques Rousseau, una de las casas pedagógicas más importantes del mundo, que organizó el congreso (de estos congresos nació en 1925 la Oficina Internacional de Educación, hoy parte de la UNESCO). Tenía 65 años, había vivido la Primera Guerra Mundial, y vio cómo Europa estaba a punto de cometer el mismo error otra vez."_
 3. **`heading` (nivel 3)** — _"Lo que estaba pasando en el mundo"_
 4. **`timeline`** — Hitos del contexto:
     - **1907** — B-P organiza el campamento de la isla de Brownsea: nace el escultismo.
@@ -100,8 +100,8 @@ Este hook se enuncia en la lección 3 y atraviesa todo el curso. Su función es 
 5. **`heading` (nivel 3)** — _"Lo que B-P fue a decir"_
 6. **`paragraph`** — _"Su informe se llamó **'La educación por el amor en sustitución de la educación por el temor'**. No habló de uniformes, ni de insignias, ni de campamentos. Habló de pedagogía. De cómo se educa a un joven sin convertirlo en un soldado dócil ni en un alumno obediente. Habló de **autoeducación voluntaria, fraternidad universal y deseo de conocer**. Lo escucharon educadores de todo el mundo. La OMMS lo reeditó en 2007, en el año centenario del Movimiento, para que ningún dirigente lo olvide."_
 7. **`policy-quote`** — Cita textual del comienzo del informe:
-    - `text`: _"El temor ha sido el arma de los más poderosos para aterrorizar a los más débiles. Ha sido el método del padre rudo, del maestro severo, del oficial autoritario. Yo me pregunto si no ha llegado la hora de ensayar otro camino."_
-    - `source`: "Baden-Powell, Ginebra, 1 de agosto de 1922 (reedición OMMS 2007, p. 4-5)."
+    - `text`: _"Los fuertes se servirán del miedo como un arma para aterrorizar a los débiles."_
+    - `source`: "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 5)."
     - `label`: "📋 Ver las palabras exactas de B-P"
 8. **`info-box`** — _"Este curso no es una biografía de B-P. Es una invitación a tomar en serio lo que dijo ese día — porque sigue siendo lo que sostiene al Movimiento."_
 
@@ -142,8 +142,8 @@ Este hook se enuncia en la lección 3 y atraviesa todo el curso. Su función es 
 5. **`paragraph`** — _"Cuando estos 4 motores manejan una unidad, una familia o un aula, los chicos aprenden a hacer lo correcto **mientras alguien los mira**. Aprenden a sobrevivir, no a crecer."_
 6. **`heading` (nivel 3)** — _"Lo que B-P le criticó al método antiguo"_
 7. **`policy-quote`** — Cita de B-P:
-    - `text`: _"El método antiguo enseñaba mediante el castigo, la recompensa, la vanidad y la competencia, en vez de despertar el deseo de conocer."_
-    - `source`: "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 11)."
+    - `text`: _"El Método antiguo pecó por la base, porque desarrollaba en el alumno el miedo al castigo, el deseo de recompensa, la vanidad y el espíritu de competencia."_
+    - `source`: "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 12)."
     - `label`: "📋 Ver la crítica de B-P"
 8. **`heading` (nivel 3)** — _"Esto pasa todavía"_
 9. **`list`** — 5 ejemplos contemporáneos para reconocer el patrón:
@@ -189,7 +189,7 @@ Este hook se enuncia en la lección 3 y atraviesa todo el curso. Su función es 
     - 🔍 **Despertar el deseo de conocer** — _"No meterle ideas en la cabeza al niño. Despertarle la curiosidad y mostrarle el camino."_ La pregunta vale más que la respuesta.
     - 🙋 **Servir al prójimo como hábito** — _"Aprender haciendo y haciendo el bien."_ El servicio no es una actividad ocasional; es la columna vertebral del carácter.
 5. **`policy-quote`** — Cita central de B-P:
-    - `text`: _"La educación no consiste en introducir en el cerebro del niño una cierta dosis de conocimiento, sino en despertarle el deseo de conocer e indicarle el modo de estudiar."_
+    - `text`: _"La educación, tal como la entiendo, no consiste en introducir en el cerebro del niño una cierta dosis de conocimiento, sino en despertarle el deseo de conocer e indicarle el modo de estudiar."_
     - `source`: "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 8)."
     - `label`: "📋 Ver la cita central del informe"
 6. **`heading` (nivel 3)** — _"Esto cambia cómo planeas una reunión"_
@@ -236,7 +236,7 @@ Este hook se enuncia en la lección 3 y atraviesa todo el curso. Su función es 
     - 🙋 **Hábito de servir al prójimo** — no servir por obligación o por evento; servir como forma de ser.
     - 💪 **Salud y vigor físico** — cuidar el cuerpo: ejercicio, higiene, sueño, alimentación, naturaleza.
 5. **`policy-quote`** — Cita de B-P:
-    - `text`: _"El programa de instrucción Scout persigue cuatro objetivos: el desarrollo del carácter y de la inteligencia; la habilidad manual; el hábito de servir al prójimo; y la salud y vigor físico."_
+    - `text`: _"En cada una de las sesiones la instrucción es orientada con vista a cuatro objetivos principales… desarrollar: el carácter y la inteligencia; la habilidad manual; el hábito de servir al prójimo; y la salud y el vigor físico."_
     - `source`: "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 10)."
     - `label`: "📋 Ver los 4 objetivos textuales"
 6. **`heading` (nivel 3)** — _"De 4 objetivos (1922) a 6 áreas (2024)"_
@@ -292,7 +292,7 @@ Este hook se enuncia en la lección 3 y atraviesa todo el curso. Su función es 
     - 🧭 **Curso 4** — El Método Scout y sus 8 elementos: la herramienta metodológica con la que aterrizas el amor a una reunión concreta.
     - 📜 **Curso 5** — La PNPJ y "El Gran Juego para la Vida": cómo Colombia aterriza todo esto en su Modelo de Aplicación 2026.
     - 🗺️ **Curso 6** — Mi Compromiso con el Programa de Jóvenes: tu plan personal.
-10. **`info-box`** — Despedida: _"Cuando dudes, recuerda lo que B-P dijo en Ginebra: 'Aprender haciendo y contribuyendo a la formación del propio yo y no recibiendo pasivamente las ideas de otros; ese es el principio.' Buen camino."_
+10. **`info-box`** — Despedida: _"Cuando dudes, recuerda la idea que B-P hizo suya en Ginebra, del educador Edmundo Holmes: 'Aprender haciendo y contribuyendo a la formación del propio yo y no recibiendo pasivamente las ideas de otros; ese es el principio.' Buen camino."_
 
 **Reflexión:** _"Escribe tu compromiso pedagógico completo (plantilla del paso 7). Te lo enviaremos por correo con tu certificado para que lo recuerdes."_
 
@@ -304,7 +304,7 @@ Este hook se enuncia en la lección 3 y atraviesa todo el curso. Su función es 
 > b) _La educación por el temor — usa recompensa externa y competencia._  ✅
 > c) _Una práctica neutra que no aplica al escultismo._
 
-> **P2.** Según el cierre del curso, la frase de B-P _"Aprender haciendo y contribuyendo a la formación del propio yo"_ apunta a…
+> **P2.** Según el cierre del curso, la frase que B-P hizo suya _"Aprender haciendo y contribuyendo a la formación del propio yo"_ apunta a…
 >
 > a) _Que el joven es un recipiente vacío al que hay que llenar._
 > b) _Que el joven es un sujeto activo de su propia formación, no pasivo._  ✅

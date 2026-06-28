@@ -1,0 +1,694 @@
+{
+  "courseId": "pnpj-gran-juego-para-la-vida",
+  "title": "La PNPJ y \"El Gran Juego para la Vida\"",
+  "subtitle": "El Programa de Jóvenes aterrizado a Colombia",
+  "description": "El Curso 5 de la Línea Programa de Jóvenes. En ~35 minutos vas a aterrizar todo lo aprendido al contexto colombiano: la Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. 617 de 2024) y su Modelo de Aplicación \"El Gran Juego para la Vida\" (DNPJ 2026). Vas a recorrer las 5 ramas, las 6 áreas de crecimiento, las 3 etapas × 3 momentos y las herramientas operativas, y a construir tu mapa personal del Modelo.",
+  "icon": "📜",
+  "duration": "35 minutos",
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Bienvenida",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>~35 minutos.</strong> Al final vas a poder abrir el Modelo de Aplicación 2026 y entender qué dice cada capítulo, sin perderte."
+        },
+        {
+          "type": "paragraph",
+          "text": "Te damos la bienvenida a este curso, la columna documental de toda la línea. Tras el porqué (Curso 2), el qué (Curso 3) y el cómo (Curso 4), aquí ves cómo la Asociación Scouts de Colombia tradujo todo eso en una política nacional y un modelo de aplicación operativos. Trae los Cursos 2, 3 y 4 frescos: hoy los vas a aterrizar a Colombia."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que vas a vivir en este curso"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "La Política Nacional vigente (PNPJ 2024).",
+            "Las 5 ramas con sus edades, grupos naturales y marcos.",
+            "Las 6 áreas de crecimiento.",
+            "Las 3 etapas y los 3 momentos.",
+            "Las herramientas operativas (3 roles, DURASLID, ABP, territorio).",
+            "Tu mapa personal del Modelo."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "Este curso es como el plano de tu casa: no lo vas a recitar de memoria. Lo vas a usar cada vez que necesites encontrar algo."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "📜 La PNPJ 2024: marco y propósito",
+      "emoji": "📜",
+      "navLabel": "La PNPJ 2024",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el Acuerdo CSN 617 y por qué fue necesario."
+        },
+        {
+          "type": "paragraph",
+          "text": "El 11 de diciembre de 2024, el Consejo Scout Nacional aprobó el <strong>Acuerdo C.S.N. N° 617</strong>. Ese acuerdo es lo que hoy conocemos como <strong>Política Nacional de Programa de Jóvenes (PNPJ)</strong>. Reemplazó políticas anteriores, integró el Método Scout en su versión 2019 (con 8 elementos), y adoptó el marco de competencias UNESCO. Es, oficialmente, la norma vigente del PJ en Colombia."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver el propósito textual",
+          "source": "PNPJ (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024), §1 Propósito de la Política, págs. 3-4.",
+          "text": "Adaptar la Política Mundial e Interamericana de Programa de Jóvenes a la realidad de Colombia, con el fin de asegurar la aplicación de los conceptos al contexto país."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que la PNPJ trae de nuevo"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Adopta el Método Scout en su versión 2019</strong> (8 elementos: la Naturaleza se desdobla como elemento autónomo).",
+            "<strong>Incorpora las 6 áreas de crecimiento</strong> alineadas con los 4 pilares UNESCO (conocer, hacer, vivir juntos, ser).",
+            "<strong>Define competencias terminales e intermedias</strong> por rama y por área (lo que en Curso 4 era abstracto, aquí es concreto).",
+            "<strong>Pone al joven al centro</strong> con el concepto de \"protagonista de programa\" (no participante, no miembro, no usuario).",
+            "<strong>Reconoce el territorio</strong> como concepto integrador: no solo el espacio físico, también el social, cultural y comunitario."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La PNPJ y su Modelo de Aplicación"
+        },
+        {
+          "type": "paragraph",
+          "text": "La PNPJ tiene 45 páginas. Está bien escrita, pero es densa. Por eso la DNPJ produjo en 2026 un manual operativo de 109 páginas llamado <strong>\"El Gran Juego para la Vida\"</strong> (DNPJ-2026-024). Es el manual pedagógico angular: lo que la política dice de forma normativa, el Modelo de Aplicación lo desarrolla con ejemplos, plantillas y rutas concretas. También existe el <strong>Modelo de Aplicación de Bolsillo</strong> (DNPJ-2026-063, 14 páginas) para uso diario."
+        },
+        {
+          "type": "info-box",
+          "text": "En este curso vamos a usar el Modelo de Aplicación 2026 como referencia. Lo puedes descargar gratis en scout.org.co/biblioteca/dnpj."
+        }
+      ],
+      "reflection": {
+        "prompt": "De las 5 novedades de la PNPJ, ¿cuál te parece más importante o más necesaria para el Programa de Jóvenes en Colombia hoy? ¿Por qué?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar a las 5 ramas 🐺",
+        "questions": [
+          {
+            "text": "La Política Nacional de Programa de Jóvenes vigente es…",
+            "options": [
+              "Una resolución de la DNPJ de 2026.",
+              "El Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024.",
+              "La Política Interamericana de 2022."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "¿Cuál es la relación entre la PNPJ y \"El Gran Juego para la Vida\"?",
+            "options": [
+              "Son documentos distintos sin relación entre sí.",
+              "La PNPJ es la norma; \"El Gran Juego para la Vida\" es su manual operativo de aplicación.",
+              "\"El Gran Juego para la Vida\" reemplaza a la PNPJ."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "🐻🐺⚜️🧗🏔️ Las 5 ramas en una página",
+      "emoji": "🐺",
+      "navLabel": "Las 5 ramas",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> edades, grupos naturales, marcos simbólicos, Promesa/Ley."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Modelo de Aplicación 2026 organiza el Programa en <strong>5 ramas</strong> por edades. Cada una con su grupo natural, su marco simbólico, su Promesa y su Ley. Es la columna vertebral del recorrido educativo del protagonista, desde los 5 hasta los 20 años."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las 5 ramas en panorámica"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🐻 Familia — Cachorros (5–6 años)",
+              "description": "Grupo natural: Camadas, Círculo de Familia, Encuentro del Cubil. Marco simbólico: Hermanos de Mowgli (primer capítulo del Libro de las Tierras Vírgenes). Saludo: del Cachorro. Ley: del Cachorro.",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "🐺 Manada — Lobatos (7–10 años)",
+              "description": "Grupo natural: Seisenas. Marco simbólico: Libro de las Tierras Vírgenes (Kipling). Promesa y Ley del Lobato. Principios y Virtudes del Lobato.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "⚜️ Tropa — Scouts (11–14 años)",
+              "description": "Grupo natural: Patrullas (6–8 scouts). Marco simbólico: marco propio Scout. Promesa y Ley Scout.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🧗 Comunidad — Nómadas (15–17 años)",
+              "description": "Grupo natural: equipos de Comunidad. Marco simbólico: Aventura y Ciudadanía. Promesa y Ley Nómada.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🏔️ Clan — Rovers (18–20/21 años)",
+              "description": "Grupo natural: equipos de Clan. Marco simbólico: Rovering propio. Promesa y Ley Rover. Eventos rituales: Vigilia, Peregrinaje, Partida, Cena Rover.",
+              "color": "#ede7f6",
+              "borderColor": "#5e35b1"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El recorrido completo del protagonista"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un cachorro de 5 años que entra a Familia puede recorrer las 5 ramas y salir como rover de 20 años con su Partida Rover. Son 15 años de Movimiento. La PNPJ y el Modelo cuidan que ese recorrido tenga <strong>continuidad</strong> (cada rama prepara para la siguiente) y <strong>coherencia</strong> (los 8 elementos del Método están en todas las ramas, adaptados a la edad)."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las transiciones, momentos clave"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>6 → 7: Familia → Manada</strong> — paso de la primera infancia a la niñez. Cambio de marco simbólico.",
+            "<strong>10 → 11: Manada → Tropa</strong> — paso a la patrulla, autonomía mayor.",
+            "<strong>14 → 15: Tropa → Comunidad</strong> — el paso a la adolescencia tardía y al trabajo por proyectos.",
+            "<strong>17 → 18: Comunidad → Clan</strong> — paso al Movimiento adulto-joven, mayor toma de decisiones, articulación con RDJ."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "En los Cursos 7–11 del Nivel 2 vas a profundizar la rama donde sirves (o donde vas a servir). Hoy solo guarda el mapa."
+        }
+      ],
+      "reflection": {
+        "prompt": "En tu unidad, ¿qué tan bien cuidan las transiciones entre ramas? ¿Has visto protagonistas perderse en la transición? ¿Qué fue lo que falló?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar a las 6 áreas 🌱",
+        "questions": [
+          {
+            "text": "Los Lobatos (7–10 años) se agrupan en…",
+            "options": [
+              "Patrullas, marco simbólico Scout.",
+              "Seisenas, marco simbólico Libro de las Tierras Vírgenes.",
+              "Camadas, marco simbólico Hermanos de Mowgli."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "El paso a la adolescencia tardía y al trabajo por proyectos ocurre en la transición entre…",
+            "options": [
+              "Manada y Tropa (10 → 11 años).",
+              "Tropa y Comunidad (14 → 15 años).",
+              "Comunidad y Clan (17 → 18 años)."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "🌱 Las 6 áreas de crecimiento",
+      "emoji": "🌱",
+      "navLabel": "Las 6 áreas",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> las dimensiones del desarrollo integral del protagonista."
+        },
+        {
+          "type": "paragraph",
+          "text": "En el Curso 2 viste los 4 objetivos que B-P propuso en 1922. En el Curso 3 viste los 5 ámbitos OMMS 2019. Hoy ves la versión colombiana: <strong>6 áreas de crecimiento</strong> que la PNPJ 2024 alinea con los cuatro pilares de la educación de la UNESCO (aprender a conocer, hacer, vivir juntos y ser) y aplica a todas las ramas."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las 6 áreas de crecimiento"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "💪 Corporalidad",
+              "description": "Cuidar y conocer el cuerpo: actividad física, higiene, alimentación, sueño, sexualidad responsable, cuidado de la salud.",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            },
+            {
+              "title": "🎨 Creatividad",
+              "description": "Explorar, inventar, resolver problemas: imaginación, expresión, pensamiento divergente, uso crítico de la tecnología.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "⚓ Carácter",
+              "description": "Decidir, asumir, construir autonomía: voluntad, criterio propio, valores, ética, identidad personal.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "💗 Afectividad",
+              "description": "Reconocer, expresar y regular emociones: autoconocimiento emocional, vínculos saludables, manejo de conflictos personales.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            },
+            {
+              "title": "🤝 Sociabilidad",
+              "description": "Convivir, cooperar, servir, ejercer ciudadanía: vínculos, colaboración, compromiso comunitario, ciudadanía activa.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🌌 Espiritualidad",
+              "description": "Hacerse preguntas grandes y construir sentido: trascendencia, fe (o búsqueda), valores últimos, conexión con lo sagrado o lo numinoso.",
+              "color": "#e0f7fa",
+              "borderColor": "#00acc1"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Competencias terminales e intermedias"
+        },
+        {
+          "type": "paragraph",
+          "text": "Por cada área, el Modelo de Aplicación 2026 define <strong>competencias terminales</strong> (qué debería poder hacer el protagonista al egresar de la rama) y <strong>competencias intermedias</strong> (los pasos para llegar). Lo importante: las áreas son las mismas en todas las ramas; lo que cambia es el nivel de complejidad de la competencia."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ejemplo: en <strong>Corporalidad</strong>, un cachorro de 6 años trabaja \"fortalecer habilidades motoras finas y gruesas\"; un lobato de 9 años, \"afianzar hábitos de higiene\"; un scout de 13 años, \"reconocer y valorar su cuerpo como medio de expresión\"; un nómada de 16, \"tomar decisiones informadas sobre su salud sexual y reproductiva\"; un rover de 19, \"sostener un proyecto personal de salud integral\". Misma área, distintos niveles."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cómo se evalúa la progresión en las áreas"
+        },
+        {
+          "type": "paragraph",
+          "text": "No con exámenes. Con observación, conversación y reconocimiento. Las <strong>Herramientas de Seguimiento de la Progresión Personal 2.0</strong> (DNPJ) traen 9 técnicas: observación en acción, anecdotario, registro conflicto-resolución, listas de cotejo, rúbricas, autoevaluación tipo semáforo, coevaluación \"2+1\", coevaluación por preguntas, registro escrito. El instrumento operativo es el <strong>Registro de Acompañamiento a la Progresión Personal</strong> (Excel DNPJ-2026-021)."
+        },
+        {
+          "type": "info-box",
+          "text": "En el Curso 12 del Nivel 2 vas a aprender estas técnicas en profundidad. Hoy solo guarda el principio: la progresión se observa, no se examina."
+        }
+      ],
+      "reflection": {
+        "prompt": "De las 6 áreas, ¿cuál crees que menos se trabaja explícitamente en tu unidad (o en las que conoces)? ¿Por qué?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar a etapas y momentos ⏳",
+        "questions": [
+          {
+            "text": "Las 6 áreas de crecimiento de la PNPJ 2024 son…",
+            "options": [
+              "Físico, mental, social, espiritual, intelectual, religioso.",
+              "Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad.",
+              "Cuerpo, alma, mente, espíritu, vínculos, valores."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "¿Cómo se evalúa la progresión personal en el Modelo de Aplicación 2026?",
+            "options": [
+              "Con exámenes escritos al final de cada trimestre.",
+              "Con observación, conversación y reconocimiento usando 9 técnicas (Herramientas 2.0).",
+              "Solo con la autoevaluación del propio protagonista."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "⏳ 3 etapas × 3 momentos",
+      "emoji": "⏳",
+      "navLabel": "Etapas y momentos",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> Adaptación/Progresión/Transición + Exploro/Aplico/Profundizo."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Modelo de Aplicación 2026 trae dos secuencias que se cruzan: <strong>3 etapas de vida en la unidad</strong> (lo que vive el protagonista en su rama) y <strong>3 momentos de aprendizaje</strong> (lo que vive en cada oportunidad concreta). Vamos a verlas por separado y luego juntas."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las 3 etapas de vida en la unidad"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🌱 Adaptación",
+              "description": "El protagonista llega a la rama. Conoce, se conoce, se hace parte. Necesita acogida, vínculo, claridad de marco simbólico.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "📈 Progresión",
+              "description": "El protagonista consolida. Avanza en las 6 áreas con propósito. Asume roles, ejerce liderazgo, propone proyectos.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🛫 Transición",
+              "description": "El protagonista prepara su salida hacia la rama siguiente (o hacia la vida adulta, si es rover). Cierra ciclos, transmite a los más nuevos, recibe ritos de paso.",
+              "color": "#ede7f6",
+              "borderColor": "#5e35b1"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los 3 momentos de aprendizaje"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🔍 Exploro",
+              "description": "Primer contacto con un contenido, una habilidad, un valor. Curiosidad, ensayo, descubrimiento.",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "🛠️ Aplico",
+              "description": "Práctica acompañada. Hago con apoyo. Reciba retroalimentación, ajusto.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🚀 Profundizo",
+              "description": "Autonomía y transferencia. Hago solo. Enseño a otros. Llevo la práctica a contextos nuevos.",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cómo se cruzan etapas y momentos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un mismo protagonista en <strong>etapa de Adaptación</strong> suele estar en <strong>momento Exploro</strong> en muchos contenidos. Uno en <strong>Progresión</strong> está en <strong>Aplico</strong> y empieza a <strong>Profundizar</strong> algunos. Uno en <strong>Transición</strong> ya ha <strong>Profundizado</strong> varios y empieza a enseñar a los más nuevos. Las secuencias no son rígidas, pero ayudan a planear oportunidades acordes al momento del protagonista."
+        },
+        {
+          "type": "info-box",
+          "text": "El Modelo de Aplicación de Bolsillo (14 páginas) trae el ciclo pedagógico <strong>Vivir → Mirar → Comprender → Proyectar</strong>, que es la versión corta de los 3 momentos aplicada a una sola lección o reunión. Volverás a verlo en el Curso 13 (Planeación de Reuniones)."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en un protagonista de tu unidad. ¿En qué etapa de vida en la rama está (Adaptación, Progresión, Transición)? ¿Y en qué momento de aprendizaje está respecto a uno de los contenidos que está trabajando? Sé concreto."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar a las herramientas 🛠️",
+        "questions": [
+          {
+            "text": "Las 3 etapas de vida en la unidad son…",
+            "options": [
+              "Inicio, Desarrollo, Cierre.",
+              "Adaptación, Progresión, Transición.",
+              "Cachorro, Lobato, Scout."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "¿Qué momento de aprendizaje vive un protagonista cuando ya hace la práctica solo y empieza a enseñar a otros?",
+            "options": [
+              "Exploro.",
+              "Aplico.",
+              "Profundizo."
+            ],
+            "correctIndex": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "🛠️ Los 3 roles, DURASLID, ABP, territorio",
+      "emoji": "🛠️",
+      "navLabel": "Herramientas",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> las herramientas operativas del Modelo de Aplicación 2026."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Modelo trae cuatro herramientas operativas que vas a usar todas las semanas. Aquí las recogemos en una sola lección para que las tengas juntas. Las profundizarás después en los cursos del Nivel 2."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Herramienta 1 — Los 3 roles del dirigente: Apoyar, Acompañar, Enlazar"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🛟 Apoyar",
+              "description": "Preparar las condiciones, asegurar los recursos, sostener la planeación.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "👣 Acompañar",
+              "description": "Estar presente en el proceso del protagonista, sin reemplazarlo.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🔗 Enlazar",
+              "description": "Conectar al protagonista con el grupo, con la familia, con el territorio y con la institución.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Estos 3 roles <strong>reemplazan</strong> los términos antiguos \"jefe\", \"instructor\", \"guía\". No porque sean malos, sino porque colocan al dirigente en la posición correcta respecto al protagonista: como apoyo, no como autoridad central. Cada rol acompaña un momento del aprendizaje: <strong>apoyas cuando exploran, acompañas cuando aplican, enlazas cuando profundizan.</strong>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Herramienta 2 — Filtro DURASLID"
+        },
+        {
+          "type": "paragraph",
+          "text": "Toda oportunidad de aprendizaje debería pasar el filtro DURASLID: <strong>D</strong>esafiante (que invite a estirarse), <strong>U</strong>til (que sirva para algo real), <strong>R</strong>ecompensante (que genere satisfacción), <strong>A</strong>tractiva (que despierte ganas), <strong>S</strong>egura (sin riesgo innecesario), <strong>L</strong>údica (con elemento de juego), <strong>I</strong>nclusiva (que todos puedan participar), <strong>D</strong>iversa (con pluralidad de formas, voces y enfoques). Si una actividad solo cumple 2 o 3 de los 8 atributos, hay algo que ajustar."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Herramienta 3 — Aprendizaje Basado en Proyectos (ABP)"
+        },
+        {
+          "type": "paragraph",
+          "text": "El Modelo integra el ABP al ciclo de programa de la unidad en cinco momentos: primero el grupo hace un <strong>diagnóstico participativo</strong> (mira qué pasa a su alrededor y qué quiere cambiar); luego <strong>planifica</strong> el proyecto; después lo <strong>ejecuta paso a paso</strong>, ajustando sobre la marcha; lo <strong>presenta en público</strong>; y al final <strong>evalúa y transfiere</strong> lo aprendido a la vida diaria. Cada momento pasa por el filtro DURASLID, para que la experiencia sea desafiante, útil y atractiva."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Herramienta 4 — Territorio como concepto integrador"
+        },
+        {
+          "type": "paragraph",
+          "text": "El <strong>territorio</strong> no es solo el espacio físico donde está el grupo. Es el conjunto de relaciones sociales, culturales y comunitarias que rodean al protagonista. La PNPJ pide que el Programa <strong>se ancle al territorio</strong>: que los proyectos sirvan al barrio, que los marcos simbólicos dialoguen con la cultura local, que la unidad sea reconocida como actor de su comunidad."
+        },
+        {
+          "type": "info-box",
+          "text": "En los cursos del Nivel 2 (12 — Seguimiento, 13 — Planeación, 14 — Ciclo con ABP) vas a dominar estas herramientas en detalle. Hoy guarda el inventario."
+        }
+      ],
+      "reflection": {
+        "prompt": "De las 4 herramientas (3 roles, DURASLID, ABP, territorio), ¿cuál te parece más urgente fortalecer en tu unidad? ¿Por qué?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Continuar a mi mapa del Modelo ✍️",
+        "questions": [
+          {
+            "text": "Los 3 roles del dirigente en el Modelo de Aplicación 2026 son…",
+            "options": [
+              "Jefe, Subjefe y Asistente.",
+              "Apoyar, Acompañar y Enlazar.",
+              "Instruir, Evaluar y Reconocer."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "El \"territorio\" en el Modelo de Aplicación 2026 es…",
+            "options": [
+              "El espacio físico donde se ubica el local del grupo.",
+              "El conjunto de relaciones sociales, culturales y comunitarias donde el protagonista ejerce su ciudadanía activa.",
+              "La jurisdicción geográfica de la región scout."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "title": "✍️ Mi mapa del Modelo",
+      "emoji": "✍️",
+      "navLabel": "Mi mapa",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> integra todo a tu rol con tu mapa personal del Modelo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cerramos el curso construyendo tu mapa personal del Modelo. No vas a recitar la PNPJ; vas a saber dónde está cada cosa cuando la necesites."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mi mapa del Modelo de Aplicación 2026"
+        },
+        {
+          "type": "paragraph",
+          "text": "Completa esta plantilla con tus propios datos: <em>\"Sirvo (o serviré) en la <strong>rama __________</strong> (Familia/Manada/Tropa/Comunidad/Clan). Su grupo natural se llama <strong>__________</strong> (Camadas/Seisenas/Patrullas/equipos). Su marco simbólico es <strong>__________</strong> (Hermanos de Mowgli/Libro de las Tierras Vírgenes/marco propio/Aventura y Ciudadanía/Rovering). Los protagonistas que acompaño están entre las edades de <strong>__________ a __________ años</strong>. De las <strong>6 áreas de crecimiento</strong>, en este trimestre voy a poner especial cuidado en: <strong>__________ y __________</strong>. Mi rol principal en esta rama es: <strong>Apoyar / Acompañar / Enlazar</strong> (subraya el que más te toca).\"</em>"
+        },
+        {
+          "type": "mission-box",
+          "text": "Guarda este mapa. Te servirá cada vez que vayas a planear una reunión, un campamento o un proyecto."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que viene"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "🗺️ <strong>Curso 6</strong> — Mi Compromiso con el Programa de Jóvenes: tu plan personal completo, integrando los 5 cursos del Nivel 1.",
+            "🐻🐺⚜️🧗🏔️ <strong>Nivel 2 — Cursos 7–11</strong> — Profundización por rama (toma el de la tuya).",
+            "🛠️ <strong>Nivel 2 — Cursos 12, 13, 14</strong> — Seguimiento, Planeación, Ciclo de Programa con ABP.",
+            "🛡️ <strong>Nivel 4 — Curso 24</strong> — A Salvo del Peligro (habilitante)."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "Ya sabes qué dice Colombia. Te queda un curso para cerrar el Nivel 1. Buen camino."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe tu mapa del Modelo completo (la plantilla de arriba) y guárdalo. Te lo enviaremos por correo con tu certificado."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7",
+        "nextLabel": "Obtener mi certificado 🎓",
+        "questions": [
+          {
+            "text": "El mapa del Modelo que construiste en esta lección sirve para…",
+            "options": [
+              "Reemplazar al Modelo de Aplicación oficial 2026.",
+              "Tener a mano los datos clave de tu rol (rama, grupo natural, marco, áreas prioritarias, rol principal) cuando planees.",
+              "Presentarlo en la asamblea regional como tu plan de comisionado."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Al cerrar el Curso 5, ya tienes claros…",
+            "options": [
+              "Solo el documento PNPJ, no su aplicación.",
+              "El marco normativo (PNPJ), las 5 ramas, las 6 áreas, las 3 etapas × 3 momentos y las 4 herramientas operativas.",
+              "Solo las herramientas, no el marco."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Empecé el camino",
+      "emoji": "👋",
+      "unlockOnModule": 1
+    },
+    {
+      "id": "achievement-2",
+      "name": "Sé qué es la PNPJ",
+      "emoji": "📜",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-3",
+      "name": "Conozco las ramas",
+      "emoji": "🐺",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-4",
+      "name": "Veo las áreas",
+      "emoji": "🌱",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-5",
+      "name": "Veo el camino",
+      "emoji": "⏳",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-6",
+      "name": "Domino las herramientas",
+      "emoji": "🛠️",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-final",
+      "name": "Conozco el Modelo",
+      "emoji": "📜",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "LA PNPJ Y \"EL GRAN JUEGO PARA LA VIDA\"",
+    "description": "ha completado el Curso 5 de la Línea Programa de Jóvenes, situando la Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. 617 de 2024) y su Modelo de Aplicación \"El Gran Juego para la Vida\" como marco vigente del Programa de Jóvenes en Colombia, y reconociendo las 5 ramas, las 6 áreas de crecimiento, las 3 etapas y los 3 momentos, y las herramientas operativas del Modelo al servicio de los protagonistas de programa de la Asociación Scouts de Colombia"
+  }
+}

@@ -160,7 +160,7 @@ function renderSection(section) {
                         <button type="button" class="btn-secondary" onclick="downloadPhoto('${phId}')">📥 Descargar para compartir</button>
                         <button type="button" class="btn-tertiary" onclick="clearPhoto('${phId}')">🗑️ Quitar</button>
                     </div>
-                    <p class="photo-upload-share">💡 <strong>Para compartir con tu asesor o el grupo:</strong> descarga la imagen y envíala por WhatsApp, email o el canal que prefieras.</p>
+                    <p class="photo-upload-share">💡 <strong>Para compartir con tu dirigente o el grupo:</strong> descarga la imagen y envíala por WhatsApp, email o el canal que prefieras.</p>
                 </div>`;
         case 'plan-builder':
             const pbId = section.builderId || 'plan-personal';
@@ -187,7 +187,7 @@ function renderSection(section) {
                     <div class="pb-competences">${pbCompetences}</div>
                     <div class="pb-commitment-block">
                         <label class="pb-field-label pb-commitment-label">💚 Mi compromiso personal con este plan</label>
-                        <textarea id="pb-commitment-${pbId}" class="pb-commitment" placeholder="Ej: Me comprometo a trabajar en mi plan con disciplina, a buscar a mi asesor cada mes, y a no rendirme cuando me cueste..." onchange="savePlanCommitment('${pbId}', this.value)"></textarea>
+                        <textarea id="pb-commitment-${pbId}" class="pb-commitment" placeholder="Ej: Me comprometo a trabajar en mi plan con disciplina, a buscar a mi dirigente cada mes, y a no rendirme cuando me cueste..." onchange="savePlanCommitment('${pbId}', this.value)"></textarea>
                     </div>
                     <div class="pb-actions">
                         <button type="button" class="btn-primary" onclick="generatePlan('${pbId}')">📄 Generar mi Plan Personal</button>

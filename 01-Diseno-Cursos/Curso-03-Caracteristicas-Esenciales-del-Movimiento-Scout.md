@@ -37,7 +37,7 @@ Al completar este curso, el adulto:
 
 ## 3. Hook pedagógico (la idea poderosa que sostiene el curso)
 
-> **"El Movimiento Scout es un Movimiento de jóvenes y para los jóvenes, apoyado por adultos; no un movimiento juvenil gestionado en nombre de los jóvenes por adultos." (Características Esenciales, OMMS 2019, p. 28)**
+> **"Es un Movimiento de jóvenes y para los jóvenes, apoyado por adultos; no es un movimiento juvenil, gestionado en nombre de los jóvenes por adultos." (Características Esenciales, OMMS 2019, p. 28)**
 
 Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es marcar la diferencia entre el escultismo y otras propuestas para jóvenes que se les parecen pero invierten esta relación.
 
@@ -92,8 +92,8 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — Apertura: _"Antes de hablar de cómo se hace algo, conviene saber **para qué se hace**. El Movimiento Scout tiene un solo Propósito, y está escrito desde hace más de un siglo. La versión vigente la fijó la Oficina Scout Mundial en 2019."_
 3. **`policy-quote`** — Cita textual del Propósito:
-    - `text`: _"El Movimiento Scout tiene como propósito contribuir al desarrollo de los jóvenes ayudándoles a realizar plenamente sus posibilidades **físicas, intelectuales, emocionales, sociales y espirituales**, como **individuos**, como **ciudadanos responsables** y como miembros de **comunidades locales, nacionales e internacionales**."_
-    - `source`: "Características Esenciales del Movimiento Scout, OMMS 2019, p. 8."
+    - `text`: _"El Movimiento Scout tiene como objetivo contribuir al desarrollo de los jóvenes ayudándoles a realizar plenamente sus posibilidades **físicas, intelectuales, emocionales, sociales y espirituales**, como **individuos**, como **ciudadanos responsables** y como miembros de **comunidades locales, nacionales e internacionales**."_
+    - `source`: "Características Esenciales del Movimiento Scout, OMMS 2019, p. 8. (Constitución de la OMMS, recogida en Características Esenciales…, p. 8)"
     - `label`: "📋 Ver el Propósito textual"
 4. **`heading` (nivel 3)** — _"Lo que dice esto, en partes"_
 5. **`method-grid`** — Los componentes del Propósito desglosados:
@@ -141,14 +141,14 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - 🤝 **Deber con los otros** — Responsabilidad hacia la propia comunidad y país, hacia la fraternidad mundial, hacia la naturaleza y hacia la conservación del medio ambiente. El servicio no es ocasional: es ética.
     - 👤 **Deber con uno mismo** — Responsabilidad por el propio desarrollo. El joven (y el adulto) son protagonistas activos de su crecimiento — no objetos pasivos de la formación de otros.
 5. **`policy-quote`** — Cita textual:
-    - `text`: _"Los principios son las leyes fundamentales que conforman las creencias del Movimiento. Definen un código de vida para todos sus miembros y dan al Movimiento su carácter peculiar."_
+    - `text`: _"Los principios son las creencias fundamentales que representan un ideal, una visión de la sociedad y un código de conducta para todos sus miembros."_
     - `source`: "Características Esenciales del Movimiento Scout, OMMS 2019, p. 22."
     - `label`: "📋 Ver la definición de Principio"
 6. **`heading` (nivel 3)** — _"Cómo se aterrizan en la práctica"_
 7. **`list`** — Una práctica concreta por Principio:
     - **Deber con Dios** — en la unidad, abrir y cerrar espacios de reflexión, respetar las creencias del protagonista y de la familia, ofrecer momentos de silencio en campamento.
     - **Deber con los otros** — proyectos de servicio comunitario, mediación de conflictos en la patrulla, gestos de hermandad con otros grupos del país y del mundo.
-    - **Deber con uno mismo** — entrevista personal trimestral con el asesor, autoevaluación de la progresión, decisión propia sobre qué área de crecimiento trabajar.
+    - **Deber con uno mismo** — entrevista personal trimestral con su dirigente, autoevaluación de la progresión, decisión propia sobre qué área de crecimiento trabajar.
 8. **`info-box`** — _"Cuando dudes si una práctica es scout o no, hazte 3 preguntas: ¿cuida el deber con Dios (el sentido), con los otros (la fraternidad), con uno mismo (el crecimiento)? Si responde sí a las tres, es escultismo."_
 
 **Reflexión:** _"¿Cuál de los 3 Principios crees que se trabaja menos en tu unidad o en las unidades que conoces? ¿Por qué?"_
@@ -188,7 +188,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - 🏛️ **No político** — El Movimiento no toma partido por candidatos ni partidos. Educa para la ciudadanía responsable, pero no instrumentaliza al joven para un proyecto partidista.
     - 🕊️ **Independiente** — De gobiernos, de iglesias, de empresas. Puede dialogar con todos, recibir apoyo de todos, pero ninguno lo dirige.
 5. **`policy-quote`** — Cita de la voluntariedad:
-    - `text`: _"No hay obligación de unirse o seguir siendo miembro. La voluntad libre es la base de la pertenencia."_
+    - `text`: _"No hay obligación de unirse o seguir siendo miembro del Movimiento Scout, ya que los jóvenes eligen cuándo unirse y cuándo partir."_
     - `source`: "Características Esenciales del Movimiento Scout, OMMS 2019, p. 30."
     - `label`: "📋 Ver la cita de voluntariedad"
 6. **`heading` (nivel 3)** — _"Lo que NO es escultismo, aunque se le parezca"_
@@ -229,19 +229,19 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — Apertura: _"Hasta ahora vimos qué es el Movimiento. Ahora vamos al corazón de tu rol. Las Características Esenciales OMMS 2019 son enfáticas en algo que conviene grabar."_
 3. **`policy-quote`** — La cita del hook:
-    - `text`: _"El Movimiento Scout es un Movimiento de jóvenes y para los jóvenes, apoyado por adultos; no un movimiento juvenil gestionado en nombre de los jóvenes por adultos."_
+    - `text`: _"Es un Movimiento de jóvenes y para los jóvenes, apoyado por adultos; no es un movimiento juvenil, gestionado en nombre de los jóvenes por adultos."_
     - `source`: "Características Esenciales del Movimiento Scout, OMMS 2019, p. 28."
     - `label`: "📋 La frase eje del Movimiento"
 4. **`heading` (nivel 3)** — _"Lo que esto significa para tu rol"_
 5. **`paragraph`** — _"El adulto no es el jefe del joven. Es su aliado. El joven es el protagonista; tú eres su apoyo. Esa palabra —apoyo— es exacta: no es 'guía' (te seguiría), no es 'instructor' (te imitaría), no es 'jefe' (te obedecería). Es **apoyo**: estás cuando hace falta, no estorbas cuando no."_
 6. **`heading` (nivel 3)** — _"Los 4 tipos de apoyo del adulto"_
-7. **`method-grid`** — 4 tipos según OMMS 2019, p. 19:
+7. **`method-grid`** — 4 tipos según OMMS 2019, p. 18:
     - 📚 **Apoyo educativo** — facilitar oportunidades de aprendizaje, sugerir desafíos, sostener el ciclo de programa.
     - 💗 **Apoyo emocional** — acompañar al protagonista en sus momentos de duda, frustración o alegría.
     - ℹ️ **Apoyo informativo** — dar la información que el joven necesita para decidir, sin decidir por él.
     - ✅ **Apoyo evaluativo** — ayudar al joven a mirar su propio proceso y a celebrarlo o ajustarlo.
 8. **`heading` (nivel 3)** — _"Primum non nocere"_
-9. **`paragraph`** — _"Es una frase latina que significa **'lo primero, no hacer daño'**. La OMMS la usa en p. 33 para subrayar la responsabilidad ética del adulto en el Movimiento: verificación previa de antecedentes, formación obligatoria, nombramiento por tiempo limitado, supervisión por pares. La protección del joven es lo primero. Por eso, en esta línea, **el Curso 24 (A Salvo del Peligro) es habilitante**: ningún adulto avanza al Nivel 2 sin completarlo."_
+9. **`paragraph`** — _"Es una frase latina que significa **'lo primero, no hacer daño'**. La OMMS la usa en p. 32 para subrayar la responsabilidad ética del adulto en el Movimiento: verificación previa de antecedentes, formación obligatoria, nombramiento por tiempo limitado, supervisión por pares. La protección del joven es lo primero. Por eso, en esta línea, **el Curso 24 (A Salvo del Peligro) es habilitante**: ningún adulto avanza al Nivel 2 sin completarlo."_
 10. **`info-box`** — _"Esta lección es probablemente la más importante del Nivel 1. Si te quedas con una sola idea de los 6 cursos, que sea esta: tu trabajo no es dirigir al joven. Es apoyarlo para que él se desarrolle. La diferencia parece pequeña; en la práctica, lo cambia todo."_
 
 **Reflexión:** _"Recuerda una situación reciente donde tomaste una decisión 'en nombre' de un joven o de un grupo de jóvenes (no por una emergencia, simplemente porque te parecía más rápido). Escribe brevemente: ¿qué pasó? ¿Qué hubiera pasado si lo hubieran decidido ellos?"_

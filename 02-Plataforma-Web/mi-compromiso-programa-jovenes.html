@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenida al Programa de Jóvenes - Plataforma de Formación de Adultos ASC</title>
+    <title>Mi Compromiso con el Programa de Jóvenes - Plataforma de Formación de Adultos ASC</title>
     <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
     <link rel="icon" type="image/png" href="../assets/logo-asc.png">
     <link rel="stylesheet" href="../assets/dark-theme.css">
@@ -810,8 +810,8 @@ body {
 
     <div class="container">
         <div class="header">
-            <h1>🎒 Bienvenida al Programa de Jóvenes</h1>
-            <p>Formación de Adultos Voluntarios — Asociación Scouts de Colombia</p>
+            <h1>🗺️ Mi Compromiso con el Programa de Jóvenes</h1>
+            <p>Tu plan personal de dirigente — cierre del Nivel 1</p>
             <div class="progress-container">
                 <div class="progress-bar" id="progressBar"></div>
                 <div class="progress-text" id="progressText">0%</div>
@@ -824,11 +824,11 @@ body {
         <div class="nav-menu">
             <button class="nav-btn active" onclick="showModule(0)">📝 Registro</button>
             <button class="nav-btn" onclick="showModule(1)">👋 Bienvenida</button>
-            <button class="nav-btn" onclick="showModule(2)">🎒 ¿Qué es PJ?</button>
-            <button class="nav-btn" onclick="showModule(3)">🧨 5 mitos</button>
-            <button class="nav-btn" onclick="showModule(4)">🗺️ En una página</button>
-            <button class="nav-btn" onclick="showModule(5)">💡 Por qué importa</button>
-            <button class="nav-btn" onclick="showModule(6)">✍️ Tu compromiso</button>
+            <button class="nav-btn" onclick="showModule(2)">🪞 Mi brújula</button>
+            <button class="nav-btn" onclick="showModule(3)">🎯 Rol y rama</button>
+            <button class="nav-btn" onclick="showModule(4)">🛠️ Reunión y proyecto</button>
+            <button class="nav-btn" onclick="showModule(5)">📚 Ruta de formación</button>
+            <button class="nav-btn" onclick="showModule(6)">🤝 Par y promesa</button>
             <button class="nav-btn" onclick="showModule(7)">🏆 Certificado</button>
         </div>
 
@@ -836,11 +836,11 @@ body {
             <select onchange="showModule(this.value)">
                 <option value="0">📝 Registro</option>
                 <option value="1">👋 Bienvenida</option>
-                <option value="2">🎒 ¿Qué es PJ?</option>
-                <option value="3">🧨 5 mitos</option>
-                <option value="4">🗺️ En una página</option>
-                <option value="5">💡 Por qué importa</option>
-                <option value="6">✍️ Tu compromiso</option>
+                <option value="2">🪞 Mi brújula</option>
+                <option value="3">🎯 Rol y rama</option>
+                <option value="4">🛠️ Reunión y proyecto</option>
+                <option value="5">📚 Ruta de formación</option>
+                <option value="6">🤝 Par y promesa</option>
                 <option value="7">🏆 Certificado</option>
             </select>
         </div>
@@ -853,7 +853,7 @@ body {
 
                 <div class="info-box">
                     <strong>🎯 Objetivo del Curso:</strong><br>
-                    El primer paso en la Línea Programa de Jóvenes. En ~25 minutos vas a entender qué es realmente el Programa de Jóvenes (y qué no), desarmar los mitos del dirigente nuevo, ubicar las 5 ramas y la documentación marco, y dar tu primer compromiso concreto. Sin tecnicismos, con ejemplos del día a día de una unidad.
+                    El cierre del Nivel 1 de la Línea Programa de Jóvenes. En ~30 minutos vas a convertir los Cursos 1 a 5 en un Plan Personal de Dirigente firmable: revisas tu brújula, defines tu rol, rama y áreas prioritarias, planeas tu próxima reunión y tu proyecto del trimestre, trazas tu ruta de formación y firmas tu promesa personal. No hay contenido nuevo: integras lo que ya tienes en algo accionable.
                 </div>
 
                 <div class="toggle-buttons">
@@ -954,29 +954,30 @@ body {
             <div class="module" id="module-1">
                 <h2>👋 👋 Bienvenida <span id="welcomeName"></span></h2>
 
-                <div class="info-box">⏱️ <strong>~25 minutos.</strong> Al final vas a tener claro qué es el Programa de Jóvenes, por qué te aplica a ti <strong>incluso si nunca fuiste scout</strong>, y cuál es tu primer compromiso.</div>
+                <div class="info-box">⏱️ <strong>~30 minutos.</strong> Al final vas a tener un Plan Personal de Dirigente firmado, descargable en PDF, con compromisos chicos y concretos para el próximo trimestre. Y un par dirigente con quien compartirlo.</div>
 
-                <p>Te damos la bienvenida. Si estás aquí es porque vas a acompañar a alguien a crecer — y eso, aunque suene sencillo, es de las cosas más importantes que hace el Movimiento. Detrás de cada lobato, scout, nómada o rover que sonríe en una foto, hay un adulto que escogió estar ahí. Hoy esa persona eres tú.</p>
+                <p>Llegaste hasta acá. Tomaste 5 cursos. Leíste a Baden-Powell, a la OMMS, a la PNPJ. Te asomaste a los 8 elementos del Método y al Modelo de Aplicación colombiano. Reflexionaste, contestaste quizzes, escribiste compromisos parciales. Hoy todo eso se vuelve plan.</p>
 
                 <h3>Lo que vas a vivir en este curso</h3>
 
                 <ul>
-                    <li>Qué es realmente el Programa de Jóvenes (y qué no es).</li>
-                    <li>Los 5 mitos que estorban al dirigente y cómo desarmarlos.</li>
-                    <li>Las 5 ramas, los grupos naturales y la documentación marco.</li>
-                    <li>Por qué la calidad del Programa toca las 6 áreas de crecimiento del protagonista.</li>
-                    <li>Tu primer compromiso concreto.</li>
+                    <li>Revisión de tu brújula: qué te quedó de los Cursos 1–5.</li>
+                    <li>Definición de tu rol, rama y áreas prioritarias del trimestre.</li>
+                    <li>Tu próxima reunión y tu proyecto del trimestre, planeados con los 8 elementos del Método.</li>
+                    <li>Tu ruta de formación: qué cursos del Nivel 2 y del Nivel 4 vas a tomar primero.</li>
+                    <li>Tu par dirigente y tu promesa personal.</li>
                 </ul>
 
-                <div class="mission-box">No lo apures. Tómalo lección por lección, y escribe tus reflexiones pensando en una unidad concreta: la tuya, o la que sueñas con acompañar.</div>
+                <div class="mission-box">Hoy no aprendes contenido nuevo. Integras lo que ya tienes en un plan que puedas mirar dentro de un mes y ajustar. Tómate el tiempo. Vale el viaje.</div>
 
                 <h3>🏆 Logros por Desbloquear</h3>
                 <div class="achievements">
-                    <div class="achievement" id="achievement-1">🎒 El Programa es alianza</div>
-                    <div class="achievement" id="achievement-2">🧨 Mito-buster</div>
-                    <div class="achievement" id="achievement-3">🗺️ Conozco mi Programa</div>
-                    <div class="achievement" id="achievement-4">💡 Veo por qué importa</div>
-                    <div class="achievement" id="achievement-5">🎒 Constructor de Programa</div>
+                    <div class="achievement" id="achievement-1">👋 Listo para integrar</div>
+                    <div class="achievement" id="achievement-2">🪞 Veo mi camino</div>
+                    <div class="achievement" id="achievement-3">🎯 Sé dónde estoy parado</div>
+                    <div class="achievement" id="achievement-4">🛠️ Tengo planes concretos</div>
+                    <div class="achievement" id="achievement-5">📚 Sé qué viene</div>
+                    <div class="achievement" id="achievement-final">🗺️ Dirigente con Plan</div>
                 </div>
 
                 <div class="stats">
@@ -988,438 +989,466 @@ body {
                 <button class="btn" onclick="showModule(2)">🚀 Comenzar el Curso</button>
             </div>
 
-            <!-- MÓDULO 2: 🎒 ¿QUÉ ES PROGRAMA DE JÓVENES, EN REALIDAD? -->
+            <!-- MÓDULO 2: 🪞 MI BRÚJULA: QUÉ ME QUEDÓ DEL NIVEL 1 -->
             <div class="module" id="module-2">
-                <h2>🎒 🎒 ¿Qué es Programa de Jóvenes, en realidad?</h2>
+                <h2>🪞 🪞 Mi brújula: qué me quedó del Nivel 1</h2>
                 <div class="badge">Módulo 1/5</div>
 
-                <div class="info-box"><strong>Idea central:</strong> el Programa de Jóvenes es una <strong>alianza educativa</strong>, no un manual de actividades.</div>
+                <div class="info-box"><strong>Idea central:</strong> revisión guiada de las reflexiones acumuladas.</div>
 
-                <p>Si abres la Política Nacional de Programa de Jóvenes vas a leer que es la “totalidad de oportunidades de aprendizaje, definidas por su Propósito, por sus Oportunidades de Aprendizaje y por el Método Scout”. Es exacto. Y, si nunca has hecho un curso así, es difícil de digerir. Vamos a llegar a esa frase, pero por el camino aterrizado.</p>
+                <p>Antes de planear, miremos hacia atrás. Las reflexiones que escribiste en cada curso son tu <strong>brújula personal</strong>: lo que más te resonó, lo que más te costó, lo que reconociste como propio. Aquí las vamos a recuperar.</p>
 
-                <h3>Mira tu propia unidad y vas a ver Programa por todos lados</h3>
+                <div class="info-box">🧭 <strong>Tu brújula del Nivel 1.</strong> Recupera las reflexiones de cierre que escribiste en cada curso: el compromiso de la primera semana (Curso 1, L6), tu compromiso pedagógico (Curso 2, L6), tu frase de definición (Curso 3, L6), tu ajuste de reunión (Curso 4, L8) y tu mapa del Modelo (Curso 5, L7). Tenlas a la vista mientras construyes tu plan.</div>
 
-                <div class="method-elements">
-                    <div class="method-element" style="background: linear-gradient(135deg, #fce4ec, #fce4ecdd); border-color: #e91e63;">
-                        <h4>La jefa de Manada</h4>
-                        <p>Cambia el orden de la reunión porque los lobatos llegaron cansados. <em>→ adaptación pedagógica</em></p>
-                    </div>
-                    <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
-                        <h4>El dirigente</h4>
-                        <p>Se sienta 20 min con un scout a preguntarle qué le gustaría aprender este trimestre. <em>→ progresión personal (acompañar)</em></p>
-                    </div>
-                    <div class="method-element" style="background: linear-gradient(135deg, #fff3e0, #fff3e0dd); border-color: #fb8c00;">
-                        <h4>El subjefe de Tropa</h4>
-                        <p>Deja que la patrulla cocine sola aunque tarde el doble. <em>→ aprender haciendo</em></p>
-                    </div>
-                    <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
-                        <h4>La dirigente de Comunidad</h4>
-                        <p>Acompaña a los nómadas a presentar un proyecto en la junta de acción comunal. <em>→ participación en la comunidad</em></p>
-                    </div>
-                    <div class="method-element" style="background: linear-gradient(135deg, #f3e5f5, #f3e5f5dd); border-color: #8e24aa;">
-                        <h4>El dirigente de Clan</h4>
-                        <p>Decide no decirle al rover cómo planear el peregrinaje y solo le hace preguntas. <em>→ apoyo del adulto</em></p>
-                    </div>
-                    <div class="method-element" style="background: linear-gradient(135deg, #e0f7fa, #e0f7fadd); border-color: #00acc1;">
-                        <h4>El asistente</h4>
-                        <p>Se acuerda del nombre del lobato nuevo y le pregunta cómo le fue en el colegio. <em>→ vida de grupo</em></p>
-                    </div>
-                </div>
+                <h3>Tres preguntas para mirar el camino</h3>
 
-                <p>Ninguno de estos adultos está pensando “estoy aplicando el Método Scout”. Pero todos lo están haciendo. Y todos, de alguna forma, están firmando esa alianza educativa con el joven que tienen al frente.</p>
+                <ul>
+                    <li>¿Cuál idea de los 5 cursos <strong>más me transformó la mirada</strong> sobre el Programa de Jóvenes? Escríbela en una frase.</li>
+                    <li>¿Cuál práctica <strong>me di cuenta que estoy haciendo mal o ausente</strong>, y necesito ajustar?</li>
+                    <li>¿Cuál fortaleza <strong>ya tengo</strong> que el Movimiento necesita de mí?</li>
+                </ul>
 
-                <details class="policy-quote">
-                    <summary>📋 Ver lo que dice la política textualmente</summary>
-                    <blockquote class="policy-quote-text">El Programa de Jóvenes en el Movimiento Scout es la totalidad de las oportunidades de aprendizaje de las que los jóvenes pueden beneficiarse (Qué), creadas para alcanzar el propósito del Movimiento Scout (Por qué), y que se vive a través del Método Scout (Cómo).</blockquote>
-                    <p class="policy-quote-source">— Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024), §5.1 — Definición del Programa de Jóvenes.</p>
-                </details>
-
-                <div class="info-box">En palabras simples: el Programa de Jóvenes es la <strong>alianza educativa entre quien crece y quien acompaña</strong>. Lo que pasa entre tú y un protagonista, semana a semana, año tras año, hasta que él o ella se vaya con herramientas para la vida.</div>
+                <div class="info-box">Esta auto-revisión es la materia prima de tu plan. Lo que escribas aquí va a guiar los compromisos de las próximas lecciones. Sé honesto y específico.</div>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>Piensa en una reunión de tu unidad (o la unidad que acompañas) en las últimas dos semanas. Escribe dos momentos donde, sin nombrarlo así, estaban haciendo Programa de Jóvenes de calidad. Y un momento donde sospechas que pudieron hacer más.</p>
+                    <p>Responde las 3 preguntas del paso anterior. No copies de tus reflexiones anteriores; reescribe con la perspectiva de quien ya terminó los 5 cursos.</p>
                     <textarea id="reflection-2" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(2, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 2</h3>
 
                     <div class="question">
-                        <h4>1. Según lo que viste en esta lección, ¿cuál es la definición que más se ajusta a Programa de Jóvenes?</h4>
+                        <h4>1. Una "brújula personal" en este Nivel 1 es…</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q10">
-                            Es la guía de actividades semanales que la DNPJ publica cada año para cada rama.
+                            Un instrumento físico que se regala al cerrar el curso.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q10">
-                            Es la totalidad de oportunidades de aprendizaje que vive un protagonista, definida por su porqué, su qué y su cómo.
+                            El conjunto de reflexiones que escribiste en cada curso, que ahora guía la construcción de tu plan.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q10">
-                            Es el conjunto de insignias y especialidades que un joven puede obtener.
+                            La hoja de ruta de los cursos siguientes.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. Una dirigente llega a la reunión, ve al grupo disperso y cansado, y cambia su plan para armar una dinámica corta que los reconecte antes de seguir. Según esta lección, ¿qué está haciendo?</h4>
+                        <h4>2. ¿Para qué sirve la auto-revisión de la L2 antes de planear?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q11">
-                            Está improvisando: se salió de la guía oficial, así que dejó de hacer Programa.
+                            Para repasar el contenido de los 5 cursos en clave de examen.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q11">
-                            Está haciendo Programa de Jóvenes: adaptó la experiencia al grupo real que tenía al frente — eso es la alianza educativa.
+                            Para identificar la idea más transformadora, la práctica a ajustar y la fortaleza ya presente — insumos directos del plan.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q11">
-                            Solo hará Programa si después registra el cambio en el formato correspondiente.
+                            Para evaluar si los cursos estuvieron bien diseñados.
                         </label>
                     </div>
 
                     <button class="btn" onclick="checkQuiz(2)" id="checkBtn-2">Verificar Respuestas</button>
-                    <button class="btn hidden" onclick="completeModule(2)" id="nextBtn-2">Continuar a los 5 mitos 🧨</button>
+                    <button class="btn hidden" onclick="completeModule(2)" id="nextBtn-2">Continuar a mi rol y mi rama 🎯</button>
                 </div>
             </div>
 
-            <!-- MÓDULO 3: 🧨 LOS 5 MITOS DEL DIRIGENTE NUEVO -->
+            <!-- MÓDULO 3: 🎯 MI ROL, MI RAMA, MIS PRIORIDADES -->
             <div class="module" id="module-3">
-                <h2>🧨 🧨 Los 5 mitos del dirigente nuevo</h2>
+                <h2>🎯 🎯 Mi rol, mi rama, mis prioridades</h2>
                 <div class="badge">Módulo 2/5</div>
 
-                <div class="info-box"><strong>Idea central:</strong> lo que crees que es “saber escultismo” no siempre es saberlo. Vale la pena revisar tus supuestos.</div>
+                <div class="info-box"><strong>Idea central:</strong> defino dónde sirvo y qué áreas trabajo este trimestre.</div>
 
-                <p>Hablemos de los cinco mitos que escuchamos una y otra vez cuando un adulto entra al Movimiento. Si alguna vez has pensado uno de estos, no estás solo. Pero queremos que salgas de aquí pensando distinto.</p>
+                <p>Tu plan personal arranca con tu rol concreto. Si sirves en Manada, no vas a planear como sirves en Clan. Si eres asistente, no vas a planear como un jefe de rama. Vamos al detalle.</p>
 
-                <h3>Mito 1 — “Yo no fui scout, no estoy en capacidad de hacer esto”</h3>
+                <h3>Mi rol y mi rama</h3>
 
-                <p>El escultismo se aprende caminando, no se hereda. Muchos de los mejores dirigentes nunca fueron protagonistas de niños. Lo que sí necesitas es: querer estar, dejarte formar y respetar la propuesta. El resto se aprende junto a otros dirigentes y al lado de los propios jóvenes. La Política Nacional de Adultos en el Movimiento existe precisamente para formarte paso a paso.</p>
+                <p>Anota en tu reflexión tu ámbito de servicio: <strong>rama</strong> (Familia, Manada, Tropa, Comunidad, Clan, Equipo de Programa de Grupo, Comisión Regional PJ, Comisión Nacional PJ o Red de Jóvenes); <strong>cargo</strong> actual o esperado (Asistente, Subjefe de Rama, Jefe de Rama, Consejero Juvenil, Comisionado de PJ, Coordinador RDJ u otro); el <strong>grupo scout o ámbito</strong> donde sirves (nombre del grupo, región); y la <strong>cantidad de protagonistas</strong> que acompañas o acompañarás.</p>
 
-                <h3>Mito 2 — “Hacer Programa es seguir la guía oficial al pie de la letra”</h3>
+                <h3>Mis áreas prioritarias del trimestre</h3>
 
-                <p>La guía es una orientación, no una receta. El Modelo de Aplicación 2026 insiste: la alianza es con el grupo concreto que tienes al frente, en su territorio, con sus historias y sus preguntas. La guía te da el qué y el cómo; tú —con los jóvenes— defines el cuándo, dónde, con quién y para qué local.</p>
+                <p>De las 6 áreas de crecimiento (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad), elige <strong>2 áreas</strong> donde quieras poner foco este trimestre. No las que más amas; las que más necesita tu unidad ahora.</p>
 
-                <h3>Mito 3 — “A los chicos hay que entretenerlos”</h3>
+                <div class="plan-builder" id="pb-pj-areas-prioritarias">
+                    <div class="pb-profile-banner" id="pb-profile-pj-areas-prioritarias"></div>
+                    <p class="pb-intro">Selecciona <strong>2 a 3 competencias</strong> en las que quieras trabajar este ciclo. Si tomaste el Curso 3, las áreas de oportunidad ya están sugeridas. Puedes cambiarlas si quieres.</p>
+                    <div class="pb-competences"><div class="pb-competence" data-competence="corporalidad">
+                    <label class="pb-comp-header">
+                        <input type="checkbox" class="pb-comp-check" data-competence="corporalidad" data-name="Corporalidad" onchange="togglePlanCompetence('pj-areas-prioritarias', 'corporalidad')">
+                        <span class="pb-comp-name">Corporalidad</span>
+                        <span class="pb-comp-grade" id="pb-grade-corporalidad"></span>
+                    </label>
+                    <div class="pb-comp-fields hidden" id="pb-fields-corporalidad">
+                        <label class="pb-field-label">🎯 Meta concreta (qué quieres lograr)</label>
+                        <textarea class="pb-field-meta" data-competence="corporalidad" placeholder="Ej: pasar del grado 2 al 3 en esta competencia, evidenciado en..." onchange="savePlanField('pj-areas-prioritarias', 'corporalidad', 'meta', this.value)"></textarea>
+                        <label class="pb-field-label">⏰ Plazo (en cuánto tiempo)</label>
+                        <input type="text" class="pb-field-plazo" data-competence="corporalidad" placeholder="Ej: 6 meses" onchange="savePlanField('pj-areas-prioritarias', 'corporalidad', 'plazo', this.value)">
+                        <label class="pb-field-label">📚 Recursos (cómo lo vas a desarrollar)</label>
+                        <textarea class="pb-field-recursos" data-competence="corporalidad" placeholder="Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a..." onchange="savePlanField('pj-areas-prioritarias', 'corporalidad', 'recursos', this.value)"></textarea>
+                    </div>
+                </div><div class="pb-competence" data-competence="creatividad">
+                    <label class="pb-comp-header">
+                        <input type="checkbox" class="pb-comp-check" data-competence="creatividad" data-name="Creatividad" onchange="togglePlanCompetence('pj-areas-prioritarias', 'creatividad')">
+                        <span class="pb-comp-name">Creatividad</span>
+                        <span class="pb-comp-grade" id="pb-grade-creatividad"></span>
+                    </label>
+                    <div class="pb-comp-fields hidden" id="pb-fields-creatividad">
+                        <label class="pb-field-label">🎯 Meta concreta (qué quieres lograr)</label>
+                        <textarea class="pb-field-meta" data-competence="creatividad" placeholder="Ej: pasar del grado 2 al 3 en esta competencia, evidenciado en..." onchange="savePlanField('pj-areas-prioritarias', 'creatividad', 'meta', this.value)"></textarea>
+                        <label class="pb-field-label">⏰ Plazo (en cuánto tiempo)</label>
+                        <input type="text" class="pb-field-plazo" data-competence="creatividad" placeholder="Ej: 6 meses" onchange="savePlanField('pj-areas-prioritarias', 'creatividad', 'plazo', this.value)">
+                        <label class="pb-field-label">📚 Recursos (cómo lo vas a desarrollar)</label>
+                        <textarea class="pb-field-recursos" data-competence="creatividad" placeholder="Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a..." onchange="savePlanField('pj-areas-prioritarias', 'creatividad', 'recursos', this.value)"></textarea>
+                    </div>
+                </div><div class="pb-competence" data-competence="caracter">
+                    <label class="pb-comp-header">
+                        <input type="checkbox" class="pb-comp-check" data-competence="caracter" data-name="Carácter" onchange="togglePlanCompetence('pj-areas-prioritarias', 'caracter')">
+                        <span class="pb-comp-name">Carácter</span>
+                        <span class="pb-comp-grade" id="pb-grade-caracter"></span>
+                    </label>
+                    <div class="pb-comp-fields hidden" id="pb-fields-caracter">
+                        <label class="pb-field-label">🎯 Meta concreta (qué quieres lograr)</label>
+                        <textarea class="pb-field-meta" data-competence="caracter" placeholder="Ej: pasar del grado 2 al 3 en esta competencia, evidenciado en..." onchange="savePlanField('pj-areas-prioritarias', 'caracter', 'meta', this.value)"></textarea>
+                        <label class="pb-field-label">⏰ Plazo (en cuánto tiempo)</label>
+                        <input type="text" class="pb-field-plazo" data-competence="caracter" placeholder="Ej: 6 meses" onchange="savePlanField('pj-areas-prioritarias', 'caracter', 'plazo', this.value)">
+                        <label class="pb-field-label">📚 Recursos (cómo lo vas a desarrollar)</label>
+                        <textarea class="pb-field-recursos" data-competence="caracter" placeholder="Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a..." onchange="savePlanField('pj-areas-prioritarias', 'caracter', 'recursos', this.value)"></textarea>
+                    </div>
+                </div><div class="pb-competence" data-competence="afectividad">
+                    <label class="pb-comp-header">
+                        <input type="checkbox" class="pb-comp-check" data-competence="afectividad" data-name="Afectividad" onchange="togglePlanCompetence('pj-areas-prioritarias', 'afectividad')">
+                        <span class="pb-comp-name">Afectividad</span>
+                        <span class="pb-comp-grade" id="pb-grade-afectividad"></span>
+                    </label>
+                    <div class="pb-comp-fields hidden" id="pb-fields-afectividad">
+                        <label class="pb-field-label">🎯 Meta concreta (qué quieres lograr)</label>
+                        <textarea class="pb-field-meta" data-competence="afectividad" placeholder="Ej: pasar del grado 2 al 3 en esta competencia, evidenciado en..." onchange="savePlanField('pj-areas-prioritarias', 'afectividad', 'meta', this.value)"></textarea>
+                        <label class="pb-field-label">⏰ Plazo (en cuánto tiempo)</label>
+                        <input type="text" class="pb-field-plazo" data-competence="afectividad" placeholder="Ej: 6 meses" onchange="savePlanField('pj-areas-prioritarias', 'afectividad', 'plazo', this.value)">
+                        <label class="pb-field-label">📚 Recursos (cómo lo vas a desarrollar)</label>
+                        <textarea class="pb-field-recursos" data-competence="afectividad" placeholder="Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a..." onchange="savePlanField('pj-areas-prioritarias', 'afectividad', 'recursos', this.value)"></textarea>
+                    </div>
+                </div><div class="pb-competence" data-competence="sociabilidad">
+                    <label class="pb-comp-header">
+                        <input type="checkbox" class="pb-comp-check" data-competence="sociabilidad" data-name="Sociabilidad" onchange="togglePlanCompetence('pj-areas-prioritarias', 'sociabilidad')">
+                        <span class="pb-comp-name">Sociabilidad</span>
+                        <span class="pb-comp-grade" id="pb-grade-sociabilidad"></span>
+                    </label>
+                    <div class="pb-comp-fields hidden" id="pb-fields-sociabilidad">
+                        <label class="pb-field-label">🎯 Meta concreta (qué quieres lograr)</label>
+                        <textarea class="pb-field-meta" data-competence="sociabilidad" placeholder="Ej: pasar del grado 2 al 3 en esta competencia, evidenciado en..." onchange="savePlanField('pj-areas-prioritarias', 'sociabilidad', 'meta', this.value)"></textarea>
+                        <label class="pb-field-label">⏰ Plazo (en cuánto tiempo)</label>
+                        <input type="text" class="pb-field-plazo" data-competence="sociabilidad" placeholder="Ej: 6 meses" onchange="savePlanField('pj-areas-prioritarias', 'sociabilidad', 'plazo', this.value)">
+                        <label class="pb-field-label">📚 Recursos (cómo lo vas a desarrollar)</label>
+                        <textarea class="pb-field-recursos" data-competence="sociabilidad" placeholder="Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a..." onchange="savePlanField('pj-areas-prioritarias', 'sociabilidad', 'recursos', this.value)"></textarea>
+                    </div>
+                </div><div class="pb-competence" data-competence="espiritualidad">
+                    <label class="pb-comp-header">
+                        <input type="checkbox" class="pb-comp-check" data-competence="espiritualidad" data-name="Espiritualidad" onchange="togglePlanCompetence('pj-areas-prioritarias', 'espiritualidad')">
+                        <span class="pb-comp-name">Espiritualidad</span>
+                        <span class="pb-comp-grade" id="pb-grade-espiritualidad"></span>
+                    </label>
+                    <div class="pb-comp-fields hidden" id="pb-fields-espiritualidad">
+                        <label class="pb-field-label">🎯 Meta concreta (qué quieres lograr)</label>
+                        <textarea class="pb-field-meta" data-competence="espiritualidad" placeholder="Ej: pasar del grado 2 al 3 en esta competencia, evidenciado en..." onchange="savePlanField('pj-areas-prioritarias', 'espiritualidad', 'meta', this.value)"></textarea>
+                        <label class="pb-field-label">⏰ Plazo (en cuánto tiempo)</label>
+                        <input type="text" class="pb-field-plazo" data-competence="espiritualidad" placeholder="Ej: 6 meses" onchange="savePlanField('pj-areas-prioritarias', 'espiritualidad', 'plazo', this.value)">
+                        <label class="pb-field-label">📚 Recursos (cómo lo vas a desarrollar)</label>
+                        <textarea class="pb-field-recursos" data-competence="espiritualidad" placeholder="Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a..." onchange="savePlanField('pj-areas-prioritarias', 'espiritualidad', 'recursos', this.value)"></textarea>
+                    </div>
+                </div></div>
+                    <div class="pb-commitment-block">
+                        <label class="pb-field-label pb-commitment-label">💚 Mi compromiso personal con este plan</label>
+                        <textarea id="pb-commitment-pj-areas-prioritarias" class="pb-commitment" placeholder="Ej: Me comprometo a trabajar en mi plan con disciplina, a buscar a mi dirigente cada mes, y a no rendirme cuando me cueste..." onchange="savePlanCommitment('pj-areas-prioritarias', this.value)"></textarea>
+                    </div>
+                    <div class="pb-actions">
+                        <button type="button" class="btn-primary" onclick="generatePlan('pj-areas-prioritarias')">📄 Generar mi Plan Personal</button>
+                        <button type="button" class="btn-secondary" onclick="loadProfileIntoPlan('pj-areas-prioritarias')">🔄 Cargar mi perfil del Curso 4</button>
+                    </div>
+                    <div id="pb-output-pj-areas-prioritarias" class="pb-output hidden"></div>
+                </div>
 
-                <p>El Programa no entretiene, <strong>educa</strong>. Una reunión donde los chicos se rieron mucho pero no aprendieron nada, no se conocieron mejor y no avanzaron en ninguna área de crecimiento, fue una linda fiesta, no una reunión scout. El filtro <strong>DURASLID</strong> (desafiante, útil, recompensante, atractiva, segura, lúdica, inclusiva, diversa) está para evitar reuniones que solo cumplan una o dos de las ocho.</p>
+                <h3>Mi rol principal del trimestre</h3>
 
-                <h3>Mito 4 — “Los jóvenes deciden cuando yo se los permito”</h3>
-
-                <p>La PNPJ es radical en esto. El Movimiento Scout es <strong>de los jóvenes y para los jóvenes</strong>, apoyado por adultos. No al revés. Tu rol es apoyar, acompañar y enlazar —no dirigir—. Si los jóvenes solo deciden lo que tú permites, no estás aplicando el Método: estás aplicando otra cosa que se le parece pero no lo es.</p>
-
-                <h3>Mito 5 — “Esto se hace por amor, así que no necesita estructura”</h3>
-
-                <p>Claro que se hace por amor — Baden-Powell lo dijo en 1922, lo verás en el próximo curso. <strong>Y</strong> justo porque se hace por amor, exige más estructura, no menos. La protección del joven (A Salvo del Peligro), la planeación de la reunión, el seguimiento de la progresión, los protocolos de actividad: todo eso es la forma en que el amor se hace responsable. Amar sin cuidar no es amar; es buena intención.</p>
-
-                <div class="info-box">Si hubo un mito que reconociste como tuyo: bienvenido al club. Ahora lo importante es que ya tienes con qué responderle a quien lo repita —incluso si esa persona eres tú mismo.</div>
+                <p>De los 3 roles del Modelo de Aplicación (Apoyar, Acompañar, Enlazar), ¿cuál vas a fortalecer este trimestre? El que más te haga falta, no el que ya manejas bien. Anota tu elección y por qué en tu reflexión.</p>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>¿Cuál de los 5 mitos te resonó más como algo que has pensado o has escuchado en tu unidad? Escríbele tu propia refutación, en una o dos frases, con palabras tuyas.</p>
+                    <p>Escribe en una frase: ¿cómo conecta tu rol prioritario del trimestre (Apoyar, Acompañar o Enlazar) con las 2 áreas de crecimiento que elegiste?</p>
                     <textarea id="reflection-3" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(3, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 3</h3>
 
                     <div class="question">
-                        <h4>1. Un dirigente nuevo te dice: “Yo no fui scout cuando niño, mejor me retiro, no estoy en capacidad.” ¿Cuál es la mejor respuesta según esta lección?</h4>
+                        <h4>1. Al elegir las 2 áreas prioritarias del trimestre, el criterio sugerido es…</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q20">
-                            “Tienes razón, vamos a buscar a alguien con más experiencia.”
+                            Las que más te gustan o más manejas.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q20">
-                            “Lo que necesitas no es haber sido scout, es querer estar y dejarte formar. La Política de Adultos existe para eso.”
+                            Las que más necesita tu unidad ahora.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q20">
-                            “Te recomiendo que primero leas todas las guías oficiales y luego vuelves.”
+                            Las que el Comisionado Regional priorizó para todo el país.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. En una unidad, el dirigente decide cada actividad, cada fecha, cada equipo. Los jóvenes solo “votan” lo que él ya propuso. ¿Qué mito está viviendo?</h4>
+                        <h4>2. El rol prioritario del trimestre (Apoyar/Acompañar/Enlazar) se elige…</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q21">
-                            Mito 1 — no fui scout.
+                            Por edad del dirigente — los nuevos Apoyan, los veteranos Enlazan.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q21">
-                            Mito 3 — hay que entretenerlos.
+                            El que más te haga falta fortalecer, no el que ya manejas bien.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q21">
-                            Mito 4 — los jóvenes deciden cuando yo se los permito.
+                            Aleatoriamente entre los 3.
                         </label>
                     </div>
 
                     <button class="btn" onclick="checkQuiz(3)" id="checkBtn-3">Verificar Respuestas</button>
-                    <button class="btn hidden" onclick="completeModule(3)" id="nextBtn-3">Continuar a tu Programa en una página 🗺️</button>
+                    <button class="btn hidden" onclick="completeModule(3)" id="nextBtn-3">Continuar a mi reunión y mi proyecto 🛠️</button>
                 </div>
             </div>
 
-            <!-- MÓDULO 4: 🗺️ TU PROGRAMA EN UNA PÁGINA -->
+            <!-- MÓDULO 4: 🛠️ MI PRÓXIMA REUNIÓN + MI PROYECTO DEL TRIMESTRE -->
             <div class="module" id="module-4">
-                <h2>🗺️ 🗺️ Tu Programa en una página</h2>
+                <h2>🛠️ 🛠️ Mi próxima reunión + mi proyecto del trimestre</h2>
                 <div class="badge">Módulo 3/5</div>
 
-                <div class="info-box"><strong>Idea central:</strong> conozco las 5 ramas, los grupos naturales y la documentación marco.</div>
+                <div class="info-box"><strong>Idea central:</strong> 1 reunión y 1 proyecto planeados con los 8 elementos + DURASLID.</div>
 
-                <p>En los próximos cursos entras al detalle. Pero antes necesitas un mapa simple. El Programa de Jóvenes en la ASC se organiza en 5 ramas por edades, cada una con su grupo natural (la forma en que los jóvenes se agrupan dentro de la unidad) y su marco simbólico (el universo narrativo que la sostiene).</p>
+                <p>Esta es la lección donde el plan se vuelve acción. Vas a planear concretamente: una reunión que vas a tener esta o la próxima semana, y un proyecto que tu unidad va a vivir en el próximo trimestre.</p>
 
-                <div class="method-elements">
-                    <div class="method-element" style="background: linear-gradient(135deg, #fff8e1, #fff8e1dd); border-color: #f9a825;">
-                        <h4>🐻 Rama Familia — Cachorros (5–6 años)</h4>
-                        <p>Grupo natural: <strong>Camadas</strong> y Círculo de Familia. Marco simbólico: Hermanos de Mowgli.</p>
-                    </div>
-                    <div class="method-element" style="background: linear-gradient(135deg, #fff3e0, #fff3e0dd); border-color: #fb8c00;">
-                        <h4>🐺 Rama Manada — Lobatos (7–10 años)</h4>
-                        <p>Grupo natural: <strong>Seisenas</strong>. Marco simbólico: Libro de las Tierras Vírgenes.</p>
-                    </div>
-                    <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
-                        <h4>⚜️ Rama Tropa — Scouts (11–14 años)</h4>
-                        <p>Grupo natural: <strong>Patrullas</strong>. Marco simbólico: marco propio Scout.</p>
-                    </div>
-                    <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
-                        <h4>🧗 Rama Comunidad — Nómadas (15–17 años)</h4>
-                        <p>Grupo natural: equipos de Comunidad. Marco simbólico: Aventura y Ciudadanía.</p>
-                    </div>
-                    <div class="method-element" style="background: linear-gradient(135deg, #ede7f6, #ede7f6dd); border-color: #5e35b1;">
-                        <h4>🏔️ Rama Clan — Rovers (18–20 años)</h4>
-                        <p>Grupo natural: equipos de Clan. Marco simbólico: Rovering propio.</p>
-                    </div>
-                </div>
+                <h3>Mi próxima reunión: los 8 elementos en acción</h3>
 
-                <p>Tu rol como dirigente está en una de estas ramas. Pero todo el grupo —desde la familia más chiquita hasta el clan— forma un solo recorrido educativo. Lo que un cachorro vive a los 5 años lo prepara para la travesía a los 14, y lo que vivió en la tropa lo sostiene en su partida rover a los 20.</p>
+                <p>En tu reflexión, fija tu próxima reunión: la <strong>fecha</strong>; el <strong>tema o foco principal</strong>; el <strong>elemento del Método</strong> que vas a fortalecer especialmente y <strong>cómo</strong> lo vas a fortalecer (1-2 líneas); y cuál de los 8 atributos <strong>DURASLID</strong> (Desafiante, Útil, Recompensante, Atractiva, Segura, Lúdica, Inclusiva, Diversa) está en riesgo y necesita atención.</p>
 
-                <h3>La documentación marco que rige todo</h3>
+                <h3>Mi proyecto del trimestre</h3>
 
-                <ul>
-                    <li><strong>Política Nacional de Programa de Jóvenes</strong> (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024) — la norma marco del PJ.</li>
-                    <li><strong>Modelo de Aplicación “El Gran Juego para la Vida”</strong> (DNPJ 2026) — el manual pedagógico que aterriza la política al día a día.</li>
-                    <li><strong>Guías de Dirigente por rama</strong> (Familia, Manada, Tropa, Comunidad, Clan — DNPJ 2026) — la guía específica de tu rama.</li>
-                    <li><strong>Herramientas de Seguimiento de la Progresión Personal 2.0</strong> (DNPJ) — la caja de herramientas evaluativas que usarán todos los dirigentes.</li>
-                </ul>
+                <p>Un proyecto scout no es una actividad. Es una experiencia con propuesta (de quién surge), decisión (cómo se elige), preparación (qué se necesita), desarrollo (cómo se ejecuta), evaluación (qué aprendimos). Lo más importante: <strong>lo proponen los protagonistas</strong>, no los adultos. Tu rol es Apoyar, Acompañar y Enlazar.</p>
 
-                <div class="info-box">Los puedes consultar todos en <a href="https://scout.org.co/biblioteca" target="_blank" rel="noopener">scout.org.co/biblioteca</a>. No tienes que aprendértelos. Solo saber que existen y dónde encontrarlos cuando los necesites. En los Cursos 4 y 5 los vamos a recorrer juntos.</div>
+                <p>Anota en tu reflexión: el <strong>nombre tentativo</strong> del proyecto; <strong>de dónde surgió la idea</strong> (de los protagonistas, del adulto que la abrirá a votación, o aún no surgió y la próxima reunión la abren); <strong>qué áreas de crecimiento toca</strong> (mínimo 2 de las 6); y <strong>cómo se conecta con el territorio</strong> (barrio, comunidad, escuela).</p>
 
-                <details class="policy-quote">
-                    <summary>📋 Ver el corazón de la política</summary>
-                    <blockquote class="policy-quote-text">Está diseñado “por” y “con” los jóvenes, no simplemente “para” ellos… reconociéndolos como los principales agentes de su desarrollo.</blockquote>
-                    <p class="policy-quote-source">— Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. N° 617 de 2024), §5.2 — Características del Programa de Jóvenes.</p>
-                </details>
+                <div class="info-box">Si te quedaste atascado en algún campo, está bien. Marca "por definir" y vuelve más tarde. El plan se construye, no se improvisa.</div>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>En tu unidad o la unidad que vas a acompañar, ¿sabrías nombrar qué rama es, qué edades cubre, cuál es su grupo natural y cuál su marco simbólico? Anota lo que sepas y lo que no — eso vale más que adivinar.</p>
+                    <p>Imagina que tu plan se cumple al 80%. Al final del trimestre, ¿qué se va a notar en tu unidad que hoy no se nota? Sé concreto.</p>
                     <textarea id="reflection-4" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(4, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 4</h3>
 
                     <div class="question">
-                        <h4>1. Los Lobatos son la rama Manada y se agrupan en…</h4>
+                        <h4>1. Un proyecto scout, según el Modelo de Aplicación 2026, idealmente…</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q30">
-                            Patrullas, bajo el marco simbólico Scout.
+                            Lo propone el dirigente y lo ejecutan los protagonistas.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q30">
-                            Seisenas, bajo el marco simbólico del Libro de las Tierras Vírgenes.
+                            Surge de los protagonistas; el dirigente Apoya, Acompaña y Enlaza.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q30">
-                            Camadas, bajo el marco simbólico de los Hermanos de Mowgli.
+                            Lo asigna el Comisionado Regional según el plan nacional.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. ¿Cuál es la norma marco vigente que rige hoy al Programa de Jóvenes en la ASC?</h4>
+                        <h4>2. ¿Por qué se planea pensando en un elemento del Método y un atributo DURASLID?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q31">
-                            El Reglamento de la Red Nacional de Jóvenes (Acuerdo CSN 556).
+                            Para cumplir un requisito de la PNPJ.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q31">
-                            La Política Nacional de Programa de Jóvenes (Acuerdo CSN 617 de 2024).
+                            Para hacer consciente lo que la reunión va a fortalecer especialmente, en vez de confiarlo a la intuición.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q31">
-                            El Manual de Implementación del Marco de Mundo Mejor (junio 2021).
+                            Para evitar tener que aplicar los 8 elementos.
                         </label>
                     </div>
 
                     <button class="btn" onclick="checkQuiz(4)" id="checkBtn-4">Verificar Respuestas</button>
-                    <button class="btn hidden" onclick="completeModule(4)" id="nextBtn-4">Continuar a por qué importa 💡</button>
+                    <button class="btn hidden" onclick="completeModule(4)" id="nextBtn-4">Continuar a mi ruta de formación 📚</button>
                 </div>
             </div>
 
-            <!-- MÓDULO 5: 💡 POR QUÉ UN PROGRAMA DE CALIDAD CAMBIA LA VIDA DE LOS CHICOS -->
+            <!-- MÓDULO 5: 📚 MI RUTA DE FORMACIÓN: NIVELES 2 Y 4 -->
             <div class="module" id="module-5">
-                <h2>💡 💡 Por qué un Programa de calidad cambia la vida de los chicos</h2>
+                <h2>📚 📚 Mi ruta de formación: Niveles 2 y 4</h2>
                 <div class="badge">Módulo 4/5</div>
 
-                <div class="info-box"><strong>Idea central:</strong> el Programa toca las 6 áreas de crecimiento del protagonista.</div>
+                <div class="info-box"><strong>Idea central:</strong> selecciono cursos según rama y rol.</div>
 
-                <p>Hasta acá hablamos de definiciones, ramas y documentos. Suena lejano del lobato que llega a la reunión del sábado. Pero quiero que veas algo que vemos pocas veces: cuando el Programa es de calidad, un protagonista crece en seis dimensiones a la vez. Cuando no, ninguna.</p>
+                <p>Hoy cierras el Nivel 1. La línea tiene 4 niveles. Aquí defines cuál curso del Nivel 2 vas a tomar primero y cuándo vas a hacer el Curso 24 (A Salvo del Peligro — habilitante).</p>
 
-                <h3>Tres historias reales (con detalles cambiados)</h3>
+                <h3>Tu curso de rama del Nivel 2 (Cursos 7–11)</h3>
 
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <h4>Lobato A — Cuando el Programa es solo entretenimiento</h4>
-                        <p>Mariana llegó a la Manada a los 8 años. Le encantaban los juegos. Estuvo tres años. Su dirigente nunca planeó una reunión pensando en áreas de crecimiento ni hizo seguimiento a su progresión. A los 11 años se fue. “Era divertido, pero ya me aburrí”, dijo. Nunca supo que pudo haber escogido sus propios proyectos.</p>
-                    </div>
-                    <div class="timeline-item">
-                        <h4>Scout B — Cuando el Programa funciona como sistema</h4>
-                        <p>Camilo entró a la Tropa a los 11. Su patrulla decidía qué cocinar, cómo armar el campamento, qué proyecto de servicio harían en el barrio. Su dirigente se sentaba con él cada trimestre y le preguntaba qué quería trabajar. A los 14 hizo su Travesía y pasó a Comunidad. A los 22 entró a estudiar trabajo social “porque en los scouts aprendí que se puede cambiar algo en serio”.</p>
-                    </div>
-                    <div class="timeline-item">
-                        <h4>Rover C — Cuando el Programa se hace alianza</h4>
-                        <p>Sofía entró a Clan a los 18. Su dirigente nunca le dijo qué hacer; le hizo preguntas. Sofía propuso, equivocó, ajustó, lideró un proyecto de paz con un colegio rural. A los 20 hizo su Partida Rover. Hoy, a los 28, dirige el equipo regional de jóvenes y forma a otros dirigentes. “Lo que aprendí en el Clan no me lo enseñó nadie — lo viví.”</p>
-                    </div>
-                </div>
-
-                <p>El Programa no es un fin en sí mismo. Es la condición silenciosa para que la experiencia scout transforme la vida del protagonista.</p>
-
-                <h3>Las 6 áreas de crecimiento</h3>
+                <p>Cada dirigente toma el curso de su rama. La plataforma te lo sugiere automáticamente según la rama que declaraste en la L3 de este curso.</p>
 
                 <ul>
-                    <li><strong>Corporalidad</strong> — que el protagonista cuide y conozca su cuerpo.</li>
-                    <li><strong>Creatividad</strong> — que explore, invente, resuelva problemas con imaginación.</li>
-                    <li><strong>Carácter</strong> — que decida, asuma responsabilidades, construya autonomía.</li>
-                    <li><strong>Afectividad</strong> — que reconozca, exprese y regule sus emociones.</li>
-                    <li><strong>Sociabilidad</strong> — que conviva, coopere, sirva y ejerza ciudadanía.</li>
-                    <li><strong>Espiritualidad</strong> — que se haga preguntas grandes y construya sentido.</li>
+                    <li>🐻 <strong>Curso 7</strong> — Rama Familia (Cachorros, 5-6 años).</li>
+                    <li>🐺 <strong>Curso 8</strong> — Rama Manada (Lobatos, 7-10 años).</li>
+                    <li>⚜️ <strong>Curso 9</strong> — Rama Tropa Scout (11-14 años).</li>
+                    <li>🧗 <strong>Curso 10</strong> — Rama Comunidad (Nómadas, 15-17 años).</li>
+                    <li>🏔️ <strong>Curso 11</strong> — Rama Clan (Rovers, 18-20 años).</li>
                 </ul>
 
-                <div class="info-box">En el Curso 5 de esta línea vas a recorrer cómo el Modelo de Aplicación 2026 desdobla estas 6 áreas en competencias terminales e intermedias por rama. Hoy solo guarda el mapa.</div>
+                <h3>Los 3 cursos pedagógicos operativos (Cursos 12, 13, 14)</h3>
+
+                <p>Estos los toman todos los dirigentes de unidad. Recomendamos este orden, según tu rol:</p>
+
+                <ul>
+                    <li><strong>Si tu foco es acompañar la progresión personal</strong> (uno-a-uno con los protagonistas) → empieza por el <strong>Curso 12 (Seguimiento de la Progresión)</strong>.</li>
+                    <li><strong>Si eres Jefe o Subjefe de Rama</strong> → empieza por el <strong>Curso 13 (Planeación de Reuniones)</strong> y luego el <strong>Curso 14 (Ciclo con ABP)</strong>.</li>
+                    <li><strong>Si eres Asistente o entras nuevo</strong> → orden libre, según prioridad de tu unidad.</li>
+                </ul>
+
+                <h3>Curso 24 — A Salvo del Peligro: HABILITANTE</h3>
+
+                <div class="info-box"><strong>Importante</strong>: ningún dirigente avanza al Nivel 2 sin haber completado el Curso 24 (A Salvo del Peligro aplicado al Programa). Es el único curso del Nivel 4 que es prerrequisito real. Tómalo en paralelo con tu primer curso del Nivel 2.</div>
+
+                <p>Los otros 4 cursos del Nivel 4 (Marco de Mundo Mejor, Kit Constructores de Paz, Kit HeForShe, Kit Patrimonito) se toman según interés o convocatorias nacionales. No tienen orden obligatorio.</p>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>De las tres historias, ¿cuál se parece más a algo que has visto o escuchado en un grupo cercano (no necesariamente el tuyo)? Escribe en una frase qué hizo (o no hizo) el adulto, y qué área de crecimiento se vio afectada.</p>
+                    <p>Escribe cuál será el primer curso del Nivel 2 que vas a tomar (de los 8) y cuándo planeas empezarlo. Sé específico (semana, mes).</p>
                     <textarea id="reflection-5" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(5, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 5</h3>
 
                     <div class="question">
-                        <h4>1. En la historia de Mariana, lo que faltó fue principalmente…</h4>
+                        <h4>1. El Curso 24 (A Salvo del Peligro) es…</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q40">
-                            Que sus dirigentes la dejaran ganar más juegos.
+                            Opcional, solo para quienes trabajan en zonas de alto riesgo.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q40">
-                            Que el Programa fuera planeado intencionalmente para tocar todas las áreas de crecimiento, no solo el entretenimiento.
+                            Habilitante: ningún dirigente avanza al Nivel 2 sin completarlo.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q40">
-                            Que Mariana entrara a la rama más tarde.
+                            Solo aplica a Comisionados Nacionales.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. Según esta lección, las 6 áreas de crecimiento son…</h4>
+                        <h4>2. Un dirigente nuevo de Manada que se enfocará en acompañar la progresión personal debería empezar el Nivel 2 con…</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q41">
-                            Las 6 ramas del Movimiento (Familia, Manada, Tropa, Comunidad, Clan + Adultos).
+                            El Curso 8 (Rama Manada) y el Curso 12 (Seguimiento de la Progresión).
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q41">
-                            Las 6 dimensiones del desarrollo integral del protagonista: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad.
+                            El Curso 14 (Ciclo con ABP) primero, luego el resto.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q41">
-                            Las 6 prioridades estratégicas del Plan Trienal Mundial OMMS.
+                            Los cursos del Nivel 3 directamente.
                         </label>
                     </div>
 
                     <button class="btn" onclick="checkQuiz(5)" id="checkBtn-5">Verificar Respuestas</button>
-                    <button class="btn hidden" onclick="completeModule(5)" id="nextBtn-5">Continuar a tu primer compromiso ✍️</button>
+                    <button class="btn hidden" onclick="completeModule(5)" id="nextBtn-5">Continuar a mi par y mi promesa 🤝</button>
                 </div>
             </div>
 
-            <!-- MÓDULO 6: ✍️ TU PRIMER COMPROMISO -->
+            <!-- MÓDULO 6: 🤝 MI PAR DIRIGENTE + PROMESA PERSONAL -->
             <div class="module" id="module-6">
-                <h2>✍️ ✍️ Tu primer compromiso</h2>
+                <h2>🤝 🤝 Mi par dirigente + Promesa personal</h2>
                 <div class="badge">Módulo 5/5</div>
 
-                <div class="info-box"><strong>Idea central:</strong> saber sin actuar no transforma; el primer paso es chico y concreto.</div>
+                <div class="info-box"><strong>Idea central:</strong> comparto el plan con un par + firmo mi promesa.</div>
 
-                <p>Llegaste hasta acá. Antes de pasar al Curso 2 necesitamos algo: que conviertas lo que viste en un primer paso concreto.</p>
+                <p>Los planes que se guardan en el cajón no se cumplen. Los que se comparten con un par, sí. Cerramos el Nivel 1 con dos actos: identificar un par dirigente con quien compartir el plan, y firmar una promesa personal.</p>
 
-                <h3>Imagina al protagonista que vas a acompañar</h3>
+                <h3>Mi par dirigente</h3>
 
-                <p>Dibuja (o toma foto a un dibujo, o sube una imagen que lo represente) cómo te imaginas a un protagonista de tu rama dentro de tres años, si vivió un Programa de calidad contigo al lado. No es un examen artístico: es un ancla visual del joven al que vas a acompañar.</p>
+                <p>Un par dirigente puede ser: otro adulto de tu mismo consejo de grupo, alguien de tu rama en otro grupo de la región, un dirigente con quien hiciste un curso de formación. La función: compartirle el plan, contar cómo va cada mes, ajustar juntos. No es un jefe ni un evaluador; es un compañero de camino.</p>
+
+                <p>Anota en tu reflexión: el <strong>nombre</strong> del par dirigente, su <strong>grupo o ámbito</strong>, <strong>cuándo</strong> le compartirás el plan, y con <strong>qué frecuencia</strong> se reunirán para revisar avances (semanal, quincenal o mensual).</p>
+
+                <h3>Mi promesa personal del Nivel 1</h3>
+
+                <p>Yo, <strong>[tu nombre]</strong>, completé el Nivel 1 de la Línea Programa de Jóvenes el día <strong>[fecha]</strong>.<br>Asumí los aprendizajes de los Cursos 1 a 6 como brújula de mi servicio al Movimiento Scout.<br>Me comprometo a vivir el Programa de Jóvenes como una alianza educativa entre jóvenes y adultos, no como un manual.<br>Me comprometo a educar por el amor, no por el temor.<br>Me comprometo a aplicar el Método Scout como sistema completo, no como menú.<br>Me comprometo a tomar el Curso 24 (A Salvo del Peligro) antes de avanzar al Nivel 2.<br>Y me comprometo a revisar y ajustar este Plan Personal de Dirigente, junto con mi par, cada <strong>[frecuencia que elegí]</strong>.</p>
+
+                <div class="mission-box">Lee tu promesa en voz alta antes de descargar tu certificado. Lo que se dice cobra peso. Lo que se escribe se queda.</div>
 
                 <div class="photo-upload">
-                    <h4 class="photo-upload-title">Tu protagonista de programa dentro de 3 años</h4>
-                    <p class="photo-upload-hint">Puedes dibujarlo en papel y tomarle foto, o usar cualquier imagen que para ti represente ese joven que aprendió, decidió, sirvió y creció. Es solo para ti — la guardamos en tu navegador.</p>
-                    <input type="file" accept="image/*" id="photo-input-bienvenida-pj-protagonista-sonado" class="photo-upload-input" onchange="handlePhotoUpload(this, 'bienvenida-pj-protagonista-sonado')">
-                    <label for="photo-input-bienvenida-pj-protagonista-sonado" class="photo-upload-btn">📷 Subir mi imagen</label>
-                    <div id="photo-preview-bienvenida-pj-protagonista-sonado" class="photo-preview"></div>
-                    <div id="photo-actions-bienvenida-pj-protagonista-sonado" class="photo-actions hidden">
-                        <button type="button" class="btn-secondary" onclick="downloadPhoto('bienvenida-pj-protagonista-sonado')">📥 Descargar para compartir</button>
-                        <button type="button" class="btn-tertiary" onclick="clearPhoto('bienvenida-pj-protagonista-sonado')">🗑️ Quitar</button>
+                    <h4 class="photo-upload-title">Foto de tu promesa firmada (opcional)</h4>
+                    <p class="photo-upload-hint">Si quieres, imprime la promesa, fírmala a mano y súbele la foto. Es solo para ti — la guardamos en tu navegador.</p>
+                    <input type="file" accept="image/*" id="photo-input-pj-promesa-personal-nivel-1" class="photo-upload-input" onchange="handlePhotoUpload(this, 'pj-promesa-personal-nivel-1')">
+                    <label for="photo-input-pj-promesa-personal-nivel-1" class="photo-upload-btn">📷 Subir foto de mi promesa</label>
+                    <div id="photo-preview-pj-promesa-personal-nivel-1" class="photo-preview"></div>
+                    <div id="photo-actions-pj-promesa-personal-nivel-1" class="photo-actions hidden">
+                        <button type="button" class="btn-secondary" onclick="downloadPhoto('pj-promesa-personal-nivel-1')">📥 Descargar para compartir</button>
+                        <button type="button" class="btn-tertiary" onclick="clearPhoto('pj-promesa-personal-nivel-1')">🗑️ Quitar</button>
                     </div>
                     <p class="photo-upload-share">💡 <strong>Para compartir con tu dirigente o el grupo:</strong> descarga la imagen y envíala por WhatsApp, email o el canal que prefieras.</p>
                 </div>
 
-                <h3>Un compromiso chico, concreto y tuyo</h3>
-
-                <p>Completa esta plantilla en tu reflexión: <em>“Esta semana, en mi unidad, voy a ______ (algo que muestre que el Programa es alianza, no manual). Lo voy a hacer con ______ (otro dirigente, un protagonista, una familia). Y la señal de que se cumplió será ______ (algo observable, no una intención).”</em></p>
-
-                <div class="mission-box">No prometas grande. Promete chico. La diferencia entre un dirigente que transforma y uno que se quema son cien promesas chicas cumplidas, no una grande olvidada.</div>
-
                 <h3>Lo que viene</h3>
 
                 <ul>
-                    <li>💗 <strong>Curso 2</strong> — La Educación por el Amor: la apuesta de Baden-Powell.</li>
-                    <li>🌟 <strong>Curso 3</strong> — Características Esenciales del Movimiento Scout.</li>
-                    <li>🧭 <strong>Curso 4</strong> — El Método Scout y sus 8 elementos.</li>
-                    <li>📜 <strong>Curso 5</strong> — La PNPJ y “El Gran Juego para la Vida”.</li>
-                    <li>🗺️ <strong>Curso 6</strong> — Mi Compromiso con el Programa de Jóvenes (plan personal).</li>
+                    <li><strong>Inmediato</strong>: Curso 24 (A Salvo del Peligro — habilitante).</li>
+                    <li><strong>Próximo mes</strong>: tu curso de rama del Nivel 2 + un curso pedagógico operativo (12, 13 o 14).</li>
+                    <li><strong>Próximos meses</strong>: el resto del Nivel 2, el Nivel 3 (cuando ejerzas un cargo) y los demás cursos del Nivel 4.</li>
                 </ul>
 
-                <div class="info-box">Bienvenido al equipo de los que acompañan. Lo que viene vale el viaje.</div>
+                <div class="info-box">Bienvenido al equipo de los dirigentes con plan. El Movimiento te necesitaba. Tu unidad también. Buen camino, hermano mayor.</div>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>Escribe tu compromiso completo siguiendo la plantilla. Esto te lo enviaremos por correo cuando descargues tu certificado, para que lo recuerdes en una semana.</p>
+                    <p>Escribe tu promesa personal completa (la plantilla de arriba) y agrega una línea propia tuya — algo que solo tú podrías comprometer, según tu camino. Esta promesa te la enviaremos por correo con tu certificado.</p>
                     <textarea id="reflection-6" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(6, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 6</h3>
 
                     <div class="question">
-                        <h4>1. ¿Cuál de estos compromisos cumple mejor el criterio “chico, concreto y tuyo”?</h4>
+                        <h4>1. ¿Por qué se sugiere compartir el plan con un par dirigente, no con un jefe?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q50">
-                            “Voy a transformar la cultura del Programa en mi región este año.”
+                            Porque los jefes están ocupados con otras tareas.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q50">
-                            “En la próxima reunión voy a dejar que mi equipo decida una parte de la actividad, en vez de decidirla yo.”
+                            Porque el par es compañero de camino, no evaluador: sostiene sin juzgar y permite ajuste mutuo.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q50">
-                            “Voy a estudiarme el Modelo de Aplicación completo antes del próximo sábado.”
+                            Porque el plan es secreto y el jefe no debe verlo.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. Según el cierre del curso, los dirigentes que transforman se construyen sobre…</h4>
+                        <h4>2. La promesa personal del Nivel 1 es…</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q51">
-                            Una promesa grande que inspira al equipo.
+                            Un trámite administrativo necesario para obtener el certificado.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q51">
-                            Cien promesas chicas cumplidas.
+                            Un acto de compromiso explícito que convierte el aprendizaje en orientación viva del servicio.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q51">
-                            La cantidad de campamentos que organizaron.
+                            Una promesa de cumplir los 5 cursos restantes del Nivel 1.
                         </label>
                     </div>
 
@@ -1457,14 +1486,14 @@ body {
 
                     <!-- Course name -->
                     <div style="text-align: center; background: linear-gradient(135deg, #622599 0%, #3d1660 100%); color: white; padding: 10px 20px; margin: 10px 0;">
-                        <h3 style="font-size: 1.1em; letter-spacing: 1px; margin: 0; color: white;">BIENVENIDA AL PROGRAMA DE JÓVENES</h3>
+                        <h3 style="font-size: 1.1em; letter-spacing: 1px; margin: 0; color: white;">MI COMPROMISO CON EL PROGRAMA DE JÓVENES</h3>
                     </div>
 
                     <!-- Body -->
                     <div style="text-align: center; margin: 15px 0;">
                         <p style="font-size: 0.9em; color: #636363; margin-bottom: 8px;">Se otorga el presente certificado a</p>
                         <h3 style="color: #622599; font-size: 1.5em; margin: 8px 0; border-bottom: 2px solid #ffe675; display: inline-block; padding-bottom: 5px;" id="studentName"></h3>
-                        <p style="font-size: 0.85em; color: #636363; margin-top: 10px; line-height: 1.5;">ha completado el Curso 1 de la Línea Programa de Jóvenes, reconociendo el Programa de Jóvenes como una alianza educativa entre quien crece y quien acompaña, y dando su primer compromiso concreto como dirigente al servicio de los protagonistas de programa de la Asociación Scouts de Colombia</p>
+                        <p style="font-size: 0.85em; color: #636363; margin-top: 10px; line-height: 1.5;">ha completado el Curso 6 de la Línea Programa de Jóvenes, cerrando el Nivel 1 con un Plan Personal de Dirigente y una Promesa personal que integran los aprendizajes de los Cursos 1 a 5, comprometiéndose a vivir el Programa de Jóvenes como una alianza educativa al servicio de los protagonistas de la Asociación Scouts de Colombia</p>
                     </div>
 
                     <!-- Details grid -->
@@ -1491,11 +1520,12 @@ body {
 
                 <h3 style="margin-top: 30px;">🎯 Logros Desbloqueados</h3>
                 <div class="achievements">
-                    <div class="achievement earned">🎒 El Programa es alianza</div>
-                    <div class="achievement earned">🧨 Mito-buster</div>
-                    <div class="achievement earned">🗺️ Conozco mi Programa</div>
-                    <div class="achievement earned">💡 Veo por qué importa</div>
-                    <div class="achievement earned">🎒 Constructor de Programa</div>
+                    <div class="achievement earned">👋 Listo para integrar</div>
+                    <div class="achievement earned">🪞 Veo mi camino</div>
+                    <div class="achievement earned">🎯 Sé dónde estoy parado</div>
+                    <div class="achievement earned">🛠️ Tengo planes concretos</div>
+                    <div class="achievement earned">📚 Sé qué viene</div>
+                    <div class="achievement earned">🗺️ Dirigente con Plan</div>
                 </div>
 
                 <div style="text-align: center; margin: 30px 0;">
@@ -1522,16 +1552,16 @@ body {
     <script>
     // --- Configuracion del curso (generada automaticamente) ---
     var COURSE_CONFIG = {
-        courseId: "bienvenida-programa-jovenes",
-        title: "Bienvenida al Programa de Jóvenes",
+        courseId: "mi-compromiso-programa-jovenes",
+        title: "Mi Compromiso con el Programa de Jóvenes",
         totalModules: 8,
         contentModules: 5,
         googleScriptUrl: "https://script.google.com/macros/s/AKfycbxxZBp6XpmdRzZS0BXO02WMq31K5FUU8-Mqzc2Sj0PcwB3cMcrhIqbHQA0naUQb5mgBWw/exec",
-        achievements: [{"id":"achievement-1","name":"El Programa es alianza","emoji":"🎒","unlockOnModule":2},{"id":"achievement-2","name":"Mito-buster","emoji":"🧨","unlockOnModule":3},{"id":"achievement-3","name":"Conozco mi Programa","emoji":"🗺️","unlockOnModule":4},{"id":"achievement-4","name":"Veo por qué importa","emoji":"💡","unlockOnModule":5},{"id":"achievement-5","name":"Constructor de Programa","emoji":"🎒","unlockOnModule":-1}]
+        achievements: [{"id":"achievement-1","name":"Listo para integrar","emoji":"👋","unlockOnModule":1},{"id":"achievement-2","name":"Veo mi camino","emoji":"🪞","unlockOnModule":2},{"id":"achievement-3","name":"Sé dónde estoy parado","emoji":"🎯","unlockOnModule":3},{"id":"achievement-4","name":"Tengo planes concretos","emoji":"🛠️","unlockOnModule":4},{"id":"achievement-5","name":"Sé qué viene","emoji":"📚","unlockOnModule":5},{"id":"achievement-final","name":"Dirigente con Plan","emoji":"🗺️","unlockOnModule":-1}]
     };
 
     // --- Respuestas correctas (indice base 0) ---
-    var QUIZ_ANSWERS = {"2":[1,1],"3":[1,2],"4":[1,1],"5":[1,1],"6":[1,1]};
+    var QUIZ_ANSWERS = {"2":[1,1],"3":[1,1],"4":[1,1],"5":[1,0],"6":[1,1]};
 
 // ============================================
 // MOTOR DE CURSOS - PLATAFORMA DE FORMACION DE ADULTOS ASC

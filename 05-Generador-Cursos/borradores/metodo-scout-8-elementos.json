@@ -1,0 +1,765 @@
+{
+  "courseId": "metodo-scout-8-elementos",
+  "title": "El Método Scout y sus 8 elementos",
+  "subtitle": "El \"cómo\" del Movimiento — un sistema, no una lista",
+  "description": "El curso más largo y más importante del Nivel 1. En ~40 minutos vas a entender el Método Scout como un sistema de autoeducación progresiva basado en 8 elementos interdependientes — no una lista de técnicas que se eligen a gusto. Vas a recorrer los 8 elementos en 4 parejas, ver las 4 Dinámicas del Escultismo en acción y salir con un plan concreto para integrar el Método en tu próxima reunión.",
+  "icon": "🧭",
+  "duration": "40 minutos",
+  "totalContentModules": 7,
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Bienvenida",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>~40 minutos.</strong> Al final vas a poder mirar cualquier reunión scout y decir, con precisión, qué elementos del Método están activos y cuáles no."
+        },
+        {
+          "type": "paragraph",
+          "text": "Te damos la bienvenida. Este es el curso más largo y más importante del Nivel 1. Tómalo con calma. Cada elemento merece su propio momento."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que vas a vivir en este curso"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Por qué el Método es un sistema y no una lista.",
+            "Los 8 elementos en 4 parejas (2-2-2-2).",
+            "Las 4 Dinámicas del Escultismo que muestran el Método en acción.",
+            "Cómo planear una reunión real integrando los 8 elementos."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "Si terminas este curso sin un plan concreto para tu próxima reunión, lo perdimos. Asegúrate de llegar a la Lección 8 con energía para hacer el ejercicio."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🧭 El Método como sistema",
+      "emoji": "🧭",
+      "navLabel": "El sistema",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> 8 elementos interdependientes, no una lista."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si abres The Scout Method de la OMMS vas a leer \"sistema de autoeducación progresiva basado en la interacción de elementos igualmente importantes que funcionan como un sistema cohesivo\". Es exacto, lo adoptó la 41ª Conferencia Scout Mundial en 2017 y la PNPJ 2024 lo asumió tal cual. Y, si nunca has hecho un curso así, es difícil de digerir en frío. Vamos a llegar a esa frase, pero por el camino aterrizado."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la definición oficial",
+          "source": "The Scout Method, OMMS 2019 (Resolución 41 ª Conferencia Scout Mundial 2017-04), p. 14.",
+          "text": "El Método Scout es un sistema de autoeducación progresiva basado en la interacción de elementos igualmente importantes que funcionan como un sistema cohesivo."
+        },
+        {
+          "type": "info-box",
+          "text": "En palabras simples: el Método Scout es la forma en que el Movimiento educa. Y esa forma no es una lista de técnicas sueltas que tú puedas escoger según el día — es un sistema de 8 piezas que se sostienen mutuamente. Quitas una, se cae todo. La definición oficial dice eso mismo, en lenguaje doctrinal."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las palabras clave de la definición"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🛠️ Sistema",
+              "description": "No una lista de la que tomas lo que te sirve. Un conjunto donde cada parte sostiene a las demás.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🌱 Autoeducación",
+              "description": "El joven se educa <strong>a sí mismo</strong>, con apoyo. El adulto no es maestro; es facilitador.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "📈 Progresiva",
+              "description": "No se aprende todo de una vez. Se avanza por etapas, según el ritmo de cada quien.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "⚖️ Igualmente importantes",
+              "description": "Ningún elemento vale más que los demás. La Promesa no vale más que el Sistema de Equipos. La Naturaleza no vale más que el Marco Simbólico.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los 8 elementos (visión panorámica)"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Promesa y Ley</strong> — el código de vida que el joven asume voluntariamente.",
+            "<strong>Aprender Haciendo</strong> — la experiencia como motor del aprendizaje.",
+            "<strong>Progresión Personal</strong> — el camino individual de crecimiento.",
+            "<strong>Sistema de Equipos</strong> — los pequeños grupos donde se vive el Movimiento.",
+            "<strong>Apoyo del Adulto</strong> — el rol del dirigente como facilitador.",
+            "<strong>Marco Simbólico</strong> — el universo narrativo de cada rama.",
+            "<strong>Naturaleza</strong> — el entorno educativo privilegiado.",
+            "<strong>Participación en la Comunidad</strong> — el servicio y la ciudadanía activa."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "Para los que tienen ojos para ver y oídos para oír, el bosque es a la vez un laboratorio, un club y un templo. (B-P, Rovering to Success)"
+        }
+      ],
+      "reflection": {
+        "prompt": "De los 8 elementos, ¿cuáles ya reconoces que se aplican en tu unidad y cuáles te parecen extraños o ausentes?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar a los elementos 1 y 2 📜",
+        "questions": [
+          {
+            "text": "Según la definición oficial OMMS 2019, el Método Scout es…",
+            "options": [
+              "Una lista de 8 técnicas educativas que se aplican por separado.",
+              "Un sistema de autoeducación progresiva basado en la interacción de 8 elementos igualmente importantes.",
+              "El conjunto de actividades y juegos que se hacen en una reunión scout."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "\"Igualmente importantes\" en la definición del Método significa que…",
+            "options": [
+              "Solo se aplica el elemento que más se ajusta a la rama.",
+              "Ningún elemento vale más que los otros; el sistema requiere los 8.",
+              "Cada rama elige cuál de los 8 trabajar cada año."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "📜 Elementos 1–2: Promesa, Ley y Aprender Haciendo",
+      "emoji": "📜",
+      "navLabel": "Elementos 1–2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> La ética y la práctica."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Elemento 1 — Promesa y Ley"
+        },
+        {
+          "type": "paragraph",
+          "text": "La Promesa es la decisión voluntaria del joven de adherirse al código de vida del Movimiento. La Ley es ese código, formulado en términos positivos y progresivos según la rama. Promesa y Ley son <strong>una pareja</strong>: la Promesa sin Ley es palabra vacía; la Ley sin Promesa es regla externa."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 La cita central de la Promesa",
+          "source": "Robert Baden-Powell.",
+          "text": "El honor de un Scout es ser digno de confianza."
+        },
+        {
+          "type": "paragraph",
+          "text": "En cada rama, la Promesa y la Ley se formulan con el lenguaje propio de la edad: la Ley del Cachorro, la Ley del Lobato, la Ley Scout, la Ley Nómada, la Ley Rover. Lo importante: en todas ellas, el joven dice 'yo prometo' libremente. No 'yo obedezco'. No 'yo cumplo porque me obligan'. La voluntariedad es la condición."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Elemento 2 — Aprender Haciendo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Es el principio pedagógico que B-P pidió prestado a John Dewey y a la educación activa de comienzos del siglo XX. <strong>No se aprende escuchando; se aprende intentando, equivocándose y mejorando.</strong> En la unidad, esto significa: dejar que la patrulla cocine sola aunque tarde el doble; dejar que el lobato amarre el nudo aunque le quede flojo; dejar que el rover lidere el proyecto aunque a veces se atasque."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 La cita de Aprender Haciendo",
+          "source": "Baden-Powell.",
+          "text": "El método de instrucción en el escultismo es el de crear en el muchacho el deseo de aprender por sí mismo."
+        },
+        {
+          "type": "info-box",
+          "text": "Si el dirigente hace por el joven, el joven no aprende. Esa es la regla. Tu trabajo es preparar el escenario para que él intente, no resolver lo que él puede resolver."
+        }
+      ],
+      "reflection": {
+        "prompt": "Recuerda una situación reciente donde, por la prisa o por evitar el error, hiciste por un protagonista lo que él hubiera podido hacer solo o con apoyo. Escribe brevemente: ¿qué pasó? ¿Qué hubieras hecho distinto sabiendo lo que sabes ahora?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar a los elementos 3 y 4 🌱",
+        "questions": [
+          {
+            "text": "La Promesa y la Ley son una pareja porque…",
+            "options": [
+              "Siempre se dicen una después de la otra en las ceremonias.",
+              "La Promesa sin Ley es palabra vacía; la Ley sin Promesa es regla externa. Se sostienen mutuamente.",
+              "La Ley se enseña a los Lobatos y la Promesa a los Scouts."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "La regla del Aprender Haciendo dice que…",
+            "options": [
+              "El dirigente debe demostrar primero cómo se hace, luego dejar al joven repetir.",
+              "Si el dirigente hace por el joven, el joven no aprende: prepara el escenario para que él intente.",
+              "Los jóvenes deben aprender solo de los manuales oficiales."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "🌱 Elementos 3–4: Progresión Personal y Sistema de Equipos",
+      "emoji": "🌱",
+      "navLabel": "Elementos 3–4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> Crecimiento individual y vida de pequeño grupo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Elemento 3 — Progresión Personal"
+        },
+        {
+          "type": "paragraph",
+          "text": "La PNPJ 2024 lo titula <strong>'Progreso personal'</strong>: es el camino individual de crecimiento del protagonista en las 6 áreas (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad). No es competitiva: cada joven avanza a su ritmo. Se construye con el acompañamiento del <strong>dirigente</strong> (en sus roles de apoyar, acompañar y enlazar), en momentos de conversación y reconocimiento. Se registra en el <strong>Registro de Acompañamiento a la Progresión Personal</strong> (DNPJ-2026-021) y se sostiene con las <strong>Herramientas de Seguimiento 2.0</strong>."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Modelo de Aplicación 2026 enuncia 3 momentos de aprendizaje en cada oportunidad: <strong>Exploro</strong> (primer contacto), <strong>Aplico</strong> (práctica acompañada), <strong>Profundizo</strong> (transferencia y autonomía). Verlas como un ciclo, no como un examen."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Elemento 4 — Sistema de Equipos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Los jóvenes no viven el Movimiento en grupo grande; lo viven en <strong>pequeños grupos</strong> donde se sienten conocidos, donde toman decisiones, donde aprenden a liderar entre pares. Cada rama tiene su grupo natural: Camadas (Familia), Seisenas (Manada), Patrullas (Tropa), equipos de Comunidad y de Clan."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🐻 Familia",
+              "description": "<strong>Camadas</strong> y Círculo de Familia.",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "🐺 Manada",
+              "description": "<strong>Seisenas</strong>.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "⚜️ Tropa",
+              "description": "<strong>Patrullas</strong> (6-8 scouts).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🧗 Comunidad",
+              "description": "equipos.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🏔️ Clan",
+              "description": "equipos rover.",
+              "color": "#ede7f6",
+              "borderColor": "#5e35b1"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En la Tropa, el Sistema de Patrullas es <strong>el corazón del Método</strong>, según B-P. Una patrulla bien constituida lidera sus propias actividades, planea su comida, organiza su rincón, resuelve sus conflictos. El Jefe de Tropa no manda a las patrullas; trabaja con los Guías de Patrulla."
+        },
+        {
+          "type": "info-box",
+          "text": "Cuando una unidad opera solo como gran grupo y nunca como pequeños grupos, está rompiendo el Sistema de Equipos. La unidad existe; el Método, no."
+        }
+      ],
+      "reflection": {
+        "prompt": "En tu unidad (o la que acompañas), ¿qué tan bien funciona el pequeño grupo (camada, seisena, patrulla, equipo)? Anota una cosa que ya funciona y una que crees que se puede mejorar."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar a los elementos 5 y 6 💗",
+        "questions": [
+          {
+            "text": "La Progresión Personal en el Método Scout…",
+            "options": [
+              "Es una competencia donde se reconoce al que más avanza.",
+              "Es el camino individual de cada protagonista, a su ritmo, en las 6 áreas de crecimiento.",
+              "Es la suma de insignias que un joven obtiene en su rama."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "El Sistema de Equipos significa que…",
+            "options": [
+              "La unidad opera como un solo gran grupo dirigido por el adulto.",
+              "Los jóvenes viven el Movimiento en pequeños grupos donde lideran entre pares: camadas, seisenas, patrullas, equipos.",
+              "Cada protagonista actúa de forma independiente."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "💗 Elementos 5–6: Apoyo del Adulto y Marco Simbólico",
+      "emoji": "💗",
+      "navLabel": "Elementos 5–6",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> El acompañante y el imaginario."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Elemento 5 — Apoyo del Adulto"
+        },
+        {
+          "type": "paragraph",
+          "text": "En el Curso 3 viste la frase eje del Movimiento (OMMS 2019, p. 21): de jóvenes, para jóvenes, <strong>apoyado por adultos</strong>. Aquí ese 'apoyo' se vuelve elemento metodológico. Las Características Esenciales enuncian <strong>4 tipos de apoyo del adulto</strong> (recordatorio del Curso 3, L5): educativo, emocional, informativo, evaluativo."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Modelo de Aplicación 2026 traduce esto en <strong>3 roles del dirigente</strong>: <strong>Apoyar</strong> (preparar las condiciones para que el joven actúe), <strong>Acompañar</strong> (estar presente en el proceso), <strong>Enlazar</strong> (conectar al joven con el grupo, la familia, el territorio y la institución)."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 El rol del adulto según B-P",
+          "source": "Robert Baden-Powell, citado por la OMMS.",
+          "text": "El instructor no es un maestro: es un hermano mayor."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Elemento 6 — Marco Simbólico"
+        },
+        {
+          "type": "paragraph",
+          "text": "Es el universo narrativo, los imaginarios y los símbolos propios de cada rama. No es decoración: es el lenguaje con el que la rama vive sus valores. Un lobato no aprende cooperación leyendo un manual; la aprende viviendo el Libro de las Tierras Vírgenes con sus seisenas. Un cachorro aprende fraternidad jugando a ser Hermano de Mowgli."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🐻 Familia",
+              "description": "Los Hermanos de Mowgli, Nombres de Caza, Viejo Lobo.",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "🐺 Manada",
+              "description": "El Libro de las Tierras Vírgenes (Kipling).",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "⚜️ Tropa",
+              "description": "Marco propio Scout: Patrulla, Honor, Hermandad.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🧗 Comunidad",
+              "description": "Aventura y Ciudadanía.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🏔️ Clan",
+              "description": "Rovering propio: Vigilia, Peregrinaje, Partida.",
+              "color": "#ede7f6",
+              "borderColor": "#5e35b1"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "Un dirigente que ignora o ridiculiza el Marco Simbólico ('eso es de niños'), está cortando el cable principal por el que la rama transmite sus valores. El símbolo es el método. Tómalo en serio aunque te dé pena."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Qué tan bien usa tu unidad (o la unidad que acompañas) el Marco Simbólico propio de su rama? Anota una práctica simbólica que ya funciona y una que crees que se está perdiendo."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar a los elementos 7 y 8 🌳",
+        "questions": [
+          {
+            "text": "Los 3 roles del dirigente según el Modelo de Aplicación 2026 son…",
+            "options": [
+              "Liderar, planear y supervisar.",
+              "Apoyar, Acompañar y Enlazar.",
+              "Instruir, evaluar y reconocer."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "El Marco Simbólico de la rama Manada se basa en…",
+            "options": [
+              "Los Hermanos de Mowgli y los Nombres de Caza.",
+              "El Libro de las Tierras Vírgenes (Kipling).",
+              "La Aventura y la Ciudadanía."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "🌳 Elementos 7–8: Naturaleza y Participación en la Comunidad",
+      "emoji": "🌳",
+      "navLabel": "Elementos 7–8",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> El laboratorio y el servicio."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Elemento 7 — Naturaleza"
+        },
+        {
+          "type": "paragraph",
+          "text": "La Naturaleza es el entorno educativo privilegiado del Movimiento. No es decoración del fin de semana ni un lujo de los grupos urbanos. Es el espacio donde los otros 7 elementos cobran intensidad: en la naturaleza, la patrulla se vuelve indispensable; la Promesa toma cuerpo; el Aprender Haciendo se vuelve necesidad; el Marco Simbólico encuentra su escenario natural."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 La frase de B-P sobre la naturaleza",
+          "source": "Baden-Powell, Rovering to Success, citado en The Scout Method, OMMS 2019, p. 25.",
+          "text": "Para quienes tienen ojos para ver y oídos para oír, el bosque es a la vez un laboratorio, un club y un templo."
+        },
+        {
+          "type": "paragraph",
+          "text": "La PNPJ 2024 reconoce la Naturaleza como un elemento propio del Método, e insiste en que implica mucho más que hacer actividades al aire libre: se trata de un contacto constructivo con el entorno natural. Por eso preocupa que cada vez se acampe menos, se camine menos, se esté menos en contacto real con la naturaleza. La política pide recuperar ese eje."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Elemento 8 — Participación en la Comunidad"
+        },
+        {
+          "type": "paragraph",
+          "text": "El Movimiento no educa para encerrarse en la unidad. Educa para servir y participar. La Participación en la Comunidad incluye proyectos de servicio en el barrio, articulación con organizaciones locales, ejercicio de ciudadanía en espacios públicos. La PNPJ 2024 lo titula <strong>'Participación comunitaria'</strong>: ayudar a construir un mundo mejor desde la ciudadanía activa, en el <strong>territorio</strong> —el espacio físico, social, cultural y comunitario— donde el joven vive."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Servir CON, no PARA",
+          "source": "The Scout Method, OMMS 2019, p. 27.",
+          "text": "El servicio no debe verse simplemente como hacer cosas para los demás, sino que, por la implicación, supone hacer cosas con los demás."
+        },
+        {
+          "type": "info-box",
+          "text": "El Programa de Jóvenes que se cocina solo en el salón del grupo no es escultismo completo. Le falta el laboratorio (la naturaleza) y le falta el campo (el territorio). Ambos elementos son no-negociables, aunque la región sea urbana."
+        }
+      ],
+      "reflection": {
+        "prompt": "En el último año, tu unidad ¿cuánto tiempo pasó en naturaleza real (campo, monte, río, bosque)? ¿Y cuántos proyectos hicieron CON la comunidad, no solo PARA la comunidad? Sé honesto."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Continuar a las 4 Dinámicas 🎯",
+        "questions": [
+          {
+            "text": "Según B-P, el bosque es para los Scouts…",
+            "options": [
+              "Un lugar de entretenimiento de fin de semana.",
+              "Un laboratorio, un club y un templo a la vez.",
+              "Un escenario opcional según la región del grupo."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "La Participación en la Comunidad, según The Scout Method OMMS 2019, no consiste solo en…",
+            "options": [
+              "Hacer cosas PARA los demás; consiste en hacer cosas CON los demás (implicación).",
+              "Realizar campañas anuales de donaciones.",
+              "Asistir a eventos comunitarios cuando hay invitación."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "title": "🎯 Las 4 Dinámicas del Escultismo en acción",
+      "emoji": "🎯",
+      "navLabel": "4 Dinámicas",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> Cómo se ven los 8 elementos juntos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Los 8 elementos no se aplican uno por uno como una checklist. Se viven simultáneamente. The Scout Method (OMMS 2019, pp. 28-31) llama a estas manifestaciones simultáneas <strong>'las 4 Dinámicas del Escultismo'</strong>. Son la forma en que el Método se hace visible en la vida real de la unidad."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las 4 Dinámicas"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🎯 Objetivos Educativos",
+              "description": "el norte del crecimiento del protagonista (las competencias terminales e intermedias por rama).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🛠️ Oportunidades de Aprendizaje",
+              "description": "las experiencias diseñadas o aprovechadas para que el protagonista crezca (reuniones, campamentos, proyectos, conversaciones).",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "👥 Vida de Grupo",
+              "description": "el clima, los vínculos, la cultura de la unidad (acogida, conflictos resueltos, alegría compartida).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🏛️ Estructura y Funcionamiento",
+              "description": "la organización que hace posible todo lo anterior (consejos, equipos de jefatura, planeación, evaluación).",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Una unidad con Programa de calidad muestra las 4 Dinámicas activas a la vez. Una unidad que solo cuida los Objetivos pero descuida la Vida de Grupo se vuelve fría. Una que solo cuida la Vida de Grupo pero no tiene Objetivos se vuelve divertida pero no educativa."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El filtro DURASLID"
+        },
+        {
+          "type": "paragraph",
+          "text": "El Modelo de Aplicación 2026 añade un filtro práctico para evaluar la calidad de cada Oportunidad de Aprendizaje: <strong>DURASLID</strong>. Toda actividad debería ser <strong>D</strong>esafiante, <strong>U</strong>til, <strong>R</strong>ecompensante, <strong>A</strong>tractiva, <strong>S</strong>egura, <strong>L</strong>údica, <strong>I</strong>nclusiva y <strong>D</strong>iversa. Si una actividad solo cumple 2 o 3 de los 8 atributos, hay algo que ajustar."
+        },
+        {
+          "type": "info-box",
+          "text": "En el Curso 13 del Nivel 2 vas a aprender a planear reuniones aplicando DURASLID con la herramienta oficial Excel DNPJ. Hoy solo guarda el filtro."
+        }
+      ],
+      "reflection": {
+        "prompt": "De las 4 Dinámicas (Objetivos, Oportunidades, Vida de Grupo, Estructura), ¿cuál es la que mejor funciona en tu unidad y cuál la que peor?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7",
+        "nextLabel": "Continuar a tu próxima reunión ✍️",
+        "questions": [
+          {
+            "text": "Las 4 Dinámicas del Escultismo son…",
+            "options": [
+              "Promesa, Ley, Patrulla, Naturaleza.",
+              "Objetivos Educativos, Oportunidades de Aprendizaje, Vida de Grupo, Estructura y Funcionamiento.",
+              "Apoyar, Acompañar, Enlazar, Evaluar."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "¿Qué significa DURASLID?",
+            "options": [
+              "Un programa de capacitación para dirigentes nuevos.",
+              "Un filtro de calidad: Desafiante, Útil, Recompensante, Atractiva, Segura, Lúdica, Inclusiva, Diversa.",
+              "Una organización mundial de protección del medio ambiente."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "title": "✍️ Mi próxima reunión con los 8 elementos",
+      "emoji": "✍️",
+      "navLabel": "Mi reunión",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> Planear una reunión real integrando todo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vas a hacer el ejercicio más importante del Nivel 1. Piensa en la próxima reunión de tu unidad (o de la unidad que vas a acompañar). Vamos a ver qué tan bien integra los 8 elementos."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Checklist de los 8 elementos para tu próxima reunión"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Promesa y Ley</strong> — ¿Hay un momento de la reunión donde se mencione, se viva o se reconozca la Promesa o algún punto de la Ley?",
+            "<strong>Aprender Haciendo</strong> — ¿Los protagonistas van a <strong>hacer</strong> algo, o solo van a <strong>escuchar y mirar</strong>?",
+            "<strong>Progresión Personal</strong> — ¿La reunión contempla observar o registrar avances de algún protagonista en alguna área?",
+            "<strong>Sistema de Equipos</strong> — ¿Hay momentos donde el pequeño grupo (camada/seisena/patrulla/equipo) opera por sí mismo, no como gran grupo?",
+            "<strong>Apoyo del Adulto</strong> — ¿El adulto está en rol de Apoyar/Acompañar/Enlazar — o en rol de dirigir y entretener?",
+            "<strong>Marco Simbólico</strong> — ¿El lenguaje, los símbolos, las ceremonias propias de la rama están presentes?",
+            "<strong>Naturaleza</strong> — ¿La reunión ocurre o se conecta con un espacio natural (parque, cerro, jardín, plaza con árboles)?",
+            "<strong>Participación en la Comunidad</strong> — ¿Hay algún hilo que vincule la reunión con el territorio (familia, barrio, escuela, comunidad)?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si respondiste 'no' o 'no sé' a más de 3 de las 8: tu próxima reunión necesita ajustes. Si respondiste 'sí' a las 8: vas en camino del Método; sigue cuidando que el sistema se mantenga."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mi ajuste de esta semana"
+        },
+        {
+          "type": "paragraph",
+          "text": "En mi próxima reunión voy a fortalecer el elemento __________, agregando __________. La señal de que se cumplió será __________."
+        },
+        {
+          "type": "mission-box",
+          "text": "El Método se aprende aplicándolo. Cada reunión es un ensayo. Si una semana no funciona, ajustas la siguiente. Si una se queda corta en un elemento, lo trabajas en la otra. El sistema es flexible; lo no negociable es seguir integrando los 8."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que viene"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "📜 <strong>Curso 5</strong> — La PNPJ y \"El Gran Juego para la Vida\": cómo Colombia aterriza el Método al Modelo de Aplicación 2026, las 5 ramas y las 6 áreas de crecimiento.",
+            "🗺️ <strong>Curso 6</strong> — Mi Compromiso con el Programa de Jóvenes: tu plan personal de dirigente."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "Bienvenido al equipo de los que aplican el Método con conciencia. Lo que viene vale el viaje."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe tu ajuste de esta semana (paso 7) y guárdalo. Lo vas a recibir por correo con tu certificado."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 8",
+        "nextLabel": "Obtener mi certificado 🎓",
+        "questions": [
+          {
+            "text": "Si una reunión cumple solo 3 de los 8 elementos del Método, lo más correcto es…",
+            "options": [
+              "Está perfecto; cada rama elige los elementos que más le sirven.",
+              "Hay que ajustar la próxima reunión para volver a integrar el sistema completo.",
+              "Cambiar de método y aplicar uno escolar."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "El Método se aprende…",
+            "options": [
+              "Estudiando manuales hasta saberlo de memoria antes de aplicarlo.",
+              "Aplicándolo, ajustando reunión a reunión, sin perder el sistema completo.",
+              "Esperando a tener experiencia para empezar a usarlo."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Empecé el camino",
+      "emoji": "👋",
+      "unlockOnModule": 1
+    },
+    {
+      "id": "achievement-2",
+      "name": "Veo el sistema",
+      "emoji": "🧭",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-3",
+      "name": "Ética + práctica",
+      "emoji": "📜",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-4",
+      "name": "Crezco con otros",
+      "emoji": "🌱",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-5",
+      "name": "Apoyo + imaginación",
+      "emoji": "💗",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-6",
+      "name": "Naturaleza + ciudadanía",
+      "emoji": "🌳",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-7",
+      "name": "Veo el método en vivo",
+      "emoji": "🎯",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-final",
+      "name": "Practicante del Método",
+      "emoji": "🧭",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "EL MÉTODO SCOUT Y SUS 8 ELEMENTOS",
+    "description": "ha completado el Curso 4 de la Línea Programa de Jóvenes, comprendiendo el Método Scout como un sistema de autoeducación progresiva basado en la interacción de sus 8 elementos, y formulando un plan concreto para integrarlos en su próxima reunión al servicio de los protagonistas de programa de la Asociación Scouts de Colombia"
+  }
+}

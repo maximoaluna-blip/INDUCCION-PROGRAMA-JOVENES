@@ -706,7 +706,7 @@ function generatePlan(builderId) {
             prioritiesHtml +
             commitmentHtml +
             '<button class="pb-print-btn" onclick="printPlan()">🖨️ Imprimir / Guardar como PDF</button>' +
-            '<p style="text-align:center;color:#666;font-size:0.85em;margin:14px 0 0 0;font-style:italic;">Imprime este plan, fírmalo con tu Asesor Personal y súbelo a Talento 360.</p>';
+            '<p style="text-align:center;color:#666;font-size:0.85em;margin:14px 0 0 0;font-style:italic;">Imprime este plan, fírmalo y consérvalo como tu compromiso personal.</p>';
         output.classList.remove('hidden');
         output.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }

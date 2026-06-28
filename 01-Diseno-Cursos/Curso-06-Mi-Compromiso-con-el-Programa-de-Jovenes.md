@@ -226,7 +226,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
     - 🐺 **Curso 8** — Rama Manada (Lobatos, 7-10 años).
     - ⚜️ **Curso 9** — Rama Tropa Scout (11-14 años).
     - 🧗 **Curso 10** — Rama Comunidad (Nómadas, 15-17 años).
-    - 🏔️ **Curso 11** — Rama Clan (Rovers, 18-20/21 años).
+    - 🏔️ **Curso 11** — Rama Clan (Rovers, 18-20 años).
 6. **`heading` (nivel 3)** — _"Los 3 cursos pedagógicos operativos (Cursos 12, 13, 14)"_
 7. **`paragraph`** — _"Estos los toman todos los dirigentes de unidad. Recomendamos este orden, según tu rol:"_
 8. **`list`** — Orden sugerido:

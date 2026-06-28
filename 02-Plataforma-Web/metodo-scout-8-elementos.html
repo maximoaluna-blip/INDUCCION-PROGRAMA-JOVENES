@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenida al Programa de Jóvenes - Plataforma de Formación de Adultos ASC</title>
+    <title>El Método Scout y sus 8 elementos - Plataforma de Formación de Adultos ASC</title>
     <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
     <link rel="icon" type="image/png" href="../assets/logo-asc.png">
     <link rel="stylesheet" href="../assets/dark-theme.css">
@@ -810,8 +810,8 @@ body {
 
     <div class="container">
         <div class="header">
-            <h1>🎒 Bienvenida al Programa de Jóvenes</h1>
-            <p>Formación de Adultos Voluntarios — Asociación Scouts de Colombia</p>
+            <h1>🧭 El Método Scout y sus 8 elementos</h1>
+            <p>El "cómo" del Movimiento — un sistema, no una lista</p>
             <div class="progress-container">
                 <div class="progress-bar" id="progressBar"></div>
                 <div class="progress-text" id="progressText">0%</div>
@@ -824,24 +824,28 @@ body {
         <div class="nav-menu">
             <button class="nav-btn active" onclick="showModule(0)">📝 Registro</button>
             <button class="nav-btn" onclick="showModule(1)">👋 Bienvenida</button>
-            <button class="nav-btn" onclick="showModule(2)">🎒 ¿Qué es PJ?</button>
-            <button class="nav-btn" onclick="showModule(3)">🧨 5 mitos</button>
-            <button class="nav-btn" onclick="showModule(4)">🗺️ En una página</button>
-            <button class="nav-btn" onclick="showModule(5)">💡 Por qué importa</button>
-            <button class="nav-btn" onclick="showModule(6)">✍️ Tu compromiso</button>
-            <button class="nav-btn" onclick="showModule(7)">🏆 Certificado</button>
+            <button class="nav-btn" onclick="showModule(2)">🧭 El sistema</button>
+            <button class="nav-btn" onclick="showModule(3)">📜 Elementos 1–2</button>
+            <button class="nav-btn" onclick="showModule(4)">🌱 Elementos 3–4</button>
+            <button class="nav-btn" onclick="showModule(5)">💗 Elementos 5–6</button>
+            <button class="nav-btn" onclick="showModule(6)">🌳 Elementos 7–8</button>
+            <button class="nav-btn" onclick="showModule(7)">🎯 4 Dinámicas</button>
+            <button class="nav-btn" onclick="showModule(8)">✍️ Mi reunión</button>
+            <button class="nav-btn" onclick="showModule(9)">🏆 Certificado</button>
         </div>
 
         <div class="mobile-nav">
             <select onchange="showModule(this.value)">
                 <option value="0">📝 Registro</option>
                 <option value="1">👋 Bienvenida</option>
-                <option value="2">🎒 ¿Qué es PJ?</option>
-                <option value="3">🧨 5 mitos</option>
-                <option value="4">🗺️ En una página</option>
-                <option value="5">💡 Por qué importa</option>
-                <option value="6">✍️ Tu compromiso</option>
-                <option value="7">🏆 Certificado</option>
+                <option value="2">🧭 El sistema</option>
+                <option value="3">📜 Elementos 1–2</option>
+                <option value="4">🌱 Elementos 3–4</option>
+                <option value="5">💗 Elementos 5–6</option>
+                <option value="6">🌳 Elementos 7–8</option>
+                <option value="7">🎯 4 Dinámicas</option>
+                <option value="8">✍️ Mi reunión</option>
+                <option value="9">🏆 Certificado</option>
             </select>
         </div>
 
@@ -853,7 +857,7 @@ body {
 
                 <div class="info-box">
                     <strong>🎯 Objetivo del Curso:</strong><br>
-                    El primer paso en la Línea Programa de Jóvenes. En ~25 minutos vas a entender qué es realmente el Programa de Jóvenes (y qué no), desarmar los mitos del dirigente nuevo, ubicar las 5 ramas y la documentación marco, y dar tu primer compromiso concreto. Sin tecnicismos, con ejemplos del día a día de una unidad.
+                    El curso más largo y más importante del Nivel 1. En ~40 minutos vas a entender el Método Scout como un sistema de autoeducación progresiva basado en 8 elementos interdependientes — no una lista de técnicas que se eligen a gusto. Vas a recorrer los 8 elementos en 4 parejas, ver las 4 Dinámicas del Escultismo en acción y salir con un plan concreto para integrar el Método en tu próxima reunión.
                 </div>
 
                 <div class="toggle-buttons">
@@ -954,29 +958,31 @@ body {
             <div class="module" id="module-1">
                 <h2>👋 👋 Bienvenida <span id="welcomeName"></span></h2>
 
-                <div class="info-box">⏱️ <strong>~25 minutos.</strong> Al final vas a tener claro qué es el Programa de Jóvenes, por qué te aplica a ti <strong>incluso si nunca fuiste scout</strong>, y cuál es tu primer compromiso.</div>
+                <div class="info-box">⏱️ <strong>~40 minutos.</strong> Al final vas a poder mirar cualquier reunión scout y decir, con precisión, qué elementos del Método están activos y cuáles no.</div>
 
-                <p>Te damos la bienvenida. Si estás aquí es porque vas a acompañar a alguien a crecer — y eso, aunque suene sencillo, es de las cosas más importantes que hace el Movimiento. Detrás de cada lobato, scout, nómada o rover que sonríe en una foto, hay un adulto que escogió estar ahí. Hoy esa persona eres tú.</p>
+                <p>Te damos la bienvenida. Este es el curso más largo y más importante del Nivel 1. Tómalo con calma. Cada elemento merece su propio momento.</p>
 
                 <h3>Lo que vas a vivir en este curso</h3>
 
                 <ul>
-                    <li>Qué es realmente el Programa de Jóvenes (y qué no es).</li>
-                    <li>Los 5 mitos que estorban al dirigente y cómo desarmarlos.</li>
-                    <li>Las 5 ramas, los grupos naturales y la documentación marco.</li>
-                    <li>Por qué la calidad del Programa toca las 6 áreas de crecimiento del protagonista.</li>
-                    <li>Tu primer compromiso concreto.</li>
+                    <li>Por qué el Método es un sistema y no una lista.</li>
+                    <li>Los 8 elementos en 4 parejas (2-2-2-2).</li>
+                    <li>Las 4 Dinámicas del Escultismo que muestran el Método en acción.</li>
+                    <li>Cómo planear una reunión real integrando los 8 elementos.</li>
                 </ul>
 
-                <div class="mission-box">No lo apures. Tómalo lección por lección, y escribe tus reflexiones pensando en una unidad concreta: la tuya, o la que sueñas con acompañar.</div>
+                <div class="mission-box">Si terminas este curso sin un plan concreto para tu próxima reunión, lo perdimos. Asegúrate de llegar a la Lección 8 con energía para hacer el ejercicio.</div>
 
                 <h3>🏆 Logros por Desbloquear</h3>
                 <div class="achievements">
-                    <div class="achievement" id="achievement-1">🎒 El Programa es alianza</div>
-                    <div class="achievement" id="achievement-2">🧨 Mito-buster</div>
-                    <div class="achievement" id="achievement-3">🗺️ Conozco mi Programa</div>
-                    <div class="achievement" id="achievement-4">💡 Veo por qué importa</div>
-                    <div class="achievement" id="achievement-5">🎒 Constructor de Programa</div>
+                    <div class="achievement" id="achievement-1">👋 Empecé el camino</div>
+                    <div class="achievement" id="achievement-2">🧭 Veo el sistema</div>
+                    <div class="achievement" id="achievement-3">📜 Ética + práctica</div>
+                    <div class="achievement" id="achievement-4">🌱 Crezco con otros</div>
+                    <div class="achievement" id="achievement-5">💗 Apoyo + imaginación</div>
+                    <div class="achievement" id="achievement-6">🌳 Naturaleza + ciudadanía</div>
+                    <div class="achievement" id="achievement-7">🎯 Veo el método en vivo</div>
+                    <div class="achievement" id="achievement-final">🧭 Practicante del Método</div>
                 </div>
 
                 <div class="stats">
@@ -988,448 +994,607 @@ body {
                 <button class="btn" onclick="showModule(2)">🚀 Comenzar el Curso</button>
             </div>
 
-            <!-- MÓDULO 2: 🎒 ¿QUÉ ES PROGRAMA DE JÓVENES, EN REALIDAD? -->
+            <!-- MÓDULO 2: 🧭 EL MÉTODO COMO SISTEMA -->
             <div class="module" id="module-2">
-                <h2>🎒 🎒 ¿Qué es Programa de Jóvenes, en realidad?</h2>
-                <div class="badge">Módulo 1/5</div>
+                <h2>🧭 🧭 El Método como sistema</h2>
+                <div class="badge">Módulo 1/7</div>
 
-                <div class="info-box"><strong>Idea central:</strong> el Programa de Jóvenes es una <strong>alianza educativa</strong>, no un manual de actividades.</div>
+                <div class="info-box"><strong>Idea central:</strong> 8 elementos interdependientes, no una lista.</div>
 
-                <p>Si abres la Política Nacional de Programa de Jóvenes vas a leer que es la “totalidad de oportunidades de aprendizaje, definidas por su Propósito, por sus Oportunidades de Aprendizaje y por el Método Scout”. Es exacto. Y, si nunca has hecho un curso así, es difícil de digerir. Vamos a llegar a esa frase, pero por el camino aterrizado.</p>
+                <p>Si abres The Scout Method de la OMMS vas a leer "sistema de autoeducación progresiva basado en la interacción de elementos igualmente importantes que funcionan como un sistema cohesivo". Es exacto, lo adoptó la 41ª Conferencia Scout Mundial en 2017 y la PNPJ 2024 lo asumió tal cual. Y, si nunca has hecho un curso así, es difícil de digerir en frío. Vamos a llegar a esa frase, pero por el camino aterrizado.</p>
 
-                <h3>Mira tu propia unidad y vas a ver Programa por todos lados</h3>
+                <details class="policy-quote">
+                    <summary>📋 Ver la definición oficial</summary>
+                    <blockquote class="policy-quote-text">El Método Scout es un sistema de autoeducación progresiva basado en la interacción de elementos igualmente importantes que funcionan como un sistema cohesivo.</blockquote>
+                    <p class="policy-quote-source">— The Scout Method, OMMS 2019 (Resolución 41 ª Conferencia Scout Mundial 2017-04), p. 14.</p>
+                </details>
+
+                <div class="info-box">En palabras simples: el Método Scout es la forma en que el Movimiento educa. Y esa forma no es una lista de técnicas sueltas que tú puedas escoger según el día — es un sistema de 8 piezas que se sostienen mutuamente. Quitas una, se cae todo. La definición oficial dice eso mismo, en lenguaje doctrinal.</div>
+
+                <h3>Las palabras clave de la definición</h3>
 
                 <div class="method-elements">
-                    <div class="method-element" style="background: linear-gradient(135deg, #fce4ec, #fce4ecdd); border-color: #e91e63;">
-                        <h4>La jefa de Manada</h4>
-                        <p>Cambia el orden de la reunión porque los lobatos llegaron cansados. <em>→ adaptación pedagógica</em></p>
+                    <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
+                        <h4>🛠️ Sistema</h4>
+                        <p>No una lista de la que tomas lo que te sirve. Un conjunto donde cada parte sostiene a las demás.</p>
                     </div>
                     <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
-                        <h4>El dirigente</h4>
-                        <p>Se sienta 20 min con un scout a preguntarle qué le gustaría aprender este trimestre. <em>→ progresión personal (acompañar)</em></p>
+                        <h4>🌱 Autoeducación</h4>
+                        <p>El joven se educa <strong>a sí mismo</strong>, con apoyo. El adulto no es maestro; es facilitador.</p>
                     </div>
                     <div class="method-element" style="background: linear-gradient(135deg, #fff3e0, #fff3e0dd); border-color: #fb8c00;">
-                        <h4>El subjefe de Tropa</h4>
-                        <p>Deja que la patrulla cocine sola aunque tarde el doble. <em>→ aprender haciendo</em></p>
-                    </div>
-                    <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
-                        <h4>La dirigente de Comunidad</h4>
-                        <p>Acompaña a los nómadas a presentar un proyecto en la junta de acción comunal. <em>→ participación en la comunidad</em></p>
+                        <h4>📈 Progresiva</h4>
+                        <p>No se aprende todo de una vez. Se avanza por etapas, según el ritmo de cada quien.</p>
                     </div>
                     <div class="method-element" style="background: linear-gradient(135deg, #f3e5f5, #f3e5f5dd); border-color: #8e24aa;">
-                        <h4>El dirigente de Clan</h4>
-                        <p>Decide no decirle al rover cómo planear el peregrinaje y solo le hace preguntas. <em>→ apoyo del adulto</em></p>
-                    </div>
-                    <div class="method-element" style="background: linear-gradient(135deg, #e0f7fa, #e0f7fadd); border-color: #00acc1;">
-                        <h4>El asistente</h4>
-                        <p>Se acuerda del nombre del lobato nuevo y le pregunta cómo le fue en el colegio. <em>→ vida de grupo</em></p>
+                        <h4>⚖️ Igualmente importantes</h4>
+                        <p>Ningún elemento vale más que los demás. La Promesa no vale más que el Sistema de Equipos. La Naturaleza no vale más que el Marco Simbólico.</p>
                     </div>
                 </div>
 
-                <p>Ninguno de estos adultos está pensando “estoy aplicando el Método Scout”. Pero todos lo están haciendo. Y todos, de alguna forma, están firmando esa alianza educativa con el joven que tienen al frente.</p>
+                <h3>Los 8 elementos (visión panorámica)</h3>
 
-                <details class="policy-quote">
-                    <summary>📋 Ver lo que dice la política textualmente</summary>
-                    <blockquote class="policy-quote-text">El Programa de Jóvenes en el Movimiento Scout es la totalidad de las oportunidades de aprendizaje de las que los jóvenes pueden beneficiarse (Qué), creadas para alcanzar el propósito del Movimiento Scout (Por qué), y que se vive a través del Método Scout (Cómo).</blockquote>
-                    <p class="policy-quote-source">— Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024), §5.1 — Definición del Programa de Jóvenes.</p>
-                </details>
+                <ul>
+                    <li><strong>Promesa y Ley</strong> — el código de vida que el joven asume voluntariamente.</li>
+                    <li><strong>Aprender Haciendo</strong> — la experiencia como motor del aprendizaje.</li>
+                    <li><strong>Progresión Personal</strong> — el camino individual de crecimiento.</li>
+                    <li><strong>Sistema de Equipos</strong> — los pequeños grupos donde se vive el Movimiento.</li>
+                    <li><strong>Apoyo del Adulto</strong> — el rol del dirigente como facilitador.</li>
+                    <li><strong>Marco Simbólico</strong> — el universo narrativo de cada rama.</li>
+                    <li><strong>Naturaleza</strong> — el entorno educativo privilegiado.</li>
+                    <li><strong>Participación en la Comunidad</strong> — el servicio y la ciudadanía activa.</li>
+                </ul>
 
-                <div class="info-box">En palabras simples: el Programa de Jóvenes es la <strong>alianza educativa entre quien crece y quien acompaña</strong>. Lo que pasa entre tú y un protagonista, semana a semana, año tras año, hasta que él o ella se vaya con herramientas para la vida.</div>
+                <div class="info-box">Para los que tienen ojos para ver y oídos para oír, el bosque es a la vez un laboratorio, un club y un templo. (B-P, Rovering to Success)</div>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>Piensa en una reunión de tu unidad (o la unidad que acompañas) en las últimas dos semanas. Escribe dos momentos donde, sin nombrarlo así, estaban haciendo Programa de Jóvenes de calidad. Y un momento donde sospechas que pudieron hacer más.</p>
+                    <p>De los 8 elementos, ¿cuáles ya reconoces que se aplican en tu unidad y cuáles te parecen extraños o ausentes?</p>
                     <textarea id="reflection-2" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(2, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 2</h3>
 
                     <div class="question">
-                        <h4>1. Según lo que viste en esta lección, ¿cuál es la definición que más se ajusta a Programa de Jóvenes?</h4>
+                        <h4>1. Según la definición oficial OMMS 2019, el Método Scout es…</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q10">
-                            Es la guía de actividades semanales que la DNPJ publica cada año para cada rama.
+                            Una lista de 8 técnicas educativas que se aplican por separado.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q10">
-                            Es la totalidad de oportunidades de aprendizaje que vive un protagonista, definida por su porqué, su qué y su cómo.
+                            Un sistema de autoeducación progresiva basado en la interacción de 8 elementos igualmente importantes.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q10">
-                            Es el conjunto de insignias y especialidades que un joven puede obtener.
+                            El conjunto de actividades y juegos que se hacen en una reunión scout.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. Una dirigente llega a la reunión, ve al grupo disperso y cansado, y cambia su plan para armar una dinámica corta que los reconecte antes de seguir. Según esta lección, ¿qué está haciendo?</h4>
+                        <h4>2. "Igualmente importantes" en la definición del Método significa que…</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q11">
-                            Está improvisando: se salió de la guía oficial, así que dejó de hacer Programa.
+                            Solo se aplica el elemento que más se ajusta a la rama.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q11">
-                            Está haciendo Programa de Jóvenes: adaptó la experiencia al grupo real que tenía al frente — eso es la alianza educativa.
+                            Ningún elemento vale más que los otros; el sistema requiere los 8.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q11">
-                            Solo hará Programa si después registra el cambio en el formato correspondiente.
+                            Cada rama elige cuál de los 8 trabajar cada año.
                         </label>
                     </div>
 
                     <button class="btn" onclick="checkQuiz(2)" id="checkBtn-2">Verificar Respuestas</button>
-                    <button class="btn hidden" onclick="completeModule(2)" id="nextBtn-2">Continuar a los 5 mitos 🧨</button>
+                    <button class="btn hidden" onclick="completeModule(2)" id="nextBtn-2">Continuar a los elementos 1 y 2 📜</button>
                 </div>
             </div>
 
-            <!-- MÓDULO 3: 🧨 LOS 5 MITOS DEL DIRIGENTE NUEVO -->
+            <!-- MÓDULO 3: 📜 ELEMENTOS 1–2: PROMESA, LEY Y APRENDER HACIENDO -->
             <div class="module" id="module-3">
-                <h2>🧨 🧨 Los 5 mitos del dirigente nuevo</h2>
-                <div class="badge">Módulo 2/5</div>
+                <h2>📜 📜 Elementos 1–2: Promesa, Ley y Aprender Haciendo</h2>
+                <div class="badge">Módulo 2/7</div>
 
-                <div class="info-box"><strong>Idea central:</strong> lo que crees que es “saber escultismo” no siempre es saberlo. Vale la pena revisar tus supuestos.</div>
+                <div class="info-box"><strong>Idea central:</strong> La ética y la práctica.</div>
 
-                <p>Hablemos de los cinco mitos que escuchamos una y otra vez cuando un adulto entra al Movimiento. Si alguna vez has pensado uno de estos, no estás solo. Pero queremos que salgas de aquí pensando distinto.</p>
+                <h3>Elemento 1 — Promesa y Ley</h3>
 
-                <h3>Mito 1 — “Yo no fui scout, no estoy en capacidad de hacer esto”</h3>
+                <p>La Promesa es la decisión voluntaria del joven de adherirse al código de vida del Movimiento. La Ley es ese código, formulado en términos positivos y progresivos según la rama. Promesa y Ley son <strong>una pareja</strong>: la Promesa sin Ley es palabra vacía; la Ley sin Promesa es regla externa.</p>
 
-                <p>El escultismo se aprende caminando, no se hereda. Muchos de los mejores dirigentes nunca fueron protagonistas de niños. Lo que sí necesitas es: querer estar, dejarte formar y respetar la propuesta. El resto se aprende junto a otros dirigentes y al lado de los propios jóvenes. La Política Nacional de Adultos en el Movimiento existe precisamente para formarte paso a paso.</p>
+                <details class="policy-quote">
+                    <summary>📋 La cita central de la Promesa</summary>
+                    <blockquote class="policy-quote-text">El honor de un Scout es ser digno de confianza.</blockquote>
+                    <p class="policy-quote-source">— Robert Baden-Powell.</p>
+                </details>
 
-                <h3>Mito 2 — “Hacer Programa es seguir la guía oficial al pie de la letra”</h3>
+                <p>En cada rama, la Promesa y la Ley se formulan con el lenguaje propio de la edad: la Ley del Cachorro, la Ley del Lobato, la Ley Scout, la Ley Nómada, la Ley Rover. Lo importante: en todas ellas, el joven dice 'yo prometo' libremente. No 'yo obedezco'. No 'yo cumplo porque me obligan'. La voluntariedad es la condición.</p>
 
-                <p>La guía es una orientación, no una receta. El Modelo de Aplicación 2026 insiste: la alianza es con el grupo concreto que tienes al frente, en su territorio, con sus historias y sus preguntas. La guía te da el qué y el cómo; tú —con los jóvenes— defines el cuándo, dónde, con quién y para qué local.</p>
+                <h3>Elemento 2 — Aprender Haciendo</h3>
 
-                <h3>Mito 3 — “A los chicos hay que entretenerlos”</h3>
+                <p>Es el principio pedagógico que B-P pidió prestado a John Dewey y a la educación activa de comienzos del siglo XX. <strong>No se aprende escuchando; se aprende intentando, equivocándose y mejorando.</strong> En la unidad, esto significa: dejar que la patrulla cocine sola aunque tarde el doble; dejar que el lobato amarre el nudo aunque le quede flojo; dejar que el rover lidere el proyecto aunque a veces se atasque.</p>
 
-                <p>El Programa no entretiene, <strong>educa</strong>. Una reunión donde los chicos se rieron mucho pero no aprendieron nada, no se conocieron mejor y no avanzaron en ninguna área de crecimiento, fue una linda fiesta, no una reunión scout. El filtro <strong>DURASLID</strong> (desafiante, útil, recompensante, atractiva, segura, lúdica, inclusiva, diversa) está para evitar reuniones que solo cumplan una o dos de las ocho.</p>
+                <details class="policy-quote">
+                    <summary>📋 La cita de Aprender Haciendo</summary>
+                    <blockquote class="policy-quote-text">El método de instrucción en el escultismo es el de crear en el muchacho el deseo de aprender por sí mismo.</blockquote>
+                    <p class="policy-quote-source">— Baden-Powell.</p>
+                </details>
 
-                <h3>Mito 4 — “Los jóvenes deciden cuando yo se los permito”</h3>
-
-                <p>La PNPJ es radical en esto. El Movimiento Scout es <strong>de los jóvenes y para los jóvenes</strong>, apoyado por adultos. No al revés. Tu rol es apoyar, acompañar y enlazar —no dirigir—. Si los jóvenes solo deciden lo que tú permites, no estás aplicando el Método: estás aplicando otra cosa que se le parece pero no lo es.</p>
-
-                <h3>Mito 5 — “Esto se hace por amor, así que no necesita estructura”</h3>
-
-                <p>Claro que se hace por amor — Baden-Powell lo dijo en 1922, lo verás en el próximo curso. <strong>Y</strong> justo porque se hace por amor, exige más estructura, no menos. La protección del joven (A Salvo del Peligro), la planeación de la reunión, el seguimiento de la progresión, los protocolos de actividad: todo eso es la forma en que el amor se hace responsable. Amar sin cuidar no es amar; es buena intención.</p>
-
-                <div class="info-box">Si hubo un mito que reconociste como tuyo: bienvenido al club. Ahora lo importante es que ya tienes con qué responderle a quien lo repita —incluso si esa persona eres tú mismo.</div>
+                <div class="info-box">Si el dirigente hace por el joven, el joven no aprende. Esa es la regla. Tu trabajo es preparar el escenario para que él intente, no resolver lo que él puede resolver.</div>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>¿Cuál de los 5 mitos te resonó más como algo que has pensado o has escuchado en tu unidad? Escríbele tu propia refutación, en una o dos frases, con palabras tuyas.</p>
+                    <p>Recuerda una situación reciente donde, por la prisa o por evitar el error, hiciste por un protagonista lo que él hubiera podido hacer solo o con apoyo. Escribe brevemente: ¿qué pasó? ¿Qué hubieras hecho distinto sabiendo lo que sabes ahora?</p>
                     <textarea id="reflection-3" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(3, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 3</h3>
 
                     <div class="question">
-                        <h4>1. Un dirigente nuevo te dice: “Yo no fui scout cuando niño, mejor me retiro, no estoy en capacidad.” ¿Cuál es la mejor respuesta según esta lección?</h4>
+                        <h4>1. La Promesa y la Ley son una pareja porque…</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q20">
-                            “Tienes razón, vamos a buscar a alguien con más experiencia.”
+                            Siempre se dicen una después de la otra en las ceremonias.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q20">
-                            “Lo que necesitas no es haber sido scout, es querer estar y dejarte formar. La Política de Adultos existe para eso.”
+                            La Promesa sin Ley es palabra vacía; la Ley sin Promesa es regla externa. Se sostienen mutuamente.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q20">
-                            “Te recomiendo que primero leas todas las guías oficiales y luego vuelves.”
+                            La Ley se enseña a los Lobatos y la Promesa a los Scouts.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. En una unidad, el dirigente decide cada actividad, cada fecha, cada equipo. Los jóvenes solo “votan” lo que él ya propuso. ¿Qué mito está viviendo?</h4>
+                        <h4>2. La regla del Aprender Haciendo dice que…</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q21">
-                            Mito 1 — no fui scout.
+                            El dirigente debe demostrar primero cómo se hace, luego dejar al joven repetir.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q21">
-                            Mito 3 — hay que entretenerlos.
+                            Si el dirigente hace por el joven, el joven no aprende: prepara el escenario para que él intente.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q21">
-                            Mito 4 — los jóvenes deciden cuando yo se los permito.
+                            Los jóvenes deben aprender solo de los manuales oficiales.
                         </label>
                     </div>
 
                     <button class="btn" onclick="checkQuiz(3)" id="checkBtn-3">Verificar Respuestas</button>
-                    <button class="btn hidden" onclick="completeModule(3)" id="nextBtn-3">Continuar a tu Programa en una página 🗺️</button>
+                    <button class="btn hidden" onclick="completeModule(3)" id="nextBtn-3">Continuar a los elementos 3 y 4 🌱</button>
                 </div>
             </div>
 
-            <!-- MÓDULO 4: 🗺️ TU PROGRAMA EN UNA PÁGINA -->
+            <!-- MÓDULO 4: 🌱 ELEMENTOS 3–4: PROGRESIÓN PERSONAL Y SISTEMA DE EQUIPOS -->
             <div class="module" id="module-4">
-                <h2>🗺️ 🗺️ Tu Programa en una página</h2>
-                <div class="badge">Módulo 3/5</div>
+                <h2>🌱 🌱 Elementos 3–4: Progresión Personal y Sistema de Equipos</h2>
+                <div class="badge">Módulo 3/7</div>
 
-                <div class="info-box"><strong>Idea central:</strong> conozco las 5 ramas, los grupos naturales y la documentación marco.</div>
+                <div class="info-box"><strong>Idea central:</strong> Crecimiento individual y vida de pequeño grupo.</div>
 
-                <p>En los próximos cursos entras al detalle. Pero antes necesitas un mapa simple. El Programa de Jóvenes en la ASC se organiza en 5 ramas por edades, cada una con su grupo natural (la forma en que los jóvenes se agrupan dentro de la unidad) y su marco simbólico (el universo narrativo que la sostiene).</p>
+                <h3>Elemento 3 — Progresión Personal</h3>
+
+                <p>La PNPJ 2024 lo titula <strong>'Progreso personal'</strong>: es el camino individual de crecimiento del protagonista en las 6 áreas (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad). No es competitiva: cada joven avanza a su ritmo. Se construye con el acompañamiento del <strong>dirigente</strong> (en sus roles de apoyar, acompañar y enlazar), en momentos de conversación y reconocimiento. Se registra en el <strong>Registro de Acompañamiento a la Progresión Personal</strong> (DNPJ-2026-021) y se sostiene con las <strong>Herramientas de Seguimiento 2.0</strong>.</p>
+
+                <p>El Modelo de Aplicación 2026 enuncia 3 momentos de aprendizaje en cada oportunidad: <strong>Exploro</strong> (primer contacto), <strong>Aplico</strong> (práctica acompañada), <strong>Profundizo</strong> (transferencia y autonomía). Verlas como un ciclo, no como un examen.</p>
+
+                <h3>Elemento 4 — Sistema de Equipos</h3>
+
+                <p>Los jóvenes no viven el Movimiento en grupo grande; lo viven en <strong>pequeños grupos</strong> donde se sienten conocidos, donde toman decisiones, donde aprenden a liderar entre pares. Cada rama tiene su grupo natural: Camadas (Familia), Seisenas (Manada), Patrullas (Tropa), equipos de Comunidad y de Clan.</p>
 
                 <div class="method-elements">
                     <div class="method-element" style="background: linear-gradient(135deg, #fff8e1, #fff8e1dd); border-color: #f9a825;">
-                        <h4>🐻 Rama Familia — Cachorros (5–6 años)</h4>
-                        <p>Grupo natural: <strong>Camadas</strong> y Círculo de Familia. Marco simbólico: Hermanos de Mowgli.</p>
+                        <h4>🐻 Familia</h4>
+                        <p><strong>Camadas</strong> y Círculo de Familia.</p>
                     </div>
                     <div class="method-element" style="background: linear-gradient(135deg, #fff3e0, #fff3e0dd); border-color: #fb8c00;">
-                        <h4>🐺 Rama Manada — Lobatos (7–10 años)</h4>
-                        <p>Grupo natural: <strong>Seisenas</strong>. Marco simbólico: Libro de las Tierras Vírgenes.</p>
+                        <h4>🐺 Manada</h4>
+                        <p><strong>Seisenas</strong>.</p>
                     </div>
                     <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
-                        <h4>⚜️ Rama Tropa — Scouts (11–14 años)</h4>
-                        <p>Grupo natural: <strong>Patrullas</strong>. Marco simbólico: marco propio Scout.</p>
+                        <h4>⚜️ Tropa</h4>
+                        <p><strong>Patrullas</strong> (6-8 scouts).</p>
                     </div>
                     <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
-                        <h4>🧗 Rama Comunidad — Nómadas (15–17 años)</h4>
-                        <p>Grupo natural: equipos de Comunidad. Marco simbólico: Aventura y Ciudadanía.</p>
+                        <h4>🧗 Comunidad</h4>
+                        <p>equipos.</p>
                     </div>
                     <div class="method-element" style="background: linear-gradient(135deg, #ede7f6, #ede7f6dd); border-color: #5e35b1;">
-                        <h4>🏔️ Rama Clan — Rovers (18–20 años)</h4>
-                        <p>Grupo natural: equipos de Clan. Marco simbólico: Rovering propio.</p>
+                        <h4>🏔️ Clan</h4>
+                        <p>equipos rover.</p>
                     </div>
                 </div>
 
-                <p>Tu rol como dirigente está en una de estas ramas. Pero todo el grupo —desde la familia más chiquita hasta el clan— forma un solo recorrido educativo. Lo que un cachorro vive a los 5 años lo prepara para la travesía a los 14, y lo que vivió en la tropa lo sostiene en su partida rover a los 20.</p>
+                <p>En la Tropa, el Sistema de Patrullas es <strong>el corazón del Método</strong>, según B-P. Una patrulla bien constituida lidera sus propias actividades, planea su comida, organiza su rincón, resuelve sus conflictos. El Jefe de Tropa no manda a las patrullas; trabaja con los Guías de Patrulla.</p>
 
-                <h3>La documentación marco que rige todo</h3>
-
-                <ul>
-                    <li><strong>Política Nacional de Programa de Jóvenes</strong> (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024) — la norma marco del PJ.</li>
-                    <li><strong>Modelo de Aplicación “El Gran Juego para la Vida”</strong> (DNPJ 2026) — el manual pedagógico que aterriza la política al día a día.</li>
-                    <li><strong>Guías de Dirigente por rama</strong> (Familia, Manada, Tropa, Comunidad, Clan — DNPJ 2026) — la guía específica de tu rama.</li>
-                    <li><strong>Herramientas de Seguimiento de la Progresión Personal 2.0</strong> (DNPJ) — la caja de herramientas evaluativas que usarán todos los dirigentes.</li>
-                </ul>
-
-                <div class="info-box">Los puedes consultar todos en <a href="https://scout.org.co/biblioteca" target="_blank" rel="noopener">scout.org.co/biblioteca</a>. No tienes que aprendértelos. Solo saber que existen y dónde encontrarlos cuando los necesites. En los Cursos 4 y 5 los vamos a recorrer juntos.</div>
-
-                <details class="policy-quote">
-                    <summary>📋 Ver el corazón de la política</summary>
-                    <blockquote class="policy-quote-text">Está diseñado “por” y “con” los jóvenes, no simplemente “para” ellos… reconociéndolos como los principales agentes de su desarrollo.</blockquote>
-                    <p class="policy-quote-source">— Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. N° 617 de 2024), §5.2 — Características del Programa de Jóvenes.</p>
-                </details>
+                <div class="info-box">Cuando una unidad opera solo como gran grupo y nunca como pequeños grupos, está rompiendo el Sistema de Equipos. La unidad existe; el Método, no.</div>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>En tu unidad o la unidad que vas a acompañar, ¿sabrías nombrar qué rama es, qué edades cubre, cuál es su grupo natural y cuál su marco simbólico? Anota lo que sepas y lo que no — eso vale más que adivinar.</p>
+                    <p>En tu unidad (o la que acompañas), ¿qué tan bien funciona el pequeño grupo (camada, seisena, patrulla, equipo)? Anota una cosa que ya funciona y una que crees que se puede mejorar.</p>
                     <textarea id="reflection-4" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(4, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 4</h3>
 
                     <div class="question">
-                        <h4>1. Los Lobatos son la rama Manada y se agrupan en…</h4>
+                        <h4>1. La Progresión Personal en el Método Scout…</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q30">
-                            Patrullas, bajo el marco simbólico Scout.
+                            Es una competencia donde se reconoce al que más avanza.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q30">
-                            Seisenas, bajo el marco simbólico del Libro de las Tierras Vírgenes.
+                            Es el camino individual de cada protagonista, a su ritmo, en las 6 áreas de crecimiento.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q30">
-                            Camadas, bajo el marco simbólico de los Hermanos de Mowgli.
+                            Es la suma de insignias que un joven obtiene en su rama.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. ¿Cuál es la norma marco vigente que rige hoy al Programa de Jóvenes en la ASC?</h4>
+                        <h4>2. El Sistema de Equipos significa que…</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q31">
-                            El Reglamento de la Red Nacional de Jóvenes (Acuerdo CSN 556).
+                            La unidad opera como un solo gran grupo dirigido por el adulto.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q31">
-                            La Política Nacional de Programa de Jóvenes (Acuerdo CSN 617 de 2024).
+                            Los jóvenes viven el Movimiento en pequeños grupos donde lideran entre pares: camadas, seisenas, patrullas, equipos.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q31">
-                            El Manual de Implementación del Marco de Mundo Mejor (junio 2021).
+                            Cada protagonista actúa de forma independiente.
                         </label>
                     </div>
 
                     <button class="btn" onclick="checkQuiz(4)" id="checkBtn-4">Verificar Respuestas</button>
-                    <button class="btn hidden" onclick="completeModule(4)" id="nextBtn-4">Continuar a por qué importa 💡</button>
+                    <button class="btn hidden" onclick="completeModule(4)" id="nextBtn-4">Continuar a los elementos 5 y 6 💗</button>
                 </div>
             </div>
 
-            <!-- MÓDULO 5: 💡 POR QUÉ UN PROGRAMA DE CALIDAD CAMBIA LA VIDA DE LOS CHICOS -->
+            <!-- MÓDULO 5: 💗 ELEMENTOS 5–6: APOYO DEL ADULTO Y MARCO SIMBÓLICO -->
             <div class="module" id="module-5">
-                <h2>💡 💡 Por qué un Programa de calidad cambia la vida de los chicos</h2>
-                <div class="badge">Módulo 4/5</div>
+                <h2>💗 💗 Elementos 5–6: Apoyo del Adulto y Marco Simbólico</h2>
+                <div class="badge">Módulo 4/7</div>
 
-                <div class="info-box"><strong>Idea central:</strong> el Programa toca las 6 áreas de crecimiento del protagonista.</div>
+                <div class="info-box"><strong>Idea central:</strong> El acompañante y el imaginario.</div>
 
-                <p>Hasta acá hablamos de definiciones, ramas y documentos. Suena lejano del lobato que llega a la reunión del sábado. Pero quiero que veas algo que vemos pocas veces: cuando el Programa es de calidad, un protagonista crece en seis dimensiones a la vez. Cuando no, ninguna.</p>
+                <h3>Elemento 5 — Apoyo del Adulto</h3>
 
-                <h3>Tres historias reales (con detalles cambiados)</h3>
+                <p>En el Curso 3 viste la frase eje del Movimiento (OMMS 2019, p. 21): de jóvenes, para jóvenes, <strong>apoyado por adultos</strong>. Aquí ese 'apoyo' se vuelve elemento metodológico. Las Características Esenciales enuncian <strong>4 tipos de apoyo del adulto</strong> (recordatorio del Curso 3, L5): educativo, emocional, informativo, evaluativo.</p>
 
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <h4>Lobato A — Cuando el Programa es solo entretenimiento</h4>
-                        <p>Mariana llegó a la Manada a los 8 años. Le encantaban los juegos. Estuvo tres años. Su dirigente nunca planeó una reunión pensando en áreas de crecimiento ni hizo seguimiento a su progresión. A los 11 años se fue. “Era divertido, pero ya me aburrí”, dijo. Nunca supo que pudo haber escogido sus propios proyectos.</p>
+                <p>El Modelo de Aplicación 2026 traduce esto en <strong>3 roles del dirigente</strong>: <strong>Apoyar</strong> (preparar las condiciones para que el joven actúe), <strong>Acompañar</strong> (estar presente en el proceso), <strong>Enlazar</strong> (conectar al joven con el grupo, la familia, el territorio y la institución).</p>
+
+                <details class="policy-quote">
+                    <summary>📋 El rol del adulto según B-P</summary>
+                    <blockquote class="policy-quote-text">El instructor no es un maestro: es un hermano mayor.</blockquote>
+                    <p class="policy-quote-source">— Robert Baden-Powell, citado por la OMMS.</p>
+                </details>
+
+                <h3>Elemento 6 — Marco Simbólico</h3>
+
+                <p>Es el universo narrativo, los imaginarios y los símbolos propios de cada rama. No es decoración: es el lenguaje con el que la rama vive sus valores. Un lobato no aprende cooperación leyendo un manual; la aprende viviendo el Libro de las Tierras Vírgenes con sus seisenas. Un cachorro aprende fraternidad jugando a ser Hermano de Mowgli.</p>
+
+                <div class="method-elements">
+                    <div class="method-element" style="background: linear-gradient(135deg, #fff8e1, #fff8e1dd); border-color: #f9a825;">
+                        <h4>🐻 Familia</h4>
+                        <p>Los Hermanos de Mowgli, Nombres de Caza, Viejo Lobo.</p>
                     </div>
-                    <div class="timeline-item">
-                        <h4>Scout B — Cuando el Programa funciona como sistema</h4>
-                        <p>Camilo entró a la Tropa a los 11. Su patrulla decidía qué cocinar, cómo armar el campamento, qué proyecto de servicio harían en el barrio. Su dirigente se sentaba con él cada trimestre y le preguntaba qué quería trabajar. A los 14 hizo su Travesía y pasó a Comunidad. A los 22 entró a estudiar trabajo social “porque en los scouts aprendí que se puede cambiar algo en serio”.</p>
+                    <div class="method-element" style="background: linear-gradient(135deg, #fff3e0, #fff3e0dd); border-color: #fb8c00;">
+                        <h4>🐺 Manada</h4>
+                        <p>El Libro de las Tierras Vírgenes (Kipling).</p>
                     </div>
-                    <div class="timeline-item">
-                        <h4>Rover C — Cuando el Programa se hace alianza</h4>
-                        <p>Sofía entró a Clan a los 18. Su dirigente nunca le dijo qué hacer; le hizo preguntas. Sofía propuso, equivocó, ajustó, lideró un proyecto de paz con un colegio rural. A los 20 hizo su Partida Rover. Hoy, a los 28, dirige el equipo regional de jóvenes y forma a otros dirigentes. “Lo que aprendí en el Clan no me lo enseñó nadie — lo viví.”</p>
+                    <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
+                        <h4>⚜️ Tropa</h4>
+                        <p>Marco propio Scout: Patrulla, Honor, Hermandad.</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
+                        <h4>🧗 Comunidad</h4>
+                        <p>Aventura y Ciudadanía.</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #ede7f6, #ede7f6dd); border-color: #5e35b1;">
+                        <h4>🏔️ Clan</h4>
+                        <p>Rovering propio: Vigilia, Peregrinaje, Partida.</p>
                     </div>
                 </div>
 
-                <p>El Programa no es un fin en sí mismo. Es la condición silenciosa para que la experiencia scout transforme la vida del protagonista.</p>
-
-                <h3>Las 6 áreas de crecimiento</h3>
-
-                <ul>
-                    <li><strong>Corporalidad</strong> — que el protagonista cuide y conozca su cuerpo.</li>
-                    <li><strong>Creatividad</strong> — que explore, invente, resuelva problemas con imaginación.</li>
-                    <li><strong>Carácter</strong> — que decida, asuma responsabilidades, construya autonomía.</li>
-                    <li><strong>Afectividad</strong> — que reconozca, exprese y regule sus emociones.</li>
-                    <li><strong>Sociabilidad</strong> — que conviva, coopere, sirva y ejerza ciudadanía.</li>
-                    <li><strong>Espiritualidad</strong> — que se haga preguntas grandes y construya sentido.</li>
-                </ul>
-
-                <div class="info-box">En el Curso 5 de esta línea vas a recorrer cómo el Modelo de Aplicación 2026 desdobla estas 6 áreas en competencias terminales e intermedias por rama. Hoy solo guarda el mapa.</div>
+                <div class="info-box">Un dirigente que ignora o ridiculiza el Marco Simbólico ('eso es de niños'), está cortando el cable principal por el que la rama transmite sus valores. El símbolo es el método. Tómalo en serio aunque te dé pena.</div>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>De las tres historias, ¿cuál se parece más a algo que has visto o escuchado en un grupo cercano (no necesariamente el tuyo)? Escribe en una frase qué hizo (o no hizo) el adulto, y qué área de crecimiento se vio afectada.</p>
+                    <p>¿Qué tan bien usa tu unidad (o la unidad que acompañas) el Marco Simbólico propio de su rama? Anota una práctica simbólica que ya funciona y una que crees que se está perdiendo.</p>
                     <textarea id="reflection-5" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(5, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 5</h3>
 
                     <div class="question">
-                        <h4>1. En la historia de Mariana, lo que faltó fue principalmente…</h4>
+                        <h4>1. Los 3 roles del dirigente según el Modelo de Aplicación 2026 son…</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q40">
-                            Que sus dirigentes la dejaran ganar más juegos.
+                            Liderar, planear y supervisar.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q40">
-                            Que el Programa fuera planeado intencionalmente para tocar todas las áreas de crecimiento, no solo el entretenimiento.
+                            Apoyar, Acompañar y Enlazar.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q40">
-                            Que Mariana entrara a la rama más tarde.
+                            Instruir, evaluar y reconocer.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. Según esta lección, las 6 áreas de crecimiento son…</h4>
+                        <h4>2. El Marco Simbólico de la rama Manada se basa en…</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q41">
-                            Las 6 ramas del Movimiento (Familia, Manada, Tropa, Comunidad, Clan + Adultos).
+                            Los Hermanos de Mowgli y los Nombres de Caza.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q41">
-                            Las 6 dimensiones del desarrollo integral del protagonista: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad.
+                            El Libro de las Tierras Vírgenes (Kipling).
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q41">
-                            Las 6 prioridades estratégicas del Plan Trienal Mundial OMMS.
+                            La Aventura y la Ciudadanía.
                         </label>
                     </div>
 
                     <button class="btn" onclick="checkQuiz(5)" id="checkBtn-5">Verificar Respuestas</button>
-                    <button class="btn hidden" onclick="completeModule(5)" id="nextBtn-5">Continuar a tu primer compromiso ✍️</button>
+                    <button class="btn hidden" onclick="completeModule(5)" id="nextBtn-5">Continuar a los elementos 7 y 8 🌳</button>
                 </div>
             </div>
 
-            <!-- MÓDULO 6: ✍️ TU PRIMER COMPROMISO -->
+            <!-- MÓDULO 6: 🌳 ELEMENTOS 7–8: NATURALEZA Y PARTICIPACIÓN EN LA COMUNIDAD -->
             <div class="module" id="module-6">
-                <h2>✍️ ✍️ Tu primer compromiso</h2>
-                <div class="badge">Módulo 5/5</div>
+                <h2>🌳 🌳 Elementos 7–8: Naturaleza y Participación en la Comunidad</h2>
+                <div class="badge">Módulo 5/7</div>
 
-                <div class="info-box"><strong>Idea central:</strong> saber sin actuar no transforma; el primer paso es chico y concreto.</div>
+                <div class="info-box"><strong>Idea central:</strong> El laboratorio y el servicio.</div>
 
-                <p>Llegaste hasta acá. Antes de pasar al Curso 2 necesitamos algo: que conviertas lo que viste en un primer paso concreto.</p>
+                <h3>Elemento 7 — Naturaleza</h3>
 
-                <h3>Imagina al protagonista que vas a acompañar</h3>
+                <p>La Naturaleza es el entorno educativo privilegiado del Movimiento. No es decoración del fin de semana ni un lujo de los grupos urbanos. Es el espacio donde los otros 7 elementos cobran intensidad: en la naturaleza, la patrulla se vuelve indispensable; la Promesa toma cuerpo; el Aprender Haciendo se vuelve necesidad; el Marco Simbólico encuentra su escenario natural.</p>
 
-                <p>Dibuja (o toma foto a un dibujo, o sube una imagen que lo represente) cómo te imaginas a un protagonista de tu rama dentro de tres años, si vivió un Programa de calidad contigo al lado. No es un examen artístico: es un ancla visual del joven al que vas a acompañar.</p>
+                <details class="policy-quote">
+                    <summary>📋 La frase de B-P sobre la naturaleza</summary>
+                    <blockquote class="policy-quote-text">Para quienes tienen ojos para ver y oídos para oír, el bosque es a la vez un laboratorio, un club y un templo.</blockquote>
+                    <p class="policy-quote-source">— Baden-Powell, Rovering to Success, citado en The Scout Method, OMMS 2019, p. 25.</p>
+                </details>
 
-                <div class="photo-upload">
-                    <h4 class="photo-upload-title">Tu protagonista de programa dentro de 3 años</h4>
-                    <p class="photo-upload-hint">Puedes dibujarlo en papel y tomarle foto, o usar cualquier imagen que para ti represente ese joven que aprendió, decidió, sirvió y creció. Es solo para ti — la guardamos en tu navegador.</p>
-                    <input type="file" accept="image/*" id="photo-input-bienvenida-pj-protagonista-sonado" class="photo-upload-input" onchange="handlePhotoUpload(this, 'bienvenida-pj-protagonista-sonado')">
-                    <label for="photo-input-bienvenida-pj-protagonista-sonado" class="photo-upload-btn">📷 Subir mi imagen</label>
-                    <div id="photo-preview-bienvenida-pj-protagonista-sonado" class="photo-preview"></div>
-                    <div id="photo-actions-bienvenida-pj-protagonista-sonado" class="photo-actions hidden">
-                        <button type="button" class="btn-secondary" onclick="downloadPhoto('bienvenida-pj-protagonista-sonado')">📥 Descargar para compartir</button>
-                        <button type="button" class="btn-tertiary" onclick="clearPhoto('bienvenida-pj-protagonista-sonado')">🗑️ Quitar</button>
-                    </div>
-                    <p class="photo-upload-share">💡 <strong>Para compartir con tu dirigente o el grupo:</strong> descarga la imagen y envíala por WhatsApp, email o el canal que prefieras.</p>
-                </div>
+                <p>La PNPJ 2024 reconoce la Naturaleza como un elemento propio del Método, e insiste en que implica mucho más que hacer actividades al aire libre: se trata de un contacto constructivo con el entorno natural. Por eso preocupa que cada vez se acampe menos, se camine menos, se esté menos en contacto real con la naturaleza. La política pide recuperar ese eje.</p>
 
-                <h3>Un compromiso chico, concreto y tuyo</h3>
+                <h3>Elemento 8 — Participación en la Comunidad</h3>
 
-                <p>Completa esta plantilla en tu reflexión: <em>“Esta semana, en mi unidad, voy a ______ (algo que muestre que el Programa es alianza, no manual). Lo voy a hacer con ______ (otro dirigente, un protagonista, una familia). Y la señal de que se cumplió será ______ (algo observable, no una intención).”</em></p>
+                <p>El Movimiento no educa para encerrarse en la unidad. Educa para servir y participar. La Participación en la Comunidad incluye proyectos de servicio en el barrio, articulación con organizaciones locales, ejercicio de ciudadanía en espacios públicos. La PNPJ 2024 lo titula <strong>'Participación comunitaria'</strong>: ayudar a construir un mundo mejor desde la ciudadanía activa, en el <strong>territorio</strong> —el espacio físico, social, cultural y comunitario— donde el joven vive.</p>
 
-                <div class="mission-box">No prometas grande. Promete chico. La diferencia entre un dirigente que transforma y uno que se quema son cien promesas chicas cumplidas, no una grande olvidada.</div>
+                <details class="policy-quote">
+                    <summary>📋 Servir CON, no PARA</summary>
+                    <blockquote class="policy-quote-text">El servicio no debe verse simplemente como hacer cosas para los demás, sino que, por la implicación, supone hacer cosas con los demás.</blockquote>
+                    <p class="policy-quote-source">— The Scout Method, OMMS 2019, p. 27.</p>
+                </details>
 
-                <h3>Lo que viene</h3>
-
-                <ul>
-                    <li>💗 <strong>Curso 2</strong> — La Educación por el Amor: la apuesta de Baden-Powell.</li>
-                    <li>🌟 <strong>Curso 3</strong> — Características Esenciales del Movimiento Scout.</li>
-                    <li>🧭 <strong>Curso 4</strong> — El Método Scout y sus 8 elementos.</li>
-                    <li>📜 <strong>Curso 5</strong> — La PNPJ y “El Gran Juego para la Vida”.</li>
-                    <li>🗺️ <strong>Curso 6</strong> — Mi Compromiso con el Programa de Jóvenes (plan personal).</li>
-                </ul>
-
-                <div class="info-box">Bienvenido al equipo de los que acompañan. Lo que viene vale el viaje.</div>
+                <div class="info-box">El Programa de Jóvenes que se cocina solo en el salón del grupo no es escultismo completo. Le falta el laboratorio (la naturaleza) y le falta el campo (el territorio). Ambos elementos son no-negociables, aunque la región sea urbana.</div>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>Escribe tu compromiso completo siguiendo la plantilla. Esto te lo enviaremos por correo cuando descargues tu certificado, para que lo recuerdes en una semana.</p>
+                    <p>En el último año, tu unidad ¿cuánto tiempo pasó en naturaleza real (campo, monte, río, bosque)? ¿Y cuántos proyectos hicieron CON la comunidad, no solo PARA la comunidad? Sé honesto.</p>
                     <textarea id="reflection-6" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(6, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 6</h3>
 
                     <div class="question">
-                        <h4>1. ¿Cuál de estos compromisos cumple mejor el criterio “chico, concreto y tuyo”?</h4>
+                        <h4>1. Según B-P, el bosque es para los Scouts…</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q50">
-                            “Voy a transformar la cultura del Programa en mi región este año.”
+                            Un lugar de entretenimiento de fin de semana.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q50">
-                            “En la próxima reunión voy a dejar que mi equipo decida una parte de la actividad, en vez de decidirla yo.”
+                            Un laboratorio, un club y un templo a la vez.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q50">
-                            “Voy a estudiarme el Modelo de Aplicación completo antes del próximo sábado.”
+                            Un escenario opcional según la región del grupo.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. Según el cierre del curso, los dirigentes que transforman se construyen sobre…</h4>
+                        <h4>2. La Participación en la Comunidad, según The Scout Method OMMS 2019, no consiste solo en…</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q51">
-                            Una promesa grande que inspira al equipo.
+                            Hacer cosas PARA los demás; consiste en hacer cosas CON los demás (implicación).
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q51">
-                            Cien promesas chicas cumplidas.
+                            Realizar campañas anuales de donaciones.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q51">
-                            La cantidad de campamentos que organizaron.
+                            Asistir a eventos comunitarios cuando hay invitación.
                         </label>
                     </div>
 
                     <button class="btn" onclick="checkQuiz(6)" id="checkBtn-6">Verificar Respuestas</button>
-                    <button class="btn hidden" onclick="completeModule(6)" id="nextBtn-6">Obtener mi certificado 🎓</button>
+                    <button class="btn hidden" onclick="completeModule(6)" id="nextBtn-6">Continuar a las 4 Dinámicas 🎯</button>
                 </div>
             </div>
 
-            <!-- MÓDULO 7: CERTIFICADO -->
+            <!-- MÓDULO 7: 🎯 LAS 4 DINÁMICAS DEL ESCULTISMO EN ACCIÓN -->
             <div class="module" id="module-7">
+                <h2>🎯 🎯 Las 4 Dinámicas del Escultismo en acción</h2>
+                <div class="badge">Módulo 6/7</div>
+
+                <div class="info-box"><strong>Idea central:</strong> Cómo se ven los 8 elementos juntos.</div>
+
+                <p>Los 8 elementos no se aplican uno por uno como una checklist. Se viven simultáneamente. The Scout Method (OMMS 2019, pp. 28-31) llama a estas manifestaciones simultáneas <strong>'las 4 Dinámicas del Escultismo'</strong>. Son la forma en que el Método se hace visible en la vida real de la unidad.</p>
+
+                <h3>Las 4 Dinámicas</h3>
+
+                <div class="method-elements">
+                    <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
+                        <h4>🎯 Objetivos Educativos</h4>
+                        <p>el norte del crecimiento del protagonista (las competencias terminales e intermedias por rama).</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #fff3e0, #fff3e0dd); border-color: #fb8c00;">
+                        <h4>🛠️ Oportunidades de Aprendizaje</h4>
+                        <p>las experiencias diseñadas o aprovechadas para que el protagonista crezca (reuniones, campamentos, proyectos, conversaciones).</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
+                        <h4>👥 Vida de Grupo</h4>
+                        <p>el clima, los vínculos, la cultura de la unidad (acogida, conflictos resueltos, alegría compartida).</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #f3e5f5, #f3e5f5dd); border-color: #8e24aa;">
+                        <h4>🏛️ Estructura y Funcionamiento</h4>
+                        <p>la organización que hace posible todo lo anterior (consejos, equipos de jefatura, planeación, evaluación).</p>
+                    </div>
+                </div>
+
+                <p>Una unidad con Programa de calidad muestra las 4 Dinámicas activas a la vez. Una unidad que solo cuida los Objetivos pero descuida la Vida de Grupo se vuelve fría. Una que solo cuida la Vida de Grupo pero no tiene Objetivos se vuelve divertida pero no educativa.</p>
+
+                <h3>El filtro DURASLID</h3>
+
+                <p>El Modelo de Aplicación 2026 añade un filtro práctico para evaluar la calidad de cada Oportunidad de Aprendizaje: <strong>DURASLID</strong>. Toda actividad debería ser <strong>D</strong>esafiante, <strong>U</strong>til, <strong>R</strong>ecompensante, <strong>A</strong>tractiva, <strong>S</strong>egura, <strong>L</strong>údica, <strong>I</strong>nclusiva y <strong>D</strong>iversa. Si una actividad solo cumple 2 o 3 de los 8 atributos, hay algo que ajustar.</p>
+
+                <div class="info-box">En el Curso 13 del Nivel 2 vas a aprender a planear reuniones aplicando DURASLID con la herramienta oficial Excel DNPJ. Hoy solo guarda el filtro.</div>
+
+                <div class="reflection-area">
+                    <h4>🤔 Reflexión Personal</h4>
+                    <p>De las 4 Dinámicas (Objetivos, Oportunidades, Vida de Grupo, Estructura), ¿cuál es la que mejor funciona en tu unidad y cuál la que peor?</p>
+                    <textarea id="reflection-7" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(7, this.value)"></textarea>
+                </div>
+                <div class="quiz-container">
+                    <h3>🧪 Mini-quiz Lección 7</h3>
+
+                    <div class="question">
+                        <h4>1. Las 4 Dinámicas del Escultismo son…</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q60">
+                            Promesa, Ley, Patrulla, Naturaleza.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q60">
+                            Objetivos Educativos, Oportunidades de Aprendizaje, Vida de Grupo, Estructura y Funcionamiento.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q60">
+                            Apoyar, Acompañar, Enlazar, Evaluar.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>2. ¿Qué significa DURASLID?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q61">
+                            Un programa de capacitación para dirigentes nuevos.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q61">
+                            Un filtro de calidad: Desafiante, Útil, Recompensante, Atractiva, Segura, Lúdica, Inclusiva, Diversa.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q61">
+                            Una organización mundial de protección del medio ambiente.
+                        </label>
+                    </div>
+
+                    <button class="btn" onclick="checkQuiz(7)" id="checkBtn-7">Verificar Respuestas</button>
+                    <button class="btn hidden" onclick="completeModule(7)" id="nextBtn-7">Continuar a tu próxima reunión ✍️</button>
+                </div>
+            </div>
+
+            <!-- MÓDULO 8: ✍️ MI PRÓXIMA REUNIÓN CON LOS 8 ELEMENTOS -->
+            <div class="module" id="module-8">
+                <h2>✍️ ✍️ Mi próxima reunión con los 8 elementos</h2>
+                <div class="badge">Módulo 7/7</div>
+
+                <div class="info-box"><strong>Idea central:</strong> Planear una reunión real integrando todo.</div>
+
+                <p>Vas a hacer el ejercicio más importante del Nivel 1. Piensa en la próxima reunión de tu unidad (o de la unidad que vas a acompañar). Vamos a ver qué tan bien integra los 8 elementos.</p>
+
+                <h3>Checklist de los 8 elementos para tu próxima reunión</h3>
+
+                <ul>
+                    <li><strong>Promesa y Ley</strong> — ¿Hay un momento de la reunión donde se mencione, se viva o se reconozca la Promesa o algún punto de la Ley?</li>
+                    <li><strong>Aprender Haciendo</strong> — ¿Los protagonistas van a <strong>hacer</strong> algo, o solo van a <strong>escuchar y mirar</strong>?</li>
+                    <li><strong>Progresión Personal</strong> — ¿La reunión contempla observar o registrar avances de algún protagonista en alguna área?</li>
+                    <li><strong>Sistema de Equipos</strong> — ¿Hay momentos donde el pequeño grupo (camada/seisena/patrulla/equipo) opera por sí mismo, no como gran grupo?</li>
+                    <li><strong>Apoyo del Adulto</strong> — ¿El adulto está en rol de Apoyar/Acompañar/Enlazar — o en rol de dirigir y entretener?</li>
+                    <li><strong>Marco Simbólico</strong> — ¿El lenguaje, los símbolos, las ceremonias propias de la rama están presentes?</li>
+                    <li><strong>Naturaleza</strong> — ¿La reunión ocurre o se conecta con un espacio natural (parque, cerro, jardín, plaza con árboles)?</li>
+                    <li><strong>Participación en la Comunidad</strong> — ¿Hay algún hilo que vincule la reunión con el territorio (familia, barrio, escuela, comunidad)?</li>
+                </ul>
+
+                <p>Si respondiste 'no' o 'no sé' a más de 3 de las 8: tu próxima reunión necesita ajustes. Si respondiste 'sí' a las 8: vas en camino del Método; sigue cuidando que el sistema se mantenga.</p>
+
+                <h3>Mi ajuste de esta semana</h3>
+
+                <p>En mi próxima reunión voy a fortalecer el elemento __________, agregando __________. La señal de que se cumplió será __________.</p>
+
+                <div class="mission-box">El Método se aprende aplicándolo. Cada reunión es un ensayo. Si una semana no funciona, ajustas la siguiente. Si una se queda corta en un elemento, lo trabajas en la otra. El sistema es flexible; lo no negociable es seguir integrando los 8.</div>
+
+                <h3>Lo que viene</h3>
+
+                <ul>
+                    <li>📜 <strong>Curso 5</strong> — La PNPJ y "El Gran Juego para la Vida": cómo Colombia aterriza el Método al Modelo de Aplicación 2026, las 5 ramas y las 6 áreas de crecimiento.</li>
+                    <li>🗺️ <strong>Curso 6</strong> — Mi Compromiso con el Programa de Jóvenes: tu plan personal de dirigente.</li>
+                </ul>
+
+                <div class="info-box">Bienvenido al equipo de los que aplican el Método con conciencia. Lo que viene vale el viaje.</div>
+
+                <div class="reflection-area">
+                    <h4>🤔 Reflexión Personal</h4>
+                    <p>Escribe tu ajuste de esta semana (paso 7) y guárdalo. Lo vas a recibir por correo con tu certificado.</p>
+                    <textarea id="reflection-8" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(8, this.value)"></textarea>
+                </div>
+                <div class="quiz-container">
+                    <h3>🧪 Mini-quiz Lección 8</h3>
+
+                    <div class="question">
+                        <h4>1. Si una reunión cumple solo 3 de los 8 elementos del Método, lo más correcto es…</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q70">
+                            Está perfecto; cada rama elige los elementos que más le sirven.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q70">
+                            Hay que ajustar la próxima reunión para volver a integrar el sistema completo.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q70">
+                            Cambiar de método y aplicar uno escolar.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>2. El Método se aprende…</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q71">
+                            Estudiando manuales hasta saberlo de memoria antes de aplicarlo.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q71">
+                            Aplicándolo, ajustando reunión a reunión, sin perder el sistema completo.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q71">
+                            Esperando a tener experiencia para empezar a usarlo.
+                        </label>
+                    </div>
+
+                    <button class="btn" onclick="checkQuiz(8)" id="checkBtn-8">Verificar Respuestas</button>
+                    <button class="btn hidden" onclick="completeModule(8)" id="nextBtn-8">Obtener mi certificado 🎓</button>
+                </div>
+            </div>
+
+            <!-- MÓDULO 9: CERTIFICADO -->
+            <div class="module" id="module-9">
                 <div class="certificate" style="max-width: 700px; margin: 0 auto; background: white; border: 3px solid #622599; border-radius: 0; padding: 30px 35px; position: relative; overflow: hidden;">
                     <!-- Decorative corners -->
                     <div style="position: absolute; top: 0; left: 0; width: 60px; height: 60px; border-top: 4px solid #ffe675; border-left: 4px solid #ffe675;"></div>
@@ -1457,14 +1622,14 @@ body {
 
                     <!-- Course name -->
                     <div style="text-align: center; background: linear-gradient(135deg, #622599 0%, #3d1660 100%); color: white; padding: 10px 20px; margin: 10px 0;">
-                        <h3 style="font-size: 1.1em; letter-spacing: 1px; margin: 0; color: white;">BIENVENIDA AL PROGRAMA DE JÓVENES</h3>
+                        <h3 style="font-size: 1.1em; letter-spacing: 1px; margin: 0; color: white;">EL MÉTODO SCOUT Y SUS 8 ELEMENTOS</h3>
                     </div>
 
                     <!-- Body -->
                     <div style="text-align: center; margin: 15px 0;">
                         <p style="font-size: 0.9em; color: #636363; margin-bottom: 8px;">Se otorga el presente certificado a</p>
                         <h3 style="color: #622599; font-size: 1.5em; margin: 8px 0; border-bottom: 2px solid #ffe675; display: inline-block; padding-bottom: 5px;" id="studentName"></h3>
-                        <p style="font-size: 0.85em; color: #636363; margin-top: 10px; line-height: 1.5;">ha completado el Curso 1 de la Línea Programa de Jóvenes, reconociendo el Programa de Jóvenes como una alianza educativa entre quien crece y quien acompaña, y dando su primer compromiso concreto como dirigente al servicio de los protagonistas de programa de la Asociación Scouts de Colombia</p>
+                        <p style="font-size: 0.85em; color: #636363; margin-top: 10px; line-height: 1.5;">ha completado el Curso 4 de la Línea Programa de Jóvenes, comprendiendo el Método Scout como un sistema de autoeducación progresiva basado en la interacción de sus 8 elementos, y formulando un plan concreto para integrarlos en su próxima reunión al servicio de los protagonistas de programa de la Asociación Scouts de Colombia</p>
                     </div>
 
                     <!-- Details grid -->
@@ -1491,11 +1656,14 @@ body {
 
                 <h3 style="margin-top: 30px;">🎯 Logros Desbloqueados</h3>
                 <div class="achievements">
-                    <div class="achievement earned">🎒 El Programa es alianza</div>
-                    <div class="achievement earned">🧨 Mito-buster</div>
-                    <div class="achievement earned">🗺️ Conozco mi Programa</div>
-                    <div class="achievement earned">💡 Veo por qué importa</div>
-                    <div class="achievement earned">🎒 Constructor de Programa</div>
+                    <div class="achievement earned">👋 Empecé el camino</div>
+                    <div class="achievement earned">🧭 Veo el sistema</div>
+                    <div class="achievement earned">📜 Ética + práctica</div>
+                    <div class="achievement earned">🌱 Crezco con otros</div>
+                    <div class="achievement earned">💗 Apoyo + imaginación</div>
+                    <div class="achievement earned">🌳 Naturaleza + ciudadanía</div>
+                    <div class="achievement earned">🎯 Veo el método en vivo</div>
+                    <div class="achievement earned">🧭 Practicante del Método</div>
                 </div>
 
                 <div style="text-align: center; margin: 30px 0;">
@@ -1522,16 +1690,16 @@ body {
     <script>
     // --- Configuracion del curso (generada automaticamente) ---
     var COURSE_CONFIG = {
-        courseId: "bienvenida-programa-jovenes",
-        title: "Bienvenida al Programa de Jóvenes",
-        totalModules: 8,
-        contentModules: 5,
+        courseId: "metodo-scout-8-elementos",
+        title: "El Método Scout y sus 8 elementos",
+        totalModules: 10,
+        contentModules: 7,
         googleScriptUrl: "https://script.google.com/macros/s/AKfycbxxZBp6XpmdRzZS0BXO02WMq31K5FUU8-Mqzc2Sj0PcwB3cMcrhIqbHQA0naUQb5mgBWw/exec",
-        achievements: [{"id":"achievement-1","name":"El Programa es alianza","emoji":"🎒","unlockOnModule":2},{"id":"achievement-2","name":"Mito-buster","emoji":"🧨","unlockOnModule":3},{"id":"achievement-3","name":"Conozco mi Programa","emoji":"🗺️","unlockOnModule":4},{"id":"achievement-4","name":"Veo por qué importa","emoji":"💡","unlockOnModule":5},{"id":"achievement-5","name":"Constructor de Programa","emoji":"🎒","unlockOnModule":-1}]
+        achievements: [{"id":"achievement-1","name":"Empecé el camino","emoji":"👋","unlockOnModule":1},{"id":"achievement-2","name":"Veo el sistema","emoji":"🧭","unlockOnModule":2},{"id":"achievement-3","name":"Ética + práctica","emoji":"📜","unlockOnModule":3},{"id":"achievement-4","name":"Crezco con otros","emoji":"🌱","unlockOnModule":4},{"id":"achievement-5","name":"Apoyo + imaginación","emoji":"💗","unlockOnModule":5},{"id":"achievement-6","name":"Naturaleza + ciudadanía","emoji":"🌳","unlockOnModule":6},{"id":"achievement-7","name":"Veo el método en vivo","emoji":"🎯","unlockOnModule":7},{"id":"achievement-final","name":"Practicante del Método","emoji":"🧭","unlockOnModule":-1}]
     };
 
     // --- Respuestas correctas (indice base 0) ---
-    var QUIZ_ANSWERS = {"2":[1,1],"3":[1,2],"4":[1,1],"5":[1,1],"6":[1,1]};
+    var QUIZ_ANSWERS = {"2":[1,1],"3":[1,1],"4":[1,1],"5":[1,1],"6":[1,0],"7":[1,1],"8":[1,1]};
 
 // ============================================
 // MOTOR DE CURSOS - PLATAFORMA DE FORMACION DE ADULTOS ASC

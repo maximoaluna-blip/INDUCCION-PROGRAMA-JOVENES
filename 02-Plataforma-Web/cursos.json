@@ -9,5 +9,60 @@
     "status": "active",
     "file": "bienvenida-programa-jovenes.html",
     "folder": "bienvenida-programa-jovenes"
+  },
+  {
+    "courseId": "educacion-por-el-amor",
+    "title": "La Educación por el Amor",
+    "description": "El segundo curso de la Línea Programa de Jóvenes y la brújula ética del Programa. En ~30 minutos vas a entender qué dijo Baden-Powell en Ginebra en 1922 sobre cómo se educa, vas a distinguir la educación por el temor de la educación por el amor, y vas a ver cómo los 4 objetivos de la instrucción se convirtieron en las 6 áreas de crecimiento de hoy. Termina con tu propia revisión pedagógica y un compromiso de práctica.",
+    "icon": "💗",
+    "duration": "30 minutos",
+    "modules": 6,
+    "status": "active",
+    "file": "educacion-por-el-amor.html",
+    "folder": "educacion-por-el-amor"
+  },
+  {
+    "courseId": "caracteristicas-esenciales-movimiento-scout",
+    "title": "Características Esenciales del Movimiento Scout",
+    "description": "El Curso 3 de la Línea Programa de Jóvenes entrega la identidad doctrinal del Movimiento: su Propósito, sus 3 Principios y los 6 elementos que lo distinguen de cualquier otra propuesta para jóvenes. Al final vas a poder explicarle a alguien externo qué es el Movimiento Scout en menos de un minuto, sin recurrir a uniformes ni a campamentos.",
+    "icon": "🌟",
+    "duration": "30 minutos",
+    "modules": 6,
+    "status": "active",
+    "file": "caracteristicas-esenciales-movimiento-scout.html",
+    "folder": "caracteristicas-esenciales-movimiento-scout"
+  },
+  {
+    "courseId": "metodo-scout-8-elementos",
+    "title": "El Método Scout y sus 8 elementos",
+    "description": "El curso más largo y más importante del Nivel 1. En ~40 minutos vas a entender el Método Scout como un sistema de autoeducación progresiva basado en 8 elementos interdependientes — no una lista de técnicas que se eligen a gusto. Vas a recorrer los 8 elementos en 4 parejas, ver las 4 Dinámicas del Escultismo en acción y salir con un plan concreto para integrar el Método en tu próxima reunión.",
+    "icon": "🧭",
+    "duration": "40 minutos",
+    "modules": 8,
+    "status": "active",
+    "file": "metodo-scout-8-elementos.html",
+    "folder": "metodo-scout-8-elementos"
+  },
+  {
+    "courseId": "pnpj-gran-juego-para-la-vida",
+    "title": "La PNPJ y \"El Gran Juego para la Vida\"",
+    "description": "El Curso 5 de la Línea Programa de Jóvenes. En ~35 minutos vas a aterrizar todo lo aprendido al contexto colombiano: la Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. 617 de 2024) y su Modelo de Aplicación \"El Gran Juego para la Vida\" (DNPJ 2026). Vas a recorrer las 5 ramas, las 6 áreas de crecimiento, las 3 etapas × 3 momentos y las herramientas operativas, y a construir tu mapa personal del Modelo.",
+    "icon": "📜",
+    "duration": "35 minutos",
+    "modules": 7,
+    "status": "active",
+    "file": "pnpj-gran-juego-para-la-vida.html",
+    "folder": "pnpj-gran-juego-para-la-vida"
+  },
+  {
+    "courseId": "mi-compromiso-programa-jovenes",
+    "title": "Mi Compromiso con el Programa de Jóvenes",
+    "description": "El cierre del Nivel 1 de la Línea Programa de Jóvenes. En ~30 minutos vas a convertir los Cursos 1 a 5 en un Plan Personal de Dirigente firmable: revisas tu brújula, defines tu rol, rama y áreas prioritarias, planeas tu próxima reunión y tu proyecto del trimestre, trazas tu ruta de formación y firmas tu promesa personal. No hay contenido nuevo: integras lo que ya tienes en algo accionable.",
+    "icon": "🗺️",
+    "duration": "30 minutos",
+    "modules": 6,
+    "status": "active",
+    "file": "mi-compromiso-programa-jovenes.html",
+    "folder": "mi-compromiso-programa-jovenes"
   }
 ]

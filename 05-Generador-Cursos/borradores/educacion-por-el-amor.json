@@ -1,0 +1,592 @@
+{
+  "courseId": "educacion-por-el-amor",
+  "title": "La Educación por el Amor",
+  "subtitle": "La apuesta de Baden-Powell en Ginebra, 1922",
+  "description": "El segundo curso de la Línea Programa de Jóvenes y la brújula ética del Programa. En ~30 minutos vas a entender qué dijo Baden-Powell en Ginebra en 1922 sobre cómo se educa, vas a distinguir la educación por el temor de la educación por el amor, y vas a ver cómo los 4 objetivos de la instrucción se convirtieron en las 6 áreas de crecimiento de hoy. Termina con tu propia revisión pedagógica y un compromiso de práctica.",
+  "icon": "💗",
+  "duration": "30 minutos",
+  "totalContentModules": 5,
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Bienvenida",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>~30 minutos.</strong> Al final vas a saber qué dijo Baden-Powell en 1922 sobre cómo se educa, por qué fundó este Movimiento, y cómo eso se traduce en cómo conversas con un protagonista de programa el próximo sábado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Te damos la bienvenida. Muchos dirigentes aprenden el Método y se vuelven técnicamente impecables, pero pedagógicamente fríos: saben armar una reunión, pero olvidaron por qué la arman. Este curso es la vacuna contra eso. Antes de aprender el Método (Curso 4) o de aterrizarlo a Colombia (Curso 5), te entregamos el “porqué” que Baden-Powell le dio al Movimiento."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que vas a vivir en este curso"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "El contexto histórico del informe de Ginebra 1922.",
+            "Qué es la “educación por el temor” que B-P combatió.",
+            "Qué es la “educación por el amor” que B-P propuso.",
+            "Los 4 objetivos de la instrucción y cómo se convirtieron en las 6 áreas de crecimiento de hoy.",
+            "Tu propia revisión pedagógica + un compromiso."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "No te apures. Este curso te va a poner un espejo. Conviene tomarlo con honestidad: ¿cómo educo yo, en mi unidad, en mi familia, en mi trabajo? La respuesta importa."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🕰️ Ginebra, 1 de agosto de 1922",
+      "emoji": "🕰️",
+      "navLabel": "Ginebra 1922",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el día que B-P dijo: “Sustituyamos el temor por el amor.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "El 1 de agosto de 1922, en Ginebra, Robert Baden-Powell —el militar inglés que 15 años antes había fundado el Movimiento Scout— se subió al estrado del 3er Congreso Internacional sobre Moral y Educación. Estaba en el Instituto Jean-Jacques Rousseau, una de las casas pedagógicas más importantes del mundo, que organizó el congreso (de estos congresos nació en 1925 la Oficina Internacional de Educación, hoy parte de la UNESCO). Tenía 65 años, había vivido la Primera Guerra Mundial, y vio cómo Europa estaba a punto de cometer el mismo error otra vez."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que estaba pasando en el mundo"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "1907",
+              "description": "B-P organiza el campamento de la isla de Brownsea: nace el escultismo."
+            },
+            {
+              "title": "1914–1918",
+              "description": "Primera Guerra Mundial. 17 millones de muertos. Europa entera de luto."
+            },
+            {
+              "title": "1919–1922",
+              "description": "Resurge el militarismo, las pedagogías autoritarias y los movimientos juveniles armados (en varios países, los jóvenes vuelven a ser instruidos para la próxima guerra)."
+            },
+            {
+              "title": "1 de agosto de 1922",
+              "description": "B-P toma la palabra en Ginebra y dice: “He aquí lo que el escultismo propone como alternativa.”"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que B-P fue a decir"
+        },
+        {
+          "type": "paragraph",
+          "text": "Su informe se llamó <strong>“La educación por el amor en sustitución de la educación por el temor”</strong>. No habló de uniformes, ni de insignias, ni de campamentos. Habló de pedagogía. De cómo se educa a un joven sin convertirlo en un soldado dócil ni en un alumno obediente. Habló de <strong>autoeducación voluntaria, fraternidad universal y deseo de conocer</strong>. Lo escucharon educadores de todo el mundo. La OMMS lo reeditó en 2007, en el año centenario del Movimiento, para que ningún dirigente lo olvide."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver las palabras exactas de B-P",
+          "source": "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 5).",
+          "text": "Los fuertes se servirán del miedo como un arma para aterrorizar a los débiles."
+        },
+        {
+          "type": "info-box",
+          "text": "Este curso no es una biografía de B-P. Es una invitación a tomar en serio lo que dijo ese día — porque sigue siendo lo que sostiene al Movimiento."
+        }
+      ],
+      "reflection": {
+        "prompt": "En tu propia formación escolar (primaria, secundaria), ¿qué pesó más: el miedo al castigo o el deseo de aprender? Escribe en 2–3 frases una experiencia concreta que te marcó (positiva o negativa)."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar a la educación por el temor 😨",
+        "questions": [
+          {
+            "text": "El informe de B-P en Ginebra 1922 se llamó…",
+            "options": [
+              "“Cómo formar buenos soldados desde la infancia.”",
+              "“La educación por el amor en sustitución de la educación por el temor.”",
+              "“El Manual del Scoutmaster.”"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "B-P pronunció este informe en…",
+            "options": [
+              "Un congreso militar en Londres.",
+              "Un congreso de moral y educación en Ginebra (antecedente de UNESCO).",
+              "Una asamblea Scout en Brownsea."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "😨 La educación por el temor (lo que B-P combatió)",
+      "emoji": "😨",
+      "navLabel": "Por el temor",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> castigo, recompensa, vanidad, competencia: lo viejo que sigue muy vivo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para entender lo que B-P proponía, hay que ver con claridad lo que combatía. La “educación por el temor” no es solo dar palmetazos. Es un sistema. Y mucho de él sigue funcionando hoy, sin que nos demos cuenta."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los 4 motores de la educación por el temor"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "😨 El castigo",
+              "description": "“Si no cumples, te va mal.” Físico (palmadas, ejercicios forzados) o simbólico (humillación pública, exclusión).",
+              "color": "#ffebee",
+              "borderColor": "#c62828"
+            },
+            {
+              "title": "🏆 La recompensa",
+              "description": "“Si cumples, te doy algo.” Premios externos que sustituyen el sentido interno de hacer las cosas bien.",
+              "color": "#fbe9e7",
+              "borderColor": "#d84315"
+            },
+            {
+              "title": "👁️ La vanidad",
+              "description": "“Mira lo bueno que soy.” Educar para que el otro quede impresionado, no para que el propio joven crezca.",
+              "color": "#eceff1",
+              "borderColor": "#546e7a"
+            },
+            {
+              "title": "⚔️ La competencia",
+              "description": "“Tú contra ellos.” Comparar permanentemente a un joven con otro, generar ganadores y perdedores donde todos podrían crecer.",
+              "color": "#efebe9",
+              "borderColor": "#6d4c41"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cuando estos 4 motores manejan una unidad, una familia o un aula, los chicos aprenden a hacer lo correcto <strong>mientras alguien los mira</strong>. Aprenden a sobrevivir, no a crecer."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que B-P le criticó al método antiguo"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la crítica de B-P",
+          "source": "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 12).",
+          "text": "El Método antiguo pecó por la base, porque desarrollaba en el alumno el miedo al castigo, el deseo de recompensa, la vanidad y el espíritu de competencia."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Esto pasa todavía"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "El dirigente que avergüenza al lobato que no se sabe la promesa frente a toda la Manada.",
+            "El maestro que cuelga la lista de notas para que cada alumno vea quién perdió.",
+            "El padre que dice “si no sacas 5, no hay vacaciones”.",
+            "La líder de patrulla que humilla al scout que llegó tarde.",
+            "El dirigente que solo se reúne con el protagonista para señalar lo que está mal."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "Si reconociste alguna escena: bienvenido al club. Reconocerlo no te hace mala persona; no reconocerlo, sí te impide cambiar."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Cuál de los 4 motores (castigo, recompensa, vanidad, competencia) sigue colándose más en tu propia práctica como dirigente, maestro, padre o jefe? Escribe una situación concreta donde te pasó."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar a la educación por el amor 💗",
+        "questions": [
+          {
+            "text": "Según esta lección, ¿cuál es el problema principal de educar con recompensas externas (“si cumples, te doy algo”)?",
+            "options": [
+              "Que las recompensas son costosas para el grupo.",
+              "Que el joven aprende a hacer lo correcto solo mientras lo miran, sin construir sentido interno.",
+              "Que las recompensas no son legales en algunos países."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Un dirigente avergüenza públicamente a un lobato que no se sabe la promesa. Está aplicando…",
+            "options": [
+              "Educación por el amor — está mostrándole la importancia.",
+              "Educación por el temor — usa la humillación como motor.",
+              "Una técnica neutra del Método Scout."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "💗 La educación por el amor (la apuesta de B-P)",
+      "emoji": "💗",
+      "navLabel": "Por el amor",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> autoeducación voluntaria, fraternidad universal, deseo de conocer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si la educación por el temor se sostiene en el castigo, la recompensa, la vanidad y la competencia, ¿en qué se sostiene la educación por el amor? B-P propuso cuatro pilares que siguen siendo los del Movimiento hoy."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los 4 pilares de la educación por el amor"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🤝 Autoeducación voluntaria",
+              "description": "“El joven aprende porque quiere, no porque le obligan.” La obligación produce obediencia; el deseo produce aprendizaje.",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            },
+            {
+              "title": "🌍 Fraternidad universal",
+              "description": "“Somos hermanos más allá de país, religión, clase o género.” El Movimiento existe para tender puentes, no para construir muros.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🔍 Despertar el deseo de conocer",
+              "description": "“No meterle ideas en la cabeza al niño. Despertarle la curiosidad y mostrarle el camino.” La pregunta vale más que la respuesta.",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "🙋 Servir al prójimo como hábito",
+              "description": "“Aprender haciendo y haciendo el bien.” El servicio no es una actividad ocasional; es la columna vertebral del carácter.",
+              "color": "#ffebee",
+              "borderColor": "#d81b60"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la cita central del informe",
+          "source": "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 8).",
+          "text": "La educación, tal como la entiendo, no consiste en introducir en el cerebro del niño una cierta dosis de conocimiento, sino en despertarle el deseo de conocer e indicarle el modo de estudiar."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Esto cambia cómo planeas una reunión"
+        },
+        {
+          "type": "paragraph",
+          "text": "Una reunión “por el temor” se construye con la pregunta “¿qué les voy a hacer hacer hoy?”. Una reunión “por el amor” empieza con otra: “¿qué quieren ellos descubrir o construir hoy?”. Una se planifica para que los chicos cumplan. La otra, para que aprendan."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La fraternidad universal en una frase"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la definición de fraternidad",
+          "source": "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 3).",
+          "text": "Una hermandad universal de servicio, una asociación de amistad que no se detiene más allá de las fronteras."
+        },
+        {
+          "type": "info-box",
+          "text": "Cuando un rover colombiano y un rover ucraniano se saludan en el Jamboree Mundial 2027 y se reconocen hermanos sin haberse visto nunca, esto es lo que B-P estaba imaginando en 1922."
+        }
+      ],
+      "reflection": {
+        "prompt": "De los 4 pilares (autoeducación voluntaria, fraternidad universal, deseo de conocer, servir al prójimo), ¿cuál te cuesta más sostener en tu práctica actual y por qué? Sé honesto."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar a los 4 objetivos de la instrucción 🎯",
+        "questions": [
+          {
+            "text": "Según B-P, ¿en qué consiste la educación?",
+            "options": [
+              "En introducir en el cerebro del niño una cierta dosis de conocimiento.",
+              "En despertarle el deseo de conocer e indicarle el modo de estudiar.",
+              "En transmitirle las costumbres y valores de su nación."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "¿Cuál es la diferencia entre planear una reunión “por el temor” y una “por el amor”, según esta lección?",
+            "options": [
+              "La primera es más corta, la segunda es más larga.",
+              "La primera empieza preguntando “¿qué les voy a hacer hacer?”, la segunda “¿qué quieren ellos descubrir?”.",
+              "La primera la planea el dirigente; la segunda, los padres."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "🎯 Los 4 objetivos de la instrucción",
+      "emoji": "🎯",
+      "navLabel": "4 objetivos",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> carácter, habilidad manual, servir al prójimo, salud — semilla de las 6 áreas de crecimiento de hoy."
+        },
+        {
+          "type": "paragraph",
+          "text": "En el mismo informe de 1922, B-P enunció algo que se quedó grabado en el ADN del Movimiento. Dijo que la instrucción scout debía perseguir cuatro objetivos, integrados, no separados."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los 4 objetivos según B-P"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🧠 Carácter e inteligencia",
+              "description": "Formar la persona: voluntad, sentido moral, criterio propio, pensamiento.",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            },
+            {
+              "title": "🛠️ Habilidad manual",
+              "description": "Saber hacer con las manos: oficios, herramientas, autonomía práctica.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🙋 Hábito de servir al prójimo",
+              "description": "No servir por obligación o por evento; servir como forma de ser.",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "💪 Salud y vigor físico",
+              "description": "Cuidar el cuerpo: ejercicio, higiene, sueño, alimentación, naturaleza.",
+              "color": "#ffebee",
+              "borderColor": "#d81b60"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver los 4 objetivos textuales",
+          "source": "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 10).",
+          "text": "En cada una de las sesiones la instrucción es orientada con vista a cuatro objetivos principales… desarrollar: el carácter y la inteligencia; la habilidad manual; el hábito de servir al prójimo; y la salud y el vigor físico."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "De 4 objetivos (1922) a 6 áreas (2024)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Esos 4 objetivos son la semilla de lo que la Política Nacional de Programa de Jóvenes 2024 desarrolla hoy como las <strong>6 áreas de crecimiento</strong>: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad y Espiritualidad. Lo que B-P dijo en 4 palabras, hoy la ASC lo desdobla en 6 dimensiones —incluyendo la afectividad y la espiritualidad que en 1922 estaban implícitas pero hoy se nombran—. El árbol creció. La raíz es la misma."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que esto significa para tu rol"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Cuando planeas una reunión, <strong>revisa que toque varias áreas</strong>, no solo una.",
+            "Cuando observas a un protagonista, <strong>míralo entero</strong>, no solo lo que se ve en formación.",
+            "Cuando construyes un proyecto, asegúrate de que <strong>invite a hacer, a servir, a cuidarse y a pensar</strong> —no solo una de las cuatro—.",
+            "Cuando registras la progresión, <strong>anota avances en las 6 áreas</strong>, aunque algunas crezcan más despacio."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "En el Curso 5 vas a ver con más detalle cómo el Modelo de Aplicación 2026 organiza las competencias por área y por rama. Hoy solo guarda esta idea: lo que enseñas siempre toca a la persona entera."
+        }
+      ],
+      "reflection": {
+        "prompt": "De las 6 áreas de crecimiento (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad), ¿cuál crees que más se descuida en tu unidad (o en las unidades que conoces)? ¿Por qué?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar a tu revisión pedagógica ✍️",
+        "questions": [
+          {
+            "text": "Los 4 objetivos que B-P propuso en 1922 son…",
+            "options": [
+              "Religión, patria, familia, trabajo.",
+              "Carácter e inteligencia, habilidad manual, hábito de servir al prójimo, salud y vigor físico.",
+              "Obediencia, disciplina, esfuerzo, lealtad."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "¿Cuál es la relación entre los 4 objetivos de B-P (1922) y las 6 áreas de crecimiento de la PNPJ 2024?",
+            "options": [
+              "Son listas distintas, no se relacionan.",
+              "Los 4 objetivos son la semilla; las 6 áreas son el desarrollo posterior, con afectividad y espiritualidad nombradas explícitamente.",
+              "La PNPJ 2024 reemplaza completamente lo que B-P dijo."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "✍️ Mi pedagogía: ¿por el temor o por el amor?",
+      "emoji": "✍️",
+      "navLabel": "Mi pedagogía",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> auto-revisión sincera + un compromiso de práctica."
+        },
+        {
+          "type": "paragraph",
+          "text": "Llegaste al final del curso. No te vamos a preguntar si crees en la educación por el amor —es difícil decir que no—. Te vamos a preguntar otra cosa: <strong>en la práctica, ¿cómo educas tú?</strong>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mi auto-revisión sincera"
+        },
+        {
+          "type": "paragraph",
+          "text": "Responde con honestidad estas cuatro preguntas, una por cada motor antiguo:<br>• “¿En qué situación reciente recurrí al <strong>castigo</strong> (físico o simbólico) en vez de a otra estrategia?”<br>• “¿En qué situación premié resultados externos en vez de cuidar el <strong>deseo</strong> interno de aprender?”<br>• “¿En qué situación me preocupó más cómo me ven que cómo crece el joven (<strong>vanidad</strong>)?”<br>• “¿En qué situación generé <strong>competencia</strong> donde podía haber generado colaboración?”"
+        },
+        {
+          "type": "mission-box",
+          "text": "Si respondiste honestamente alguna: eso es lo que significa estar formándose. No estás aquí para ser perfecto. Estás aquí para mirar y cambiar."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Mi compromiso pedagógico de esta semana"
+        },
+        {
+          "type": "paragraph",
+          "text": "Completa esta plantilla en tu reflexión: <em>“Esta semana, en mi unidad/familia/aula, voy a reemplazar la práctica __________ por la práctica __________. La señal de que se cumplió será __________.”</em>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que viene"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "🌟 <strong>Curso 3</strong> — Características Esenciales del Movimiento Scout: el Propósito, los Principios, los 6 elementos definitorios.",
+            "🧭 <strong>Curso 4</strong> — El Método Scout y sus 8 elementos: la herramienta metodológica con la que aterrizas el amor a una reunión concreta.",
+            "📜 <strong>Curso 5</strong> — La PNPJ y “El Gran Juego para la Vida”: cómo Colombia aterriza todo esto en su Modelo de Aplicación 2026.",
+            "🗺️ <strong>Curso 6</strong> — Mi Compromiso con el Programa de Jóvenes: tu plan personal."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "Cuando dudes, recuerda la idea que B-P hizo suya en Ginebra, del educador Edmundo Holmes: “Aprender haciendo y contribuyendo a la formación del propio yo y no recibiendo pasivamente las ideas de otros; ese es el principio.” Buen camino."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe tu compromiso pedagógico completo (plantilla del paso anterior). Te lo enviaremos por correo con tu certificado para que lo recuerdes."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Obtener mi certificado 🎓",
+        "questions": [
+          {
+            "text": "Una dirigente que toma este curso reconoce que suele decir “el primero que termine la fogata gana un dulce”. Está reproduciendo…",
+            "options": [
+              "La educación por el amor — está incentivando el esfuerzo.",
+              "La educación por el temor — usa recompensa externa y competencia.",
+              "Una práctica neutra que no aplica al escultismo."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Según el cierre del curso, la frase que B-P hizo suya “Aprender haciendo y contribuyendo a la formación del propio yo” apunta a…",
+            "options": [
+              "Que el joven es un recipiente vacío al que hay que llenar.",
+              "Que el joven es un sujeto activo de su propia formación, no pasivo.",
+              "Que el joven debe ser instruido por los adultos antes de poder hacer."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Listo para escuchar a B-P",
+      "emoji": "👋",
+      "unlockOnModule": 1
+    },
+    {
+      "id": "achievement-2",
+      "name": "Conozco el contexto",
+      "emoji": "🕰️",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-3",
+      "name": "Veo el contraste",
+      "emoji": "😨",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-4",
+      "name": "Entiendo la apuesta",
+      "emoji": "💗",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-5",
+      "name": "Veo la raíz de las áreas",
+      "emoji": "🎯",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-final",
+      "name": "Educador por el Amor",
+      "emoji": "💗",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "LA EDUCACIÓN POR EL AMOR",
+    "description": "ha completado el Curso 2 de la Línea Programa de Jóvenes, comprendiendo la apuesta de Baden-Powell en Ginebra (1922) por la educación por el amor en sustitución de la educación por el temor, y comprometiéndose a una práctica pedagógica por el amor al servicio de los protagonistas de programa de la Asociación Scouts de Colombia"
+  }
+}
