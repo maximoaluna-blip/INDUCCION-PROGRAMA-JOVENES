@@ -227,7 +227,7 @@ Cuando se quieren publicar varios cursos del mismo nivel a la vez.
    - Marcar todos los del nivel como `status: "active"`.
    - Asegurar que el orden de `cursos.json` refleja el orden pedagógico del nivel.
 4. **Verificar conexiones cross-course:** que cada curso del nivel referencie al siguiente correctamente y que los componentes que dependen de otros (ej. `brujula-display` del Curso 6 que lee reflexiones de los Cursos 1–5, `plan-builder` del Curso 6 que integra rama+áreas+rol+reunión+proyecto+par) funcionen.
-5. **Pilotear el nivel completo** con 5-10 dirigentes reales antes de cerrar la fase. Para Nivel 1: idealmente 2 dirigentes de Manada, 2 de Tropa, 1 de Comunidad y 1 de Clan, para representar el espectro.
+5. **Piloto (opcional, ya no bloqueante)** — ver `CLAUDE.md` §5.4, ADR-019. Si se quiere validar recepción real, pilotear con 5-10 dirigentes reales (para Nivel 1: idealmente 2 de Manada, 2 de Tropa, 1 de Comunidad y 1 de Clan); no es requisito para publicar.
 
 ---
 
