@@ -33,22 +33,21 @@ el piloto — ver `PORTAL-ADMIN-ASC/README.md`.
 
 | Archivo | Qué verifica | Checklist |
 |---|---|---|
-| `tests/e2e-flujo.spec.js` | Registro → responder cada quiz ≥70% → recorrer módulos → certificado `ASC-AAAA-XXXXX`. Verifica el contrato POST (`register`/`quiz`/`progress`/`certificate` + `token` + `course`), idempotencia del certificado incluida. Corre sobre **los 7 cursos activos** del catálogo. | §F, §G |
+| `tests/e2e-flujo.spec.js` | Registro → responder cada quiz ≥70% → recorrer módulos → certificado `ASC-AAAA-XXXXX`. Verifica el contrato POST (`register`/`quiz`/`progress`/`certificate` + `token` + `course`), idempotencia del certificado incluida. Corre sobre **todos los cursos activos** del catálogo. | §F, §G |
 | `tests/e2e-plan-builder.spec.js` | Descubre en runtime el curso con `plan-builder` (en PJ: **Curso 6, `mi-compromiso-programa-jovenes`**, 22 campos) y verifica que persiste tras recargar | §F |
 | `tests/_backend.js` | Helper: intercepta y captura las llamadas a Apps Script | — |
 
-## Cursos cubiertos hoy (7 activos)
+## Cursos cubiertos hoy (8 activos)
 
-`bienvenida-programa-jovenes`, `educacion-por-el-amor`, `como-se-educa-hoy`,
+Nivel 1: `bienvenida-programa-jovenes`, `educacion-por-el-amor`, `como-se-educa-hoy`,
 `caracteristicas-esenciales-movimiento-scout`, `metodo-scout-8-elementos`,
-`pnpj-gran-juego-para-la-vida`, `mi-compromiso-programa-jovenes` (los 7 del Nivel 1,
-`status: "active"` en `02-Plataforma-Web/cursos.json`).
+`pnpj-gran-juego-para-la-vida`, `mi-compromiso-programa-jovenes`.
+Nivel 2: `rama-manada-lobatos` (primer curso de rama).
 
-**`rama-manada-lobatos` (Curso 8, Nivel 2) queda fuera a propósito**: su `status` es
-`"draft"` (no publicado — falta piloto y el Curso 25 habilitante), y tanto el catálogo
-dinámico (`_setup-cursos.js` filtra por `status: "active"/"new"`) como el fallback estático
-de `cursos.js` solo cubren cursos ya publicados. Cuando pase a `"active"`, el siguiente
-`npm test` (o la próxima corrida en producción) lo recoge automáticamente sin tocar código.
+Todos con `status: "active"` en `02-Plataforma-Web/cursos.json`. El catálogo dinámico
+(`_setup-cursos.js`, filtra por `status: "active"/"new"`) y el fallback estático de
+`cursos.js` se mantienen en sincronía manual con esa lista — al agregar un curso nuevo,
+sumarlo a ambos (ver checklist de `CREAR-CURSO.md`).
 
 ## Instalación
 

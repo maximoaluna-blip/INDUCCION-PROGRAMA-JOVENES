@@ -9,8 +9,7 @@ const path = require('path');
 const GENERADO = path.join(__dirname, '.cursos.json');
 
 // Fallback: espejo de INDUCCION-PROGRAMA-JOVENES/02-Plataforma-Web/cursos.json (status: "active").
-// No incluye cursos en "draft" (p. ej. rama-manada-lobatos, Nivel 2 sin publicar) a proposito:
-// la suite solo cubre lo que ya esta en produccion, igual que hace cursos.json filtrando por status.
+// Solo cursos activos -- igual que cursos.json filtrando por status.
 const FALLBACK = [
   { courseId: 'bienvenida-programa-jovenes', file: 'bienvenida-programa-jovenes.html', tituloIncluye: 'Bienvenida' },
   { courseId: 'educacion-por-el-amor', file: 'educacion-por-el-amor.html', tituloIncluye: 'Educaci' },
@@ -19,6 +18,7 @@ const FALLBACK = [
   { courseId: 'metodo-scout-8-elementos', file: 'metodo-scout-8-elementos.html', tituloIncluye: 'todo' },
   { courseId: 'pnpj-gran-juego-para-la-vida', file: 'pnpj-gran-juego-para-la-vida.html', tituloIncluye: 'PNPJ' },
   { courseId: 'mi-compromiso-programa-jovenes', file: 'mi-compromiso-programa-jovenes.html', tituloIncluye: 'Compromiso' },
+  { courseId: 'rama-manada-lobatos', file: 'rama-manada-lobatos.html', tituloIncluye: 'Manada' },
 ];
 
 let CURSOS = FALLBACK;
