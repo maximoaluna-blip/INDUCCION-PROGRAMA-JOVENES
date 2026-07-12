@@ -2,9 +2,9 @@
 
 **Línea:** Programa de Jóvenes · **Nivel:** 2 (Profundización por rama y práctica pedagógica) · **Posición:** Curso 8 de 8 del Nivel 2 (7–14), primero en construirse.
 
-> Vertical slice del Nivel 2. Elegido como primer curso de rama por tener el material fuente más completo (Guía de Dirigente de Manada 2026, 69 pp. + Manual de Presentación y Buen Orden de la Manada) y por ser la rama-patrón ya auditada en la app complementaria PROGRAMA SCOUT. Tras pilotaje, se replica el patrón a los Cursos 7, 9, 10 y 11 (las otras 4 ramas).
+> Vertical slice del Nivel 2. Elegido como primer curso de rama por tener el material fuente más completo (Guía de Dirigente de Manada 2026, 69 pp. + Manual de Presentación y Buen Orden de la Manada) y por ser la rama-patrón ya auditada en la app complementaria PROGRAMA SCOUT. Se replica el patrón a los Cursos 7, 9, 10 y 11 (las otras 4 ramas).
 >
-> ⚠️ **Nota de gateo pendiente:** según CLAUDE.md §5.3 y CREAR-CURSO.md §5.D, los Cursos 7–14 deberían bloquearse hasta que el adulto complete el Curso 25 (A Salvo del Peligro, habilitante). **El Curso 25 todavía no está construido** (no tiene carpeta ni JSON en el repo). Este curso se construye y pilotea igualmente como prueba de concepto del Nivel 2, pero **no debe marcarse `status: "active"` en `cursos.json` ni publicarse sin gate real** hasta que el Curso 25 exista y el flag `aSalvoCompleted` esté implementado. Ver sección 10.
+> **Sin cursos habilitantes** (decisión 11-jul-2026, `CLAUDE.md` §5.3, `DECISIONES.md` ADR-019): este curso no bloquea ni está bloqueado por ningún otro. El Nivel 1 y el Curso 25 (A Salvo del Peligro) se recomiendan en la ficha, no se exigen técnicamente.
 
 ---
 
@@ -19,7 +19,7 @@
 | Duración | ~35 min |
 | Lecciones de contenido | 7 + intro + certificado (8 en total) |
 | Audiencia primaria | Dirigentes que acompañan (o van a acompañar) la rama Manada, y Asistentes de la unidad (7–10 años). |
-| Pre-requisitos | Nivel 1 completo (Cursos 1–6) y Curso 25 — A Salvo del Peligro (habilitante). *Mientras el Curso 25 no exista, este prerrequisito se muestra como recomendación, no como bloqueo técnico — ver nota de gateo arriba.* |
+| Recomendado antes | Ninguno es obligatorio. Para aprovechar mejor el curso: Nivel 1 completo (Cursos 1–6) y, en paralelo, el Curso 25 — A Salvo del Peligro. |
 | Logro final | "Guardián de la Selva" |
 
 ---
@@ -434,7 +434,7 @@ _Excepción documentada (8 lecciones → 7+1 logros, igual que el Curso 04 del N
 - **L2 (Ceremonia de Paso) ← Curso 6:** retoma el compromiso escrito en el Plan Personal de Dirigente del Curso 6, ahora aterrizado a la rama concreta que el adulto declaró.
 - **L4 (DURASLID) ← Curso 1 (Mito 3):** el Curso 1 introdujo DURASLID como filtro contra "hay que entretenerlos"; aquí se aplica en profundidad.
 - **L5 (seis Sendas) ← Curso 1 (L5) y Curso 5:** el Curso 1 presentó panorámicamente las 6 áreas de crecimiento; el Curso 5 las aterrizó al Modelo de Aplicación; aquí se convierten en las seis Sendas concretas de la Manada.
-- **Prerrequisito ← Curso 25 (A Salvo del Peligro):** pendiente de construir — ver nota de gateo al inicio de este documento.
+- **Recomendado, no prerrequisito ← Curso 25 (A Salvo del Peligro):** cuando se construya, se recomienda en la ficha del curso; no bloquea el acceso (ver `CLAUDE.md` §5.3, ADR-019).
 
 ### 6.2 Hacia adelante (dentro del Nivel 2)
 
@@ -503,15 +503,13 @@ _Excepción documentada (8 lecciones → 7+1 logros, igual que el Curso 04 del N
 
 ## 10. Próximos pasos
 
-1. **Revisar este diseño** con el dueño del proyecto. Aplicar ajustes de tono, nombre del protagonista narrativo, ejemplos.
-2. **Generar el JSON** del curso en `05-Generador-Cursos/borradores/rama-manada-lobatos.json` siguiendo `course-schema.json`, replicando el patrón de `bienvenida-programa-jovenes.json`.
-3. **Build HTML** con `node build-course.js rama-manada-lobatos`.
-4. **Generar preview PDF** y revisar visualmente.
-5. **NO marcar `status: "active"` en `cursos.json`** hasta que:
-   - a) exista un piloto con 5–10 dirigentes de Manada reales, y
-   - b) se resuelva el gateo del Curso 25 (A Salvo del Peligro) — hoy inexistente. Mientras tanto, el curso queda accesible solo por URL directa o con `status: "draft"`/`"coming-soon"` en el catálogo, para no ofrecer Nivel 2 sin su prerrequisito habilitante real.
-6. **Correr auditoría doctrinal** (`/auditar-curso rama-manada-lobatos`) antes de cualquier publicación, aunque el contenido reutiliza citas ya verificadas en la app PROGRAMA SCOUT — el curso añade material nuevo (Ley, Promesa, DURASLID, Consejo de Roca, Gran Salto, Círculo de Roca) que no pasó por esa auditoría todavía.
-7. **Pilotar** con 5–10 dirigentes de Manada reales. Recoger retroalimentación 1–2 semanas.
+1. ~~Revisar este diseño con el dueño del proyecto~~ ✅
+2. ~~Generar el JSON del curso~~ ✅
+3. ~~Build HTML~~ ✅
+4. ~~Generar preview PDF y revisar visualmente~~ ✅
+5. ~~Auditoría doctrinal~~ ✅ APTO · ~~Auditoría pedagógica~~ ✅ APTO · ~~Auditoría funcional (suite propia de la línea)~~ ✅ suite construida y en verde
+6. **Sin gate ni piloto obligatorio** (decisión 11-jul-2026, `CLAUDE.md` §5.3 y §5.4, `DECISIONES.md` ADR-019): las 3 auditorías automatizadas reemplazan al piloto humano como compuerta de calidad para este lanzamiento.
+7. **Pendiente para publicar:** sumar `rama-manada-lobatos` al catálogo de `PRUEBAS-E2E` (fallback de `cursos.js` + lista de `pruebas-e2e.yml`), pasar `status` a `"active"` en `cursos.json`, actualizar `coursesActive` en `PORTAL-ADULTOS-ASC/lineas.json`, commit + push + verificar en producción.
 8. **Ajustar y replicar** el patrón a los Cursos 7 (Familia), 9 (Tropa), 10 (Comunidad) y 11 (Clan).
 
 ---

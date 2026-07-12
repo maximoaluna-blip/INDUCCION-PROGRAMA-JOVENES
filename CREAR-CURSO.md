@@ -254,11 +254,11 @@ Cuando se quieren publicar varios cursos del mismo nivel a la vez.
 - Marco simbólico, Promesa y Ley, grupo natural, ceremonias propias deben aparecer explícitamente con sus textos oficiales en `policy-quote`.
 - **Riesgo común**: tratar el marco simbólico como decoración. Cowork debe diseñarlo como **lenguaje principal** de la rama, no como adorno.
 
-### D. Curso habilitante (Curso 24 — A Salvo del Peligro)
+### D. Cursos recomendados, no habilitantes (ver `CLAUDE.md` §5.3, ADR-019)
 
-- El Curso 24 es **prerrequisito real** para avanzar al Nivel 2. La plataforma debe **bloquear el acceso** a los Cursos 7–14 si el adulto no ha completado el 24.
-- En `cursos.json`, marcar el Curso 24 con `gates: ["nivel-2"]` o equivalente que el motor reconozca.
-- Construir el Curso 24 **en paralelo al Nivel 1**, no esperar a terminar todo el Nivel 1.
+- **Ningún curso bloquea el acceso a otro.** No hay prerrequisitos técnicos ni `gates` en `cursos.json` — cualquier adulto puede entrar directo a cualquier curso activo, incluidos los del Nivel 2.
+- En la ficha del curso ("Pre-requisitos"), en vez de exigir un curso previo, **recomendarlo**: p. ej. "Recomendado antes: Nivel 1 completo (Cursos 1–6). Recomendado en paralelo: A Salvo del Peligro." Es una sugerencia para aprovechar mejor el curso, no una condición para acceder.
+- Esto aplica también al Curso 25 (A Salvo del Peligro): sigue siendo un curso importante y se recomienda tomarlo temprano, pero no bloquea el Nivel 2.
 
 ### E. Curso que reemplaza a otro
 
@@ -456,7 +456,7 @@ Cada curso del Nivel 1 cierra con un anuncio del siguiente (1–2 frases). En pa
 - **Última lección del Curso 4** anuncia: _"En el Curso 5 vas a ver cómo Colombia aterriza el Método al Modelo de Aplicación 2026, las 5 ramas y las 6 áreas de crecimiento."_
 - **Última lección del Curso 5** anuncia: _"En el Curso 6 vas a convertir todo lo aprendido en un Plan Personal de Dirigente firmable."_
 - **Última lección del Curso 6** anuncia:
-  - **Inmediato**: Curso 24 (A Salvo del Peligro — habilitante).
+  - **Recomendado pronto**: Curso 25 (A Salvo del Peligro) — importante, no bloqueante.
   - **Próximo mes**: tu curso de rama del Nivel 2 + un curso pedagógico operativo (12, 13 o 14).
   - **Próximos meses**: el resto del Nivel 2, el Nivel 3 (cuando ejerzas un cargo) y los demás cursos del Nivel 4.
 
@@ -464,7 +464,7 @@ Cada curso del Nivel 1 cierra con un anuncio del siguiente (1–2 frases). En pa
 
 - El **`brujula-display` del Curso 6** lee las reflexiones de cierre de los Cursos 1, 2, 3, 4 y 5 (`sourceCourses` con los 5 IDs).
 - El **`plan-builder` del Curso 6** persiste en `localStorage` con clave `dirigenteProfile` y es leído más adelante por los cursos del Nivel 2 (para sugerir el curso de rama y los cursos operativos prioritarios).
-- El **Curso 24** marca el flag `aSalvoCompleted` que la plataforma usa para desbloquear los Cursos 7–14.
+- Ningún curso marca flags de bloqueo ni desbloqueo entre sí (ver `CLAUDE.md` §5.3, ADR-019) — solo recomendaciones en la ficha del curso.
 
 ---
 
@@ -642,7 +642,7 @@ Antes de publicar, verificar contra https://scout.org.co/biblioteca/dnpj que los
 | **Photo-upload** | Espacio para subir un dibujo o imagen del adulto (se guarda en su navegador). |
 | **Achievement** | Logro que se desbloquea al completar una lección o un curso. |
 | **Cross-course** | Conexión técnica entre cursos (el resultado de uno alimenta al siguiente). |
-| **Curso habilitante** | Curso que es prerrequisito real para avanzar al siguiente nivel (en PJ: Curso 24 — A Salvo del Peligro). |
+| **Curso recomendado** | Curso que se sugiere haber visto antes para aprovechar mejor otro, sin bloquear el acceso (ver `CLAUDE.md` §5.3, ADR-019 — ya no hay cursos habilitantes/bloqueantes en la plataforma). |
 
 ---
 
