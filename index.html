@@ -164,6 +164,38 @@
             display: inline-block;
         }
 
+        /* --- Chips de navegacion por nivel --- */
+        .level-nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 28px;
+        }
+
+        .level-chip {
+            background: #ffffff;
+            border: 2px solid #622599;
+            color: #622599;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 700;
+            text-decoration: none;
+            transition: background 0.2s, color 0.2s;
+            white-space: nowrap;
+        }
+
+        .level-chip:hover {
+            background: #622599;
+            color: #ffffff;
+        }
+
+        .level-chip-count {
+            opacity: 0.8;
+            font-weight: 600;
+            margin-left: 4px;
+        }
+
         /* --- Niveles (agrupacion del catalogo) --- */
         .level-section {
             margin-bottom: 20px;
@@ -453,6 +485,8 @@
     <div class="container">
         <h2 class="section-title">Cursos Disponibles</h2>
 
+        <div class="level-nav" id="levelNav"></div>
+
         <div id="levelsContainer">
             <p style="color: #636363; text-align: center; padding: 20px;">Cargando catalogo de cursos...</p>
         </div>
@@ -530,7 +564,7 @@
         }
 
         function renderLevelSection(grupo, esPrimero) {
-            return '<details class="level-section"' + (esPrimero ? ' open' : '') + '>' +
+            return '<details class="level-section" id="nivel-' + escapeHtml(grupo.level) + '"' + (esPrimero ? ' open' : '') + '>' +
                 '<summary class="level-summary">' +
                     '<span class="level-name">Nivel ' + escapeHtml(grupo.level) + ' — ' + escapeHtml(grupo.levelName) + '</span>' +
                     '<span class="level-count">' + grupo.cursos.length + ' curso' + (grupo.cursos.length === 1 ? '' : 's') + '</span>' +
@@ -539,20 +573,41 @@
             '</details>';
         }
 
+        // Fila de chips arriba de la grilla: un vistazo a cuantos niveles hay y
+        // cuantos cursos tiene cada uno, sin necesidad de scrollear ni expandir
+        // nada. Cada chip salta a su seccion y la abre si estaba colapsada.
+        function renderLevelChip(grupo) {
+            return '<a href="#nivel-' + escapeHtml(grupo.level) + '" class="level-chip" data-nivel="' + escapeHtml(grupo.level) + '">' +
+                'Nivel ' + escapeHtml(grupo.level) +
+                '<span class="level-chip-count">(' + grupo.cursos.length + ')</span>' +
+            '</a>';
+        }
+
         function renderCatalog(courses) {
             var contenedor = document.getElementById('levelsContainer');
+            var nav = document.getElementById('levelNav');
             // Solo mostrar cursos activos o nuevos
             var disponibles = (courses || []).filter(function(c) {
                 return c.status === 'active' || c.status === 'new';
             });
             if (!disponibles.length) {
                 contenedor.innerHTML = '<p style="color: #636363; text-align: center;">No hay cursos disponibles por ahora.</p>';
+                nav.innerHTML = '';
                 return;
             }
             var grupos = agruparPorNivel(disponibles);
             // El primer nivel (el que tiene cursos) arranca expandido; los siguientes
             // colapsados, para no abrumar cuando haya varios niveles con contenido.
             contenedor.innerHTML = grupos.map(function(g, i) { return renderLevelSection(g, i === 0); }).join('');
+
+            // Los chips solo tienen sentido si hay mas de un nivel con cursos.
+            nav.innerHTML = grupos.length > 1 ? grupos.map(renderLevelChip).join('') : '';
+            nav.querySelectorAll('.level-chip').forEach(function(chip) {
+                chip.addEventListener('click', function() {
+                    var destino = document.getElementById('nivel-' + chip.getAttribute('data-nivel'));
+                    if (destino) destino.open = true;
+                });
+            });
 
             var totalHoras = disponibles.reduce(function(sum, c) {
                 return sum + parseHours(c.duration);
