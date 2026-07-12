@@ -1,0 +1,785 @@
+{
+  "courseId": "rama-manada-lobatos",
+  "title": "Rama Manada (Lobatos)",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "El primer curso de rama del Nivel 2 de la Línea Programa de Jóvenes. En ~35 minutos vas a acompañar a Andrés, un lobato de 7 años, desde su llegada a la Manada hasta su Gran Salto hacia la Tropa: el marco simbólico de El Libro de las Tierras Vírgenes, las seisenas sin jefes fijos, las seis Sendas de la progresión y tu rol como Viejo Lobo — facilitador, no jefe.",
+  "icon": "🐺",
+  "duration": "35 minutos",
+  "totalContentModules": 7,
+  "modules": [
+    {
+      "id": 1,
+      "title": "🐾 Bienvenida a la Manada",
+      "emoji": "🐾",
+      "navLabel": "Bienvenida",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>~35 minutos.</strong> Al final vas a poder hablar el idioma de la Selva, organizar tu Manada en seisenas sin jerarquías fijas, acompañar la progresión de un lobato por sus seis Sendas, y entender qué significa ser Viejo Lobo: facilitador, no jefe."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vas a conocer a Andrés. Tiene 7 años, acaba de cruzar la Ceremonia de Paso desde la Familia, y en tres años va a hacer su Gran Salto hacia la Tropa. En este curso vas a acompañar su viaje por la Manada — y vas a entender, lección a lección, qué necesita de ti en cada tramo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Es fácil pensar que ser Viejo Lobo es 'dirigir el juego': decidir qué hacen, cómo lo hacen y cuándo. A lo largo de este curso vas a ver por qué esa idea, aunque bienintencionada, le quita a Andrés justamente lo que la Manada existe para darle: la oportunidad de decidir, equivocarse y crecer."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que vas a vivir en este curso"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Quién es un lobato de 7 a 10 años y cómo llega a la Manada.",
+            "El Libro de las Tierras Vírgenes como idioma, no como disfraz.",
+            "Las seisenas: cómo se organizan sin líderes fijos.",
+            "El territorio de la selva y las seis Sendas de la progresión.",
+            "Qué significa ser Viejo Lobo: facilitador, no jefe.",
+            "Las ceremonias de la Manada y el Gran Salto hacia la Tropa."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "Piensa en un lobato real que acompañes (o imagina uno) mientras avanzas en las reflexiones. Te va a servir más que pensar en abstracto."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🚪 Quién es un Lobato y cómo llega a la Manada",
+      "emoji": "🚪",
+      "navLabel": "Quién es un Lobato",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el lobato de 7 a 10 años tiene un cuerpo que no para, una mente curiosa y un corazón sensible — y llega a la Manada por una ceremonia, no de golpe."
+        },
+        {
+          "type": "paragraph",
+          "text": "Antes de hablar de seisenas o de progresión, conviene mirar de frente a quién tienes al frente. Un lobato de 7 años no es un scout chiquito ni un niño de Familia grande. Es una etapa con lógica propia."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🏃 Un cuerpo que quiere moverse todo el tiempo",
+              "description": "La quietud prolongada lo agota; el juego físico no es un premio, es la vía de aprendizaje.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🧠 Una mente curiosa que quiere entender el mundo",
+              "description": "Pregunta todo, varias veces, y necesita respuestas concretas, no abstractas.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "💛 Un corazón sensible que necesita seguridad",
+              "description": "Vive las emociones con intensidad; un ambiente predecible y cálido es condición, no lujo.",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            },
+            {
+              "title": "🎭 Fantasía y juego: su manera de aprender",
+              "description": "No juega <em>para después</em> aprender; jugando ya está aprendiendo.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cuando Andrés llegó a su primera reunión, no se sentó a escuchar una explicación de 10 minutos sobre qué es el escultismo. Se puso a cuatro patas a aullar con su seisena. Ese aullido —no la explicación— fue su primera lección de pertenencia."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cómo llega un niño a la Manada: la Ceremonia de Paso"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un cachorro de Familia no “se pasa” de un día para otro. Hay una Ceremonia de Paso de Familia a Manada, en la que es presentado a Akela por el Jefe de Grupo y acogido afectuosamente en la Manada. Es el primer ritual de pertenencia que va a vivir Andrés, y marca simbólicamente que entra a un territorio nuevo: la Selva."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la ceremonia de entrada textual",
+          "source": "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 6.12 — Ceremonias en la Manada, p. 32.",
+          "text": "Ceremonia de Paso de Familia a Manada: Es el momento en que un cachorro pasa a la manada, es presentado a Akela por el Jefe de Grupo y acogido afectuosamente en la Manada."
+        },
+        {
+          "type": "info-box",
+          "text": "En palabras simples: la Manada no empieza en la primera reunión, empieza en un ritual. Si tu grupo no está haciendo esa ceremonia, el lobato nuevo está entrando por la puerta de atrás en vez de por el portón."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en cómo llegó a tu Manada el último lobato nuevo (o cómo imaginas que debería llegar). ¿Hubo un momento reconocible de bienvenida, o simplemente 'empezó a venir'? Escribe qué harías igual y qué cambiarías."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar al idioma de la Selva 📖",
+        "questions": [
+          {
+            "text": "Un lobato lleva 10 minutos sentado escuchando una explicación sobre el escultismo y empieza a inquietarse. Según esta lección, ¿qué está pasando?",
+            "options": [
+              "Es un lobato indisciplinado que necesita aprender a poner atención.",
+              "Su cuerpo necesita movimiento para aprender — la quietud prolongada no es su vía natural de aprendizaje.",
+              "Necesita que le expliquen el tema de forma más abstracta y detallada."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Un lobato nuevo llega y el dirigente decide presentarlo rápido al grupo un sábado cualquiera, \"para no perder tiempo de reunión\". Según esta lección, ¿qué le falta a esa bienvenida?",
+            "options": [
+              "Nada: lo importante es que ya esté jugando con el resto.",
+              "Le falta un ritual reconocible — la Ceremonia de Paso — donde se le presente formalmente y la Manada lo acoja; sin eso, entra \"por la puerta de atrás\".",
+              "Le falta esperar unas semanas para ver si se adapta antes de aceptarlo del todo."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "📖 El Libro de las Tierras Vírgenes: el lenguaje de la Selva",
+      "emoji": "📖",
+      "navLabel": "Idioma de la Selva",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el marco simbólico no es decoración: es el idioma con el que un niño de 7 años entiende la lealtad, el respeto y el cuidado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cuando Andrés dice que Akela lo va a acompañar en su próxima aventura, no está fingiendo un juego de disfraces. Está usando el único idioma que a los 7 años le permite entender ideas grandes como la lealtad o el cuidado mutuo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los personajes que enseñan sin dar discursos"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🐺 Akela",
+              "description": "La guía de la Manada: autoridad cercana y protectora.",
+              "color": "#efebe9",
+              "borderColor": "#6d4c41"
+            },
+            {
+              "title": "🐻 Baloo",
+              "description": "Enseña con paciencia; encarna el conocimiento compartido con calma.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🐆 Bagheera",
+              "description": "La astucia y la valentía serena.",
+              "color": "#fffde7",
+              "borderColor": "#c0ca33"
+            },
+            {
+              "title": "🧒 Mowgli",
+              "description": "El niño que aprende de la Selva y se convierte en parte de ella.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Personajes como Mowgli, Baloo, Bagheera y Akela enseñan a través de sus acciones, no de discursos. Los niños no memorizan una moraleja: la viven jugando a ser lobos."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Otros elementos simbólicos que sostienen la Selva"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>La Flor Roja</strong> — símbolo del crecimiento y el paso a nuevas etapas.",
+            "<strong>El Cubil</strong> — el espacio simbólico de la Manada: seguridad, protección, encuentro.",
+            "<strong>El Saludo</strong> — expresión de respeto y pertenencia entre lobatos."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Manada tiene además otros símbolos propios —el Libro de Oro, el Himno, un referente espiritual como San Francisco de Asís— que vas a ir conociendo con la práctica; no hace falta memorizarlos hoy."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La Ley y la Promesa se viven dentro de ese lenguaje"
+        },
+        {
+          "type": "paragraph",
+          "text": "La Ley de la Manada se inspira en la sociedad de lobos del Pueblo Libre de Seeonee, del Libro de las Tierras Vírgenes, donde la manada vive unida por el respeto, el orden y el cuidado mutuo bajo la guía de Akela. Está escrita en lenguaje sencillo, cercano a niños de 7 a 10 años."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la Ley de la Manada completa",
+          "source": "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 3.2.1 — Ley de la Manada, pp. 15–16.",
+          "text": "El Lobato: 1. Escucha y respeta a los demás. 2. Dice siempre la verdad. 3. Es alegre y buen amigo. 4. Comparte con su familia. 5. Ayuda a los demás con alegría. 6. Ama y protege la naturaleza. 7. Escucha y aprende con emoción."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la Promesa de la Manada",
+          "source": "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 3.2.2 — Promesa, p. 16. (Existe una variante que sustituye “para con Dios” por “para con mi espiritualidad”, para respetar e incluir distintas formas de vivir lo espiritual.)",
+          "text": "Yo (nombre del aspirante a ser Lobato), prometo hacer siempre lo mejor, para cumplir mis deberes para con Dios y la Patria, hacer un favor a alguien cada día, y cumplir la Ley de la Manada."
+        },
+        {
+          "type": "info-box",
+          "text": "En palabras simples: la Promesa no es un examen que el lobato pasa una vez. Es un compromiso de intentarlo cada día — “hacer siempre lo mejor”, no “hacerlo perfecto”. Tu trabajo como dirigente es que ese esfuerzo se sienta posible, no una meta inalcanzable."
+        }
+      ],
+      "reflection": {
+        "prompt": "Elige uno de los siete puntos de la Ley de la Manada. Escribe un ejemplo concreto —con un lobato real o imaginado, en una situación real de tu unidad— donde ese punto de la Ley se vivió (o pudo haberse vivido) sin que nadie lo nombrara así."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar a las seisenas 🐺",
+        "questions": [
+          {
+            "text": "Un dirigente nuevo piensa: “lo de Akela y la Selva es un disfraz simpático, pero lo importante es enseñarles las normas de convivencia directamente.” Según esta lección, ¿qué le falta a esa idea?",
+            "options": [
+              "Nada: los símbolos son un adorno opcional, las normas se pueden enseñar igual sin ellos.",
+              "Le falta entender que el marco simbólico ES el idioma con el que un niño de 7 años comprende ideas como la lealtad o el respeto — no es decoración, es el vehículo pedagógico.",
+              "Le falta agregar más personajes de la Selva, pero el enfoque directo sigue siendo mejor."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "La Promesa de la Manada dice “prometo hacer siempre lo mejor”. Un lobato falla en cumplir la Ley un día y se siente culpable. Según esta lección, ¿qué le dirías?",
+            "options": [
+              "Que la Promesa exige perfección y debe esforzarse más para no repetir el error.",
+              "Que la Promesa es un compromiso de intentarlo cada día, no de lograrlo siempre a la perfección — el esfuerzo cuenta, no la perfección.",
+              "Que mejor no haga la Promesa hasta que esté seguro de poder cumplirla siempre."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "🐺 Las Seisenas: todos aportan, todos crecen",
+      "emoji": "🐺",
+      "navLabel": "Las Seisenas",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> en la Manada de 2026 las seisenas no tienen jefes fijos: el liderazgo rota para que todos vivan guiar y ser guiados."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vienes de otra época del escultismo, o leíste una guía vieja, puede que esperes que cada seisena tenga un “seisenero” fijo, elegido, con autoridad sobre los demás. La Guía de Dirigente de Manada 2026 es explícita en que eso ya no es el modelo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La seisena no fragmenta la Manada, la organiza"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cuando la Manada se organiza en seisenas —pequeños grupos de aproximadamente seis lobatos— no se fragmenta ni se divide. Adopta una estructura que permite acompañar mejor a cada niño dentro de la experiencia común. La pertenencia real no está en la seisena: está en la Manada. La seisena ayuda a cuidar el bosque; la Manada es el bosque."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver el criterio oficial sobre liderazgo en la seisena",
+          "source": "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 5.2 — Organización, “Liderazgo: Todos Aportan, Todos Crecen”, pp. 26–27.",
+          "text": "En coherencia con esta visión, en la seisena no existen líderes fijos ni jerarquías rígidas entre los niños y las niñas. No se trata de crear pequeñas estructuras de poder, sino de ofrecer oportunidades para que todos desarrollen capacidades. […] Las funciones pueden rotar según la actividad, los intereses o la etapa de progresión."
+        },
+        {
+          "type": "info-box",
+          "text": "En palabras simples: nadie es “el líder de la seisena” de forma permanente. Hoy Andrés propone el juego; la próxima semana otro lobato de su seisena reparte las tareas. Todos experimentan guiar y ser guiados."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Aprender Haciendo: el otro elemento que se vive en la seisena"
+        },
+        {
+          "type": "paragraph",
+          "text": "El Aprender Haciendo no es un lema decorativo: es la convicción de que el conocimiento no se recibe pasivamente, sino que se construye en la experiencia, la acción concreta y la reflexión que sigue a cada paso, a cada error y a cada descubrimiento. En la Manada esto se traduce en actividades que Andrés y su seisena viven, se equivocan, y de las que hablan después — no en explicaciones que escuchan sentados."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El filtro DURASLID"
+        },
+        {
+          "type": "paragraph",
+          "text": "Antes de la próxima aventura de la seisena de Andrés, pásala por estas ocho letras:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>D</strong>esafiante — le exige algo, sin ser imposible.",
+            "<strong>U</strong>til — le deja una habilidad o aprendizaje real.",
+            "<strong>R</strong>ecompensante — el esfuerzo se siente valioso.",
+            "<strong>A</strong>tractiva — despierta el interés genuino.",
+            "<strong>S</strong>egura — física y emocionalmente.",
+            "<strong>L</strong>údica — se vive como juego, no como tarea.",
+            "<strong>I</strong>ncluyente — nadie se queda por fuera.",
+            "<strong>D</strong>iversa — varía en forma y ritmo."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "Antes de tu próxima reunión, pasa la actividad que planeaste por las ocho letras de DURASLID. Si le faltan dos o tres, no la canceles — ajústala. El filtro no castiga, orienta."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en la última vez que organizaste (o viste organizar) subgrupos en tu Manada. ¿Había un lobato fijo 'a cargo', o las funciones rotaban? Escribe cómo aplicarías el criterio 'todos aportan, todos crecen' la próxima vez."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar al territorio de la selva 🌳",
+        "questions": [
+          {
+            "text": "Un dirigente nombra a un lobato como “seisenero” fijo para todo el año, responsable de decidir por su seisena. Según esta lección, ¿qué le dirías?",
+            "options": [
+              "Que está bien: alguien necesita tener autoridad sobre el grupo para que funcione.",
+              "Que la Guía 2026 es explícita en que no debe haber líderes fijos ni jerarquías rígidas en la seisena — las funciones deben rotar para que todos vivan guiar y ser guiados.",
+              "Que el error fue no dejar que los lobatos votaran quién sería el seisenero."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Una dirigente diseña una actividad muy divertida, pero al analizarla nota que no le exige nada nuevo a los lobatos y no les deja ninguna habilidad. Según el filtro DURASLID, ¿qué le falta?",
+            "options": [
+              "Nada: si es lúdica y segura, ya cumple con lo esencial.",
+              "Le falta ser Desafiante y Útil — la diversión sola no basta, la actividad debe exigir algo y dejar un aprendizaje real.",
+              "Le falta que sea más larga en duración."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "🌳 El territorio de la selva: Naturaleza y Progresión",
+      "emoji": "🌳",
+      "navLabel": "Territorio de la selva",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la progresión de un lobato se traza en seis Sendas sobre “el territorio de la selva”, a su propio ritmo."
+        },
+        {
+          "type": "paragraph",
+          "text": "El escultismo nació al aire libre, entre árboles y colinas, como una forma de aprender de la vida en la vida misma. En la Manada, la naturaleza no es un escenario de fondo: es maestra, refugio y espejo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Por qué el aire libre es esencial en la Manada"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un lobato que se adentra en el bosque, siente el crujir de las hojas o el olor a tierra húmeda después de la lluvia, está honrando el origen del escultismo. La naturaleza enseña exploración, autocuidado, vida en grupo y conciencia ambiental — habilidades que ninguna explicación en salón reemplaza."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El territorio de la selva: cómo se traza la progresión de Andrés"
+        },
+        {
+          "type": "paragraph",
+          "text": "La progresión personal en la Manada se representa como un territorio a recorrer: la selva. No es una carrera de insignias, es un mapa del crecimiento de cada lobato en las seis áreas de crecimiento, traducidas a un lenguaje que Andrés entiende."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🏃 Senda del rastreador",
+              "description": "Corporalidad.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🎨 Senda de la imaginación",
+              "description": "Creatividad.",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            },
+            {
+              "title": "💛 Senda del corazón",
+              "description": "Afectividad.",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "🧭 Senda del buen lobo",
+              "description": "Carácter.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🤝 Senda de la unidad",
+              "description": "Sociabilidad.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🌌 Senda del eco del bosque",
+              "description": "Espiritualidad.",
+              "color": "#ede7f6",
+              "borderColor": "#5e35b1"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver el esquema oficial de las seis Sendas",
+          "source": "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 8.3 — El Esquema de Progresión en la Manada, p. 45.",
+          "text": "Las sendas serán los siguientes: Corporalidad - Senda del rastreador; Creatividad - Senda de la imaginación; Afectividad - Senda del corazón; Carácter - Senda del buen lobo; Sociabilidad: - Senda de la unidad; Espiritualidad - Senda del eco del bosque."
+        },
+        {
+          "type": "info-box",
+          "text": "En palabras simples: cada vez que Andrés supera un reto en una de las seis Sendas —no necesariamente al mismo ritmo en todas— avanza en su territorio de la selva. La insignia mayor de las rutas se llama Plenitud de la Selva. Cuando un lobato profundiza en las seis áreas, alcanza además la fase máxima: Lobo Cazador de la Selva."
+        },
+        {
+          "type": "info-box",
+          "text": "En el Curso 12 del Nivel 2 (Seguimiento de la Progresión Personal) vas a aprender las técnicas concretas para observar y registrar este avance. Hoy solo guarda el mapa: seis Sendas, un ritmo propio para cada lobato."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en Andrés (o en un lobato real que acompañes). ¿En qué Senda dirías que está avanzando más rápido ahora mismo? ¿Y en cuál necesita más de tu acompañamiento? Nómbralas y escribe por qué."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar al Viejo Lobo 🦉",
+        "questions": [
+          {
+            "text": "Una dirigente le da a un lobato todas sus insignias de progresión al mismo tiempo, al final del año, 'para que no se sienta atrasado frente a los demás'. Según esta lección, ¿qué está haciendo mal?",
+            "options": [
+              "Nada: lo importante es que todos terminen con las mismas insignias.",
+              "Está tratando la progresión como una carrera colectiva, cuando cada lobato avanza por las seis Sendas a su propio ritmo — las insignias deben iluminar avances reales, no repartirse por igual.",
+              "El error fue no avisarles con tiempo que recibirían las insignias."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Un lobato que antes se aislaba empieza a compartir sus ideas con su seisena y a escuchar a los demás. ¿En qué Senda avanzó, sobre todo?",
+            "options": [
+              "Senda del rastreador, porque implica moverse en grupo.",
+              "Senda de la unidad, porque es la que corresponde a la Sociabilidad.",
+              "Senda del eco del bosque, porque toda relación humana es espiritual."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "🦉 El Viejo Lobo: facilitador, no jefe",
+      "emoji": "🦉",
+      "navLabel": "El Viejo Lobo",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> ser Viejo Lobo es firmeza con ternura: sostener el espacio seguro sin decidir por ellos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Todo lo que viste hasta ahora —el marco simbólico, las seisenas sin jefes fijos, las seis Sendas— depende de una sola decisión tuya como adulto: ¿vas a dirigir la Manada, o vas a facilitarla?"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El dirigente como facilitador, no como jefe"
+        },
+        {
+          "type": "paragraph",
+          "text": "El nombre simbólico que recibe el adulto en la Manada es <strong>Viejo Lobo</strong>. Su papel no es resolver todo por los niños, sino ofrecer las condiciones para que ellos marquen el rumbo: acompañar, mediar en conflictos —que son normales y parte del aprendizaje—, enseñar con el ejemplo y hacer que las normas sean claras."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver el rol del Viejo Lobo textual",
+          "source": "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Capítulo 4 — Aprender Haciendo, p. 19.",
+          "text": "El Viejo Lobo ofrece las condiciones, pero el rumbo lo marcan ellos. En este contexto, el error deja de ser un fracaso para convertirse en una fuente valiosa de aprendizaje."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Firmeza con ternura"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ser Viejo Lobo no es ser permisivo ni distante. La Guía habla de firmeza con ternura: límites claros, sostenidos con calidez — no gritos ni castigos, pero tampoco ausencia de estructura. Un Viejo Lobo coherente y cercano crea el entorno seguro donde un lobato puede intentarlo, fallar, y volver a intentarlo sin miedo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El Consejo de Roca: donde los lobatos deciden de verdad"
+        },
+        {
+          "type": "paragraph",
+          "text": "El Involucramiento Comunitario en la Manada no significa que los lobatos asuman responsabilidades de adultos, sino que tengan oportunidades reales de opinar, decidir y actuar según su edad. El espacio formal donde esto ocurre es el Consejo de Roca: allí los lobatos comparten opiniones, proponen actividades y evalúan lo vivido, con Andrés y su seisena participando de verdad, no solo escuchando."
+        },
+        {
+          "type": "info-box",
+          "text": "En palabras simples: si en tu Manada las decisiones importantes las tomas siempre tú, no hay Consejo de Roca — hay una clase con disfraz de lobo. El objetivo no es que los lobatos dirijan la Manada; es que experimenten, de verdad, su capacidad de aportar."
+        }
+      ],
+      "reflection": {
+        "prompt": "Recuerda una decisión reciente en tu Manada que tomaste tú solo, por rapidez o por costumbre, y que pudo haberse llevado al Consejo de Roca. ¿Qué hubiera cambiado si los lobatos hubieran participado en decidirla?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Continuar a las ceremonias 🌙",
+        "questions": [
+          {
+            "text": "Un lobato comete un error organizando un juego con su seisena y todo sale mal. El Viejo Lobo interviene de inmediato y reorganiza todo él mismo 'para que no se pierda tiempo'. Según esta lección, ¿qué está haciendo?",
+            "options": [
+              "Lo correcto: un buen dirigente evita que los errores afecten la actividad.",
+              "Está quitándole al lobato la oportunidad de aprender del error — el rol del Viejo Lobo es ofrecer condiciones, no decidir por ellos; el error es fuente de aprendizaje, no un fracaso a evitar.",
+              "Está bien, siempre que después le explique qué hizo mal."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Un Grupo scout dice tener 'Consejo de Roca' en su Manada, pero en la práctica el dirigente ya decidió todo antes de la reunión y solo lo anuncia. Según esta lección, ¿qué le falta a ese Consejo de Roca?",
+            "options": [
+              "Nada, siempre es más eficiente que el adulto decida y luego informe.",
+              "Le falta ser real: el Consejo de Roca debe ser un espacio donde los lobatos opinan, proponen y deciden de verdad según su edad — no un anuncio disfrazado de consulta.",
+              "Le falta que se haga con más frecuencia, aunque el formato esté bien."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "title": "🌙 Ceremonias, el Círculo de Roca y el Gran Salto",
+      "emoji": "🌙",
+      "navLabel": "Ceremonias y Gran Salto",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> las ceremonias de la Manada —incluida su despedida, el Gran Salto— sostienen el marco simbólico con solemnidad y alegría a la vez."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ya viste cómo entra un lobato a la Manada (la Ceremonia de Paso) y cómo se organiza semana a semana (seisenas, Consejo de Roca). Falta ver cómo la Manada marca sus momentos importantes — y cómo, algún día, se despide de Andrés."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El Círculo de Roca: la única formación de la Manada"
+        },
+        {
+          "type": "paragraph",
+          "text": "A diferencia de otras ramas, la Manada tiene una sola formación: el círculo, porque representa la unidad y requiere la presencia de todos. No tiene principio ni fin. Se llama, en dos pasos, Círculo de Roca y Círculo de Parada — y un detalle que sorprende a muchos dirigentes nuevos: la Manada nunca se llama con silbato. El llamado es siempre por voz, reuniendo a los lobatos alrededor de quien convoca."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver el procedimiento oficial del llamado",
+          "source": "Manual de Presentación y Buen Orden de la Manada (DNPJ), sección sobre el llamado y la formación de Manada.",
+          "text": "[Los Lobatos se reúnen en] Círculo de Roca alrededor del Dirigente que hace dicho llamado. […] Vale la pena anotar que nunca serán llamados con silbatos […]"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las ceremonias que marcan el camino"
+        },
+        {
+          "type": "paragraph",
+          "text": "Además de la Ceremonia de Paso que ya vivió Andrés, la Manada marca otros momentos con ceremonias propias:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Ceremonia de Paso</strong> — de Familia a Manada (ya vista en la Lección 2).",
+            "<strong>Ceremonia de Investidura</strong> — el lobato ingresa oficialmente al Movimiento y a la Manada, asume su compromiso con símbolos y gestos sencillos.",
+            "<strong>Ceremonia de Progresión Personal</strong> — reconoce el crecimiento y esfuerzo del lobato en sus Sendas, sin comparar con los demás.",
+            "<strong>El Gran Clamor</strong> — más que una ceremonia en sí, es un elemento ceremonial que refuerza la unidad y da fuerza solemne a momentos como la Investidura y el Gran Salto."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El Gran Salto: la despedida de Andrés"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alrededor de los 10–11 años, cuando el lobato ha recorrido su camino en la Manada, llega el Gran Salto: la ceremonia que marca su paso a la siguiente rama, la Tropa. No es solo un trámite administrativo — reconoce el camino recorrido y anima a asumir nuevos retos, cerrando una etapa con gratitud y abriendo otra con ilusión."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la descripción oficial del Gran Salto",
+          "source": "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 6.12 — Ceremonias en la Manada, p. 32.",
+          "text": "Gran Salto: Marca el paso del Lobato a la siguiente rama. Es una ceremonia cargada de significado, que reconoce el camino recorrido en la Manada y anima a asumir nuevos retos, cerrando una etapa con gratitud y abriendo otra con ilusión."
+        },
+        {
+          "type": "info-box",
+          "text": "El día que Andrés haga su Gran Salto, la Manada no lo está “perdiendo”. Le está entregando a la Tropa un scout que ya sabe lo que es pertenecer, esforzarse y ser escuchado. Ese es tu trabajo de tres años, resumido en una ceremonia."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en el Gran Salto de un lobato próximo a salir de tu Manada (o imagina el de Andrés). ¿Qué te gustaría que ese lobato se lleve, más allá de las insignias? Escríbelo en una frase."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7",
+        "nextLabel": "Continuar a tu primer paso ✍️",
+        "questions": [
+          {
+            "text": "Un dirigente nuevo, acostumbrado a otras ramas, empieza a llamar a la Manada con un silbato para formar el Círculo de Roca. Según esta lección, ¿qué corrección le harías?",
+            "options": [
+              "Ninguna: el silbato es un método universal en el escultismo, funciona igual en cualquier rama.",
+              "Que en la Manada el llamado nunca se hace con silbato — se convoca por voz, en coherencia con el tono cálido y cercano de la rama.",
+              "Que solo debe usar el silbato en las ceremonias, no en las reuniones normales."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Un Grupo trata el Gran Salto de un lobato como un simple trámite: le entregan el papel de traslado a Tropa sin ceremonia. Según esta lección, ¿qué se están perdiendo?",
+            "options": [
+              "Nada grave, mientras el lobato efectivamente pase a la Tropa.",
+              "Se pierden el momento de reconocer el camino recorrido y cerrar una etapa con gratitud — el Gran Salto es una ceremonia cargada de significado, no un trámite administrativo.",
+              "Solo se pierde tiempo si se hace la ceremonia completa; mejor avanzar rápido a la Tropa."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "title": "✍️ Tu primer paso como Viejo Lobo",
+      "emoji": "✍️",
+      "navLabel": "Tu primer paso",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> saber sin actuar no transforma; el primer paso es chico, concreto y tuyo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Recorriste con Andrés su llegada, su idioma simbólico, su seisena, sus Sendas, tu rol como Viejo Lobo y las ceremonias que van a marcar su camino hasta el Gran Salto. Antes de cerrar, convierte esto en una acción concreta para tu próxima reunión."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Un compromiso chico, concreto y tuyo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Completa esta plantilla en tu reflexión: <em>“En mi próxima reunión de Manada, voy a ______ (algo que muestre que eres facilitador, no jefe — por ejemplo, llevar una decisión al Consejo de Roca, o dejar que una seisena rote quién propone el juego). La señal de que se cumplió será ______ (algo observable, no una intención).”</em>"
+        },
+        {
+          "type": "mission-box",
+          "text": "No prometas reorganizar toda la Manada. Promete una sola decisión que hoy tomas tú y que la próxima semana la tome —o la proponga— un lobato."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que viene"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "🛠️ <strong>Curso 12</strong> — Seguimiento de la Progresión Personal: las técnicas para observar y registrar el avance por las Sendas. <em>(En camino — te avisamos cuando esté listo.)</em>",
+            "📋 <strong>Curso 13</strong> — Planeación de Reuniones y Oportunidades de Aprendizaje: cómo diseñar la próxima reunión con DURASLID y los 8 elementos. <em>(En camino — te avisamos cuando esté listo.)</em>",
+            "🎯 <strong>Curso 14</strong> — Ciclo de Programa con ABP: cómo la Manada decide y ejecuta sus propios proyectos. <em>(En camino — te avisamos cuando esté listo.)</em>",
+            "🐻⚜️🧗🏔️ <strong>Cursos 7, 9, 10 y 11</strong> — las guías de las otras 4 ramas (Familia, Tropa, Comunidad, Clan), si acompañas o vas a acompañar más de una. <em>(En camino — te avisamos cuando esté listo.)</em>"
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "Tú no diriges la Manada. Le ofreces el territorio, el símbolo y la confianza — y el rumbo lo marcan ellos. Bienvenido, Viejo Lobo."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe tu compromiso completo siguiendo la plantilla. Te lo recordaremos junto a tu certificado."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 8",
+        "nextLabel": "Obtener mi certificado 🎓",
+        "questions": [
+          {
+            "text": "Un Viejo Lobo nota que su Manada no tiene ningún ritual de rotación en las seisenas. ¿Cuál de estos sería un buen primer paso 'chico, concreto y tuyo'?",
+            "options": [
+              "'Voy a rediseñar todo el sistema de seisenas de mi Manada este mes.'",
+              "'La próxima reunión, antes de empezar el juego, voy a preguntar en el Consejo de Roca quién quiere proponerlo esta vez — y lo anoto para que la próxima semana le toque a otro.'",
+              "'Voy a explicarles en la próxima reunión por qué la rotación es importante.'"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Un padre de familia le dice al nuevo Viejo Lobo: 'Usted es el que manda aquí, así que decida usted qué hacen hoy.' Según lo que viste en este curso, ¿qué le respondes?",
+            "options": [
+              "'Tiene razón, yo decido todo para que la reunión salga bien.'",
+              "'Mi trabajo es ofrecerles el territorio, el símbolo y la confianza — hoy el rumbo del juego lo eligen ellos, yo los acompaño.'",
+              "'Mejor que decida usted, ya que es el papá.'"
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Acompaño su llegada",
+      "emoji": "🚪",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Hablo el idioma de la Selva",
+      "emoji": "📖",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Todos aportan, todos crecen",
+      "emoji": "🐺",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Trazo las Sendas",
+      "emoji": "🌳",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Soy Viejo Lobo",
+      "emoji": "🦉",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "Sostengo el Círculo de Roca",
+      "emoji": "🌙",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
+      "name": "Guardián de la Selva",
+      "emoji": "🐺✨",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "RAMA MANADA (LOBATOS)",
+    "description": "ha completado el Curso 8 de la Línea Programa de Jóvenes — Rama Manada (Lobatos), reconociendo el marco simbólico de El Libro de las Tierras Vírgenes, la organización sin jerarquías fijas de las seisenas, las seis Sendas de la progresión personal y el rol del Viejo Lobo como facilitador, no jefe, al servicio de los lobatos de la Asociación Scouts de Colombia"
+  }
+}
