@@ -5,6 +5,9 @@
   "description": "El Curso 3 de la Línea Programa de Jóvenes, y un paréntesis necesario antes de entrar de lleno a lo scout. En ~30 minutos vas a entender qué es educar, los cuatro pilares de la educación (UNESCO), cómo aprenden de verdad las personas, dónde se aprende (educación formal, no formal e informal) y por qué el aprender haciendo funciona. No es teoría por la teoría: es la base que hace que el Método Scout, las ramas y el Modelo —que vienen después— se entiendan como la aplicación de estas ideas.",
   "icon": "🎓",
   "duration": "30 minutos",
+  "level": 1,
+  "levelName": "Fundamentación",
+  "order": 3,
   "totalContentModules": 5,
   "modules": [
     {

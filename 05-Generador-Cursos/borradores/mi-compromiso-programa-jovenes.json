@@ -5,6 +5,9 @@
   "description": "El cierre del Nivel 1 de la Línea Programa de Jóvenes. En ~30 minutos vas a convertir los Cursos 1 a 6 en un Plan Personal de Dirigente firmable: revisas tu brújula, defines tu rol, rama y áreas prioritarias, planeas tu próxima reunión y tu proyecto del trimestre, trazas tu ruta de formación y firmas tu promesa personal. No hay contenido nuevo: integras lo que ya tienes en algo accionable.",
   "icon": "🗺️",
   "duration": "30 minutos",
+  "level": 1,
+  "levelName": "Fundamentación",
+  "order": 7,
   "totalContentModules": 5,
   "modules": [
     {

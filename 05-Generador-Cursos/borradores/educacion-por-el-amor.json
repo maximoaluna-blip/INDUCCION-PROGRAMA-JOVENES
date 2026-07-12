@@ -5,6 +5,9 @@
   "description": "El segundo curso de la Línea Programa de Jóvenes y la brújula ética del Programa. En ~30 minutos vas a entender qué dijo Baden-Powell en Ginebra en 1922 sobre cómo se educa, vas a distinguir la educación por el temor de la educación por el amor, y vas a ver cómo los 4 objetivos de la instrucción se convirtieron en las 6 áreas de crecimiento de hoy. Termina con tu propia revisión pedagógica y un compromiso de práctica.",
   "icon": "💗",
   "duration": "30 minutos",
+  "level": 1,
+  "levelName": "Fundamentación",
+  "order": 2,
   "totalContentModules": 5,
   "modules": [
     {

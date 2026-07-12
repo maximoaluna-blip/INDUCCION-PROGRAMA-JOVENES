@@ -5,6 +5,9 @@
   "description": "El curso más largo y más importante del Nivel 1. En ~40 minutos vas a entender el Método Scout como un sistema de autoeducación progresiva basado en 8 elementos interdependientes — no una lista de técnicas que se eligen a gusto. Vas a recorrer los 8 elementos en 4 parejas, ver las 4 Dinámicas del Escultismo en acción y salir con un plan concreto para integrar el Método en tu próxima reunión.",
   "icon": "🧭",
   "duration": "40 minutos",
+  "level": 1,
+  "levelName": "Fundamentación",
+  "order": 5,
   "totalContentModules": 7,
   "modules": [
     {

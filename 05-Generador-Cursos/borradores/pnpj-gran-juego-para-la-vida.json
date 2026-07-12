@@ -5,6 +5,9 @@
   "description": "El Curso 6 de la Línea Programa de Jóvenes. En ~35 minutos vas a aterrizar todo lo aprendido al contexto colombiano: la Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. 617 de 2024) y su Modelo de Aplicación \"El Gran Juego para la Vida\" (DNPJ 2026). Vas a recorrer las 5 ramas, las 6 áreas de crecimiento, las 3 etapas × 3 momentos y las herramientas operativas, y a construir tu mapa personal del Modelo.",
   "icon": "📜",
   "duration": "35 minutos",
+  "level": 1,
+  "levelName": "Fundamentación",
+  "order": 6,
   "totalContentModules": 6,
   "modules": [
     {

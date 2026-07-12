@@ -5,6 +5,9 @@
   "description": "El primer curso de rama del Nivel 2 de la Línea Programa de Jóvenes. En ~35 minutos vas a acompañar a Andrés, un lobato de 7 años, desde su llegada a la Manada hasta su Gran Salto hacia la Tropa: el marco simbólico de El Libro de las Tierras Vírgenes, las seisenas sin jefes fijos, las seis Sendas de la progresión y tu rol como Viejo Lobo — facilitador, no jefe.",
   "icon": "🐺",
   "duration": "35 minutos",
+  "level": 2,
+  "levelName": "Profundización por rama y práctica pedagógica",
+  "order": 8,
   "totalContentModules": 7,
   "modules": [
     {
