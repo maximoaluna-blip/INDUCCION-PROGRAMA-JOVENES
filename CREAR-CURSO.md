@@ -86,6 +86,14 @@ Aunque Cowork **nomine** los tipos de sección, las decisiones técnicas interna
 - **La línea entera gana consistencia visual** porque los tipos de sección están nombrados desde el diseño: dos cursos distintos diseñados por Cowork en momentos distintos terminan con la misma estructura visual.
 - **El handoff es eficiente**: Claude Code no tiene que adivinar la intención; tiene que ejecutarla y mejorarla donde haya margen.
 
+### 1.4 Excepción: Claude Code puede hacer las dos fases
+
+Esta es **la excepción, no la regla por defecto**. Cuando el dueño del proyecto lo decide explícitamente en la sesión (no por asunción de Claude Code), Claude Code puede diseñar pedagógicamente el curso completo — hook, lecciones, quizzes, reflexiones — además de la fase técnica. Precedente: **Curso 8 (Rama Manada)**, 11/12-jul-2026, decisión explícita registrada en `DECISIONES.md` ADR-019.
+
+- **Cuándo tiene sentido:** cursos que replican un patrón ya validado (otra rama, otro curso del mismo tipo) y donde hay fuente oficial suficiente para anclar el contenido sin necesitar exploración creativa de tono.
+- **Cuándo NO reemplaza a Cowork:** cuando el curso necesita explorar tono, ejemplos o narrativa nueva antes de fijarla en código — ese trabajo de ida y vuelta es más liviano en una sesión de Cowork que en una sesión agéntica de archivos y herramientas.
+- **La salvaguarda no cambia:** el curso sigue pasando por las 3 auditorías (doctrinal, pedagógica, funcional) antes de publicarse, con o sin Cowork de por medio — esa es la compuerta de calidad real, no quién lo diseñó.
+
 ---
 
 ## 2. Estructura de la carpeta `05-Generador-Cursos/`
