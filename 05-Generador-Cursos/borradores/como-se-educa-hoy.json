@@ -108,17 +108,17 @@
           {
             "text": "Un papá te dice: “Mi hijo va a los scouts a jugar; para educarse ya está el colegio”. Según esta lección, ¿qué le falta a esa idea?",
             "options": [
-              "Nada: tiene razón, educar es lo que pasa en el colegio; los scouts son tiempo libre.",
-              "Que educar es preparar para la vida y ocurre toda la vida y en muchos lugares; una experiencia scout bien pensada también educa, no solo entretiene.",
-              "Que el colegio en realidad no educa; solo los scouts educan de verdad."
+              "Nada: tiene razón, educar es lo que pasa en el colegio y los scouts son apenas el tiempo libre del chico.",
+              "Que educar es preparar para la vida y ocurre en muchos lugares; la experiencia scout también educa.",
+              "Que el colegio en realidad no educa para la vida; solo los scouts educan de verdad."
             ],
             "correctIndex": 1
           },
           {
             "text": "Dos personas discuten. Una dice: “educar es meter la mayor cantidad de contenidos en la cabeza del chico mientras es joven”. La otra: “educar es acompañar a una persona toda la vida para que pueda responder a lo que le toque”. Según cómo lo define el Movimiento (citando a la UNESCO), ¿quién se acerca más?",
             "options": [
-              "La primera: educar es acumular contenidos en la etapa de formación.",
-              "La segunda: educar es un proceso de por vida que desarrolla a la persona como individuo y como miembro de la sociedad.",
+              "La primera: educar es acumular la mayor cantidad de contenidos en la etapa de formación.",
+              "La segunda: educar es un proceso de por vida que desarrolla a la persona entera.",
               "Ninguna: educar es solo preparar para aprobar los exámenes que pone la sociedad."
             ],
             "correctIndex": 1
@@ -199,9 +199,9 @@
           {
             "text": "Una dirigente arma un trimestre lleno de talleres donde los chicos memorizan datos y técnicas, pero nunca tienen que decidir, convivir en equipo ni mirarse a sí mismos. Mirando los 4 pilares, ¿qué está pasando?",
             "options": [
-              "Está bien: si dominan los datos y las técnicas, ya están educados.",
-              "Está trabajando sobre todo “aprender a conocer/hacer” y dejando de lado “vivir juntos” y “ser”; la educación queda incompleta.",
-              "Está fallando porque a esa edad solo importa “aprender a ser”."
+              "Está bien: si terminan dominando los datos y las técnicas del trimestre, ya están educados.",
+              "Está trabajando sobre todo “conocer/hacer” y dejando de lado “vivir juntos” y “ser”.",
+              "Está fallando porque a esa edad lo único que de verdad importa es “aprender a ser”."
             ],
             "correctIndex": 1
           },
@@ -355,9 +355,9 @@
           {
             "text": "Un dirigente nuevo dice: “Como esto no es el colegio, aquí no hay que planear nada; los chicos vienen a jugar y ya”. Según lo que viste sobre la educación no formal, ¿qué le corriges?",
             "options": [
-              "Nada: la educación no formal es justamente jugar sin planear.",
-              "Que la educación no formal SÍ es intencional y planeada: el juego tiene detrás un propósito educativo, aunque no se parezca a una clase.",
-              "Que debería planear sus reuniones exactamente como una clase de colegio."
+              "Nada: la educación no formal consiste justamente en dejar que los chicos jueguen sin planear nada.",
+              "Que la educación no formal SÍ es intencional y planeada: el juego tiene detrás un propósito.",
+              "Que debería planear sus reuniones exactamente igual que una clase de colegio, con temas y notas."
             ],
             "correctIndex": 1
           },
@@ -432,18 +432,18 @@
           {
             "text": "Una patrulla cocina sola en un campamento, les queda regular, y el dirigente pasa al siguiente punto sin detenerse a conversar qué pasó. Según el aprendizaje experiencial, ¿qué se perdió?",
             "options": [
-              "Nada: ya hicieron la actividad, con eso aprendieron.",
-              "La reflexión: hacer sin mirar lo que pasó deja la experiencia a medias; el aprendizaje se cierra reflexionando.",
-              "El aprendizaje se perdió porque la comida quedó regular."
+              "Nada: ya hicieron la actividad completa, y con haberla vivido ya aprendieron.",
+              "La reflexión: hacer sin mirar lo que pasó deja la experiencia a medias.",
+              "El aprendizaje se perdió porque la comida les quedó regular."
             ],
             "correctIndex": 1
           },
           {
             "text": "Según este curso, ¿por qué cada lección de la plataforma te pide escribir una reflexión al final?",
             "options": [
-              "Para llenar un requisito y poder avanzar.",
-              "Porque la experiencia (leer, vivir algo) se convierte en aprendizaje propio cuando se cierra con reflexión.",
-              "Para que el formador califique qué tan bien escribes."
+              "Para llenar un requisito de la plataforma y poder desbloquear la siguiente lección del curso.",
+              "Porque la experiencia se convierte en aprendizaje propio cuando se cierra con reflexión.",
+              "Para que el formador pueda calificar qué tan bien escribes."
             ],
             "correctIndex": 1
           }

@@ -108,9 +108,9 @@
           {
             "text": "Un dirigente dice: 'Yo me guío por la Política Interamericana de Programa de Jóvenes.' ¿Qué le responderías según esta lección?",
             "options": [
-              "'Está perfecto, esa es la norma que rige el PJ en Colombia.'",
-              "'Esa es la base internacional, pero en Colombia la norma vigente es la PNPJ —el Acuerdo C.S.N. 617 de 2024— que la adapta a nuestro país.'",
-              "'Esa política quedó sin efecto; ya no existe ninguna referencia internacional.'"
+              "'Está perfecto: esa es justamente la norma que hoy rige todo el Programa de Jóvenes en Colombia.'",
+              "'Esa es la base internacional, pero en Colombia rige la PNPJ —Acuerdo C.S.N. 617 de 2024—.'",
+              "'Esa política quedó sin efecto hace años; ya no existe ninguna referencia internacional.'"
             ],
             "correctIndex": 1
           },
@@ -343,9 +343,9 @@
           {
             "text": "¿Cómo se evalúa la progresión personal en el Modelo de Aplicación 2026?",
             "options": [
-              "Con exámenes escritos al final de cada trimestre.",
-              "Con observación, conversación y reconocimiento, usando un banco de técnicas (Herramientas 2.0).",
-              "Solo con la autoevaluación del propio protagonista."
+              "Con exámenes escritos que cada unidad aplica al final de cada uno de los trimestres.",
+              "Con observación, conversación y reconocimiento (Herramientas 2.0).",
+              "Solo con la autoevaluación que hace el propio protagonista."
             ],
             "correctIndex": 1
           }
@@ -561,9 +561,9 @@
           {
             "text": "El \"territorio\" en el Modelo de Aplicación 2026 es…",
             "options": [
-              "El espacio físico donde se ubica el local del grupo.",
-              "El conjunto de relaciones sociales, culturales y comunitarias donde el protagonista ejerce su ciudadanía activa.",
-              "La jurisdicción geográfica de la región scout."
+              "El espacio físico donde queda ubicado el local del grupo scout y todos sus alrededores inmediatos.",
+              "El conjunto de relaciones sociales y comunitarias donde el protagonista ejerce su ciudadanía.",
+              "La jurisdicción geográfica que le corresponde a cada región scout."
             ],
             "correctIndex": 1
           }
@@ -627,18 +627,18 @@
           {
             "text": "El mapa del Modelo que construiste en esta lección sirve para…",
             "options": [
-              "Reemplazar al Modelo de Aplicación oficial 2026.",
-              "Tener a mano los datos clave de tu rol (rama, grupo natural, marco, áreas prioritarias, rol principal) cuando planees.",
-              "Presentarlo en la asamblea regional como tu plan de comisionado."
+              "Reemplazar al Modelo de Aplicación oficial 2026 con una versión propia adaptada a tu grupo.",
+              "Tener a mano los datos clave de tu rol (rama, marco, áreas) cuando planees.",
+              "Presentarlo en la asamblea regional como si fuera tu plan de comisionado."
             ],
             "correctIndex": 1
           },
           {
             "text": "Al cerrar el Curso 6, ya tienes claros…",
             "options": [
-              "Solo el documento PNPJ, no su aplicación.",
+              "Solo el documento de la PNPJ y todo su articulado, pero todavía no la manera en que se aplica en el día a día de la unidad.",
               "El marco normativo (PNPJ), las 5 ramas, las 6 áreas, las 3 etapas × 3 momentos y las 4 herramientas operativas.",
-              "Solo las herramientas, no el marco."
+              "Solo las herramientas operativas del Modelo, pero no el marco normativo que las respalda."
             ],
             "correctIndex": 1
           }

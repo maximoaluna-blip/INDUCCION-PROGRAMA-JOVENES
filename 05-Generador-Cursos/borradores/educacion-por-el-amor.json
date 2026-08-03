@@ -117,9 +117,9 @@
           {
             "text": "El informe de B-P en Ginebra 1922 se titula 'La educación por el amor en sustitución de la educación por el temor'. Más allá del título, ¿qué estaba proponiendo con esa frase?",
             "options": [
-              "Reemplazar los castigos por premios más atractivos para el joven.",
-              "Cambiar el motor de la educación: dejar de mover al joven con miedo y empezar a moverlo con el deseo de aprender y de servir.",
-              "Sustituir la formación militar por formación deportiva al aire libre."
+              "Reemplazar los castigos de la época por premios y recompensas mucho más atractivas para el joven.",
+              "Cambiar el motor de la educación: dejar de mover al joven con miedo y moverlo con el deseo.",
+              "Sustituir la formación militar de la época por una formación deportiva al aire libre."
             ],
             "correctIndex": 1
           },
@@ -336,18 +336,18 @@
           {
             "text": "Un dirigente nuevo te dice: 'Yo enseño bien porque mis chicos se saben de memoria la Ley y la Promesa.' Según la educación por el amor que propuso B-P, ¿qué le falta a esa idea?",
             "options": [
-              "Nada: memorizar la Ley y la Promesa es exactamente lo que B-P pedía.",
-              "Que saber de memoria no es lo mismo que despertar el deseo de conocer: el chico repite, pero no necesariamente quiere ni entiende.",
-              "Que primero deben aprenderse el himno y los nudos antes que la Ley."
+              "Nada: memorizar bien la Ley y la Promesa es exactamente lo que B-P le pedía al dirigente.",
+              "Que saber de memoria no es lo mismo que despertar el deseo de conocer.",
+              "Que primero deberían aprenderse el himno y los nudos, y solo después la Ley."
             ],
             "correctIndex": 1
           },
           {
             "text": "¿Cuál es la diferencia entre planear una reunión “por el temor” y una “por el amor”, según esta lección?",
             "options": [
-              "La primera es más corta, la segunda es más larga.",
-              "La primera empieza preguntando “¿qué les voy a hacer hacer?”, la segunda “¿qué quieren ellos descubrir?”.",
-              "La primera la planea el dirigente; la segunda, los padres."
+              "La primera resulta más corta y la segunda bastante más larga y mucho más difícil de planear bien.",
+              "La primera pregunta “¿qué les voy a hacer hacer?”; la segunda, “¿qué quieren ellos descubrir?”.",
+              "La primera la planea el dirigente solo; la segunda la planean los padres."
             ],
             "correctIndex": 1
           }
@@ -447,18 +447,18 @@
           {
             "text": "Estás planeando una salida y solo incluiste juegos físicos y deporte. Mirando los 4 objetivos que B-P propuso en 1922, ¿qué te están avisando que falta equilibrar?",
             "options": [
-              "Nada: con salud y vigor físico ya cubriste lo esencial.",
-              "Que tocaste sobre todo la salud y el vigor físico, pero dejaste fuera el carácter, la habilidad manual y el servicio al prójimo.",
-              "Que B-P pedía concentrarse en un solo objetivo por salida para no dispersar."
+              "Nada: con la salud y el vigor físico ya queda cubierto lo esencial de cualquier salida scout bien hecha.",
+              "Que tocaste el vigor físico, pero dejaste fuera carácter, habilidad manual y servicio al prójimo.",
+              "Que B-P pedía concentrarse en un solo objetivo por salida para no dispersar el trabajo."
             ],
             "correctIndex": 1
           },
           {
             "text": "¿Cuál es la relación entre los 4 objetivos de B-P (1922) y las 6 áreas de crecimiento de la PNPJ 2024?",
             "options": [
-              "Son listas distintas, no se relacionan.",
-              "Los 4 objetivos son la semilla; las 6 áreas son el desarrollo posterior, con afectividad y espiritualidad nombradas explícitamente.",
-              "La PNPJ 2024 reemplaza completamente lo que B-P dijo."
+              "Son listas completamente distintas, formuladas en épocas distintas, y no tienen relación entre sí.",
+              "Los 4 objetivos son la semilla; las 6 áreas son el desarrollo posterior de esa misma idea.",
+              "La PNPJ 2024 reemplaza por completo lo que B-P había planteado en su momento."
             ],
             "correctIndex": 1
           }

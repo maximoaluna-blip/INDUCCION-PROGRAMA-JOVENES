@@ -137,18 +137,18 @@
           {
             "text": "Según el Propósito OMMS 2019, el Movimiento Scout busca contribuir al desarrollo del joven, no…",
             "options": [
-              "Formarlo enteramente — solo aporta lo que le corresponde, junto a la familia, la escuela y la comunidad.",
-              "Hacerlo feliz — eso es solo un efecto secundario.",
-              "Convertirlo en líder — eso es para otros movimientos."
+              "Formarlo enteramente — solo aporta lo que le corresponde, junto a la familia y la escuela.",
+              "Hacerlo feliz — la felicidad es apenas un efecto secundario de la experiencia scout que va viviendo.",
+              "Convertirlo en líder — eso es más bien tarea de otros movimientos juveniles."
             ],
             "correctIndex": 0
           },
           {
             "text": "Un dirigente arma solo torneos deportivos y excursiones físicas, semana tras semana. Según el Propósito OMMS, ¿qué problema tiene?",
             "options": [
-              "Ninguno: lo físico es lo más importante del escultismo.",
-              "Descuida los otros ámbitos: el Propósito busca los 5 integrados (físico, intelectual, emocional, social, espiritual), no uno solo.",
-              "Debería hacer solo actividades espirituales para compensar."
+              "Ninguno: al final lo físico es lo más importante del escultismo y lo que más disfrutan.",
+              "Descuida los otros ámbitos: el Propósito busca los 5 integrados, no uno solo.",
+              "Debería hacer solo actividades espirituales durante un tiempo para compensar."
             ],
             "correctIndex": 1
           }
@@ -232,18 +232,18 @@
           {
             "text": "El \"Deber con Dios\" del escultismo significa que el Movimiento…",
             "options": [
-              "Impone una religión específica a todos sus miembros.",
+              "Impone una religión específica a todos sus miembros como requisito indispensable para pertenecer.",
               "Reconoce la dimensión espiritual del desarrollo y respeta la fe o búsqueda de cada quien.",
-              "Excluye a quienes no profesan una religión."
+              "Excluye a quienes no profesan ninguna religión reconocida."
             ],
             "correctIndex": 1
           },
           {
             "text": "Un dirigente quiere saber si su nueva actividad 'noche de talentos' es realmente scout. Según esta lección, ¿cómo lo decide?",
             "options": [
-              "Consultando al Comisionado Nacional de Programa de Jóvenes.",
-              "Preguntándose si la actividad cuida los 3 Principios: deber con Dios (el sentido), con los otros (la fraternidad) y con uno mismo (el crecimiento).",
-              "Revisando si aparece en la guía oficial de la rama."
+              "Consultando al Comisionado Nacional de Programa de Jóvenes para que la revise y la apruebe formalmente.",
+              "Preguntándose si cuida los 3 Principios: deber con Dios, con los otros y con uno mismo.",
+              "Revisando si esa actividad aparece en la guía oficial de la rama correspondiente."
             ],
             "correctIndex": 1
           }
@@ -452,9 +452,9 @@
           {
             "text": "En una reunión de equipo, otro dirigente dice: 'el grupo es nuestro, nosotros decidimos qué hacen los chicos'. Según la frase eje OMMS 2019, ¿qué le respondes?",
             "options": [
-              "Tiene razón: los adultos gestionan el Movimiento en nombre de los jóvenes.",
-              "Que es al revés: el Movimiento es de los jóvenes y para los jóvenes; el adulto apoya, no gestiona en su nombre.",
-              "Que eso depende de la rama: en las menores sí decide el adulto."
+              "Tiene razón: al final son los adultos quienes gestionan el Movimiento en nombre de los jóvenes.",
+              "Que es al revés: el Movimiento es de los jóvenes; el adulto apoya, no decide por ellos.",
+              "Que eso depende de la rama: en las ramas menores sí es el adulto quien decide."
             ],
             "correctIndex": 1
           },
@@ -545,9 +545,9 @@
           {
             "text": "Según el \"test de pertenencia\" de la L6, ¿cuándo una actividad no es escultismo aunque se le parezca?",
             "options": [
-              "Cuando no usa uniforme.",
+              "Cuando los participantes no llevan puesto el uniforme institucional completo de la rama a la que pertenecen.",
               "Cuando rompe alguno de los 4 criterios (5 ámbitos, 3 Principios, 6 elementos, joven sujeto activo).",
-              "Cuando no incluye un campamento."
+              "Cuando la actividad no incluye una salida o un campamento al aire libre de por lo menos un fin de semana."
             ],
             "correctIndex": 1
           },

@@ -138,9 +138,9 @@
           {
             "text": "Un dirigente nuevo te dice: 'Este año en mi tropa trabajo a fondo Naturaleza y Aprender Haciendo, y dejo Marco Simbólico para más adelante; cada rama escoge lo suyo'. Según lo que viste, ¿qué le respondes?",
             "options": [
-              "Bien pensado: cada rama elige los elementos que mejor le caen.",
-              "Cuidado: el Método es un sistema, no un menú. Si dejas un elemento por fuera, lo que queda ya no es el Método completo.",
-              "Da igual el orden, mientras al final del año hayas tocado los 8 alguna vez."
+              "Bien pensado: cada rama puede elegir los elementos que mejor le caen a su edad y a su realidad.",
+              "Cuidado: el Método es un sistema, no un menú — sin un elemento ya no es completo.",
+              "Da igual el orden, mientras al final del año hayas alcanzado a tocar los 8 alguna vez."
             ],
             "correctIndex": 1
           },
@@ -215,9 +215,9 @@
           {
             "text": "La Promesa y la Ley son una pareja porque…",
             "options": [
-              "Siempre se dicen una después de la otra en las ceremonias.",
-              "La Promesa sin Ley es palabra vacía; la Ley sin Promesa es regla externa. Se sostienen mutuamente.",
-              "La Ley se enseña a los Lobatos y la Promesa a los Scouts."
+              "Siempre se dicen una después de la otra en todas las ceremonias de la unidad.",
+              "La Promesa sin Ley es palabra vacía; la Ley sin Promesa es regla externa.",
+              "La Ley se les enseña a los Lobatos y la Promesa a los Scouts."
             ],
             "correctIndex": 1
           },
@@ -319,18 +319,18 @@
           {
             "text": "La Progresión Personal en el Método Scout…",
             "options": [
-              "Es una competencia donde se reconoce al que más avanza.",
-              "Es el camino individual de cada protagonista, a su ritmo, en las 6 áreas de crecimiento.",
-              "Es la suma de insignias que un joven obtiene en su rama."
+              "Es una competencia interna donde se reconoce públicamente al que más avanza.",
+              "Es el camino individual de cada protagonista, a su ritmo, en las 6 áreas.",
+              "Es la suma de las insignias que un joven va obteniendo en su rama."
             ],
             "correctIndex": 1
           },
           {
             "text": "Una manada hace toda la reunión junta, en círculo grande, dirigida por la vieja loba; las seisenas no operan solas en ningún momento. ¿Qué elemento del Método está roto?",
             "options": [
-              "Ninguno: trabajar en gran grupo es lo normal en Manada.",
-              "El Sistema de Equipos: el pequeño grupo (seisena) no está viviendo ni decidiendo nada por sí mismo.",
-              "La Progresión Personal, porque no se entregaron insignias."
+              "Ninguno: trabajar todos juntos en gran grupo es lo normal y lo esperado en la Manada.",
+              "El Sistema de Equipos: la seisena no está decidiendo nada por sí misma.",
+              "La Progresión Personal, porque en esa reunión no se entregaron insignias."
             ],
             "correctIndex": 1
           }
@@ -512,8 +512,8 @@
             "text": "La Participación en la Comunidad, según The Scout Method OMMS 2019, no consiste solo en…",
             "options": [
               "Hacer cosas PARA los demás; consiste en hacer cosas CON los demás (implicación).",
-              "Realizar campañas anuales de donaciones.",
-              "Asistir a eventos comunitarios cuando hay invitación."
+              "Realizar campañas anuales de recolección y donaciones para las causas sociales del municipio.",
+              "Asistir a los eventos comunitarios cuando llega una invitación al grupo."
             ],
             "correctIndex": 0
           }
@@ -596,18 +596,18 @@
           {
             "text": "Las 4 Dinámicas del Escultismo son…",
             "options": [
-              "Promesa, Ley, Patrulla, Naturaleza.",
+              "Promesa, Ley, Sistema de Patrullas y Naturaleza, que son los elementos más antiguos del Método Scout.",
               "Objetivos Educativos, Oportunidades de Aprendizaje, Vida de Grupo, Estructura y Funcionamiento.",
-              "Apoyar, Acompañar, Enlazar, Evaluar."
+              "Apoyar, Acompañar, Enlazar y Evaluar, que describen las tareas del dirigente en la unidad."
             ],
             "correctIndex": 1
           },
           {
             "text": "Diseñaste una actividad muy divertida y segura, pero los chicos no aprenden nada nuevo con ella ni los reta. Pasada por el filtro DURASLID, ¿qué falla?",
             "options": [
-              "Nada: si es lúdica y segura, ya cumple.",
+              "Nada: si la actividad resulta lúdica y segura, con eso ya cumple con todo lo que se le pide.",
               "Le faltan atributos como Desafiante y Útil; DURASLID pide los 8, no solo diversión.",
-              "Falla solo si no es Inclusiva; los demás atributos son opcionales."
+              "Falla solo si no es Inclusiva; los demás atributos de DURASLID son opcionales."
             ],
             "correctIndex": 1
           }

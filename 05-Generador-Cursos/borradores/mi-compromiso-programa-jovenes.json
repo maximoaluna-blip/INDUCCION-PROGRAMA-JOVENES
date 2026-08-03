@@ -94,18 +94,18 @@
           {
             "text": "Una \"brújula personal\" en este Nivel 1 es…",
             "options": [
-              "Un instrumento físico que se regala al cerrar el curso.",
-              "El conjunto de reflexiones que escribiste en cada curso, que ahora guía la construcción de tu plan.",
-              "La hoja de ruta de los cursos siguientes."
+              "Un instrumento físico que se le entrega a cada participante cuando cierra el Nivel 1.",
+              "El conjunto de reflexiones que escribiste en cada curso y que ahora guía tu plan.",
+              "La hoja de ruta con los cursos que siguen en el Nivel 2."
             ],
             "correctIndex": 1
           },
           {
             "text": "¿Para qué sirve la auto-revisión de la L2 antes de planear?",
             "options": [
-              "Para repasar el contenido de los 5 cursos en clave de examen.",
-              "Para identificar la idea más transformadora, la práctica a ajustar y la fortaleza ya presente — insumos directos del plan.",
-              "Para evaluar si los cursos estuvieron bien diseñados."
+              "Para repasar todo el contenido de los 5 cursos anteriores, en clave de examen final del Nivel 1.",
+              "Para identificar la idea más transformadora, la práctica a ajustar y la fortaleza presente.",
+              "Para evaluar si los cursos del nivel estuvieron bien diseñados."
             ],
             "correctIndex": 1
           }
@@ -176,9 +176,9 @@
           {
             "text": "Marcela ama el área de Creatividad y se le da fácil. Pero su Manada llega dispersa y se trata mal entre lobatos. Según el criterio de esta lección, ¿en qué 2 áreas debería poner foco este trimestre?",
             "options": [
-              "Creatividad y otra que le guste, porque va a disfrutar más el trimestre.",
-              "Carácter y Sociabilidad, porque son las que su unidad más necesita ahora, aunque no sean sus favoritas.",
-              "Las 6 áreas a la vez, para no dejar ninguna por fuera."
+              "Creatividad y otra que le guste, porque así va a disfrutar mucho más el trimestre.",
+              "Carácter y Sociabilidad, porque son las que su unidad más necesita ahora.",
+              "Las 6 áreas de crecimiento a la vez, para no dejar ninguna por fuera."
             ],
             "correctIndex": 1
           },
@@ -254,9 +254,9 @@
           {
             "text": "¿Por qué se planea pensando en un elemento del Método y un atributo DURASLID?",
             "options": [
-              "Para cumplir un requisito de la PNPJ.",
-              "Para hacer consciente lo que la reunión va a fortalecer especialmente, en vez de confiarlo a la intuición.",
-              "Para evitar tener que aplicar los 8 elementos."
+              "Para cumplir con un requisito de planeación que la PNPJ le exige hoy a cada dirigente de unidad.",
+              "Para hacer consciente lo que la reunión va a fortalecer, en vez de confiarlo a la intuición.",
+              "Para evitar tener que aplicar los 8 elementos del Método en cada reunión."
             ],
             "correctIndex": 1
           }
@@ -339,9 +339,9 @@
           {
             "text": "Un dirigente ya terminó el Nivel 1 y quiere arrancar el Curso 10 (Rama Tropa) del Nivel 2 la próxima semana, pero todavía no ha hecho el Curso 25 (A Salvo del Peligro). ¿Qué pasa?",
             "options": [
-              "Puede arrancar el Curso 10 sin problema; el Curso 25 es opcional y lo hace cuando quiera.",
-              "No puede avanzar al Nivel 2 hasta completar el Curso 25; lo ideal es tomarlo en paralelo con su primer curso de Nivel 2.",
-              "Solo lo necesita si su grupo está en una zona de alto riesgo."
+              "Puede arrancar el Curso 10 sin problema; el Curso 25 es opcional y lo puede hacer cuando quiera.",
+              "No puede avanzar al Nivel 2 hasta completar el Curso 25; lo ideal es tomarlo en paralelo.",
+              "Solo lo necesita si su grupo está ubicado en una zona de alto riesgo."
             ],
             "correctIndex": 1
           },
@@ -433,9 +433,9 @@
           {
             "text": "¿Por qué se sugiere compartir el plan con un par dirigente, no con un jefe?",
             "options": [
-              "Porque los jefes están ocupados con otras tareas.",
-              "Porque el par es compañero de camino, no evaluador: sostiene sin juzgar y permite ajuste mutuo.",
-              "Porque el plan es secreto y el jefe no debe verlo."
+              "Porque los jefes de grupo suelen estar ocupados con otras tareas del consejo.",
+              "Porque el par es compañero de camino, no evaluador: sostiene sin juzgar.",
+              "Porque el plan personal es privado y el jefe no debería verlo."
             ],
             "correctIndex": 1
           },

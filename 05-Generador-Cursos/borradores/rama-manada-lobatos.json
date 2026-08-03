@@ -138,9 +138,9 @@
           {
             "text": "Un lobato nuevo llega y el dirigente decide presentarlo rápido al grupo un sábado cualquiera, \"para no perder tiempo de reunión\". Según esta lección, ¿qué le falta a esa bienvenida?",
             "options": [
-              "Nada: lo importante es que ya esté jugando con el resto.",
-              "Le falta un ritual reconocible — la Ceremonia de Paso — donde se le presente formalmente y la Manada lo acoja; sin eso, entra \"por la puerta de atrás\".",
-              "Le falta esperar unas semanas para ver si se adapta antes de aceptarlo del todo."
+              "Nada: al final lo importante es que el niño ya esté jugando con el resto de la Manada.",
+              "Le falta un ritual reconocible — la Ceremonia de Paso — donde la Manada lo acoja.",
+              "Le falta esperar unas semanas para ver si se adapta antes de aceptarlo del todo en la Manada."
             ],
             "correctIndex": 1
           }
@@ -253,9 +253,9 @@
           {
             "text": "Un dirigente nuevo piensa: “lo de Akela y la Selva es un disfraz simpático, pero lo importante es enseñarles las normas de convivencia directamente.” Según esta lección, ¿qué le falta a esa idea?",
             "options": [
-              "Nada: los símbolos son un adorno opcional, las normas se pueden enseñar igual sin ellos.",
-              "Le falta entender que el marco simbólico ES el idioma con el que un niño de 7 años comprende ideas como la lealtad o el respeto — no es decoración, es el vehículo pedagógico.",
-              "Le falta agregar más personajes de la Selva, pero el enfoque directo sigue siendo mejor."
+              "Nada: los símbolos son un adorno opcional y las normas se pueden enseñar igual de bien sin ellos.",
+              "Le falta entender que el marco simbólico no es decoración: es el vehículo pedagógico.",
+              "Le falta agregar más personajes de la Selva, aunque el enfoque directo sigue siendo el mejor."
             ],
             "correctIndex": 1
           },
@@ -351,9 +351,9 @@
           {
             "text": "Un dirigente nombra a un lobato como “seisenero” fijo para todo el año, responsable de decidir por su seisena. Según esta lección, ¿qué le dirías?",
             "options": [
-              "Que está bien: alguien necesita tener autoridad sobre el grupo para que funcione.",
-              "Que la Guía 2026 es explícita en que no debe haber líderes fijos ni jerarquías rígidas en la seisena — las funciones deben rotar para que todos vivan guiar y ser guiados.",
-              "Que el error fue no dejar que los lobatos votaran quién sería el seisenero."
+              "Que está bien: alguien necesita tener siempre autoridad sobre el pequeño grupo para que funcione.",
+              "Que la Guía 2026 es explícita: no debe haber líderes fijos, las funciones rotan.",
+              "Que el error fue no dejar que los propios lobatos votaran quién sería el seisenero."
             ],
             "correctIndex": 1
           },
@@ -467,9 +467,9 @@
           {
             "text": "Una dirigente le da a un lobato todas sus insignias de progresión al mismo tiempo, al final del año, 'para que no se sienta atrasado frente a los demás'. Según esta lección, ¿qué está haciendo mal?",
             "options": [
-              "Nada: lo importante es que todos terminen con las mismas insignias.",
-              "Está tratando la progresión como una carrera colectiva, cuando cada lobato avanza por las seis Sendas a su propio ritmo — las insignias deben iluminar avances reales, no repartirse por igual.",
-              "El error fue no avisarles con tiempo que recibirían las insignias."
+              "Nada: al final lo importante es que todos terminen el año con las mismas insignias cosidas en su uniforme.",
+              "Está tratando la progresión como carrera colectiva: cada lobato avanza a su ritmo.",
+              "El error fue no avisarles con suficiente tiempo que iban a recibir todas las insignias."
             ],
             "correctIndex": 1
           },
@@ -547,18 +547,18 @@
           {
             "text": "Un lobato comete un error organizando un juego con su seisena y todo sale mal. El Viejo Lobo interviene de inmediato y reorganiza todo él mismo 'para que no se pierda tiempo'. Según esta lección, ¿qué está haciendo?",
             "options": [
-              "Lo correcto: un buen dirigente evita que los errores afecten la actividad.",
-              "Está quitándole al lobato la oportunidad de aprender del error — el rol del Viejo Lobo es ofrecer condiciones, no decidir por ellos; el error es fuente de aprendizaje, no un fracaso a evitar.",
-              "Está bien, siempre que después le explique qué hizo mal."
+              "Lo correcto: un buen dirigente evita a tiempo que los errores lleguen a afectar toda la actividad.",
+              "Le quita al lobato la oportunidad de aprender del error: el error es fuente de aprendizaje.",
+              "Está bien, siempre y cuando después le explique con calma qué hizo mal."
             ],
             "correctIndex": 1
           },
           {
             "text": "Un Grupo scout dice tener 'Consejo de Roca' en su Manada, pero en la práctica el dirigente ya decidió todo antes de la reunión y solo lo anuncia. Según esta lección, ¿qué le falta a ese Consejo de Roca?",
             "options": [
-              "Nada, siempre es más eficiente que el adulto decida y luego informe.",
-              "Le falta ser real: el Consejo de Roca debe ser un espacio donde los lobatos opinan, proponen y deciden de verdad según su edad — no un anuncio disfrazado de consulta.",
-              "Le falta que se haga con más frecuencia, aunque el formato esté bien."
+              "Nada: al final resulta mucho más eficiente que el adulto decida primero y después les informe a ellos.",
+              "Le falta ser real: en el Consejo de Roca los lobatos deben opinar, proponer y decidir de verdad.",
+              "Le falta que se haga con más frecuencia, aunque el formato que usan esté bien."
             ],
             "correctIndex": 1
           }
@@ -652,8 +652,8 @@
           {
             "text": "Un Grupo trata el Gran Salto de un lobato como un simple trámite: le entregan el papel de traslado a Tropa sin ceremonia. Según esta lección, ¿qué se están perdiendo?",
             "options": [
-              "Nada grave, mientras el lobato efectivamente pase a la Tropa.",
-              "Se pierden el momento de reconocer el camino recorrido y cerrar una etapa con gratitud — el Gran Salto es una ceremonia cargada de significado, no un trámite administrativo.",
+              "Nada grave, mientras el lobato efectivamente termine pasando a la Tropa dentro de ese mismo año.",
+              "Se pierden el momento de cerrar una etapa con gratitud: no es un trámite.",
               "Solo se pierde tiempo si se hace la ceremonia completa; mejor avanzar rápido a la Tropa."
             ],
             "correctIndex": 1
@@ -718,18 +718,18 @@
           {
             "text": "Un Viejo Lobo nota que su Manada no tiene ningún ritual de rotación en las seisenas. ¿Cuál de estos sería un buen primer paso 'chico, concreto y tuyo'?",
             "options": [
-              "'Voy a rediseñar todo el sistema de seisenas de mi Manada este mes.'",
-              "'La próxima reunión, antes de empezar el juego, voy a preguntar en el Consejo de Roca quién quiere proponerlo esta vez — y lo anoto para que la próxima semana le toque a otro.'",
-              "'Voy a explicarles en la próxima reunión por qué la rotación es importante.'"
+              "'Voy a rediseñar por completo el sistema de seisenas de mi Manada durante este mes, con roles y turnos nuevos.'",
+              "'La próxima reunión voy a preguntar en el Consejo de Roca quién quiere proponer el juego esta vez.'",
+              "'Voy a explicarles en la próxima reunión, con calma, por qué la rotación de funciones es importante.'"
             ],
             "correctIndex": 1
           },
           {
             "text": "Un padre de familia le dice al nuevo Viejo Lobo: 'Usted es el que manda aquí, así que decida usted qué hacen hoy.' Según lo que viste en este curso, ¿qué le respondes?",
             "options": [
-              "'Tiene razón, yo decido todo para que la reunión salga bien.'",
-              "'Mi trabajo es ofrecerles el territorio, el símbolo y la confianza — hoy el rumbo del juego lo eligen ellos, yo los acompaño.'",
-              "'Mejor que decida usted, ya que es el papá.'"
+              "'Tiene razón: yo decido todo lo de la reunión para que salga bien y para que termine a tiempo.'",
+              "'Mi trabajo es ofrecerles territorio, símbolo y confianza; el rumbo lo eligen ellos.'",
+              "'Mejor que decida usted, que para eso es el papá del lobato.'"
             ],
             "correctIndex": 1
           }

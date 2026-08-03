@@ -132,18 +132,18 @@
           {
             "text": "Un compañero te dice: 'Programa de Jóvenes es la guía de actividades que la DNPJ publica cada año'. ¿Qué le falta a esa idea, según esta lección?",
             "options": [
-              "Nada: la guía oficial es exactamente lo que es el Programa.",
-              "Le falta lo esencial: el Programa es la totalidad de oportunidades de aprendizaje que se vive como alianza entre joven y adulto; la guía es solo una herramienta.",
-              "Le falta mencionar que también incluye las insignias y especialidades."
+              "Nada: la guía oficial que se publica cada año es exactamente lo que es el Programa.",
+              "Le falta lo esencial: el Programa es la totalidad de oportunidades de aprendizaje, no un documento.",
+              "Le falta mencionar que el Programa también incluye las insignias y las especialidades propias de cada rama."
             ],
             "correctIndex": 1
           },
           {
             "text": "Una dirigente llega a la reunión, ve al grupo disperso y cansado, y cambia su plan para armar una dinámica corta que los reconecte antes de seguir. Según esta lección, ¿qué está haciendo?",
             "options": [
-              "Está improvisando: se salió de la guía oficial, así que dejó de hacer Programa.",
-              "Está haciendo Programa de Jóvenes: adaptó la experiencia al grupo real que tenía al frente — eso es la alianza educativa.",
-              "Solo hará Programa si después registra el cambio en el formato correspondiente."
+              "Está improvisando: como se salió de la guía oficial, en ese momento dejó de estar haciendo Programa.",
+              "Está haciendo Programa de Jóvenes: adaptó la experiencia al grupo real que tenía al frente.",
+              "Solo hará Programa si después registra ese cambio en el formato de planeación correspondiente."
             ],
             "correctIndex": 1
           }
@@ -224,18 +224,18 @@
           {
             "text": "Un dirigente nuevo te dice: “Yo no fui scout cuando niño, mejor me retiro, no estoy en capacidad.” ¿Cuál es la mejor respuesta según esta lección?",
             "options": [
-              "“Tienes razón, vamos a buscar a alguien con más experiencia.”",
-              "“Lo que necesitas no es haber sido scout, es querer estar y dejarte formar. La Política de Adultos existe para eso.”",
-              "“Te recomiendo que primero leas todas las guías oficiales y luego vuelves.”"
+              "“Tienes razón, vamos a buscar a alguien que sí haya sido scout cuando niño.”",
+              "“Lo que necesitas no es haber sido scout, es querer estar y dejarte formar.”",
+              "“Te recomiendo que primero te leas todas las guías oficiales y después vuelvas a intentarlo.”"
             ],
             "correctIndex": 1
           },
           {
             "text": "En una unidad, el dirigente decide cada actividad, cada fecha y cada equipo; los jóvenes solo 'votan' lo que él ya propuso. Según esta lección, ¿qué le dirías para ayudarlo a corregir el rumbo?",
             "options": [
-              "Que está bien: alguien tiene que poner orden, y los jóvenes ya participan votando.",
-              "Que el Movimiento es de los jóvenes y para los jóvenes; su rol es apoyar y acompañar, no decidir por ellos. Que empiece dejándoles una decisión real.",
-              "Que primero termine de formarse y, cuando domine las guías, ya podrá soltarles decisiones."
+              "Que está bien: alguien tiene que poner orden, y los jóvenes ya están participando cuando votan.",
+              "Que el Movimiento es de los jóvenes y para los jóvenes; su rol es acompañar, no decidir por ellos.",
+              "Que primero termine de formarse y, cuando ya domine las guías oficiales, podrá soltarles algunas decisiones."
             ],
             "correctIndex": 1
           }
@@ -421,9 +421,9 @@
           {
             "text": "En la historia de Mariana, lo que faltó fue principalmente…",
             "options": [
-              "Que sus dirigentes la dejaran ganar más juegos.",
-              "Que el Programa fuera planeado intencionalmente para tocar todas las áreas de crecimiento, no solo el entretenimiento.",
-              "Que Mariana entrara a la rama más tarde."
+              "Que sus dirigentes la dejaran ganar más juegos y destacarse más frente a sus compañeras de unidad.",
+              "Que el Programa fuera planeado para tocar todas las áreas de crecimiento.",
+              "Que Mariana entrara a la rama más tarde, cuando ya tuviera la edad para aprovecharla."
             ],
             "correctIndex": 1
           },
@@ -514,18 +514,18 @@
           {
             "text": "¿Cuál de estos compromisos cumple mejor el criterio “chico, concreto y tuyo”?",
             "options": [
-              "“Voy a transformar la cultura del Programa en mi región este año.”",
-              "“En la próxima reunión voy a dejar que mi equipo decida una parte de la actividad, en vez de decidirla yo.”",
-              "“Voy a estudiarme el Modelo de Aplicación completo antes del próximo sábado.”"
+              "“Voy a transformar la cultura del Programa en toda mi región a lo largo de este año.”",
+              "“En la próxima reunión voy a dejar que mi equipo decida parte de la actividad.”",
+              "“Voy a estudiarme el Modelo de Aplicación completo antes de la reunión del próximo sábado.”"
             ],
             "correctIndex": 1
           },
           {
             "text": "Dos dirigentes arrancan el año. Uno anuncia: 'voy a transformar el Programa de mi grupo'. El otro dice: 'esta semana voy a dejar que la patrulla escoja el juego'. Según el cierre del curso, ¿quién tiene más probabilidad de sostener el cambio?",
             "options": [
-              "El primero, porque una meta grande inspira más al equipo.",
-              "El segundo, porque la transformación se construye con muchas promesas chicas cumplidas, no con una grande que se olvida.",
-              "Da igual: lo que cuenta es cuántos campamentos logre organizar cada uno."
+              "El primero, porque una meta grande inspira más al equipo y le marca el rumbo a todo el año.",
+              "El segundo, porque la transformación se construye con promesas chicas cumplidas.",
+              "Da igual: al final lo que cuenta es cuántos campamentos logre organizar cada uno."
             ],
             "correctIndex": 1
           }
