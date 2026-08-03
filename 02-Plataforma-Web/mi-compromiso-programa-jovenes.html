@@ -706,13 +706,20 @@ body {
     color: white; padding: 20px; text-align: center;
 }
 .stat-card h4 { font-size: 2em; margin-bottom: 5px; color: white; }
+/* `.module p` (color gris para fondo blanco) le ganaba en especificidad al `color: white`
+   de .stat-card, dejando texto #636363 sobre fondo morado: contraste 1.55:1, ilegible.
+   Detectado al ampliar la auditoria a11y a los modulos ocultos (03-ago-2026). */
+.stat-card p, .module .stat-card p { color: #ffffff; }
 
 /* --- Achievements --- */
 .achievements { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
 .achievement {
     background: #f3e8ff; color: #622599; padding: 10px 15px;
     border: 2px solid #622599; font-size: 0.9em;
-    opacity: 0.4; transition: all 0.3s; font-weight: 600;
+    /* opacity 0.4 aplastaba el contraste a 2:1 sobre un diseno que de suyo cumple 7.93:1.
+       Calculado: 0.75 da 4.39:1 (no pasa), 0.85 da 5.57:1. Se conserva la senal visual
+       de "aun no lo tienes" y se cumple WCAG AA. */
+    opacity: 0.85; transition: all 0.3s; font-weight: 600;
 }
 .achievement.earned { opacity: 1; transform: scale(1.05); box-shadow: 0 3px 10px rgba(98, 37, 153, 0.3); }
 
@@ -790,6 +797,35 @@ body {
     .top-bar, .nav-menu, .mobile-nav, .btn, .save-indicator, .sync-indicator, .modal-overlay { display: none !important; }
     .certificate { page-break-inside: avoid; }
 }
+
+/* --- Cita destacada (blockquote de contenido) ---
+   El color iba inline en build-course.js, de modo que el tema oscuro no podia
+   sobrescribirlo y quedaba en 1.65:1 sobre fondo oscuro: practicamente invisible.
+   Detectado el 03-ago-2026 al ampliar la auditoria a11y a los modulos ocultos. */
+.cita-destacada {
+    font-size: 1.1rem; font-style: italic; text-align: center;
+    margin: 20px 0; color: #1a4b6b;
+}
+html[data-theme="dark"] .cita-destacada { color: #9ec8e8; }
+
+/* El certificado conserva fondo claro para poder imprimirse, asi que su texto no debe
+   heredar los colores claros del tema oscuro (daba 2.02:1). */
+html[data-theme="dark"] .certificate,
+html[data-theme="dark"] .certificate p,
+html[data-theme="dark"] .certificate strong,
+html[data-theme="dark"] .certificate div { color: #2b2b33; }
+
+/* Pie de video: el color iba inline (#555) y el tema oscuro no podia sobrescribirlo
+   (2.06:1 sobre fondo oscuro). Mismo patron que la cita destacada. */
+.video-caption { text-align: center; font-style: italic; color: #555; margin-top: 8px; }
+html[data-theme="dark"] .video-caption { color: #b9b9c4; }
+
+/* Enlaces dentro del contenido: sin estilo propio caian al azul por defecto del
+   navegador (#0000ee), que sobre fondo oscuro da 1.62:1. */
+.module a { color: #0b5ed7; text-decoration: underline; }
+.module a:hover { color: #093d8f; }
+html[data-theme="dark"] .module a { color: #8ab4f8; }
+html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
     </style>
 </head>
@@ -1083,11 +1119,11 @@ body {
                     </label>
                     <div class="pb-comp-fields hidden" id="pb-fields-corporalidad">
                         <label class="pb-field-label">🎯 Meta concreta (qué quieres lograr)</label>
-                        <textarea class="pb-field-meta" data-competence="corporalidad" placeholder="Ej: pasar del grado 2 al 3 en esta competencia, evidenciado en..." onchange="savePlanField('pj-areas-prioritarias', 'corporalidad', 'meta', this.value)"></textarea>
+                        <textarea class="pb-field-meta" data-competence="corporalidad" aria-label="Meta concreta para Corporalidad" placeholder="Ej: pasar del grado 2 al 3 en esta competencia, evidenciado en..." onchange="savePlanField('pj-areas-prioritarias', 'corporalidad', 'meta', this.value)"></textarea>
                         <label class="pb-field-label">⏰ Plazo (en cuánto tiempo)</label>
-                        <input type="text" class="pb-field-plazo" data-competence="corporalidad" placeholder="Ej: 6 meses" onchange="savePlanField('pj-areas-prioritarias', 'corporalidad', 'plazo', this.value)">
+                        <input type="text" class="pb-field-plazo" data-competence="corporalidad" aria-label="Plazo para Corporalidad" placeholder="Ej: 6 meses" onchange="savePlanField('pj-areas-prioritarias', 'corporalidad', 'plazo', this.value)">
                         <label class="pb-field-label">📚 Recursos (cómo lo vas a desarrollar)</label>
-                        <textarea class="pb-field-recursos" data-competence="corporalidad" placeholder="Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a..." onchange="savePlanField('pj-areas-prioritarias', 'corporalidad', 'recursos', this.value)"></textarea>
+                        <textarea class="pb-field-recursos" data-competence="corporalidad" aria-label="Recursos para Corporalidad" placeholder="Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a..." onchange="savePlanField('pj-areas-prioritarias', 'corporalidad', 'recursos', this.value)"></textarea>
                     </div>
                 </div><div class="pb-competence" data-competence="creatividad">
                     <label class="pb-comp-header">
@@ -1097,11 +1133,11 @@ body {
                     </label>
                     <div class="pb-comp-fields hidden" id="pb-fields-creatividad">
                         <label class="pb-field-label">🎯 Meta concreta (qué quieres lograr)</label>
-                        <textarea class="pb-field-meta" data-competence="creatividad" placeholder="Ej: pasar del grado 2 al 3 en esta competencia, evidenciado en..." onchange="savePlanField('pj-areas-prioritarias', 'creatividad', 'meta', this.value)"></textarea>
+                        <textarea class="pb-field-meta" data-competence="creatividad" aria-label="Meta concreta para Creatividad" placeholder="Ej: pasar del grado 2 al 3 en esta competencia, evidenciado en..." onchange="savePlanField('pj-areas-prioritarias', 'creatividad', 'meta', this.value)"></textarea>
                         <label class="pb-field-label">⏰ Plazo (en cuánto tiempo)</label>
-                        <input type="text" class="pb-field-plazo" data-competence="creatividad" placeholder="Ej: 6 meses" onchange="savePlanField('pj-areas-prioritarias', 'creatividad', 'plazo', this.value)">
+                        <input type="text" class="pb-field-plazo" data-competence="creatividad" aria-label="Plazo para Creatividad" placeholder="Ej: 6 meses" onchange="savePlanField('pj-areas-prioritarias', 'creatividad', 'plazo', this.value)">
                         <label class="pb-field-label">📚 Recursos (cómo lo vas a desarrollar)</label>
-                        <textarea class="pb-field-recursos" data-competence="creatividad" placeholder="Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a..." onchange="savePlanField('pj-areas-prioritarias', 'creatividad', 'recursos', this.value)"></textarea>
+                        <textarea class="pb-field-recursos" data-competence="creatividad" aria-label="Recursos para Creatividad" placeholder="Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a..." onchange="savePlanField('pj-areas-prioritarias', 'creatividad', 'recursos', this.value)"></textarea>
                     </div>
                 </div><div class="pb-competence" data-competence="caracter">
                     <label class="pb-comp-header">
@@ -1111,11 +1147,11 @@ body {
                     </label>
                     <div class="pb-comp-fields hidden" id="pb-fields-caracter">
                         <label class="pb-field-label">🎯 Meta concreta (qué quieres lograr)</label>
-                        <textarea class="pb-field-meta" data-competence="caracter" placeholder="Ej: pasar del grado 2 al 3 en esta competencia, evidenciado en..." onchange="savePlanField('pj-areas-prioritarias', 'caracter', 'meta', this.value)"></textarea>
+                        <textarea class="pb-field-meta" data-competence="caracter" aria-label="Meta concreta para Carácter" placeholder="Ej: pasar del grado 2 al 3 en esta competencia, evidenciado en..." onchange="savePlanField('pj-areas-prioritarias', 'caracter', 'meta', this.value)"></textarea>
                         <label class="pb-field-label">⏰ Plazo (en cuánto tiempo)</label>
-                        <input type="text" class="pb-field-plazo" data-competence="caracter" placeholder="Ej: 6 meses" onchange="savePlanField('pj-areas-prioritarias', 'caracter', 'plazo', this.value)">
+                        <input type="text" class="pb-field-plazo" data-competence="caracter" aria-label="Plazo para Carácter" placeholder="Ej: 6 meses" onchange="savePlanField('pj-areas-prioritarias', 'caracter', 'plazo', this.value)">
                         <label class="pb-field-label">📚 Recursos (cómo lo vas a desarrollar)</label>
-                        <textarea class="pb-field-recursos" data-competence="caracter" placeholder="Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a..." onchange="savePlanField('pj-areas-prioritarias', 'caracter', 'recursos', this.value)"></textarea>
+                        <textarea class="pb-field-recursos" data-competence="caracter" aria-label="Recursos para Carácter" placeholder="Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a..." onchange="savePlanField('pj-areas-prioritarias', 'caracter', 'recursos', this.value)"></textarea>
                     </div>
                 </div><div class="pb-competence" data-competence="afectividad">
                     <label class="pb-comp-header">
@@ -1125,11 +1161,11 @@ body {
                     </label>
                     <div class="pb-comp-fields hidden" id="pb-fields-afectividad">
                         <label class="pb-field-label">🎯 Meta concreta (qué quieres lograr)</label>
-                        <textarea class="pb-field-meta" data-competence="afectividad" placeholder="Ej: pasar del grado 2 al 3 en esta competencia, evidenciado en..." onchange="savePlanField('pj-areas-prioritarias', 'afectividad', 'meta', this.value)"></textarea>
+                        <textarea class="pb-field-meta" data-competence="afectividad" aria-label="Meta concreta para Afectividad" placeholder="Ej: pasar del grado 2 al 3 en esta competencia, evidenciado en..." onchange="savePlanField('pj-areas-prioritarias', 'afectividad', 'meta', this.value)"></textarea>
                         <label class="pb-field-label">⏰ Plazo (en cuánto tiempo)</label>
-                        <input type="text" class="pb-field-plazo" data-competence="afectividad" placeholder="Ej: 6 meses" onchange="savePlanField('pj-areas-prioritarias', 'afectividad', 'plazo', this.value)">
+                        <input type="text" class="pb-field-plazo" data-competence="afectividad" aria-label="Plazo para Afectividad" placeholder="Ej: 6 meses" onchange="savePlanField('pj-areas-prioritarias', 'afectividad', 'plazo', this.value)">
                         <label class="pb-field-label">📚 Recursos (cómo lo vas a desarrollar)</label>
-                        <textarea class="pb-field-recursos" data-competence="afectividad" placeholder="Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a..." onchange="savePlanField('pj-areas-prioritarias', 'afectividad', 'recursos', this.value)"></textarea>
+                        <textarea class="pb-field-recursos" data-competence="afectividad" aria-label="Recursos para Afectividad" placeholder="Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a..." onchange="savePlanField('pj-areas-prioritarias', 'afectividad', 'recursos', this.value)"></textarea>
                     </div>
                 </div><div class="pb-competence" data-competence="sociabilidad">
                     <label class="pb-comp-header">
@@ -1139,11 +1175,11 @@ body {
                     </label>
                     <div class="pb-comp-fields hidden" id="pb-fields-sociabilidad">
                         <label class="pb-field-label">🎯 Meta concreta (qué quieres lograr)</label>
-                        <textarea class="pb-field-meta" data-competence="sociabilidad" placeholder="Ej: pasar del grado 2 al 3 en esta competencia, evidenciado en..." onchange="savePlanField('pj-areas-prioritarias', 'sociabilidad', 'meta', this.value)"></textarea>
+                        <textarea class="pb-field-meta" data-competence="sociabilidad" aria-label="Meta concreta para Sociabilidad" placeholder="Ej: pasar del grado 2 al 3 en esta competencia, evidenciado en..." onchange="savePlanField('pj-areas-prioritarias', 'sociabilidad', 'meta', this.value)"></textarea>
                         <label class="pb-field-label">⏰ Plazo (en cuánto tiempo)</label>
-                        <input type="text" class="pb-field-plazo" data-competence="sociabilidad" placeholder="Ej: 6 meses" onchange="savePlanField('pj-areas-prioritarias', 'sociabilidad', 'plazo', this.value)">
+                        <input type="text" class="pb-field-plazo" data-competence="sociabilidad" aria-label="Plazo para Sociabilidad" placeholder="Ej: 6 meses" onchange="savePlanField('pj-areas-prioritarias', 'sociabilidad', 'plazo', this.value)">
                         <label class="pb-field-label">📚 Recursos (cómo lo vas a desarrollar)</label>
-                        <textarea class="pb-field-recursos" data-competence="sociabilidad" placeholder="Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a..." onchange="savePlanField('pj-areas-prioritarias', 'sociabilidad', 'recursos', this.value)"></textarea>
+                        <textarea class="pb-field-recursos" data-competence="sociabilidad" aria-label="Recursos para Sociabilidad" placeholder="Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a..." onchange="savePlanField('pj-areas-prioritarias', 'sociabilidad', 'recursos', this.value)"></textarea>
                     </div>
                 </div><div class="pb-competence" data-competence="espiritualidad">
                     <label class="pb-comp-header">
@@ -1153,16 +1189,16 @@ body {
                     </label>
                     <div class="pb-comp-fields hidden" id="pb-fields-espiritualidad">
                         <label class="pb-field-label">🎯 Meta concreta (qué quieres lograr)</label>
-                        <textarea class="pb-field-meta" data-competence="espiritualidad" placeholder="Ej: pasar del grado 2 al 3 en esta competencia, evidenciado en..." onchange="savePlanField('pj-areas-prioritarias', 'espiritualidad', 'meta', this.value)"></textarea>
+                        <textarea class="pb-field-meta" data-competence="espiritualidad" aria-label="Meta concreta para Espiritualidad" placeholder="Ej: pasar del grado 2 al 3 en esta competencia, evidenciado en..." onchange="savePlanField('pj-areas-prioritarias', 'espiritualidad', 'meta', this.value)"></textarea>
                         <label class="pb-field-label">⏰ Plazo (en cuánto tiempo)</label>
-                        <input type="text" class="pb-field-plazo" data-competence="espiritualidad" placeholder="Ej: 6 meses" onchange="savePlanField('pj-areas-prioritarias', 'espiritualidad', 'plazo', this.value)">
+                        <input type="text" class="pb-field-plazo" data-competence="espiritualidad" aria-label="Plazo para Espiritualidad" placeholder="Ej: 6 meses" onchange="savePlanField('pj-areas-prioritarias', 'espiritualidad', 'plazo', this.value)">
                         <label class="pb-field-label">📚 Recursos (cómo lo vas a desarrollar)</label>
-                        <textarea class="pb-field-recursos" data-competence="espiritualidad" placeholder="Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a..." onchange="savePlanField('pj-areas-prioritarias', 'espiritualidad', 'recursos', this.value)"></textarea>
+                        <textarea class="pb-field-recursos" data-competence="espiritualidad" aria-label="Recursos para Espiritualidad" placeholder="Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a..." onchange="savePlanField('pj-areas-prioritarias', 'espiritualidad', 'recursos', this.value)"></textarea>
                     </div>
                 </div></div>
                     <div class="pb-commitment-block">
                         <label class="pb-field-label pb-commitment-label">💚 Mi compromiso personal con este plan</label>
-                        <textarea id="pb-commitment-pj-areas-prioritarias" class="pb-commitment" placeholder="Ej: Me comprometo a trabajar en mi plan con disciplina, a buscar a mi dirigente cada mes, y a no rendirme cuando me cueste..." onchange="savePlanCommitment('pj-areas-prioritarias', this.value)"></textarea>
+                        <textarea id="pb-commitment-pj-areas-prioritarias" class="pb-commitment" aria-label="Mi compromiso personal con este plan" placeholder="Ej: Me comprometo a trabajar en mi plan con disciplina, a buscar a mi dirigente cada mes, y a no rendirme cuando me cueste..." onchange="savePlanCommitment('pj-areas-prioritarias', this.value)"></textarea>
                     </div>
                     <div class="pb-actions">
                         <button type="button" class="btn-primary" onclick="generatePlan('pj-areas-prioritarias')">📄 Generar mi Plan Personal</button>
@@ -1514,7 +1550,7 @@ body {
 
                     <!-- Footer -->
                     <div style="text-align: center; margin-top: 12px;">
-                        <p style="font-size: 0.7em; color: #999;">Plataforma de Formacion de Adultos ASC</p>
+                        <p style="font-size: 0.7em; color: #767676;">Plataforma de Formacion de Adultos ASC</p>
                     </div>
                 </div>
 
@@ -1582,6 +1618,27 @@ let selfAssessments = {};
 let personalPlans = {};
 let userProfile = {};
 
+// --- Escritura segura en localStorage ---
+// saveProgress() no manejaba el fallo en absoluto y mostraba el indicador de "guardado"
+// sin comprobar que la escritura hubiera funcionado. Si localStorage falla (cuota llena,
+// modo privado de Safari, almacenamiento bloqueado por politica del navegador), el
+// estudiante veia el visto verde y perdia su trabajo sin enterarse. Ahora se entera.
+var _avisoAlmacenamiento = false;
+function guardarLocal(clave, valor) {
+    try {
+        localStorage.setItem(clave, valor);
+        return true;
+    } catch (e) {
+        if (!_avisoAlmacenamiento) {
+            _avisoAlmacenamiento = true;
+            if (typeof showNotification === 'function') {
+                showNotification('⚠️ No pudimos guardar tu avance en este navegador. Puede ser falta de espacio o el modo privado. Anota lo que escribiste antes de cerrar.', 'warning');
+            }
+        }
+        return false;
+    }
+}
+
 // --- Inicializacion ---
 window.addEventListener('DOMContentLoaded', function () {
     moduleProgress = new Array(COURSE_CONFIG.totalModules).fill(false);
@@ -1632,8 +1689,8 @@ function saveGlobalUserProfile(profile) {
             region: profile.region, email: profile.email, motivation: profile.motivation,
             updatedAt: new Date().toISOString()
         };
-        localStorage.setItem('globalUserProfile', JSON.stringify(reusable));
-    } catch (e) { /* ignore */ }
+        guardarLocal('globalUserProfile', JSON.stringify(reusable));
+    } catch (e) { /* el aviso lo da guardarLocal */ }
 }
 
 function prefillFromGlobalProfile() {
@@ -1879,7 +1936,8 @@ function saveProgress() {
         currentModule: currentModule, startTime: startTime.toISOString(),
         lastSaved: new Date().toISOString(), version: '3.0'
     };
-    localStorage.setItem(key, JSON.stringify(progress));
+    // Solo confirmar visualmente si la escritura funciono de verdad.
+    if (!guardarLocal(key, JSON.stringify(progress))) return;
     var indicator = document.getElementById('saveIndicator');
     if (indicator) { indicator.classList.add('show'); setTimeout(function () { indicator.classList.remove('show'); }, 2000); }
 }
@@ -2766,8 +2824,8 @@ function recoverProgress() {
                                 var existing = raw ? JSON.parse(raw) : {};
                                 existing.reflections = courseReflections;
                                 existing.lastSaved = new Date().toISOString();
-                                localStorage.setItem(key, JSON.stringify(existing));
-                            } catch (e) { /* ignore */ }
+                                guardarLocal(key, JSON.stringify(existing));
+                            } catch (e) { /* el aviso lo da guardarLocal */ }
                         }
                     });
                 }
