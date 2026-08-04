@@ -141,8 +141,9 @@ function calculateAssessment(assessmentId) {
     data.completedAt = new Date().toISOString();
     saveProgress();
     // Save to global key for cross-course consumption
-    try {
-        localStorage.setItem('competencyProfile', JSON.stringify({
+    // Por guardarLocal, no en un catch vacio (AUDITORIA.md check E-bis): si el
+    // almacenamiento falla, el alumno pierde su trabajo sin ningun aviso.
+    guardarLocal('competencyProfile', JSON.stringify({
             grades: data.grades,
             strengths: data.strengths,
             opportunities: data.opportunities,
@@ -150,7 +151,6 @@ function calculateAssessment(assessmentId) {
             sourceCourse: COURSE_CONFIG.courseId,
             scaleVersion: COMPETENCY_SCALE_VERSION
         }));
-    } catch (e) { /* ignore */ }
     // Sincronizacion en segundo plano al backend (persistencia hibrida)
     if (userProfile && userProfile.email && typeof sendToGoogleSheets === 'function') {
         sendToGoogleSheets({
