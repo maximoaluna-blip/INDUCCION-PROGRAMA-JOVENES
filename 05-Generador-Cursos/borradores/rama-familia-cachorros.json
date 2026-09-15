@@ -20,7 +20,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~40 minutos.</strong> Al final vas a poder decir la Promesa y la Ley del Cachorro, organizar tu unidad en Camadas, conducir un Círculo de Familia, usar el lenguaje de la Selva como método, y planear una actividad que cumpla las reglas de entorno seguro propias de la rama."
+          "text": "⏱️ <strong>~40 minutos.</strong> Al final vas a poder decir la Promesa y la Ley del Cachorro, organizar tu unidad en Camadas, saber cómo se arma y qué significa un Círculo de Familia, usar el lenguaje de la Selva como método, y planear una actividad que cumpla las reglas de entorno seguro propias de la rama."
         },
         {
           "type": "paragraph",
@@ -28,7 +28,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Hay una idea muy extendida que conviene desarmar de entrada: <em>\"a los cinco años todavía no se puede hacer escultismo de verdad; toca esperar a que crezcan\"</em>. La Guía para el Dirigente de Familia dice lo contrario con todas las letras, y este curso te va a mostrar por qué."
+          "text": "Hay una idea muy extendida que conviene desarmar de entrada: <em>\"a los cinco años todavía no se puede hacer escultismo de verdad; toca esperar a que crezcan\"</em>. La Guía para el Dirigente de Familia dice lo contrario con todas las letras. <strong>A los cinco años no se aprende escuchando. Se aprende jugando — y eso no es una concesión a la edad: es el método.</strong> Todo este curso sale de esa frase."
         },
         {
           "type": "info-box",
@@ -123,7 +123,7 @@
         "nextLabel": "Continuar a la Promesa y la Ley 🤝",
         "questions": [
           {
-            "text": "Salomé no logra abotonarse el pelaje, se enreda y empieza a frustrarse. La actividad está por comenzar. ¿Qué hace el Viejo Lobo?",
+            "text": "Salomé no logra abotonarse el pelaje —la prenda que recibe en su Investidura—, se enreda y empieza a frustrarse. La actividad está por comenzar. ¿Qué hace el Viejo Lobo?",
             "options": [
               "Se lo abotona él mismo, rápido y sin drama, para que Salomé no se atrase y la actividad arranque a tiempo.",
               "Le muestra una vez cómo se hace, se queda cerca y la deja intentarlo, aunque eso tome más de lo previsto.",
@@ -230,11 +230,11 @@
             "correctIndex": 1
           },
           {
-            "text": "En la Ceremonia de Investidura de la Familia, el Cachorro…",
+            "text": "La mamá de un Cachorro te dice, tres días antes de la Investidura, que en su casa no se habla de Dios y que no quiere que su hija prometa algo que no entiende. ¿Qué haces?",
             "options": [
-              "Recibe su pelaje una vez que ha demostrado saberse de memoria los dos artículos de la Ley del Cachorro.",
-              "Recibe su pelaje y realiza su Promesa, celebrando así su ingreso pleno a la Familia de Cachorros.",
-              "Recibe su primer Nombre de Caza, que es lo que le permite participar en las actividades del Cubil."
+              "Le explicas que la fórmula de la Promesa es una sola y que puede acompañarla ese día sin decirla en voz alta.",
+              "Le ofreces la segunda fórmula oficial, la que dice amar la vida, y acuerdas con ella cuál usará su hija.",
+              "Le propones aplazar la Investidura de su hija hasta que sea mayor y pueda entender bien lo que promete."
             ],
             "correctIndex": 1
           }
@@ -295,7 +295,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La prueba de fuego para saber si acertaste: <strong>quita el juego de tu actividad.</strong> Si la actividad sigue funcionando igual, el juego era decoración. Si se cae, el juego era el método."
+          "text": "La prueba de fuego para saber si acertaste: <strong>quita el juego de tu actividad.</strong> Si la actividad sigue funcionando igual, el juego era decoración. Si se cae, el juego era el método. Salomé no va a recordar la explicación que le diste sobre cuidar la naturaleza; va a recordar la tarde en que salió a buscar tesoros de la selva."
         }
       ],
       "reflection": {
@@ -315,13 +315,13 @@
             "correctIndex": 1
           },
           {
-            "text": "Las cuatro actividades rectoras de la primera infancia son…",
+            "text": "Planeaste para el sábado: un juego de persecución, un rato para dibujar lo que jugaron y una salida al parque a recoger hojas. Un Viejo Lobo te dice que falta una de las cuatro actividades rectoras. ¿Cuál?",
             "options": [
-              "El juego, el deporte, la música y las manualidades que se trabajan durante las reuniones del Cubil.",
-              "El juego, el arte, la literatura y la exploración del medio, según el Ministerio de Educación.",
-              "La lectura, la escritura, el cálculo básico y la convivencia con otros niños de la misma edad."
+              "La literatura: no hay un cuento ni un relato que le dé sentido y escenario a lo que van a jugar.",
+              "El arte: dibujar lo que jugaron es registro y no creación, así que esa parte no cubre lo artístico.",
+              "La exploración del medio: recoger hojas en un parque del barrio no cuenta como descubrir el entorno."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -400,7 +400,7 @@
         },
         {
           "type": "paragraph",
-          "text": "No es una asamblea en miniatura. Pedirle a un niño de cinco años que levante la mano y vote es pedirle que participe en el idioma de los adultos. Participar aquí se parece más a dibujar, a jugar una ronda o a escoger con el cuerpo."
+          "text": "No es una asamblea en miniatura. Pedirle a un niño de cinco años que levante la mano y vote es pedirle que participe en el idioma de los adultos. Participar aquí se parece más a dibujar, a jugar una ronda o a escoger con el cuerpo. Salomé no va a decir <em>\"propongo una salida\"</em>: va a dibujar un río y va a decir <em>\"quiero ir allá\"</em>. Eso ya es una propuesta, y tu trabajo es oírla como tal."
         }
       ],
       "reflection": {
@@ -420,11 +420,11 @@
             "correctIndex": 1
           },
           {
-            "text": "Durante el Círculo de Familia, mientras un Viejo Lobo dirige desde el centro, los demás Viejos Lobos…",
+            "text": "Estás por dirigir el Círculo de Familia y hay otros dos Viejos Lobos contigo. Uno te pregunta dónde se paran ellos. ¿Qué les dices?",
             "options": [
-              "Se ubican dentro del círculo, repartidos entre los Cachorros, para mantener el orden.",
-              "Se ubican detrás del círculo, como símbolo de protección de la Familia que está reunida.",
-              "Aprovechan para alistar el material de la siguiente actividad fuera del salón."
+              "Que se repartan entre los Cachorros, dentro del círculo, y te ayuden a sostener el orden desde adentro.",
+              "Que se queden detrás del círculo: ahí la Familia se ve reunida y ellos son símbolo de protección.",
+              "Que aprovechen el rato para dejar listo el material de la siguiente actividad y no perder tiempo."
             ],
             "correctIndex": 1
           }
@@ -512,7 +512,7 @@
         },
         {
           "type": "info-box",
-          "text": "<strong>El riesgo de esta lección, dicho de frente.</strong> Es fácil usar el marco simbólico como adorno: una pancarta de Mowgli en la pared, un Eo-Wawa de vez en cuando, y el resto de la reunión en idioma de adultos. Marco simbólico es que las instrucciones, los reconocimientos y las historias <em>ocurran</em> en la Selva."
+          "text": "<strong>El riesgo de esta lección, dicho de frente.</strong> Es fácil usar el marco simbólico como adorno: una pancarta de Mowgli en la pared, un Eo-Wawa de vez en cuando, y el resto de la reunión en idioma de adultos. Marco simbólico es que las instrucciones, los reconocimientos y las historias <em>ocurran</em> en la Selva. Pregúntatelo así: si Salomé contara en su casa lo que pasó el sábado, ¿contaría una reunión o contaría algo que ocurrió en la Selva?"
         }
       ],
       "reflection": {
@@ -560,7 +560,13 @@
         },
         {
           "type": "paragraph",
-          "text": "La Guía las define así: <em>\"Una Dimensión es un campo de formación que agrupa un conjunto de habilidades, actitudes y valores que se desarrollan de manera interrelacionada, y que permiten al niño crecer de forma integral\"</em> (§8.5, p. 54 del PDF)."
+          "text": "La Guía las define así:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Qué es una Dimensión",
+          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §8.5, p. 54 del PDF.",
+          "text": "Una Dimensión es un campo de formación que agrupa un conjunto de habilidades, actitudes y valores que se desarrollan de manera interrelacionada, y que permiten al niño crecer de forma integral."
         },
         {
           "type": "list",
@@ -599,7 +605,17 @@
         },
         {
           "type": "paragraph",
-          "text": "El Cachorro que llega entra a la <strong>Etapa de Adaptación</strong>, de <strong>dos meses aproximadamente</strong>, orientada a <em>\"facilitar una integración gradual, segura y significativa del niño o niña a la vida en el Cubil\"</em> (§8.6, p. 57 del PDF). Es tiempo para conocer, explorar y sentirse parte — no para evaluar. Termina con la Investidura."
+          "text": "El Cachorro que llega entra a la <strong>Etapa de Adaptación</strong>, de <strong>dos meses aproximadamente</strong>. La Guía dice a qué está orientada:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Para qué es la Etapa de Adaptación",
+          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §8.6, p. 57 del PDF.",
+          "text": "…facilitar una integración gradual, segura y significativa del niño o niña a la vida en el Cubil."
+        },
+        {
+          "type": "paragraph",
+          "text": "Es tiempo para conocer, explorar y sentirse parte — no para evaluar. Termina con la Investidura."
         },
         {
           "type": "heading",
@@ -666,11 +682,27 @@
         },
         {
           "type": "paragraph",
-          "text": "Y al final está la <strong>Etapa de Transición</strong>, llamada <strong>Cachorro Explorador</strong>. La Guía lo dice con cuidado: el paso a la Manada <em>\"no debe vivirse como un cambio abrupto ni como una ruptura en el camino del Cachorro, sino como una continuidad natural del viaje fantástico\"</em> (§8.15, p. 67 del PDF)."
+          "text": "Y al final está la <strong>Etapa de Transición</strong>, llamada <strong>Cachorro Explorador</strong>. No es una despedida: es el mismo viaje que sigue en otra rama. La Guía lo dice con cuidado sobre el paso a la Manada:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 El paso a la Manada no es una ruptura",
+          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §8.15, p. 67 del PDF.",
+          "text": "…no debe vivirse como un cambio abrupto ni como una ruptura en el camino del Cachorro, sino como una continuidad natural del viaje fantástico."
         },
         {
           "type": "paragraph",
-          "text": "¿Y cuándo se hace ese paso? La Guía pone fecha: <em>\"idealmente, el paso a la Manada debe realizarse al cumplir los 7 años\"</em>, con una <em>\"flexibilidad máxima de hasta tres meses\"</em> después de esa edad, y solo con razones pedagógicas claras (§8.15, p. 68 del PDF). Tres meses es el margen — no es una puerta abierta."
+          "text": "¿Y cuándo se hace ese paso? La Guía pone fecha:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 La edad del paso a la Manada",
+          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §8.15, p. 68 del PDF.",
+          "text": "…idealmente, el paso a la Manada debe realizarse al cumplir los 7 años…"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hay una <em>\"flexibilidad máxima de hasta tres meses\"</em> después de los 7 años, y solo con razones pedagógicas claras (§8.15, p. 68 del PDF). Tres meses es el margen — no es una puerta abierta."
         },
         {
           "type": "heading",
@@ -689,7 +721,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Piensa en un Cachorro concreto de tu unidad, con nombre y cara. ¿En cuál de las cinco dimensiones lo has visto crecer este trimestre? ¿Y en cuál no te has fijado nunca? La segunda pregunta es la que importa."
+        "prompt": "Piensa en un Cachorro concreto de tu unidad, con nombre y cara —y si todavía no tienes unidad, en un niño de cinco años que conozcas—. ¿En cuál de las cinco dimensiones lo has visto crecer? ¿Y en cuál no te has fijado nunca? Esa segunda es la interesante, y no dice nada malo de ti: nadie mira las cinco a la vez. Termina escribiendo una sola cosa que vayas a mirar en esa dimensión la próxima reunión — una, concreta, del tamaño de un sábado."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7",
@@ -700,7 +732,7 @@
             "options": [
               "Nada en particular: comparar avances es una forma legítima de motivar a quienes van más despacio que el resto.",
               "Que la progresión se acompaña por dimensiones y ritmos propios de cada niño, no como una carrera entre ellos.",
-              "Que ese registro debería llevarlo en la herramienta oficial de la Dirección Nacional y no en un cuaderno suyo."
+              "Que, si lo que quiere es motivar a los que van más lento, reconozca en público al Cachorro que va primero."
             ],
             "correctIndex": 1
           },
@@ -775,7 +807,7 @@
         },
         {
           "type": "info-box",
-          "text": "🔗 <strong>Dónde sigue esto.</strong> Aquí aprendiste a <strong>planear</strong> una actividad segura. Qué hacer —y qué <strong>no</strong>— cuando un niño te revela un daño lo enseña la línea <strong>Políticas Transversales</strong>, en el curso <em>El adulto como garante de un entorno seguro</em>. Este curso enlaza allá y no lo reexplica, para que esa conducta tenga una sola fuente en toda la plataforma."
+          "text": "🔗 <strong>Dónde sigue esto.</strong> Aquí aprendiste a <strong>planear</strong> una actividad segura. Qué hacer —y qué <strong>no</strong>— cuando un niño te revela un daño lo enseña la línea <strong>Políticas Transversales</strong>, en el curso <em>El adulto como garante de un entorno seguro</em>. Este curso enlaza allá y no lo reexplica, para que esa conducta tenga una sola fuente en toda la plataforma. Esa línea todavía se está construyendo: mientras tanto, quédate con lo que sigue aquí abajo — la ruta de reporte ya existe y ya la puedes usar."
         },
         {
           "type": "paragraph",
@@ -801,11 +833,11 @@
         },
         {
           "type": "mission-box",
-          "text": "🎯 <strong>Tu primer paso como Viejo Lobo de Familia.</strong> No intentes cambiar la unidad entera el sábado. Escoge una sola cosa de este curso, pruébala en la próxima reunión, y mira qué pasa. Lo que aprendiste aquí se sostiene reunión a reunión, igual que un Cachorro crece."
+          "text": "🎯 <strong>Tu primer paso como Viejo Lobo de Familia.</strong> No intentes cambiar la unidad entera el sábado: escoge una sola cosa de este curso, pruébala en la próxima reunión y mira qué pasa. ¿Cuál? La que haga que el sábado se juegue más. Lo que aprendiste aquí se sostiene reunión a reunión, igual que un Cachorro crece — y si alguna vez dudas por dónde seguir, vuelve a la frase con la que abrimos: <strong>a los cinco años no se aprende escuchando. Se aprende jugando — y eso no es una concesión a la edad: es el método.</strong>"
         }
       ],
       "reflection": {
-        "prompt": "Escribe tres cosas, cortas y concretas: (1) el Nombre de Caza que vas a usar; (2) UNA cosa que vas a cambiar en tu próxima reunión por lo que viste en este curso; y (3) cómo vas a verificar la regla de los dos adultos antes de la próxima salida. La tercera es la que no se puede dejar para después."
+        "prompt": "Escribe tres cosas, cortas y concretas: (1) el Nombre de Caza que vas a usar; (2) UNA cosa que vas a cambiar en tu próxima reunión por lo que viste en este curso; y (3) la próxima salida de tu unidad: cuántos Cachorros van, cuántos adultos hacen falta según la proporción, quiénes son y quién los confirma esta semana. La tercera es la que no se puede dejar para después."
       },
       "quiz": {
         "title": "Mini-quiz Lección 8",
@@ -821,11 +853,11 @@
             "correctIndex": 1
           },
           {
-            "text": "Al final de la reunión, Salomé corre a abrazar a su Viejo Lobo. Según la Guía, lo correcto es…",
+            "text": "Al final de la reunión, Salomé corre a abrazar a su Viejo Lobo delante de todos. Según la Guía, lo correcto es…",
             "options": [
-              "Evitar el abrazo y explicarle que entre adultos y niños no puede haber contacto físico.",
-              "Agacharse a su altura y devolver el abrazo así, sin cargarla ni levantarla, y siempre a la vista.",
-              "Devolver el abrazo de pie y con normalidad, porque el afecto espontáneo de un niño no implica riesgo."
+              "Evitar el abrazo y explicarle que entre un adulto y un niño no puede haber ningún contacto en el Cubil.",
+              "Responder al abrazo con naturalidad y en corto, ahí mismo, donde el otro Viejo Lobo y las familias los ven.",
+              "Apartarse con ella a un lado para despedirse tranquilos y que el resto del grupo no se distraiga."
             ],
             "correctIndex": 1
           }
