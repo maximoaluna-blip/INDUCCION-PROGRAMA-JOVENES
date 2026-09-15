@@ -2,8 +2,8 @@
   "courseId": "metodo-scout-8-elementos",
   "title": "El Método Scout y sus 8 elementos",
   "subtitle": "El \"cómo\" del Movimiento — un sistema, no una lista",
-  "description": "El curso más largo y más importante del Nivel 1. En ~40 minutos vas a entender el Método Scout como un sistema de autoeducación progresiva basado en 8 elementos interdependientes — no una lista de técnicas que se eligen a gusto. Vas a recorrer los 8 elementos en 4 parejas, ver las 4 Dinámicas del Escultismo en acción y salir con un plan concreto para integrar el Método en tu próxima reunión.",
-  "contentVersion": "2026-08-02",
+  "description": "El curso más largo y más importante del Nivel 1. En ~40 minutos vas a entender el Método Scout como un sistema de autoeducación progresiva basado en 8 elementos interdependientes — no una lista de técnicas que se eligen a gusto. Vas a recorrer los 8 elementos en 4 parejas, ver las 4 dinámicas que hacen visible el Método en tu unidad y salir con un plan concreto para integrar el Método en tu próxima reunión.",
+  "contentVersion": "2026-09-15",
   "icon": "🧭",
   "duration": "40 minutos",
   "level": 1,
@@ -59,17 +59,17 @@
         },
         {
           "type": "paragraph",
-          "text": "Si abres The Scout Method de la OMMS vas a leer \"sistema de autoeducación progresiva basado en la interacción de elementos igualmente importantes que funcionan como un sistema cohesivo\". Es exacto, lo adoptó la 41ª Conferencia Scout Mundial en 2017 y la PNPJ 2024 lo asumió tal cual. Y, si nunca has hecho un curso así, es difícil de digerir en frío. Vamos a llegar a esa frase, pero por el camino aterrizado."
+          "text": "Si abres The Scout Method de la OMMS vas a leer \"sistema de autoeducación progresiva… basado en la interacción de elementos igualmente importantes que funcionan como un sistema cohesivo\". Es exacto: lo aprobó la 41ª Conferencia Scout Mundial en 2017 y la PNPJ 2024 lo adoptó (§4.2, p. 7). Y, si nunca has hecho un curso así, es difícil de digerir en frío. Vamos a llegar a esa frase, pero por el camino aterrizado."
         },
         {
           "type": "policy-quote",
           "label": "📋 Ver la definición oficial",
-          "source": "The Scout Method, OMMS 2019 (Resolución 41 ª Conferencia Scout Mundial 2017-04), p. 14.",
-          "text": "El Método Scout es un sistema de autoeducación progresiva basado en la interacción de elementos igualmente importantes que funcionan como un sistema cohesivo."
+          "source": "The Scout Method, OMMS 2019 (Resolución 41 ª Conferencia Scout Mundial 2017-04), p. 14, dos frases unidas — traducción propia del original en inglés. Equivalente vigente en español: Modelo de Aplicación 2026, §3.1, p. 11.",
+          "text": "El Método Scout es un sistema de autoeducación progresiva… basado en la interacción de elementos igualmente importantes que funcionan como un sistema cohesivo."
         },
         {
           "type": "info-box",
-          "text": "En palabras simples: el Método Scout es la forma en que el Movimiento educa. Y esa forma no es una lista de técnicas sueltas que tú puedas escoger según el día — es un sistema de 8 piezas que se sostienen mutuamente. Quitas una, se cae todo. La definición oficial dice eso mismo, en lenguaje doctrinal."
+          "text": "En palabras simples: el Método Scout es la forma en que el Movimiento educa. Y esa forma no es una lista de técnicas sueltas que tú puedas escoger según el día — es un sistema de 8 piezas que se sostienen mutuamente. Quitas una, se cae todo — y esa combinación equilibrada es lo que hace único al escultismo. La definición oficial dice eso mismo, en lenguaje doctrinal."
         },
         {
           "type": "heading",
@@ -126,7 +126,7 @@
         },
         {
           "type": "info-box",
-          "text": "Para los que tienen ojos para ver y oídos para oír, el bosque es a la vez un laboratorio, un club y un templo. (B-P, Rovering to Success)"
+          "text": "Para quienes tienen ojos para ver y oídos para oír, el bosque es a la vez un laboratorio, un club y un templo. (B-P, Rovering to Success)"
         }
       ],
       "reflection": {
@@ -178,13 +178,17 @@
         },
         {
           "type": "policy-quote",
-          "label": "📋 La cita central de la Promesa",
-          "source": "Robert Baden-Powell.",
-          "text": "El honor de un Scout es ser digno de confianza."
+          "label": "📋 La cita central de la Ley",
+          "source": "Ley Scout, artículo 1 — PNPJ 2024, p. 24.",
+          "text": "El Scout cifra su honor en ser digno de confianza."
         },
         {
           "type": "paragraph",
-          "text": "En cada rama, la Promesa y la Ley se formulan con el lenguaje propio de la edad: la Ley del Cachorro, la Ley del Lobato, la Ley Scout, la Ley Nómada, la Ley Rover. Lo importante: en todas ellas, el joven dice 'yo prometo' libremente. No 'yo obedezco'. No 'yo cumplo porque me obligan'. La voluntariedad es la condición."
+          "text": "Esa palabra, 'cifra', quiere decir: mi honor está puesto ahí. Si no se puede confiar en mí, no me queda nada."
+        },
+        {
+          "type": "paragraph",
+          "text": "En cada rama, la Promesa y la Ley se formulan con el lenguaje propio de la edad: la Ley del Cachorro, la Ley de la Manada, la Ley Scout, la Ley del Nómada Scout, y en el Clan la Ley Scout dicha en clave Rover. Lo importante: en todas ellas, el joven dice 'yo prometo' libremente. No 'yo obedezco'. No 'yo cumplo porque me obligan'. La voluntariedad es la condición."
         },
         {
           "type": "heading",
@@ -193,13 +197,13 @@
         },
         {
           "type": "paragraph",
-          "text": "Es el principio pedagógico que B-P pidió prestado a John Dewey y a la educación activa de comienzos del siglo XX. <strong>No se aprende escuchando; se aprende intentando, equivocándose y mejorando.</strong> En la unidad, esto significa: dejar que la patrulla cocine sola aunque tarde el doble; dejar que el lobato amarre el nudo aunque le quede flojo; dejar que el rover lidere el proyecto aunque a veces se atasque."
+          "text": "Es la misma familia de ideas de la educación activa: el Modelo 2026 conecta el aprender haciendo con John Dewey y con el aprendizaje experiencial de Kolb (p. 8). <strong>No se aprende escuchando; se aprende intentando, equivocándose y mejorando.</strong> En la unidad, esto significa: dejar que la patrulla cocine sola aunque tarde el doble; dejar que el lobato amarre el nudo aunque le quede flojo; dejar que el rover lidere el proyecto aunque a veces se atasque."
         },
         {
           "type": "policy-quote",
           "label": "📋 La cita de Aprender Haciendo",
-          "source": "Baden-Powell.",
-          "text": "El método de instrucción en el escultismo es el de crear en el muchacho el deseo de aprender por sí mismo."
+          "source": "Baden-Powell, citado en la PNPJ 2024, p. 11.",
+          "text": "El método de instrucción en el Escultismo consiste en crear en el muchacho el deseo de aprender por sí mismo."
         },
         {
           "type": "info-box",
@@ -255,7 +259,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El Modelo de Aplicación 2026 enuncia 3 momentos de aprendizaje en cada oportunidad: <strong>Exploro</strong> (primer contacto), <strong>Aplico</strong> (práctica acompañada), <strong>Profundizo</strong> (transferencia y autonomía). Verlas como un ciclo, no como un examen."
+          "text": "El Modelo de Aplicación 2026 marca <strong>tres niveles</strong> por los que pasa cada competencia educativa, en este orden: <strong>Exploro</strong> (la conozco por primera vez), <strong>Aplico</strong> (la pongo en práctica en situaciones reales), <strong>Profundizo</strong> (ya es parte de mí y la pongo al servicio). No es un examen ni una carrera: una misma actividad suele trabajar <strong>un</strong> nivel, y cada joven va a su ritmo."
         },
         {
           "type": "heading",
@@ -303,7 +307,7 @@
         },
         {
           "type": "paragraph",
-          "text": "En la Tropa, el Sistema de Patrullas es <strong>el corazón del Método</strong>, según B-P. Una patrulla bien constituida lidera sus propias actividades, planea su comida, organiza su rincón, resuelve sus conflictos. El Jefe de Tropa no manda a las patrullas; trabaja con los Guías de Patrulla."
+          "text": "En la Tropa, el Sistema de Patrullas es <strong>lo que más claramente distingue al escultismo</strong>: B-P lo llamó 'la característica esencial que diferencia a la educación scout de la que ofrecen todas las demás organizaciones similares' (1919). Una patrulla bien constituida lidera sus propias actividades, planea su comida, organiza su rincón, resuelve sus conflictos. El Jefe de Tropa no manda a las patrullas; trabaja con los Guías de Patrulla."
         },
         {
           "type": "info-box",
@@ -355,17 +359,17 @@
         },
         {
           "type": "paragraph",
-          "text": "En el Curso 4 viste la frase eje del Movimiento (OMMS 2019, p. 21): de jóvenes, para jóvenes, <strong>apoyado por adultos</strong>. Aquí ese 'apoyo' se vuelve elemento metodológico. Las Características Esenciales enuncian <strong>4 tipos de apoyo del adulto</strong> (recordatorio del Curso 4, L5): educativo, emocional, informativo, evaluativo."
+          "text": "En el Curso 4 viste la frase eje del Movimiento (Características Esenciales, OMMS 2019, p. 28): de jóvenes, para jóvenes, <strong>apoyado por adultos</strong>. Aquí ese 'apoyo' se vuelve elemento metodológico. Las Características Esenciales enuncian <strong>4 tipos de apoyo del adulto</strong> (recordatorio del Curso 4, L5): educativo, emocional, informativo, evaluativo."
         },
         {
           "type": "paragraph",
-          "text": "El Modelo de Aplicación 2026 traduce esto en <strong>3 roles del dirigente</strong>: <strong>Apoyar</strong> (preparar las condiciones para que el joven actúe), <strong>Acompañar</strong> (estar presente en el proceso), <strong>Enlazar</strong> (conectar al joven con el grupo, la familia, el territorio y la institución)."
+          "text": "El Modelo de Aplicación 2026 lo resume en tres palabras: <strong>Apoyar</strong> (preparar), <strong>Acompañar</strong> (sostener), <strong>Enlazar</strong> (proyectar). Apoyar es dejar la escena lista para que el joven se atreva. Acompañar es estar cerca mientras practica, sin resolverle. Enlazar es abrirle puertas <strong>fuera del grupo</strong> —gente que sabe, organizaciones del barrio, proyectos más grandes— cuando ya está listo para profundizar. El Modelo empareja cada uno con los tres niveles que viste en la Lección 4: Apoyar va con Exploro, Acompañar con Aplico y Enlazar con Profundizo (§9.2)."
         },
         {
           "type": "policy-quote",
           "label": "📋 El rol del adulto según B-P",
-          "source": "Robert Baden-Powell, citado por la OMMS.",
-          "text": "El instructor no es un maestro: es un hermano mayor."
+          "source": "B-P, Orientaciones para la tarea del dirigente scout (1919), citado en el Manual de la Rama Scout (Región Interamericana), p. 166.",
+          "text": "Hacer las veces de hermano mayor, esto es, considerar las cosas desde el punto de vista de los jóvenes, guiarlos por el buen sendero, transmitirles entusiasmo."
         },
         {
           "type": "heading",
@@ -393,23 +397,27 @@
             },
             {
               "title": "⚜️ Tropa",
-              "description": "Marco propio Scout: Patrulla, Honor, Hermandad.",
+              "description": "La vida en patrullas y la aventura al aire libre.",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             },
             {
               "title": "🧗 Comunidad",
-              "description": "Aventura y Ciudadanía.",
+              "description": "La aventura hacia la ciudadanía; se nutre de las historias que la humanidad ha recogido a lo largo del tiempo.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
             {
               "title": "🏔️ Clan",
-              "description": "Rovering propio: Vigilia, Peregrinaje, Partida.",
+              "description": "La Ley y la Promesa llevadas a la vida real, con sus momentos propios: Vigilia, Peregrinaje y Partida.",
               "color": "#ede7f6",
               "borderColor": "#5e35b1"
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Familia y Manada comparten el Libro de las Tierras Vírgenes; en Familia se vive sobre todo a través de los Hermanos de Mowgli y los Nombres de Caza."
         },
         {
           "type": "info-box",
@@ -426,9 +434,9 @@
           {
             "text": "En tu reunión, una patrulla tiene que organizar su rincón. ¿Cuál de estas acciones encaja con el rol de Apoyar (preparar las condiciones para que el joven actúe), y no con dirigir?",
             "options": [
-              "Les organizas tú el rincón para que quede bien y ahorrar tiempo.",
-              "Dejas listos los materiales y el espacio, y los dejas decidir cómo lo arman.",
-              "Les dices paso a paso dónde va cada cosa mientras ellos miran."
+              "Les organizas tú el rincón antes de la reunión, para que quede bien y no perder tiempo.",
+              "Les dejas listos los materiales y el espacio, y los dejas decidir cómo lo arman.",
+              "Les dices paso a paso dónde va cada cosa y en qué orden, mientras ellos miran."
             ],
             "correctIndex": 1
           },
@@ -437,7 +445,7 @@
             "options": [
               "Los Hermanos de Mowgli y los Nombres de Caza.",
               "El Libro de las Tierras Vírgenes (Kipling).",
-              "La Aventura y la Ciudadanía."
+              "La aventura hacia la ciudadanía."
             ],
             "correctIndex": 1
           }
@@ -466,12 +474,12 @@
         {
           "type": "policy-quote",
           "label": "📋 La frase de B-P sobre la naturaleza",
-          "source": "Baden-Powell, Rovering to Success, citado en The Scout Method, OMMS 2019, p. 25.",
+          "source": "Baden-Powell, Rovering to Success, citado en The Scout Method, OMMS 2019, p. 25 — traducción propia del original en inglés.",
           "text": "Para quienes tienen ojos para ver y oídos para oír, el bosque es a la vez un laboratorio, un club y un templo."
         },
         {
           "type": "paragraph",
-          "text": "La PNPJ 2024 reconoce la Naturaleza como un elemento propio del Método, e insiste en que implica mucho más que hacer actividades al aire libre: se trata de un contacto constructivo con el entorno natural. Por eso preocupa que cada vez se acampe menos, se camine menos, se esté menos en contacto real con la naturaleza. La política pide recuperar ese eje."
+          "text": "La PNPJ 2024 reconoce la Naturaleza como un elemento propio del Método, y es clara: usar la naturaleza 'implica más que actividades realizadas al aire libre… implica el desarrollo de un contacto constructivo con la Naturaleza' (p. 19-20). Vale la pena preguntarse, honestamente, cuánto de eso está pasando en tu unidad."
         },
         {
           "type": "heading",
@@ -480,12 +488,12 @@
         },
         {
           "type": "paragraph",
-          "text": "El Movimiento no educa para encerrarse en la unidad. Educa para servir y participar. La Participación en la Comunidad incluye proyectos de servicio en el barrio, articulación con organizaciones locales, ejercicio de ciudadanía en espacios públicos. La PNPJ 2024 lo titula <strong>'Participación comunitaria'</strong>: ayudar a construir un mundo mejor desde la ciudadanía activa, en el <strong>territorio</strong> —el espacio físico, social, cultural y comunitario— donde el joven vive."
+          "text": "El Movimiento no educa para encerrarse en la unidad. Educa para servir y participar. La Participación en la Comunidad incluye proyectos de servicio en el barrio, articulación con organizaciones locales, ejercicio de ciudadanía en espacios públicos. La PNPJ 2024 lo titula <strong>'Participación comunitaria'</strong>: ayudar a construir un mundo mejor desde la ciudadanía activa, en el <strong>territorio</strong> donde vive: su barrio, su colegio, su comunidad. El Modelo de Aplicación 2026 lo describe como un lugar con cuatro caras: la física (dónde pasa), la simbólica (qué significa), la de las relaciones (con quién) y la transformadora (qué cambia ahí gracias a ellos) — §8.2, p. 53."
         },
         {
           "type": "policy-quote",
           "label": "📋 Servir CON, no PARA",
-          "source": "The Scout Method, OMMS 2019, p. 27.",
+          "source": "The Scout Method, OMMS 2019, p. 27 — traducción propia del original en inglés.",
           "text": "El servicio no debe verse simplemente como hacer cosas para los demás, sino que, por la implicación, supone hacer cosas con los demás."
         },
         {
@@ -533,7 +541,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Los 8 elementos no se aplican uno por uno como una checklist. Se viven simultáneamente. The Scout Method (OMMS 2019, pp. 28-31) llama a estas manifestaciones simultáneas <strong>'las 4 Dinámicas del Escultismo'</strong>. Son la forma en que el Método se hace visible en la vida real de la unidad."
+          "text": "Los 8 elementos no se aplican uno por uno como una checklist. Se viven simultáneamente. The Scout Method (OMMS 2019, pp. 28-32) las describe como cuatro ingredientes que se necesitan entre sí; en este curso las llamamos <strong>las 4 Dinámicas del Escultismo</strong>. Son la forma en que el Método se hace visible en la vida real de la unidad."
         },
         {
           "type": "heading",
@@ -544,8 +552,8 @@
           "type": "method-grid",
           "items": [
             {
-              "title": "🎯 Objetivos Educativos",
-              "description": "el norte del crecimiento del protagonista (las competencias terminales e intermedias por rama).",
+              "title": "🎯 Competencias Educativas",
+              "description": "el norte del crecimiento del protagonista: qué queremos que aprenda a hacer en su vida diaria. Se escriben como competencias terminales (lo que logra al salir de la rama) e intermedias (los pasos para llegar).",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
@@ -571,7 +579,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Una unidad con Programa de calidad muestra las 4 Dinámicas activas a la vez. Una unidad que solo cuida los Objetivos pero descuida la Vida de Grupo se vuelve fría. Una que solo cuida la Vida de Grupo pero no tiene Objetivos se vuelve divertida pero no educativa."
+          "text": "Una unidad con Programa de calidad muestra las 4 Dinámicas activas a la vez. El Modelo 2026 lo dice a su manera: mira la unidad como un ecosistema donde todo eso tiene que estar vivo al tiempo (§3.2, p. 16). Una unidad que solo cuida las competencias educativas pero descuida la Vida de Grupo se vuelve fría. Una que solo cuida la Vida de Grupo pero no tiene claro qué quiere que sus jóvenes aprendan se vuelve divertida pero no educativa."
         },
         {
           "type": "heading",
@@ -584,22 +592,22 @@
         },
         {
           "type": "info-box",
-          "text": "En el Curso 14 del Nivel 2 vas a aprender a planear reuniones aplicando DURASLID con la herramienta oficial Excel DNPJ. Hoy solo guarda el filtro."
+          "text": "En el Curso 14 del Nivel 2 —«Planeación de Reuniones y Oportunidades de Aprendizaje»— vas a aprender a planear reuniones aplicando DURASLID con la herramienta oficial Excel DNPJ. Hoy solo guarda el filtro."
         }
       ],
       "reflection": {
-        "prompt": "De las 4 Dinámicas (Objetivos, Oportunidades, Vida de Grupo, Estructura), ¿cuál es la que mejor funciona en tu unidad y cuál la que peor?"
+        "prompt": "De las 4 Dinámicas (Competencias Educativas, Oportunidades, Vida de Grupo, Estructura), ¿cuál es la que mejor funciona en tu unidad y cuál la que peor?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 7",
         "nextLabel": "Continuar a tu próxima reunión ✍️",
         "questions": [
           {
-            "text": "Las 4 Dinámicas del Escultismo son…",
+            "text": "Cuando miras tu unidad completa, ¿qué cuatro cosas tienen que estar funcionando a la vez?",
             "options": [
-              "Promesa, Ley, Sistema de Patrullas y Naturaleza, que son los elementos más antiguos del Método Scout.",
-              "Objetivos Educativos, Oportunidades de Aprendizaje, Vida de Grupo, Estructura y Funcionamiento.",
-              "Apoyar, Acompañar, Enlazar y Evaluar, que describen las tareas del dirigente en la unidad."
+              "Promesa, Ley, Sistema de Equipos y Naturaleza, que son cuatro de los ocho elementos del Método Scout y los más antiguos del Movimiento.",
+              "Las competencias educativas, las oportunidades de aprendizaje, la vida de grupo, y la estructura y el funcionamiento de la unidad.",
+              "Apoyar, Acompañar, Enlazar y Evaluar, que describen las tareas del dirigente cuando acompaña el crecimiento de su unidad."
             ],
             "correctIndex": 1
           },
@@ -627,35 +635,35 @@
         },
         {
           "type": "paragraph",
-          "text": "Vas a hacer el ejercicio más importante del Nivel 1. Piensa en la próxima reunión de tu unidad (o de la unidad que vas a acompañar). Vamos a ver qué tan bien integra los 8 elementos."
+          "text": "Vas a hacer el ejercicio más importante del Nivel 1. Piensa en tus últimas cuatro reuniones juntas. La PNPJ lo dice así: una foto de un día no alcanza a mostrar los 8 elementos; una película de varias semanas, sí (p. 8). Vamos a ver qué tan bien integran los 8 elementos."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Checklist de los 8 elementos para tu próxima reunión"
+          "text": "Checklist de los 8 elementos para tus próximas cuatro reuniones"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "<strong>Promesa y Ley</strong> — ¿Hay un momento de la reunión donde se mencione, se viva o se reconozca la Promesa o algún punto de la Ley?",
+            "<strong>Promesa y Ley</strong> — ¿Hay un momento en las cuatro reuniones donde se mencione, se viva o se reconozca la Promesa o algún punto de la Ley?",
             "<strong>Aprender Haciendo</strong> — ¿Los protagonistas van a <strong>hacer</strong> algo, o solo van a <strong>escuchar y mirar</strong>?",
-            "<strong>Progresión Personal</strong> — ¿La reunión contempla observar o registrar avances de algún protagonista en alguna área?",
+            "<strong>Progresión Personal</strong> — ¿Las cuatro reuniones contemplan observar o registrar avances de algún protagonista en alguna área?",
             "<strong>Sistema de Equipos</strong> — ¿Hay momentos donde el pequeño grupo (camada/seisena/patrulla/equipo) opera por sí mismo, no como gran grupo?",
             "<strong>Apoyo del Adulto</strong> — ¿El adulto está en rol de Apoyar/Acompañar/Enlazar — o en rol de dirigir y entretener?",
             "<strong>Marco Simbólico</strong> — ¿El lenguaje, los símbolos, las ceremonias propias de la rama están presentes?",
-            "<strong>Naturaleza</strong> — ¿La reunión ocurre o se conecta con un espacio natural (parque, cerro, jardín, plaza con árboles)?",
-            "<strong>Participación en la Comunidad</strong> — ¿Hay algún hilo que vincule la reunión con el territorio (familia, barrio, escuela, comunidad)?"
+            "<strong>Naturaleza</strong> — ¿Alguna de las cuatro reuniones ocurre o se conecta con un espacio natural (parque, cerro, jardín, plaza con árboles)?",
+            "<strong>Participación en la Comunidad</strong> — ¿Hay algún hilo que vincule las cuatro reuniones con el territorio (familia, barrio, escuela, comunidad)?"
           ]
         },
         {
           "type": "paragraph",
-          "text": "Si respondiste 'no' o 'no sé' a más de 3 de las 8: tu próxima reunión necesita ajustes. Si respondiste 'sí' a las 8: vas en camino del Método; sigue cuidando que el sistema se mantenga."
+          "text": "Si respondiste 'no' o 'no sé' a más de 3 de las 8: tus próximas cuatro reuniones necesitan ajustes. Si respondiste 'sí' a las 8: vas en camino del Método; sigue cuidando que el sistema se mantenga."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Mi ajuste de esta semana"
+          "text": "Mi ajuste para la próxima reunión"
         },
         {
           "type": "paragraph",
@@ -684,17 +692,17 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tu ajuste de esta semana (paso 7) y guárdalo. Lo vas a recibir por correo con tu certificado."
+        "prompt": "Escribe tu ajuste para la próxima reunión (paso 7) y guárdalo. Lo vas a recibir por correo con tu certificado."
       },
       "quiz": {
         "title": "Mini-quiz Lección 8",
         "nextLabel": "Obtener mi certificado 🎓",
         "questions": [
           {
-            "text": "Si una reunión cumple solo 3 de los 8 elementos del Método, lo más correcto es…",
+            "text": "Si en un trimestre tu unidad solo trabajó 3 de los 8 elementos del Método, lo más correcto es…",
             "options": [
               "Está perfecto; cada rama elige los elementos que más le sirven.",
-              "Hay que ajustar la próxima reunión para volver a integrar el sistema completo.",
+              "Hay que ajustar la planeación para volver a integrar el sistema completo.",
               "Cambiar de método y aplicar uno escolar."
             ],
             "correctIndex": 1
