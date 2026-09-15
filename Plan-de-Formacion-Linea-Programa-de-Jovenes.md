@@ -201,6 +201,8 @@ Cada dirigente toma el curso de la rama en la que sirve. Idealmente cursa tambi�
 >
 > **No se tocó nada publicado.** El JSON de `rama-manada-lobatos` sigue diciendo 8 y su certificado también. Las dos salidas —renumerar Manada a 9 y republicar, o dejarla en 8 y reordenar el Nivel 2— tienen costo distinto sobre certificados ya emitidos, y esa es la parte que no decide el documento.
 >
+> **Esto solo bloquea a Rama Familia.** Bajo las dos salidas, **Tropa es el 10, Comunidad el 11 y Clan el 12** — lo único en disputa es quién se queda con el 8. Esas tres se pueden construir sin esperar.
+>
 > **Mientras tanto: cita por `courseId`.** Es lo único que no se mueve.
 
 | # | Curso | Edades | Sirve a quién | Foco |
@@ -331,6 +333,7 @@ Toda la línea se basa en documentos oficiales y materiales validados de la ASC,
 - **Guía del Dirigente de Familia** (DNPJ 2026, 83 pp) y **Cómo crear una Familia de Cachorros** (DNPJ-2026-065, 23 pp).
 - **Guía de Dirigente de Manada** (DNPJ 2026, 69 pp) y **Manual de Presentación y Buen Orden de la Manada** (DNPJ, 23 pp).
 - **Guía de Buenas Prácticas para Jefes de Tropa** (DNPJ 2026, Módulo 1, 32 pp).
+  - *Verificado el 15-sep-2026: **Tropa es la única rama sin «Guía de Dirigente» 2026.** Lo que hay es este Módulo 1, que cubre edad de la rama, presentación y buen orden, elementos de identidad, sistema de patrullas, progresión personal y especialidades — su índice es, casi literal, la fila del Curso 10 de §4.1. **Lo que no trae** (Promesa y Ley Scout, marco simbólico) está en el Modelo de Aplicación 2026: Promesa en 14 páginas, Ley Scout en 7, Marco Simbólico en 12, Patrulla en 17. **El Curso 10 es construible sin esperar nada**, solo con las fuentes repartidas distinto que en las otras ramas. En la biblioteca local hay además una* Guía para el Dirigente de Tropa *de **2018**: es referencia histórica y **no se cita como vigente**.*
 - **Guía de Dirigente de Comunidad** (DNPJ 2026, 48 pp).
 - **Guía de Dirigente de Clan** (DNPJ 2026, 63 pp).
 - **Recursos Educativos para Dirigentes — Herramientas de Seguimiento para la Progresión Personal 2.0** (DNPJ, 42 pp).
