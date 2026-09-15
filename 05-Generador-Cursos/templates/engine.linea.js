@@ -186,50 +186,14 @@ function calculateAssessment(assessmentId) {
     showNotification('✅ Perfil calculado y guardado');
 }
 
-function loadProfileIntoPlan(builderId) {
-    var profile = getCompetencyProfile();
-    var banner = document.getElementById('pb-profile-' + builderId);
-    if (!profile || !profile.opportunities) {
-        if (banner) {
-            banner.classList.add('no-profile');
-            banner.innerHTML = '<strong>ℹ️ No encontramos tu perfil del Curso 4.</strong><br>Si todavía no has hecho el autodiagnóstico, te recomendamos hacerlo primero — pero puedes construir tu plan igual marcando manualmente las competencias que quieres trabajar.';
-        }
-        return;
-    }
-    if (isProfileStale(profile)) {
-        if (banner) {
-            banner.classList.add('no-profile');
-            banner.innerHTML = '<strong>🔄 Actualizamos el autodiagnóstico.</strong><br>Corregimos los grados de varias competencias para que coincidan con el diccionario oficial, así que tu perfil anterior ya no describe los mismos peldaños. <strong>Vuelve a hacer el autodiagnóstico</strong> — son pocos minutos y tu plan quedará bien calibrado. Mientras tanto puedes marcar las competencias a mano.';
-        }
-        return;
-    }
-    if (banner) {
-        banner.classList.remove('no-profile');
-        banner.innerHTML = '<strong>✅ Tu perfil del Curso 4 está cargado.</strong><br>Tus 3 áreas de oportunidad ya vienen pre-seleccionadas. Puedes cambiarlas si quieres.';
-    }
-    // Pre-check the 3 opportunities and show their grade
-    var grades = profile.grades || {};
-    profile.opportunities.forEach(function (compId) {
-        var checkbox = document.querySelector('.pb-comp-check[data-competence="' + compId + '"]');
-        if (checkbox) {
-            checkbox.checked = true;
-            togglePlanCompetence(builderId, compId);
-        }
-    });
-    Object.keys(grades).forEach(function (compId) {
-        var gradeEl = document.getElementById('pb-grade-' + compId);
-        if (gradeEl) {
-            gradeEl.textContent = 'Grado ' + grades[compId];
-            if (profile.opportunities.indexOf(compId) >= 0) gradeEl.classList.add('priority');
-        }
-    });
-    showNotification('✅ Perfil del Curso 3 cargado');
-}
+// loadProfileIntoPlan eliminada (23-ago-2026): cargaba el perfil de competencias
+// del ADULTO (Curso 4 de Política de Adultos) en un ejercicio sobre ÁREAS DE CRECIMIENTO
+// del joven. En PJ ningún curso produce ese perfil. Ver GLOSARIO-ASC.md §E-bis.
 
 function generatePlan(builderId) {
     var plan = personalPlans[builderId];
-    if (!plan || !plan.competences || Object.keys(plan.competences).length === 0) {
-        showNotification('⚠️ Selecciona al menos 1 competencia y completa sus campos antes de generar el plan.', 'warning');
+    if (!plan || !plan.competences || Object.keys(plan.competences).length < 2) {
+        showNotification('⚠️ La lección te pide elegir 2 áreas de crecimiento. Marca al menos 2 y completa sus campos antes de generar el plan.', 'warning');
         return;
     }
     // Validate fields
@@ -239,7 +203,7 @@ function generatePlan(builderId) {
         return !d.meta || !d.meta.trim() || !d.plazo || !d.plazo.trim() || !d.recursos || !d.recursos.trim();
     });
     if (incomplete.length > 0) {
-        showNotification('⚠️ Hay campos vacíos. Completa meta, plazo y recursos en todas las competencias seleccionadas.', 'warning');
+        showNotification('⚠️ Hay campos vacíos. Completa meta, plazo y recursos en todas las áreas seleccionadas.', 'warning');
         return;
     }
     // Get competence names from checkboxes
@@ -247,16 +211,13 @@ function generatePlan(builderId) {
     document.querySelectorAll('.pb-comp-check').forEach(function (cb) {
         nameByCompId[cb.getAttribute('data-competence')] = cb.getAttribute('data-name');
     });
-    var profile = getCompetencyProfile();
-    var grades = (profile && profile.grades) || {};
     var fullName = (userProfile && userProfile.fullName) || 'Adulto del Movimiento';
     var groupName = (userProfile && userProfile.group) || '—';
     var dateStr = new Date().toLocaleDateString('es-CO', { year: 'numeric', month: 'long', day: 'numeric' });
     var prioritiesHtml = entries.map(function (compId, idx) {
         var d = plan.competences[compId];
         var name = nameByCompId[compId] || compId;
-        var grade = grades[compId] ? ' (Grado actual: ' + grades[compId] + ')' : '';
-        return '<div class="pb-priority"><h3>' + (idx + 1) + '. ' + name + grade + '</h3>' +
+        return '<div class="pb-priority"><h3>' + (idx + 1) + '. ' + name + '</h3>' +
             '<dt>🎯 Meta concreta</dt><dd>' + escapeHtml(d.meta) + '</dd>' +
             '<dt>⏰ Plazo</dt><dd>' + escapeHtml(d.plazo) + '</dd>' +
             '<dt>📚 Recursos</dt><dd>' + escapeHtml(d.recursos) + '</dd></div>';

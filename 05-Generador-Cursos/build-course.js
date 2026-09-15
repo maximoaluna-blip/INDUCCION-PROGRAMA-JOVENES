@@ -286,7 +286,7 @@ function renderSection(section) {
                     </label>
                     <div class="pb-comp-fields hidden" id="pb-fields-${c.id}">
                         <label class="pb-field-label">🎯 Meta concreta (qué quieres lograr)</label>
-                        <textarea class="pb-field-meta" data-competence="${c.id}" aria-label="Meta concreta para ${c.name}" placeholder="Ej: pasar del grado 2 al 3 en esta competencia, evidenciado en..." onchange="savePlanField('${pbId}', '${c.id}', 'meta', this.value)"></textarea>
+                        <textarea class="pb-field-meta" data-competence="${c.id}" aria-label="Meta concreta para ${c.name}" placeholder="Ej: qué quieres lograr en esta área con tu unidad este trimestre, y en qué se va a notar el avance..." onchange="savePlanField('${pbId}', '${c.id}', 'meta', this.value)"></textarea>
                         <label class="pb-field-label">⏰ Plazo (en cuánto tiempo)</label>
                         <input type="text" class="pb-field-plazo" data-competence="${c.id}" aria-label="Plazo para ${c.name}" placeholder="Ej: 6 meses" onchange="savePlanField('${pbId}', '${c.id}', 'plazo', this.value)">
                         <label class="pb-field-label">📚 Recursos (cómo lo vas a desarrollar)</label>
@@ -295,8 +295,7 @@ function renderSection(section) {
                 </div>`
             ).join('');
             return `<div class="plan-builder" id="pb-${pbId}">
-                    <div class="pb-profile-banner" id="pb-profile-${pbId}"></div>
-                    <p class="pb-intro">Selecciona <strong>2 a 3 competencias</strong> en las que quieras trabajar este ciclo. Si tomaste el Curso 3, las áreas de oportunidad ya están sugeridas. Puedes cambiarlas si quieres.</p>
+                    <p class="pb-intro">Selecciona las <strong>2 áreas de crecimiento</strong> donde quieras poner foco este trimestre — no las que más amas: las que más necesita tu unidad ahora.</p>
                     <div class="pb-competences">${pbCompetences}</div>
                     <div class="pb-commitment-block">
                         <label class="pb-field-label pb-commitment-label">💚 Mi compromiso personal con este plan</label>
@@ -304,7 +303,6 @@ function renderSection(section) {
                     </div>
                     <div class="pb-actions">
                         <button type="button" class="btn-primary" onclick="generatePlan('${pbId}')">📄 Generar mi Plan Personal</button>
-                        <button type="button" class="btn-secondary" onclick="loadProfileIntoPlan('${pbId}')">🔄 Cargar mi perfil del Curso 4</button>
                     </div>
                     <div id="pb-output-${pbId}" class="pb-output hidden"></div>
                 </div>`;
