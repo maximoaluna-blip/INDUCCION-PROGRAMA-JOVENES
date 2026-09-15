@@ -120,7 +120,6 @@ test.describe('Calidad de codigo (AUDITORIA.md mecanico)', () => {
       .map((c) => c.courseId);
     expect(huerfanos, `Cursos publicados sin JSON fuente en borradores/.\n${huerfanos.join('\n')}`).toEqual([]);
   });
-
   // --- ADR-034. Vocabulario de dominio ---------------------------------------
   // POR QUE: el motor se propaga por copia entre lineas, y con el viajo el
   // vocabulario del plano del ADULTO hasta Programa de Jovenes, donde se publico:
