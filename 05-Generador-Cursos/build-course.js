@@ -40,6 +40,7 @@ const course = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
 console.log('📖 Leyendo curso: ' + course.title);
 
 // --- Leer templates ---
+const renderPlanBuilder = require(path.join(TEMPLATES_DIR, 'render.plan-builder.js'));
 const cssContent = fs.readFileSync(path.join(TEMPLATES_DIR, 'styles.css'), 'utf-8');
 // El motor se reparte en dos: el nucleo compartido por las 3 lineas (sincronizado
 // desde _MOTOR/ del repo raiz) y la extension propia de esta linea. La extension va
@@ -276,36 +277,9 @@ function renderSection(section) {
                     <p class="photo-upload-share">💡 <strong>Para compartir con tu dirigente o el grupo:</strong> descarga la imagen y envíala por WhatsApp, email o el canal que prefieras.</p>
                 </div>`;
         case 'plan-builder':
-            const pbId = section.builderId || 'plan-personal';
-            const pbCompetences = (section.competences || []).map(c =>
-                `<div class="pb-competence" data-competence="${c.id}">
-                    <label class="pb-comp-header">
-                        <input type="checkbox" class="pb-comp-check" data-competence="${c.id}" data-name="${c.name}" onchange="togglePlanCompetence('${pbId}', '${c.id}')">
-                        <span class="pb-comp-name">${c.name}</span>
-                        <span class="pb-comp-grade" id="pb-grade-${c.id}"></span>
-                    </label>
-                    <div class="pb-comp-fields hidden" id="pb-fields-${c.id}">
-                        <label class="pb-field-label">🎯 Meta concreta (qué quieres lograr)</label>
-                        <textarea class="pb-field-meta" data-competence="${c.id}" aria-label="Meta concreta para ${c.name}" placeholder="Ej: qué quieres lograr en esta área con tu unidad este trimestre, y en qué se va a notar el avance..." onchange="savePlanField('${pbId}', '${c.id}', 'meta', this.value)"></textarea>
-                        <label class="pb-field-label">⏰ Plazo (en cuánto tiempo)</label>
-                        <input type="text" class="pb-field-plazo" data-competence="${c.id}" aria-label="Plazo para ${c.name}" placeholder="Ej: 6 meses" onchange="savePlanField('${pbId}', '${c.id}', 'plazo', this.value)">
-                        <label class="pb-field-label">📚 Recursos (cómo lo vas a desarrollar)</label>
-                        <textarea class="pb-field-recursos" data-competence="${c.id}" aria-label="Recursos para ${c.name}" placeholder="Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a..." onchange="savePlanField('${pbId}', '${c.id}', 'recursos', this.value)"></textarea>
-                    </div>
-                </div>`
-            ).join('');
-            return `<div class="plan-builder" id="pb-${pbId}">
-                    <p class="pb-intro">Selecciona las <strong>2 áreas de crecimiento</strong> donde quieras poner foco este trimestre — no las que más amas: las que más necesita tu unidad ahora.</p>
-                    <div class="pb-competences">${pbCompetences}</div>
-                    <div class="pb-commitment-block">
-                        <label class="pb-field-label pb-commitment-label">💚 Mi compromiso personal con este plan</label>
-                        <textarea id="pb-commitment-${pbId}" class="pb-commitment" aria-label="Mi compromiso personal con este plan" placeholder="Ej: Me comprometo a trabajar en mi plan con disciplina, a buscar a mi dirigente cada mes, y a no rendirme cuando me cueste..." onchange="savePlanCommitment('${pbId}', this.value)"></textarea>
-                    </div>
-                    <div class="pb-actions">
-                        <button type="button" class="btn-primary" onclick="generatePlan('${pbId}')">📄 Generar mi Plan Personal</button>
-                    </div>
-                    <div id="pb-output-${pbId}" class="pb-output hidden"></div>
-                </div>`;
+            // Renderizador compartido (ADR-034 Fase 1 B): vive en _MOTOR/ y no lleva
+            // vocabulario; los textos vienen de section.labels, escritos en el JSON del curso.
+            return renderPlanBuilder(section);
         // case 'self-assessment' eliminado (14-sep-2026, ADR-034 Fase 2).
         // Renderizaba el autodiagnostico de COMPETENCIAS DEL ADULTO: pedia
         // 'elige el grado que mejor describa tu nivel actual en cada competencia'

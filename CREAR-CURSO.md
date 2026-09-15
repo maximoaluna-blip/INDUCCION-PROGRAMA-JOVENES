@@ -245,7 +245,7 @@ Cuando se quieren publicar varios cursos del mismo nivel a la vez.
 
 - Cualquier curso del Nivel 1 puede usar `brujula-display`, `plan-builder` o `self-assessment` (ya están soportados por el motor — no requiere tocar `engine.js`).
 - El **Curso 7 (Mi Compromiso)** usa `brujula-display` para recuperar reflexiones de los Cursos 1–6 (`sourceCourses` con los 5 IDs) y `plan-builder` con 22 campos distribuidos en L3-L4-L6.
-- Si el componente lee datos de otro curso, usar la clave global de localStorage acordada en el proyecto (ej. `dirigenteProfile` para el cross-course del perfil de dirigente, paralela a `competencyProfile` de la Línea Política de Adultos).
+- Si el componente lee datos de otro curso, usar la clave global de localStorage acordada en el proyecto (ej. `dirigenteProfile` para el cross-course del perfil de dirigente, paralela a `politica-adultos:competencyProfile` de la Línea Política de Adultos — siempre **con apellido de línea**, porque las líneas comparten `localStorage` (ADR-034)).
 - **Cowork solo dice**: _"aquí va un plan-builder con 22 campos"_ o _"aquí se muestra al adulto sus reflexiones de los cursos 1-5"_. **Claude Code monta** la mecánica.
 
 ### B. Curso con video

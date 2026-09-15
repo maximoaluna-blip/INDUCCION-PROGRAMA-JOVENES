@@ -149,13 +149,45 @@
           "type": "plan-builder",
           "builderId": "pj-areas-prioritarias",
           "competences": [
-            { "id": "corporalidad", "name": "Corporalidad" },
-            { "id": "creatividad", "name": "Creatividad" },
-            { "id": "caracter", "name": "Carácter" },
-            { "id": "afectividad", "name": "Afectividad" },
-            { "id": "sociabilidad", "name": "Sociabilidad" },
-            { "id": "espiritualidad", "name": "Espiritualidad" }
-          ]
+            {
+              "id": "corporalidad",
+              "name": "Corporalidad"
+            },
+            {
+              "id": "creatividad",
+              "name": "Creatividad"
+            },
+            {
+              "id": "caracter",
+              "name": "Carácter"
+            },
+            {
+              "id": "afectividad",
+              "name": "Afectividad"
+            },
+            {
+              "id": "sociabilidad",
+              "name": "Sociabilidad"
+            },
+            {
+              "id": "espiritualidad",
+              "name": "Espiritualidad"
+            }
+          ],
+          "labels": {
+            "intro": "Selecciona las <strong>2 áreas de crecimiento</strong> donde quieras poner foco este trimestre — no las que más amas: las que más necesita tu unidad ahora.",
+            "placeholderMeta": "Ej: qué quieres lograr en esta área con tu unidad este trimestre, y en qué se va a notar el avance...",
+            "placeholderPlazo": "Ej: 6 meses",
+            "placeholderRecursos": "Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a...",
+            "placeholderCompromiso": "Ej: Me comprometo a trabajar en mi plan con disciplina, a buscar a mi dirigente cada mes, y a no rendirme cuando me cueste...",
+            "botonGenerar": "📄 Generar mi Plan Personal",
+            "minimo": 2,
+            "avisoMinimo": "⚠️ La lección te pide elegir 2 áreas de crecimiento. Marca al menos 2 y completa sus campos antes de generar el plan.",
+            "avisoCampos": "⚠️ Hay campos vacíos. Completa meta, plazo y recursos en todas las áreas seleccionadas.",
+            "titulo": "📋 Plan Personal de Desarrollo",
+            "subtituloPrioridades": "Mis prioridades de desarrollo",
+            "cierre": "Imprime este plan, fírmalo y consérvalo como tu compromiso personal."
+          }
         },
         {
           "type": "heading",
