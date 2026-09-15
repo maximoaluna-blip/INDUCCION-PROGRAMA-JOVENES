@@ -306,31 +306,15 @@ function renderSection(section) {
                     </div>
                     <div id="pb-output-${pbId}" class="pb-output hidden"></div>
                 </div>`;
-        case 'self-assessment':
-            const saId = section.assessmentId || 'self-assessment';
-            const saIntro = section.intro || 'Elige el grado que mejor describa tu nivel actual en cada competencia.';
-            const compsHtml = (section.competences || []).map((c, idx) => {
-                const opts = (c.grades || []).map(g =>
-                    `<label class="grade-option">
-                        <input type="radio" name="sa-${saId}-${c.id}" value="${g.level}" onchange="recordAssessmentGrade('${saId}', '${c.id}', ${g.level})">
-                        <span class="grade-level">Grado ${g.level}</span>
-                        <span class="grade-text">${g.criterion}</span>
-                    </label>`
-                ).join('');
-                return `<div class="competence-block" data-competence="${c.id}">
-                    <h4 class="competence-name">${idx + 1}. ${c.name}</h4>
-                    <p class="competence-def">${c.definition || ''}</p>
-                    <div class="grade-options">${opts}</div>
-                </div>`;
-            }).join('');
-            return `<div class="self-assessment" id="sa-${saId}">
-                    <p class="self-assessment-intro">${saIntro}</p>
-                    ${compsHtml}
-                    <div class="self-assessment-actions">
-                        <button type="button" class="btn-primary" onclick="calculateAssessment('${saId}')">📊 Calcular mi perfil</button>
-                    </div>
-                    <div id="sa-result-${saId}" class="self-assessment-result hidden"></div>
-                </div>`;
+        // case 'self-assessment' eliminado (14-sep-2026, ADR-034 Fase 2).
+        // Renderizaba el autodiagnostico de COMPETENCIAS DEL ADULTO: pedia
+        // 'elige el grado que mejor describa tu nivel actual en cada competencia'
+        // y pintaba 'Grado 1..4' por competencia. Es el modelo de grados de dominio
+        // del Diccionario de Competencias (ASC ago-2020), que NO aplica al plano del
+        // joven: un area de crecimiento no tiene grado (GLOSARIO-ASC.md seccion E-bis).
+        // Ningun curso de Programa de Jovenes lo usaba (0 de 8): llego al copiar el
+        // generador de Politica de Adultos. Lo detecto el check de lexico.
+        // Si algun dia PJ necesita un autodiagnostico, se construye con SU vocabulario.
         default:
             return `<p>${section.text || ''}</p>`;
     }
