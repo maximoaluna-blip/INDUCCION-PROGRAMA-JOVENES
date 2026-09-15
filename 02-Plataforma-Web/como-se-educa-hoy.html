@@ -1517,6 +1517,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
         totalModules: 8,
         contentModules: 5,
         googleScriptUrl: "https://script.google.com/macros/s/AKfycbxxZBp6XpmdRzZS0BXO02WMq31K5FUU8-Mqzc2Sj0PcwB3cMcrhIqbHQA0naUQb5mgBWw/exec",
+        lineName: "Programa de Jóvenes",
         achievements: [{"id":"achievement-1","name":"Listo para mirar la educación","emoji":"👋","unlockOnModule":1},{"id":"achievement-2","name":"Sé qué es educar","emoji":"🌍","unlockOnModule":2},{"id":"achievement-3","name":"Conozco los 4 pilares","emoji":"🏛️","unlockOnModule":3},{"id":"achievement-4","name":"Sé cómo se aprende","emoji":"🧩","unlockOnModule":4},{"id":"achievement-5","name":"Sé dónde se aprende","emoji":"🏫","unlockOnModule":5},{"id":"achievement-final","name":"Pienso como educador","emoji":"🎓","unlockOnModule":-1}]
     };
 
@@ -2613,7 +2614,11 @@ function downloadCertificatePDF() {
         pdf.setFont('helvetica', 'normal');
         pdf.setFontSize(8);
         pdf.setTextColor(120, 120, 120);
-        pdf.text('Formación de Adultos en el Movimiento', pageW / 2, y, { align: 'center' });
+        // ADR-034: el nucleo no lleva vocabulario de dominio. El nombre de la linea
+        // lo declara cada curso; si el HTML viene de un builder viejo que no lo emite,
+        // se cae a un neutro antes que afirmar una linea equivocada (era 'Formación de
+        // Adultos en el Movimiento' para las cuatro, falso en DI y en PJ).
+        pdf.text(COURSE_CONFIG.lineName || 'Plataforma de Formación de Adultos ASC', pageW / 2, y, { align: 'center' });
         y += 5;
 
         // --- Línea divisoria morada ---

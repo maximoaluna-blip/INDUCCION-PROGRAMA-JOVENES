@@ -676,6 +676,7 @@ ${certificateHtml}
         totalModules: ${totalModules},
         contentModules: ${contentModules},
         googleScriptUrl: ${JSON.stringify(googleUrl)},
+        lineName: "Programa de Jóvenes",
         achievements: ${JSON.stringify(course.achievements)}
     };
 
