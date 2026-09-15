@@ -1,0 +1,3175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rama Familia (Cachorros) - Plataforma de Formación de Adultos ASC</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+    <link rel="icon" type="image/png" href="../assets/logo-asc.png">
+    <link rel="stylesheet" href="../assets/dark-theme.css">
+    <!-- Early theme init para evitar FOUC en modo oscuro -->
+    <script>(function(){try{var t=localStorage.getItem('rover-theme');if(t==='dark'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}})();</script>
+    <style>
+/* ============================================
+   PLATAFORMA DE FORMACION DE ADULTOS - ASC
+   Montserrat | #622599 | #ffe675 | #00afef
+   ============================================ */
+
+/* --- Policy quote (collapsed by default) --- */
+.policy-quote {
+    margin: 18px 0;
+    border-left: 4px solid #622599;
+    background: #f8f5fc;
+    padding: 12px 18px;
+    border-radius: 4px;
+    transition: background .2s;
+}
+.policy-quote summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: #622599;
+    outline: none;
+    list-style: none;
+    user-select: none;
+    font-size: 0.92em;
+}
+.policy-quote summary::-webkit-details-marker { display: none; }
+.policy-quote summary::before {
+    content: '▸ ';
+    display: inline-block;
+    transition: transform .2s;
+    margin-right: 4px;
+}
+.policy-quote[open] summary::before { transform: rotate(90deg); }
+.policy-quote[open] { background: #f3edfa; }
+.policy-quote-text {
+    font-style: italic;
+    color: #333;
+    margin: 12px 0 0 0 !important;
+    font-size: 0.95em;
+    line-height: 1.65;
+    border: none !important;
+    padding: 0 !important;
+    text-align: left !important;
+}
+.policy-quote-source {
+    font-size: 0.8em;
+    color: #636363;
+    margin: 8px 0 0 0;
+    text-align: right;
+}
+[data-theme="dark"] .policy-quote { background: #2a1f3a; border-left-color: #b78fee; }
+[data-theme="dark"] .policy-quote summary { color: #d4b8ff; }
+[data-theme="dark"] .policy-quote[open] { background: #321f48; }
+[data-theme="dark"] .policy-quote-text { color: #ddd; }
+[data-theme="dark"] .policy-quote-source { color: #aaa; }
+
+/* --- Photo upload --- */
+.photo-upload {
+    margin: 20px 0;
+    background: #f8f5fc;
+    border: 2px dashed #622599;
+    border-radius: 8px;
+    padding: 22px;
+    text-align: center;
+}
+.photo-upload-title {
+    color: #622599;
+    margin: 0 0 6px 0;
+    font-size: 1em;
+}
+.photo-upload-hint {
+    color: #666;
+    font-size: 0.88em;
+    margin: 0 0 16px 0;
+}
+.photo-upload-input { display: none; }
+.photo-upload-btn {
+    display: inline-block;
+    background: #622599;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.95em;
+    transition: background .2s;
+}
+.photo-upload-btn:hover { background: #4a1c75; }
+.photo-preview { margin: 16px 0 0 0; }
+.photo-preview img {
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.photo-actions {
+    margin-top: 14px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.photo-actions .btn-secondary {
+    background: #fff;
+    color: #622599;
+    border: 2px solid #622599;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+.photo-actions .btn-secondary:hover { background: #f3edfa; }
+.photo-actions .btn-tertiary {
+    background: transparent;
+    color: #636363;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+.photo-actions .btn-tertiary:hover { color: #d33; border-color: #d33; }
+.photo-upload-share {
+    margin: 16px 0 0 0;
+    font-size: 0.82em;
+    color: #555;
+    background: #fff;
+    padding: 10px 12px;
+    border-radius: 4px;
+    text-align: left;
+}
+.hidden { display: none !important; }
+[data-theme="dark"] .photo-upload { background: #2a1f3a; border-color: #b78fee; }
+[data-theme="dark"] .photo-upload-title { color: #d4b8ff; }
+[data-theme="dark"] .photo-upload-hint { color: #bbb; }
+[data-theme="dark"] .photo-upload-share { background: #1a1325; color: #ccc; }
+[data-theme="dark"] .photo-actions .btn-secondary { background: #1a1325; color: #d4b8ff; border-color: #b78fee; }
+
+/* --- Self-assessment --- */
+.self-assessment {
+    margin: 20px 0;
+    background: #f8f5fc;
+    border: 2px solid #622599;
+    border-radius: 10px;
+    padding: 22px;
+}
+.self-assessment-intro {
+    font-size: 0.95em;
+    color: #444;
+    margin: 0 0 18px 0;
+}
+.competence-block {
+    margin: 0 0 18px 0;
+    padding: 14px 16px;
+    background: #fff;
+    border-radius: 8px;
+    border-left: 4px solid #622599;
+}
+.competence-name {
+    color: #622599;
+    margin: 0 0 4px 0;
+    font-size: 1em;
+}
+.competence-def {
+    font-size: 0.85em;
+    color: #666;
+    font-style: italic;
+    margin: 0 0 12px 0;
+}
+.grade-options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.grade-option {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 12px;
+    background: #f8f5fc;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background .15s, border-color .15s;
+    border: 2px solid transparent;
+    font-size: 0.9em;
+    line-height: 1.45;
+}
+.grade-option:hover { background: #efe5fa; }
+.grade-option input { margin-top: 3px; }
+.grade-option:has(input:checked) {
+    background: #efe5fa;
+    border-color: #622599;
+}
+.grade-level {
+    color: #622599;
+    font-weight: 700;
+    flex-shrink: 0;
+    min-width: 70px;
+}
+.grade-text { flex: 1; color: #333; }
+.self-assessment-actions {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.self-assessment-actions .btn-primary {
+    background: #622599;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.95em;
+    transition: background .2s;
+}
+.self-assessment-actions .btn-primary:hover { background: #4a1c75; }
+.self-assessment-actions .btn-primary:disabled { background: #b8a3d4; cursor: not-allowed; }
+.self-assessment-result {
+    margin: 24px 0 0 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    border: 2px solid #ffc107;
+}
+.self-assessment-result h3 {
+    color: #622599;
+    margin: 0 0 14px 0;
+    text-align: center;
+}
+.profile-summary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 16px 0;
+}
+.profile-strengths, .profile-opportunities {
+    padding: 14px;
+    border-radius: 6px;
+}
+.profile-strengths { background: #e8f5e9; border-left: 4px solid #4caf50; }
+.profile-opportunities { background: #fff3e0; border-left: 4px solid #ff9800; }
+.profile-strengths h4 { color: #2e7d32; margin: 0 0 8px 0; }
+.profile-opportunities h4 { color: #e65100; margin: 0 0 8px 0; }
+.profile-strengths ul, .profile-opportunities ul { margin: 0; padding-left: 20px; font-size: 0.9em; }
+.profile-recommendation {
+    margin-top: 16px;
+    padding: 14px;
+    background: #f3e5f5;
+    border-radius: 6px;
+    border-left: 4px solid #9c27b0;
+    font-size: 0.92em;
+    color: #4a148c;
+    line-height: 1.55;
+}
+@media (max-width: 600px) { .profile-summary { grid-template-columns: 1fr; } }
+[data-theme="dark"] .self-assessment { background: #2a1f3a; border-color: #b78fee; }
+[data-theme="dark"] .competence-block { background: #1a1325; border-left-color: #b78fee; }
+[data-theme="dark"] .competence-name { color: #d4b8ff; }
+[data-theme="dark"] .competence-def { color: #bbb; }
+[data-theme="dark"] .grade-option { background: #2a1f3a; color: #ddd; }
+[data-theme="dark"] .grade-option:hover { background: #3a2b50; }
+[data-theme="dark"] .grade-option:has(input:checked) { background: #3a2b50; }
+[data-theme="dark"] .grade-level { color: #d4b8ff; }
+[data-theme="dark"] .grade-text { color: #ddd; }
+[data-theme="dark"] .self-assessment-result { background: #1a1325; border-color: #b78fee; }
+
+/* --- Plan Builder --- */
+.plan-builder {
+    margin: 20px 0;
+    background: #f8f5fc;
+    border: 2px solid #622599;
+    border-radius: 10px;
+    padding: 22px;
+}
+.pb-profile-banner {
+    margin: 0 0 16px 0;
+    padding: 14px;
+    background: #fff8e1;
+    border-radius: 8px;
+    border-left: 4px solid #ffc107;
+    font-size: 0.92em;
+    line-height: 1.5;
+}
+.pb-profile-banner.no-profile {
+    background: #f5f5f5;
+    border-left-color: #999;
+    color: #666;
+}
+.pb-intro {
+    font-size: 0.92em;
+    color: #444;
+    margin: 0 0 16px 0;
+}
+.pb-competence {
+    background: #fff;
+    border-radius: 8px;
+    margin: 0 0 12px 0;
+    overflow: hidden;
+    border-left: 4px solid #ddd;
+    transition: border-color .15s;
+}
+.pb-competence:has(.pb-comp-check:checked) { border-left-color: #622599; background: #faf6ff; }
+.pb-comp-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    cursor: pointer;
+    font-size: 0.95em;
+}
+.pb-comp-check { transform: scale(1.2); cursor: pointer; }
+.pb-comp-name { flex: 1; font-weight: 600; color: #333; }
+.pb-comp-grade { font-size: 0.85em; color: #636363; padding: 2px 8px; background: #f0f0f0; border-radius: 4px; }
+.pb-comp-grade.priority { background: #ffe0b2; color: #e65100; font-weight: 600; }
+.pb-comp-fields {
+    padding: 8px 16px 16px 50px;
+    border-top: 1px solid #eee;
+}
+.pb-field-label {
+    display: block;
+    font-size: 0.85em;
+    color: #622599;
+    font-weight: 600;
+    margin: 12px 0 6px 0;
+}
+.pb-field-meta, .pb-field-recursos {
+    width: 100%;
+    min-height: 60px;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 0.9em;
+    resize: vertical;
+}
+.pb-field-plazo {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 0.9em;
+}
+.pb-field-meta:focus, .pb-field-recursos:focus, .pb-field-plazo:focus {
+    outline: none; border-color: #622599;
+}
+.pb-commitment-block {
+    margin: 18px 0 0 0;
+    padding: 14px 16px;
+    background: #f3e5f5;
+    border-radius: 8px;
+    border-left: 4px solid #9c27b0;
+}
+.pb-commitment-label { color: #4a148c; }
+.pb-commitment {
+    width: 100%;
+    min-height: 80px;
+    padding: 10px;
+    border: 1px solid #ce93d8;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 0.92em;
+    resize: vertical;
+    background: #fff;
+}
+.pb-actions {
+    margin-top: 18px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pb-actions .btn-primary {
+    background: #622599;
+    color: #fff;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.92em;
+}
+.pb-actions .btn-primary:hover { background: #4a1c75; }
+.pb-actions .btn-secondary {
+    background: #fff;
+    color: #622599;
+    border: 2px solid #622599;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+.pb-output {
+    margin-top: 22px;
+    padding: 28px;
+    background: #fff;
+    border: 2px solid #622599;
+    border-radius: 8px;
+}
+.pb-output h2 { color: #622599; text-align: center; margin: 0 0 8px 0; }
+.pb-output .pb-output-meta { text-align: center; color: #666; font-size: 0.9em; margin: 0 0 24px 0; }
+.pb-output .pb-priority { margin: 18px 0; padding: 14px 18px; background: #faf6ff; border-left: 4px solid #622599; border-radius: 6px; }
+.pb-output .pb-priority h3 { color: #622599; margin: 0 0 10px 0; font-size: 1em; }
+.pb-output .pb-priority dt { font-weight: 600; color: #333; margin-top: 8px; }
+.pb-output .pb-priority dd { margin: 4px 0 0 0; padding-left: 0; color: #444; white-space: pre-wrap; }
+.pb-output .pb-final-commitment { margin-top: 24px; padding: 16px; background: #f3e5f5; border-radius: 6px; border-left: 4px solid #9c27b0; }
+.pb-output .pb-final-commitment h3 { color: #4a148c; margin: 0 0 8px 0; }
+.pb-output .pb-print-btn {
+    display: block; margin: 24px auto 0; padding: 12px 28px;
+    background: #4caf50; color: #fff; border: none; border-radius: 6px;
+    font-weight: 700; cursor: pointer; font-size: 0.95em;
+}
+.pb-output .pb-print-btn:hover { background: #388e3c; }
+@media print {
+    body.printing-plan * { visibility: hidden; }
+    body.printing-plan .pb-output, body.printing-plan .pb-output * { visibility: visible; }
+    body.printing-plan .pb-output { position: absolute; left: 0; top: 0; width: 100%; padding: 20px; border: none; }
+    body.printing-plan .pb-print-btn { display: none !important; }
+}
+[data-theme="dark"] .plan-builder { background: #2a1f3a; border-color: #b78fee; }
+[data-theme="dark"] .pb-competence { background: #1a1325; border-left-color: #444; }
+[data-theme="dark"] .pb-competence:has(.pb-comp-check:checked) { background: #321f48; border-left-color: #b78fee; }
+[data-theme="dark"] .pb-comp-name { color: #ddd; }
+[data-theme="dark"] .pb-field-label { color: #d4b8ff; }
+[data-theme="dark"] .pb-field-meta, [data-theme="dark"] .pb-field-recursos, [data-theme="dark"] .pb-field-plazo { background: #2a1f3a; color: #ddd; border-color: #555; }
+[data-theme="dark"] .pb-commitment-block { background: #2a1f3a; border-left-color: #ce93d8; }
+[data-theme="dark"] .pb-commitment { background: #1a1325; color: #ddd; border-color: #555; }
+[data-theme="dark"] .pb-output { background: #1a1325; border-color: #b78fee; }
+
+/* --- Prefill banner (autollenado de registro) --- */
+.prefill-banner {
+    margin: 14px 0 18px 0;
+    padding: 14px 16px;
+    background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
+    border-left: 4px solid #2196f3;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(33, 150, 243, 0.1);
+}
+.prefill-banner-content {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.prefill-banner-icon {
+    font-size: 1.8em;
+    flex-shrink: 0;
+}
+.prefill-banner-content > div {
+    flex: 1;
+    color: #0d47a1;
+    font-size: 0.92em;
+    line-height: 1.5;
+}
+.prefill-banner-hint {
+    color: #555;
+    font-size: 0.88em;
+}
+.prefill-banner-clear {
+    flex-shrink: 0;
+    background: #fff;
+    color: #2196f3;
+    border: 1px solid #2196f3;
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-size: 0.82em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .15s;
+}
+.prefill-banner-clear:hover { background: #2196f3; color: #fff; }
+@media (max-width: 600px) {
+    .prefill-banner-content { flex-direction: column; align-items: flex-start; gap: 10px; }
+    .prefill-banner-clear { align-self: flex-end; }
+}
+[data-theme="dark"] .prefill-banner { background: linear-gradient(135deg, #1a2a3a 0%, #2a1f3a 100%); border-left-color: #64b5f6; }
+[data-theme="dark"] .prefill-banner-content > div { color: #bbdefb; }
+[data-theme="dark"] .prefill-banner-hint { color: #aaa; }
+[data-theme="dark"] .prefill-banner-clear { background: #1a1325; color: #64b5f6; border-color: #64b5f6; }
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background: #f2f5f7;
+    min-height: 100vh;
+    padding-bottom: 80px;
+    color: #2c2927;
+}
+
+/* --- Top Bar --- */
+.top-bar {
+    background: #622599; padding: 12px 0; position: sticky; top: 0; z-index: 100;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+.top-bar-inner {
+    max-width: 940px; margin: 0 auto; padding: 0 20px;
+    display: flex; align-items: center; justify-content: space-between;
+}
+.top-bar .logos { display: flex; align-items: center; gap: 15px; }
+.top-bar .logos img { height: 40px; }
+.top-bar .logos .separator { width: 1px; height: 30px; background: rgba(255,255,255,0.3); }
+.top-bar a.back-link {
+    color: #ffe675; text-decoration: none; font-size: 0.85em; font-weight: 600;
+}
+.top-bar a.back-link:hover { text-decoration: underline; }
+
+.container { max-width: 940px; margin: 0 auto; padding: 20px; }
+
+/* --- Header & Progress --- */
+.header {
+    background: white; padding: 25px; margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08); text-align: center;
+    border-top: 4px solid #622599;
+}
+.header h1 { color: #622599; margin-bottom: 10px; font-size: 1.8em; font-weight: 700; }
+.header p { color: #636363; font-size: 1em; }
+/* Etiqueta "(opcional)" en formularios. Color accesible (AA) sobre fondo claro;
+   override de modo oscuro en assets/dark-theme.css. */
+.opcional-label { color: #636363; font-weight: 400; font-size: 0.85em; }
+
+.progress-container {
+    background: #e0e0e0; height: 30px;
+    margin: 20px 0; overflow: hidden; position: relative;
+}
+.progress-bar {
+    background: linear-gradient(90deg, #622599, #8e44ad); height: 100%; width: 0%;
+    transition: width 0.5s ease; display: flex; align-items: center;
+    justify-content: center; color: white; font-weight: 700;
+}
+.progress-text {
+    position: absolute; width: 100%; text-align: center;
+    line-height: 30px; color: #2c2927; font-weight: 700;
+}
+
+/* --- Navigation --- */
+.nav-menu {
+    display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap;
+    background: white; padding: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+.nav-btn {
+    flex: 1; min-width: 90px; padding: 10px 8px; background: #f2f5f7;
+    border: 2px solid #ddd; cursor: pointer;
+    transition: all 0.3s; font-size: 13px; text-align: center;
+    font-family: 'Montserrat', sans-serif; font-weight: 600;
+}
+.nav-btn:hover { background: #f3e8ff; border-color: #622599; transform: translateY(-2px); }
+.nav-btn.active { background: #622599; color: white; border-color: #622599; }
+.nav-btn.completed { background: #8e44ad; color: white; border-color: #8e44ad; }
+.nav-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.mobile-nav {
+    display: none; position: fixed; bottom: 0; left: 0; right: 0;
+    background: white; box-shadow: 0 -5px 20px rgba(0,0,0,0.1);
+    z-index: 1000; padding: 10px;
+}
+.mobile-nav select {
+    width: 100%; padding: 15px; font-size: 16px;
+    border: 2px solid #622599; background: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* --- Content Area --- */
+.content {
+    background: white; padding: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+/* --- Modules --- */
+.module { display: none; animation: fadeIn 0.5s; }
+.module.active { display: block; }
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.module h2 { color: #622599; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 3px solid #ffe675; font-weight: 700; }
+.module h3 { color: #622599; margin: 25px 0 15px; font-weight: 700; }
+.module h4 { color: #2c2927; margin: 20px 0 10px; font-weight: 600; }
+.module p { color: #636363; margin-bottom: 15px; text-align: justify; }
+.module ul, .module ol { margin: 15px 0 15px 30px; color: #636363; }
+.module li { margin-bottom: 10px; }
+
+.badge {
+    display: inline-block; background: #ffe675; color: #2c2927;
+    padding: 5px 15px; font-size: 0.85em; margin-bottom: 20px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.5px;
+}
+
+
+/* --- Content Blocks --- */
+.info-box {
+    background: #f3e8ff; border-left: 4px solid #622599;
+    padding: 15px; margin: 20px 0;
+}
+.data-privacy {
+    background: #fff8e1; border-left: 4px solid #ffe675;
+    padding: 15px; margin: 20px 0;
+}
+.mission-box {
+    background: linear-gradient(135deg, #f3e8ff, #e8d5f5);
+    border: 2px solid #622599; padding: 20px; margin: 20px 0;
+}
+
+/* --- Timeline --- */
+.timeline { position: relative; padding: 20px 0; }
+.timeline-item {
+    background: #f2f5f7; border-left: 4px solid #622599;
+    padding: 15px; margin-bottom: 20px;
+}
+
+/* --- Method Grid --- */
+.method-elements {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px; margin: 20px 0;
+}
+.method-element {
+    padding: 20px; border: 2px solid #ddd; transition: transform 0.3s;
+}
+.method-element:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(98,37,153,0.1); }
+
+/* --- Forms --- */
+.form-group { margin-bottom: 20px; }
+.form-group label { display: block; margin-bottom: 5px; font-weight: 600; color: #2c2927; }
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%; padding: 12px; border: 2px solid #ddd;
+    font-size: 15px; transition: border-color 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+    border-color: #622599; outline: none;
+}
+
+/* --- Registration Toggle --- */
+.toggle-buttons { display: flex; gap: 0; margin-bottom: 25px; }
+.toggle-btn {
+    flex: 1; padding: 12px; border: 2px solid #622599; background: #f2f5f7;
+    color: #622599; cursor: pointer; font-family: 'Montserrat', sans-serif;
+    font-weight: 600; font-size: 14px; transition: all 0.3s; text-align: center;
+}
+.toggle-btn.active { background: #622599; color: white; }
+.toggle-btn:hover:not(.active) { background: #f3e8ff; }
+.recovery-section { margin-bottom: 20px; }
+
+/* --- Buttons --- */
+.btn {
+    background: #622599; color: white; border: none; padding: 12px 25px;
+    cursor: pointer; font-size: 15px; margin: 10px 5px;
+    transition: all 0.3s; display: inline-block;
+    font-family: 'Montserrat', sans-serif; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.5px;
+}
+.btn:hover { background: #4a1b75; transform: translateY(-2px); box-shadow: 0 5px 15px rgba(98, 37, 153, 0.3); }
+.btn:disabled { background: #ccc; cursor: not-allowed; transform: none; }
+
+/* --- Reflections --- */
+.reflection-area {
+    background: #fff8e1; border-left: 4px solid #ffe675;
+    padding: 20px; margin: 20px 0;
+}
+.reflection-area textarea {
+    width: 100%; min-height: 100px; padding: 10px;
+    border: 2px solid #ffe675; font-family: 'Montserrat', sans-serif; resize: vertical;
+}
+
+/* --- Quizzes --- */
+.quiz-container { background: #f2f5f7; padding: 20px; margin: 20px 0; }
+.question { margin-bottom: 25px; }
+.question h4 { color: #622599; margin-bottom: 15px; font-weight: 700; }
+.option {
+    display: block; padding: 12px; margin: 8px 0; background: white;
+    border: 2px solid #ddd; cursor: pointer; transition: all 0.3s;
+}
+.option:hover { background: #f3e8ff; border-color: #622599; }
+.option.selected { background: #e8d5f5; border-color: #622599; }
+.option.correct { background: #c8e6c9; border-color: #4CAF50; }
+.option.incorrect { background: #ffcdd2; border-color: #f44336; }
+
+/* --- Stats --- */
+.stats {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px; margin: 20px 0;
+}
+.stat-card {
+    background: #622599;
+    color: white; padding: 20px; text-align: center;
+}
+.stat-card h4 { font-size: 2em; margin-bottom: 5px; color: white; }
+/* `.module p` (color gris para fondo blanco) le ganaba en especificidad al `color: white`
+   de .stat-card, dejando texto #636363 sobre fondo morado: contraste 1.55:1, ilegible.
+   Detectado al ampliar la auditoria a11y a los modulos ocultos (03-ago-2026). */
+.stat-card p, .module .stat-card p { color: #ffffff; }
+
+/* --- Achievements --- */
+.achievements { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
+.achievement {
+    background: #f3e8ff; color: #622599; padding: 10px 15px;
+    border: 2px solid #622599; font-size: 0.9em;
+    /* opacity 0.4 aplastaba el contraste a 2:1 sobre un diseno que de suyo cumple 7.93:1.
+       Calculado: 0.75 da 4.39:1 (no pasa), 0.85 da 5.57:1. Se conserva la senal visual
+       de "aun no lo tienes" y se cumple WCAG AA. */
+    opacity: 0.85; transition: all 0.3s; font-weight: 600;
+}
+.achievement.earned { opacity: 1; transform: scale(1.05); box-shadow: 0 3px 10px rgba(98, 37, 153, 0.3); }
+
+/* --- Certificate --- */
+.certificate {
+    background: linear-gradient(45deg, #ffffff, #f8f9fa);
+    border: 3px solid #ffe675; padding: 40px;
+    text-align: center; position: relative; box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+.certificate h2 { color: #622599; margin-bottom: 20px; }
+.certificate h3 { color: #622599; font-size: 1.8em; margin: 20px 0; }
+.certificate-code {
+    background: #f2f5f7; padding: 15px;
+    font-family: 'Courier New', monospace; font-size: 1.2em;
+    margin: 25px auto; max-width: 400px; border: 2px dashed #622599;
+}
+
+/* --- Modal Overlay --- */
+.modal-overlay {
+    display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.6); z-index: 5000;
+    justify-content: center; align-items: center;
+}
+.modal-overlay.show { display: flex; }
+.modal-content {
+    background: white; padding: 40px; max-width: 450px; width: 90%;
+    text-align: center; box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+.modal-content h3 { color: #622599; margin-bottom: 15px; }
+
+/* --- Indicators --- */
+.sync-indicator {
+    position: fixed; top: 70px; right: 10px; background: #622599;
+    color: white; padding: 5px 10px; font-size: 0.8em;
+    display: none; z-index: 3000; animation: pulse 2s infinite;
+}
+.sync-indicator.show { display: block; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+
+.save-indicator {
+    position: fixed; bottom: 20px; right: 20px; background: #622599;
+    color: white; padding: 10px 20px; font-size: 0.9em;
+    display: none; z-index: 1000;
+}
+.save-indicator.show { display: block; animation: pulse 1s infinite; }
+
+.notification {
+    position: fixed; top: 80px; right: 20px; background: #622599;
+    color: white; padding: 15px 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2); animation: slideIn 0.3s;
+    z-index: 2000; max-width: 400px;
+}
+@keyframes slideIn { from { transform: translateX(400px); } to { transform: translateX(0); } }
+@keyframes slideOut { from { transform: translateX(0); } to { transform: translateX(400px); } }
+
+.hidden { display: none !important; }
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+    .container { padding: 10px; }
+    .header h1 { font-size: 1.3em; }
+    .nav-menu { display: none; }
+    .mobile-nav { display: block; }
+    .content { padding: 15px; }
+    .method-elements { grid-template-columns: 1fr; }
+    .stats { grid-template-columns: 1fr; }
+    .certificate { padding: 20px; }
+    .top-bar .logos img { height: 35px; }
+    .toggle-buttons { flex-direction: column; }
+}
+
+/* --- Print --- */
+@media print {
+    body { background: white; }
+    .top-bar, .nav-menu, .mobile-nav, .btn, .save-indicator, .sync-indicator, .modal-overlay { display: none !important; }
+    .certificate { page-break-inside: avoid; }
+}
+
+/* --- Cita destacada (blockquote de contenido) ---
+   El color iba inline en build-course.js, de modo que el tema oscuro no podia
+   sobrescribirlo y quedaba en 1.65:1 sobre fondo oscuro: practicamente invisible.
+   Detectado el 03-ago-2026 al ampliar la auditoria a11y a los modulos ocultos. */
+.cita-destacada {
+    font-size: 1.1rem; font-style: italic; text-align: center;
+    margin: 20px 0; color: #1a4b6b;
+}
+html[data-theme="dark"] .cita-destacada { color: #9ec8e8; }
+
+/* El certificado conserva fondo claro para poder imprimirse, asi que su texto no debe
+   heredar los colores claros del tema oscuro (daba 2.02:1). */
+html[data-theme="dark"] .certificate,
+html[data-theme="dark"] .certificate p,
+html[data-theme="dark"] .certificate strong,
+html[data-theme="dark"] .certificate div { color: #2b2b33; }
+
+/* Pie de video: el color iba inline (#555) y el tema oscuro no podia sobrescribirlo
+   (2.06:1 sobre fondo oscuro). Mismo patron que la cita destacada. */
+.video-caption { text-align: center; font-style: italic; color: #555; margin-top: 8px; }
+html[data-theme="dark"] .video-caption { color: #b9b9c4; }
+
+/* Enlaces dentro del contenido: sin estilo propio caian al azul por defecto del
+   navegador (#0000ee), que sobre fondo oscuro da 1.62:1. */
+.module a { color: #0b5ed7; text-decoration: underline; }
+.module a:hover { color: #093d8f; }
+html[data-theme="dark"] .module a { color: #8ab4f8; }
+html[data-theme="dark"] .module a:hover { color: #adc8fb; }
+
+    </style>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-inner">
+            <div class="logos">
+                <img src="../assets/logo-asc.png" alt="Asociacion Scouts de Colombia">
+                <div class="separator"></div>
+                <img src="../assets/logo-vallescout.png" alt="Scouts del Valle">
+            </div>
+            <a href="../index.html" class="back-link">&#8592; Volver a Cursos</a>
+        </div>
+    </div>
+
+    <div class="sync-indicator" id="syncIndicator">☁️ Sincronizado con Google Sheets</div>
+
+    <div class="container">
+        <div class="header">
+            <h1>🐻 Rama Familia (Cachorros)</h1>
+            <p>Formación de Adultos Voluntarios — Asociación Scouts de Colombia</p>
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+                <div class="progress-text" id="progressText">0%</div>
+            </div>
+            <p style="margin-top: 10px; font-size: 0.9em;">
+                ⏱️ Tiempo en el curso: <span id="elapsedTime">0 min</span>
+            </p>
+        </div>
+
+        <div class="nav-menu">
+            <button class="nav-btn active" onclick="showModule(0)">📝 Registro</button>
+            <button class="nav-btn" onclick="showModule(1)">🐾 Bienvenida</button>
+            <button class="nav-btn" onclick="showModule(2)">🧒 Cachorro y Viejo Lobo</button>
+            <button class="nav-btn" onclick="showModule(3)">🤝 Promesa y Ley</button>
+            <button class="nav-btn" onclick="showModule(4)">🎲 El juego</button>
+            <button class="nav-btn" onclick="showModule(5)">🐾 Camadas y Círculo</button>
+            <button class="nav-btn" onclick="showModule(6)">📖 Marco simbólico</button>
+            <button class="nav-btn" onclick="showModule(7)">🌱 Progresión</button>
+            <button class="nav-btn" onclick="showModule(8)">🛡️ Cubil seguro</button>
+            <button class="nav-btn" onclick="showModule(9)">🏆 Certificado</button>
+        </div>
+
+        <div class="mobile-nav">
+            <select onchange="showModule(this.value)">
+                <option value="0">📝 Registro</option>
+                <option value="1">🐾 Bienvenida</option>
+                <option value="2">🧒 Cachorro y Viejo Lobo</option>
+                <option value="3">🤝 Promesa y Ley</option>
+                <option value="4">🎲 El juego</option>
+                <option value="5">🐾 Camadas y Círculo</option>
+                <option value="6">📖 Marco simbólico</option>
+                <option value="7">🌱 Progresión</option>
+                <option value="8">🛡️ Cubil seguro</option>
+                <option value="9">🏆 Certificado</option>
+            </select>
+        </div>
+
+        <div class="content">
+
+            <!-- MÓDULO 0: REGISTRO -->
+            <div class="module active" id="module-0">
+                <h2>📝 Registro al Curso</h2>
+
+                <div class="info-box">
+                    <strong>🎯 Objetivo del Curso:</strong><br>
+                    El curso de rama para quienes acompañan la primera infancia. En ~40 minutos vas a acompañar a Salomé, que llega al Cubil a los 5 años, y a entender por qué a esa edad el juego no es el envoltorio del Método Scout: es el Método funcionando a plena potencia.
+                </div>
+
+                <div class="toggle-buttons">
+                    <button class="toggle-btn active" id="toggleNewReg" onclick="toggleRegistrationMode('new')">🆕 Nuevo Registro</button>
+                    <button class="toggle-btn" id="toggleRecover" onclick="toggleRegistrationMode('recover')">🔄 Recuperar mi Avance</button>
+                </div>
+
+                <div class="recovery-section hidden" id="recoverySection">
+                    <h3>🔄 Recuperar tu avance anterior</h3>
+                    <p style="color: #636363; margin-bottom: 15px;">Ingresa el correo electronico con el que te registraste para recuperar tu progreso.</p>
+                    <div class="form-group">
+                        <label for="recoveryEmail">Correo Electronico</label>
+                        <input type="email" id="recoveryEmail" placeholder="Ej: juan.perez@email.com" required>
+                    </div>
+                    <div style="text-align: center;">
+                        <button class="btn" onclick="recoverProgress()">🔍 Recuperar</button>
+                    </div>
+                    <div id="recoveryMessage" style="margin-top: 15px; text-align: center; display: none;"></div>
+                </div>
+
+                <form id="registrationForm" onsubmit="handleRegistration(event)">
+                    <div class="form-group">
+                        <label for="fullName">Nombre Completo *</label>
+                        <input type="text" id="fullName" name="fullName" required placeholder="Ej: Juan Carlos Pérez Gómez">
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Edad <span class="opcional-label">(opcional)</span></label>
+                        <input type="number" id="age" name="age" min="0" placeholder="Ej: 35">
+                    </div>
+                    <div class="form-group">
+                        <label for="group">Grupo Scout</label>
+                        <input type="text" id="group" name="group" placeholder="Ej: Grupo Scout 25">
+                    </div>
+                    <div class="form-group">
+                        <label for="region">Región/Departamento</label>
+                        <select id="region" name="region">
+                            <option value="">Seleccionar...</option>
+                            <option value="Amazonas">Amazonas</option>
+                            <option value="Antioquia">Antioquia</option>
+                            <option value="Arauca">Arauca</option>
+                            <option value="Atlántico">Atlántico</option>
+                            <option value="Bogotá D.C.">Bogotá D.C.</option>
+                            <option value="Bolívar">Bolívar</option>
+                            <option value="Boyacá">Boyacá</option>
+                            <option value="Caldas">Caldas</option>
+                            <option value="Caquetá">Caquetá</option>
+                            <option value="Casanare">Casanare</option>
+                            <option value="Cauca">Cauca</option>
+                            <option value="Cesar">Cesar</option>
+                            <option value="Chocó">Chocó</option>
+                            <option value="Córdoba">Córdoba</option>
+                            <option value="Cundinamarca">Cundinamarca</option>
+                            <option value="Guainía">Guainía</option>
+                            <option value="Guaviare">Guaviare</option>
+                            <option value="Huila">Huila</option>
+                            <option value="La Guajira">La Guajira</option>
+                            <option value="Magdalena">Magdalena</option>
+                            <option value="Meta">Meta</option>
+                            <option value="Nariño">Nariño</option>
+                            <option value="Norte de Santander">Norte de Santander</option>
+                            <option value="Putumayo">Putumayo</option>
+                            <option value="Quindío">Quindío</option>
+                            <option value="Risaralda">Risaralda</option>
+                            <option value="San Andrés y Providencia">San Andrés y Providencia</option>
+                            <option value="Santander">Santander</option>
+                            <option value="Sucre">Sucre</option>
+                            <option value="Tolima">Tolima</option>
+                            <option value="Valle del Cauca">Valle del Cauca</option>
+                            <option value="Vaupés">Vaupés</option>
+                            <option value="Vichada">Vichada</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="Ej: juan.perez@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="motivation">¿Cuál es tu motivación para participar en el movimiento como adulto voluntario?</label>
+                        <textarea id="motivation" name="motivation" rows="4" placeholder="Describe brevemente tu motivación..."></textarea>
+                    </div>
+                    <div style="text-align: center; margin-top: 30px;">
+                        <button type="submit" class="btn" style="font-size: 1.1rem; padding: 15px 30px;">🚀 Comenzar Curso</button>
+                    </div>
+                </form>
+
+                <div class="data-privacy">
+                    <h4>📊 Información sobre tus datos</h4>
+                    <p>Este curso guarda tu progreso de dos formas:</p>
+                    <ul>
+                        <li>📱 <strong>Localmente:</strong> En tu navegador para que puedas continuar sin internet</li>
+                        <li>☁️ <strong>Google Sheets:</strong> Para que los dirigentes puedan verificar certificados y hacer seguimiento</li>
+                    </ul>
+                    <p style="margin-top: 10px; font-size: 0.9em;">Tus datos solo se usan para fines educativos de la Asociación Scouts de Colombia.</p>
+                </div>
+            </div>
+
+            <!-- MÓDULO 1: 🐾 BIENVENIDA AL CUBIL -->
+            <div class="module" id="module-1">
+                <h2>🐾 🐾 Bienvenida al Cubil <span id="welcomeName"></span></h2>
+
+                <div class="info-box">⏱️ <strong>~40 minutos.</strong> Al final vas a poder decir la Promesa y la Ley del Cachorro, organizar tu unidad en Camadas, conducir un Círculo de Familia, usar el lenguaje de la Selva como método, y planear una actividad que cumpla las reglas de entorno seguro propias de la rama.</div>
+
+                <p>Vas a conocer a Salomé. Tiene 5 años y hoy es su primer día en el Cubil. Dentro de dos años va a cruzar la Ceremonia de Paso hacia la Manada — que es exactamente donde arranca el Curso 8, con Andrés. Los dos cursos se dan la mano en el mismo punto.</p>
+
+                <p>Hay una idea muy extendida que conviene desarmar de entrada: <em>"a los cinco años todavía no se puede hacer escultismo de verdad; toca esperar a que crezcan"</em>. La Guía para el Dirigente de Familia dice lo contrario con todas las letras, y este curso te va a mostrar por qué.</p>
+
+                <div class="info-box"><strong>Lo que la Familia NO es.</strong> No es una guardería con pañoleta. No es "la antesala de la Manada". No es un servicio para que los papás dejen a los niños mientras hay reunión de grupo. Si tu unidad se parece a alguna de las tres, este curso te va a ser útil.</div>
+
+                <p>Lo que sí es: una unidad del Grupo Scout con Promesa, Ley, saludo, lema, marco simbólico, sistema de equipos, órgano de participación y progresión personal <strong>propios</strong>, adaptados a la primera infancia. Todo el Método, en el idioma de los cinco años.</p>
+
+                <div class="mission-box">🎯 <strong>Cómo usar este curso.</strong> Cada lección termina en algo concreto que puedas probar en tu próxima reunión. No hace falta que te lo aprendas: hace falta que lo uses el sábado.</div>
+
+                <h3>🏆 Logros por Desbloquear</h3>
+                <div class="achievements">
+                    <div class="achievement" id="achievement-1">🧒 Me paro como mediador</div>
+                    <div class="achievement" id="achievement-2">🤝 Digo la Promesa y la Ley</div>
+                    <div class="achievement" id="achievement-3">🎲 El juego es mi método</div>
+                    <div class="achievement" id="achievement-4">🐾 Sostengo el Círculo</div>
+                    <div class="achievement" id="achievement-5">📖 Hablo el idioma de la Selva</div>
+                    <div class="achievement" id="achievement-6">🌱 Acompaño su crecimiento</div>
+                    <div class="achievement" id="achievement-7">🐻✨ Viejo Lobo de Familia</div>
+                </div>
+
+                <div class="stats">
+                    <div class="stat-card"><h4 id="modulesCompleted">0</h4><p>Módulos Completados</p></div>
+                    <div class="stat-card"><h4 id="quizzesCompleted">0</h4><p>Evaluaciones Aprobadas</p></div>
+                    <div class="stat-card"><h4 id="studyTime">0</h4><p>Minutos de Estudio</p></div>
+                </div>
+
+                <button class="btn" onclick="showModule(2)">🚀 Comenzar el Curso</button>
+            </div>
+
+            <!-- MÓDULO 2: 🧒 QUIÉN ES UN CACHORRO Y QUIÉN ES EL VIEJO LOBO -->
+            <div class="module" id="module-2">
+                <h2>🧒 🧒 Quién es un Cachorro y quién es el Viejo Lobo</h2>
+                <div class="badge">Módulo 1/7</div>
+
+                <div class="info-box"><strong>Idea central:</strong> el adulto de Familia no es ni maestro ni papá. Es un mediador que facilita experiencias.</div>
+
+                <h3>El protagonista de programa de la Familia</h3>
+
+                <p>Niñas y niños de <strong>5 y 6 años</strong>. Es la primera infancia: una etapa con lógica propia, que no es "Manada en pequeño" ni una sala de espera. A esa edad se aprende con el cuerpo, con la fantasía y con la experiencia directa, no escuchando explicaciones.</p>
+
+                <h3>El Viejo Lobo de Familia</h3>
+
+                <details class="policy-quote">
+                    <summary>📋 Cómo define la Guía el rol del adulto</summary>
+                    <blockquote class="policy-quote-text">Su papel no corresponde al de un docente tradicional ni al de una figura parental, sino al de un adulto mediador que facilita experiencias significativas de aprendizaje…</blockquote>
+                    <p class="policy-quote-source">— Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §1.2, p. 8 del PDF.</p>
+                </details>
+
+                <p>Léelo despacio, porque descarta dos cosas a la vez. No eres el maestro: no estás ahí para explicar y evaluar. Y no eres el papá: no estás ahí para proteger y resolver. Mediador quiere decir que pones la experiencia al alcance y te haces a un lado para que ocurra.</p>
+
+                <div class="method-elements">
+                    <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
+                        <h4>👩‍🏫 El maestro</h4>
+                        <p>Explica, corrige y evalúa. Cuando el niño no sabe, le enseña. El aprendizaje pasa por su boca.</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #fce4ec, #fce4ecdd); border-color: #e91e63;">
+                        <h4>🤱 El papá</h4>
+                        <p>Protege y resuelve. Cuando el niño se frustra, le quita el problema. El cuidado tapa la experiencia.</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #fff3e0, #fff3e0dd); border-color: #fb8c00;">
+                        <h4>🐺 El Viejo Lobo</h4>
+                        <p>Propone, acompaña y deja hacer. Cuando el niño se frustra, se queda cerca — pero no le quita el intento.</p>
+                    </div>
+                </div>
+
+                <h3>Los Nombres de Caza</h3>
+
+                <p>La Guía lo define así: <em>"El Nombre de Caza es un nombre de fantasía que se otorga a un Viejo Lobo con el fin de ser identificados en las Familias de Cachorros"</em>, tomado de los personajes del Libro de las Tierras Vírgenes y de cuentos posteriores de Rudyard Kipling (§1.3, p. 10 del PDF).</p>
+
+                <p>No es un apodo simpático ni un juego de bienvenida. Es la puerta por la que el adulto entra al mundo simbólico donde el Cachorro <strong>ya está viviendo</strong>. Un adulto sin Nombre de Caza le habla a Salomé desde afuera de la Selva.</p>
+
+                <div class="reflection-area">
+                    <h4>🤔 Reflexión Personal</h4>
+                    <p>¿Qué Nombre de Caza elegirías, y por qué ese? Y ahora la parte incómoda: de las dos formas que este curso descarta —la del maestro y la del papá—, ¿cuál te va a costar más soltar? Escríbelo sin adornarlo; nadie más lo va a leer.</p>
+                    <textarea id="reflection-2" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(2, this.value)"></textarea>
+                </div>
+                <div class="quiz-container">
+                    <h3>🧪 Mini-quiz Lección 2</h3>
+
+                    <div class="question">
+                        <h4>1. Salomé no logra abotonarse el pelaje, se enreda y empieza a frustrarse. La actividad está por comenzar. ¿Qué hace el Viejo Lobo?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q10">
+                            Se lo abotona él mismo, rápido y sin drama, para que Salomé no se atrase y la actividad arranque a tiempo.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q10">
+                            Le muestra una vez cómo se hace, se queda cerca y la deja intentarlo, aunque eso tome más de lo previsto.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q10">
+                            Le pide a otro Cachorro más hábil que se lo abotone, y así de paso se practica la ayuda entre compañeros.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>2. Un dirigente nuevo dice que los Nombres de Caza le parecen "una bobada simpática" y prefiere que los niños lo llamen por su nombre. ¿Qué le falta entender?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q11">
+                            Que a los cinco años los niños no logran memorizar los nombres reales de los adultos de su unidad.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q11">
+                            Que el Nombre de Caza es la puerta por la que el adulto entra al mundo simbólico donde el niño ya vive.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q11">
+                            Que las actas y los registros de la unidad se llevan siempre con el Nombre de Caza y no con el civil.
+                        </label>
+                    </div>
+
+                    <button class="btn" onclick="checkQuiz(2)" id="checkBtn-2">Verificar Respuestas</button>
+                    <button class="btn hidden" onclick="completeModule(2)" id="nextBtn-2">Continuar a la Promesa y la Ley 🤝</button>
+                </div>
+            </div>
+
+            <!-- MÓDULO 3: 🤝 PROMESA, LEY, SALUDO Y LEMA -->
+            <div class="module" id="module-3">
+                <h2>🤝 🤝 Promesa, Ley, Saludo y Lema</h2>
+                <div class="badge">Módulo 2/7</div>
+
+                <div class="info-box"><strong>Idea central:</strong> dos artículos no son una Ley recortada. Son una Ley traducida.</div>
+
+                <details class="policy-quote">
+                    <summary>📋 La Promesa del Cachorro</summary>
+                    <blockquote class="policy-quote-text">Prometo amar a Dios y ayudar a los demás.</blockquote>
+                    <p class="policy-quote-source">— Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §3.1.1, p. 16 del PDF.</p>
+                </details>
+
+                <p>La misma página aclara el espíritu: <em>"la Promesa no es algo rígido ni adulto, sino un acto simbólico que los hace sentir parte de la Familia y del Movimiento Scout"</em>. Y añade algo que le quita presión a todo el mundo: <em>"No se trata de que comprendan todo en profundidad, sino de que vivan lo que significa ser responsable, compartir y cuidar a los demás"</em>.</p>
+
+                <div class="info-box">🕊️ <strong>Hay una segunda forma, igual de oficial:</strong> <em>"Prometo amar la vida y ayudar a los demás"</em>. Se usa cuando la familia del niño no nombra a Dios. La Guía dice que <em>"ambas formas de la Promesa nacen del mismo principio"</em> (§3.1.1, p. 17 del PDF). Pregúntale a la familia antes de la Investidura, no el día de la ceremonia.</div>
+
+                <h3>La Ley del Cachorro</h3>
+
+                <details class="policy-quote">
+                    <summary>📋 Los dos artículos, textuales</summary>
+                    <blockquote class="policy-quote-text">El Cachorro es alegre. El Cachorro cuida la naturaleza.</blockquote>
+                    <p class="policy-quote-source">— Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §3.1.2, p. 17 del PDF.</p>
+                </details>
+
+                <p>Tarde o temprano alguien te va a decir que esa Ley "está incompleta". La Guía se adelanta: <em>"No es una ley distinta, sino una síntesis adecuada a la edad que permite a los niños y niñas de 5 y 6 años empezar a vivir los valores fundamentales del Movimiento de manera sencilla y significativa"</em>.</p>
+
+                <p>Y explica cómo funciona la síntesis: cuando decimos <em>"El Cachorro es alegre"</em> estamos sembrando a la vez varias expresiones de la Ley Scout — <em>"la actitud positiva ante las dificultades, la fraternidad, el respeto y el buen ánimo en la convivencia"</em>. Ojo al detalle: la alegría del Cachorro es ante lo difícil, no ante todo. Un artículo de dos palabras carga con media Ley.</p>
+
+                <div class="info-box"><strong>Por qué dos y no diez.</strong> A los cinco años una lista de diez reglas no se vive: se olvida, o peor, se recita sin entender. Dos se pueden habitar. La pregunta correcta no es "¿cuándo aprenden la Ley completa?" sino "¿están viviendo estas dos?".</div>
+
+                <h3>El Saludo</h3>
+
+                <p>Mano derecha a la altura del hombro. Índice y medio estirados y juntos; el pulgar sobre el meñique y el anular. Es <strong>similar</strong> al saludo scout tradicional, con una diferencia: en la Rama Cachorros los dedos se mantienen <strong>juntos</strong>.</p>
+
+                <p>Y esa diferencia tiene su porqué: <em>"simboliza que los Cachorros aún están comenzando su camino scout y que, cuando crezcan y pasen a la Manada, abrirán sus dedos"</em> (§3.3, p. 18 del PDF). El saludo de Salomé ya está apuntando al de Andrés.</p>
+
+                <h3>El lema y el color</h3>
+
+                <p>El lema de la rama es <strong>"Siempre Alegres"</strong>, y la Guía insiste en que <em>"es mucho más que una frase: es una forma de vivir la experiencia en el Cubil"</em> (§6.1.1, p. 35 del PDF). El color representativo es el <strong>naranja</strong>, que <em>"representa una energía vibrante que inspira alegría, entusiasmo y vitalidad"</em> (§6.1.2, p. 36 del PDF).</p>
+
+                <div class="reflection-area">
+                    <h4>🤔 Reflexión Personal</h4>
+                    <p>Escribe con tus palabras cómo le explicarías a Salomé, que tiene 5 años, qué quiere decir "El Cachorro cuida la naturaleza" — sin usar la expresión "medio ambiente" ni ninguna palabra que ella no diría. Si te sale largo, acórtalo: esa es justamente la habilidad.</p>
+                    <textarea id="reflection-3" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(3, this.value)"></textarea>
+                </div>
+                <div class="quiz-container">
+                    <h3>🧪 Mini-quiz Lección 3</h3>
+
+                    <div class="question">
+                        <h4>1. Un papá te comenta, con buena intención, que la Ley del Cachorro "está incompleta" porque la Ley Scout tiene diez artículos. ¿Qué le respondes?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q20">
+                            Que tiene razón, y que por eso en la Familia se van enseñando los otros ocho artículos poco a poco.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q20">
+                            Que no es una ley distinta ni recortada, sino la misma síntesis puesta en el lenguaje de un niño de cinco años.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q20">
+                            Que la Ley completa corresponde a la Manada, y que en Familia solo se hace una primera aproximación.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>2. En la Ceremonia de Investidura de la Familia, el Cachorro…</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q21">
+                            Recibe su pelaje una vez que ha demostrado saberse de memoria los dos artículos de la Ley del Cachorro.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q21">
+                            Recibe su pelaje y realiza su Promesa, celebrando así su ingreso pleno a la Familia de Cachorros.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q21">
+                            Recibe su primer Nombre de Caza, que es lo que le permite participar en las actividades del Cubil.
+                        </label>
+                    </div>
+
+                    <button class="btn" onclick="checkQuiz(3)" id="checkBtn-3">Verificar Respuestas</button>
+                    <button class="btn hidden" onclick="completeModule(3)" id="nextBtn-3">Continuar al juego 🎲</button>
+                </div>
+            </div>
+
+            <!-- MÓDULO 4: 🎲 EL JUEGO: ASÍ SE APRENDE A LOS CINCO AÑOS -->
+            <div class="module" id="module-4">
+                <h2>🎲 🎲 El juego: así se aprende a los cinco años</h2>
+                <div class="badge">Módulo 3/7</div>
+
+                <div class="info-box"><strong>Idea central:</strong> el juego no es el envoltorio del Método. En primera infancia, el juego <em>es</em> el Método.</div>
+
+                <p>Dos usos frecuentes del juego en una reunión de Familia, y los dos lo desperdician: el juego como <strong>premio</strong> ("si se portan bien, al final jugamos") y el juego como <strong>relleno</strong> entre las actividades "serias". En ambos casos el juego quedó fuera de donde ocurre el aprendizaje.</p>
+
+                <details class="policy-quote">
+                    <summary>📋 Qué es el juego para el Escultismo</summary>
+                    <blockquote class="policy-quote-text">Para el Escultismo, el juego es la forma más cercana del elemento del Método Scout "Aprender haciendo".</blockquote>
+                    <p class="policy-quote-source">— Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §4.11, p. 27 del PDF.</p>
+                </details>
+
+                <h3>Las cuatro actividades rectoras</h3>
+
+                <p>La Guía conecta el juego con las <em>"actividades rectoras"</em> que el Ministerio de Educación de Colombia propone para la primera infancia (§4.11, p. 27 del PDF), y muestra cómo se enlazan entre sí:</p>
+
+                <ul>
+                    <li><strong>Juego</strong> — la puerta de entrada: es la forma natural en que un niño de cinco años explora y aprende.</li>
+                    <li><strong>Literatura</strong> — porque los cuentos y relatos inspiran aventuras y escenarios simbólicos.</li>
+                    <li><strong>Arte</strong> — porque al jugar los niños crean, expresan y transforman.</li>
+                    <li><strong>Exploración del medio</strong> — porque el juego en la naturaleza les permite descubrir su entorno con curiosidad.</li>
+                </ul>
+
+                <div class="info-box"><strong>Esto vale más de lo que parece.</strong> Significa que la Familia no está improvisando una versión infantil del escultismo: está alineada con el referente pedagógico que Colombia fija para la primera infancia. Si alguna vez te toca explicarle la rama a un colegio o a una familia que duda, ese es el argumento.</div>
+
+                <h3>DURASLID en la Familia</h3>
+
+                <p>Los ocho atributos de toda oportunidad de aprendizaje también aplican aquí, aterrizados a la edad (§4.9–4.10, pp. 23–25 del PDF): <strong>D</strong>esafiantes, <strong>Ú</strong>tiles, <strong>R</strong>ecompensantes, <strong>A</strong>tractivas, <strong>S</strong>eguras, <strong>L</strong>údicas, <strong>I</strong>ncluyentes y <strong>D</strong>iversas. Desafiante, a los cinco años, quiere decir al alcance pero no automático.</p>
+
+                <p>La prueba de fuego para saber si acertaste: <strong>quita el juego de tu actividad.</strong> Si la actividad sigue funcionando igual, el juego era decoración. Si se cae, el juego era el método.</p>
+
+                <div class="reflection-area">
+                    <h4>🤔 Reflexión Personal</h4>
+                    <p>Piensa en la última reunión de tu unidad —o en una que hayas visto—. ¿El juego era el método o era el premio? Escribe cómo la rediseñarías para que el aprendizaje ocurra <em>dentro</em> del juego, no después. Una actividad concreta, no un principio.</p>
+                    <textarea id="reflection-4" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(4, this.value)"></textarea>
+                </div>
+                <div class="quiz-container">
+                    <h3>🧪 Mini-quiz Lección 4</h3>
+
+                    <div class="question">
+                        <h4>1. Estás planeando una actividad sobre cuidar la naturaleza para Cachorros de 5 años. ¿Cuál se acerca más a lo que pide la Guía?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q30">
+                            Una charla corta con láminas sobre el cuidado del planeta y después un juego libre para los que pusieron atención.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q30">
+                            Una salida a buscar "tesoros de la selva" donde recogen basura y clasifican hojas mientras juegan a ser exploradores.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q30">
+                            Un taller de dibujo sobre el tema, con los resultados pegados después en la cartelera principal del Grupo Scout.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>2. Las cuatro actividades rectoras de la primera infancia son…</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q31">
+                            El juego, el deporte, la música y las manualidades que se trabajan durante las reuniones del Cubil.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q31">
+                            El juego, el arte, la literatura y la exploración del medio, según el Ministerio de Educación.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q31">
+                            La lectura, la escritura, el cálculo básico y la convivencia con otros niños de la misma edad.
+                        </label>
+                    </div>
+
+                    <button class="btn" onclick="checkQuiz(4)" id="checkBtn-4">Verificar Respuestas</button>
+                    <button class="btn hidden" onclick="completeModule(4)" id="nextBtn-4">Continuar a las Camadas 🐾</button>
+                </div>
+            </div>
+
+            <!-- MÓDULO 5: 🐾 CAMADAS, CÍRCULO DE FAMILIA Y ENCUENTRO DEL CUBIL -->
+            <div class="module" id="module-5">
+                <h2>🐾 🐾 Camadas, Círculo de Familia y Encuentro del Cubil</h2>
+                <div class="badge">Módulo 4/7</div>
+
+                <div class="info-box"><strong>Idea central:</strong> a los cinco años el sistema de equipos ya funciona — pero con otra forma que en las ramas mayores.</div>
+
+                <h3>El Sistema de Familia</h3>
+
+                <p>El sistema de equipos de esta rama tiene nombre propio: el <strong>Sistema de Familia</strong>. Todos juntos, siempre. La Guía lo dice sin rodeos: en la Familia de Cachorros <em>"siempre permanecen unidos"</em>, y <em>"tampoco se conforman pequeños grupos permanentes por fuera de la reunión general de la Familia"</em> (§5.2.1, p. 29 del PDF).</p>
+
+                <h3>Las Camadas</h3>
+
+                <p>Dentro de ese todo junto caben las Camadas — pero son <strong>ratos, no estructura</strong>. Y no tienen jefe: la Guía dice que <em>"no son dirigidas por ningún Cachorro, ni Viejo Lobo"</em> (§5.2.2, p. 29 del PDF). Si vienes de Manada y ya estabas buscando a quién nombrar seisenero, aquí no hay ese cargo.</p>
+
+                <details class="policy-quote">
+                    <summary>📋 Qué es una Camada</summary>
+                    <blockquote class="policy-quote-text">La Familia se puede dividir en pequeños grupos naturales, es decir, voluntarios, que se denominan Camadas. Las Camadas se conforman con aproximadamente cinco (5) Cachorros, quienes se congregan para alguna actividad o juego.</blockquote>
+                    <p class="policy-quote-source">— Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §5.2.2, p. 29 del PDF.</p>
+                </details>
+
+                <p>Se nombran por <strong>cualidades</strong> y llevan un lema, elegidos por los propios Cachorros: Camada de la Alegría, Camada de la Limpieza, Camada del Orden. La Guía aclara enseguida que <em>"escoger valores no es una camisa de fuerza"</em>, y que las Camadas pueden tener diferentes integrantes de una actividad a otra.</p>
+
+                <div class="info-box"><strong>Ojo con traer el molde de la Manada.</strong> Las seisenas son estables; las Camadas no tienen por qué serlo. A los cinco años el grupo natural se rehace seguido, y eso no es desorden: es la edad. Forzar Camadas fijas todo el año es imponerle a la primera infancia una estructura de niños mayores.</div>
+
+                <h3>El Círculo de Familia</h3>
+
+                <details class="policy-quote">
+                    <summary>📋 La formación propia de la rama</summary>
+                    <blockquote class="policy-quote-text">Es la formación propia de la Familia de Cachorros. Dicho círculo representa al Cubil y la unidad entre quienes lo integran…</blockquote>
+                    <p class="policy-quote-source">— Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §5.2.3, p. 29 del PDF.</p>
+                </details>
+
+                <p>El Viejo Lobo que lo dirige va <strong>en el centro</strong>: la Guía lo hace responsable <em>"de su cuidado y de la seriedad que el círculo adquiera"</em>. Los demás Viejos Lobos se ubican <strong>detrás del círculo, como símbolo de protección</strong>. No es una coreografía: es la imagen de lo que hacen los adultos en esa rama.</p>
+
+                <h3>El Encuentro del Cubil</h3>
+
+                <details class="policy-quote">
+                    <summary>📋 El órgano de participación de la rama</summary>
+                    <blockquote class="policy-quote-text">El Encuentro del Cubil es el órgano de participación infantil dentro de la Rama de Cachorros.</blockquote>
+                    <p class="policy-quote-source">— Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §5.4, p. 32 del PDF.</p>
+                </details>
+
+                <p>Lo conforman <strong>todos</strong> los Cachorros y lo guían los Viejos Lobos, que <em>"facilitan la expresión simbólica, lúdica y afectiva de los niños, respetando sus ritmos y formas de comunicación"</em>. Sirve para que expresen ideas, intereses, necesidades y emociones.</p>
+
+                <p>No es una asamblea en miniatura. Pedirle a un niño de cinco años que levante la mano y vote es pedirle que participe en el idioma de los adultos. Participar aquí se parece más a dibujar, a jugar una ronda o a escoger con el cuerpo.</p>
+
+                <div class="reflection-area">
+                    <h4>🤔 Reflexión Personal</h4>
+                    <p>¿Cómo vas a preguntarle a tu unidad qué quiere hacer, sin pedirles que levanten la mano y voten? Escribe una forma concreta —un juego, un dibujo, una ronda, una fila de objetos— que puedas usar el sábado. Que sea algo que puedas montar con lo que ya tienes.</p>
+                    <textarea id="reflection-5" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(5, this.value)"></textarea>
+                </div>
+                <div class="quiz-container">
+                    <h3>🧪 Mini-quiz Lección 5</h3>
+
+                    <div class="question">
+                        <h4>1. Un Viejo Lobo propone dejar las Camadas fijas todo el año "para que los niños se acostumbren y haya orden". ¿Qué dice la Guía?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q40">
+                            Que es lo correcto, porque la estabilidad del grupo natural es lo que le da identidad y cohesión a la rama.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q40">
+                            Que las Camadas son grupos voluntarios que se congregan para una actividad y pueden tener distintos integrantes.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q40">
+                            Que deben rotar de manera obligatoria en cada reunión, para que ningún Cachorro se apegue demasiado a otro.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>2. Durante el Círculo de Familia, mientras un Viejo Lobo dirige desde el centro, los demás Viejos Lobos…</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q41">
+                            Se ubican dentro del círculo, repartidos entre los Cachorros, para mantener el orden.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q41">
+                            Se ubican detrás del círculo, como símbolo de protección de la Familia que está reunida.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q41">
+                            Aprovechan para alistar el material de la siguiente actividad fuera del salón.
+                        </label>
+                    </div>
+
+                    <button class="btn" onclick="checkQuiz(5)" id="checkBtn-5">Verificar Respuestas</button>
+                    <button class="btn hidden" onclick="completeModule(5)" id="nextBtn-5">Continuar al idioma de la Selva 📖</button>
+                </div>
+            </div>
+
+            <!-- MÓDULO 6: 📖 LOS HERMANOS DE MOWGLI Y EL EO-WAWA -->
+            <div class="module" id="module-6">
+                <h2>📖 📖 Los Hermanos de Mowgli y el Eo-Wawa</h2>
+                <div class="badge">Módulo 5/7</div>
+
+                <div class="info-box"><strong>Idea central:</strong> el marco simbólico es el idioma en que ocurre la unidad, no su decoración.</div>
+
+                <p>Empecemos por ponerle el nombre correcto. El marco simbólico de la Familia se llama <strong>la Fantasía</strong>, y su ambiente de referencia son los <strong>Relatos Infantiles</strong> (§6.1, p. 35 del PDF). La historia que llena esa Fantasía es <strong>Los Hermanos de Mowgli</strong>. Marco simbólico y historia no son lo mismo: uno es el mundo, la otra es el cuento que se vive dentro de él.</p>
+
+                <details class="policy-quote">
+                    <summary>📋 Por qué Los Hermanos de Mowgli no es decoración</summary>
+                    <blockquote class="policy-quote-text">El capítulo "Los Hermanos de Mowgli" de El Libro de las Tierras Vírgenes de Rudyard Kipling, no es simplemente un cuento para ambientar reuniones; es el fundamento simbólico que da identidad, coherencia y profundidad a la Rama Cachorros.</blockquote>
+                    <p class="policy-quote-source">— Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §6.3.1, pp. 36–37 del PDF.</p>
+                </details>
+
+                <p>Familia y Manada <strong>comparten</strong> el Libro de las Tierras Vírgenes como fondo motivador. Lo propio de la Familia es que se vive sobre todo a través de <strong>Los Hermanos de Mowgli</strong> y de los <strong>Nombres de Caza</strong> que viste en la Lección 2.</p>
+
+                <h3>El Eo-Wawa</h3>
+
+                <details class="policy-quote">
+                    <summary>📋 El grito de felicidad de los Cachorros</summary>
+                    <blockquote class="policy-quote-text">¡Eo-Wawa! era la expresión de Mowgli, cuando se sentía feliz de sus logros… de allí que la expresión ¡Eo-Wawa! sea el grito de Felicidad de los Cachorros…</blockquote>
+                    <p class="policy-quote-source">— Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §6.4, p. 38 del PDF.</p>
+                </details>
+
+                <p>Se hace <em>"siempre que haya un motivo para celebrar"</em>. Parece un detalle menor y no lo es: un grito de alegría con nombre propio le enseña a un niño de cinco años que la alegría compartida se marca, se nombra y se celebra en conjunto. Eso es el lema "Siempre Alegres" volviéndose práctica.</p>
+
+                <h3>Las ceremonias</h3>
+
+                <p>La Guía es concreta: <em>"Existen tres ceremonias básicas las que son imprescindibles de realizar en presencia del Grupo Scout"</em> (§6.5, p. 42 del PDF). Tres, no dos — y la que más se olvida es la del medio.</p>
+
+                <div class="method-elements">
+                    <div class="method-element" style="background: linear-gradient(135deg, #fff3e0, #fff3e0dd); border-color: #fb8c00;">
+                        <h4>🎽 Ceremonia de Investidura</h4>
+                        <p>Celebra el ingreso pleno del Cachorro a la Familia: recibe su pelaje y realiza su Promesa (§6.5.1, p. 42 del PDF).</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
+                        <h4>🏅 Ceremonia de Fase Máxima de Progresión</h4>
+                        <p>Reconoce al Cachorro que llegó a la Fuerza del Cubil: ya no solo pertenece, ahora sostiene a los demás (§6.5, p. 42 y §8.14, p. 67 del PDF).</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
+                        <h4>🚪 Ceremonia de Paso</h4>
+                        <p>Despide al Cachorro que culmina su etapa y lo acompaña en su paso a la Manada (§6.5.2, p. 42 del PDF).</p>
+                    </div>
+                </div>
+
+                <p>Esas tres se hacen delante de todo el Grupo Scout. Dentro del Cubil hay dos más, más frecuentes y más pequeñas: la entrega de <strong>dentelladas</strong> y la de <strong>fases de progresión</strong>. Las vas a ver en la próxima lección.</p>
+
+                <p>Y un símbolo que conviene conocer: <strong>la huella</strong>. <em>"Representa el paso que cada Cachorro deja en el Cubil y en su comunidad. Simboliza identidad, pertenencia y crecimiento"</em> (§6.6.1, p. 42 del PDF).</p>
+
+                <div class="info-box"><strong>El riesgo de esta lección, dicho de frente.</strong> Es fácil usar el marco simbólico como adorno: una pancarta de Mowgli en la pared, un Eo-Wawa de vez en cuando, y el resto de la reunión en idioma de adultos. Marco simbólico es que las instrucciones, los reconocimientos y las historias <em>ocurran</em> en la Selva.</div>
+
+                <div class="reflection-area">
+                    <h4>🤔 Reflexión Personal</h4>
+                    <p>Escribe una instrucción cotidiana de tu unidad —"formen una fila", "recojan el material", "hagan silencio"— dicha en el idioma de la Selva. Si no te sale a la primera, ese es exactamente el trabajo que esta lección te está pidiendo.</p>
+                    <textarea id="reflection-6" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(6, this.value)"></textarea>
+                </div>
+                <div class="quiz-container">
+                    <h3>🧪 Mini-quiz Lección 6</h3>
+
+                    <div class="question">
+                        <h4>1. Un Viejo Lobo dice que el marco simbólico "está bien para ambientar, pero lo importante es la actividad". ¿Qué le falta entender?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q50">
+                            Nada: el marco simbólico es un recurso de ambientación y la actividad bien diseñada es lo que educa.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q50">
+                            Que el marco simbólico no ambienta la actividad, sino que es el lenguaje en el que la actividad ocurre.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q50">
+                            Que debería reservarlo para las ceremonias, que es el único lugar donde la Guía lo ubica formalmente.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>2. El Eo-Wawa es…</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q51">
+                            El nombre que recibe la formación en círculo que es propia de la Familia de Cachorros.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q51">
+                            El grito de felicidad de los Cachorros, que se hace cuando hay un motivo para celebrar.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q51">
+                            La ceremonia con la que el Cachorro se despide del Cubil y pasa a la Manada.
+                        </label>
+                    </div>
+
+                    <button class="btn" onclick="checkQuiz(6)" id="checkBtn-6">Verificar Respuestas</button>
+                    <button class="btn hidden" onclick="completeModule(6)" id="nextBtn-6">Continuar a la progresión 🌱</button>
+                </div>
+            </div>
+
+            <!-- MÓDULO 7: 🌱 CÓMO CRECE UN CACHORRO -->
+            <div class="module" id="module-7">
+                <h2>🌱 🌱 Cómo crece un Cachorro</h2>
+                <div class="badge">Módulo 6/7</div>
+
+                <div class="info-box"><strong>Idea central:</strong> la progresión no es una carrera. Es un camino con tres tramos y cinco huellas.</div>
+
+                <h3>Las cinco Dimensiones</h3>
+
+                <p>La Guía las define así: <em>"Una Dimensión es un campo de formación que agrupa un conjunto de habilidades, actitudes y valores que se desarrollan de manera interrelacionada, y que permiten al niño crecer de forma integral"</em> (§8.5, p. 54 del PDF).</p>
+
+                <ul>
+                    <li><strong>Corporal</strong> — motricidad fina y gruesa, reconocer las partes de su cuerpo y la importancia de cuidarlo.</li>
+                    <li><strong>Cognitiva</strong> — observar, comparar y clasificar su entorno, y comunicar de forma creativa lo que descubre.</li>
+                    <li><strong>Ética</strong> — participar con respeto y solidaridad, reconociendo y siguiendo normas básicas de convivencia.</li>
+                    <li><strong>Socio-Afectiva</strong> — construir vínculos positivos, mostrar empatía y manejar sus emociones cotidianas.</li>
+                    <li><strong>Espiritual</strong> — cuidado, respeto y gratitud hacia los seres vivos, la naturaleza y lo que vive cada día.</li>
+                </ul>
+
+                <p>Seguro te preguntaste por qué en el Curso 6 eran <strong>seis</strong> áreas de crecimiento y aquí son <strong>cinco</strong> dimensiones. No es una contradicción: la Guía las empareja una por una (p. 55 del PDF), y dos áreas entran por la misma puerta.</p>
+
+                <ul>
+                    <li>Corporalidad → Dimensión <strong>Corporal</strong></li>
+                    <li>Creatividad → Dimensión <strong>Cognitiva</strong></li>
+                    <li>Carácter → Dimensión <strong>Ética</strong></li>
+                    <li>Sociabilidad + Afectividad → Dimensión <strong>Socio-Afectiva</strong> (las dos juntas: ahí está el seis que se vuelve cinco)</li>
+                    <li>Espiritualidad → Dimensión <strong>Espiritual</strong></li>
+                </ul>
+
+                <p>Dicho de otro modo: no son dos sistemas que compiten, es el mismo sistema dicho en el lenguaje de la primera infancia. En este curso, <strong>Dimensión</strong> siempre quiere decir uno de esos cinco campos de formación de la Familia.</p>
+
+                <h3>El camino del Cachorro</h3>
+
+                <p>El Cachorro que llega entra a la <strong>Etapa de Adaptación</strong>, de <strong>dos meses aproximadamente</strong>, orientada a <em>"facilitar una integración gradual, segura y significativa del niño o niña a la vida en el Cubil"</em> (§8.6, p. 57 del PDF). Es tiempo para conocer, explorar y sentirse parte — no para evaluar. Termina con la Investidura.</p>
+
+                <h3>Los tres tramos</h3>
+
+                <p>Después de la Investidura, el Cachorro recorre <strong>tres fases de progresión</strong>, y cada una tiene nombre de la Selva. La Guía avisa de entrada que <em>"estas fases no representan grados rígidos ni comparaciones entre compañeros, sino momentos de crecimiento"</em> (§8.6, p. 57 del PDF).</p>
+
+                <ol>
+                    <li>👁️ <strong>Mirada de Raksha</strong> — el nivel <strong>Reconoce</strong>. Así como Raksha mira a Mowgli con amor y protección, el Cachorro empieza a mirar la Selva con asombro y confianza. Mira y descubre.</li>
+                    <li>🐺 <strong>Aullido de Papá Lobo</strong> — el nivel <strong>Expresa</strong>. Encuentra su voz, se expresa con seguridad y afirma su lugar en la Familia. Se hace oír.</li>
+                    <li>🐾 <strong>Fuerza del Cubil</strong> — el nivel <strong>Comparte</strong>. Ya no solo pertenece: ahora sostiene a los demás. Comparte lo que aprendió.</li>
+                </ol>
+
+                <p>Tres fases, tres verbos: <strong>Reconoce, Expresa, Comparte</strong> (§8.6, p. 56 y §8.7, pp. 59–60 del PDF). Y a cada verbo del niño le corresponde uno tuyo: <strong>Apoyar</strong> en Reconoce, <strong>Acompañar</strong> en Expresa, <strong>Enlazar</strong> en Comparte. La Guía lo remata así: <em>"Apoyar, acompañar y enlazar no son tareas administrativas: son gestos pedagógicos"</em> (§8.11, pp. 64–66 del PDF).</p>
+
+                <h3>Las cinco Dentelladas</h3>
+
+                <p>Una por cada área de crecimiento, y cada una con su elemento de la Selva (p. 59 del PDF):</p>
+
+                <ul>
+                    <li>💧 <strong>Dentellada de Agua</strong> (corporalidad) — el agua es movimiento, fluidez y vida: el cuidado del cuerpo.</li>
+                    <li>🌱 <strong>Dentellada de Tierra</strong> (creatividad) — la tierra es donde se siembra y se construye: la exploración y el descubrimiento.</li>
+                    <li>🔥 <strong>Dentellada de Fuego</strong> (carácter) — el fuego es fuerza interior, valentía y decisión: el carácter.</li>
+                    <li>😊 <strong>Dentellada de Felicidad</strong> (afectividad y sociabilidad) — el espíritu alegre de "Siempre Alegres": los vínculos y la empatía.</li>
+                    <li>🌬️ <strong>Dentellada de Aire</strong> (espiritualidad) — el aire es lo invisible pero esencial: la gratitud y el asombro.</li>
+                </ul>
+
+                <div class="info-box"><strong>Y sí, son insignias.</strong> La Guía dice que <em>"la insignia de cada dentellada se entrega en el momento en que el Cachorro demuestra el nivel Expresa en la dimensión correspondiente"</em>, y <strong>recomienda</strong> entregarlas <strong>de a una</strong>, sin acumular varias para el mismo día, <em>"con el fin de resaltar el logro personal"</em> (§8.6, p. 58 del PDF). Lo que la Guía sí descarta es otra cosa: <em>"no es un sistema de requisitos acumulativos, sino un proceso gradual"</em> (§8.6, p. 56 del PDF). Las insignias no son el problema; la carrera sí.</div>
+
+                <h3>¿Y cómo se pasa de una fase a la otra?</h3>
+
+                <p>Con dos cosas. Las <strong>Dentelladas</strong>, que ya viste — cuando el niño <em>expresa</em> esa dimensión. Y las <strong>especialidades</strong>: algo que le gusta y que después comparte con la Familia. <strong>Una</strong> para llegar al Aullido de Papá Lobo; <strong>tres</strong> en total para la Fuerza del Cubil (§8.6, p. 58 del PDF). Por eso el tercer verbo se llama <em>Comparte</em>: lo que se profundiza, se devuelve.</p>
+
+                <p><strong>Y una especialidad no es un examen.</strong> La Guía da la fórmula en tres pasos: <strong>SABE</strong> dos cosas básicas, <strong>DEMUESTRA</strong> dos acciones prácticas y <strong>COMPARTE</strong> una en la Familia o en la casa. Se completa en <em>“4 a 6 semanas”</em> y <em>“no necesita trámites complejos”</em>. Sale del interés del niño, no de un catálogo: le gustan los animales → <em>Amigo de los Animales</em>; le gusta cuidar plantas → <em>Guardián de la Selva</em> (§8.10, pp. 63–64 del PDF).</p>
+
+                <div class="info-box">🎖️ <strong>Las especialidades no llevan insignia.</strong> La Guía es explícita: <em>“no cuentan con insignias físicas; sin embargo, es fundamental reconocer y valorar los logros”</em> — con un diploma, una mención, lo que se les ocurra, pero <strong>delante de los demás</strong>. Ahí está tu papel de <strong>Enlazar</strong>: en esta rama, enlazar es acompañar una especialidad hasta que el Cachorro pueda enseñarle algo a la Familia (§8.10, p. 64 y §8.11, p. 65 del PDF).</div>
+
+                <p>Y al final está la <strong>Etapa de Transición</strong>, llamada <strong>Cachorro Explorador</strong>. La Guía lo dice con cuidado: el paso a la Manada <em>"no debe vivirse como un cambio abrupto ni como una ruptura en el camino del Cachorro, sino como una continuidad natural del viaje fantástico"</em> (§8.15, p. 67 del PDF).</p>
+
+                <p>¿Y cuándo se hace ese paso? La Guía pone fecha: <em>"idealmente, el paso a la Manada debe realizarse al cumplir los 7 años"</em>, con una <em>"flexibilidad máxima de hasta tres meses"</em> después de esa edad, y solo con razones pedagógicas claras (§8.15, p. 68 del PDF). Tres meses es el margen — no es una puerta abierta.</p>
+
+                <h3>Qué esperamos al final</h3>
+
+                <details class="policy-quote">
+                    <summary>📋 El perfil de egreso del Cachorro</summary>
+                    <blockquote class="policy-quote-text">Esperamos que nuestros Cachorros culminen su etapa en la Familia con bases sólidas para continuar su camino en la Manada, no como niños perfectos, sino como niños seguros, alegres y preparados para nuevos desafíos.</blockquote>
+                    <p class="policy-quote-source">— Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §8.3, p. 53 del PDF.</p>
+                </details>
+
+                <div class="info-box">🐺 <strong>Aquí Salomé cruza la Ceremonia de Paso.</strong> Del otro lado la espera la Manada — y ahí empieza el <strong>Curso 8</strong>, con Andrés, que acaba de cruzar esa misma ceremonia. Si algún día acompañas esa rama, ese curso continúa exactamente esta historia.</div>
+
+                <div class="reflection-area">
+                    <h4>🤔 Reflexión Personal</h4>
+                    <p>Piensa en un Cachorro concreto de tu unidad, con nombre y cara. ¿En cuál de las cinco dimensiones lo has visto crecer este trimestre? ¿Y en cuál no te has fijado nunca? La segunda pregunta es la que importa.</p>
+                    <textarea id="reflection-7" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(7, this.value)"></textarea>
+                </div>
+                <div class="quiz-container">
+                    <h3>🧪 Mini-quiz Lección 7</h3>
+
+                    <div class="question">
+                        <h4>1. Un Viejo Lobo lleva la cuenta de cuántas insignias tiene cada Cachorro y las compara entre ellos para motivar a los que van más lento. ¿Qué está pasando por alto?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q60">
+                            Nada en particular: comparar avances es una forma legítima de motivar a quienes van más despacio que el resto.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q60">
+                            Que la progresión se acompaña por dimensiones y ritmos propios de cada niño, no como una carrera entre ellos.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q60">
+                            Que ese registro debería llevarlo en la herramienta oficial de la Dirección Nacional y no en un cuaderno suyo.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>2. La Etapa de Adaptación de un Cachorro que acaba de llegar a la Familia dura aproximadamente…</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q61">
+                            Una reunión: la de bienvenida, donde conoce a sus Viejos Lobos y al resto de la Familia.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q61">
+                            Dos meses, orientados a una integración gradual y segura a la vida en el Cubil.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q61">
+                            Todo el primer año, hasta que cumple los seis años y pasa a ser Cachorro Explorador.
+                        </label>
+                    </div>
+
+                    <button class="btn" onclick="checkQuiz(7)" id="checkBtn-7">Verificar Respuestas</button>
+                    <button class="btn hidden" onclick="completeModule(7)" id="nextBtn-7">Continuar al Cubil seguro 🛡️</button>
+                </div>
+            </div>
+
+            <!-- MÓDULO 8: 🛡️ UN CUBIL SEGURO Y TU PRIMER PASO -->
+            <div class="module" id="module-8">
+                <h2>🛡️ 🛡️ Un Cubil seguro y tu primer paso</h2>
+                <div class="badge">Módulo 7/7</div>
+
+                <div class="info-box"><strong>Idea central:</strong> con niños de cinco años, la regla de los dos adultos no es un trámite. Es parte de la actividad.</div>
+
+                <h3>Las reglas que no se negocian</h3>
+
+                <details class="policy-quote">
+                    <summary>📋 Presencia mínima de adultos</summary>
+                    <blockquote class="policy-quote-text">Para garantizar un entorno seguro, siempre deben estar presentes al menos dos adultos con los Cachorros, y debe existir una proporción de un adulto por cada cinco Cachorros; en ningún caso un adulto debe permanecer solo con un niño o con la Familia.</blockquote>
+                    <p class="policy-quote-source">— Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §11.7 Presencia Mínima de Adultos, p. 78 del PDF.</p>
+                </details>
+
+                <p>La Guía dice para qué sirve, y son tres cosas, no una: <em>"Protege a los menores. Protege a los Viejos Lobos. Garantiza transparencia en todas las interacciones entre adultos y Protagonistas de Programa"</em>. La segunda se olvida seguido — esta regla también te cuida a ti.</p>
+
+                <p>Sobre el <strong>contacto físico</strong>, la Guía es clara: <em>"debe evitarse de manera general"</em>. Si por razón pedagógica o de seguridad hace falta —para evitar un accidente, por ejemplo—, <em>"se debe advertir previamente al niño, explicándole con claridad qué se hará y por qué"</em>. Y el afecto se maneja con límites sanos, no se prohíbe (§11.10, p. 79 del PDF).</p>
+
+                <p>Y hay dos situaciones que con niños de cinco años pasan <strong>cada sábado</strong>, así que conviene saberlas de memoria:</p>
+
+                <ul>
+                    <li>🚻 <strong>El baño.</strong> Acompañas <em>"únicamente hasta la puerta"</em>. <em>"En ningún caso un Viejo Lobo debe ingresar al baño con el Cachorro"</em>, ni lo asiste en su higiene ni en acomodarle la ropa (§11.9, pp. 78–79 del PDF).</li>
+                    <li>👶 <strong>Si el niño no controla esfínteres</strong> o necesita apoyo directo, <em>"serán exclusivamente los padres o acudientes"</em> quienes lo hagan. No es tu tarea, y no es descortesía decirlo (§11.9, p. 79 del PDF).</li>
+                    <li>🤝 <strong>La entrega y la recepción.</strong> Tu responsabilidad empieza cuando recibes al Cachorro y termina cuando lo entregas a su padre, madre o acudiente autorizado. Siempre <em>"visible y explícito"</em>, en un punto definido, y <em>"por ningún motivo se permite que el niño se retire solo"</em> (§11.7 Responsabilidad y Custodia, p. 78 del PDF).</li>
+                </ul>
+
+                <h3>Los padres, aliados</h3>
+
+                <details class="policy-quote">
+                    <summary>📋 El lugar de los padres en la Familia</summary>
+                    <blockquote class="policy-quote-text">En la Familia de Cachorros los padres de familia no son espectadores externos, sino aliados fundamentales del proceso educativo.</blockquote>
+                    <p class="policy-quote-source">— Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §1.4, p. 11 del PDF.</p>
+                </details>
+
+                <p>Con una condición: el rol claro. Su participación <em>"no está orientada a dirigir, corregir o intervenir en la dinámica pedagógica de las reuniones"</em>. Aliado no es codirigente. Cuando eso no se conversa a tiempo, la reunión termina teniendo dos equipos de adultos dando instrucciones distintas.</p>
+
+                <div class="info-box">🔗 <strong>Dónde sigue esto.</strong> Aquí aprendiste a <strong>planear</strong> una actividad segura. Qué hacer —y qué <strong>no</strong>— cuando un niño te revela un daño lo enseña la línea <strong>Políticas Transversales</strong>, en el curso <em>El adulto como garante de un entorno seguro</em>. Este curso enlaza allá y no lo reexplica, para que esa conducta tenga una sola fuente en toda la plataforma.</div>
+
+                <p>Lo que sí te conviene saber desde hoy es que <strong>la ruta existe y tiene nombre</strong>: el botón <strong>"Me Pongo A Salvo del Peligro"</strong>, virtual en scout.org.co y en los códigos QR que se ubican en los sitios de reunión. Y si necesitas orientación, el correo <strong>asalvodelpeligro@scout.org.co</strong> (§11.5, p. 77 del PDF). Saber dónde está no te convierte en investigador: te evita improvisar el día que haga falta.</p>
+
+                <h3>¿Vas a abrir una Familia?</h3>
+
+                <p>Si tu Grupo está pensando en abrir la rama, hay un documento hecho para eso: <em>Cómo Crear una Familia de Cachorros</em> (DNPJ-2026-065). Propone <em>"recorrer tres momentos fundamentales: Intención, Decisión y Acción"</em>.</p>
+
+                <ol>
+                    <li><strong>Intención</strong> — reflexionar sobre el porqué: para qué quiere el Grupo abrir esta rama.</li>
+                    <li><strong>Decisión</strong> — evaluar con criterio si hay adultos idóneos y condiciones seguras.</li>
+                    <li><strong>Acción</strong> — dar el paso, con la formación y los roles definidos.</li>
+                </ol>
+
+                <div class="mission-box">🎯 <strong>Tu primer paso como Viejo Lobo de Familia.</strong> No intentes cambiar la unidad entera el sábado. Escoge una sola cosa de este curso, pruébala en la próxima reunión, y mira qué pasa. Lo que aprendiste aquí se sostiene reunión a reunión, igual que un Cachorro crece.</div>
+
+                <div class="reflection-area">
+                    <h4>🤔 Reflexión Personal</h4>
+                    <p>Escribe tres cosas, cortas y concretas: (1) el Nombre de Caza que vas a usar; (2) UNA cosa que vas a cambiar en tu próxima reunión por lo que viste en este curso; y (3) cómo vas a verificar la regla de los dos adultos antes de la próxima salida. La tercera es la que no se puede dejar para después.</p>
+                    <textarea id="reflection-8" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(8, this.value)"></textarea>
+                </div>
+                <div class="quiz-container">
+                    <h3>🧪 Mini-quiz Lección 8</h3>
+
+                    <div class="question">
+                        <h4>1. Estás organizando una salida con 12 Cachorros. Según la Guía, ¿cuántos adultos necesitas como mínimo?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q70">
+                            Dos adultos, que es el mínimo que la norma exige para cualquier actividad de la rama.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q70">
+                            Tres adultos, porque la proporción exigida es de un adulto por cada cinco Cachorros.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q70">
+                            Seis adultos, uno por cada dos Cachorros, dada la edad de los protagonistas de programa.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>2. Al final de la reunión, Salomé corre a abrazar a su Viejo Lobo. Según la Guía, lo correcto es…</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q71">
+                            Evitar el abrazo y explicarle que entre adultos y niños no puede haber contacto físico.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q71">
+                            Agacharse a su altura y devolver el abrazo así, sin cargarla ni levantarla, y siempre a la vista.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q71">
+                            Devolver el abrazo de pie y con normalidad, porque el afecto espontáneo de un niño no implica riesgo.
+                        </label>
+                    </div>
+
+                    <button class="btn" onclick="checkQuiz(8)" id="checkBtn-8">Verificar Respuestas</button>
+                    <button class="btn hidden" onclick="completeModule(8)" id="nextBtn-8">Ver mi certificado 🏅</button>
+                </div>
+            </div>
+
+            <!-- MÓDULO 9: CERTIFICADO -->
+            <div class="module" id="module-9">
+                <div class="certificate" style="max-width: 700px; margin: 0 auto; background: white; border: 3px solid #622599; border-radius: 0; padding: 30px 35px; position: relative; overflow: hidden;">
+                    <!-- Decorative corners -->
+                    <div style="position: absolute; top: 0; left: 0; width: 60px; height: 60px; border-top: 4px solid #ffe675; border-left: 4px solid #ffe675;"></div>
+                    <div style="position: absolute; top: 0; right: 0; width: 60px; height: 60px; border-top: 4px solid #ffe675; border-right: 4px solid #ffe675;"></div>
+                    <div style="position: absolute; bottom: 0; left: 0; width: 60px; height: 60px; border-bottom: 4px solid #ffe675; border-left: 4px solid #ffe675;"></div>
+                    <div style="position: absolute; bottom: 0; right: 0; width: 60px; height: 60px; border-bottom: 4px solid #ffe675; border-right: 4px solid #ffe675;"></div>
+
+                    <!-- Header -->
+                    <div style="text-align: center; margin-bottom: 15px;">
+                        <div style="display: flex; justify-content: center; align-items: center; gap: 15px; margin-bottom: 10px;">
+                            <img src="../assets/logo-asc.png" alt="ASC" style="height: 45px;">
+                            <div style="width: 1px; height: 35px; background: #ddd;"></div>
+                            <img src="../assets/logo-vallescout.png" alt="Valle Scout" style="height: 45px;">
+                        </div>
+                        <p style="font-size: 0.75em; text-transform: uppercase; letter-spacing: 2px; color: #622599; font-weight: 600; margin: 5px 0;">Asociacion Scouts de Colombia</p>
+                        <p style="font-size: 0.7em; text-transform: uppercase; letter-spacing: 1.5px; color: #636363; margin: 2px 0;">Programa de Jóvenes</p>
+                    </div>
+
+                    <hr style="border: none; border-top: 2px solid #622599; margin: 10px 30px;">
+
+                    <!-- Title -->
+                    <div style="text-align: center; margin: 15px 0 10px;">
+                        <h2 style="color: #622599; font-size: 1.3em; letter-spacing: 2px; margin: 0;">CERTIFICADO DE APROBACION</h2>
+                    </div>
+
+                    <!-- Course name -->
+                    <div style="text-align: center; background: linear-gradient(135deg, #622599 0%, #3d1660 100%); color: white; padding: 10px 20px; margin: 10px 0;">
+                        <h3 style="font-size: 1.1em; letter-spacing: 1px; margin: 0; color: white;">RAMA FAMILIA (CACHORROS)</h3>
+                    </div>
+
+                    <!-- Body -->
+                    <div style="text-align: center; margin: 15px 0;">
+                        <p style="font-size: 0.9em; color: #636363; margin-bottom: 8px;">Se otorga el presente certificado a</p>
+                        <h3 style="color: #622599; font-size: 1.5em; margin: 8px 0; border-bottom: 2px solid #ffe675; display: inline-block; padding-bottom: 5px;" id="studentName"></h3>
+                        <p style="font-size: 0.85em; color: #636363; margin-top: 10px; line-height: 1.5;">ha completado el Curso 9 de la Línea Programa de Jóvenes — Rama Familia (Cachorros), reconociendo la Promesa y la Ley del Cachorro, el juego como forma del Aprender Haciendo en la primera infancia, la organización en Camadas y el Círculo de Familia, el marco simbólico de la Fantasía y la historia de Los Hermanos de Mowgli, y las reglas de entorno seguro propias de la rama, al servicio de las niñas y los niños de la Asociación Scouts de Colombia</p>
+                    </div>
+
+                    <!-- Details grid -->
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px 20px; margin: 15px 0; padding: 12px 15px; background: #f9f7fc; border-left: 3px solid #622599; font-size: 0.82em;">
+                        <p style="margin: 0;"><strong>Fecha:</strong> <span id="certDate"></span></p>
+                        <p style="margin: 0;"><strong>Puntuacion:</strong> <span id="finalScore"></span>%</p>
+                        <p style="margin: 0;"><strong>Grupo Scout:</strong> <span id="certGroup"></span></p>
+                        <p style="margin: 0;"><strong>Region:</strong> <span id="certRegion"></span></p>
+                        <p style="margin: 0;"><strong>Tiempo de estudio:</strong> <span id="totalTime"></span> min</p>
+                        <p style="margin: 0;"><strong>Estado:</strong> <span style="color: #2e7d32; font-weight: 700;">APROBADO ✅</span></p>
+                    </div>
+
+                    <!-- Verification code -->
+                    <div style="text-align: center; margin: 12px 0; padding: 8px; border: 1px dashed #622599; background: #faf8fd;">
+                        <p style="font-size: 0.75em; color: #636363; margin: 0 0 3px;">Codigo de Verificacion</p>
+                        <strong style="font-size: 1em; color: #622599; letter-spacing: 2px;" id="certCode">ASC-2026-XXXXX</strong>
+                    </div>
+
+                    <!-- Footer -->
+                    <div style="text-align: center; margin-top: 12px;">
+                        <p style="font-size: 0.7em; color: #767676;">Plataforma de Formacion de Adultos ASC</p>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 30px;">🎯 Logros Desbloqueados</h3>
+                <div class="achievements">
+                    <div class="achievement earned">🧒 Me paro como mediador</div>
+                    <div class="achievement earned">🤝 Digo la Promesa y la Ley</div>
+                    <div class="achievement earned">🎲 El juego es mi método</div>
+                    <div class="achievement earned">🐾 Sostengo el Círculo</div>
+                    <div class="achievement earned">📖 Hablo el idioma de la Selva</div>
+                    <div class="achievement earned">🌱 Acompaño su crecimiento</div>
+                    <div class="achievement earned">🐻✨ Viejo Lobo de Familia</div>
+                </div>
+
+                <div style="text-align: center; margin: 30px 0;">
+                    <button class="btn" onclick="downloadCertificatePDF()">📥 Descargar PDF</button>
+                    <button class="btn" onclick="window.print()">🖨️ Imprimir Certificado</button>
+                    <button class="btn" onclick="shareResults()">📤 Compartir Logros</button>
+                    <button class="btn" onclick="restartCourse()">🔄 Reiniciar Curso</button>
+                </div>
+
+                <div class="reflection-area">
+                    <h4>🎯 Compromiso Personal</h4>
+                    <p>Escribe tu compromiso como adulto certificado para servir a tu grupo scout y al movimiento:</p>
+                    <textarea id="commitment" placeholder="Mi compromiso como adulto del movimiento es..." onchange="saveCommitment(this.value)"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="save-indicator" id="saveIndicator">💾 Guardando...</div>
+
+    <!-- jsPDF para generar el certificado en una sola página A4 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+    // --- Configuracion del curso (generada automaticamente) ---
+    var COURSE_CONFIG = {
+        courseId: "rama-familia-cachorros",
+        title: "Rama Familia (Cachorros)",
+        totalModules: 10,
+        contentModules: 7,
+        googleScriptUrl: "https://script.google.com/macros/s/AKfycbxxZBp6XpmdRzZS0BXO02WMq31K5FUU8-Mqzc2Sj0PcwB3cMcrhIqbHQA0naUQb5mgBWw/exec",
+        lineName: "Programa de Jóvenes",
+        achievements: [{"id":"achievement-1","name":"Me paro como mediador","emoji":"🧒","unlockOnModule":2},{"id":"achievement-2","name":"Digo la Promesa y la Ley","emoji":"🤝","unlockOnModule":3},{"id":"achievement-3","name":"El juego es mi método","emoji":"🎲","unlockOnModule":4},{"id":"achievement-4","name":"Sostengo el Círculo","emoji":"🐾","unlockOnModule":5},{"id":"achievement-5","name":"Hablo el idioma de la Selva","emoji":"📖","unlockOnModule":6},{"id":"achievement-6","name":"Acompaño su crecimiento","emoji":"🌱","unlockOnModule":7},{"id":"achievement-7","name":"Viejo Lobo de Familia","emoji":"🐻✨","unlockOnModule":-1}]
+    };
+
+    // --- Respuestas correctas (indice base 0) ---
+    var QUIZ_ANSWERS = {"2":[1,1],"3":[1,1],"4":[1,1],"5":[1,1],"6":[1,1],"7":[1,1],"8":[1,1]};
+
+// ============================================
+// engine.linea.js — EXTENSIÓN de la línea Programa de Jóvenes
+// Se concatena ANTES de engine.core.js (aquí viven las variables globales).
+//
+// Qué va aquí: lo que NO es idéntico en las 3 líneas — textos propios (el número
+// del curso al que se remite, el pie del PDF) y componentes exclusivos de la línea.
+// Lo demás está en el núcleo compartido; si tocas algo que también usan las otras
+// líneas, va en _MOTOR/engine.core.js del repo raíz, no aquí.
+// ============================================
+
+// ============================================
+// MOTOR DE CURSOS - PLATAFORMA DE FORMACION DE ADULTOS ASC
+// Este archivo es generado automaticamente por build-course.js
+// Las variables COURSE_CONFIG y QUIZ_ANSWERS son inyectadas por el builder
+// ============================================
+
+// --- Variables globales ---
+let currentModule = 0;
+let moduleProgress = [];
+let quizScores = [];
+let startTime = new Date();
+let studyTime = 0;
+let sessionStartTime = null;
+let reflections = {};
+let photos = {};
+let selfAssessments = {};
+let personalPlans = {};
+let userProfile = {};
+
+// Version de la escala de grados de dominio del autodiagnostico de competencias.
+// Subir este numero cuando cambien los criterios de los grados: invalida los perfiles
+// ya guardados, que quedarian describiendo peldanos distintos a los que el adulto eligio.
+// v2 (02-ago-2026): correccion doctrinal de los grados en 4 de las 7 competencias
+// (DECISIONES.md raiz ADR-023, Fase 2). Ver ESTADO-AUDITORIA.md.
+const COMPETENCY_SCALE_VERSION = 2;
+
+// --- Escritura segura en localStorage ---
+// saveProgress() no manejaba el fallo en absoluto y mostraba el indicador de "guardado"
+// sin comprobar que la escritura hubiera funcionado. Si localStorage falla (cuota llena,
+// modo privado de Safari, almacenamiento bloqueado por politica del navegador), el
+// estudiante veia el visto verde y perdia su trabajo sin enterarse. Ahora se entera.
+var _avisoAlmacenamiento = false;
+
+
+
+// --- Inicializacion ---
+window.addEventListener('DOMContentLoaded', function () {
+    moduleProgress = new Array(COURSE_CONFIG.totalModules).fill(false);
+    sessionStartTime = new Date();
+    shuffleQuizOptions();
+    loadProgress();
+    prefillFromGlobalProfile();
+    updateElapsedTime();
+});
+
+window.addEventListener('beforeunload', function () {
+    saveProgress();
+});
+
+// --- Persistencia ---
+function saveProgress() {
+    var key = 'courseProgress_' + COURSE_CONFIG.courseId;
+    var progress = {
+        userProfile: userProfile, moduleProgress: moduleProgress,
+        quizScores: quizScores, studyTime: studyTime, reflections: reflections, photos: photos, selfAssessments: selfAssessments, personalPlans: personalPlans,
+        currentModule: currentModule, startTime: startTime.toISOString(),
+        lastSaved: new Date().toISOString(), version: '3.0'
+    };
+    // Solo confirmar visualmente si la escritura funciono de verdad.
+    if (!guardarLocal(key, JSON.stringify(progress))) return;
+    var indicator = document.getElementById('saveIndicator');
+    if (indicator) { indicator.classList.add('show'); setTimeout(function () { indicator.classList.remove('show'); }, 2000); }
+}
+
+function loadProgress() {
+    var key = 'courseProgress_' + COURSE_CONFIG.courseId;
+    var saved = localStorage.getItem(key);
+    if (saved) {
+        var p = JSON.parse(saved);
+        userProfile = p.userProfile || {};
+        moduleProgress = p.moduleProgress || new Array(COURSE_CONFIG.totalModules).fill(false);
+        quizScores = p.quizScores || [];
+        studyTime = p.studyTime || 0;
+        reflections = p.reflections || {};
+        photos = p.photos || {};
+        selfAssessments = p.selfAssessments || {};
+        personalPlans = p.personalPlans || {};
+        currentModule = p.currentModule || 0;
+        startTime = new Date(p.startTime || new Date());
+        if (userProfile.fullName) {
+            showModule(currentModule);
+            var welcomeEl = document.getElementById('welcomeName');
+            if (welcomeEl) welcomeEl.textContent = userProfile.fullName.split(' ')[0];
+            showNotification('¡Bienvenido de vuelta, ' + userProfile.fullName.split(' ')[0] + '! 👋');
+        }
+        Object.keys(reflections).forEach(function (k) {
+            var ta = document.getElementById('reflection-' + k);
+            if (ta) ta.value = reflections[k];
+        });
+        restoreCommitment();
+        Object.keys(photos).forEach(function (k) {
+            var preview = document.getElementById('photo-preview-' + k);
+            var actions = document.getElementById('photo-actions-' + k);
+            if (preview && photos[k] && photos[k].dataUrl) {
+                preview.innerHTML = '<img src="' + photos[k].dataUrl + '" alt="Imagen guardada">';
+                if (actions) actions.classList.remove('hidden');
+            }
+        });
+        if (typeof restoreAssessmentSelections === 'function') restoreAssessmentSelections();
+        if (typeof restorePlanState === 'function') restorePlanState();
+        if (typeof initPlanBuilders === 'function') initPlanBuilders();
+        updateStats();
+        updateProgress();
+    }
+}
+
+// calculateAssessment eliminada (14-sep-2026, ADR-034 Fase 2): renderizaba el
+// perfil de COMPETENCIAS DEL ADULTO — 'Tu perfil de competencias', 'Grado promedio',
+// 'Tus areas de oportunidad'. Programa de Jovenes no tiene ningun curso con
+// self-assessment (0 de 8) y la funcion no se invocaba desde ninguna parte: era
+// codigo muerto heredado al copiar el motor de Politica de Adultos. Sus cadenas
+// viajaban igualmente dentro de los 8 HTML compilados.
+// Lo detecto el check de lexico de codigo.spec.js. Ver GLOSARIO-ASC.md seccion E-bis.
+
+// loadProfileIntoPlan eliminada (23-ago-2026): cargaba el perfil de competencias
+// del ADULTO (Curso 4 de Política de Adultos) en un ejercicio sobre ÁREAS DE CRECIMIENTO
+// del joven. En PJ ningún curso produce ese perfil. Ver GLOSARIO-ASC.md §E-bis.
+
+// generatePlan ya no vive aqui (14-sep-2026, ADR-034 Fase 1 B): esta en el nucleo,
+// y lee sus textos del HTML que deja render.plan-builder.js a partir de los `labels`
+// del JSON del curso. Las 3 copias por linea diferian SOLO por vocabulario.
+
+// --- Recovery from server ---
+function recoverProgress() {
+    var emailInput = document.getElementById('recoveryEmail');
+    var email = emailInput.value.trim();
+    var msgDiv = document.getElementById('recoveryMessage');
+
+    if (!email) {
+        showNotification('⚠️ Ingresa tu correo electronico', 'warning');
+        return;
+    }
+
+    msgDiv.style.display = 'block';
+    msgDiv.innerHTML = '<p style="color: #622599; font-weight: 600;">🔄 Buscando tu avance...</p>';
+
+    var url = COURSE_CONFIG.googleScriptUrl +
+        '?action=recover&email=' + encodeURIComponent(email) +
+        '&course=' + encodeURIComponent(COURSE_CONFIG.courseId) +
+        '&token=ADULTOS_ASC_2026';
+
+    fetch(url, { redirect: 'follow' })
+        .then(function(response) {
+            if (!response.ok) throw new Error('HTTP ' + response.status);
+            return response.json();
+        })
+        .then(function(data) {
+
+            // El Apps Script devuelve: { success: true, data: { registration, modules, quizzes, certificates } }
+            var isFound = (data && data.found) || (data && data.success && data.data);
+
+            if (isFound) {
+                var serverData = data.data || data;
+                var reg = serverData.registration || data.userProfile || {};
+                var mods = serverData.modules || [];
+                var quizzes = serverData.quizzes || [];
+
+                // Reconstruir userProfile desde registration
+                if (reg.fullName || reg.name) {
+                    userProfile = {
+                        fullName: reg.fullName || reg.name || '',
+                        age: reg.age || '',
+                        group: reg.group || '',
+                        region: reg.region || '',
+                        email: reg.email || email,
+                        motivation: reg.motivation || '',
+                        registrationDate: reg.registrationDate || reg.timestamp || ''
+                    };
+                } else if (data.userProfile) {
+                    userProfile = data.userProfile;
+                }
+
+                // Reconstruir moduleProgress desde modules array
+                if (mods.length > 0) {
+                    moduleProgress = new Array(COURSE_CONFIG.totalModules).fill(false);
+                    mods.forEach(function(m) {
+                        var modNum = m.moduleCompleted || m.module;
+                        if (modNum !== undefined && modNum < moduleProgress.length) {
+                            moduleProgress[modNum] = true;
+                        }
+                    });
+                } else if (data.moduleProgress) {
+                    moduleProgress = data.moduleProgress;
+                }
+
+                // Reconstruir quizScores desde quizzes array
+                if (quizzes.length > 0) {
+                    quizScores = [];
+                    quizzes.forEach(function(q) {
+                        var modNum = q.module;
+                        var score = q.score;
+                        if (modNum !== undefined && score !== undefined) {
+                            quizScores[modNum] = parseInt(score);
+                        }
+                    });
+                } else if (data.quizScores) {
+                    quizScores = data.quizScores;
+                }
+
+                // StudyTime y reflections (si vienen directamente)
+                if (data.studyTime) studyTime = data.studyTime;
+                if (data.reflections) {
+                    reflections = data.reflections;
+                    Object.keys(reflections).forEach(function(k) {
+                        var ta = document.getElementById('reflection-' + k);
+                        if (ta) ta.value = reflections[k];
+                    });
+                }
+
+                // Reflexiones por curso (persistencia hibrida): hidratar cada curso en localStorage
+                if (serverData.reflectionsByCourse && typeof serverData.reflectionsByCourse === 'object') {
+                    Object.keys(serverData.reflectionsByCourse).forEach(function (cid) {
+                        var courseReflections = serverData.reflectionsByCourse[cid] || {};
+                        if (cid === COURSE_CONFIG.courseId) {
+                            reflections = courseReflections;
+                            Object.keys(reflections).forEach(function (k) {
+                                var ta = document.getElementById('reflection-' + k);
+                                if (ta) ta.value = reflections[k];
+                            });
+                        } else {
+                            try {
+                                var key = 'courseProgress_' + cid;
+                                var raw = localStorage.getItem(key);
+                                var existing = raw ? JSON.parse(raw) : {};
+                                existing.reflections = courseReflections;
+                                existing.lastSaved = new Date().toISOString();
+                                guardarLocal(key, JSON.stringify(existing));
+                            } catch (e) { /* el aviso lo da guardarLocal */ }
+                        }
+                    });
+                }
+
+                // Autodiagnósticos: restaurar grados desde el backend
+                if (serverData.assessments && typeof serverData.assessments === 'object') {
+                    Object.keys(serverData.assessments).forEach(function (aid) {
+                        var saved = serverData.assessments[aid] || {};
+                        if (!selfAssessments[aid]) selfAssessments[aid] = { grades: {} };
+                        if (saved.grades) selfAssessments[aid].grades = saved.grades;
+                    });
+                    if (typeof restoreAssessmentSelections === 'function') restoreAssessmentSelections();
+                }
+
+                // Planes personales: restaurar plan-builder
+                if (serverData.plans && typeof serverData.plans === 'object') {
+                    Object.keys(serverData.plans).forEach(function (pid) {
+                        var savedPlan = serverData.plans[pid] || {};
+                        var contenido = savedPlan.contenido;
+                        if (contenido && typeof contenido === 'object') {
+                            personalPlans[pid] = contenido;
+                        }
+                    });
+                    if (typeof restorePlanState === 'function') restorePlanState();
+                }
+
+                saveProgress();
+                updateStats();
+                updateProgress();
+
+                // Determinar último módulo completado
+                var lastModule = data.currentModule || 0;
+                if (!lastModule && moduleProgress.length > 0) {
+                    for (var i = moduleProgress.length - 1; i >= 0; i--) {
+                        if (moduleProgress[i]) { lastModule = i + 1; break; }
+                    }
+                }
+
+                var firstName = userProfile.fullName ? userProfile.fullName.split(' ')[0] : 'Scout';
+                var welcomeEl = document.getElementById('welcomeName');
+                if (welcomeEl) welcomeEl.textContent = firstName;
+
+                var completedCount = moduleProgress.filter(Boolean).length;
+                showNotification('¡Avance recuperado, ' + firstName + '! ' + completedCount + ' módulos completados 🎉');
+                showModule(lastModule > 0 ? lastModule : 1);
+            } else {
+                var reason = (data && data.message) ? data.message : 'No se encontro avance asociado a este correo.';
+                msgDiv.innerHTML = '<p style="color: #FF9800; font-weight: 600;">⚠️ ' + escapeHtml(reason) + '</p>' +
+                    '<p style="color: #636363; margin-top: 10px;">Puedes registrarte como nuevo usuario.</p>' +
+                    '<button class="btn" style="margin-top: 10px;" onclick="toggleRegistrationMode(\'new\')">🆕 Registrarme</button>';
+            }
+        })
+        .catch(function(err) {
+            if (typeof console !== 'undefined') console.error('[Recovery] Error:', err);
+            msgDiv.innerHTML = '<p style="color: #f44336; font-weight: 600;">❌ Error al conectar con el servidor.</p>' +
+                '<p style="color: #636363; margin-top: 10px;">Error: ' + escapeHtml(err && err.message ? err.message : String(err)) + '</p>' +
+                '<p style="color: #636363; margin-top: 5px;">Verifica tu conexion a internet e intenta de nuevo.</p>';
+        });
+}
+
+
+// ============================================
+// engine.core.js — NÚCLEO COMPARTIDO del motor de cursos
+// Plataforma de Formación de Adultos — Asociación Scouts de Colombia
+//
+// ⚠️  NO EDITAR ESTE ARCHIVO DENTRO DE UNA LÍNEA.
+//     La fuente vive en el repo raíz, en _MOTOR/engine.core.js, y se propaga con:
+//         python sincronizar-motor.py --aplicar
+//     Editarlo aquí hace que la línea diverja en silencio — que es exactamente el
+//     problema que este archivo existe para resolver (DECISIONES.md ADR-025).
+//
+// Lo específico de cada línea (textos con el número de curso, componentes propios)
+// vive en templates/engine.linea.js, que se concatena ANTES que este archivo.
+// ============================================
+
+function guardarLocal(clave, valor) {
+    try {
+        localStorage.setItem(clave, valor);
+        return true;
+    } catch (e) {
+        if (!_avisoAlmacenamiento) {
+            _avisoAlmacenamiento = true;
+            if (typeof showNotification === 'function') {
+                showNotification('⚠️ No pudimos guardar tu avance en este navegador. Puede ser falta de espacio o el modo privado. Anota lo que escribiste antes de cerrar.', 'warning');
+            }
+        }
+        return false;
+    }
+}
+
+// --- Registro ---
+function handleRegistration(event) {
+    event.preventDefault();
+    var formData = new FormData(event.target);
+    userProfile = {
+        fullName: formData.get('fullName'),
+        age: formData.get('age'),
+        group: formData.get('group'),
+        region: formData.get('region'),
+        email: formData.get('email'),
+        motivation: formData.get('motivation'),
+        registrationDate: new Date().toISOString()
+    };
+    if (!userProfile.fullName || userProfile.fullName.trim() === '') {
+        showNotification('⚠️ El nombre es requerido', 'warning');
+        return;
+    }
+    saveProgress();
+    saveGlobalUserProfile(userProfile);
+    // El curso va explicito: `userProfile` no lo lleva, y sin el la fila queda con la
+    // columna Curso vacia y el panel administrativo la cuenta como "sin-curso". Era la
+    // unica accion del motor que no lo enviaba — quiz, progress y certificate si lo
+    // hacian, por eso los certificados salian bien y los registros no. Detectado el
+    // 03-ago-2026: 18 de 20 registros estaban sin curso y el panel de Programa de
+    // Jovenes mostraba 0 adultos registrados pese a tener alumnos con cursos completos.
+    sendToGoogleSheets({ action: 'register', ...userProfile, course: COURSE_CONFIG.courseId });
+    showModule(1);
+    // Si el curso consume un dato de otro de su linea (el perfil del Curso 4 en el plan
+    // personal), debe cargarse solo, sin boton (CHECKLIST seccion I). Hasta el 14-sep-2026
+    // eso solo pasaba dentro de loadProgress(), o sea SOLO si ya habia progreso guardado:
+    // en la primera visita el banner quedaba vacio hasta recargar. Lo atrapo la prueba
+    // e2e-perfil-competencias antes de mover el bloque (ADR-034 Fase 1). Va con typeof
+    // porque solo lo define la linea que tiene ese hilo de datos.
+    if (typeof initPlanBuilders === 'function') initPlanBuilders();
+    var firstName = userProfile.fullName.split(' ')[0];
+    var welcomeEl = document.getElementById('welcomeName');
+    if (welcomeEl) welcomeEl.textContent = firstName;
+    showNotification('¡Bienvenido/a ' + firstName + '! 🎉');
+}
+
+// --- Perfil global cross-course (autollenado) ---
+function saveGlobalUserProfile(profile) {
+    try {
+        // Persist only the reusable fields (no per-course state)
+        var reusable = {
+            fullName: profile.fullName, age: profile.age, group: profile.group,
+            region: profile.region, email: profile.email, motivation: profile.motivation,
+            updatedAt: new Date().toISOString()
+        };
+        guardarLocal('globalUserProfile', JSON.stringify(reusable));
+    } catch (e) { /* el aviso lo da guardarLocal */ }
+}
+
+function prefillFromGlobalProfile() {
+    // Skip if user already registered for this specific course
+    if (userProfile && userProfile.fullName) return;
+    var raw;
+    try { raw = localStorage.getItem('globalUserProfile'); } catch (e) { return; }
+    if (!raw) return;
+    var profile;
+    try { profile = JSON.parse(raw); } catch (e) { return; }
+    if (!profile || !profile.fullName) return;
+    var fields = ['fullName', 'age', 'group', 'region', 'email', 'motivation'];
+    var filled = 0;
+    fields.forEach(function (id) {
+        var input = document.getElementById(id);
+        if (input && profile[id]) {
+            input.value = profile[id];
+            filled++;
+        }
+    });
+    if (filled === 0) return;
+    // Insert banner above the form
+    var form = document.querySelector('#module-0 form');
+    if (form && !document.getElementById('prefill-banner')) {
+        var firstName = (profile.fullName || '').split(' ')[0] || 'Adulto';
+        var banner = document.createElement('div');
+        banner.id = 'prefill-banner';
+        banner.className = 'prefill-banner';
+        banner.innerHTML =
+            '<div class="prefill-banner-content">' +
+                '<span class="prefill-banner-icon">✨</span>' +
+                '<div>' +
+                    '<strong>Hola ' + escapePrefillHtml(firstName) + '. Tus datos están pre-cargados</strong> de un curso anterior.<br>' +
+                    '<span class="prefill-banner-hint">Edita lo que haya cambiado o continúa directo.</span>' +
+                '</div>' +
+                '<button type="button" class="prefill-banner-clear" onclick="clearPrefill()" title="Limpiar y empezar de cero">Limpiar</button>' +
+            '</div>';
+        form.parentNode.insertBefore(banner, form);
+    }
+}
+
+function clearPrefill() {
+    var fields = ['fullName', 'age', 'group', 'region', 'email', 'motivation'];
+    fields.forEach(function (id) {
+        var input = document.getElementById(id);
+        if (input) input.value = '';
+    });
+    var banner = document.getElementById('prefill-banner');
+    if (banner) banner.remove();
+    var fn = document.getElementById('fullName');
+    if (fn) fn.focus();
+}
+
+function escapePrefillHtml(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+}
+
+// --- Navegacion de modulos ---
+function showModule(moduleIndex) {
+    moduleIndex = parseInt(moduleIndex);
+    if (moduleIndex > 0 && (!userProfile || !userProfile.fullName)) {
+        showNotification('⚠️ Debes completar el registro primero', 'warning');
+        return;
+    }
+    // Pause and unload videos in the previously active module to free memory
+    document.querySelectorAll('.module.active video[data-src]').forEach(function (v) {
+        try { v.pause(); } catch (e) {}
+        if (v.src) { v.removeAttribute('src'); v.load(); }
+    });
+    document.querySelectorAll('.module').forEach(function (m) { m.classList.remove('active'); });
+    var target = document.getElementById('module-' + moduleIndex);
+    if (target) {
+        target.classList.add('active');
+        // Lazy-load videos in the now-active module: copy data-src to src
+        target.querySelectorAll('video[data-src]').forEach(function (v) {
+            if (!v.src) { v.src = v.getAttribute('data-src'); }
+        });
+    }
+
+    document.querySelectorAll('.nav-btn').forEach(function (btn, index) {
+        btn.classList.remove('active');
+        if (index === moduleIndex) btn.classList.add('active');
+    });
+
+    var mobileSelect = document.querySelector('.mobile-nav select');
+    if (mobileSelect) mobileSelect.value = moduleIndex;
+
+    currentModule = moduleIndex;
+
+    if (moduleIndex === COURSE_CONFIG.totalModules - 1) {
+        generateCertificate();
+    }
+    updateProgress();
+    saveProgress();
+    window.scrollTo(0, 0);
+}
+
+// --- Sistema de evaluaciones ---
+function selectOption(element, optionIndex) {
+    var question = element.closest('.question');
+    // Limpiar marcas previas (selected, correct, incorrect) de TODAS las opciones de la pregunta:
+    // permite reintentar sin que queden colores fantasma de un intento anterior.
+    question.querySelectorAll('.option').forEach(function (opt) {
+        opt.classList.remove('selected', 'correct', 'incorrect');
+    });
+    element.classList.add('selected');
+    element.setAttribute('data-selected-index', optionIndex);
+    // Si el boton "Verificar" estaba oculto tras un fallo, lo restauramos en cuanto el usuario cambia de opcion.
+    var quizContainer = element.closest('.quiz-container');
+    if (quizContainer) {
+        var checkBtn = quizContainer.querySelector('[id^="checkBtn-"]');
+        if (checkBtn) checkBtn.style.display = '';
+    }
+}
+
+// Baraja las opciones de cada pregunta una vez por sesion (Fisher-Yates).
+// Como cada <label class="option"> conserva su onclick="selectOption(this, oi)" con su indice original,
+// QUIZ_ANSWERS sigue siendo valido sin tocar build-course.js.
+function shuffleQuizOptions() {
+    document.querySelectorAll('.quiz-container .question').forEach(function (question) {
+        var options = Array.prototype.slice.call(question.querySelectorAll('.option'));
+        if (options.length < 2) return;
+        for (var i = options.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var tmp = options[i]; options[i] = options[j]; options[j] = tmp;
+        }
+        options.forEach(function (opt) { question.appendChild(opt); });
+    });
+}
+
+// Intentos por modulo en ESTA sesion de pagina (ADR-030). No se persiste a proposito:
+// no es estado del alumno, solo contexto del analisis de items. Si recarga y reintenta,
+// vuelve a contar desde 1 — asumido, porque lo que interesa es la pregunta, no la persona.
+var quizAttempts = {};
+
+function checkQuiz(moduleNum) {
+    var quizData = QUIZ_ANSWERS[moduleNum];
+    if (!quizData) return;
+
+    var questions = document.querySelectorAll('#module-' + moduleNum + ' .question');
+    var correctAnswers = 0;
+    var totalQuestions = quizData.length;
+
+    // Detalle pregunta por pregunta para el analisis de items (ADR-030).
+    // data-selected-index guarda el indice ORIGINAL de la opcion en el JSON, no su
+    // posicion en pantalla, asi que sobrevive al barajado de shuffleQuizOptions().
+    var itemsDetalle = [];
+
+    questions.forEach(function (question, qIndex) {
+        var selectedOption = question.querySelector('.option.selected');
+        var elegida = -1;   // -1 = la dejo sin responder
+        var acerto = 0;
+        if (selectedOption) {
+            var selectedIdx = parseInt(selectedOption.getAttribute('data-selected-index'));
+            elegida = isNaN(selectedIdx) ? -1 : selectedIdx;
+            if (selectedIdx === quizData[qIndex]) {
+                selectedOption.classList.add('correct');
+                correctAnswers++;
+                acerto = 1;
+            } else {
+                selectedOption.classList.add('incorrect');
+                // Mostrar la correcta
+                var options = question.querySelectorAll('.option');
+                if (options[quizData[qIndex]]) options[quizData[qIndex]].classList.add('correct');
+            }
+        }
+        itemsDetalle.push({ q: qIndex, o: elegida, c: acerto });
+    });
+
+    var score = Math.round((correctAnswers / totalQuestions) * 100);
+    quizScores[moduleNum] = score;
+
+    // Analisis de items — se envia SIEMPRE, apruebe o no. Es la unica via por la que
+    // el backend ve un intento fallido: la accion 'quiz' de abajo solo se dispara con
+    // score >= 70, asi que el dato util (en que se equivoca la gente antes de aprobar)
+    // no llegaba a ninguna parte. Va a una hoja anonima: sin email ni nombre.
+    quizAttempts[moduleNum] = (quizAttempts[moduleNum] || 0) + 1;
+    sendToGoogleSheets({
+        action: 'items', course: COURSE_CONFIG.courseId,
+        module: moduleNum, attempt: quizAttempts[moduleNum], items: itemsDetalle
+    });
+
+    var checkBtn = document.getElementById('checkBtn-' + moduleNum);
+    if (checkBtn) checkBtn.style.display = 'none';
+
+    if (score >= 70) {
+        var nextBtn = document.getElementById('nextBtn-' + moduleNum);
+        if (nextBtn) nextBtn.classList.remove('hidden');
+
+        // Desbloquear logros
+        COURSE_CONFIG.achievements.forEach(function (ach) {
+            if (ach.unlockOnModule === moduleNum) unlockAchievement(ach.id);
+        });
+
+        showNotification('¡Excelente! Obtuviste ' + score + '% ✅');
+        sendToGoogleSheets({
+            action: 'quiz', name: userProfile.fullName, email: userProfile.email,
+            module: moduleNum, score: score, course: COURSE_CONFIG.courseId
+        });
+    } else {
+        showNotification('Puntuación: ' + score + '%. Necesitas 70% para continuar. Revisa el contenido y vuelve a intentarlo.', 'warning');
+        // No auto-reset: en cuanto el usuario hace clic en una opcion, selectOption() limpia las marcas
+        // de esa pregunta y vuelve a mostrar el boton "Verificar". Esto evita que un reset por tiempo
+        // borrara la nueva seleccion del usuario antes de que pulsara verificar.
+    }
+    saveProgress();
+}
+
+function completeModule(moduleNum) {
+    moduleProgress[moduleNum] = true;
+    sendToGoogleSheets({
+        action: 'progress', name: userProfile.fullName, email: userProfile.email,
+        moduleCompleted: moduleNum, course: COURSE_CONFIG.courseId
+    });
+    var navBtns = document.querySelectorAll('.nav-btn');
+    if (navBtns[moduleNum]) navBtns[moduleNum].classList.add('completed');
+    showModule(moduleNum + 1);
+    saveProgress();
+    updateProgress();
+    updateStats();
+}
+
+// --- Progreso ---
+function updateProgress() {
+    var completed = moduleProgress.filter(Boolean).length;
+    var total = COURSE_CONFIG.contentModules;
+    var pct = Math.round((completed / total) * 100);
+    var bar = document.getElementById('progressBar');
+    var text = document.getElementById('progressText');
+    if (bar) bar.style.width = pct + '%';
+    if (text) text.textContent = pct + '%';
+
+    updateElapsedTime();
+}
+
+function updateElapsedTime() {
+    var timeEl = document.getElementById('elapsedTime');
+    if (!timeEl || !sessionStartTime) return;
+    var totalMinutes = studyTime;
+    if (totalMinutes < 60) {
+        timeEl.textContent = totalMinutes + ' min';
+    } else {
+        var hours = Math.floor(totalMinutes / 60);
+        var mins = totalMinutes % 60;
+        timeEl.textContent = hours + 'h ' + (mins < 10 ? '0' : '') + mins + 'min';
+    }
+}
+
+function updateStats() {
+    var completed = moduleProgress.filter(Boolean).length;
+    var quizzes = quizScores.filter(function (s) { return s >= 70; }).length;
+    var el1 = document.getElementById('modulesCompleted');
+    var el2 = document.getElementById('quizzesCompleted');
+    var el3 = document.getElementById('studyTime');
+    if (el1) el1.textContent = completed;
+    if (el2) el2.textContent = quizzes;
+    if (el3) el3.textContent = studyTime;
+}
+
+// --- Logros ---
+function unlockAchievement(achievementId) {
+    var el = document.getElementById(achievementId);
+    if (el && !el.classList.contains('earned')) {
+        el.classList.add('earned');
+        showNotification('¡Logro desbloqueado: ' + el.textContent + '! 🏆');
+    }
+}
+
+// --- Notificaciones ---
+function showNotification(message, type) {
+    var n = document.createElement('div');
+    n.className = 'notification';
+    if (type === 'warning') n.style.background = '#FF9800';
+    n.textContent = message;
+    document.body.appendChild(n);
+    setTimeout(function () {
+        n.style.animation = 'slideOut 0.3s';
+        setTimeout(function () { n.remove(); }, 300);
+    }, 3000);
+}
+
+// --- Reflexiones ---
+function saveReflection(moduleNum, text) {
+    reflections[moduleNum] = text;
+    saveProgress();
+    // Sincronizacion en segundo plano al backend (fire-and-forget)
+    if (userProfile && userProfile.email && typeof sendToGoogleSheets === 'function') {
+        sendToGoogleSheets({
+            action: 'reflection',
+            email: userProfile.email,
+            name: userProfile.fullName,
+            course: COURSE_CONFIG.courseId,
+            moduleId: String(moduleNum),
+            texto: text || ''
+        });
+    }
+}
+
+function saveCommitment(text) {
+    // Por guardarLocal, no directo: si el almacenamiento falla, el alumno pierde
+    // su compromiso sin enterarse (AUDITORIA.md check E-bis).
+    guardarLocal('commitment_' + COURSE_CONFIG.courseId, text);
+}
+
+function restoreCommitment() {
+    // El compromiso se guardaba y no se leia NUNCA. loadProgress repuebla
+    // reflection-*, fotos, autodiagnosticos, planes y catalogos, pero jamas
+    // #commitment: el alumno escribia su compromiso, cerraba, y al volver
+    // encontraba la caja vacia. Pasaba en los 21 cursos de las 4 lineas.
+    // Lo detecto la re-auditoria pedagogica del Curso 03 de Politicas
+    // Transversales el 15-sep-2026, leyendo el motor y no la pagina, cuando
+    // el curso empezo a prometerle al adulto que podria releerlo el domingo.
+    // Nota: esto restaura en el MISMO navegador. La recuperacion entre
+    // dispositivos iria en el payload de saveProgress, que toca el contrato
+    // con el backend y es otra decision.
+    try {
+        var ta = document.getElementById('commitment');
+        if (!ta || ta.value) return;
+        var txt = localStorage.getItem('commitment_' + COURSE_CONFIG.courseId);
+        if (txt) ta.value = txt;
+    } catch (e) {
+        // localStorage bloqueado o lleno: la caja queda vacia, como hasta hoy.
+    }
+}
+
+// --- Foto-upload (resize + persist + descargar) ---
+function handlePhotoUpload(input, photoId) {
+    var file = input.files && input.files[0];
+    if (!file) return;
+    if (!file.type.startsWith('image/')) {
+        showNotification('⚠️ Solo se aceptan imágenes (JPG, PNG, etc.)', 'warning');
+        return;
+    }
+    if (file.size > 10 * 1024 * 1024) {
+        showNotification('⚠️ La imagen pesa más de 10 MB. Intenta con una más pequeña.', 'warning');
+        return;
+    }
+    var reader = new FileReader();
+    reader.onload = function (e) {
+        var img = new Image();
+        img.onload = function () {
+            var MAX = 1200;
+            var ratio = Math.min(1, MAX / Math.max(img.width, img.height));
+            var w = Math.round(img.width * ratio);
+            var h = Math.round(img.height * ratio);
+            var canvas = document.createElement('canvas');
+            canvas.width = w; canvas.height = h;
+            canvas.getContext('2d').drawImage(img, 0, 0, w, h);
+            var dataUrl = canvas.toDataURL('image/jpeg', 0.85);
+            var preview = document.getElementById('photo-preview-' + photoId);
+            var actions = document.getElementById('photo-actions-' + photoId);
+            if (preview) preview.innerHTML = '<img src="' + dataUrl + '" alt="Tu imagen">';
+            if (actions) actions.classList.remove('hidden');
+            photos[photoId] = {
+                dataUrl: dataUrl,
+                fileName: (file.name || 'imagen') + '.jpg',
+                savedAt: new Date().toISOString()
+            };
+            try {
+                saveProgress();
+                showNotification('✅ Imagen guardada en tu progreso');
+            } catch (err) {
+                showNotification('⚠️ La imagen es muy pesada para guardar localmente. Descárgala para no perderla.', 'warning');
+            }
+        };
+        img.src = e.target.result;
+    };
+    reader.readAsDataURL(file);
+}
+
+function downloadPhoto(photoId) {
+    var photo = photos[photoId];
+    if (!photo || !photo.dataUrl) {
+        showNotification('⚠️ No hay imagen guardada para descargar', 'warning');
+        return;
+    }
+    var a = document.createElement('a');
+    a.href = photo.dataUrl;
+    a.download = photo.fileName || 'imagen.jpg';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
+
+function clearPhoto(photoId) {
+    if (!confirm('¿Seguro que quieres quitar esta imagen? Se borrará de tu progreso guardado.')) return;
+    delete photos[photoId];
+    saveProgress();
+    var preview = document.getElementById('photo-preview-' + photoId);
+    var actions = document.getElementById('photo-actions-' + photoId);
+    var input = document.getElementById('photo-input-' + photoId);
+    if (preview) preview.innerHTML = '';
+    if (actions) actions.classList.add('hidden');
+    if (input) input.value = '';
+    showNotification('Imagen quitada');
+}
+
+// --- Bloque de perfil propio de una linea: NO ESTA AQUI a proposito ---
+// (ADR-034, Fase 1, 14-sep-2026). recordAssessmentGrade,
+// restoreAssessmentSelections, getCompetencyProfile, isProfileStale e initPlanBuilders
+// son del plano del ADULTO —competencias esenciales con grados de dominio— y solo los
+// usa Politica de Adultos. Vivian en el nucleo y por eso viajaron a las otras dos
+// lineas, donde su vocabulario llego a publicarse. Ahora estan en el engine.linea.js
+// de Politica de Adultos. Las lineas ya los invocan con `typeof fn === 'function'`,
+// asi que donde no existen simplemente no ocurren.
+// Si otra linea necesita un bloque asi, se construye con SU vocabulario en SU
+// extension — nunca aqui: este archivo se inlinea en el HTML de las 3 lineas.
+
+// --- Plan Personal Builder ---
+
+function togglePlanCompetence(builderId, compId) {
+    var fields = document.getElementById('pb-fields-' + compId);
+    var checkbox = document.querySelector('.pb-comp-check[data-competence="' + compId + '"]');
+    if (!fields) return;
+    if (checkbox && checkbox.checked) {
+        fields.classList.remove('hidden');
+        if (!personalPlans[builderId]) personalPlans[builderId] = { competences: {}, commitment: '' };
+        if (!personalPlans[builderId].competences[compId]) {
+            personalPlans[builderId].competences[compId] = { meta: '', plazo: '', recursos: '' };
+        }
+    } else {
+        fields.classList.add('hidden');
+        if (personalPlans[builderId] && personalPlans[builderId].competences) {
+            delete personalPlans[builderId].competences[compId];
+        }
+    }
+    saveProgress();
+}
+
+function savePlanField(builderId, compId, field, value) {
+    if (!personalPlans[builderId]) personalPlans[builderId] = { competences: {}, commitment: '' };
+    if (!personalPlans[builderId].competences[compId]) personalPlans[builderId].competences[compId] = {};
+    personalPlans[builderId].competences[compId][field] = value;
+    saveProgress();
+}
+
+function savePlanCommitment(builderId, value) {
+    if (!personalPlans[builderId]) personalPlans[builderId] = { competences: {}, commitment: '' };
+    personalPlans[builderId].commitment = value;
+    saveProgress();
+}
+
+// generatePlan vive en el nucleo desde el 14-sep-2026 (ADR-034 Fase 1 B): antes
+// habia una copia por linea, distintas solo por sus textos. Ahora los textos los deja
+// el renderizador en <script id="pb-labels-{id}"> y aqui no hay vocabulario de ningun
+// plano — ni siquiera en los comentarios: este archivo se inlinea en el HTML de las 3
+// lineas. Si una linea quiere anadir un sufijo propio junto al nombre de cada
+// elemento del plan, define planPrioritySuffix(compId) en su engine.linea.js.
+function planLabels(builderId) {
+    var el = document.getElementById('pb-labels-' + builderId);
+    try { return el ? JSON.parse(el.textContent) : {}; } catch (e) { return {}; }
+}
+
+function generatePlan(builderId) {
+    var L = planLabels(builderId);
+    var minimo = Number(L.minimo) || 1;
+    var plan = personalPlans[builderId];
+    if (!plan || !plan.competences || Object.keys(plan.competences).length < minimo) {
+        showNotification(L.avisoMinimo || '⚠️ Faltan elementos por seleccionar antes de generar el plan.', 'warning');
+        return;
+    }
+    // Validate fields
+    var entries = Object.keys(plan.competences);
+    var incomplete = entries.filter(function (compId) {
+        var d = plan.competences[compId];
+        return !d.meta || !d.meta.trim() || !d.plazo || !d.plazo.trim() || !d.recursos || !d.recursos.trim();
+    });
+    if (incomplete.length > 0) {
+        showNotification(L.avisoCampos || '⚠️ Hay campos vacíos. Completa meta, plazo y recursos.', 'warning');
+        return;
+    }
+    // Get names from checkboxes
+    var nameByCompId = {};
+    document.querySelectorAll('.pb-comp-check').forEach(function (cb) {
+        nameByCompId[cb.getAttribute('data-competence')] = cb.getAttribute('data-name');
+    });
+    var fullName = (userProfile && userProfile.fullName) || 'Adulto del Movimiento';
+    var groupName = (userProfile && userProfile.group) || '—';
+    var dateStr = new Date().toLocaleDateString('es-CO', { year: 'numeric', month: 'long', day: 'numeric' });
+    var prioritiesHtml = entries.map(function (compId, idx) {
+        var d = plan.competences[compId];
+        var name = nameByCompId[compId] || compId;
+        var sufijo = (typeof planPrioritySuffix === 'function') ? (planPrioritySuffix(compId) || '') : '';
+        return '<div class="pb-priority"><h3>' + (idx + 1) + '. ' + name + sufijo + '</h3>' +
+            '<dt>🎯 Meta concreta</dt><dd>' + escapeHtml(d.meta) + '</dd>' +
+            '<dt>⏰ Plazo</dt><dd>' + escapeHtml(d.plazo) + '</dd>' +
+            '<dt>📚 Recursos</dt><dd>' + escapeHtml(d.recursos) + '</dd></div>';
+    }).join('');
+    var commitmentHtml = (plan.commitment || '').trim() ?
+        '<div class="pb-final-commitment"><h3>💚 Mi compromiso</h3><p style="margin:0;white-space:pre-wrap;">' + escapeHtml(plan.commitment) + '</p></div>' : '';
+    var output = document.getElementById('pb-output-' + builderId);
+    if (output) {
+        output.innerHTML =
+            '<h2>' + (L.titulo || '📋 Mi plan') + '</h2>' +
+            '<p class="pb-output-meta"><strong>' + escapeHtml(fullName) + '</strong> · Grupo ' + escapeHtml(groupName) + ' · ' + dateStr + '</p>' +
+            '<h3 style="margin-top:24px;color:#622599;">' + (L.subtituloPrioridades || 'Mis prioridades') + '</h3>' +
+            prioritiesHtml +
+            commitmentHtml +
+            '<button class="pb-print-btn" onclick="printPlan()">🖨️ Imprimir / Guardar como PDF</button>' +
+            (L.cierre ? '<p style="text-align:center;color:#666;font-size:0.85em;margin:14px 0 0 0;font-style:italic;">' + L.cierre + '</p>' : '');
+        output.classList.remove('hidden');
+        output.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    showNotification('✅ Plan generado. Puedes imprimirlo.');
+    // Sincronizacion en segundo plano al backend (persistencia hibrida)
+    if (userProfile && userProfile.email && typeof sendToGoogleSheets === 'function') {
+        sendToGoogleSheets({
+            action: 'plan',
+            email: userProfile.email,
+            name: userProfile.fullName,
+            course: COURSE_CONFIG.courseId,
+            planId: builderId,
+            planType: 'plan-builder-v1',
+            contenido: plan
+        });
+    }
+}
+
+function restorePlanState() {
+    Object.keys(personalPlans).forEach(function (bid) {
+        var plan = personalPlans[bid];
+        if (!plan) return;
+        // Commitment
+        var ta = document.getElementById('pb-commitment-' + bid);
+        if (ta && plan.commitment) ta.value = plan.commitment;
+        // Competences
+        Object.keys(plan.competences || {}).forEach(function (compId) {
+            var checkbox = document.querySelector('.pb-comp-check[data-competence="' + compId + '"]');
+            if (checkbox) {
+                checkbox.checked = true;
+                togglePlanCompetence(bid, compId);
+                var data = plan.competences[compId];
+                ['meta', 'plazo', 'recursos'].forEach(function (f) {
+                    var input = document.querySelector('.pb-field-' + f + '[data-competence="' + compId + '"]');
+                    if (input && data[f]) input.value = data[f];
+                });
+            }
+        });
+    });
+}
+
+function escapeHtml(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+}
+
+function printPlan() {
+    document.body.classList.add('printing-plan');
+    var afterPrint = function () {
+        document.body.classList.remove('printing-plan');
+        window.removeEventListener('afterprint', afterPrint);
+    };
+    window.addEventListener('afterprint', afterPrint);
+    setTimeout(function () { window.print(); }, 50);
+    // Safety: remove class after 30s in case afterprint doesn't fire
+    setTimeout(function () { document.body.classList.remove('printing-plan'); }, 30000);
+}
+
+// --- Certificado ---
+function generateCertificate() {
+    var date = new Date();
+    var el = function (id) { return document.getElementById(id); };
+
+    // Idempotencia: el certificado se emite UNA sola vez por curso. Si ya existe, se reusa
+    // (no se genera codigo nuevo ni se reenvia al backend -> evita filas duplicadas en el Sheet).
+    var courseKey = 'certificate_issued_' + COURSE_CONFIG.courseId;
+    var issued = null;
+    try { issued = JSON.parse(localStorage.getItem(courseKey) || 'null'); } catch (e) { issued = null; }
+
+    var esNuevo = !(issued && issued.code);
+    var code = esNuevo
+        ? 'ASC-' + date.getFullYear() + '-' + Math.random().toString(36).substr(2, 5).toUpperCase()
+        : issued.code;
+    var avg = esNuevo
+        ? (quizScores.length > 0 ? Math.round(quizScores.reduce(function (a, b) { return a + b; }, 0) / quizScores.length) : 100)
+        : issued.score;
+    var fechaISO = esNuevo ? date.toISOString() : (issued.date || date.toISOString());
+
+    if (el('studentName')) el('studentName').textContent = userProfile.fullName || 'Adulto Scout';
+    if (el('certDate')) el('certDate').textContent = new Date(fechaISO).toLocaleDateString('es-CO');
+    if (el('totalTime')) el('totalTime').textContent = studyTime;
+    if (el('certGroup')) el('certGroup').textContent = userProfile.group || 'N/A';
+    if (el('certRegion')) el('certRegion').textContent = userProfile.region || 'Colombia';
+    if (el('certCode')) el('certCode').textContent = code;
+    if (el('finalScore')) el('finalScore').textContent = avg;
+
+    unlockAchievement('achievement-5');
+    var bar = document.getElementById('progressBar');
+    var text = document.getElementById('progressText');
+    if (bar) bar.style.width = '100%';
+    if (text) text.textContent = '100%';
+
+    // Solo la primera emision escribe en localStorage y sincroniza al backend.
+    if (esNuevo) {
+        sendToGoogleSheets({
+            action: 'certificate', name: userProfile.fullName, email: userProfile.email,
+            group: userProfile.group, region: userProfile.region, certificateCode: code,
+            completionDate: fechaISO, score: avg, studyTime: studyTime,
+            course: COURSE_CONFIG.courseId
+        });
+        var registro = JSON.stringify({
+            name: userProfile.fullName, code: code, date: fechaISO,
+            score: avg, course: COURSE_CONFIG.courseId
+        });
+        // Por guardarLocal, no directo (AUDITORIA.md check E-bis). Es la escritura mas
+        // sensible del motor: si falla en silencio, verificar-certificado.html no
+        // encuentra el registro y el alumno no puede validar su propio certificado.
+        guardarLocal('certificate_' + code, registro); // lookup por codigo (verify)
+        guardarLocal(courseKey, registro);             // puntero estable por curso
+    }
+}
+
+// --- Descargar certificado como PDF ---
+function isMobileDevice() {
+    return /Android|iPhone|iPad|iPod|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+        || (window.innerWidth <= 768);
+}
+
+// --- Utilidades internas para el PDF ---
+function _txt(id, fallback) {
+    var el = document.getElementById(id);
+    return el ? (el.textContent || '').trim() : (fallback || '');
+}
+
+function _imgToDataURL(imgEl) {
+    return new Promise(function(resolve) {
+        if (!imgEl) { resolve(null); return; }
+        try {
+            var canvas = document.createElement('canvas');
+            var w = imgEl.naturalWidth || imgEl.width || 200;
+            var h = imgEl.naturalHeight || imgEl.height || 200;
+            canvas.width = w; canvas.height = h;
+            var ctx = canvas.getContext('2d');
+            ctx.drawImage(imgEl, 0, 0, w, h);
+            resolve({ data: canvas.toDataURL('image/png'), w: w, h: h });
+        } catch (e) { resolve(null); }
+    });
+}
+
+function _wrapText(pdf, text, maxWidth) {
+    return pdf.splitTextToSize(text || '', maxWidth);
+}
+
+function downloadCertificatePDF() {
+    var certModule = document.getElementById('module-' + (COURSE_CONFIG.totalModules - 1));
+    var cert = certModule ? certModule.querySelector('.certificate') : null;
+    if (!cert) {
+        showNotification('El certificado aún no está disponible.');
+        return;
+    }
+
+    // Localizar jsPDF (viene incluido en el bundle de html2pdf)
+    var JsPDF = (window.jspdf && window.jspdf.jsPDF) || (typeof jsPDF !== 'undefined' ? jsPDF : null);
+    if (!JsPDF) {
+        showNotification('La librería de PDF no cargó. Verifica tu conexión.');
+        if (confirm('¿Deseas usar la opción de Imprimir en su lugar?')) { window.print(); }
+        return;
+    }
+
+    var code = _txt('certCode', 'certificado');
+    var filename = 'Certificado-' + code + '.pdf';
+    var mobile = isMobileDevice();
+    showNotification('Generando PDF...');
+
+    // Datos del certificado
+    var student = _txt('studentName', 'Estudiante');
+    var date = _txt('certDate', '');
+    var score = _txt('finalScore', '');
+    var group = _txt('certGroup', '');
+    var region = _txt('certRegion', '');
+    var totalTime = _txt('totalTime', '');
+    var courseName = (COURSE_CONFIG.certificateCourseName || COURSE_CONFIG.title || '').toUpperCase();
+    var courseDescription = COURSE_CONFIG.certificateDescription ||
+        'ha completado exitosamente el curso de formación de la Plataforma de Formación de Adultos ASC';
+
+    // Cargar logos
+    var ascImg = cert.querySelector('img[src*="logo-asc"]');
+    var valleImg = cert.querySelector('img[src*="logo-vallescout"]');
+
+    Promise.all([_imgToDataURL(ascImg), _imgToDataURL(valleImg)]).then(function(logos) {
+        var logoASC = logos[0], logoValle = logos[1];
+
+        // A4 portrait: 210 x 297 mm
+        var pdf = new JsPDF('p', 'mm', 'a4');
+        var pageW = 210, pageH = 297;
+
+        // --- Marco morado exterior ---
+        pdf.setDrawColor(98, 37, 153);
+        pdf.setLineWidth(1.2);
+        pdf.rect(8, 8, pageW - 16, pageH - 16);
+
+        // --- Esquinas decorativas amarillas ---
+        pdf.setDrawColor(255, 230, 117);
+        pdf.setLineWidth(2);
+        var cs = 20; // corner size
+        // Top-left
+        pdf.line(8, 8, 8 + cs, 8);
+        pdf.line(8, 8, 8, 8 + cs);
+        // Top-right
+        pdf.line(pageW - 8, 8, pageW - 8 - cs, 8);
+        pdf.line(pageW - 8, 8, pageW - 8, 8 + cs);
+        // Bottom-left
+        pdf.line(8, pageH - 8, 8 + cs, pageH - 8);
+        pdf.line(8, pageH - 8, 8, pageH - 8 - cs);
+        // Bottom-right
+        pdf.line(pageW - 8, pageH - 8, pageW - 8 - cs, pageH - 8);
+        pdf.line(pageW - 8, pageH - 8, pageW - 8, pageH - 8 - cs);
+
+        var y = 30; // cursor vertical
+
+        // --- Logos ---
+        var logoH = 18;
+        var logoGap = 8;
+        var logoASCw = logoASC ? logoH * (logoASC.w / logoASC.h) : 0;
+        var logoValleW = logoValle ? logoH * (logoValle.w / logoValle.h) : 0;
+        var totalLogosW = logoASCw + logoGap + logoValleW;
+        var logosX = (pageW - totalLogosW) / 2;
+        if (logoASC) pdf.addImage(logoASC.data, 'PNG', logosX, y, logoASCw, logoH);
+        if (logoValle) pdf.addImage(logoValle.data, 'PNG', logosX + logoASCw + logoGap, y, logoValleW, logoH);
+        y += logoH + 6;
+
+        // --- Encabezado institucional ---
+        pdf.setFont('helvetica', 'bold');
+        pdf.setFontSize(10);
+        pdf.setTextColor(98, 37, 153);
+        pdf.text('ASOCIACIÓN SCOUTS DE COLOMBIA', pageW / 2, y, { align: 'center' });
+        y += 5;
+        pdf.setFont('helvetica', 'normal');
+        pdf.setFontSize(8);
+        pdf.setTextColor(120, 120, 120);
+        // ADR-034: el nucleo no lleva vocabulario de dominio. El nombre de la linea
+        // lo declara cada curso; si el HTML viene de un builder viejo que no lo emite,
+        // se cae a un neutro antes que afirmar una linea equivocada (era 'Formación de
+        // Adultos en el Movimiento' para las cuatro, falso en DI y en PJ).
+        pdf.text(COURSE_CONFIG.lineName || 'Plataforma de Formación de Adultos ASC', pageW / 2, y, { align: 'center' });
+        y += 5;
+
+        // --- Línea divisoria morada ---
+        pdf.setDrawColor(98, 37, 153);
+        pdf.setLineWidth(0.6);
+        pdf.line(40, y, pageW - 40, y);
+        y += 10;
+
+        // --- Título "CERTIFICADO DE APROBACIÓN" ---
+        pdf.setFont('helvetica', 'bold');
+        pdf.setFontSize(22);
+        pdf.setTextColor(98, 37, 153);
+        pdf.text('CERTIFICADO DE APROBACIÓN', pageW / 2, y, { align: 'center' });
+        y += 12;
+
+        // --- Banner morado con nombre del curso ---
+        pdf.setFillColor(98, 37, 153);
+        pdf.rect(20, y, pageW - 40, 14, 'F');
+        pdf.setFont('helvetica', 'bold');
+        pdf.setFontSize(13);
+        pdf.setTextColor(255, 255, 255);
+        var courseLines = _wrapText(pdf, courseName, pageW - 50);
+        if (courseLines.length > 1) {
+            pdf.setFontSize(11);
+        }
+        pdf.text(courseLines[0], pageW / 2, y + 9, { align: 'center' });
+        y += 20;
+
+        // --- "Se otorga a" ---
+        pdf.setFont('helvetica', 'normal');
+        pdf.setFontSize(11);
+        pdf.setTextColor(99, 99, 99);
+        pdf.text('Se otorga el presente certificado a', pageW / 2, y, { align: 'center' });
+        y += 10;
+
+        // --- Nombre del estudiante ---
+        pdf.setFont('helvetica', 'bold');
+        pdf.setFontSize(20);
+        pdf.setTextColor(98, 37, 153);
+        pdf.text(student, pageW / 2, y, { align: 'center' });
+        // Subrayado amarillo bajo el nombre
+        var nameW = pdf.getTextWidth(student);
+        pdf.setDrawColor(255, 230, 117);
+        pdf.setLineWidth(1.5);
+        pdf.line((pageW - nameW) / 2 - 5, y + 2, (pageW + nameW) / 2 + 5, y + 2);
+        y += 12;
+
+        // --- Descripción ---
+        pdf.setFont('helvetica', 'normal');
+        pdf.setFontSize(10);
+        pdf.setTextColor(99, 99, 99);
+        var descLines = _wrapText(pdf, courseDescription, pageW - 60);
+        for (var i = 0; i < descLines.length && i < 3; i++) {
+            pdf.text(descLines[i], pageW / 2, y, { align: 'center' });
+            y += 5;
+        }
+        y += 5;
+
+        // --- Tarjeta de detalles ---
+        var detX = 25, detW = pageW - 50, detH = 38;
+        pdf.setFillColor(249, 247, 252);
+        pdf.rect(detX, y, detW, detH, 'F');
+        pdf.setFillColor(98, 37, 153);
+        pdf.rect(detX, y, 2, detH, 'F'); // borde izquierdo morado
+
+        var colX1 = detX + 8;
+        var colX2 = detX + detW / 2 + 5;
+        var rowY = y + 8;
+        var rowGap = 7;
+
+        pdf.setFont('helvetica', 'bold');
+        pdf.setFontSize(9);
+        pdf.setTextColor(60, 60, 60);
+
+        function _detail(label, value, x, yy) {
+            pdf.setFont('helvetica', 'bold');
+            pdf.setTextColor(98, 37, 153);
+            pdf.text(label, x, yy);
+            pdf.setFont('helvetica', 'normal');
+            pdf.setTextColor(60, 60, 60);
+            pdf.text(String(value || '-'), x + pdf.getTextWidth(label) + 2, yy);
+        }
+
+        _detail('Fecha: ', date, colX1, rowY);
+        _detail('Puntuación: ', score + '%', colX2, rowY);
+        _detail('Grupo Scout: ', group, colX1, rowY + rowGap);
+        _detail('Región: ', region, colX2, rowY + rowGap);
+        _detail('Tiempo: ', totalTime + ' min', colX1, rowY + rowGap * 2);
+        pdf.setFont('helvetica', 'bold');
+        pdf.setTextColor(98, 37, 153);
+        pdf.text('Estado: ', colX2, rowY + rowGap * 2);
+        pdf.setTextColor(46, 125, 50);
+        pdf.text('APROBADO', colX2 + pdf.getTextWidth('Estado: ') + 2, rowY + rowGap * 2);
+
+        y += detH + 8;
+
+        // --- Código de verificación ---
+        var codeBoxH = 14;
+        pdf.setDrawColor(98, 37, 153);
+        pdf.setLineWidth(0.4);
+        pdf.setLineDashPattern([1.5, 1.5], 0);
+        pdf.setFillColor(250, 248, 253);
+        pdf.rect(50, y, pageW - 100, codeBoxH, 'FD');
+        pdf.setLineDashPattern([], 0);
+
+        pdf.setFont('helvetica', 'normal');
+        pdf.setFontSize(7);
+        pdf.setTextColor(140, 140, 140);
+        pdf.text('CÓDIGO DE VERIFICACIÓN', pageW / 2, y + 5, { align: 'center' });
+        pdf.setFont('courier', 'bold');
+        pdf.setFontSize(11);
+        pdf.setTextColor(98, 37, 153);
+        pdf.text(code, pageW / 2, y + 11, { align: 'center' });
+        y += codeBoxH + 6;
+
+        // --- Footer ---
+        pdf.setFont('helvetica', 'normal');
+        pdf.setFontSize(7);
+        pdf.setTextColor(150, 150, 150);
+        pdf.text('Plataforma de Formación de Adultos ASC', pageW / 2, pageH - 16, { align: 'center' });
+        pdf.setFontSize(6);
+        pdf.text('Verifica este certificado ingresando el código en la plataforma web', pageW / 2, pageH - 12, { align: 'center' });
+
+        // --- Guardar ---
+        if (mobile) {
+            var blob = pdf.output('blob');
+            var url = URL.createObjectURL(blob);
+            var link = document.createElement('a');
+            link.href = url; link.download = filename; link.target = '_blank';
+            document.body.appendChild(link); link.click();
+            setTimeout(function() { document.body.removeChild(link); URL.revokeObjectURL(url); }, 5000);
+        } else {
+            pdf.save(filename);
+        }
+        showNotification('PDF descargado: ' + filename + ' 📥');
+    }).catch(function(err) {
+        if (typeof console !== 'undefined') console.error('Error PDF:', err);
+        showNotification('Error al generar PDF. Intenta con Imprimir.', 'warning');
+        if (confirm('¿Deseas usar la opción de Imprimir?')) { window.print(); }
+    });
+}
+
+// --- Compartir ---
+function shareResults() {
+    var text = '¡He completado el curso ' + COURSE_CONFIG.title + '! 🏕️\n\n' +
+        'Certificado: ' + document.getElementById('certCode').textContent + '\n' +
+        'Puntuación: ' + document.getElementById('finalScore').textContent + '%\n\n' +
+        '#ScoutsSiempreListos #AdultosEnElMovimiento #ASC';
+    if (navigator.share) {
+        navigator.share({ title: COURSE_CONFIG.title + ' Completado', text: text });
+    } else {
+        navigator.clipboard.writeText(text);
+        showNotification('¡Texto copiado al portapapeles! 📋');
+    }
+}
+
+function restartCourse() {
+    if (confirm('¿Estás seguro de que quieres reiniciar el curso? Se perderá todo el progreso.')) {
+        localStorage.removeItem('courseProgress_' + COURSE_CONFIG.courseId);
+        localStorage.removeItem('commitment_' + COURSE_CONFIG.courseId);
+        location.reload();
+    }
+}
+
+// --- Registration mode toggle ---
+function toggleRegistrationMode(mode) {
+    var newRegBtn = document.getElementById('toggleNewReg');
+    var recoverBtn = document.getElementById('toggleRecover');
+    var recoverySection = document.getElementById('recoverySection');
+    var registrationForm = document.getElementById('registrationForm');
+
+    if (mode === 'recover') {
+        newRegBtn.classList.remove('active');
+        recoverBtn.classList.add('active');
+        recoverySection.classList.remove('hidden');
+        registrationForm.style.display = 'none';
+    } else {
+        newRegBtn.classList.add('active');
+        recoverBtn.classList.remove('active');
+        recoverySection.classList.add('hidden');
+        registrationForm.style.display = '';
+    }
+}
+
+// --- Google Sheets ---
+function sendToGoogleSheets(data) {
+    if (!COURSE_CONFIG.googleScriptUrl) return;
+    try {
+        var indicator = document.getElementById('syncIndicator');
+        if (indicator) indicator.classList.add('show');
+        var payload = Object.assign({}, data, {
+            token: 'ADULTOS_ASC_2026',
+            timestamp: new Date().toISOString(),
+            url: window.location.href
+        });
+
+        // Try CORS first, fall back to no-cors
+        fetch(COURSE_CONFIG.googleScriptUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        }).then(function (response) {
+            if (indicator) {
+                indicator.textContent = '☁️ Guardado en la nube';
+                indicator.classList.add('show');
+                setTimeout(function () { indicator.classList.remove('show'); }, 2000);
+            }
+            return response.json().catch(function() { return {}; });
+        }).catch(function () {
+            // Fallback to no-cors mode for older Apps Script deployments
+            fetch(COURSE_CONFIG.googleScriptUrl, {
+                method: 'POST', mode: 'no-cors',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            }).then(function () {
+                if (indicator) {
+                    indicator.textContent = '☁️ Sincronizado con Google Sheets';
+                    indicator.classList.add('show');
+                    setTimeout(function () { indicator.classList.remove('show'); }, 2000);
+                }
+            }).catch(function () {
+                if (indicator) {
+                    indicator.textContent = '💾 Guardado localmente';
+                    indicator.classList.add('show');
+                    setTimeout(function () { indicator.classList.remove('show'); }, 2000);
+                }
+                // Datos guardados localmente (fallback silencioso)
+            });
+        });
+    } catch (e) {
+        // Google Sheets no disponible, progreso guardado localmente
+        var indicator = document.getElementById('syncIndicator');
+        if (indicator) {
+            indicator.textContent = '💾 Guardado localmente';
+            indicator.classList.add('show');
+            setTimeout(function () { indicator.classList.remove('show'); }, 2000);
+        }
+    }
+}
+
+// --- Timers ---
+// Incrementar studyTime cada minuto y guardar progreso (solo si esta en un modulo de contenido)
+setInterval(function () {
+    if (currentModule > 0) {
+        studyTime += 1;
+        updateStats();
+        updateElapsedTime();
+    }
+    saveProgress();
+}, 60000);
+
+    </script>
+    <script src="../assets/theme-toggle.js"></script>
+</body>
+</html>

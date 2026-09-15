@@ -1,0 +1,884 @@
+{
+  "courseId": "rama-familia-cachorros",
+  "title": "Rama Familia (Cachorros)",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "El curso de rama para quienes acompañan la primera infancia. En ~40 minutos vas a acompañar a Salomé, que llega al Cubil a los 5 años, y a entender por qué a esa edad el juego no es el envoltorio del Método Scout: es el Método funcionando a plena potencia.",
+  "contentVersion": "2026-09-15",
+  "icon": "🐻",
+  "duration": "40 minutos",
+  "level": 2,
+  "levelName": "Profundización por rama y práctica pedagógica",
+  "order": 9,
+  "totalContentModules": 7,
+  "modules": [
+    {
+      "id": 1,
+      "title": "🐾 Bienvenida al Cubil",
+      "emoji": "🐾",
+      "navLabel": "Bienvenida",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>~40 minutos.</strong> Al final vas a poder decir la Promesa y la Ley del Cachorro, organizar tu unidad en Camadas, conducir un Círculo de Familia, usar el lenguaje de la Selva como método, y planear una actividad que cumpla las reglas de entorno seguro propias de la rama."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vas a conocer a Salomé. Tiene 5 años y hoy es su primer día en el Cubil. Dentro de dos años va a cruzar la Ceremonia de Paso hacia la Manada — que es exactamente donde arranca el Curso 8, con Andrés. Los dos cursos se dan la mano en el mismo punto."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hay una idea muy extendida que conviene desarmar de entrada: <em>\"a los cinco años todavía no se puede hacer escultismo de verdad; toca esperar a que crezcan\"</em>. La Guía para el Dirigente de Familia dice lo contrario con todas las letras, y este curso te va a mostrar por qué."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Lo que la Familia NO es.</strong> No es una guardería con pañoleta. No es \"la antesala de la Manada\". No es un servicio para que los papás dejen a los niños mientras hay reunión de grupo. Si tu unidad se parece a alguna de las tres, este curso te va a ser útil."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lo que sí es: una unidad del Grupo Scout con Promesa, Ley, saludo, lema, marco simbólico, sistema de equipos, órgano de participación y progresión personal <strong>propios</strong>, adaptados a la primera infancia. Todo el Método, en el idioma de los cinco años."
+        },
+        {
+          "type": "mission-box",
+          "text": "🎯 <strong>Cómo usar este curso.</strong> Cada lección termina en algo concreto que puedas probar en tu próxima reunión. No hace falta que te lo aprendas: hace falta que lo uses el sábado."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🧒 Quién es un Cachorro y quién es el Viejo Lobo",
+      "emoji": "🧒",
+      "navLabel": "Cachorro y Viejo Lobo",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el adulto de Familia no es ni maestro ni papá. Es un mediador que facilita experiencias."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El protagonista de programa de la Familia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Niñas y niños de <strong>5 y 6 años</strong>. Es la primera infancia: una etapa con lógica propia, que no es \"Manada en pequeño\" ni una sala de espera. A esa edad se aprende con el cuerpo, con la fantasía y con la experiencia directa, no escuchando explicaciones."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El Viejo Lobo de Familia"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Cómo define la Guía el rol del adulto",
+          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §1.2, p. 8 del PDF.",
+          "text": "Su papel no corresponde al de un docente tradicional ni al de una figura parental, sino al de un adulto mediador que facilita experiencias significativas de aprendizaje…"
+        },
+        {
+          "type": "paragraph",
+          "text": "Léelo despacio, porque descarta dos cosas a la vez. No eres el maestro: no estás ahí para explicar y evaluar. Y no eres el papá: no estás ahí para proteger y resolver. Mediador quiere decir que pones la experiencia al alcance y te haces a un lado para que ocurra."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "👩‍🏫 El maestro",
+              "description": "Explica, corrige y evalúa. Cuando el niño no sabe, le enseña. El aprendizaje pasa por su boca.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🤱 El papá",
+              "description": "Protege y resuelve. Cuando el niño se frustra, le quita el problema. El cuidado tapa la experiencia.",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            },
+            {
+              "title": "🐺 El Viejo Lobo",
+              "description": "Propone, acompaña y deja hacer. Cuando el niño se frustra, se queda cerca — pero no le quita el intento.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los Nombres de Caza"
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía lo define así: <em>\"El Nombre de Caza es un nombre de fantasía que se otorga a un Viejo Lobo con el fin de ser identificados en las Familias de Cachorros\"</em>, tomado de los personajes del Libro de las Tierras Vírgenes y de cuentos posteriores de Rudyard Kipling (§1.3, p. 10 del PDF)."
+        },
+        {
+          "type": "paragraph",
+          "text": "No es un apodo simpático ni un juego de bienvenida. Es la puerta por la que el adulto entra al mundo simbólico donde el Cachorro <strong>ya está viviendo</strong>. Un adulto sin Nombre de Caza le habla a Salomé desde afuera de la Selva."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Qué Nombre de Caza elegirías, y por qué ese? Y ahora la parte incómoda: de las dos formas que este curso descarta —la del maestro y la del papá—, ¿cuál te va a costar más soltar? Escríbelo sin adornarlo; nadie más lo va a leer."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar a la Promesa y la Ley 🤝",
+        "questions": [
+          {
+            "text": "Salomé no logra abotonarse el pelaje, se enreda y empieza a frustrarse. La actividad está por comenzar. ¿Qué hace el Viejo Lobo?",
+            "options": [
+              "Se lo abotona él mismo, rápido y sin drama, para que Salomé no se atrase y la actividad arranque a tiempo.",
+              "Le muestra una vez cómo se hace, se queda cerca y la deja intentarlo, aunque eso tome más de lo previsto.",
+              "Le pide a otro Cachorro más hábil que se lo abotone, y así de paso se practica la ayuda entre compañeros."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Un dirigente nuevo dice que los Nombres de Caza le parecen \"una bobada simpática\" y prefiere que los niños lo llamen por su nombre. ¿Qué le falta entender?",
+            "options": [
+              "Que a los cinco años los niños no logran memorizar los nombres reales de los adultos de su unidad.",
+              "Que el Nombre de Caza es la puerta por la que el adulto entra al mundo simbólico donde el niño ya vive.",
+              "Que las actas y los registros de la unidad se llevan siempre con el Nombre de Caza y no con el civil."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "🤝 Promesa, Ley, Saludo y Lema",
+      "emoji": "🤝",
+      "navLabel": "Promesa y Ley",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> dos artículos no son una Ley recortada. Son una Ley traducida."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 La Promesa del Cachorro",
+          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §3.1.1, p. 16 del PDF.",
+          "text": "Prometo amar a Dios y ayudar a los demás."
+        },
+        {
+          "type": "paragraph",
+          "text": "La misma página aclara el espíritu: <em>\"la Promesa no es algo rígido ni adulto, sino un acto simbólico que los hace sentir parte de la Familia y del Movimiento Scout\"</em>. Y añade algo que le quita presión a todo el mundo: <em>\"No se trata de que comprendan todo en profundidad, sino de que vivan lo que significa ser responsable, compartir y cuidar a los demás\"</em>."
+        },
+        {
+          "type": "info-box",
+          "text": "🕊️ <strong>Hay una segunda forma, igual de oficial:</strong> <em>\"Prometo amar la vida y ayudar a los demás\"</em>. Se usa cuando la familia del niño no nombra a Dios. La Guía dice que <em>\"ambas formas de la Promesa nacen del mismo principio\"</em> (§3.1.1, p. 17 del PDF). Pregúntale a la familia antes de la Investidura, no el día de la ceremonia."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La Ley del Cachorro"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Los dos artículos, textuales",
+          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §3.1.2, p. 17 del PDF.",
+          "text": "El Cachorro es alegre. El Cachorro cuida la naturaleza."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tarde o temprano alguien te va a decir que esa Ley \"está incompleta\". La Guía se adelanta: <em>\"No es una ley distinta, sino una síntesis adecuada a la edad que permite a los niños y niñas de 5 y 6 años empezar a vivir los valores fundamentales del Movimiento de manera sencilla y significativa\"</em>."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y explica cómo funciona la síntesis: cuando decimos <em>\"El Cachorro es alegre\"</em> estamos sembrando a la vez varias expresiones de la Ley Scout — <em>\"la actitud positiva ante las dificultades, la fraternidad, el respeto y el buen ánimo en la convivencia\"</em>. Ojo al detalle: la alegría del Cachorro es ante lo difícil, no ante todo. Un artículo de dos palabras carga con media Ley."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Por qué dos y no diez.</strong> A los cinco años una lista de diez reglas no se vive: se olvida, o peor, se recita sin entender. Dos se pueden habitar. La pregunta correcta no es \"¿cuándo aprenden la Ley completa?\" sino \"¿están viviendo estas dos?\"."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El Saludo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mano derecha a la altura del hombro. Índice y medio estirados y juntos; el pulgar sobre el meñique y el anular. Es <strong>similar</strong> al saludo scout tradicional, con una diferencia: en la Rama Cachorros los dedos se mantienen <strong>juntos</strong>."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y esa diferencia tiene su porqué: <em>\"simboliza que los Cachorros aún están comenzando su camino scout y que, cuando crezcan y pasen a la Manada, abrirán sus dedos\"</em> (§3.3, p. 18 del PDF). El saludo de Salomé ya está apuntando al de Andrés."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El lema y el color"
+        },
+        {
+          "type": "paragraph",
+          "text": "El lema de la rama es <strong>\"Siempre Alegres\"</strong>, y la Guía insiste en que <em>\"es mucho más que una frase: es una forma de vivir la experiencia en el Cubil\"</em> (§6.1.1, p. 35 del PDF). El color representativo es el <strong>naranja</strong>, que <em>\"representa una energía vibrante que inspira alegría, entusiasmo y vitalidad\"</em> (§6.1.2, p. 36 del PDF)."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe con tus palabras cómo le explicarías a Salomé, que tiene 5 años, qué quiere decir \"El Cachorro cuida la naturaleza\" — sin usar la expresión \"medio ambiente\" ni ninguna palabra que ella no diría. Si te sale largo, acórtalo: esa es justamente la habilidad."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar al juego 🎲",
+        "questions": [
+          {
+            "text": "Un papá te comenta, con buena intención, que la Ley del Cachorro \"está incompleta\" porque la Ley Scout tiene diez artículos. ¿Qué le respondes?",
+            "options": [
+              "Que tiene razón, y que por eso en la Familia se van enseñando los otros ocho artículos poco a poco.",
+              "Que no es una ley distinta ni recortada, sino la misma síntesis puesta en el lenguaje de un niño de cinco años.",
+              "Que la Ley completa corresponde a la Manada, y que en Familia solo se hace una primera aproximación."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "En la Ceremonia de Investidura de la Familia, el Cachorro…",
+            "options": [
+              "Recibe su pelaje una vez que ha demostrado saberse de memoria los dos artículos de la Ley del Cachorro.",
+              "Recibe su pelaje y realiza su Promesa, celebrando así su ingreso pleno a la Familia de Cachorros.",
+              "Recibe su primer Nombre de Caza, que es lo que le permite participar en las actividades del Cubil."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "🎲 El juego: así se aprende a los cinco años",
+      "emoji": "🎲",
+      "navLabel": "El juego",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el juego no es el envoltorio del Método. En primera infancia, el juego <em>es</em> el Método."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dos usos frecuentes del juego en una reunión de Familia, y los dos lo desperdician: el juego como <strong>premio</strong> (\"si se portan bien, al final jugamos\") y el juego como <strong>relleno</strong> entre las actividades \"serias\". En ambos casos el juego quedó fuera de donde ocurre el aprendizaje."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Qué es el juego para el Escultismo",
+          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §4.11, p. 27 del PDF.",
+          "text": "Para el Escultismo, el juego es la forma más cercana del elemento del Método Scout \"Aprender haciendo\"."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las cuatro actividades rectoras"
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía conecta el juego con las <em>\"actividades rectoras\"</em> que el Ministerio de Educación de Colombia propone para la primera infancia (§4.11, p. 27 del PDF), y muestra cómo se enlazan entre sí:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Juego</strong> — la puerta de entrada: es la forma natural en que un niño de cinco años explora y aprende.",
+            "<strong>Literatura</strong> — porque los cuentos y relatos inspiran aventuras y escenarios simbólicos.",
+            "<strong>Arte</strong> — porque al jugar los niños crean, expresan y transforman.",
+            "<strong>Exploración del medio</strong> — porque el juego en la naturaleza les permite descubrir su entorno con curiosidad."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Esto vale más de lo que parece.</strong> Significa que la Familia no está improvisando una versión infantil del escultismo: está alineada con el referente pedagógico que Colombia fija para la primera infancia. Si alguna vez te toca explicarle la rama a un colegio o a una familia que duda, ese es el argumento."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "DURASLID en la Familia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Los ocho atributos de toda oportunidad de aprendizaje también aplican aquí, aterrizados a la edad (§4.9–4.10, pp. 23–25 del PDF): <strong>D</strong>esafiantes, <strong>Ú</strong>tiles, <strong>R</strong>ecompensantes, <strong>A</strong>tractivas, <strong>S</strong>eguras, <strong>L</strong>údicas, <strong>I</strong>ncluyentes y <strong>D</strong>iversas. Desafiante, a los cinco años, quiere decir al alcance pero no automático."
+        },
+        {
+          "type": "paragraph",
+          "text": "La prueba de fuego para saber si acertaste: <strong>quita el juego de tu actividad.</strong> Si la actividad sigue funcionando igual, el juego era decoración. Si se cae, el juego era el método."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en la última reunión de tu unidad —o en una que hayas visto—. ¿El juego era el método o era el premio? Escribe cómo la rediseñarías para que el aprendizaje ocurra <em>dentro</em> del juego, no después. Una actividad concreta, no un principio."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar a las Camadas 🐾",
+        "questions": [
+          {
+            "text": "Estás planeando una actividad sobre cuidar la naturaleza para Cachorros de 5 años. ¿Cuál se acerca más a lo que pide la Guía?",
+            "options": [
+              "Una charla corta con láminas sobre el cuidado del planeta y después un juego libre para los que pusieron atención.",
+              "Una salida a buscar \"tesoros de la selva\" donde recogen basura y clasifican hojas mientras juegan a ser exploradores.",
+              "Un taller de dibujo sobre el tema, con los resultados pegados después en la cartelera principal del Grupo Scout."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Las cuatro actividades rectoras de la primera infancia son…",
+            "options": [
+              "El juego, el deporte, la música y las manualidades que se trabajan durante las reuniones del Cubil.",
+              "El juego, el arte, la literatura y la exploración del medio, según el Ministerio de Educación.",
+              "La lectura, la escritura, el cálculo básico y la convivencia con otros niños de la misma edad."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "🐾 Camadas, Círculo de Familia y Encuentro del Cubil",
+      "emoji": "🐾",
+      "navLabel": "Camadas y Círculo",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> a los cinco años el sistema de equipos ya funciona — pero con otra forma que en las ramas mayores."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El Sistema de Familia"
+        },
+        {
+          "type": "paragraph",
+          "text": "El sistema de equipos de esta rama tiene nombre propio: el <strong>Sistema de Familia</strong>. Todos juntos, siempre. La Guía lo dice sin rodeos: en la Familia de Cachorros <em>\"siempre permanecen unidos\"</em>, y <em>\"tampoco se conforman pequeños grupos permanentes por fuera de la reunión general de la Familia\"</em> (§5.2.1, p. 29 del PDF)."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las Camadas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dentro de ese todo junto caben las Camadas — pero son <strong>ratos, no estructura</strong>. Y no tienen jefe: la Guía dice que <em>\"no son dirigidas por ningún Cachorro, ni Viejo Lobo\"</em> (§5.2.2, p. 29 del PDF). Si vienes de Manada y ya estabas buscando a quién nombrar seisenero, aquí no hay ese cargo."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Qué es una Camada",
+          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §5.2.2, p. 29 del PDF.",
+          "text": "La Familia se puede dividir en pequeños grupos naturales, es decir, voluntarios, que se denominan Camadas. Las Camadas se conforman con aproximadamente cinco (5) Cachorros, quienes se congregan para alguna actividad o juego."
+        },
+        {
+          "type": "paragraph",
+          "text": "Se nombran por <strong>cualidades</strong> y llevan un lema, elegidos por los propios Cachorros: Camada de la Alegría, Camada de la Limpieza, Camada del Orden. La Guía aclara enseguida que <em>\"escoger valores no es una camisa de fuerza\"</em>, y que las Camadas pueden tener diferentes integrantes de una actividad a otra."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Ojo con traer el molde de la Manada.</strong> Las seisenas son estables; las Camadas no tienen por qué serlo. A los cinco años el grupo natural se rehace seguido, y eso no es desorden: es la edad. Forzar Camadas fijas todo el año es imponerle a la primera infancia una estructura de niños mayores."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El Círculo de Familia"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 La formación propia de la rama",
+          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §5.2.3, p. 29 del PDF.",
+          "text": "Es la formación propia de la Familia de Cachorros. Dicho círculo representa al Cubil y la unidad entre quienes lo integran…"
+        },
+        {
+          "type": "paragraph",
+          "text": "El Viejo Lobo que lo dirige va <strong>en el centro</strong>: la Guía lo hace responsable <em>\"de su cuidado y de la seriedad que el círculo adquiera\"</em>. Los demás Viejos Lobos se ubican <strong>detrás del círculo, como símbolo de protección</strong>. No es una coreografía: es la imagen de lo que hacen los adultos en esa rama."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El Encuentro del Cubil"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 El órgano de participación de la rama",
+          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §5.4, p. 32 del PDF.",
+          "text": "El Encuentro del Cubil es el órgano de participación infantil dentro de la Rama de Cachorros."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lo conforman <strong>todos</strong> los Cachorros y lo guían los Viejos Lobos, que <em>\"facilitan la expresión simbólica, lúdica y afectiva de los niños, respetando sus ritmos y formas de comunicación\"</em>. Sirve para que expresen ideas, intereses, necesidades y emociones."
+        },
+        {
+          "type": "paragraph",
+          "text": "No es una asamblea en miniatura. Pedirle a un niño de cinco años que levante la mano y vote es pedirle que participe en el idioma de los adultos. Participar aquí se parece más a dibujar, a jugar una ronda o a escoger con el cuerpo."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Cómo vas a preguntarle a tu unidad qué quiere hacer, sin pedirles que levanten la mano y voten? Escribe una forma concreta —un juego, un dibujo, una ronda, una fila de objetos— que puedas usar el sábado. Que sea algo que puedas montar con lo que ya tienes."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar al idioma de la Selva 📖",
+        "questions": [
+          {
+            "text": "Un Viejo Lobo propone dejar las Camadas fijas todo el año \"para que los niños se acostumbren y haya orden\". ¿Qué dice la Guía?",
+            "options": [
+              "Que es lo correcto, porque la estabilidad del grupo natural es lo que le da identidad y cohesión a la rama.",
+              "Que las Camadas son grupos voluntarios que se congregan para una actividad y pueden tener distintos integrantes.",
+              "Que deben rotar de manera obligatoria en cada reunión, para que ningún Cachorro se apegue demasiado a otro."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Durante el Círculo de Familia, mientras un Viejo Lobo dirige desde el centro, los demás Viejos Lobos…",
+            "options": [
+              "Se ubican dentro del círculo, repartidos entre los Cachorros, para mantener el orden.",
+              "Se ubican detrás del círculo, como símbolo de protección de la Familia que está reunida.",
+              "Aprovechan para alistar el material de la siguiente actividad fuera del salón."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "📖 Los Hermanos de Mowgli y el Eo-Wawa",
+      "emoji": "📖",
+      "navLabel": "Marco simbólico",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el marco simbólico es el idioma en que ocurre la unidad, no su decoración."
+        },
+        {
+          "type": "paragraph",
+          "text": "Empecemos por ponerle el nombre correcto. El marco simbólico de la Familia se llama <strong>la Fantasía</strong>, y su ambiente de referencia son los <strong>Relatos Infantiles</strong> (§6.1, p. 35 del PDF). La historia que llena esa Fantasía es <strong>Los Hermanos de Mowgli</strong>. Marco simbólico y historia no son lo mismo: uno es el mundo, la otra es el cuento que se vive dentro de él."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Por qué Los Hermanos de Mowgli no es decoración",
+          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §6.3.1, pp. 36–37 del PDF.",
+          "text": "El capítulo \"Los Hermanos de Mowgli\" de El Libro de las Tierras Vírgenes de Rudyard Kipling, no es simplemente un cuento para ambientar reuniones; es el fundamento simbólico que da identidad, coherencia y profundidad a la Rama Cachorros."
+        },
+        {
+          "type": "paragraph",
+          "text": "Familia y Manada <strong>comparten</strong> el Libro de las Tierras Vírgenes como fondo motivador. Lo propio de la Familia es que se vive sobre todo a través de <strong>Los Hermanos de Mowgli</strong> y de los <strong>Nombres de Caza</strong> que viste en la Lección 2."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El Eo-Wawa"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 El grito de felicidad de los Cachorros",
+          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §6.4, p. 38 del PDF.",
+          "text": "¡Eo-Wawa! era la expresión de Mowgli, cuando se sentía feliz de sus logros… de allí que la expresión ¡Eo-Wawa! sea el grito de Felicidad de los Cachorros…"
+        },
+        {
+          "type": "paragraph",
+          "text": "Se hace <em>\"siempre que haya un motivo para celebrar\"</em>. Parece un detalle menor y no lo es: un grito de alegría con nombre propio le enseña a un niño de cinco años que la alegría compartida se marca, se nombra y se celebra en conjunto. Eso es el lema \"Siempre Alegres\" volviéndose práctica."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las ceremonias"
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía es concreta: <em>\"Existen tres ceremonias básicas las que son imprescindibles de realizar en presencia del Grupo Scout\"</em> (§6.5, p. 42 del PDF). Tres, no dos — y la que más se olvida es la del medio."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🎽 Ceremonia de Investidura",
+              "description": "Celebra el ingreso pleno del Cachorro a la Familia: recibe su pelaje y realiza su Promesa (§6.5.1, p. 42 del PDF).",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🏅 Ceremonia de Fase Máxima de Progresión",
+              "description": "Reconoce al Cachorro que llegó a la Fuerza del Cubil: ya no solo pertenece, ahora sostiene a los demás (§6.5, p. 42 y §8.14, p. 67 del PDF).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🚪 Ceremonia de Paso",
+              "description": "Despide al Cachorro que culmina su etapa y lo acompaña en su paso a la Manada (§6.5.2, p. 42 del PDF).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Esas tres se hacen delante de todo el Grupo Scout. Dentro del Cubil hay dos más, más frecuentes y más pequeñas: la entrega de <strong>dentelladas</strong> y la de <strong>fases de progresión</strong>. Las vas a ver en la próxima lección."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y un símbolo que conviene conocer: <strong>la huella</strong>. <em>\"Representa el paso que cada Cachorro deja en el Cubil y en su comunidad. Simboliza identidad, pertenencia y crecimiento\"</em> (§6.6.1, p. 42 del PDF)."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>El riesgo de esta lección, dicho de frente.</strong> Es fácil usar el marco simbólico como adorno: una pancarta de Mowgli en la pared, un Eo-Wawa de vez en cuando, y el resto de la reunión en idioma de adultos. Marco simbólico es que las instrucciones, los reconocimientos y las historias <em>ocurran</em> en la Selva."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe una instrucción cotidiana de tu unidad —\"formen una fila\", \"recojan el material\", \"hagan silencio\"— dicha en el idioma de la Selva. Si no te sale a la primera, ese es exactamente el trabajo que esta lección te está pidiendo."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Continuar a la progresión 🌱",
+        "questions": [
+          {
+            "text": "Un Viejo Lobo dice que el marco simbólico \"está bien para ambientar, pero lo importante es la actividad\". ¿Qué le falta entender?",
+            "options": [
+              "Nada: el marco simbólico es un recurso de ambientación y la actividad bien diseñada es lo que educa.",
+              "Que el marco simbólico no ambienta la actividad, sino que es el lenguaje en el que la actividad ocurre.",
+              "Que debería reservarlo para las ceremonias, que es el único lugar donde la Guía lo ubica formalmente."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "El Eo-Wawa es…",
+            "options": [
+              "El nombre que recibe la formación en círculo que es propia de la Familia de Cachorros.",
+              "El grito de felicidad de los Cachorros, que se hace cuando hay un motivo para celebrar.",
+              "La ceremonia con la que el Cachorro se despide del Cubil y pasa a la Manada."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "title": "🌱 Cómo crece un Cachorro",
+      "emoji": "🌱",
+      "navLabel": "Progresión",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la progresión no es una carrera. Es un camino con tres tramos y cinco huellas."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las cinco Dimensiones"
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía las define así: <em>\"Una Dimensión es un campo de formación que agrupa un conjunto de habilidades, actitudes y valores que se desarrollan de manera interrelacionada, y que permiten al niño crecer de forma integral\"</em> (§8.5, p. 54 del PDF)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Corporal</strong> — motricidad fina y gruesa, reconocer las partes de su cuerpo y la importancia de cuidarlo.",
+            "<strong>Cognitiva</strong> — observar, comparar y clasificar su entorno, y comunicar de forma creativa lo que descubre.",
+            "<strong>Ética</strong> — participar con respeto y solidaridad, reconociendo y siguiendo normas básicas de convivencia.",
+            "<strong>Socio-Afectiva</strong> — construir vínculos positivos, mostrar empatía y manejar sus emociones cotidianas.",
+            "<strong>Espiritual</strong> — cuidado, respeto y gratitud hacia los seres vivos, la naturaleza y lo que vive cada día."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Seguro te preguntaste por qué en el Curso 6 eran <strong>seis</strong> áreas de crecimiento y aquí son <strong>cinco</strong> dimensiones. No es una contradicción: la Guía las empareja una por una (p. 55 del PDF), y dos áreas entran por la misma puerta."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Corporalidad → Dimensión <strong>Corporal</strong>",
+            "Creatividad → Dimensión <strong>Cognitiva</strong>",
+            "Carácter → Dimensión <strong>Ética</strong>",
+            "Sociabilidad + Afectividad → Dimensión <strong>Socio-Afectiva</strong> (las dos juntas: ahí está el seis que se vuelve cinco)",
+            "Espiritualidad → Dimensión <strong>Espiritual</strong>"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dicho de otro modo: no son dos sistemas que compiten, es el mismo sistema dicho en el lenguaje de la primera infancia. En este curso, <strong>Dimensión</strong> siempre quiere decir uno de esos cinco campos de formación de la Familia."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El camino del Cachorro"
+        },
+        {
+          "type": "paragraph",
+          "text": "El Cachorro que llega entra a la <strong>Etapa de Adaptación</strong>, de <strong>dos meses aproximadamente</strong>, orientada a <em>\"facilitar una integración gradual, segura y significativa del niño o niña a la vida en el Cubil\"</em> (§8.6, p. 57 del PDF). Es tiempo para conocer, explorar y sentirse parte — no para evaluar. Termina con la Investidura."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los tres tramos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Después de la Investidura, el Cachorro recorre <strong>tres fases de progresión</strong>, y cada una tiene nombre de la Selva. La Guía avisa de entrada que <em>\"estas fases no representan grados rígidos ni comparaciones entre compañeros, sino momentos de crecimiento\"</em> (§8.6, p. 57 del PDF)."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "👁️ <strong>Mirada de Raksha</strong> — el nivel <strong>Reconoce</strong>. Así como Raksha mira a Mowgli con amor y protección, el Cachorro empieza a mirar la Selva con asombro y confianza. Mira y descubre.",
+            "🐺 <strong>Aullido de Papá Lobo</strong> — el nivel <strong>Expresa</strong>. Encuentra su voz, se expresa con seguridad y afirma su lugar en la Familia. Se hace oír.",
+            "🐾 <strong>Fuerza del Cubil</strong> — el nivel <strong>Comparte</strong>. Ya no solo pertenece: ahora sostiene a los demás. Comparte lo que aprendió."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tres fases, tres verbos: <strong>Reconoce, Expresa, Comparte</strong> (§8.6, p. 56 y §8.7, pp. 59–60 del PDF). Y a cada verbo del niño le corresponde uno tuyo: <strong>Apoyar</strong> en Reconoce, <strong>Acompañar</strong> en Expresa, <strong>Enlazar</strong> en Comparte. La Guía lo remata así: <em>\"Apoyar, acompañar y enlazar no son tareas administrativas: son gestos pedagógicos\"</em> (§8.11, pp. 64–66 del PDF)."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las cinco Dentelladas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Una por cada área de crecimiento, y cada una con su elemento de la Selva (p. 59 del PDF):"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "💧 <strong>Dentellada de Agua</strong> (corporalidad) — el agua es movimiento, fluidez y vida: el cuidado del cuerpo.",
+            "🌱 <strong>Dentellada de Tierra</strong> (creatividad) — la tierra es donde se siembra y se construye: la exploración y el descubrimiento.",
+            "🔥 <strong>Dentellada de Fuego</strong> (carácter) — el fuego es fuerza interior, valentía y decisión: el carácter.",
+            "😊 <strong>Dentellada de Felicidad</strong> (afectividad y sociabilidad) — el espíritu alegre de \"Siempre Alegres\": los vínculos y la empatía.",
+            "🌬️ <strong>Dentellada de Aire</strong> (espiritualidad) — el aire es lo invisible pero esencial: la gratitud y el asombro."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Y sí, son insignias.</strong> La Guía dice que <em>\"la insignia de cada dentellada se entrega en el momento en que el Cachorro demuestra el nivel Expresa en la dimensión correspondiente\"</em>, y <strong>recomienda</strong> entregarlas <strong>de a una</strong>, sin acumular varias para el mismo día, <em>\"con el fin de resaltar el logro personal\"</em> (§8.6, p. 58 del PDF). Lo que la Guía sí descarta es otra cosa: <em>\"no es un sistema de requisitos acumulativos, sino un proceso gradual\"</em> (§8.6, p. 56 del PDF). Las insignias no son el problema; la carrera sí."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "¿Y cómo se pasa de una fase a la otra?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Con dos cosas. Las <strong>Dentelladas</strong>, que ya viste — cuando el niño <em>expresa</em> esa dimensión. Y las <strong>especialidades</strong>: algo que le gusta y que después comparte con la Familia. <strong>Una</strong> para llegar al Aullido de Papá Lobo; <strong>tres</strong> en total para la Fuerza del Cubil (§8.6, p. 58 del PDF). Por eso el tercer verbo se llama <em>Comparte</em>: lo que se profundiza, se devuelve."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Y una especialidad no es un examen.</strong> La Guía da la fórmula en tres pasos: <strong>SABE</strong> dos cosas básicas, <strong>DEMUESTRA</strong> dos acciones prácticas y <strong>COMPARTE</strong> una en la Familia o en la casa. Se completa en <em>“4 a 6 semanas”</em> y <em>“no necesita trámites complejos”</em>. Sale del interés del niño, no de un catálogo: le gustan los animales → <em>Amigo de los Animales</em>; le gusta cuidar plantas → <em>Guardián de la Selva</em> (§8.10, pp. 63–64 del PDF)."
+        },
+        {
+          "type": "info-box",
+          "text": "🎖️ <strong>Las especialidades no llevan insignia.</strong> La Guía es explícita: <em>“no cuentan con insignias físicas; sin embargo, es fundamental reconocer y valorar los logros”</em> — con un diploma, una mención, lo que se les ocurra, pero <strong>delante de los demás</strong>. Ahí está tu papel de <strong>Enlazar</strong>: en esta rama, enlazar es acompañar una especialidad hasta que el Cachorro pueda enseñarle algo a la Familia (§8.10, p. 64 y §8.11, p. 65 del PDF)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y al final está la <strong>Etapa de Transición</strong>, llamada <strong>Cachorro Explorador</strong>. La Guía lo dice con cuidado: el paso a la Manada <em>\"no debe vivirse como un cambio abrupto ni como una ruptura en el camino del Cachorro, sino como una continuidad natural del viaje fantástico\"</em> (§8.15, p. 67 del PDF)."
+        },
+        {
+          "type": "paragraph",
+          "text": "¿Y cuándo se hace ese paso? La Guía pone fecha: <em>\"idealmente, el paso a la Manada debe realizarse al cumplir los 7 años\"</em>, con una <em>\"flexibilidad máxima de hasta tres meses\"</em> después de esa edad, y solo con razones pedagógicas claras (§8.15, p. 68 del PDF). Tres meses es el margen — no es una puerta abierta."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Qué esperamos al final"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 El perfil de egreso del Cachorro",
+          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §8.3, p. 53 del PDF.",
+          "text": "Esperamos que nuestros Cachorros culminen su etapa en la Familia con bases sólidas para continuar su camino en la Manada, no como niños perfectos, sino como niños seguros, alegres y preparados para nuevos desafíos."
+        },
+        {
+          "type": "info-box",
+          "text": "🐺 <strong>Aquí Salomé cruza la Ceremonia de Paso.</strong> Del otro lado la espera la Manada — y ahí empieza el <strong>Curso 8</strong>, con Andrés, que acaba de cruzar esa misma ceremonia. Si algún día acompañas esa rama, ese curso continúa exactamente esta historia."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en un Cachorro concreto de tu unidad, con nombre y cara. ¿En cuál de las cinco dimensiones lo has visto crecer este trimestre? ¿Y en cuál no te has fijado nunca? La segunda pregunta es la que importa."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7",
+        "nextLabel": "Continuar al Cubil seguro 🛡️",
+        "questions": [
+          {
+            "text": "Un Viejo Lobo lleva la cuenta de cuántas insignias tiene cada Cachorro y las compara entre ellos para motivar a los que van más lento. ¿Qué está pasando por alto?",
+            "options": [
+              "Nada en particular: comparar avances es una forma legítima de motivar a quienes van más despacio que el resto.",
+              "Que la progresión se acompaña por dimensiones y ritmos propios de cada niño, no como una carrera entre ellos.",
+              "Que ese registro debería llevarlo en la herramienta oficial de la Dirección Nacional y no en un cuaderno suyo."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "La Etapa de Adaptación de un Cachorro que acaba de llegar a la Familia dura aproximadamente…",
+            "options": [
+              "Una reunión: la de bienvenida, donde conoce a sus Viejos Lobos y al resto de la Familia.",
+              "Dos meses, orientados a una integración gradual y segura a la vida en el Cubil.",
+              "Todo el primer año, hasta que cumple los seis años y pasa a ser Cachorro Explorador."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "title": "🛡️ Un Cubil seguro y tu primer paso",
+      "emoji": "🛡️",
+      "navLabel": "Cubil seguro",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> con niños de cinco años, la regla de los dos adultos no es un trámite. Es parte de la actividad."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las reglas que no se negocian"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Presencia mínima de adultos",
+          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §11.7 Presencia Mínima de Adultos, p. 78 del PDF.",
+          "text": "Para garantizar un entorno seguro, siempre deben estar presentes al menos dos adultos con los Cachorros, y debe existir una proporción de un adulto por cada cinco Cachorros; en ningún caso un adulto debe permanecer solo con un niño o con la Familia."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía dice para qué sirve, y son tres cosas, no una: <em>\"Protege a los menores. Protege a los Viejos Lobos. Garantiza transparencia en todas las interacciones entre adultos y Protagonistas de Programa\"</em>. La segunda se olvida seguido — esta regla también te cuida a ti."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sobre el <strong>contacto físico</strong>, la Guía es clara: <em>\"debe evitarse de manera general\"</em>. Si por razón pedagógica o de seguridad hace falta —para evitar un accidente, por ejemplo—, <em>\"se debe advertir previamente al niño, explicándole con claridad qué se hará y por qué\"</em>. Y el afecto se maneja con límites sanos, no se prohíbe (§11.10, p. 79 del PDF)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y hay dos situaciones que con niños de cinco años pasan <strong>cada sábado</strong>, así que conviene saberlas de memoria:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "🚻 <strong>El baño.</strong> Acompañas <em>\"únicamente hasta la puerta\"</em>. <em>\"En ningún caso un Viejo Lobo debe ingresar al baño con el Cachorro\"</em>, ni lo asiste en su higiene ni en acomodarle la ropa (§11.9, pp. 78–79 del PDF).",
+            "👶 <strong>Si el niño no controla esfínteres</strong> o necesita apoyo directo, <em>\"serán exclusivamente los padres o acudientes\"</em> quienes lo hagan. No es tu tarea, y no es descortesía decirlo (§11.9, p. 79 del PDF).",
+            "🤝 <strong>La entrega y la recepción.</strong> Tu responsabilidad empieza cuando recibes al Cachorro y termina cuando lo entregas a su padre, madre o acudiente autorizado. Siempre <em>\"visible y explícito\"</em>, en un punto definido, y <em>\"por ningún motivo se permite que el niño se retire solo\"</em> (§11.7 Responsabilidad y Custodia, p. 78 del PDF)."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los padres, aliados"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 El lugar de los padres en la Familia",
+          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §1.4, p. 11 del PDF.",
+          "text": "En la Familia de Cachorros los padres de familia no son espectadores externos, sino aliados fundamentales del proceso educativo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Con una condición: el rol claro. Su participación <em>\"no está orientada a dirigir, corregir o intervenir en la dinámica pedagógica de las reuniones\"</em>. Aliado no es codirigente. Cuando eso no se conversa a tiempo, la reunión termina teniendo dos equipos de adultos dando instrucciones distintas."
+        },
+        {
+          "type": "info-box",
+          "text": "🔗 <strong>Dónde sigue esto.</strong> Aquí aprendiste a <strong>planear</strong> una actividad segura. Qué hacer —y qué <strong>no</strong>— cuando un niño te revela un daño lo enseña la línea <strong>Políticas Transversales</strong>, en el curso <em>El adulto como garante de un entorno seguro</em>. Este curso enlaza allá y no lo reexplica, para que esa conducta tenga una sola fuente en toda la plataforma."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lo que sí te conviene saber desde hoy es que <strong>la ruta existe y tiene nombre</strong>: el botón <strong>\"Me Pongo A Salvo del Peligro\"</strong>, virtual en scout.org.co y en los códigos QR que se ubican en los sitios de reunión. Y si necesitas orientación, el correo <strong>asalvodelpeligro@scout.org.co</strong> (§11.5, p. 77 del PDF). Saber dónde está no te convierte en investigador: te evita improvisar el día que haga falta."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "¿Vas a abrir una Familia?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si tu Grupo está pensando en abrir la rama, hay un documento hecho para eso: <em>Cómo Crear una Familia de Cachorros</em> (DNPJ-2026-065). Propone <em>\"recorrer tres momentos fundamentales: Intención, Decisión y Acción\"</em>."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Intención</strong> — reflexionar sobre el porqué: para qué quiere el Grupo abrir esta rama.",
+            "<strong>Decisión</strong> — evaluar con criterio si hay adultos idóneos y condiciones seguras.",
+            "<strong>Acción</strong> — dar el paso, con la formación y los roles definidos."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "🎯 <strong>Tu primer paso como Viejo Lobo de Familia.</strong> No intentes cambiar la unidad entera el sábado. Escoge una sola cosa de este curso, pruébala en la próxima reunión, y mira qué pasa. Lo que aprendiste aquí se sostiene reunión a reunión, igual que un Cachorro crece."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe tres cosas, cortas y concretas: (1) el Nombre de Caza que vas a usar; (2) UNA cosa que vas a cambiar en tu próxima reunión por lo que viste en este curso; y (3) cómo vas a verificar la regla de los dos adultos antes de la próxima salida. La tercera es la que no se puede dejar para después."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 8",
+        "nextLabel": "Ver mi certificado 🏅",
+        "questions": [
+          {
+            "text": "Estás organizando una salida con 12 Cachorros. Según la Guía, ¿cuántos adultos necesitas como mínimo?",
+            "options": [
+              "Dos adultos, que es el mínimo que la norma exige para cualquier actividad de la rama.",
+              "Tres adultos, porque la proporción exigida es de un adulto por cada cinco Cachorros.",
+              "Seis adultos, uno por cada dos Cachorros, dada la edad de los protagonistas de programa."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Al final de la reunión, Salomé corre a abrazar a su Viejo Lobo. Según la Guía, lo correcto es…",
+            "options": [
+              "Evitar el abrazo y explicarle que entre adultos y niños no puede haber contacto físico.",
+              "Agacharse a su altura y devolver el abrazo así, sin cargarla ni levantarla, y siempre a la vista.",
+              "Devolver el abrazo de pie y con normalidad, porque el afecto espontáneo de un niño no implica riesgo."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Me paro como mediador",
+      "emoji": "🧒",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Digo la Promesa y la Ley",
+      "emoji": "🤝",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "El juego es mi método",
+      "emoji": "🎲",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Sostengo el Círculo",
+      "emoji": "🐾",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Hablo el idioma de la Selva",
+      "emoji": "📖",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "Acompaño su crecimiento",
+      "emoji": "🌱",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
+      "name": "Viejo Lobo de Familia",
+      "emoji": "🐻✨",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "RAMA FAMILIA (CACHORROS)",
+    "description": "ha completado el Curso 9 de la Línea Programa de Jóvenes — Rama Familia (Cachorros), reconociendo la Promesa y la Ley del Cachorro, el juego como forma del Aprender Haciendo en la primera infancia, la organización en Camadas y el Círculo de Familia, el marco simbólico de la Fantasía y la historia de Los Hermanos de Mowgli, y las reglas de entorno seguro propias de la rama, al servicio de las niñas y los niños de la Asociación Scouts de Colombia"
+  }
+}
