@@ -219,4 +219,71 @@ test.describe('Calidad de codigo (AUDITORIA.md mecanico)', () => {
     ).toEqual([]);
   });
 
+
+  // --- ADR-034. Claves de localStorage: documento vs codigo ------------------
+  // POR QUE: CREAR-CURSO.md de esta linea prescribia desde su diseno una clave
+  // propia (dirigenteProfile) para no leer el perfil del ADULTO de otra linea.
+  // Nunca se implemento. Y el manual, ademas, la daba por hecha. Nadie lo noto
+  // en meses porque NINGUNA compuerta compara lo que los manuales prescriben
+  // contra lo que el codigo hace: el CHECKLIST seccion I tiene la casilla
+  // —"los hilos de datos usan las claves declaradas en CREAR-CURSO.md"— y se
+  // marcaba en verde sin ejecutarla.
+  //
+  // Las lineas comparten dominio, asi que comparten localStorage. Una clave sin
+  // apellido de linea es legible por las otras tres y por las dos apps: no es
+  // un detalle de estilo, es la frontera entre planos conceptuales.
+  test('las claves de localStorage coinciden con lo declarado (ADR-034)', () => {
+    const declPath = path.join(__dirname, '..', 'claves-localstorage.json');
+    if (!fs.existsSync(declPath)) test.skip();
+    const decl = JSON.parse(fs.readFileSync(declPath, 'utf-8'));
+
+    // Claves que el motor usa de verdad.
+    const enCodigo = new Set();
+    for (const { texto } of fuentesMotor()) {
+      const re = /(?:guardarLocal|leerLocal|localStorage\.(?:getItem|setItem|removeItem))\(\s*'([^']+)'/g;
+      let m;
+      while ((m = re.exec(texto)) !== null) enCodigo.add(m[1]);
+    }
+
+    const declaradas = decl.claves.map((k) => k.patron);
+    const problemas = [];
+
+    // (a) El codigo hace algo que nadie documento. Es el caso peligroso: un dato
+    //     del estudiante viajando por un canal que no esta en ningun manual.
+    for (const k of enCodigo) {
+      if (!declaradas.includes(k)) {
+        problemas.push(
+          `  SIN DECLARAR: el motor usa '${k}' y no esta en claves-localstorage.json.\n` +
+            `     Declarala con su proposito y su alcance, o quitala del codigo.`
+        );
+      }
+    }
+
+    for (const k of decl.claves) {
+      const presente = enCodigo.has(k.patron);
+
+      // (b) El documento miente: dice que existe y no existe.
+      if (k.estado === 'implementada' && !presente) {
+        problemas.push(
+          `  DECLARADA PERO AUSENTE: '${k.patron}' figura como implementada y el motor no la usa.\n` +
+            `     O el codigo la perdio, o la declaracion esta de mas. Fue el caso de dirigenteProfile.`
+        );
+      }
+
+      // (c) Se implemento algo que estaba solo planeado, sin documentarlo bien.
+      if (k.estado === 'planeada' && presente) {
+        problemas.push(
+          `  PLANEADA PERO YA EN USO: '${k.patron}' aparece en el motor.\n` +
+            `     Promuevela a "implementada" y describe que guarda y quien la lee.`
+        );
+      }
+    }
+
+    expect(
+      problemas,
+      `Desajuste entre los manuales y el motor en la linea "${decl.linea}".\n` +
+        `Ver ADR-034 y CREAR-CURSO.md seccion 5.\n\n${problemas.join('\n\n')}\n`
+    ).toEqual([]);
+  });
+
 });

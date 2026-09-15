@@ -234,7 +234,7 @@ Cuando se quieren publicar varios cursos del mismo nivel a la vez.
 3. **Cuando todos los cursos del nivel estén listos**, actualizar `cursos.json` en un solo commit:
    - Marcar todos los del nivel como `status: "active"`.
    - Asegurar que el orden de `cursos.json` refleja el orden pedagógico del nivel.
-4. **Verificar conexiones cross-course:** que cada curso del nivel referencie al siguiente correctamente y que los componentes que dependen de otros (ej. `brujula-display` del Curso 6 que lee reflexiones de los Cursos 1–5, `plan-builder` del Curso 6 que integra rama+áreas+rol+reunión+proyecto+par) funcionen.
+4. **Verificar conexiones cross-course:** que cada curso del nivel referencie al siguiente correctamente y que los componentes que dependen de otros (ej. `brujula-display` del Curso 7 que lee reflexiones de los cursos previos, `plan-builder` del Curso 7 que integra rama+áreas+rol+reunión+proyecto+par) funcionen.
 5. **Piloto (opcional, ya no bloqueante)** — ver `CLAUDE.md` §5.4, ADR-019. Si se quiere validar recepción real, pilotear con 5-10 dirigentes reales (para Nivel 1: idealmente 2 de Manada, 2 de Tropa, 1 de Comunidad y 1 de Clan); no es requisito para publicar.
 
 ---
@@ -244,7 +244,7 @@ Cuando se quieren publicar varios cursos del mismo nivel a la vez.
 ### A. Curso que reusa un componente especializado (`brujula-display`, `plan-builder`, `self-assessment`)
 
 - Cualquier curso del Nivel 1 puede usar `brujula-display`, `plan-builder` o `self-assessment` (ya están soportados por el motor — no requiere tocar `engine.js`).
-- El **Curso 6 (Mi Compromiso)** usa `brujula-display` para recuperar reflexiones de los Cursos 1–5 (`sourceCourses` con los 5 IDs) y `plan-builder` con 22 campos distribuidos en L3-L4-L6.
+- El **Curso 7 (Mi Compromiso)** usa `brujula-display` para recuperar reflexiones de los Cursos 1–6 (`sourceCourses` con los 5 IDs) y `plan-builder` con 22 campos distribuidos en L3-L4-L6.
 - Si el componente lee datos de otro curso, usar la clave global de localStorage acordada en el proyecto (ej. `dirigenteProfile` para el cross-course del perfil de dirigente, paralela a `competencyProfile` de la Línea Política de Adultos).
 - **Cowork solo dice**: _"aquí va un plan-builder con 22 campos"_ o _"aquí se muestra al adulto sus reflexiones de los cursos 1-5"_. **Claude Code monta** la mecánica.
 
@@ -391,7 +391,7 @@ Cada curso del Nivel 1 cierra con un **compromiso firmable** (no abstracto):
 - Curso 3: una frase propia de definición del Movimiento.
 - Curso 4: un ajuste a la próxima reunión, fortaleciendo un elemento del Método.
 - Curso 5: el mapa personal del Modelo (rama, áreas prioritarias, rol).
-- Curso 6: el Plan Personal de Dirigente completo (22 campos) + Promesa personal del Nivel 1.
+- Curso 7: el Plan Personal de Dirigente completo (22 campos) + Promesa personal del Nivel 1.
 
 **Recomendación:** ningún curso de PJ debería terminar sin un compromiso que el adulto pueda **mostrar a su consejo de grupo** o **revisar en una semana**.
 
@@ -462,16 +462,17 @@ Cada curso del Nivel 1 cierra con un anuncio del siguiente (1–2 frases). En pa
 - **Última lección del Curso 2** anuncia: _"En el Curso 3 vas a conocer la identidad doctrinal del Movimiento. En el Curso 4, su método. En el Curso 5, cómo Colombia lo aplica."_
 - **Última lección del Curso 3** anuncia: _"En el Curso 4 vas a aprender el Método Scout: la herramienta práctica con la que aterrizas el Propósito y los Principios a una reunión real."_
 - **Última lección del Curso 4** anuncia: _"En el Curso 5 vas a ver cómo Colombia aterriza el Método al Modelo de Aplicación 2026, las 5 ramas y las 6 áreas de crecimiento."_
-- **Última lección del Curso 5** anuncia: _"En el Curso 6 vas a convertir todo lo aprendido en un Plan Personal de Dirigente firmable."_
-- **Última lección del Curso 6** anuncia:
+- **Última lección del Curso 6** anuncia: _"En el Curso 7 vas a convertir todo lo aprendido en un Plan Personal de Dirigente firmable."_
+- **Última lección del Curso 7** recomienda:
   - **Recomendado pronto**: Curso 25 (A Salvo del Peligro) — importante, no bloqueante.
   - **Próximo mes**: tu curso de rama del Nivel 2 + un curso pedagógico operativo (12, 13 o 14).
   - **Próximos meses**: el resto del Nivel 2, el Nivel 3 (cuando ejerzas un cargo) y los demás cursos del Nivel 4.
 
 ### 9.1 Hilos de datos (responsabilidad de Claude Code)
 
-- El **`brujula-display` del Curso 6** lee las reflexiones de cierre de los Cursos 1, 2, 3, 4 y 5 (`sourceCourses` con los 5 IDs).
-- El **`plan-builder` del Curso 6** persiste en `localStorage` con clave `dirigenteProfile` y es leído más adelante por los cursos del Nivel 2 (para sugerir el curso de rama y los cursos operativos prioritarios).
+- El **`brujula-display` del Curso 7** lee las reflexiones de cierre de los cursos previos del Nivel 1 (`sourceCourses` con sus IDs).
+- El **`plan-builder` del Curso 7 (Mi Compromiso)** guarda hoy su plan **dentro de `courseProgress_mi-compromiso-programa-jovenes`**, no en una clave propia.
+  > ⚠️ **Pendiente, no hecho (verificado 14-sep-2026).** Este documento afirmaba que persistía en `dirigenteProfile` y que los cursos del Nivel 2 lo leían. **Ninguna de las dos cosas era cierta**: la clave no existe en el motor y ningún curso la lee. La prescripción sigue siendo correcta —ver §5.A— y está declarada como `planeada` en `PRUEBAS-E2E/claves-localstorage.json`, donde una compuerta la vigila. Mientras no se implemente, **no escribir en ningún documento que ya funciona**. Ver ADR-034.
 - Ningún curso marca flags de bloqueo ni desbloqueo entre sí (ver `CLAUDE.md` §5.3, ADR-019) — solo recomendaciones en la ficha del curso.
 
 ---
@@ -643,7 +644,7 @@ Antes de publicar, verificar contra https://scout.org.co/biblioteca/dnpj que los
 | **Áreas de crecimiento** | Las 6 dimensiones del desarrollo integral: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad. |
 | **3 roles del dirigente** | Apoyar, Acompañar, Enlazar (Modelo de Aplicación 2026). |
 | **DURASLID** | Filtro de calidad de toda oportunidad de aprendizaje: Desafiante, Útil, Recompensante, Atractiva, Segura, Lúdica, Inclusiva, Diversa. |
-| **Plan-builder** | Componente interactivo donde el adulto arma su plan personal (en PJ: 22 campos en el Curso 6). |
+| **Plan-builder** | Componente interactivo donde el adulto arma su plan personal (en PJ: 22 campos en el Curso 7). |
 | **Brujula-display** | Componente que muestra al adulto sus reflexiones acumuladas de cursos anteriores. |
 | **Self-assessment** | Autodiagnóstico interactivo con dimensiones y grados. |
 | **Policy-quote** | Cita textual de un documento oficial, plegable por defecto. |
