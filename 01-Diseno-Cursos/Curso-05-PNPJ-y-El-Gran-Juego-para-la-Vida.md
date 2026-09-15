@@ -322,7 +322,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
     - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes: tu plan personal completo, integrando los 5 cursos del Nivel 1.
     - 🐻🐺⚜️🧗🏔️ **Nivel 2 — Cursos 8–12** — Profundización por rama (toma el de la tuya).
     - 🛠️ **Nivel 2 — Cursos 13, 14, 15** — Seguimiento, Planeación, Ciclo de Programa con ABP.
-    - 🛡️ **Nivel 4 — Curso 25** — A Salvo del Peligro (habilitante).
+    - 🛡️ **Nivel 4 — Curso 25** — A Salvo del Peligro (de adopción inmediata).
 8. **`info-box`** — Despedida: _"Ya sabes qué dice Colombia. Te queda un curso para cerrar el Nivel 1. Buen camino."_
 
 **Reflexión:** _"Escribe tu mapa del Modelo completo (paso 4) y guárdalo. Te lo enviaremos por correo con tu certificado."_

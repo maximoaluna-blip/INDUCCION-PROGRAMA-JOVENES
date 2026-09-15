@@ -218,12 +218,12 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Apertura: _"Hoy cierras el Nivel 1. La línea tiene 4 niveles. Aquí defines cuál curso del Nivel 2 vas a tomar primero y cuándo vas a hacer el Curso 25 (A Salvo del Peligro — habilitante)."_
+2. **`paragraph`** — Apertura: _"Hoy cierras el Nivel 1. La línea tiene 4 niveles. Aquí defines cuál curso del Nivel 2 vas a tomar primero y cuándo vas a hacer el Curso 25 (A Salvo del Peligro), que es de adopción inmediata."_
 3. **`heading` (nivel 3)** — _"Tu curso de rama del Nivel 2 (Cursos 8–12)"_
 4. **`paragraph`** — _"Cada dirigente toma el curso de su rama. La plataforma te lo sugiere automáticamente según la rama que declaraste en la L3 de este curso."_
 5. **`list`** — Recordatorio de los 5 cursos por rama:
-    - 🐻 **Curso 8** — Rama Familia (Cachorros, 5-6 años).
-    - 🐺 **Curso 9** — Rama Manada (Lobatos, 7-10 años).
+    - 🐻 **Curso 9** — Rama Familia (Cachorros, 5-6 años).
+    - 🐺 **Curso 8** — Rama Manada (Lobatos, 7-10 años).
     - ⚜️ **Curso 10** — Rama Tropa Scout (11-14 años).
     - 🧗 **Curso 11** — Rama Comunidad (Nómadas, 15-17 años).
     - 🏔️ **Curso 12** — Rama Clan (Rovers, 18-20 años).
@@ -233,8 +233,8 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
     - **Si tu foco es acompañar la progresión personal** (uno-a-uno con los protagonistas) → empieza por el **Curso 13 (Seguimiento de la Progresión)**.
     - **Si eres Jefe o Subjefe de Rama** → empieza por el **Curso 14 (Planeación de Reuniones)** y luego el **Curso 15 (Ciclo con ABP)**.
     - **Si eres Asistente o entras nuevo** → orden libre, según prioridad de tu unidad.
-9. **`heading` (nivel 3)** — _"Curso 25 — A Salvo del Peligro: HABILITANTE"_
-10. **`info-box`** — _"**Importante**: ningún dirigente avanza al Nivel 2 sin haber completado el Curso 25 (A Salvo del Peligro aplicado al Programa). Es el único curso del Nivel 4 que es prerrequisito real. Tómalo en paralelo con tu primer curso del Nivel 2."_
+9. **`heading` (nivel 3)** — _"Curso 25 — A Salvo del Peligro: tómalo ya"_
+10. **`info-box`** — _"**Importante**: ningún curso de esta plataforma te bloquea el acceso a otro — puedes entrar al Nivel 2 cuando quieras. Pero el Curso 25 (A Salvo del Peligro aplicado al Programa) es de **adopción inmediata**: tómalo en paralelo con tu primer curso del Nivel 2. Lo que protege a un niño no se deja para después."_
 11. **`paragraph`** — _"Los otros 4 cursos del Nivel 4 (Marco de Mundo Mejor, Kit Constructores de Paz, Kit HeForShe, Kit Patrimonito) se toman según interés o convocatorias nacionales. No tienen orden obligatorio."_
 
 **Reflexión:** _"Escribe cuál será **el primer curso del Nivel 2** que vas a tomar (de los 8) y cuándo planeas empezarlo. Sé específico (semana, mes)."_
@@ -249,9 +249,9 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 > **P2.** Un dirigente nuevo de Manada que se enfocará en acompañar la progresión personal debería empezar el Nivel 2 con…
 >
-> a) _El Curso 9 (Rama Manada) y el Curso 13 (Seguimiento de la Progresión)._  ✅
-> b) _El Curso 15 (Ciclo con ABP) primero, luego el resto._
-> c) _Los cursos del Nivel 3 directamente._
+> a) _El Curso 8 (Rama Manada) y el Curso 13 (Seguimiento de la Progresión)._  ✅
+> b) _El Curso 15 (Ciclo con ABP) primero, y después el curso de su rama._
+> c) _Los cursos del Nivel 3 directamente, porque ahí está el detalle de cada cargo._
 
 **Logro:** "Sé qué viene".
 
@@ -289,8 +289,8 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
     - `buttonLabel`: "Subir foto de mi promesa"
 10. **`heading` (nivel 3)** — _"Lo que viene"_
 11. **`list`** — Mapa hacia los Niveles 2-4:
-    - **Inmediato**: Curso 25 (A Salvo del Peligro — habilitante).
-    - **Próximo mes**: tu curso de rama del Nivel 2 + un curso pedagógico operativo (12, 13 o 14).
+    - **Inmediato**: Curso 25 (A Salvo del Peligro), que es de adopción inmediata.
+    - **Próximo mes**: tu curso de rama del Nivel 2 + un curso pedagógico operativo (13, 14 o 15).
     - **Próximos meses**: el resto del Nivel 2, el Nivel 3 (cuando ejerzas un cargo) y los demás cursos del Nivel 4.
 12. **`info-box`** — Despedida: _"Bienvenido al equipo de los dirigentes con plan. El Movimiento te necesitaba. Tu unidad también. Buen camino, hermano mayor."_
 
@@ -340,7 +340,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 - **L5 → Cursos 8–12 (rama)**: recomendación automática según la rama declarada en L3.
 - **L5 → Cursos 13, 14, 15 (pedagógicos)**: orden recomendado según rol.
-- **L5 + L6 → Curso 25 (A Salvo del Peligro)**: prerrequisito habilitante.
+- **L5 + L6 → Curso 25 (A Salvo del Peligro)**: recomendado de adopción inmediata, **no** habilitante (ADR-019).
 - **L6 → par dirigente**: vínculo informal de acompañamiento entre niveles.
 
 ### 6.3 Cross-línea

@@ -3,7 +3,7 @@
   "title": "Mi Compromiso con el Programa de Jóvenes",
   "subtitle": "Tu plan personal de dirigente — cierre del Nivel 1",
   "description": "El cierre del Nivel 1 de la Línea Programa de Jóvenes. En ~30 minutos vas a convertir los Cursos 1 a 6 en un Plan Personal de Dirigente firmable: revisas tu brújula, defines tu rol, rama y áreas prioritarias, planeas tu próxima reunión y tu proyecto del trimestre, trazas tu ruta de formación y firmas tu promesa personal. No hay contenido nuevo: integras lo que ya tienes en algo accionable.",
-  "contentVersion": "2026-08-23",
+  "contentVersion": "2026-09-15",
   "icon": "🗺️",
   "duration": "30 minutos",
   "level": 1,
@@ -308,7 +308,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Hoy cierras el Nivel 1. La línea tiene 4 niveles. Aquí defines cuál curso del Nivel 2 vas a tomar primero y cuándo vas a hacer el Curso 25 (A Salvo del Peligro — habilitante)."
+          "text": "Hoy cierras el Nivel 1. La línea tiene 4 niveles. Aquí defines cuál curso del Nivel 2 vas a tomar primero y cuándo vas a hacer el Curso 25 (A Salvo del Peligro), que es de adopción inmediata."
         },
         {
           "type": "heading",
@@ -323,8 +323,8 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "🐻 <strong>Curso 8</strong> — Rama Familia (Cachorros, 5-6 años).",
-            "🐺 <strong>Curso 9</strong> — Rama Manada (Lobatos, 7-10 años).",
+            "🐻 <strong>Curso 9</strong> — Rama Familia (Cachorros, 5-6 años).",
+            "🐺 <strong>Curso 8</strong> — Rama Manada (Lobatos, 7-10 años).",
             "⚜️ <strong>Curso 10</strong> — Rama Tropa Scout (11-14 años).",
             "🧗 <strong>Curso 11</strong> — Rama Comunidad (Nómadas, 15-17 años).",
             "🏔️ <strong>Curso 12</strong> — Rama Clan (Rovers, 18-20 años)."
@@ -351,11 +351,11 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "Curso 25 — A Salvo del Peligro: HABILITANTE"
+          "text": "Curso 25 — A Salvo del Peligro: tómalo ya"
         },
         {
           "type": "info-box",
-          "text": "<strong>Importante</strong>: ningún dirigente avanza al Nivel 2 sin haber completado el Curso 25 (A Salvo del Peligro aplicado al Programa). Es el único curso del Nivel 4 que es prerrequisito real. Tómalo en paralelo con tu primer curso del Nivel 2."
+          "text": "<strong>Importante</strong>: ningún curso de esta plataforma te bloquea el acceso a otro — puedes entrar al Nivel 2 cuando quieras. Pero el Curso 25 (A Salvo del Peligro aplicado al Programa) es de <strong>adopción inmediata</strong>: tómalo en paralelo con tu primer curso del Nivel 2. Lo que protege a un niño no se deja para después."
         },
         {
           "type": "paragraph",
@@ -372,18 +372,18 @@
           {
             "text": "Un dirigente ya terminó el Nivel 1 y quiere arrancar el Curso 10 (Rama Tropa) del Nivel 2 la próxima semana, pero todavía no ha hecho el Curso 25 (A Salvo del Peligro). ¿Qué pasa?",
             "options": [
-              "Puede arrancar el Curso 10 sin problema; el Curso 25 es opcional y lo puede hacer cuando quiera.",
-              "No puede avanzar al Nivel 2 hasta completar el Curso 25; lo ideal es tomarlo en paralelo.",
-              "Solo lo necesita si su grupo está ubicado en una zona de alto riesgo."
+              "Nada se lo impide y puede dejar el Curso 25 para cuando le quede tiempo: es uno más del Nivel 4, igual que los kits.",
+              "Nada se lo impide, pero el Curso 25 es de adopción inmediata: lo sensato es tomarlo en paralelo desde ya.",
+              "Tiene que esperar, porque la plataforma le bloquea el acceso al Nivel 2 hasta que lo complete."
             ],
             "correctIndex": 1
           },
           {
             "text": "Un dirigente nuevo de Manada que se enfocará en acompañar la progresión personal debería empezar el Nivel 2 con…",
             "options": [
-              "El Curso 9 (Rama Manada) y el Curso 13 (Seguimiento de la Progresión).",
-              "El Curso 15 (Ciclo con ABP) primero, luego el resto.",
-              "Los cursos del Nivel 3 directamente."
+              "El Curso 8 (Rama Manada) y el Curso 13 (Seguimiento de la Progresión).",
+              "El Curso 15 (Ciclo con ABP) primero, y después el curso de su rama.",
+              "Los cursos del Nivel 3 directamente, porque ahí está el detalle de cada cargo."
             ],
             "correctIndex": 0
           }
@@ -446,8 +446,8 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "<strong>Inmediato</strong>: Curso 25 (A Salvo del Peligro — habilitante).",
-            "<strong>Próximo mes</strong>: tu curso de rama del Nivel 2 + un curso pedagógico operativo (12, 13 o 14).",
+            "<strong>Inmediato</strong>: Curso 25 (A Salvo del Peligro), que es de adopción inmediata.",
+            "<strong>Próximo mes</strong>: tu curso de rama del Nivel 2 + un curso pedagógico operativo (13, 14 o 15).",
             "<strong>Próximos meses</strong>: el resto del Nivel 2, el Nivel 3 (cuando ejerzas un cargo) y los demás cursos del Nivel 4."
           ]
         },

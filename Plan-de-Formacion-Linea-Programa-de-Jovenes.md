@@ -193,22 +193,20 @@ Una vez consolidado el Nivel 1, este nivel cubre dos ejes complementarios:
 
 Cada dirigente toma el curso de la rama en la que sirve. Idealmente cursa también el de la rama anterior y la posterior, para entender bien las transiciones.
 
-> **⚠️ Choque abierto entre este plan y un certificado ya emitido — lo decide Máximo (15-sep-2026).**
+> **Por qué la tabla arranca en 9 y luego va al 8 — decidido por Máximo el 15-sep-2026 (ADR-043).**
 >
-> Aquí **Rama Familia es el Curso 8** y **Manada el 9**, por edad de la rama. Pero **Manada se publicó como «Curso 8»** y así lo dice el texto del certificado que ya tienen quienes lo completaron — también `CLAUDE.md` §2 y el contexto del ADR-019.
+> **En este nivel el número sigue al orden de publicación, no a la edad de la rama.** Manada se publicó como **Curso 8** y así lo dice el certificado que ya tienen quienes la completaron; Familia, que aún no se construye, es el **9**.
 >
-> **De dónde sale:** ese 8 se tomó de la tabla de Nivel 2 del plan **sin renumerar**, donde Familia era 7 y Manada 8. Para julio de 2026 el Curso 3 ya existía (28-jun) y el Nivel 1 ya tenía 7 cursos, así que a Manada le correspondía el 9. Nadie lo notó porque el 8 quedó libre en el catálogo construido: **Familia aún no está construida.** El día que se construya, los dos reclaman el 8.
+> **La tabla se deja en orden de edad** —Familia, Manada, Tropa, Comunidad, Clan— porque es lo que esta sección necesita: el dirigente busca su rama por la edad de sus protagonistas, y el consejo de arriba («cursa también el de la rama anterior y la posterior») solo se lee bien así. **Las ramas no se toman en secuencia**, de modo que el orden de los números aquí no significa nada.
 >
-> **No se tocó nada publicado.** El JSON de `rama-manada-lobatos` sigue diciendo 8 y su certificado también. Las dos salidas —renumerar Manada a 9 y republicar, o dejarla en 8 y reordenar el Nivel 2— tienen costo distinto sobre certificados ya emitidos, y esa es la parte que no decide el documento.
+> **De dónde venía el lío:** el 8 de Manada se tomó en julio de 2026 de la tabla del plan **sin renumerar**, donde Familia era 7 y Manada 8. Nadie lo notó porque Familia nunca se construyó y el 8 quedó libre. Al renumerar el plan (ADR-041) los dos reclamaron el 8, y se resolvió a favor del certificado emitido.
 >
-> **Esto solo bloquea a Rama Familia.** Bajo las dos salidas, **Tropa es el 10, Comunidad el 11 y Clan el 12** — lo único en disputa es quién se queda con el 8. Esas tres se pueden construir sin esperar.
->
-> **Mientras tanto: cita por `courseId`.** Es lo único que no se mueve.
+> **Aun así, cita por `courseId`.** Es lo único que no se ha movido nunca.
 
 | # | Curso | Edades | Sirve a quién | Foco |
 |---|---|---|---|---|
-| 8 | 🐻 Rama Familia (Cachorros) | 5–6 años | Dirigentes de Familia y quienes abren unidad | Integrantes, Saludo/Ley/Promesa del Cachorro, juego/arte/literatura/exploración como actividades rectoras, Camadas y Círculo de Familia, Marco Simbólico (Hermanos de Mowgli, Nombres de Caza, Viejo Lobo), Padres de Familia como aliados, coherencia con educación inicial colombiana. Incluye **Cómo crear una Familia de Cachorros** (Intención → Decisión → Acción). |
-| 9 | 🐺 Rama Manada (Lobatos) | 7–10 años | Dirigentes de Manada | Integrantes, Método Scout en Manada, Ley/Promesa/Principios/Virtudes/Máximas, Aprender Haciendo + DURASLID, Sistema de Seisenas, Marco Simbólico (Libro de las Tierras Vírgenes), Naturaleza, Progresión Personal, Involucramiento Comunitario, relación con familias, ciclo de programa, administración. Incluye el **Manual de Presentación y Buen Orden de la Manada** (llamadas, silbatos, formaciones, ceremonias). |
+| 9 | 🐻 Rama Familia (Cachorros) | 5–6 años | Dirigentes de Familia y quienes abren unidad | Integrantes, Saludo/Ley/Promesa del Cachorro, juego/arte/literatura/exploración como actividades rectoras, Camadas y Círculo de Familia, Marco Simbólico (Hermanos de Mowgli, Nombres de Caza, Viejo Lobo), Padres de Familia como aliados, coherencia con educación inicial colombiana. Incluye **Cómo crear una Familia de Cachorros** (Intención → Decisión → Acción). |
+| 8 | 🐺 Rama Manada (Lobatos) | 7–10 años | Dirigentes de Manada | Integrantes, Método Scout en Manada, Ley/Promesa/Principios/Virtudes/Máximas, Aprender Haciendo + DURASLID, Sistema de Seisenas, Marco Simbólico (Libro de las Tierras Vírgenes), Naturaleza, Progresión Personal, Involucramiento Comunitario, relación con familias, ciclo de programa, administración. Incluye el **Manual de Presentación y Buen Orden de la Manada** (llamadas, silbatos, formaciones, ceremonias). |
 | 10 | ⚜️ Rama Tropa Scout | 11–14 años | Jefes y subjefes de Tropa | Edad y transición ("Travesía a los 14"), elementos de identidad, **Sistema de Patrullas** (espíritu, identidad, organización), Promesa y Ley Scout, Progresión Personal en la rama, Especialidades (áreas, tipos de insignias, listado, procedimiento para crear). Material derivado de INDABA Nacional. |
 | 11 | 🧗 Rama Comunidad (Nómadas) | 15–17 años | Dirigentes de Comunidad | Integrantes, Método en Comunidad (autoeducación progresiva), Ley/Promesa Nómada, Aprender Haciendo + DURASLID, Sistema de Equipos en la rama, Marco Simbólico (Aventura + Ciudadanía), Naturaleza, Progresión Personal, Involucramiento Comunitario, búsqueda de sentido, vínculo con el territorio, ámbitos de participación juvenil ampliados. |
 | 12 | 🏔️ Rama Clan (Rovers) | 18–20/21 años | Dirigentes de Clan | Integrantes, Método en Clan, Ley/Promesa Rover, Aprender Haciendo + DURASLID, Sistema de Equipos, Marco Simbólico, Naturaleza, Progresión Personal en 4 fases (explícitas en esta rama), Involucramiento Comunitario (Democracia Participativa, Voz del Joven, Toma de Decisiones), relación dirigente/joven como facilitador (no jefe), Ciclo de Programa con **PARCE** (Plan de Aprendizaje y Reconocimiento Comunitario Equilibrado), eventos rituales (Vigilia Rover, Peregrinaje, Partida Rover, Cena Rover), transición a vida adulta y articulación con la RDJ. |
@@ -283,11 +281,11 @@ El Curso 25 es de **adopción inmediata y fuertemente recomendado** para todo ad
 
 ### 7.1 Estado actual (15-sep-2026)
 
-- **8 cursos publicados de 25.** Nivel 1 **completo** (7/7) y Nivel 2 iniciado con el Curso 9 (Rama Manada), el primer curso de rama.
+- **8 cursos publicados de 25.** Nivel 1 **completo** (7/7) y Nivel 2 iniciado con el Curso 8 (Rama Manada), el primer curso de rama.
 - Plataforma técnica **en producción**: frontend en GitHub Pages, backend en Google Apps Script con backup nocturno, dashboard administrativo, generador de cursos basado en JSON. El motor es compartido con las otras líneas desde el ADR-025 (núcleo único en `_MOTOR/`, propagado por `sincronizar-motor.py`).
 - Repositorio: `INDUCCION-PROGRAMA-JOVENES`.
 - URL pública: `https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/`.
-- **Quedan 17 cursos** (10, 11, 12 de rama; 13–15 operativos; 16–20 por cargo; 21–25 transversales) y el Curso 8 (Rama Familia).
+- **Quedan 17 cursos** (10, 11, 12 de rama; 13–15 operativos; 16–20 por cargo; 21–25 transversales) y el Curso 9 (Rama Familia).
 
 ### 7.2 Próximos hitos
 
@@ -295,8 +293,8 @@ El Curso 25 es de **adopción inmediata y fuertemente recomendado** para todo ad
 - ~~**Hito B — Cierre del Nivel 1**~~ **HECHO (jun–jul 2026):** Cursos 2 a 7, incluido el **Curso 3 (Cómo se Educa Hoy)** que no estaba en el plan original y produjo la renumeración +1. **Sigue pendiente lo crítico:** el Curso 6 (PNPJ + Modelo de Aplicación) y el Curso 5 (Método Scout) son los más extensos y de mayor riesgo doctrinal, y **la revisión con la DNPJ no se ha hecho** — se publicaron con las auditorías automatizadas como compuerta.
 - ~~**Hito C — Validación del Nivel 1 con piloto**~~ **DEROGADO por el ADR-019 (11-jul-2026):** el piloto humano dejó de ser requisito para publicar. La compuerta de calidad son las tres auditorías — doctrinal, pedagógica y funcional.
 - **Hito D — Curso 25 (A Salvo del Peligro) en paralelo**: por su valor —**no por ser habilitante, que no lo es (ADR-019)**— se construye y publica antes que el resto del Nivel 4, idealmente al cierre del Nivel 1, para que ningún dirigente llegue al Nivel 2 sin haberlo tenido disponible.
-- ~~**Hito E — Nivel 2 Prioridad 1 — Rama de mayor demanda**~~ **HECHO (jul-2026):** el **Curso 9 (Manada)** fue el segundo vertical slice y el primer curso publicado bajo el ADR-019, sin piloto bloqueante.
-- **Hito F — Cierre del Nivel 2 ramas**: construir los otros **4** reaprovechando el patrón de Manada — **Familia (8), Tropa (10), Comunidad (11) y Clan (12)**. *(La versión anterior de esta línea decía "los otros 4" y listaba solo 3: se le había caído Tropa.)*
+- ~~**Hito E — Nivel 2 Prioridad 1 — Rama de mayor demanda**~~ **HECHO (jul-2026):** el **Curso 8 (Manada)** fue el segundo vertical slice y el primer curso publicado bajo el ADR-019, sin piloto bloqueante.
+- **Hito F — Cierre del Nivel 2 ramas**: construir los otros **4** reaprovechando el patrón de Manada — **Familia (9), Tropa (10), Comunidad (11) y Clan (12)**. *(La versión anterior de esta línea decía "los otros 4" y listaba solo 3: se le había caído Tropa.)*
 - **Hito G — Nivel 2 cursos operativos**: construir los Cursos 13, 14 y 15 (Seguimiento, Planeación, Ciclo de Programa con ABP) como complemento universal.
 - **Hito H — Iniciar Nivel 3 con curso integrador (16 — Jefe de Rama)** y los cargos más demandados (17 — Asistente).
 - **Hito I — Completar Nivel 3 y Nivel 4** según demanda. Los kits de Mundo Mejor (Cursos 21–24) pueden lanzarse de a uno, aprovechando convocatorias nacionales o mundiales para hacer pilotos vivenciales.

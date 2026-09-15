@@ -241,7 +241,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - ℹ️ **Apoyo informativo** — dar la información que el joven necesita para decidir, sin decidir por él.
     - ✅ **Apoyo evaluativo** — ayudar al joven a mirar su propio proceso y a celebrarlo o ajustarlo.
 8. **`heading` (nivel 3)** — _"Primum non nocere"_
-9. **`paragraph`** — _"Es una frase latina que significa **'lo primero, no hacer daño'**. La OMMS la usa en p. 33 para subrayar la responsabilidad ética del adulto en el Movimiento: verificación previa de antecedentes, formación obligatoria, nombramiento por tiempo limitado, supervisión por pares. La protección del joven es lo primero. Por eso, en esta línea, **el Curso 25 (A Salvo del Peligro) es habilitante**: ningún adulto avanza al Nivel 2 sin completarlo."_
+9. **`paragraph`** — _"Es una frase latina que significa **'lo primero, no hacer daño'**. La OMMS la usa en p. 33 para subrayar la responsabilidad ética del adulto en el Movimiento: verificación previa de antecedentes, formación obligatoria, nombramiento por tiempo limitado, supervisión por pares. La protección del joven es lo primero. Por eso, en esta línea, **el Curso 25 (A Salvo del Peligro) es de adopción inmediata**: ningún curso te bloquea el acceso a otro, pero ese no conviene dejarlo para después."_
 10. **`info-box`** — _"Esta lección es probablemente la más importante del Nivel 1. Si te quedas con una sola idea de los 6 cursos, que sea esta: tu trabajo no es dirigir al joven. Es apoyarlo para que él se desarrolle. La diferencia parece pequeña; en la práctica, lo cambia todo."_
 
 **Reflexión:** _"Recuerda una situación reciente donde tomaste una decisión 'en nombre' de un joven o de un grupo de jóvenes (no por una emergencia, simplemente porque te parecía más rápido). Escribe brevemente: ¿qué pasó? ¿Qué hubiera pasado si lo hubieran decidido ellos?"_
@@ -329,7 +329,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 - **L2 (Propósito) → Curso 6:** los 5 ámbitos OMMS son la base de las 6 áreas PNPJ que el Curso 6 desarrolla con sus competencias terminales e intermedias.
 - **L3 (Principios) → Curso 5:** los 3 Principios se aterrizan en el primer elemento del Método (Promesa y Ley) que el Curso 5 desarrolla.
 - **L5 (alianza joven-adulto) → Curso 5:** la alianza se concreta en el elemento **Apoyo del Adulto** del Método.
-- **L5 (Primum non nocere) → Curso 25 (A Salvo del Peligro):** anuncia el curso habilitante del Nivel 4.
+- **L5 (Primum non nocere) → Curso 25 (A Salvo del Peligro):** anuncia el Curso 25, que es de **adopción inmediata** — no habilitante (ADR-019).
 
 ### 6.2 Hacia atrás
 
