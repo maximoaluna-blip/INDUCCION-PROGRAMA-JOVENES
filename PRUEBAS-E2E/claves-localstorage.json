@@ -1,12 +1,8 @@
 {
   "_porQue": "ADR-034. El CREAR-CURSO.md de esta linea prescribia desde el principio una clave propia (dirigenteProfile) para no leer el perfil del ADULTO de otra linea. Nunca se implemento, y nadie lo noto porque ninguna compuerta compara lo que los manuales prescriben contra lo que el codigo hace. El CHECKLIST seccion I tiene la casilla —'los hilos de datos usan las claves declaradas en CREAR-CURSO.md'— y se marco en verde sin ejecutarse. Este archivo es esa comparacion, hecha maquina.",
-
   "_comoFunciona": "codigo.spec.js extrae las claves reales del motor (guardarLocal, leerLocal, localStorage.*Item) y las compara con esta lista. Falla si: (a) el codigo usa una clave no declarada — comportamiento que nadie documento; (b) una clave 'implementada' no aparece en el codigo — el documento miente; (c) una clave 'planeada' SI aparece — hay que promoverla y documentarla de verdad.",
-
   "_ojo": "Las lineas comparten dominio (maximoaluna-blip.github.io), asi que comparten localStorage: no hay frontera entre lineas. Una clave sin apellido de linea es legible por las otras tres y por las dos apps.",
-
   "linea": "Programa de Jovenes",
-
   "claves": [
     {
       "clave": "courseProgress_<courseId>",
@@ -43,14 +39,6 @@
       "que": "Perfil del dirigente que el plan-builder de 'Mi Compromiso' deberia dejar para que los cursos del Nivel 2 sugieran rama y cursos operativos. Prescrita en CREAR-CURSO.md seccion 5.A desde el diseno de la linea.",
       "alcance": "cross-course dentro de la linea",
       "nota": "NO implementada. El manual la daba por hecha —'el plan-builder persiste en localStorage con clave dirigenteProfile y es leido por los cursos del Nivel 2'— y eso era falso: hoy el plan vive dentro de courseProgress_mi-compromiso-programa-jovenes y ningun curso lo lee. Corregida la prosa del manual el 14-sep-2026. Cuando se implemente, pasar a 'implementada'."
-    },
-    {
-      "clave": "competencyProfile",
-      "patron": "competencyProfile",
-      "estado": "deudaFase1",
-      "que": "Perfil de competencias del ADULTO (Curso 4 de Politica de Adultos). NO pertenece al plano del joven.",
-      "alcance": "ajena a esta linea",
-      "nota": "Presente en la copia del nucleo compartido de esta linea, dentro de getCompetencyProfile. Inalcanzable para el estudiante: el guard de initPlanBuilders corta antes y PJ no define loadProfileIntoPlan. Fue el origen del ADR-034 — el boton 'Cargar mi perfil del Curso 4' publicado en un ejercicio sobre areas de crecimiento. Sale cuando la Fase 1 mueva el bloque de autodiagnostico del nucleo a la extension de Politica de Adultos."
     }
   ]
 }

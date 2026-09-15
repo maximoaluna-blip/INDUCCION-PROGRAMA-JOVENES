@@ -2,10 +2,8 @@
   "_porQue": "ADR-034. El vocabulario de dominio vivia dentro del motor, y el motor se propaga por copia: las cadenas del plano del ADULTO viajaron de Politica de Adultos a esta linea y se publicaron. Un estudiante de PJ leyo 'Selecciona 2 a 3 competencias' sobre una pantalla de areas de crecimiento. Esta lista es la compuerta para que no vuelva a pasar.",
   "_comoFunciona": "codigo.spec.js extrae las cadenas de texto VISIBLES del motor de linea y del HTML compilado (ignorando comentarios) y falla si alguna casa un patron prohibido. Los comentarios de codigo quedan fuera a proposito: documentan el porque, no le llegan al estudiante.",
   "_fuente": "GLOSARIO-ASC.md seccion E-bis — las 4 acepciones de 'competencia' y la regla de que el plano lo fija la linea.",
-
   "linea": "Programa de Jovenes",
   "plano": "joven",
-
   "prohibido": [
     {
       "patron": "\\bcompetencias?\\b(?!\\s+(educativas?|terminales?|intermedias?))",
@@ -28,23 +26,5 @@
       "enSuLugar": "una clave propia de la linea, declarada en CREAR-CURSO.md seccion 5.2"
     }
   ],
-
-  "_sobreLasExcepciones": "NO son un permiso: son deuda declarada con fecha y con condicion de retiro. Solo tapan el texto EXACTO que se lista. Cualquier vocabulario nuevo de otro plano —aunque se parezca— hace fallar la compuerta. Cuando la Fase 1 saque estas cadenas del nucleo, se borran estas entradas y el check se aprieta solo. Que la lista crezca es una senal de alarma, no una solucion.",
-
-  "excepcionesDeudaFase1": [
-    {
-      "texto": "Actualizamos el autodiagnóstico del Curso 4",
-      "donde": "_MOTOR/engine.core.js, dentro de initPlanBuilders, DESPUES del guard 'typeof loadProfileIntoPlan !== function'",
-      "alcanzable": false,
-      "porQueNoSeArreglaYa": "Vive en el nucleo compartido, que es funcionalidad viva de Politica de Adultos (20 usuarios, 21 certificados emitidos). Sacarla exige mover el bloque de autodiagnostico del nucleo a la extension de PA — es el refactor de la Fase 1 del ADR-034, con su propio ciclo de verificacion. En PJ el guard corta antes, asi que ningun estudiante la ve: viaja dentro del HTML sin poder ejecutarse.",
-      "seRetiraCuando": "Fase 1 del ADR-034: el bloque de autodiagnostico y perfil de competencias pasa del nucleo a engine.linea.js de Politica de Adultos."
-    },
-    {
-      "texto": "Corregimos los grados de varias competencias",
-      "donde": "_MOTOR/engine.core.js — dos avisos de perfil obsoleto (self-assessment y plan-builder)",
-      "alcanzable": false,
-      "porQueNoSeArreglaYa": "Mismo bloque y misma razon que la anterior. PJ no tiene ningun curso con self-assessment (0 de 8), asi que el codigo nunca corre.",
-      "seRetiraCuando": "Fase 1 del ADR-034."
-    }
-  ]
+  "_estado": "Verde sin excepciones desde el 14-sep-2026: la Fase 1 del ADR-034 saco el bloque de autodiagnostico del nucleo compartido, asi que ya no queda ninguna cadena del plano del adulto en esta linea."
 }
