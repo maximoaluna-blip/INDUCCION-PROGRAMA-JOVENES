@@ -638,7 +638,7 @@ Antes de publicar, verificar contra https://scout.org.co/biblioteca/dnpj que los
 | **Hito pedagógico** | El "aha moment" que la lección busca producir en el adulto. |
 | **Hook** | La frase clave que abre y cierra el curso. |
 | **Protagonista de programa** | Niña, niño, adolescente o joven que vive el Programa en una unidad. Nunca decir "participante", "alumno" o "usuario". |
-| **Rama** | Cada una de las 5 secciones por edades: Familia (5-6), Manada (7-10), Tropa (11-14), Comunidad (15-17), Clan (18-20). |
+| **Rama** | Expresión educativa específica de cada **sección** de edad (Modelo 2026, Cap. 4, p. 18): Cachorros, Lobatos, Scouts, Nómadas Scout, Rovers. La **sección** es la franja de edad; la **unidad** es el grupo concreto donde se vive (Familia, Manada, Tropa, Comunidad, Clan) — Modelo pp. 17–20. No definir rama como «sección por edades» (corregido 14-sep-2026, auditoría v2 de Evaluaciones). |
 | **Grupo natural** | El pequeño grupo donde el protagonista vive su rama: Camada, Seisena, Patrulla, equipos de Comunidad/Clan. |
 | **Marco simbólico** | El universo narrativo de la rama: Hermanos de Mowgli, Libro de las Tierras Vírgenes, Aventura y Ciudadanía, etc. |
 | **Áreas de crecimiento** | Las 6 dimensiones del desarrollo integral: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad. |
