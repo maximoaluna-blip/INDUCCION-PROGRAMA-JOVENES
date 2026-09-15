@@ -247,11 +247,13 @@ No están atados a una rama ni a un cargo específico. Aplican a todo dirigente 
 | 21 | ✊ Kit Constructores de Paz | Aplicación del **Kit de Acción Constructores de Paz** (Mensajeros de la Paz) en el contexto colombiano post-conflicto: DDHH, memoria histórica, transformación de conflictos, cultura de paz. Ciclo Toma Conciencia → Comparte → Actúa, autoevaluación, "manos a la obra". Aplicable desde 7 años hasta Rovers. |
 | 22 | ♀️ Kit HeForShe y enfoque de género | Aplicación del **Kit HeForShe** (alianza con ONU Mujeres) en todas las ramas: equidad de género, prevención de violencias basadas en género, masculinidades cuidadoras, lenguaje inclusivo. Articulación con el principio de coeducación de las Características Esenciales (OMMS 2019). |
 | 23 | 🏛️ Kit Patrimonito y Patrimonio | Aplicación del **Kit Patrimonito** (alianza con UNESCO) en las ramas: educación para la protección del patrimonio cultural y natural, herramientas, ciclo de acción, reconocimiento. Articulación con el elemento Naturaleza y con la dimensión de territorio del Modelo de Aplicación. |
-| 24 | 🛡️ A Salvo del Peligro aplicado al Programa | Aplicación operativa de la **Política Nacional A Salvo del Peligro** y su Manual Operativo a la vida de la unidad: protocolo de actividades, transporte, pernoctas, ambiente seguro, escucha de protagonistas, ruta cuando se identifica una situación de daño, "Botón A Salvo del Peligro" en la Hoja de Ruta de Reunión. Articula con la línea de Desarrollo Institucional (Curso 14 — Gestión del Riesgo) pero aterriza al rol del dirigente de unidad. |
+| 24 | 🛡️ A Salvo del Peligro aplicado al Programa | Aplicación operativa de la **Política Nacional A Salvo del Peligro** y su Manual Operativo a la vida de la unidad: protocolo de actividades, transporte, pernoctas, ambiente seguro, escucha de protagonistas, ~~ruta cuando se identifica una situación de daño~~ **(⚠️ reparto pendiente: la auditoría de la línea Políticas Transversales propone que la conducta ante una revelación viva en su Curso 03 `adulto-garante-entorno-seguro` y que este curso enlace allí — lo decide el dueño)**, "Botón A Salvo del Peligro" en la Hoja de Ruta de Reunión. Articula con la línea de Desarrollo Institucional (Curso 14 — Gestión del Riesgo) pero aterriza al rol del dirigente de unidad. |
 
 ### 6.2 Sobre el Curso 24
 
-El Curso 24 es de **adopción inmediata** para todo adulto que entra a la línea: ningún dirigente puede iniciar el acompañamiento a una unidad sin haber pasado por este curso. No es la última lección, sino la condición de habilitación para servir. Su material aplica a todo adulto del Movimiento, no solo a los responsables formales de gestión del riesgo: cada vez que un dirigente decide cómo organizar un campamento, qué ropa usa en una actividad acuática, cómo conversa a solas con un protagonista de programa o cómo responde ante una revelación de daño, está aplicando A Salvo del Peligro.
+> **⚠️ Corregido el 15-sep-2026 (ADR-019 y auditoría de la línea Políticas Transversales, hallazgo M6).** Este plan **no fue renumerado**: aquí el curso de A Salvo del Peligro es el **24**, mientras `CLAUDE.md` §2/§5.3 y el ADR-019 lo numeran **25** tras la renumeración +1. **Citarlo siempre por su `courseId`, `a-salvo-del-peligro-programa`.** La renumeración de este documento está pendiente de decisión del dueño, junto con el reparto de contenido con la línea Políticas Transversales.
+
+El Curso 24 es de **adopción inmediata y fuertemente recomendado** para todo adulto que entra a la línea. **No es habilitante:** por el **ADR-019 (11-jul-2026) ningún curso de la plataforma bloquea el acceso a otro** — lo que existe es la recomendación en la ficha, sin gate técnico. Su material aplica a todo adulto del Movimiento, no solo a los responsables formales de gestión del riesgo: cada vez que un dirigente decide cómo organizar un campamento, qué ropa usa en una actividad acuática, cómo conversa a solas con un protagonista de programa o cómo responde ante una revelación de daño, está aplicando A Salvo del Peligro.
 
 ---
 
@@ -269,7 +271,7 @@ El Curso 24 es de **adopción inmediata** para todo adulto que entra a la línea
 - **Hito A — Vertical slice del Nivel 1**: construir el **Curso 1 (Bienvenida al Programa de Jóvenes)** completo, como prueba de concepto del marco aplicado a esta línea. Hacer piloto con 5–10 dirigentes de unidad.
 - **Hito B — Cierre del Nivel 1**: una vez aprobado el Curso 1 con piloto, construir los Cursos 2 a 6 aplicando el patrón validado. **Crítico**: el Curso 5 (PNPJ + Modelo de Aplicación) y el Curso 4 (Método Scout) son los más extensos y de mayor riesgo doctrinal — programar revisión con la DNPJ antes de publicar.
 - **Hito C — Validación del Nivel 1 con piloto**: 5–10 dirigentes completando los 6 cursos. Aplicar ajustes derivados de la retroalimentación.
-- **Hito D — Curso 24 (A Salvo del Peligro) en paralelo**: dado su carácter habilitante, se construye y publica antes que el resto del Nivel 4, idealmente al cierre del Nivel 1, para que ningún dirigente avance al Nivel 2 sin haberlo cursado.
+- **Hito D — Curso 24 (A Salvo del Peligro) en paralelo**: por su valor —**no por ser habilitante, que no lo es (ADR-019)**— se construye y publica antes que el resto del Nivel 4, idealmente al cierre del Nivel 1, para que ningún dirigente llegue al Nivel 2 sin haberlo tenido disponible.
 - **Hito E — Nivel 2 Prioridad 1 — Rama de mayor demanda**: arrancar con **Curso 8 (Manada)** o **Curso 9 (Tropa)** —las dos ramas con más unidades en Colombia— como segundo vertical slice. Validar con piloto en 5–10 dirigentes de esa rama.
 - **Hito F — Cierre del Nivel 2 ramas**: una vez validado el primer curso de rama, construir los otros 4 (Familia, Comunidad, Clan) reaprovechando el patrón.
 - **Hito G — Nivel 2 cursos operativos**: construir los Cursos 12, 13 y 14 (Seguimiento, Planeación, Ciclo de Programa con ABP) como complemento universal.
@@ -280,7 +282,7 @@ El Curso 24 es de **adopción inmediata** para todo adulto que entra a la línea
 
 No se inicia el siguiente nivel hasta que el nivel anterior haya sido validado con un piloto real (al menos 5–10 adultos completándolo) y los ajustes de retroalimentación hayan sido aplicados. Esto evita acumular cursos sin verificar y permite aprender del uso real entre cada lanzamiento.
 
-**Excepción al criterio**: el Curso 24 (A Salvo del Peligro) puede y debe construirse en paralelo al Nivel 1, dado su carácter habilitante.
+**Excepción al criterio**: el Curso 24 (A Salvo del Peligro) puede y debe construirse en paralelo al Nivel 1 **por su valor**, no por ser habilitante — **no lo es (ADR-019)**.
 
 ### 7.4 Articulación con las líneas Política de Adultos y Desarrollo Institucional
 
