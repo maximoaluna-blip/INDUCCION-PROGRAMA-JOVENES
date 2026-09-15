@@ -26,10 +26,12 @@ Es la única con las **3 auditorías** (doctrinal `/auditar-curso`, pedagógica 
 | Documento | Para qué |
 |---|---|
 | `CREAR-CURSO.md` | Manual operativo completo: roles, pipeline, checklist de publicación, comandos, glosario propio |
-| `Plan-de-Formacion-Linea-Programa-de-Jovenes.md` | Plan completo de la línea (25 cursos, 4 niveles) |
+| `Plan-de-Formacion-Linea-Programa-de-Jovenes.md` | Plan completo de la línea (**v1.1**, 25 cursos, 4 niveles — renumerado por el ADR-041) |
 | `01-Diseno-Cursos/` | Diseño pedagógico `.md` de cada curso construido |
 | `PRUEBAS-E2E/README.md` | Auditoría funcional — corre en cada push/PR |
 
 ## Estado
 
 8 cursos activos: Nivel 1 "Fundamentación" completo (7 cursos) + Nivel 2 iniciado con el Curso 8 (Rama Manada, primer curso de rama). El menú (`index.html`) agrupa por nivel con chips de navegación. Plan total 25 cursos.
+
+> **⚠️ El número de Rama Manada está en disputa — lo decide Máximo.** Manada se publicó como **Curso 8** (así lo dice su certificado), pero el plan, renumerado el 15-sep-2026 (**ADR-041**), le da el **8 a Rama Familia** y el **9 a Manada**, por edad de rama. No colisionó hasta ahora porque Familia no está construida. **Esto bloquea construir Rama Familia**, que es el siguiente curso natural del Nivel 2. Mientras tanto, cita por `courseId`. Ver el bloque de decisiones abiertas de `DECISIONES.md`.

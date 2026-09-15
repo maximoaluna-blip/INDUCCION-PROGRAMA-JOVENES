@@ -138,13 +138,15 @@ Resultado: cualquier persona que abra `previews/publicadas/` ve exactamente lo q
 ```
 INDUCCION-PROGRAMA-JOVENES/
 ├── 01-Diseno-Cursos/                     ← Diseños pedagógicos (markdown) de cada curso
-│   ├── Curso-01-Bienvenida-al-Programa-de-Jovenes.md
-│   ├── Curso-02-La-Educacion-por-el-Amor.md
-│   ├── Curso-03-Caracteristicas-Esenciales-del-Movimiento-Scout.md
-│   ├── Curso-04-El-Metodo-Scout-y-sus-8-Elementos.md
-│   ├── Curso-05-PNPJ-y-El-Gran-Juego-para-la-Vida.md
-│   └── Curso-06-Mi-Compromiso-con-el-Programa-de-Jovenes.md
-├── Plan-de-Formacion-Linea-Programa-de-Jovenes.md   ← Plan completo de la línea (24 cursos)
+│   ├── Curso-01-Bienvenida-al-Programa-de-Jovenes.md          ← Curso 1
+│   ├── Curso-02-La-Educacion-por-el-Amor.md                  ← Curso 2
+│   ├── Curso-03-Como-se-Educa-Hoy.md                         ← Curso 3
+│   ├── Curso-03-Caracteristicas-Esenciales-del-Movimiento-Scout.md  ← Curso 4
+│   ├── Curso-04-El-Metodo-Scout-y-sus-8-Elementos.md         ← Curso 5
+│   ├── Curso-05-PNPJ-y-El-Gran-Juego-para-la-Vida.md         ← Curso 6
+│   ├── Curso-06-Mi-Compromiso-con-el-Programa-de-Jovenes.md  ← Curso 7
+│   └── Curso-08-Rama-Manada-Lobatos.md                       ← Curso 8 publicado (ver el aviso del §4.1 del plan)
+├── Plan-de-Formacion-Linea-Programa-de-Jovenes.md   ← Plan completo de la línea (25 cursos)
 ├── CREAR-CURSO.md                                    ← Este archivo (consolida diseño + Cowork)
 └── BACKEND.md                                        ← (por crear, replicar de DI) Documenta el backend
 ```

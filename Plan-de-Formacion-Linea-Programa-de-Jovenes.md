@@ -4,9 +4,9 @@
 
 **Asociación Scouts de Colombia · Plataforma de Formación de Adultos**
 
-> 4 niveles · 24 cursos · Ruta progresiva
+> 4 niveles · 25 cursos · Ruta progresiva
 >
-> Versión inicial — 28 de mayo de 2026
+> **v1.1 — 15 de septiembre de 2026.** Renumeración +1 aplicada (ver §2.1). Versión inicial: 28 de mayo de 2026.
 
 ---
 
@@ -86,8 +86,8 @@ A estas decisiones generales, la Línea Programa de Jóvenes añade tres exigenc
 La Línea Programa de Jóvenes se articula explícitamente con las otras dos líneas en cuatro puntos:
 
 - **Con la Línea Política de Adultos**: el dirigente de unidad recorre el ciclo del adulto (Captación → Desempeño → Evaluación) mientras opera el Programa. El **autodiagnóstico de las 7 competencias esenciales** (Curso 4 de la Línea Adultos) alimenta el plan personal del dirigente que también toma esta línea. Las competencias del Manual de Cargos y Perfiles (PNAM Doc 4) para Jefe de Rama, Subjefe de Rama y Asistente son insumo directo de los cursos del Nivel 3.
-- **Con la Línea Desarrollo Institucional**: el Programa de Jóvenes es **una de las 8 áreas estratégicas del Plan de Grupo** (DI Curso 8) y vive dentro de la arquitectura institucional aprendida en los Cursos 3 y 4 de DI. El Comisionado de Programa de Jóvenes (Curso 17 de esta línea) replica el patrón aprendido en el Curso 19 de DI (Comisionado Regional y Nacional).
-- **Con A Salvo del Peligro**: la protección de niñas, niños y jóvenes es transversal a todo curso de esta línea y se profundiza en el Curso 24, que articula con la Política Nacional A Salvo del Peligro (DNDI).
+- **Con la Línea Desarrollo Institucional**: el Programa de Jóvenes es **una de las 8 áreas estratégicas del Plan de Grupo** (DI Curso 8) y vive dentro de la arquitectura institucional aprendida en los Cursos 3 y 4 de DI. El Comisionado de Programa de Jóvenes (Curso 18 de esta línea) replica el patrón aprendido en el Curso 19 de DI (Comisionado Regional y Nacional).
+- **Con A Salvo del Peligro**: la protección de niñas, niños y jóvenes es transversal a todo curso de esta línea y se profundiza en el Curso 25, que articula con la Política Nacional A Salvo del Peligro (DNDI).
 - **Con Mundo Mejor**: los kits HeForShe, Constructores de Paz y Patrimonito conectan el Programa con la Agenda 2030 y los ODS, y se trabajan en el Nivel 4.
 
 Cuando un curso es compartido entre líneas, se consume desde una sola fuente para evitar duplicación.
@@ -100,12 +100,14 @@ Cuando un curso es compartido entre líneas, se consume desde una sola fuente pa
 
 | Nivel | Nombre | # de cursos | Audiencia primaria | Estado |
 |---|---|---|---|---|
-| 1 | Ruta de Fundamentación | 6 cursos | Todo adulto que entra a la línea | Por construir |
-| 2 | Profundización por rama y por práctica pedagógica | 8 cursos | Dirigentes de unidad y equipos de programa | Por construir |
+| 1 | Ruta de Fundamentación | 7 cursos | Todo adulto que entra a la línea | **Completo** — 7/7 publicados |
+| 2 | Profundización por rama y por práctica pedagógica | 8 cursos | Dirigentes de unidad y equipos de programa | En construcción — 1/8 (Manada publicada) |
 | 3 | Especialización por cargo | 5 cursos | Adulto en cargo de programa | Por construir |
 | 4 | Transversales | 5 cursos | Todo adulto del movimiento | Por construir |
 
-**Total: 24 cursos.**
+**Total: 25 cursos.**
+
+> **La numeración de este plan es +1 respecto de su versión inicial.** El 28-jun-2026 se insertó **Curso 3 — Cómo se Educa Hoy** (`como-se-educa-hoy`), y todo lo que seguía corrió un lugar: el plan pasó de 24 a 25 cursos. Los cursos construidos usan esta numeración desde entonces — está impresa en sus certificados —, pero **este documento no se había actualizado hasta el 15-sep-2026**. Si encuentras un número de curso de PJ en un documento anterior a esa fecha, probablemente sea el viejo: **cita siempre por `courseId`**, que nunca cambió.
 
 ### 2.2 Recorrido del adulto a través de la Línea
 
@@ -120,34 +122,34 @@ Los Niveles 2, 3 y 4 no son secuenciales entre sí: el adulto elige según su ro
 
 ### 2.3 Cobertura conceptual de la línea
 
-Los 24 cursos cubren, sin saltos, los **8 elementos del Método Scout**, las **6 áreas de crecimiento**, las **5 ramas con sus grupos naturales**, las **3 etapas de vida en la unidad** (Adaptación, Progresión, Transición) y los **3 momentos de aprendizaje** (Exploro, Aplico, Profundizo) del Modelo de Aplicación 2026. Incluyen también las cuatro Dinámicas del Escultismo (Objetivos Educativos, Oportunidades de Aprendizaje, Vida de Grupo, Estructura y Funcionamiento) y todos los ejes de la Red Nacional de Jóvenes.
+Los 25 cursos cubren, sin saltos, los **8 elementos del Método Scout**, las **6 áreas de crecimiento**, las **5 ramas con sus grupos naturales**, las **3 etapas de vida en la unidad** (Adaptación, Progresión, Transición) y los **3 momentos de aprendizaje** (Exploro, Aplico, Profundizo) del Modelo de Aplicación 2026. Incluyen también las cuatro Dinámicas del Escultismo (Objetivos Educativos, Oportunidades de Aprendizaje, Vida de Grupo, Estructura y Funcionamiento) y todos los ejes de la Red Nacional de Jóvenes.
 
 ```
 8 Elementos del Método Scout
 ─────────────────────────────
-1. Promesa y Ley ───────────► Cursos 4, 5, por rama (7–11)
-2. Aprender Haciendo ───────► Cursos 4, 5, 13, 14
-3. Progresión Personal ─────► Cursos 4, 5, 12, por rama
-4. Sistema de Equipos ──────► Cursos 4, 5, por rama (7–11)
-5. Apoyo del Adulto ────────► Cursos 4, 5, 13, 15, 16
-6. Marco Simbólico ─────────► Cursos 4, 5, por rama (7–11)
-7. Naturaleza ──────────────► Cursos 4, 5, por rama
+1. Promesa y Ley ───────────► Cursos 5, 6, por rama (8–12)
+2. Aprender Haciendo ───────► Cursos 5, 6, 14, 15
+3. Progresión Personal ─────► Cursos 5, 6, 13, por rama
+4. Sistema de Equipos ──────► Cursos 5, 6, por rama (8–12)
+5. Apoyo del Adulto ────────► Cursos 5, 6, 14, 16, 17
+6. Marco Simbólico ─────────► Cursos 5, 6, por rama (8–12)
+7. Naturaleza ──────────────► Cursos 5, 6, por rama
 8. Participación
-   en la Comunidad ─────────► Cursos 4, 5, 19, 20–22, 23
+   en la Comunidad ─────────► Cursos 5, 6, 20, 21–23, 24
 
 6 Áreas de Crecimiento
 ─────────────────────────────
 Corporalidad, Creatividad, Carácter, Afectividad,
-Sociabilidad, Espiritualidad ─► Cursos 5, 12, por rama
+Sociabilidad, Espiritualidad ─► Cursos 6, 13, por rama
 ```
 
 ---
 
 ## 3. Nivel 1 — Ruta de Fundamentación
 
-Es la ruta común. Toda persona que se inscribe en la plataforma de Programa de Jóvenes pasa por estos 6 cursos para construir un marco compartido sobre por qué existe el Movimiento Scout, qué es exactamente "Programa de Jóvenes", qué dicen Baden-Powell y la OMMS, y cómo la Política Nacional 2024 y el Modelo de Aplicación 2026 aterrizan todo eso al día a día del dirigente colombiano.
+Es la ruta común. Toda persona que se inscribe en la plataforma de Programa de Jóvenes pasa por estos 7 cursos para construir un marco compartido sobre por qué existe el Movimiento Scout, qué es exactamente "Programa de Jóvenes", qué dicen Baden-Powell y la OMMS, y cómo la Política Nacional 2024 y el Modelo de Aplicación 2026 aterrizan todo eso al día a día del dirigente colombiano.
 
-**Duración total aproximada: ~3 horas**, distribuidas en lecciones cortas (5–8 min cada una).
+**Duración total aproximada: ~3 h 40 min**, distribuidas en lecciones cortas (5–8 min cada una).
 
 ### 3.1 Cursos del Nivel 1
 
@@ -155,26 +157,28 @@ Es la ruta común. Toda persona que se inscribe en la plataforma de Programa de 
 |---|---|---|---|
 | 1 | 🎒 Bienvenida al Programa de Jóvenes | 25 min | Hook "esto NO es un manual de actividades, es una alianza educativa", desarme de mitos ("no soy maestro", "no sé escultismo", "no tengo tiempo"), dibujo del joven que queremos formar, primer compromiso. |
 | 2 | 💗 La Educación por el Amor — la apuesta de Baden-Powell | 30 min | Lectura guiada del informe de Ginebra 1922: temor vs amor, autoeducación voluntaria, fraternidad universal, los 4 objetivos de la instrucción (carácter e inteligencia, habilidad manual, hábito de servir, salud y vigor), "despertar el deseo de conocer". Contraste con prácticas escolares tradicionales. |
-| 3 | 🌟 Características Esenciales del Movimiento Scout | 30 min | El Movimiento como sistema educativo: Propósito (los 5 ámbitos de desarrollo), Principios (Deber con Dios, con los otros y consigo mismo), 6 elementos definitorios (movimiento, para jóvenes, voluntario, abierto a todos, no político, independiente). El joven como sujeto activo: "no un movimiento juvenil gestionado en nombre de los jóvenes por adultos". |
-| 4 | 🧭 El Método Scout y sus 8 elementos | 40 min | Recorrido por los 8 elementos interdependientes (Promesa y Ley, Aprender Haciendo, Progresión Personal, Sistema de Equipos, Apoyo del Adulto, Marco Simbólico, Naturaleza, Participación en la Comunidad). Las 4 dinámicas en acción. El método como **sistema** —no como lista—. Por qué quitar uno solo lo rompe. |
-| 5 | 📜 Política Nacional de PJ y "El Gran Juego para la Vida" | 35 min | PNPJ 2024 (Propósito, sujetos, principios, definiciones fundamentales) + Modelo de Aplicación 2026 (8 elementos del Método tal como los aterriza Colombia, 6 áreas de crecimiento, 5 ramas y sus grupos naturales, 3 etapas × 3 momentos, DURASLID, ABP, rol triple Apoyar-Acompañar-Enlazar, territorio como concepto integrador). |
-| 6 | 🗺️ Mi Compromiso con el Programa de Jóvenes | 30 min | **Plan-builder** personal del dirigente: ¿en qué rama serviré?, ¿qué áreas de crecimiento quiero fortalecer en mí mismo para poder acompañar?, ¿cómo aplicaré los 3 roles (Apoyar/Acompañar/Enlazar)?, ¿qué prácticas DURASLID me comprometo a probar este trimestre? PDF imprimible para compartir con el consejo de grupo. Cierre de la ruta. |
+| 3 | 🎓 Cómo se Educa Hoy | 30 min | Los conceptos **generales** de la educación, antes de lo scout: qué es educar, los cuatro pilares (conocer, hacer, vivir juntos, ser), cómo aprenden las personas, dónde se aprende (formal, no formal, informal) y el aprendizaje experiencial. Da el vocabulario con el que los tres cursos siguientes se leen como pedagogía y no como tradición. |
+| 4 | 🌟 Características Esenciales del Movimiento Scout | 30 min | El Movimiento como sistema educativo: Propósito (los 5 ámbitos de desarrollo), Principios (Deber con Dios, con los otros y consigo mismo), 6 elementos definitorios (movimiento, para jóvenes, voluntario, abierto a todos, no político, independiente). El joven como sujeto activo: "no un movimiento juvenil gestionado en nombre de los jóvenes por adultos". |
+| 5 | 🧭 El Método Scout y sus 8 elementos | 40 min | Recorrido por los 8 elementos interdependientes (Promesa y Ley, Aprender Haciendo, Progresión Personal, Sistema de Equipos, Apoyo del Adulto, Marco Simbólico, Naturaleza, Participación en la Comunidad). Las 4 dinámicas en acción. El método como **sistema** —no como lista—. Por qué quitar uno solo lo rompe. |
+| 6 | 📜 Política Nacional de PJ y "El Gran Juego para la Vida" | 35 min | PNPJ 2024 (Propósito, sujetos, principios, definiciones fundamentales) + Modelo de Aplicación 2026 (8 elementos del Método tal como los aterriza Colombia, 6 áreas de crecimiento, 5 ramas y sus grupos naturales, 3 etapas × 3 momentos, DURASLID, ABP, rol triple Apoyar-Acompañar-Enlazar, territorio como concepto integrador). |
+| 7 | 🗺️ Mi Compromiso con el Programa de Jóvenes | 30 min | **Plan-builder** personal del dirigente: ¿en qué rama serviré?, ¿qué áreas de crecimiento quiero fortalecer en mí mismo para poder acompañar?, ¿cómo aplicaré los 3 roles (Apoyar/Acompañar/Enlazar)?, ¿qué prácticas DURASLID me comprometo a probar este trimestre? PDF imprimible para compartir con el consejo de grupo. Cierre de la ruta. |
 
 ### 3.2 Hitos pedagógicos del Nivel 1
 
 - **Curso 1** desactiva el principal obstáculo de adopción: la creencia de que "esto es para los expertos" o de que "solo hay que seguir la guía".
 - **Curso 2** instala la **brújula ética**: el Movimiento no educa por el miedo ni por la obediencia, sino por el amor, la fraternidad y la autoeducación voluntaria. Sin este curso, el dirigente puede aplicar el Método con tono autoritario y traicionarlo.
-- **Curso 3** entrega el **lenguaje doctrinal**: Movimiento, Propósito, Principios, voluntariedad, coeducación, fraternidad. Permite distinguir el escultismo de otras propuestas educativas o de tiempo libre.
-- **Curso 4** entrega la **herramienta metodológica**: 8 elementos del Método como sistema interdependiente. Cualquier reunión, actividad o proyecto se evalúa después contra estos 8 elementos.
-- **Curso 5** **aterriza al contexto colombiano**: la PNPJ 2024 y el Modelo de Aplicación 2026 traducen Baden-Powell y la OMMS al sistema de ramas, áreas y herramientas que usa la ASC hoy.
-- **Curso 6** convierte el aprendizaje en compromiso: el adulto sale con un plan firmable, alimentado por los Cursos 1–5 y por la "brújula" (compromiso) que viene escribiendo desde el Curso 1.
+- **Curso 3** entrega los **conceptos generales de la educación**: qué es educar, los cuatro pilares, cómo y dónde se aprende, el aprendizaje experiencial. Va **antes** de lo scout a propósito — buena parte del escultismo que sigue es la aplicación de estas ideas, y sin ellas el Método se aprende como receta y no como pedagogía. (Insertado el 28-jun-2026; es el origen de la renumeración +1.)
+- **Curso 4** entrega el **lenguaje doctrinal**: Movimiento, Propósito, Principios, voluntariedad, coeducación, fraternidad. Permite distinguir el escultismo de otras propuestas educativas o de tiempo libre.
+- **Curso 5** entrega la **herramienta metodológica**: 8 elementos del Método como sistema interdependiente. Cualquier reunión, actividad o proyecto se evalúa después contra estos 8 elementos.
+- **Curso 6** **aterriza al contexto colombiano**: la PNPJ 2024 y el Modelo de Aplicación 2026 traducen Baden-Powell y la OMMS al sistema de ramas, áreas y herramientas que usa la ASC hoy.
+- **Curso 7** convierte el aprendizaje en compromiso: el adulto sale con un plan firmable, alimentado por los Cursos 1–6 y por la "brújula" (compromiso) que viene escribiendo desde el Curso 1.
 
 ### 3.3 Conexiones cross-course
 
-- **Cursos 2 → 3 → 4 → 5** son una **escalera doctrinal**: el porqué (Baden-Powell), el qué (Características), el cómo (Método), y la aplicación a Colombia (PNPJ + Modelo de Aplicación).
-- **Curso 4 → Curso 5**: los 8 elementos del Método (Curso 4) son la columna sobre la cual el Curso 5 muestra el Modelo de Aplicación. La PNPJ adopta y desdobla el elemento "Naturaleza" como elemento autónomo y mantiene los 8 elementos como sistema.
-- **Cursos 1–5 → Curso 6**: las reflexiones de cada curso se acumulan en una **brújula** (componente `brujula-display`) que el Curso 6 muestra al adulto antes de construir su plan personal.
-- **Curso 6 → Niveles 2, 3, 4**: el plan personal del adulto sugiere qué curso del Nivel 2 tomar primero (según la rama declarada) y qué curso del Nivel 3 (según el cargo declarado).
+- **Cursos 2 → 3 → 4 → 5 → 6** son una **escalera**: el porqué ético (Baden-Powell), los conceptos de la educación (Cómo se Educa Hoy), el qué (Características), el cómo (Método), y la aplicación a Colombia (PNPJ + Modelo de Aplicación).
+- **Curso 5 → Curso 6**: los 8 elementos del Método (Curso 5) son la columna sobre la cual el Curso 6 muestra el Modelo de Aplicación. La PNPJ adopta y desdobla el elemento "Naturaleza" como elemento autónomo y mantiene los 8 elementos como sistema.
+- **Cursos 1–6 → Curso 7**: las reflexiones de cada curso se acumulan en una **brújula** (componente `brujula-display`) que el Curso 7 muestra al adulto antes de construir su plan personal.
+- **Curso 7 → Niveles 2, 3, 4**: el plan personal del adulto sugiere qué curso del Nivel 2 tomar primero (según la rama declarada) y qué curso del Nivel 3 (según el cargo declarado).
 
 ---
 
@@ -189,13 +193,23 @@ Una vez consolidado el Nivel 1, este nivel cubre dos ejes complementarios:
 
 Cada dirigente toma el curso de la rama en la que sirve. Idealmente cursa también el de la rama anterior y la posterior, para entender bien las transiciones.
 
+> **⚠️ Choque abierto entre este plan y un certificado ya emitido — lo decide Máximo (15-sep-2026).**
+>
+> Aquí **Rama Familia es el Curso 8** y **Manada el 9**, por edad de la rama. Pero **Manada se publicó como «Curso 8»** y así lo dice el texto del certificado que ya tienen quienes lo completaron — también `CLAUDE.md` §2 y el contexto del ADR-019.
+>
+> **De dónde sale:** ese 8 se tomó de la tabla de Nivel 2 del plan **sin renumerar**, donde Familia era 7 y Manada 8. Para julio de 2026 el Curso 3 ya existía (28-jun) y el Nivel 1 ya tenía 7 cursos, así que a Manada le correspondía el 9. Nadie lo notó porque el 8 quedó libre en el catálogo construido: **Familia aún no está construida.** El día que se construya, los dos reclaman el 8.
+>
+> **No se tocó nada publicado.** El JSON de `rama-manada-lobatos` sigue diciendo 8 y su certificado también. Las dos salidas —renumerar Manada a 9 y republicar, o dejarla en 8 y reordenar el Nivel 2— tienen costo distinto sobre certificados ya emitidos, y esa es la parte que no decide el documento.
+>
+> **Mientras tanto: cita por `courseId`.** Es lo único que no se mueve.
+
 | # | Curso | Edades | Sirve a quién | Foco |
 |---|---|---|---|---|
-| 7 | 🐻 Rama Familia (Cachorros) | 5–6 años | Dirigentes de Familia y quienes abren unidad | Integrantes, Saludo/Ley/Promesa del Cachorro, juego/arte/literatura/exploración como actividades rectoras, Camadas y Círculo de Familia, Marco Simbólico (Hermanos de Mowgli, Nombres de Caza, Viejo Lobo), Padres de Familia como aliados, coherencia con educación inicial colombiana. Incluye **Cómo crear una Familia de Cachorros** (Intención → Decisión → Acción). |
-| 8 | 🐺 Rama Manada (Lobatos) | 7–10 años | Dirigentes de Manada | Integrantes, Método Scout en Manada, Ley/Promesa/Principios/Virtudes/Máximas, Aprender Haciendo + DURASLID, Sistema de Seisenas, Marco Simbólico (Libro de las Tierras Vírgenes), Naturaleza, Progresión Personal, Involucramiento Comunitario, relación con familias, ciclo de programa, administración. Incluye el **Manual de Presentación y Buen Orden de la Manada** (llamadas, silbatos, formaciones, ceremonias). |
-| 9 | ⚜️ Rama Tropa Scout | 11–14 años | Jefes y subjefes de Tropa | Edad y transición ("Travesía a los 14"), elementos de identidad, **Sistema de Patrullas** (espíritu, identidad, organización), Promesa y Ley Scout, Progresión Personal en la rama, Especialidades (áreas, tipos de insignias, listado, procedimiento para crear). Material derivado de INDABA Nacional. |
-| 10 | 🧗 Rama Comunidad (Nómadas) | 15–17 años | Dirigentes de Comunidad | Integrantes, Método en Comunidad (autoeducación progresiva), Ley/Promesa Nómada, Aprender Haciendo + DURASLID, Sistema de Equipos en la rama, Marco Simbólico (Aventura + Ciudadanía), Naturaleza, Progresión Personal, Involucramiento Comunitario, búsqueda de sentido, vínculo con el territorio, ámbitos de participación juvenil ampliados. |
-| 11 | 🏔️ Rama Clan (Rovers) | 18–20/21 años | Dirigentes de Clan | Integrantes, Método en Clan, Ley/Promesa Rover, Aprender Haciendo + DURASLID, Sistema de Equipos, Marco Simbólico, Naturaleza, Progresión Personal en 4 fases (explícitas en esta rama), Involucramiento Comunitario (Democracia Participativa, Voz del Joven, Toma de Decisiones), relación dirigente/joven como facilitador (no jefe), Ciclo de Programa con **PARCE** (Plan de Aprendizaje y Reconocimiento Comunitario Equilibrado), eventos rituales (Vigilia Rover, Peregrinaje, Partida Rover, Cena Rover), transición a vida adulta y articulación con la RDJ. |
+| 8 | 🐻 Rama Familia (Cachorros) | 5–6 años | Dirigentes de Familia y quienes abren unidad | Integrantes, Saludo/Ley/Promesa del Cachorro, juego/arte/literatura/exploración como actividades rectoras, Camadas y Círculo de Familia, Marco Simbólico (Hermanos de Mowgli, Nombres de Caza, Viejo Lobo), Padres de Familia como aliados, coherencia con educación inicial colombiana. Incluye **Cómo crear una Familia de Cachorros** (Intención → Decisión → Acción). |
+| 9 | 🐺 Rama Manada (Lobatos) | 7–10 años | Dirigentes de Manada | Integrantes, Método Scout en Manada, Ley/Promesa/Principios/Virtudes/Máximas, Aprender Haciendo + DURASLID, Sistema de Seisenas, Marco Simbólico (Libro de las Tierras Vírgenes), Naturaleza, Progresión Personal, Involucramiento Comunitario, relación con familias, ciclo de programa, administración. Incluye el **Manual de Presentación y Buen Orden de la Manada** (llamadas, silbatos, formaciones, ceremonias). |
+| 10 | ⚜️ Rama Tropa Scout | 11–14 años | Jefes y subjefes de Tropa | Edad y transición ("Travesía a los 14"), elementos de identidad, **Sistema de Patrullas** (espíritu, identidad, organización), Promesa y Ley Scout, Progresión Personal en la rama, Especialidades (áreas, tipos de insignias, listado, procedimiento para crear). Material derivado de INDABA Nacional. |
+| 11 | 🧗 Rama Comunidad (Nómadas) | 15–17 años | Dirigentes de Comunidad | Integrantes, Método en Comunidad (autoeducación progresiva), Ley/Promesa Nómada, Aprender Haciendo + DURASLID, Sistema de Equipos en la rama, Marco Simbólico (Aventura + Ciudadanía), Naturaleza, Progresión Personal, Involucramiento Comunitario, búsqueda de sentido, vínculo con el territorio, ámbitos de participación juvenil ampliados. |
+| 12 | 🏔️ Rama Clan (Rovers) | 18–20/21 años | Dirigentes de Clan | Integrantes, Método en Clan, Ley/Promesa Rover, Aprender Haciendo + DURASLID, Sistema de Equipos, Marco Simbólico, Naturaleza, Progresión Personal en 4 fases (explícitas en esta rama), Involucramiento Comunitario (Democracia Participativa, Voz del Joven, Toma de Decisiones), relación dirigente/joven como facilitador (no jefe), Ciclo de Programa con **PARCE** (Plan de Aprendizaje y Reconocimiento Comunitario Equilibrado), eventos rituales (Vigilia Rover, Peregrinaje, Partida Rover, Cena Rover), transición a vida adulta y articulación con la RDJ. |
 
 ### 4.2 Prioridad 2 — Cursos pedagógicos operativos (todo dirigente)
 
@@ -203,13 +217,13 @@ Estos 3 cursos los toma cualquier dirigente de unidad —sin importar la rama—
 
 | # | Curso | Sirve a quién | Foco |
 |---|---|---|---|
-| 12 | 🛠️ Seguimiento de la Progresión Personal | Todo dirigente, especialmente Asesores Personales | **Recursos Educativos para Dirigentes — Herramientas de Seguimiento 2.0**: conductas observables por etapa (Explorar/Aplicar/Profundizar) y por rama; técnicas (observación en acción, anecdotario, registro conflicto-resolución, listas de cotejo, rúbricas, autoevaluación tipo semáforo, coevaluación "2+1", coevaluación por preguntas). Uso del **Registro de Acompañamiento Progresión Personal** (DNPJ-2026-021). Cómo NO burocratizar la progresión. |
-| 13 | 📋 Planeación de Reuniones y Oportunidades de Aprendizaje | Todo dirigente de unidad | Uso de la herramienta oficial **Planeación de Reunión y Oportunidades de Aprendizaje** (Excel DNPJ): Hoja de Ruta para Reunión, Ficha de Oportunidad de Aprendizaje, hojas por rama. Botón A Salvo del Peligro. Ciclo pedagógico **Vivir → Mirar → Comprender → Proyectar**. Cómo planear una reunión que cumpla DURASLID y los 8 elementos del Método. |
-| 14 | 🎯 Ciclo de Programa con ABP | Todo dirigente de unidad | El ciclo de programa de la unidad como Aprendizaje Basado en Proyectos: fases de propuesta, decisión, preparación, desarrollo, evaluación. Articulación entre proyectos de unidad y progresión individual. Cómo el ciclo encarna las 4 Dinámicas del Escultismo (Objetivos Educativos, Oportunidades de Aprendizaje, Vida de Grupo, Estructura y Funcionamiento). |
+| 13 | 🛠️ Seguimiento de la Progresión Personal | Todo dirigente, especialmente Asesores Personales | **Recursos Educativos para Dirigentes — Herramientas de Seguimiento 2.0**: conductas observables por etapa (Explorar/Aplicar/Profundizar) y por rama; técnicas (observación en acción, anecdotario, registro conflicto-resolución, listas de cotejo, rúbricas, autoevaluación tipo semáforo, coevaluación "2+1", coevaluación por preguntas). Uso del **Registro de Acompañamiento Progresión Personal** (DNPJ-2026-021). Cómo NO burocratizar la progresión. |
+| 14 | 📋 Planeación de Reuniones y Oportunidades de Aprendizaje | Todo dirigente de unidad | Uso de la herramienta oficial **Planeación de Reunión y Oportunidades de Aprendizaje** (Excel DNPJ): Hoja de Ruta para Reunión, Ficha de Oportunidad de Aprendizaje, hojas por rama. Botón A Salvo del Peligro. Ciclo pedagógico **Vivir → Mirar → Comprender → Proyectar**. Cómo planear una reunión que cumpla DURASLID y los 8 elementos del Método. |
+| 15 | 🎯 Ciclo de Programa con ABP | Todo dirigente de unidad | El ciclo de programa de la unidad como Aprendizaje Basado en Proyectos: fases de propuesta, decisión, preparación, desarrollo, evaluación. Articulación entre proyectos de unidad y progresión individual. Cómo el ciclo encarna las 4 Dinámicas del Escultismo (Objetivos Educativos, Oportunidades de Aprendizaje, Vida de Grupo, Estructura y Funcionamiento). |
 
 ### 4.3 Nota sobre la oferta del Nivel 2
 
-Cada dirigente toma el curso de su rama. Si rota, toma el de la nueva rama. Los cursos pedagógicos operativos (12, 13, 14) son **fuertemente recomendados** para todo dirigente de unidad y son **obligatorios** para Asesores Personales (Curso 12) y para Jefes de Rama (Cursos 13 y 14). Un consejo de grupo bien formado idealmente cubre, entre todos sus dirigentes, las 5 ramas + los 3 cursos operativos. La plataforma sugerirá la combinación apropiada según la rama y el cargo declarados por el adulto en su perfil.
+Cada dirigente toma el curso de su rama. Si rota, toma el de la nueva rama. Los cursos pedagógicos operativos (13, 14, 15) son **fuertemente recomendados** para todo dirigente de unidad y son **obligatorios** para Asesores Personales (Curso 13) y para Jefes de Rama (Cursos 14 y 15). Un consejo de grupo bien formado idealmente cubre, entre todos sus dirigentes, las 5 ramas + los 3 cursos operativos. La plataforma sugerirá la combinación apropiada según la rama y el cargo declarados por el adulto en su perfil.
 
 ---
 
@@ -221,11 +235,11 @@ Una vez los Niveles 1 y 2 estén operando, este nivel aterriza las funciones, co
 
 | # | Curso | Sirve a quién | Funciones / Competencias específicas |
 |---|---|---|---|
-| 15 | Jefe de Rama (Manada, Tropa, Comunidad, Clan) | Quienes encabezan la unidad | Conducción del equipo de dirigentes de la unidad; ciclo de programa de la unidad; relación con el Jefe de Grupo; planeación trimestral/anual; rendición de cuentas al consejo; vínculo con las familias; sostenibilidad de la unidad (recambio, formación, traspasos). |
-| 16 | Asistente y acompañamiento de la progresión personal | Asistentes y dirigentes que acompañan la progresión individual | El acompañamiento uno-a-uno de la progresión personal como **función del dirigente** (Modelo de Aplicación 2026, Cap. 9 — roles Apoyar/Acompañar/Enlazar), no como un cargo aparte; la entrevista personal; el plan de progresión individual; el manejo del Registro de Acompañamiento (DNPJ-2026-021); confidencialidad, ética, escucha activa, límites del rol. |
-| 17 | Comisionado de Programa de Jóvenes (regional y nacional) | Comisionados PJ de cualquier nivel | Funciones del comisionado de PJ; articulación entre niveles (DNPJ ↔ regional ↔ grupo); conducción de comisiones especializadas (por rama, Mundo Mejor, A Salvo del Peligro); plan de comisionado; rendición de cuentas; relación con la Red Nacional de Jóvenes. Réplica del patrón del Curso 19 de DI aterrizado al ámbito de Programa. |
-| 18 | Consejero Juvenil | Consejeros juveniles de grupo, región y nivel nacional | Rol de puente entre los jóvenes y los órganos de administración (consejo de grupo, asamblea regional, CSN); articulación con la **Política Nacional de Participación Juvenil**; acompañamiento al consejo en perspectiva juvenil. Articula con el Curso 18 de DI (Consejero de Grupo y Regional). |
-| 19 | Coordinador y Comunicador de la Red de Jóvenes | Rovers en cargos RDJ regional y nacional | **Reglamento de la Red Nacional de Jóvenes** (Acuerdo C.S.N. 556), **Manual de Cargos y Funciones RDJ** (2024) y **Reglamento para Asambleas Rover y Elección de Representantes Juveniles** (2022). Estructura piramidal Rovers → Equipo Regional → Equipo Nacional; los 4 ejes Rover (transversal, Vida y Espíritu, Servicio, Empresa); Asamblea Nacional Rover; cargos Coordinador, Comunicador, Consejero Juvenil Nacional, Miembro Juvenil ante CNVC; articulación con la Red Interamericana. |
+| 16 | Jefe de Rama (Manada, Tropa, Comunidad, Clan) | Quienes encabezan la unidad | Conducción del equipo de dirigentes de la unidad; ciclo de programa de la unidad; relación con el Jefe de Grupo; planeación trimestral/anual; rendición de cuentas al consejo; vínculo con las familias; sostenibilidad de la unidad (recambio, formación, traspasos). |
+| 17 | Asistente y acompañamiento de la progresión personal | Asistentes y dirigentes que acompañan la progresión individual | El acompañamiento uno-a-uno de la progresión personal como **función del dirigente** (Modelo de Aplicación 2026, Cap. 9 — roles Apoyar/Acompañar/Enlazar), no como un cargo aparte; la entrevista personal; el plan de progresión individual; el manejo del Registro de Acompañamiento (DNPJ-2026-021); confidencialidad, ética, escucha activa, límites del rol. |
+| 18 | Comisionado de Programa de Jóvenes (regional y nacional) | Comisionados PJ de cualquier nivel | Funciones del comisionado de PJ; articulación entre niveles (DNPJ ↔ regional ↔ grupo); conducción de comisiones especializadas (por rama, Mundo Mejor, A Salvo del Peligro); plan de comisionado; rendición de cuentas; relación con la Red Nacional de Jóvenes. Réplica del patrón del Curso 19 de DI aterrizado al ámbito de Programa. |
+| 19 | Consejero Juvenil | Consejeros juveniles de grupo, región y nivel nacional | Rol de puente entre los jóvenes y los órganos de administración (consejo de grupo, asamblea regional, CSN); articulación con la **Política Nacional de Participación Juvenil**; acompañamiento al consejo en perspectiva juvenil. Articula con el Curso 18 de DI (Consejero de Grupo y Regional). |
+| 20 | Coordinador y Comunicador de la Red de Jóvenes | Rovers en cargos RDJ regional y nacional | **Reglamento de la Red Nacional de Jóvenes** (Acuerdo C.S.N. 556), **Manual de Cargos y Funciones RDJ** (2024) y **Reglamento para Asambleas Rover y Elección de Representantes Juveniles** (2022). Estructura piramidal Rovers → Equipo Regional → Equipo Nacional; los 4 ejes Rover (transversal, Vida y Espíritu, Servicio, Empresa); Asamblea Nacional Rover; cargos Coordinador, Comunicador, Consejero Juvenil Nacional, Miembro Juvenil ante CNVC; articulación con la Red Interamericana. |
 
 ### 5.2 Nota sobre la oferta del Nivel 3
 
@@ -243,17 +257,17 @@ No están atados a una rama ni a un cargo específico. Aplican a todo dirigente 
 
 | # | Curso | Justificación |
 |---|---|---|
-| 20 | 🌍 Marco de Mundo Mejor y ODS | Aplicación del **Manual de Implementación del Marco de Mundo Mejor** (junio 2021): Educación para el Desarrollo Sostenible (EDS), iniciativas Mensajeros de la Paz y Earth Tribe, Red Global de Servicio, reconocimientos mundiales (Scouts del Mundo, Héroes Mensajeros de la Paz), alianzas con ONU/UNESCO. Articulación con la Agenda 2030 y los ODS. Cómo el grupo y la unidad conectan su Programa local con la ciudadanía activa global. |
-| 21 | ✊ Kit Constructores de Paz | Aplicación del **Kit de Acción Constructores de Paz** (Mensajeros de la Paz) en el contexto colombiano post-conflicto: DDHH, memoria histórica, transformación de conflictos, cultura de paz. Ciclo Toma Conciencia → Comparte → Actúa, autoevaluación, "manos a la obra". Aplicable desde 7 años hasta Rovers. |
-| 22 | ♀️ Kit HeForShe y enfoque de género | Aplicación del **Kit HeForShe** (alianza con ONU Mujeres) en todas las ramas: equidad de género, prevención de violencias basadas en género, masculinidades cuidadoras, lenguaje inclusivo. Articulación con el principio de coeducación de las Características Esenciales (OMMS 2019). |
-| 23 | 🏛️ Kit Patrimonito y Patrimonio | Aplicación del **Kit Patrimonito** (alianza con UNESCO) en las ramas: educación para la protección del patrimonio cultural y natural, herramientas, ciclo de acción, reconocimiento. Articulación con el elemento Naturaleza y con la dimensión de territorio del Modelo de Aplicación. |
-| 24 | 🛡️ A Salvo del Peligro aplicado al Programa | **Cómo el Método Scout hace seguro el entorno de la unidad.** Alcance fijado por el **ADR-038** (15-sep-2026), que sigue el reparto de la propia Política 2025 entre su sección *«Articulación con el Programa de Jóvenes»* (pp. 26–27) y la de *«Articulación con Adultos»* (pp. 28–29). **Es de este curso:** protocolo de actividades, transporte y pernoctas; **la práctica 2+1 al planear** (Hoja de Ruta, pernocta, traslado, actividad acuática); **construir una cultura de escucha** en la unidad (p. 26, ítem 1); experiencias **DURASLID**; **entornos en línea con jóvenes** — contacto adulto-joven en plataformas, publicación de imágenes, ciberacoso y grooming (p. 26, ítem 4); **protección de la información médica, dietética y de desarrollo** de los protagonistas (ítem 5); los protagonistas como **agentes de cambio** y la **educación por pares** para la detección temprana (ítems 10 y 11); e **informar que la ruta de reporte existe y por dónde se entra** —*"informar los mecanismos de reporte"* (ítem 6)— con el "Botón A Salvo del Peligro" en la Hoja de Ruta de Reunión. **NO es de este curso, y se enlaza sin reexplicar:** la **conducta ante una revelación**, la **posición de garante**, el **límite del rol** (*"en ningún caso investigativo y de gestión del reporte"*, p. 29) y las **señales de abuso** — todo eso vive en la línea Políticas Transversales, Curso 03 `adulto-garante-entorno-seguro` y siguientes. Articula también con Desarrollo Institucional (Curso 14 — Gestión del Riesgo). |
+| 21 | 🌍 Marco de Mundo Mejor y ODS | Aplicación del **Manual de Implementación del Marco de Mundo Mejor** (junio 2021): Educación para el Desarrollo Sostenible (EDS), iniciativas Mensajeros de la Paz y Earth Tribe, Red Global de Servicio, reconocimientos mundiales (Scouts del Mundo, Héroes Mensajeros de la Paz), alianzas con ONU/UNESCO. Articulación con la Agenda 2030 y los ODS. Cómo el grupo y la unidad conectan su Programa local con la ciudadanía activa global. |
+| 22 | ✊ Kit Constructores de Paz | Aplicación del **Kit de Acción Constructores de Paz** (Mensajeros de la Paz) en el contexto colombiano post-conflicto: DDHH, memoria histórica, transformación de conflictos, cultura de paz. Ciclo Toma Conciencia → Comparte → Actúa, autoevaluación, "manos a la obra". Aplicable desde 7 años hasta Rovers. |
+| 23 | ♀️ Kit HeForShe y enfoque de género | Aplicación del **Kit HeForShe** (alianza con ONU Mujeres) en todas las ramas: equidad de género, prevención de violencias basadas en género, masculinidades cuidadoras, lenguaje inclusivo. Articulación con el principio de coeducación de las Características Esenciales (OMMS 2019). |
+| 24 | 🏛️ Kit Patrimonito y Patrimonio | Aplicación del **Kit Patrimonito** (alianza con UNESCO) en las ramas: educación para la protección del patrimonio cultural y natural, herramientas, ciclo de acción, reconocimiento. Articulación con el elemento Naturaleza y con la dimensión de territorio del Modelo de Aplicación. |
+| 25 | 🛡️ A Salvo del Peligro aplicado al Programa | **Cómo el Método Scout hace seguro el entorno de la unidad.** Alcance fijado por el **ADR-038** (15-sep-2026), que sigue el reparto de la propia Política 2025 entre su sección *«Articulación con el Programa de Jóvenes»* (pp. 26–27) y la de *«Articulación con Adultos»* (pp. 28–29). **Es de este curso:** protocolo de actividades, transporte y pernoctas; **la práctica 2+1 al planear** (Hoja de Ruta, pernocta, traslado, actividad acuática); **construir una cultura de escucha** en la unidad (p. 26, ítem 1); experiencias **DURASLID**; **entornos en línea con jóvenes** — contacto adulto-joven en plataformas, publicación de imágenes, ciberacoso y grooming (p. 26, ítem 4); **protección de la información médica, dietética y de desarrollo** de los protagonistas (ítem 5); los protagonistas como **agentes de cambio** y la **educación por pares** para la detección temprana (ítems 10 y 11); e **informar que la ruta de reporte existe y por dónde se entra** —*"informar los mecanismos de reporte"* (ítem 6)— con el "Botón A Salvo del Peligro" en la Hoja de Ruta de Reunión. **NO es de este curso, y se enlaza sin reexplicar:** la **conducta ante una revelación**, la **posición de garante**, el **límite del rol** (*"en ningún caso investigativo y de gestión del reporte"*, p. 29) y las **señales de abuso** — todo eso vive en la línea Políticas Transversales, Curso 03 `adulto-garante-entorno-seguro` y siguientes. Articula también con Desarrollo Institucional (Curso 14 — Gestión del Riesgo). |
 
-### 6.2 Sobre el Curso 24
+### 6.2 Sobre el Curso 25
 
-> **⚠️ Corregido el 15-sep-2026 (ADR-019 y auditoría de la línea Políticas Transversales, hallazgo M6).** Este plan **no fue renumerado**: aquí el curso de A Salvo del Peligro es el **24**, mientras `CLAUDE.md` §2/§5.3 y el ADR-019 lo numeran **25** tras la renumeración +1. **Citarlo siempre por su `courseId`, `a-salvo-del-peligro-programa`.** La renumeración de este documento está pendiente de decisión del dueño, junto con el reparto de contenido con la línea Políticas Transversales.
+> **Renumerado el 15-sep-2026.** Este curso era el **24** en la versión inicial de este plan y es el **25** desde que se insertó el Curso 3 el 28-jun-2026 — que es como lo numeran `CLAUDE.md` §2/§5.3 y el ADR-019. El desfase entre este documento y el resto del proyecto duró dos meses y medio y quedó cerrado aquí. **Aun así, cítalo por su `courseId`, `a-salvo-del-peligro-programa`:** el `courseId` es lo único que no se mueve si el plan vuelve a crecer por el medio.
 
-El Curso 24 es de **adopción inmediata y fuertemente recomendado** para todo adulto que entra a la línea. **No es habilitante:** por el **ADR-019 (11-jul-2026) ningún curso de la plataforma bloquea el acceso a otro** — lo que existe es la recomendación en la ficha, sin gate técnico.
+El Curso 25 es de **adopción inmediata y fuertemente recomendado** para todo adulto que entra a la línea. **No es habilitante:** por el **ADR-019 (11-jul-2026) ningún curso de la plataforma bloquea el acceso a otro** — lo que existe es la recomendación en la ficha, sin gate técnico.
 
 > **Dónde termina este curso y empieza Políticas Transversales (ADR-038, 15-sep-2026).** El reparto no es criterio nuestro: la Política 2025 dedica dos secciones de naturaleza distinta, *«Articulación con el Programa de Jóvenes»* (pp. 26–27, once ítems sobre **experiencias educativas**) y *«Articulación con Adultos»* (pp. 28–29, ocho sobre el **ciclo de vida del adulto y los procedimientos institucionales**).
 >
@@ -265,30 +279,33 @@ El Curso 24 es de **adopción inmediata y fuertemente recomendado** para todo ad
 
 ## 7. Roadmap
 
-### 7.1 Estado actual (mayo 2026)
+### 7.1 Estado actual (15-sep-2026)
 
-- Línea **por construir** desde cero. Sin cursos publicados aún.
-- Plataforma técnica: se replicará el _template_ de la Línea Política de Adultos (`INDUCCION-ADULTOS`) — frontend en GitHub Pages, backend en Google Apps Script con backup nocturno, dashboard administrativo, generador de cursos basado en JSON.
-- Repositorio sugerido: `INDUCCION-PROGRAMA-JOVENES`.
-- URL pública sugerida: `https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/`.
+- **8 cursos publicados de 25.** Nivel 1 **completo** (7/7) y Nivel 2 iniciado con el Curso 9 (Rama Manada), el primer curso de rama.
+- Plataforma técnica **en producción**: frontend en GitHub Pages, backend en Google Apps Script con backup nocturno, dashboard administrativo, generador de cursos basado en JSON. El motor es compartido con las otras líneas desde el ADR-025 (núcleo único en `_MOTOR/`, propagado por `sincronizar-motor.py`).
+- Repositorio: `INDUCCION-PROGRAMA-JOVENES`.
+- URL pública: `https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/`.
+- **Quedan 17 cursos** (10, 11, 12 de rama; 13–15 operativos; 16–20 por cargo; 21–25 transversales) y el Curso 8 (Rama Familia).
 
 ### 7.2 Próximos hitos
 
-- **Hito A — Vertical slice del Nivel 1**: construir el **Curso 1 (Bienvenida al Programa de Jóvenes)** completo, como prueba de concepto del marco aplicado a esta línea. Hacer piloto con 5–10 dirigentes de unidad.
-- **Hito B — Cierre del Nivel 1**: una vez aprobado el Curso 1 con piloto, construir los Cursos 2 a 6 aplicando el patrón validado. **Crítico**: el Curso 5 (PNPJ + Modelo de Aplicación) y el Curso 4 (Método Scout) son los más extensos y de mayor riesgo doctrinal — programar revisión con la DNPJ antes de publicar.
-- **Hito C — Validación del Nivel 1 con piloto**: 5–10 dirigentes completando los 6 cursos. Aplicar ajustes derivados de la retroalimentación.
-- **Hito D — Curso 24 (A Salvo del Peligro) en paralelo**: por su valor —**no por ser habilitante, que no lo es (ADR-019)**— se construye y publica antes que el resto del Nivel 4, idealmente al cierre del Nivel 1, para que ningún dirigente llegue al Nivel 2 sin haberlo tenido disponible.
-- **Hito E — Nivel 2 Prioridad 1 — Rama de mayor demanda**: arrancar con **Curso 8 (Manada)** o **Curso 9 (Tropa)** —las dos ramas con más unidades en Colombia— como segundo vertical slice. Validar con piloto en 5–10 dirigentes de esa rama.
-- **Hito F — Cierre del Nivel 2 ramas**: una vez validado el primer curso de rama, construir los otros 4 (Familia, Comunidad, Clan) reaprovechando el patrón.
-- **Hito G — Nivel 2 cursos operativos**: construir los Cursos 12, 13 y 14 (Seguimiento, Planeación, Ciclo de Programa con ABP) como complemento universal.
-- **Hito H — Iniciar Nivel 3 con curso integrador (15 — Jefe de Rama)** y los cargos más demandados (16 — Asistente).
-- **Hito I — Completar Nivel 3 y Nivel 4** según demanda. Los kits de Mundo Mejor (Cursos 20–23) pueden lanzarse de a uno, aprovechando convocatorias nacionales o mundiales para hacer pilotos vivenciales.
+- ~~**Hito A — Vertical slice del Nivel 1**~~ **HECHO (jun-2026):** el **Curso 1 (Bienvenida al Programa de Jóvenes)** validó el patrón de la línea.
+- ~~**Hito B — Cierre del Nivel 1**~~ **HECHO (jun–jul 2026):** Cursos 2 a 7, incluido el **Curso 3 (Cómo se Educa Hoy)** que no estaba en el plan original y produjo la renumeración +1. **Sigue pendiente lo crítico:** el Curso 6 (PNPJ + Modelo de Aplicación) y el Curso 5 (Método Scout) son los más extensos y de mayor riesgo doctrinal, y **la revisión con la DNPJ no se ha hecho** — se publicaron con las auditorías automatizadas como compuerta.
+- ~~**Hito C — Validación del Nivel 1 con piloto**~~ **DEROGADO por el ADR-019 (11-jul-2026):** el piloto humano dejó de ser requisito para publicar. La compuerta de calidad son las tres auditorías — doctrinal, pedagógica y funcional.
+- **Hito D — Curso 25 (A Salvo del Peligro) en paralelo**: por su valor —**no por ser habilitante, que no lo es (ADR-019)**— se construye y publica antes que el resto del Nivel 4, idealmente al cierre del Nivel 1, para que ningún dirigente llegue al Nivel 2 sin haberlo tenido disponible.
+- ~~**Hito E — Nivel 2 Prioridad 1 — Rama de mayor demanda**~~ **HECHO (jul-2026):** el **Curso 9 (Manada)** fue el segundo vertical slice y el primer curso publicado bajo el ADR-019, sin piloto bloqueante.
+- **Hito F — Cierre del Nivel 2 ramas**: construir los otros **4** reaprovechando el patrón de Manada — **Familia (8), Tropa (10), Comunidad (11) y Clan (12)**. *(La versión anterior de esta línea decía "los otros 4" y listaba solo 3: se le había caído Tropa.)*
+- **Hito G — Nivel 2 cursos operativos**: construir los Cursos 13, 14 y 15 (Seguimiento, Planeación, Ciclo de Programa con ABP) como complemento universal.
+- **Hito H — Iniciar Nivel 3 con curso integrador (16 — Jefe de Rama)** y los cargos más demandados (17 — Asistente).
+- **Hito I — Completar Nivel 3 y Nivel 4** según demanda. Los kits de Mundo Mejor (Cursos 21–24) pueden lanzarse de a uno, aprovechando convocatorias nacionales o mundiales para hacer pilotos vivenciales.
 
 ### 7.3 Criterio para avanzar entre niveles
 
-No se inicia el siguiente nivel hasta que el nivel anterior haya sido validado con un piloto real (al menos 5–10 adultos completándolo) y los ajustes de retroalimentación hayan sido aplicados. Esto evita acumular cursos sin verificar y permite aprender del uso real entre cada lanzamiento.
+No se inicia el siguiente nivel hasta que el anterior haya pasado sus **tres auditorías** —doctrinal, pedagógica y funcional— y los hallazgos se hayan aplicado.
 
-**Excepción al criterio**: el Curso 24 (A Salvo del Peligro) puede y debe construirse en paralelo al Nivel 1 **por su valor**, no por ser habilitante — **no lo es (ADR-019)**.
+**El piloto humano dejó de ser compuerta el 11-jul-2026 (ADR-019).** Sigue siendo bienvenido —`INFORME-PILOTO.md` está disponible como plantilla— pero no bloquea publicar. El texto anterior de esta sección exigía "un piloto real (al menos 5–10 adultos)" antes de cada nivel, lo que contradecía ese ADR desde hacía dos meses.
+
+**Excepción al criterio**: el Curso 25 (A Salvo del Peligro) puede y debe construirse en paralelo al Nivel 1 **por su valor**, no por ser habilitante — **no lo es (ADR-019)**.
 
 ### 7.4 Articulación con las líneas Política de Adultos y Desarrollo Institucional
 
@@ -376,4 +393,4 @@ Toda la línea se basa en documentos oficiales y materiales validados de la ASC,
 
 ---
 
-_Documento elaborado como parte del proyecto de digitalización de la formación de adultos voluntarios del movimiento scout colombiano. Versión inicial del Plan de Formación de la Línea Programa de Jóvenes, sujeta a iteración tras piloto del Curso 1._
+_Documento elaborado como parte del proyecto de digitalización de la formación de adultos voluntarios del movimiento scout colombiano. Plan de Formación de la Línea Programa de Jóvenes — **v1.1, 15 de septiembre de 2026** (renumeración +1; ver §2.1)._

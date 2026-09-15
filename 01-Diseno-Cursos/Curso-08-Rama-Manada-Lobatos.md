@@ -442,7 +442,7 @@ _Excepción documentada (8 lecciones → 7+1 logros, igual que el Curso 04 del N
 - **L4 → Curso 13 (Planeación de Reuniones y OdA):** anuncia el diseño de reuniones con DURASLID y los 8 elementos.
 - **L8 → Curso 14 (Ciclo de Programa con ABP):** el Consejo de Roca y la participación real de los lobatos anticipan cómo la Manada decide su propio ciclo de programa.
 - **L8 → Cursos 7, 9, 10, 11:** anuncia las guías de las otras 4 ramas para dirigentes que acompañan más de una.
-- **Curso 24/25 (A Salvo del Peligro):** cuando se construya, debe referenciar el ciclo de programa y las ceremonias de este curso como contexto de aplicación (transporte, pernoctas, protocolo de actividades en la Manada).
+- **Curso 25 (A Salvo del Peligro):** cuando se construya, debe referenciar el ciclo de programa y las ceremonias de este curso como contexto de aplicación (transporte, pernoctas, protocolo de actividades en la Manada).
 
 ### 6.3 Cross-línea
 

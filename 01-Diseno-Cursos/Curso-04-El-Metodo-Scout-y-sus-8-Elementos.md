@@ -1,4 +1,6 @@
-# Diseño del Curso 4 — 🧭 El Método Scout y sus 8 elementos
+# Diseño del Curso 5 — 🧭 El Método Scout y sus 8 elementos
+
+> *El nombre de este archivo (`Curso-04-…`) es el de la numeración anterior a la renumeración +1 del 28-jun-2026. **No se renombró**: varias entradas del `DECISIONES.md` y una auditoría lo citan por esta ruta, y un ADR debe seguir apuntando a lo que apuntaba. El número que vale es el del título; el identificador que vale es `metodo-scout-8-elementos`.*
 
 **Línea:** Programa de Jóvenes · **Nivel:** 1 (Fundamentación) · **Posición:** Curso 5 de 7 del Nivel 1.
 
