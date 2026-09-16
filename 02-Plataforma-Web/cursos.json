@@ -124,5 +124,19 @@
     "status": "active",
     "file": "rama-familia-cachorros.html",
     "folder": "rama-familia-cachorros"
+  },
+  {
+    "courseId": "rama-tropa-scout",
+    "title": "Rama Tropa Scout",
+    "description": "El curso de rama para quienes acompañan la adolescencia temprana. Vas a acompañar a Andrés, que acaba de dar el Gran Salto desde la Manada, y a entender el cambio que hace difícil esta rama: en la Tropa el juego lo dirigen ellos.",
+    "icon": "⚜️",
+    "duration": "40 minutos",
+    "level": 2,
+    "levelName": "Profundización por rama y práctica pedagógica",
+    "order": 10,
+    "modules": 8,
+    "status": "draft",
+    "file": "rama-tropa-scout.html",
+    "folder": "rama-tropa-scout"
   }
 ]
