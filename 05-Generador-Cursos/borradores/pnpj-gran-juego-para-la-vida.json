@@ -151,13 +151,13 @@
           "items": [
             {
               "title": "🐻 Familia — Cachorros (5–6 años)",
-              "description": "Grupo natural: Camadas, Círculo de Familia, Encuentro del Cubil. Marco simbólico: Hermanos de Mowgli (primer capítulo del Libro de las Tierras Vírgenes). Saludo: del Cachorro. Ley: del Cachorro.",
+              "description": "Grupo natural: Camadas, Círculo de Familia, Encuentro del Cubil. Marco simbólico: La Fantasía; su fondo motivador son Los Hermanos de Mowgli, primer capítulo del Libro de las Tierras Vírgenes. Saludo: del Cachorro. Ley: del Cachorro.",
               "color": "#fff8e1",
               "borderColor": "#f9a825"
             },
             {
               "title": "🐺 Manada — Lobatos (7–10 años)",
-              "description": "Grupo natural: Seisenas. Marco simbólico: Libro de las Tierras Vírgenes (Kipling). Promesa y Ley del Lobato. Principios y Virtudes del Lobato.",
+              "description": "Grupo natural: Seisenas. Marco simbólico: La Fantasía; su fondo motivador es el Libro de las Tierras Vírgenes (Kipling). Promesa y Ley del Lobato. Principios y Virtudes del Lobato.",
               "color": "#fff3e0",
               "borderColor": "#fb8c00"
             },
@@ -169,13 +169,13 @@
             },
             {
               "title": "🧗 Comunidad — Nómadas (15–17 años)",
-              "description": "Grupo natural: equipos de Comunidad. Marco simbólico: Aventura y Ciudadanía. Promesa y Ley Nómada.",
+              "description": "Grupo natural: equipos de Comunidad. Marco simbólico: La aventura hacia la ciudadanía. Promesa y Ley Nómada.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
             {
               "title": "🏔️ Clan — Rovers (18–20/21 años)",
-              "description": "Grupo natural: equipos de Clan. Marco simbólico: Rovering propio. Promesa y Ley Rover. Eventos rituales: Vigilia, Peregrinaje, Partida, Cena Rover.",
+              "description": "Grupo natural: equipos de Clan. Marco simbólico: La Ciudadanía Activa. Promesa y Ley Rover. Eventos rituales: Vigilia, Peregrinaje, Partida, Cena Rover.",
               "color": "#ede7f6",
               "borderColor": "#5e35b1"
             }
@@ -592,7 +592,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Completa esta plantilla con tus propios datos: <em>\"Sirvo (o serviré) en la <strong>rama __________</strong> (Familia/Manada/Tropa/Comunidad/Clan). Su grupo natural se llama <strong>__________</strong> (Camadas/Seisenas/Patrullas/equipos). Su marco simbólico es <strong>__________</strong> (Hermanos de Mowgli/Libro de las Tierras Vírgenes/marco propio/Aventura y Ciudadanía/Rovering). Los protagonistas que acompaño están entre las edades de <strong>__________ a __________ años</strong>. De las <strong>6 áreas de crecimiento</strong>, en este trimestre voy a poner especial cuidado en: <strong>__________ y __________</strong>. Mi rol principal en esta rama es: <strong>Apoyar / Acompañar / Enlazar</strong> (subraya el que más te toca).\"</em>"
+          "text": "Completa esta plantilla con tus propios datos: <em>\"Sirvo (o serviré) en la <strong>rama __________</strong> (Familia/Manada/Tropa/Comunidad/Clan). Su grupo natural se llama <strong>__________</strong> (Camadas/Seisenas/Patrullas/equipos). Su marco simbólico es <strong>__________</strong> (La Fantasía/Libro de las Tierras Vírgenes/marco propio/La aventura hacia la ciudadanía/Rovering). Los protagonistas que acompaño están entre las edades de <strong>__________ a __________ años</strong>. De las <strong>6 áreas de crecimiento</strong>, en este trimestre voy a poner especial cuidado en: <strong>__________ y __________</strong>. Mi rol principal en esta rama es: <strong>Apoyar / Acompañar / Enlazar</strong> (subraya el que más te toca).\"</em>"
         },
         {
           "type": "mission-box",

@@ -182,7 +182,7 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
     - 🐻 **Rama Familia — Cachorros (5–6 años)** — Grupo natural: **Camadas** y Círculo de Familia. Marco simbólico: Hermanos de Mowgli.
     - 🐺 **Rama Manada — Lobatos (7–10 años)** — Grupo natural: **Seisenas**. Marco simbólico: Libro de las Tierras Vírgenes.
     - ⚜️ **Rama Tropa — Scouts (11–14 años)** — Grupo natural: **Patrullas**. Marco simbólico: marco propio Scout.
-    - 🧗 **Rama Comunidad — Nómadas (15–17 años)** — Grupo natural: equipos de Comunidad. Marco simbólico: Aventura y Ciudadanía.
+    - 🧗 **Rama Comunidad — Nómadas (15–17 años)** — Grupo natural: equipos de Comunidad. Marco simbólico: La aventura hacia la ciudadanía.
     - 🏔️ **Rama Clan — Rovers (18–20 años)** — Grupo natural: equipos de Clan. Marco simbólico: Rovering propio.
 4. **`paragraph`** — Aplicación: _"Tu rol como dirigente está en una de estas ramas. Pero todo el grupo —desde la familia más chiquita hasta el clan— forma un solo recorrido educativo. Lo que un cachorro vive a los 5 años lo prepara para la travesía a los 14, y lo que vivió en la tropa lo sostiene en su partida rover a los 20."_
 5. **`heading` (nivel 3)** — _"La documentación marco que rige todo"_

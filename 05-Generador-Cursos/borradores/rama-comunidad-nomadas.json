@@ -5,7 +5,7 @@
   "description": "El curso de rama para quienes acompañan la adolescencia tardía. Vas a reencontrarte con Andrés, que llega de su Travesía desde la Tropa, y a entender el cambio que define esta rama: en la Comunidad las decisiones de los jóvenes salen de la unidad y aterrizan en el territorio.",
   "contentVersion": "2026-09-15",
   "icon": "🧗",
-  "duration": "50 minutos",
+  "duration": "55 minutos",
   "level": 2,
   "levelName": "Profundización por rama y práctica pedagógica",
   "order": 11,
@@ -19,7 +19,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~50 minutos.</strong> Al final vas a poder decir completas la Ley del Nómada Scout y las dos fórmulas de su Promesa, armar Equipos que se sostengan solos, saber qué se decide en el Consejo de Equipo y qué en el Congreso de Comunidad, usar el marco simbólico sin confundirlo con su ambiente de referencia, acompañar un proyecto en el territorio, leer los seis Rumbos de la progresión y preparar las dos transiciones de la rama."
+          "text": "⏱️ <strong>~55 minutos.</strong> Al final vas a poder decir completas la Ley del Nómada Scout y las dos fórmulas de su Promesa, armar Equipos que se sostengan solos, saber qué se decide en el Consejo de Equipo y qué en el Congreso de Comunidad, usar el marco simbólico sin confundirlo con su ambiente de referencia, acompañar un proyecto en el territorio, leer los seis Rumbos de la progresión y preparar las dos transiciones de la rama."
         },
         {
           "type": "paragraph",
@@ -27,7 +27,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Y llega distinto. En la Tropa aprendió a decidir dentro de su patrulla: el Consejo de Patrulla, la Corte de Honor, el menú del campamento. Aprendió que su voz pesaba entre los suyos. Lo que va a descubrir aquí es que esa misma voz puede salir del Grupo Scout — y que cuando sale, alguien afuera responde."
+          "text": "Y llega distinto. En la Tropa aprendió a decidir dentro de su patrulla: el Consejo de Patrulla, la Corte de Honor de la Tropa, el menú del campamento. Aprendió que su voz pesaba entre los suyos. Lo que va a descubrir aquí es que esa misma voz puede salir del Grupo Scout — y que cuando sale, alguien afuera responde."
         },
         {
           "type": "info-box",
@@ -80,6 +80,24 @@
         {
           "type": "heading",
           "level": 3,
+          "text": "Los tres retos que tienen encima"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Hacerse cargo de sí mismos</strong> — de lo que les pasa, de los cambios del cuerpo y del vaivén de sus emociones, para poder construir relaciones sanas consigo y con los demás.",
+            "<strong>Armar una identidad sólida, pero flexible</strong> — una que les deje adaptarse, cambiar de opinión, ponerse en el lugar del otro y convivir.",
+            "<strong>Volverse miembros críticos y sensibles de un mundo global</strong> — uno donde la economía y el mercado pesan mucho."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía dice que esos tres retos no son solo de ellos: son los que los adultos del Movimiento deberíamos ayudar a sostener. Por eso están aquí, al principio del curso."
+        },
+        {
+          "type": "heading",
+          "level": 3,
           "text": "Dónde estás parado tú"
         },
         {
@@ -127,6 +145,10 @@
         {
           "type": "info-box",
           "text": "⚠️ <strong>Si lees «Caminantes», es un nombre viejo.</strong> Aparece todavía en la Guía de Tropa (p. 4) y una vez en el Modelo. El nombre vigente de la rama es <strong>Nómadas Scout</strong>. No es un error tuyo si te confunde: está en documentos que sí tienes que leer."
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>Un mismo elemento, dos nombres.</strong> Lo que aquí y en el Curso 5 llamamos <strong>Sistema de Equipos</strong>, la Guía lo nombra <strong>«Vida en Pequeños Grupos»</strong> cuando lista los elementos del Método (p. 9). Es el mismo elemento, no dos."
         },
         {
           "type": "paragraph",
@@ -297,6 +319,10 @@
           "text": "Los cinco cargos"
         },
         {
+          "type": "paragraph",
+          "text": "Una aclaración que ahorra discusiones: según el tamaño de la Comunidad y lo que necesite, estos cargos pueden ser de cada Equipo o de toda la Comunidad. Los del Equipo se eligen en el Consejo de Equipo; los de la Comunidad, en el Congreso."
+        },
+        {
           "type": "list",
           "ordered": false,
           "items": [
@@ -378,7 +404,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Dibuja en una hoja los Equipos que tienes hoy —o los que tendrías si abrieras la Comunidad mañana— con nombres reales. Al lado de cada uno escribe quién es el Coordinador y quién el Navegante. Si no puedes llenar los Navegantes, ese es tu primer trabajo: sin memoria compartida, la Comunidad empieza de cero cada año."
+        "prompt": "Dibuja en una hoja los Equipos que tienes hoy —o los que tendrías si abrieras la Comunidad mañana— con nombres reales. Al lado de cada uno escribe quién es el Coordinador. Y anota quién lleva la Carta de Navegación: un Navegante por Equipo, o uno solo para toda la Comunidad, como te sirva mejor. Si no puedes poner ese nombre, ese es tu primer trabajo: sin memoria compartida, la Comunidad empieza de cero cada año."
       },
       "quiz": {
         "title": "Mini-quiz Lección 4",
@@ -469,7 +495,7 @@
             "<strong>Bandera:</strong> se sugiere fondo azul; el diseño lo propone cada Comunidad y debe ir acorde con el manual de buen orden de la ASC.",
             "<strong>Insignia de Comunidad:</strong> la propone cada Comunidad, cumpliendo el manual de uniforme.",
             "<strong>Nombre y divisa:</strong> los elige libremente la Comunidad, en Congreso.",
-            "<strong>Llamado:</strong> pito con el código morse <strong>«N S»</strong> — <code>— · · · ·</code>"
+            "<strong>Llamado:</strong> pito con el código morse <strong>«N S»</strong> — <code>— ·&nbsp;&nbsp;· · ·</code>"
           ]
         },
         {
@@ -551,11 +577,6 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "Scouts por los ODS"
-        },
-        {
-          "type": "heading",
-          "level": 3,
           "text": "Antes de salir: qué convierte una actividad en aprendizaje"
         },
         {
@@ -569,6 +590,11 @@
         {
           "type": "paragraph",
           "text": "Para Nómadas, la Guía pide además que las actividades sean complejas y cooperativas, y que ellos participen «en todo el ciclo de vida de la actividad, desde la concepción hasta la evaluación», no solo como consumidores. El nivel más alto de participación son los <strong>proyectos</strong>: de mediano o largo plazo, con roles de liderazgo reales. De eso trata el resto de esta lección."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Scouts por los ODS"
         },
         {
           "type": "paragraph",
@@ -618,6 +644,10 @@
           "text": "Los seis momentos de la travesía"
         },
         {
+          "type": "info-box",
+          "text": "⚠️ <strong>Aquí «travesía» es otra cosa.</strong> Es el recorrido del proyecto en el territorio, no la <strong>Travesía</strong> con la que un Scout pasa de la Tropa a la Comunidad (esa es la Lección 8). Misma palabra, dos cosas distintas."
+        },
+        {
           "type": "list",
           "ordered": true,
           "items": [
@@ -640,7 +670,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Los ámbitos de participación no se acaban en tu Comunidad. Están los <strong>espacios institucionales</strong> —la Red de Jóvenes, foros juveniles, consejos de distintos niveles— donde los Nómadas inciden en las políticas de la Asociación. Y la Guía es tajante sobre tu papel ahí: «el rol del Dirigente es el de acompañamiento, no el de participación activa y deberíamos limitarnos a orientar sin interferir o cuando sea requerido»."
+          "text": "Los ámbitos de participación no se acaban en tu Comunidad. Están los <strong>espacios institucionales</strong> —foros juveniles, consejos de distintos niveles— donde los Nómadas inciden en las políticas de la Asociación. Su Guía nombra también la <strong>Red de Jóvenes</strong>: ojo con eso, porque su Reglamento pide <strong>ser Rover</strong> para entrar, así que a tus Nómadas les toca cuando lleguen al Clan. Y la Guía es tajante sobre tu papel ahí: «el rol del Dirigente es el de acompañamiento, no el de participación activa y deberíamos limitarnos a orientar sin interferir o cuando sea requerido»."
         },
         {
           "type": "paragraph",
@@ -664,9 +694,9 @@
             "correctIndex": 1
           },
           {
-            "text": "Camila, de tu Comunidad, fue elegida al equipo regional de la Red de Jóvenes. En la primera sesión te invitan a participar. ¿Qué haces?",
+            "text": "Camila, de tu Comunidad, fue elegida al foro juvenil regional. En la primera sesión te invitan a participar. ¿Qué haces?",
             "options": [
-              "Participas activamente aportando tu experiencia, que es lo que le falta a un equipo recién elegido.",
+              "Participas activamente aportando tu experiencia, que es lo que le falta a un espacio recién formado.",
               "Declinas del todo y le pides que te cuente después: ese espacio es solo juvenil.",
               "Vas como acompañante y te limitas a orientar si te lo piden, sin interferir en lo que decidan."
             ],
@@ -687,7 +717,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La Guía lo dice sin rodeos: «no existe un orden específico para iniciar el abordaje de las competencias en las áreas de crecimiento». Las competencias no se trabajan en línea recta sino <strong>en espiral</strong>. El joven construye su propio camino según sus intereses, ritmos y motivaciones."
+          "text": "La Guía lo dice sin rodeos: «no existe un orden específico para iniciar el abordaje de las competencias en las áreas de crecimiento». Las competencias educativas no se trabajan en línea recta sino <strong>en espiral</strong>. El joven construye su propio camino según sus intereses, ritmos y motivaciones."
         },
         {
           "type": "heading",
@@ -768,6 +798,10 @@
             "<strong>Nómada Visionario de los Ríos</strong> — 3 áreas en Aplicación y 3 en Profundización. Proyecta, diseña y ejecuta; aparece la mirada vocacional.",
             "<strong>Nómada Líder del Sol</strong> — las 6 áreas en Profundización. Es la fase máxima y el perfil de egreso completo de la rama."
           ]
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>«Caminante» aquí no es el nombre viejo de la rama.</strong> La primera fase se llama <strong>Nómada Caminante de los Bosques</strong>, y ese nombre sí está vigente, aunque «Caminantes» como nombre de la rama ya no lo esté. Si te suena raro al leerlo, es por eso."
         },
         {
           "type": "info-box",
@@ -887,7 +921,7 @@
         },
         {
           "type": "info-box",
-          "text": "🧰 <strong>Las cinco herramientas de la rama.</strong> <em>Cartografía Nómada</em> (el plan personal de progresión de cada joven) · <em>Carta de Navegación</em> (la memoria de la Comunidad, a cargo del Navegante) · <em>Hoja de Travesía</em> (planear y evaluar una actividad) · <em>Atlas de Travesías</em> (planear y evaluar el ciclo completo) · <em>Diario de Ruta</em> (seguimiento de competencias, individual y colectivo; digital o físico). La quinta no aparece en el índice de la Guía, pero sí en su capítulo 12."
+          "text": "🧰 <strong>Las cinco herramientas de la rama.</strong> <em>Cartografía Nómada</em> (el <strong>Plan de Progresión Personal</strong> de cada joven) · <em>Carta de Navegación</em> (la memoria de la Comunidad, a cargo del Navegante) · <em>Hoja de Travesía</em> (planear y evaluar una actividad) · <em>Atlas de Travesías</em> (planear y evaluar el ciclo completo) · <em>Diario de Ruta</em> (seguimiento de las competencias educativas, individual y colectivo; digital o físico). La quinta no aparece en el índice de la Guía, pero sí en su capítulo 12."
         },
         {
           "type": "heading",
@@ -900,7 +934,7 @@
         },
         {
           "type": "info-box",
-          "text": "🔗 <strong>Y lo que no es de este curso.</strong> Qué hacer —y qué no— cuando un Nómada te revela un daño lo enseña la línea Políticas Transversales, en el curso <em>El adulto como garante de un entorno seguro</em>. Este curso enlaza allá y no lo reexplica, para que esa conducta tenga una sola fuente en toda la plataforma. Lo que aplica al planear salidas y pernoctas será materia del Curso 25. Mientras tanto, la ruta de reporte ya existe y se llama «Me Pongo la Camiseta»."
+          "text": "🔗 <strong>Y lo que no es de este curso.</strong> Qué hacer —y qué <strong>no</strong>— cuando un Nómada te revela un daño lo enseña la línea <strong>Políticas Transversales</strong>, en su curso <code>adulto-garante-entorno-seguro</code>. Este curso enlaza allá y no lo reexplica, para que esa conducta tenga una sola fuente en toda la plataforma. Esa línea todavía se está construyendo; mientras tanto, la ruta de reporte ya existe y se llama <strong>«Me Pongo A Salvo del Peligro»</strong>, y se usa desde <a href=\"https://forms.gle/PPgbS1U4ip5t5Q1PA\" target=\"_blank\" rel=\"noopener\">forms.gle/PPgbS1U4ip5t5Q1PA</a>. Lo que aplica al planear salidas y pernoctas será materia del <strong>Curso 25</strong>."
         },
         {
           "type": "policy-quote",

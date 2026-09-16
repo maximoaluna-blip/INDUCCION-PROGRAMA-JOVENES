@@ -262,13 +262,13 @@
           "items": [
             {
               "title": "🐻 Rama Familia — Cachorros (5–6 años)",
-              "description": "Grupo natural: <strong>Camadas</strong> y Círculo de Familia. Marco simbólico: Hermanos de Mowgli.",
+              "description": "Grupo natural: <strong>Camadas</strong> y Círculo de Familia. Marco simbólico: La Fantasía; su fondo motivador son Los Hermanos de Mowgli.",
               "color": "#fff8e1",
               "borderColor": "#f9a825"
             },
             {
               "title": "🐺 Rama Manada — Lobatos (7–10 años)",
-              "description": "Grupo natural: <strong>Seisenas</strong>. Marco simbólico: Libro de las Tierras Vírgenes.",
+              "description": "Grupo natural: <strong>Seisenas</strong>. Marco simbólico: La Fantasía; su fondo motivador es el Libro de las Tierras Vírgenes.",
               "color": "#fff3e0",
               "borderColor": "#fb8c00"
             },
@@ -280,13 +280,13 @@
             },
             {
               "title": "🧗 Rama Comunidad — Nómadas (15–17 años)",
-              "description": "Grupo natural: equipos de Comunidad. Marco simbólico: Aventura y Ciudadanía.",
+              "description": "Grupo natural: equipos de Comunidad. Marco simbólico: La aventura hacia la ciudadanía.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
             {
               "title": "🏔️ Rama Clan — Rovers (18–20 años)",
-              "description": "Grupo natural: equipos de Clan. Marco simbólico: Rovering propio.",
+              "description": "Grupo natural: equipos de Clan. Marco simbólico: La Ciudadanía Activa.",
               "color": "#ede7f6",
               "borderColor": "#5e35b1"
             }

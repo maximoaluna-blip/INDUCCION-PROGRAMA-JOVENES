@@ -141,7 +141,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
     - 🐻 **Familia — Cachorros (5–6 años)** — Grupo natural: Camadas, Círculo de Familia, Encuentro del Cubil. Marco simbólico: Hermanos de Mowgli (primer capítulo del Libro de las Tierras Vírgenes). Saludo: del Cachorro. Ley: del Cachorro.
     - 🐺 **Manada — Lobatos (7–10 años)** — Grupo natural: Seisenas. Marco simbólico: Libro de las Tierras Vírgenes (Kipling). Promesa y Ley del Lobato. Principios y Virtudes del Lobato.
     - ⚜️ **Tropa — Scouts (11–14 años)** — Grupo natural: Patrullas (6–8 scouts). Marco simbólico: marco propio Scout. Promesa y Ley Scout.
-    - 🧗 **Comunidad — Nómadas (15–17 años)** — Grupo natural: equipos de Comunidad. Marco simbólico: Aventura y Ciudadanía. Promesa y Ley Nómada.
+    - 🧗 **Comunidad — Nómadas (15–17 años)** — Grupo natural: equipos de Comunidad. Marco simbólico: La aventura hacia la ciudadanía. Promesa y Ley Nómada.
     - 🏔️ **Clan — Rovers (18–20/21 años)** — Grupo natural: equipos de Clan. Marco simbólico: Rovering propio. Promesa y Ley Rover. Eventos rituales: Vigilia, Peregrinaje, Partida, Cena Rover.
 5. **`heading` (nivel 3)** — _"El recorrido completo del protagonista"_
 6. **`paragraph`** — _"Un cachorro de 5 años que entra a Familia puede recorrer las 5 ramas y salir como rover de 20 años con su Partida Rover. Son 15 años de Movimiento. La PNPJ y el Modelo cuidan que ese recorrido tenga **continuidad** (cada rama prepara para la siguiente) y **coherencia** (los 8 elementos del Método están en todas las ramas, adaptados a la edad)."_

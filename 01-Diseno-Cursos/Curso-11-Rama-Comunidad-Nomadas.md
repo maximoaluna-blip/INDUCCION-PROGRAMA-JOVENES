@@ -41,7 +41,7 @@ Ninguna se inventa ni se esconde. Se resuelven con criterio explícito, y las qu
 | Título | Rama Comunidad (Nómadas Scout) |
 | Icono | 🧗 |
 | Nivel / orden | 2 · Curso **11** |
-| Duración declarada | **50 minutos** — ver §4-bis. Es el curso más extenso de la línea |
+| Duración declarada | **55 minutos** — ver §4-bis y el **ADR-047**. Es el curso más extenso de la plataforma |
 | Módulos | 8 (1 de registro + **7 de contenido**) |
 | Destinatario | Dirigentes de Comunidad y quienes van a abrir una |
 | `contentVersion` | 2026-09-15 |
@@ -67,9 +67,9 @@ Al terminar, el adulto podrá:
 
 > **«En la Tropa aprendieron a decidir entre ellos. En la Comunidad deciden hacia afuera — y de eso se entera el barrio.»**
 
-**Por qué este y no otro.** Es el contraste que de verdad separa a esta rama de la anterior, y **está anclado en lo que el Curso 10 ya enseña**: allí el Sistema de Patrullas y la Corte de Honor le devuelven la decisión al pequeño grupo, y el quiz certifica que el Jefe de Tropa deja decidir a la patrulla. Aquí la decisión no cambia de dueño —sigue siendo del joven— sino de **alcance**: sale de la unidad y aterriza en el territorio. Eso es literalmente lo que nombra el marco simbólico de la rama.
+**Por qué este y no otro.** Es el contraste que de verdad separa a esta rama de la anterior, y **está anclado en lo que el Curso 10 ya enseña**: allí el Sistema de Patrullas y la Corte de Honor de la Tropa le devuelven la decisión al pequeño grupo, y el quiz certifica que el Jefe de Tropa deja decidir a la patrulla. Aquí la decisión no cambia de dueño —sigue siendo del joven— sino de **alcance**: sale de la unidad y aterriza en el territorio. Eso es literalmente lo que nombra el marco simbólico de la rama.
 
-**Verificación anti-ADR-044.** Antes de escribirlo se revisaron los nueve cursos publicados. El Curso 1 ya dice que la dirigente de Comunidad «acompaña a los nómadas a presentar un proyecto en la junta de acción comunal»; el Curso 5 ya da el marco como «la aventura hacia la ciudadanía… se nutre de las historias que la humanidad ha recogido»; el Curso 6 ya da la rama como «Comunidad — Nómadas (15–17), marco simbólico Aventura y Ciudadanía». **El hook concuerda con los tres.** El fallo del Curso 10 fue construir el hook sobre una afirmación falsa acerca del curso anterior; aquí la afirmación sobre el Curso 10 se verificó contra su JSON publicado.
+**Verificación anti-ADR-044.** Antes de escribirlo se revisaron los nueve cursos publicados. El Curso 1 ya dice que la dirigente de Comunidad «acompaña a los nómadas a presentar un proyecto en la junta de acción comunal»; el Curso 5 ya da el marco como «la aventura hacia la ciudadanía… se nutre de las historias que la humanidad ha recogido»; y el Curso 6 daba la rama como «Comunidad — Nómadas (15–17), marco simbólico **Aventura y Ciudadanía**» — nombre corto que **este mismo trabajo corrigió** al publicar (ver §4-ter). **El hook concuerda con los tres.** El fallo del Curso 10 fue construir el hook sobre una afirmación falsa acerca del curso anterior; aquí la afirmación sobre el Curso 10 se verificó contra su JSON publicado.
 
 **Dónde aparece:** literal en la L1 y recogido en el `mission-box` de la L8.
 
@@ -82,13 +82,13 @@ Al terminar, el adulto podrá:
 | # | Lección | Contenido | Fuente |
 |---|---|---|---|
 | **1** | 🏕️ Bienvenida a la Comunidad | Registro. Hook literal. Andrés llega de la Travesía. Qué es y qué no es este curso. Cómo se usa. | — |
-| **2** | 🧭 Qué cambia a los quince | Adolescencia tardía: los cinco comportamientos y los tres retos que la Guía nombra. Sección / Rama / Unidad. El rol del dirigente: facilitador y orientador, **no protagonista**. Un adulto por equipo más el Jefe de Unidad. | pp. 7–8; Modelo pp. 19, 22, 106 |
+| **2** | 🧭 Qué cambia a los quince | Adolescencia tardía: los cinco comportamientos y los tres retos que la Guía nombra. Sección / Rama / Unidad. Aviso de que la Guía llama **«Vida en Pequeños Grupos»** (p. 9) al elemento que el curso llama Sistema de Equipos. El rol del dirigente: facilitador y orientador, **no protagonista**. Un adulto por equipo más el Jefe de Unidad. | pp. 7–9; Modelo pp. 19, 22, 106 |
 | **3** | 🤝 La Ley y la Promesa del Nómada Scout | Los 10 artículos completos. **Las dos fórmulas** de la Promesa y por qué existe la alternativa. «Bajo ninguna circunstancia… una obligación». Educar en la Promesa es mostrar posibilidades, no señalar fallas. | pp. 10–11 |
-| **4** | 👥 Los Equipos y dónde se decide | Equipos de 3 a 6, **no permanentes**. Los cinco cargos (incluido el **Navegante**). Grupos de Trabajo temporales. Liderazgo rotativo, situacional y compartido. **Consejo de Equipo** y **Congreso de Comunidad**: los jóvenes con voz *y voto*, los dirigentes solo con voz. Los cuatro ámbitos de participación. | pp. 14–17 |
+| **4** | 👥 Los Equipos y dónde se decide | Equipos de 3 a 6, **no permanentes**. Los cinco cargos (incluido el **Navegante**), que según el tamaño pueden ser **de cada Equipo o de toda la Comunidad** (p. 14). Grupos de Trabajo temporales. Liderazgo rotativo, situacional y compartido. **Consejo de Equipo** y **Congreso de Comunidad**: los jóvenes con voz *y voto*, los dirigentes solo con voz. Los cuatro ámbitos de participación. | pp. 14–17 |
 | **5** | 🧭 La aventura hacia la ciudadanía | El marco simbólico **y** su ambiente de referencia, que no son lo mismo. La Aventura y la Ciudadanía como referentes. Apartidista: qué significa «comunidad política» aquí. Identidad: lema *Siempre Unidos*, Rosa de los Vientos, bandera azul, llamado en morse «N S». Las cinco ceremonias. | pp. 18–23 |
-| **6** | 🌍 Salir al territorio | Oportunidad de Aprendizaje vs. experiencia. **Aprender Haciendo y el estándar DURASLID** (los 8 criterios). La naturaleza como aula, también en la ciudad. Scouts por los ODS: Mensajeros de Paz y Tribu Tierra. Involucramiento comunitario: construir **con** la comunidad, no *para* ella. Los seis momentos de la travesía. La voz del joven. | pp. 12–13, 24–26, 38–41 |
-| **7** | 🎖️ Cómo crece un Nómada | Seis **Rumbos** y sus insignias. Tres niveles de desarrollo con sus colores. Las cuatro **fases** y su aritmética. Apoyar / Acompañar / Enlazar según el nivel. Las tres dimensiones del reconocimiento. | pp. 27–37 |
-| **8** | 🌄 Las dos orillas y tu primer paso | Llegar: la Travesía desde la Tropa, las dos insignias. Partir: los tres pasos hacia el Clan (Legado, Asentamiento, Ciudadanía) y la distinción **Ciudadano Scout**. Las cinco herramientas de la rama. Las dos reglas de entorno seguro del cap. 10. Enlace a A Salvo del Peligro. Misión. | pp. 37–38, 42–43, 47–48 |
+| **6** | 🌍 Salir al territorio | Oportunidad de Aprendizaje vs. experiencia. **Aprender Haciendo y el estándar DURASLID** (los 8 criterios). La naturaleza como aula, también en la ciudad. Scouts por los ODS: Mensajeros de Paz y Tribu Tierra. Involucramiento comunitario: construir **con** la comunidad, no *para* ella. Los seis momentos de la travesía —con aviso de que ahí «travesía» es el recorrido del proyecto, no la Travesía de rama—. La voz del joven. | pp. 12–13, 24–26, 38–41 |
+| **7** | 🎖️ Cómo crece un Nómada | Seis **Rumbos** y sus insignias. Tres niveles de desarrollo con sus colores. Las cuatro **fases** y su aritmética —con aviso de que «Caminante» sigue vigente como nombre de la primera fase, aunque ya no lo sea como nombre de la rama—. Apoyar / Acompañar / Enlazar según el nivel. Las tres dimensiones del reconocimiento. | pp. 27–37 |
+| **8** | 🌄 Las dos orillas y tu primer paso | Llegar: la Travesía desde la Tropa, las dos insignias. Partir: los tres pasos hacia el Clan (Legado, Asentamiento, Ciudadanía) y la distinción **Ciudadano Scout**. Las cinco herramientas de la rama. Las dos reglas de entorno seguro del cap. 10. Enlace a la ruta **«Me Pongo A Salvo del Peligro»** (formulario oficial). Misión. | pp. 37–38, 42–43, 47–48 |
 
 ---
 
@@ -99,11 +99,39 @@ Al contrastar el borrador con el plan de línea aparecieron dos desajustes en di
 - **Faltaba lo que el plan sí pide.** La fila del Curso 11 exige *«Aprender Haciendo + DURASLID»*, y el borrador lo mencionaba una sola vez, de pasada, dentro de un párrafo sobre otro tema. Se añadió a la **L6** la distinción entre *Oportunidad de Aprendizaje* (la acción externa) y *experiencia* (lo interno), y los ocho criterios DURASLID como estándar para diseñar **y** para evaluar.
 - **Sobraba lo que el plan no pide aquí.** La L8 desarrollaba el **Ciclo de Programa en sus cuatro momentos**, que es materia del **Curso 15 (Ciclo de Programa con ABP)**, transversal a todas las ramas. Se dejó solo lo propio de la Comunidad —que dura de tres a seis meses y lo deciden los jóvenes— y un enlace al Curso 15. Es el mismo trato que este curso ya le da al Curso 25 y a la línea Transversales.
 
-**Duración: 50 minutos.** Medido con un contador único sobre los cuatro cursos de rama, este queda en **6.829 palabras** frente a 5.821 (Familia), 5.658 (Tropa) y 4.144 (Manada). A 45 minutos declararía **152 palabras/minuto**, muy por encima de las 126–129 de sus hermanos; a 50 declara **137**. Se aplica el mismo criterio del **ADR-045**: se declara el piso honesto, no el número cómodo, porque *«prometer una duración que no se cumple destruye la confianza en el resto de la ruta»*. **Es el curso más largo de la plataforma y el segundo salto sobre el tope de 40 del CHECKLIST**, y por eso queda escrito aquí y en su propio ADR.
+**Duración: 55 minutos.** Medido con un contador único sobre los cuatro cursos de rama, este queda en **7.150 palabras** frente a 5.821 (Familia), 5.658 (Tropa) y 4.144 (Manada). A 45 minutos declararía **159 palabras/minuto**, muy por encima de las 126–129 de sus hermanos; a 55 declara **130**, que es exactamente su ritmo. La cifra subió dos veces durante la construcción —de 45 a 50 al terminar el borrador, y de 50 a 55 cuando las correcciones de la auditoría doctrinal añadieron 321 palabras obligatorias—: **el piso honesto se recalcula cuando el contenido cambia, no se fija al principio**. Se aplica el mismo criterio del **ADR-045**: se declara el piso honesto, no el número cómodo, porque *«prometer una duración que no se cumple destruye la confianza en el resto de la ruta»*. **Es el curso más largo de la plataforma y el tercero que excede el tope de 40 del CHECKLIST** —tras los Cursos 9 y 10, ambos en 45—, y por eso queda escrito aquí y en el **ADR-047**, que además regulariza los 45 del Curso 10, publicados sin ADR propio.
 
-**Deuda registrada, no aplicada:** la **L8** (1.139 palabras, ~7,1 min) y la **L6** (1.041, ~6,5 min) están en el borde alto de la banda de 3–8 min. Si alguna vez se parte la L8, el corte limpio separa **llegar** (la Travesía desde la Tropa) de **partir y administrar** (los tres pasos hacia el Clan más las herramientas). No se parte ahora porque exigiría dos preguntas de quiz que ninguna auditoría ha visto — mismo criterio con el que se resolvieron los Cursos 9 y 10.
+**Deuda registrada, no aplicada:** la **L8** (1.159 palabras, ~7,2 min), la **L6** (1.076, ~6,7 min) y la **L4** (1.013, ~6,3 min) están en el borde alto de la banda de 3–8 min. Si alguna vez se parte la L8, el corte limpio separa **llegar** (la Travesía desde la Tropa) de **partir y administrar** (los tres pasos hacia el Clan más las herramientas). No se parte ahora porque exigiría dos preguntas de quiz que ninguna auditoría ha visto — mismo criterio con el que se resolvieron los Cursos 9 y 10.
 
 ---
+
+---
+
+## 4-ter. El colateral: los marcos simbólicos de toda la línea
+
+Construir este curso destapó un defecto que **no era suyo**. La auditoría señaló que dos cursos publicados abreviaban el marco de Comunidad como «Aventura y Ciudadanía»; al ir a barrerlo apareció que el problema era de las **cinco ramas**, y del mismo tipo que el crítico C1 del Curso 9: **confundir el marco simbólico con el fondo motivador**.
+
+Lo que dicen las fuentes, verificado una por una:
+
+| Rama | Marco simbólico | Fondo motivador / ambiente | Fuente |
+|---|---|---|---|
+| Familia | **La Fantasía** | Libro de las Tierras Vírgenes · Relatos Infantiles | Guía de Familia §6.1, p. 35 |
+| Manada | **La Fantasía** | Libro de las Tierras Vírgenes · Relatos fantásticos | Guía de Manada §6.9, p. 30 |
+| Tropa | *sin fuente vigente que lo enuncie* | — | Guía de Tropa (lo invoca, p. 8, sin definirlo) |
+| Comunidad | **La aventura hacia la ciudadanía** | Historias de la Humanidad | Guía de Comunidad, p. 19 |
+| Clan | **La Ciudadanía Activa** | — | Guía de Clan §6.1, p. 28 |
+
+**El hallazgo que más importa: Familia y Manada tienen el mismo marco simbólico.** Las distingue el **ambiente de referencia**, no el marco — y las dos comparten incluso el fondo motivador (*Guía de Manada* §6.10, p. 31: *«compartimos con la Familia de Cachorros, el Libro de las Tierras Vírgenes como fondo motivador»*). La plataforma venía tratando el marco como si fuera el rasgo que separa a cada rama de las demás, y no lo es.
+
+**Aplicado:** las tarjetas de rama de los Cursos 1 y 6, el glosario del plan de línea y las filas de los Cursos 8, 9 y 12 del plan. `GLOSARIO-ASC.md` llegó a **v1.12** con esto.
+
+**NO aplicado, y es decisión del dueño** — porque toca mecánica de evaluación y un certificado ya emitido:
+
+1. **Curso 1, quiz L4 P1**, opción correcta: *«Seisenas, bajo el marco simbólico del Libro de las Tierras Vírgenes»*.
+2. **Curso 6, quiz L3 P1**: pregunta *«¿bajo qué marco simbólico va a jugar?»* y ofrece Manada y Familia como opciones distintas. **Con la doctrina correcta la pregunta no tiene respuesta única**, porque las dos ramas comparten marco. No es una errata: es una pregunta que hay que rehacer.
+3. **Curso 8, texto del certificado**: *«reconociendo el marco simbólico de El Libro de las Tierras Vírgenes»*. Cambiarlo solo afecta a los certificados **futuros** (ADR-028), pero es el precedente del **ADR-043**: lo que toca un certificado lo decide el dueño.
+
+Lo recomendado: pasar `/auditar-curso` a los **Cursos 1, 6 y 8**, que es donde vive el defecto, en vez de parchear tres cadenas.
 
 ## 5. Logros
 
