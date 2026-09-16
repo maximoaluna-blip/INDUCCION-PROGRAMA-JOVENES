@@ -45,7 +45,7 @@ Ninguna se inventa ni se esconde. Se resuelven con criterio explícito, y las qu
 | Duración declarada | **60 minutos** — ver §4-bis y el **ADR-047**. Es el curso más extenso de la plataforma |
 | Módulos | 8 (1 de registro + **7 de contenido**) |
 | Destinatario | Dirigentes de Comunidad y quienes van a abrir una |
-| `contentVersion` | 2026-09-15 |
+| `contentVersion` | 2026-09-16 |
 
 ---
 
@@ -147,7 +147,7 @@ Informe del `auditor-pedagogico-asc` (16-sep-2026) — veredicto **APTO CON MEJO
 | H4 | L6, `method-grid` de ODS | Catálogo de once nombres propios sin anclaje → **dos puertas** (convivencia / entorno) más los dos reconocimientos, y un párrafo que dice que no hay que conocerlos todos hoy. |
 | H5 | L3, reflexión | Resolvía el caso que el quiz P1 evalúa dos pantallas después. Ahora trabaja la fórmula literal y la frase con la que se invita a un Nómada concreto. |
 | H6 | L7 | Párrafo puente antes de «Las cuatro fases»: en la Tropa se recorrían **en fila**; aquí la fase **se lee** mirando el conjunto de los seis Rumbos. |
-| H7 | L1, info-box de duración | Los ~55 minutos se declaran como **lectura y quizzes**, más 15–20 si se escriben las reflexiones. **El campo `duration` no se tocó** — sigue vigente el ADR-047. |
+| H7 | L1, info-box de duración | Los **~60 minutos** se declaran como **lectura y quizzes**, más 15–20 si se escriben las reflexiones. *(El corrector lo aplicó sobre 55 y dejó el campo `duration` intacto, como se le pidió; la subida a 60 la hizo después el agente principal, al remedir el curso ya corregido — ver §4-bis y el **ADR-047**.)* |
 | H8 | L8 | `info-box` nuevo: la ruta se teje hacia el **Curso 12 (Rama Clan)**, que es la orilla a la que la lección dedica media página y que el curso nunca nombraba. |
 | H9 | L6, info-box DURASLID | El acrónimo entraba y no se usaba. Cierra con un uso mínimo —dos preguntas a un Equipo al terminar la próxima actividad— en vez de una frase de resumen. |
 | H10 | L1 + logros | Los objetivos dejan la frase corrida de ~90 palabras y pasan a ocho ítems en `course-objectives`; `achievement-2` deja de prometer memorización («Digo la Ley y las dos Promesas» → «Sé por qué hay dos Promesas»), porque ninguna pregunta evalúa los diez artículos. |
