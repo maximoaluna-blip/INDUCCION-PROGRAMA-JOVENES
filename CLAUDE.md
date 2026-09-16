@@ -32,6 +32,6 @@ Es la única con las **3 auditorías** (doctrinal `/auditar-curso`, pedagógica 
 
 ## Estado
 
-11 cursos activos: Nivel 1 "Fundamentación" completo (7 cursos) + Nivel 2 con 4 de sus 8: el **Curso 8 (Rama Manada)**, el **Curso 9 (Rama Familia)**, el **Curso 10 (Rama Tropa Scout)** y el **Curso 11 (Rama Comunidad · Nómadas Scout)**, publicado el 16-sep-2026 con las tres auditorías. Solo falta **Clan** para cerrar las cinco ramas. El menú (`index.html`) agrupa por nivel con chips de navegación. Plan total 25 cursos.
+12 cursos activos: Nivel 1 "Fundamentación" completo (7 cursos) + Nivel 2 con 5 de sus 8: el **Curso 8 (Rama Manada)**, el **Curso 9 (Rama Familia)**, el **Curso 10 (Rama Tropa Scout)**, el **Curso 11 (Rama Comunidad · Nómadas Scout)** y el **Curso 12 (Rama Clan · Rovers)**, los dos del 16-sep-2026 y los dos con las tres auditorías. **Las cinco ramas están cerradas.** El Curso 12 es además **el más largo de la plataforma** (65 min). El menú (`index.html`) agrupa por nivel con chips de navegación. Plan total 25 cursos.
 
 > **Rama Manada es el Curso 8 — decidido el 15-sep-2026 (ADR-043).** En el Nivel 2 el número sigue al **orden de publicación**, no a la edad de la rama: Manada se publicó como Curso 8 y su certificado lo dice, así que **Rama Familia es el 9**. Tropa 10, Comunidad 11, Clan 12. Aun así, **cita por `courseId`**: es lo único que no se ha movido nunca.

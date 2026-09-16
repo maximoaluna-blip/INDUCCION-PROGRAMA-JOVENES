@@ -5,7 +5,7 @@
   "description": "El último curso de rama, y el único cuyos protagonistas son mayores de edad. Vas a acompañar a Sebastián desde el día que llega al Clan hasta su Partida Rover, y a entender el cambio que define esta rama: aquí tu trabajo es volverte innecesario.",
   "contentVersion": "2026-09-16",
   "icon": "🏔️",
-  "duration": "60 minutos",
+  "duration": "65 minutos",
   "level": 2,
   "levelName": "Profundización por rama y práctica pedagógica",
   "order": 12,
@@ -20,13 +20,13 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~60 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Es el curso más largo de la plataforma, y no hace falta hacerlo de una sentada: cada lección cierra sola y tu avance se guarda."
+          "text": "⏱️ <strong>~60 minutos de lectura y quizzes</strong> — y unos 20 a 30 más si escribes las reflexiones, que es donde de verdad se aprende. Es de los más largos de la plataforma, y no hace falta hacerlo de una sentada: cada lección cierra sola y tu avance se guarda."
         },
         {
           "type": "course-objectives",
           "items": [
             "<strong>Explicar</strong> qué cambia cuando el protagonista ya es mayor de edad.",
-            "<strong>Decir</strong> la Ley del Rover y las dos fórmulas de su Promesa, y usar la Ley para conversar, no para juzgar.",
+            "<strong>Usar</strong> la Ley del Rover para conversar y no para juzgar, y saber que su Promesa tiene dos fórmulas oficiales y cuándo ofrecer cada una.",
             "<strong>Hacer funcionar</strong> el gobierno del Clan: Consejo, Comité y carta constitutiva.",
             "<strong>Usar</strong> el marco simbólico de la Ciudadanía Activa sin reducir el referente de inspiración a uno solo.",
             "<strong>Acompañar</strong> un PARCE por sus cuatro fases, con sus tiempos y sus insignias.",
@@ -65,7 +65,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La Guía describe la sección de <strong>Jóvenes Adultos, 18 a 20 años</strong>, como el tramo que *«busca acompañar a los jóvenes en su transición hacia la vida adulta»*. Y cuando detalla su desarrollo, la columna de los 20 años dice cosas como «máximo desarrollo», «autonomía plena», «identidad muy consolidada». No queda mucho que madurar: queda mucho que decidir."
+          "text": "La Guía describe la sección de <strong>Jóvenes Adultos, 18 a 20 años</strong>, como el tramo que <em>«busca acompañar a los jóvenes en su transición hacia la vida adulta»</em>. Y cuando detalla su desarrollo, la columna de los 20 años dice cosas como «máximo desarrollo», «autonomía plena», «identidad muy consolidada». No queda mucho que madurar: queda mucho que decidir."
         },
         {
           "type": "heading",
@@ -90,7 +90,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Las dos mitades de esa frase importan igual. <strong>Se desvanece:</strong> cada mes deberías estar haciendo menos. <strong>Es permanente:</strong> no desaparecer no es lo mismo que no intervenir. La Guía lo dice de otro modo más adelante — *«la presencia del dirigente se vuelve más sutil, permitiendo que sean los jóvenes quienes busquen apoyo»*. La iniciativa del contacto cambia de dueño."
+          "text": "Las dos mitades de esa frase importan igual. <strong>Se desvanece:</strong> cada mes deberías estar haciendo menos. <strong>Es permanente:</strong> no desaparecer no es lo mismo que no intervenir. La Guía lo dice de otro modo más adelante — <em>«la presencia del dirigente se vuelve más sutil, permitiendo que sean los jóvenes quienes busquen apoyo»</em>. La iniciativa del contacto cambia de dueño."
         },
         {
           "type": "method-grid",
@@ -128,8 +128,8 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "<strong>Egreso del Movimiento:</strong> la Guía fija la edad máxima *«hasta los 20 años»*.",
-            "<strong>Insignia máxima (BP):</strong> se entrega solo a quien tenga *«una edad no superior a los 20 años y 8 meses al momento de la solicitud»*.",
+            "<strong>Egreso del Movimiento:</strong> la Guía fija la edad máxima <em>«hasta los 20 años»</em>.",
+            "<strong>Insignia máxima (BP):</strong> se entrega solo a quien tenga <em>«una edad no superior a los 20 años y 8 meses al momento de la solicitud»</em>.",
             "<strong>Partida Rover:</strong> puede hacerse hasta los <strong>21 años y 2 meses</strong> como máximo."
           ]
         },
@@ -159,11 +159,11 @@
             "correctIndex": 1
           },
           {
-            "text": "Camilo cumple 20 años y 6 meses, alcanzó la fase de Rover Transformador y quiere su insignia máxima. ¿Qué es lo primero que miras?",
+            "text": "Camilo cumplió 20 años en marzo y alcanzó la fase de Rover Transformador. El Clan quiere trabajar con calma su insignia máxima BP y presentar la solicitud a comienzos del año entrante. ¿Qué les dices?",
             "options": [
-              "El proyecto de servicio que haya sostenido, porque el BP reconoce su impacto comunitario.",
-              "El calendario: el BP no se entrega a quien pase de 20 años y 8 meses al momento de la solicitud.",
-              "Su asistencia del último año, porque la insignia máxima exige constancia demostrada."
+              "Le das plazo hasta marzo, cuando cumpla 21: es el tope para tramitar la insignia máxima.",
+              "Cuentas ocho meses desde marzo: la solicitud tiene que estar antes de noviembre.",
+              "Lo dejas al ritmo del Clan: el PARCE es personalizado y no hay fecha que corra."
             ],
             "correctIndex": 1
           }
@@ -188,7 +188,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Y la Guía dice exactamente qué hacer con ella: *«Cuando algo no sale bien, no se usa para juzgar, sino para conversar, para reflexionar juntos: ¿Qué aprendimos de esta experiencia?, ¿Cómo podríamos actuar distinto la próxima vez?»*. A los diecinueve años eso no es blandura: es la única forma en que un adulto acepta que le hablen de su conducta."
+          "text": "Y la Guía dice exactamente qué hacer con ella: <em>«Cuando algo no sale bien, no se usa para juzgar, sino para conversar, para reflexionar juntos: ¿Qué aprendimos de esta experiencia?, ¿Cómo podríamos actuar distinto la próxima vez?»</em>. A los diecinueve años eso no es blandura: es la única forma en que un adulto acepta que le hablen de su conducta."
         },
         {
           "type": "heading",
@@ -213,7 +213,7 @@
         },
         {
           "type": "info-box",
-          "text": "📖 <strong>Es la misma Ley, dicha con otro sujeto.</strong> Como ya viste en el Curso 5, cada rama la formula con el lenguaje de su edad: la Ley del Cachorro, la de la Manada, la Ley Scout, la del Nómada Scout y, aquí, la del Rover. Si comparas el artículo 4 con el que enseña Comunidad vas a ver una palabra distinta —allá dice «etnia», aquí «raza»—: cada Guía imprime el texto de su rama y **no se corrige por cuenta propia**, porque es texto ritual."
+          "text": "📖 <strong>Es la misma Ley, dicha con otro sujeto.</strong> Como ya viste en el Curso 5, cada rama la formula con el lenguaje de su edad: la Ley del Cachorro, la de la Manada, la Ley Scout, la del Nómada Scout y, aquí, la del Rover. Si comparas el artículo 4 con el que enseña Comunidad vas a ver una palabra distinta —allá dice «etnia», aquí «raza»—: cada Guía imprime el texto de su rama y <strong>no se corrige por cuenta propia</strong>, porque es texto ritual."
         },
         {
           "type": "heading",
@@ -222,11 +222,13 @@
         },
         {
           "type": "paragraph",
-          "text": "Igual que en Familia y en Comunidad, la Guía recoge primero la fórmula tradicional: <em>«Por mi honor y con la gracia de Dios, prometo hacer todo cuánto de mí dependa para cumplir mis deberes para con Dios y con la patria, ayudar al prójimo en toda circunstancia y cumplir fielmente la ley Scout»</em>."
+          "text": "Igual que en Familia y en Comunidad, la Guía recoge primero la fórmula tradicional y ofrece a continuación una alternativa que <strong>mantiene los mismos pilares</strong>. Lo que cambia son dos tramos: donde una dice «con la gracia de Dios» y «mis deberes para con Dios y con la patria», la otra dice «mis deberes para conmigo, para con los demás y para con mi espiritualidad». El honor, el prójimo y la Ley están en las dos. Y las dos son oficiales: si quieres el texto exacto, ábrelo aquí."
         },
         {
-          "type": "paragraph",
-          "text": "Y ofrece a continuación una alternativa que <strong>mantiene los mismos pilares</strong>: <em>«Por mi honor prometo hacer todo cuanto de mí dependa para cumplir mis deberes para conmigo, para con los demás y para con mi espiritualidad, ayudando a mi prójimo en toda circunstancia y cumpliendo fielmente la Ley Scout»</em>."
+          "type": "policy-quote",
+          "label": "📋 Las dos fórmulas, palabra por palabra",
+          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 3, p. 19 del PDF.",
+          "text": "<strong>Fórmula tradicional.</strong> «Por mi honor y con la gracia de Dios, prometo hacer todo cuánto de mí dependa para cumplir mis deberes para con Dios y con la patria, ayudar al prójimo en toda circunstancia y cumplir fielmente la ley Scout»<br><br><strong>Alternativa.</strong> «Por mi honor prometo hacer todo cuanto de mí dependa para cumplir mis deberes para conmigo, para con los demás y para con mi espiritualidad, ayudando a mi prójimo en toda circunstancia y cumpliendo fielmente la Ley Scout»"
         },
         {
           "type": "policy-quote",
@@ -236,11 +238,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Hay algo que solo pasa en esta rama: aquí la Promesa casi nunca es la primera. Sebastián ya la hizo en la Tropa y la renovó en la Comunidad. Lo que ocurre en el Clan es una <strong>renovación</strong> — y la Guía explica por qué no es repetir: *«Nunca una promesa se pronuncia ante las mismas personas, en el mismo lugar o por las mismas razones»*."
+          "text": "Hay algo que solo pasa en esta rama: aquí la Promesa casi nunca es la primera. Sebastián ya la hizo en la Tropa y la renovó en la Comunidad. Lo que ocurre en el Clan es una <strong>renovación</strong> — y la Guía explica por qué no es repetir: <em>«Nunca una promesa se pronuncia ante las mismas personas, en el mismo lugar o por las mismas razones»</em>."
         },
         {
           "type": "info-box",
-          "text": "💡 <strong>Quién juzga si se cumple.</strong> *«Nadie más que el propio jóven será quien, en su diario vivir, reflexione sobre el cumplimiento de su Promesa.»* Tu papel no es evaluarla. La Guía propone algo mucho más útil: que cada artículo de la Ley se convierta en <strong>una pregunta</strong> que el Rover se hace sobre su universidad, su trabajo y su casa."
+          "text": "💡 <strong>Quién juzga si se cumple.</strong> <em>«Nadie más que el propio jóven será quien, en su diario vivir, reflexione sobre el cumplimiento de su Promesa.»</em> Tu papel no es evaluarla. La Guía propone algo mucho más útil: que cada artículo de la Ley se convierta en <strong>una pregunta</strong> que el Rover se hace sobre su universidad, su trabajo y su casa."
         }
       ],
       "reflection": {
@@ -284,7 +286,7 @@
         {
           "type": "policy-quote",
           "label": "📋 Qué es el Consejo de Clan",
-          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 5, p. 25 del PDF.",
+          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 5, p. 26 del PDF.",
           "text": "Es el órgano de gobierno de la rama, a través del cual se efectúa el proceso de toma de decisiones frente a todos los temas que son de interés del clan."
         },
         {
@@ -294,7 +296,7 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "Las siete funciones del Consejo"
+          "text": "Las ocho funciones del Consejo"
         },
         {
           "type": "list",
@@ -306,12 +308,13 @@
             "Planificar y evaluar las actividades <strong>junto con el Jefe</strong>.",
             "Velar por el cumplimiento de los valores de la Ley y la Promesa.",
             "Definir los objetivos del año.",
-            "Elegir cada año al <strong>Comité de Clan</strong> y al Rover que irá al <strong>Consejo de Grupo</strong>."
+            "Elegir cada año al <strong>Comité de Clan</strong>, mediante ejercicios democráticos.",
+            "Elegir cada año al Rover que va al <strong>Consejo de Grupo</strong>."
           ]
         },
         {
           "type": "info-box",
-          "text": "📜 <strong>La carta constitutiva es la pieza clave, y casi nadie la usa.</strong> Es el documento donde el Clan escribe sus propios acuerdos: cómo se entra, cómo se decide, qué símbolos usa, quién porta el cuerno. La Guía la nombra como <strong>elemento de identidad</strong> de la rama, no como papeleo: *«oportunidad de aprendizaje mediante el ejercicio político en la toma de decisiones»*. Un Clan sin carta constitutiva se gobierna por costumbre — y la costumbre siempre favorece a los que llevan más tiempo."
+          "text": "📜 <strong>La carta constitutiva es la pieza clave, y casi nadie la usa.</strong> Es el documento donde el Clan escribe sus propios acuerdos: cómo se entra, cómo se decide, qué símbolos usa, quién porta el cuerno. La Guía la nombra como <strong>elemento de identidad</strong> de la rama, no como papeleo: <em>«oportunidad de aprendizaje mediante el ejercicio político en la toma de decisiones»</em>. Un Clan sin carta constitutiva se gobierna por costumbre — y la costumbre siempre favorece a los que llevan más tiempo."
         },
         {
           "type": "heading",
@@ -320,7 +323,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El Consejo elige cada año, <strong>mediante ejercicios democráticos</strong>, un Comité con los cargos que le sirvan: la Guía sugiere presidente, vicepresidente, secretario, tesorero, comunicador y coordinador de proyectos, *«y los cargos permanentes o variables que el clan defina»*. La lista no es cerrada: es una propuesta."
+          "text": "El Consejo elige cada año, <strong>mediante ejercicios democráticos</strong>, un Comité con los cargos que le sirvan: la Guía sugiere presidente, vicepresidente, secretario, tesorero, comunicador y coordinador de proyectos, <em>«y los cargos permanentes o variables que el clan defina»</em>. La lista no es cerrada: es una propuesta."
         },
         {
           "type": "heading",
@@ -344,7 +347,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La Guía lista una docena de espacios donde un Rover puede incidir fuera de su unidad: Asamblea y Consejo de Grupo, Asamblea Regional Rover, los Núcleos Coordinadores de la Red de Jóvenes regional y nacional, las asambleas y consejos Scout regionales y nacionales, y las instancias internacionales. Y uno que no es scout: el <strong>Sistema Nacional de Juventudes</strong>, donde <em>«todo joven entre los 14 hasta los 28 años puede participar, elegir y ser elegido»</em> en los consejos de juventud locales, municipales y departamentales."
+          "text": "La Guía lista una docena de espacios donde un Rover puede incidir fuera de su unidad: Asamblea y Consejo de Grupo, Asamblea Regional y Nacional Rover, los Núcleos Coordinadores de la Red de Jóvenes regional y nacional, las asambleas y consejos Scout regionales y nacionales, el Consejo Municipal de Juventudes y las instancias internacionales. Y ese Consejo Municipal es el que no es scout: es del <strong>Sistema Nacional de Juventudes</strong>, donde <em>«todo joven entre los 14 hasta los 28 años puede participar, elegir y ser elegido»</em> en los consejos de juventud locales, municipales y departamentales."
         },
         {
           "type": "info-box",
@@ -352,7 +355,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Averigua si tu Clan tiene carta constitutiva. Si la tiene, léela y escribe una cosa que esté desactualizada. Si no la tiene, escribe las tres primeras preguntas que llevarías al próximo Consejo para empezar a redactarla — por ejemplo, cómo se decide cuando no hay acuerdo, o quién porta el cuerno. Tres preguntas, no tres respuestas."
+        "prompt": "Escribe las tres primeras preguntas que llevarías al próximo Consejo para empezar a redactar la carta constitutiva de tu Clan — por ejemplo, cómo se decide cuando no hay acuerdo, o quién porta el cuerno. Tres preguntas, no tres respuestas. Y si resulta que tu Clan ya tiene carta constitutiva, entonces léela y escribe en su lugar una cosa que esté desactualizada."
       },
       "quiz": {
         "title": "Mini-quiz Lección 4",
@@ -397,7 +400,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Fíjate en la diferencia con las otras cuatro ramas. En Familia y Manada el marco es <strong>La Fantasía</strong>; en Comunidad, <strong>la aventura hacia la ciudadanía</strong>. Los tres son mundos donde algo <em>ocurre</em>. Aquí el marco es un <strong>ejercicio</strong>: algo que se hace. Es el final del recorrido — el Nómada caminaba <em>hacia</em> la ciudadanía; el Rover la ejerce."
+          "text": "Fíjate en la diferencia con las otras ramas. En Familia y Manada el marco es <strong>La Fantasía</strong>; en Comunidad, <strong>la aventura hacia la ciudadanía</strong>. Los dos son mundos donde algo <em>ocurre</em>. Aquí el marco es un <strong>ejercicio</strong>: algo que se hace. Es el final del recorrido — el Nómada caminaba <em>hacia</em> la ciudadanía; el Rover la ejerce."
         },
         {
           "type": "policy-quote",
@@ -407,7 +410,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Una sola línea, y es toda la identidad de la rama. Por eso el lema del Rover es <strong>«Servir»</strong> — que la Guía describe no como una consigna sino como *«una actitud permanente de vida»*."
+          "text": "Una sola línea, y es toda la identidad de la rama. Por eso el lema del Rover es <strong>«Servir»</strong> — que la Guía describe no como una consigna sino como <em>«una actitud permanente de vida»</em>."
         },
         {
           "type": "heading",
@@ -464,18 +467,18 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe el nombre de un Rover de tu unidad y, al lado, un referente de inspiración que le quede a él o a ella — de los nueve que propone la Guía o cualquier otro. Después las tres preguntas: qué esencia tiene hoy, a qué invita, cómo se haría visible en la vida de tu Clan. Si te sale más fácil con Saulo de Tarso que con ese Rover concreto, vuelve a empezar."
+        "prompt": "Escribe el nombre de un Rover de tu unidad y, al lado, un referente de inspiración que le quede a él o a ella — de los nueve que propone la Guía o cualquier otro. Después las tres preguntas: qué esencia tiene hoy, a qué invita, cómo se haría visible en la vida de tu Clan. Si te sale más fácil con Saulo de Tarso que con ese Rover concreto, vuelve a empezar. Si todavía no tienes Clan, usa el nombre del Nómada de tu Grupo que esté más cerca de cumplir los dieciocho."
       },
       "quiz": {
         "title": "Mini-quiz Lección 5",
         "nextLabel": "Continuar al territorio 🌍",
         "questions": [
           {
-            "text": "Un dirigente nuevo te dice: «el marco simbólico del Clan es la historia de Saulo de Tarso, ¿no?». ¿Cómo lo corriges?",
+            "text": "Un dirigente nuevo llega a tu Clan y te propone abrir el año con «la semana de Saulo de Tarso, que es nuestro marco simbólico». ¿Qué le propones en cambio?",
             "options": [
-              "Le dices que el marco es el ejercicio de la Ciudadanía Activa; Saulo es un referente de inspiración, y ni siquiera el único.",
-              "Le dices que en esta rama el marco simbólico no está definido y que cada Clan lo redacta en su carta constitutiva.",
-              "Le dices que sí, siempre que se entienda en sentido amplio como una historia de conversión y de cambio personal."
+              "Una semana de servicio en el barrio: el marco es la Ciudadanía Activa, y se materializa sirviendo.",
+              "Una semana sobre los símbolos —canoa, cuerno, horquilla—, que es lo que de verdad identifica al Clan.",
+              "La misma semana, pero abierta a otros referentes además de Saulo, para que nadie quede fuera."
             ],
             "correctIndex": 0
           },
@@ -503,7 +506,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La Guía lo dice sin rodeos: *«El verdadero valor del proceso educativo radica en cómo ese aprendizaje se convierte en acción significativa al servicio de la comunidad»*. Y añade lo que salva a un dirigente de la frustración: esa acción *«puede traducirse en experiencias exitosas o fallidas, pero que derivan siempre en nuevas oportunidades de aprendizaje»*."
+          "text": "La Guía lo dice sin rodeos: <em>«El verdadero valor del proceso educativo radica en cómo ese aprendizaje se convierte en acción significativa al servicio de la comunidad»</em>. Y añade lo que salva a un dirigente de la frustración: esa acción <em>«puede traducirse en experiencias exitosas o fallidas, pero que derivan siempre en nuevas oportunidades de aprendizaje»</em>."
         },
         {
           "type": "heading",
@@ -515,12 +518,12 @@
           "text": "📏 <strong>DURASLID.</strong> Una buena Oportunidad de Aprendizaje es <strong>D</strong>esafiante (retos reales que exijan autonomía y liderazgo), <strong>Ú</strong>til (aplicable a su vida cotidiana y profesional), <strong>R</strong>ecompensante (con resultados tangibles y reconocimiento público), <strong>A</strong>tractiva (alineada con sus intereses reales), <strong>S</strong>egura (protección física y emocional), <strong>L</strong>údica (sí, también a los veinte), <strong>I</strong>ncluyente y <strong>D</strong>iversa."
         },
         {
-          "type": "info-box",
-          "text": "⚠️ <strong>Tu Guía lo escribe al revés, y no es un error tuyo.</strong> La Guía de Clan escribe <strong>DURALSID</strong>, cambiando de sitio la L y la S. Las Guías de Familia, Manada y Comunidad —y todos los cursos de esta plataforma— escriben <strong>DURASLID</strong>. Son <strong>los mismos ocho criterios</strong>: solo cambia el orden de dos letras en la sigla. Usa el que quieras; solo no creas que son dos cosas."
+          "type": "paragraph",
+          "text": "Para Rovers, la Guía aterriza cada criterio: desafiante significa <em>«expediciones de alta exigencia, la coordinación de proyectos comunitarios o la gestión de iniciativas sostenibles con impacto real»</em>; recompensante incluye <em>«reconocer públicamente sus avances»</em>; y lúdica sigue valiendo, porque <em>«aunque más maduros, los jóvenes necesitan actividades con espíritu de juego»</em>."
         },
         {
-          "type": "paragraph",
-          "text": "Para Rovers, la Guía aterriza cada criterio: desafiante significa *«expediciones de alta exigencia, la coordinación de proyectos comunitarios o la gestión de iniciativas sostenibles con impacto real»*; recompensante incluye *«reconocer públicamente sus avances»*; y lúdica sigue valiendo, porque *«aunque más maduros, los jóvenes necesitan actividades con espíritu de juego»*."
+          "type": "info-box",
+          "text": "📝 <strong>Nota de lectura.</strong> Cuando abras tu Guía de Clan vas a ver la sigla escrita <strong>DURALSID</strong>, con la L y la S cambiadas de sitio. Son los mismos ocho criterios: las Guías de Familia, Manada y Comunidad —y toda esta plataforma— escriben DURASLID. No busques un noveno."
         },
         {
           "type": "heading",
@@ -529,7 +532,7 @@
         },
         {
           "type": "paragraph",
-          "text": "En esta rama la naturaleza deja de ser escenario y se vuelve, dice la Guía, un <strong>«aula viva»</strong> donde las cosas *«se traducen en decisiones concretas: planear rutas, gestionar riesgos, cooperar, servir y evaluar impactos»*. Fíjate en el verbo: <strong>gestionar riesgos</strong>. A los diecinueve años, la salida la planean ellos — y tú respondes de que ese plan exista."
+          "text": "En esta rama la naturaleza deja de ser escenario y se vuelve, dice la Guía, un <strong>«aula viva»</strong> donde las cosas <em>«se traducen en decisiones concretas: planear rutas, gestionar riesgos, cooperar, servir y evaluar impactos»</em>. Fíjate en el verbo: <strong>gestionar riesgos</strong>. A los diecinueve años, la salida la planean ellos — y tú respondes de que ese plan exista."
         },
         {
           "type": "heading",
@@ -538,7 +541,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Es el marco que conecta los proyectos del Clan con la Agenda 2030. Si vienes del Curso 11, ahí viste <strong>dos</strong> iniciativas; esta Guía describe <strong>cuatro</strong>. No te lo estás inventando: el marco creció, y estas son las que tu fuente detalla."
+          "text": "Es el marco que conecta los proyectos del Clan con la Agenda 2030. Si vienes del Curso 11, allá viste <strong>dos</strong> iniciativas; aquí vas a ver <strong>cuatro</strong>. No te estás equivocando: el marco creció, y tu Guía de Clan describe estas cuatro."
         },
         {
           "type": "method-grid",
@@ -570,8 +573,12 @@
           ]
         },
         {
+          "type": "info-box",
+          "text": "📝 <strong>Nota de lectura.</strong> Tu Guía anuncia «seis iniciativas» y a continuación describe cuatro. Enseñamos las cuatro que sí detalla; si algún día aparece la lista completa, actualizamos."
+        },
+        {
           "type": "paragraph",
-          "text": "La Guía pide además que los proyectos se formulen <em>«con metas SMART, alianzas comunitarias y auto-evaluaciones por competencias»</em>, de modo que *«cada campamento o salida deja huella medible en personas y territorio»*. No tienes que conocerte los trece desafíos: te basta saber por cuál de las cuatro puertas entra el proyecto que tu Clan ya tiene en la cabeza."
+          "text": "La Guía pide además que los proyectos se formulen <em>«con metas SMART, alianzas comunitarias y auto-evaluaciones por competencias»</em>, de modo que <em>«cada campamento o salida deja huella medible en personas y territorio»</em>. No tienes que conocerte los trece desafíos: te basta saber por cuál de las cuatro puertas entra el proyecto que tu Clan ya tiene en la cabeza."
         }
       ],
       "reflection": {
@@ -582,7 +589,7 @@
         "nextLabel": "Continuar al PARCE 🛶",
         "questions": [
           {
-            "text": "Tu Clan lleva tres sábados haciendo juegos de salón porque «es lo que alcanza el tiempo». Dos Rovers ya dejaron de venir. ¿Qué revisas primero?",
+            "text": "Tu Clan lleva tres sábados haciendo juegos de salón porque «es lo que alcanza el tiempo». Dejaron de venir dos Rovers — y son los dos que nunca faltaban, los que llevaban el proyecto del barrio. ¿Qué revisas primero?",
             "options": [
               "El horario de las reuniones, porque a esa edad el trabajo y la universidad compiten por el sábado.",
               "Si las actividades son desafiantes: a los veinte, lo que no exige autonomía ni deja algo hecho se abandona.",
@@ -614,11 +621,11 @@
         },
         {
           "type": "paragraph",
-          "text": "<strong>PARCE</strong> significa <strong>Proceso Autónomo del Rover en Competencias para su Evolución</strong>, y es la progresión personal de la rama. La Guía lo describe con la imagen que da nombre a la canoa: el Rover lo co-construye *«como dueño de la canoa que rema»*, y define hacia dónde ir y cómo hacerlo."
+          "text": "<strong>PARCE</strong> significa <strong>Proceso Autónomo del Rover en Competencias para su Evolución</strong>, y es la progresión personal de la rama. La Guía lo describe con la imagen que da nombre a la canoa: el Rover lo co-construye <em>«como dueño de la canoa que rema»</em>, y define hacia dónde ir y cómo hacerlo."
         },
         {
           "type": "info-box",
-          "text": "🔁 <strong>Si vienes del Curso 11, lo conoces con otro nombre.</strong> Allí la Guía de Comunidad le decía al Nómada que preguntara *«¿cómo funciona el Plan de Progresión Personal Rover?»*. Es <strong>esto</strong>. El nombre PARCE es reciente: sale del <strong>foro nacional de jóvenes de 2025</strong>, y vino justamente a acabar con una confusión anterior — la progresión Rover se llamaba «plan de desarrollo personal (PDP)», demasiado parecido al «plan personal de desarrollo (PPD)» de los adultos."
+          "text": "🔁 <strong>Si vienes del Curso 11, lo conoces con otro nombre.</strong> Allí la Guía de Comunidad le decía al Nómada que preguntara <em>«¿cómo funciona el Plan de Progresión Personal Rover?»</em>. Es <strong>esto</strong>. El nombre PARCE es reciente: sale del <strong>foro nacional de jóvenes de 2025</strong>, y vino justamente a acabar con una confusión anterior — la progresión Rover se llamaba «plan de desarrollo personal (PDP)», demasiado parecido al «plan personal de desarrollo (PPD)» de los adultos."
         },
         {
           "type": "heading",
@@ -654,14 +661,41 @@
           "text": "Las cuatro fases"
         },
         {
-          "type": "list",
-          "ordered": true,
+          "type": "paragraph",
+          "text": "Antes de los números, quédate con el destino, que es lo único que no se mueve: <strong>las seis áreas de crecimiento en los tres niveles</strong>. Los topes de cada fase te van a importar mucho; las cuentas parciales, menos — y con razón, porque si te pones a sumar el nivel de aplicación te van a dar siete áreas y solo hay seis. La Guía se pasa por una. No lo arreglamos por cuenta propia: lo decimos, como hicimos con el acrónimo y con las edades."
+        },
+        {
+          "type": "method-grid",
           "items": [
-            "<strong>Rover Ciudadano (RC)</strong> — la fase de adaptación, <strong>máximo 5 meses</strong> desde que entra. Se familiariza con el Clan, repasa contigo lo básico del Movimiento y <strong>diseña su PARCE</strong>. Cierra con la vigilia y la renovación de la promesa o la investidura. La insignia va en la <strong>manga izquierda</strong>, junto a la de rama.",
-            "<strong>Rover Participativo (RP)</strong> — <strong>máximo 7 meses</strong> después del RC. Define como mínimo <strong>cuatro competencias en exploración y dos en aplicación</strong>. La insignia va <strong>encima</strong> de la de rama.",
-            "<strong>Rover Transformador (RT)</strong> — <strong>máximo 9 meses</strong>. Cierra las <strong>dos áreas que le faltaban en exploración, tres en aplicación y una en profundización</strong>. La insignia va al lado superior derecho, formando un <strong>«panal» de cuatro insignias</strong>.",
-            "<strong>BP - Ciudadano Global</strong> — <strong>máximo 11 meses</strong>. Completa <strong>las dos áreas restantes en aplicación y las cinco que faltan en profundización</strong>: las seis áreas en los tres niveles. La insignia tiene forma de <strong>venera</strong> y <strong>reemplaza</strong> a las anteriores."
+            {
+              "title": "🟡 Rover Ciudadano (RC) · tope 5 meses",
+              "description": "La adaptación. Se familiariza con el Clan, repasa contigo lo básico del Movimiento y <strong>diseña su PARCE</strong>. Cierra con la vigilia y la renovación de la promesa o la investidura.",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "🟠 Rover Participativo (RP) · 7 meses más",
+              "description": "Define como mínimo <strong>cuatro competencias educativas</strong>, en las áreas que él elija priorizar, en nivel de exploración, y dos más en aplicación.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🔴 Rover Transformador (RT) · 9 meses más",
+              "description": "Cierra las <strong>dos</strong> áreas que le faltaban en exploración, <strong>tres</strong> en aplicación, y entra por primera vez en profundización con <strong>una</strong>.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "⭐ BP · Ciudadano Global · 11 meses más",
+              "description": "Las <strong>dos</strong> áreas restantes en aplicación y las <strong>cinco</strong> que faltan en profundización: la meta es las seis en los tres niveles. Su insignia tiene forma de <strong>venera</strong> y <strong>reemplaza</strong> a las anteriores.",
+              "color": "#ede7f6",
+              "borderColor": "#5e35b1"
+            }
           ]
+        },
+        {
+          "type": "info-box",
+          "text": "📌 <strong>Lo que no hay que aprenderse de memoria.</strong> En qué parte del uniforme va cada insignia —la del RC en la manga izquierda junto a la de rama, la del RP encima de la de rama, la del RT arriba a la derecha formando un «panal» de cuatro—, está en el capítulo 8 de tu Guía. Ábrela el día que vayas a entregar una. Lo que sí tienes que tener en la cabeza son las <strong>cuatro fechas tope</strong>, y para eso es la reflexión de esta lección."
         },
         {
           "type": "policy-quote",
@@ -675,7 +709,7 @@
         },
         {
           "type": "info-box",
-          "text": "💡 <strong>Y si alguien llega tarde.</strong> Un adulto que entra al Clan pasados los 19 puede, con su dirigente, <strong>reconocer competencias que ya trae</strong> y ubicarse directamente en RP o RT. En ese caso <strong>no se entregan</strong> las insignias que se saltó: solo se hace la renovación de promesa o la investidura, se registra en la matriz y se sigue desde ahí."
+          "text": "💡 <strong>Y si alguien llega tarde.</strong> Un adulto que entra al Clan pasados los 19 puede, con su dirigente, <strong>reconocer competencias educativas que ya trae</strong> y ubicarse directamente en RP o RT. En ese caso <strong>no se entregan</strong> las insignias que se saltó: solo se hace la renovación de promesa o la investidura, se registra en la matriz y se sigue desde ahí."
         },
         {
           "type": "heading",
@@ -684,7 +718,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La Guía le da un papel a los últimos meses que conviene no desperdiciar: *«durante los últimos meses de permanencia en el Clan la participación del Rover previo a su partida es la de desempeñar un rol de <strong>tutor</strong> con sus pares, facilitando especialmente los procesos de adaptación para los integrantes más nuevos»*. El que se va recibe al que llega. Eso es lo que hace que un Clan sobreviva a sus dirigentes."
+          "text": "La Guía le da un papel a los últimos meses que conviene no desperdiciar: <em>«durante los últimos meses de permanencia en el Clan la participación del Rover previo a su partida es la de desempeñar un rol de <strong>tutor</strong> con sus pares, facilitando especialmente los procesos de adaptación para los integrantes más nuevos»</em>. El que se va recibe al que llega. Eso es lo que hace que un Clan sobreviva a sus dirigentes."
         }
       ],
       "reflection": {
@@ -704,10 +738,10 @@
             "correctIndex": 1
           },
           {
-            "text": "Un Rover tiene su área de Sociabilidad en rojo coral y quiere llevar más lejos su proyecto de innovación social. ¿Qué te toca a ti?",
+            "text": "Un Rover ya tiene su área de Sociabilidad en nivel de profundización y quiere llevar más lejos su proyecto de innovación social. ¿Qué te toca a ti?",
             "options": [
-              "Proponerle un desafío mayor y darle retroalimentación mientras lo ejecuta con su equipo.",
-              "Ponerlo a tutorear a los Rovers nuevos, que es lo que consolida una competencia.",
+              "Proponerle un desafío mayor y darle retroalimentación mientras lo ejecuta.",
+              "Ponerlo a tutorear a los Rovers nuevos, que es lo que consolida una competencia educativa.",
               "Conectarlo con la fundación del barrio que trabaja ese tema, y quitarte de en medio."
             ],
             "correctIndex": 2
@@ -747,7 +781,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Es la experiencia reflexiva que precede al <strong>Rover Ciudadano</strong>. Baden-Powell la describía en 1932 como el momento en que el joven *«reflexione con calma sobre su propósito en la vida»* antes de hacer o renovar su Promesa *«desde una perspectiva más madura»*. La Guía te pide <strong>diseñar una experiencia</strong>, y te dice cómo: hablando con el Rover, con sus amigos del Clan, del barrio, de la universidad o del trabajo, y con su familia."
+          "text": "Es la experiencia reflexiva que precede al <strong>Rover Ciudadano</strong>. Baden-Powell la describía en 1932 como el momento en que el joven <em>«reflexione con calma sobre su propósito en la vida»</em> antes de hacer o renovar su Promesa <em>«desde una perspectiva más madura»</em>. La Guía te pide <strong>diseñar una experiencia</strong>, y te dice cómo: hablando con el Rover, con sus amigos del Clan, del barrio, de la universidad o del trabajo, y con su familia."
         },
         {
           "type": "list",
@@ -756,7 +790,7 @@
             "Puede ser al aire libre, en un campamento o <strong>bajo techo</strong> si hay riesgo de tormenta.",
             "Puede pasarse en vela o con <strong>períodos breves de descanso</strong>, según se acuerde con quien participa y según su salud: la Guía advierte que hay personas a las que la falta de sueño afecta física y psicológicamente.",
             "Conviene darle un medio para registrar —una libreta, una grabadora, el celular—: el producto de la introspección es <strong>personal y privado</strong>.",
-            "<strong>Tú estás presente todo el tiempo</strong>, acercándote cada tanto o por mensaje, para verificar que las actividades avanzan y que el ánimo y la salud están bien."
+            "<strong>Tú estás presente todo el tiempo</strong>, acercándote cada tanto o por mensaje, para verificar que las actividades avanzan y que el ánimo y la salud están bien. Es la excepción del curso y no lo contradice: tu participación se desvanece, tu presencia es permanente — y en una vigilia esa presencia es física."
           ]
         },
         {
@@ -780,11 +814,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Tampoco tiene una forma fija: *«puede ser un recorrido caminando 1, 5 o 15 kilómetros, puede ser una caminata de 60 kilómetros distribuida en 3 días, puede ser un recorrido en bicicleta»* — y la Guía nombra expresamente la posibilidad de hacerlo <strong>en silla de ruedas</strong>, con apoyo en los tramos que haga falta. Lo que no admite es ser <em>«una réplica de versiones previas»</em>."
-        },
-        {
-          "type": "info-box",
-          "text": "🧭 <strong>Las 5W, para prepararlo.</strong> La Guía sugiere apoyarse en los objetivos del desarrollo espiritual: un scout es capaz de <strong>ACOGER</strong> (Welcome) al otro, comprende las <strong>MARAVILLAS</strong> (Wonder) del mundo natural, <strong>TRABAJA</strong> (Work) por una sociedad más solidaria, posee <strong>JUICIO</strong> (Wisdom) y confianza en sí mismo, y siente la necesidad de <strong>CELEBRAR</strong> (Worship) para dar una respuesta espiritual."
+          "text": "Tampoco tiene una forma fija: <em>«puede ser un recorrido caminando 1, 5 o 15 kilómetros, puede ser una caminata de 60 kilómetros distribuida en 3 días, puede ser un recorrido en bicicleta»</em> — y la Guía nombra expresamente la posibilidad de hacerlo <strong>en silla de ruedas</strong>, con apoyo en los tramos que haga falta. Lo que no admite es ser <em>«una réplica de versiones previas»</em>. Para prepararlo, la Guía sugiere apoyarse en los cinco objetivos del desarrollo espiritual — acoger, maravillarse, trabajar, juzgar y celebrar."
         },
         {
           "type": "paragraph",
@@ -792,7 +822,7 @@
         },
         {
           "type": "info-box",
-          "text": "💡 <strong>Un detalle que suele perderse.</strong> La vigilia y el peregrinaje no son solo el trámite previo a una insignia: la Guía subraya que también son <strong>oportunidades de aprendizaje</strong> que sirven para desarrollar competencias en cualquier nivel. Puedes usarlas dos veces."
+          "text": "💡 <strong>Un detalle que suele perderse.</strong> La vigilia y el peregrinaje no son solo el trámite previo a una insignia: la Guía subraya que también son <strong>oportunidades de aprendizaje</strong> que sirven para desarrollar competencias educativas en cualquier nivel. Puedes usarlas dos veces."
         }
       ],
       "reflection": {
@@ -831,7 +861,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "<strong>Idea central:</strong> es la única ceremonia del Movimiento en la que el protagonista se va. Y por eso es la más fácil de arruinar."
+          "text": "<strong>Idea central:</strong> es la única ceremonia del Movimiento en la que el protagonista se va. Es también donde se comprueba si te volviste innecesario — y por eso es la más fácil de arruinar."
         },
         {
           "type": "paragraph",
@@ -852,7 +882,7 @@
             "El Rover recorre la calle con su <strong>madrina o padrino</strong>; si no tiene esa figura, elige al integrante del Clan más cercano, o va solo si lo prefiere.",
             "Al pasar por cada rama puede <strong>sumarse un momento a su formación</strong> y emitir sus gritos y presentaciones, si fue miembro de ella.",
             "Al final, el Clan lo espera con las banderas de Clan, de Grupo y de la OMMS. El Rover hace <strong>por última vez</strong> la presentación de Clan.",
-            "Recibe un <strong>símbolo de despedida</strong> —un libro firmado por todos, una caja de recuerdos— y el Clan lo rodea para cantar <em>«el vagabundo»</em> por última vez con él."
+            "Recibe un <strong>símbolo de despedida</strong> —un libro firmado por todos, una caja de recuerdos— y el Clan lo rodea para cantar <em>«el vagabundo»</em> por última vez como Rover."
           ]
         },
         {
@@ -889,7 +919,11 @@
         },
         {
           "type": "info-box",
-          "text": "⚠️ <strong>Y una última cosa sobre las cuatro ceremonias.</strong> Todas son <strong>de carácter individual</strong> y deben responder a los intereses y necesidades de cada Rover, con o sin discapacidad, que además puede participar en su preparación. Lo único que se le reserva es <em>«el factor sorpresa que implica la designación específica del momento»</em>."
+          "text": "⚠️ <strong>Y una última cosa sobre los ritos que preparas tú</strong> —vigilia, peregrinaje y partida—: son <strong>de carácter individual</strong> y deben responder a los intereses y necesidades de cada Rover, con o sin discapacidad, que además puede participar en su preparación. Lo único que se le reserva es <em>«el factor sorpresa que implica la designación específica del momento»</em>. La <strong>Cena Rover</strong> es el otro caso: esa sí es colectiva. Y ojo con el conteo: tu Guía habla de <strong>cinco</strong> ceremonias principales, porque suma la entrega de insignias del PARCE."
+        },
+        {
+          "type": "info-box",
+          "text": "🏔️ <strong>Y aquí es donde se comprueba.</strong> El día de la Partida no te evalúa nadie, pero tienes la respuesta delante: ¿quién armó la ceremonia? ¿quién eligió al padrino? ¿el Clan supo qué hacer sin mirarte? Sebastián entró a tu Clan a los dieciocho sin saber que esto existía. Si el día en que se va tú estás de pie en la fila, como uno más, y todo ocurre sin que tengas que empujar nada — eso es haberte vuelto innecesario. Es la única ceremonia del Movimiento que califica al dirigente, y lo hace en silencio."
         }
       ],
       "reflection": {
@@ -909,11 +943,11 @@
             "correctIndex": 1
           },
           {
-            "text": "Ese mismo día el Clan quiere aprovechar para entregarle a Camilo la insignia de un Rumbo que le faltaba. ¿Qué haces?",
+            "text": "Ese mismo día el Clan quiere aprovechar para entregarle a Camilo la insignia de Rover Transformador, que se le quedó pendiente. ¿Qué haces?",
             "options": [
-              "Lo apruebas: ya está todo el Grupo reunido y es la última ocasión de reconocerle ese avance.",
-              "Lo pasas a otra fecha: en la Partida no se entregan otras insignias ni reconocimientos.",
-              "Lo entregas al final, ya cerrada la ceremonia, para no mezclar los dos momentos delante del Grupo."
+              "Lo apruebas: está todo el Grupo reunido y es ocasión de reconocerlo.",
+              "Lo pasas a otra fecha: ese día la ceremonia es de Camilo y de nada más.",
+              "Lo entregas al final, ya cerrada la ceremonia, para no mezclar los momentos."
             ],
             "correctIndex": 1
           }
@@ -932,7 +966,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La Guía abre su último capítulo con una imagen que vale para las cinco ramas: la magia de una formación o de una fogata *«tiene un soporte silencioso pero vital que ocurre tras bambalinas»*. Y define para qué sirve la administración en cinco funciones: <strong>cuidar a las personas, ordenar el programa, coordinar al equipo adulto, gestionar recursos y aprender institucionalmente</strong>."
+          "text": "La Guía abre su último capítulo con una imagen que vale para las cinco ramas: la magia de una formación o de una fogata <em>«tiene un soporte silencioso pero vital que ocurre tras bambalinas»</em>. Y define para qué sirve la administración en cinco funciones: <strong>cuidar a las personas, ordenar el programa, coordinar al equipo adulto, gestionar recursos y aprender institucionalmente</strong>."
         },
         {
           "type": "heading",
@@ -964,7 +998,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La Guía es honesta sobre el orden en que se consiguen: *«el camino hacia la organización total no se recorre de la noche a la mañana»*. Por eso separa lo <strong>indispensable</strong> —lo que salvaguarda la integridad de los jóvenes y da respaldo legal— de lo deseable. Si solo puedes tener tres cosas, ten las tres del primer bloque."
+          "text": "La Guía es honesta sobre el orden en que se consiguen: <em>«el camino hacia la organización total no se recorre de la noche a la mañana»</em>. Por eso separa lo <strong>indispensable</strong> —lo que salvaguarda la integridad de los jóvenes y da respaldo legal— de lo deseable. Si solo puedes tener tres cosas, ten las tres del primer bloque."
         },
         {
           "type": "heading",
@@ -996,24 +1030,24 @@
         },
         {
           "type": "mission-box",
-          "text": "🎯 <strong>Tu primer paso como Dirigente de Clan.</strong> No intentes montar el Clan entero el sábado: escoge una sola cosa de este curso y pruébala en la próxima reunión. ¿Cuál? La que te quite a ti una tarea de encima y se la devuelva al Clan — la convocatoria, el orden del día, la llamada que ibas a hacer tú. <strong>Escríbela en el recuadro de Compromiso Personal que te aparece con el certificado.</strong> Ahí dice «tu compromiso como adulto»: el tuyo, hoy, es esa sola cosa. Ponle fecha. Y si dudas por dónde seguir, vuelve a la frase con la que abrimos: en la Comunidad todavía te necesitaban; en el Clan tu trabajo es volverte innecesario — y la Partida Rover es donde se comprueba si lo lograste."
+          "text": "🎯 <strong>Tu primer paso como Dirigente de Clan.</strong> No intentes montar el Clan entero el sábado: escoge una sola cosa de este curso y pruébala en la próxima reunión. ¿Cuál? La que te quite a ti una tarea de encima y se la devuelva al Clan — la convocatoria, el orden del día, la llamada que ibas a hacer tú. <strong>Escríbela en el recuadro de Compromiso Personal que te aparece con el certificado — el que te pide tu compromiso como adulto certificado.</strong> El tuyo, hoy, es esa sola cosa. Ponle fecha. Y si dudas por dónde seguir, vuelve a la frase con la que abrimos: en la Comunidad todavía te necesitaban; en el Clan tu trabajo es volverte innecesario — y la Partida Rover es donde se comprueba si lo lograste."
         }
       ],
       "reflection": {
-        "prompt": "De las once herramientas de las tres listas, marca las que tu unidad tiene hoy de verdad — no las que deberían existir. Escoge una sola de las que faltan, la del primer bloque si falta alguna, y escribe cuándo la vas a tener lista. Una, con fecha. Las otras diez esperan."
+        "prompt": "De las doce herramientas de las tres listas, marca las que tu unidad tiene hoy de verdad — no las que deberían existir. Escoge una sola de las que faltan, la del primer bloque si falta alguna, y escribe cuándo la vas a tener lista. Una, con fecha. Las otras once esperan."
       },
       "quiz": {
         "title": "Mini-quiz Lección 10",
         "nextLabel": "Ir al certificado 🎓",
         "questions": [
           {
-            "text": "Vas a abrir un Clan el mes entrante y no alcanzas a tener todo listo. ¿Con qué empiezas?",
+            "text": "Abres el Clan en tres semanas. Te alcanza el tiempo para dejar listas dos cosas, no más. ¿Cuáles?",
             "options": [
-              "Con el cronograma del año y la planeación de las primeras reuniones del Clan.",
-              "Con la carta constitutiva, que es lo que le da identidad propia al Clan.",
-              "Con el directorio, las fichas médicas y las autorizaciones de afiliación."
+              "El cronograma del semestre y la planeación de las primeras cuatro reuniones.",
+              "Las fichas médicas completas y las autorizaciones de afiliación de cada Rover.",
+              "La carta constitutiva y el manual interno, que le dan identidad propia al Clan."
             ],
-            "correctIndex": 2
+            "correctIndex": 1
           },
           {
             "text": "Un Rover te cuenta algo que parece una situación de abuso fuera del Grupo Scout. ¿Qué te toca a ti?",
@@ -1086,6 +1120,6 @@
   ],
   "certificate": {
     "courseName": "RAMA CLAN (ROVERS)",
-    "description": "ha completado el Curso 12 de la Línea Programa de Jóvenes — Rama Clan (Rovers), reconociendo los diez artículos de la Ley del Rover y las dos fórmulas oficiales de su Promesa, el gobierno del Clan a través de su Consejo y su Comité, el marco simbólico de la Ciudadanía Activa y sus símbolos, el PARCE con sus cuatro fases, las cuatro ceremonias propias de la rama y lo que en ellas está prohibido, y la Partida Rover como cierre de la experiencia de protagonista de programa, al servicio de los jóvenes adultos de la Asociación Scouts de Colombia"
+    "description": "ha completado el Curso 12 de la Línea Programa de Jóvenes — Rama Clan (Rovers), reconociendo los diez artículos de la Ley del Rover y las dos fórmulas oficiales de su Promesa, el gobierno del Clan a través de su Consejo y su Comité, el marco simbólico de la Ciudadanía Activa y sus símbolos, el PARCE con sus cuatro fases, las ceremonias propias de la rama y lo que en ellas está prohibido, y la Partida Rover como cierre de la experiencia de protagonista de programa, al servicio de los jóvenes adultos de la Asociación Scouts de Colombia"
   }
 }

@@ -6,7 +6,7 @@ Plataforma de formación online de la **Línea Programa de Jóvenes** de la Asoc
 
 ## Estado actual
 
-**Nivel 1 — Fundamentación** completo (7 cursos, ~3.3 horas). **Nivel 2** con 4 de sus 8 cursos: Rama Manada, Rama Familia, Rama Tropa Scout y Rama Comunidad. 11 cursos activos en total, `status: "active"` en `cursos.json`, publicados en GitHub Pages. El menú de la línea agrupa los cursos por nivel.
+**Nivel 1 — Fundamentación** completo (7 cursos, ~3.3 horas). **Nivel 2** con 5 de sus 8 cursos: Rama Manada, Rama Familia, Rama Tropa Scout, Rama Comunidad y Rama Clan — **las cinco ramas, cerradas el 16-sep-2026**. 12 cursos activos en total, `status: "active"` en `cursos.json`, publicados en GitHub Pages. El menú de la línea agrupa los cursos por nivel.
 
 | # | Curso | Nivel | Estado |
 |---|-------|-------|--------|

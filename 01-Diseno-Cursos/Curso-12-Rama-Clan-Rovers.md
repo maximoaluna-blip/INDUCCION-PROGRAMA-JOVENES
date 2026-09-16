@@ -12,7 +12,7 @@
 
 | Fuente | Qué cubre | Peso |
 |---|---|---|
-| **Guía de Dirigente de Clan** (DNPJ 2026, 63 pp.) | Todo lo propio de la rama, incluidos el **PARCE** y los cuatro ritos | **Angular** |
+| **Guía de Dirigente de Clan** (DNPJ 2026, 63 pp.) | Todo lo propio de la rama, incluidos el **PARCE** y los cuatro ritos que el dirigente prepara | **Angular** |
 | **Modelo de Aplicación 2026** | Sección/Rama/Unidad y el lugar del Clan en el recorrido | Manda en la estructura de ramas |
 | **PNPJ 2024** | Marco de política | Textos oficiales |
 | **Guía de Dirigente de Comunidad** (DNPJ 2026) | El otro lado de la transición de entrada | Se cita solo para eso |
@@ -20,17 +20,18 @@
 
 **Paginación:** a diferencia de la Guía de Comunidad, esta **no imprime números de página extraíbles**. Las citas del curso dicen **«p. N del PDF»**, que es la convención que ya usa el Curso 10.
 
-### Siete discrepancias entre fuentes vigentes
+### Ocho discrepancias entre fuentes vigentes
 
 Ninguna se inventa ni se esconde. Las que el adulto va a encontrarse al leer los documentos se le dicen dentro del curso.
 
-1. **El plan de línea tenía inventado el nombre del PARCE — y se corrigió antes de diseñar.** Decía *«Plan de Aprendizaje y Reconocimiento Comunitario Equilibrado»*; la Guía dice **«Proceso Autónomo del Rover en Competencias para su Evolución»** (§4.2, §5.2, §8.9 y §11.2, cuatro veces). *Es el hallazgo que más justifica leer la fuente antes que el plan: de haber seguido el plan, el error entraba al curso y de ahí al certificado.*
+1. **El plan de línea tenía inventado el nombre del PARCE — y se corrigió antes de diseñar.** Decía *«Plan de Aprendizaje y Reconocimiento Comunitario Equilibrado»*; la Guía dice **«Proceso Autónomo del Rover en Competencias para su Evolución»** (§4.2, §5.2, §8.9 y §11.2 — siete veces en todo el documento: pp. 8, 21, 25, 40, 41, 44 y 57). *Es el hallazgo que más justifica leer la fuente antes que el plan: de haber seguido el plan, el error entraba al curso y de ahí al certificado.*
 2. **El acrónimo de las actividades se escribe de dos maneras.** Esta Guía escribe **DURALSID** (7 veces, 0 de DURASLID); las de Comunidad, Manada y Familia escriben **DURASLID**, y así lo dicen **los 7 cursos publicados** de la plataforma. Son **los mismos ocho criterios** — solo cambian de sitio la L y la S. *Se enseña **DURASLID**, que es la forma mayoritaria y la que el adulto ya vio, y se avisa de que su Guía lo escribe al revés.*
-3. **Scouts por los ODS: dos iniciativas, cuatro o seis, según qué se lea.** La Guía de Comunidad describe **dos** (Mensajeros de Paz y Tribu Tierra) más dos reconocimientos mundiales, y así lo enseña el **Curso 11, publicado ayer**. Esta Guía anuncia *«seis iniciativas»* y a continuación **describe cuatro**: Mensajeros de la Paz, Tribu Tierra, **LifeLeaders** y **HealthAllies** (pp. 57–61). *Se enseñan las cuatro que la fuente describe, se dice que el marco creció desde lo que vio en el Curso 11, y **no se afirma que sean seis**, porque la propia Guía no las lista.*
+3. **Scouts por los ODS: dos iniciativas, cuatro o seis, según qué se lea.** La Guía de Comunidad describe **dos** (Mensajeros de Paz y Tribu Tierra) más dos reconocimientos mundiales, y así lo enseña el **Curso 11, publicado ayer**. Esta Guía anuncia *«seis iniciativas»* y a continuación **describe cuatro**: Mensajeros de la Paz, Tribu Tierra, **LifeLeaders** y **HealthAllies** (pp. 57–61). *Se enseñan las cuatro que la fuente describe, se dice que el marco creció desde lo que vio en el Curso 11, y **se dice dentro del curso que la Guía anuncia seis y describe cuatro**; no se enseñan como seis, porque la propia Guía no las lista.*
 4. **La edad de egreso no cuadra consigo misma.** §8.3 fija *«edad máxima de egreso del movimiento scout hasta los 20 años»*; §8.11 exige para el BP *«edad no superior a los 20 años y 8 meses»*; §8.12 permite que la Partida se haga hasta los **21 años y 2 meses**; y §8.7.1 admite a un aspirante que ingresa *«antes de cumplir 21 años»*. El plan de línea escribe la rama como **«18–20/21 años»**. *Se enseña la banda 18–20 como sección y **se dicen los tres topes reales** —20 y 8 meses para el BP, 21 y 2 meses para la Partida—, porque un dirigente que no los sepa deja a un Rover sin su insignia máxima por un trámite tardío.*
-5. **El artículo 4 de la Ley cambia una palabra entre guías.** Aquí dice *«sin distinción de credo, **raza**, nacionalidad o clase social»*; la Guía de Comunidad dice *«credo, **etnia**, nacionalidad o clase social»*. *Se cita la Ley del Rover tal como la imprime **su** Guía, y no se armoniza por cuenta propia: es texto ritual.*
-6. **La progresión Rover tiene dos nombres entre guías.** La Guía de **Comunidad** manda al Nómada a preguntar *«¿cómo funciona el **Plan de Progresión Personal Rover**?»* — y así quedó escrito en el Curso 11. La Guía de **Clan** la llama **PARCE** en todo el documento. *Se enseña PARCE y se dice que es lo mismo que el Curso 11 anunció con el otro nombre.*
-7. **Dos erratas de edición que confunden al leer.** El §10.2 aparece numerado **«0.2»**, y el §12.4 se titula **«omisiones Regionales Rover»** —le falta la C de Comisiones—. *No afectan al contenido; se anotan aquí para que nadie crea que se saltó una sección.*
+5. **La aritmética del PARCE tampoco cuadra consigo misma.** La Guía describe fase por fase cuántas competencias educativas se llevan a cada nivel. En **exploración** suman 4 (RP) + 2 (RT) = **6**, y en **profundización** 1 (RT) + 5 (BP) = **6**: cierran contra las **seis áreas de crecimiento**. Pero en **aplicación** suman 2 (RP) + 3 (RT) + 2 (BP) = **siete**, y áreas solo hay seis. *No se armoniza por cuenta propia —la fuente es la que manda—, pero **se dice dentro del curso**, porque la propia lección invita a sumar y el adulto va a llegar al mismo siete. Lo que sí queda claro en la Guía, y es lo que se enseña como meta, es el destino: **las seis áreas en los tres niveles**.*
+6. **El artículo 4 de la Ley cambia una palabra entre guías.** Aquí dice *«sin distinción de credo, **raza**, nacionalidad o clase social»*; la Guía de Comunidad dice *«credo, **etnia**, nacionalidad o clase social»*. *Se cita la Ley del Rover tal como la imprime **su** Guía, y no se armoniza por cuenta propia: es texto ritual.*
+7. **La progresión Rover tiene dos nombres entre guías.** La Guía de **Comunidad** manda al Nómada a preguntar *«¿cómo funciona el **Plan de Progresión Personal Rover**?»* — y así quedó escrito en el Curso 11. La Guía de **Clan** la llama **PARCE** en todo el documento. *Se enseña PARCE y se dice que es lo mismo que el Curso 11 anunció con el otro nombre.*
+8. **Dos erratas de edición que confunden al leer.** El §10.2 aparece numerado **«0.2»**, y el §12.4 se titula **«omisiones Regionales Rover»** —le falta la C de Comisiones—. *No afectan al contenido; se anotan aquí para que nadie crea que se saltó una sección.*
 
 ---
 
@@ -42,12 +43,12 @@ Ninguna se inventa ni se esconde. Las que el adulto va a encontrarse al leer los
 | Título | Rama Clan (Rovers) |
 | Icono | 🏔️ |
 | Nivel / orden | 2 · Curso **12** |
-| Duración declarada | **60 minutos** — medido, no estimado: **7.652 palabras** a **128 palabras/minuto**, la banda exacta de sus hermanos (Manada 119 · Tropa 126 · Familia 129 · Comunidad 130). Se **remide tras las tres auditorías**, como corrige el ADR-047 |
+| Duración declarada | **65 minutos** — **remedida tras las auditorías**, que es lo que manda el ADR-047, y por eso cambió: el borrador cerró en 7.652 palabras y declaró 60 min; las dos vueltas de corrección doctrinal y la pedagógica sumaron unas 470, y hoy son **8.118 palabras** equivalentes al método con que se midieron sus hermanos. A 60 min el ritmo sería de **135 palabras/minuto**, fuera de la banda de las otras cuatro ramas (Manada 119 · Tropa 126 · Familia 129 · Comunidad 130); a **65 min** queda en **125**, dentro. **Es el curso más largo de la plataforma** |
 | Módulos | 10 (1 de registro + **9 de contenido**) |
 | Destinatario | Dirigentes de Clan y quienes van a abrir uno |
 | `contentVersion` | 2026-09-16 |
 
-**Decisión de alcance (del dueño, 16-sep-2026):** el curso va **completo y largo**, con el PARCE y los cuatro ritos dentro, aceptando que quede por encima del Curso 11. Se evaluó partirlo en dos —el inventario de sistemas enumerables de esta rama lo justificaba— y se descartó para no renumerar el plan.
+**Decisión de alcance (del dueño, 16-sep-2026):** el curso va **completo y largo**, con el PARCE y los cuatro ritos dentro —la Guía cuenta **cinco** ceremonias, porque suma la entrega de insignias del PARCE—, **aceptando de antemano que pudiera quedar por encima del Curso 11**. Se evaluó partirlo en dos —el inventario de sistemas enumerables de esta rama lo justificaba— y se descartó para no renumerar el plan. *Al cerrar el borrador había quedado al revés —más corto que el Curso 11—, pero las correcciones de las tres auditorías lo devolvieron por encima: hoy son 8.118 palabras contra 7.831. La decisión se cumplió, aunque no por donde se esperaba.*
 
 ---
 
@@ -56,7 +57,7 @@ Ninguna se inventa ni se esconde. Las que el adulto va a encontrarse al leer los
 Al terminar, el adulto podrá:
 
 1. **Explicar qué cambia cuando el protagonista es mayor de edad**, y por qué aquí el dirigente se vuelve deliberadamente prescindible.
-2. **Decir la Ley del Rover y las dos fórmulas de la Promesa**, y usar la Ley como herramienta de diálogo y no de juicio.
+2. **Usar la Ley del Rover** para conversar y no para juzgar, y saber que su Promesa tiene **dos fórmulas oficiales** y cuándo ofrecer cada una.
 3. **Hacer funcionar el gobierno del Clan**: Consejo de Clan, Comité de Clan, carta constitutiva y clubes Rovers.
 4. **Usar el marco simbólico** —la Ciudadanía Activa— y sus símbolos, sin reducir el referente de inspiración a uno solo.
 5. **Acompañar un PARCE**: sus cuatro fases, qué exige cada una y en qué orden se entregan sus insignias.
@@ -88,16 +89,16 @@ Al terminar, el adulto podrá:
 |---|---|---|---|
 | **1** | 🏔️ Bienvenida al Clan | Registro. Hook literal. Sebastián llega. Qué es y qué no es este curso. | — |
 | **2** | 🎓 Cuando el protagonista ya es adulto | 18–20 años, jóvenes adultos. El rol del dirigente que se desvanece. Los tres topes de edad y el egreso. Sección / Rama / Unidad. | 9–12, 53–55 |
-| **3** | 🤝 La Ley y la Promesa en clave Rover | Los 10 artículos. **Las dos fórmulas.** La Ley como brújula que *«no impone, orienta; no castiga, inspira»* y como herramienta de diálogo. | 18–20 |
-| **4** | 🏛️ Un Clan se gobierna solo | **Consejo de Clan** y sus 7 funciones · **Comité de Clan** elegido cada año · la **carta constitutiva** · clubes Rovers y equipos de proyecto · los ámbitos externos, incluido el **Sistema Nacional de Juventudes**. | 25–27 |
+| **3** | 🤝 La Ley y la Promesa en clave Rover | Los 10 artículos. **Las dos fórmulas**, en cita plegada palabra por palabra. La Ley como brújula que *«no impone, orienta; no castiga, inspira»* y como herramienta de diálogo. | 18–20 |
+| **4** | 🏛️ Un Clan se gobierna solo | **Consejo de Clan** y sus 8 funciones · **Comité de Clan** elegido cada año · la **carta constitutiva** · clubes Rovers y equipos de proyecto · los ámbitos externos, incluido el **Sistema Nacional de Juventudes**. | 25–27 |
 | **5** | ⚜️ La Ciudadanía Activa | El marco simbólico y su materialización: **el servicio**. Los símbolos: canoa, cuerno, horquilla, búho, color rojo, la Oración (**VINOREFUGE**), el lema *Servir*. Saulo de Tarso **y la invitación expresa a no quedarse en él**. Ceremonias **SABER**. | 28–32 |
-| **6** | 🌍 Aprender haciendo, y hacerlo afuera | Oportunidad de Aprendizaje. **DURASLID** (y el aviso del acrónimo). El juego a los veinte. La naturaleza como *«aula viva»*. **Scouts por los ODS**: las cuatro iniciativas que la Guía describe. | 21–24, 33–34, 57–61 |
-| **7** | 🛶 El PARCE | Qué significa la sigla y de dónde sale (foro nacional 2025). Tres niveles de desempeño. **Las cuatro fases** —RC, RP, RT y BP-Ciudadano Global— con su aritmética, sus tiempos y dónde va cada insignia. Apoyo / Acompañamiento / Enlace. | 35–43, 54 |
-| **8** | 🔥 Vigilia y peregrinaje | Cómo se diseña una experiencia individual e irrepetible. Lo privado de la vigilia y el riesgo de los «grupos con denominación especial». El peregrinaje y las **5W**. **Lo que está prohibido en una ceremonia.** | 43–47 |
-| **9** | 🌄 La Partida Rover | Cuándo, quién la pide y hasta cuándo. La ceremonia paso a paso: dos filas, la calle de honor, las banderas, el símbolo de despedida, la canción. **La formación en «Y» que NO se hace.** Los estímulos. | 47–49 |
-| **10** | 🧰 Sostener el Clan y tu primer paso | Las herramientas mínimas de administración en tres bloques. Buenas prácticas. A Salvo del Peligro y gestión del riesgo. Enlaces a los Cursos 15 y 25 y a Transversales. Misión. | 50–52, 62–63 |
+| **6** | 🌍 Aprender haciendo, y hacerlo afuera | Oportunidad de Aprendizaje. **DURASLID** (con la nota de lectura del acrónimo *después* de la mnemotecnia, no antes). El juego a los veinte. La naturaleza como *«aula viva»*. **Scouts por los ODS**: las cuatro iniciativas que la Guía describe. | 21–24, 33–34, 57–61 |
+| **7** | 🛶 El PARCE | Qué significa la sigla y de dónde sale (foro nacional 2025). Tres niveles de desempeño. El **invariante** —las seis áreas en los tres niveles, y el 7≠6— **antes** del bloque de fases. **Las cuatro fases** —RC, RP, RT y BP-Ciudadano Global— en un **`method-grid`** de cuatro tarjetas, cada una con su **tope en meses**; los conteos finos por nivel y la ubicación de cada insignia bajan a un `info-box` de consulta. Apoyo / Acompañamiento / Enlace. | 35–43, 54 |
+| **8** | 🔥 Vigilia y peregrinaje | Cómo se diseña una experiencia individual e irrepetible. Lo privado de la vigilia y el riesgo de los «grupos con denominación especial». El peregrinaje y los cinco objetivos del desarrollo espiritual, dichos en una línea. **Lo que está prohibido en una ceremonia.** | 43–47 |
+| **9** | 🌄 La Partida Rover | Cuándo, quién la pide y hasta cuándo. La ceremonia paso a paso: dos filas, la calle de honor, las banderas, el símbolo de despedida, la canción. **La formación en «Y» que NO se hace.** Los estímulos. Cierra cobrando la tercera promesa del hook: la Partida es donde se comprueba. | 47–49 |
+| **10** | 🧰 Sostener el Clan y tu primer paso | Las herramientas mínimas de administración en tres bloques. Buenas prácticas. A Salvo del Peligro y gestión del riesgo. Enlaces a los Cursos 15 y 25 y a Transversales. Misión. | 53, 61–63 |
 
-**Carga:** el borrador cerró en **7.652 palabras**, no en las ~9.000 estimadas: al repartir el contenido en **diez** lecciones ninguna pasó de 912 palabras, y el curso quedó **más corto que el Curso 11** pese a cubrir más sistemas. *La estimación previa a escribir no sirve para dimensionar: solo sirve la medida.* **La duración se declara al final, midiendo**, no al principio — es la corrección del ADR-047: el piso honesto se recalcula **después** de las tres auditorías, no al cerrar el borrador.
+**Carga:** el borrador cerró en **7.652 palabras**, no en las ~9.000 estimadas: al repartir el contenido en **diez** lecciones ninguna pasó de 912 palabras, y el curso quedó **más corto que el Curso 11** pese a cubrir más sistemas. **Eso se invirtió al auditarlo:** las correcciones de las tres compuertas añadieron unas 470 palabras —el cierre del hook en la L9, el invariante del PARCE, las dos notas de lectura de la L6— y el curso terminó en **8.118**, por encima del Curso 11 (7.831). De ahí la remedición a **65 minutos**. *Segunda lección sobre lo mismo: tampoco la medida del borrador dimensiona: solo la del curso auditado.* *La estimación previa a escribir no sirve para dimensionar: solo sirve la medida.* **La duración se declara al final, midiendo**, no al principio — es la corrección del ADR-047: el piso honesto se recalcula **después** de las tres auditorías, no al cerrar el borrador.
 
 ---
 
@@ -119,7 +120,7 @@ Al terminar, el adulto podrá:
 
 ## 6. Conexiones cross-course
 
-- **Curso 11 (Comunidad)** — entrada: Sebastián y sus tres pasos. **Al publicarse este curso hay que barrer el `info-box` «🛶 Y al otro lado de la orilla», que dice que el Curso 12 «todavía está por construirse»** — y de paso reconciliar «Plan de Progresión Personal Rover» con **PARCE** (discrepancia 6).
+- **Curso 11 (Comunidad)** — entrada: Sebastián y sus tres pasos. **Al publicarse este curso hay que barrer el `info-box` «🛶 Y al otro lado de la orilla», que dice que el Curso 12 «todavía está por construirse»** — y de paso reconciliar «Plan de Progresión Personal Rover» con **PARCE** (discrepancia 7).
 - **Curso 8 (Manada)** — ya corregido el 16-sep: listaba las guías de rama con numeración anterior al ADR-043.
 - **Curso 5 (Método Scout)** — los ocho elementos; aquí el capítulo 2 los cruza todos contra todos, que es el tratamiento más completo de las cinco guías.
 - **Curso 6 (PNPJ y Modelo)** — las seis áreas de crecimiento y las competencias terminales, que en esta rama son **el perfil de egreso del Movimiento entero**.

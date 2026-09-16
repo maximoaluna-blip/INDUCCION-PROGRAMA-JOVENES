@@ -158,12 +158,12 @@
     "title": "Rama Clan (Rovers)",
     "description": "El último curso de rama, y el único cuyos protagonistas son mayores de edad. Vas a acompañar a Sebastián desde el día que llega al Clan hasta su Partida Rover, y a entender el cambio que define esta rama: aquí tu trabajo es volverte innecesario.",
     "icon": "🏔️",
-    "duration": "60 minutos",
+    "duration": "65 minutos",
     "level": 2,
     "levelName": "Profundización por rama y práctica pedagógica",
     "order": 12,
     "modules": 10,
-    "status": "draft",
+    "status": "active",
     "file": "rama-clan-rovers.html",
     "folder": "rama-clan-rovers"
   }

@@ -281,7 +281,7 @@ El Curso 25 es de **adopción inmediata y fuertemente recomendado** para todo ad
 
 ### 7.1 Estado actual (15-sep-2026)
 
-- **11 cursos publicados de 25.** Nivel 1 **completo** (7/7) y Nivel 2 con **4 de 8**: Curso 8 (Rama Manada), **Curso 9 (Rama Familia)**, **Curso 10 (Rama Tropa Scout)** y **Curso 11 (Rama Comunidad · Nómadas Scout)**, publicado el 16-sep-2026.
+- **12 cursos publicados de 25.** Nivel 1 **completo** (7/7) y Nivel 2 con **5 de 8**: Curso 8 (Rama Manada), **Curso 9 (Rama Familia)**, **Curso 10 (Rama Tropa Scout)**, **Curso 11 (Rama Comunidad · Nómadas Scout)** y **Curso 12 (Rama Clan · Rovers)**, los dos últimos el 16-sep-2026. **Con el Curso 12 quedan cerradas las cinco ramas**, que era el bloque de identidad del Nivel 2; lo que resta del nivel son los tres cursos de práctica pedagógica (13, 14 y 15).
 - Plataforma técnica **en producción**: frontend en GitHub Pages, backend en Google Apps Script con backup nocturno, dashboard administrativo, generador de cursos basado en JSON. El motor es compartido con las otras líneas desde el ADR-025 (núcleo único en `_MOTOR/`, propagado por `sincronizar-motor.py`).
 - Repositorio: `INDUCCION-PROGRAMA-JOVENES`.
 - URL pública: `https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/`.
