@@ -5,7 +5,7 @@
   "description": "El curso de rama para quienes acompañan la adolescencia temprana. Vas a acompañar a Andrés, que acaba de dar el Gran Salto desde la Manada, y a entender el cambio que hace difícil esta rama: en la Tropa los Scouts deciden solos.",
   "contentVersion": "2026-09-15",
   "icon": "⚜️",
-  "duration": "40 minutos",
+  "duration": "45 minutos",
   "level": 2,
   "levelName": "Profundización por rama y práctica pedagógica",
   "order": 10,
@@ -20,11 +20,11 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~40 minutos.</strong> Al final vas a poder decir la Promesa y los diez artículos de la Ley, formar patrullas que se sostengan solas, encender el Espíritu de Patrulla, conducir una formación con silbato y señales de brazo, acompañar la progresión por sus cuatro fases, y preparar la Travesía de un Scout de 14 años."
+          "text": "⏱️ <strong>~45 minutos.</strong> Al final vas a poder reconocer la Promesa y los diez artículos completos de la Ley, formar patrullas que se sostengan solas, encender el Espíritu de Patrulla, reconocer las señales de silbato y saber por qué la Tropa forma como forma, acompañar la progresión por sus cuatro fases, y preparar la Travesía de un Scout de 14 años."
         },
         {
           "type": "paragraph",
-          "text": "Vuelves a encontrarte con <strong>Andrés</strong>. Lo dejaste en el Curso 8 con diez años, a punto de dar su Gran Salto desde la Manada. Ya lo dio: tiene 11 y hoy es su primer día en la Tropa. Dentro de tres años empezará su <strong>Travesía</strong> hacia la Comunidad — y ahí arrancará el siguiente curso de rama."
+          "text": "Vuelves a encontrarte con <strong>Andrés</strong>. Lo dejaste en el Curso 8 con diez años, a punto de dar su Gran Salto desde la Manada. Ya lo dio: tiene 11 y hoy es su primer día en la Tropa. Dentro de tres años empezará su <strong>Travesía</strong> hacia la Comunidad — y ahí va a arrancar el curso de esa rama, que todavía está por construirse."
         },
         {
           "type": "paragraph",
@@ -40,7 +40,7 @@
         },
         {
           "type": "mission-box",
-          "text": "🎯 <strong>Cómo usar este curso.</strong> Cada lección termina en algo concreto que puedas probar en tu próxima reunión. No hace falta que te lo aprendas: hace falta que lo uses el sábado."
+          "text": "🎯 <strong>Cómo usar este curso.</strong> Cada lección termina en algo concreto que puedas probar en tu próxima reunión. No hace falta que te lo aprendas: hace falta que lo uses el sábado. De la próxima lección en adelante, cada una cierra con dos preguntas, y hay que acertar las dos para seguir. No es una trampa: si fallas, vuelves al párrafo y lo intentas otra vez, sin penalización."
         }
       ]
     },
@@ -115,7 +115,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Piensa en la última vez que decidiste algo que una patrulla podía haber decidido sola — el menú del campamento, quién va con quién, el orden de una actividad. Escribe qué habría pasado si te aguantas. Y sé honesto sobre por qué no te aguantaste: casi siempre es prisa, no desconfianza."
+        "prompt": "Piensa en la última vez que decidiste algo que una patrulla podía haber decidido sola — el menú del campamento, quién va con quién, el orden de una actividad. Escribe qué habría pasado si te aguantas. Y anota por qué: si fue prisa, si fue miedo a que saliera mal, o si de verdad no podía esperar. Las tres respuestas son honestas."
       },
       "quiz": {
         "title": "Mini-quiz Lección 2",
@@ -131,11 +131,11 @@
             "correctIndex": 1
           },
           {
-            "text": "Llegan seis Scouts nuevos y el Jefe de Tropa los reparte él mismo entre las patrullas, buscando que queden equilibradas por edad. ¿Qué está pasando por alto?",
+            "text": "Un Jefe de Tropa nuevo te cuenta que pasa cada reunión hablando uno a uno con los treinta Scouts, y termina agotado y con la sensación de no llegar a nada. ¿Qué le sugieres?",
             "options": [
-              "Que el equilibrio por edad es secundario: lo primero es que todas las patrullas queden del mismo tamaño.",
-              "Que la patrulla se arma por afinidad y por amistad, y forzar la composición le quita la base que la sostiene.",
-              "Que esa decisión le corresponde al Guía de cada patrulla y no al Jefe de Tropa, que solo la confirma."
+              "Que reparta la Tropa con su subjefe y cada uno hable con quince, así alcanzan a cubrirlos a todos entre los dos.",
+              "Que prepare bien a los Guías y deje que cada uno lleve a su patrulla, en vez de repartirse entre treinta.",
+              "Que hable solo con los que se están portando mal, que son los que de verdad necesitan al adulto."
             ],
             "correctIndex": 1
           }
@@ -187,18 +187,18 @@
         }
       ],
       "reflection": {
-        "prompt": "Escoge UN artículo de los diez. Escribe cómo se lo explicarías a Andrés usando algo que haya pasado de verdad en su patrulla — no una definición, un caso. Si eliges el 8, mejor: es el que más se malentiende."
+        "prompt": "Escoge UN artículo de los diez. Escribe cómo se lo explicarías a un Scout tuyo usando algo que haya pasado de verdad en su patrulla — no una definición, un caso. Si eliges el 8, mejor: es el que más se malentiende."
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",
         "nextLabel": "Continuar a la Patrulla ⚜️",
         "questions": [
           {
-            "text": "Andrés viene de la Manada y te pregunta por qué ahora la Ley tiene diez artículos si antes tenía menos. ¿Qué le respondes?",
+            "text": "Andrés lleva dos meses en la Tropa y te dice que en la Manada la Ley era más corta, y que esta se le hace mucho para acordarse. ¿Qué le respondes?",
             "options": [
-              "Que la Ley de la Manada era una versión para niños y que la de verdad es esta, la que va a aprender ahora.",
-              "Que es la misma Ley, y que va creciendo con quien la vive: a los once ya se puede sostener el texto entero.",
-              "Que cada rama tiene su propia Ley independiente y que conviene no mezclarlas para no confundirse."
+              "Que en la Manada la Ley venía recortada para niños pequeños y que esta de ahora es la versión definitiva.",
+              "Que no se trata de memorizarla: es el mismo código de siempre, y ahora ya está grande para discutirlo.",
+              "Que cada rama maneja su propia Ley y que conviene no compararlas para no confundirse entre las dos."
             ],
             "correctIndex": 1
           },
@@ -309,7 +309,7 @@
         "nextLabel": "Continuar al Espíritu de Patrulla 🔥",
         "questions": [
           {
-            "text": "Se están formando las patrullas. Cinco Scouts se juntan y quedan todos de doce y trece años; otra patrulla queda con los cuatro más pequeños y dos grandes. ¿Qué haces?",
+            "text": "Se están formando las patrullas. Seis Scouts se juntan y quedan todos de doce y trece años; otra patrulla queda con los cuatro más pequeños y tres grandes. ¿Qué haces?",
             "options": [
               "Rearmas las dos para que queden mezcladas por edad, que es lo que le conviene a los más pequeños.",
               "Las dejas como quedaron, porque la Guía pide que se agrupen por afinidad, y miras que ninguna baje de seis.",
@@ -318,11 +318,11 @@
             "correctIndex": 1
           },
           {
-            "text": "Un Scout callado lleva tres meses en su patrulla y no tiene ningún cargo. El Guía dice que es porque \"no se ofrece\". ¿Qué dice la Guía sobre eso?",
+            "text": "Un Guía te dice, orgulloso, que ya repartió los cargos de su patrulla y que cada uno de sus Scouts tiene el suyo. ¿Qué le falta revisar?",
             "options": [
-              "Que los cargos se asignan por iniciativa del Scout, y que forzarlo sería quitarle el valor de ofrecerse.",
-              "Que todos los Scouts deben tener dos cargos, además de ser ayudantes del cargo de algún compañero.",
-              "Que basta con que tenga un cargo, y que el segundo se le asigna cuando ya domine bien el primero."
+              "Nada le falta: con que cada uno tenga el suyo, la patrulla ya funciona como esa máquina de piñones.",
+              "Que falta el segundo: cada Scout lleva dos cargos y además ayuda en el de otro compañero.",
+              "Que debió repartirlos él y no dejarlos al Consejo de Patrulla, que tiende a improvisar."
             ],
             "correctIndex": 1
           }
@@ -390,7 +390,7 @@
         }
       ],
       "reflection": {
-        "prompt": "¿Tus patrullas tienen rincón propio? Si no, escribe qué necesitarías para que cada una tenga uno en el próximo campamento — y si ya lo tienen, qué símbolo les falta construir. Elige uno solo y ponle fecha."
+        "prompt": "¿Tus patrullas tienen rincón propio? Si no, escribe qué necesitarías para que cada una tenga uno en el próximo campamento — y si ya lo tienen, qué símbolo les falta construir. Elige uno solo, ponle fecha y decide con quién de tu equipo de dirigentes lo vas a montar."
       },
       "quiz": {
         "title": "Mini-quiz Lección 5",
@@ -410,7 +410,7 @@
             "options": [
               "Que el lema de la Tropa debe salir del Consejo de Patrulla de la patrulla con más antigüedad del grupo.",
               "Que ese lema lo deciden los Scouts en la Corte de Honor, que es uno de sus órganos de gobierno.",
-              "Que antes de proponerlo debía consultarlo con el Comisionado Regional de Programa de Jóvenes."
+              "Que el lema lo propone el Jefe de Tropa pero lo aprueba el Consejo de Grupo antes de anunciarlo."
             ],
             "correctIndex": 1
           }
@@ -461,6 +461,10 @@
           "text": "<em>\"Generalmente están precedidas de una Señal de Silbato\"</em>, y son el mecanismo para que la unidad se forme o atienda una instrucción. La Guía dice para qué sirven con todas las letras: <em>\"son muy útiles para evitar ruidos innecesarios que se ocasionan con las órdenes de Voz o Silbato\"</em> (p. 5 del PDF)."
         },
         {
+          "type": "info-box",
+          "text": "🔎 <strong>Honestidad sobre la fuente.</strong> La Guía dice para qué sirven las señales de brazo y que suelen ir precedidas de silbato, pero <strong>no dibuja cuáles son</strong> — es el Módulo 1 de una serie en construcción. Aquí no te vamos a inventar un código de señas. Las que se usan en tu Tropa las tiene tu equipo: pídeselas al Jefe de Grupo o a tu <strong>Comisionado Regional de Programa de Jóvenes</strong>, y acuérdalas con los Guías antes de estrenarlas. Lo que sí te llevas de esta lección son las cinco de silbato y, sobre todo, el porqué de la formación."
+        },
+        {
           "type": "heading",
           "level": 3,
           "text": "Las formaciones"
@@ -473,7 +477,7 @@
         },
         {
           "type": "info-box",
-          "text": "⭐ <strong>Y aquí está el porqué, que es lo que salva esta lección de ser un reglamento.</strong> La Guía explica que con esa disposición el Guía y el Subguía tienen la visión completa de su patrulla, y que eso demuestra con la acción <em>\"uno de los aspectos más importantes dentro del proyecto de vida scout: <strong>El Grande Protege al Pequeño</strong>\"</em>. El más nuevo queda junto al Guía. No es estética: es cuidado, puesto en la forma de pararse."
+          "text": "⭐ <strong>Y aquí está el porqué, que es lo que convierte una fila en un gesto de cuidado.</strong> La Guía explica que con esa disposición el Guía y el Subguía tienen la visión completa de su patrulla, y que eso demuestra con la acción <em>\"uno de los aspectos más importantes dentro del proyecto de vida scout: <strong>El Grande Protege al Pequeño</strong>\"</em>. El más nuevo queda junto al Guía. No es estética: es cuidado, puesto en la forma de pararse."
         },
         {
           "type": "paragraph",
@@ -481,7 +485,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Aprende UNA señal de silbato esta semana — la de Guía de Patrulla es la más útil y la menos usada. Escribe cuál elegiste y en qué momento concreto de la próxima reunión la vas a usar."
+        "prompt": "Aprende UNA señal de silbato esta semana. Escribe cuál elegiste y en qué momento concreto de la próxima reunión la vas a usar."
       },
       "quiz": {
         "title": "Mini-quiz Lección 6",
@@ -497,11 +501,11 @@
             "correctIndex": 1
           },
           {
-            "text": "En la formación por patrullas, el Scout que lleva menos tiempo en la patrulla se ubica…",
+            "text": "Llega un Scout nuevo a la patrulla y, en la primera formación, se va solo hasta el final de la fila. El Guía te pregunta si está bien así. ¿Qué le dices?",
             "options": [
-              "Al final de la fila, junto al Subguía, que es quien cierra y puede estar pendiente de él de cerca.",
-              "Al lado izquierdo del Guía de Patrulla, que va en el costado derecho y abre la formación.",
-              "En el centro de la fila, donde queda más protegido por los compañeros de mayor antigüedad."
+              "Que está bien donde se puso: el Subguía cierra la fila y desde ahí puede estar pendiente de él.",
+              "Que su puesto es al lado izquierdo del Guía, porque en la Tropa el grande protege al pequeño.",
+              "Que lo mejor es dejarlo escoger puesto hasta que agarre confianza con el resto de la patrulla."
             ],
             "correctIndex": 1
           }
@@ -546,6 +550,10 @@
             "<strong>Excursionista</strong> — el que ya sabe moverse.",
             "<strong>Expedicionario</strong> — la fase final, y la insignia máxima de la rama."
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Y ahora la parte que los nombres no dicen: <strong>no hay reloj</strong>. Un Scout no va atrasado por seguir de Explorador a los trece, ni adelantado por llegar rápido a Excursionista. Las fases dicen por dónde va, no qué tan rápido. Si te sorprendes comparando a dos Scouts de la misma edad por su insignia, ya estás corriendo una carrera que nadie convocó."
         },
         {
           "type": "paragraph",
@@ -663,7 +671,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Esta rama acampa, camina y sale más que ninguna de las anteriores, así que las reglas de entorno seguro dejan de ser teóricas. Lo que aplica al planear —protocolo de actividades, transporte y pernoctas— es materia del <strong>Curso 25 (A Salvo del Peligro aplicado al Programa)</strong>, que te conviene tomar en paralelo."
+          "text": "Esta rama acampa, camina y sale más que ninguna de las anteriores, así que las reglas de entorno seguro dejan de ser teóricas. Lo que aplica al planear —protocolo de actividades, transporte y pernoctas— va a ser materia del <strong>Curso 25 (A Salvo del Peligro aplicado al Programa)</strong>, que todavía está por construirse. Mientras llega, lo que no puede esperar es el protocolo de tu grupo: pídeselo a tu Jefe de Grupo antes de la próxima salida."
         },
         {
           "type": "info-box",
@@ -682,7 +690,7 @@
         "nextLabel": "Ver mi certificado 🏅",
         "questions": [
           {
-            "text": "Andrés cumple 14 pero le faltan dos desafíos para terminar su fase de Excursionista. Su Guía propone que se quede hasta terminarla. ¿Qué dice la Guía?",
+            "text": "Andrés cumple 14 pero le faltan dos desafíos para terminar su fase de Excursionista. Su Guía propone que se quede hasta terminarla. ¿Qué le respondes?",
             "options": [
               "Que conviene esperar: pasar sin cerrar la fase le deja un proceso incompleto que ya no podrá retomar.",
               "Que la Travesía empieza al cumplir los 14, sin importar la fase de progresión en la que se encuentre.",
@@ -691,7 +699,7 @@
             "correctIndex": 1
           },
           {
-            "text": "Un Jefe de Tropa nuevo te pregunta qué tiene que hacer un Scout para merecer la Insignia de Paso. ¿Qué le respondes?",
+            "text": "En la ceremonia de paso, un dirigente nuevo te pregunta si la Insignia de Paso se le entrega solo a los que «se la ganaron». ¿Qué le respondes?",
             "options": [
               "Que debe haber alcanzado al menos la fase de Excursionista y tener tres especialidades completadas.",
               "Que el único requisito es haber hecho parte de la Tropa: la insignia tiene carácter de mención.",
@@ -730,7 +738,7 @@
     },
     {
       "id": "achievement-5",
-      "name": "Conduzco una formación",
+      "name": "Sé por qué formamos",
       "emoji": "📯",
       "unlockOnModule": 6
     },
