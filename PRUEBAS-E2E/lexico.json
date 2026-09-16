@@ -1,6 +1,6 @@
 {
   "_porQue": "ADR-034. El vocabulario de dominio vivia dentro del motor, y el motor se propaga por copia: las cadenas del plano del ADULTO viajaron de Politica de Adultos a esta linea y se publicaron. Un estudiante de PJ leyo 'Selecciona 2 a 3 competencias' sobre una pantalla de areas de crecimiento. Esta lista es la compuerta para que no vuelva a pasar.",
-  "_comoFunciona": "codigo.spec.js extrae las cadenas de texto VISIBLES del motor de linea y del HTML compilado (ignorando comentarios) y falla si alguna casa un patron prohibido. Los comentarios de codigo quedan fuera a proposito: documentan el porque, no le llegan al estudiante.",
+  "_comoFunciona": "codigo.spec.js extrae las cadenas de texto VISIBLES de los TRES ARCHIVOS DEL MOTOR -- engine.linea.js, build-course.js y render.plan-builder.js -- ignorando comentarios. NO barre el HTML compilado de los cursos: se probo, dio puro ruido y se descarto y falla si alguna casa un patron prohibido. Los comentarios de codigo quedan fuera a proposito: documentan el porque, no le llegan al estudiante.",
   "_fuente": "GLOSARIO-ASC.md seccion E-bis — las 4 acepciones de 'competencia' y la regla de que el plano lo fija la linea.",
   "linea": "Programa de Jovenes",
   "plano": "joven",
