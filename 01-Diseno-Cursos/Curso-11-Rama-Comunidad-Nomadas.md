@@ -41,7 +41,7 @@ Ninguna se inventa ni se esconde. Se resuelven con criterio explícito, y las qu
 | Título | Rama Comunidad (Nómadas Scout) |
 | Icono | 🧗 |
 | Nivel / orden | 2 · Curso **11** |
-| Duración declarada | **45 minutos** (misma excepción al tope de 40 que los Cursos 9 y 10 — ADR-045) |
+| Duración declarada | **50 minutos** — ver §4-bis. Es el curso más extenso de la línea |
 | Módulos | 8 (1 de registro + **7 de contenido**) |
 | Destinatario | Dirigentes de Comunidad y quienes van a abrir una |
 | `contentVersion` | 2026-09-15 |
@@ -86,11 +86,22 @@ Al terminar, el adulto podrá:
 | **3** | 🤝 La Ley y la Promesa del Nómada Scout | Los 10 artículos completos. **Las dos fórmulas** de la Promesa y por qué existe la alternativa. «Bajo ninguna circunstancia… una obligación». Educar en la Promesa es mostrar posibilidades, no señalar fallas. | pp. 10–11 |
 | **4** | 👥 Los Equipos y dónde se decide | Equipos de 3 a 6, **no permanentes**. Los cinco cargos (incluido el **Navegante**). Grupos de Trabajo temporales. Liderazgo rotativo, situacional y compartido. **Consejo de Equipo** y **Congreso de Comunidad**: los jóvenes con voz *y voto*, los dirigentes solo con voz. Los cuatro ámbitos de participación. | pp. 14–17 |
 | **5** | 🧭 La aventura hacia la ciudadanía | El marco simbólico **y** su ambiente de referencia, que no son lo mismo. La Aventura y la Ciudadanía como referentes. Apartidista: qué significa «comunidad política» aquí. Identidad: lema *Siempre Unidos*, Rosa de los Vientos, bandera azul, llamado en morse «N S». Las cinco ceremonias. | pp. 18–23 |
-| **6** | 🌍 Salir al territorio | La naturaleza como aula, también en la ciudad. Habilidades para la aventura. Scouts por los ODS: Mensajeros de Paz y Tribu Tierra. Involucramiento comunitario: construir **con** la comunidad, no *para* ella. Los seis momentos de la travesía. La voz del joven. | pp. 24–26, 38–41 |
+| **6** | 🌍 Salir al territorio | Oportunidad de Aprendizaje vs. experiencia. **Aprender Haciendo y el estándar DURASLID** (los 8 criterios). La naturaleza como aula, también en la ciudad. Scouts por los ODS: Mensajeros de Paz y Tribu Tierra. Involucramiento comunitario: construir **con** la comunidad, no *para* ella. Los seis momentos de la travesía. La voz del joven. | pp. 12–13, 24–26, 38–41 |
 | **7** | 🎖️ Cómo crece un Nómada | Seis **Rumbos** y sus insignias. Tres niveles de desarrollo con sus colores. Las cuatro **fases** y su aritmética. Apoyar / Acompañar / Enlazar según el nivel. Las tres dimensiones del reconocimiento. | pp. 27–37 |
-| **8** | 🌄 Las dos orillas y tu primer paso | Llegar: la Travesía desde la Tropa, las dos insignias. Partir: los tres pasos hacia el Clan (Legado, Asentamiento, Ciudadanía) y la distinción **Ciudadano Scout**. El Ciclo de Programa en cuatro momentos y las cinco herramientas. Enlace a A Salvo del Peligro. Misión. | pp. 37–38, 44–48 |
+| **8** | 🌄 Las dos orillas y tu primer paso | Llegar: la Travesía desde la Tropa, las dos insignias. Partir: los tres pasos hacia el Clan (Legado, Asentamiento, Ciudadanía) y la distinción **Ciudadano Scout**. Las cinco herramientas de la rama. Las dos reglas de entorno seguro del cap. 10. Enlace a A Salvo del Peligro. Misión. | pp. 37–38, 42–43, 47–48 |
 
-**Carga:** objetivo ~5.700 palabras totales, en la banda de los Cursos 9 (5.752) y 10 (5.601). Las lecciones en riesgo son la **4** y la **7**, por la misma razón que en Tropa: concentran un sistema completo. Se vigilan en el build y, si exceden la banda de 3–8 min de lectura pura, se registra la deuda en vez de partirlas sin auditar (criterio del ADR-045).
+---
+
+## 4-bis. Dos correcciones de alcance, y la duración
+
+Al contrastar el borrador con el plan de línea aparecieron dos desajustes en direcciones opuestas, y los dos se corrigieron antes de auditar:
+
+- **Faltaba lo que el plan sí pide.** La fila del Curso 11 exige *«Aprender Haciendo + DURASLID»*, y el borrador lo mencionaba una sola vez, de pasada, dentro de un párrafo sobre otro tema. Se añadió a la **L6** la distinción entre *Oportunidad de Aprendizaje* (la acción externa) y *experiencia* (lo interno), y los ocho criterios DURASLID como estándar para diseñar **y** para evaluar.
+- **Sobraba lo que el plan no pide aquí.** La L8 desarrollaba el **Ciclo de Programa en sus cuatro momentos**, que es materia del **Curso 15 (Ciclo de Programa con ABP)**, transversal a todas las ramas. Se dejó solo lo propio de la Comunidad —que dura de tres a seis meses y lo deciden los jóvenes— y un enlace al Curso 15. Es el mismo trato que este curso ya le da al Curso 25 y a la línea Transversales.
+
+**Duración: 50 minutos.** Medido con un contador único sobre los cuatro cursos de rama, este queda en **6.829 palabras** frente a 5.821 (Familia), 5.658 (Tropa) y 4.144 (Manada). A 45 minutos declararía **152 palabras/minuto**, muy por encima de las 126–129 de sus hermanos; a 50 declara **137**. Se aplica el mismo criterio del **ADR-045**: se declara el piso honesto, no el número cómodo, porque *«prometer una duración que no se cumple destruye la confianza en el resto de la ruta»*. **Es el curso más largo de la plataforma y el segundo salto sobre el tope de 40 del CHECKLIST**, y por eso queda escrito aquí y en su propio ADR.
+
+**Deuda registrada, no aplicada:** la **L8** (1.139 palabras, ~7,1 min) y la **L6** (1.041, ~6,5 min) están en el borde alto de la banda de 3–8 min. Si alguna vez se parte la L8, el corte limpio separa **llegar** (la Travesía desde la Tropa) de **partir y administrar** (los tres pasos hacia el Clan más las herramientas). No se parte ahora porque exigiría dos preguntas de quiz que ninguna auditoría ha visto — mismo criterio con el que se resolvieron los Cursos 9 y 10.
 
 ---
 

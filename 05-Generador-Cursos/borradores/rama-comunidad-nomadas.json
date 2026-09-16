@@ -1,0 +1,993 @@
+{
+  "courseId": "rama-comunidad-nomadas",
+  "title": "Rama Comunidad (Nómadas Scout)",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "El curso de rama para quienes acompañan la adolescencia tardía. Vas a reencontrarte con Andrés, que llega de su Travesía desde la Tropa, y a entender el cambio que define esta rama: en la Comunidad las decisiones de los jóvenes salen de la unidad y aterrizan en el territorio.",
+  "contentVersion": "2026-09-15",
+  "icon": "🧗",
+  "duration": "50 minutos",
+  "level": 2,
+  "levelName": "Profundización por rama y práctica pedagógica",
+  "order": 11,
+  "totalContentModules": 7,
+  "modules": [
+    {
+      "id": 1,
+      "title": "🏕️ Bienvenida a la Comunidad",
+      "emoji": "🏕️",
+      "navLabel": "Bienvenida",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>~50 minutos.</strong> Al final vas a poder decir completas la Ley del Nómada Scout y las dos fórmulas de su Promesa, armar Equipos que se sostengan solos, saber qué se decide en el Consejo de Equipo y qué en el Congreso de Comunidad, usar el marco simbólico sin confundirlo con su ambiente de referencia, acompañar un proyecto en el territorio, leer los seis Rumbos de la progresión y preparar las dos transiciones de la rama."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vienes del Curso 10, ya conoces a Andrés. Lo dejamos cumpliendo 14 años y empezando su <strong>Travesía</strong>: esas visitas a la Comunidad, de común acuerdo entre los dirigentes de las dos ramas, para que fuera conociendo el nuevo Sistema de Equipos antes de mudarse. Ya pasó. Andrés tiene catorce y medio y hoy llega a tu Comunidad."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y llega distinto. En la Tropa aprendió a decidir dentro de su patrulla: el Consejo de Patrulla, la Corte de Honor, el menú del campamento. Aprendió que su voz pesaba entre los suyos. Lo que va a descubrir aquí es que esa misma voz puede salir del Grupo Scout — y que cuando sale, alguien afuera responde."
+        },
+        {
+          "type": "info-box",
+          "text": "🧗 <strong>La frase que sostiene este curso.</strong> En la Tropa aprendieron a decidir entre ellos. En la Comunidad deciden hacia afuera — y de eso se entera el barrio."
+        },
+        {
+          "type": "paragraph",
+          "text": "Por eso esta rama se llama como se llama. Su marco simbólico es <strong>«La aventura hacia la ciudadanía»</strong>, y la palabra ciudadanía no está de adorno: nombra exactamente lo que cambia. Tu trabajo ya no es sostener el marco ni preparar a los Guías. Es abrir puertas y después quitarte."
+        },
+        {
+          "type": "mission-box",
+          "text": "🎯 <strong>Cómo usar este curso.</strong> Cada lección termina en algo concreto que puedas probar en tu próxima reunión. No hace falta que te lo aprendas: hace falta que lo uses el sábado. De la próxima lección en adelante, cada una cierra con dos preguntas, y hay que acertar las dos para seguir. Si fallas, vuelves al párrafo y lo intentas otra vez, sin penalización."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🧭 Qué cambia a los quince",
+      "emoji": "🧭",
+      "navLabel": "Qué cambia",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> a esta edad el joven no está buscando permiso. Está buscando quién es. Tu rol cambia de sostener a acompañar."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía es directa sobre lo que tienes enfrente: los 15 a 17 años son la <strong>adolescencia tardía</strong>, la etapa en que «se consolidan unas bases más claras de la identidad y se cuestionan los axiomas que se daban por sentado». Traducido a tu sábado: lo que el año pasado se aceptaba porque sí, este año se pregunta."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los cinco comportamientos que vas a ver"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Búsqueda de identidad</strong> — quieren autonomía, y a la vez quieren pertenecer y diferenciarse de otros. Las dos cosas al tiempo.",
+            "<strong>Se alejan de la familia y se acercan a los pares</strong> — el círculo social entre iguales desplaza al círculo familiar primario.",
+            "<strong>Aparecen las relaciones románticas y afectivas</strong>, mediadas por el descubrimiento de su orientación sexual, identidad de género y expresión de género.",
+            "<strong>Cuestionan el orden establecido</strong> — y eso deriva en resistencia activa o en legitimar, total o parcialmente, a las figuras de autoridad de su contexto. Tú eres una de esas figuras.",
+            "<strong>Exploran lo global</strong> y eligen de ahí elementos de su propia identidad."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fíjate en el cuarto. No dice «te van a retar». Dice que de ese cuestionamiento sale <em>o</em> resistencia <em>o</em> legitimación. Cuál de las dos, depende en buena parte de cómo respondas tú la primera vez que te cuestionen algo delante de todos."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Dónde estás parado tú"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 El rol del adulto en esta rama",
+          "source": "Guía para el Dirigente de Comunidad de Nómadas Scout (DNPJ 2026), cap. 2, p. 8.",
+          "text": "Nuestro rol como adultos en el movimiento es de facilitadores y orientadores, no de protagonistas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esa frase aparece justo después de otra que conviene leer pegada: «En el rango de los 15 a 17 años, los jóvenes necesitan autonomía y participación real en la toma de decisiones». <strong>Real</strong> es la palabra cara. Participación real significa que la decisión puede salir distinta de lo que tú habrías hecho, y que igual se ejecuta."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "⚜️ Lo que hacías en la Tropa",
+              "description": "Preparabas a los Guías y dejabas que la patrulla decidiera sus cosas. Era lo correcto a los once, y sigue siendo la base.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🚫 Lo que ya no alcanza",
+              "description": "Que la decisión se quede dentro del Grupo Scout. A los quince, un joven que solo decide el menú del campamento se aburre y se va.",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            },
+            {
+              "title": "✅ Lo que sí funciona",
+              "description": "Que la decisión tenga consecuencias afuera: un proyecto en el barrio, una alianza, una gestión que ellos hacen y tú no.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tres palabras que no son sinónimos"
+        },
+        {
+          "type": "paragraph",
+          "text": "El Modelo de Aplicación las separa con cuidado y vale la pena que las uses bien, porque los documentos las distinguen: la <strong>Sección</strong> es el tramo etario —de 15 a 17—; la <strong>Rama</strong> es su identidad educativa —<strong>Nómadas Scout</strong>—; y la <strong>Unidad</strong> es el grupo concreto donde se vive el programa —la <strong>Comunidad</strong>—. Por eso se dice «un Nómada Scout de la Comunidad Tribu del Viento», no «un Comunidad»."
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>Si lees «Caminantes», es un nombre viejo.</strong> Aparece todavía en la Guía de Tropa (p. 4) y una vez en el Modelo. El nombre vigente de la rama es <strong>Nómadas Scout</strong>. No es un error tuyo si te confunde: está en documentos que sí tienes que leer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Una última cifra práctica, del Modelo: en la Comunidad se recomienda <strong>un adulto por cada equipo de Nómadas Scout, más el Jefe de Unidad</strong>, «dado el trabajo por proyectos, la complejidad de decisiones y la necesidad de enlace con el territorio». Si tienes cuatro equipos y dos adultos, eso no es un detalle administrativo: es la razón por la que no vas a poder acompañar proyectos de verdad."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en la última vez que un joven de tu unidad cuestionó algo que tú habías decidido — delante de los demás. Escribe qué respondiste, textual, hasta donde te acuerdes. Y después escribe qué habría pasado si en vez de defender la decisión hubieras preguntado «¿qué propones?». No para culparte: para ver cuál de las dos salidas —resistencia o legitimación— dejaste abierta."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar a la Ley y la Promesa 🤝",
+        "questions": [
+          {
+            "text": "En una reunión, Valeria dice delante de toda la Comunidad que la salida que tú propusiste «es la misma de siempre y da pereza». Varios asienten. ¿Qué haces?",
+            "options": [
+              "Le pides que lo hablen a solas después, para no desautorizarte delante del resto.",
+              "Le devuelves la pregunta ahí mismo: qué propone ella, y lo llevas a decisión del grupo.",
+              "Sostienes la propuesta porque ya está organizada, y prometes que la próxima la eligen ellos."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Tu Comunidad tiene cuatro Equipos y solo dos adultos, contándote. ¿Qué es lo que esa cifra te está diciendo, según el Modelo?",
+            "options": [
+              "Que conviene fusionar Equipos hasta tener dos, para que cada uno quede con su adulto y nadie se quede sin acompañamiento.",
+              "Que es un asunto de reparto: alcanza si te organizas para rotar entre los cuatro Equipos a lo largo del ciclo de programa.",
+              "Que te van a faltar manos justo para lo que define a esta rama: acompañar proyectos y enlazar con el territorio."
+            ],
+            "correctIndex": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "🤝 La Ley y la Promesa del Nómada Scout",
+      "emoji": "🤝",
+      "navLabel": "Ley y Promesa",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la Promesa no se cumple una vez. Se renueva por dentro a medida que el joven entiende mejor lo que dijo."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía lo plantea en términos educativos, no disciplinarios: «el escultismo no busca producir conductas por obediencia, sino formar convicciones por adhesión vivencial». Y añade algo que conviene tener a mano el día que un Nómada te falle: «educar en la Promesa y la Ley no consiste en señalar fallas, sino en mostrar posibilidades»."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La Ley del Nómada Scout — los diez artículos"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "El Nómada Scout cifra su honor en ser digno de confianza.",
+            "El Nómada Scout es leal.",
+            "El Nómada Scout es útil, solidario y ayuda a los demás sin pensar en recompensa.",
+            "El Nómada Scout es amigo de todos y hermano de cualquier otro Scout sin distinción de credo, etnia, nacionalidad o clase social.",
+            "El Nómada Scout es cortés y respeta las convicciones de los demás.",
+            "El Nómada Scout ve en la naturaleza la obra de Dios y procura su conservación y su progreso.",
+            "El Nómada Scout es obediente, responsable y ordenado.",
+            "El Nómada Scout sonríe y canta en sus dificultades.",
+            "El Nómada Scout es económico, trabajador y cuidadoso del bien ajeno.",
+            "El Nómada Scout es limpio y sano, puro en pensamiento, palabras y acciones."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La Promesa: hay dos fórmulas, y las dos son oficiales"
+        },
+        {
+          "type": "paragraph",
+          "text": "Esto es lo que más se olvida. La Guía recoge primero la fórmula tradicional: <em>«Por mi honor y con la gracia de Dios, prometo hacer todo cuanto de mí dependa para cumplir mis deberes para con Dios y la Patria, ayudar a mi prójimo en toda circunstancia y cumplir fielmente la Ley del Nómada Scout»</em>."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y a continuación ofrece una alternativa que <strong>mantiene los mismos pilares</strong>: <em>«Por mi honor prometo hacer todo cuanto de mí dependa para cumplir mis deberes para conmigo, para con los demás y para con mi espiritualidad, ayudando a mi prójimo en toda circunstancia y cumpliendo fielmente la Ley del Nómada Scout»</em>."
+        },
+        {
+          "type": "paragraph",
+          "text": "No es una concesión ni una versión de segunda. Los tres deberes del escultismo —para consigo, para con los demás, para con la espiritualidad— están completos en las dos. La segunda existe para que un joven cuya familia o cuya búsqueda personal no nombra a Dios pueda prometer <strong>sin mentir y sin quedarse afuera</strong>."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Cómo NO se presenta la Promesa",
+          "source": "Guía para el Dirigente de Comunidad de Nómadas Scout (DNPJ 2026), cap. 3, p. 11.",
+          "text": "Bajo ninguna circunstancia la promesa debe presentarse como una obligación y menos como una imposición; por el contrario, este compromiso debe asumirse de manera libre y no condicionada."
+        },
+        {
+          "type": "info-box",
+          "text": "💡 <strong>Qué significa «no condicionada».</strong> Que no puedes poner la Promesa como premio al final de una lista de requisitos, ni como condición para ir al campamento. A los quince eso se lee como un trato, y un trato no es un compromiso. La Guía dice que la Promesa es «un punto de partida», no una meta."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y quién juzga si se cumple: «Nadie más que el propio adolescente será quién, en su diario vivir, juzgue el cumplimiento de la Promesa». Tu papel no es evaluarla. Es hacerla verosímil — la Guía dice que la Ley «se hace viva cuando el Dirigente la encarna con coherencia en su propia conducta»."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe la fórmula de la Promesa que se usa hoy en tu Grupo Scout, tal cual la dicen. Ahora escribe qué harías si un Nómada te dice, dos semanas antes de su Investidura, que él no cree en Dios y no quiere decir esa frase. Escribe la respuesta concreta que le darías, con sus palabras, no la teoría."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar a los Equipos 👥",
+        "questions": [
+          {
+            "text": "Faltan dos semanas para la Investidura y Samuel te dice que no quiere decir «con la gracia de Dios» porque no cree en eso, pero que sí quiere hacer su Promesa. ¿Qué haces?",
+            "options": [
+              "Le ofreces la segunda fórmula oficial, que dice «para con mi espiritualidad», y hace su Promesa como todos.",
+              "Hablas con su familia para entender el contexto y deciden juntos si conviene aplazar.",
+              "Le explicas que la tradicional es la fórmula del Movimiento y lo invitas a entender «Dios» en sentido amplio."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un dirigente de tu equipo propone entregar la Promesa solo a quienes hayan completado la fase de progresión y asistido a los dos campamentos del año. ¿Qué le respondes?",
+            "options": [
+              "Que es razonable exigir un mínimo de recorrido, y que basta con avisar los requisitos al empezar el ciclo.",
+              "Que la Guía lo prohíbe: condicionarla la convierte en un trato, y la Promesa es un punto de partida, no un premio.",
+              "Que lo decide el Congreso de Comunidad, que es la máxima instancia y puede fijar sus criterios."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "👥 Los Equipos y dónde se decide",
+      "emoji": "👥",
+      "navLabel": "Equipos",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el Equipo no es una unidad de producción. Es un grupo de amigos al que además le confiamos responsabilidades."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Para qué existe el Sistema de Equipos",
+          "source": "Guía para el Dirigente de Comunidad de Nómadas Scout (DNPJ 2026), cap. 5, p. 14.",
+          "text": "La finalidad esencial del sistema de equipos es que los protagonistas de programa vivan en pequeños grupos de amigos, que estén juntos dentro y fuera del movimiento y construyan vínculos afectivos genuinos, no solo funcionales."
+        },
+        {
+          "type": "paragraph",
+          "text": "Léelo otra vez y fíjate en el orden. Primero amigos, después todo lo demás. La Guía lo remata así: «Funciona cuando las personas se importan entre sí; todo lo demás —liderazgo, responsabilidad y rendimiento— emerge en el camino». Si armas los Equipos buscando equilibrio de talentos, estás optimizando lo segundo y rompiendo lo primero."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cómo se arman"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>De 3 a 6 Nómadas Scout</strong> por Equipo.",
+            "<strong>No son permanentes.</strong> «Pueden ajustarse según las afinidades, intereses y procesos», dice la Guía. Un Nómada puede entrar a uno que existe, formar uno nuevo o moverse entre Equipos en distintos momentos.",
+            "<strong>Se arman por afinidad e intereses</strong>, aunque el equilibrio de la Comunidad también cuenta y permite ajustes.",
+            "<strong>Siempre con acompañamiento del adulto</strong> y en diálogo con la Comunidad — no a espaldas del grupo."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los cinco cargos"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Coordinador de Equipo</strong> — representa al Equipo ante los organismos de gobierno de la Comunidad.",
+            "<strong>Navegante</strong> — recopila, mantiene y difunde la memoria colectiva en la <em>Carta de Navegación</em>. Ojo: su función <strong>no</strong> es contar lo de su Equipo, sino tejer una narrativa común de toda la Comunidad, «evitando fragmentaciones».",
+            "<strong>Secretario</strong> — gestión documental: actas, redes sociales.",
+            "<strong>Tesorero</strong> — recursos financieros, en contacto constante con el Tesorero de Grupo.",
+            "<strong>Intendente</strong> — consigue, mantiene y gestiona los bienes materiales."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "💡 <strong>El Navegante es el cargo más fácil de arruinar.</strong> Si dejas que cada Navegante escriba solo lo de su Equipo, en un año tienes cinco diarios paralelos y ninguna memoria de la Comunidad. La Guía pide explícitamente lo contrario: articular relatos e hitos de los distintos Equipos en una sola historia compartida."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Grupos de Trabajo: lo temporal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Además de los Equipos existen los <strong>Grupos de Trabajo</strong>: conformaciones temporales para un objetivo concreto —un proyecto, un evento, un desafío—. No responden a afinidad sino a intereses o habilidades, pueden mezclar gente de varios Equipos y <strong>se disuelven cuando cumplen su objetivo</strong>. La Guía sugiere tres: <em>Programa</em> (idealmente con los Coordinadores de Equipo del ciclo), <em>Logística</em> y <em>Proyectos</em>. No sustituyen la pertenencia al Equipo: la complementan."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Cómo es el liderazgo aquí",
+          "source": "Guía para el Dirigente de Comunidad de Nómadas Scout (DNPJ 2026), cap. 5, p. 15.",
+          "text": "El liderazgo en los Equipos de la Comunidad de Nómadas Scout es rotativo, situacional y compartido."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tres adjetivos, tres cosas distintas. <strong>Rotativo:</strong> no se queda en el mismo. <strong>Situacional:</strong> lidera quien la situación pide, no quien tiene el cargo. <strong>Compartido:</strong> puede ser de varios a la vez. Tu tarea, dice la Guía, es garantizar que esa rotación sea de verdad una Oportunidad de Aprendizaje — y no el turno de cada quien para sufrir lo mismo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Dónde se decide qué"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aquí está el corazón de la lección, y es lo que más se confunde. Hay <strong>dos organismos de gobierno</strong>, y no son intercambiables."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "👥 Consejo de Equipo",
+              "description": "Del pequeño grupo. Ahí el Equipo planea, ejecuta y evalúa sus actividades y se reparte roles. Es «democracia cotidiana»: es donde la autogestión se vuelve real.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🏛️ Congreso de Comunidad",
+              "description": "De toda la unidad, y su máxima instancia. Evalúa los procesos, formula propuestas y define el rumbo. Se reúne al menos una vez por ciclo de programa.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🛠️ Grupos de Trabajo",
+              "description": "Ni gobierno ni pertenencia: ejecución. Se arman para un objetivo y se disuelven al cumplirlo.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Quién vota en el Congreso",
+          "source": "Guía para el Dirigente de Comunidad de Nómadas Scout (DNPJ 2026), cap. 5, p. 16.",
+          "text": "El Congreso de Comunidad está integrado por todos los Nómadas Scout de la Comunidad, quienes participan con voz y voto en la toma de decisiones. Los Dirigentes acompañan el proceso con voz, orientando, facilitando y garantizando el carácter educativo del espacio, sin sustituir el protagonismo juvenil."
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>Tú tienes voz. No tienes voto.</strong> Es la regla más concreta de esta rama y la más fácil de romper sin darte cuenta: hablar de último y largo equivale a votar. Si la Comunidad va a decidir algo que no te convence, di tu razón temprano, breve, y déjala ir. El consenso es la forma principal de decidir; la votación es el recurso cuando el consenso no llega, y con mecanismos que la Comunidad haya acordado antes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y hay un cuarto ámbito que no es un órgano: <strong>la comunidad local y la sociedad global</strong>. Ahí los Nómadas ejercen ciudadanía mediante proyectos de servicio. Ese es el ámbito del que trata la Lección 6, y es el que hace que esta rama no se parezca a ninguna anterior."
+        }
+      ],
+      "reflection": {
+        "prompt": "Dibuja en una hoja los Equipos que tienes hoy —o los que tendrías si abrieras la Comunidad mañana— con nombres reales. Al lado de cada uno escribe quién es el Coordinador y quién el Navegante. Si no puedes llenar los Navegantes, ese es tu primer trabajo: sin memoria compartida, la Comunidad empieza de cero cada año."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar al marco simbólico 🧭",
+        "questions": [
+          {
+            "text": "En el Congreso de Comunidad los Nómadas están decidiendo el proyecto del ciclo. La opción que va ganando te parece poco viable. ¿Qué haces?",
+            "options": [
+              "Expones tu preocupación al principio, breve y con razones, y aceptas lo que decidan aunque no te convenza.",
+              "Esperas a que hablen todos y cierras con tu análisis, que por experiencia aporta más elementos.",
+              "Pides aplazar la decisión al próximo Congreso para que estudien mejor la viabilidad de cada opción."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Vas a armar los Equipos de una Comunidad nueva de 12 Nómadas. ¿Con qué criterio los formas?",
+            "options": [
+              "Repartiendo a los más experimentados, para que ninguno quede sin alguien que sostenga el trabajo.",
+              "Mezclando perfiles distintos, de modo que cada Equipo tenga quien organice y quien ejecute.",
+              "Por afinidad entre ellos, ajustando después si algún Equipo queda fuera del rango de 3 a 6."
+            ],
+            "correctIndex": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "🧭 La aventura hacia la ciudadanía",
+      "emoji": "🧭",
+      "navLabel": "Marco simbólico",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el marco simbólico no se explica. Se vive, y el joven le pone el significado."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía dice algo que va contra el instinto de todo dirigente nuevo: «no es necesario explicarle al joven la importancia de la reflexión durante una caminata ni definir con palabras el significado de la hermandad alrededor de una fogata. Basta con permitirle vivir la experiencia». Y cierra: «No recibe una lección: hace un descubrimiento»."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Dos cosas que no son la misma"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 El marco simbólico de la rama",
+          "source": "Guía para el Dirigente de Comunidad de Nómadas Scout (DNPJ 2026), cap. 6, p. 19.",
+          "text": "Definimos para la Rama Nómada Scout “La aventura hacia la ciudadanía” como Marco Simbólico."
+        },
+        {
+          "type": "paragraph",
+          "text": "El <strong>marco simbólico</strong> es «La aventura hacia la ciudadanía». Su <strong>ambiente de referencia</strong> —el material del que se saca el relato— son las <strong>Historias de la Humanidad</strong>: los pueblos nómadas, de los primeros Homo Sapiens a los beduinos, los Tuareg, los Mongoles, los Samis, los Bosquimanos, los Masái y los Inuit. Son dos capas distintas, y confundirlas es el error más común al hablar de marcos simbólicos."
+        },
+        {
+          "type": "info-box",
+          "text": "💡 <strong>Por qué importa la distinción.</strong> Si crees que el marco «son los nómadas», vas a decorar con desiertos y camellos. Si entiendes que el marco es <em>la aventura hacia la ciudadanía</em> y que los nómadas son el material narrativo, vas a usar esas historias para hablar de lo que de verdad importa: caminar con propósito y llegar a alguna parte con los demás."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los dos referentes de inspiración"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>La Aventura.</strong> A esta edad «suelen buscar autenticidad y pueden mostrar desinterés por todo aquello que perciban como rutinario y poco llamativo». La aventura son desafíos reales con algo de épica: canotaje, montañismo, viajes, voluntariados exigentes. Búsqueda, exploración y descubrimiento."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>La Ciudadanía.</strong> Ser «miembro activo de una comunidad política, con derechos, deberes y la capacidad de participar en las decisiones que afectan la vida colectiva». No es el estatus legal: es una práctica ética y social orientada al bien común."
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>«Comunidad política» no es política partidista.</strong> La Guía lo aclara expresamente: no se refiere a partidos, ideologías electorales ni militancia. El Movimiento es apartidista, tal como lo planteó Baden-Powell: «no tomar partido, no hacer propaganda, ni formar militantes». Si un Nómada te pregunta si puede llevar su causa al Grupo, esa es la línea — y conviene que la sepas decir sin titubear."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La identidad de tu Comunidad"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lema:</strong> <em>Siempre Unidos</em>.",
+            "<strong>Símbolo:</strong> la <strong>Rosa de los Vientos</strong>.",
+            "<strong>Bandera:</strong> se sugiere fondo azul; el diseño lo propone cada Comunidad y debe ir acorde con el manual de buen orden de la ASC.",
+            "<strong>Insignia de Comunidad:</strong> la propone cada Comunidad, cumpliendo el manual de uniforme.",
+            "<strong>Nombre y divisa:</strong> los elige libremente la Comunidad, en Congreso.",
+            "<strong>Llamado:</strong> pito con el código morse <strong>«N S»</strong> — <code>— · · · ·</code>"
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🎨 <strong>Un detalle que evita un choque entre ramas.</strong> Para los Equipos, la Guía sugiere <strong>evitar colores y animales</strong> como identidad: están reservados a la Manada (seisenas por color) y a la Tropa (patrullas con nombre de animal). Los Equipos de Comunidad no tienen identidad formal obligatoria más allá de una denominación ligada al ambiente de referencia."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las cinco ceremonias"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Investidura</strong> — cuando hace su Promesa libre y voluntariamente. Se sugiere ante la Comunidad o el Grupo, con entrega de la Pañoleta.",
+            "<strong>Entrega de insignias de progresión</strong> — se sugiere con quienes acompañaron su camino: familia, Comunidad, amigos, dirigentes.",
+            "<strong>Rituales simbólicos</strong> — encender una fogata, cruzar un puente, sembrar un árbol, compartir un objeto.",
+            "<strong>Círculos de Palabra o reconocimiento mutuo</strong> — los compañeros dicen qué han visto crecer en el otro.",
+            "<strong>Actos comunitarios</strong> — al cerrar un proyecto de servicio, con la comunidad externa presente."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía es explícita en que <strong>no prescribe ceremonias</strong>: da criterios. Que sean sobrias, significativas y respetuosas de la identidad de tu Comunidad. Tienes libertad — y por eso mismo, la responsabilidad de que no queden vacías."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe una ceremonia de las cinco que podrías hacer en las próximas cuatro semanas, con fecha tentativa. Describe en tres líneas cómo sería: dónde, quiénes, y cuál es el gesto simbólico. Si te sale larga y con discursos, recórtala: la Guía pide sobria y breve, porque «lo importante es la emoción del momento, no la duración del acto»."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar al territorio 🌍",
+        "questions": [
+          {
+            "text": "Un dirigente nuevo te dice: «entonces el marco simbólico de la Comunidad son los pueblos nómadas, ¿no?». ¿Cómo lo corriges?",
+            "options": [
+              "Le dices que el marco es «la aventura hacia la ciudadanía»; los pueblos nómadas son el ambiente de referencia del que salen los relatos.",
+              "Le dices que en esta rama el marco simbólico no está definido y que cada Comunidad construye el suyo con los jóvenes en Congreso.",
+              "Le dices que son los pueblos nómadas pero entendidos en sentido amplio, incluyendo cualquier historia de viaje que sirva para inspirar al grupo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un Equipo quiere llamarse «Los Jaguares» y usar el color verde como identidad. ¿Qué les dices?",
+            "options": [
+              "Que adelante: el nombre lo elige libremente cada Equipo y no hay ninguna restricción sobre colores o animales en la rama.",
+              "Que lo lleven al Congreso de Comunidad, porque los nombres de los Equipos los aprueba la máxima instancia de la unidad.",
+              "Que conviene otro: colores y animales están reservados a Manada y Tropa, y aquí el nombre se liga al ambiente de referencia."
+            ],
+            "correctIndex": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "🌍 Salir al territorio",
+      "emoji": "🌍",
+      "navLabel": "Territorio",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el servicio no se hace <em>para</em> la comunidad. Se hace <em>con</em> la comunidad. Esa preposición es toda la diferencia."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La naturaleza, también en la ciudad"
+        },
+        {
+          "type": "paragraph",
+          "text": "La naturaleza no es el escenario de las actividades: es un entorno de aprendizaje. Y la Guía se adelanta a la objeción del dirigente urbano: «puede expresarse también en contextos urbanos, porque no se trata solo del bosque ideal, sino de aprender a habitar el entorno con ojos atentos y con ética del cuidado». Para los Nómadas implica además conocer su contexto, salir de la rutina y tener un espacio para sí mismos en interacción con otros."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lo que se prioriza a esta edad es <strong>la máxima independencia del joven</strong>: habilidades físicas, técnicas para la aventura mayor —campismo, pionerismo, primeros auxilios, navegación—, resolución de problemas complejos y capacidad de adaptación, incluido el uso de nuevas tecnologías."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Scouts por los ODS"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Antes de salir: qué convierte una actividad en aprendizaje"
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía separa dos cosas que solemos confundir: la <strong>Oportunidad de Aprendizaje</strong> es la acción externa —la actividad, el proyecto, el rol—; la <strong>experiencia</strong> es lo interno y personal que cada joven saca de ella. Y avisa que «la acción por sí sola no basta»: el aprendizaje ocurre cuando el joven se detiene, mira lo que hizo y le da significado. Esa pausa es tu trabajo, y a los quince tiene una ventaja: la metacognición ya está bien establecida, así que puedes preguntarles directamente cómo pensaron algo."
+        },
+        {
+          "type": "info-box",
+          "text": "📏 <strong>DURASLID: el estándar de calidad.</strong> Una buena Oportunidad de Aprendizaje es <strong>D</strong>esafiante (activa lo que aún no logra solo), <strong>Ú</strong>til (entiende para qué le sirve), <strong>R</strong>ecompensante (aunque la recompensa sea emocional), <strong>A</strong>tractiva, <strong>S</strong>egura (el riesgo se prevé y se mitiga), <strong>L</strong>údica, <strong>I</strong>ncluyente (nadie queda fuera) y <strong>D</strong>iversa (entran más identidades a la conversación). Ocho criterios, y sirven tanto para diseñar como para evaluar después."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para Nómadas, la Guía pide además que las actividades sean complejas y cooperativas, y que ellos participen «en todo el ciclo de vida de la actividad, desde la concepción hasta la evaluación», no solo como consumidores. El nivel más alto de participación son los <strong>proyectos</strong>: de mediano o largo plazo, con roles de liderazgo reales. De eso trata el resto de esta lección."
+        },
+        {
+          "type": "paragraph",
+          "text": "Es el marco que conecta a tu Comunidad con la Agenda 2030. Tiene dos grandes iniciativas y dos reconocimientos mundiales, y te sirve para que un proyecto local no quede suelto."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🕊️ Mensajeros de Paz",
+              "description": "Construcción de paz desde lo cotidiano: Constructores de Paz, Patrimonito, HeForShe, Diálogos por la Paz, Diálogo Interreligioso.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🌱 Tribu Tierra",
+              "description": "Desarrollo sostenible en el territorio: Plastic Tide Turners, Campeones por la Naturaleza, Scouts Go Solar, YUNGA.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🏅 Dos reconocimientos mundiales",
+              "description": "Scouts del Mundo y Héroes Mensajeros de la Paz.",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Involucramiento comunitario: la preposición"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Contra el asistencialismo",
+          "source": "Guía para el Dirigente de Comunidad de Nómadas Scout (DNPJ 2026), cap. 9, p. 39.",
+          "text": "el servicio no es construir un mundo mejor para la comunidad, sino construir un mundo mejor con la comunidad, desde la ciudadanía activa, la cooperación y el reconocimiento de la dignidad del otro."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lo que esto descarta en la práctica: llegar el sábado con la solución ya decidida, entregarla y tomarse la foto. Lo que pide en cambio: que la comunidad participe en definir cuál es el problema. Por eso el primer momento del proceso no es planear — es <strong>escuchar</strong>."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los seis momentos de la travesía"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Reconocer el territorio</strong> — observar, dialogar con la comunidad, mapear problemáticas. Los Nómadas observan, escuchan, se cuestionan y registran.",
+            "<strong>Leer los signos del camino</strong> — analizar juntos, identificar y priorizar el ODS relacionado. Deciden en comunidad cuál desafío enfrentan.",
+            "<strong>Trazar la ruta</strong> — definir propósito, diseñar el proyecto, buscar alianzas, repartir roles.",
+            "<strong>Caminar juntos</strong> — ejecutar, decidir sobre la marcha, adaptarse. Aquí actúan, colaboran y lideran.",
+            "<strong>Hacer alto en el camino</strong> — evaluación participativa y reconocimiento de aprendizajes.",
+            "<strong>Proyectar nuevos horizontes</strong> — cerrar y entregar el proyecto, socializar resultados, proponer continuidad o réplica."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>El momento que más se salta es el primero.</strong> Es tentador arrancar en el 3 porque ahí ya se ve actividad. Pero un proyecto que empieza en «trazar la ruta» es un proyecto sobre un problema que los jóvenes supusieron, no uno que escucharon. Suele terminar bien ejecutado y sin impacto."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La voz del joven, fuera del Grupo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Los ámbitos de participación no se acaban en tu Comunidad. Están los <strong>espacios institucionales</strong> —la Red de Jóvenes, foros juveniles, consejos de distintos niveles— donde los Nómadas inciden en las políticas de la Asociación. Y la Guía es tajante sobre tu papel ahí: «el rol del Dirigente es el de acompañamiento, no el de participación activa y deberíamos limitarnos a orientar sin interferir o cuando sea requerido»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y están las formas en que ya se expresan sin pedirte permiso: el activismo digital, el voluntariado en otras organizaciones, el consumo consciente. Tu trabajo, dice la Guía, es «conocer, caracterizar y acompañar a los protagonistas a que integren estas expresiones al programa». No a que las dejen afuera."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en el último proyecto de servicio de tu unidad — o en uno que hayas visto. Escribe en qué momento de los seis empezó de verdad. Si empezó en el 3 («trazar la ruta»), escribe a quién del barrio habrían tenido que escuchar primero, con nombre o con cargo: la panadera de la esquina, el presidente de la junta, la rectora del colegio. Eso es lo que falta para el próximo."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Continuar a la progresión 🎖️",
+        "questions": [
+          {
+            "text": "Tu Comunidad quiere «ayudar al ancianato del barrio» y ya organizó una jornada de pintura para el sábado siguiente. ¿Qué haces?",
+            "options": [
+              "Los dejas avanzar: la iniciativa salió de ellos y la jornada ya está organizada para el sábado.",
+              "Les propones ir esta semana a preguntar al ancianato qué necesitan, y decidir después con esa información.",
+              "Les pides asociar la jornada a un ODS y preparar indicadores, para que quede bien documentada."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Camila, de tu Comunidad, fue elegida al equipo regional de la Red de Jóvenes. En la primera sesión te invitan a participar. ¿Qué haces?",
+            "options": [
+              "Participas activamente aportando tu experiencia, que es lo que le falta a un equipo recién elegido.",
+              "Declinas del todo y le pides que te cuente después: ese espacio es solo juvenil.",
+              "Vas como acompañante y te limitas a orientar si te lo piden, sin interferir en lo que decidan."
+            ],
+            "correctIndex": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "title": "🎖️ Cómo crece un Nómada",
+      "emoji": "🎖️",
+      "navLabel": "Progresión",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la progresión no es una carrera ni una lista de requisitos. Es un camino personalizado, y no hay un orden obligatorio."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía lo dice sin rodeos: «no existe un orden específico para iniciar el abordaje de las competencias en las áreas de crecimiento». Las competencias no se trabajan en línea recta sino <strong>en espiral</strong>. El joven construye su propio camino según sus intereses, ritmos y motivaciones."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los seis Rumbos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Las seis áreas de crecimiento que ya conoces del Curso 6 aquí toman nombre y símbolo propios de la rama. Cada una tiene su insignia:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Corporalidad — Rumbo de la Huella Descalza:</strong> símbolo del camino, la marcha y la exploración.",
+            "<strong>Creatividad — Rumbo del Engranaje:</strong> las ideas, resolver con ingenio, la expresión artística y la autenticidad.",
+            "<strong>Carácter — Rumbo de la Brújula:</strong> la guía interna, la dirección moral y no perderse, ni física ni éticamente.",
+            "<strong>Afectividad — Rumbo del Nudo del Corazón:</strong> amar, expresar emociones, formar lazos, tener empatía.",
+            "<strong>Sociabilidad — Rumbo del Puente:</strong> la unión entre personas y la cooperación al servicio de la sociedad.",
+            "<strong>Espiritualidad — Rumbo del Fuego:</strong> la luz interior, la fe, la esperanza y la búsqueda de la justicia con verdad."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>Si lees la Guía, vas a encontrar una errata.</strong> En la tabla del perfil de egreso el sexto bloque aparece titulado otra vez «Rumbo del Puente — Sociabilidad», pero sus competencias son de Espiritualidad. El nombre correcto es el de la lista de insignias: <strong>Rumbo del Fuego</strong>. Lo decimos para que no dudes cuando lo veas."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tres niveles, tres colores, tres papeles tuyos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cada área tiene una insignia, y esa misma insignia se presenta en <strong>tres colores</strong> según el nivel alcanzado. Lo importante para ti: <strong>a cada nivel le corresponde un rol distinto del adulto</strong>. Mirar el color de la insignia es mirar qué te toca hacer."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🟡 Exploración — amarillo mostaza",
+              "description": "Se acerca, prueba, se equivoca, descubre intereses. Tú APOYAS: explicas el propósito, animas, aseguras que entienda el reto, ayudas con los primeros obstáculos.",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "🟠 Aplicación — mandarina cálido",
+              "description": "Ya lo pone en práctica en situaciones reales, con más autonomía. Tú ACOMPAÑAS: propones desafíos progresivos, observas, preguntas, das retroalimentación.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🔴 Profundización — rojo coral",
+              "description": "Se especializa y lidera; es la fase vocacional. Tú ENLAZAS: lo conectas con mentores, instituciones, redes y experiencias fuera del Movimiento.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "💡 <strong>El error típico es quedarse en «apoyar».</strong> Es el rol más cómodo y el que más se parece a lo que hacías en ramas anteriores. Pero a un Nómada en Profundización, apoyarlo lo frena: lo que necesita es que le abras una puerta que tú conoces y él no."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las cuatro fases"
+        },
+        {
+          "type": "paragraph",
+          "text": "El avance global se reconoce con <strong>insignias de fase</strong>, que se entregan mirando el conjunto de insignias obtenidas en las seis áreas, junto con un certificado firmado por sus dirigentes. La aritmética es simple:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Nómada Caminante de los Bosques</strong> — 3 áreas en Exploración y 1 en Aplicación. Cierra los primeros acercamientos y el planteamiento inicial del proyecto de vida.",
+            "<strong>Nómada Pionero de la Montaña</strong> — 3 áreas en Exploración y 3 en Aplicación. Ya no solo descubre: aplica en la mitad de las áreas.",
+            "<strong>Nómada Visionario de los Ríos</strong> — 3 áreas en Aplicación y 3 en Profundización. Proyecta, diseña y ejecuta; aparece la mirada vocacional.",
+            "<strong>Nómada Líder del Sol</strong> — las 6 áreas en Profundización. Es la fase máxima y el perfil de egreso completo de la rama."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🏅 <strong>Quién firma.</strong> Todas las insignias de Rumbos y de Fases se reconocen <strong>desde el nivel grupal</strong>, con la firma del Jefe de Grupo y el Jefe de Unidad. Se pueden entregar en ceremonia de Equipo, de Comunidad o de Grupo, lo que sea más conveniente para el protagonista, «sin verse limitadas por la presencia de otras personas». No hay que esperar un evento grande."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Reconocer no es premiar"
+        },
+        {
+          "type": "paragraph",
+          "text": "El reconocimiento tiene <strong>tres dimensiones</strong>: el <em>de sí mismo</em> —el joven se reconoce en su propia historia—, el <em>entre pares</em> —se validan mutuamente, y esa es la base ética de la convivencia— y el <em>institucional</em> —condecoraciones y distinciones reglamentadas—. Los tres cuentan, y el segundo es el que más se descuida."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía pide que los reconocimientos sean <strong>sencillos, breves, personales y significativos</strong>, y que resalten «el esfuerzo, la constancia y el crecimiento personal, más que los resultados comparativos entre unos y otros». Además de las ceremonias, sirven las formas pequeñas: palabras de aliento, una carta, una responsabilidad nueva que confirme la confianza, una conversación corta."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escoge un joven real de tu unidad. Escribe en qué nivel te parece que está —Exploración, Aplicación o Profundización— en un área concreta, y qué te hace pensarlo. Después escribe qué harías tú según ese nivel: apoyar, acompañar o enlazar. Si tu respuesta fue «apoyar» y él lleva dos años en la rama, vuelve a mirarlo."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7",
+        "nextLabel": "Continuar a las dos orillas 🌄",
+        "questions": [
+          {
+            "text": "Mariana lleva dos años en la Comunidad y ya lidera los proyectos de servicio; su insignia de Sociabilidad está en rojo coral. Te pide ayuda para el próximo. ¿Qué haces?",
+            "options": [
+              "Le propones un desafío más exigente que el anterior y le das retroalimentación semanal mientras lo ejecuta con su Equipo.",
+              "La pones a acompañar a los Nómadas nuevos, que es la mejor forma de consolidar lo que ya sabe hacer bien.",
+              "La contactas con la fundación del barrio que trabaja ese tema, para que aprenda de gente que vive de eso."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Un Nómada tiene 3 áreas en Exploración y 3 en Aplicación, y te pregunta qué fase le corresponde.",
+            "options": [
+              "Nómada Pionero de la Montaña.",
+              "Nómada Caminante de los Bosques.",
+              "Nómada Visionario de los Ríos."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "title": "🌄 Las dos orillas y tu primer paso",
+      "emoji": "🌄",
+      "navLabel": "Las dos orillas",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> esta rama recibe y entrega. Las dos transiciones son trabajo tuyo, y ninguna se resuelve el día de la ceremonia."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Llegar: la Travesía desde la Tropa"
+        },
+        {
+          "type": "paragraph",
+          "text": "Andrés llegó a tu Comunidad con catorce y medio. Eso es correcto, aunque la sección se declare de 15 a 17: la Guía de Tropa manda al Scout a la rama siguiente en un plazo no mayor a seis meses después de cumplir 14, y la de Comunidad sitúa la ventana entre los 14 años y 6 meses y los 15. <strong>Vas a tener Nómadas de catorce, y no es un error.</strong>"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 La insignia que abre la transición",
+          "source": "Guía para el Dirigente de Comunidad de Nómadas Scout (DNPJ 2026), cap. 8, p. 37.",
+          "text": "Al momento de comenzar su Etapa de Transición se le debe entregar al protagonista su insignia de Viajero del Territorio para que durante el proceso el Dirigente de la Comunidad de Nómadas Scout pueda enlazar la etapa de adaptación."
+        },
+        {
+          "type": "info-box",
+          "text": "🔀 <strong>Son dos insignias distintas, no una.</strong> La <strong>Insignia de Paso</strong> la entrega el Jefe de Tropa como recordatorio del paso por la Tropa — cierra. La de <strong>Viajero del Territorio</strong> se entrega al comenzar la Etapa de Transición para que tú puedas enlazar la adaptación — abre. Si lees las dos guías vas a dudar; ahora ya no."
+        },
+        {
+          "type": "paragraph",
+          "text": "El proceso puede empezar en los últimos seis meses del joven en la Tropa, invitándolo a actividades conjuntas donde conozca la dinámica, los rumbos y la organización de la Comunidad. La Guía advierte del riesgo: el tránsito debe acompañarse «para que no implique pérdida de motivación ni ruptura emocional con el grupo de origen». Y pide una ceremonia de paso «sin solemnidades vacías, sino con significado profundo»."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Partir: los tres pasos hacia el Clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Entre seis y tres meses antes de cumplir 18, el Nómada entra en su Etapa de Transición, que termina un día antes de los dieciocho. Al comenzarla recibe la insignia de <strong>Ciudadano Scout</strong>. El proceso tiene tres pasos:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Legado</strong> — se autoevalúa con honestidad en las áreas de crecimiento, mirando el impacto que el Movimiento tuvo en él y el que él tuvo en su rama. Se sugiere materializarlo en una creación propia que le deja a su Comunidad.",
+            "<strong>Asentamiento</strong> — se acerca al Clan de Rovers y conoce la importancia de la canoa como símbolo. Las preguntas clave: ¿qué es un Rover?, ¿cómo funciona su Plan de Progresión Personal?, ¿qué espero lograr en el Clan?",
+            "<strong>Ciudadanía</strong> — ya participó de actividades con el Clan; ahora <strong>escoge autónomamente</strong> en qué rama participa durante este paso."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📜 <strong>La distinción Ciudadano Scout.</strong> Al terminar la transición se entrega por <strong>resolución oficial de la Comisión Nacional de Nómadas Scout</strong>, con un pin que solicita su Dirigente de Comunidad. Ese trámite es tuyo: si no lo pides, no llega. Y una regla dura: ningún integrante de la rama puede ser mayor de edad."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que sostiene todo: el Ciclo de Programa"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 De quién es el programa",
+          "source": "Guía para el Dirigente de Comunidad de Nómadas Scout (DNPJ 2026), cap. 11, p. 44.",
+          "text": "El programa debe ser creado por los jóvenes, no para ellos."
+        },
+        {
+          "type": "paragraph",
+          "text": "El ciclo dura <strong>de tres a seis meses</strong> y lo deciden los propios jóvenes a través de su organismo de gobierno. Cómo se conduce paso a paso —sus cuatro momentos, el énfasis del ciclo, la evaluación con criterios DURASLID— es materia del <strong>Curso 15 (Ciclo de Programa con ABP)</strong>, que sirve a todas las ramas y todavía está por construirse. Lo que sí es propio de tu Comunidad son sus herramientas."
+        },
+        {
+          "type": "info-box",
+          "text": "🧰 <strong>Las cinco herramientas de la rama.</strong> <em>Cartografía Nómada</em> (el plan personal de progresión de cada joven) · <em>Carta de Navegación</em> (la memoria de la Comunidad, a cargo del Navegante) · <em>Hoja de Travesía</em> (planear y evaluar una actividad) · <em>Atlas de Travesías</em> (planear y evaluar el ciclo completo) · <em>Diario de Ruta</em> (seguimiento de competencias, individual y colectivo; digital o físico). La quinta no aparece en el índice de la Guía, pero sí en su capítulo 12."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Dos reglas de entorno seguro que no puedes ignorar"
+        },
+        {
+          "type": "paragraph",
+          "text": "La primera es de comunicación, y es concreta: si necesitas una conversación personalizada con un Protagonista de Programa, «al menos dos adultos en el movimiento deberán estar presentes». La segunda es de relación con las familias: aunque a esta edad las riendas de la comunicación son del joven, «los Padres de Familia o Acudientes deben estar al tanto de los fines del programa, las metodologías, los eventos y los avances»."
+        },
+        {
+          "type": "info-box",
+          "text": "🔗 <strong>Y lo que no es de este curso.</strong> Qué hacer —y qué no— cuando un Nómada te revela un daño lo enseña la línea Políticas Transversales, en el curso <em>El adulto como garante de un entorno seguro</em>. Este curso enlaza allá y no lo reexplica, para que esa conducta tenga una sola fuente en toda la plataforma. Lo que aplica al planear salidas y pernoctas será materia del Curso 25. Mientras tanto, la ruta de reporte ya existe y se llama «Me Pongo la Camiseta»."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 De quién es el Movimiento",
+          "source": "Guía para el Dirigente de Comunidad de Nómadas Scout (DNPJ 2026), cap. 10, p. 42.",
+          "text": "Jamás debemos perder de vista que el Movimiento es de jóvenes, apoyado por adultos; no es un Movimiento para jóvenes dirigido por adultos."
+        },
+        {
+          "type": "mission-box",
+          "text": "🎯 <strong>Tu primer paso como Dirigente de Comunidad.</strong> No intentes cambiar la Comunidad entera el sábado: escoge una sola cosa de este curso y pruébala en la próxima reunión. ¿Cuál? La que empuje una decisión hacia afuera — una llamada que hagan ellos, una visita al barrio, una pregunta a alguien que no sea scout. Y si dudas por dónde seguir, vuelve a la frase con la que abrimos: en la Tropa aprendieron a decidir entre ellos; en la Comunidad deciden hacia afuera — y de eso se entera el barrio."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe el nombre de un joven de tu unidad que esté por cambiar de rama — entrando desde la Tropa o saliendo hacia el Clan. Al lado, la fecha aproximada. Y debajo, la primera acción concreta que vas a hacer esta semana por esa transición: una llamada al otro dirigente, una invitación a una actividad, o pedir el pin. Una sola, con fecha."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 8",
+        "nextLabel": "Ir al certificado 🎓",
+        "questions": [
+          {
+            "text": "Llega a tu Comunidad un Scout de 14 años y medio. Un dirigente del Grupo dice que no debería estar ahí porque la rama es de 15 a 17. ¿Qué le respondes?",
+            "options": [
+              "Que la sección es de 15 a 17 y conviene que espere en la Tropa hasta cumplir los quince.",
+              "Que está bien: la Guía de Tropa manda al Scout a la rama siguiente antes de los 14 años y medio.",
+              "Que la edad de ingreso la define cada Grupo según la madurez del joven y el tamaño de las unidades."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Sebastián cumple 18 en cinco meses. ¿Qué es lo primero que le corresponde en su Etapa de Transición?",
+            "options": [
+              "Empezar a participar en las actividades del Clan de Rovers para ir conociendo su dinámica antes de decidir.",
+              "Que tú solicites el pin y tramites ante la Comisión Nacional la resolución de Ciudadano Scout que lo reconoce.",
+              "Autoevaluarse en las áreas de crecimiento y dejarle algo propio a su Comunidad: el paso del Legado."
+            ],
+            "correctIndex": 2
+          }
+        ]
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "emoji": "🧭",
+      "name": "Dejo de ser el que decide",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "emoji": "🤝",
+      "name": "Digo la Ley y las dos Promesas",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "emoji": "🏛️",
+      "name": "Tengo voz, no voto",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "emoji": "🧗",
+      "name": "Sé qué es el marco y qué el ambiente",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "emoji": "🌍",
+      "name": "Construyo con, no para",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "emoji": "🎖️",
+      "name": "Leo los Rumbos",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
+      "emoji": "⭐",
+      "name": "Dirigente de Comunidad",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "RAMA COMUNIDAD (NÓMADAS SCOUT)",
+    "description": "ha completado el Curso 11 de la Línea Programa de Jóvenes — Rama Comunidad (Nómadas Scout), reconociendo los diez artículos de la Ley del Nómada Scout y las dos fórmulas oficiales de su Promesa, el Sistema de Equipos y sus cargos, la diferencia entre el Consejo de Equipo y el Congreso de Comunidad, el marco simbólico de la aventura hacia la ciudadanía y su ambiente de referencia, el involucramiento comunitario en sus seis momentos, los seis Rumbos y las cuatro fases de la progresión, y las dos etapas de transición de la rama, al servicio de los adolescentes de la Asociación Scouts de Colombia"
+  }
+}
