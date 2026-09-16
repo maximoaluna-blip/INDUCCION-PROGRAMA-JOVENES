@@ -6,7 +6,7 @@ Plataforma de formación online de la **Línea Programa de Jóvenes** de la Asoc
 
 ## Estado actual
 
-**Nivel 1 — Fundamentación** completo (7 cursos, ~3.3 horas). **Nivel 2** iniciado con el primer curso de rama. 8 cursos activos en total, `status: "active"` en `cursos.json`, publicados en GitHub Pages. El menú de la línea agrupa los cursos por nivel.
+**Nivel 1 — Fundamentación** completo (7 cursos, ~3.3 horas). **Nivel 2** con 2 de sus 8 cursos: Rama Manada y Rama Familia. 9 cursos activos en total, `status: "active"` en `cursos.json`, publicados en GitHub Pages. El menú de la línea agrupa los cursos por nivel.
 
 | # | Curso | Nivel | Estado |
 |---|-------|-------|--------|

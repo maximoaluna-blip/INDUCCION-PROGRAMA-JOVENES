@@ -32,6 +32,6 @@ Es la única con las **3 auditorías** (doctrinal `/auditar-curso`, pedagógica 
 
 ## Estado
 
-8 cursos activos: Nivel 1 "Fundamentación" completo (7 cursos) + Nivel 2 iniciado con el Curso 8 (Rama Manada, primer curso de rama). El menú (`index.html`) agrupa por nivel con chips de navegación. Plan total 25 cursos.
+9 cursos activos: Nivel 1 "Fundamentación" completo (7 cursos) + Nivel 2 con 2 de sus 8: el **Curso 8 (Rama Manada)** y el **Curso 9 (Rama Familia)**, publicado el 15-sep-2026 con las tres auditorías. El menú (`index.html`) agrupa por nivel con chips de navegación. Plan total 25 cursos.
 
 > **Rama Manada es el Curso 8 — decidido el 15-sep-2026 (ADR-043).** En el Nivel 2 el número sigue al **orden de publicación**, no a la edad de la rama: Manada se publicó como Curso 8 y su certificado lo dice, así que **Rama Familia es el 9**. Tropa 10, Comunidad 11, Clan 12. Aun así, **cita por `courseId`**: es lo único que no se ha movido nunca.

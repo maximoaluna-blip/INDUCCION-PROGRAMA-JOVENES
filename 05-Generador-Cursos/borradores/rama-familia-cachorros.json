@@ -2,10 +2,10 @@
   "courseId": "rama-familia-cachorros",
   "title": "Rama Familia (Cachorros)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
-  "description": "El curso de rama para quienes acompañan la primera infancia. En ~40 minutos vas a acompañar a Salomé, que llega al Cubil a los 5 años, y a entender por qué a esa edad el juego no es el envoltorio del Método Scout: es el Método funcionando a plena potencia.",
+  "description": "El curso de rama para quienes acompañan la primera infancia. En ~45 minutos vas a acompañar a Salomé, que llega al Cubil a los 5 años, y a entender por qué a esa edad el juego no es el envoltorio del Método Scout: es el Método funcionando a plena potencia.",
   "contentVersion": "2026-09-15",
   "icon": "🐻",
-  "duration": "40 minutos",
+  "duration": "45 minutos",
   "level": 2,
   "levelName": "Profundización por rama y práctica pedagógica",
   "order": 9,
@@ -20,7 +20,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~40 minutos.</strong> Al final vas a poder decir la Promesa y la Ley del Cachorro, organizar tu unidad en Camadas, saber cómo se arma y qué significa un Círculo de Familia, usar el lenguaje de la Selva como método, y planear una actividad que cumpla las reglas de entorno seguro propias de la rama."
+          "text": "⏱️ <strong>~45 minutos.</strong> Al final vas a poder decir la Promesa y la Ley del Cachorro, organizar tu unidad en Camadas, saber cómo se arma y qué significa un Círculo de Familia, usar el lenguaje de la Selva como método, y planear una actividad que cumpla las reglas de entorno seguro propias de la rama."
         },
         {
           "type": "paragraph",

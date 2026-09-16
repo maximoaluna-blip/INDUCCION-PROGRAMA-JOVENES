@@ -22,7 +22,7 @@
 | Título | Rama Familia (Cachorros) |
 | Subtítulo | Formación de Adultos Voluntarios — Asociación Scouts de Colombia |
 | Icono | 🐻 |
-| Duración | **40 minutos** |
+| Duración | **45 minutos** (excede el tope de 40 del CHECKLIST — justificado en el **ADR-045**) |
 | Lecciones | 8 (1 intro + 7 de contenido) |
 | Nivel | 2 — Profundización por rama y práctica pedagógica |
 | `order` | 9 |
@@ -77,7 +77,7 @@ El error más común del adulto que llega a Familia es tratarla como "Manada per
 | 7 | 🌱 Cómo crece un Cachorro | 6 | Cinco Dimensiones, tres fases, cinco Dentelladas, especialidades, etapas |
 | 8 | 🛡️ Un Cubil seguro y tu primer paso | 5 | Dos adultos y 1:5, baño y custodia, padres aliados, Intención→Decisión→Acción |
 
-**Total: 40 minutos.** *(Medido sobre el texto real del JSON, no estimado: ~5.400 palabras ≈ 34 min de lectura pura más reflexiones y quizzes. La L7 sola pasa de 1.100 palabras. Para calibrar: Manada, publicado con «35 minutos», tiene 3.898 palabras.)*
+**Total: 45 minutos.** *(Medido, no estimado: **5.752 palabras** contando cuerpo, reflexiones y quizzes. A 45 min eso son **128 palabras/minuto declarado** — todavía menos generoso que Manada, publicado con 35 min y 4.135 palabras (118), y que Método Scout, con 40 min y 3.522 (88). Excede el tope de 40 del CHECKLIST; la excepción está justificada en el ADR-045.)* *(Medido sobre el texto real del JSON, no estimado: ~5.400 palabras ≈ 34 min de lectura pura más reflexiones y quizzes. La L7 sola pasa de 1.100 palabras. Para calibrar: Manada, publicado con «35 minutos», tiene 3.898 palabras.)*
 
 ---
 
@@ -85,7 +85,7 @@ El error más común del adulto que llega a Familia es tratarla como "Manada per
 
 **Idea central:** este no es un curso sobre cuidar niños pequeños; es sobre educarlos.
 
-1. **`info-box`** — ⏱️ ~40 minutos, con lo que el adulto va a poder hacer al final. Sobre el Círculo de Familia promete **«saber cómo se arma y qué significa»** — que es lo que el curso entrega — en vez de «conducir» (auditoría pedagógica, H6-B).
+1. **`info-box`** — ⏱️ ~45 minutos, con lo que el adulto va a poder hacer al final. Sobre el Círculo de Familia promete **«saber cómo se arma y qué significa»** — que es lo que el curso entrega — en vez de «conducir» (auditoría pedagógica, H6-B).
 2. **`paragraph`** — Salomé, 5 años, primer día en el Cubil; dentro de dos años cruza hacia la Manada, que es donde arranca el Curso 8.
 3. **`paragraph`** — El malentendido a desarmar: *«a los cinco años todavía no se puede hacer escultismo de verdad; toca esperar a que crezcan»*. **Cierra enunciando el hook con todas sus letras** y diciendo que todo el curso sale de esa frase (H3).
 4. **`info-box`** — Anti-definición: **no** es una guardería con pañoleta, **no** es «la antesala de la Manada», **no** es un servicio para que los papás dejen a los niños.
