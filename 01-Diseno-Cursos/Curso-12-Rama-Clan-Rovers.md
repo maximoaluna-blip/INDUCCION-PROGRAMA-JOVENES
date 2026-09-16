@@ -42,7 +42,7 @@ Ninguna se inventa ni se esconde. Las que el adulto va a encontrarse al leer los
 | Título | Rama Clan (Rovers) |
 | Icono | 🏔️ |
 | Nivel / orden | 2 · Curso **12** |
-| Duración declarada | **por medir al cerrar el borrador** — ver §4-bis |
+| Duración declarada | **60 minutos** — medido, no estimado: **7.652 palabras** a **128 palabras/minuto**, la banda exacta de sus hermanos (Manada 119 · Tropa 126 · Familia 129 · Comunidad 130). Se **remide tras las tres auditorías**, como corrige el ADR-047 |
 | Módulos | 10 (1 de registro + **9 de contenido**) |
 | Destinatario | Dirigentes de Clan y quienes van a abrir uno |
 | `contentVersion` | 2026-09-16 |
@@ -97,7 +97,7 @@ Al terminar, el adulto podrá:
 | **9** | 🌄 La Partida Rover | Cuándo, quién la pide y hasta cuándo. La ceremonia paso a paso: dos filas, la calle de honor, las banderas, el símbolo de despedida, la canción. **La formación en «Y» que NO se hace.** Los estímulos. | 47–49 |
 | **10** | 🧰 Sostener el Clan y tu primer paso | Las herramientas mínimas de administración en tres bloques. Buenas prácticas. A Salvo del Peligro y gestión del riesgo. Enlaces a los Cursos 15 y 25 y a Transversales. Misión. | 50–52, 62–63 |
 
-**Carga:** objetivo ~9.000 palabras. **La duración se declara al final, midiendo**, no al principio — es la corrección del ADR-047: el piso honesto se recalcula **después** de las tres auditorías, no al cerrar el borrador.
+**Carga:** el borrador cerró en **7.652 palabras**, no en las ~9.000 estimadas: al repartir el contenido en **diez** lecciones ninguna pasó de 912 palabras, y el curso quedó **más corto que el Curso 11** pese a cubrir más sistemas. *La estimación previa a escribir no sirve para dimensionar: solo sirve la medida.* **La duración se declara al final, midiendo**, no al principio — es la corrección del ADR-047: el piso honesto se recalcula **después** de las tres auditorías, no al cerrar el borrador.
 
 ---
 
