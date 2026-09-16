@@ -992,8 +992,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
             <!-- MÓDULO 1: 🏕️ BIENVENIDA A LA COMUNIDAD -->
             <div class="module" id="module-1">
-                <h2>🏕️ 🏕️ Bienvenida a la Comunidad</h2>
-                <div class="badge">Módulo 1/7</div>
+                <h2>🏕️ 🏕️ Bienvenida a la Comunidad <span id="welcomeName"></span></h2>
 
                 <div class="info-box">⏱️ <strong>~60 minutos de lectura y quizzes</strong> — y unos 15 o 20 más si escribes las reflexiones, que es donde de verdad se aprende. Es el curso más largo de la plataforma y no hace falta hacerlo de una sentada: cada lección cierra sola y tu avance se guarda.</div>
 
@@ -1019,12 +1018,30 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
                 <div class="mission-box">🎯 <strong>Cómo usar este curso.</strong> Cada lección termina en algo concreto que puedas probar en tu próxima reunión. No hace falta que te lo aprendas: hace falta que lo uses el sábado. De la próxima lección en adelante, cada una cierra con dos preguntas, y hay que acertar las dos para seguir. Si fallas, vuelves al párrafo y lo intentas otra vez, sin penalización.</div>
 
+                <h3>🏆 Logros por Desbloquear</h3>
+                <div class="achievements">
+                    <div class="achievement" id="achievement-1">🧭 Dejo de ser el que decide</div>
+                    <div class="achievement" id="achievement-2">🤝 Sé por qué hay dos Promesas</div>
+                    <div class="achievement" id="achievement-3">🏛️ Tengo voz, no voto</div>
+                    <div class="achievement" id="achievement-4">🧗 Sé qué es el marco y qué el ambiente</div>
+                    <div class="achievement" id="achievement-5">🌍 Construyo con, no para</div>
+                    <div class="achievement" id="achievement-6">🎖️ Leo los Rumbos</div>
+                    <div class="achievement" id="achievement-7">⭐ Dirigente de Comunidad</div>
+                </div>
+
+                <div class="stats">
+                    <div class="stat-card"><h4 id="modulesCompleted">0</h4><p>Módulos Completados</p></div>
+                    <div class="stat-card"><h4 id="quizzesCompleted">0</h4><p>Evaluaciones Aprobadas</p></div>
+                    <div class="stat-card"><h4 id="studyTime">0</h4><p>Minutos de Estudio</p></div>
+                </div>
+
+                <button class="btn" onclick="showModule(2)">🚀 Comenzar el Curso</button>
             </div>
 
             <!-- MÓDULO 2: 🧭 QUÉ CAMBIA A LOS QUINCE -->
             <div class="module" id="module-2">
                 <h2>🧭 🧭 Qué cambia a los quince</h2>
-                <div class="badge">Módulo 2/7</div>
+                <div class="badge">Módulo 1/7</div>
 
                 <div class="info-box"><strong>Idea central:</strong> a esta edad el joven no está buscando permiso. Está buscando quién es. Tu rol cambia de sostener a acompañar.</div>
 
@@ -1135,7 +1152,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
             <!-- MÓDULO 3: 🤝 LA LEY Y LA PROMESA DEL NÓMADA SCOUT -->
             <div class="module" id="module-3">
                 <h2>🤝 🤝 La Ley y la Promesa del Nómada Scout</h2>
-                <div class="badge">Módulo 3/7</div>
+                <div class="badge">Módulo 2/7</div>
 
                 <div class="info-box"><strong>Idea central:</strong> la Promesa no se cumple una vez. Se renueva por dentro a medida que el joven entiende mejor lo que dijo.</div>
 
@@ -1222,7 +1239,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
             <!-- MÓDULO 4: 👥 LOS EQUIPOS Y DÓNDE SE DECIDE -->
             <div class="module" id="module-4">
                 <h2>👥 👥 Los Equipos y dónde se decide</h2>
-                <div class="badge">Módulo 4/7</div>
+                <div class="badge">Módulo 3/7</div>
 
                 <div class="info-box"><strong>Idea central:</strong> el Equipo no es una unidad de producción. Es un grupo de amigos al que además le confiamos responsabilidades.</div>
 
@@ -1348,7 +1365,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
             <!-- MÓDULO 5: 🧭 LA AVENTURA HACIA LA CIUDADANÍA -->
             <div class="module" id="module-5">
                 <h2>🧭 🧭 La aventura hacia la ciudadanía</h2>
-                <div class="badge">Módulo 5/7</div>
+                <div class="badge">Módulo 4/7</div>
 
                 <div class="info-box"><strong>Idea central:</strong> el marco simbólico no se explica. Se vive, y el joven le pone el significado.</div>
 
@@ -1447,7 +1464,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
             <!-- MÓDULO 6: 🌍 SALIR AL TERRITORIO -->
             <div class="module" id="module-6">
                 <h2>🌍 🌍 Salir al territorio</h2>
-                <div class="badge">Módulo 6/7</div>
+                <div class="badge">Módulo 5/7</div>
 
                 <div class="info-box"><strong>Idea central:</strong> el servicio no se hace <em>para</em> la comunidad. Se hace <em>con</em> la comunidad. Esa preposición es toda la diferencia.</div>
 
@@ -1565,7 +1582,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
             <!-- MÓDULO 7: 🎖️ CÓMO CRECE UN NÓMADA -->
             <div class="module" id="module-7">
                 <h2>🎖️ 🎖️ Cómo crece un Nómada</h2>
-                <div class="badge">Módulo 7/7</div>
+                <div class="badge">Módulo 6/7</div>
 
                 <div class="info-box"><strong>Idea central:</strong> la progresión no es una carrera ni una lista de requisitos. Es un camino personalizado, y no hay un orden obligatorio.</div>
 
@@ -1678,7 +1695,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
             <!-- MÓDULO 8: 🌄 LAS DOS ORILLAS Y TU PRIMER PASO -->
             <div class="module" id="module-8">
                 <h2>🌄 🌄 Las dos orillas y tu primer paso</h2>
-                <div class="badge">Módulo 8/7</div>
+                <div class="badge">Módulo 7/7</div>
 
                 <div class="info-box"><strong>Idea central:</strong> esta rama recibe y entrega. Las dos transiciones son trabajo tuyo, y ninguna se resuelve el día de la ceremonia.</div>
 

@@ -16,6 +16,7 @@
       "title": "🏕️ Bienvenida a la Comunidad",
       "emoji": "🏕️",
       "navLabel": "Bienvenida",
+      "isIntro": true,
       "sections": [
         {
           "type": "info-box",
