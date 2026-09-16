@@ -5,7 +5,7 @@
   "description": "El curso de rama para quienes acompañan la adolescencia tardía. Vas a reencontrarte con Andrés, que llega de su Travesía desde la Tropa, y a entender el cambio que define esta rama: en la Comunidad las decisiones de los jóvenes salen de la unidad y aterrizan en el territorio.",
   "contentVersion": "2026-09-15",
   "icon": "🧗",
-  "duration": "55 minutos",
+  "duration": "60 minutos",
   "level": 2,
   "levelName": "Profundización por rama y práctica pedagógica",
   "order": 11,
@@ -19,7 +19,20 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~55 minutos.</strong> Al final vas a poder decir completas la Ley del Nómada Scout y las dos fórmulas de su Promesa, armar Equipos que se sostengan solos, saber qué se decide en el Consejo de Equipo y qué en el Congreso de Comunidad, usar el marco simbólico sin confundirlo con su ambiente de referencia, acompañar un proyecto en el territorio, leer los seis Rumbos de la progresión y preparar las dos transiciones de la rama."
+          "text": "⏱️ <strong>~60 minutos de lectura y quizzes</strong> — y unos 15 o 20 más si escribes las reflexiones, que es donde de verdad se aprende. Es el curso más largo de la plataforma y no hace falta hacerlo de una sentada: cada lección cierra sola y tu avance se guarda."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Distinguir</strong> qué cambia a los quince y por qué la Comunidad no es una Tropa con jóvenes más grandes.",
+            "<strong>Elegir y usar</strong> las dos fórmulas oficiales de la Promesa, y explicar por qué existen dos.",
+            "<strong>Armar</strong> Equipos de 3 a 6 que se sostengan solos, con sus cinco cargos.",
+            "<strong>Decidir</strong> qué va al Consejo de Equipo y qué al Congreso de Comunidad — y cuándo callarte.",
+            "<strong>Usar</strong> el marco simbólico sin confundirlo con su ambiente de referencia.",
+            "<strong>Acompañar</strong> un proyecto en el territorio por sus seis momentos.",
+            "<strong>Leer</strong> los seis Rumbos y elegir tu rol: apoyar, acompañar o enlazar.",
+            "<strong>Preparar</strong> las dos transiciones de la rama."
+          ]
         },
         {
           "type": "paragraph",
@@ -251,7 +264,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe la fórmula de la Promesa que se usa hoy en tu Grupo Scout, tal cual la dicen. Ahora escribe qué harías si un Nómada te dice, dos semanas antes de su Investidura, que él no cree en Dios y no quiere decir esa frase. Escribe la respuesta concreta que le darías, con sus palabras, no la teoría."
+        "prompt": "Escribe la fórmula de la Promesa que se usa hoy en tu Grupo Scout, tal cual la dicen — palabra por palabra, no de memoria aproximada. Después escribe el nombre de un Nómada de tu unidad que todavía no ha hecho la suya, y la frase exacta con la que lo vas a invitar esta semana. Una sola frase. Ahora reléela: si suena a requisito o a premio, está condicionando la Promesa. Reescríbela hasta que suene a invitación."
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",
@@ -287,6 +300,10 @@
         {
           "type": "info-box",
           "text": "<strong>Idea central:</strong> el Equipo no es una unidad de producción. Es un grupo de amigos al que además le confiamos responsabilidades."
+        },
+        {
+          "type": "paragraph",
+          "text": "Piensa en el mejor Equipo o patrulla que hayas visto funcionar. Lo más probable es que no fuera el mejor repartido ni el más equilibrado: era el de los que se buscaban el sábado sin que nadie se los pidiera. La Guía dice exactamente eso, con otras palabras."
         },
         {
           "type": "policy-quote",
@@ -404,7 +421,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Dibuja en una hoja los Equipos que tienes hoy —o los que tendrías si abrieras la Comunidad mañana— con nombres reales. Al lado de cada uno escribe quién es el Coordinador. Y anota quién lleva la Carta de Navegación: un Navegante por Equipo, o uno solo para toda la Comunidad, como te sirva mejor. Si no puedes poner ese nombre, ese es tu primer trabajo: sin memoria compartida, la Comunidad empieza de cero cada año."
+        "prompt": "Dibuja en una hoja los Equipos que tienes hoy —o los que tendrías si abrieras la Comunidad mañana— con nombres reales. Al lado de cada uno escribe quién es el Coordinador. Y anota quién lleva la Carta de Navegación: un Navegante por Equipo, o uno solo para toda la Comunidad, como te sirva mejor. Si no puedes poner ese nombre, ese es tu primer trabajo: sin memoria compartida, la Comunidad empieza de cero cada año. Y una última pregunta por cada Equipo que dibujaste: ¿estos se buscarían el sábado sin que nadie se los pida? Si la respuesta es no, lo armaste por equilibrio de talentos, no por afinidad — y eso es justo lo que la Guía pide no hacer."
       },
       "quiz": {
         "title": "Mini-quiz Lección 4",
@@ -420,13 +437,13 @@
             "correctIndex": 0
           },
           {
-            "text": "Vas a armar los Equipos de una Comunidad nueva de 12 Nómadas. ¿Con qué criterio los formas?",
+            "text": "El Equipo Tuareg quiere dedicar sus próximas dos reuniones a preparar algo suyo, y además propone que el proyecto del ciclo de toda la Comunidad sea el caño del barrio. ¿Dónde va cada decisión?",
             "options": [
-              "Repartiendo a los más experimentados, para que ninguno quede sin alguien que sostenga el trabajo.",
-              "Mezclando perfiles distintos, de modo que cada Equipo tenga quien organice y quien ejecute.",
-              "Por afinidad entre ellos, ajustando después si algún Equipo queda fuera del rango de 3 a 6."
+              "Lo de sus dos reuniones, en su Consejo de Equipo; el proyecto de todos, al Congreso de Comunidad.",
+              "Las dos cosas al Congreso: es la máxima instancia y le toca todo lo que afecte a la unidad.",
+              "Todo en su Consejo de Equipo, y el Congreso solo ratifica lo que ellos ya hayan acordado."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           }
         ]
       }
@@ -585,7 +602,7 @@
         },
         {
           "type": "info-box",
-          "text": "📏 <strong>DURASLID: el estándar de calidad.</strong> Una buena Oportunidad de Aprendizaje es <strong>D</strong>esafiante (activa lo que aún no logra solo), <strong>Ú</strong>til (entiende para qué le sirve), <strong>R</strong>ecompensante (aunque la recompensa sea emocional), <strong>A</strong>tractiva, <strong>S</strong>egura (el riesgo se prevé y se mitiga), <strong>L</strong>údica, <strong>I</strong>ncluyente (nadie queda fuera) y <strong>D</strong>iversa (entran más identidades a la conversación). Ocho criterios, y sirven tanto para diseñar como para evaluar después."
+          "text": "📏 <strong>DURASLID: el estándar de calidad.</strong> Una buena Oportunidad de Aprendizaje es <strong>D</strong>esafiante (activa lo que aún no logra solo), <strong>Ú</strong>til (entiende para qué le sirve), <strong>R</strong>ecompensante (aunque la recompensa sea emocional), <strong>A</strong>tractiva, <strong>S</strong>egura (el riesgo se prevé y se mitiga), <strong>L</strong>údica, <strong>I</strong>ncluyente (nadie queda fuera) y <strong>D</strong>iversa (entran más identidades a la conversación). No te aprendas las ocho letras. Al terminar la próxima actividad, siéntate con un Equipo y hazles solo dos: <em>¿esto fue desafiante o ya lo sabían hacer?</em> y <em>¿quedó alguien afuera?</em> Con esas dos ya estás evaluando."
         },
         {
           "type": "paragraph",
@@ -605,23 +622,27 @@
           "items": [
             {
               "title": "🕊️ Mensajeros de Paz",
-              "description": "Construcción de paz desde lo cotidiano: Constructores de Paz, Patrimonito, HeForShe, Diálogos por la Paz, Diálogo Interreligioso.",
+              "description": "La puerta cuando el proyecto es de convivencia: el conflicto del colegio, la memoria del barrio, la equidad. Dentro viven Constructores de Paz, Patrimonito, HeForShe, los Diálogos por la Paz y el Diálogo Interreligioso.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
             {
               "title": "🌱 Tribu Tierra",
-              "description": "Desarrollo sostenible en el territorio: Plastic Tide Turners, Campeones por la Naturaleza, Scouts Go Solar, YUNGA.",
+              "description": "La puerta cuando el proyecto es del entorno: el caño, los residuos del salón, la energía, el agua. Dentro viven Plastic Tide Turners, Campeones por la Naturaleza, Scouts Go Solar y YUNGA.",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             },
             {
-              "title": "🏅 Dos reconocimientos mundiales",
-              "description": "Scouts del Mundo y Héroes Mensajeros de la Paz.",
+              "title": "🏅 Scouts del Mundo · Héroes Mensajeros de la Paz",
+              "description": "Los dos reconocimientos mundiales. No se buscan: se alcanzan cuando ya hay un proyecto sostenido detrás. Por eso van al final y no al principio.",
               "color": "#fff8e1",
               "borderColor": "#f9a825"
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "No tienes que conocerlos todos hoy. Lo único que necesitas es saber por cuál de las dos puertas entra el proyecto que tu Comunidad ya tiene en la cabeza — y que existe una puerta."
         },
         {
           "type": "heading",
@@ -781,6 +802,10 @@
           "text": "💡 <strong>El error típico es quedarse en «apoyar».</strong> Es el rol más cómodo y el que más se parece a lo que hacías en ramas anteriores. Pero a un Nómada en Profundización, apoyarlo lo frena: lo que necesita es que le abras una puerta que tú conoces y él no."
         },
         {
+          "type": "paragraph",
+          "text": "Antes de la aritmética, un puente con lo que Andrés ya vivió. En la Tropa también eran cuatro fases, pero se recorrían <strong>en fila</strong>: terminabas una y entrabas a la siguiente. Aquí no. Aquí la fase no se recorre — <strong>se lee</strong>, mirando el conjunto de los seis Rumbos en un momento dado. Por eso un Nómada puede subir de fase sin haber «terminado» nada en particular: lo que cambió fue el mapa completo, no una casilla. <strong>Eso no quiere decir que las cuatro fases estén sueltas: suben, y una vez alcanzada una ya no se pierde. Lo que no hay es una casilla que cerrar para pasar a la siguiente.</strong>"
+        },
+        {
           "type": "heading",
           "level": 3,
           "text": "Las cuatro fases"
@@ -838,11 +863,11 @@
             "correctIndex": 2
           },
           {
-            "text": "Un Nómada tiene 3 áreas en Exploración y 3 en Aplicación, y te pregunta qué fase le corresponde.",
+            "text": "Daniel te muestra su Cartografía Nómada: tres Rumbos en amarillo mostaza y tres en mandarina cálido. Te pregunta qué sigue para él.",
             "options": [
-              "Nómada Pionero de la Montaña.",
-              "Nómada Caminante de los Bosques.",
-              "Nómada Visionario de los Ríos."
+              "Que ya alcanzó Pionero de la Montaña, y que lo que sigue es llevar un Rumbo a rojo coral.",
+              "Que le falta para Caminante de los Bosques: primero hay que cerrar del todo las áreas que tiene en amarillo mostaza.",
+              "Que ya alcanzó Visionario de los Ríos: tiene la mitad de sus Rumbos fuera de la Exploración."
             ],
             "correctIndex": 0
           }
@@ -905,6 +930,10 @@
           "text": "📜 <strong>La distinción Ciudadano Scout.</strong> Al terminar la transición se entrega por <strong>resolución oficial de la Comisión Nacional de Nómadas Scout</strong>, con un pin que solicita su Dirigente de Comunidad. Ese trámite es tuyo: si no lo pides, no llega. Y una regla dura: ningún integrante de la rama puede ser mayor de edad."
         },
         {
+          "type": "info-box",
+          "text": "🛶 <strong>Y al otro lado de la orilla.</strong> Qué es un Clan, qué significa la canoa y cómo funciona el Plan de Progresión Personal de un Rover es materia del <strong>Curso 12 (Rama Clan)</strong>, que todavía está por construirse. Mientras llega, lo que no puede esperar es una conversación: pídele al Jefe de Clan de tu Grupo que venga a una reunión de tu Comunidad antes de que tu primer Nómada cumpla los dieciocho. El Asentamiento se hace con gente, no con folletos."
+        },
+        {
           "type": "heading",
           "level": 3,
           "text": "Lo que sostiene todo: el Ciclo de Programa"
@@ -917,7 +946,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El ciclo dura <strong>de tres a seis meses</strong> y lo deciden los propios jóvenes a través de su organismo de gobierno. Cómo se conduce paso a paso —sus cuatro momentos, el énfasis del ciclo, la evaluación con criterios DURASLID— es materia del <strong>Curso 15 (Ciclo de Programa con ABP)</strong>, que sirve a todas las ramas y todavía está por construirse. Lo que sí es propio de tu Comunidad son sus herramientas."
+          "text": "El ciclo dura <strong>de tres a seis meses</strong> y lo deciden los propios jóvenes a través de su organismo de gobierno. Cómo se conduce paso a paso —el énfasis del ciclo, cómo se encadenan sus momentos, la evaluación con criterios DURASLID— es materia del <strong>Curso 15 (Ciclo de Programa con ABP)</strong>, que sirve a todas las ramas y todavía está por construirse. Y si en el Curso 6 te quedó el ciclo del Modelo con <strong>cinco</strong> momentos y en tu Guía de Comunidad lo ves en <strong>cuatro</strong>, no te lo estás inventando: son dos textos vigentes que lo cuentan distinto, y ahí es donde el Curso 15 pondrá orden. Lo que sí es propio de tu Comunidad son sus herramientas."
         },
         {
           "type": "info-box",
@@ -944,7 +973,7 @@
         },
         {
           "type": "mission-box",
-          "text": "🎯 <strong>Tu primer paso como Dirigente de Comunidad.</strong> No intentes cambiar la Comunidad entera el sábado: escoge una sola cosa de este curso y pruébala en la próxima reunión. ¿Cuál? La que empuje una decisión hacia afuera — una llamada que hagan ellos, una visita al barrio, una pregunta a alguien que no sea scout. Y si dudas por dónde seguir, vuelve a la frase con la que abrimos: en la Tropa aprendieron a decidir entre ellos; en la Comunidad deciden hacia afuera — y de eso se entera el barrio."
+          "text": "🎯 <strong>Tu primer paso como Dirigente de Comunidad.</strong> No intentes cambiar la Comunidad entera el sábado: escoge una sola cosa de este curso y pruébala en la próxima reunión. ¿Cuál? La que empuje una decisión hacia afuera — una llamada que hagan ellos, una visita al barrio, una pregunta a alguien que no sea scout. <strong>Escríbela en el recuadro de Compromiso Personal que te aparece con el certificado.</strong> Ahí dice «tu compromiso como adulto»: el tuyo, hoy, es esa sola cosa. Ponle fecha. Y si dudas por dónde seguir, vuelve a la frase con la que abrimos: en la Tropa aprendieron a decidir entre ellos; en la Comunidad deciden hacia afuera — y de eso se entera el barrio."
         }
       ],
       "reflection": {
@@ -955,13 +984,13 @@
         "nextLabel": "Ir al certificado 🎓",
         "questions": [
           {
-            "text": "Llega a tu Comunidad un Scout de 14 años y medio. Un dirigente del Grupo dice que no debería estar ahí porque la rama es de 15 a 17. ¿Qué le respondes?",
+            "text": "Llega a tu Comunidad un Scout de 14 años y medio. Un dirigente del Grupo dice que no debería estar ahí porque la rama es de 15 a 17. ¿Qué haces?",
             "options": [
-              "Que la sección es de 15 a 17 y conviene que espere en la Tropa hasta cumplir los quince.",
-              "Que está bien: la Guía de Tropa manda al Scout a la rama siguiente antes de los 14 años y medio.",
-              "Que la edad de ingreso la define cada Grupo según la madurez del joven y el tamaño de las unidades."
+              "Lo recibes: llegar antes de los quince es lo previsto entre las dos guías, no una excepción que haya que autorizar.",
+              "Lo recibes como invitado a las actividades, pero lo dejas inscrito en la Tropa hasta el día que cumpla quince.",
+              "Lo recibes y le pides al Jefe de Grupo que autorice por escrito el ingreso anticipado, porque la sección es de 15 a 17."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "Sebastián cumple 18 en cinco meses. ¿Qué es lo primero que le corresponde en su Etapa de Transición?",
@@ -986,7 +1015,7 @@
     {
       "id": "achievement-2",
       "emoji": "🤝",
-      "name": "Digo la Ley y las dos Promesas",
+      "name": "Sé por qué hay dos Promesas",
       "unlockOnModule": 3
     },
     {

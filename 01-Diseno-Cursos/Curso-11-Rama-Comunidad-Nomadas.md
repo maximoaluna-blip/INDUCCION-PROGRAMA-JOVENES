@@ -20,7 +20,7 @@ A diferencia de Tropa, **Comunidad sí tiene Guía de Dirigente 2026**, así que
 
 **Paginación:** en esta Guía la página impresa coincide con la del PDF (verificado en las pp. 5, 7, 14 y 34). Las citas del curso dicen simplemente «p. N».
 
-### Seis discrepancias entre fuentes vigentes — resueltas a propósito, y marcadas
+### Siete discrepancias entre fuentes vigentes — resueltas a propósito, y marcadas
 
 Ninguna se inventa ni se esconde. Se resuelven con criterio explícito, y las que el adulto va a encontrarse al leer los documentos se le dicen en el curso.
 
@@ -30,6 +30,7 @@ Ninguna se inventa ni se esconde. Se resuelven con criterio explícito, y las qu
 4. **La edad de llegada no cuadra con la edad declarada de la sección.** El Modelo fija la sección en **15 a 17 años** (pp. 19 y 106), pero la Guía de Tropa manda al Scout a la Comunidad en un plazo **no mayor a seis meses después de cumplir 14** (Guía de Tropa, p. 4) — o sea, llega con catorce y medio. La Guía de Comunidad sitúa la ventana entre los **14 años y 6 meses y los 15** (p. 37). *No se inventa una regla: se enseña que el Nómada llega antes de cumplir 15 y que la sección se declara 15–17, porque el dirigente se va a encontrar a un chico de 14 y medio en su Comunidad y necesita saber que eso es correcto.*
 5. **Hay dos insignias en el mismo tránsito, y no son la misma.** La **Insignia de Paso** la entrega el Jefe de Tropa como recordatorio del paso por la Tropa (Guía de Tropa, p. 19); la de **Viajero del Territorio** se entrega al comenzar la Etapa de Transición para que el dirigente de Comunidad pueda enlazar la adaptación (p. 37). *Se enseñan las dos y se dice que son distintas*, porque un dirigente que lea ambas guías va a dudar.
 6. **«Caminantes» es nombre superado.** La Guía de Tropa todavía lo usa (p. 4) y el Modelo lo desliza una vez en minúscula (p. 48). El nombre vigente de la rama es **Nómadas Scout** (Modelo p. 106). *El curso usa Nómadas Scout y avisa del término viejo*, porque está en un documento que el adulto sí va a leer. El `GLOSARIO-ASC` ya lo tiene registrado como superado.
+7. **El Ciclo de Programa tiene cuatro momentos o cinco, según qué documento abras.** La *Guía de Comunidad* dice *«El Ciclo de Programa se organiza en **cuatro momentos** principales»* (p. 44); el *Modelo de Aplicación* §11.2 dice *«El Ciclo de Programa plantea **cinco momentos**, y cada uno es acompañado por metodologías ABP»* (p. 75). Los dos son de 2026 y los dos están vigentes, y el **Curso 6** ya enseñó los cinco del Modelo a este mismo adulto. *No se decide cuál manda —eso es del Curso 15, que es el dueño del tema—: el curso **nombra la discrepancia** en vez de sembrarla, que es lo que ya hace con «Caminantes», con «Vida en Pequeños Grupos» y con las dos «travesías».* La detectó la **re-auditoría pedagógica**, no la doctrinal, y solo porque esta vez se abrió el curso de destino.
 
 ---
 
@@ -41,7 +42,7 @@ Ninguna se inventa ni se esconde. Se resuelven con criterio explícito, y las qu
 | Título | Rama Comunidad (Nómadas Scout) |
 | Icono | 🧗 |
 | Nivel / orden | 2 · Curso **11** |
-| Duración declarada | **55 minutos** — ver §4-bis y el **ADR-047**. Es el curso más extenso de la plataforma |
+| Duración declarada | **60 minutos** — ver §4-bis y el **ADR-047**. Es el curso más extenso de la plataforma |
 | Módulos | 8 (1 de registro + **7 de contenido**) |
 | Destinatario | Dirigentes de Comunidad y quienes van a abrir una |
 | `contentVersion` | 2026-09-15 |
@@ -53,7 +54,7 @@ Ninguna se inventa ni se esconde. Se resuelven con criterio explícito, y las qu
 Al terminar, el adulto podrá:
 
 1. **Explicar qué cambia a los quince** y por qué la Comunidad no es «una Tropa con jóvenes más grandes»: la decisión deja de ser interna y sale al territorio.
-2. **Decir completas la Ley del Nómada Scout (10 artículos) y las dos fórmulas oficiales de la Promesa**, y saber por qué existen dos.
+2. **Elegir y usar las dos fórmulas oficiales de la Promesa**, y explicar por qué existen dos. *(H10: el curso lista los diez artículos de la Ley y no vuelve a tocarlos; ninguna pregunta los evalúa, así que el objetivo ya no promete memorizarlos.)*
 3. **Organizar una Comunidad**: Equipos de 3 a 6, sus cargos, los Grupos de Trabajo y el liderazgo rotativo, situacional y compartido.
 4. **Distinguir dónde se decide qué**: Consejo de Equipo y Congreso de Comunidad, y cuál es la diferencia entre tener voz y tener voto.
 5. **Usar el marco simbólico** «La aventura hacia la ciudadanía» sin confundirlo con su ambiente de referencia (las Historias de la Humanidad).
@@ -99,7 +100,9 @@ Al contrastar el borrador con el plan de línea aparecieron dos desajustes en di
 - **Faltaba lo que el plan sí pide.** La fila del Curso 11 exige *«Aprender Haciendo + DURASLID»*, y el borrador lo mencionaba una sola vez, de pasada, dentro de un párrafo sobre otro tema. Se añadió a la **L6** la distinción entre *Oportunidad de Aprendizaje* (la acción externa) y *experiencia* (lo interno), y los ocho criterios DURASLID como estándar para diseñar **y** para evaluar.
 - **Sobraba lo que el plan no pide aquí.** La L8 desarrollaba el **Ciclo de Programa en sus cuatro momentos**, que es materia del **Curso 15 (Ciclo de Programa con ABP)**, transversal a todas las ramas. Se dejó solo lo propio de la Comunidad —que dura de tres a seis meses y lo deciden los jóvenes— y un enlace al Curso 15. Es el mismo trato que este curso ya le da al Curso 25 y a la línea Transversales.
 
-**Duración: 55 minutos.** Medido con un contador único sobre los cuatro cursos de rama, este queda en **7.150 palabras** frente a 5.821 (Familia), 5.658 (Tropa) y 4.144 (Manada). A 45 minutos declararía **159 palabras/minuto**, muy por encima de las 126–129 de sus hermanos; a 55 declara **130**, que es exactamente su ritmo. La cifra subió dos veces durante la construcción —de 45 a 50 al terminar el borrador, y de 50 a 55 cuando las correcciones de la auditoría doctrinal añadieron 321 palabras obligatorias—: **el piso honesto se recalcula cuando el contenido cambia, no se fija al principio**. Se aplica el mismo criterio del **ADR-045**: se declara el piso honesto, no el número cómodo, porque *«prometer una duración que no se cumple destruye la confianza en el resto de la ruta»*. **Es el curso más largo de la plataforma y el tercero que excede el tope de 40 del CHECKLIST** —tras los Cursos 9 y 10, ambos en 45—, y por eso queda escrito aquí y en el **ADR-047**, que además regulariza los 45 del Curso 10, publicados sin ADR propio.
+**Duración: 60 minutos.** Medido con un contador único sobre los cuatro cursos de rama, este queda en **7.831 palabras** frente a 5.821 (Familia), 5.658 (Tropa) y 4.144 (Manada). A 45 minutos declararía **174 palabras/minuto**, muy por encima de las 126–129 de sus hermanos; a 60 declara **131**, que es exactamente su ritmo.
+
+**La cifra se recalculó tres veces, y esa es la conclusión del curso.** 45 → 50 al cerrar el borrador; 50 → 55 cuando las correcciones de la auditoría **doctrinal** añadieron 321 palabras obligatorias; 55 → 60 cuando las de la **pedagógica** añadieron otras 670. Cada subida fue honesta por separado, y juntas dicen algo que ninguna dice sola: **este curso está en el borde de lo que el formato aguanta**. Con 7.831 palabras es un 35 % más grande que Familia, y tres de sus ocho lecciones pasan de las 1.000 palabras. **La lección para el próximo curso de este tamaño —Clan, si su Guía es igual de extensa— es diseñarlo como dos desde el principio, no descubrirlo al final**: partirlo ahora exigiría quizzes nuevos que ninguna de las tres auditorías habría visto, que es el criterio con el que ya se resolvieron los Cursos 9 y 10. Se aplica el mismo criterio del **ADR-045**: se declara el piso honesto, no el número cómodo, porque *«prometer una duración que no se cumple destruye la confianza en el resto de la ruta»*. **Es el curso más largo de la plataforma y el tercero que excede el tope de 40 del CHECKLIST** —tras los Cursos 9 y 10, ambos en 45—, y por eso queda escrito aquí y en el **ADR-047**, que además regulariza los 45 del Curso 10, publicados sin ADR propio.
 
 **Deuda registrada, no aplicada:** la **L8** (1.159 palabras, ~7,2 min), la **L6** (1.076, ~6,7 min) y la **L4** (1.013, ~6,3 min) están en el borde alto de la banda de 3–8 min. Si alguna vez se parte la L8, el corte limpio separa **llegar** (la Travesía desde la Tropa) de **partir y administrar** (los tres pasos hacia el Clan más las herramientas). No se parte ahora porque exigiría dos preguntas de quiz que ninguna auditoría ha visto — mismo criterio con el que se resolvieron los Cursos 9 y 10.
 
@@ -133,12 +136,36 @@ Lo que dicen las fuentes, verificado una por una:
 
 Lo recomendado: pasar `/auditar-curso` a los **Cursos 1, 6 y 8**, que es donde vive el defecto, en vez de parchear tres cadenas.
 
+## 4-quater. Auditoría pedagógica: las once correcciones aplicadas
+
+Informe del `auditor-pedagogico-asc` (16-sep-2026) — veredicto **APTO CON MEJORAS MENORES** (3 altos, 6 medios, 4 bajos). Once hallazgos traían reescritura literal y se aplicaron sobre el JSON del curso, sin tocar doctrina: ninguna cita, número, fecha, término ni nombre cambió.
+
+| # | Dónde | Qué cambió |
+|---|---|---|
+| H1 | L7, quiz P2 | La única pregunta sin escenario —y con dos respuestas defendibles, porque las fases son acumulativas— pasa a un caso con la Cartografía Nómada. |
+| H3 | L8, quiz P1 | La correcta estaba calcada del cuerpo y pedía *citar* una norma; ahora pide *hacer* algo, y los distractores codifican la «media membresía» y burocratizar una regla que ya existe. |
+| H4 | L6, `method-grid` de ODS | Catálogo de once nombres propios sin anclaje → **dos puertas** (convivencia / entorno) más los dos reconocimientos, y un párrafo que dice que no hay que conocerlos todos hoy. |
+| H5 | L3, reflexión | Resolvía el caso que el quiz P1 evalúa dos pantallas después. Ahora trabaja la fórmula literal y la frase con la que se invita a un Nómada concreto. |
+| H6 | L7 | Párrafo puente antes de «Las cuatro fases»: en la Tropa se recorrían **en fila**; aquí la fase **se lee** mirando el conjunto de los seis Rumbos. |
+| H7 | L1, info-box de duración | Los ~55 minutos se declaran como **lectura y quizzes**, más 15–20 si se escriben las reflexiones. **El campo `duration` no se tocó** — sigue vigente el ADR-047. |
+| H8 | L8 | `info-box` nuevo: la ruta se teje hacia el **Curso 12 (Rama Clan)**, que es la orilla a la que la lección dedica media página y que el curso nunca nombraba. |
+| H9 | L6, info-box DURASLID | El acrónimo entraba y no se usaba. Cierra con un uso mínimo —dos preguntas a un Equipo al terminar la próxima actividad— en vez de una frase de resumen. |
+| H10 | L1 + logros | Los objetivos dejan la frase corrida de ~90 palabras y pasan a ocho ítems en `course-objectives`; `achievement-2` deja de prometer memorización («Digo la Ley y las dos Promesas» → «Sé por qué hay dos Promesas»), porque ninguna pregunta evalúa los diez artículos. |
+| H11 | L4 | Párrafo de anclaje entre el `info-box` y el `policy-quote`, para cumplir el orden del marco §6.3: **anclaje → cita → reformulación**. |
+| H13 | L8, `mission-box` | La misión se amarra al recuadro de **Compromiso Personal** que genera el motor con el certificado: era el único campo escribible del cierre y pedía otra cosa. |
+
+**Compuertas de paridad, medidas antes y después:** extremo 0/14 · oveja negra 0/14 · sesgo 4/14 — **sin cambio**. La reescritura de H1 dejaba la correcta como la más corta por 10 caracteres; se corrigió **acortando un distractor**, nunca la correcta, como pide §7.
+
+**Fuera del alcance de la corrección:** H2 (el anuncio desactualizado del Curso 10, aplicado aparte sobre `rama-tropa-scout.json`) y **H12** — `engine.core.js` dice «Necesitas 70% para continuar» donde la L1 dice «hay que acertar las dos». Es del **núcleo compartido**: se edita en `_MOTOR/` y afecta a las tres líneas, así que no se toca desde aquí.
+
+---
+
 ## 5. Logros
 
 | id | `unlockOnModule` | Nombre |
 |---|---|---|
 | `achievement-1` | 2 | Dejo de ser el que decide |
-| `achievement-2` | 3 | Digo la Ley y las dos Promesas |
+| `achievement-2` | 3 | Sé por qué hay dos Promesas |
 | `achievement-3` | 4 | Tengo voz, no voto |
 | `achievement-4` | 5 | Sé qué es el marco y qué el ambiente |
 | `achievement-5` | 6 | Construyo con, no para |
