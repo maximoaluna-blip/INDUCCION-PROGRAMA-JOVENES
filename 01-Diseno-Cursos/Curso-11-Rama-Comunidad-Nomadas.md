@@ -200,4 +200,5 @@ Informe del `auditor-pedagogico-asc` (16-sep-2026) — veredicto **APTO CON MEJO
 ## 8. Estado
 
 1. Diseño — este documento. **Commiteado antes de tocarlo con scripts** *(lección del Curso 9, donde un script truncó el diseño a cero bytes).*
-2. Pendiente: JSON · build · las **tres auditorías** · compuerta humana.
+2. JSON · build · las **tres auditorías** · compuerta humana — **todo hecho el 16-sep-2026**.
+3. **Publicado el 16-sep-2026** como Curso 11 de la línea (`status: active`, `order: 11`). Cuarto curso de rama y cuarto de PJ con las tres auditorías. Con él, el Nivel 2 llega a **4 de 8** y solo falta **Clan** para cerrar las cinco ramas.

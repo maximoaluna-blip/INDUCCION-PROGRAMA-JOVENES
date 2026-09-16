@@ -21,6 +21,7 @@ const FALLBACK = [
   { courseId: 'rama-manada-lobatos', file: 'rama-manada-lobatos.html', tituloIncluye: 'Manada' },
   { courseId: 'rama-familia-cachorros', file: 'rama-familia-cachorros.html', tituloIncluye: 'Familia' },
   { courseId: 'rama-tropa-scout', file: 'rama-tropa-scout.html', tituloIncluye: 'Tropa' },
+  { courseId: 'rama-comunidad-nomadas', file: 'rama-comunidad-nomadas.html', tituloIncluye: 'Comunidad' },
 ];
 
 let CURSOS = FALLBACK;
