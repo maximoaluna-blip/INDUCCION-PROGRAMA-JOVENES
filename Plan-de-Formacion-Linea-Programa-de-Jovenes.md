@@ -101,7 +101,7 @@ Cuando un curso es compartido entre líneas, se consume desde una sola fuente pa
 | Nivel | Nombre | # de cursos | Audiencia primaria | Estado |
 |---|---|---|---|---|
 | 1 | Ruta de Fundamentación | 7 cursos | Todo adulto que entra a la línea | **Completo** — 7/7 publicados |
-| 2 | Profundización por rama y por práctica pedagógica | 8 cursos | Dirigentes de unidad y equipos de programa | En construcción — 2/8 (Manada y Familia publicadas) |
+| 2 | Profundización por rama y por práctica pedagógica | 8 cursos | Dirigentes de unidad y equipos de programa | En construcción — 3/8 (Manada, Familia y Tropa publicadas) |
 | 3 | Especialización por cargo | 5 cursos | Adulto en cargo de programa | Por construir |
 | 4 | Transversales | 5 cursos | Todo adulto del movimiento | Por construir |
 
@@ -281,11 +281,11 @@ El Curso 25 es de **adopción inmediata y fuertemente recomendado** para todo ad
 
 ### 7.1 Estado actual (15-sep-2026)
 
-- **9 cursos publicados de 25.** Nivel 1 **completo** (7/7) y Nivel 2 con **2 de 8**: Curso 8 (Rama Manada) y **Curso 9 (Rama Familia)**, publicado el 15-sep-2026.
+- **10 cursos publicados de 25.** Nivel 1 **completo** (7/7) y Nivel 2 con **3 de 8**: Curso 8 (Rama Manada), **Curso 9 (Rama Familia)** y **Curso 10 (Rama Tropa Scout)**, los dos últimos publicados el 15-sep-2026.
 - Plataforma técnica **en producción**: frontend en GitHub Pages, backend en Google Apps Script con backup nocturno, dashboard administrativo, generador de cursos basado en JSON. El motor es compartido con las otras líneas desde el ADR-025 (núcleo único en `_MOTOR/`, propagado por `sincronizar-motor.py`).
 - Repositorio: `INDUCCION-PROGRAMA-JOVENES`.
 - URL pública: `https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/`.
-- **Quedan 16 cursos**: 10, 11 y 12 de rama (Tropa, Comunidad, Clan); 13–15 operativos; 16–20 por cargo; 21–25 transversales.
+- **Quedan 15 cursos**: 11 y 12 de rama (Comunidad, Clan); 13–15 operativos; 16–20 por cargo; 21–25 transversales.
 
 ### 7.2 Próximos hitos
 
@@ -294,7 +294,7 @@ El Curso 25 es de **adopción inmediata y fuertemente recomendado** para todo ad
 - ~~**Hito C — Validación del Nivel 1 con piloto**~~ **DEROGADO por el ADR-019 (11-jul-2026):** el piloto humano dejó de ser requisito para publicar. La compuerta de calidad son las tres auditorías — doctrinal, pedagógica y funcional.
 - **Hito D — Curso 25 (A Salvo del Peligro) en paralelo**: por su valor —**no por ser habilitante, que no lo es (ADR-019)**— se construye y publica antes que el resto del Nivel 4, idealmente al cierre del Nivel 1, para que ningún dirigente llegue al Nivel 2 sin haberlo tenido disponible.
 - ~~**Hito E — Nivel 2 Prioridad 1 — Rama de mayor demanda**~~ **HECHO (jul-2026):** el **Curso 8 (Manada)** fue el segundo vertical slice y el primer curso publicado bajo el ADR-019, sin piloto bloqueante.
-- **Hito F — Cierre del Nivel 2 ramas**: ~~Familia (9)~~ **HECHA el 15-sep-2026**. Quedan **Tropa (10), Comunidad (11) y Clan (12)**, reaprovechando el patrón. *(La versión anterior de esta línea decía "los otros 4" y listaba solo 3: se le había caído Tropa.)*
+- **Hito F — Cierre del Nivel 2 ramas**: ~~Familia (9)~~ y ~~Tropa (10)~~ **HECHAS el 15-sep-2026**. Quedan **Comunidad (11) y Clan (12)**, reaprovechando el patrón. *(La versión anterior de esta línea decía "los otros 4" y listaba solo 3: se le había caído Tropa.)*
 - **Hito G — Nivel 2 cursos operativos**: construir los Cursos 13, 14 y 15 (Seguimiento, Planeación, Ciclo de Programa con ABP) como complemento universal.
 - **Hito H — Iniciar Nivel 3 con curso integrador (16 — Jefe de Rama)** y los cargos más demandados (17 — Asistente).
 - **Hito I — Completar Nivel 3 y Nivel 4** según demanda. Los kits de Mundo Mejor (Cursos 21–24) pueden lanzarse de a uno, aprovechando convocatorias nacionales o mundiales para hacer pilotos vivenciales.

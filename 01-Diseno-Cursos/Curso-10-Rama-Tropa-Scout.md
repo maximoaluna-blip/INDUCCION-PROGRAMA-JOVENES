@@ -221,10 +221,11 @@ Se completa al medir el JSON. Compromisos de diseño, tomados de lo aprendido en
 
 ---
 
-## 7-bis. Las dos auditorías (15-sep-2026)
+## 7-bis. Las tres auditorías (15-sep-2026)
 
 **Doctrinal:** primera pasada **2 críticos, 10 mayores, 14 menores**; re-auditoría **APTO CON CORRECCIONES MENORES, 0 críticos**.
 **Pedagógica:** primera pasada **REQUIERE MEJORA** (3 altos, 7 medios, 10 bajos); re-auditoría **APTO**.
+**Funcional:** suite E2E de la línea con el curso incluido — **103 passed / 0 failed / 2 skipped** (las dos saltadas son la integración con el backend y el smoke del portal, condicionadas a variables de entorno). Corrida contra servidor local, con el curso añadido al catálogo solo durante la corrida.
 
 | Métrica | Antes | Después |
 |---|---|---|
@@ -245,4 +246,5 @@ Se completa al medir el JSON. Compromisos de diseño, tomados de lo aprendido en
 ## 8. Estado
 
 1. Diseño — este documento. **Commiteado antes de tocarlo con scripts** *(lección del Curso 9, donde un script truncó el diseño a cero bytes).*
-2. Pendiente: JSON · build · las **tres auditorías** · compuerta humana.
+2. JSON · build · las **tres auditorías** (§7-bis) · compuerta humana — **todo hecho el 15-sep-2026**.
+3. **Publicado el 15-sep-2026** como Curso 10 de la línea (`status: active`, `order: 10`). Es el tercer curso de rama y el tercero de PJ con las tres auditorías.

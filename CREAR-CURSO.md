@@ -600,32 +600,41 @@ Antes de publicar, verificar contra https://scout.org.co/biblioteca/dnpj que los
 
 ### 13.2 Convención de courseIds (slugs en kebab-case)
 
-| Nivel | Curso | `courseId` propuesto |
+> Numeración del **plan v1.1** (25 cursos, 1→25 continuos), fijada por el **ADR-041**.
+> En el Nivel 2 el número sigue al **orden de publicación**, no a la edad de la rama:
+> Manada es el 8 y Familia el 9 (**ADR-043**). Esta tabla se quedó dos meses con la
+> numeración vieja porque la renumeración no la barrió; corregida el 15-sep-2026.
+> **Cita siempre por `courseId`: es lo único que no se ha movido nunca.**
+
+| Nivel | Curso | `courseId` |
 |---|---|---|
-| 1 | 01 Bienvenida al Programa de Jóvenes | `bienvenida-programa-jovenes` |
-| 1 | 02 La Educación por el Amor | `educacion-por-el-amor` |
-| 1 | 03 Características Esenciales del Movimiento Scout | `caracteristicas-esenciales-movimiento-scout` |
-| 1 | 04 El Método Scout y sus 8 elementos | `metodo-scout-8-elementos` |
-| 1 | 05 La PNPJ y "El Gran Juego para la Vida" | `pnpj-gran-juego-para-la-vida` |
-| 1 | 06 Mi Compromiso con el Programa de Jóvenes | `mi-compromiso-programa-jovenes` |
-| 2 | 07 Rama Familia (Cachorros) | `rama-familia-cachorros` |
-| 2 | 08 Rama Manada (Lobatos) | `rama-manada-lobatos` |
-| 2 | 09 Rama Tropa Scout | `rama-tropa-scout` |
-| 2 | 10 Rama Comunidad (Nómadas) | `rama-comunidad-nomadas` |
-| 2 | 11 Rama Clan (Rovers) | `rama-clan-rovers` |
-| 2 | 12 Seguimiento de la Progresión Personal | `seguimiento-progresion-personal` |
-| 2 | 13 Planeación de Reuniones y OdA | `planeacion-reuniones-oda` |
-| 2 | 14 Ciclo de Programa con ABP | `ciclo-programa-abp` |
-| 3 | 15 Jefe de Rama | `jefe-de-rama` |
-| 3 | 16 Asistente y acompañamiento de la progresión personal | `asistente-acompanamiento-progresion` |
-| 3 | 17 Comisionado de Programa de Jóvenes | `comisionado-programa-jovenes` |
-| 3 | 18 Consejero Juvenil | `consejero-juvenil` |
-| 3 | 19 Coordinador y Comunicador RDJ | `coordinador-comunicador-rdj` |
-| 4 | 20 Marco de Mundo Mejor y ODS | `marco-mundo-mejor-ods` |
-| 4 | 21 Kit Constructores de Paz | `kit-constructores-paz` |
-| 4 | 22 Kit HeForShe y enfoque de género | `kit-heforshe-genero` |
-| 4 | 23 Kit Patrimonito y Patrimonio | `kit-patrimonito-patrimonio` |
-| 4 | 24 A Salvo del Peligro aplicado al Programa | `a-salvo-del-peligro-programa` |
+| 1 | 01 Bienvenida al Programa de Jóvenes | `bienvenida-programa-jovenes` ✅ |
+| 1 | 02 La Educación por el Amor | `educacion-por-el-amor` ✅ |
+| 1 | 03 Cómo se Educa Hoy | `como-se-educa-hoy` ✅ |
+| 1 | 04 Características Esenciales del Movimiento Scout | `caracteristicas-esenciales-movimiento-scout` ✅ |
+| 1 | 05 El Método Scout y sus 8 elementos | `metodo-scout-8-elementos` ✅ |
+| 1 | 06 La PNPJ y "El Gran Juego para la Vida" | `pnpj-gran-juego-para-la-vida` ✅ |
+| 1 | 07 Mi Compromiso con el Programa de Jóvenes | `mi-compromiso-programa-jovenes` ✅ |
+| 2 | 08 Rama Manada (Lobatos) | `rama-manada-lobatos` ✅ |
+| 2 | 09 Rama Familia (Cachorros) | `rama-familia-cachorros` ✅ |
+| 2 | 10 Rama Tropa Scout | `rama-tropa-scout` ✅ |
+| 2 | 11 Rama Comunidad (Nómadas) | `rama-comunidad-nomadas` |
+| 2 | 12 Rama Clan (Rovers) | `rama-clan-rovers` |
+| 2 | 13 Seguimiento de la Progresión Personal | `seguimiento-progresion-personal` |
+| 2 | 14 Planeación de Reuniones y OdA | `planeacion-reuniones-oda` |
+| 2 | 15 Ciclo de Programa con ABP | `ciclo-programa-abp` |
+| 3 | 16 Jefe de Rama | `jefe-de-rama` |
+| 3 | 17 Asistente y acompañamiento de la progresión personal | `asistente-acompanamiento-progresion` |
+| 3 | 18 Comisionado de Programa de Jóvenes | `comisionado-programa-jovenes` |
+| 3 | 19 Consejero Juvenil | `consejero-juvenil` |
+| 3 | 20 Coordinador y Comunicador RDJ | `coordinador-comunicador-rdj` |
+| 4 | 21 Marco de Mundo Mejor y ODS | `marco-mundo-mejor-ods` |
+| 4 | 22 Kit Constructores de Paz | `kit-constructores-paz` |
+| 4 | 23 Kit HeForShe y enfoque de género | `kit-heforshe-genero` |
+| 4 | 24 Kit Patrimonito y Patrimonio | `kit-patrimonito-patrimonio` |
+| 4 | 25 A Salvo del Peligro aplicado al Programa | `a-salvo-del-peligro-programa` |
+
+*(✅ = publicado y `active` al 15-sep-2026 — 10 de 25.)*
 
 ---
 

@@ -19,6 +19,8 @@ const FALLBACK = [
   { courseId: 'pnpj-gran-juego-para-la-vida', file: 'pnpj-gran-juego-para-la-vida.html', tituloIncluye: 'PNPJ' },
   { courseId: 'mi-compromiso-programa-jovenes', file: 'mi-compromiso-programa-jovenes.html', tituloIncluye: 'Compromiso' },
   { courseId: 'rama-manada-lobatos', file: 'rama-manada-lobatos.html', tituloIncluye: 'Manada' },
+  { courseId: 'rama-familia-cachorros', file: 'rama-familia-cachorros.html', tituloIncluye: 'Familia' },
+  { courseId: 'rama-tropa-scout', file: 'rama-tropa-scout.html', tituloIncluye: 'Tropa' },
 ];
 
 let CURSOS = FALLBACK;
