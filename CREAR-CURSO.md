@@ -424,7 +424,9 @@ A las decisiones pedagógicas globales del proyecto (lecciones cortas, auto-guar
 
 ---
 
-## 8. Riesgos y antídotos por curso del Nivel 1
+## 8. Riesgos y antídotos por curso
+
+> **Numeración puesta al día el 17-sep-2026.** Este §8 vivía entero en la numeración **anterior al 28-jun-2026**: listaba seis cursos de Nivel 1 cuando son siete, se saltaba el **Curso 3 — Cómo se Educa Hoy** (el que se insertó ese día) y todo lo posterior iba corrido en uno, con el Nivel 2 como «cursos 7–14». La renumeración +1 del **ADR-041** llegó al plan y a los cursos construidos, **no aquí**. Es el mismo modo de fallo que el ADR-044 dejó escrito: *un cambio de alcance general no se aplica solo*. **Cita siempre por `courseId`** — ver §13.
 
 ### 8.1 Mapa rápido
 
@@ -432,27 +434,28 @@ A las decisiones pedagógicas globales del proyecto (lecciones cortas, auto-guar
 |---|---|---|
 | **1 — Bienvenida al PJ** | Sonar a "club juvenil con uniforme". | **5 mitos del dirigente nuevo** desarmados con ejemplos cotidianos. Hook explícito sobre alianza (no manual). _Curso ya diseñado — patrón canónico._ |
 | **2 — La Educación por el Amor** | Sonar a clase de historia de B-P. | **Anti-definición histórica** (qué pasaba en 1922, por qué urgía) + contraste vivo de los 4 motores del temor con prácticas escolares contemporáneas. Las citas de B-P van en `policy-quote`. _Curso ya diseñado._ |
-| **3 — Características Esenciales** | Sonar a manual doctrinal seco. | **Los 6 elementos definitorios** con un **NO-ejemplo** por elemento (campamento militar = rompe voluntario; grupo confesional excluyente = rompe abierto). Test de pertenencia accionable al final. _Curso ya diseñado._ |
-| **4 — Método Scout y sus 8 elementos** | El más extenso (40 min). Riesgo de "manual de oficina". | Estructurar los 8 elementos en **4 parejas** (cada lección dos elementos relacionados) + cada elemento aterrizado a **una práctica concreta de la rama**. Cierre con **checklist de 8 preguntas** para la próxima reunión. _Curso ya diseñado._ |
-| **5 — PNPJ y "El Gran Juego para la Vida"** | El más documental. Riesgo de volverse lectura de actas. | **Infografía única "Mapa del Modelo"** (5 ramas + 6 áreas + 3 etapas + 3 momentos) descargable. Las novedades de la PNPJ enunciadas con un ejemplo, no con una definición. _Curso ya diseñado._ |
-| **6 — Mi Compromiso con el PJ** | Riesgo de "compromiso vacío" o de exceso de campos. | `plan-builder` de **22 campos distribuidos en 3 lecciones** (no en una sola), con `brujula-display` que recupera las reflexiones de los Cursos 1–5 como insumo. Cierre con **Promesa personal del Nivel 1** firmable. _Curso ya diseñado._ |
+| **3 — Cómo se Educa Hoy** | Sonar a teoría pedagógica ajena al escultismo. | Insertado el 28-jun-2026 (ADR-018). **Anclar cada concepto general en una escena de unidad.** ⚠️ Su re-auditoría del 16-sep encontró que enseñaba la **educación informal** como «lo que pasa sin querer»: la fuente (CITE 2011 vía *Características Esenciales* p. 11) dice que es **intencional**, lo que no tiene es institución. _Curso ya diseñado y publicado._ |
+| **4 — Características Esenciales** | Sonar a manual doctrinal seco. | **Los 6 elementos definitorios** con un **NO-ejemplo** por elemento (campamento militar = rompe voluntario; grupo confesional excluyente = rompe abierto). Test de pertenencia accionable al final. _Curso ya diseñado._ |
+| **5 — Método Scout y sus 8 elementos** | El más extenso (40 min). Riesgo de "manual de oficina". | Estructurar los 8 elementos en **4 parejas** (cada lección dos elementos relacionados) + cada elemento aterrizado a **una práctica concreta de la rama**. Cierre con **checklist de 8 preguntas** para la próxima reunión. _Curso ya diseñado._ |
+| **6 — PNPJ y "El Gran Juego para la Vida"** | El más documental. Riesgo de volverse lectura de actas. | **Infografía única "Mapa del Modelo"** (5 ramas + 6 áreas + 3 etapas + 3 momentos) descargable. Las novedades de la PNPJ enunciadas con un ejemplo, no con una definición. _Curso ya diseñado._ |
+| **7 — Mi Compromiso con el PJ** | Riesgo de "compromiso vacío" o de exceso de campos. | `plan-builder` de **22 campos distribuidos en 3 lecciones** (no en una sola), con `brujula-display` que recupera las reflexiones de los **Cursos 1–6** como insumo. Cierre con **Promesa personal del Nivel 1** firmable. _Curso ya diseñado._ |
 
 ### 8.2 Riesgos transversales del Nivel 1 PJ
 
-- **Densidad doctrinal**: los Cursos 2, 3 y 4 manejan mucho material doctrinal (B-P, OMMS, Método). Cowork debe **alternar prosa con method-grid**, no acumular bloques de texto.
-- **Marco simbólico ignorado**: en los Cursos 4 y 5 aparecen los marcos simbólicos por rama. Cowork debe **nombrarlos con respeto, no con condescendencia** ("eso es de niños" es el tono a evitar).
-- **Citas en cascada**: cuando un curso necesita varias citas (Curso 02 tiene 5, Curso 04 tiene 6), Cowork debe **agruparlas por lección, no concentrarlas**. Una cita por lección como máximo, dos solo si son contrastantes.
+- **Densidad doctrinal**: los Cursos **2, 4 y 5** manejan mucho material doctrinal (B-P, OMMS, Método). Cowork debe **alternar prosa con method-grid**, no acumular bloques de texto.
+- **Marco simbólico ignorado o confundido**: en los Cursos **5 y 6** aparece la rejilla de los marcos por rama. Cowork debe **nombrarlos con respeto, no con condescendencia** ("eso es de niños" es el tono a evitar) — y **no confundir el marco simbólico con el fondo motivador ni con el ambiente de referencia**: son tres capas distintas, y la confusión llegó a estar **certificada en dos quizzes y en un certificado** (ADR-047). La rejilla correcta está en `GLOSARIO-ASC.md` §E, con la discrepancia entre el *Modelo* §8.2.2 y las Guías de Rama registrada, no resuelta.
+- **Citas en cascada**: cuando un curso necesita varias citas (el Curso 2 tiene 5, el Curso 5 tiene 6), Cowork debe **agruparlas por lección, no concentrarlas**. Una cita por lección como máximo, dos solo si son contrastantes.
 
-### 8.3 Riesgos esperados del Nivel 2 (cursos 7–14)
+### 8.3 Riesgos del Nivel 2 (cursos 8–15)
 
-Aún no diseñados. Lista para anticipar al construirlos:
+**Los cinco cursos de rama (8–12) están construidos y publicados** — las cinco ramas se cerraron el 16-sep-2026. Faltan los tres operativos (13, 14, 15):
 
 | Curso | Riesgo anticipado | Antídoto sugerido |
 |---|---|---|
-| **7–11 (Ramas)** | Cada curso de rama puede caer en "leer la guía oficial en voz alta". | Cada rama con **un protagonista narrativo** (un cachorro real, un lobato, un scout, un nómada, un rover) cuya progresión hila el curso. |
-| **12 — Seguimiento de la Progresión** | Riesgo de volverse manual de Excel. | Las 9 técnicas de las Herramientas 2.0 con **un ejemplo vivo por técnica** (un anecdotario real, una rúbrica real, una conversación real). |
-| **13 — Planeación de Reuniones** | Riesgo de volverse tutorial de software. | El Excel oficial DNPJ como **soporte, no como tema**. El tema es: cómo se planea pensando en los 8 elementos + DURASLID. |
-| **14 — Ciclo de Programa con ABP** | Riesgo de "ABP como moda pedagógica". | ABP **aterrizado al proyecto scout real**: propuesta-decisión-preparación-desarrollo-evaluación con ejemplos colombianos. |
+| **8–12 (Ramas)** ✅ | Caer en "leer la guía oficial en voz alta" — y, el que más costó, **importar vocabulario de la rama anterior**. | Cada rama con **un protagonista narrativo** cuya progresión hila el curso; se aplicó en las cinco. **Antídoto aprendido:** antes de auditar, **barrer el vocabulario propio de las otras cuatro ramas** — los dos críticos del Curso 12 fueron «Rumbo» y «rojo coral», que son de Comunidad y no aparecen ni una vez en la Guía de Clan. |
+| **13 — Seguimiento de la Progresión** | Riesgo de volverse manual de Excel. | ⚠️ **No decir «las 9 técnicas»**: las *Herramientas 2.0* se presentan como *«una pequeña muestra a manera de banco»* y recomiendan *«escoger una o dos»* — no es lista cerrada (corregido en el Curso 6 el 28-jun-2026). **Un ejemplo vivo por técnica**: un anecdotario real, una rúbrica real, una conversación real. Ver el aviso de decisión abierta del §4.2 del Plan de Línea antes de construirlo. |
+| **14 — Planeación de Reuniones** | Riesgo de volverse tutorial de software. | El Excel oficial DNPJ como **soporte, no como tema**. El tema es: cómo se planea pensando en los 8 elementos + DURASLID. |
+| **15 — Ciclo de Programa con ABP** | Riesgo de "ABP como moda pedagógica". | ABP **aterrizado al proyecto scout real**, con los **cinco momentos del *Modelo* §11.2, pp. 75–77**: *diagnóstico participativo · planificación con ABP · ejecución iterativa · **presentación pública** · evaluación y transferencia*, y la **pregunta guía** (§11.1, p. 75). ⚠️ **No usar** *propuesta-decisión-preparación-desarrollo-evaluación*: es la nomenclatura anterior, se cae la presentación pública —*«un acto de ciudadanía, no un show»*, p. 77— y **el error estuvo publicado en el Curso 7** hasta el 16-sep-2026. |
 
 ---
 
@@ -618,8 +621,8 @@ Antes de publicar, verificar contra https://scout.org.co/biblioteca/dnpj que los
 | 2 | 08 Rama Manada (Lobatos) | `rama-manada-lobatos` ✅ |
 | 2 | 09 Rama Familia (Cachorros) | `rama-familia-cachorros` ✅ |
 | 2 | 10 Rama Tropa Scout | `rama-tropa-scout` ✅ |
-| 2 | 11 Rama Comunidad (Nómadas) | `rama-comunidad-nomadas` |
-| 2 | 12 Rama Clan (Rovers) | `rama-clan-rovers` |
+| 2 | 11 Rama Comunidad (Nómadas Scout) | `rama-comunidad-nomadas` ✅ |
+| 2 | 12 Rama Clan (Rovers) | `rama-clan-rovers` ✅ |
 | 2 | 13 Seguimiento de la Progresión Personal | `seguimiento-progresion-personal` |
 | 2 | 14 Planeación de Reuniones y OdA | `planeacion-reuniones-oda` |
 | 2 | 15 Ciclo de Programa con ABP | `ciclo-programa-abp` |
@@ -692,4 +695,4 @@ A esto, la Línea PJ añade las **3 exigencias propias** (sección 7): cada curs
 
 ---
 
-_Documento operativo de la Línea Programa de Jóvenes — Asociación Scouts de Colombia. Versión inicial — 28 de mayo de 2026. **Consolida en un solo manual** el `CREAR-CURSO.md` técnico y las `Recomendaciones-Cowork-Diseno-Cursos.md` pedagógicas que en la Línea DI viven como dos documentos separados. Para PJ se decidió unificarlos para evitar dispersión documental al inicio de la línea._
+_Documento operativo de la Línea Programa de Jóvenes — Asociación Scouts de Colombia. **Actualizado el 17-sep-2026:** el **§8 estaba entero en la numeración anterior al 28-jun** —seis cursos de Nivel 1 en vez de siete, sin el Curso 3, y el Nivel 2 como «cursos 7–14»—, así que la renumeración del **ADR-041** se le aplicó ahora; de paso se sacaron dos afirmaciones que ya se habían corregido en cursos publicados («las 9 técnicas» y los cinco momentos del ciclo de programa en su nomenclatura anterior) y se añadió el antídoto que costó los dos críticos del Curso 12: **barrer el vocabulario de las otras cuatro ramas antes de auditar**. En §13.2, los Cursos 11 y 12 reciben su ✅. Versión inicial — 28 de mayo de 2026. **Consolida en un solo manual** el `CREAR-CURSO.md` técnico y las `Recomendaciones-Cowork-Diseno-Cursos.md` pedagógicas que en la Línea DI viven como dos documentos separados. Para PJ se decidió unificarlos para evitar dispersión documental al inicio de la línea._

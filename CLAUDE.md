@@ -34,4 +34,15 @@ Es la única con las **3 auditorías** (doctrinal `/auditar-curso`, pedagógica 
 
 12 cursos activos: Nivel 1 "Fundamentación" completo (7 cursos) + Nivel 2 con 5 de sus 8: el **Curso 8 (Rama Manada)**, el **Curso 9 (Rama Familia)**, el **Curso 10 (Rama Tropa Scout)**, el **Curso 11 (Rama Comunidad · Nómadas Scout)** y el **Curso 12 (Rama Clan · Rovers)**, los dos del 16-sep-2026 y los dos con las tres auditorías. **Las cinco ramas están cerradas.** El Curso 12 es además **el más largo de la plataforma** (65 min). El menú (`index.html`) agrupa por nivel con chips de navegación. Plan total 25 cursos.
 
+> **Los 7 cursos del Nivel 1 y el Curso 8 se re-auditaron el 16-sep-2026:** **19 críticos, 52 mayores, 61 menores**, todos corregidos y verificados en producción **salvo el texto del certificado del Curso 8**. Los ocho llevan `contentVersion: 2026-09-16`. **No los des por auditados «desde junio»** — el asiento del 27-jun daba el Nivel 1 por cerrado y no lo estaba. Ver `CHANGELOG-DOCTRINA.md` 2026-09-16.
+
+## Trampas de esta línea (cuestan una jornada cada una)
+
+- **El motor NO convierte markdown (ADR-053).** `*«cita»*` llega a la pantalla **con los asteriscos**. En un JSON: `<em>` y `<strong>`, nunca `*` ni `**`. El Curso 12 tuvo **24 marcas literales** y las **tres auditorías lo dejaron pasar**.
+- **Un curso en `draft` se salta la suite E2E entera (ADR-052)** — el CI pasa en verde sin haberlo probado. Para probarlo: servir una **copia** con el `status` volteado (nunca el catálogo real), con `ThreadingHTTPServer`, y comprobar que **subió el número de pruebas**.
+- **El patrón de error del curso de rama N es importar vocabulario de la rama N−1.** Los dos críticos del Curso 12 fueron eso y solo eso: «Rumbo» y «rojo coral», que son de Comunidad y no aparecen **ni una vez** en la Guía de Clan. **Antes de auditar, barrer el vocabulario propio de las otras cuatro ramas.**
+- **El glosario puede estar contaminado (ADR-049).** Una entrada suya se ancla en el documento oficial, **nunca en un curso** — si se copió de un curso, la auditoría aprueba al auditado por coincidir consigo misma. Pasó con la cadena de competencias del Curso 6, aprobado **tres veces**.
+- **Lo que dimensiona un curso de rama no es el grosor de su Guía, y la extensión no se estima: se mide, y DESPUÉS de las auditorías** (ADR-047). Las dos Guías más largas dieron los dos cursos más cortos; el Curso 12 pasó de 60 a **65 min** porque las correcciones añadieron ~470 palabras.
+- **`status` vive en el catálogo, no en el JSON del curso.** Activar = editar `02-Plataforma-Web/cursos.json`; `build-course.js` preserva el status existente en cada rebuild.
+
 > **Rama Manada es el Curso 8 — decidido el 15-sep-2026 (ADR-043).** En el Nivel 2 el número sigue al **orden de publicación**, no a la edad de la rama: Manada se publicó como Curso 8 y su certificado lo dice, así que **Rama Familia es el 9**. Tropa 10, Comunidad 11, Clan 12. Aun así, **cita por `courseId`**: es lo único que no se ha movido nunca.

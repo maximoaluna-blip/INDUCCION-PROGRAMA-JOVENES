@@ -122,7 +122,7 @@ Los Niveles 2, 3 y 4 no son secuenciales entre sí: el adulto elige según su ro
 
 ### 2.3 Cobertura conceptual de la línea
 
-Los 25 cursos cubren, sin saltos, los **8 elementos del Método Scout**, las **6 áreas de crecimiento**, las **5 ramas con sus grupos naturales**, las **3 etapas de vida en la unidad** (Adaptación, Progresión, Transición) y los **3 momentos de aprendizaje** (Exploro, Aplico, Profundizo) del Modelo de Aplicación 2026. Incluyen también las cuatro Dinámicas del Escultismo (Objetivos Educativos, Oportunidades de Aprendizaje, Vida de Grupo, Estructura y Funcionamiento) y todos los ejes de la Red Nacional de Jóvenes.
+Los 25 cursos cubren, sin saltos, los **8 elementos del Método Scout**, las **6 áreas de crecimiento**, las **5 ramas con sus grupos naturales**, las **3 etapas de vida en la unidad** (Adaptación, Progresión, Transición) y los **3 momentos de aprendizaje** (Exploro, Aplico, Profundizo) del Modelo de Aplicación 2026. Incluyen también las cuatro Dinámicas del Escultismo (Objetivos Educativos, Oportunidades de Aprendizaje, Vida de Grupo, Estructura y Funcionamiento) ⚠️ *(«Objetivos Educativos» es nomenclatura superada — ver el aviso del §4.2)* y todos los ejes de la Red Nacional de Jóvenes.
 
 ```
 8 Elementos del Método Scout
@@ -220,6 +220,25 @@ Estos 3 cursos los toma cualquier dirigente de unidad —sin importar la rama—
 | 13 | 🛠️ Seguimiento de la Progresión Personal | Todo dirigente, especialmente Asesores Personales | **Recursos Educativos para Dirigentes — Herramientas de Seguimiento 2.0**: conductas observables por etapa (Explorar/Aplicar/Profundizar) y por rama; técnicas (observación en acción, anecdotario, registro conflicto-resolución, listas de cotejo, rúbricas, autoevaluación tipo semáforo, coevaluación "2+1", coevaluación por preguntas). Uso del **Registro de Acompañamiento Progresión Personal** (DNPJ-2026-021). Cómo NO burocratizar la progresión. |
 | 14 | 📋 Planeación de Reuniones y Oportunidades de Aprendizaje | Todo dirigente de unidad | Uso de la herramienta oficial **Planeación de Reunión y Oportunidades de Aprendizaje** (Excel DNPJ): Hoja de Ruta para Reunión, Ficha de Oportunidad de Aprendizaje, hojas por rama. Botón A Salvo del Peligro. Ciclo pedagógico **Vivir → Mirar → Comprender → Proyectar**. Cómo planear una reunión que cumpla DURASLID y los 8 elementos del Método. |
 | 15 | 🎯 Ciclo de Programa con ABP | Todo dirigente de unidad | El ciclo de programa de la unidad como Aprendizaje Basado en Proyectos: fases de propuesta, decisión, preparación, desarrollo, evaluación. Articulación entre proyectos de unidad y progresión individual. Cómo el ciclo encarna las 4 Dinámicas del Escultismo (Objetivos Educativos, Oportunidades de Aprendizaje, Vida de Grupo, Estructura y Funcionamiento). |
+
+> ⚠️ **DECISIÓN ABIERTA (16-sep-2026) — leer antes de construir los Cursos 13 y 15.** Tres frases de esta
+> sección y del §2.3 **reintroducirían errores ya corregidos en cursos publicados**. Se dejan marcadas, no
+> corregidas: la decisión es del dueño y está en el bloque «Decisiones abiertas» de `DECISIONES.md`.
+>
+> 1. **«Objetivos Educativos»** como primera de las 4 Dinámicas del Escultismo (fila del Curso 15 y §2.3). El
+>    *Modelo 2026* declara superada esa nomenclatura (pp. 27 y 51) y la sustituye por **«competencias
+>    educativas»** (§3.2, p. 16). En `metodo-scout-8-elementos` llegó a estar **certificada como respuesta
+>    correcta de un quiz**; se corrigió el 15-sep-2026.
+> 2. **«Asesores Personales»** como destinatario del Curso 13 (fila del Curso 13 y §4.3). **No es un rol del
+>    Programa de Jóvenes** — es de la línea de Adultos, y allí ni siquiera es un cargo (*Guía de
+>    Acompañamiento y Evaluación*, p. 13 impresa). Además, llamarlo **«obligatorio»** choca de frente con el
+>    **ADR-019**, que eliminó los cursos habilitantes el 11-jul-2026.
+> 3. **Los cinco momentos del ciclo de programa** de la fila del Curso 15 —*propuesta, decisión, preparación,
+>    desarrollo, evaluación*— son la **nomenclatura anterior**. El *Modelo* §11.2, pp. 75–77, dice:
+>    **diagnóstico participativo · planificación con ABP · ejecución iterativa · presentación pública ·
+>    evaluación y transferencia**. Se cae la **presentación pública**, que es el momento distintivo del ABP
+>    (*«Es un acto de ciudadanía, no un show»*, p. 77), y falta la **pregunta guía** (§11.1, p. 75). El mismo
+>    error estaba publicado en el Curso 7 y se corrigió el 16-sep-2026.
 
 ### 4.3 Nota sobre la oferta del Nivel 2
 
@@ -394,4 +413,4 @@ Toda la línea se basa en documentos oficiales y materiales validados de la ASC,
 
 ---
 
-_Documento elaborado como parte del proyecto de digitalización de la formación de adultos voluntarios del movimiento scout colombiano. Plan de Formación de la Línea Programa de Jóvenes — **v1.1, 15 de septiembre de 2026** (renumeración +1; ver §2.1)._
+_Documento elaborado como parte del proyecto de digitalización de la formación de adultos voluntarios del movimiento scout colombiano. Plan de Formación de la Línea Programa de Jóvenes — **v1.2, 17 de septiembre de 2026**. La v1.2 **no cambia doctrina ni estructura**: añade en el §4.2 un aviso de **decisión abierta** sobre tres frases —«Objetivos Educativos», «Asesores Personales» y los cinco momentos del ciclo de programa— que **reintroducirían en los Cursos 13 y 15 errores ya corregidos en cursos publicados**. Se marcan, no se corrigen: el plan es aguas arriba del JSON y tocarlo es decisión del dueño. La v1.1, del 15-sep-2026, fue la renumeración +1 (ver §2.1)._

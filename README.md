@@ -6,18 +6,26 @@ Plataforma de formación online de la **Línea Programa de Jóvenes** de la Asoc
 
 ## Estado actual
 
-**Nivel 1 — Fundamentación** completo (7 cursos, ~3.3 horas). **Nivel 2** con 5 de sus 8 cursos: Rama Manada, Rama Familia, Rama Tropa Scout, Rama Comunidad y Rama Clan — **las cinco ramas, cerradas el 16-sep-2026**. 12 cursos activos en total, `status: "active"` en `cursos.json`, publicados en GitHub Pages. El menú de la línea agrupa los cursos por nivel.
+**12 cursos activos** al 17-sep-2026, `status: "active"` en `cursos.json` y publicados en GitHub Pages. **Nivel 1 — Fundamentación** completo (7 cursos, **220 min ≈ 3.7 h**) y **Nivel 2** con 5 de sus 8: **las cinco ramas, cerradas el 16-sep-2026** (250 min ≈ 4.2 h). El menú de la línea agrupa por nivel. Del Nivel 2 faltan los tres cursos de práctica pedagógica (13–15); el plan total son 25 cursos.
 
-| # | Curso | Nivel | Estado |
-|---|-------|-------|--------|
-| 1 | 🎒 Bienvenida al Programa de Jóvenes | 1 | ✅ Activo |
-| 2 | 💗 La Educación por el Amor | 1 | ✅ Activo |
-| 3 | 🎓 Cómo se Educa Hoy | 1 | ✅ Activo |
-| 4 | 🌟 Características Esenciales del Movimiento Scout | 1 | ✅ Activo |
-| 5 | 🧭 El Método Scout y sus 8 elementos | 1 | ✅ Activo |
-| 6 | 📜 La PNPJ y "El Gran Juego para la Vida" | 1 | ✅ Activo |
-| 7 | 🗺️ Mi Compromiso con el Programa de Jóvenes | 1 | ✅ Activo |
-| 8 | 🐺 Rama Manada (Lobatos) | 2 | ✅ Activo |
+| # | Curso | Nivel | Duración | Estado |
+|---|-------|-------|----------|--------|
+| 1 | 🎒 Bienvenida al Programa de Jóvenes | 1 | 25 minutos | ✅ Activo |
+| 2 | 💗 La Educación por el Amor | 1 | 30 minutos | ✅ Activo |
+| 3 | 🎓 Cómo se Educa Hoy | 1 | 30 minutos | ✅ Activo |
+| 4 | 🌟 Características Esenciales del Movimiento Scout | 1 | 30 minutos | ✅ Activo |
+| 5 | 🧭 El Método Scout y sus 8 elementos | 1 | 40 minutos | ✅ Activo |
+| 6 | 📜 La PNPJ y "El Gran Juego para la Vida" | 1 | 35 minutos | ✅ Activo |
+| 7 | 🗺️ Mi Compromiso con el Programa de Jóvenes | 1 | 30 minutos | ✅ Activo |
+| 8 | 🐺 Rama Manada (Lobatos) | 2 | 35 minutos | ✅ Activo |
+| 9 | 🐻 Rama Familia (Cachorros) | 2 | 45 minutos | ✅ Activo |
+| 10 | ⚜️ Rama Tropa Scout | 2 | 45 minutos | ✅ Activo |
+| 11 | 🧗 Rama Comunidad (Nómadas Scout) | 2 | 60 minutos | ✅ Activo |
+| 12 | 🏔️ Rama Clan (Rovers) | 2 | 65 minutos | ✅ Activo |
+
+> **Los siete cursos del Nivel 1 y el Curso 8 se re-auditaron el 16-sep-2026** — **19 críticos, 52 mayores y 61 menores**, todos corregidos y verificados en producción **salvo el texto del certificado del Curso 8**, que es decisión del dueño. Los ocho llevan `contentVersion: 2026-09-16`. Detalle en `CHANGELOG-DOCTRINA.md` (asiento 2026-09-16) y `ESTADO-AUDITORIA.md`; lo que quedó abierto, en el bloque **«Decisiones abiertas»** de `DECISIONES.md`.
+
+> **Cita siempre por `courseId`.** Es lo único que no se ha movido nunca: los nombres de archivo de `01-Diseno-Cursos/` **no se renombraron a propósito** y están corridos —hay **dos `Curso-03-`**, y `Curso-04-El-Metodo…` es el **Curso 5**—. El mapeo nombre → número está en el árbol de `CREAR-CURSO.md`.
 
 ## Estructura del proyecto
 

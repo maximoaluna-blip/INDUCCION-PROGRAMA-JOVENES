@@ -40,17 +40,53 @@ el piloto — ver `PORTAL-ADMIN-ASC/README.md`.
 | `tests/e2e-plan-builder.spec.js` | Descubre en runtime el curso con `plan-builder` (en PJ: **Curso 6, `mi-compromiso-programa-jovenes`**, 22 campos) y verifica que persiste tras recargar | §F |
 | `tests/_backend.js` | Helper: intercepta y captura las llamadas a Apps Script | — |
 
-## Cursos cubiertos hoy (8 activos)
+## Cursos cubiertos hoy (12 activos)
 
 Nivel 1: `bienvenida-programa-jovenes`, `educacion-por-el-amor`, `como-se-educa-hoy`,
 `caracteristicas-esenciales-movimiento-scout`, `metodo-scout-8-elementos`,
 `pnpj-gran-juego-para-la-vida`, `mi-compromiso-programa-jovenes`.
-Nivel 2: `rama-manada-lobatos` (primer curso de rama).
+Nivel 2 — **las cinco ramas**: `rama-manada-lobatos`, `rama-familia-cachorros`,
+`rama-tropa-scout`, `rama-comunidad-nomadas`, `rama-clan-rovers`.
+
+Con los 12 la suite da **123 passed / 0 failed / 2 skipped** (las 2 son las opcionales:
+backend de integración y portal).
 
 Todos con `status: "active"` en `02-Plataforma-Web/cursos.json`. El catálogo dinámico
 (`_setup-cursos.js`, filtra por `status: "active"/"new"`) y el fallback estático de
 `cursos.js` se mantienen en sincronía manual con esa lista — al agregar un curso nuevo,
 sumarlo a ambos (ver checklist de `CREAR-CURSO.md`).
+
+## Dos trampas de esta suite (verde no siempre significa probado)
+
+**1. Un curso en `draft` se salta la suite entera (ADR-052).** El catálogo dinámico filtra
+por `status: "active"/"new"`, así que un curso en `draft` **no entra en la lista y la suite
+pasa en verde sin haberlo tocado**. Es la forma más silenciosa de creer que hay compuerta
+cuando no la hay. Para probar un curso **antes** de activarlo:
+
+1. Copiar `02-Plataforma-Web/`, `assets/`, `index.html` y `404.html` a una carpeta temporal.
+2. Voltear el `status` **en la copia** — nunca en el catálogo real; ya se quedó puesto una vez.
+3. Servir esa copia con **`ThreadingHTTPServer`**, no con `python -m http.server`: el segundo
+   es monohilo y obliga a `--workers=1`; con hilos la suite corre en paralelo.
+4. Comprobar que **el número de pruebas subió**. Si no subió, no se probó nada.
+5. Al terminar, verificar que el catálogo real quedó como estaba.
+
+**2. Una compuerta intermitente deja de ser compuerta (ADR-051).** Hasta el 16-sep-2026 el CI
+se veía «en verde» con **13 de 125 pruebas intermitentes**, todas `color-contrast` sobre
+`module-0`, y el mismo cuadro en las cuatro líneas — `tests/a11y.spec.js` era **byte-idéntico**
+en todas. La causa no era de accesibilidad sino de **orden de las aserciones**: el spec auditaba
+`module-0` **antes** de desactivar las animaciones con `addStyleTag`, mientras seguía en su
+`fadeIn`, y axe medía el contraste de un texto semitransparente. Los demás módulos sí esperaban
+a que el elemento fuera opaco.
+
+Corregido en las cuatro: `addStyleTag` va **por encima** de la primera auditoría, `module-0`
+recibe la misma espera de opacidad que sus hermanos, y **una espera fallida es ruidosa** — si el
+módulo no llega a ser opaco en 3 s, la prueba registra `no-auditado` como hallazgo **grave** en
+vez de saltárselo en silencio. Esa tercera parte es la que impide que el arreglo se convierta en
+el defecto siguiente.
+
+> **La regla:** un test que parpadea se arregla o se borra. No falla el CI, pero enseña a
+> ignorarlo — y una compuerta que se ignora ya no es una compuerta. Y antes de descartar un
+> hallazgo de a11y como ruido, **comprobar si la prueba mide lo que cree medir**.
 
 ## Instalación
 
@@ -95,10 +131,10 @@ ASC_PORTAL_URL="https://maximoaluna-blip.github.io/PORTAL-ADULTOS-ASC/" npx play
 ## CI
 
 `.github/workflows/pruebas-e2e.yml` (en la raíz de este repo) corre la suite completa en
-cada push/PR a `main`: recompila los 7 cursos activos con `build-course.js`, los sirve en
+cada push/PR a `main`: recompila los 12 cursos activos con `build-course.js`, los sirve en
 `localhost:8099` y corre `npx playwright test`.
 
-La corrida manual contra **producción** (`workflow_dispatch`) de las 3 líneas activas +
+La corrida manual contra **producción** (`workflow_dispatch`) de las líneas activas +
 portal vive en `INDUCCION-ADULTOS/.github/workflows/revision-plataforma.yml` — PJ ya está
 en su matriz (`linea: programa-jovenes`); no hace falta duplicarla aquí.
 
