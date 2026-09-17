@@ -3,7 +3,7 @@
   "title": "La PNPJ y \"El Gran Juego para la Vida\"",
   "subtitle": "El Programa de Jóvenes aterrizado a Colombia",
   "description": "El Curso 6 de la Línea Programa de Jóvenes. En ~35 minutos vas a aterrizar todo lo aprendido al contexto colombiano: la Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. 617 de 2024) y su Modelo de Aplicación \"El Gran Juego para la Vida\" (DNPJ 2026). Vas a recorrer las 5 ramas, las 6 áreas de crecimiento, las 3 etapas × 3 momentos y las herramientas operativas, y a construir tu mapa personal del Modelo.",
-  "contentVersion": "2026-09-15",
+  "contentVersion": "2026-09-16",
   "icon": "📜",
   "duration": "35 minutos",
   "level": 1,
@@ -61,7 +61,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El 11 de diciembre de 2024, el Consejo Scout Nacional aprobó el <strong>Acuerdo C.S.N. N° 617</strong>. Ese acuerdo es lo que hoy conocemos como <strong>Política Nacional de Programa de Jóvenes (PNPJ)</strong>. Reemplazó políticas anteriores, integró el Método Scout en su versión 2019 (con 8 elementos), y adoptó el marco de competencias UNESCO. Es, oficialmente, la norma vigente del PJ en Colombia."
+          "text": "El 11 de diciembre de 2024, el Consejo Scout Nacional aprobó el <strong>Acuerdo C.S.N. N° 617</strong>. Ese acuerdo es lo que hoy conocemos como <strong>Política Nacional de Programa de Jóvenes (PNPJ)</strong>. Reemplazó políticas anteriores, integró el Método Scout en su versión 2019 (con 8 elementos), y adoptó los cuatro pilares de la educación de la UNESCO como base de sus <strong>competencias educativas</strong>. Es, oficialmente, la norma vigente del PJ en Colombia."
         },
         {
           "type": "policy-quote",
@@ -80,9 +80,8 @@
           "items": [
             "<strong>Adopta el Método Scout en su versión 2019</strong> (8 elementos: la Naturaleza se desdobla como elemento autónomo).",
             "<strong>Incorpora las 6 áreas de crecimiento</strong> alineadas con los 4 pilares UNESCO (conocer, hacer, vivir juntos, ser).",
-            "<strong>Define competencias terminales e intermedias</strong> por rama y por área (lo que en Curso 5 era abstracto, aquí es concreto).",
-            "<strong>Pone al joven al centro</strong> con el concepto de \"protagonista de programa\" (no participante, no miembro, no usuario).",
-            "<strong>Reconoce el territorio</strong> como concepto integrador: no solo el espacio físico, también el social, cultural y comunitario."
+            "<strong>Define competencias terminales</strong> —para todo el camino scout— <strong>y competencias intermedias</strong> por rama y por área (lo que en Curso 5 era abstracto, aquí es concreto).",
+            "<strong>Pone al joven al centro</strong> con el concepto de \"protagonista de programa\" (no participante, no miembro, no usuario)."
           ]
         },
         {
@@ -92,7 +91,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La PNPJ tiene 45 páginas. Está bien escrita, pero es densa. Por eso la DNPJ produjo en 2026 un manual operativo de 109 páginas llamado <strong>\"El Gran Juego para la Vida\"</strong> (DNPJ-2026-024). Es el manual pedagógico angular: lo que la política dice de forma normativa, el Modelo de Aplicación lo desarrolla con ejemplos, plantillas y rutas concretas. También existe el <strong>Modelo de Aplicación de Bolsillo</strong> (DNPJ-2026-063, 14 páginas) para uso diario."
+          "text": "La PNPJ tiene 45 páginas. Está bien escrita, pero es densa. Por eso la DNPJ produjo en 2026 un manual operativo de 109 páginas llamado <strong>\"El Gran Juego para la Vida\"</strong> (DNPJ-2026-024). Es el manual pedagógico angular: lo que la política dice de forma normativa, el Modelo de Aplicación lo desarrolla con ejemplos, plantillas y rutas concretas. Es además el documento que trae el <strong>territorio</strong> como concepto integrador: no solo el espacio físico, también el social, cultural y comunitario. También existe el <strong>Modelo de Aplicación de Bolsillo</strong> (DNPJ-2026-063, 14 páginas) para uso diario."
         },
         {
           "type": "info-box",
@@ -100,7 +99,7 @@
         }
       ],
       "reflection": {
-        "prompt": "De las 5 novedades de la PNPJ, ¿cuál te parece más importante o más necesaria para el Programa de Jóvenes en Colombia hoy? ¿Por qué?"
+        "prompt": "De las 4 novedades de la PNPJ, ¿cuál te parece más importante o más necesaria para el Programa de Jóvenes en Colombia hoy? ¿Por qué?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 2",
@@ -151,35 +150,39 @@
           "items": [
             {
               "title": "🐻 Familia — Cachorros (5–6 años)",
-              "description": "Grupo natural: Camadas, Círculo de Familia, Encuentro del Cubil. Marco simbólico: La Fantasía; su fondo motivador son Los Hermanos de Mowgli, primer capítulo del Libro de las Tierras Vírgenes. Saludo: del Cachorro. Ley: del Cachorro.",
+              "description": "Grupo natural: Camadas. Marco simbólico: La Fantasía. Fondo motivador: el Libro de las Tierras Vírgenes —Familia se queda con su primer capítulo, Los Hermanos de Mowgli, y con personajes como Raksha y Papá Lobo—. Ambiente de referencia: los relatos infantiles. Su órgano de participación es el Encuentro del Cubil. Promesa, Ley y Saludo del Cachorro.",
               "color": "#fff8e1",
               "borderColor": "#f9a825"
             },
             {
               "title": "🐺 Manada — Lobatos (7–10 años)",
-              "description": "Grupo natural: Seisenas. Marco simbólico: La Fantasía; su fondo motivador es el Libro de las Tierras Vírgenes (Kipling). Promesa y Ley del Lobato. Principios y Virtudes del Lobato.",
+              "description": "Grupo natural: Seisenas. Marco simbólico: La Fantasía, el mismo de Familia. Fondo motivador: el Libro de las Tierras Vírgenes (Kipling), que también comparte con Familia. Ambiente de referencia: los relatos fantásticos. Promesa y Ley del Lobato. Principios y Virtudes del Lobato.",
               "color": "#fff3e0",
               "borderColor": "#fb8c00"
             },
             {
               "title": "⚜️ Tropa — Scouts (11–14 años)",
-              "description": "Grupo natural: Patrullas (6–8 scouts). Marco simbólico: marco propio Scout. Promesa y Ley Scout.",
+              "description": "Grupo natural: Patrullas (6–8 scouts). Promesa y Ley Scout. <strong>Su marco simbólico todavía no está publicado</strong>: el Modelo lo remite a la Guía de Dirigente de cada rama (p. 19), y la Tropa es la única que aún no tiene la suya.",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             },
             {
-              "title": "🧗 Comunidad — Nómadas (15–17 años)",
-              "description": "Grupo natural: equipos de Comunidad. Marco simbólico: La aventura hacia la ciudadanía. Promesa y Ley Nómada.",
+              "title": "🧗 Comunidad — Nómadas Scout (15–17 años)",
+              "description": "Grupo natural: equipos de Comunidad. Marco simbólico: La aventura hacia la ciudadanía. Promesa del Nómada Scout y Ley Scout.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
             {
-              "title": "🏔️ Clan — Rovers (18–20/21 años)",
-              "description": "Grupo natural: equipos de Clan. Marco simbólico: La Ciudadanía Activa. Promesa y Ley Rover. Eventos rituales: Vigilia, Peregrinaje, Partida, Cena Rover.",
+              "title": "🏔️ Clan — Rovers (18–20 años)",
+              "description": "Grupo natural: equipos de Clan. Marco simbólico: La Ciudadanía Activa. Promesa y Ley Scout. Eventos rituales: Vigilia, Peregrinaje, Partida, Cena Rover.",
               "color": "#ede7f6",
               "borderColor": "#5e35b1"
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tres palabras que se parecen y no son lo mismo: el <strong>marco simbólico</strong> es el mundo en el que se juega; el <strong>fondo motivador</strong> es el libro del que sale ese mundo; el <strong>ambiente de referencia</strong> es el tipo de historias con las que se cuenta. Familia y Manada juegan en el mismo mundo y con el mismo libro. Lo que cambia es el tipo de relato — y qué personajes se reserva cada una."
         },
         {
           "type": "heading",
@@ -199,7 +202,7 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "<strong>6 → 7: Familia → Manada</strong> — paso de la primera infancia a la niñez. Cambio de marco simbólico.",
+            "<strong>6 → 7: Familia → Manada</strong> — paso de la primera infancia a la niñez. El marco sigue siendo el mismo; lo que cambia es el tipo de relatos y los personajes de cada rama.",
             "<strong>10 → 11: Manada → Tropa</strong> — paso a la patrulla, autonomía mayor.",
             "<strong>14 → 15: Tropa → Comunidad</strong> — el paso a la adolescencia tardía y al trabajo por proyectos.",
             "<strong>17 → 18: Comunidad → Clan</strong> — paso al Movimiento adulto-joven, mayor toma de decisiones, articulación con RDJ."
@@ -218,11 +221,11 @@
         "nextLabel": "Continuar a las 6 áreas 🌱",
         "questions": [
           {
-            "text": "Llega a tu grupo Samuel, de 8 años. Por su edad le corresponde la Manada. ¿En qué subgrupo natural va a estar y bajo qué marco simbólico va a jugar?",
+            "text": "Samuel, de 8 años, entra a la Manada y queda en una Seisena. Su antigua dirigente de Familia comenta: «Ahora le cambia el marco simbólico». ¿Qué le responderías?",
             "options": [
-              "En una Patrulla, con el marco Scout propio.",
-              "En una Seisena, con el Libro de las Tierras Vírgenes.",
-              "En una Camada, con los Hermanos de Mowgli (marco de Familia)."
+              "Que el marco sí cambia: en Familia es Los Hermanos de Mowgli y en Manada pasa a ser el Libro de las Tierras Vírgenes.",
+              "Que el marco es el mismo, La Fantasía, y el libro también: cambia el ambiente de referencia, o sea los relatos.",
+              "Que el marco es el mismo en las cinco ramas, porque el Método Scout se vive igual en todas y a cualquier edad."
             ],
             "correctIndex": 1
           },
@@ -305,7 +308,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Por cada área, el Modelo de Aplicación 2026 define <strong>competencias terminales</strong> (qué debería poder hacer el protagonista al egresar de la rama) y <strong>competencias intermedias</strong> (los pasos para llegar). Lo importante: las áreas son las mismas en todas las ramas; lo que cambia es el nivel de complejidad de la competencia."
+          "text": "Por cada área, el Modelo define <strong>competencias terminales</strong>: lo que el joven debería poder hacer <strong>al terminar todo su camino scout</strong>, no al salir de una rama. Y de cada terminal salen las <strong>competencias intermedias</strong>, que son los pasos por edad — esas sí van rama por rama, y las encuentras en la Guía de Dirigente de tu rama. Las áreas son las mismas en todas las ramas; lo que cambia es el tamaño del paso."
         },
         {
           "type": "paragraph",
@@ -365,7 +368,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El Modelo de Aplicación 2026 trae dos secuencias que se cruzan: <strong>3 etapas de vida en la unidad</strong> (lo que vive el protagonista en su rama) y <strong>3 momentos de aprendizaje</strong> (lo que vive en cada oportunidad concreta). Vamos a verlas por separado y luego juntas."
+          "text": "El Modelo de Aplicación 2026 trae dos secuencias que se cruzan: <strong>3 etapas de vida en la unidad</strong> (lo que vive el protagonista en su rama) y <strong>3 momentos de aprendizaje</strong>, que marcan qué tan lejos ha llegado el protagonista <strong>en una competencia concreta</strong>. Vamos a verlas por separado y luego juntas."
         },
         {
           "type": "heading",
@@ -434,7 +437,7 @@
         },
         {
           "type": "info-box",
-          "text": "El Modelo de Aplicación de Bolsillo (14 páginas) trae el ciclo pedagógico <strong>Vivir → Mirar → Comprender → Proyectar</strong>, que es la versión corta de los 3 momentos aplicada a una sola lección o reunión. Volverás a verlo en el Curso 14 (Planeación de Reuniones)."
+          "text": "El Modelo de Aplicación de Bolsillo (14 páginas) trae además un ciclo distinto y muy útil: <strong>Vivir → Mirar → Comprender → Proyectar</strong>. No es una versión corta de Exploro/Aplico/Profundizo: es la manera de cerrar <strong>una</strong> actividad para que lo vivido se convierta en aprendizaje. Los tres niveles marcan el camino largo de una competencia; este ciclo cabe en una reunión. Volverás a verlo en el Curso 14."
         }
       ],
       "reflection": {
@@ -509,7 +512,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Estos 3 roles <strong>reemplazan</strong> los términos antiguos \"jefe\", \"instructor\", \"guía\". No porque sean malos, sino porque colocan al dirigente en la posición correcta respecto al protagonista: como apoyo, no como autoridad central. Cada rol acompaña un momento del aprendizaje: <strong>apoyas cuando exploran, acompañas cuando aplican, enlazas cuando profundizan.</strong>"
+          "text": "Estos 3 roles no cambian el nombre de ningún cargo: «Jefe de Grupo», «Jefe de Unidad» o «Guía de Patrulla» siguen siendo los nombres correctos. Lo que hacen es describir <strong>cómo</strong> acompañas: no como el que manda, sino como el que sostiene, acompaña y conecta. <strong>Apoyas cuando exploran, acompañas cuando aplican, enlazas cuando profundizan.</strong>"
         },
         {
           "type": "heading",
@@ -527,7 +530,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El Modelo integra el ABP al ciclo de programa de la unidad en cinco momentos: primero el grupo hace un <strong>diagnóstico participativo</strong> (mira qué pasa a su alrededor y qué quiere cambiar); luego <strong>planifica</strong> el proyecto; después lo <strong>ejecuta paso a paso</strong>, ajustando sobre la marcha; lo <strong>presenta en público</strong>; y al final <strong>evalúa y transfiere</strong> lo aprendido a la vida diaria. Cada momento pasa por el filtro DURASLID, para que la experiencia sea desafiante, útil y atractiva."
+          "text": "El Modelo integra el ABP al ciclo de programa de la unidad en cinco momentos: primero el grupo hace un <strong>diagnóstico participativo</strong> (mira qué pasa a su alrededor y qué quiere cambiar); luego <strong>planifica</strong> el proyecto; después lo <strong>ejecuta paso a paso</strong>, ajustando sobre la marcha; lo <strong>presenta en público</strong>; y al final <strong>evalúa y transfiere</strong> lo aprendido a la vida diaria. Las oportunidades que salgan del proyecto se revisan con el filtro DURASLID."
         },
         {
           "type": "heading",
@@ -536,7 +539,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El <strong>territorio</strong> no es solo el espacio físico donde está el grupo. Es el conjunto de relaciones sociales, culturales y comunitarias que rodean al protagonista. La PNPJ pide que el Programa <strong>se ancle al territorio</strong>: que los proyectos sirvan al barrio, que los marcos simbólicos dialoguen con la cultura local, que la unidad sea reconocida como actor de su comunidad."
+          "text": "El <strong>territorio</strong> no es solo el espacio físico donde está el grupo. Es el conjunto de relaciones sociales, culturales y comunitarias que rodean al protagonista. El Modelo pide que el Programa <strong>se ancle al territorio</strong>: que los proyectos sirvan al barrio, que los marcos simbólicos dialoguen con la cultura local, que la unidad sea reconocida como actor de su comunidad."
         },
         {
           "type": "info-box",
@@ -553,7 +556,7 @@
           {
             "text": "Un dirigente prepara los materiales, reserva el lugar y deja lista la planeación para que la patrulla pueda ejecutar su proyecto. Según el Modelo 2026, ¿qué rol está ejerciendo?",
             "options": [
-              "El de Jefe que da las órdenes (término que el Modelo dejó atrás).",
+              "El de instructor: enseñarle a la patrulla cómo se hace el proyecto.",
               "Apoyar.",
               "Enlazar."
             ],
@@ -592,7 +595,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Completa esta plantilla con tus propios datos: <em>\"Sirvo (o serviré) en la <strong>rama __________</strong> (Familia/Manada/Tropa/Comunidad/Clan). Su grupo natural se llama <strong>__________</strong> (Camadas/Seisenas/Patrullas/equipos). Su marco simbólico es <strong>__________</strong> (La Fantasía/Libro de las Tierras Vírgenes/marco propio/La aventura hacia la ciudadanía/Rovering). Los protagonistas que acompaño están entre las edades de <strong>__________ a __________ años</strong>. De las <strong>6 áreas de crecimiento</strong>, en este trimestre voy a poner especial cuidado en: <strong>__________ y __________</strong>. Mi rol principal en esta rama es: <strong>Apoyar / Acompañar / Enlazar</strong> (subraya el que más te toca).\"</em>"
+          "text": "Completa esta plantilla con tus propios datos: <em>\"Sirvo (o serviré) en la <strong>rama __________</strong> (Familia/Manada/Tropa/Comunidad/Clan). Su grupo natural se llama <strong>__________</strong> (Camadas/Seisenas/Patrullas/equipos). Su marco simbólico es <strong>__________</strong> (La Fantasía —Familia y Manada— / la Tropa aún no tiene marco publicado / La aventura hacia la ciudadanía / La Ciudadanía Activa). Los protagonistas que acompaño están entre las edades de <strong>__________ a __________ años</strong>. De las <strong>6 áreas de crecimiento</strong>, en este trimestre voy a poner especial cuidado en: <strong>__________ y __________</strong>. Mi rol principal en esta rama es: <strong>Apoyar / Acompañar / Enlazar</strong> (subraya el que más te toca).\"</em>"
         },
         {
           "type": "mission-box",
@@ -607,7 +610,7 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "🗺️ <strong>Curso 7</strong> — Mi Compromiso con el Programa de Jóvenes: tu plan personal completo, integrando los 5 cursos del Nivel 1.",
+            "🗺️ <strong>Curso 7</strong> — Mi Compromiso con el Programa de Jóvenes: tu plan personal completo, integrando todo el Nivel 1.",
             "🐻🐺⚜️🧗🏔️ <strong>Nivel 2 — Cursos 8–12</strong> — Profundización por rama (toma el de la tuya).",
             "🛠️ <strong>Nivel 2 — Cursos 13, 14, 15</strong> — Seguimiento, Planeación, Ciclo de Programa con ABP.",
             "🛡️ <strong>Nivel 4 — Curso 25</strong> — A Salvo del Peligro (de adopción inmediata)."

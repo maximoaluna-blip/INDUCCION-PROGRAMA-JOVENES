@@ -17,7 +17,7 @@
 | Duración | ~35 min |
 | Lecciones de contenido | 7 + intro + certificado |
 | Audiencia primaria | Todo adulto que cursa el Nivel 1 de la Línea Programa de Jóvenes. |
-| Pre-requisitos | Curso 5 — El Método Scout y sus 8 elementos (recomendado). |
+| Curso recomendado | Curso 5 — El Método Scout y sus 8 elementos. |
 | Logro final | "Conozco el Modelo" |
 
 ---
@@ -28,7 +28,7 @@ Al completar este curso, el adulto:
 
 1. **Sitúa** la Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. 617 del 11 de diciembre de 2024) y su Modelo de Aplicación "El Gran Juego para la Vida" (DNPJ 2026) como marco vigente del PJ en Colombia.
 2. **Identifica** las 5 ramas (Familia, Manada, Tropa, Comunidad, Clan) con sus edades, grupos naturales y marcos simbólicos propios.
-3. **Distingue** las 6 áreas de crecimiento (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad) con sus competencias terminales por rama.
+3. **Distingue** las 6 áreas de crecimiento (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad) con sus competencias terminales e intermedias.
 4. **Aplica** las 3 etapas de vida en la unidad (Adaptación, Progresión, Transición) y los 3 momentos de aprendizaje (Exploro, Aplico, Profundizo).
 5. **Comprende** los 3 roles del dirigente (Apoyar, Acompañar, Enlazar) y el filtro DURASLID como herramientas operativas.
 6. **Reconoce** el ABP (Aprendizaje Basado en Proyectos), el ciclo Vivir-Mirar-Comprender-Proyectar y el "territorio" como concepto integrador.
@@ -92,23 +92,22 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Apertura: _"El 11 de diciembre de 2024, el Consejo Scout Nacional aprobó el **Acuerdo C.S.N. N° 617**. Ese acuerdo es lo que hoy conocemos como **Política Nacional de Programa de Jóvenes (PNPJ)**. Reemplazó políticas anteriores, integró el Método Scout en su versión 2019 (con 8 elementos), y adoptó el marco de competencias UNESCO. Es, oficialmente, la norma vigente del PJ en Colombia."_
+2. **`paragraph`** — Apertura: _"El 11 de diciembre de 2024, el Consejo Scout Nacional aprobó el **Acuerdo C.S.N. N° 617**. Ese acuerdo es lo que hoy conocemos como **Política Nacional de Programa de Jóvenes (PNPJ)**. Reemplazó políticas anteriores, integró el Método Scout en su versión 2019 (con 8 elementos), y adoptó los cuatro pilares de la educación de la UNESCO como base de sus **competencias educativas**. Es, oficialmente, la norma vigente del PJ en Colombia."_
 3. **`policy-quote`** — Cita del propósito:
     - `text`: _"Adaptar la Política Mundial e Interamericana de Programa de Jóvenes a la realidad de Colombia, con el fin de asegurar la aplicación de los conceptos al contexto país."_
     - `source`: "PNPJ (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024), §1 Propósito de la Política, págs. 3-4."
     - `label`: "📋 Ver el propósito textual"
 4. **`heading` (nivel 3)** — _"Lo que la PNPJ trae de nuevo"_
-5. **`list`** — 5 novedades clave:
+5. **`list`** — 4 novedades clave:
     - **Adopta el Método Scout en su versión 2019** (8 elementos: la Naturaleza se desdobla como elemento autónomo).
     - **Incorpora las 6 áreas de crecimiento** alineadas con los 4 pilares UNESCO (conocer, hacer, vivir juntos, ser).
-    - **Define competencias terminales e intermedias** por rama y por área (lo que en Curso 5 era abstracto, aquí es concreto).
+    - **Define competencias terminales** —para todo el camino scout— **y competencias intermedias** por rama y por área (lo que en Curso 5 era abstracto, aquí es concreto).
     - **Pone al joven al centro** con el concepto de "protagonista de programa" (no participante, no miembro, no usuario).
-    - **Reconoce el territorio** como concepto integrador: no solo el espacio físico, también el social, cultural y comunitario.
 6. **`heading` (nivel 3)** — _"La PNPJ y su Modelo de Aplicación"_
-7. **`paragraph`** — _"La PNPJ tiene 45 páginas. Está bien escrita, pero es densa. Por eso la DNPJ produjo en 2026 un manual operativo de 109 páginas llamado **'El Gran Juego para la Vida'** (DNPJ-2026-024). Es el manual pedagógico angular: lo que la política dice de forma normativa, el Modelo de Aplicación lo desarrolla con ejemplos, plantillas y rutas concretas. También existe el **Modelo de Aplicación de Bolsillo** (DNPJ-2026-063, 14 páginas) para uso diario."_
+7. **`paragraph`** — _"La PNPJ tiene 45 páginas. Está bien escrita, pero es densa. Por eso la DNPJ produjo en 2026 un manual operativo de 109 páginas llamado **'El Gran Juego para la Vida'** (DNPJ-2026-024). Es el manual pedagógico angular: lo que la política dice de forma normativa, el Modelo de Aplicación lo desarrolla con ejemplos, plantillas y rutas concretas. Es además el documento que trae el **territorio** como concepto integrador: no solo el espacio físico, también el social, cultural y comunitario. También existe el **Modelo de Aplicación de Bolsillo** (DNPJ-2026-063, 14 páginas) para uso diario."_
 8. **`info-box`** — _"En este curso vamos a usar el Modelo de Aplicación 2026 como referencia. Lo puedes descargar gratis en scout.org.co/biblioteca/dnpj."_
 
-**Reflexión:** _"De las 5 novedades de la PNPJ, ¿cuál te parece más importante o más necesaria para el Programa de Jóvenes en Colombia hoy? ¿Por qué?"_
+**Reflexión:** _"De las 4 novedades de la PNPJ, ¿cuál te parece más importante o más necesaria para el Programa de Jóvenes en Colombia hoy? ¿Por qué?"_
 
 **Quiz (2 preguntas):**
 
@@ -138,30 +137,31 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 2. **`paragraph`** — Apertura: _"El Modelo de Aplicación 2026 organiza el Programa en **5 ramas** por edades. Cada una con su grupo natural, su marco simbólico, su Promesa y su Ley. Es la columna vertebral del recorrido educativo del protagonista, desde los 5 hasta los 20 años."_
 3. **`heading` (nivel 3)** — _"Las 5 ramas en panorámica"_
 4. **`method-grid`** — Las 5 ramas con icono, color y datos clave:
-    - 🐻 **Familia — Cachorros (5–6 años)** — Grupo natural: Camadas, Círculo de Familia, Encuentro del Cubil. Marco simbólico: Hermanos de Mowgli (primer capítulo del Libro de las Tierras Vírgenes). Saludo: del Cachorro. Ley: del Cachorro.
-    - 🐺 **Manada — Lobatos (7–10 años)** — Grupo natural: Seisenas. Marco simbólico: Libro de las Tierras Vírgenes (Kipling). Promesa y Ley del Lobato. Principios y Virtudes del Lobato.
-    - ⚜️ **Tropa — Scouts (11–14 años)** — Grupo natural: Patrullas (6–8 scouts). Marco simbólico: marco propio Scout. Promesa y Ley Scout.
-    - 🧗 **Comunidad — Nómadas (15–17 años)** — Grupo natural: equipos de Comunidad. Marco simbólico: La aventura hacia la ciudadanía. Promesa y Ley Nómada.
-    - 🏔️ **Clan — Rovers (18–20/21 años)** — Grupo natural: equipos de Clan. Marco simbólico: Rovering propio. Promesa y Ley Rover. Eventos rituales: Vigilia, Peregrinaje, Partida, Cena Rover.
-5. **`heading` (nivel 3)** — _"El recorrido completo del protagonista"_
-6. **`paragraph`** — _"Un cachorro de 5 años que entra a Familia puede recorrer las 5 ramas y salir como rover de 20 años con su Partida Rover. Son 15 años de Movimiento. La PNPJ y el Modelo cuidan que ese recorrido tenga **continuidad** (cada rama prepara para la siguiente) y **coherencia** (los 8 elementos del Método están en todas las ramas, adaptados a la edad)."_
-7. **`heading` (nivel 3)** — _"Las transiciones, momentos clave"_
-8. **`list`** — Las 4 transiciones críticas:
-    - **6 → 7: Familia → Manada** — paso de la primera infancia a la niñez. Cambio de marco simbólico.
+    - 🐻 **Familia — Cachorros (5–6 años)** — Grupo natural: Camadas. Marco simbólico: La Fantasía. Fondo motivador: el Libro de las Tierras Vírgenes —Familia se queda con su primer capítulo, Los Hermanos de Mowgli, y con personajes como Raksha y Papá Lobo—. Ambiente de referencia: los relatos infantiles. Su órgano de participación es el Encuentro del Cubil. Promesa, Ley y Saludo del Cachorro.
+    - 🐺 **Manada — Lobatos (7–10 años)** — Grupo natural: Seisenas. Marco simbólico: La Fantasía, el mismo de Familia. Fondo motivador: el Libro de las Tierras Vírgenes (Kipling), que también comparte con Familia. Ambiente de referencia: los relatos fantásticos. Promesa y Ley del Lobato. Principios y Virtudes del Lobato.
+    - ⚜️ **Tropa — Scouts (11–14 años)** — Grupo natural: Patrullas (6–8 scouts). Promesa y Ley Scout. **Su marco simbólico todavía no está publicado**: el Modelo lo remite a la Guía de Dirigente de cada rama (p. 19), y la Tropa es la única que aún no tiene la suya.
+    - 🧗 **Comunidad — Nómadas Scout (15–17 años)** — Grupo natural: equipos de Comunidad. Marco simbólico: La aventura hacia la ciudadanía. Promesa del Nómada Scout y Ley Scout.
+    - 🏔️ **Clan — Rovers (18–20 años)** — Grupo natural: equipos de Clan. Marco simbólico: La Ciudadanía Activa. Promesa y Ley Scout. Eventos rituales: Vigilia, Peregrinaje, Partida, Cena Rover.
+5. **`paragraph`** — Frase puente: _"Tres palabras que se parecen y no son lo mismo: el **marco simbólico** es el mundo en el que se juega; el **fondo motivador** es el libro del que sale ese mundo; el **ambiente de referencia** es el tipo de historias con las que se cuenta. Familia y Manada juegan en el mismo mundo y con el mismo libro. Lo que cambia es el tipo de relato — y qué personajes se reserva cada una."_
+6. **`heading` (nivel 3)** — _"El recorrido completo del protagonista"_
+7. **`paragraph`** — _"Un cachorro de 5 años que entra a Familia puede recorrer las 5 ramas y salir como rover de 20 años con su Partida Rover. Son 15 años de Movimiento. La PNPJ y el Modelo cuidan que ese recorrido tenga **continuidad** (cada rama prepara para la siguiente) y **coherencia** (los 8 elementos del Método están en todas las ramas, adaptados a la edad)."_
+8. **`heading` (nivel 3)** — _"Las transiciones, momentos clave"_
+9. **`list`** — Las 4 transiciones críticas:
+    - **6 → 7: Familia → Manada** — paso de la primera infancia a la niñez. El marco sigue siendo el mismo; lo que cambia es el tipo de relatos y los personajes de cada rama.
     - **10 → 11: Manada → Tropa** — paso a la patrulla, autonomía mayor.
     - **14 → 15: Tropa → Comunidad** — el paso a la adolescencia tardía y al trabajo por proyectos.
     - **17 → 18: Comunidad → Clan** — paso al Movimiento adulto-joven, mayor toma de decisiones, articulación con RDJ.
-9. **`info-box`** — _"En los Cursos 8–12 del Nivel 2 vas a profundizar la rama donde sirves (o donde vas a servir). Hoy solo guarda el mapa."_
+10. **`info-box`** — _"En los Cursos 8–12 del Nivel 2 vas a profundizar la rama donde sirves (o donde vas a servir). Hoy solo guarda el mapa."_
 
 **Reflexión:** _"En tu unidad, ¿qué tan bien cuidan las transiciones entre ramas? ¿Has visto protagonistas perderse en la transición? ¿Qué fue lo que falló?"_
 
 **Quiz (2 preguntas):**
 
-> **P1.** Llega a tu grupo Samuel, de 8 años. Por su edad le corresponde la Manada. ¿En qué subgrupo natural va a estar y bajo qué marco simbólico va a jugar?
+> **P1.** Samuel, de 8 años, entra a la Manada y queda en una Seisena. Su antigua dirigente de Familia comenta: «Ahora le cambia el marco simbólico». ¿Qué le responderías?
 >
-> a) _En una Patrulla, con el marco Scout propio._
-> b) _En una Seisena, con el Libro de las Tierras Vírgenes._  ✅
-> c) _En una Camada, con los Hermanos de Mowgli (marco de Familia)._
+> a) _Que el marco sí cambia: en Familia es Los Hermanos de Mowgli y en Manada pasa a ser el Libro de las Tierras Vírgenes._
+> b) _Que el marco es el mismo, La Fantasía, y el libro también: cambia el ambiente de referencia, o sea los relatos._  ✅
+> c) _Que el marco es el mismo en las cinco ramas, porque el Método Scout se vive igual en todas y a cualquier edad._
 
 > **P2.** El paso a la adolescencia tardía y al trabajo por proyectos ocurre en la transición entre…
 >
@@ -190,7 +190,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
     - 🤝 **Sociabilidad** — Convivir, cooperar, servir, ejercer ciudadanía: vínculos, colaboración, compromiso comunitario, ciudadanía activa.
     - 🌌 **Espiritualidad** — Hacerse preguntas grandes y construir sentido: trascendencia, fe (o búsqueda), valores últimos, conexión con lo sagrado o lo numinoso.
 5. **`heading` (nivel 3)** — _"Competencias terminales e intermedias"_
-6. **`paragraph`** — _"Por cada área, el Modelo de Aplicación 2026 define **competencias terminales** (qué debería poder hacer el protagonista al egresar de la rama) y **competencias intermedias** (los pasos para llegar). Lo importante: las áreas son las mismas en todas las ramas; lo que cambia es el nivel de complejidad de la competencia."_
+6. **`paragraph`** — _"Por cada área, el Modelo define **competencias terminales**: lo que el joven debería poder hacer **al terminar todo su camino scout**, no al salir de una rama. Y de cada terminal salen las **competencias intermedias**, que son los pasos por edad — esas sí van rama por rama, y las encuentras en la Guía de Dirigente de tu rama. Las áreas son las mismas en todas las ramas; lo que cambia es el tamaño del paso."_
 7. **`paragraph`** — _"Ejemplo: en **Corporalidad**, un cachorro de 6 años trabaja 'fortalecer habilidades motoras finas y gruesas'; un lobato de 9 años, 'afianzar hábitos de higiene'; un scout de 13 años, 'reconocer y valorar su cuerpo como medio de expresión'; un nómada de 16, 'tomar decisiones informadas sobre su salud sexual y reproductiva'; un rover de 19, 'sostener un proyecto personal de salud integral'. Misma área, distintos niveles."_
 8. **`heading` (nivel 3)** — _"Cómo se evalúa la progresión en las áreas"_
 9. **`paragraph`** — _"No con exámenes. Con observación, conversación y reconocimiento. Las **Herramientas de Seguimiento de la Progresión Personal 2.0** (DNPJ) ofrecen un **banco de técnicas** — por ejemplo: observación en acción, anecdotario, registro conflicto-resolución, listas de cotejo, rúbricas, autoevaluación tipo semáforo y coevaluación. No hay que usarlas todas: se eligen una o dos según la experiencia. El instrumento operativo es el **Registro de Acompañamiento a la Progresión Personal** (Excel DNPJ-2026-021)."_
@@ -223,7 +223,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Apertura: _"El Modelo de Aplicación 2026 trae dos secuencias que se cruzan: **3 etapas de vida en la unidad** (lo que vive el protagonista en su rama) y **3 momentos de aprendizaje** (lo que vive en cada oportunidad concreta). Vamos a verlas por separado y luego juntas."_
+2. **`paragraph`** — Apertura: _"El Modelo de Aplicación 2026 trae dos secuencias que se cruzan: **3 etapas de vida en la unidad** (lo que vive el protagonista en su rama) y **3 momentos de aprendizaje**, que marcan qué tan lejos ha llegado el protagonista **en una competencia concreta**. Vamos a verlas por separado y luego juntas."_
 3. **`heading` (nivel 3)** — _"Las 3 etapas de vida en la unidad"_
 4. **`method-grid`** — Las 3 etapas con icono y descripción:
     - 🌱 **Adaptación** — El protagonista llega a la rama. Conoce, se conoce, se hace parte. Necesita acogida, vínculo, claridad de marco simbólico.
@@ -236,7 +236,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
     - 🚀 **Profundizo** — Autonomía y transferencia. Hago solo. Enseño a otros. Llevo la práctica a contextos nuevos.
 7. **`heading` (nivel 3)** — _"Cómo se cruzan etapas y momentos"_
 8. **`paragraph`** — _"Un mismo protagonista en **etapa de Adaptación** suele estar en **momento Exploro** en muchos contenidos. Uno en **Progresión** está en **Aplico** y empieza a **Profundizar** algunos. Uno en **Transición** ya ha **Profundizado** varios y empieza a enseñar a los más nuevos. Las secuencias no son rígidas, pero ayudan a planear oportunidades acordes al momento del protagonista."_
-9. **`info-box`** — _"El Modelo de Aplicación de Bolsillo (14 páginas) trae el ciclo pedagógico **Vivir → Mirar → Comprender → Proyectar**, que es la versión corta de los 3 momentos aplicada a una sola lección o reunión. Volverás a verlo en el Curso 14 (Planeación de Reuniones)."_
+9. **`info-box`** — _"El Modelo de Aplicación de Bolsillo (14 páginas) trae además un ciclo distinto y muy útil: **Vivir → Mirar → Comprender → Proyectar**. No es una versión corta de Exploro/Aplico/Profundizo: es la manera de cerrar **una** actividad para que lo vivido se convierta en aprendizaje. Los tres niveles marcan el camino largo de una competencia; este ciclo cabe en una reunión. Volverás a verlo en el Curso 14."_
 
 **Reflexión:** _"Piensa en un protagonista de tu unidad. ¿En qué etapa de vida en la rama está (Adaptación, Progresión, Transición)? ¿Y en qué momento de aprendizaje está respecto a uno de los contenidos que está trabajando? Sé concreto."_
 
@@ -271,13 +271,13 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
     - 🛟 **Apoyar** — preparar las condiciones, asegurar los recursos, sostener la planeación.
     - 👣 **Acompañar** — estar presente en el proceso del protagonista, sin reemplazarlo.
     - 🔗 **Enlazar** — conectar al protagonista con el grupo, con la familia, con el territorio y con la institución.
-5. **`paragraph`** — _"Estos 3 roles **reemplazan** los términos antiguos 'jefe', 'instructor', 'guía'. No porque sean malos, sino porque colocan al dirigente en la posición correcta respecto al protagonista: como apoyo, no como autoridad central. Cada rol acompaña un momento del aprendizaje: **apoyas cuando exploran, acompañas cuando aplican, enlazas cuando profundizan.**"_
+5. **`paragraph`** — _"Estos 3 roles no cambian el nombre de ningún cargo: «Jefe de Grupo», «Jefe de Unidad» o «Guía de Patrulla» siguen siendo los nombres correctos. Lo que hacen es describir **cómo** acompañas: no como el que manda, sino como el que sostiene, acompaña y conecta. **Apoyas cuando exploran, acompañas cuando aplican, enlazas cuando profundizan.**"_
 6. **`heading` (nivel 3)** — _"Herramienta 2 — Filtro DURASLID"_
 7. **`paragraph`** — _"Toda oportunidad de aprendizaje debería pasar el filtro DURASLID: **D**esafiante (que invite a estirarse), **U**til (que sirva para algo real), **R**ecompensante (que genere satisfacción), **A**tractiva (que despierte ganas), **S**egura (sin riesgo innecesario), **L**údica (con elemento de juego), **I**nclusiva (que todos puedan participar), **D**iversa (con pluralidad de formas, voces y enfoques). Si una actividad solo cumple 2 o 3 de los 8 atributos, hay algo que ajustar."_
 8. **`heading` (nivel 3)** — _"Herramienta 3 — Aprendizaje Basado en Proyectos (ABP)"_
-9. **`paragraph`** — _"El Modelo integra el ABP al ciclo de programa de la unidad en cinco momentos: primero el grupo hace un **diagnóstico participativo** (mira qué pasa a su alrededor y qué quiere cambiar); luego **planifica** el proyecto; después lo **ejecuta paso a paso**, ajustando sobre la marcha; lo **presenta en público**; y al final **evalúa y transfiere** lo aprendido a la vida diaria. Cada momento pasa por el filtro DURASLID, para que la experiencia sea desafiante, útil y atractiva."_
+9. **`paragraph`** — _"El Modelo integra el ABP al ciclo de programa de la unidad en cinco momentos: primero el grupo hace un **diagnóstico participativo** (mira qué pasa a su alrededor y qué quiere cambiar); luego **planifica** el proyecto; después lo **ejecuta paso a paso**, ajustando sobre la marcha; lo **presenta en público**; y al final **evalúa y transfiere** lo aprendido a la vida diaria. Las oportunidades que salgan del proyecto se revisan con el filtro DURASLID."_
 10. **`heading` (nivel 3)** — _"Herramienta 4 — Territorio como concepto integrador"_
-11. **`paragraph`** — _"El **territorio** no es solo el espacio físico donde está el grupo. Es el conjunto de relaciones sociales, culturales y comunitarias que rodean al protagonista. La PNPJ pide que el Programa **se ancle al territorio**: que los proyectos sirvan al barrio, que los marcos simbólicos dialoguen con la cultura local, que la unidad sea reconocida como actor de su comunidad."_
+11. **`paragraph`** — _"El **territorio** no es solo el espacio físico donde está el grupo. Es el conjunto de relaciones sociales, culturales y comunitarias que rodean al protagonista. El Modelo pide que el Programa **se ancle al territorio**: que los proyectos sirvan al barrio, que los marcos simbólicos dialoguen con la cultura local, que la unidad sea reconocida como actor de su comunidad."_
 12. **`info-box`** — _"En los cursos del Nivel 2 (13 — Seguimiento, 14 — Planeación, 15 — Ciclo con ABP) vas a dominar estas herramientas en detalle. Hoy guarda el inventario."_
 
 **Reflexión:** _"De las 4 herramientas (3 roles, DURASLID, ABP, territorio), ¿cuál te parece más urgente fortalecer en tu unidad? ¿Por qué?"_
@@ -286,7 +286,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 
 > **P1.** Un dirigente prepara los materiales, reserva el lugar y deja lista la planeación para que la patrulla pueda ejecutar su proyecto. Según el Modelo 2026, ¿qué rol está ejerciendo?
 >
-> a) _El de Jefe que da las órdenes (término que el Modelo dejó atrás)._
+> a) _El de instructor: enseñarle a la patrulla cómo se hace el proyecto._
 > b) _Apoyar._  ✅
 > c) _Enlazar._
 
@@ -312,14 +312,14 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 4. **`paragraph`** — Plantilla (responde con tus propios datos):
     - _"Sirvo (o serviré) en la **rama __________** (Familia/Manada/Tropa/Comunidad/Clan)."_
     - _"Su grupo natural se llama **__________** (Camadas/Seisenas/Patrullas/equipos)."_
-    - _"Su marco simbólico es **__________** (Hermanos de Mowgli/Libro de las Tierras Vírgenes/marco propio/Aventura y Ciudadanía/Rovering)."_
+    - _"Su marco simbólico es **__________** (La Fantasía —Familia y Manada— / la Tropa aún no tiene marco publicado / La aventura hacia la ciudadanía / La Ciudadanía Activa)."_
     - _"Los protagonistas que acompaño están entre las edades de **__________ a __________ años**."_
     - _"De las **6 áreas de crecimiento**, en este trimestre voy a poner especial cuidado en: **__________ y __________**."_
     - _"Mi rol principal en esta rama es: **Apoyar / Acompañar / Enlazar** (subraya el que más te toca)."_
 5. **`mission-box`** — _"Guarda este mapa. Te servirá cada vez que vayas a planear una reunión, un campamento o un proyecto."_
 6. **`heading` (nivel 3)** — _"Lo que viene"_
 7. **`list`** — Mapa del Curso 7 y de los Niveles 2-4:
-    - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes: tu plan personal completo, integrando los 5 cursos del Nivel 1.
+    - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes: tu plan personal completo, integrando todo el Nivel 1.
     - 🐻🐺⚜️🧗🏔️ **Nivel 2 — Cursos 8–12** — Profundización por rama (toma el de la tuya).
     - 🛠️ **Nivel 2 — Cursos 13, 14, 15** — Seguimiento, Planeación, Ciclo de Programa con ABP.
     - 🛡️ **Nivel 4 — Curso 25** — A Salvo del Peligro (de adopción inmediata).
@@ -442,4 +442,4 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 
 ---
 
-_Documento de diseño del Curso 6, versión inicial — 28 de mayo de 2026. Fuentes angulares: Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024) y Modelo de Aplicación "El Gran Juego para la Vida" (DNPJ-2026-024, 109 pp) + Modelo de Aplicación de Bolsillo (DNPJ-2026-063, 14 pp). Validado contra el marco metodológico de la plataforma._
+_Documento de diseño del Curso 6, versión inicial — 28 de mayo de 2026. **Revisión doctrinal del 16 de septiembre de 2026** (`contentVersion` 2026-09-16): se aplicaron las correcciones de la auditoría doctrinal — cadena de competencias reanclada al *Modelo* (terminales = todo el tránsito por el Movimiento, pp. 31–32; intermedias = hitos por rango de edad, p. 104, en las Guías para Dirigente); «jefe» deja de declararse término superado, porque sigue vigente (*Modelo* 2026, p. 22, y *Guía de Buenas Prácticas para Jefes de Tropa*, DNPJ 2026); Vivir → Mirar → Comprender → Proyectar deja de presentarse como versión corta de Exploro/Aplico/Profundizo (*Modelo* §9.3.2.1 p. 62 frente a §8.1.2 pp. 46 y 49); el ítem de la L3 se rehízo para distinguir marco simbólico, fondo motivador y ambiente de referencia, y la rejilla de ramas lo enseña antes de preguntarlo; el marco simbólico de la Tropa se declara no publicado (*Modelo* p. 19); Promesas y Leyes corregidas según las Guías (Nómada Scout, Ley Scout); el «territorio» se atribuye al *Modelo* §8.2 pp. 55–57 y no a la PNPJ, que no lo trae; y la plantilla de la L7 deja de decir «Rovering». Fuentes angulares: Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024) y Modelo de Aplicación "El Gran Juego para la Vida" (DNPJ-2026-024, 109 pp) + Modelo de Aplicación de Bolsillo (DNPJ-2026-063, 14 pp). Validado contra el marco metodológico de la plataforma._

@@ -3,7 +3,7 @@
   "title": "Bienvenida al Programa de Jóvenes",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El primer paso en la Línea Programa de Jóvenes. En ~25 minutos vas a entender qué es realmente el Programa de Jóvenes (y qué no), desarmar los mitos del dirigente nuevo, ubicar las 5 ramas y la documentación marco, y dar tu primer compromiso concreto. Sin tecnicismos, con ejemplos del día a día de una unidad.",
-  "contentVersion": "2026-08-02",
+  "contentVersion": "2026-09-16",
   "icon": "🎒",
   "duration": "25 minutos",
   "level": 1,
@@ -60,12 +60,16 @@
         },
         {
           "type": "paragraph",
-          "text": "Si abres la Política Nacional de Programa de Jóvenes vas a leer que es la “totalidad de oportunidades de aprendizaje, definidas por su Propósito, por sus Oportunidades de Aprendizaje y por el Método Scout”. Es exacto. Y, si nunca has hecho un curso así, es difícil de digerir. Vamos a llegar a esa frase, pero por el camino aterrizado."
+          "text": "Si abres la Política Nacional de Programa de Jóvenes vas a leer que el Programa es <em>«la totalidad de las oportunidades de aprendizaje»</em> de las que los jóvenes pueden beneficiarse, creadas para alcanzar el propósito del Movimiento y vividas a través del Método Scout. Es exacto. Y, si nunca has hecho un curso así, es difícil de digerir. Vamos a llegar a esa frase, pero por el camino aterrizado."
         },
         {
           "type": "heading",
           "level": 3,
           "text": "Mira tu propia unidad y vas a ver Programa por todos lados"
+        },
+        {
+          "type": "paragraph",
+          "text": "Una aclaración antes de mirarlos: algunos son elementos del Método; otros, la forma en que el Método se ve en la unidad."
         },
         {
           "type": "method-grid",
@@ -116,7 +120,7 @@
           "type": "policy-quote",
           "label": "📋 Ver lo que dice la política textualmente",
           "source": "Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024), §5.1 — Definición del Programa de Jóvenes.",
-          "text": "El Programa de Jóvenes en el Movimiento Scout es la totalidad de las oportunidades de aprendizaje de las que los jóvenes pueden beneficiarse (Qué), creadas para alcanzar el propósito del Movimiento Scout (Por qué), y que se vive a través del Método Scout (Cómo)."
+          "text": "El Programa [de] Jóvenes en el Movimiento Scout es la totalidad de las oportunidades de aprendizaje de las que los jóvenes pueden beneficiarse (Qué), creadas para alcanzar el propósito del Movimiento Scout (Por qué), y que se vive a través del Método Scout (Cómo)."
         },
         {
           "type": "info-box",
@@ -199,7 +203,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La PNPJ es radical en esto. El Movimiento Scout es <strong>de los jóvenes y para los jóvenes</strong>, apoyado por adultos. No al revés. Tu rol es apoyar, acompañar y enlazar —no dirigir—. Si los jóvenes solo deciden lo que tú permites, no estás aplicando el Método: estás aplicando otra cosa que se le parece pero no lo es."
+          "text": "La PNPJ es radical en esto. El Movimiento Scout es <strong>de los jóvenes, por los jóvenes y con los jóvenes — no solamente para ellos</strong>, apoyado por adultos. No al revés. Tu rol es apoyar, acompañar y enlazar —no dirigir—. Si los jóvenes solo deciden lo que tú permites, no estás aplicando el Método: estás aplicando otra cosa que se le parece pero no lo es."
         },
         {
           "type": "heading",
@@ -255,38 +259,38 @@
         },
         {
           "type": "paragraph",
-          "text": "En los próximos cursos entras al detalle. Pero antes necesitas un mapa simple. El Programa de Jóvenes en la ASC se organiza en 5 ramas por edades, cada una con su grupo natural (la forma en que los jóvenes se agrupan dentro de la unidad) y su marco simbólico (el universo narrativo que la sostiene)."
+          "text": "En los próximos cursos entras al detalle. Pero antes necesitas un mapa simple. El Programa de Jóvenes en la ASC se organiza en 5 tramos de edad, y cada tramo tiene su rama: su forma propia de vivir el escultismo, con su grupo natural (la forma en que los jóvenes se agrupan dentro de la unidad) y su marco simbólico (el universo narrativo que la sostiene)."
         },
         {
           "type": "method-grid",
           "items": [
             {
               "title": "🐻 Rama Familia — Cachorros (5–6 años)",
-              "description": "Grupo natural: <strong>Camadas</strong> y Círculo de Familia. Marco simbólico: La Fantasía; su fondo motivador son Los Hermanos de Mowgli.",
+              "description": "Grupo natural: Camadas. Marco simbólico: La Fantasía; su fondo motivador es el Libro de las Tierras Vírgenes — el mismo de la Manada.",
               "color": "#fff8e1",
               "borderColor": "#f9a825"
             },
             {
               "title": "🐺 Rama Manada — Lobatos (7–10 años)",
-              "description": "Grupo natural: <strong>Seisenas</strong>. Marco simbólico: La Fantasía; su fondo motivador es el Libro de las Tierras Vírgenes.",
+              "description": "Grupo natural: Seisenas. Marco simbólico: La Fantasía — el mismo de la Familia; su fondo motivador es el Libro de las Tierras Vírgenes.",
               "color": "#fff3e0",
               "borderColor": "#fb8c00"
             },
             {
               "title": "⚜️ Rama Tropa — Scouts (11–14 años)",
-              "description": "Grupo natural: <strong>Patrullas</strong>. Marco simbólico: marco propio Scout.",
+              "description": "Grupo natural: Patrullas, con su Guía y su Subguía.",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             },
             {
-              "title": "🧗 Rama Comunidad — Nómadas (15–17 años)",
+              "title": "🧗 Rama Comunidad — Nómadas Scout (15–17 años)",
               "description": "Grupo natural: equipos de Comunidad. Marco simbólico: La aventura hacia la ciudadanía.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
             {
               "title": "🏔️ Rama Clan — Rovers (18–20 años)",
-              "description": "Grupo natural: equipos de Clan. Marco simbólico: La Ciudadanía Activa.",
+              "description": "Grupo natural: equipos de proyectos o clubes Rovers. Marco simbólico: La Ciudadanía Activa.",
               "color": "#ede7f6",
               "borderColor": "#5e35b1"
             }
@@ -307,8 +311,8 @@
           "items": [
             "<strong>Política Nacional de Programa de Jóvenes</strong> (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024) — la norma marco del PJ.",
             "<strong>Modelo de Aplicación “El Gran Juego para la Vida”</strong> (DNPJ 2026) — el manual pedagógico que aterriza la política al día a día.",
-            "<strong>Guías de Dirigente por rama</strong> (Familia, Manada, Tropa, Comunidad, Clan — DNPJ 2026) — la guía específica de tu rama.",
-            "<strong>Herramientas de Seguimiento de la Progresión Personal 2.0</strong> (DNPJ) — la caja de herramientas evaluativas que usarán todos los dirigentes."
+            "<strong>Guías de Dirigente por rama</strong> (Familia, Manada, Comunidad y Clan — DNPJ 2026). Para la Tropa, la Guía de Buenas Prácticas para Jefes de Tropa.",
+            "<strong>Recursos Educativos para Dirigentes — Herramientas de Seguimiento para la Progresión Personal 2.0</strong> (DNPJ) — la caja de herramientas evaluativas que usarán todos los dirigentes."
           ]
         },
         {
@@ -319,7 +323,7 @@
           "type": "policy-quote",
           "label": "📋 Ver el corazón de la política",
           "source": "Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. N° 617 de 2024), §5.2 — Características del Programa de Jóvenes.",
-          "text": "Está diseñado “por” y “con” los jóvenes, no simplemente “para” ellos… reconociéndolos como los principales agentes de su desarrollo."
+          "text": "[E]stá diseñado “por” y “con” los jóvenes, no simplemente “para” ellos… reconociéndolos como los principales agentes de su desarrollo."
         }
       ],
       "reflection": {
@@ -330,11 +334,11 @@
         "nextLabel": "Continuar a por qué importa 💡",
         "questions": [
           {
-            "text": "Los Lobatos son la rama Manada y se agrupan en…",
+            "text": "La Familia de Cachorros y la Manada comparten el mismo marco simbólico y el mismo fondo motivador. ¿Cuál de estas frases los nombra bien?",
             "options": [
-              "Patrullas, bajo el marco simbólico Scout.",
-              "Seisenas, bajo el marco simbólico del Libro de las Tierras Vírgenes.",
-              "Camadas, bajo el marco simbólico de los Hermanos de Mowgli."
+              "Marco simbólico: el Libro de las Tierras Vírgenes. Fondo motivador: La Fantasía.",
+              "Marco simbólico: La Fantasía. Fondo motivador: el Libro de las Tierras Vírgenes.",
+              "Marco simbólico: las camadas y las seisenas. Fondo motivador: la selva de Kipling."
             ],
             "correctIndex": 1
           },
@@ -344,6 +348,15 @@
               "El Reglamento de la Red Nacional de Jóvenes (Acuerdo CSN 556).",
               "La Política Nacional de Programa de Jóvenes (Acuerdo CSN 617 de 2024).",
               "El Manual de Implementación del Marco de Mundo Mejor (junio 2021)."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Los Lobatos, dentro de la Manada, se organizan en pequeños grupos llamados…",
+            "options": [
+              "Patrullas — así se llama el pequeño grupo de los Scouts en la Tropa.",
+              "Seisenas — pequeños grupos de unos seis Lobatos dentro de la Manada.",
+              "Camadas — así se llama el pequeño grupo de los Cachorros en la Familia."
             ],
             "correctIndex": 1
           }
@@ -497,7 +510,7 @@
             "🌟 <strong>Curso 4</strong> — Características Esenciales del Movimiento Scout.",
             "🧭 <strong>Curso 5</strong> — El Método Scout y sus 8 elementos.",
             "📜 <strong>Curso 6</strong> — La PNPJ y “El Gran Juego para la Vida”.",
-            "🗺️ <strong>Curso 7</strong> — Mi Compromiso con el Programa de Jóvenes (plan personal)."
+            "🗺️ <strong>Curso 7</strong> — Mi Compromiso con el Programa de Jóvenes."
           ]
         },
         {

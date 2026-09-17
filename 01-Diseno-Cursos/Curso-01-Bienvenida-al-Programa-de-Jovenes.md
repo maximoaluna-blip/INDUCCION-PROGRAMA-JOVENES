@@ -1,6 +1,6 @@
 # Diseño del Curso 1 — 🎒 Bienvenida al Programa de Jóvenes
 
-**Línea:** Programa de Jóvenes · **Nivel:** 1 (Fundamentación) · **Posición:** Curso 1 de 6 del Nivel 1.
+**Línea:** Programa de Jóvenes · **Nivel:** 1 (Fundamentación) · **Posición:** Curso 1 de 7 del Nivel 1.
 
 > Vertical slice del Nivel 1. Este curso es la prueba de concepto del marco metodológico aplicado a la Línea Programa de Jóvenes. Tras pilotaje, se replicará el patrón a los Cursos 2–6.
 
@@ -15,7 +15,7 @@
 | Subtítulo | Formación de Adultos Voluntarios — Asociación Scouts de Colombia |
 | Icono | 🎒 |
 | Duración | ~25 min |
-| Lecciones de contenido | 6 + intro + certificado |
+| Lecciones de contenido | 5 + intro + certificado |
 | Audiencia primaria | Todo adulto que entra a la línea: dirigentes de unidad de las 5 ramas (Familia, Manada, Tropa, Comunidad, Clan), asistentes, equipos de programa de grupo, comisionados de PJ regionales y nacionales, miembros de la Red Nacional de Jóvenes, consejeros juveniles, adultos voluntarios en general. |
 | Pre-requisitos | Ninguno. Es la puerta de entrada a la línea. (Recomendado: haber tomado o estar tomando el Curso 1 de la Línea Política de Adultos, pero no es bloqueante.) |
 | Logro final | "Constructor de Programa" |
@@ -49,7 +49,7 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
 
 | # | Lección | Duración | Idea central | Logro al completar |
 |---|---|---|---|---|
-| 1 | 👋 Bienvenida | 3 min | "Estás aquí porque vas a acompañar a alguien a crecer." | Empecé el camino |
+| 1 | 👋 Bienvenida | 3 min | "Estás aquí porque vas a acompañar a alguien a crecer." | — |
 | 2 | 🎒 ¿Qué es Programa de Jóvenes, en realidad? | 5 min | El Programa es una alianza educativa, no un manual de actividades. | El Programa es alianza |
 | 3 | 🧨 Los 5 mitos del dirigente nuevo (y cómo desarmarlos) | 5 min | Lo que crees que es "saber escultismo" no siempre es saberlo. | Mito-buster |
 | 4 | 🗺️ Tu Programa en una página | 5 min | Conozco las 5 ramas, los grupos naturales y la documentación marco. | Conozco mi Programa |
@@ -81,7 +81,7 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
 
 **Quiz:** ninguno.
 
-**Logro al completar:** "Empecé el camino".
+**Logro al completar:** ninguno — la lección de intro no otorga logro.
 
 ---
 
@@ -92,21 +92,22 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Anti-definición: _"Si abres la Política Nacional de Programa de Jóvenes vas a leer 'totalidad de oportunidades de aprendizaje, definidas por su Propósito, por sus Oportunidades de Aprendizaje y por el Método Scout'. Es exacto. Y, si nunca has hecho un curso así, es difícil de digerir. Vamos a llegar a esa frase, pero por el camino aterrizado."_
+2. **`paragraph`** — Anti-definición: _"Si abres la Política Nacional de Programa de Jóvenes vas a leer que el Programa es «la totalidad de las oportunidades de aprendizaje» de las que los jóvenes pueden beneficiarse, creadas para alcanzar el propósito del Movimiento y vividas a través del Método Scout. Es exacto. Y, si nunca has hecho un curso así, es difícil de digerir. Vamos a llegar a esa frase, pero por el camino aterrizado."_
 3. **`heading` (nivel 3)** — _"Mira tu propia unidad y vas a ver Programa por todos lados"_
-4. **`method-grid`** — 6 ejemplos cotidianos de Programa con icono y color, para mostrar que el adulto ya hace Programa:
+4. **`paragraph`** — Encuadre del grid: _"Una aclaración antes de mirarlos: algunos son elementos del Método; otros, la forma en que el Método se ve en la unidad."_ (Modelo de Aplicación §3.2, p. 16: la vida de grupo es una de las **cuatro dinámicas**, y la adaptación pedagógica no es un elemento del Método.)
+5. **`method-grid`** — 6 ejemplos cotidianos de Programa con icono y color, para mostrar que el adulto ya hace Programa:
     - **La jefa de Manada** que cambia el orden de la reunión porque los lobatos llegaron cansados → _adaptación pedagógica_
     - **El dirigente** que se sienta 20 min con un scout a preguntarle qué le gustaría aprender este trimestre → _progresión personal (acompañar)_
     - **El subjefe de Tropa** que deja que la patrulla cocine sola aunque tarde el doble → _aprender haciendo_
     - **La dirigente de Comunidad** que acompaña a los nómadas a presentar un proyecto en la junta de acción comunal → _participación en la comunidad_
     - **El dirigente de Clan** que decide no decirle al rover cómo planear el peregrinaje y solo le hace preguntas → _apoyo del adulto_
     - **El asistente** que se acuerda del nombre del lobato nuevo y le pregunta cómo le fue en el colegio → _vida de grupo_
-5. **`paragraph`** — Conclusión: _"Ninguno de estos adultos está pensando 'estoy aplicando el Método Scout'. Pero todos lo están haciendo. Y todos, de alguna forma, están firmando esa alianza educativa con el joven que tienen al frente."_
-6. **`policy-quote`** — Cita textual de la PNPJ 2024 con su definición técnica:
-    - `text`: _"El Programa de Jóvenes en el Movimiento Scout es la totalidad de las oportunidades de aprendizaje de las que los jóvenes pueden beneficiarse (Qué), creadas para alcanzar el propósito del Movimiento Scout (Por qué), y que se vive a través del Método Scout (Cómo)."_
+6. **`paragraph`** — Conclusión: _"Ninguno de estos adultos está pensando 'estoy aplicando el Método Scout'. Pero todos lo están haciendo. Y todos, de alguna forma, están firmando esa alianza educativa con el joven que tienen al frente."_
+7. **`policy-quote`** — Cita textual de la PNPJ 2024 con su definición técnica:
+    - `text`: _"El Programa [de] Jóvenes en el Movimiento Scout es la totalidad de las oportunidades de aprendizaje de las que los jóvenes pueden beneficiarse (Qué), creadas para alcanzar el propósito del Movimiento Scout (Por qué), y que se vive a través del Método Scout (Cómo)."_
     - `source`: "Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024), §5.1 — Definición del Programa de Jóvenes."
     - `label`: "📋 Ver lo que dice la política textualmente"
-7. **`info-box`** — Reformulación accesible: _"En palabras simples: el Programa de Jóvenes es la alianza educativa entre quien crece y quien acompaña. Lo que pasa entre tú y un protagonista, semana a semana, año tras año, hasta que él o ella se vaya con herramientas para la vida."_
+8. **`info-box`** — Reformulación accesible: _"En palabras simples: el Programa de Jóvenes es la alianza educativa entre quien crece y quien acompaña. Lo que pasa entre tú y un protagonista, semana a semana, año tras año, hasta que él o ella se vaya con herramientas para la vida."_
 
 **Reflexión:** _"Piensa en una reunión de tu unidad (o la unidad que acompañas) en las últimas dos semanas. Escribe **dos momentos** donde, sin nombrarlo así, estaban haciendo Programa de Jóvenes de calidad. Y **un momento** donde sospechas que pudieron hacer más."_
 
@@ -145,7 +146,7 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 7. **`heading` (nivel 3)** — _"Mito 3 — 'A los chicos hay que entretenerlos'"_
 8. **`paragraph`** — Refutación: el Programa no entretiene, **educa**. Una reunión donde los chicos se rieron mucho pero no aprendieron nada, no se conocieron mejor, no avanzaron en ninguna área de crecimiento — fue una linda fiesta, no una reunión scout. El filtro **DURASLID** (desafiante, útil, recompensante, atractiva, segura, lúdica, inclusiva, diversa) está para evitar reuniones que solo cumplan una o dos de las ocho.
 9. **`heading` (nivel 3)** — _"Mito 4 — 'Los jóvenes deciden cuando yo se los permito'"_
-10. **`paragraph`** — Refutación: la PNPJ es radical en esto. El Movimiento Scout es **de los jóvenes y para los jóvenes**, apoyado por adultos. No al revés. Tu rol es **apoyar, acompañar y enlazar** —no dirigir—. Si los jóvenes solo deciden lo que tú permites, no estás aplicando el Método, estás aplicando otra cosa que se le parece pero no lo es.
+10. **`paragraph`** — Refutación: la PNPJ es radical en esto. El Movimiento Scout es **de los jóvenes, por los jóvenes y con los jóvenes — no solamente para ellos**, apoyado por adultos. No al revés. Tu rol es **apoyar, acompañar y enlazar** —no dirigir—. Si los jóvenes solo deciden lo que tú permites, no estás aplicando el Método, estás aplicando otra cosa que se le parece pero no lo es.
 11. **`heading` (nivel 3)** — _"Mito 5 — 'Esto se hace por amor, así que no necesita estructura'"_
 12. **`paragraph`** — Refutación: claro que se hace por amor — Baden-Powell lo dijo en 1922, lo verás en el próximo curso. **Y** justo porque se hace por amor, exige más estructura, no menos. La protección del joven (A Salvo del Peligro), la planeación de la reunión, el seguimiento de la progresión, los protocolos de actividad — todo eso es la forma en que el amor se hace responsable. Amar sin cuidar no es amar; es buena intención.
 13. **`info-box`** — Cierre: _"Si hubo un mito que reconociste como tuyo: bienvenido al club. Ahora lo importante es que ya tienes con qué responderle a quien lo repita —incluso si esa persona eres tú mismo."_
@@ -177,41 +178,47 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Apertura: _"En los próximos cursos entras al detalle. Pero antes necesitas un mapa simple. El Programa de Jóvenes en la ASC se organiza en 5 ramas por edades, cada una con su grupo natural (la forma en que los jóvenes se agrupan dentro de la unidad) y su marco simbólico (el universo narrativo que la sostiene)."_
+2. **`paragraph`** — Apertura: _"En los próximos cursos entras al detalle. Pero antes necesitas un mapa simple. El Programa de Jóvenes en la ASC se organiza en 5 tramos de edad, y cada tramo tiene su rama: su forma propia de vivir el escultismo, con su grupo natural (la forma en que los jóvenes se agrupan dentro de la unidad) y su marco simbólico (el universo narrativo que la sostiene)."_
 3. **`method-grid`** — Las 5 ramas con icono y color distintos:
-    - 🐻 **Rama Familia — Cachorros (5–6 años)** — Grupo natural: **Camadas** y Círculo de Familia. Marco simbólico: Hermanos de Mowgli.
-    - 🐺 **Rama Manada — Lobatos (7–10 años)** — Grupo natural: **Seisenas**. Marco simbólico: Libro de las Tierras Vírgenes.
-    - ⚜️ **Rama Tropa — Scouts (11–14 años)** — Grupo natural: **Patrullas**. Marco simbólico: marco propio Scout.
-    - 🧗 **Rama Comunidad — Nómadas (15–17 años)** — Grupo natural: equipos de Comunidad. Marco simbólico: La aventura hacia la ciudadanía.
-    - 🏔️ **Rama Clan — Rovers (18–20 años)** — Grupo natural: equipos de Clan. Marco simbólico: Rovering propio.
+    - 🐻 **Rama Familia — Cachorros (5–6 años)** — Grupo natural: Camadas. Marco simbólico: La Fantasía; su fondo motivador es el Libro de las Tierras Vírgenes — el mismo de la Manada.
+    - 🐺 **Rama Manada — Lobatos (7–10 años)** — Grupo natural: Seisenas. Marco simbólico: La Fantasía — el mismo de la Familia; su fondo motivador es el Libro de las Tierras Vírgenes.
+    - ⚜️ **Rama Tropa — Scouts (11–14 años)** — Grupo natural: Patrullas, con su Guía y su Subguía.
+    - 🧗 **Rama Comunidad — Nómadas Scout (15–17 años)** — Grupo natural: equipos de Comunidad. Marco simbólico: La aventura hacia la ciudadanía.
+    - 🏔️ **Rama Clan — Rovers (18–20 años)** — Grupo natural: equipos de proyectos o clubes Rovers. Marco simbólico: La Ciudadanía Activa.
 4. **`paragraph`** — Aplicación: _"Tu rol como dirigente está en una de estas ramas. Pero todo el grupo —desde la familia más chiquita hasta el clan— forma un solo recorrido educativo. Lo que un cachorro vive a los 5 años lo prepara para la travesía a los 14, y lo que vivió en la tropa lo sostiene en su partida rover a los 20."_
 5. **`heading` (nivel 3)** — _"La documentación marco que rige todo"_
 6. **`list`** — Las 4 normas/documentos marco vigentes:
     - **Política Nacional de Programa de Jóvenes** (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024) — la norma marco del PJ.
     - **Modelo de Aplicación "El Gran Juego para la Vida"** (DNPJ 2026) — el manual pedagógico que aterriza la política al día a día.
-    - **Guías de Dirigente por rama** (Familia, Manada, Tropa, Comunidad, Clan — DNPJ 2026) — la guía específica de tu rama.
-    - **Herramientas de Seguimiento de la Progresión Personal 2.0** (DNPJ) — la caja de herramientas evaluativas que usarán todos los dirigentes.
+    - **Guías de Dirigente por rama** (Familia, Manada, Comunidad y Clan — DNPJ 2026). Para la Tropa, la Guía de Buenas Prácticas para Jefes de Tropa.
+    - **Recursos Educativos para Dirigentes — Herramientas de Seguimiento para la Progresión Personal 2.0** (DNPJ) — la caja de herramientas evaluativas que usarán todos los dirigentes.
 7. **`info-box`** — _"Los puedes consultar todos en https://scout.org.co/biblioteca · No tienes que aprendértelos. Solo saber que existen y dónde encontrarlos cuando los necesites. En los Cursos 5 y 6 los vamos a recorrer juntos."_
 8. **`policy-quote`** — Cita textual de la PNPJ 2024:
-    - `text`: _"Está diseñado “por” y “con” los jóvenes, no simplemente “para” ellos… reconociéndolos como los principales agentes de su desarrollo."_
+    - `text`: _"[E]stá diseñado “por” y “con” los jóvenes, no simplemente “para” ellos… reconociéndolos como los principales agentes de su desarrollo."_
     - `source`: "Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. N° 617 de 2024), §5.2 — Características del Programa de Jóvenes."
     - `label`: "📋 Ver el corazón de la política"
 
 **Reflexión:** _"En tu unidad o la unidad que vas a acompañar, ¿sabrías nombrar qué rama es, qué edades cubre, cuál es su grupo natural y cuál su marco simbólico? Anota lo que sepas y lo que no — eso vale más que adivinar."_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas):**
 
-> **P1.** Los **Lobatos** son la rama Manada y se agrupan en…
+> **P1.** La Familia de Cachorros y la Manada comparten el mismo marco simbólico y el mismo fondo motivador. ¿Cuál de estas frases los nombra bien?
 >
-> a) _Patrullas, bajo el marco simbólico Scout._
-> b) _Seisenas, bajo el marco simbólico del Libro de las Tierras Vírgenes._  ✅
-> c) _Camadas, bajo el marco simbólico de los Hermanos de Mowgli._
+> a) _Marco simbólico: el Libro de las Tierras Vírgenes. Fondo motivador: La Fantasía._
+> b) _Marco simbólico: La Fantasía. Fondo motivador: el Libro de las Tierras Vírgenes._  ✅
+> c) _Marco simbólico: las camadas y las seisenas. Fondo motivador: la selva de Kipling._
 
 > **P2.** ¿Cuál es la norma marco vigente que rige hoy al Programa de Jóvenes en la ASC?
 >
 > a) _El Reglamento de la Red Nacional de Jóvenes (Acuerdo CSN 556)._
 > b) _La Política Nacional de Programa de Jóvenes (Acuerdo CSN 617 de 2024)._  ✅
 > c) _El Manual de Implementación del Marco de Mundo Mejor (junio 2021)._
+
+> **P3.** Los Lobatos, dentro de la Manada, se organizan en pequeños grupos llamados…
+>
+> a) _Patrullas — así se llama el pequeño grupo de los Scouts en la Tropa._
+> b) _Seisenas — pequeños grupos de unos seis Lobatos dentro de la Manada._  ✅
+> c) _Camadas — así se llama el pequeño grupo de los Cachorros en la Familia._
 
 **Logro:** "Conozco mi Programa".
 
@@ -272,7 +279,7 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 3. **`heading` (nivel 3)** — _"Imagina al protagonista que vas a acompañar"_
 4. **`paragraph`** — Instrucción del ejercicio: dibujar (o tomar foto a un dibujo, o subir una imagen que represente) cómo te imaginas a un protagonista de tu rama dentro de tres años, si vivió un Programa de calidad contigo al lado. No es un examen artístico, es un ancla visual del joven al que vas a acompañar.
 5. **`photo-upload`**
-    - `photoId`: `bienvenida-pj-protagonista-soñado`
+    - `photoId`: `bienvenida-pj-protagonista-sonado`
     - `prompt`: "Tu protagonista de programa dentro de 3 años"
     - `hint`: _"Puedes dibujarlo en papel y tomarle foto, o usar cualquier imagen que para ti represente ese joven que aprendió, decidió, sirvió y creció. Es solo para ti — la guardamos en tu navegador."_
     - `buttonLabel`: "Subir mi imagen"
@@ -280,13 +287,13 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 7. **`paragraph`** — Plantilla: _"Esta semana, en mi unidad, voy a __________ (algo que muestre que el Programa es alianza, no manual). Lo voy a hacer con __________ (otro dirigente, un protagonista, una familia). Y la señal de que se cumplió será __________ (algo observable, no una intención)."_
 8. **`mission-box`** — _"No prometas grande. Promete chico. La diferencia entre un dirigente que transforma y uno que se quema son cien promesas chicas cumplidas, no una grande olvidada."_
 9. **`heading` (nivel 3)** — _"Lo que viene"_
-10. **`list`** — Mapa de los siguientes 5 cursos del Nivel 1, con icono y nombre:
+10. **`list`** — Mapa de los siguientes 6 cursos del Nivel 1, con icono y nombre:
     - 💗 **Curso 2** — La Educación por el Amor: la apuesta de Baden-Powell.
     - 🎓 **Curso 3** — Cómo se Educa Hoy: los conceptos clave de la educación, antes de lo scout.
     - 🌟 **Curso 4** — Características Esenciales del Movimiento Scout.
     - 🧭 **Curso 5** — El Método Scout y sus 8 elementos.
     - 📜 **Curso 6** — La PNPJ y "El Gran Juego para la Vida".
-    - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes (plan personal).
+    - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes.
 11. **`info-box`** — Despedida: _"Bienvenido al equipo de los que acompañan. Lo que viene vale el viaje."_
 
 **Reflexión:** _"Escribe tu compromiso completo siguiendo la plantilla. Esto te lo enviaremos por correo cuando descargues tu certificado para que lo recuerdes en una semana."_
@@ -313,12 +320,11 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 
 | ID | Nombre | Emoji | Desbloqueo |
 |---|---|---|---|
-| `achievement-1` | Empecé el camino | 👋 | Al completar Lección 1 |
-| `achievement-2` | El Programa es alianza | 🎒 | Al completar Lección 2 |
-| `achievement-3` | Mito-buster | 🧨 | Al completar Lección 3 |
-| `achievement-4` | Conozco mi Programa | 🗺️ | Al completar Lección 4 |
-| `achievement-5` | Veo por qué importa | 💡 | Al completar Lección 5 |
-| `achievement-final` | Constructor de Programa | 🎒✨ | Al completar el curso (`unlockOnModule: -1`) |
+| `achievement-1` | El Programa es alianza | 🎒 | Al completar Lección 2 |
+| `achievement-2` | Mito-buster | 🧨 | Al completar Lección 3 |
+| `achievement-3` | Conozco mi Programa | 🗺️ | Al completar Lección 4 |
+| `achievement-4` | Veo por qué importa | 💡 | Al completar Lección 5 |
+| `achievement-5` | Constructor de Programa | 🎒 | Al completar el curso (`unlockOnModule: -1`) |
 
 ---
 
@@ -388,8 +394,8 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 | Lenguaje conversacional, tutea | ✅ |
 | Citas oficiales plegables (`policy-quote`) | ✅ L2 (PNPJ 2024) y L4 (PNPJ 2024) |
 | Reflexión personal por lección | ✅ excepto intro |
-| Mini-quiz 1–3 preguntas, 70 % | ✅ 2 preguntas por lección |
-| 4–6 logros + 1 final | ✅ 5 + 1 |
+| Mini-quiz 1–3 preguntas, 70 % | ✅ 2 preguntas por lección (3 en la L4) |
+| 4–6 logros + 1 final | ✅ 4 + 1 |
 | Lección 1 marcada `isIntro: true` sin quiz | ✅ |
 | Conexión cross-course | ✅ con Cursos 2–6 del nivel y con las Líneas Política de Adultos y DI |
 | Cumple las 3 exigencias propias de PJ (DURASLID, educación por el amor, alianza joven-adulto) | ✅ todas presentes en L2, L3, L5 y L6 |

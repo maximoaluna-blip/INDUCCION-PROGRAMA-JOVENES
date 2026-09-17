@@ -21,6 +21,7 @@
 | Audiencia primaria | Dirigentes que acompañan (o van a acompañar) la rama Manada, y Asistentes de la unidad (7–10 años). |
 | Recomendado antes | Ninguno es obligatorio. Para aprovechar mejor el curso: Nivel 1 completo (Cursos 1–6) y, en paralelo, el Curso 25 — A Salvo del Peligro. |
 | Logro final | "Guardián de la Selva" |
+| `contentVersion` | `2026-09-16` |
 
 ---
 
@@ -51,7 +52,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 
 | # | Lección | Duración | Idea central | Logro al completar |
 |---|---|---|---|---|
-| 1 | 🐾 Bienvenida a la Manada | 3 min | Vas a acompañar a un niño o niña de 7 a 10 años en la etapa donde la fantasía es el lenguaje que mejor entienden. | Entré a la Selva |
+| 1 | 🐾 Bienvenida a la Manada | 3 min | Vas a acompañar a un niño o niña de 7 a 10 años en la etapa donde la fantasía es el lenguaje que mejor entienden. | — (la intro no desbloquea logro) |
 | 2 | 🚪 Quién es un Lobato y cómo llega a la Manada | 5 min | El lobato de 7 a 10 años tiene un cuerpo que no para, una mente curiosa y un corazón sensible — y llega a la Manada por una ceremonia, no de golpe. | Acompaño su llegada |
 | 3 | 📖 El Libro de las Tierras Vírgenes: el lenguaje de la Selva | 5 min | El marco simbólico no es decoración: es el idioma con el que un niño de 7 años entiende la lealtad, el respeto y el cuidado. | Hablo el idioma de la Selva |
 | 4 | 🐺 Las Seisenas: todos aportan, todos crecen | 5 min | En la Manada de 2026 las seisenas no tienen jefes fijos: el liderazgo rota para que todos vivan guiar y ser guiados. | Todos aportan, todos crecen |
@@ -87,7 +88,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 
 **Quiz:** ninguno.
 
-**Logro al completar:** "Entré a la Selva".
+**Logro al completar:** ninguno — la lección de intro no desbloquea logro; el primero ("Acompaño su llegada") se desbloquea al completar la Lección 2.
 
 ---
 
@@ -111,7 +112,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
     - `text`: _"Ceremonia de Paso de Familia a Manada: Es el momento en que un cachorro pasa a la manada, es presentado a Akela por el Jefe de Grupo y acogido afectuosamente en la Manada."_
     - `source`: "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 6.12 — Ceremonias en la Manada, p. 32."
     - `label`: "📋 Ver la ceremonia de entrada textual"
-8. **`info-box`** — Reformulación accesible: _"En palabras simples: la Manada no empieza en la primera reunión, empieza en un ritual. Si tu grupo no está haciendo esa ceremonia, el lobato nuevo está entrando por la puerta de atrás en vez de por el portón."_
+8. **`info-box`** — Las dos puertas de entrada (Guía de Dirigente de Manada, Cap. 6.12 p. 32 y Cap. 8.7.4 p. 53): _"Hay dos formas de entrar a la Manada, y conviene no confundirlas. Si el niño viene de la Familia de Cachorros, entra por la **Ceremonia de Paso de Familia a Manada**. Si llega de fuera y nunca fue Cachorro, vive primero la etapa de **«Lobezno»**: unas semanas para conocer la Manada, el juego, la Ley y la Promesa, y decidir por sí mismo si quiere pertenecer. Esa etapa se cierra con su **Investidura**. En los dos casos hay un ritual — lo que no puede pasar es que entre sin ninguno."_
 
 **Reflexión:** _"Piensa en cómo llegó a tu Manada el último lobato nuevo (o cómo imaginas que debería llegar). ¿Hubo un momento reconocible de bienvenida, o simplemente 'empezó a venir'? Escribe qué harías igual y qué cambiarías."_
 
@@ -123,11 +124,11 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 > b) _Su cuerpo necesita movimiento para aprender — la quietud prolongada no es su vía natural de aprendizaje._  ✅
 > c) _Necesita que le expliquen el tema de forma más abstracta y detallada._
 
-> **P2.** Un lobato nuevo llega y el dirigente decide presentarlo rápido al grupo un sábado cualquiera, "para no perder tiempo de reunión". Según esta lección, ¿qué le falta a esa bienvenida?
+> **P2.** Llega a tu Manada Tomás, de 8 años. Nunca fue Cachorro: es su primer contacto con el escultismo. Su papá pregunta cuándo es la ceremonia. ¿Qué le explicas?
 >
-> a) _Nada: lo importante es que ya esté jugando con el resto._
-> b) _Le falta un ritual reconocible — la Ceremonia de Paso — donde se le presente formalmente y la Manada lo acoja; sin eso, entra "por la puerta de atrás"._  ✅
-> c) _Le falta esperar unas semanas para ver si se adapta antes de aceptarlo del todo._
+> a) _Que primero vive la etapa de «Lobezno» y que esa se cierra con su Investidura._  ✅
+> b) _Que la Ceremonia de Paso se hace apenas complete un mes de asistencia seguida._
+> c) _Que las ceremonias son para los que vienen de Familia; él se integra sin rito._
 
 **Logro:** "Acompaño su llegada".
 
@@ -141,30 +142,31 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — Apertura (Variante B, preparación previa a la cita): _"Cuando Andrés dice que Akela lo va a acompañar en su próxima aventura, no está fingiendo un juego de disfraces. Está usando el único idioma que a los 7 años le permite entender ideas grandes como la lealtad o el cuidado mutuo."_
-3. **`heading` (nivel 3)** — _"Los personajes que enseñan sin dar discursos"_
-4. **`method-grid`** — Personajes y elementos del marco simbólico (Guía de Dirigente de Manada, Cap. 6):
+3. **`info-box`** — Las tres capas del marco simbólico (Guía de Dirigente de Manada, Cap. 6.9, p. 30): _"En palabras simples: hay tres capas y vale la pena no mezclarlas. El **marco simbólico** de la Manada es **La Fantasía** — el aire que envuelve todo lo que pasa aquí. El **fondo motivador** es **El Libro de las Tierras Vírgenes**: las historias de donde salen Akela, Baloo y Bagheera. Y el **ambiente de referencia** son los **relatos fantásticos** que le dan sentido a cada aventura. La Familia de Cachorros comparte contigo el marco y el libro; lo que cambia es el tipo de relato y los personajes que cada rama se reserva."_
+4. **`heading` (nivel 3)** — _"Los personajes que enseñan sin dar discursos"_
+5. **`method-grid`** — Personajes y elementos del marco simbólico (Guía de Dirigente de Manada, Cap. 6):
     - 🐺 **Akela** — la guía de la Manada, autoridad cercana y protectora.
     - 🐻 **Baloo** — enseña con paciencia, encarna el conocimiento compartido con calma.
     - 🐆 **Bagheera** — la astucia y la valentía serena.
     - 🧒 **Mowgli** — el niño que aprende de la Selva y se convierte en parte de ella.
-5. **`paragraph`** — Función pedagógica: _"Personajes como Mowgli, Baloo, Bagheera y Akela enseñan a través de sus acciones, no de discursos. Los niños no memorizan una moraleja: la viven jugando a ser lobos."_ (Guía de Dirigente de Manada, Cap. 6.10, p. 30)
-6. **`heading` (nivel 3)** — _"Otros elementos simbólicos que sostienen la Selva"_
-7. **`list`** — Elementos simbólicos (Cap. 6.11), acotada a 3 ítems para no sobrecargar (H3 auditoría pedagógica):
+6. **`paragraph`** — Función pedagógica: _"Personajes como Mowgli, Baloo, Bagheera y Akela enseñan a través de sus acciones, no de discursos. Los niños no memorizan una moraleja: la viven jugando a ser lobos."_ (Guía de Dirigente de Manada, Cap. 6.10, p. 30)
+7. **`heading` (nivel 3)** — _"Otros elementos simbólicos que sostienen la Selva"_
+8. **`list`** — Elementos simbólicos (Cap. 6.11), acotada a 3 ítems para no sobrecargar (H3 auditoría pedagógica):
     - **La Flor Roja** — símbolo del crecimiento y el paso a nuevas etapas.
     - **El Cubil** — el espacio simbólico de la Manada: seguridad, protección, encuentro.
     - **El Saludo** — expresión de respeto y pertenencia entre lobatos.
-8. **`paragraph`** — _"La Manada tiene además otros símbolos propios —el Libro de Oro, el Himno, un referente espiritual como San Francisco de Asís— que vas a ir conociendo con la práctica; no hace falta memorizarlos hoy."_
-9. **`heading` (nivel 3)** — _"La Ley y la Promesa se viven dentro de ese lenguaje"_
-10. **`paragraph`** — La Ley de la Manada se inspira en la sociedad de lobos del Pueblo Libre de Seeonee, del Libro de las Tierras Vírgenes, donde la manada vive unida por el respeto, el orden y el cuidado mutuo bajo la guía de Akela. Está escrita en lenguaje sencillo, cercano a niños de 7 a 10 años.
-11. **`policy-quote`** — Cita textual de la Ley de la Manada:
+9. **`paragraph`** — _"La Manada tiene además otros símbolos propios —el Libro de Oro, el Himno, un referente espiritual como San Francisco de Asís— que vas a ir conociendo con la práctica; no hace falta memorizarlos hoy."_
+10. **`heading` (nivel 3)** — _"La Ley y la Promesa se viven dentro de ese lenguaje"_
+11. **`paragraph`** — La Ley de la Manada se inspira en la sociedad de lobos del Pueblo Libre de Seeonee, del Libro de las Tierras Vírgenes, donde la manada vive unida por el respeto, el orden y el cuidado mutuo bajo la guía de Akela. Está escrita en lenguaje sencillo, cercano a niños de 7 a 10 años.
+12. **`policy-quote`** — Cita textual de la Ley de la Manada:
     - `text`: _"El Lobato: 1. Escucha y respeta a los demás. 2. Dice siempre la verdad. 3. Es alegre y buen amigo. 4. Comparte con su familia. 5. Ayuda a los demás con alegría. 6. Ama y protege la naturaleza. 7. Escucha y aprende con emoción."_
-    - `source`: "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 3.2.1 — Ley de la Manada, pp. 15–16."
+    - `source`: "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 3.2.1 — Ley de la Manada, p. 16."
     - `label`: "📋 Ver la Ley de la Manada completa"
-12. **`policy-quote`** — Cita textual de la Promesa:
+13. **`policy-quote`** — Cita textual de la Promesa:
     - `text`: _"Yo (nombre del aspirante a ser Lobato), prometo hacer siempre lo mejor, para cumplir mis deberes para con Dios y la Patria, hacer un favor a alguien cada día, y cumplir la Ley de la Manada."_
     - `source`: "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 3.2.2 — Promesa, p. 16. (Existe una variante que sustituye \"para con Dios\" por \"para con mi espiritualidad\", para respetar e incluir distintas formas de vivir lo espiritual.)"
     - `label`: "📋 Ver la Promesa de la Manada"
-13. **`info-box`** — Reformulación accesible: _"En palabras simples: la Promesa no es un examen que el lobato pasa una vez. Es un compromiso de intentarlo cada día — 'hacer siempre lo mejor', no 'hacerlo perfecto'. Tu trabajo como dirigente es que ese esfuerzo se sienta posible, no una meta inalcanzable."_
+14. **`info-box`** — Reformulación accesible: _"En palabras simples: la Promesa no es un examen que el lobato pasa una vez. Es un compromiso de intentarlo cada día — 'hacer siempre lo mejor', no 'hacerlo perfecto'. Tu trabajo como dirigente es que ese esfuerzo se sienta posible, no una meta inalcanzable."_
 
 **Reflexión:** _"Elige uno de los siete puntos de la Ley de la Manada. Escribe un ejemplo concreto —con un lobato real o imaginado, en una situación real de tu unidad— donde ese punto de la Ley se vivió (o pudo haberse vivido) sin que nadie lo nombrara así."_
 
@@ -259,8 +261,8 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
     - `text`: _"Las sendas serán los siguientes: Corporalidad - Senda del rastreador; Creatividad - Senda de la imaginación; Afectividad - Senda del corazón; Carácter - Senda del buen lobo; Sociabilidad: - Senda de la unidad; Espiritualidad - Senda del eco del bosque."_
     - `source`: "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 8.3 — El Esquema de Progresión en la Manada, p. 45."
     - `label`: "📋 Ver el esquema oficial de las seis Sendas"
-9. **`info-box`** — Reformulación accesible: _"En palabras simples: cada vez que Andrés supera un reto en una de las seis Sendas —no necesariamente al mismo ritmo en todas— avanza en su territorio de la selva. La insignia mayor de las rutas se llama Plenitud de la Selva. Cuando un lobato profundiza en las seis áreas, alcanza además la fase máxima: Lobo Cazador de la Selva."_
-10. **`info-box`** — Cierre operativo: _"En el Curso 12 del Nivel 2 (Seguimiento de la Progresión Personal) vas a aprender las técnicas concretas para observar y registrar este avance. Hoy solo guarda el mapa: seis Sendas, un ritmo propio para cada lobato."_
+9. **`info-box`** — Reformulación accesible: _"En palabras simples: cada vez que Andrés supera un reto en una de las seis Sendas —no necesariamente al mismo ritmo en todas— avanza en su territorio de la selva. La insignia máxima de la rama se llama Plenitud de la Selva. Cuando un lobato profundiza en las seis áreas, alcanza además la fase máxima: Lobo Cazador de la Selva."_
+10. **`info-box`** — Cierre operativo: _"En el Curso 13 del Nivel 2 (Seguimiento de la Progresión Personal) vas a aprender las técnicas concretas para observar y registrar este avance. Hoy solo guarda el mapa: seis Sendas, un ritmo propio para cada lobato."_
 
 **Reflexión:** _"Piensa en Andrés (o en un lobato real que acompañes). ¿En qué Senda dirías que está avanzando más rápido ahora mismo? ¿Y en cuál necesita más de tu acompañamiento? Nómbralas y escribe por qué."_
 
@@ -384,10 +386,10 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 5. **`mission-box`** — _"No prometas reorganizar toda la Manada. Promete una sola decisión que hoy tomas tú y que la próxima semana la tome —o la proponga— un lobato."_
 6. **`heading` (nivel 3)** — _"Lo que viene"_
 7. **`list`** — Anuncio de los próximos cursos disponibles del Nivel 2:
-    - 🛠️ **Curso 12** — Seguimiento de la Progresión Personal: las técnicas para observar y registrar el avance por las Sendas. *(En camino — te avisamos cuando esté listo.)*
-    - 📋 **Curso 13** — Planeación de Reuniones y Oportunidades de Aprendizaje: cómo diseñar la próxima reunión con DURASLID y los 8 elementos. *(En camino — te avisamos cuando esté listo.)*
-    - 🎯 **Curso 14** — Ciclo de Programa con ABP: cómo la Manada decide y ejecuta sus propios proyectos. *(En camino — te avisamos cuando esté listo.)*
-    - 🐻⚜️🧗🏔️ **Cursos 7, 9, 10 y 11** — las guías de las otras 4 ramas (Familia, Tropa, Comunidad, Clan), si acompañas o vas a acompañar más de una. *(En camino — te avisamos cuando esté listo.)*
+    - 🛠️ **Curso 13** — Seguimiento de la Progresión Personal: las técnicas para observar y registrar el avance por las Sendas. *(En camino — te avisamos cuando esté listo.)*
+    - 📋 **Curso 14** — Planeación de Reuniones y Oportunidades de Aprendizaje: cómo diseñar la próxima reunión con DURASLID y los 8 elementos. *(En camino — te avisamos cuando esté listo.)*
+    - 🎯 **Curso 15** — Ciclo de Programa con ABP: cómo la Manada decide y ejecuta sus propios proyectos. *(En camino — te avisamos cuando esté listo.)*
+    - 🐻⚜️🧗🏔️ **Cursos 9, 10, 11 y 12** — las guías de las otras 4 ramas: Familia (9), Tropa (10), Comunidad (11) y Clan (12), si acompañas o vas a acompañar más de una. *(Las cuatro ya están publicadas.)*
 8. **`info-box`** — Despedida: _"Tú no diriges la Manada. Le ofreces el territorio, el símbolo y la confianza — y el rumbo lo marcan ellos. Bienvenido, Viejo Lobo."_
 
 **Reflexión:** _"Escribe tu compromiso completo siguiendo la plantilla. Te lo recordaremos junto a tu certificado."_
@@ -414,14 +416,13 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 
 | ID | Nombre | Emoji | Desbloqueo |
 |---|---|---|---|
-| `achievement-1` | Entré a la Selva | 🐾 | Al completar Lección 1 |
-| `achievement-2` | Acompaño su llegada | 🚪 | Al completar Lección 2 |
-| `achievement-3` | Hablo el idioma de la Selva | 📖 | Al completar Lección 3 |
-| `achievement-4` | Todos aportan, todos crecen | 🐺 | Al completar Lección 4 |
-| `achievement-5` | Trazo las Sendas | 🌳 | Al completar Lección 5 |
-| `achievement-6` | Soy Viejo Lobo | 🦉 | Al completar Lección 6 |
-| `achievement-7` | Sostengo el Círculo de Roca | 🌙 | Al completar Lección 7 |
-| `achievement-final` | Guardián de la Selva | 🐺✨ | Al completar el curso (`unlockOnModule: -1`) |
+| `achievement-1` | Acompaño su llegada | 🚪 | Al completar Lección 2 |
+| `achievement-2` | Hablo el idioma de la Selva | 📖 | Al completar Lección 3 |
+| `achievement-3` | Todos aportan, todos crecen | 🐺 | Al completar Lección 4 |
+| `achievement-4` | Trazo las Sendas | 🌳 | Al completar Lección 5 |
+| `achievement-5` | Soy Viejo Lobo | 🦉 | Al completar Lección 6 |
+| `achievement-6` | Sostengo el Círculo de Roca | 🌙 | Al completar Lección 7 |
+| `achievement-7` | Guardián de la Selva | 🐺✨ | Al completar el curso (`unlockOnModule: -1`) |
 
 _Excepción documentada (8 lecciones → 7+1 logros, igual que el Curso 04 del Nivel 1): justificada por ser el primer curso de rama, que cubre los 8 elementos del Método aplicados a la Manada más grupo natural, marco simbólico y transiciones._
 

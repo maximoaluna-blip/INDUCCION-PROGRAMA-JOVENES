@@ -2,8 +2,8 @@
   "courseId": "rama-manada-lobatos",
   "title": "Rama Manada (Lobatos)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
-  "description": "El primer curso de rama del Nivel 2 de la Línea Programa de Jóvenes. En ~35 minutos vas a acompañar a Andrés, un lobato de 7 años, desde su llegada a la Manada hasta su Gran Salto hacia la Tropa: el marco simbólico de El Libro de las Tierras Vírgenes, las seisenas sin jefes fijos, las seis Sendas de la progresión y tu rol como Viejo Lobo — facilitador, no jefe.",
-  "contentVersion": "2026-08-02",
+  "description": "El primer curso de rama del Nivel 2 de la Línea Programa de Jóvenes. En ~35 minutos vas a acompañar a Andrés, un lobato de 7 años, desde su llegada a la Manada hasta su Gran Salto hacia la Tropa: el marco simbólico de La Fantasía y su fondo motivador, El Libro de las Tierras Vírgenes, las seisenas sin jefes fijos, las seis Sendas de la progresión y tu rol como Viejo Lobo — facilitador, no jefe.",
+  "contentVersion": "2026-09-16",
   "icon": "🐺",
   "duration": "35 minutos",
   "level": 2,
@@ -117,7 +117,7 @@
         },
         {
           "type": "info-box",
-          "text": "En palabras simples: la Manada no empieza en la primera reunión, empieza en un ritual. Si tu grupo no está haciendo esa ceremonia, el lobato nuevo está entrando por la puerta de atrás en vez de por el portón."
+          "text": "Hay dos formas de entrar a la Manada, y conviene no confundirlas. Si el niño viene de la Familia de Cachorros, entra por la <strong>Ceremonia de Paso de Familia a Manada</strong>. Si llega de fuera y nunca fue Cachorro, vive primero la etapa de <strong>«Lobezno»</strong>: unas semanas para conocer la Manada, el juego, la Ley y la Promesa, y decidir por sí mismo si quiere pertenecer. Esa etapa se cierra con su <strong>Investidura</strong>. En los dos casos hay un ritual — lo que no puede pasar es que entre sin ninguno."
         }
       ],
       "reflection": {
@@ -137,13 +137,13 @@
             "correctIndex": 1
           },
           {
-            "text": "Un lobato nuevo llega y el dirigente decide presentarlo rápido al grupo un sábado cualquiera, \"para no perder tiempo de reunión\". Según esta lección, ¿qué le falta a esa bienvenida?",
+            "text": "Llega a tu Manada Tomás, de 8 años. Nunca fue Cachorro: es su primer contacto con el escultismo. Su papá pregunta cuándo es la ceremonia. ¿Qué le explicas?",
             "options": [
-              "Nada: al final lo importante es que el niño ya esté jugando con el resto de la Manada.",
-              "Le falta un ritual reconocible — la Ceremonia de Paso — donde la Manada lo acoja.",
-              "Le falta esperar unas semanas para ver si se adapta antes de aceptarlo del todo en la Manada."
+              "Que primero vive la etapa de «Lobezno» y que esa se cierra con su Investidura.",
+              "Que la Ceremonia de Paso se hace apenas complete un mes de asistencia seguida.",
+              "Que las ceremonias son para los que vienen de Familia; él se integra sin rito."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -161,6 +161,10 @@
         {
           "type": "paragraph",
           "text": "Cuando Andrés dice que Akela lo va a acompañar en su próxima aventura, no está fingiendo un juego de disfraces. Está usando el único idioma que a los 7 años le permite entender ideas grandes como la lealtad o el cuidado mutuo."
+        },
+        {
+          "type": "info-box",
+          "text": "En palabras simples: hay tres capas y vale la pena no mezclarlas. El <strong>marco simbólico</strong> de la Manada es <strong>La Fantasía</strong> — el aire que envuelve todo lo que pasa aquí. El <strong>fondo motivador</strong> es <strong>El Libro de las Tierras Vírgenes</strong>: las historias de donde salen Akela, Baloo y Bagheera. Y el <strong>ambiente de referencia</strong> son los <strong>relatos fantásticos</strong> que le dan sentido a cada aventura. La Familia de Cachorros comparte contigo el marco y el libro; lo que cambia es el tipo de relato y los personajes que cada rama se reserva."
         },
         {
           "type": "heading",
@@ -230,7 +234,7 @@
         {
           "type": "policy-quote",
           "label": "📋 Ver la Ley de la Manada completa",
-          "source": "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 3.2.1 — Ley de la Manada, pp. 15–16.",
+          "source": "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 3.2.1 — Ley de la Manada, p. 16.",
           "text": "El Lobato: 1. Escucha y respeta a los demás. 2. Dice siempre la verdad. 3. Es alegre y buen amigo. 4. Comparte con su familia. 5. Ayuda a los demás con alegría. 6. Ama y protege la naturaleza. 7. Escucha y aprende con emoción."
         },
         {
@@ -451,11 +455,11 @@
         },
         {
           "type": "info-box",
-          "text": "En palabras simples: cada vez que Andrés supera un reto en una de las seis Sendas —no necesariamente al mismo ritmo en todas— avanza en su territorio de la selva. La insignia mayor de las rutas se llama Plenitud de la Selva. Cuando un lobato profundiza en las seis áreas, alcanza además la fase máxima: Lobo Cazador de la Selva."
+          "text": "En palabras simples: cada vez que Andrés supera un reto en una de las seis Sendas —no necesariamente al mismo ritmo en todas— avanza en su territorio de la selva. La insignia máxima de la rama se llama Plenitud de la Selva. Cuando un lobato profundiza en las seis áreas, alcanza además la fase máxima: Lobo Cazador de la Selva."
         },
         {
           "type": "info-box",
-          "text": "En el Curso 12 del Nivel 2 (Seguimiento de la Progresión Personal) vas a aprender las técnicas concretas para observar y registrar este avance. Hoy solo guarda el mapa: seis Sendas, un ritmo propio para cada lobato."
+          "text": "En el Curso 13 del Nivel 2 (Seguimiento de la Progresión Personal) vas a aprender las técnicas concretas para observar y registrar este avance. Hoy solo guarda el mapa: seis Sendas, un ritmo propio para cada lobato."
         }
       ],
       "reflection": {
@@ -698,10 +702,10 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "🛠️ <strong>Curso 12</strong> — Seguimiento de la Progresión Personal: las técnicas para observar y registrar el avance por las Sendas. <em>(En camino — te avisamos cuando esté listo.)</em>",
-            "📋 <strong>Curso 13</strong> — Planeación de Reuniones y Oportunidades de Aprendizaje: cómo diseñar la próxima reunión con DURASLID y los 8 elementos. <em>(En camino — te avisamos cuando esté listo.)</em>",
-            "🎯 <strong>Curso 14</strong> — Ciclo de Programa con ABP: cómo la Manada decide y ejecuta sus propios proyectos. <em>(En camino — te avisamos cuando esté listo.)</em>",
-            "🐻⚜️🧗🏔️ <strong>Cursos 9, 10, 11 y 12</strong> — las guías de las otras 4 ramas: Familia (9), Tropa (10), Comunidad (11) y Clan (12), si acompañas o vas a acompañar más de una. <em>(Los tres primeros ya están publicados; el de Clan viene en camino.)</em>"
+            "🛠️ <strong>Curso 13</strong> — Seguimiento de la Progresión Personal: las técnicas para observar y registrar el avance por las Sendas. <em>(En camino — te avisamos cuando esté listo.)</em>",
+            "📋 <strong>Curso 14</strong> — Planeación de Reuniones y Oportunidades de Aprendizaje: cómo diseñar la próxima reunión con DURASLID y los 8 elementos. <em>(En camino — te avisamos cuando esté listo.)</em>",
+            "🎯 <strong>Curso 15</strong> — Ciclo de Programa con ABP: cómo la Manada decide y ejecuta sus propios proyectos. <em>(En camino — te avisamos cuando esté listo.)</em>",
+            "🐻⚜️🧗🏔️ <strong>Cursos 9, 10, 11 y 12</strong> — las guías de las otras 4 ramas: Familia (9), Tropa (10), Comunidad (11) y Clan (12), si acompañas o vas a acompañar más de una. <em>(Las cuatro ya están publicadas.)</em>"
           ]
         },
         {
