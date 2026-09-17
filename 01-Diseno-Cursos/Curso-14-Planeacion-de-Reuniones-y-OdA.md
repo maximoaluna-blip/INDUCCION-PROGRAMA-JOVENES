@@ -3,7 +3,7 @@
 > **Línea:** Programa de Jóvenes · **Nivel 2** · Curso **14** de 25
 > **`courseId`:** `planeacion-reuniones-oda`
 > **Diseño pedagógico:** Claude Code, por decisión explícita del dueño en la sesión del **17-sep-2026** (excepción del §1.4 de `CREAR-CURSO.md`; mismo precedente que los Cursos 8 a 13).
-> **Estado:** construido y auditado (funcional 139/0 · pedagógica APTO CON MEJORAS MENORES · doctrinal APTO tras 2 rondas) · **en `draft`**, pendiente solo de **compuerta humana**.
+> **Estado:** construido y auditado (funcional 139/0 · pedagógica APTO CON MEJORAS MENORES · doctrinal APTO tras 2 rondas) · **aprobado y publicado el 17-sep-2026**.
 
 Es el **segundo de los tres cursos pedagógicos operativos** (13, 14, 15). El Curso 13 enseñó a mirar lo que pasa en la reunión; este enseña a **decidir la reunión antes de que pase**. Sirve a las cinco ramas a la vez.
 
@@ -181,7 +181,7 @@ Al terminar, el adulto podrá:
 5. **Auditoría doctrinal** — **REQUIERE CORRECCIÓN** (3 críticos · 4 mayores · 8 menores · 4 no verificables). **Los tres críticos estaban en las cajas «Y en tu rama»**, que es exactamente el patrón de error de los Cursos 8 a 12 — el mismo que el §3 de este documento marcó como trampa conocida y que aun así se coló tres veces.
 6. **Correcciones** — las **36** de las dos auditorías, aplicadas y recompiladas. Además, los dos colaterales que la doctrinal exigía **antes** de publicar y no después: `GLOSARIO-ASC.md` **v1.23** con las cinco entradas del vocabulario operativo, y **60 filas** en `TRAZABILIDAD.csv` (58 `vigente` + 2 marcadas como criterio de plataforma sin fuente). Manifiesto: **40 documentos, 0 ausentes**.
 7. **Re-auditoría doctrinal** — **APTO**, con **1 crítico nuevo** y 4 menores, aplicados. El crítico **lo introduje al corregir**: pegué como cita textual de la Política ASP un texto tomado *del informe del auditor* en vez del PDF, y amputaba el complemento de «afecte negativamente» — precisamente lo que la Política protege. Restituido leyendo la **p. 14 en pantalla**: ese PDF se extrae con **letras espaciadas** y ninguna extracción de texto sirve ahí. *Lección que el proyecto ya tenía escrita del 15-sep y que volvió a costar: **una cita de un informe se comprueba contra el PDF antes de aplicarla**, aunque el informe sea de un auditor que acaba de hacer bien su trabajo.*
-8. Pendiente: **compuerta humana** · publicación con sus cinco colaterales.
+8. **Compuerta humana** — aprobado por Máximo el 17-sep-2026. **Publicado** con sus cinco colaterales: `status: active`, el puntero «(En camino…)» del Curso 8 volteado y recompilado, el `courseId` sumado al bucle del workflow de E2E, `coursesActive` a 14 en el portal, y el preview canónico movido a `previews/publicadas/`. Verificado en producción.
 
 ---
 
