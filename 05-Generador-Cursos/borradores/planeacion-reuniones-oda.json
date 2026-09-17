@@ -1,0 +1,887 @@
+{
+  "courseId": "planeacion-reuniones-oda",
+  "title": "Planeación de Reuniones y Oportunidades de Aprendizaje",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "El segundo de los tres cursos operativos. Cómo se decide una reunión antes de que ocurra: el guion de lo que va a pasar, la ficha de para qué, el filtro que deja entrar unas ideas y no otras, y el riesgo escrito antes de que alguien se lastime. La herramienta oficial es el soporte; el tema es la decisión.",
+  "contentVersion": "2026-09-17",
+  "icon": "📋",
+  "duration": "60 minutos",
+  "level": 2,
+  "levelName": "Profundización por rama y práctica pedagógica",
+  "order": 14,
+  "totalContentModules": 7,
+  "achievements": [
+    { "id": "achievement-1", "emoji": "🗺️", "name": "Tengo guion", "unlockOnModule": 2 },
+    { "id": "achievement-2", "emoji": "🎚️", "name": "Filtro antes de meter", "unlockOnModule": 3 },
+    { "id": "achievement-3", "emoji": "🎯", "name": "Sé para qué", "unlockOnModule": 4 },
+    { "id": "achievement-4", "emoji": "🎭", "name": "Ambiento la actividad", "unlockOnModule": 5 },
+    { "id": "achievement-5", "emoji": "🦺", "name": "Veo el tronco mojado", "unlockOnModule": 6 },
+    { "id": "achievement-6", "emoji": "🔁", "name": "Cierro lo que abro", "unlockOnModule": 7 },
+    { "id": "achievement-7", "emoji": "🧰", "name": "Planeo la próxima", "unlockOnModule": 8 },
+    { "id": "achievement-8", "emoji": "⭐", "name": "Diseño oportunidades", "unlockOnModule": -1 }
+  ],
+  "certificate": {
+    "courseName": "PLANEACIÓN DE REUNIONES Y OPORTUNIDADES DE APRENDIZAJE",
+    "description": "ha completado el Curso 14 de la Línea Programa de Jóvenes — Planeación de Reuniones y Oportunidades de Aprendizaje, distinguiendo las dos preguntas que separan la Hoja de Ruta para Reunión de la Ficha de Oportunidad de Aprendizaje, aplicando el filtro DURASLID en sus tres momentos y su tablero de ocho preguntas, declarando la conducta observable y las competencias educativas que una actividad busca antes de realizarla, aterrizándola en el ambiente de referencia de su unidad, valorando el riesgo con la matriz de probabilidad y consecuencia, y cerrando la experiencia con la evaluación de la ficha y el ciclo de Vivir, Mirar, Comprender y Proyectar."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "📋 Dos hojas, dos preguntas",
+      "emoji": "📋",
+      "navLabel": "Bienvenida",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>~60 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra sola y tu avance se guarda, así que no hace falta hacerlo de una sentada. Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Distinguir</strong> las dos preguntas que el instrumento separa, y saber cuál de las dos hojas necesitas en cada momento.",
+            "<strong>Llenar</strong> una Hoja de Ruta completa: información general, entorno seguro y el guion de la reunión.",
+            "<strong>Pasar</strong> una idea por el tablero DURASLID antes de meterla en el plan, y reconocer cuándo todavía no está lista.",
+            "<strong>Escribir</strong> la información educativa de una Ficha: un objetivo, una conducta observable y una o dos competencias educativas.",
+            "<strong>Aterrizar</strong> la actividad en el ambiente de referencia de tu unidad, con un paso a paso que otro pueda ejecutar.",
+            "<strong>Valorar</strong> el riesgo distinguiendo peligro de riesgo, y escribir medidas de control concretas.",
+            "<strong>Cerrar</strong> la actividad con la evaluación de la ficha y el ciclo de cuatro preguntas.",
+            "<strong>Abrir</strong> las dos superficies oficiales del instrumento sabiendo qué hace cada una."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Es domingo por la tarde. Diana lleva año y medio como jefa de Manada y ayer tuvo la reunión que venía preparando desde el miércoles, cuando se le ocurrió la idea. La idea era buena — ella lo sigue pensando. Los lobatos corrieron, se rieron, nadie se aburrió. Y sin embargo hay algo que no le cierra, y es que si alguien le preguntara <em>para qué</em> fue esa reunión, no sabría qué contestar sin inventar."
+        },
+        {
+          "type": "paragraph",
+          "text": "No le faltó energía ni cariño ni preparación. Le faltó una decisión que no tomó, y no la tomó porque nadie le había mostrado dónde se toma."
+        },
+        {
+          "type": "info-box",
+          "text": "🧭 <strong>El hook de este curso.</strong> La <strong>Hoja de Ruta</strong> dice <strong>qué va a pasar</strong>. La <strong>Ficha</strong> dice <strong>para qué</strong>. Con la primera tienes una agenda; con las dos, una oportunidad de aprendizaje."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Dirección Nacional de Programa de Jóvenes publicó una herramienta para planear —un archivo de Excel con varias hojas— y casi todo el mundo que la abre por primera vez piensa lo mismo: <em>«son muchos campos»</em>. Pero las hojas no son formatos distintos del mismo trámite. <strong>Son dos preguntas distintas</strong>, y esa es la idea que sostiene este curso entero."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🗺️ Hoja de Ruta para Reunión",
+              "description": "<strong>¿Qué va a pasar?</strong> El guion de la reunión, en orden y con tiempos: quién hace qué, a qué hora, con qué materiales. Y el bloque de entorno seguro, que se revisa antes de salir de casa. <em>Una por reunión.</em>",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🎯 Ficha de Oportunidad de Aprendizaje",
+              "description": "<strong>¿Para qué?</strong> El propósito formativo de una actividad concreta: qué conducta quieres ver, qué competencias toca, en qué ambiente ocurre, qué riesgo tiene y cómo salió. <em>Una por actividad, y se guarda para reusarla.</em>",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🚫 <strong>Lo que este curso no es.</strong> No es un tutorial de Excel. No vas a memorizar dónde queda cada celda — para eso está el archivo abierto al lado. Lo que vas a aprender es <strong>qué decisiones toma un dirigente antes de una reunión</strong>, y la herramienta es el lugar donde esas decisiones se escriben para que no se pierdan ni se queden en tu cabeza."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tres cosas que ya te prometimos, y que se cobran aquí"
+        },
+        {
+          "type": "list",
+          "items": [
+            "En el <strong>Curso 5</strong>, al ver los 8 elementos del Método, te dijimos: <em>«En el Curso 14 vas a aprender a planear reuniones aplicando DURASLID con la herramienta oficial Excel DNPJ. Hoy solo guarda el filtro.»</em> Guárdalo ya no: sácalo, que se usa en la Lección 3.",
+            "En el <strong>Curso 6</strong> conociste el ciclo <strong>Vivir → Mirar → Comprender → Proyectar</strong> y te dijimos que volverías a verlo <em>«en el Curso 14, al planear»</em>. Vuelve en la Lección 7, que es donde el Modelo lo pone: en el cierre.",
+            "En el <strong>Curso 13</strong> aprendiste a escribir una <strong>conducta observable</strong> con sus tres piezas. Allá la escribías después de mirar; aquí la vas a escribir <strong>antes</strong>, que es lo que convierte una actividad en una oportunidad de aprendizaje."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Y si no has hecho esos tres, entra igual: <strong>ninguno bloquea nada</strong>. Se recomiendan, no se exigen — el curso está escrito para entenderse sin ellos, y cuando algo venga de atrás te lo recordamos en una línea."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y una aclaración que vale para las cinco ramas: <strong>planear no cambia de forma según la rama</strong>. Lo que cambia es el ambiente en el que ocurre, el tamaño del paso que puedes pedir y —sobre todo— <strong>cuánto de la planeación hacen los propios protagonistas</strong>. En Familia casi todo lo pone el adulto; en Clan, casi nada. El instrumento es el mismo; lo que cambia es quién llena las casillas."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🗺️ El guion del sábado",
+      "emoji": "🗺️",
+      "navLabel": "Hoja de Ruta",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "El miércoles Diana ya sabe qué quiere hacer el sábado. Lo tiene claro en la cabeza y confía en su memoria, que nunca le ha fallado. El jueves le avisan que el sábado tiene que salir a media reunión, y ahí aparece el problema: lo que está en su cabeza no lo puede leer nadie más."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la Hoja de Ruta no es un resumen de la reunión: es su guion. Existe para que la reunión pueda seguir sin ti si te toca salir."
+        },
+        {
+          "type": "paragraph",
+          "text": "El instrumento lo dice de sí mismo: la Hoja de Ruta está pensada para <em>actuar como un guion o itinerario de la reunión</em>, de modo que todo se desarrolle de forma coherente, en el tiempo asignado y con los materiales necesarios. Cabe en una hoja y se llena en un rato. Y hace tres cosas."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "1. Sitúa la reunión"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rama, fecha, lugar, hora de inicio y de finalización, y un campo que mucha gente deja en blanco porque no sabe qué poner: el <strong>nombre del ambiente de referencia</strong>. Es el tema o ambiente narrativo elegido para esta reunión — la selva, un viaje espacial, una expedición. No es decoración y no se improvisa cada sábado: <strong>se elige por ciclo de programa</strong>, y en la Lección 5 vemos de dónde sale el de tu rama."
+        },
+        {
+          "type": "info-box",
+          "text": "📍 <strong>Detalle pequeño con consecuencia grande.</strong> «Lugar» es el sitio concreto: el parque del barrio, la estación de bomberos, el museo. «Hora» son <strong>las dos</strong>: a qué hora empieza y a qué hora termina. Una reunión sin hora de finalización escrita es una reunión que termina cuando los papás se cansan de esperar."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "2. Revisa el entorno seguro antes de salir de casa"
+        },
+        {
+          "type": "paragraph",
+          "text": "El segundo bloque es una lista de chequeo de entorno seguro, y el tercero aparece solo si la reunión es en línea. Los dos son materia de la <strong>Lección 6</strong>, donde los vemos junto con la gestión del riesgo. Por ahora quédate con dónde están: <strong>en esta hoja, no en la Ficha</strong>, y se responden antes de salir."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "3. Escribe el guion"
+        },
+        {
+          "type": "paragraph",
+          "text": "El bloque <strong>Desarrollo</strong> es el corazón de la hoja: una fila por momento de la reunión, en orden, con cinco columnas."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Hora",
+              "description": "El orden secuencial y los tiempos previstos. El instrumento avisa que <em>no son estrictos</em> — cada momento trae lo suyo —, pero escribirlos te entrena a ponderar cuánto dura de verdad lo que planeas.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "Actividad y Descripción",
+              "description": "Qué pasa en cada momento, desde la apertura hasta el cierre. Van juntas: la primera nombra, la segunda explica. Si otro dirigente lee tu fila y no sabe qué hacer, falta descripción.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "Responsable",
+              "description": "Quién conduce ese momento. Y aquí está la lección de esta lección: <strong>puede ser un protagonista de programa</strong>, no solo un adulto.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "Materiales",
+              "description": "Lo que hace falta, momento por momento. Se revisa <em>antes</em> de la reunión, y sirve además para pedirle al Consejo de Grupo con previsión en vez de el viernes por la noche.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Lo que el instrumento dice sobre la columna «Responsable»",
+          "source": "Planeación de Reunión y Oportunidades de Aprendizaje (DNPJ-2026-020), comentario del campo Responsable en la Hoja de Ruta.",
+          "text": "Asigna a un Dirigente o a un Protagonista de Programa para cada momento de tu reunión, promoviendo la participación y la distribución de tareas. Dependiendo de la rama para la que estés planeando, el grado de responsabilidad de los Protagonistas de Programa aumentará. Ellos pueden hacer parte de estos procesos de planeación, dando pie a que amplíen su visión de los procesos necesarios para una Reunión Scout."
+        },
+        {
+          "type": "paragraph",
+          "text": "Léelo otra vez, porque es fácil pasarlo de largo: la alianza joven-adulto que el Programa de Jóvenes enseña en abstracto <strong>está escrita aquí, en una celda de Excel</strong>. Y trae una escala: <em>«dependiendo de la rama… el grado de responsabilidad aumentará»</em>. No es lo mismo pedirle a un cachorro que reparta el material que pedirle a una comunidad que conduzca media reunión. Pero en las dos hay una casilla con su nombre."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama.</strong> <strong>Familia:</strong> un cachorro entrega los materiales de su camada o dirige la canción de apertura, con el adulto al lado. <strong>Manada:</strong> la seisena se encarga de un momento completo, y lo anuncia el lobato al que le toque ese día — en la seisena los papeles rotan. <strong>Tropa:</strong> la patrulla conduce un bloque del guion y su guía responde por el tiempo. <strong>Comunidad:</strong> un equipo aparece en la columna con dos o tres filas seguidas, no con una. <strong>Clan:</strong> la hoja la escriben ellos y tú apareces como responsable de un momento, si acaso."
+        }
+      ],
+      "reflection": {
+        "prompt": "Abre el calendario de tu unidad y mira la próxima reunión — la que ya tiene fecha. Escribe su guion en tres filas: hora, qué pasa y quién lo conduce. Y ahora la parte que cuesta: en al menos una de las tres filas, el responsable tiene que ser un protagonista de programa con nombre propio. ¿Quién, y en qué momento?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar al filtro 🎚️",
+        "questions": [
+          {
+            "text": "Diana llena la Hoja de Ruta del sábado y deja la columna «Responsable» con su nombre en los seis momentos, porque es la jefa y le parece más seguro. ¿Qué le dirías?",
+            "options": [
+              "Que está bien para esta reunión, y que empiece a delegar cuando los lobatos tengan más tiempo en la Manada.",
+              "Que reparta al menos uno de los momentos con otro adulto del equipo, para no quedarse sola si algo pasa.",
+              "Que esa columna existe también para que aparezcan protagonistas, y el instrumento lo pide explícitamente."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Un dirigente escribe en su Hoja de Ruta: «4:00 — Juego». Nada más. Al sábado siguiente no puede ir y le pasa la hoja a otro. ¿Qué falló?",
+            "options": [
+              "Falta la descripción: sin ella la fila no le sirve a quien no estuvo en la conversación.",
+              "Falta la competencia educativa que el juego trabaja, que es lo que esa columna debería contener.",
+              "Falta la hora de finalización de ese momento, sin la cual el guion no se puede seguir."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "🎚️ ¿Esta idea merece entrar?",
+      "emoji": "🎚️",
+      "navLabel": "Filtro DURASLID",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Miércoles, consejo de unidad. Diana propone su idea con entusiasmo. Alguien pregunta: <em>«¿y a quién le sirve?»</em>. Diana responde que a los lobatos, que se van a divertir muchísimo. Silencio corto. La idea entra al plan igual, porque nadie tiene un argumento mejor y porque hay que llenar el sábado."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> hay un filtro oficial para decidir si una idea merece entrar al plan. No se aplica al final, para justificar lo que ya se hizo: se aplica antes, cuando la idea todavía se puede cambiar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ese filtro se llama <strong>DURASLID</strong> y ya lo conociste en el Curso 5. Es el estándar de calidad de toda oportunidad de aprendizaje en la Asociación, y son <strong>ocho</strong> atributos."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "D · Desafiante", "description": "Exige algo real y evita la comodidad que estanca.", "color": "#e8f5e9", "borderColor": "#43a047" },
+            { "title": "U · Útil", "description": "Conecta con aprendizajes, necesidades o propósitos claros.", "color": "#e3f2fd", "borderColor": "#1e88e5" },
+            { "title": "R · Recompensante", "description": "Deja satisfacción, sentido de logro y ganas de continuar.", "color": "#fff3e0", "borderColor": "#fb8c00" },
+            { "title": "A · Atractiva", "description": "Despierta interés y se siente pertinente para quienes participan.", "color": "#f3e5f5", "borderColor": "#8e24aa" },
+            { "title": "S · Segura", "description": "Protege física, emocional e institucionalmente.", "color": "#e0f7fa", "borderColor": "#00acc1" },
+            { "title": "L · Lúdica", "description": "Se juega con sentido: explora roles, ensaya decisiones, deja rastro.", "color": "#fce4ec", "borderColor": "#d81b60" },
+            { "title": "I · Inclusiva", "description": "Abre la puerta y la conversación: diseña para todos, algunos y uno.", "color": "#fff8e1", "borderColor": "#ffb300" },
+            { "title": "D · Diversa", "description": "Mezcla personas, espacios, formatos y saberes. Enriquece, no dispersa.", "color": "#eceff1", "borderColor": "#607d8b" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dos de los ocho se malinterpretan casi siempre, así que vale la pena detenerse. <strong>Desafiante no quiere decir difícil.</strong> El Modelo es explícito en que el desafío <em>trasciende la vara de lo imposible o de hacerlo difícil por difícil</em>: se trata de <strong>calibrar</strong> el reto a la edad, al momento de progresión y al contexto. La señal de que acertaste no es que sufran, es la mejora visible entre el primer intento y el segundo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y <strong>útil</strong> es el que habría salvado la reunión de Diana. Una experiencia útil <em>sirve a alguien y para algo</em>: hay un destinatario y hay una evidencia mínima. El Modelo lo dice sin rodeos — si no sabemos a quién beneficia ni cómo lo sabremos, <strong>la idea todavía no está lista</strong>. No está mal: está sin terminar."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El tablero de ocho preguntas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Esto es lo que te llevas del curso aunque olvides todo lo demás. Antes de meter una idea al plan, siéntala en el tablero y respóndele ocho preguntas. Si alguna se queda sin respuesta, ya sabes qué falta trabajar."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Desafío:</strong> ¿qué es nuevo o retador aquí para mi unidad?",
+            "<strong>Utilidad:</strong> ¿quién se beneficia y cómo lo mediremos?",
+            "<strong>Recompensa:</strong> ¿qué reconoceremos y cómo lo contaremos?",
+            "<strong>Atracción:</strong> ¿cuál es el gancho y el ritmo?",
+            "<strong>Seguridad:</strong> ¿qué riesgos, roles y reglas?",
+            "<strong>Ludicidad:</strong> ¿cómo lo jugamos con sentido?",
+            "<strong>Inclusión:</strong> ¿qué ajustes universales o particulares?",
+            "<strong>Diversidad:</strong> ¿qué voces, espacios y lenguajes sumamos?"
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 DURASLID, según el glosario del Modelo",
+          "source": "Modelo de Aplicación de la Política Nacional de Programa de Jóvenes «El Gran Juego para la Vida» (DNPJ), glosario, pp. 104–105 del PDF.",
+          "text": "Estándar cualitativo para diseñar, facilitar y cerrar oportunidades de aprendizaje. Si una experiencia no cumple la mayoría de estos atributos, es preferible ajustarla antes de ejecutarla. Es la sigla de Desafiantes, Útiles, Recompensantes, Atractivas, Seguras, Lúdicas, Inclusivas y Diversas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fíjate en <em>«diseñar, facilitar y cerrar»</em>. Son <strong>tres momentos y un mismo filtro</strong>: en el diseño decides si la idea entra; durante la actividad ajustas —si el reto quedó corto, subes un peldaño; si hay saturación, divides la tarea—; y al cerrar evalúas con los mismos ocho criterios. La Lección 7 es ese tercer momento."
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>Algo que vas a notar al abrir la Ficha.</strong> Su tabla de evaluación puntúa <strong>siete</strong> de los ocho: Desafiante, Útil, Recompensante, Atractiva, Segura, Inclusiva y Lúdica. <strong>Falta «Diversa»</strong>, que el Modelo sí enuncia en su Capítulo 10 y en su glosario. No lo arreglamos por cuenta propia: te lo decimos para que <strong>la respondas igual</strong> aunque no tenga casilla. Y ojo, que la pregunta sí existe en el archivo — la Hoja de Ruta te pregunta si la reunión tiene en cuenta algún enfoque de Diversidad e Inclusión, y cuál. Está, solo que en la otra hoja."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama.</strong> El filtro es el mismo; lo que cambia es quién lo aplica. <strong>Familia y Manada:</strong> lo aplica el equipo de dirigentes, y a los protagonistas se les pregunta al cerrar si fue divertido y si aprendieron algo. <strong>Tropa:</strong> los guías de patrulla pueden responder tres o cuatro de las ocho preguntas en la Corte de Honor. <strong>Comunidad y Clan:</strong> el tablero lo llenan ellos, y tu trabajo es no dejar que salten «utilidad»."
+        }
+      ],
+      "reflection": {
+        "prompt": "Toma una actividad que hayas hecho este año y que en el fondo sabes que no funcionó — una concreta, con fecha. Pásala por las ocho preguntas ahora, tarde. ¿En cuál se cae? Y la pregunta que importa: si la hubieras pasado por el tablero el miércoles anterior, ¿qué habrías cambiado?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar al para qué 🎯",
+        "questions": [
+          {
+            "text": "Un equipo de dirigentes propone una caminata de ocho horas para una Manada, argumentando que así los lobatos «se ponen a prueba de verdad». Según el criterio del Modelo, ¿qué está fallando?",
+            "options": [
+              "Nada del filtro: una caminata larga es exactamente lo que el atributo «Desafiante» pide de una actividad.",
+              "El desafío no es hacerlo difícil por difícil, sino calibrarlo a la edad y al momento de progresión.",
+              "El problema es de seguridad, no de desafío: con hidratación y relevos la caminata sería adecuada."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Al llenar el tablero de ocho preguntas para un proyecto de servicio, la Comunidad no logra responder «¿quién se beneficia y cómo lo mediremos?». ¿Qué corresponde hacer?",
+            "options": [
+              "Dejar esa casilla vacía y seguir: las ocho preguntas son una guía, no un requisito para ejecutar.",
+              "Cambiar el proyecto por otro, porque un servicio sin destinatario claro no es una oportunidad válida.",
+              "Trabajar la idea hasta poder responderla: mientras falte eso, la propuesta está sin terminar."
+            ],
+            "correctIndex": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "🎯 Para qué, no qué",
+      "emoji": "🎯",
+      "navLabel": "Información educativa",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Diana abre la Hoja de Ruta del sábado y la lee de arriba abajo. Está todo: la hora, el juego, quién lo conduce, los materiales. Busca dónde escribir <em>por qué ese juego y no otro</em>… y no hay casilla. No es un olvido del archivo: esa pregunta vive en la otra hoja. Con la Hoja de Ruta sola, Diana tiene una agenda impecable."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el bloque educativo de la Ficha es el único lugar de todo el archivo donde se escribe <em>para qué</em>. Es la diferencia entre una agenda y una oportunidad de aprendizaje."
+        },
+        {
+          "type": "paragraph",
+          "text": "El instrumento lo llama, textualmente, <strong>la columna vertebral de la planeación</strong>. Son tres campos, y se llenan en este orden."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "1. Objetivo de la actividad",
+              "description": "El propósito principal, en una frase. No es un listado: es una sola cosa que quieres lograr con esta actividad concreta. <em>«Que las seisenas resuelvan un reto de construcción repartiéndose los roles sin que un adulto los asigne.»</em>",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "2. Conductas observables (foco)",
+              "description": "Los resultados concretos que esperas ver. Aquí vuelve el Curso 13, y vuelve al revés: allá escribías la conducta <em>después</em> de observar; aquí la declaras <strong>antes</strong>, para saber qué mirar.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "3. Áreas y competencias educativas",
+              "description": "Primero eliges el área o áreas de crecimiento; luego, en la casilla de al lado, la competencia correspondiente a esa área. El desplegable de la derecha depende del de la izquierda.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La conducta observable es la bisagra entre este curso y el anterior. Se escribe con las tres piezas que ya conoces: <strong>verbo claro + contexto + señal verificable</strong>. <em>«Reparte los roles dentro de su seisena, en un reto de construcción, sin que un adulto se lo pida»</em> tiene las tres. <em>«Trabaja en equipo»</em> no tiene ninguna, y es lo que la mayoría escribe."
+        },
+        {
+          "type": "info-box",
+          "text": "🔗 <strong>Por qué escribirla antes lo cambia todo.</strong> Una conducta declarada el miércoles es una instrucción para tus propios ojos el sábado. Sin ella miras la reunión entera y no ves nada en particular; con ella miras una cosa y la ves. Es literalmente lo mismo que el Curso 13 llamó decidir antes qué quieres observar — solo que ahora tiene una casilla donde vivir."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "De dónde salen las competencias"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aquí hay algo que conviene saber antes de abrir el archivo y frustrarse. Las instrucciones del propio Excel anuncian una hoja con la malla completa de competencias, y <strong>esa hoja no está dentro del archivo</strong>. No es que te falte a ti: no viene. La malla existe, pero se publica como <strong>documento aparte</strong>."
+        },
+        {
+          "type": "info-box",
+          "text": "📥 <strong>El documento que te falta se llama <em>Competencias Educativas</em>.</strong> Es un Excel independiente, está en la biblioteca virtual de la Asociación —<code>scout.org.co/biblioteca</code>, sección Programa de Jóvenes— y trae la malla completa: las seis áreas de crecimiento con sus prioridades educativas, sus competencias terminales y las <strong>competencias intermedias por franja de edad</strong> (5–6, 7–10, 11–14, 15–17 y 18–20 años). Descárgalo una vez y tenlo al lado cuando llenes una Ficha."
+        },
+        {
+          "type": "paragraph",
+          "text": "Con la malla abierta, la regla es corta y el Modelo la dice al describir el tablero DURASLID: <strong>una o dos competencias como foco</strong>, no seis. Una actividad que dice tocar las seis áreas no está tocando ninguna; está describiendo la vida. Elige el área, elige la competencia, y deja que la actividad haga lo demás sin que tú lo reclames."
+        },
+        {
+          "type": "info-box",
+          "text": "👶 <strong>Si acompañas Familia, algo que ya viste en el Curso 13.</strong> El desplegable te va a ofrecer <strong>una sola competencia por área y ninguna en Sociabilidad</strong> — cinco en total, no veintidós. No está incompleto por error: la malla oficial para la franja de 5 a 6 años trae exactamente eso, y el Registro de progresión coincide. El único instrumento que le da veintidós a esa edad es el Archivo Base. Ya lo registramos allá; aquí solo para que no lo busques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un último apunte de vocabulario, sin señalar a nadie: vas a encontrar en el archivo la expresión <em>«objetivos educativos»</em>. El <strong>Modelo de Aplicación declaró superada esa nomenclatura</strong> y la sustituyó por <strong>competencias educativas</strong>. Es el término que usa este curso, el que usa la malla y el que verás en los desplegables."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama.</strong> <strong>Familia:</strong> cinco competencias, una por área —y la cuarta te va a aparecer como «Socioafectividad», que es como la llama la hoja—: elige una y quédate ahí todo el ciclo. <strong>Manada:</strong> veintidós competencias; empieza por el área que tu Manada tenga floja, no por la que te guste. <strong>Tropa:</strong> la conducta observable se escribe en plural, porque la unidad de observación es la patrulla tanto como el scout. <strong>Comunidad:</strong> la competencia la puede elegir el equipo al proponer la actividad. <strong>Clan:</strong> la elige el rover, y tu trabajo es que la escriba antes y no después."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en una actividad concreta que tu unidad va a hacer en las próximas tres semanas. Escribe sus tres campos educativos: el objetivo en una frase, una conducta observable con verbo, contexto y señal, y un área con su competencia. Si al escribir la conducta te sale «trabajan en equipo» o «se divierten», bórrala y vuelve a empezar: todavía no es observable."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar al ambiente 🎭",
+        "questions": [
+          {
+            "text": "Un dirigente escribe como conducta observable de su actividad: «Los scouts demuestran liderazgo». ¿Qué opinas de esa conducta observable?",
+            "options": [
+              "Le falta el área de crecimiento asociada, que es lo que convierte una conducta en observable.",
+              "Le faltan el contexto y la señal verificable: así escrita no le dice qué mirar el sábado.",
+              "No le falta nada: nombra un sujeto y una conducta, que es justo lo que pide ese campo."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Diana llena la Ficha y marca las seis áreas de crecimiento, porque su actividad «las toca todas de alguna manera». ¿Cuál es el problema?",
+            "options": [
+              "Ninguno mientras pueda justificar cada área con algo concreto de la actividad que planeó.",
+              "Que la Ficha solo admite marcar dos áreas y el archivo le va a rechazar las otras cuatro.",
+              "Que el foco se elige, no se declara: una o dos competencias, o no estará mirando ninguna."
+            ],
+            "correctIndex": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "🎭 El mundo donde ocurre",
+      "emoji": "🎭",
+      "navLabel": "Ambiente y paso a paso",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "El sábado anterior Diana había montado un juego de piratas. Muy bien montado: mapa quemado en los bordes, cofre, monedas de chocolate. Los lobatos jugaron con educación y sin ganas. Lo que Diana no había pensado es que su Manada llevaba dos meses metida en la selva, con su Nombre de Manada y su Gran Clamor. Los piratas no llegaron de ninguna parte y no iban a ninguna."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el ambiente de referencia no es la decoración de la actividad: es el mundo donde la actividad tiene sentido. Por eso la Ficha lo pide antes del paso a paso."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tres capas que se confunden todo el tiempo"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Marco simbólico",
+              "description": "El universo narrativo de la rama. <strong>No se elige</strong>: viene con la rama y lo define su Guía de Dirigente. La Fantasía, la Aventura, la Ciudadanía Activa.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            },
+            {
+              "title": "Fondo motivador",
+              "description": "El relato de fondo que alimenta el marco, cuando la rama tiene uno. Tampoco se elige.",
+              "color": "#e0f7fa",
+              "borderColor": "#00acc1"
+            },
+            {
+              "title": "Ambiente de referencia",
+              "description": "<strong>El que sí eliges tú, con tu unidad, y por ciclo de programa.</strong> Es el material concreto del que sale el relato de estos meses: una historia, un territorio, una época.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Ficha y la Hoja de Ruta te piden <strong>la tercera</strong>. Y el instrumento aclara que los ambientes de referencia <em>se eligen para cada Ciclo de Programa</em>: no cambian de sábado en sábado, que es exactamente el error del juego de piratas."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "De dónde sale el ambiente de tu rama"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "Familia", "description": "<strong>Relatos infantiles.</strong> Su Guía lo pone en la tabla de identidad de la rama, junto al marco simbólico.", "color": "#fce4ec", "borderColor": "#d81b60" },
+            { "title": "Manada", "description": "<strong>Relatos fantásticos.</strong> Su Guía separa las tres capas en una sola tabla, y esta es la tercera. Ojo con la confusión clásica: <strong>el Libro de las Tierras Vírgenes no es el ambiente de referencia, es el fondo motivador</strong> — la capa que no se elige. Lo viste en el Curso 8.", "color": "#fff8e1", "borderColor": "#ffb300" },
+            { "title": "Tropa", "description": "<strong>Historias de aventuras, historias reales, novelas policíacas, cómics, videojuegos, leyendas…</strong> Su Guía lo deja abierto a propósito, con puntos suspensivos incluidos.", "color": "#e8f5e9", "borderColor": "#43a047" },
+            { "title": "Comunidad", "description": "<strong>Las Historias de la Humanidad</strong>, y en particular los pueblos nómadas. Cuidado: ese es el material del relato, no el marco simbólico de la rama.", "color": "#e3f2fd", "borderColor": "#1e88e5" },
+            { "title": "Clan", "description": "Su Guía <strong>no lo declara como capa de la rama</strong>: usa el término una sola vez, para la temática de una actividad concreta. Donde la fuente no alcanza, no lo inventamos — el Clan elige su temática por ciclo, sin un registro prescrito.", "color": "#eceff1", "borderColor": "#607d8b" }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El paso a paso"
+        },
+        {
+          "type": "paragraph",
+          "text": "El último campo del bloque es la secuencia detallada de la actividad, con una aproximación de tiempos. El instrumento pide algo muy concreto: que la narración evidencie <strong>qué sucede, quién interviene y qué elementos se usan</strong>. Tres cosas, en cada tramo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y conviene no confundirlo con la Hoja de Ruta. El guion de la Hoja de Ruta cubre <strong>la reunión entera</strong>, a brochazos: apertura, juego, cierre. El paso a paso de la Ficha entra en <strong>una sola actividad</strong> y la abre por dentro. Una reunión de dos horas suele tener una Hoja de Ruta y, quizá, una o dos Fichas."
+        },
+        {
+          "type": "info-box",
+          "text": "🌍 <strong>Escribe el lugar en genérico, y esto cambia cómo redactas.</strong> El instrumento pide que en «Lugar sugerido» pongas <em>parque, cancha, salón</em> y no el nombre de un sitio de tu ciudad, <em>«debido a que quien lea la ficha en otra parte del país o del mundo tal vez no conozca tu ciudad»</em>. Dicho de otro modo: <strong>la Ficha no es tuya, es del Movimiento</strong>. Está hecha para que otro dirigente la tome, la entienda y la use. Escríbela pensando en esa persona."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama.</strong> <strong>Familia:</strong> el ambiente lo sostiene el adulto con voz y objetos; los cachorros lo habitan. <strong>Manada:</strong> el ambiente da nombres — a las seisenas, a los lugares, a los momentos. <strong>Tropa:</strong> la patrulla puede proponer el ambiente del ciclo y suele proponerlo mejor que tú. <strong>Comunidad:</strong> el ambiente conecta con lo que están investigando o transformando. <strong>Clan:</strong> lo eligen ellos para la ocasión, y a veces deciden no tener uno."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Cuál es el ambiente de referencia que tu unidad está viviendo <em>ahora mismo</em>? Escríbelo con el nombre exacto que pondrías en la casilla, y di desde qué mes lo están viviendo. Si no lo sabes, o si cada dirigente de tu equipo contestaría algo distinto, ya encontraste algo que arreglar en el próximo consejo. Después escribe cómo entra en ese mundo la actividad concreta que tienen para el próximo sábado — dos o tres líneas, como las escribirías en el campo «Contexto desde el Ambiente de Referencia»."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar al riesgo 🦺",
+        "questions": [
+          {
+            "text": "Un dirigente de Tropa dice en el consejo: «este ciclo vamos a cambiar el marco simbólico, porque la aventura ya nos aburrió». ¿Qué está confundiendo?",
+            "options": [
+              "Nada: el marco simbólico se renueva en cada ciclo, igual que el ambiente y por las mismas razones.",
+              "El marco viene con la rama y no se elige; lo que su unidad cambia cada ciclo es el ambiente.",
+              "Que el marco lo define el Consejo de Grupo, aunque sí pueda cambiarse de un ciclo al otro."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Al escribir el paso a paso de una actividad, un dirigente pone: «Se hace la fogata y se comparten experiencias». ¿Qué le exige el instrumento que no cumplió?",
+            "options": [
+              "Que indique el ambiente de referencia del ciclo antes de describir cualquier momento de la actividad.",
+              "Que la Hoja de Ruta ya trae esa descripción, así que en la Ficha basta con nombrar la actividad.",
+              "Que se vea qué sucede, quién interviene y qué elementos se usan, con tiempos aproximados."
+            ],
+            "correctIndex": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "🦺 Antes de que alguien se lastime",
+      "emoji": "🦺",
+      "navLabel": "Riesgo y entorno seguro",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "En el reconocimiento del sendero, Diana vio un tronco atravesado y mojado. Pensó «hay que tener cuidado ahí», lo rodeó y siguió. El sábado un lobato resbaló en ese tronco. No pasó nada grave — un raspón y un susto. Pero cuando le preguntaron si lo había previsto, la respuesta honesta era incómoda: <strong>lo había visto, y no lo había escrito</strong>."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> ver un peligro no es gestionarlo. Gestionarlo es escribirlo, calcular cuánto pesa y decidir una medida concreta — antes, y por escrito."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Peligro no es lo mismo que riesgo"
+        },
+        {
+          "type": "paragraph",
+          "text": "El propio instrumento usa el ejemplo de Diana para explicar la diferencia, y conviene aprenderlo con esas dos palabras porque toda la matriz depende de distinguirlas."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Peligro",
+              "description": "La <strong>situación</strong> que tiene el potencial de causar daño. <em>Un tronco mojado cerca del sendero.</em> Existe aunque nadie pase por ahí.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "Riesgo",
+              "description": "El <strong>evento no deseado</strong> que ese peligro puede producir. <em>La posibilidad de una caída.</em> Es lo que se calcula y lo que se controla.",
+              "color": "#fce4ec",
+              "borderColor": "#d81b60"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📕 «Peligro» y «Riesgo», dos de las cinco palabras clave de la Política",
+          "source": "Política Nacional a Salvo del Peligro «Haré todo cuanto de mí dependa» (Acuerdo C.S.N. 657 del 3-dic-2025), p. 14 del PDF, sección «No olvides estas palabras claves».",
+          "text": "Peligro. Se entiende por peligro a cualquier acto o situación con el potencial de generar daño, sea lesión, enfermedad, deterioro a la propiedad, al medio ambiente o la combinación de estos. Riesgo. La posibilidad de que un evento o situación afecte negativamente la integridad física, emocional, social, patrimonial o reputacional de los niños, niñas, jóvenes, adultos y de la organización, como resultado de la exposición a un peligro."
+        },
+        {
+          "type": "paragraph",
+          "text": "El instrumento y la Política dicen lo mismo con otras palabras, y eso es buena señal: no es una convención del Excel, es doctrina."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cuánto pesa: probabilidad por consecuencia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Para cada riesgo, la Ficha pide dos números del 1 al 5. La <strong>probabilidad</strong> mide qué tan posible es que ocurra: 1 es raro, 5 es frecuente. La <strong>consecuencia</strong> mide la gravedad del daño si ocurre: 1 son daños menores, 5 es fatal o catastrófico — el instrumento pone como referencia que una quemadura grave se califica con 4. El archivo multiplica los dos y devuelve el <strong>nivel de riesgo</strong>. Las cuatro bandas son del instrumento; <em>qué hacer</em> en cada una lo propone esta plataforma, para que el número no se quede en un número."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>1 a 5 — Bajo.</strong> Se anota la medida y se sigue.",
+            "<strong>6 a 10 — Medio.</strong> La medida tiene que estar asignada a alguien.",
+            "<strong>11 a 15 — Alto.</strong> Se rediseña el momento o se refuerza el control antes de ejecutarlo.",
+            "<strong>16 a 25 — Crítico.</strong> No se hace así. Se cambia la actividad o se cancela."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Y luego la columna que justifica todas las anteriores: las <strong>medidas de control</strong>. Son acciones, no intenciones. <em>«Tener cuidado»</em> no es una medida. <em>«Un adulto ubicado en el tronco durante todo el paso, y el grupo cruza de a uno»</em> sí lo es: alguien puede hacerla, y otro puede verificar que se hizo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cierra el bloque la lista de <strong>adultos requeridos</strong>, con una distinción útil: quién es <strong>interno</strong> —dirigente del Grupo— y quién es <strong>externo</strong>, es decir, un apoyo técnico que no es del Movimiento: el instructor de escalada, la enfermera, el conductor. De cada uno, nombre, función y teléfono. Esa columna es la que se agradece cuando algo pasa."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Y en la otra hoja: el bloque de entorno seguro"
+        },
+        {
+          "type": "paragraph",
+          "text": "La gestión del riesgo vive en la Ficha, pero la <strong>Hoja de Ruta</strong> trae su propio bloque de entorno seguro, y es una lista de chequeo que se responde <strong>antes de cada reunión</strong>: si el mecanismo de reporte está listo, si estará al alcance de todos, si quienes participan —protagonistas, dirigentes, padres— saben usarlo, y si la reunión contempla algún enfoque de diversidad e inclusión y cuál."
+        },
+        {
+          "type": "info-box",
+          "text": "🔴 <strong>El botón no es un objeto.</strong> El mecanismo oficial de reporte se llama <strong>«Me Pongo A Salvo del Peligro»</strong> —así lo nombra la Política Nacional A Salvo del Peligro vigente; la hoja que vas a llenar todavía lo llama «Botón A Salvo del Peligro», y el nombre que manda es el de la Política—. Y lo importante no es tenerlo impreso: el instrumento insiste en que <em>el «Botón» es el mecanismo de reporte conocido por todos, no solo un elemento físico</em>. Dedica un minuto al inicio de la reunión a recordar qué es y cómo se usa. Un recordatorio constante afianza el autocuidado; un cartel que nadie sabe leer no sirve de nada."
+        },
+        {
+          "type": "info-box",
+          "text": "💻 <strong>Si la reunión es en línea</strong>, el bloque se amplía con cuatro verificaciones: que los protagonistas tengan acompañamiento parental según su edad, que <strong>todos los adultos</strong> presentes —sean o no del Movimiento— hayan hecho el curso <em>Estar Seguro en Línea</em>, que los protagonistas también lo hayan hecho, y qué estrategias de salvaguarda se tomaron. Entre ellas, la <strong>medida de protección 2+1</strong> de la Política —que la hoja llama «Estrategia 2+1»—: nunca un adulto a solas con un protagonista, tampoco en comunicaciones. La hoja trae los enlaces a los cursos y al formulario de reporte: no hay que buscarlos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y aquí paramos, a propósito. Este curso te enseña a <strong>preparar</strong> el entorno seguro de una reunión: que el mecanismo exista, que todos sepan usarlo, que los riesgos estén escritos. <strong>Qué hacer cuando un protagonista te revela un daño no es de este curso</strong> — se enseña completo en la línea Políticas Transversales y se aplica al Programa en el Curso 25. Enlazamos allá y no lo reexplicamos, para que esa conducta tenga una sola fuente en toda la plataforma."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama.</strong> <strong>Familia y Manada:</strong> el riesgo lo escribe el adulto entero, y se conversa con los papás. <strong>Tropa:</strong> los guías de patrulla pueden identificar peligros en el reconocimiento del lugar — hacerlo con ellos es formación, no delegación. <strong>Comunidad:</strong> el equipo que propone la actividad propone también sus medidas de control. <strong>Clan:</strong> la matriz la llenan ellos; tú revisas que ningún «crítico» se haya convertido en «medio» por entusiasmo."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en la última salida o campamento de tu unidad y recuerda un peligro que viste y no escribiste — todos tenemos uno. Escríbelo ahora con las cinco casillas: peligro, riesgo, probabilidad del 1 al 5, consecuencia del 1 al 5 y medida de control. Mira el número que te da. ¿Habrías hecho la actividad igual sabiendo ese número?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Continuar al cierre 🔁",
+        "questions": [
+          {
+            "text": "En la matriz de una salida al río, un dirigente escribe: peligro «corriente fuerte», riesgo «ahogamiento», probabilidad 3, consecuencia 5, y en medidas de control: «estar pendientes de los chicos». ¿Qué hay que corregir primero?",
+            "options": [
+              "La medida: «estar pendientes» es una intención, y nadie puede verificar después si se cumplió.",
+              "La consecuencia: con chalecos salvavidas bien puestos el ahogamiento deja de ser fatal y baja a 3.",
+              "Nada urgente: 15 queda en la banda media, así que basta con anotar esa medida y continuar."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Al revisar la Hoja de Ruta, una jefa marca que el mecanismo de reporte está listo porque imprimió el formulario de reporte y lo pegó en la cartelera del salón. ¿Qué falta?",
+            "options": [
+              "Falta registrar en la hoja la fecha de impresión del cartel y quién lo ubicó en la cartelera.",
+              "No falta nada: el instrumento pide que esté listo y al alcance, y el cartel cumple las dos cosas.",
+              "Falta lo principal: que protagonistas, dirigentes y padres sepan qué es y cómo se usa."
+            ],
+            "correctIndex": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "title": "🔁 La evaluación va al principio",
+      "emoji": "🔁",
+      "navLabel": "Evaluación y cierre",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Dos años después, otra jefa de Manada abre la carpeta de actividades del grupo buscando algo para un sábado lluvioso. Encuentra la ficha de una actividad de Diana. Lee el título, lee el paso a paso… y no tiene ni idea de si aquello funcionó. Y lo primero que ve al abrir la hoja es, justamente, el espacio donde eso debía estar escrito."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la evaluación está arriba en la Ficha, antes que todo lo demás, y es a propósito. Es lo primero que verá quien la abra después — incluido tú."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 El instrumento se explica a sí mismo",
+          "source": "Planeación de Reunión y Oportunidades de Aprendizaje (DNPJ-2026-020), comentario del bloque Evaluación en la Ficha de Oportunidad de Aprendizaje.",
+          "text": "¿La evaluación al inicio? ¡Sí! Aunque la evaluación de una actividad educativa se diligencia una vez finaliza su implementación, hemos destinado el espacio de evaluación al inicio de la misma para que recuerdes que es algo importante; así mismo, en algunos meses, o quizá años, cuando revises esta ficha de actividad, lo primero que encontrarás serán las impresiones que tú, u otros dirigentes, tuvieron al llevar a cabo esta actividad educativa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Es el mejor argumento pedagógico que trae la herramienta, y no está en un manual: está en un comentario de celda. La ficha no se archiva cuando termina la actividad — <strong>se termina de escribir cuando termina la actividad</strong>."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Dos evaluaciones, para dos cosas distintas"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Cualitativa",
+              "description": "Un texto libre: cómo se desarrolló, si se cumplió el objetivo, cómo funcionaron los materiales. El instrumento lo describe como <em>las recomendaciones que puedas darle a tu yo del futuro, o a otros dirigentes</em>. Es lo que se lee dos años después.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "Cuantitativa",
+              "description": "Trece criterios puntuados de <strong>1 a 5</strong>, con suma automática. Siete vienen de DURASLID; los otros seis miran cómo se gestionó: <strong>Seguimiento de Competencias · Programación Oportuna · Coordinación y Logística · Recursos Físicos y Materiales · Recursos Financieros · A Salvo del Peligro</strong>.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Y un tercer espacio que casi nadie llena y que es oro: <strong>Novedades</strong>. Lo inesperado, lo que no estaba en tu plan, los hallazgos — <em>y si se dieron conflictos y cómo fueron manejados</em>. Ahí es donde una ficha deja de ser un formato y se vuelve memoria del grupo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El cierre con los protagonistas: cuatro preguntas"
+        },
+        {
+          "type": "paragraph",
+          "text": "La evaluación de la ficha la haces tú, o el equipo de dirigentes. Pero hay otro cierre que ocurre antes, con los protagonistas, y el Modelo lo prescribe apoyándose en el ciclo que ya conociste en el Curso 6. Son cuatro preguntas y caben en dos minutos."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Experiencia — Vivir.</strong> ¿Qué hicimos? Hechos, datos, anécdotas.",
+            "<strong>Reflexión — Mirar.</strong> ¿Qué salió bien y qué no? ¿Cómo nos sentimos?",
+            "<strong>Comprensión — Comprender.</strong> ¿Qué aprendimos sobre el tema, sobre el equipo y sobre nosotros?",
+            "<strong>Transferencia — Proyectar.</strong> ¿Qué cambiaremos en la próxima salida, proyecto o semana?"
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🔗 <strong>Dos cierres que no se pisan.</strong> Lo que evalúas en la Ficha es <strong>la actividad</strong>: si valió la pena, si salió como esperabas, si la repetirías. Lo que registras en el <strong>Curso 13</strong> es <strong>el protagonista</strong>: qué mostró Juana que no mostraba antes. La actividad se archiva para reusarla; la conducta se guarda para acompañar a alguien. Son dos cuadernos distintos, y la cuarta pregunta —<em>¿qué cambiaremos?</em>— es la bisagra entre los dos."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama.</strong> <strong>Familia:</strong> el cierre se hace con caritas o con una palabra cada uno; la ficha la escribe el adulto. <strong>Manada:</strong> las cuatro preguntas caben en el Consejo de Roca, en versión corta. <strong>Tropa:</strong> las responde cada patrulla y el guía trae la síntesis. <strong>Comunidad:</strong> el equipo que propuso la actividad la evalúa, y ahí aprende a evaluar. <strong>Clan:</strong> la evaluación cuantitativa la llenan ellos, y suelen ser más duros que tú."
+        }
+      ],
+      "reflection": {
+        "prompt": "Recupera una actividad que tu unidad hizo hace más de seis meses y que valdría la pena repetir. Escribe ahora su evaluación cualitativa como si se la dejaras a quien llegue después de ti: qué funcionó, qué cambiarías y qué materiales harían falta. Si no te acuerdas de lo suficiente para escribirla, eso también es un hallazgo — y es exactamente el problema que la ficha viene a resolver."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7",
+        "nextLabel": "Continuar a tus herramientas 🧰",
+        "questions": [
+          {
+            "text": "Tu grupo guarda tres años de fichas en una carpeta compartida. Un dirigente nuevo entra a buscar algo para un sábado lluvioso. ¿Qué le resuelve que la evaluación esté arriba?",
+            "options": [
+              "Que lo primero que lea sea si la actividad funcionó, antes de decidir si sigue leyendo.",
+              "Que sepa de entrada qué materiales necesita, que es lo que más cuesta conseguir a última hora.",
+              "Que pueda calificarla con los trece criterios sin haberla hecho todavía con su propia unidad."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Al cerrar una salida, una jefa de Tropa pregunta a las patrullas: «¿les gustó?». Todos dicen que sí y ahí termina. ¿Qué se perdió?",
+            "options": [
+              "Las otras tres preguntas del ciclo, y con ellas lo que aprendieron y qué harán distinto.",
+              "La oportunidad de puntuar los trece criterios de la evaluación cuantitativa con las patrullas.",
+              "El registro escrito de la respuesta, que debía quedar en el campo de novedades de la ficha."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "title": "🧰 Tus dos superficies, y tu próxima reunión",
+      "emoji": "🧰",
+      "navLabel": "Tus herramientas",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> ahora sí, los archivos. Son dos, hacen lo mismo de maneras distintas, y los dos se bajan gratis de la biblioteca de la Asociación."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "1. El Excel: «Planeación de Reunión y Oportunidades de Aprendizaje»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Es el que hemos estado recorriendo. Trae ocho hojas: una de <strong>Pautas de Uso</strong>, la <strong>Hoja de Ruta</strong>, la <strong>Ficha de Oportunidad de Aprendizaje</strong> y <strong>cinco hojas de consulta, una por rama</strong>, con las competencias que alimentan los desplegables de la Ficha. Se descarga una vez y se copia para cada reunión."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "2. La herramienta interactiva: «Planeación de Reuniones Scout»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Es un archivo que se abre en el navegador, sin Excel. Hace algo que el Excel no hace: <strong>funde las dos hojas en un solo flujo</strong> —información general, entorno seguro, desarrollo de la reunión, y dentro de ella una o varias oportunidades de aprendizaje con su información educativa, su riesgo y sus adultos— y añade un bloque de materiales. Si te cuesta manejar hojas de cálculo, empieza por aquí."
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>Una diferencia que importa.</strong> La herramienta interactiva <strong>no trae DURASLID por ninguna parte</strong>. No hay tablero de ocho preguntas ni casillas de evaluación cualitativa. Es más cómoda para llenar y más pobre para decidir, así que si trabajas con ella <strong>el filtro tienes que llevarlo puesto</strong>: la Lección 3 de este curso es tu tablero."
+        },
+        {
+          "type": "info-box",
+          "text": "📥 <strong>Dónde se bajan las tres cosas.</strong> Todo está en la biblioteca virtual de la Asociación —<code>scout.org.co/biblioteca</code>, sección Programa de Jóvenes—, con estos nombres exactos: <strong>«Planeación de Reunión y Oportunidades de Aprendizaje»</strong> (el Excel), <strong>«Herramienta — Planeación de Reuniones Scout»</strong> (la interactiva) y <strong>«Competencias Educativas»</strong> (la malla de la Lección 4). Bájalas las tres hoy, no cuando las necesites."
+        },
+        {
+          "type": "info-box",
+          "text": "🔧 <strong>Si un desplegable no te carga, no es culpa tuya.</strong> Algunas listas del archivo apuntan a un libro externo que no viene con él, y alguna etiqueta interna tiene erratas de tecleo. No afecta a lo que escribes: si una lista sale vacía, escribe el valor a mano desde la hoja de tu rama o desde el documento de Competencias Educativas."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que viene"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ya sabes mirar lo que ocurre en la reunión —Curso 13— y decidir la reunión antes de que ocurra —este—. Falta la pregunta grande: <strong>¿de dónde salen las reuniones?</strong> No de la ocurrencia del miércoles, sino de un proyecto que la unidad eligió y sostiene durante meses. Eso es el <strong>ciclo de programa</strong>, y es el <strong>Curso 15</strong>, el último de los tres operativos — todavía está por construirse, y te avisamos aquí mismo cuando esté."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama.</strong> <strong>Familia:</strong> una Hoja de Ruta por reunión y una Ficha por ciclo basta para empezar. <strong>Manada:</strong> una Ficha por actividad grande, y reusa las de los ciclos anteriores. <strong>Tropa:</strong> una Ficha por actividad de patrulla, escritas por los guías con tu revisión. <strong>Comunidad:</strong> cada equipo llena la suya y el Congreso de Comunidad las junta. <strong>Clan:</strong> la ficha es del rover que propone; tú solo apareces en «adultos requeridos» si haces falta."
+        },
+        {
+          "type": "info-box",
+          "text": "🔁 <strong>Y ahora, las cuatro preguntas — sobre este curso.</strong> <strong>Vivir:</strong> recorriste dos hojas, un tablero de ocho preguntas y una matriz de riesgo. <strong>Mirar:</strong> ¿qué parte te costó más, y cuál te dio ganas de abrir el archivo? <strong>Comprender:</strong> ¿cuál es la decisión que no estabas tomando y ahora sabes dónde se toma? <strong>Proyectar:</strong> ¿qué vas a hacer distinto el próximo miércoles? Es el mismo cierre de la Lección 7, aplicado aquí. Si un curso enseña a cerrar y no cierra, no se lo cree nadie."
+        },
+        {
+          "type": "mission-box",
+          "text": "🎯 <strong>Tu tarea de esta semana.</strong> Descarga el Excel y llena <strong>una</strong> Hoja de Ruta completa para tu próxima reunión — con la columna «Responsable» repartida, no solo con tu nombre — y <strong>una sola</strong> Ficha, para la actividad más importante de esa reunión. Una, no tres: la trampa de este curso es querer documentarlo todo el primer sábado. Y antes de darla por buena, pásala por el tablero de ocho preguntas. <strong>Con la Hoja de Ruta sola tendrías una agenda; con las dos, tendrás una oportunidad de aprendizaje.</strong>"
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe aquí las dos frases de tu próxima reunión, que son las dos preguntas con las que abrimos el curso. Primera: qué va a pasar — el guion en una línea. Segunda: para qué — la conducta que quieres ver y la competencia educativa que quieres tocar. Si la segunda te sale más difícil que la primera, es normal: esa es exactamente la que nadie te había pedido escribir antes."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 8",
+        "nextLabel": "Finalizar el curso ⭐",
+        "questions": [
+          {
+            "text": "Un dirigente prefiere la herramienta interactiva porque le resulta más cómoda que el Excel. ¿Qué tiene que compensar por su cuenta?",
+            "options": [
+              "El bloque de gestión del riesgo, que la versión interactiva no incorpora en su flujo de trabajo.",
+              "La lista de competencias por rama, que en esa versión hay que escribir siempre a mano.",
+              "El filtro DURASLID, que esa versión no incluye y que decide si la idea entra al plan."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Diana llenó la Hoja de Ruta del sábado y, entusiasmada, escribió una Ficha para cada uno de los cinco momentos de la reunión. ¿Qué le dirías?",
+            "options": [
+              "Que se quede con una sola: la de la actividad con más peso educativo, y deje las otras cuatro.",
+              "Que está bien, porque así el ciclo de programa queda documentado completo desde el arranque.",
+              "Que reparta las cinco fichas entre los dirigentes de su equipo, para que nadie cargue con todas."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -180,5 +180,19 @@
     "status": "active",
     "file": "seguimiento-progresion-personal.html",
     "folder": "seguimiento-progresion-personal"
+  },
+  {
+    "courseId": "planeacion-reuniones-oda",
+    "title": "Planeación de Reuniones y Oportunidades de Aprendizaje",
+    "description": "El segundo de los tres cursos operativos. Cómo se decide una reunión antes de que ocurra: el guion de lo que va a pasar, la ficha de para qué, el filtro que deja entrar unas ideas y no otras, y el riesgo escrito antes de que alguien se lastime. La herramienta oficial es el soporte; el tema es la decisión.",
+    "icon": "📋",
+    "duration": "60 minutos",
+    "level": 2,
+    "levelName": "Profundización por rama y práctica pedagógica",
+    "order": 14,
+    "modules": 8,
+    "status": "draft",
+    "file": "planeacion-reuniones-oda.html",
+    "folder": "planeacion-reuniones-oda"
   }
 ]

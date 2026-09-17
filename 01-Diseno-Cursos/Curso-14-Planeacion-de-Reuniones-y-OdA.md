@@ -3,7 +3,7 @@
 > **Línea:** Programa de Jóvenes · **Nivel 2** · Curso **14** de 25
 > **`courseId`:** `planeacion-reuniones-oda`
 > **Diseño pedagógico:** Claude Code, por decisión explícita del dueño en la sesión del **17-sep-2026** (excepción del §1.4 de `CREAR-CURSO.md`; mismo precedente que los Cursos 8 a 13).
-> **Estado:** diseño · pendiente JSON, build y las tres auditorías.
+> **Estado:** construido y auditado (funcional 139/0 · pedagógica APTO CON MEJORAS MENORES · doctrinal APTO tras 2 rondas) · **en `draft`**, pendiente solo de **compuerta humana**.
 
 Es el **segundo de los tres cursos pedagógicos operativos** (13, 14, 15). El Curso 13 enseñó a mirar lo que pasa en la reunión; este enseña a **decidir la reunión antes de que pase**. Sirve a las cinco ramas a la vez.
 
@@ -55,7 +55,7 @@ Es el **segundo de los tres cursos pedagógicos operativos** (13, 14, 15). El Cu
 | Subtítulo | Decidir antes lo que la reunión no te va a dejar decidir después |
 | Icono | 📋 |
 | Nivel / orden | 2 · Curso **14** |
-| Duración declarada | **se mide al cerrar las tres auditorías** (ADR-047). Estimación de trabajo, no declarable: 45–50 min |
+| Duración declarada | **60 minutos — medidos al cerrar las tres auditorías** (ADR-047). El borrador cerró en **7.407 palabras** y las correcciones de las dos auditorías añadieron **536**: hoy son **7.943**. Medido con la misma extracción, el **Curso 13 tiene 7.921 y declara 60**: son el mismo curso de largo, así que declaran lo mismo. *La estimación de trabajo decía 45–50 y se equivocó por un cuarto de hora — es la cuarta vez seguida que la estimación falla y la medida manda.* **Con este son seis de los catorce cursos de PJ por encima del tope de 40 del CHECKLIST**, lo que alimenta la decisión abierta del ADR-055 |
 | Módulos | 8 (1 de registro + **7 de contenido**) |
 | Destinatario | **Todo dirigente de unidad, de cualquiera de las cinco ramas** |
 | Recomendado antes | Nivel 1 completo, **el curso de tu rama** (8–12) y el **Curso 13**. Ninguno bloquea: son recomendaciones (ADR-019) |
@@ -174,9 +174,19 @@ Al terminar, el adulto podrá:
 
 ## 8. Estado
 
-1. **Diseño** — este documento. Se commitea **antes** de tocarlo con scripts *(lección del Curso 9)*.
-2. Pendiente: **JSON y build** · **auditoría doctrinal** · **auditoría pedagógica** · **auditoría funcional** · **medir la duración** (ADR-047) · compuerta humana · publicación con sus cinco colaterales.
+1. **Diseño** — este documento, commiteado **antes** de tocarlo con scripts *(lección del Curso 9)*.
+2. **JSON y build** — hechos. El build pasa **sin advertencias** en las tres compuertas de paridad, y tras las correcciones queda **mejor que antes**: la opción correcta **no es la más larga en ninguna de las 14 preguntas** (13 más corta, 1 empatada), 0 extremos y 0 ovejas negras.
+3. **Auditoría funcional** — **139 passed · 0 failed · 2 skipped** (las dos opcionales de siempre), corrida contra una **copia** del sitio con el `status` volteado, nunca el catálogo real (ADR-052). Son 8 pruebas más que con 13 cursos, así que el curso se probó de verdad.
+4. **Auditoría pedagógica** — **APTO CON MEJORAS MENORES** (1 alto · 8 medios · 7 bajos), condicionada al alto. Confirmó con datos que el antídoto contra «tutorial de software» funcionó: ninguna lección lleva el nombre de una hoja o un campo, y **ninguna de las 14 preguntas pregunta dónde está un campo**. Métricas: **12 de 14 ítems de aplicación limpia** y **sesgo de longitud 1 de 14** (el Curso 13 está en 6 de 16).
+5. **Auditoría doctrinal** — **REQUIERE CORRECCIÓN** (3 críticos · 4 mayores · 8 menores · 4 no verificables). **Los tres críticos estaban en las cajas «Y en tu rama»**, que es exactamente el patrón de error de los Cursos 8 a 12 — el mismo que el §3 de este documento marcó como trampa conocida y que aun así se coló tres veces.
+6. **Correcciones** — las **36** de las dos auditorías, aplicadas y recompiladas. Además, los dos colaterales que la doctrinal exigía **antes** de publicar y no después: `GLOSARIO-ASC.md` **v1.23** con las cinco entradas del vocabulario operativo, y **60 filas** en `TRAZABILIDAD.csv` (58 `vigente` + 2 marcadas como criterio de plataforma sin fuente). Manifiesto: **40 documentos, 0 ausentes**.
+7. **Re-auditoría doctrinal** — **APTO**, con **1 crítico nuevo** y 4 menores, aplicados. El crítico **lo introduje al corregir**: pegué como cita textual de la Política ASP un texto tomado *del informe del auditor* en vez del PDF, y amputaba el complemento de «afecte negativamente» — precisamente lo que la Política protege. Restituido leyendo la **p. 14 en pantalla**: ese PDF se extrae con **letras espaciadas** y ninguna extracción de texto sirve ahí. *Lección que el proyecto ya tenía escrita del 15-sep y que volvió a costar: **una cita de un informe se comprueba contra el PDF antes de aplicarla**, aunque el informe sea de un auditor que acaba de hacer bien su trabajo.*
+8. Pendiente: **compuerta humana** · publicación con sus cinco colaterales.
 
 ---
 
-_Documento de diseño v1.0 — 17 de septiembre de 2026._
+_Documento de diseño v1.1 — 17 de septiembre de 2026._
+
+> **v1.1 (17-sep-2026):** sincronizado con el JSON tras aplicar las dos auditorías. Cambios de estructura que tocan esta ficha: la **L2 y la L4 ganan apertura narrativa** de Diana —eran las dos únicas sin ella, y no por casualidad eran donde el curso más se parecía a un recorrido del archivo—; la **L4 pasa a cobrar el hook** explícitamente (*«con la Hoja de Ruta sola, Diana tiene una agenda impecable»*) y su «Idea central» se reescribe para no competir con una segunda antítesis; la **L5 Q1 se rehízo entera** porque su correcta se apoyaba en un dato que la lección no enseñaba **y el texto de la propia lección empujaba al distractor**; la **L6 pierde un `info-box`** —cuatro seguidos destruían la saliencia justo donde está el mecanismo de reporte— y **gana un `policy-quote`** de la Política ASP, que era la única lección con autoridad de política y sin cita; la **L8 gana un `info-box`** que cierra el curso con las cuatro preguntas del ciclo aplicadas a sí mismo, porque un curso que enseña a cerrar y no cierra no se lo cree nadie. **Ningún módulo se añadió, partió ni reordenó**, así que §5 (Logros) queda igual.
+>
+> **Lo que este curso deja para los siguientes, y conviene no perder:** las tres auditorías miran cosas distintas y las tres hicieron falta. La funcional dijo que el curso **funciona**; la pedagógica, que **enseña bien** —y cazó un ítem donde el lector cuidadoso elegía mal *por haber entendido bien la lección*—; la doctrinal, que **tres sustantivos de las cajas «Y en tu rama» contradecían a cursos publicados**. Ninguna de las tres habría encontrado lo de las otras dos.
