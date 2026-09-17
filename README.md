@@ -6,7 +6,7 @@ Plataforma de formación online de la **Línea Programa de Jóvenes** de la Asoc
 
 ## Estado actual
 
-**12 cursos activos** al 17-sep-2026, `status: "active"` en `cursos.json` y publicados en GitHub Pages. **Nivel 1 — Fundamentación** completo (7 cursos, **220 min ≈ 3.7 h**) y **Nivel 2** con 5 de sus 8: **las cinco ramas, cerradas el 16-sep-2026** (250 min ≈ 4.2 h). El menú de la línea agrupa por nivel. Del Nivel 2 faltan los tres cursos de práctica pedagógica (13–15); el plan total son 25 cursos.
+**13 cursos activos** al 17-sep-2026, `status: "active"` en `cursos.json` y publicados en GitHub Pages. **Nivel 1 — Fundamentación** completo (7 cursos, **220 min ≈ 3.7 h**) y **Nivel 2** con 6 de sus 8: **las cinco ramas, cerradas el 16-sep-2026** (250 min ≈ 4.2 h), más el **Curso 13 — Seguimiento de la Progresión Personal** (60 min), **el primero de los tres operativos y el primero que sirve a las cinco ramas a la vez**. El menú de la línea agrupa por nivel. Del Nivel 2 faltan los tres cursos de práctica pedagógica (13–15); el plan total son 25 cursos.
 
 | # | Curso | Nivel | Duración | Estado |
 |---|-------|-------|----------|--------|

@@ -3,7 +3,7 @@
   "title": "La PNPJ y \"El Gran Juego para la Vida\"",
   "subtitle": "El Programa de Jóvenes aterrizado a Colombia",
   "description": "El Curso 6 de la Línea Programa de Jóvenes. En ~35 minutos vas a aterrizar todo lo aprendido al contexto colombiano: la Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. 617 de 2024) y su Modelo de Aplicación \"El Gran Juego para la Vida\" (DNPJ 2026). Vas a recorrer las 5 ramas, las 6 áreas de crecimiento, las 3 etapas × 3 momentos y las herramientas operativas, y a construir tu mapa personal del Modelo.",
-  "contentVersion": "2026-09-16",
+  "contentVersion": "2026-09-17",
   "icon": "📜",
   "duration": "35 minutos",
   "level": 1,
@@ -437,7 +437,7 @@
         },
         {
           "type": "info-box",
-          "text": "El Modelo de Aplicación de Bolsillo (14 páginas) trae además un ciclo distinto y muy útil: <strong>Vivir → Mirar → Comprender → Proyectar</strong>. No es una versión corta de Exploro/Aplico/Profundizo: es la manera de cerrar <strong>una</strong> actividad para que lo vivido se convierta en aprendizaje. Los tres niveles marcan el camino largo de una competencia; este ciclo cabe en una reunión. Volverás a verlo en el Curso 14."
+          "text": "El Modelo de Aplicación de Bolsillo (14 páginas) trae además un ciclo distinto y muy útil: <strong>Vivir → Mirar → Comprender → Proyectar</strong>. No es una versión corta de Exploro/Aplico/Profundizo: es la manera de cerrar <strong>una</strong> actividad para que lo vivido se convierta en aprendizaje. Los tres niveles marcan el camino largo de una competencia; este ciclo cabe en una reunión. Volverás a verlo en el <strong>Curso 13</strong>, para convertir en aprendizaje lo que un protagonista vive fuera de la reunión, y en el <strong>Curso 14</strong>, al planear."
         }
       ],
       "reflection": {

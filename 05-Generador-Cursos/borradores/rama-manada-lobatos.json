@@ -3,7 +3,7 @@
   "title": "Rama Manada (Lobatos)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El primer curso de rama del Nivel 2 de la Línea Programa de Jóvenes. En ~35 minutos vas a acompañar a Andrés, un lobato de 7 años, desde su llegada a la Manada hasta su Gran Salto hacia la Tropa: el marco simbólico de La Fantasía y su fondo motivador, El Libro de las Tierras Vírgenes, las seisenas sin jefes fijos, las seis Sendas de la progresión y tu rol como Viejo Lobo — facilitador, no jefe.",
-  "contentVersion": "2026-09-16",
+  "contentVersion": "2026-09-17",
   "icon": "🐺",
   "duration": "35 minutos",
   "level": 2,
@@ -702,7 +702,7 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "🛠️ <strong>Curso 13</strong> — Seguimiento de la Progresión Personal: las técnicas para observar y registrar el avance por las Sendas. <em>(En camino — te avisamos cuando esté listo.)</em>",
+            "🛠️ <strong>Curso 13</strong> — Seguimiento de la Progresión Personal: las técnicas para observar y registrar el avance por las Sendas. <em>(Ya está disponible.)</em>",
             "📋 <strong>Curso 14</strong> — Planeación de Reuniones y Oportunidades de Aprendizaje: cómo diseñar la próxima reunión con DURASLID y los 8 elementos. <em>(En camino — te avisamos cuando esté listo.)</em>",
             "🎯 <strong>Curso 15</strong> — Ciclo de Programa con ABP: cómo la Manada decide y ejecuta sus propios proyectos. <em>(En camino — te avisamos cuando esté listo.)</em>",
             "🐻⚜️🧗🏔️ <strong>Cursos 9, 10, 11 y 12</strong> — las guías de las otras 4 ramas: Familia (9), Tropa (10), Comunidad (11) y Clan (12), si acompañas o vas a acompañar más de una. <em>(Las cuatro ya están publicadas.)</em>"
