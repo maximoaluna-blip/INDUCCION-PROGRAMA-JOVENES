@@ -1,0 +1,1151 @@
+{
+  "courseId": "seguimiento-progresion-personal",
+  "title": "Seguimiento de la Progresión Personal",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "El primero de los tres cursos operativos, y el que sirve a las cinco ramas a la vez. Cómo mirar con intención, registrar lo justo y acordar un paso siguiente, sin que el seguimiento se convierta en papeleo. Los instrumentos oficiales llegan al final, y a propósito.",
+  "contentVersion": "2026-09-17",
+  "icon": "🛠️",
+  "duration": "55 minutos",
+  "level": 2,
+  "levelName": "Profundización por rama y práctica pedagógica",
+  "order": 13,
+  "totalContentModules": 8,
+  "modules": [
+    {
+      "id": 1,
+      "title": "🛠️ La carpeta en blanco",
+      "emoji": "🛠️",
+      "navLabel": "Bienvenida",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>~55 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra sola y tu avance se guarda, así que no hace falta hacerlo de una sentada."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Escribir</strong> una conducta observable con sus tres piezas, y reconocer los tres errores que la arruinan.",
+            "<strong>Elegir</strong> una técnica del banco según la experiencia que tienes enfrente, en vez de intentar usarlas todas.",
+            "<strong>Armar</strong> el kit mínimo de tu rama y sostenerlo un mes.",
+            "<strong>Repartir</strong> el seguimiento en tres momentos, para que no aparezca de golpe al final del mes.",
+            "<strong>Dar</strong> una devolución con la estructura Vi – Logró – Próximo paso, ajustada al momento de progresión.",
+            "<strong>Acompañar</strong> una experiencia de fuera del Movimiento sin invadir.",
+            "<strong>Decidir</strong> qué no se registra, dónde se guarda y quién puede leerlo.",
+            "<strong>Abrir</strong> los tres instrumentos oficiales sabiendo cuál necesitas hoy."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Marcela lleva ocho meses como jefa de Tropa. Tiene dieciocho scouts, cuatro patrullas y una carpeta con formatos impresos que le pasó la jefa anterior. Los formatos siguen en blanco. No por descuido: cada vez que se sienta a llenarlos, el sábado ya pasó y no se acuerda de nada concreto — solo de que Juan <em>anduvo raro</em> y de que la patrulla Halcón <em>funcionó bien</em>."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lo que le falta a Marcela no es un formato mejor. Es haber decidido, <strong>antes</strong> de que empezara la reunión, qué iba a mirar. Eso es todo lo que este curso enseña, y es más barato de lo que parece."
+        },
+        {
+          "type": "info-box",
+          "text": "🛠️ <strong>La frase que sostiene este curso.</strong> «Hoy quiero ver esto.» Esa frase, dicha antes de la reunión, es más seguimiento que cualquier formato llenado después."
+        },
+        {
+          "type": "paragraph",
+          "text": "En el <strong>Curso 6</strong> quedó dicho el principio: la progresión <strong>se observa, no se examina</strong>. Aquí vienen las técnicas concretas para hacerlo, y también los límites: qué no se escribe, quién puede leerlo y cuánto tiempo se guarda."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Para qué es todo esto, dicho por el Modelo",
+          "source": "Modelo de Aplicación «El Gran Juego para la Vida» (DNPJ-2026-024), Cap. 9, p. 66 del PDF.",
+          "text": "La progresión personal es la columna vertebral del escultismo. Como dirigente, tu misión no es llenar formatos ni entregar insignias: es acompañar la transformación de vidas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Este curso <strong>no es un tutorial de Excel</strong>. Los tres instrumentos oficiales existen, son buenos y los vas a conocer — pero en la última lección, cuando ya sepas qué vas a poner dentro. Un archivo abierto antes de tiempo solo produce casillas vacías, que es justamente la carpeta de Marcela."
+        },
+        {
+          "type": "mission-box",
+          "text": "🎯 <strong>Cómo usar este curso.</strong> Sirve a las cinco ramas, así que cada lección cierra con una caja «Y en tu rama» que traduce lo visto a tu Camada, tu seisena, tu patrulla, tu equipo o tu club. De la próxima lección en adelante, cada una cierra con dos preguntas, y hay que acertar las dos para seguir. Si fallas, vuelves al párrafo y lo intentas otra vez, sin penalización."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "👀 Qué es una conducta observable",
+      "emoji": "👀",
+      "navLabel": "Conducta observable",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> si lo que escribiste no se puede ver ni escuchar, no es una conducta observable — es una opinión sobre alguien."
+        },
+        {
+          "type": "paragraph",
+          "text": "Marcela abre su cuaderno y escribe: <em>«Juan es responsable»</em>. Es posible que sea cierto. Pero intenta hacer algo con esa frase: no se puede conversar con ella, no se puede acordar un paso siguiente, y dentro de tres meses no vas a saber de dónde salió. Peor: si alguien la lee, se le queda pegada a Juan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ahora prueba con esta otra: <em>«Llegó a tiempo, revisó su lista y ayudó a que otros se organizaran»</em>. Es la misma idea, pero ahora hay hechos. Y con hechos se conversa sin discutir opiniones."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las tres piezas"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Qué es una conducta observable",
+          "source": "Recursos Educativos para Dirigentes — Herramientas de Seguimiento para la Progresión Personal 2.0 (DNPJ), Cap. 2, p. 2 del PDF.",
+          "text": "Una conducta observable suele tener tres piezas: un verbo claro, un contexto y una señal verificable."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Un verbo claro</strong> — algo que alguien hace: propone, pide, sostiene, reorganiza, repara.",
+            "<strong>Un contexto</strong> — dónde y cuándo: en la patrulla, al cierre, cuando cambió el plan, en la salida del sábado.",
+            "<strong>Una señal verificable</strong> — cómo se nota que ocurrió, sin tener que adivinar intenciones."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Los dos ejemplos que trae la fuente muestran las tres piezas juntas: <em>«propone acuerdos en la patrulla y los recuerda al cierre»</em> y <em>«pide ayuda cuando se siente sobrepasado y acepta una pausa»</em>. Fíjate en que ninguno de los dos dice cómo es la persona. Dicen qué hizo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los tres errores que la arruinan"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Escribir rasgos generales",
+              "description": "<em>«Es responsable», «es respetuoso», «tiene liderazgo».</em> Pueden ser ciertos, pero no te dicen qué observar. Y las etiquetas se quedan pegadas.",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            },
+            {
+              "title": "Poner metas demasiado grandes para la edad",
+              "description": "<em>«Gestiona sus emociones siempre», «toma decisiones plenamente autónomas».</em> El paso siguiente casi siempre es más pequeño y más realista que eso.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "Mezclar demasiadas cosas en una frase",
+              "description": "Cuando una conducta tiene tres o cuatro ideas dentro, se vuelve difícil de observar y casi imposible de valorar con calma.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La edad cambia la forma, no el sentido"
+        },
+        {
+          "type": "paragraph",
+          "text": "La misma competencia se ve distinta a los cinco años que a los diecinueve. Lo que cambia es dónde mirar, no qué se busca."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Cachorros",
+              "description": "Se nota en lo cotidiano: esperar turno, pedir permiso, reconocer una emoción, cuidar un objeto compartido.",
+              "color": "#fff8e1",
+              "borderColor": "#fbc02d"
+            },
+            {
+              "title": "Lobatos",
+              "description": "Aparece el «me doy cuenta» y el «lo intento otra vez». Ayuda mucho observar en el juego y en pequeñas responsabilidades.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "Scouts",
+              "description": "Es natural mirar cómo funciona la patrulla: roles, acuerdos, servicio, autocuidado en salidas.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "Nómadas Scout",
+              "description": "Se ve el salto a proyectos: deliberación, criterio, constancia.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "Rovers",
+              "description": "El indicador más potente suele ser la transferencia: cómo lo lleva a su vida, cómo incide, cómo acompaña a otros.",
+              "color": "#ede7f6",
+              "borderColor": "#673ab7"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cuántas, y cómo se anotan"
+        },
+        {
+          "type": "paragraph",
+          "text": "No hay que observar todo. El <em>Modelo</em> recomienda elegir <strong>dos o tres conductas observables por competencia</strong>, y la fuente de este curso pide <strong>dos o tres observaciones por ciclo de programa</strong> para ver progreso real. Es mucho menos de lo que uno cree que hace falta."
+        },
+        {
+          "type": "info-box",
+          "text": "📝 <strong>El estándar práctico:</strong> una nota breve con fecha y contexto, y si aplica, una evidencia pequeña. A veces basta una línea — <em>«Salida del sábado: asumió su rol sin recordatorios y ayudó a reorganizar el equipo cuando cambió el plan»</em>. Eso es una conducta observable bien registrada."
+        },
+        {
+          "type": "info-box",
+          "text": "🏕️ <strong>Y en tu rama.</strong> La frase de arriba es de Tropa. En Manada sería sobre la seisena; en Familia, sobre la Camada — que no tiene por qué ser la misma de la semana pasada; en Comunidad, sobre el equipo y su proyecto; en Clan, sobre lo que el rover hizo fuera del Clan."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en un protagonista concreto de tu unidad — con nombre. Escribe la frase que le pondrías hoy si tuvieras que describirlo en una línea. Léela: ¿es un rasgo («es callado», «es líder») o es una conducta con verbo, contexto y señal? Si es un rasgo, reescríbela contando un hecho que hayas visto en las últimas cuatro reuniones."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar al banco de técnicas 🧰",
+        "questions": [
+          {
+            "text": "Un dirigente de Manada anota sobre una lobata: «Valeria tiene mucho liderazgo en su seisena». ¿Qué problema tiene esa nota?",
+            "options": [
+              "Es un rasgo general: no dice qué hizo Valeria, así que no se puede conversar ni acordar un paso.",
+              "Está mal porque el liderazgo no es una de las seis áreas de crecimiento de la progresión.",
+              "Le falta la fecha y el lugar, que son los dos datos que exige el registro de la rama."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una jefa de Comunidad quiere trabajar la competencia de convivencia este ciclo. ¿Cuántas conductas observables le conviene poner en foco?",
+            "options": [
+              "Todas las que la competencia permita, para no dejar por fuera ninguna señal de avance.",
+              "Dos o tres, elegidas a propósito, y mirarlas con intención durante el ciclo.",
+              "Una sola por trimestre, porque más de una hace imposible el registro honesto."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "🧰 Un banco, no una lista",
+      "emoji": "🧰",
+      "navLabel": "Banco de técnicas",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> las técnicas de seguimiento son un banco de opciones, no una lista de tareas. Se eligen una o dos y se sostienen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Este es el punto donde más dirigentes se caen. Abren el documento, ven muchas técnicas y concluyen una de dos cosas: o que hay que usarlas todas — y entonces abandonan en tres semanas —, o que aquello es imposible — y entonces no empiezan. La fuente se adelanta a las dos reacciones."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Qué es el Capítulo 4, dicho por él mismo",
+          "source": "Recursos Educativos para Dirigentes — Herramientas de Seguimiento para la Progresión Personal 2.0 (DNPJ), Cap. 4, p. 3 del PDF.",
+          "text": "Por eso ofrecemos una pequeña muestra de técnicas a manera de banco que pueden ser usadas entre Ramas, con opción de ajuste según la edad. La idea no es usarlo todo, es tener opciones y elegir con criterio."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fíjate en lo que <strong>no</strong> dice: no dice cuántas son. No es una lista cerrada que haya que memorizar, y por eso aquí no vas a encontrar un número. Están agrupadas <strong>por propósito</strong>, que es como se eligen."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ocho propósitos, con un ejemplo vivo cada uno"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Observar y registrar",
+              "description": "Observación en acción, registro anecdótico, registro breve de conflicto–resolución. <em>→ El sábado miras solo cómo se reparten los roles; el domingo escribes tres líneas.</em>",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "Instrumentos simples",
+              "description": "Lista de cotejo de tres a cinco ítems, rúbrica ligera de tres criterios, rúbrica por rol, rúbrica de transferencia. <em>→ Cuatro casillas con verbos: usa casco, recoge material, pide permiso, avisa si se va.</em>",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "Autoevaluación y coevaluación",
+              "description": "Semáforo o caritas, coevaluación 2+1, coevaluación guiada por preguntas. <em>→ Al cerrar: ¿qué salió bien?, ¿qué nos costó?, ¿qué haríamos distinto?</em>",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "Bitácoras y reflexión",
+              "description": "Bitácora personal, bitácora de patrulla o equipo, nota breve de dos líneas, mini-entrevista de dos preguntas. <em>→ Dos minutos de conversación con intención valen más que una página escrita sin ganas.</em>",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            },
+            {
+              "title": "Evidencias y portafolio ligero",
+              "description": "Carpeta de evidencias, evidencia visual, evidencia-producto, micro-presentación de un minuto. <em>→ Una foto del proceso con una línea de contexto: «esto muestra que…».</em>",
+              "color": "#e0f7fa",
+              "borderColor": "#00acc1"
+            },
+            {
+              "title": "Hábitos y progreso",
+              "description": "Registro de hábitos de siete a catorce días, calendario con stickers, señales de avance, gráfica simple, revisión en la reunión siguiente. <em>→ Recordar el acuerdo, ver si se sostuvo, ajustar.</em>",
+              "color": "#fff8e1",
+              "borderColor": "#fbc02d"
+            },
+            {
+              "title": "Retroalimentación externa",
+              "description": "Devolución del destinatario de un servicio, retroalimentación 360° en momentos clave. <em>→ «¿Qué te resultó útil de lo que hicimos?», preguntado a quien recibió el impacto.</em>",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "Acuerdos y vida de unidad",
+              "description": "Acta simple de acuerdos, tabla de acciones positivas. <em>→ Qué se decidió, quién lo asume y cuándo se revisa. Tres líneas.</em>",
+              "color": "#ede7f6",
+              "borderColor": "#673ab7"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La receta, para cualquier actividad"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Escoge una conducta observable</strong> — la que más te importe hoy.",
+            "<strong>Elige una técnica</strong> para recoger evidencia. Una sola.",
+            "<strong>Cierra con una pregunta y un paso siguiente</strong> — «¿qué ajustamos para la próxima?»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Con eso ya hay seguimiento. Y, sobre todo, se sostiene: la fuente insiste en que cuando el seguimiento se mantiene simple se mantiene, y cuando se vuelve una lista larga de formatos se abandona."
+        },
+        {
+          "type": "info-box",
+          "text": "🔁 <strong>La técnica más barata, y la más subestimada.</strong> Recordar el acuerdo en la reunión siguiente, ver si se sostuvo y ajustar. Dice la fuente que si una unidad hiciera solo eso con constancia, ya estaría haciendo seguimiento de verdad."
+        },
+        {
+          "type": "info-box",
+          "text": "🏕️ <strong>Y en tu rama.</strong> En Cachorros y Lobatos la mayor parte la registra el dirigente, y el protagonismo está en la experiencia y en el cierre oral. En Scouts ya aparece la bitácora de patrulla y la coevaluación con apoyo adulto. En Nómadas Scout y Rovers, la bitácora personal y las evidencias de proyecto las llevan ellos."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en la próxima actividad concreta de tu unidad — la que ya está en el calendario, con su fecha. Aplica la receta por escrito: qué conducta vas a mirar, con qué técnica vas a recoger la evidencia y con qué pregunta vas a cerrar. Si te salen dos técnicas, tacha una."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar al kit de tu rama 🎒",
+        "questions": [
+          {
+            "text": "Un jefe de Tropa quiere empezar a hacer seguimiento y decide aplicar todas las técnicas del banco durante el próximo campamento. ¿Qué le dirías?",
+            "options": [
+              "Que las aplique todas una vez y después se quede con las que mejor le hayan funcionado en el campamento.",
+              "Que el banco es para elegir con criterio: una o dos, sostenidas, rinden más que todas a la vez.",
+              "Que en campamento conviene no registrar nada y dejar el seguimiento para las reuniones normales."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "La patrulla Halcón terminó un servicio en el comedor del barrio. Marcela tiene quince minutos. ¿Cuál es el cierre que la fuente recomienda?",
+            "options": [
+              "Aplicar una rúbrica por rol a cada scout y archivar los resultados en la carpeta de la patrulla.",
+              "Anotar en el acta lo que hizo cada uno para tenerlo listo cuando toque revisar la progresión.",
+              "Cerrar con una pregunta corta y un acuerdo de próximo paso que se revise en la reunión siguiente."
+            ],
+            "correctIndex": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "🎒 El kit mínimo de tu rama",
+      "emoji": "🎒",
+      "navLabel": "Kit por rama",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el kit es siempre el mismo en su lógica — una herramienta para mirar, una para conversar y una para guardar evidencia. Lo que cambia es la forma, no el número."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cada rama tiene ritmos distintos y niveles de autonomía diferentes. Por eso la fuente no propone «todo para todos», sino un kit mínimo por rama: pocas técnicas, bien escogidas. Algunas ramas suman una cuarta para hábitos o proyectos, cuando tiene sentido."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Familia de Cachorros (5 a 6)",
+              "description": "Visual, corto, con apoyo familiar. Observación en momentos clave · semáforo o caritas al cierre · calendario de hábitos con stickers · y una nota breve a las familias, opcional pero muy poderosa. <em>Una o dos conductas por semana y un cierre de treinta segundos. Nada más.</em>",
+              "color": "#fff8e1",
+              "borderColor": "#fbc02d"
+            },
+            {
+              "title": "Manada de Lobatos (7 a 10)",
+              "description": "Simple y repetible. Lista de cotejo de tres a cinco ítems para roles o hábitos de seisena · registro anecdótico · coevaluación guiada por tres preguntas · una evidencia por ciclo. <em>Dos registros breves al mes, no más.</em>",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "Tropa de Scouts (11 a 14)",
+              "description": "La patrulla al centro. Bitácora de patrulla como hilo conductor · coevaluación 2+1 al terminar roles o retos · rúbrica por rol muy simple · evidencia del proceso con una línea. <em>El dirigente no persigue papeles: acompaña decisiones.</em>",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "Comunidad de Nómadas Scout (15 a 17)",
+              "description": "Proyectos con sentido. Bitácora personal de dos o tres preguntas fijas · rúbrica ligera de tres criterios · una o dos señales de avance · devolución del destinatario cuando hay un «afuera» real. <em>Una evidencia por proyecto y una revisión de acuerdos.</em>",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "Clan de Rovers (18 a 20)",
+              "description": "Pocas herramientas, exigentes en calidad. Rúbrica de transferencia · portafolio de máximo tres evidencias por ciclo · retroalimentación 360° en momentos clave · uno o dos indicadores simples. <em>Menos registros, más profundidad.</em>",
+              "color": "#ede7f6",
+              "borderColor": "#673ab7"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Si tu equipo está saturado: el mínimo mínimo"
+        },
+        {
+          "type": "paragraph",
+          "text": "La fuente tiene una recomendación transversal para unidades que están arrancando o equipos de dirigentes desbordados. Durante un mes, solo esto:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Una conducta observable por semana.",
+            "Un registro anecdótico cada quince días.",
+            "Una conversación de cierre con dos preguntas.",
+            "Y una revisión en la reunión siguiente."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cuando eso se vuelve hábito, lo demás se integra solo. Es la diferencia entre un sistema que funciona en marzo y uno que funciona también en septiembre."
+        },
+        {
+          "type": "info-box",
+          "text": "📓 <strong>Bitácora no es Libro de Oro.</strong> La bitácora es el instrumento de seguimiento: guarda acuerdos, roles asumidos y un cierre breve, y sirve para que cada actividad no empiece de cero. El <strong>Libro de Oro</strong> es otra cosa y sigue llamándose así: es un <strong>símbolo de la rama</strong> — la memoria de la Manada, o el libro que la patrulla escribe y que custodia el Guardián de Leyenda. Uno registra; el otro recuerda."
+        },
+        {
+          "type": "info-box",
+          "text": "🏕️ <strong>Y en tu rama.</strong> Mira el kit de arriba que te corresponde y cuenta cuántas de esas herramientas ya usas sin llamarlas así. Casi siempre son una o dos: el trabajo no es empezar de cero, es nombrar lo que ya haces y sostenerlo."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe el kit real de tu unidad, no el ideal: la herramienta con la que miras, la que usas para conversar y la que te sirve para guardar evidencia. Si alguna casilla queda vacía, elige una del kit de tu rama y ponle fecha de arranque — la de tu próxima reunión."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar a los tres momentos ⏱️",
+        "questions": [
+          {
+            "text": "Una jefa de Familia quiere seguir el hábito de lavarse las manos en sus cachorros de cinco años. ¿Qué herramienta del kit de su rama encaja mejor?",
+            "options": [
+              "Un formato de rúbrica ligera con tres criterios, aplicado al cierre de cada reunión.",
+              "Una bitácora personal donde cada cachorro anote si cumplió el hábito durante la semana.",
+              "Un calendario de hábitos con stickers, que es visual, motivador y sostenible a esa edad."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Un equipo de dirigentes está desbordado y quiere empezar de cero con el seguimiento. ¿Qué les propone la fuente para el primer mes?",
+            "options": [
+              "Una conducta por semana, un anecdótico cada quince días, un cierre de dos preguntas y una revisión.",
+              "Montar el kit completo de la rama desde la primera reunión, para no dejar ningún vacío de registro.",
+              "Esperar al siguiente ciclo de programa y arrancar cuando el equipo tenga más dirigentes disponibles."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "⏱️ Antes, durante y después",
+      "emoji": "⏱️",
+      "navLabel": "Tres momentos",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el seguimiento no aparece al final del mes. Se prepara un poco antes, se mira con intención durante y se cierra con una conversación corta."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Antes — donde está el trabajo decisivo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Es el momento más barato y el que más rinde. Dos decisiones bastan: <strong>una o dos competencias en foco</strong> y <strong>unas cuantas conductas observables</strong> para mirar a propósito. En Scouts puede ser «cómo asumen roles sin recordatorios»; en Lobatos, «cómo sostienen acuerdos simples en seisena»; en Nómadas Scout, «cómo justifican decisiones en un proyecto»."
+        },
+        {
+          "type": "info-box",
+          "text": "🛠️ <strong>Aquí vuelve la frase del curso.</strong> «Hoy quiero ver esto.» Decidirlo antes es lo que evita querer observar todo — y lo que hace que durante la actividad se improvise menos y se disfrute más."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Durante — mirada intencionada, no interrupción"
+        },
+        {
+          "type": "paragraph",
+          "text": "El seguimiento no interrumpe el Programa: se integra. Observar momentos clave, registrar uno o dos hechos, y listo. Dos recomendaciones prácticas: <strong>no registrar todo</strong>, sino lo significativo; y priorizar las situaciones donde se ven decisiones reales — roles, acuerdos, convivencia, autocuidado, resolución de problemas."
+        },
+        {
+          "type": "paragraph",
+          "text": "En actividades técnicas o de campismo, una foto del proceso con una línea de contexto suele ser más útil que un formato largo. En convivencia, un registro breve de conflicto–resolución ayuda a sostener los acuerdos."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Después — cerrar bien, que no es evaluar mucho"
+        },
+        {
+          "type": "paragraph",
+          "text": "No hace falta una gran reunión de evaluación. Lo que importa es cerrar: una pregunta, una devolución breve y un acuerdo de próximo paso. Tres formatos funcionan casi siempre: <strong>semáforo o caritas</strong> en Cachorros y Lobatos, <strong>coevaluación 2+1</strong> de Scouts en adelante, y <strong>dos preguntas de cierre</strong> en todas las ramas, ajustando el lenguaje."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Frecuencia que se puede sostener"
+        },
+        {
+          "type": "paragraph",
+          "text": "La pregunta práctica no es qué sería ideal, sino qué se puede sostener sin agotarse."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "En cada reunión (o casi)",
+              "description": "Un par de conductas observables en foco, un cierre corto — semáforo, dos preguntas o coevaluación 2+1 — y un acuerdo pequeño para la próxima."
+            },
+            {
+              "title": "Cada dos o tres semanas",
+              "description": "Uno o dos registros anecdóticos de hechos significativos, o una lista de cotejo breve si están trabajando roles o hábitos."
+            },
+            {
+              "title": "En cada salida o actividad especial",
+              "description": "Evidencia del proceso o del producto, y un cierre con coevaluación o preguntas guía."
+            },
+            {
+              "title": "En proyectos (Nómadas Scout y Rovers)",
+              "description": "Una evidencia por fase — inicio, desarrollo y cierre — más una reflexión breve o una devolución externa al final."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Qué técnica según el tipo de experiencia"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Habilidades prácticas",
+              "description": "Campismo, cocina, técnica. <em>→ Lista de cotejo breve + evidencia visual + revisión en la reunión siguiente.</em>",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "Convivencia o acuerdos",
+              "description": "<em>→ Registro conflicto–resolución + coevaluación guiada por preguntas.</em>",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "Rol y liderazgo",
+              "description": "<em>→ Rúbrica por rol + coevaluación 2+1 + bitácora de patrulla en Scouts, o de proyecto en Nómadas Scout y Rovers.</em>",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "Hábitos",
+              "description": "Autocuidado, actividad física, organización. <em>→ Registro de hábitos de siete a catorce días + una señal simple de avance + conversación breve.</em>",
+              "color": "#fff8e1",
+              "borderColor": "#fbc02d"
+            },
+            {
+              "title": "Servicio o proyecto con destinatario real",
+              "description": "<em>→ Evidencia-producto + devolución del destinatario + reflexión breve de transferencia.</em>",
+              "color": "#ede7f6",
+              "borderColor": "#673ab7"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🗂️ <strong>Pocas evidencias, bien elegidas.</strong> Por ciclo: tres o cuatro en Cachorros y Lobatos (foto y frase); cinco o seis en Scouts; seis a ocho por proyecto en Nómadas Scout; y en Rovers, máximo ocho por proyecto, seleccionadas y con reflexión de transferencia. Una carpeta sin límite deja de ser portafolio y se vuelve archivo."
+        },
+        {
+          "type": "info-box",
+          "text": "🔗 <strong>Esto mismo, en el Modelo.</strong> El <em>Modelo de Aplicación</em> propone un ciclo operativo de seis pasos para tu día a día: diagnosticar, planear, facilitar, reflexionar, registrar y retroalimentar. Es la misma lógica de antes–durante–después, contada con más detalle (Cap. 9, pp. 66–67)."
+        }
+      ],
+      "reflection": {
+        "prompt": "Toma tu próxima reunión — la de esta semana, con su fecha. Escribe las tres casillas: qué vas a mirar (antes), con qué técnica vas a registrar uno o dos hechos (durante) y con qué pregunta vas a cerrar (después). Después mira tu agenda real y responde honestamente si eso se sostiene cuatro semanas seguidas. Si no, recórtalo."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar a la retroalimentación 💬",
+        "questions": [
+          {
+            "text": "La Comunidad va a cerrar un proyecto de servicio con un comedor comunitario. ¿Qué combinación recomienda la fuente para ese tipo de experiencia?",
+            "options": [
+              "Lista de cotejo breve, evidencia visual del montaje y revisión del acuerdo en la reunión siguiente.",
+              "Evidencia-producto, devolución del destinatario y una reflexión breve de transferencia.",
+              "Registro de hábitos de catorce días, una señal simple de avance y una conversación breve."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Un dirigente dice que hace seguimiento, pero se sienta a escribirlo todo el último domingo del mes. ¿Dónde está el problema, según la fuente?",
+            "options": [
+              "En que no eligió antes qué mirar, así que durante la actividad no había nada en foco que registrar.",
+              "En que el registro mensual no sirve: el reglamento pide que se haga semanalmente en cada rama.",
+              "En que debería delegar ese registro en los propios protagonistas, que son quienes viven la experiencia."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "💬 Vi – Logró – Próximo paso",
+      "emoji": "💬",
+      "navLabel": "Retroalimentación",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> una buena devolución no discute cómo es la persona. Habla de un hecho, de su efecto y de un paso siguiente pequeño."
+        },
+        {
+          "type": "paragraph",
+          "text": "La retroalimentación no necesita ser larga ni perfecta. Necesita ser oportuna, clara y respetuosa. Y hay una estructura de tres pasos que funciona casi siempre."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Vi</strong> — el hecho observable, sin adornos y sin etiquetas.",
+            "<strong>Logró</strong> — el efecto: en el equipo, en la seguridad, en el resultado, en la convivencia.",
+            "<strong>Próximo paso</strong> — una propuesta concreta, pequeña y realista, que se pueda intentar pronto."
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Cómo suena completa, en Scouts",
+          "source": "Recursos Educativos para Dirigentes — Herramientas de Seguimiento para la Progresión Personal 2.0 (DNPJ), Cap. 7 §7.1, p. 18 del PDF.",
+          "text": "Vi que asumiste tu rol sin que te lo recordaran y ayudaste a reorganizar la patrulla cuando cambió el plan. Eso hizo que el equipo no se desordenara y pudiéramos terminar la actividad. Para la próxima, intentemos que al inicio digas en una frase qué necesita cada quien, así el arranque es más rápido."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cambia con el momento de progresión"
+        },
+        {
+          "type": "paragraph",
+          "text": "La misma conducta pide devoluciones distintas según dónde esté el protagonista. Y ahí encajan los <strong>tres roles pedagógicos</strong> que ya viste en el Curso 6: apoyar, acompañar y enlazar no son tres estilos a elegir, son tres momentos."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Exploro · tu rol es apoyar",
+              "description": "La devolución anima el intento y da una pista concreta. <em>«Me di cuenta de que lo intentaste. Para la próxima, probemos con este paso primero.»</em>",
+              "color": "#fff8e1",
+              "borderColor": "#fbc02d"
+            },
+            {
+              "title": "Aplico · tu rol es acompañar",
+              "description": "La devolución se centra en consistencia y ajustes. <em>«Lo estás haciendo cada vez con más claridad. ¿Qué te ayudaría a sostenerlo?»</em>",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "Profundizo · tu rol es enlazar",
+              "description": "La devolución mira transferencia e impacto. <em>«Lo estás aplicando con criterio. ¿Dónde más podrías usarlo fuera de la Unidad?»</em>",
+              "color": "#ede7f6",
+              "borderColor": "#673ab7"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El tono: firme y cuidadoso, sin sermón"
+        },
+        {
+          "type": "paragraph",
+          "text": "La devolución que más sirve suele ser directa, corta, centrada en la acción y con una salida clara. Cuando suena a juicio — <em>«eres…», «siempre…», «nunca…»</em> — cierra la conversación o activa defensas, y muchas veces ni lo notamos. La fuente propone una revisión interna de una sola pregunta: <strong>¿lo que voy a decir ayuda a la persona a saber qué hacer diferente mañana?</strong>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cuando toca corregir en convivencia"
+        },
+        {
+          "type": "paragraph",
+          "text": "A veces hay que poner un límite. Aquí ayuda una fórmula clara y serena, de cuatro partes:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Esto que pasó…</strong> — el hecho.",
+            "<strong>Eso afecta…</strong> — el impacto.",
+            "<strong>En esta Unidad cuidamos…</strong> — el marco.",
+            "<strong>Lo que esperamos ahora es…</strong> — la acción concreta."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Con un ejemplo: <em>«Escuché burlas cuando alguien se equivocó. Eso baja la confianza y rompe el equipo. En la patrulla cuidamos el respeto. Lo que esperamos ahora es que se repare: una disculpa clara y que en la próxima actividad se use un lenguaje que construya.»</em> No es castigo; es cuidado del ambiente educativo."
+        },
+        {
+          "type": "info-box",
+          "text": "🤝 <strong>Cierra con un paso pequeño.</strong> Dos preguntas bastan: «¿qué vas a intentar diferente la próxima vez?» y «¿qué apoyo necesitas para lograrlo?». Así la conversación se vuelve un puente hacia la acción y no un discurso que se pierde."
+        },
+        {
+          "type": "info-box",
+          "text": "🏕️ <strong>Y en tu rama.</strong> En Cachorros es breve y con emoción simple; en Lobatos, reconocimiento más una propuesta sencilla; en Scouts se habla de rol, equipo y consecuencia; en Nómadas Scout, de criterio y constancia; en Rovers, de transferencia e impacto — «¿cómo lo aplicas fuera del Clan?»."
+        }
+      ],
+      "reflection": {
+        "prompt": "Recuerda la última vez que le dijiste algo a un protagonista sobre su comportamiento. Escríbelo tal como lo dijiste, con tus palabras reales. Ahora reescríbelo con la estructura de tres pasos. Si al reescribirlo desaparece un «siempre», un «nunca» o un «eres», ahí está la lección de hoy."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Continuar a lo que pasa afuera 🚪",
+        "questions": [
+          {
+            "text": "Un rover sostiene con rigor su rol en un proyecto y ya lo hace con criterio propio. ¿Hacia dónde apunta la devolución en ese momento?",
+            "options": [
+              "Hacia la consistencia: reconocer el avance y preguntarle qué le ayudaría a sostenerlo en el tiempo.",
+              "Hacia el intento: animarlo a seguir probando y darle una pista concreta para la próxima vez.",
+              "Hacia la transferencia: preguntarle dónde más podría usar eso, fuera del Clan y de la unidad."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Un dirigente le dice a una scout: «Siempre te desconectas cuando algo no sale». ¿Por qué esa frase no funciona como retroalimentación?",
+            "options": [
+              "Porque juzga a la persona en vez de nombrar un hecho, y no le dice qué hacer distinto mañana.",
+              "Porque la retroalimentación sobre convivencia se da en privado y nunca delante de la patrulla.",
+              "Porque antes de dar una devolución hay que registrar la conducta en el instrumento de la rama."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "title": "🚪 Lo que pasa fuera de la reunión",
+      "emoji": "🚪",
+      "navLabel": "Fuera del Movimiento",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> las experiencias de fuera del Movimiento no se recolectan. Se escuchan cuando aparecen, y se convierten en aprendizaje sin invadir."
+        },
+        {
+          "type": "paragraph",
+          "text": "El aprendizaje más fuerte no siempre ocurre en la reunión. Llega en una conversación difícil en casa, en una decisión en el colegio, en una frustración en el deporte, en una responsabilidad inesperada, en una situación digital que exige criterio. Aparecen sin libreto, y justamente por eso valen tanto."
+        },
+        {
+          "type": "paragraph",
+          "text": "La unidad aporta el marco, el lenguaje y la comunidad de apoyo. Las experiencias externas aportan realidad: consecuencias, emociones auténticas, decisiones que importan. Tu trabajo no es rastrear la vida de nadie: es ayudarle a leer lo vivido y a probar un paso siguiente."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Antes de preguntar: tres cuidados"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Ofrece elección</strong> — «si quieres compartir…», «si te nace contarlo…».",
+            "<strong>Delimita el propósito</strong> — «para ver qué aprendizaje te deja», «para pensar un próximo paso».",
+            "<strong>Cuida la privacidad</strong> — «sin entrar en detalles que no quieras»."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Con ese marco, el protagonista mantiene el control de qué comparte, hasta dónde llega y qué quiere cuidar. Y tú no quedas en el papel de investigador."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las tres puertas de entrada"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "A · Un momento que te marcó",
+              "description": "Pregunta base: <em>«¿Te pasó algo recientemente que te movió, para bien o para mal?»</em> Quédate en el sentido, no en los detalles. Basta con «me pasó algo con un amigo» para acompañar el aprendizaje.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "B · Un reto que apareció",
+              "description": "Pregunta base: <em>«¿Hubo alguna situación afuera que te exigió decidir, aguantar, pedir ayuda o resolver?»</em> El foco es el proceso, no el contexto íntimo. Nombra lo que ves: «ahí se ve autocuidado», «ahí se ve convivencia».",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "C · Algo que salió distinto",
+              "description": "Pregunta base: <em>«¿Notaste que hiciste algo mejor que antes, o diferente a como lo hacías?»</em> Convierte el logro en aprendizaje transferible: «¿qué ingrediente hizo la diferencia?», «¿cómo lo sostienes?».",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cualquiera de las tres cierra igual de bien con una pregunta que abre camino sin presionar: <em>«¿qué te gustaría llevarte como aprendizaje de esto?»</em> o <em>«¿qué podrías intentar diferente la próxima vez?»</em>."
+        },
+        {
+          "type": "info-box",
+          "text": "🎯 <strong>Una experiencia, una competencia educativa.</strong> Una vivencia puede tocar muchas cosas a la vez; si intentas abarcarlas todas, se vuelve confuso. La pregunta que limpia la conexión es: «¿qué competencia educativa se está poniendo en juego aquí?». Después eliges <strong>una</strong> conducta observable como foco. A lo sumo dos, y solo si de verdad hace falta."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Convertir la experiencia en aprendizaje: cuatro momentos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cuando una experiencia externa se acompaña bien, no se queda en anécdota. El <em>Modelo</em> lo llamó ciclo de aprendizaje experiencial y lo anunció en el Curso 6; aquí se recorre en cuatro pasos y en pocos minutos:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Experiencia concreta</strong> — qué ocurrió, en términos simples. Solo ubicar el hecho.",
+            "<strong>Observación reflexiva</strong> — qué sintió, qué pensó, qué notó de sí mismo y de otros. Aquí ya hay aprendizaje.",
+            "<strong>Conceptualización</strong> — qué idea o criterio se lleva. No tiene que sonar académico: «cuando me apuro, me equivoco» sirve.",
+            "<strong>Aplicación</strong> — dónde lo va a usar la próxima vez."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🚫 <strong>Y un cuidado explícito: no sobreinterpretar.</strong> No hace falta explicar toda la vida del protagonista. Se trabaja con lo que se ve y con lo que la persona elige compartir, y desde ahí se acuerda un paso siguiente."
+        },
+        {
+          "type": "info-box",
+          "text": "🏕️ <strong>Y en tu rama.</strong> En Cachorros y Lobatos estas conversaciones son cortas, orales y casi siempre las registra el dirigente. En Scouts caben al cierre de una salida. En Nómadas Scout y Rovers son el material más rico que vas a tener, porque su vida fuera de la unidad ya es ancha."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en un protagonista que te haya contado algo de su vida fuera del Movimiento en los últimos dos meses — con nombre, y con lo que realmente te dijo. Escribe cuál de las tres puertas se abrió, qué competencia educativa estaba en juego y qué pregunta de cierre le habrías hecho sabiendo lo que sabes ahora."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7",
+        "nextLabel": "Continuar a lo que no se registra 🔐",
+        "questions": [
+          {
+            "text": "Una nómada cuenta que tuvo una discusión fuerte en su casa y que esta vez no gritó. ¿Cómo lo acompañas sin invadir?",
+            "options": [
+              "Le pides que te cuente qué pasó en su casa para poder ayudarla mejor con lo que está viviendo.",
+              "Le reconoces el cambio y le preguntas qué hizo distinto y cómo podría repetirlo la próxima vez.",
+              "Le sugieres que lo escriba completo en su bitácora personal y que después lo revisen juntas."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Un dirigente escucha una experiencia externa y quiere conectarla con la progresión. ¿Qué conexión recomienda la fuente?",
+            "options": [
+              "Una experiencia con una competencia educativa principal, y una conducta observable como foco.",
+              "Todas las competencias que la experiencia toque, para no perder ninguna señal de aprendizaje.",
+              "Ninguna: lo que ocurre fuera del Movimiento no se conecta con la progresión personal del joven."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "title": "🔐 Lo que no se registra",
+      "emoji": "🔐",
+      "navLabel": "Ética del registro",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el seguimiento se basa en confianza, y la confianza se cuida con decisiones pequeñas — qué escribimos, cómo, dónde se guarda y quién lo puede ver."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esta es la lección que separa el seguimiento educativo de la vigilancia. Bien hecho, es una herramienta segura. Mal hecho, se vuelve invasivo o genera miedo, y nadie quiere eso."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Qué se registra, y qué no"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Se registra lo educativo:</strong> acciones observables, acuerdos, evidencias del aprendizaje, avances en hábitos, participación, liderazgo, trabajo en equipo, autocuidado en contextos de actividad scout."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Se evita lo íntimo o sensible:</strong> detalles de salud, situaciones familiares, historias personales delicadas, diagnósticos. El instrumento pedagógico no es el lugar para guardar eso."
+        },
+        {
+          "type": "info-box",
+          "text": "⚖️ <strong>La regla para decidir en un segundo.</strong> Si no es necesario para acompañar una conducta educativa y un paso siguiente, no hace falta escribirlo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cómo se registra: hechos, no etiquetas"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Así suena un registro útil",
+              "description": "<em>«Observé esto», «pasó esto», «acordamos esto», «logró esto».</em> Es verificable y educativo, y permite conversar sin discutir opiniones.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "Así no",
+              "description": "<em>«Es problemático», «es irresponsable», «siempre…», «nunca…».</em> No es por hablar bonito: las etiquetas se quedan pegadas y dañan relaciones.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Dónde se guarda y quién lo ve"
+        },
+        {
+          "type": "paragraph",
+          "text": "El seguimiento necesita un lugar claro y limitado: una carpeta física por unidad, patrulla o equipo, o una carpeta digital con acceso restringido al equipo adulto responsable. En cualquiera de los dos casos, conviene acordar tres cosas y dejarlas dichas:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Quién registra.</strong>",
+            "<strong>Quién puede leer.</strong>",
+            "<strong>Cuánto tiempo se conserva.</strong>"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Mientras menos circula la información, más se protege la confianza — y al mismo tiempo el dirigente puede acompañar con continuidad. Las dos cosas caben juntas."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las fotos también son registro"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cuando se usan evidencias visuales hay que cuidar tres cosas: que no se compartan sin necesidad, que no se usen para exponer o ridiculizar, y que tengan un propósito educativo claro. En Cachorros y Lobatos, donde las familias están más presentes, el cuidado es todavía mayor: evidencias simples, sin sobreexposición."
+        },
+        {
+          "type": "info-box",
+          "text": "🚨 <strong>Cuando aparece algo que no es pedagógico.</strong> Si en una conversación surge una situación sensible o una revelación, <strong>eso no se maneja con estas herramientas</strong>: se maneja por las rutas institucionales y con la reserva del caso. Qué hacer ante una revelación, cuál es el límite de tu rol y cuáles son las señales de alerta son materia de <strong>A Salvo del Peligro</strong> — la línea de Políticas Transversales y el Curso 25. Aquí solo queda dicho dónde termina el seguimiento educativo."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 La frase que sirve como brújula",
+          "source": "Recursos Educativos para Dirigentes — Herramientas de Seguimiento para la Progresión Personal 2.0 (DNPJ), Cap. 11, p. 32 del PDF.",
+          "text": "El seguimiento pedagógico nunca es un archivo de intimidades, se mantiene en lo que ayuda a crecer con dignidad y seguridad."
+        },
+        {
+          "type": "info-box",
+          "text": "🏕️ <strong>Y en tu rama.</strong> En unidades pequeñas o en grupos donde todos se conocen, esto pesa más, no menos: la cercanía hace más fácil que un comentario se convierta en etiqueta y que una etiqueta viaje. La confianza es parte del método."
+        }
+      ],
+      "reflection": {
+        "prompt": "Abre lo que hoy tienes escrito sobre tus protagonistas — el cuaderno, el chat del equipo de dirigentes, el archivo compartido. Busca una frase que sea una etiqueta y no un hecho, y reescríbela. Después responde las tres preguntas para tu unidad: quién registra, quién puede leer y cuánto tiempo se conserva. Si alguna no tiene respuesta acordada, esa es tu tarea de esta semana."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 8",
+        "nextLabel": "Continuar a tus instrumentos 📄",
+        "questions": [
+          {
+            "text": "Durante una salida, un scout le cuenta a Marcela algo delicado sobre su situación familiar. ¿Qué hace Marcela con esa información?",
+            "options": [
+              "La anota en el registro de seguimiento con la fecha, para que quede constancia de lo que le contó.",
+              "No la comenta con nadie más y la anota en el registro para poder hacerle seguimiento después.",
+              "No la lleva al instrumento pedagógico: eso se maneja por las rutas institucionales y con reserva."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Un equipo de dirigentes va a abrir una carpeta digital compartida para el seguimiento de su unidad. ¿Qué tres acuerdos conviene dejar dichos?",
+            "options": [
+              "Quién registra, quién puede leer y cuánto tiempo se conserva la información guardada.",
+              "Quién diseña el formato, con qué frecuencia se llena y quién revisa que esté al día cada mes.",
+              "Qué áreas de crecimiento se priorizan, cuántas evidencias se guardan y dónde se imprimen."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "title": "📄 Tus tres instrumentos, y tu próxima reunión",
+      "emoji": "📄",
+      "navLabel": "Instrumentos",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> ahora sí, los archivos. Llegan al final porque un instrumento solo sirve cuando ya sabes qué vas a poner dentro."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Dirección Nacional de Programa de Jóvenes publica tres instrumentos para esto. No son intercambiables: cada uno responde una pregunta distinta, y probablemente hoy solo necesitas uno."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Archivo Base de Oportunidades de Aprendizaje",
+              "description": "Responde <em>«¿qué miro, y con qué?»</em>. Una hoja por rama, y dentro las seis áreas con sus competencias. Para cada una, en los tres niveles: cómo facilitarla, cómo se ve en una reunión, qué <strong>conductas observables</strong> buscar y qué <strong>herramientas de evaluación</strong> usar. Es un mapa de consulta, no un formato para llenar.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "Registro de Acompañamiento a la Progresión Personal",
+              "description": "Responde <em>«¿dónde anoto lo de cada protagonista?»</em>. Código <strong>DNPJ-2026-021</strong>. Trae la identificación general, la información de acompañamiento — fortalezas, aspectos por fortalecer, ajustes razonables —, el registro de fases y reconocimientos, la síntesis por áreas y una hoja duplicable para cada Oportunidad de Aprendizaje.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "La misma herramienta, en versión aplicación",
+              "description": "Responde lo mismo que el anterior, pero sin Excel. Es un archivo web que se abre en el navegador: perfiles de los protagonistas, registro de oportunidades, informes por rama y salida en PDF. Existe, es oficial y casi nadie sabe que está publicada.",
+              "color": "#ede7f6",
+              "borderColor": "#673ab7"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cómo se lee una casilla del Archivo Base"
+        },
+        {
+          "type": "paragraph",
+          "text": "Marcela abre la hoja <strong>Scouts</strong> y busca la primera competencia de Corporalidad. En la columna <strong>Aplicación</strong> encuentra, ya escrito, lo que le costaba inventar: la conducta observable — <em>«define una meta física realista y hace seguimiento»</em> — y las herramientas que le sirven — bitácora personal con dos preguntas, bitácora de patrulla, registro anecdótico —. No tuvo que crear nada: tuvo que elegir."
+        },
+        {
+          "type": "info-box",
+          "text": "📌 <strong>Ojo con los nombres de las hojas.</strong> El Archivo Base rotula por <strong>rama</strong> (Cachorros, Lobatos, Scouts, Nómadas Scout, Rovers) y el Registro rotula por <strong>unidad</strong> (Familia, Manada, Tropa, Comunidad, Clan). Los dos están bien: son las dos caras de la misma distinción que viste en el curso de tu rama. Y en Cachorros la columna se llama <strong>Dimensión</strong>, no Competencia — también a propósito."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tres nombres para los mismos tres momentos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Te vas a encontrar los tres momentos de la progresión escritos de tres maneras, y conviene saberlo antes de abrir los archivos y pensar que te equivocaste de documento."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Exploro · Aplico · Profundizo</strong> — así los nombra el <em>Modelo de Aplicación</em>, y es la forma que usa esta plataforma.",
+            "<strong>Exploración · Aplicación · Profundización</strong> — así aparecen en las <em>Herramientas de Seguimiento 2.0</em> y en las columnas del Archivo Base.",
+            "<strong>Explora · Aplica · Profundiza</strong> — así se marca el nivel de desempeño en el Registro DNPJ-2026-021."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Son <strong>los mismos tres</strong>, nombrados por tres documentos vigentes. No hay que elegir bando: hay que reconocerlos."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tu próxima reunión"
+        },
+        {
+          "type": "paragraph",
+          "text": "Marcela no cambió de carpeta. Cambió el momento en que decide. Ahora, el jueves, escribe una frase en el reverso de la hoja de la reunión — y el sábado la mira. Eso es todo lo que hace distinto, y es lo que hizo que sus formatos dejaran de estar en blanco."
+        },
+        {
+          "type": "mission-box",
+          "text": "🎯 <strong>Tu compromiso.</strong> Escríbelo para una reunión con fecha, no para «algún día»: «En la reunión del ____ quiero ver ______ en ______. Lo voy a registrar con ______, y voy a cerrar preguntando ______.» Después elige <strong>una</strong> herramienta del kit de tu rama y sostenla un mes. Una sola. Si al mes sigue en pie, ya tienes seguimiento."
+        },
+        {
+          "type": "info-box",
+          "text": "➡️ <strong>Lo que viene.</strong> En el <strong>Curso 14</strong> vas a planear la reunión donde todo esto ocurre, con la herramienta oficial de Planeación de Reunión y Oportunidades de Aprendizaje. Y en el <strong>Curso 15</strong>, cómo el ciclo de programa de tu unidad ordena el año entero. Ninguno de los dos bloquea nada: se recomiendan, no se exigen."
+        },
+        {
+          "type": "info-box",
+          "text": "🛠️ <strong>Y la frase, por última vez.</strong> «Hoy quiero ver esto.» Dicha antes de la reunión, es más seguimiento que cualquier formato llenado después. Ya sabes qué poner en ella."
+        }
+      ],
+      "reflection": {
+        "prompt": "Abre el instrumento que te corresponda hoy y llénalo para un solo protagonista — uno, con nombre. Si te toma más de diez minutos, estás poniendo cosas que no hacen falta; vuelve a la Lección 8 y quita todo lo que no ayude a acompañar una conducta y un paso siguiente. Escribe aquí qué te sobró."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 9",
+        "nextLabel": "Ver mi certificado 🎓",
+        "questions": [
+          {
+            "text": "Marcela no sabe qué conducta observable mirar para la competencia de convivencia en su Tropa. ¿Qué instrumento le resuelve eso?",
+            "options": [
+              "El Registro de Acompañamiento, en su hoja de síntesis de avance por áreas de crecimiento.",
+              "El Archivo Base, que trae las conductas observables y las herramientas de cada nivel por rama.",
+              "La herramienta web, que genera el informe de la rama y lo exporta en PDF para el consejo."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Un dirigente abre el Archivo Base y ve «Exploración», pero en el Registro la casilla dice «Explora» y en el curso aprendió «Exploro». ¿Qué está pasando?",
+            "options": [
+              "Son los mismos tres momentos nombrados por tres documentos oficiales distintos y vigentes.",
+              "El Archivo Base quedó desactualizado y hay que corregirlo antes de usarlo con la unidad.",
+              "Son tres escalas diferentes: una para áreas, otra para competencias y otra para las fases."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      }
+    }
+  ],
+  "achievements": [
+    { "id": "achievement-1", "emoji": "👀", "name": "Escribo lo que se ve", "unlockOnModule": 2 },
+    { "id": "achievement-2", "emoji": "🧰", "name": "Elijo una, no todas", "unlockOnModule": 3 },
+    { "id": "achievement-3", "emoji": "🎒", "name": "Tengo kit", "unlockOnModule": 4 },
+    { "id": "achievement-4", "emoji": "⏱️", "name": "Decido antes", "unlockOnModule": 5 },
+    { "id": "achievement-5", "emoji": "💬", "name": "Devuelvo sin juzgar", "unlockOnModule": 6 },
+    { "id": "achievement-6", "emoji": "🚪", "name": "Abro la puerta sin entrar", "unlockOnModule": 7 },
+    { "id": "achievement-7", "emoji": "🔐", "name": "Sé lo que no escribo", "unlockOnModule": 8 },
+    { "id": "achievement-8", "emoji": "📄", "name": "Abro el archivo correcto", "unlockOnModule": 9 },
+    { "id": "achievement-9", "emoji": "⭐", "name": "Acompaño la progresión", "unlockOnModule": -1 }
+  ],
+  "certificate": {
+    "courseName": "SEGUIMIENTO DE LA PROGRESIÓN PERSONAL",
+    "description": "ha completado el Curso 13 de la Línea Programa de Jóvenes — Seguimiento de la Progresión Personal, reconociendo las tres piezas de una conducta observable y los errores que la arruinan, el banco de técnicas como un conjunto de opciones que se eligen con criterio, el kit mínimo de cada una de las cinco ramas, los tres momentos del seguimiento dentro del ciclo de programa, la retroalimentación con la estructura Vi – Logró – Próximo paso ajustada a cada momento de la progresión, el acompañamiento de las experiencias vividas fuera del Movimiento sin invadir la intimidad, los límites éticos de lo que se registra y de quién puede leerlo, y el uso de los instrumentos oficiales de la Dirección Nacional de Programa de Jóvenes"
+  }
+}

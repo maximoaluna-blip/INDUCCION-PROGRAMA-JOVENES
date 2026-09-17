@@ -1,0 +1,3399 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguimiento de la Progresión Personal - Plataforma de Formación de Adultos ASC</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+    <link rel="icon" type="image/png" href="../assets/logo-asc.png">
+    <link rel="stylesheet" href="../assets/dark-theme.css">
+    <!-- Early theme init para evitar FOUC en modo oscuro -->
+    <script>(function(){try{var t=localStorage.getItem('rover-theme');if(t==='dark'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}})();</script>
+    <style>
+/* ============================================
+   PLATAFORMA DE FORMACION DE ADULTOS - ASC
+   Montserrat | #622599 | #ffe675 | #00afef
+   ============================================ */
+
+/* --- Policy quote (collapsed by default) --- */
+.policy-quote {
+    margin: 18px 0;
+    border-left: 4px solid #622599;
+    background: #f8f5fc;
+    padding: 12px 18px;
+    border-radius: 4px;
+    transition: background .2s;
+}
+.policy-quote summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: #622599;
+    outline: none;
+    list-style: none;
+    user-select: none;
+    font-size: 0.92em;
+}
+.policy-quote summary::-webkit-details-marker { display: none; }
+.policy-quote summary::before {
+    content: '▸ ';
+    display: inline-block;
+    transition: transform .2s;
+    margin-right: 4px;
+}
+.policy-quote[open] summary::before { transform: rotate(90deg); }
+.policy-quote[open] { background: #f3edfa; }
+.policy-quote-text {
+    font-style: italic;
+    color: #333;
+    margin: 12px 0 0 0 !important;
+    font-size: 0.95em;
+    line-height: 1.65;
+    border: none !important;
+    padding: 0 !important;
+    text-align: left !important;
+}
+.policy-quote-source {
+    font-size: 0.8em;
+    color: #636363;
+    margin: 8px 0 0 0;
+    text-align: right;
+}
+[data-theme="dark"] .policy-quote { background: #2a1f3a; border-left-color: #b78fee; }
+[data-theme="dark"] .policy-quote summary { color: #d4b8ff; }
+[data-theme="dark"] .policy-quote[open] { background: #321f48; }
+[data-theme="dark"] .policy-quote-text { color: #ddd; }
+[data-theme="dark"] .policy-quote-source { color: #aaa; }
+
+/* --- Photo upload --- */
+.photo-upload {
+    margin: 20px 0;
+    background: #f8f5fc;
+    border: 2px dashed #622599;
+    border-radius: 8px;
+    padding: 22px;
+    text-align: center;
+}
+.photo-upload-title {
+    color: #622599;
+    margin: 0 0 6px 0;
+    font-size: 1em;
+}
+.photo-upload-hint {
+    color: #666;
+    font-size: 0.88em;
+    margin: 0 0 16px 0;
+}
+.photo-upload-input { display: none; }
+.photo-upload-btn {
+    display: inline-block;
+    background: #622599;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.95em;
+    transition: background .2s;
+}
+.photo-upload-btn:hover { background: #4a1c75; }
+.photo-preview { margin: 16px 0 0 0; }
+.photo-preview img {
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.photo-actions {
+    margin-top: 14px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.photo-actions .btn-secondary {
+    background: #fff;
+    color: #622599;
+    border: 2px solid #622599;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+.photo-actions .btn-secondary:hover { background: #f3edfa; }
+.photo-actions .btn-tertiary {
+    background: transparent;
+    color: #636363;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+.photo-actions .btn-tertiary:hover { color: #d33; border-color: #d33; }
+.photo-upload-share {
+    margin: 16px 0 0 0;
+    font-size: 0.82em;
+    color: #555;
+    background: #fff;
+    padding: 10px 12px;
+    border-radius: 4px;
+    text-align: left;
+}
+.hidden { display: none !important; }
+[data-theme="dark"] .photo-upload { background: #2a1f3a; border-color: #b78fee; }
+[data-theme="dark"] .photo-upload-title { color: #d4b8ff; }
+[data-theme="dark"] .photo-upload-hint { color: #bbb; }
+[data-theme="dark"] .photo-upload-share { background: #1a1325; color: #ccc; }
+[data-theme="dark"] .photo-actions .btn-secondary { background: #1a1325; color: #d4b8ff; border-color: #b78fee; }
+
+/* --- Self-assessment --- */
+.self-assessment {
+    margin: 20px 0;
+    background: #f8f5fc;
+    border: 2px solid #622599;
+    border-radius: 10px;
+    padding: 22px;
+}
+.self-assessment-intro {
+    font-size: 0.95em;
+    color: #444;
+    margin: 0 0 18px 0;
+}
+.competence-block {
+    margin: 0 0 18px 0;
+    padding: 14px 16px;
+    background: #fff;
+    border-radius: 8px;
+    border-left: 4px solid #622599;
+}
+.competence-name {
+    color: #622599;
+    margin: 0 0 4px 0;
+    font-size: 1em;
+}
+.competence-def {
+    font-size: 0.85em;
+    color: #666;
+    font-style: italic;
+    margin: 0 0 12px 0;
+}
+.grade-options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.grade-option {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 12px;
+    background: #f8f5fc;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background .15s, border-color .15s;
+    border: 2px solid transparent;
+    font-size: 0.9em;
+    line-height: 1.45;
+}
+.grade-option:hover { background: #efe5fa; }
+.grade-option input { margin-top: 3px; }
+.grade-option:has(input:checked) {
+    background: #efe5fa;
+    border-color: #622599;
+}
+.grade-level {
+    color: #622599;
+    font-weight: 700;
+    flex-shrink: 0;
+    min-width: 70px;
+}
+.grade-text { flex: 1; color: #333; }
+.self-assessment-actions {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.self-assessment-actions .btn-primary {
+    background: #622599;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.95em;
+    transition: background .2s;
+}
+.self-assessment-actions .btn-primary:hover { background: #4a1c75; }
+.self-assessment-actions .btn-primary:disabled { background: #b8a3d4; cursor: not-allowed; }
+.self-assessment-result {
+    margin: 24px 0 0 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    border: 2px solid #ffc107;
+}
+.self-assessment-result h3 {
+    color: #622599;
+    margin: 0 0 14px 0;
+    text-align: center;
+}
+.profile-summary {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 16px 0;
+}
+.profile-strengths, .profile-opportunities {
+    padding: 14px;
+    border-radius: 6px;
+}
+.profile-strengths { background: #e8f5e9; border-left: 4px solid #4caf50; }
+.profile-opportunities { background: #fff3e0; border-left: 4px solid #ff9800; }
+.profile-strengths h4 { color: #2e7d32; margin: 0 0 8px 0; }
+.profile-opportunities h4 { color: #e65100; margin: 0 0 8px 0; }
+.profile-strengths ul, .profile-opportunities ul { margin: 0; padding-left: 20px; font-size: 0.9em; }
+.profile-recommendation {
+    margin-top: 16px;
+    padding: 14px;
+    background: #f3e5f5;
+    border-radius: 6px;
+    border-left: 4px solid #9c27b0;
+    font-size: 0.92em;
+    color: #4a148c;
+    line-height: 1.55;
+}
+@media (max-width: 600px) { .profile-summary { grid-template-columns: 1fr; } }
+[data-theme="dark"] .self-assessment { background: #2a1f3a; border-color: #b78fee; }
+[data-theme="dark"] .competence-block { background: #1a1325; border-left-color: #b78fee; }
+[data-theme="dark"] .competence-name { color: #d4b8ff; }
+[data-theme="dark"] .competence-def { color: #bbb; }
+[data-theme="dark"] .grade-option { background: #2a1f3a; color: #ddd; }
+[data-theme="dark"] .grade-option:hover { background: #3a2b50; }
+[data-theme="dark"] .grade-option:has(input:checked) { background: #3a2b50; }
+[data-theme="dark"] .grade-level { color: #d4b8ff; }
+[data-theme="dark"] .grade-text { color: #ddd; }
+[data-theme="dark"] .self-assessment-result { background: #1a1325; border-color: #b78fee; }
+
+/* --- Plan Builder --- */
+.plan-builder {
+    margin: 20px 0;
+    background: #f8f5fc;
+    border: 2px solid #622599;
+    border-radius: 10px;
+    padding: 22px;
+}
+.pb-profile-banner {
+    margin: 0 0 16px 0;
+    padding: 14px;
+    background: #fff8e1;
+    border-radius: 8px;
+    border-left: 4px solid #ffc107;
+    font-size: 0.92em;
+    line-height: 1.5;
+}
+.pb-profile-banner.no-profile {
+    background: #f5f5f5;
+    border-left-color: #999;
+    color: #666;
+}
+.pb-intro {
+    font-size: 0.92em;
+    color: #444;
+    margin: 0 0 16px 0;
+}
+.pb-competence {
+    background: #fff;
+    border-radius: 8px;
+    margin: 0 0 12px 0;
+    overflow: hidden;
+    border-left: 4px solid #ddd;
+    transition: border-color .15s;
+}
+.pb-competence:has(.pb-comp-check:checked) { border-left-color: #622599; background: #faf6ff; }
+.pb-comp-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    cursor: pointer;
+    font-size: 0.95em;
+}
+.pb-comp-check { transform: scale(1.2); cursor: pointer; }
+.pb-comp-name { flex: 1; font-weight: 600; color: #333; }
+.pb-comp-grade { font-size: 0.85em; color: #636363; padding: 2px 8px; background: #f0f0f0; border-radius: 4px; }
+.pb-comp-grade.priority { background: #ffe0b2; color: #e65100; font-weight: 600; }
+.pb-comp-fields {
+    padding: 8px 16px 16px 50px;
+    border-top: 1px solid #eee;
+}
+.pb-field-label {
+    display: block;
+    font-size: 0.85em;
+    color: #622599;
+    font-weight: 600;
+    margin: 12px 0 6px 0;
+}
+.pb-field-meta, .pb-field-recursos {
+    width: 100%;
+    min-height: 60px;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 0.9em;
+    resize: vertical;
+}
+.pb-field-plazo {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 0.9em;
+}
+.pb-field-meta:focus, .pb-field-recursos:focus, .pb-field-plazo:focus {
+    outline: none; border-color: #622599;
+}
+.pb-commitment-block {
+    margin: 18px 0 0 0;
+    padding: 14px 16px;
+    background: #f3e5f5;
+    border-radius: 8px;
+    border-left: 4px solid #9c27b0;
+}
+.pb-commitment-label { color: #4a148c; }
+.pb-commitment {
+    width: 100%;
+    min-height: 80px;
+    padding: 10px;
+    border: 1px solid #ce93d8;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 0.92em;
+    resize: vertical;
+    background: #fff;
+}
+.pb-actions {
+    margin-top: 18px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pb-actions .btn-primary {
+    background: #622599;
+    color: #fff;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.92em;
+}
+.pb-actions .btn-primary:hover { background: #4a1c75; }
+.pb-actions .btn-secondary {
+    background: #fff;
+    color: #622599;
+    border: 2px solid #622599;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+.pb-output {
+    margin-top: 22px;
+    padding: 28px;
+    background: #fff;
+    border: 2px solid #622599;
+    border-radius: 8px;
+}
+.pb-output h2 { color: #622599; text-align: center; margin: 0 0 8px 0; }
+.pb-output .pb-output-meta { text-align: center; color: #666; font-size: 0.9em; margin: 0 0 24px 0; }
+.pb-output .pb-priority { margin: 18px 0; padding: 14px 18px; background: #faf6ff; border-left: 4px solid #622599; border-radius: 6px; }
+.pb-output .pb-priority h3 { color: #622599; margin: 0 0 10px 0; font-size: 1em; }
+.pb-output .pb-priority dt { font-weight: 600; color: #333; margin-top: 8px; }
+.pb-output .pb-priority dd { margin: 4px 0 0 0; padding-left: 0; color: #444; white-space: pre-wrap; }
+.pb-output .pb-final-commitment { margin-top: 24px; padding: 16px; background: #f3e5f5; border-radius: 6px; border-left: 4px solid #9c27b0; }
+.pb-output .pb-final-commitment h3 { color: #4a148c; margin: 0 0 8px 0; }
+.pb-output .pb-print-btn {
+    display: block; margin: 24px auto 0; padding: 12px 28px;
+    background: #4caf50; color: #fff; border: none; border-radius: 6px;
+    font-weight: 700; cursor: pointer; font-size: 0.95em;
+}
+.pb-output .pb-print-btn:hover { background: #388e3c; }
+@media print {
+    body.printing-plan * { visibility: hidden; }
+    body.printing-plan .pb-output, body.printing-plan .pb-output * { visibility: visible; }
+    body.printing-plan .pb-output { position: absolute; left: 0; top: 0; width: 100%; padding: 20px; border: none; }
+    body.printing-plan .pb-print-btn { display: none !important; }
+}
+[data-theme="dark"] .plan-builder { background: #2a1f3a; border-color: #b78fee; }
+[data-theme="dark"] .pb-competence { background: #1a1325; border-left-color: #444; }
+[data-theme="dark"] .pb-competence:has(.pb-comp-check:checked) { background: #321f48; border-left-color: #b78fee; }
+[data-theme="dark"] .pb-comp-name { color: #ddd; }
+[data-theme="dark"] .pb-field-label { color: #d4b8ff; }
+[data-theme="dark"] .pb-field-meta, [data-theme="dark"] .pb-field-recursos, [data-theme="dark"] .pb-field-plazo { background: #2a1f3a; color: #ddd; border-color: #555; }
+[data-theme="dark"] .pb-commitment-block { background: #2a1f3a; border-left-color: #ce93d8; }
+[data-theme="dark"] .pb-commitment { background: #1a1325; color: #ddd; border-color: #555; }
+[data-theme="dark"] .pb-output { background: #1a1325; border-color: #b78fee; }
+
+/* --- Prefill banner (autollenado de registro) --- */
+.prefill-banner {
+    margin: 14px 0 18px 0;
+    padding: 14px 16px;
+    background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
+    border-left: 4px solid #2196f3;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(33, 150, 243, 0.1);
+}
+.prefill-banner-content {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.prefill-banner-icon {
+    font-size: 1.8em;
+    flex-shrink: 0;
+}
+.prefill-banner-content > div {
+    flex: 1;
+    color: #0d47a1;
+    font-size: 0.92em;
+    line-height: 1.5;
+}
+.prefill-banner-hint {
+    color: #555;
+    font-size: 0.88em;
+}
+.prefill-banner-clear {
+    flex-shrink: 0;
+    background: #fff;
+    color: #2196f3;
+    border: 1px solid #2196f3;
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-size: 0.82em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .15s;
+}
+.prefill-banner-clear:hover { background: #2196f3; color: #fff; }
+@media (max-width: 600px) {
+    .prefill-banner-content { flex-direction: column; align-items: flex-start; gap: 10px; }
+    .prefill-banner-clear { align-self: flex-end; }
+}
+[data-theme="dark"] .prefill-banner { background: linear-gradient(135deg, #1a2a3a 0%, #2a1f3a 100%); border-left-color: #64b5f6; }
+[data-theme="dark"] .prefill-banner-content > div { color: #bbdefb; }
+[data-theme="dark"] .prefill-banner-hint { color: #aaa; }
+[data-theme="dark"] .prefill-banner-clear { background: #1a1325; color: #64b5f6; border-color: #64b5f6; }
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background: #f2f5f7;
+    min-height: 100vh;
+    padding-bottom: 80px;
+    color: #2c2927;
+}
+
+/* --- Top Bar --- */
+.top-bar {
+    background: #622599; padding: 12px 0; position: sticky; top: 0; z-index: 100;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+.top-bar-inner {
+    max-width: 940px; margin: 0 auto; padding: 0 20px;
+    display: flex; align-items: center; justify-content: space-between;
+}
+.top-bar .logos { display: flex; align-items: center; gap: 15px; }
+.top-bar .logos img { height: 40px; }
+.top-bar .logos .separator { width: 1px; height: 30px; background: rgba(255,255,255,0.3); }
+.top-bar a.back-link {
+    color: #ffe675; text-decoration: none; font-size: 0.85em; font-weight: 600;
+}
+.top-bar a.back-link:hover { text-decoration: underline; }
+
+.container { max-width: 940px; margin: 0 auto; padding: 20px; }
+
+/* --- Header & Progress --- */
+.header {
+    background: white; padding: 25px; margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08); text-align: center;
+    border-top: 4px solid #622599;
+}
+.header h1 { color: #622599; margin-bottom: 10px; font-size: 1.8em; font-weight: 700; }
+.header p { color: #636363; font-size: 1em; }
+/* Etiqueta "(opcional)" en formularios. Color accesible (AA) sobre fondo claro;
+   override de modo oscuro en assets/dark-theme.css. */
+.opcional-label { color: #636363; font-weight: 400; font-size: 0.85em; }
+
+.progress-container {
+    background: #e0e0e0; height: 30px;
+    margin: 20px 0; overflow: hidden; position: relative;
+}
+.progress-bar {
+    background: linear-gradient(90deg, #622599, #8e44ad); height: 100%; width: 0%;
+    transition: width 0.5s ease; display: flex; align-items: center;
+    justify-content: center; color: white; font-weight: 700;
+}
+.progress-text {
+    position: absolute; width: 100%; text-align: center;
+    line-height: 30px; color: #2c2927; font-weight: 700;
+}
+
+/* --- Navigation --- */
+.nav-menu {
+    display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap;
+    background: white; padding: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+.nav-btn {
+    flex: 1; min-width: 90px; padding: 10px 8px; background: #f2f5f7;
+    border: 2px solid #ddd; cursor: pointer;
+    transition: all 0.3s; font-size: 13px; text-align: center;
+    font-family: 'Montserrat', sans-serif; font-weight: 600;
+}
+.nav-btn:hover { background: #f3e8ff; border-color: #622599; transform: translateY(-2px); }
+.nav-btn.active { background: #622599; color: white; border-color: #622599; }
+.nav-btn.completed { background: #8e44ad; color: white; border-color: #8e44ad; }
+.nav-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.mobile-nav {
+    display: none; position: fixed; bottom: 0; left: 0; right: 0;
+    background: white; box-shadow: 0 -5px 20px rgba(0,0,0,0.1);
+    z-index: 1000; padding: 10px;
+}
+.mobile-nav select {
+    width: 100%; padding: 15px; font-size: 16px;
+    border: 2px solid #622599; background: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* --- Content Area --- */
+.content {
+    background: white; padding: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+/* --- Modules --- */
+.module { display: none; animation: fadeIn 0.5s; }
+.module.active { display: block; }
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.module h2 { color: #622599; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 3px solid #ffe675; font-weight: 700; }
+.module h3 { color: #622599; margin: 25px 0 15px; font-weight: 700; }
+.module h4 { color: #2c2927; margin: 20px 0 10px; font-weight: 600; }
+.module p { color: #636363; margin-bottom: 15px; text-align: justify; }
+.module ul, .module ol { margin: 15px 0 15px 30px; color: #636363; }
+.module li { margin-bottom: 10px; }
+
+.badge {
+    display: inline-block; background: #ffe675; color: #2c2927;
+    padding: 5px 15px; font-size: 0.85em; margin-bottom: 20px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.5px;
+}
+
+
+/* --- Content Blocks --- */
+.info-box {
+    background: #f3e8ff; border-left: 4px solid #622599;
+    padding: 15px; margin: 20px 0;
+}
+.data-privacy {
+    background: #fff8e1; border-left: 4px solid #ffe675;
+    padding: 15px; margin: 20px 0;
+}
+.mission-box {
+    background: linear-gradient(135deg, #f3e8ff, #e8d5f5);
+    border: 2px solid #622599; padding: 20px; margin: 20px 0;
+}
+
+/* --- Timeline --- */
+.timeline { position: relative; padding: 20px 0; }
+.timeline-item {
+    background: #f2f5f7; border-left: 4px solid #622599;
+    padding: 15px; margin-bottom: 20px;
+}
+
+/* --- Method Grid --- */
+.method-elements {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px; margin: 20px 0;
+}
+.method-element {
+    padding: 20px; border: 2px solid #ddd; transition: transform 0.3s;
+}
+.method-element:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(98,37,153,0.1); }
+
+/* --- Forms --- */
+.form-group { margin-bottom: 20px; }
+.form-group label { display: block; margin-bottom: 5px; font-weight: 600; color: #2c2927; }
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%; padding: 12px; border: 2px solid #ddd;
+    font-size: 15px; transition: border-color 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+    border-color: #622599; outline: none;
+}
+
+/* --- Registration Toggle --- */
+.toggle-buttons { display: flex; gap: 0; margin-bottom: 25px; }
+.toggle-btn {
+    flex: 1; padding: 12px; border: 2px solid #622599; background: #f2f5f7;
+    color: #622599; cursor: pointer; font-family: 'Montserrat', sans-serif;
+    font-weight: 600; font-size: 14px; transition: all 0.3s; text-align: center;
+}
+.toggle-btn.active { background: #622599; color: white; }
+.toggle-btn:hover:not(.active) { background: #f3e8ff; }
+.recovery-section { margin-bottom: 20px; }
+
+/* --- Buttons --- */
+.btn {
+    background: #622599; color: white; border: none; padding: 12px 25px;
+    cursor: pointer; font-size: 15px; margin: 10px 5px;
+    transition: all 0.3s; display: inline-block;
+    font-family: 'Montserrat', sans-serif; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.5px;
+}
+.btn:hover { background: #4a1b75; transform: translateY(-2px); box-shadow: 0 5px 15px rgba(98, 37, 153, 0.3); }
+.btn:disabled { background: #ccc; cursor: not-allowed; transform: none; }
+
+/* --- Reflections --- */
+.reflection-area {
+    background: #fff8e1; border-left: 4px solid #ffe675;
+    padding: 20px; margin: 20px 0;
+}
+.reflection-area textarea {
+    width: 100%; min-height: 100px; padding: 10px;
+    border: 2px solid #ffe675; font-family: 'Montserrat', sans-serif; resize: vertical;
+}
+
+/* --- Quizzes --- */
+.quiz-container { background: #f2f5f7; padding: 20px; margin: 20px 0; }
+.question { margin-bottom: 25px; }
+.question h4 { color: #622599; margin-bottom: 15px; font-weight: 700; }
+.option {
+    display: block; padding: 12px; margin: 8px 0; background: white;
+    border: 2px solid #ddd; cursor: pointer; transition: all 0.3s;
+}
+.option:hover { background: #f3e8ff; border-color: #622599; }
+.option.selected { background: #e8d5f5; border-color: #622599; }
+.option.correct { background: #c8e6c9; border-color: #4CAF50; }
+.option.incorrect { background: #ffcdd2; border-color: #f44336; }
+
+/* --- Stats --- */
+.stats {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px; margin: 20px 0;
+}
+.stat-card {
+    background: #622599;
+    color: white; padding: 20px; text-align: center;
+}
+.stat-card h4 { font-size: 2em; margin-bottom: 5px; color: white; }
+/* `.module p` (color gris para fondo blanco) le ganaba en especificidad al `color: white`
+   de .stat-card, dejando texto #636363 sobre fondo morado: contraste 1.55:1, ilegible.
+   Detectado al ampliar la auditoria a11y a los modulos ocultos (03-ago-2026). */
+.stat-card p, .module .stat-card p { color: #ffffff; }
+
+/* --- Achievements --- */
+.achievements { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
+.achievement {
+    background: #f3e8ff; color: #622599; padding: 10px 15px;
+    border: 2px solid #622599; font-size: 0.9em;
+    /* opacity 0.4 aplastaba el contraste a 2:1 sobre un diseno que de suyo cumple 7.93:1.
+       Calculado: 0.75 da 4.39:1 (no pasa), 0.85 da 5.57:1. Se conserva la senal visual
+       de "aun no lo tienes" y se cumple WCAG AA. */
+    opacity: 0.85; transition: all 0.3s; font-weight: 600;
+}
+.achievement.earned { opacity: 1; transform: scale(1.05); box-shadow: 0 3px 10px rgba(98, 37, 153, 0.3); }
+
+/* --- Certificate --- */
+.certificate {
+    background: linear-gradient(45deg, #ffffff, #f8f9fa);
+    border: 3px solid #ffe675; padding: 40px;
+    text-align: center; position: relative; box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+.certificate h2 { color: #622599; margin-bottom: 20px; }
+.certificate h3 { color: #622599; font-size: 1.8em; margin: 20px 0; }
+.certificate-code {
+    background: #f2f5f7; padding: 15px;
+    font-family: 'Courier New', monospace; font-size: 1.2em;
+    margin: 25px auto; max-width: 400px; border: 2px dashed #622599;
+}
+
+/* --- Modal Overlay --- */
+.modal-overlay {
+    display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.6); z-index: 5000;
+    justify-content: center; align-items: center;
+}
+.modal-overlay.show { display: flex; }
+.modal-content {
+    background: white; padding: 40px; max-width: 450px; width: 90%;
+    text-align: center; box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+.modal-content h3 { color: #622599; margin-bottom: 15px; }
+
+/* --- Indicators --- */
+.sync-indicator {
+    position: fixed; top: 70px; right: 10px; background: #622599;
+    color: white; padding: 5px 10px; font-size: 0.8em;
+    display: none; z-index: 3000; animation: pulse 2s infinite;
+}
+.sync-indicator.show { display: block; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+
+.save-indicator {
+    position: fixed; bottom: 20px; right: 20px; background: #622599;
+    color: white; padding: 10px 20px; font-size: 0.9em;
+    display: none; z-index: 1000;
+}
+.save-indicator.show { display: block; animation: pulse 1s infinite; }
+
+.notification {
+    position: fixed; top: 80px; right: 20px; background: #622599;
+    color: white; padding: 15px 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2); animation: slideIn 0.3s;
+    z-index: 2000; max-width: 400px;
+}
+@keyframes slideIn { from { transform: translateX(400px); } to { transform: translateX(0); } }
+@keyframes slideOut { from { transform: translateX(0); } to { transform: translateX(400px); } }
+
+.hidden { display: none !important; }
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+    .container { padding: 10px; }
+    .header h1 { font-size: 1.3em; }
+    .nav-menu { display: none; }
+    .mobile-nav { display: block; }
+    .content { padding: 15px; }
+    .method-elements { grid-template-columns: 1fr; }
+    .stats { grid-template-columns: 1fr; }
+    .certificate { padding: 20px; }
+    .top-bar .logos img { height: 35px; }
+    .toggle-buttons { flex-direction: column; }
+}
+
+/* --- Print --- */
+@media print {
+    body { background: white; }
+    .top-bar, .nav-menu, .mobile-nav, .btn, .save-indicator, .sync-indicator, .modal-overlay { display: none !important; }
+    .certificate { page-break-inside: avoid; }
+}
+
+/* --- Cita destacada (blockquote de contenido) ---
+   El color iba inline en build-course.js, de modo que el tema oscuro no podia
+   sobrescribirlo y quedaba en 1.65:1 sobre fondo oscuro: practicamente invisible.
+   Detectado el 03-ago-2026 al ampliar la auditoria a11y a los modulos ocultos. */
+.cita-destacada {
+    font-size: 1.1rem; font-style: italic; text-align: center;
+    margin: 20px 0; color: #1a4b6b;
+}
+html[data-theme="dark"] .cita-destacada { color: #9ec8e8; }
+
+/* El certificado conserva fondo claro para poder imprimirse, asi que su texto no debe
+   heredar los colores claros del tema oscuro (daba 2.02:1). */
+html[data-theme="dark"] .certificate,
+html[data-theme="dark"] .certificate p,
+html[data-theme="dark"] .certificate strong,
+html[data-theme="dark"] .certificate div { color: #2b2b33; }
+
+/* Pie de video: el color iba inline (#555) y el tema oscuro no podia sobrescribirlo
+   (2.06:1 sobre fondo oscuro). Mismo patron que la cita destacada. */
+.video-caption { text-align: center; font-style: italic; color: #555; margin-top: 8px; }
+html[data-theme="dark"] .video-caption { color: #b9b9c4; }
+
+/* Enlaces dentro del contenido: sin estilo propio caian al azul por defecto del
+   navegador (#0000ee), que sobre fondo oscuro da 1.62:1. */
+.module a { color: #0b5ed7; text-decoration: underline; }
+.module a:hover { color: #093d8f; }
+html[data-theme="dark"] .module a { color: #8ab4f8; }
+html[data-theme="dark"] .module a:hover { color: #adc8fb; }
+
+    </style>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-inner">
+            <div class="logos">
+                <img src="../assets/logo-asc.png" alt="Asociacion Scouts de Colombia">
+                <div class="separator"></div>
+                <img src="../assets/logo-vallescout.png" alt="Scouts del Valle">
+            </div>
+            <a href="../index.html" class="back-link">&#8592; Volver a Cursos</a>
+        </div>
+    </div>
+
+    <div class="sync-indicator" id="syncIndicator">☁️ Sincronizado con Google Sheets</div>
+
+    <div class="container">
+        <div class="header">
+            <h1>🛠️ Seguimiento de la Progresión Personal</h1>
+            <p>Formación de Adultos Voluntarios — Asociación Scouts de Colombia</p>
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+                <div class="progress-text" id="progressText">0%</div>
+            </div>
+            <p style="margin-top: 10px; font-size: 0.9em;">
+                ⏱️ Tiempo en el curso: <span id="elapsedTime">0 min</span>
+            </p>
+        </div>
+
+        <div class="nav-menu">
+            <button class="nav-btn active" onclick="showModule(0)">📝 Registro</button>
+            <button class="nav-btn" onclick="showModule(1)">🛠️ Bienvenida</button>
+            <button class="nav-btn" onclick="showModule(2)">👀 Conducta observable</button>
+            <button class="nav-btn" onclick="showModule(3)">🧰 Banco de técnicas</button>
+            <button class="nav-btn" onclick="showModule(4)">🎒 Kit por rama</button>
+            <button class="nav-btn" onclick="showModule(5)">⏱️ Tres momentos</button>
+            <button class="nav-btn" onclick="showModule(6)">💬 Retroalimentación</button>
+            <button class="nav-btn" onclick="showModule(7)">🚪 Fuera del Movimiento</button>
+            <button class="nav-btn" onclick="showModule(8)">🔐 Ética del registro</button>
+            <button class="nav-btn" onclick="showModule(9)">📄 Instrumentos</button>
+            <button class="nav-btn" onclick="showModule(10)">🏆 Certificado</button>
+        </div>
+
+        <div class="mobile-nav">
+            <select onchange="showModule(this.value)">
+                <option value="0">📝 Registro</option>
+                <option value="1">🛠️ Bienvenida</option>
+                <option value="2">👀 Conducta observable</option>
+                <option value="3">🧰 Banco de técnicas</option>
+                <option value="4">🎒 Kit por rama</option>
+                <option value="5">⏱️ Tres momentos</option>
+                <option value="6">💬 Retroalimentación</option>
+                <option value="7">🚪 Fuera del Movimiento</option>
+                <option value="8">🔐 Ética del registro</option>
+                <option value="9">📄 Instrumentos</option>
+                <option value="10">🏆 Certificado</option>
+            </select>
+        </div>
+
+        <div class="content">
+
+            <!-- MÓDULO 0: REGISTRO -->
+            <div class="module active" id="module-0">
+                <h2>📝 Registro al Curso</h2>
+
+                <div class="info-box">
+                    <strong>🎯 Objetivo del Curso:</strong><br>
+                    El primero de los tres cursos operativos, y el que sirve a las cinco ramas a la vez. Cómo mirar con intención, registrar lo justo y acordar un paso siguiente, sin que el seguimiento se convierta en papeleo. Los instrumentos oficiales llegan al final, y a propósito.
+                </div>
+
+                <div class="toggle-buttons">
+                    <button class="toggle-btn active" id="toggleNewReg" onclick="toggleRegistrationMode('new')">🆕 Nuevo Registro</button>
+                    <button class="toggle-btn" id="toggleRecover" onclick="toggleRegistrationMode('recover')">🔄 Recuperar mi Avance</button>
+                </div>
+
+                <div class="recovery-section hidden" id="recoverySection">
+                    <h3>🔄 Recuperar tu avance anterior</h3>
+                    <p style="color: #636363; margin-bottom: 15px;">Ingresa el correo electronico con el que te registraste para recuperar tu progreso.</p>
+                    <div class="form-group">
+                        <label for="recoveryEmail">Correo Electronico</label>
+                        <input type="email" id="recoveryEmail" placeholder="Ej: juan.perez@email.com" required>
+                    </div>
+                    <div style="text-align: center;">
+                        <button class="btn" onclick="recoverProgress()">🔍 Recuperar</button>
+                    </div>
+                    <div id="recoveryMessage" style="margin-top: 15px; text-align: center; display: none;"></div>
+                </div>
+
+                <form id="registrationForm" onsubmit="handleRegistration(event)">
+                    <div class="form-group">
+                        <label for="fullName">Nombre Completo *</label>
+                        <input type="text" id="fullName" name="fullName" required placeholder="Ej: Juan Carlos Pérez Gómez">
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Edad <span class="opcional-label">(opcional)</span></label>
+                        <input type="number" id="age" name="age" min="0" placeholder="Ej: 35">
+                    </div>
+                    <div class="form-group">
+                        <label for="group">Grupo Scout</label>
+                        <input type="text" id="group" name="group" placeholder="Ej: Grupo Scout 25">
+                    </div>
+                    <div class="form-group">
+                        <label for="region">Región/Departamento</label>
+                        <select id="region" name="region">
+                            <option value="">Seleccionar...</option>
+                            <option value="Amazonas">Amazonas</option>
+                            <option value="Antioquia">Antioquia</option>
+                            <option value="Arauca">Arauca</option>
+                            <option value="Atlántico">Atlántico</option>
+                            <option value="Bogotá D.C.">Bogotá D.C.</option>
+                            <option value="Bolívar">Bolívar</option>
+                            <option value="Boyacá">Boyacá</option>
+                            <option value="Caldas">Caldas</option>
+                            <option value="Caquetá">Caquetá</option>
+                            <option value="Casanare">Casanare</option>
+                            <option value="Cauca">Cauca</option>
+                            <option value="Cesar">Cesar</option>
+                            <option value="Chocó">Chocó</option>
+                            <option value="Córdoba">Córdoba</option>
+                            <option value="Cundinamarca">Cundinamarca</option>
+                            <option value="Guainía">Guainía</option>
+                            <option value="Guaviare">Guaviare</option>
+                            <option value="Huila">Huila</option>
+                            <option value="La Guajira">La Guajira</option>
+                            <option value="Magdalena">Magdalena</option>
+                            <option value="Meta">Meta</option>
+                            <option value="Nariño">Nariño</option>
+                            <option value="Norte de Santander">Norte de Santander</option>
+                            <option value="Putumayo">Putumayo</option>
+                            <option value="Quindío">Quindío</option>
+                            <option value="Risaralda">Risaralda</option>
+                            <option value="San Andrés y Providencia">San Andrés y Providencia</option>
+                            <option value="Santander">Santander</option>
+                            <option value="Sucre">Sucre</option>
+                            <option value="Tolima">Tolima</option>
+                            <option value="Valle del Cauca">Valle del Cauca</option>
+                            <option value="Vaupés">Vaupés</option>
+                            <option value="Vichada">Vichada</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="Ej: juan.perez@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="motivation">¿Cuál es tu motivación para participar en el movimiento como adulto voluntario?</label>
+                        <textarea id="motivation" name="motivation" rows="4" placeholder="Describe brevemente tu motivación..."></textarea>
+                    </div>
+                    <div style="text-align: center; margin-top: 30px;">
+                        <button type="submit" class="btn" style="font-size: 1.1rem; padding: 15px 30px;">🚀 Comenzar Curso</button>
+                    </div>
+                </form>
+
+                <div class="data-privacy">
+                    <h4>📊 Información sobre tus datos</h4>
+                    <p>Este curso guarda tu progreso de dos formas:</p>
+                    <ul>
+                        <li>📱 <strong>Localmente:</strong> En tu navegador para que puedas continuar sin internet</li>
+                        <li>☁️ <strong>Google Sheets:</strong> Para que los dirigentes puedan verificar certificados y hacer seguimiento</li>
+                    </ul>
+                    <p style="margin-top: 10px; font-size: 0.9em;">Tus datos solo se usan para fines educativos de la Asociación Scouts de Colombia.</p>
+                </div>
+            </div>
+
+            <!-- MÓDULO 1: 🛠️ LA CARPETA EN BLANCO -->
+            <div class="module" id="module-1">
+                <h2>🛠️ 🛠️ La carpeta en blanco <span id="welcomeName"></span></h2>
+
+                <div class="info-box">⏱️ <strong>~55 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra sola y tu avance se guarda, así que no hace falta hacerlo de una sentada.</div>
+
+                <h3>🎯 Objetivos del Curso</h3>
+<ul>
+                    <li><strong>Escribir</strong> una conducta observable con sus tres piezas, y reconocer los tres errores que la arruinan.</li>
+                    <li><strong>Elegir</strong> una técnica del banco según la experiencia que tienes enfrente, en vez de intentar usarlas todas.</li>
+                    <li><strong>Armar</strong> el kit mínimo de tu rama y sostenerlo un mes.</li>
+                    <li><strong>Repartir</strong> el seguimiento en tres momentos, para que no aparezca de golpe al final del mes.</li>
+                    <li><strong>Dar</strong> una devolución con la estructura Vi – Logró – Próximo paso, ajustada al momento de progresión.</li>
+                    <li><strong>Acompañar</strong> una experiencia de fuera del Movimiento sin invadir.</li>
+                    <li><strong>Decidir</strong> qué no se registra, dónde se guarda y quién puede leerlo.</li>
+                    <li><strong>Abrir</strong> los tres instrumentos oficiales sabiendo cuál necesitas hoy.</li>
+                </ul>
+
+                <p>Marcela lleva ocho meses como jefa de Tropa. Tiene dieciocho scouts, cuatro patrullas y una carpeta con formatos impresos que le pasó la jefa anterior. Los formatos siguen en blanco. No por descuido: cada vez que se sienta a llenarlos, el sábado ya pasó y no se acuerda de nada concreto — solo de que Juan <em>anduvo raro</em> y de que la patrulla Halcón <em>funcionó bien</em>.</p>
+
+                <p>Lo que le falta a Marcela no es un formato mejor. Es haber decidido, <strong>antes</strong> de que empezara la reunión, qué iba a mirar. Eso es todo lo que este curso enseña, y es más barato de lo que parece.</p>
+
+                <div class="info-box">🛠️ <strong>La frase que sostiene este curso.</strong> «Hoy quiero ver esto.» Esa frase, dicha antes de la reunión, es más seguimiento que cualquier formato llenado después.</div>
+
+                <p>En el <strong>Curso 6</strong> quedó dicho el principio: la progresión <strong>se observa, no se examina</strong>. Aquí vienen las técnicas concretas para hacerlo, y también los límites: qué no se escribe, quién puede leerlo y cuánto tiempo se guarda.</p>
+
+                <details class="policy-quote">
+                    <summary>📋 Para qué es todo esto, dicho por el Modelo</summary>
+                    <blockquote class="policy-quote-text">La progresión personal es la columna vertebral del escultismo. Como dirigente, tu misión no es llenar formatos ni entregar insignias: es acompañar la transformación de vidas.</blockquote>
+                    <p class="policy-quote-source">— Modelo de Aplicación «El Gran Juego para la Vida» (DNPJ-2026-024), Cap. 9, p. 66 del PDF.</p>
+                </details>
+
+                <p>Este curso <strong>no es un tutorial de Excel</strong>. Los tres instrumentos oficiales existen, son buenos y los vas a conocer — pero en la última lección, cuando ya sepas qué vas a poner dentro. Un archivo abierto antes de tiempo solo produce casillas vacías, que es justamente la carpeta de Marcela.</p>
+
+                <div class="mission-box">🎯 <strong>Cómo usar este curso.</strong> Sirve a las cinco ramas, así que cada lección cierra con una caja «Y en tu rama» que traduce lo visto a tu Camada, tu seisena, tu patrulla, tu equipo o tu club. De la próxima lección en adelante, cada una cierra con dos preguntas, y hay que acertar las dos para seguir. Si fallas, vuelves al párrafo y lo intentas otra vez, sin penalización.</div>
+
+                <h3>🏆 Logros por Desbloquear</h3>
+                <div class="achievements">
+                    <div class="achievement" id="achievement-1">👀 Escribo lo que se ve</div>
+                    <div class="achievement" id="achievement-2">🧰 Elijo una, no todas</div>
+                    <div class="achievement" id="achievement-3">🎒 Tengo kit</div>
+                    <div class="achievement" id="achievement-4">⏱️ Decido antes</div>
+                    <div class="achievement" id="achievement-5">💬 Devuelvo sin juzgar</div>
+                    <div class="achievement" id="achievement-6">🚪 Abro la puerta sin entrar</div>
+                    <div class="achievement" id="achievement-7">🔐 Sé lo que no escribo</div>
+                    <div class="achievement" id="achievement-8">📄 Abro el archivo correcto</div>
+                    <div class="achievement" id="achievement-9">⭐ Acompaño la progresión</div>
+                </div>
+
+                <div class="stats">
+                    <div class="stat-card"><h4 id="modulesCompleted">0</h4><p>Módulos Completados</p></div>
+                    <div class="stat-card"><h4 id="quizzesCompleted">0</h4><p>Evaluaciones Aprobadas</p></div>
+                    <div class="stat-card"><h4 id="studyTime">0</h4><p>Minutos de Estudio</p></div>
+                </div>
+
+                <button class="btn" onclick="showModule(2)">🚀 Comenzar el Curso</button>
+            </div>
+
+            <!-- MÓDULO 2: 👀 QUÉ ES UNA CONDUCTA OBSERVABLE -->
+            <div class="module" id="module-2">
+                <h2>👀 👀 Qué es una conducta observable</h2>
+                <div class="badge">Módulo 1/8</div>
+
+                <div class="info-box"><strong>Idea central:</strong> si lo que escribiste no se puede ver ni escuchar, no es una conducta observable — es una opinión sobre alguien.</div>
+
+                <p>Marcela abre su cuaderno y escribe: <em>«Juan es responsable»</em>. Es posible que sea cierto. Pero intenta hacer algo con esa frase: no se puede conversar con ella, no se puede acordar un paso siguiente, y dentro de tres meses no vas a saber de dónde salió. Peor: si alguien la lee, se le queda pegada a Juan.</p>
+
+                <p>Ahora prueba con esta otra: <em>«Llegó a tiempo, revisó su lista y ayudó a que otros se organizaran»</em>. Es la misma idea, pero ahora hay hechos. Y con hechos se conversa sin discutir opiniones.</p>
+
+                <h3>Las tres piezas</h3>
+
+                <details class="policy-quote">
+                    <summary>📋 Qué es una conducta observable</summary>
+                    <blockquote class="policy-quote-text">Una conducta observable suele tener tres piezas: un verbo claro, un contexto y una señal verificable.</blockquote>
+                    <p class="policy-quote-source">— Recursos Educativos para Dirigentes — Herramientas de Seguimiento para la Progresión Personal 2.0 (DNPJ), Cap. 2, p. 2 del PDF.</p>
+                </details>
+
+                <ol>
+                    <li><strong>Un verbo claro</strong> — algo que alguien hace: propone, pide, sostiene, reorganiza, repara.</li>
+                    <li><strong>Un contexto</strong> — dónde y cuándo: en la patrulla, al cierre, cuando cambió el plan, en la salida del sábado.</li>
+                    <li><strong>Una señal verificable</strong> — cómo se nota que ocurrió, sin tener que adivinar intenciones.</li>
+                </ol>
+
+                <p>Los dos ejemplos que trae la fuente muestran las tres piezas juntas: <em>«propone acuerdos en la patrulla y los recuerda al cierre»</em> y <em>«pide ayuda cuando se siente sobrepasado y acepta una pausa»</em>. Fíjate en que ninguno de los dos dice cómo es la persona. Dicen qué hizo.</p>
+
+                <h3>Los tres errores que la arruinan</h3>
+
+                <div class="method-elements">
+                    <div class="method-element" style="background: linear-gradient(135deg, #fce4ec, #fce4ecdd); border-color: #e91e63;">
+                        <h4>Escribir rasgos generales</h4>
+                        <p><em>«Es responsable», «es respetuoso», «tiene liderazgo».</em> Pueden ser ciertos, pero no te dicen qué observar. Y las etiquetas se quedan pegadas.</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #fff3e0, #fff3e0dd); border-color: #fb8c00;">
+                        <h4>Poner metas demasiado grandes para la edad</h4>
+                        <p><em>«Gestiona sus emociones siempre», «toma decisiones plenamente autónomas».</em> El paso siguiente casi siempre es más pequeño y más realista que eso.</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
+                        <h4>Mezclar demasiadas cosas en una frase</h4>
+                        <p>Cuando una conducta tiene tres o cuatro ideas dentro, se vuelve difícil de observar y casi imposible de valorar con calma.</p>
+                    </div>
+                </div>
+
+                <h3>La edad cambia la forma, no el sentido</h3>
+
+                <p>La misma competencia se ve distinta a los cinco años que a los diecinueve. Lo que cambia es dónde mirar, no qué se busca.</p>
+
+                <div class="method-elements">
+                    <div class="method-element" style="background: linear-gradient(135deg, #fff8e1, #fff8e1dd); border-color: #fbc02d;">
+                        <h4>Cachorros</h4>
+                        <p>Se nota en lo cotidiano: esperar turno, pedir permiso, reconocer una emoción, cuidar un objeto compartido.</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #fff3e0, #fff3e0dd); border-color: #fb8c00;">
+                        <h4>Lobatos</h4>
+                        <p>Aparece el «me doy cuenta» y el «lo intento otra vez». Ayuda mucho observar en el juego y en pequeñas responsabilidades.</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
+                        <h4>Scouts</h4>
+                        <p>Es natural mirar cómo funciona la patrulla: roles, acuerdos, servicio, autocuidado en salidas.</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
+                        <h4>Nómadas Scout</h4>
+                        <p>Se ve el salto a proyectos: deliberación, criterio, constancia.</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #ede7f6, #ede7f6dd); border-color: #673ab7;">
+                        <h4>Rovers</h4>
+                        <p>El indicador más potente suele ser la transferencia: cómo lo lleva a su vida, cómo incide, cómo acompaña a otros.</p>
+                    </div>
+                </div>
+
+                <h3>Cuántas, y cómo se anotan</h3>
+
+                <p>No hay que observar todo. El <em>Modelo</em> recomienda elegir <strong>dos o tres conductas observables por competencia</strong>, y la fuente de este curso pide <strong>dos o tres observaciones por ciclo de programa</strong> para ver progreso real. Es mucho menos de lo que uno cree que hace falta.</p>
+
+                <div class="info-box">📝 <strong>El estándar práctico:</strong> una nota breve con fecha y contexto, y si aplica, una evidencia pequeña. A veces basta una línea — <em>«Salida del sábado: asumió su rol sin recordatorios y ayudó a reorganizar el equipo cuando cambió el plan»</em>. Eso es una conducta observable bien registrada.</div>
+
+                <div class="info-box">🏕️ <strong>Y en tu rama.</strong> La frase de arriba es de Tropa. En Manada sería sobre la seisena; en Familia, sobre la Camada — que no tiene por qué ser la misma de la semana pasada; en Comunidad, sobre el equipo y su proyecto; en Clan, sobre lo que el rover hizo fuera del Clan.</div>
+
+                <div class="reflection-area">
+                    <h4>🤔 Reflexión Personal</h4>
+                    <p>Piensa en un protagonista concreto de tu unidad — con nombre. Escribe la frase que le pondrías hoy si tuvieras que describirlo en una línea. Léela: ¿es un rasgo («es callado», «es líder») o es una conducta con verbo, contexto y señal? Si es un rasgo, reescríbela contando un hecho que hayas visto en las últimas cuatro reuniones.</p>
+                    <textarea id="reflection-2" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(2, this.value)"></textarea>
+                </div>
+                <div class="quiz-container">
+                    <h3>🧪 Mini-quiz Lección 2</h3>
+
+                    <div class="question">
+                        <h4>1. Un dirigente de Manada anota sobre una lobata: «Valeria tiene mucho liderazgo en su seisena». ¿Qué problema tiene esa nota?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q10">
+                            Es un rasgo general: no dice qué hizo Valeria, así que no se puede conversar ni acordar un paso.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q10">
+                            Está mal porque el liderazgo no es una de las seis áreas de crecimiento de la progresión.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q10">
+                            Le falta la fecha y el lugar, que son los dos datos que exige el registro de la rama.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>2. Una jefa de Comunidad quiere trabajar la competencia de convivencia este ciclo. ¿Cuántas conductas observables le conviene poner en foco?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q11">
+                            Todas las que la competencia permita, para no dejar por fuera ninguna señal de avance.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q11">
+                            Dos o tres, elegidas a propósito, y mirarlas con intención durante el ciclo.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q11">
+                            Una sola por trimestre, porque más de una hace imposible el registro honesto.
+                        </label>
+                    </div>
+
+                    <button class="btn" onclick="checkQuiz(2)" id="checkBtn-2">Verificar Respuestas</button>
+                    <button class="btn hidden" onclick="completeModule(2)" id="nextBtn-2">Continuar al banco de técnicas 🧰</button>
+                </div>
+            </div>
+
+            <!-- MÓDULO 3: 🧰 UN BANCO, NO UNA LISTA -->
+            <div class="module" id="module-3">
+                <h2>🧰 🧰 Un banco, no una lista</h2>
+                <div class="badge">Módulo 2/8</div>
+
+                <div class="info-box"><strong>Idea central:</strong> las técnicas de seguimiento son un banco de opciones, no una lista de tareas. Se eligen una o dos y se sostienen.</div>
+
+                <p>Este es el punto donde más dirigentes se caen. Abren el documento, ven muchas técnicas y concluyen una de dos cosas: o que hay que usarlas todas — y entonces abandonan en tres semanas —, o que aquello es imposible — y entonces no empiezan. La fuente se adelanta a las dos reacciones.</p>
+
+                <details class="policy-quote">
+                    <summary>📋 Qué es el Capítulo 4, dicho por él mismo</summary>
+                    <blockquote class="policy-quote-text">Por eso ofrecemos una pequeña muestra de técnicas a manera de banco que pueden ser usadas entre Ramas, con opción de ajuste según la edad. La idea no es usarlo todo, es tener opciones y elegir con criterio.</blockquote>
+                    <p class="policy-quote-source">— Recursos Educativos para Dirigentes — Herramientas de Seguimiento para la Progresión Personal 2.0 (DNPJ), Cap. 4, p. 3 del PDF.</p>
+                </details>
+
+                <p>Fíjate en lo que <strong>no</strong> dice: no dice cuántas son. No es una lista cerrada que haya que memorizar, y por eso aquí no vas a encontrar un número. Están agrupadas <strong>por propósito</strong>, que es como se eligen.</p>
+
+                <h3>Ocho propósitos, con un ejemplo vivo cada uno</h3>
+
+                <div class="method-elements">
+                    <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
+                        <h4>Observar y registrar</h4>
+                        <p>Observación en acción, registro anecdótico, registro breve de conflicto–resolución. <em>→ El sábado miras solo cómo se reparten los roles; el domingo escribes tres líneas.</em></p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
+                        <h4>Instrumentos simples</h4>
+                        <p>Lista de cotejo de tres a cinco ítems, rúbrica ligera de tres criterios, rúbrica por rol, rúbrica de transferencia. <em>→ Cuatro casillas con verbos: usa casco, recoge material, pide permiso, avisa si se va.</em></p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #fff3e0, #fff3e0dd); border-color: #fb8c00;">
+                        <h4>Autoevaluación y coevaluación</h4>
+                        <p>Semáforo o caritas, coevaluación 2+1, coevaluación guiada por preguntas. <em>→ Al cerrar: ¿qué salió bien?, ¿qué nos costó?, ¿qué haríamos distinto?</em></p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #f3e5f5, #f3e5f5dd); border-color: #8e24aa;">
+                        <h4>Bitácoras y reflexión</h4>
+                        <p>Bitácora personal, bitácora de patrulla o equipo, nota breve de dos líneas, mini-entrevista de dos preguntas. <em>→ Dos minutos de conversación con intención valen más que una página escrita sin ganas.</em></p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #e0f7fa, #e0f7fadd); border-color: #00acc1;">
+                        <h4>Evidencias y portafolio ligero</h4>
+                        <p>Carpeta de evidencias, evidencia visual, evidencia-producto, micro-presentación de un minuto. <em>→ Una foto del proceso con una línea de contexto: «esto muestra que…».</em></p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #fff8e1, #fff8e1dd); border-color: #fbc02d;">
+                        <h4>Hábitos y progreso</h4>
+                        <p>Registro de hábitos de siete a catorce días, calendario con stickers, señales de avance, gráfica simple, revisión en la reunión siguiente. <em>→ Recordar el acuerdo, ver si se sostuvo, ajustar.</em></p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #ffebee, #ffebeedd); border-color: #e53935;">
+                        <h4>Retroalimentación externa</h4>
+                        <p>Devolución del destinatario de un servicio, retroalimentación 360° en momentos clave. <em>→ «¿Qué te resultó útil de lo que hicimos?», preguntado a quien recibió el impacto.</em></p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #ede7f6, #ede7f6dd); border-color: #673ab7;">
+                        <h4>Acuerdos y vida de unidad</h4>
+                        <p>Acta simple de acuerdos, tabla de acciones positivas. <em>→ Qué se decidió, quién lo asume y cuándo se revisa. Tres líneas.</em></p>
+                    </div>
+                </div>
+
+                <h3>La receta, para cualquier actividad</h3>
+
+                <ol>
+                    <li><strong>Escoge una conducta observable</strong> — la que más te importe hoy.</li>
+                    <li><strong>Elige una técnica</strong> para recoger evidencia. Una sola.</li>
+                    <li><strong>Cierra con una pregunta y un paso siguiente</strong> — «¿qué ajustamos para la próxima?».</li>
+                </ol>
+
+                <p>Con eso ya hay seguimiento. Y, sobre todo, se sostiene: la fuente insiste en que cuando el seguimiento se mantiene simple se mantiene, y cuando se vuelve una lista larga de formatos se abandona.</p>
+
+                <div class="info-box">🔁 <strong>La técnica más barata, y la más subestimada.</strong> Recordar el acuerdo en la reunión siguiente, ver si se sostuvo y ajustar. Dice la fuente que si una unidad hiciera solo eso con constancia, ya estaría haciendo seguimiento de verdad.</div>
+
+                <div class="info-box">🏕️ <strong>Y en tu rama.</strong> En Cachorros y Lobatos la mayor parte la registra el dirigente, y el protagonismo está en la experiencia y en el cierre oral. En Scouts ya aparece la bitácora de patrulla y la coevaluación con apoyo adulto. En Nómadas Scout y Rovers, la bitácora personal y las evidencias de proyecto las llevan ellos.</div>
+
+                <div class="reflection-area">
+                    <h4>🤔 Reflexión Personal</h4>
+                    <p>Piensa en la próxima actividad concreta de tu unidad — la que ya está en el calendario, con su fecha. Aplica la receta por escrito: qué conducta vas a mirar, con qué técnica vas a recoger la evidencia y con qué pregunta vas a cerrar. Si te salen dos técnicas, tacha una.</p>
+                    <textarea id="reflection-3" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(3, this.value)"></textarea>
+                </div>
+                <div class="quiz-container">
+                    <h3>🧪 Mini-quiz Lección 3</h3>
+
+                    <div class="question">
+                        <h4>1. Un jefe de Tropa quiere empezar a hacer seguimiento y decide aplicar todas las técnicas del banco durante el próximo campamento. ¿Qué le dirías?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q20">
+                            Que las aplique todas una vez y después se quede con las que mejor le hayan funcionado en el campamento.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q20">
+                            Que el banco es para elegir con criterio: una o dos, sostenidas, rinden más que todas a la vez.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q20">
+                            Que en campamento conviene no registrar nada y dejar el seguimiento para las reuniones normales.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>2. La patrulla Halcón terminó un servicio en el comedor del barrio. Marcela tiene quince minutos. ¿Cuál es el cierre que la fuente recomienda?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q21">
+                            Aplicar una rúbrica por rol a cada scout y archivar los resultados en la carpeta de la patrulla.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q21">
+                            Anotar en el acta lo que hizo cada uno para tenerlo listo cuando toque revisar la progresión.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q21">
+                            Cerrar con una pregunta corta y un acuerdo de próximo paso que se revise en la reunión siguiente.
+                        </label>
+                    </div>
+
+                    <button class="btn" onclick="checkQuiz(3)" id="checkBtn-3">Verificar Respuestas</button>
+                    <button class="btn hidden" onclick="completeModule(3)" id="nextBtn-3">Continuar al kit de tu rama 🎒</button>
+                </div>
+            </div>
+
+            <!-- MÓDULO 4: 🎒 EL KIT MÍNIMO DE TU RAMA -->
+            <div class="module" id="module-4">
+                <h2>🎒 🎒 El kit mínimo de tu rama</h2>
+                <div class="badge">Módulo 3/8</div>
+
+                <div class="info-box"><strong>Idea central:</strong> el kit es siempre el mismo en su lógica — una herramienta para mirar, una para conversar y una para guardar evidencia. Lo que cambia es la forma, no el número.</div>
+
+                <p>Cada rama tiene ritmos distintos y niveles de autonomía diferentes. Por eso la fuente no propone «todo para todos», sino un kit mínimo por rama: pocas técnicas, bien escogidas. Algunas ramas suman una cuarta para hábitos o proyectos, cuando tiene sentido.</p>
+
+                <div class="method-elements">
+                    <div class="method-element" style="background: linear-gradient(135deg, #fff8e1, #fff8e1dd); border-color: #fbc02d;">
+                        <h4>Familia de Cachorros (5 a 6)</h4>
+                        <p>Visual, corto, con apoyo familiar. Observación en momentos clave · semáforo o caritas al cierre · calendario de hábitos con stickers · y una nota breve a las familias, opcional pero muy poderosa. <em>Una o dos conductas por semana y un cierre de treinta segundos. Nada más.</em></p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #fff3e0, #fff3e0dd); border-color: #fb8c00;">
+                        <h4>Manada de Lobatos (7 a 10)</h4>
+                        <p>Simple y repetible. Lista de cotejo de tres a cinco ítems para roles o hábitos de seisena · registro anecdótico · coevaluación guiada por tres preguntas · una evidencia por ciclo. <em>Dos registros breves al mes, no más.</em></p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
+                        <h4>Tropa de Scouts (11 a 14)</h4>
+                        <p>La patrulla al centro. Bitácora de patrulla como hilo conductor · coevaluación 2+1 al terminar roles o retos · rúbrica por rol muy simple · evidencia del proceso con una línea. <em>El dirigente no persigue papeles: acompaña decisiones.</em></p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
+                        <h4>Comunidad de Nómadas Scout (15 a 17)</h4>
+                        <p>Proyectos con sentido. Bitácora personal de dos o tres preguntas fijas · rúbrica ligera de tres criterios · una o dos señales de avance · devolución del destinatario cuando hay un «afuera» real. <em>Una evidencia por proyecto y una revisión de acuerdos.</em></p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #ede7f6, #ede7f6dd); border-color: #673ab7;">
+                        <h4>Clan de Rovers (18 a 20)</h4>
+                        <p>Pocas herramientas, exigentes en calidad. Rúbrica de transferencia · portafolio de máximo tres evidencias por ciclo · retroalimentación 360° en momentos clave · uno o dos indicadores simples. <em>Menos registros, más profundidad.</em></p>
+                    </div>
+                </div>
+
+                <h3>Si tu equipo está saturado: el mínimo mínimo</h3>
+
+                <p>La fuente tiene una recomendación transversal para unidades que están arrancando o equipos de dirigentes desbordados. Durante un mes, solo esto:</p>
+
+                <ul>
+                    <li>Una conducta observable por semana.</li>
+                    <li>Un registro anecdótico cada quince días.</li>
+                    <li>Una conversación de cierre con dos preguntas.</li>
+                    <li>Y una revisión en la reunión siguiente.</li>
+                </ul>
+
+                <p>Cuando eso se vuelve hábito, lo demás se integra solo. Es la diferencia entre un sistema que funciona en marzo y uno que funciona también en septiembre.</p>
+
+                <div class="info-box">📓 <strong>Bitácora no es Libro de Oro.</strong> La bitácora es el instrumento de seguimiento: guarda acuerdos, roles asumidos y un cierre breve, y sirve para que cada actividad no empiece de cero. El <strong>Libro de Oro</strong> es otra cosa y sigue llamándose así: es un <strong>símbolo de la rama</strong> — la memoria de la Manada, o el libro que la patrulla escribe y que custodia el Guardián de Leyenda. Uno registra; el otro recuerda.</div>
+
+                <div class="info-box">🏕️ <strong>Y en tu rama.</strong> Mira el kit de arriba que te corresponde y cuenta cuántas de esas herramientas ya usas sin llamarlas así. Casi siempre son una o dos: el trabajo no es empezar de cero, es nombrar lo que ya haces y sostenerlo.</div>
+
+                <div class="reflection-area">
+                    <h4>🤔 Reflexión Personal</h4>
+                    <p>Escribe el kit real de tu unidad, no el ideal: la herramienta con la que miras, la que usas para conversar y la que te sirve para guardar evidencia. Si alguna casilla queda vacía, elige una del kit de tu rama y ponle fecha de arranque — la de tu próxima reunión.</p>
+                    <textarea id="reflection-4" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(4, this.value)"></textarea>
+                </div>
+                <div class="quiz-container">
+                    <h3>🧪 Mini-quiz Lección 4</h3>
+
+                    <div class="question">
+                        <h4>1. Una jefa de Familia quiere seguir el hábito de lavarse las manos en sus cachorros de cinco años. ¿Qué herramienta del kit de su rama encaja mejor?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q30">
+                            Un formato de rúbrica ligera con tres criterios, aplicado al cierre de cada reunión.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q30">
+                            Una bitácora personal donde cada cachorro anote si cumplió el hábito durante la semana.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q30">
+                            Un calendario de hábitos con stickers, que es visual, motivador y sostenible a esa edad.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>2. Un equipo de dirigentes está desbordado y quiere empezar de cero con el seguimiento. ¿Qué les propone la fuente para el primer mes?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q31">
+                            Una conducta por semana, un anecdótico cada quince días, un cierre de dos preguntas y una revisión.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q31">
+                            Montar el kit completo de la rama desde la primera reunión, para no dejar ningún vacío de registro.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q31">
+                            Esperar al siguiente ciclo de programa y arrancar cuando el equipo tenga más dirigentes disponibles.
+                        </label>
+                    </div>
+
+                    <button class="btn" onclick="checkQuiz(4)" id="checkBtn-4">Verificar Respuestas</button>
+                    <button class="btn hidden" onclick="completeModule(4)" id="nextBtn-4">Continuar a los tres momentos ⏱️</button>
+                </div>
+            </div>
+
+            <!-- MÓDULO 5: ⏱️ ANTES, DURANTE Y DESPUÉS -->
+            <div class="module" id="module-5">
+                <h2>⏱️ ⏱️ Antes, durante y después</h2>
+                <div class="badge">Módulo 4/8</div>
+
+                <div class="info-box"><strong>Idea central:</strong> el seguimiento no aparece al final del mes. Se prepara un poco antes, se mira con intención durante y se cierra con una conversación corta.</div>
+
+                <h3>Antes — donde está el trabajo decisivo</h3>
+
+                <p>Es el momento más barato y el que más rinde. Dos decisiones bastan: <strong>una o dos competencias en foco</strong> y <strong>unas cuantas conductas observables</strong> para mirar a propósito. En Scouts puede ser «cómo asumen roles sin recordatorios»; en Lobatos, «cómo sostienen acuerdos simples en seisena»; en Nómadas Scout, «cómo justifican decisiones en un proyecto».</p>
+
+                <div class="info-box">🛠️ <strong>Aquí vuelve la frase del curso.</strong> «Hoy quiero ver esto.» Decidirlo antes es lo que evita querer observar todo — y lo que hace que durante la actividad se improvise menos y se disfrute más.</div>
+
+                <h3>Durante — mirada intencionada, no interrupción</h3>
+
+                <p>El seguimiento no interrumpe el Programa: se integra. Observar momentos clave, registrar uno o dos hechos, y listo. Dos recomendaciones prácticas: <strong>no registrar todo</strong>, sino lo significativo; y priorizar las situaciones donde se ven decisiones reales — roles, acuerdos, convivencia, autocuidado, resolución de problemas.</p>
+
+                <p>En actividades técnicas o de campismo, una foto del proceso con una línea de contexto suele ser más útil que un formato largo. En convivencia, un registro breve de conflicto–resolución ayuda a sostener los acuerdos.</p>
+
+                <h3>Después — cerrar bien, que no es evaluar mucho</h3>
+
+                <p>No hace falta una gran reunión de evaluación. Lo que importa es cerrar: una pregunta, una devolución breve y un acuerdo de próximo paso. Tres formatos funcionan casi siempre: <strong>semáforo o caritas</strong> en Cachorros y Lobatos, <strong>coevaluación 2+1</strong> de Scouts en adelante, y <strong>dos preguntas de cierre</strong> en todas las ramas, ajustando el lenguaje.</p>
+
+                <h3>Frecuencia que se puede sostener</h3>
+
+                <p>La pregunta práctica no es qué sería ideal, sino qué se puede sostener sin agotarse.</p>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4>En cada reunión (o casi)</h4>
+                        <p>Un par de conductas observables en foco, un cierre corto — semáforo, dos preguntas o coevaluación 2+1 — y un acuerdo pequeño para la próxima.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>Cada dos o tres semanas</h4>
+                        <p>Uno o dos registros anecdóticos de hechos significativos, o una lista de cotejo breve si están trabajando roles o hábitos.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>En cada salida o actividad especial</h4>
+                        <p>Evidencia del proceso o del producto, y un cierre con coevaluación o preguntas guía.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h4>En proyectos (Nómadas Scout y Rovers)</h4>
+                        <p>Una evidencia por fase — inicio, desarrollo y cierre — más una reflexión breve o una devolución externa al final.</p>
+                    </div>
+                </div>
+
+                <h3>Qué técnica según el tipo de experiencia</h3>
+
+                <div class="method-elements">
+                    <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
+                        <h4>Habilidades prácticas</h4>
+                        <p>Campismo, cocina, técnica. <em>→ Lista de cotejo breve + evidencia visual + revisión en la reunión siguiente.</em></p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #fff3e0, #fff3e0dd); border-color: #fb8c00;">
+                        <h4>Convivencia o acuerdos</h4>
+                        <p><em>→ Registro conflicto–resolución + coevaluación guiada por preguntas.</em></p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
+                        <h4>Rol y liderazgo</h4>
+                        <p><em>→ Rúbrica por rol + coevaluación 2+1 + bitácora de patrulla en Scouts, o de proyecto en Nómadas Scout y Rovers.</em></p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #fff8e1, #fff8e1dd); border-color: #fbc02d;">
+                        <h4>Hábitos</h4>
+                        <p>Autocuidado, actividad física, organización. <em>→ Registro de hábitos de siete a catorce días + una señal simple de avance + conversación breve.</em></p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #ede7f6, #ede7f6dd); border-color: #673ab7;">
+                        <h4>Servicio o proyecto con destinatario real</h4>
+                        <p><em>→ Evidencia-producto + devolución del destinatario + reflexión breve de transferencia.</em></p>
+                    </div>
+                </div>
+
+                <div class="info-box">🗂️ <strong>Pocas evidencias, bien elegidas.</strong> Por ciclo: tres o cuatro en Cachorros y Lobatos (foto y frase); cinco o seis en Scouts; seis a ocho por proyecto en Nómadas Scout; y en Rovers, máximo ocho por proyecto, seleccionadas y con reflexión de transferencia. Una carpeta sin límite deja de ser portafolio y se vuelve archivo.</div>
+
+                <div class="info-box">🔗 <strong>Esto mismo, en el Modelo.</strong> El <em>Modelo de Aplicación</em> propone un ciclo operativo de seis pasos para tu día a día: diagnosticar, planear, facilitar, reflexionar, registrar y retroalimentar. Es la misma lógica de antes–durante–después, contada con más detalle (Cap. 9, pp. 66–67).</div>
+
+                <div class="reflection-area">
+                    <h4>🤔 Reflexión Personal</h4>
+                    <p>Toma tu próxima reunión — la de esta semana, con su fecha. Escribe las tres casillas: qué vas a mirar (antes), con qué técnica vas a registrar uno o dos hechos (durante) y con qué pregunta vas a cerrar (después). Después mira tu agenda real y responde honestamente si eso se sostiene cuatro semanas seguidas. Si no, recórtalo.</p>
+                    <textarea id="reflection-5" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(5, this.value)"></textarea>
+                </div>
+                <div class="quiz-container">
+                    <h3>🧪 Mini-quiz Lección 5</h3>
+
+                    <div class="question">
+                        <h4>1. La Comunidad va a cerrar un proyecto de servicio con un comedor comunitario. ¿Qué combinación recomienda la fuente para ese tipo de experiencia?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q40">
+                            Lista de cotejo breve, evidencia visual del montaje y revisión del acuerdo en la reunión siguiente.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q40">
+                            Evidencia-producto, devolución del destinatario y una reflexión breve de transferencia.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q40">
+                            Registro de hábitos de catorce días, una señal simple de avance y una conversación breve.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>2. Un dirigente dice que hace seguimiento, pero se sienta a escribirlo todo el último domingo del mes. ¿Dónde está el problema, según la fuente?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q41">
+                            En que no eligió antes qué mirar, así que durante la actividad no había nada en foco que registrar.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q41">
+                            En que el registro mensual no sirve: el reglamento pide que se haga semanalmente en cada rama.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q41">
+                            En que debería delegar ese registro en los propios protagonistas, que son quienes viven la experiencia.
+                        </label>
+                    </div>
+
+                    <button class="btn" onclick="checkQuiz(5)" id="checkBtn-5">Verificar Respuestas</button>
+                    <button class="btn hidden" onclick="completeModule(5)" id="nextBtn-5">Continuar a la retroalimentación 💬</button>
+                </div>
+            </div>
+
+            <!-- MÓDULO 6: 💬 VI – LOGRÓ – PRÓXIMO PASO -->
+            <div class="module" id="module-6">
+                <h2>💬 💬 Vi – Logró – Próximo paso</h2>
+                <div class="badge">Módulo 5/8</div>
+
+                <div class="info-box"><strong>Idea central:</strong> una buena devolución no discute cómo es la persona. Habla de un hecho, de su efecto y de un paso siguiente pequeño.</div>
+
+                <p>La retroalimentación no necesita ser larga ni perfecta. Necesita ser oportuna, clara y respetuosa. Y hay una estructura de tres pasos que funciona casi siempre.</p>
+
+                <ol>
+                    <li><strong>Vi</strong> — el hecho observable, sin adornos y sin etiquetas.</li>
+                    <li><strong>Logró</strong> — el efecto: en el equipo, en la seguridad, en el resultado, en la convivencia.</li>
+                    <li><strong>Próximo paso</strong> — una propuesta concreta, pequeña y realista, que se pueda intentar pronto.</li>
+                </ol>
+
+                <details class="policy-quote">
+                    <summary>📋 Cómo suena completa, en Scouts</summary>
+                    <blockquote class="policy-quote-text">Vi que asumiste tu rol sin que te lo recordaran y ayudaste a reorganizar la patrulla cuando cambió el plan. Eso hizo que el equipo no se desordenara y pudiéramos terminar la actividad. Para la próxima, intentemos que al inicio digas en una frase qué necesita cada quien, así el arranque es más rápido.</blockquote>
+                    <p class="policy-quote-source">— Recursos Educativos para Dirigentes — Herramientas de Seguimiento para la Progresión Personal 2.0 (DNPJ), Cap. 7 §7.1, p. 18 del PDF.</p>
+                </details>
+
+                <h3>Cambia con el momento de progresión</h3>
+
+                <p>La misma conducta pide devoluciones distintas según dónde esté el protagonista. Y ahí encajan los <strong>tres roles pedagógicos</strong> que ya viste en el Curso 6: apoyar, acompañar y enlazar no son tres estilos a elegir, son tres momentos.</p>
+
+                <div class="method-elements">
+                    <div class="method-element" style="background: linear-gradient(135deg, #fff8e1, #fff8e1dd); border-color: #fbc02d;">
+                        <h4>Exploro · tu rol es apoyar</h4>
+                        <p>La devolución anima el intento y da una pista concreta. <em>«Me di cuenta de que lo intentaste. Para la próxima, probemos con este paso primero.»</em></p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
+                        <h4>Aplico · tu rol es acompañar</h4>
+                        <p>La devolución se centra en consistencia y ajustes. <em>«Lo estás haciendo cada vez con más claridad. ¿Qué te ayudaría a sostenerlo?»</em></p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #ede7f6, #ede7f6dd); border-color: #673ab7;">
+                        <h4>Profundizo · tu rol es enlazar</h4>
+                        <p>La devolución mira transferencia e impacto. <em>«Lo estás aplicando con criterio. ¿Dónde más podrías usarlo fuera de la Unidad?»</em></p>
+                    </div>
+                </div>
+
+                <h3>El tono: firme y cuidadoso, sin sermón</h3>
+
+                <p>La devolución que más sirve suele ser directa, corta, centrada en la acción y con una salida clara. Cuando suena a juicio — <em>«eres…», «siempre…», «nunca…»</em> — cierra la conversación o activa defensas, y muchas veces ni lo notamos. La fuente propone una revisión interna de una sola pregunta: <strong>¿lo que voy a decir ayuda a la persona a saber qué hacer diferente mañana?</strong></p>
+
+                <h3>Cuando toca corregir en convivencia</h3>
+
+                <p>A veces hay que poner un límite. Aquí ayuda una fórmula clara y serena, de cuatro partes:</p>
+
+                <ol>
+                    <li><strong>Esto que pasó…</strong> — el hecho.</li>
+                    <li><strong>Eso afecta…</strong> — el impacto.</li>
+                    <li><strong>En esta Unidad cuidamos…</strong> — el marco.</li>
+                    <li><strong>Lo que esperamos ahora es…</strong> — la acción concreta.</li>
+                </ol>
+
+                <p>Con un ejemplo: <em>«Escuché burlas cuando alguien se equivocó. Eso baja la confianza y rompe el equipo. En la patrulla cuidamos el respeto. Lo que esperamos ahora es que se repare: una disculpa clara y que en la próxima actividad se use un lenguaje que construya.»</em> No es castigo; es cuidado del ambiente educativo.</p>
+
+                <div class="info-box">🤝 <strong>Cierra con un paso pequeño.</strong> Dos preguntas bastan: «¿qué vas a intentar diferente la próxima vez?» y «¿qué apoyo necesitas para lograrlo?». Así la conversación se vuelve un puente hacia la acción y no un discurso que se pierde.</div>
+
+                <div class="info-box">🏕️ <strong>Y en tu rama.</strong> En Cachorros es breve y con emoción simple; en Lobatos, reconocimiento más una propuesta sencilla; en Scouts se habla de rol, equipo y consecuencia; en Nómadas Scout, de criterio y constancia; en Rovers, de transferencia e impacto — «¿cómo lo aplicas fuera del Clan?».</div>
+
+                <div class="reflection-area">
+                    <h4>🤔 Reflexión Personal</h4>
+                    <p>Recuerda la última vez que le dijiste algo a un protagonista sobre su comportamiento. Escríbelo tal como lo dijiste, con tus palabras reales. Ahora reescríbelo con la estructura de tres pasos. Si al reescribirlo desaparece un «siempre», un «nunca» o un «eres», ahí está la lección de hoy.</p>
+                    <textarea id="reflection-6" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(6, this.value)"></textarea>
+                </div>
+                <div class="quiz-container">
+                    <h3>🧪 Mini-quiz Lección 6</h3>
+
+                    <div class="question">
+                        <h4>1. Un rover sostiene con rigor su rol en un proyecto y ya lo hace con criterio propio. ¿Hacia dónde apunta la devolución en ese momento?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q50">
+                            Hacia la consistencia: reconocer el avance y preguntarle qué le ayudaría a sostenerlo en el tiempo.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q50">
+                            Hacia el intento: animarlo a seguir probando y darle una pista concreta para la próxima vez.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q50">
+                            Hacia la transferencia: preguntarle dónde más podría usar eso, fuera del Clan y de la unidad.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>2. Un dirigente le dice a una scout: «Siempre te desconectas cuando algo no sale». ¿Por qué esa frase no funciona como retroalimentación?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q51">
+                            Porque juzga a la persona en vez de nombrar un hecho, y no le dice qué hacer distinto mañana.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q51">
+                            Porque la retroalimentación sobre convivencia se da en privado y nunca delante de la patrulla.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q51">
+                            Porque antes de dar una devolución hay que registrar la conducta en el instrumento de la rama.
+                        </label>
+                    </div>
+
+                    <button class="btn" onclick="checkQuiz(6)" id="checkBtn-6">Verificar Respuestas</button>
+                    <button class="btn hidden" onclick="completeModule(6)" id="nextBtn-6">Continuar a lo que pasa afuera 🚪</button>
+                </div>
+            </div>
+
+            <!-- MÓDULO 7: 🚪 LO QUE PASA FUERA DE LA REUNIÓN -->
+            <div class="module" id="module-7">
+                <h2>🚪 🚪 Lo que pasa fuera de la reunión</h2>
+                <div class="badge">Módulo 6/8</div>
+
+                <div class="info-box"><strong>Idea central:</strong> las experiencias de fuera del Movimiento no se recolectan. Se escuchan cuando aparecen, y se convierten en aprendizaje sin invadir.</div>
+
+                <p>El aprendizaje más fuerte no siempre ocurre en la reunión. Llega en una conversación difícil en casa, en una decisión en el colegio, en una frustración en el deporte, en una responsabilidad inesperada, en una situación digital que exige criterio. Aparecen sin libreto, y justamente por eso valen tanto.</p>
+
+                <p>La unidad aporta el marco, el lenguaje y la comunidad de apoyo. Las experiencias externas aportan realidad: consecuencias, emociones auténticas, decisiones que importan. Tu trabajo no es rastrear la vida de nadie: es ayudarle a leer lo vivido y a probar un paso siguiente.</p>
+
+                <h3>Antes de preguntar: tres cuidados</h3>
+
+                <ul>
+                    <li><strong>Ofrece elección</strong> — «si quieres compartir…», «si te nace contarlo…».</li>
+                    <li><strong>Delimita el propósito</strong> — «para ver qué aprendizaje te deja», «para pensar un próximo paso».</li>
+                    <li><strong>Cuida la privacidad</strong> — «sin entrar en detalles que no quieras».</li>
+                </ul>
+
+                <p>Con ese marco, el protagonista mantiene el control de qué comparte, hasta dónde llega y qué quiere cuidar. Y tú no quedas en el papel de investigador.</p>
+
+                <h3>Las tres puertas de entrada</h3>
+
+                <div class="method-elements">
+                    <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
+                        <h4>A · Un momento que te marcó</h4>
+                        <p>Pregunta base: <em>«¿Te pasó algo recientemente que te movió, para bien o para mal?»</em> Quédate en el sentido, no en los detalles. Basta con «me pasó algo con un amigo» para acompañar el aprendizaje.</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
+                        <h4>B · Un reto que apareció</h4>
+                        <p>Pregunta base: <em>«¿Hubo alguna situación afuera que te exigió decidir, aguantar, pedir ayuda o resolver?»</em> El foco es el proceso, no el contexto íntimo. Nombra lo que ves: «ahí se ve autocuidado», «ahí se ve convivencia».</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #fff3e0, #fff3e0dd); border-color: #fb8c00;">
+                        <h4>C · Algo que salió distinto</h4>
+                        <p>Pregunta base: <em>«¿Notaste que hiciste algo mejor que antes, o diferente a como lo hacías?»</em> Convierte el logro en aprendizaje transferible: «¿qué ingrediente hizo la diferencia?», «¿cómo lo sostienes?».</p>
+                    </div>
+                </div>
+
+                <p>Cualquiera de las tres cierra igual de bien con una pregunta que abre camino sin presionar: <em>«¿qué te gustaría llevarte como aprendizaje de esto?»</em> o <em>«¿qué podrías intentar diferente la próxima vez?»</em>.</p>
+
+                <div class="info-box">🎯 <strong>Una experiencia, una competencia educativa.</strong> Una vivencia puede tocar muchas cosas a la vez; si intentas abarcarlas todas, se vuelve confuso. La pregunta que limpia la conexión es: «¿qué competencia educativa se está poniendo en juego aquí?». Después eliges <strong>una</strong> conducta observable como foco. A lo sumo dos, y solo si de verdad hace falta.</div>
+
+                <h3>Convertir la experiencia en aprendizaje: cuatro momentos</h3>
+
+                <p>Cuando una experiencia externa se acompaña bien, no se queda en anécdota. El <em>Modelo</em> lo llamó ciclo de aprendizaje experiencial y lo anunció en el Curso 6; aquí se recorre en cuatro pasos y en pocos minutos:</p>
+
+                <ol>
+                    <li><strong>Experiencia concreta</strong> — qué ocurrió, en términos simples. Solo ubicar el hecho.</li>
+                    <li><strong>Observación reflexiva</strong> — qué sintió, qué pensó, qué notó de sí mismo y de otros. Aquí ya hay aprendizaje.</li>
+                    <li><strong>Conceptualización</strong> — qué idea o criterio se lleva. No tiene que sonar académico: «cuando me apuro, me equivoco» sirve.</li>
+                    <li><strong>Aplicación</strong> — dónde lo va a usar la próxima vez.</li>
+                </ol>
+
+                <div class="info-box">🚫 <strong>Y un cuidado explícito: no sobreinterpretar.</strong> No hace falta explicar toda la vida del protagonista. Se trabaja con lo que se ve y con lo que la persona elige compartir, y desde ahí se acuerda un paso siguiente.</div>
+
+                <div class="info-box">🏕️ <strong>Y en tu rama.</strong> En Cachorros y Lobatos estas conversaciones son cortas, orales y casi siempre las registra el dirigente. En Scouts caben al cierre de una salida. En Nómadas Scout y Rovers son el material más rico que vas a tener, porque su vida fuera de la unidad ya es ancha.</div>
+
+                <div class="reflection-area">
+                    <h4>🤔 Reflexión Personal</h4>
+                    <p>Piensa en un protagonista que te haya contado algo de su vida fuera del Movimiento en los últimos dos meses — con nombre, y con lo que realmente te dijo. Escribe cuál de las tres puertas se abrió, qué competencia educativa estaba en juego y qué pregunta de cierre le habrías hecho sabiendo lo que sabes ahora.</p>
+                    <textarea id="reflection-7" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(7, this.value)"></textarea>
+                </div>
+                <div class="quiz-container">
+                    <h3>🧪 Mini-quiz Lección 7</h3>
+
+                    <div class="question">
+                        <h4>1. Una nómada cuenta que tuvo una discusión fuerte en su casa y que esta vez no gritó. ¿Cómo lo acompañas sin invadir?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q60">
+                            Le pides que te cuente qué pasó en su casa para poder ayudarla mejor con lo que está viviendo.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q60">
+                            Le reconoces el cambio y le preguntas qué hizo distinto y cómo podría repetirlo la próxima vez.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q60">
+                            Le sugieres que lo escriba completo en su bitácora personal y que después lo revisen juntas.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>2. Un dirigente escucha una experiencia externa y quiere conectarla con la progresión. ¿Qué conexión recomienda la fuente?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q61">
+                            Una experiencia con una competencia educativa principal, y una conducta observable como foco.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q61">
+                            Todas las competencias que la experiencia toque, para no perder ninguna señal de aprendizaje.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q61">
+                            Ninguna: lo que ocurre fuera del Movimiento no se conecta con la progresión personal del joven.
+                        </label>
+                    </div>
+
+                    <button class="btn" onclick="checkQuiz(7)" id="checkBtn-7">Verificar Respuestas</button>
+                    <button class="btn hidden" onclick="completeModule(7)" id="nextBtn-7">Continuar a lo que no se registra 🔐</button>
+                </div>
+            </div>
+
+            <!-- MÓDULO 8: 🔐 LO QUE NO SE REGISTRA -->
+            <div class="module" id="module-8">
+                <h2>🔐 🔐 Lo que no se registra</h2>
+                <div class="badge">Módulo 7/8</div>
+
+                <div class="info-box"><strong>Idea central:</strong> el seguimiento se basa en confianza, y la confianza se cuida con decisiones pequeñas — qué escribimos, cómo, dónde se guarda y quién lo puede ver.</div>
+
+                <p>Esta es la lección que separa el seguimiento educativo de la vigilancia. Bien hecho, es una herramienta segura. Mal hecho, se vuelve invasivo o genera miedo, y nadie quiere eso.</p>
+
+                <h3>Qué se registra, y qué no</h3>
+
+                <p><strong>Se registra lo educativo:</strong> acciones observables, acuerdos, evidencias del aprendizaje, avances en hábitos, participación, liderazgo, trabajo en equipo, autocuidado en contextos de actividad scout.</p>
+
+                <p><strong>Se evita lo íntimo o sensible:</strong> detalles de salud, situaciones familiares, historias personales delicadas, diagnósticos. El instrumento pedagógico no es el lugar para guardar eso.</p>
+
+                <div class="info-box">⚖️ <strong>La regla para decidir en un segundo.</strong> Si no es necesario para acompañar una conducta educativa y un paso siguiente, no hace falta escribirlo.</div>
+
+                <h3>Cómo se registra: hechos, no etiquetas</h3>
+
+                <div class="method-elements">
+                    <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
+                        <h4>Así suena un registro útil</h4>
+                        <p><em>«Observé esto», «pasó esto», «acordamos esto», «logró esto».</em> Es verificable y educativo, y permite conversar sin discutir opiniones.</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #ffebee, #ffebeedd); border-color: #e53935;">
+                        <h4>Así no</h4>
+                        <p><em>«Es problemático», «es irresponsable», «siempre…», «nunca…».</em> No es por hablar bonito: las etiquetas se quedan pegadas y dañan relaciones.</p>
+                    </div>
+                </div>
+
+                <h3>Dónde se guarda y quién lo ve</h3>
+
+                <p>El seguimiento necesita un lugar claro y limitado: una carpeta física por unidad, patrulla o equipo, o una carpeta digital con acceso restringido al equipo adulto responsable. En cualquiera de los dos casos, conviene acordar tres cosas y dejarlas dichas:</p>
+
+                <ol>
+                    <li><strong>Quién registra.</strong></li>
+                    <li><strong>Quién puede leer.</strong></li>
+                    <li><strong>Cuánto tiempo se conserva.</strong></li>
+                </ol>
+
+                <p>Mientras menos circula la información, más se protege la confianza — y al mismo tiempo el dirigente puede acompañar con continuidad. Las dos cosas caben juntas.</p>
+
+                <h3>Las fotos también son registro</h3>
+
+                <p>Cuando se usan evidencias visuales hay que cuidar tres cosas: que no se compartan sin necesidad, que no se usen para exponer o ridiculizar, y que tengan un propósito educativo claro. En Cachorros y Lobatos, donde las familias están más presentes, el cuidado es todavía mayor: evidencias simples, sin sobreexposición.</p>
+
+                <div class="info-box">🚨 <strong>Cuando aparece algo que no es pedagógico.</strong> Si en una conversación surge una situación sensible o una revelación, <strong>eso no se maneja con estas herramientas</strong>: se maneja por las rutas institucionales y con la reserva del caso. Qué hacer ante una revelación, cuál es el límite de tu rol y cuáles son las señales de alerta son materia de <strong>A Salvo del Peligro</strong> — la línea de Políticas Transversales y el Curso 25. Aquí solo queda dicho dónde termina el seguimiento educativo.</div>
+
+                <details class="policy-quote">
+                    <summary>📋 La frase que sirve como brújula</summary>
+                    <blockquote class="policy-quote-text">El seguimiento pedagógico nunca es un archivo de intimidades, se mantiene en lo que ayuda a crecer con dignidad y seguridad.</blockquote>
+                    <p class="policy-quote-source">— Recursos Educativos para Dirigentes — Herramientas de Seguimiento para la Progresión Personal 2.0 (DNPJ), Cap. 11, p. 32 del PDF.</p>
+                </details>
+
+                <div class="info-box">🏕️ <strong>Y en tu rama.</strong> En unidades pequeñas o en grupos donde todos se conocen, esto pesa más, no menos: la cercanía hace más fácil que un comentario se convierta en etiqueta y que una etiqueta viaje. La confianza es parte del método.</div>
+
+                <div class="reflection-area">
+                    <h4>🤔 Reflexión Personal</h4>
+                    <p>Abre lo que hoy tienes escrito sobre tus protagonistas — el cuaderno, el chat del equipo de dirigentes, el archivo compartido. Busca una frase que sea una etiqueta y no un hecho, y reescríbela. Después responde las tres preguntas para tu unidad: quién registra, quién puede leer y cuánto tiempo se conserva. Si alguna no tiene respuesta acordada, esa es tu tarea de esta semana.</p>
+                    <textarea id="reflection-8" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(8, this.value)"></textarea>
+                </div>
+                <div class="quiz-container">
+                    <h3>🧪 Mini-quiz Lección 8</h3>
+
+                    <div class="question">
+                        <h4>1. Durante una salida, un scout le cuenta a Marcela algo delicado sobre su situación familiar. ¿Qué hace Marcela con esa información?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q70">
+                            La anota en el registro de seguimiento con la fecha, para que quede constancia de lo que le contó.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q70">
+                            No la comenta con nadie más y la anota en el registro para poder hacerle seguimiento después.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q70">
+                            No la lleva al instrumento pedagógico: eso se maneja por las rutas institucionales y con reserva.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>2. Un equipo de dirigentes va a abrir una carpeta digital compartida para el seguimiento de su unidad. ¿Qué tres acuerdos conviene dejar dichos?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q71">
+                            Quién registra, quién puede leer y cuánto tiempo se conserva la información guardada.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q71">
+                            Quién diseña el formato, con qué frecuencia se llena y quién revisa que esté al día cada mes.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q71">
+                            Qué áreas de crecimiento se priorizan, cuántas evidencias se guardan y dónde se imprimen.
+                        </label>
+                    </div>
+
+                    <button class="btn" onclick="checkQuiz(8)" id="checkBtn-8">Verificar Respuestas</button>
+                    <button class="btn hidden" onclick="completeModule(8)" id="nextBtn-8">Continuar a tus instrumentos 📄</button>
+                </div>
+            </div>
+
+            <!-- MÓDULO 9: 📄 TUS TRES INSTRUMENTOS, Y TU PRÓXIMA REUNIÓN -->
+            <div class="module" id="module-9">
+                <h2>📄 📄 Tus tres instrumentos, y tu próxima reunión</h2>
+                <div class="badge">Módulo 8/8</div>
+
+                <div class="info-box"><strong>Idea central:</strong> ahora sí, los archivos. Llegan al final porque un instrumento solo sirve cuando ya sabes qué vas a poner dentro.</div>
+
+                <p>La Dirección Nacional de Programa de Jóvenes publica tres instrumentos para esto. No son intercambiables: cada uno responde una pregunta distinta, y probablemente hoy solo necesitas uno.</p>
+
+                <div class="method-elements">
+                    <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
+                        <h4>Archivo Base de Oportunidades de Aprendizaje</h4>
+                        <p>Responde <em>«¿qué miro, y con qué?»</em>. Una hoja por rama, y dentro las seis áreas con sus competencias. Para cada una, en los tres niveles: cómo facilitarla, cómo se ve en una reunión, qué <strong>conductas observables</strong> buscar y qué <strong>herramientas de evaluación</strong> usar. Es un mapa de consulta, no un formato para llenar.</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
+                        <h4>Registro de Acompañamiento a la Progresión Personal</h4>
+                        <p>Responde <em>«¿dónde anoto lo de cada protagonista?»</em>. Código <strong>DNPJ-2026-021</strong>. Trae la identificación general, la información de acompañamiento — fortalezas, aspectos por fortalecer, ajustes razonables —, el registro de fases y reconocimientos, la síntesis por áreas y una hoja duplicable para cada Oportunidad de Aprendizaje.</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #ede7f6, #ede7f6dd); border-color: #673ab7;">
+                        <h4>La misma herramienta, en versión aplicación</h4>
+                        <p>Responde lo mismo que el anterior, pero sin Excel. Es un archivo web que se abre en el navegador: perfiles de los protagonistas, registro de oportunidades, informes por rama y salida en PDF. Existe, es oficial y casi nadie sabe que está publicada.</p>
+                    </div>
+                </div>
+
+                <h3>Cómo se lee una casilla del Archivo Base</h3>
+
+                <p>Marcela abre la hoja <strong>Scouts</strong> y busca la primera competencia de Corporalidad. En la columna <strong>Aplicación</strong> encuentra, ya escrito, lo que le costaba inventar: la conducta observable — <em>«define una meta física realista y hace seguimiento»</em> — y las herramientas que le sirven — bitácora personal con dos preguntas, bitácora de patrulla, registro anecdótico —. No tuvo que crear nada: tuvo que elegir.</p>
+
+                <div class="info-box">📌 <strong>Ojo con los nombres de las hojas.</strong> El Archivo Base rotula por <strong>rama</strong> (Cachorros, Lobatos, Scouts, Nómadas Scout, Rovers) y el Registro rotula por <strong>unidad</strong> (Familia, Manada, Tropa, Comunidad, Clan). Los dos están bien: son las dos caras de la misma distinción que viste en el curso de tu rama. Y en Cachorros la columna se llama <strong>Dimensión</strong>, no Competencia — también a propósito.</div>
+
+                <h3>Tres nombres para los mismos tres momentos</h3>
+
+                <p>Te vas a encontrar los tres momentos de la progresión escritos de tres maneras, y conviene saberlo antes de abrir los archivos y pensar que te equivocaste de documento.</p>
+
+                <ul>
+                    <li><strong>Exploro · Aplico · Profundizo</strong> — así los nombra el <em>Modelo de Aplicación</em>, y es la forma que usa esta plataforma.</li>
+                    <li><strong>Exploración · Aplicación · Profundización</strong> — así aparecen en las <em>Herramientas de Seguimiento 2.0</em> y en las columnas del Archivo Base.</li>
+                    <li><strong>Explora · Aplica · Profundiza</strong> — así se marca el nivel de desempeño en el Registro DNPJ-2026-021.</li>
+                </ul>
+
+                <p>Son <strong>los mismos tres</strong>, nombrados por tres documentos vigentes. No hay que elegir bando: hay que reconocerlos.</p>
+
+                <h3>Tu próxima reunión</h3>
+
+                <p>Marcela no cambió de carpeta. Cambió el momento en que decide. Ahora, el jueves, escribe una frase en el reverso de la hoja de la reunión — y el sábado la mira. Eso es todo lo que hace distinto, y es lo que hizo que sus formatos dejaran de estar en blanco.</p>
+
+                <div class="mission-box">🎯 <strong>Tu compromiso.</strong> Escríbelo para una reunión con fecha, no para «algún día»: «En la reunión del ____ quiero ver ______ en ______. Lo voy a registrar con ______, y voy a cerrar preguntando ______.» Después elige <strong>una</strong> herramienta del kit de tu rama y sostenla un mes. Una sola. Si al mes sigue en pie, ya tienes seguimiento.</div>
+
+                <div class="info-box">➡️ <strong>Lo que viene.</strong> En el <strong>Curso 14</strong> vas a planear la reunión donde todo esto ocurre, con la herramienta oficial de Planeación de Reunión y Oportunidades de Aprendizaje. Y en el <strong>Curso 15</strong>, cómo el ciclo de programa de tu unidad ordena el año entero. Ninguno de los dos bloquea nada: se recomiendan, no se exigen.</div>
+
+                <div class="info-box">🛠️ <strong>Y la frase, por última vez.</strong> «Hoy quiero ver esto.» Dicha antes de la reunión, es más seguimiento que cualquier formato llenado después. Ya sabes qué poner en ella.</div>
+
+                <div class="reflection-area">
+                    <h4>🤔 Reflexión Personal</h4>
+                    <p>Abre el instrumento que te corresponda hoy y llénalo para un solo protagonista — uno, con nombre. Si te toma más de diez minutos, estás poniendo cosas que no hacen falta; vuelve a la Lección 8 y quita todo lo que no ayude a acompañar una conducta y un paso siguiente. Escribe aquí qué te sobró.</p>
+                    <textarea id="reflection-9" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(9, this.value)"></textarea>
+                </div>
+                <div class="quiz-container">
+                    <h3>🧪 Mini-quiz Lección 9</h3>
+
+                    <div class="question">
+                        <h4>1. Marcela no sabe qué conducta observable mirar para la competencia de convivencia en su Tropa. ¿Qué instrumento le resuelve eso?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q80">
+                            El Registro de Acompañamiento, en su hoja de síntesis de avance por áreas de crecimiento.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q80">
+                            El Archivo Base, que trae las conductas observables y las herramientas de cada nivel por rama.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q80">
+                            La herramienta web, que genera el informe de la rama y lo exporta en PDF para el consejo.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>2. Un dirigente abre el Archivo Base y ve «Exploración», pero en el Registro la casilla dice «Explora» y en el curso aprendió «Exploro». ¿Qué está pasando?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q81">
+                            Son los mismos tres momentos nombrados por tres documentos oficiales distintos y vigentes.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q81">
+                            El Archivo Base quedó desactualizado y hay que corregirlo antes de usarlo con la unidad.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q81">
+                            Son tres escalas diferentes: una para áreas, otra para competencias y otra para las fases.
+                        </label>
+                    </div>
+
+                    <button class="btn" onclick="checkQuiz(9)" id="checkBtn-9">Verificar Respuestas</button>
+                    <button class="btn hidden" onclick="completeModule(9)" id="nextBtn-9">Ver mi certificado 🎓</button>
+                </div>
+            </div>
+
+            <!-- MÓDULO 10: CERTIFICADO -->
+            <div class="module" id="module-10">
+                <div class="certificate" style="max-width: 700px; margin: 0 auto; background: white; border: 3px solid #622599; border-radius: 0; padding: 30px 35px; position: relative; overflow: hidden;">
+                    <!-- Decorative corners -->
+                    <div style="position: absolute; top: 0; left: 0; width: 60px; height: 60px; border-top: 4px solid #ffe675; border-left: 4px solid #ffe675;"></div>
+                    <div style="position: absolute; top: 0; right: 0; width: 60px; height: 60px; border-top: 4px solid #ffe675; border-right: 4px solid #ffe675;"></div>
+                    <div style="position: absolute; bottom: 0; left: 0; width: 60px; height: 60px; border-bottom: 4px solid #ffe675; border-left: 4px solid #ffe675;"></div>
+                    <div style="position: absolute; bottom: 0; right: 0; width: 60px; height: 60px; border-bottom: 4px solid #ffe675; border-right: 4px solid #ffe675;"></div>
+
+                    <!-- Header -->
+                    <div style="text-align: center; margin-bottom: 15px;">
+                        <div style="display: flex; justify-content: center; align-items: center; gap: 15px; margin-bottom: 10px;">
+                            <img src="../assets/logo-asc.png" alt="ASC" style="height: 45px;">
+                            <div style="width: 1px; height: 35px; background: #ddd;"></div>
+                            <img src="../assets/logo-vallescout.png" alt="Valle Scout" style="height: 45px;">
+                        </div>
+                        <p style="font-size: 0.75em; text-transform: uppercase; letter-spacing: 2px; color: #622599; font-weight: 600; margin: 5px 0;">Asociacion Scouts de Colombia</p>
+                        <p style="font-size: 0.7em; text-transform: uppercase; letter-spacing: 1.5px; color: #636363; margin: 2px 0;">Programa de Jóvenes</p>
+                    </div>
+
+                    <hr style="border: none; border-top: 2px solid #622599; margin: 10px 30px;">
+
+                    <!-- Title -->
+                    <div style="text-align: center; margin: 15px 0 10px;">
+                        <h2 style="color: #622599; font-size: 1.3em; letter-spacing: 2px; margin: 0;">CERTIFICADO DE APROBACION</h2>
+                    </div>
+
+                    <!-- Course name -->
+                    <div style="text-align: center; background: linear-gradient(135deg, #622599 0%, #3d1660 100%); color: white; padding: 10px 20px; margin: 10px 0;">
+                        <h3 style="font-size: 1.1em; letter-spacing: 1px; margin: 0; color: white;">SEGUIMIENTO DE LA PROGRESIÓN PERSONAL</h3>
+                    </div>
+
+                    <!-- Body -->
+                    <div style="text-align: center; margin: 15px 0;">
+                        <p style="font-size: 0.9em; color: #636363; margin-bottom: 8px;">Se otorga el presente certificado a</p>
+                        <h3 style="color: #622599; font-size: 1.5em; margin: 8px 0; border-bottom: 2px solid #ffe675; display: inline-block; padding-bottom: 5px;" id="studentName"></h3>
+                        <p style="font-size: 0.85em; color: #636363; margin-top: 10px; line-height: 1.5;">ha completado el Curso 13 de la Línea Programa de Jóvenes — Seguimiento de la Progresión Personal, reconociendo las tres piezas de una conducta observable y los errores que la arruinan, el banco de técnicas como un conjunto de opciones que se eligen con criterio, el kit mínimo de cada una de las cinco ramas, los tres momentos del seguimiento dentro del ciclo de programa, la retroalimentación con la estructura Vi – Logró – Próximo paso ajustada a cada momento de la progresión, el acompañamiento de las experiencias vividas fuera del Movimiento sin invadir la intimidad, los límites éticos de lo que se registra y de quién puede leerlo, y el uso de los instrumentos oficiales de la Dirección Nacional de Programa de Jóvenes</p>
+                    </div>
+
+                    <!-- Details grid -->
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px 20px; margin: 15px 0; padding: 12px 15px; background: #f9f7fc; border-left: 3px solid #622599; font-size: 0.82em;">
+                        <p style="margin: 0;"><strong>Fecha:</strong> <span id="certDate"></span></p>
+                        <p style="margin: 0;"><strong>Puntuacion:</strong> <span id="finalScore"></span>%</p>
+                        <p style="margin: 0;"><strong>Grupo Scout:</strong> <span id="certGroup"></span></p>
+                        <p style="margin: 0;"><strong>Region:</strong> <span id="certRegion"></span></p>
+                        <p style="margin: 0;"><strong>Tiempo de estudio:</strong> <span id="totalTime"></span> min</p>
+                        <p style="margin: 0;"><strong>Estado:</strong> <span style="color: #2e7d32; font-weight: 700;">APROBADO ✅</span></p>
+                    </div>
+
+                    <!-- Verification code -->
+                    <div style="text-align: center; margin: 12px 0; padding: 8px; border: 1px dashed #622599; background: #faf8fd;">
+                        <p style="font-size: 0.75em; color: #636363; margin: 0 0 3px;">Codigo de Verificacion</p>
+                        <strong style="font-size: 1em; color: #622599; letter-spacing: 2px;" id="certCode">ASC-2026-XXXXX</strong>
+                    </div>
+
+                    <!-- Footer -->
+                    <div style="text-align: center; margin-top: 12px;">
+                        <p style="font-size: 0.7em; color: #767676;">Plataforma de Formacion de Adultos ASC</p>
+                    </div>
+                </div>
+
+                <h3 style="margin-top: 30px;">🎯 Logros Desbloqueados</h3>
+                <div class="achievements">
+                    <div class="achievement earned">👀 Escribo lo que se ve</div>
+                    <div class="achievement earned">🧰 Elijo una, no todas</div>
+                    <div class="achievement earned">🎒 Tengo kit</div>
+                    <div class="achievement earned">⏱️ Decido antes</div>
+                    <div class="achievement earned">💬 Devuelvo sin juzgar</div>
+                    <div class="achievement earned">🚪 Abro la puerta sin entrar</div>
+                    <div class="achievement earned">🔐 Sé lo que no escribo</div>
+                    <div class="achievement earned">📄 Abro el archivo correcto</div>
+                    <div class="achievement earned">⭐ Acompaño la progresión</div>
+                </div>
+
+                <div style="text-align: center; margin: 30px 0;">
+                    <button class="btn" onclick="downloadCertificatePDF()">📥 Descargar PDF</button>
+                    <button class="btn" onclick="window.print()">🖨️ Imprimir Certificado</button>
+                    <button class="btn" onclick="shareResults()">📤 Compartir Logros</button>
+                    <button class="btn" onclick="restartCourse()">🔄 Reiniciar Curso</button>
+                </div>
+
+                <div class="reflection-area">
+                    <h4>🎯 Compromiso Personal</h4>
+                    <p>Escribe tu compromiso como adulto certificado para servir a tu grupo scout y al movimiento:</p>
+                    <textarea id="commitment" placeholder="Mi compromiso como adulto del movimiento es..." onchange="saveCommitment(this.value)"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="save-indicator" id="saveIndicator">💾 Guardando...</div>
+
+    <!-- jsPDF para generar el certificado en una sola página A4 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+    // --- Configuracion del curso (generada automaticamente) ---
+    var COURSE_CONFIG = {
+        courseId: "seguimiento-progresion-personal",
+        title: "Seguimiento de la Progresión Personal",
+        totalModules: 11,
+        contentModules: 8,
+        googleScriptUrl: "https://script.google.com/macros/s/AKfycbxxZBp6XpmdRzZS0BXO02WMq31K5FUU8-Mqzc2Sj0PcwB3cMcrhIqbHQA0naUQb5mgBWw/exec",
+        lineName: "Programa de Jóvenes",
+        achievements: [{"id":"achievement-1","emoji":"👀","name":"Escribo lo que se ve","unlockOnModule":2},{"id":"achievement-2","emoji":"🧰","name":"Elijo una, no todas","unlockOnModule":3},{"id":"achievement-3","emoji":"🎒","name":"Tengo kit","unlockOnModule":4},{"id":"achievement-4","emoji":"⏱️","name":"Decido antes","unlockOnModule":5},{"id":"achievement-5","emoji":"💬","name":"Devuelvo sin juzgar","unlockOnModule":6},{"id":"achievement-6","emoji":"🚪","name":"Abro la puerta sin entrar","unlockOnModule":7},{"id":"achievement-7","emoji":"🔐","name":"Sé lo que no escribo","unlockOnModule":8},{"id":"achievement-8","emoji":"📄","name":"Abro el archivo correcto","unlockOnModule":9},{"id":"achievement-9","emoji":"⭐","name":"Acompaño la progresión","unlockOnModule":-1}]
+    };
+
+    // --- Respuestas correctas (indice base 0) ---
+    var QUIZ_ANSWERS = {"2":[0,1],"3":[1,2],"4":[2,0],"5":[1,0],"6":[2,0],"7":[1,0],"8":[2,0],"9":[1,0]};
+
+// ============================================
+// engine.linea.js — EXTENSIÓN de la línea Programa de Jóvenes
+// Se concatena ANTES de engine.core.js (aquí viven las variables globales).
+//
+// Qué va aquí: lo que NO es idéntico en las 3 líneas — textos propios (el número
+// del curso al que se remite, el pie del PDF) y componentes exclusivos de la línea.
+// Lo demás está en el núcleo compartido; si tocas algo que también usan las otras
+// líneas, va en _MOTOR/engine.core.js del repo raíz, no aquí.
+// ============================================
+
+// ============================================
+// MOTOR DE CURSOS - PLATAFORMA DE FORMACION DE ADULTOS ASC
+// Este archivo es generado automaticamente por build-course.js
+// Las variables COURSE_CONFIG y QUIZ_ANSWERS son inyectadas por el builder
+// ============================================
+
+// --- Variables globales ---
+let currentModule = 0;
+let moduleProgress = [];
+let quizScores = [];
+let startTime = new Date();
+let studyTime = 0;
+let sessionStartTime = null;
+let reflections = {};
+let photos = {};
+let selfAssessments = {};
+let personalPlans = {};
+let userProfile = {};
+
+// Version de la escala de grados de dominio del autodiagnostico de competencias.
+// Subir este numero cuando cambien los criterios de los grados: invalida los perfiles
+// ya guardados, que quedarian describiendo peldanos distintos a los que el adulto eligio.
+// v2 (02-ago-2026): correccion doctrinal de los grados en 4 de las 7 competencias
+// (DECISIONES.md raiz ADR-023, Fase 2). Ver ESTADO-AUDITORIA.md.
+const COMPETENCY_SCALE_VERSION = 2;
+
+// --- Escritura segura en localStorage ---
+// saveProgress() no manejaba el fallo en absoluto y mostraba el indicador de "guardado"
+// sin comprobar que la escritura hubiera funcionado. Si localStorage falla (cuota llena,
+// modo privado de Safari, almacenamiento bloqueado por politica del navegador), el
+// estudiante veia el visto verde y perdia su trabajo sin enterarse. Ahora se entera.
+var _avisoAlmacenamiento = false;
+
+
+
+// --- Inicializacion ---
+window.addEventListener('DOMContentLoaded', function () {
+    moduleProgress = new Array(COURSE_CONFIG.totalModules).fill(false);
+    sessionStartTime = new Date();
+    shuffleQuizOptions();
+    loadProgress();
+    prefillFromGlobalProfile();
+    updateElapsedTime();
+});
+
+window.addEventListener('beforeunload', function () {
+    saveProgress();
+});
+
+// --- Persistencia ---
+function saveProgress() {
+    var key = 'courseProgress_' + COURSE_CONFIG.courseId;
+    var progress = {
+        userProfile: userProfile, moduleProgress: moduleProgress,
+        quizScores: quizScores, studyTime: studyTime, reflections: reflections, photos: photos, selfAssessments: selfAssessments, personalPlans: personalPlans,
+        currentModule: currentModule, startTime: startTime.toISOString(),
+        lastSaved: new Date().toISOString(), version: '3.0'
+    };
+    // Solo confirmar visualmente si la escritura funciono de verdad.
+    if (!guardarLocal(key, JSON.stringify(progress))) return;
+    var indicator = document.getElementById('saveIndicator');
+    if (indicator) { indicator.classList.add('show'); setTimeout(function () { indicator.classList.remove('show'); }, 2000); }
+}
+
+function loadProgress() {
+    var key = 'courseProgress_' + COURSE_CONFIG.courseId;
+    var saved = localStorage.getItem(key);
+    if (saved) {
+        var p = JSON.parse(saved);
+        userProfile = p.userProfile || {};
+        moduleProgress = p.moduleProgress || new Array(COURSE_CONFIG.totalModules).fill(false);
+        quizScores = p.quizScores || [];
+        studyTime = p.studyTime || 0;
+        reflections = p.reflections || {};
+        photos = p.photos || {};
+        selfAssessments = p.selfAssessments || {};
+        personalPlans = p.personalPlans || {};
+        currentModule = p.currentModule || 0;
+        startTime = new Date(p.startTime || new Date());
+        if (userProfile.fullName) {
+            showModule(currentModule);
+            var welcomeEl = document.getElementById('welcomeName');
+            if (welcomeEl) welcomeEl.textContent = userProfile.fullName.split(' ')[0];
+            showNotification('¡Bienvenido de vuelta, ' + userProfile.fullName.split(' ')[0] + '! 👋');
+        }
+        Object.keys(reflections).forEach(function (k) {
+            var ta = document.getElementById('reflection-' + k);
+            if (ta) ta.value = reflections[k];
+        });
+        restoreCommitment();
+        Object.keys(photos).forEach(function (k) {
+            var preview = document.getElementById('photo-preview-' + k);
+            var actions = document.getElementById('photo-actions-' + k);
+            if (preview && photos[k] && photos[k].dataUrl) {
+                preview.innerHTML = '<img src="' + photos[k].dataUrl + '" alt="Imagen guardada">';
+                if (actions) actions.classList.remove('hidden');
+            }
+        });
+        if (typeof restoreAssessmentSelections === 'function') restoreAssessmentSelections();
+        if (typeof restorePlanState === 'function') restorePlanState();
+        if (typeof initPlanBuilders === 'function') initPlanBuilders();
+        updateStats();
+        updateProgress();
+    }
+}
+
+// calculateAssessment eliminada (14-sep-2026, ADR-034 Fase 2): renderizaba el
+// perfil de COMPETENCIAS DEL ADULTO — 'Tu perfil de competencias', 'Grado promedio',
+// 'Tus areas de oportunidad'. Programa de Jovenes no tiene ningun curso con
+// self-assessment (0 de 8) y la funcion no se invocaba desde ninguna parte: era
+// codigo muerto heredado al copiar el motor de Politica de Adultos. Sus cadenas
+// viajaban igualmente dentro de los 8 HTML compilados.
+// Lo detecto el check de lexico de codigo.spec.js. Ver GLOSARIO-ASC.md seccion E-bis.
+
+// loadProfileIntoPlan eliminada (23-ago-2026): cargaba el perfil de competencias
+// del ADULTO (Curso 4 de Política de Adultos) en un ejercicio sobre ÁREAS DE CRECIMIENTO
+// del joven. En PJ ningún curso produce ese perfil. Ver GLOSARIO-ASC.md §E-bis.
+
+// generatePlan ya no vive aqui (14-sep-2026, ADR-034 Fase 1 B): esta en el nucleo,
+// y lee sus textos del HTML que deja render.plan-builder.js a partir de los `labels`
+// del JSON del curso. Las 3 copias por linea diferian SOLO por vocabulario.
+
+// --- Recovery from server ---
+function recoverProgress() {
+    var emailInput = document.getElementById('recoveryEmail');
+    var email = emailInput.value.trim();
+    var msgDiv = document.getElementById('recoveryMessage');
+
+    if (!email) {
+        showNotification('⚠️ Ingresa tu correo electronico', 'warning');
+        return;
+    }
+
+    msgDiv.style.display = 'block';
+    msgDiv.innerHTML = '<p style="color: #622599; font-weight: 600;">🔄 Buscando tu avance...</p>';
+
+    var url = COURSE_CONFIG.googleScriptUrl +
+        '?action=recover&email=' + encodeURIComponent(email) +
+        '&course=' + encodeURIComponent(COURSE_CONFIG.courseId) +
+        '&token=ADULTOS_ASC_2026';
+
+    fetch(url, { redirect: 'follow' })
+        .then(function(response) {
+            if (!response.ok) throw new Error('HTTP ' + response.status);
+            return response.json();
+        })
+        .then(function(data) {
+
+            // El Apps Script devuelve: { success: true, data: { registration, modules, quizzes, certificates } }
+            var isFound = (data && data.found) || (data && data.success && data.data);
+
+            if (isFound) {
+                var serverData = data.data || data;
+                var reg = serverData.registration || data.userProfile || {};
+                var mods = serverData.modules || [];
+                var quizzes = serverData.quizzes || [];
+
+                // Reconstruir userProfile desde registration
+                if (reg.fullName || reg.name) {
+                    userProfile = {
+                        fullName: reg.fullName || reg.name || '',
+                        age: reg.age || '',
+                        group: reg.group || '',
+                        region: reg.region || '',
+                        email: reg.email || email,
+                        motivation: reg.motivation || '',
+                        registrationDate: reg.registrationDate || reg.timestamp || ''
+                    };
+                } else if (data.userProfile) {
+                    userProfile = data.userProfile;
+                }
+
+                // Reconstruir moduleProgress desde modules array
+                if (mods.length > 0) {
+                    moduleProgress = new Array(COURSE_CONFIG.totalModules).fill(false);
+                    mods.forEach(function(m) {
+                        var modNum = m.moduleCompleted || m.module;
+                        if (modNum !== undefined && modNum < moduleProgress.length) {
+                            moduleProgress[modNum] = true;
+                        }
+                    });
+                } else if (data.moduleProgress) {
+                    moduleProgress = data.moduleProgress;
+                }
+
+                // Reconstruir quizScores desde quizzes array
+                if (quizzes.length > 0) {
+                    quizScores = [];
+                    quizzes.forEach(function(q) {
+                        var modNum = q.module;
+                        var score = q.score;
+                        if (modNum !== undefined && score !== undefined) {
+                            quizScores[modNum] = parseInt(score);
+                        }
+                    });
+                } else if (data.quizScores) {
+                    quizScores = data.quizScores;
+                }
+
+                // StudyTime y reflections (si vienen directamente)
+                if (data.studyTime) studyTime = data.studyTime;
+                if (data.reflections) {
+                    reflections = data.reflections;
+                    Object.keys(reflections).forEach(function(k) {
+                        var ta = document.getElementById('reflection-' + k);
+                        if (ta) ta.value = reflections[k];
+                    });
+                }
+
+                // Reflexiones por curso (persistencia hibrida): hidratar cada curso en localStorage
+                if (serverData.reflectionsByCourse && typeof serverData.reflectionsByCourse === 'object') {
+                    Object.keys(serverData.reflectionsByCourse).forEach(function (cid) {
+                        var courseReflections = serverData.reflectionsByCourse[cid] || {};
+                        if (cid === COURSE_CONFIG.courseId) {
+                            reflections = courseReflections;
+                            Object.keys(reflections).forEach(function (k) {
+                                var ta = document.getElementById('reflection-' + k);
+                                if (ta) ta.value = reflections[k];
+                            });
+                        } else {
+                            try {
+                                var key = 'courseProgress_' + cid;
+                                var raw = localStorage.getItem(key);
+                                var existing = raw ? JSON.parse(raw) : {};
+                                existing.reflections = courseReflections;
+                                existing.lastSaved = new Date().toISOString();
+                                guardarLocal(key, JSON.stringify(existing));
+                            } catch (e) { /* el aviso lo da guardarLocal */ }
+                        }
+                    });
+                }
+
+                // Autodiagnósticos: restaurar grados desde el backend
+                if (serverData.assessments && typeof serverData.assessments === 'object') {
+                    Object.keys(serverData.assessments).forEach(function (aid) {
+                        var saved = serverData.assessments[aid] || {};
+                        if (!selfAssessments[aid]) selfAssessments[aid] = { grades: {} };
+                        if (saved.grades) selfAssessments[aid].grades = saved.grades;
+                    });
+                    if (typeof restoreAssessmentSelections === 'function') restoreAssessmentSelections();
+                }
+
+                // Planes personales: restaurar plan-builder
+                if (serverData.plans && typeof serverData.plans === 'object') {
+                    Object.keys(serverData.plans).forEach(function (pid) {
+                        var savedPlan = serverData.plans[pid] || {};
+                        var contenido = savedPlan.contenido;
+                        if (contenido && typeof contenido === 'object') {
+                            personalPlans[pid] = contenido;
+                        }
+                    });
+                    if (typeof restorePlanState === 'function') restorePlanState();
+                }
+
+                saveProgress();
+                updateStats();
+                updateProgress();
+
+                // Determinar último módulo completado
+                var lastModule = data.currentModule || 0;
+                if (!lastModule && moduleProgress.length > 0) {
+                    for (var i = moduleProgress.length - 1; i >= 0; i--) {
+                        if (moduleProgress[i]) { lastModule = i + 1; break; }
+                    }
+                }
+
+                var firstName = userProfile.fullName ? userProfile.fullName.split(' ')[0] : 'Scout';
+                var welcomeEl = document.getElementById('welcomeName');
+                if (welcomeEl) welcomeEl.textContent = firstName;
+
+                var completedCount = moduleProgress.filter(Boolean).length;
+                showNotification('¡Avance recuperado, ' + firstName + '! ' + completedCount + ' módulos completados 🎉');
+                showModule(lastModule > 0 ? lastModule : 1);
+            } else {
+                var reason = (data && data.message) ? data.message : 'No se encontro avance asociado a este correo.';
+                msgDiv.innerHTML = '<p style="color: #FF9800; font-weight: 600;">⚠️ ' + escapeHtml(reason) + '</p>' +
+                    '<p style="color: #636363; margin-top: 10px;">Puedes registrarte como nuevo usuario.</p>' +
+                    '<button class="btn" style="margin-top: 10px;" onclick="toggleRegistrationMode(\'new\')">🆕 Registrarme</button>';
+            }
+        })
+        .catch(function(err) {
+            if (typeof console !== 'undefined') console.error('[Recovery] Error:', err);
+            msgDiv.innerHTML = '<p style="color: #f44336; font-weight: 600;">❌ Error al conectar con el servidor.</p>' +
+                '<p style="color: #636363; margin-top: 10px;">Error: ' + escapeHtml(err && err.message ? err.message : String(err)) + '</p>' +
+                '<p style="color: #636363; margin-top: 5px;">Verifica tu conexion a internet e intenta de nuevo.</p>';
+        });
+}
+
+
+// ============================================
+// engine.core.js — NÚCLEO COMPARTIDO del motor de cursos
+// Plataforma de Formación de Adultos — Asociación Scouts de Colombia
+//
+// ⚠️  NO EDITAR ESTE ARCHIVO DENTRO DE UNA LÍNEA.
+//     La fuente vive en el repo raíz, en _MOTOR/engine.core.js, y se propaga con:
+//         python sincronizar-motor.py --aplicar
+//     Editarlo aquí hace que la línea diverja en silencio — que es exactamente el
+//     problema que este archivo existe para resolver (DECISIONES.md ADR-025).
+//
+// Lo específico de cada línea (textos con el número de curso, componentes propios)
+// vive en templates/engine.linea.js, que se concatena ANTES que este archivo.
+// ============================================
+
+function guardarLocal(clave, valor) {
+    try {
+        localStorage.setItem(clave, valor);
+        return true;
+    } catch (e) {
+        if (!_avisoAlmacenamiento) {
+            _avisoAlmacenamiento = true;
+            if (typeof showNotification === 'function') {
+                showNotification('⚠️ No pudimos guardar tu avance en este navegador. Puede ser falta de espacio o el modo privado. Anota lo que escribiste antes de cerrar.', 'warning');
+            }
+        }
+        return false;
+    }
+}
+
+// --- Registro ---
+function handleRegistration(event) {
+    event.preventDefault();
+    var formData = new FormData(event.target);
+    userProfile = {
+        fullName: formData.get('fullName'),
+        age: formData.get('age'),
+        group: formData.get('group'),
+        region: formData.get('region'),
+        email: formData.get('email'),
+        motivation: formData.get('motivation'),
+        registrationDate: new Date().toISOString()
+    };
+    if (!userProfile.fullName || userProfile.fullName.trim() === '') {
+        showNotification('⚠️ El nombre es requerido', 'warning');
+        return;
+    }
+    saveProgress();
+    saveGlobalUserProfile(userProfile);
+    // El curso va explicito: `userProfile` no lo lleva, y sin el la fila queda con la
+    // columna Curso vacia y el panel administrativo la cuenta como "sin-curso". Era la
+    // unica accion del motor que no lo enviaba — quiz, progress y certificate si lo
+    // hacian, por eso los certificados salian bien y los registros no. Detectado el
+    // 03-ago-2026: 18 de 20 registros estaban sin curso y el panel de Programa de
+    // Jovenes mostraba 0 adultos registrados pese a tener alumnos con cursos completos.
+    sendToGoogleSheets({ action: 'register', ...userProfile, course: COURSE_CONFIG.courseId });
+    showModule(1);
+    // Si el curso consume un dato de otro de su linea (el perfil del Curso 4 en el plan
+    // personal), debe cargarse solo, sin boton (CHECKLIST seccion I). Hasta el 14-sep-2026
+    // eso solo pasaba dentro de loadProgress(), o sea SOLO si ya habia progreso guardado:
+    // en la primera visita el banner quedaba vacio hasta recargar. Lo atrapo la prueba
+    // e2e-perfil-competencias antes de mover el bloque (ADR-034 Fase 1). Va con typeof
+    // porque solo lo define la linea que tiene ese hilo de datos.
+    if (typeof initPlanBuilders === 'function') initPlanBuilders();
+    var firstName = userProfile.fullName.split(' ')[0];
+    var welcomeEl = document.getElementById('welcomeName');
+    if (welcomeEl) welcomeEl.textContent = firstName;
+    showNotification('¡Bienvenido/a ' + firstName + '! 🎉');
+}
+
+// --- Perfil global cross-course (autollenado) ---
+function saveGlobalUserProfile(profile) {
+    try {
+        // Persist only the reusable fields (no per-course state)
+        var reusable = {
+            fullName: profile.fullName, age: profile.age, group: profile.group,
+            region: profile.region, email: profile.email, motivation: profile.motivation,
+            updatedAt: new Date().toISOString()
+        };
+        guardarLocal('globalUserProfile', JSON.stringify(reusable));
+    } catch (e) { /* el aviso lo da guardarLocal */ }
+}
+
+function prefillFromGlobalProfile() {
+    // Skip if user already registered for this specific course
+    if (userProfile && userProfile.fullName) return;
+    var raw;
+    try { raw = localStorage.getItem('globalUserProfile'); } catch (e) { return; }
+    if (!raw) return;
+    var profile;
+    try { profile = JSON.parse(raw); } catch (e) { return; }
+    if (!profile || !profile.fullName) return;
+    var fields = ['fullName', 'age', 'group', 'region', 'email', 'motivation'];
+    var filled = 0;
+    fields.forEach(function (id) {
+        var input = document.getElementById(id);
+        if (input && profile[id]) {
+            input.value = profile[id];
+            filled++;
+        }
+    });
+    if (filled === 0) return;
+    // Insert banner above the form
+    var form = document.querySelector('#module-0 form');
+    if (form && !document.getElementById('prefill-banner')) {
+        var firstName = (profile.fullName || '').split(' ')[0] || 'Adulto';
+        var banner = document.createElement('div');
+        banner.id = 'prefill-banner';
+        banner.className = 'prefill-banner';
+        banner.innerHTML =
+            '<div class="prefill-banner-content">' +
+                '<span class="prefill-banner-icon">✨</span>' +
+                '<div>' +
+                    '<strong>Hola ' + escapePrefillHtml(firstName) + '. Tus datos están pre-cargados</strong> de un curso anterior.<br>' +
+                    '<span class="prefill-banner-hint">Edita lo que haya cambiado o continúa directo.</span>' +
+                '</div>' +
+                '<button type="button" class="prefill-banner-clear" onclick="clearPrefill()" title="Limpiar y empezar de cero">Limpiar</button>' +
+            '</div>';
+        form.parentNode.insertBefore(banner, form);
+    }
+}
+
+function clearPrefill() {
+    var fields = ['fullName', 'age', 'group', 'region', 'email', 'motivation'];
+    fields.forEach(function (id) {
+        var input = document.getElementById(id);
+        if (input) input.value = '';
+    });
+    var banner = document.getElementById('prefill-banner');
+    if (banner) banner.remove();
+    var fn = document.getElementById('fullName');
+    if (fn) fn.focus();
+}
+
+function escapePrefillHtml(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+}
+
+// --- Navegacion de modulos ---
+function showModule(moduleIndex) {
+    moduleIndex = parseInt(moduleIndex);
+    if (moduleIndex > 0 && (!userProfile || !userProfile.fullName)) {
+        showNotification('⚠️ Debes completar el registro primero', 'warning');
+        return;
+    }
+    // Pause and unload videos in the previously active module to free memory
+    document.querySelectorAll('.module.active video[data-src]').forEach(function (v) {
+        try { v.pause(); } catch (e) {}
+        if (v.src) { v.removeAttribute('src'); v.load(); }
+    });
+    document.querySelectorAll('.module').forEach(function (m) { m.classList.remove('active'); });
+    var target = document.getElementById('module-' + moduleIndex);
+    if (target) {
+        target.classList.add('active');
+        // Lazy-load videos in the now-active module: copy data-src to src
+        target.querySelectorAll('video[data-src]').forEach(function (v) {
+            if (!v.src) { v.src = v.getAttribute('data-src'); }
+        });
+    }
+
+    document.querySelectorAll('.nav-btn').forEach(function (btn, index) {
+        btn.classList.remove('active');
+        if (index === moduleIndex) btn.classList.add('active');
+    });
+
+    var mobileSelect = document.querySelector('.mobile-nav select');
+    if (mobileSelect) mobileSelect.value = moduleIndex;
+
+    currentModule = moduleIndex;
+
+    if (moduleIndex === COURSE_CONFIG.totalModules - 1) {
+        generateCertificate();
+    }
+    updateProgress();
+    saveProgress();
+    window.scrollTo(0, 0);
+}
+
+// --- Sistema de evaluaciones ---
+function selectOption(element, optionIndex) {
+    var question = element.closest('.question');
+    // Limpiar marcas previas (selected, correct, incorrect) de TODAS las opciones de la pregunta:
+    // permite reintentar sin que queden colores fantasma de un intento anterior.
+    question.querySelectorAll('.option').forEach(function (opt) {
+        opt.classList.remove('selected', 'correct', 'incorrect');
+    });
+    element.classList.add('selected');
+    element.setAttribute('data-selected-index', optionIndex);
+    // Si el boton "Verificar" estaba oculto tras un fallo, lo restauramos en cuanto el usuario cambia de opcion.
+    var quizContainer = element.closest('.quiz-container');
+    if (quizContainer) {
+        var checkBtn = quizContainer.querySelector('[id^="checkBtn-"]');
+        if (checkBtn) checkBtn.style.display = '';
+    }
+}
+
+// Baraja las opciones de cada pregunta una vez por sesion (Fisher-Yates).
+// Como cada <label class="option"> conserva su onclick="selectOption(this, oi)" con su indice original,
+// QUIZ_ANSWERS sigue siendo valido sin tocar build-course.js.
+function shuffleQuizOptions() {
+    document.querySelectorAll('.quiz-container .question').forEach(function (question) {
+        var options = Array.prototype.slice.call(question.querySelectorAll('.option'));
+        if (options.length < 2) return;
+        for (var i = options.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var tmp = options[i]; options[i] = options[j]; options[j] = tmp;
+        }
+        options.forEach(function (opt) { question.appendChild(opt); });
+    });
+}
+
+// Intentos por modulo en ESTA sesion de pagina (ADR-030). No se persiste a proposito:
+// no es estado del alumno, solo contexto del analisis de items. Si recarga y reintenta,
+// vuelve a contar desde 1 — asumido, porque lo que interesa es la pregunta, no la persona.
+var quizAttempts = {};
+
+function checkQuiz(moduleNum) {
+    var quizData = QUIZ_ANSWERS[moduleNum];
+    if (!quizData) return;
+
+    var questions = document.querySelectorAll('#module-' + moduleNum + ' .question');
+    var correctAnswers = 0;
+    var totalQuestions = quizData.length;
+
+    // Detalle pregunta por pregunta para el analisis de items (ADR-030).
+    // data-selected-index guarda el indice ORIGINAL de la opcion en el JSON, no su
+    // posicion en pantalla, asi que sobrevive al barajado de shuffleQuizOptions().
+    var itemsDetalle = [];
+
+    questions.forEach(function (question, qIndex) {
+        var selectedOption = question.querySelector('.option.selected');
+        var elegida = -1;   // -1 = la dejo sin responder
+        var acerto = 0;
+        if (selectedOption) {
+            var selectedIdx = parseInt(selectedOption.getAttribute('data-selected-index'));
+            elegida = isNaN(selectedIdx) ? -1 : selectedIdx;
+            if (selectedIdx === quizData[qIndex]) {
+                selectedOption.classList.add('correct');
+                correctAnswers++;
+                acerto = 1;
+            } else {
+                selectedOption.classList.add('incorrect');
+                // Mostrar la correcta
+                var options = question.querySelectorAll('.option');
+                if (options[quizData[qIndex]]) options[quizData[qIndex]].classList.add('correct');
+            }
+        }
+        itemsDetalle.push({ q: qIndex, o: elegida, c: acerto });
+    });
+
+    var score = Math.round((correctAnswers / totalQuestions) * 100);
+    quizScores[moduleNum] = score;
+
+    // Analisis de items — se envia SIEMPRE, apruebe o no. Es la unica via por la que
+    // el backend ve un intento fallido: la accion 'quiz' de abajo solo se dispara con
+    // score >= 70, asi que el dato util (en que se equivoca la gente antes de aprobar)
+    // no llegaba a ninguna parte. Va a una hoja anonima: sin email ni nombre.
+    quizAttempts[moduleNum] = (quizAttempts[moduleNum] || 0) + 1;
+    sendToGoogleSheets({
+        action: 'items', course: COURSE_CONFIG.courseId,
+        module: moduleNum, attempt: quizAttempts[moduleNum], items: itemsDetalle
+    });
+
+    var checkBtn = document.getElementById('checkBtn-' + moduleNum);
+    if (checkBtn) checkBtn.style.display = 'none';
+
+    if (score >= 70) {
+        var nextBtn = document.getElementById('nextBtn-' + moduleNum);
+        if (nextBtn) nextBtn.classList.remove('hidden');
+
+        // Desbloquear logros
+        COURSE_CONFIG.achievements.forEach(function (ach) {
+            if (ach.unlockOnModule === moduleNum) unlockAchievement(ach.id);
+        });
+
+        showNotification('¡Excelente! Obtuviste ' + score + '% ✅');
+        sendToGoogleSheets({
+            action: 'quiz', name: userProfile.fullName, email: userProfile.email,
+            module: moduleNum, score: score, course: COURSE_CONFIG.courseId
+        });
+    } else {
+        showNotification('Puntuación: ' + score + '%. Necesitas 70% para continuar. Revisa el contenido y vuelve a intentarlo.', 'warning');
+        // No auto-reset: en cuanto el usuario hace clic en una opcion, selectOption() limpia las marcas
+        // de esa pregunta y vuelve a mostrar el boton "Verificar". Esto evita que un reset por tiempo
+        // borrara la nueva seleccion del usuario antes de que pulsara verificar.
+    }
+    saveProgress();
+}
+
+function completeModule(moduleNum) {
+    moduleProgress[moduleNum] = true;
+    sendToGoogleSheets({
+        action: 'progress', name: userProfile.fullName, email: userProfile.email,
+        moduleCompleted: moduleNum, course: COURSE_CONFIG.courseId
+    });
+    var navBtns = document.querySelectorAll('.nav-btn');
+    if (navBtns[moduleNum]) navBtns[moduleNum].classList.add('completed');
+    showModule(moduleNum + 1);
+    saveProgress();
+    updateProgress();
+    updateStats();
+}
+
+// --- Progreso ---
+function updateProgress() {
+    var completed = moduleProgress.filter(Boolean).length;
+    var total = COURSE_CONFIG.contentModules;
+    var pct = Math.round((completed / total) * 100);
+    var bar = document.getElementById('progressBar');
+    var text = document.getElementById('progressText');
+    if (bar) bar.style.width = pct + '%';
+    if (text) text.textContent = pct + '%';
+
+    updateElapsedTime();
+}
+
+function updateElapsedTime() {
+    var timeEl = document.getElementById('elapsedTime');
+    if (!timeEl || !sessionStartTime) return;
+    var totalMinutes = studyTime;
+    if (totalMinutes < 60) {
+        timeEl.textContent = totalMinutes + ' min';
+    } else {
+        var hours = Math.floor(totalMinutes / 60);
+        var mins = totalMinutes % 60;
+        timeEl.textContent = hours + 'h ' + (mins < 10 ? '0' : '') + mins + 'min';
+    }
+}
+
+function updateStats() {
+    var completed = moduleProgress.filter(Boolean).length;
+    var quizzes = quizScores.filter(function (s) { return s >= 70; }).length;
+    var el1 = document.getElementById('modulesCompleted');
+    var el2 = document.getElementById('quizzesCompleted');
+    var el3 = document.getElementById('studyTime');
+    if (el1) el1.textContent = completed;
+    if (el2) el2.textContent = quizzes;
+    if (el3) el3.textContent = studyTime;
+}
+
+// --- Logros ---
+function unlockAchievement(achievementId) {
+    var el = document.getElementById(achievementId);
+    if (el && !el.classList.contains('earned')) {
+        el.classList.add('earned');
+        showNotification('¡Logro desbloqueado: ' + el.textContent + '! 🏆');
+    }
+}
+
+// --- Notificaciones ---
+function showNotification(message, type) {
+    var n = document.createElement('div');
+    n.className = 'notification';
+    if (type === 'warning') n.style.background = '#FF9800';
+    n.textContent = message;
+    document.body.appendChild(n);
+    setTimeout(function () {
+        n.style.animation = 'slideOut 0.3s';
+        setTimeout(function () { n.remove(); }, 300);
+    }, 3000);
+}
+
+// --- Reflexiones ---
+function saveReflection(moduleNum, text) {
+    reflections[moduleNum] = text;
+    saveProgress();
+    // Sincronizacion en segundo plano al backend (fire-and-forget)
+    if (userProfile && userProfile.email && typeof sendToGoogleSheets === 'function') {
+        sendToGoogleSheets({
+            action: 'reflection',
+            email: userProfile.email,
+            name: userProfile.fullName,
+            course: COURSE_CONFIG.courseId,
+            moduleId: String(moduleNum),
+            texto: text || ''
+        });
+    }
+}
+
+function saveCommitment(text) {
+    // Por guardarLocal, no directo: si el almacenamiento falla, el alumno pierde
+    // su compromiso sin enterarse (AUDITORIA.md check E-bis).
+    guardarLocal('commitment_' + COURSE_CONFIG.courseId, text);
+}
+
+function restoreCommitment() {
+    // El compromiso se guardaba y no se leia NUNCA. loadProgress repuebla
+    // reflection-*, fotos, autodiagnosticos, planes y catalogos, pero jamas
+    // #commitment: el alumno escribia su compromiso, cerraba, y al volver
+    // encontraba la caja vacia. Pasaba en los 21 cursos de las 4 lineas.
+    // Lo detecto la re-auditoria pedagogica del Curso 03 de Politicas
+    // Transversales el 15-sep-2026, leyendo el motor y no la pagina, cuando
+    // el curso empezo a prometerle al adulto que podria releerlo el domingo.
+    // Nota: esto restaura en el MISMO navegador. La recuperacion entre
+    // dispositivos iria en el payload de saveProgress, que toca el contrato
+    // con el backend y es otra decision.
+    try {
+        var ta = document.getElementById('commitment');
+        if (!ta || ta.value) return;
+        var txt = localStorage.getItem('commitment_' + COURSE_CONFIG.courseId);
+        if (txt) ta.value = txt;
+    } catch (e) {
+        // localStorage bloqueado o lleno: la caja queda vacia, como hasta hoy.
+    }
+}
+
+// --- Foto-upload (resize + persist + descargar) ---
+function handlePhotoUpload(input, photoId) {
+    var file = input.files && input.files[0];
+    if (!file) return;
+    if (!file.type.startsWith('image/')) {
+        showNotification('⚠️ Solo se aceptan imágenes (JPG, PNG, etc.)', 'warning');
+        return;
+    }
+    if (file.size > 10 * 1024 * 1024) {
+        showNotification('⚠️ La imagen pesa más de 10 MB. Intenta con una más pequeña.', 'warning');
+        return;
+    }
+    var reader = new FileReader();
+    reader.onload = function (e) {
+        var img = new Image();
+        img.onload = function () {
+            var MAX = 1200;
+            var ratio = Math.min(1, MAX / Math.max(img.width, img.height));
+            var w = Math.round(img.width * ratio);
+            var h = Math.round(img.height * ratio);
+            var canvas = document.createElement('canvas');
+            canvas.width = w; canvas.height = h;
+            canvas.getContext('2d').drawImage(img, 0, 0, w, h);
+            var dataUrl = canvas.toDataURL('image/jpeg', 0.85);
+            var preview = document.getElementById('photo-preview-' + photoId);
+            var actions = document.getElementById('photo-actions-' + photoId);
+            if (preview) preview.innerHTML = '<img src="' + dataUrl + '" alt="Tu imagen">';
+            if (actions) actions.classList.remove('hidden');
+            photos[photoId] = {
+                dataUrl: dataUrl,
+                fileName: (file.name || 'imagen') + '.jpg',
+                savedAt: new Date().toISOString()
+            };
+            try {
+                saveProgress();
+                showNotification('✅ Imagen guardada en tu progreso');
+            } catch (err) {
+                showNotification('⚠️ La imagen es muy pesada para guardar localmente. Descárgala para no perderla.', 'warning');
+            }
+        };
+        img.src = e.target.result;
+    };
+    reader.readAsDataURL(file);
+}
+
+function downloadPhoto(photoId) {
+    var photo = photos[photoId];
+    if (!photo || !photo.dataUrl) {
+        showNotification('⚠️ No hay imagen guardada para descargar', 'warning');
+        return;
+    }
+    var a = document.createElement('a');
+    a.href = photo.dataUrl;
+    a.download = photo.fileName || 'imagen.jpg';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}
+
+function clearPhoto(photoId) {
+    if (!confirm('¿Seguro que quieres quitar esta imagen? Se borrará de tu progreso guardado.')) return;
+    delete photos[photoId];
+    saveProgress();
+    var preview = document.getElementById('photo-preview-' + photoId);
+    var actions = document.getElementById('photo-actions-' + photoId);
+    var input = document.getElementById('photo-input-' + photoId);
+    if (preview) preview.innerHTML = '';
+    if (actions) actions.classList.add('hidden');
+    if (input) input.value = '';
+    showNotification('Imagen quitada');
+}
+
+// --- Bloque de perfil propio de una linea: NO ESTA AQUI a proposito ---
+// (ADR-034, Fase 1, 14-sep-2026). recordAssessmentGrade,
+// restoreAssessmentSelections, getCompetencyProfile, isProfileStale e initPlanBuilders
+// son del plano del ADULTO —competencias esenciales con grados de dominio— y solo los
+// usa Politica de Adultos. Vivian en el nucleo y por eso viajaron a las otras dos
+// lineas, donde su vocabulario llego a publicarse. Ahora estan en el engine.linea.js
+// de Politica de Adultos. Las lineas ya los invocan con `typeof fn === 'function'`,
+// asi que donde no existen simplemente no ocurren.
+// Si otra linea necesita un bloque asi, se construye con SU vocabulario en SU
+// extension — nunca aqui: este archivo se inlinea en el HTML de las 3 lineas.
+
+// --- Plan Personal Builder ---
+
+function togglePlanCompetence(builderId, compId) {
+    var fields = document.getElementById('pb-fields-' + compId);
+    var checkbox = document.querySelector('.pb-comp-check[data-competence="' + compId + '"]');
+    if (!fields) return;
+    if (checkbox && checkbox.checked) {
+        fields.classList.remove('hidden');
+        if (!personalPlans[builderId]) personalPlans[builderId] = { competences: {}, commitment: '' };
+        if (!personalPlans[builderId].competences[compId]) {
+            personalPlans[builderId].competences[compId] = { meta: '', plazo: '', recursos: '' };
+        }
+    } else {
+        fields.classList.add('hidden');
+        if (personalPlans[builderId] && personalPlans[builderId].competences) {
+            delete personalPlans[builderId].competences[compId];
+        }
+    }
+    saveProgress();
+}
+
+function savePlanField(builderId, compId, field, value) {
+    if (!personalPlans[builderId]) personalPlans[builderId] = { competences: {}, commitment: '' };
+    if (!personalPlans[builderId].competences[compId]) personalPlans[builderId].competences[compId] = {};
+    personalPlans[builderId].competences[compId][field] = value;
+    saveProgress();
+}
+
+function savePlanCommitment(builderId, value) {
+    if (!personalPlans[builderId]) personalPlans[builderId] = { competences: {}, commitment: '' };
+    personalPlans[builderId].commitment = value;
+    saveProgress();
+}
+
+// generatePlan vive en el nucleo desde el 14-sep-2026 (ADR-034 Fase 1 B): antes
+// habia una copia por linea, distintas solo por sus textos. Ahora los textos los deja
+// el renderizador en <script id="pb-labels-{id}"> y aqui no hay vocabulario de ningun
+// plano — ni siquiera en los comentarios: este archivo se inlinea en el HTML de las 3
+// lineas. Si una linea quiere anadir un sufijo propio junto al nombre de cada
+// elemento del plan, define planPrioritySuffix(compId) en su engine.linea.js.
+function planLabels(builderId) {
+    var el = document.getElementById('pb-labels-' + builderId);
+    try { return el ? JSON.parse(el.textContent) : {}; } catch (e) { return {}; }
+}
+
+function generatePlan(builderId) {
+    var L = planLabels(builderId);
+    var minimo = Number(L.minimo) || 1;
+    var plan = personalPlans[builderId];
+    if (!plan || !plan.competences || Object.keys(plan.competences).length < minimo) {
+        showNotification(L.avisoMinimo || '⚠️ Faltan elementos por seleccionar antes de generar el plan.', 'warning');
+        return;
+    }
+    // Validate fields
+    var entries = Object.keys(plan.competences);
+    var incomplete = entries.filter(function (compId) {
+        var d = plan.competences[compId];
+        return !d.meta || !d.meta.trim() || !d.plazo || !d.plazo.trim() || !d.recursos || !d.recursos.trim();
+    });
+    if (incomplete.length > 0) {
+        showNotification(L.avisoCampos || '⚠️ Hay campos vacíos. Completa meta, plazo y recursos.', 'warning');
+        return;
+    }
+    // Get names from checkboxes
+    var nameByCompId = {};
+    document.querySelectorAll('.pb-comp-check').forEach(function (cb) {
+        nameByCompId[cb.getAttribute('data-competence')] = cb.getAttribute('data-name');
+    });
+    var fullName = (userProfile && userProfile.fullName) || 'Adulto del Movimiento';
+    var groupName = (userProfile && userProfile.group) || '—';
+    var dateStr = new Date().toLocaleDateString('es-CO', { year: 'numeric', month: 'long', day: 'numeric' });
+    var prioritiesHtml = entries.map(function (compId, idx) {
+        var d = plan.competences[compId];
+        var name = nameByCompId[compId] || compId;
+        var sufijo = (typeof planPrioritySuffix === 'function') ? (planPrioritySuffix(compId) || '') : '';
+        return '<div class="pb-priority"><h3>' + (idx + 1) + '. ' + name + sufijo + '</h3>' +
+            '<dt>🎯 Meta concreta</dt><dd>' + escapeHtml(d.meta) + '</dd>' +
+            '<dt>⏰ Plazo</dt><dd>' + escapeHtml(d.plazo) + '</dd>' +
+            '<dt>📚 Recursos</dt><dd>' + escapeHtml(d.recursos) + '</dd></div>';
+    }).join('');
+    var commitmentHtml = (plan.commitment || '').trim() ?
+        '<div class="pb-final-commitment"><h3>💚 Mi compromiso</h3><p style="margin:0;white-space:pre-wrap;">' + escapeHtml(plan.commitment) + '</p></div>' : '';
+    var output = document.getElementById('pb-output-' + builderId);
+    if (output) {
+        output.innerHTML =
+            '<h2>' + (L.titulo || '📋 Mi plan') + '</h2>' +
+            '<p class="pb-output-meta"><strong>' + escapeHtml(fullName) + '</strong> · Grupo ' + escapeHtml(groupName) + ' · ' + dateStr + '</p>' +
+            '<h3 style="margin-top:24px;color:#622599;">' + (L.subtituloPrioridades || 'Mis prioridades') + '</h3>' +
+            prioritiesHtml +
+            commitmentHtml +
+            '<button class="pb-print-btn" onclick="printPlan()">🖨️ Imprimir / Guardar como PDF</button>' +
+            (L.cierre ? '<p style="text-align:center;color:#666;font-size:0.85em;margin:14px 0 0 0;font-style:italic;">' + L.cierre + '</p>' : '');
+        output.classList.remove('hidden');
+        output.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    showNotification('✅ Plan generado. Puedes imprimirlo.');
+    // Sincronizacion en segundo plano al backend (persistencia hibrida)
+    if (userProfile && userProfile.email && typeof sendToGoogleSheets === 'function') {
+        sendToGoogleSheets({
+            action: 'plan',
+            email: userProfile.email,
+            name: userProfile.fullName,
+            course: COURSE_CONFIG.courseId,
+            planId: builderId,
+            planType: 'plan-builder-v1',
+            contenido: plan
+        });
+    }
+}
+
+function restorePlanState() {
+    Object.keys(personalPlans).forEach(function (bid) {
+        var plan = personalPlans[bid];
+        if (!plan) return;
+        // Commitment
+        var ta = document.getElementById('pb-commitment-' + bid);
+        if (ta && plan.commitment) ta.value = plan.commitment;
+        // Competences
+        Object.keys(plan.competences || {}).forEach(function (compId) {
+            var checkbox = document.querySelector('.pb-comp-check[data-competence="' + compId + '"]');
+            if (checkbox) {
+                checkbox.checked = true;
+                togglePlanCompetence(bid, compId);
+                var data = plan.competences[compId];
+                ['meta', 'plazo', 'recursos'].forEach(function (f) {
+                    var input = document.querySelector('.pb-field-' + f + '[data-competence="' + compId + '"]');
+                    if (input && data[f]) input.value = data[f];
+                });
+            }
+        });
+    });
+}
+
+function escapeHtml(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+}
+
+function printPlan() {
+    document.body.classList.add('printing-plan');
+    var afterPrint = function () {
+        document.body.classList.remove('printing-plan');
+        window.removeEventListener('afterprint', afterPrint);
+    };
+    window.addEventListener('afterprint', afterPrint);
+    setTimeout(function () { window.print(); }, 50);
+    // Safety: remove class after 30s in case afterprint doesn't fire
+    setTimeout(function () { document.body.classList.remove('printing-plan'); }, 30000);
+}
+
+// --- Certificado ---
+function generateCertificate() {
+    var date = new Date();
+    var el = function (id) { return document.getElementById(id); };
+
+    // Idempotencia: el certificado se emite UNA sola vez por curso. Si ya existe, se reusa
+    // (no se genera codigo nuevo ni se reenvia al backend -> evita filas duplicadas en el Sheet).
+    var courseKey = 'certificate_issued_' + COURSE_CONFIG.courseId;
+    var issued = null;
+    try { issued = JSON.parse(localStorage.getItem(courseKey) || 'null'); } catch (e) { issued = null; }
+
+    var esNuevo = !(issued && issued.code);
+    var code = esNuevo
+        ? 'ASC-' + date.getFullYear() + '-' + Math.random().toString(36).substr(2, 5).toUpperCase()
+        : issued.code;
+    var avg = esNuevo
+        ? (quizScores.length > 0 ? Math.round(quizScores.reduce(function (a, b) { return a + b; }, 0) / quizScores.length) : 100)
+        : issued.score;
+    var fechaISO = esNuevo ? date.toISOString() : (issued.date || date.toISOString());
+
+    if (el('studentName')) el('studentName').textContent = userProfile.fullName || 'Adulto Scout';
+    if (el('certDate')) el('certDate').textContent = new Date(fechaISO).toLocaleDateString('es-CO');
+    if (el('totalTime')) el('totalTime').textContent = studyTime;
+    if (el('certGroup')) el('certGroup').textContent = userProfile.group || 'N/A';
+    if (el('certRegion')) el('certRegion').textContent = userProfile.region || 'Colombia';
+    if (el('certCode')) el('certCode').textContent = code;
+    if (el('finalScore')) el('finalScore').textContent = avg;
+
+    // El logro final del curso es el que declara `unlockOnModule: -1`, y el bucle
+    // de logros del quiz nunca puede encenderlo porque compara contra el numero de
+    // modulo. Aqui estaba cableado 'achievement-5', que solo acertaba en los cursos
+    // donde el logro final se llama asi: en los demas la insignia culminante se
+    // quedaba gris para siempre (16 de 23 cursos, 15-sep-2026). Se barre por la
+    // convencion, no por el id.
+    COURSE_CONFIG.achievements.forEach(function (ach) {
+        if (ach.unlockOnModule === -1) unlockAchievement(ach.id);
+    });
+    var bar = document.getElementById('progressBar');
+    var text = document.getElementById('progressText');
+    if (bar) bar.style.width = '100%';
+    if (text) text.textContent = '100%';
+
+    // Solo la primera emision escribe en localStorage y sincroniza al backend.
+    if (esNuevo) {
+        sendToGoogleSheets({
+            action: 'certificate', name: userProfile.fullName, email: userProfile.email,
+            group: userProfile.group, region: userProfile.region, certificateCode: code,
+            completionDate: fechaISO, score: avg, studyTime: studyTime,
+            course: COURSE_CONFIG.courseId
+        });
+        var registro = JSON.stringify({
+            name: userProfile.fullName, code: code, date: fechaISO,
+            score: avg, course: COURSE_CONFIG.courseId
+        });
+        // Por guardarLocal, no directo (AUDITORIA.md check E-bis). Es la escritura mas
+        // sensible del motor: si falla en silencio, verificar-certificado.html no
+        // encuentra el registro y el alumno no puede validar su propio certificado.
+        guardarLocal('certificate_' + code, registro); // lookup por codigo (verify)
+        guardarLocal(courseKey, registro);             // puntero estable por curso
+    }
+}
+
+// --- Descargar certificado como PDF ---
+function isMobileDevice() {
+    return /Android|iPhone|iPad|iPod|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+        || (window.innerWidth <= 768);
+}
+
+// --- Utilidades internas para el PDF ---
+function _txt(id, fallback) {
+    var el = document.getElementById(id);
+    return el ? (el.textContent || '').trim() : (fallback || '');
+}
+
+function _imgToDataURL(imgEl) {
+    return new Promise(function(resolve) {
+        if (!imgEl) { resolve(null); return; }
+        try {
+            var canvas = document.createElement('canvas');
+            var w = imgEl.naturalWidth || imgEl.width || 200;
+            var h = imgEl.naturalHeight || imgEl.height || 200;
+            canvas.width = w; canvas.height = h;
+            var ctx = canvas.getContext('2d');
+            ctx.drawImage(imgEl, 0, 0, w, h);
+            resolve({ data: canvas.toDataURL('image/png'), w: w, h: h });
+        } catch (e) { resolve(null); }
+    });
+}
+
+function _wrapText(pdf, text, maxWidth) {
+    return pdf.splitTextToSize(text || '', maxWidth);
+}
+
+function downloadCertificatePDF() {
+    var certModule = document.getElementById('module-' + (COURSE_CONFIG.totalModules - 1));
+    var cert = certModule ? certModule.querySelector('.certificate') : null;
+    if (!cert) {
+        showNotification('El certificado aún no está disponible.');
+        return;
+    }
+
+    // Localizar jsPDF (viene incluido en el bundle de html2pdf)
+    var JsPDF = (window.jspdf && window.jspdf.jsPDF) || (typeof jsPDF !== 'undefined' ? jsPDF : null);
+    if (!JsPDF) {
+        showNotification('La librería de PDF no cargó. Verifica tu conexión.');
+        if (confirm('¿Deseas usar la opción de Imprimir en su lugar?')) { window.print(); }
+        return;
+    }
+
+    var code = _txt('certCode', 'certificado');
+    var filename = 'Certificado-' + code + '.pdf';
+    var mobile = isMobileDevice();
+    showNotification('Generando PDF...');
+
+    // Datos del certificado
+    var student = _txt('studentName', 'Estudiante');
+    var date = _txt('certDate', '');
+    var score = _txt('finalScore', '');
+    var group = _txt('certGroup', '');
+    var region = _txt('certRegion', '');
+    var totalTime = _txt('totalTime', '');
+    var courseName = (COURSE_CONFIG.certificateCourseName || COURSE_CONFIG.title || '').toUpperCase();
+    var courseDescription = COURSE_CONFIG.certificateDescription ||
+        'ha completado exitosamente el curso de formación de la Plataforma de Formación de Adultos ASC';
+
+    // Cargar logos
+    var ascImg = cert.querySelector('img[src*="logo-asc"]');
+    var valleImg = cert.querySelector('img[src*="logo-vallescout"]');
+
+    Promise.all([_imgToDataURL(ascImg), _imgToDataURL(valleImg)]).then(function(logos) {
+        var logoASC = logos[0], logoValle = logos[1];
+
+        // A4 portrait: 210 x 297 mm
+        var pdf = new JsPDF('p', 'mm', 'a4');
+        var pageW = 210, pageH = 297;
+
+        // --- Marco morado exterior ---
+        pdf.setDrawColor(98, 37, 153);
+        pdf.setLineWidth(1.2);
+        pdf.rect(8, 8, pageW - 16, pageH - 16);
+
+        // --- Esquinas decorativas amarillas ---
+        pdf.setDrawColor(255, 230, 117);
+        pdf.setLineWidth(2);
+        var cs = 20; // corner size
+        // Top-left
+        pdf.line(8, 8, 8 + cs, 8);
+        pdf.line(8, 8, 8, 8 + cs);
+        // Top-right
+        pdf.line(pageW - 8, 8, pageW - 8 - cs, 8);
+        pdf.line(pageW - 8, 8, pageW - 8, 8 + cs);
+        // Bottom-left
+        pdf.line(8, pageH - 8, 8 + cs, pageH - 8);
+        pdf.line(8, pageH - 8, 8, pageH - 8 - cs);
+        // Bottom-right
+        pdf.line(pageW - 8, pageH - 8, pageW - 8 - cs, pageH - 8);
+        pdf.line(pageW - 8, pageH - 8, pageW - 8, pageH - 8 - cs);
+
+        var y = 30; // cursor vertical
+
+        // --- Logos ---
+        var logoH = 18;
+        var logoGap = 8;
+        var logoASCw = logoASC ? logoH * (logoASC.w / logoASC.h) : 0;
+        var logoValleW = logoValle ? logoH * (logoValle.w / logoValle.h) : 0;
+        var totalLogosW = logoASCw + logoGap + logoValleW;
+        var logosX = (pageW - totalLogosW) / 2;
+        if (logoASC) pdf.addImage(logoASC.data, 'PNG', logosX, y, logoASCw, logoH);
+        if (logoValle) pdf.addImage(logoValle.data, 'PNG', logosX + logoASCw + logoGap, y, logoValleW, logoH);
+        y += logoH + 6;
+
+        // --- Encabezado institucional ---
+        pdf.setFont('helvetica', 'bold');
+        pdf.setFontSize(10);
+        pdf.setTextColor(98, 37, 153);
+        pdf.text('ASOCIACIÓN SCOUTS DE COLOMBIA', pageW / 2, y, { align: 'center' });
+        y += 5;
+        pdf.setFont('helvetica', 'normal');
+        pdf.setFontSize(8);
+        pdf.setTextColor(120, 120, 120);
+        // ADR-034: el nucleo no lleva vocabulario de dominio. El nombre de la linea
+        // lo declara cada curso; si el HTML viene de un builder viejo que no lo emite,
+        // se cae a un neutro antes que afirmar una linea equivocada (era 'Formación de
+        // Adultos en el Movimiento' para las cuatro, falso en DI y en PJ).
+        pdf.text(COURSE_CONFIG.lineName || 'Plataforma de Formación de Adultos ASC', pageW / 2, y, { align: 'center' });
+        y += 5;
+
+        // --- Línea divisoria morada ---
+        pdf.setDrawColor(98, 37, 153);
+        pdf.setLineWidth(0.6);
+        pdf.line(40, y, pageW - 40, y);
+        y += 10;
+
+        // --- Título "CERTIFICADO DE APROBACIÓN" ---
+        pdf.setFont('helvetica', 'bold');
+        pdf.setFontSize(22);
+        pdf.setTextColor(98, 37, 153);
+        pdf.text('CERTIFICADO DE APROBACIÓN', pageW / 2, y, { align: 'center' });
+        y += 12;
+
+        // --- Banner morado con nombre del curso ---
+        pdf.setFillColor(98, 37, 153);
+        pdf.rect(20, y, pageW - 40, 14, 'F');
+        pdf.setFont('helvetica', 'bold');
+        pdf.setFontSize(13);
+        pdf.setTextColor(255, 255, 255);
+        var courseLines = _wrapText(pdf, courseName, pageW - 50);
+        if (courseLines.length > 1) {
+            pdf.setFontSize(11);
+        }
+        pdf.text(courseLines[0], pageW / 2, y + 9, { align: 'center' });
+        y += 20;
+
+        // --- "Se otorga a" ---
+        pdf.setFont('helvetica', 'normal');
+        pdf.setFontSize(11);
+        pdf.setTextColor(99, 99, 99);
+        pdf.text('Se otorga el presente certificado a', pageW / 2, y, { align: 'center' });
+        y += 10;
+
+        // --- Nombre del estudiante ---
+        pdf.setFont('helvetica', 'bold');
+        pdf.setFontSize(20);
+        pdf.setTextColor(98, 37, 153);
+        pdf.text(student, pageW / 2, y, { align: 'center' });
+        // Subrayado amarillo bajo el nombre
+        var nameW = pdf.getTextWidth(student);
+        pdf.setDrawColor(255, 230, 117);
+        pdf.setLineWidth(1.5);
+        pdf.line((pageW - nameW) / 2 - 5, y + 2, (pageW + nameW) / 2 + 5, y + 2);
+        y += 12;
+
+        // --- Descripción ---
+        pdf.setFont('helvetica', 'normal');
+        pdf.setFontSize(10);
+        pdf.setTextColor(99, 99, 99);
+        var descLines = _wrapText(pdf, courseDescription, pageW - 60);
+        for (var i = 0; i < descLines.length && i < 3; i++) {
+            pdf.text(descLines[i], pageW / 2, y, { align: 'center' });
+            y += 5;
+        }
+        y += 5;
+
+        // --- Tarjeta de detalles ---
+        var detX = 25, detW = pageW - 50, detH = 38;
+        pdf.setFillColor(249, 247, 252);
+        pdf.rect(detX, y, detW, detH, 'F');
+        pdf.setFillColor(98, 37, 153);
+        pdf.rect(detX, y, 2, detH, 'F'); // borde izquierdo morado
+
+        var colX1 = detX + 8;
+        var colX2 = detX + detW / 2 + 5;
+        var rowY = y + 8;
+        var rowGap = 7;
+
+        pdf.setFont('helvetica', 'bold');
+        pdf.setFontSize(9);
+        pdf.setTextColor(60, 60, 60);
+
+        function _detail(label, value, x, yy) {
+            pdf.setFont('helvetica', 'bold');
+            pdf.setTextColor(98, 37, 153);
+            pdf.text(label, x, yy);
+            pdf.setFont('helvetica', 'normal');
+            pdf.setTextColor(60, 60, 60);
+            pdf.text(String(value || '-'), x + pdf.getTextWidth(label) + 2, yy);
+        }
+
+        _detail('Fecha: ', date, colX1, rowY);
+        _detail('Puntuación: ', score + '%', colX2, rowY);
+        _detail('Grupo Scout: ', group, colX1, rowY + rowGap);
+        _detail('Región: ', region, colX2, rowY + rowGap);
+        _detail('Tiempo: ', totalTime + ' min', colX1, rowY + rowGap * 2);
+        pdf.setFont('helvetica', 'bold');
+        pdf.setTextColor(98, 37, 153);
+        pdf.text('Estado: ', colX2, rowY + rowGap * 2);
+        pdf.setTextColor(46, 125, 50);
+        pdf.text('APROBADO', colX2 + pdf.getTextWidth('Estado: ') + 2, rowY + rowGap * 2);
+
+        y += detH + 8;
+
+        // --- Código de verificación ---
+        var codeBoxH = 14;
+        pdf.setDrawColor(98, 37, 153);
+        pdf.setLineWidth(0.4);
+        pdf.setLineDashPattern([1.5, 1.5], 0);
+        pdf.setFillColor(250, 248, 253);
+        pdf.rect(50, y, pageW - 100, codeBoxH, 'FD');
+        pdf.setLineDashPattern([], 0);
+
+        pdf.setFont('helvetica', 'normal');
+        pdf.setFontSize(7);
+        pdf.setTextColor(140, 140, 140);
+        pdf.text('CÓDIGO DE VERIFICACIÓN', pageW / 2, y + 5, { align: 'center' });
+        pdf.setFont('courier', 'bold');
+        pdf.setFontSize(11);
+        pdf.setTextColor(98, 37, 153);
+        pdf.text(code, pageW / 2, y + 11, { align: 'center' });
+        y += codeBoxH + 6;
+
+        // --- Footer ---
+        pdf.setFont('helvetica', 'normal');
+        pdf.setFontSize(7);
+        pdf.setTextColor(150, 150, 150);
+        pdf.text('Plataforma de Formación de Adultos ASC', pageW / 2, pageH - 16, { align: 'center' });
+        pdf.setFontSize(6);
+        pdf.text('Verifica este certificado ingresando el código en la plataforma web', pageW / 2, pageH - 12, { align: 'center' });
+
+        // --- Guardar ---
+        if (mobile) {
+            var blob = pdf.output('blob');
+            var url = URL.createObjectURL(blob);
+            var link = document.createElement('a');
+            link.href = url; link.download = filename; link.target = '_blank';
+            document.body.appendChild(link); link.click();
+            setTimeout(function() { document.body.removeChild(link); URL.revokeObjectURL(url); }, 5000);
+        } else {
+            pdf.save(filename);
+        }
+        showNotification('PDF descargado: ' + filename + ' 📥');
+    }).catch(function(err) {
+        if (typeof console !== 'undefined') console.error('Error PDF:', err);
+        showNotification('Error al generar PDF. Intenta con Imprimir.', 'warning');
+        if (confirm('¿Deseas usar la opción de Imprimir?')) { window.print(); }
+    });
+}
+
+// --- Compartir ---
+function shareResults() {
+    var text = '¡He completado el curso ' + COURSE_CONFIG.title + '! 🏕️\n\n' +
+        'Certificado: ' + document.getElementById('certCode').textContent + '\n' +
+        'Puntuación: ' + document.getElementById('finalScore').textContent + '%\n\n' +
+        '#ScoutsSiempreListos #AdultosEnElMovimiento #ASC';
+    if (navigator.share) {
+        navigator.share({ title: COURSE_CONFIG.title + ' Completado', text: text });
+    } else {
+        navigator.clipboard.writeText(text);
+        showNotification('¡Texto copiado al portapapeles! 📋');
+    }
+}
+
+function restartCourse() {
+    if (confirm('¿Estás seguro de que quieres reiniciar el curso? Se perderá todo el progreso.')) {
+        localStorage.removeItem('courseProgress_' + COURSE_CONFIG.courseId);
+        localStorage.removeItem('commitment_' + COURSE_CONFIG.courseId);
+        location.reload();
+    }
+}
+
+// --- Registration mode toggle ---
+function toggleRegistrationMode(mode) {
+    var newRegBtn = document.getElementById('toggleNewReg');
+    var recoverBtn = document.getElementById('toggleRecover');
+    var recoverySection = document.getElementById('recoverySection');
+    var registrationForm = document.getElementById('registrationForm');
+
+    if (mode === 'recover') {
+        newRegBtn.classList.remove('active');
+        recoverBtn.classList.add('active');
+        recoverySection.classList.remove('hidden');
+        registrationForm.style.display = 'none';
+    } else {
+        newRegBtn.classList.add('active');
+        recoverBtn.classList.remove('active');
+        recoverySection.classList.add('hidden');
+        registrationForm.style.display = '';
+    }
+}
+
+// --- Google Sheets ---
+function sendToGoogleSheets(data) {
+    if (!COURSE_CONFIG.googleScriptUrl) return;
+    try {
+        var indicator = document.getElementById('syncIndicator');
+        if (indicator) indicator.classList.add('show');
+        var payload = Object.assign({}, data, {
+            token: 'ADULTOS_ASC_2026',
+            timestamp: new Date().toISOString(),
+            url: window.location.href
+        });
+
+        // Try CORS first, fall back to no-cors
+        fetch(COURSE_CONFIG.googleScriptUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        }).then(function (response) {
+            if (indicator) {
+                indicator.textContent = '☁️ Guardado en la nube';
+                indicator.classList.add('show');
+                setTimeout(function () { indicator.classList.remove('show'); }, 2000);
+            }
+            return response.json().catch(function() { return {}; });
+        }).catch(function () {
+            // Fallback to no-cors mode for older Apps Script deployments
+            fetch(COURSE_CONFIG.googleScriptUrl, {
+                method: 'POST', mode: 'no-cors',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            }).then(function () {
+                if (indicator) {
+                    indicator.textContent = '☁️ Sincronizado con Google Sheets';
+                    indicator.classList.add('show');
+                    setTimeout(function () { indicator.classList.remove('show'); }, 2000);
+                }
+            }).catch(function () {
+                if (indicator) {
+                    indicator.textContent = '💾 Guardado localmente';
+                    indicator.classList.add('show');
+                    setTimeout(function () { indicator.classList.remove('show'); }, 2000);
+                }
+                // Datos guardados localmente (fallback silencioso)
+            });
+        });
+    } catch (e) {
+        // Google Sheets no disponible, progreso guardado localmente
+        var indicator = document.getElementById('syncIndicator');
+        if (indicator) {
+            indicator.textContent = '💾 Guardado localmente';
+            indicator.classList.add('show');
+            setTimeout(function () { indicator.classList.remove('show'); }, 2000);
+        }
+    }
+}
+
+// --- Timers ---
+// Incrementar studyTime cada minuto y guardar progreso (solo si esta en un modulo de contenido)
+setInterval(function () {
+    if (currentModule > 0) {
+        studyTime += 1;
+        updateStats();
+        updateElapsedTime();
+    }
+    saveProgress();
+}, 60000);
+
+    </script>
+    <script src="../assets/theme-toggle.js"></script>
+</body>
+</html>

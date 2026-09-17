@@ -166,5 +166,19 @@
     "status": "active",
     "file": "rama-clan-rovers.html",
     "folder": "rama-clan-rovers"
+  },
+  {
+    "courseId": "seguimiento-progresion-personal",
+    "title": "Seguimiento de la Progresión Personal",
+    "description": "El primero de los tres cursos operativos, y el que sirve a las cinco ramas a la vez. Cómo mirar con intención, registrar lo justo y acordar un paso siguiente, sin que el seguimiento se convierta en papeleo. Los instrumentos oficiales llegan al final, y a propósito.",
+    "icon": "🛠️",
+    "duration": "55 minutos",
+    "level": 2,
+    "levelName": "Profundización por rama y práctica pedagógica",
+    "order": 13,
+    "modules": 9,
+    "status": "draft",
+    "file": "seguimiento-progresion-personal.html",
+    "folder": "seguimiento-progresion-personal"
   }
 ]
