@@ -11,14 +11,54 @@
   "order": 14,
   "totalContentModules": 7,
   "achievements": [
-    { "id": "achievement-1", "emoji": "🗺️", "name": "Tengo guion", "unlockOnModule": 2 },
-    { "id": "achievement-2", "emoji": "🎚️", "name": "Filtro antes de meter", "unlockOnModule": 3 },
-    { "id": "achievement-3", "emoji": "🎯", "name": "Sé para qué", "unlockOnModule": 4 },
-    { "id": "achievement-4", "emoji": "🎭", "name": "Ambiento la actividad", "unlockOnModule": 5 },
-    { "id": "achievement-5", "emoji": "🦺", "name": "Veo el tronco mojado", "unlockOnModule": 6 },
-    { "id": "achievement-6", "emoji": "🔁", "name": "Cierro lo que abro", "unlockOnModule": 7 },
-    { "id": "achievement-7", "emoji": "🧰", "name": "Planeo la próxima", "unlockOnModule": 8 },
-    { "id": "achievement-8", "emoji": "⭐", "name": "Diseño oportunidades", "unlockOnModule": -1 }
+    {
+      "id": "achievement-1",
+      "emoji": "🗺️",
+      "name": "Tengo guion",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "emoji": "🎚️",
+      "name": "Filtro antes de meter",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "emoji": "🎯",
+      "name": "Sé para qué",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "emoji": "🎭",
+      "name": "Ambiento la actividad",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "emoji": "🦺",
+      "name": "Veo el tronco mojado",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "emoji": "🔁",
+      "name": "Cierro lo que abro",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
+      "emoji": "🧰",
+      "name": "Planeo la próxima",
+      "unlockOnModule": 8
+    },
+    {
+      "id": "achievement-8",
+      "emoji": "⭐",
+      "name": "Diseño oportunidades",
+      "unlockOnModule": -1
+    }
   ],
   "certificate": {
     "courseName": "PLANEACIÓN DE REUNIONES Y OPORTUNIDADES DE APRENDIZAJE",
@@ -251,14 +291,54 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "D · Desafiante", "description": "Exige algo real y evita la comodidad que estanca.", "color": "#e8f5e9", "borderColor": "#43a047" },
-            { "title": "U · Útil", "description": "Conecta con aprendizajes, necesidades o propósitos claros.", "color": "#e3f2fd", "borderColor": "#1e88e5" },
-            { "title": "R · Recompensante", "description": "Deja satisfacción, sentido de logro y ganas de continuar.", "color": "#fff3e0", "borderColor": "#fb8c00" },
-            { "title": "A · Atractiva", "description": "Despierta interés y se siente pertinente para quienes participan.", "color": "#f3e5f5", "borderColor": "#8e24aa" },
-            { "title": "S · Segura", "description": "Protege física, emocional e institucionalmente.", "color": "#e0f7fa", "borderColor": "#00acc1" },
-            { "title": "L · Lúdica", "description": "Se juega con sentido: explora roles, ensaya decisiones, deja rastro.", "color": "#fce4ec", "borderColor": "#d81b60" },
-            { "title": "I · Inclusiva", "description": "Abre la puerta y la conversación: diseña para todos, algunos y uno.", "color": "#fff8e1", "borderColor": "#ffb300" },
-            { "title": "D · Diversa", "description": "Mezcla personas, espacios, formatos y saberes. Enriquece, no dispersa.", "color": "#eceff1", "borderColor": "#607d8b" }
+            {
+              "title": "D · Desafiante",
+              "description": "Exige algo real y evita la comodidad que estanca.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "U · Útil",
+              "description": "Conecta con aprendizajes, necesidades o propósitos claros.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "R · Recompensante",
+              "description": "Deja satisfacción, sentido de logro y ganas de continuar.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "A · Atractiva",
+              "description": "Despierta interés y se siente pertinente para quienes participan.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            },
+            {
+              "title": "S · Segura",
+              "description": "Protege física, emocional e institucionalmente.",
+              "color": "#e0f7fa",
+              "borderColor": "#00acc1"
+            },
+            {
+              "title": "L · Lúdica",
+              "description": "Se juega con sentido: explora roles, ensaya decisiones, deja rastro.",
+              "color": "#fce4ec",
+              "borderColor": "#d81b60"
+            },
+            {
+              "title": "I · Inclusiva",
+              "description": "Abre la puerta y la conversación: diseña para todos, algunos y uno.",
+              "color": "#fff8e1",
+              "borderColor": "#ffb300"
+            },
+            {
+              "title": "D · Diversa",
+              "description": "Mezcla personas, espacios, formatos y saberes. Enriquece, no dispersa.",
+              "color": "#eceff1",
+              "borderColor": "#607d8b"
+            }
           ]
         },
         {
@@ -500,11 +580,36 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "Familia", "description": "<strong>Relatos infantiles.</strong> Su Guía lo pone en la tabla de identidad de la rama, junto al marco simbólico.", "color": "#fce4ec", "borderColor": "#d81b60" },
-            { "title": "Manada", "description": "<strong>Relatos fantásticos.</strong> Su Guía separa las tres capas en una sola tabla, y esta es la tercera. Ojo con la confusión clásica: <strong>el Libro de las Tierras Vírgenes no es el ambiente de referencia, es el fondo motivador</strong> — la capa que no se elige. Lo viste en el Curso 8.", "color": "#fff8e1", "borderColor": "#ffb300" },
-            { "title": "Tropa", "description": "<strong>Historias de aventuras, historias reales, novelas policíacas, cómics, videojuegos, leyendas…</strong> Su Guía lo deja abierto a propósito, con puntos suspensivos incluidos.", "color": "#e8f5e9", "borderColor": "#43a047" },
-            { "title": "Comunidad", "description": "<strong>Las Historias de la Humanidad</strong>, y en particular los pueblos nómadas. Cuidado: ese es el material del relato, no el marco simbólico de la rama.", "color": "#e3f2fd", "borderColor": "#1e88e5" },
-            { "title": "Clan", "description": "Su Guía <strong>no lo declara como capa de la rama</strong>: usa el término una sola vez, para la temática de una actividad concreta. Donde la fuente no alcanza, no lo inventamos — el Clan elige su temática por ciclo, sin un registro prescrito.", "color": "#eceff1", "borderColor": "#607d8b" }
+            {
+              "title": "Familia",
+              "description": "<strong>Relatos infantiles.</strong> Su Guía lo pone en la tabla de identidad de la rama, junto al marco simbólico.",
+              "color": "#fce4ec",
+              "borderColor": "#d81b60"
+            },
+            {
+              "title": "Manada",
+              "description": "<strong>Relatos fantásticos.</strong> Su Guía separa las tres capas en una sola tabla, y esta es la tercera. Ojo con la confusión clásica: <strong>el Libro de las Tierras Vírgenes no es el ambiente de referencia, es el fondo motivador</strong> — la capa que no se elige. Lo viste en el Curso 8.",
+              "color": "#fff8e1",
+              "borderColor": "#ffb300"
+            },
+            {
+              "title": "Tropa",
+              "description": "<strong>Historias de aventuras, historias reales, novelas policíacas, cómics, videojuegos, leyendas…</strong> Su Guía lo deja abierto a propósito, con puntos suspensivos incluidos.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "Comunidad",
+              "description": "<strong>Las Historias de la Humanidad</strong>, y en particular los pueblos nómadas. Cuidado: ese es el material del relato, no el marco simbólico de la rama.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "Clan",
+              "description": "Su Guía <strong>no lo declara como capa de la rama</strong>: usa el término una sola vez, para la temática de una actividad concreta. Donde la fuente no alcanza, no lo inventamos — el Clan elige su temática por ciclo, sin un registro prescrito.",
+              "color": "#eceff1",
+              "borderColor": "#607d8b"
+            }
           ]
         },
         {
@@ -840,7 +945,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Ya sabes mirar lo que ocurre en la reunión —Curso 13— y decidir la reunión antes de que ocurra —este—. Falta la pregunta grande: <strong>¿de dónde salen las reuniones?</strong> No de la ocurrencia del miércoles, sino de un proyecto que la unidad eligió y sostiene durante meses. Eso es el <strong>ciclo de programa</strong>, y es el <strong>Curso 15</strong>, el último de los tres operativos — todavía está por construirse, y te avisamos aquí mismo cuando esté."
+          "text": "Ya sabes mirar lo que ocurre en la reunión —Curso 13— y decidir la reunión antes de que ocurra —este—. Falta la pregunta grande: <strong>¿de dónde salen las reuniones?</strong> No de la ocurrencia del miércoles, sino de un proyecto que la unidad eligió y sostiene durante meses. Eso es el <strong>ciclo de programa</strong>, y es el <strong>Curso 15</strong>, el último de los tres operativos, y <strong>ya está disponible</strong>: son unos 50 minutos y con él cierras el Nivel 2."
         },
         {
           "type": "info-box",
