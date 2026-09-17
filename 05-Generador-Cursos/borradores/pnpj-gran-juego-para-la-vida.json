@@ -162,7 +162,7 @@
             },
             {
               "title": "⚜️ Tropa — Scouts (11–14 años)",
-              "description": "Grupo natural: Patrullas (6–8 scouts). Promesa y Ley Scout. <strong>Su marco simbólico todavía no está publicado</strong>: el Modelo lo remite a la Guía de Dirigente de cada rama (p. 19), y la Tropa es la única que aún no tiene la suya.",
+              "description": "Grupo natural: Patrullas (6–8 scouts). Promesa y Ley Scout. Marco simbólico: <strong>La Aventura</strong> — así lo llama el Modelo, que nombra los cinco marcos por territorio (§8.2.2, p. 56). La Tropa es la única rama sin Guía de Dirigente propia que lo desarrolle, así que esto es todo lo que hay escrito.",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             },
@@ -595,7 +595,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Completa esta plantilla con tus propios datos: <em>\"Sirvo (o serviré) en la <strong>rama __________</strong> (Familia/Manada/Tropa/Comunidad/Clan). Su grupo natural se llama <strong>__________</strong> (Camadas/Seisenas/Patrullas/equipos). Su marco simbólico es <strong>__________</strong> (La Fantasía —Familia y Manada— / la Tropa aún no tiene marco publicado / La aventura hacia la ciudadanía / La Ciudadanía Activa). Los protagonistas que acompaño están entre las edades de <strong>__________ a __________ años</strong>. De las <strong>6 áreas de crecimiento</strong>, en este trimestre voy a poner especial cuidado en: <strong>__________ y __________</strong>. Mi rol principal en esta rama es: <strong>Apoyar / Acompañar / Enlazar</strong> (subraya el que más te toca).\"</em>"
+          "text": "Completa esta plantilla con tus propios datos: <em>\"Sirvo (o serviré) en la <strong>rama __________</strong> (Familia/Manada/Tropa/Comunidad/Clan). Su grupo natural se llama <strong>__________</strong> (Camadas/Seisenas/Patrullas/equipos). Su marco simbólico es <strong>__________</strong> (La Fantasía —el Modelo distingue Fantasía, Familia, de Fantasía Expandida, Manada— / La Aventura / La aventura hacia la ciudadanía / La Ciudadanía Activa). Los protagonistas que acompaño están entre las edades de <strong>__________ a __________ años</strong>. De las <strong>6 áreas de crecimiento</strong>, en este trimestre voy a poner especial cuidado en: <strong>__________ y __________</strong>. Mi rol principal en esta rama es: <strong>Apoyar / Acompañar / Enlazar</strong> (subraya el que más te toca).\"</em>"
         },
         {
           "type": "mission-box",
@@ -613,7 +613,7 @@
             "🗺️ <strong>Curso 7</strong> — Mi Compromiso con el Programa de Jóvenes: tu plan personal completo, integrando todo el Nivel 1.",
             "🐻🐺⚜️🧗🏔️ <strong>Nivel 2 — Cursos 8–12</strong> — Profundización por rama (toma el de la tuya).",
             "🛠️ <strong>Nivel 2 — Cursos 13, 14, 15</strong> — Seguimiento, Planeación, Ciclo de Programa con ABP.",
-            "🛡️ <strong>Nivel 4 — Curso 25</strong> — A Salvo del Peligro (de adopción inmediata)."
+            "🛡️ <strong>Nivel 4 — Curso 25</strong> — A Salvo del Peligro aplicado al Programa (aún por construir). El que no espera es el <strong>módulo oficial de la ASC</strong>, que ningún curso nuestro reemplaza."
           ]
         },
         {

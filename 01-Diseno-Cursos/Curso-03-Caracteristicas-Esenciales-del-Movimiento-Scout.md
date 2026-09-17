@@ -15,9 +15,9 @@
 | Subtítulo | El "qué" del Movimiento según la OMMS (Kuala Lumpur, 2019) |
 | Icono | 🌟 |
 | Duración | ~30 min |
-| Lecciones de contenido | 6 + intro + certificado |
+| Lecciones de contenido | 5 + intro + certificado |
 | Audiencia primaria | Todo adulto que cursa el Nivel 1 de la Línea Programa de Jóvenes. |
-| Pre-requisitos | Curso 2 — La Educación por el Amor (recomendado). |
+| Recomendado antes | Curso 2 — La Educación por el Amor (recomendado). |
 | Logro final | "Conozco mi Movimiento" |
 
 ---
@@ -90,7 +90,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Apertura: _"Antes de hablar de cómo se hace algo, conviene saber **para qué se hace**. El Movimiento Scout tiene un solo Propósito, y está escrito desde hace más de un siglo. La versión vigente la fijó la Oficina Scout Mundial en 2019."_
+2. **`paragraph`** — Apertura: _"Antes de hablar de cómo se hace algo, conviene saber **para qué se hace**. El Movimiento Scout tiene un solo Propósito, y viene de su documento fundacional: la Constitución de la OMMS. El texto que vas a leer es el de la versión de 2017, y así lo recoge el documento de 2019 que estamos usando."_
 3. **`policy-quote`** — Cita textual del Propósito:
     - `text`: _"El Movimiento Scout tiene como objetivo contribuir al desarrollo de los jóvenes ayudándoles a realizar plenamente sus posibilidades **físicas, intelectuales, emocionales, sociales y espirituales**, como **individuos**, como **ciudadanos responsables** y como miembros de **comunidades locales, nacionales e internacionales**."_
     - `source`: "Características Esenciales del Movimiento Scout, OMMS 2019, p. 8. (Constitución de la OMMS, recogida en Características Esenciales…, p. 8)"
@@ -103,8 +103,8 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - 👤 **Como individuos** — que cada uno descubra quién es y qué puede.
     - 🤝 **Como ciudadanos responsables** — que aporten al bien común.
     - 🌍 **Comunidad local, nacional e internacional** — que sirvan en su barrio **y** se reconozcan parte de una hermandad mundial.
-6. **`heading` (nivel 3)** — _"De los 5 ámbitos OMMS a las 6 áreas de la PNPJ"_
-7. **`paragraph`** — _"En el Curso 1 viste que la PNPJ 2024 habla de **6 áreas de crecimiento** (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad). Esas 6 áreas no contradicen los 5 ámbitos OMMS — los desdoblan. Lo 'intelectual' OMMS aparece en Colombia como Creatividad y como Carácter (decidir, pensar). Lo demás se corresponde directamente."_
+6. **`heading` (nivel 3)** — _"De los 5 ámbitos OMMS a las 6 áreas de Colombia"_
+7. **`paragraph`** — _"En el Curso 1 viste que Colombia trabaja con **6 áreas de crecimiento** (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad). No contradicen los 5 ámbitos de la OMMS: cinco se corresponden una a una — físico→Corporalidad, intelectual→Creatividad, emocional→Afectividad, social→Sociabilidad, espiritual→Espiritualidad. Y Colombia suma una sexta: **Carácter**, la voluntad y las decisiones éticas, eso de «qué clase de persona decido ser». Esa es la que no aparece en la lista de la OMMS, y es muy scout que esté."_
 8. **`info-box`** — _"Cuando alguien te pregunte 'para qué sirven los scouts', responde con esto: contribuyen al desarrollo integral del joven —cuerpo, mente, emociones, vínculos y sentido— para que sea persona, ciudadano y miembro del mundo. Punto."_
 
 **Reflexión:** _"De los 5 ámbitos del Propósito (físico, intelectual, emocional, social, espiritual), ¿cuál crees que el escultismo colombiano hace **mejor** y cuál hace **peor**? Sé honesto."_
@@ -137,7 +137,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 2. **`paragraph`** — Apertura: _"Si el Propósito dice **para qué existe** el Movimiento, los Principios dicen **sobre qué se sostiene**. Son tres relaciones que el escultismo cuida en todo joven y todo adulto que entra: con la vida espiritual, con los demás y con uno mismo."_
 3. **`heading` (nivel 3)** — _"Los 3 Principios según OMMS 2019"_
 4. **`method-grid`** — Los 3 Principios:
-    - 🙏 **Deber con Dios** — Adhesión a principios espirituales, fidelidad a la religión que los expresa y aceptación de los deberes que de ella derivan. **El Movimiento no impone una religión específica**; reconoce que la dimensión espiritual es parte del desarrollo integral, y respeta la fe (o búsqueda) de cada quien.
+    - 🙏 **Deber con Dios** — Adhesión a principios espirituales, fidelidad a la religión que los expresa y aceptación de los deberes que de ella derivan (*The Scout Method*, WOSM 2019, p. 10). **El Movimiento no impone una religión específica**; reconoce que la dimensión espiritual es parte del desarrollo integral, y respeta la fe (o búsqueda) de cada quien. En Colombia, la PNPJ lo dice así: reconocer que la espiritualidad y la fe importan en la vida del joven, y respetar las creencias de cada quien (PNPJ 2024, §4.3).
     - 🤝 **Deber con los otros** — Responsabilidad hacia la propia comunidad y país, hacia la fraternidad mundial, hacia la naturaleza y hacia la conservación del medio ambiente. El servicio no es ocasional: es ética.
     - 👤 **Deber con uno mismo** — Responsabilidad por el propio desarrollo. El joven (y el adulto) son protagonistas activos de su crecimiento — no objetos pasivos de la formación de otros.
 5. **`policy-quote`** — Cita textual:
@@ -148,7 +148,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 7. **`list`** — Una práctica concreta por Principio:
     - **Deber con Dios** — en la unidad, abrir y cerrar espacios de reflexión, respetar las creencias del protagonista y de la familia, ofrecer momentos de silencio en campamento.
     - **Deber con los otros** — proyectos de servicio comunitario, mediación de conflictos en la patrulla, gestos de hermandad con otros grupos del país y del mundo.
-    - **Deber con uno mismo** — entrevista personal trimestral con su dirigente, autoevaluación de la progresión, decisión propia sobre qué área de crecimiento trabajar.
+    - **Deber con uno mismo** — conversaciones personales periódicas con su dirigente, autoevaluación de la progresión, decisión propia sobre qué área de crecimiento trabajar.
 8. **`info-box`** — _"Cuando dudes si una práctica es scout o no, hazte 3 preguntas: ¿cuida el deber con Dios (el sentido), con los otros (la fraternidad), con uno mismo (el crecimiento)? Si responde sí a las tres, es escultismo."_
 
 **Reflexión:** _"¿Cuál de los 3 Principios crees que se trabaja menos en tu unidad o en las unidades que conoces? ¿Por qué?"_
@@ -184,7 +184,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - 🚶 **Un Movimiento** — Un movimiento es un conjunto de personas con una misma causa y método, no una empresa ni una agencia. Crece por contagio, no por mercadeo. Tiene normas, pero su fuerza es la convicción compartida.
     - 🌱 **Para jóvenes** — El Movimiento existe para sus protagonistas. No para los adultos que lo gestionan, no para los logos, no para los recuerdos. Cuando una decisión beneficia al adulto pero perjudica al joven, no es scout.
     - 🆓 **Voluntario** — Nadie está obligado a entrar ni a quedarse. El adulto que castiga, presiona o chantajea para mantener a un joven en la unidad rompe este elemento.
-    - 🌍 **Abierto a todos** — Sin distinción de origen, raza, credo, género, condición social, capacidad o cualquier otra característica. Coeducación y no-discriminación son innegociables.
+    - 🌍 **Abierto a todos** — Sin distinción de origen, raza, credo, género, condición social, capacidad o cualquier otra característica. En la ASC, coeducación y no-discriminación son innegociables.
     - 🏛️ **No político** — El Movimiento no toma partido por candidatos ni partidos. Educa para la ciudadanía responsable, pero no instrumentaliza al joven para un proyecto partidista.
     - 🕊️ **Independiente** — De gobiernos, de iglesias, de empresas. Puede dialogar con todos, recibir apoyo de todos, pero ninguno lo dirige.
 5. **`policy-quote`** — Cita de la voluntariedad:
@@ -193,7 +193,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - `label`: "📋 Ver la cita de voluntariedad"
 6. **`heading` (nivel 3)** — _"Lo que NO es escultismo, aunque se le parezca"_
 7. **`list`** — 5 ejemplos:
-    - Un campamento militar con uniformes y disciplina no es scout (rompe **voluntario** y puede romper **no político**).
+    - Un campamento militar con uniformes y disciplina no es scout (rompe que el joven sea sujeto activo: ahí se obedece, no se decide).
     - Una academia deportiva con insignias por logros no es scout (rompe **para jóvenes** si se vuelve trofeo del coach).
     - Un grupo parroquial donde solo entran miembros de la fe local no es escultismo, aunque se le parezca (rompe **abierto a todos**).
     - Un grupo que excluye a niñas o a menores con discapacidad no es escultismo (rompe **abierto a todos**).
@@ -233,16 +233,16 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - `source`: "Características Esenciales del Movimiento Scout, OMMS 2019, p. 28."
     - `label`: "📋 La frase eje del Movimiento"
 4. **`heading` (nivel 3)** — _"Lo que esto significa para tu rol"_
-5. **`paragraph`** — _"El adulto no es el jefe del joven. Es su aliado. El joven es el protagonista; tú eres su apoyo. Esa palabra —apoyo— es exacta: no es 'guía' (te seguiría), no es 'instructor' (te imitaría), no es 'jefe' (te obedecería). Es **apoyo**: estás cuando hace falta, no estorbas cuando no."_
+5. **`paragraph`** — _"El adulto no es el jefe del joven. Es su aliado. Puede que tu nombramiento diga «Jefe de Tropa» o «Jefe de Rama» — son los nombres reales de los cargos en la ASC, y están bien. Lo que cambia es qué haces con el cargo. La OMMS lo dice así: el adulto está ahí para **apoyar, guiar, orientar y facilitar** (p. 19). Fíjate en el verbo que no aparece: **mandar**. Guías el camino, no ordenas el paso. Estás cuando hace falta y no estorbas cuando no."_
 6. **`heading` (nivel 3)** — _"Los 4 tipos de apoyo del adulto"_
 7. **`method-grid`** — 4 tipos según OMMS 2019, p. 19:
     - 📚 **Apoyo educativo** — facilitar oportunidades de aprendizaje, sugerir desafíos, sostener el ciclo de programa.
     - 💗 **Apoyo emocional** — acompañar al protagonista en sus momentos de duda, frustración o alegría.
     - ℹ️ **Apoyo informativo** — dar la información que el joven necesita para decidir, sin decidir por él.
-    - ✅ **Apoyo evaluativo** — ayudar al joven a mirar su propio proceso y a celebrarlo o ajustarlo.
+    - ✅ **Apoyo evaluativo (la PNPJ lo llama valorativo: es lo mismo)** — ayudar al joven a mirar su propio proceso y a celebrarlo o ajustarlo.
 8. **`heading` (nivel 3)** — _"Primum non nocere"_
-9. **`paragraph`** — _"Es una frase latina que significa **'lo primero, no hacer daño'**. La OMMS la usa en p. 33 para subrayar la responsabilidad ética del adulto en el Movimiento: verificación previa de antecedentes, formación obligatoria, nombramiento por tiempo limitado, supervisión por pares. La protección del joven es lo primero. Por eso, en esta línea, **el Curso 25 (A Salvo del Peligro) es de adopción inmediata**: ningún curso te bloquea el acceso a otro, pero ese no conviene dejarlo para después."_
-10. **`info-box`** — _"Esta lección es probablemente la más importante del Nivel 1. Si te quedas con una sola idea de los 6 cursos, que sea esta: tu trabajo no es dirigir al joven. Es apoyarlo para que él se desarrolle. La diferencia parece pequeña; en la práctica, lo cambia todo."_
+9. **`paragraph`** — _"Es una frase latina que significa **'lo primero, no hacer daño'**. La OMMS la usa en la p. 33 para decir algo incómodo y necesario: antes de poner a un adulto frente a jóvenes hay que mirar que tenga la madurez y el equilibrio para estar ahí, que se forme, que su nombramiento tenga fecha de vencimiento y que alguien lo acompañe y lo evalúe mientras sirve. La protección del joven es lo primero. Por eso, en esta línea, **el Curso 25 (A Salvo del Peligro) es de adopción inmediata**: ningún curso te bloquea el acceso a otro, pero ese no conviene dejarlo para después."_
+10. **`info-box`** — _"Esta lección es probablemente la más importante del Nivel 1. Si te quedas con una sola idea de los 7 cursos, que sea esta: tu trabajo no es dirigir al joven. Es apoyarlo para que él se desarrolle. La diferencia parece pequeña; en la práctica, lo cambia todo."_
 
 **Reflexión:** _"Recuerda una situación reciente donde tomaste una decisión 'en nombre' de un joven o de un grupo de jóvenes (no por una emergencia, simplemente porque te parecía más rápido). Escribe brevemente: ¿qué pasó? ¿Qué hubiera pasado si lo hubieran decidido ellos?"_
 
@@ -254,7 +254,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 > b) _Que es al revés: el Movimiento es de los jóvenes y para los jóvenes; el adulto apoya, no gestiona en su nombre._  ✅
 > c) _Que eso depende de la rama: en las menores sí decide el adulto._
 
-> **P2.** Por "Primum non nocere" (lo primero, no hacer daño), el Movimiento exige verificación de antecedentes, formación obligatoria y supervisión antes de poner a un adulto frente a jóvenes. ¿Qué prioriza esto?
+> **P2.** Por "Primum non nocere" (lo primero, no hacer daño), antes de poner a un adulto frente a jóvenes el Movimiento mira su madurez y su equilibrio, lo forma, le pone fecha de vencimiento al nombramiento y lo acompaña y lo evalúa mientras sirve. ¿Qué prioriza esto?
 >
 > a) _Que el adulto nunca contradiga las decisiones del joven._
 > b) _Que la protección del joven está antes que la comodidad o la antigüedad del adulto._  ✅
@@ -279,7 +279,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 7. **`list`** — Las 4 preguntas del test (formato breve):
     - **¿Aporta al desarrollo integral del joven** en los 5 ámbitos (físico, intelectual, emocional, social, espiritual)?
     - **¿Cuida los 3 Principios** (deber con Dios, con los otros, con uno mismo)?
-    - **¿Respeta los 6 elementos** (movimiento, para jóvenes, voluntario, abierto, no político, independiente)?
+    - **¿Respeta los 6 elementos que definen** al Movimiento (movimiento, para jóvenes, voluntario, abierto, no político, independiente)? Ojo: no son los 8 del Método, que ves en el Curso 5.
     - **¿Coloca al joven como sujeto activo** y al adulto como apoyo, no como jefe?
 8. **`info-box`** — _"Si respondes 'sí' a las 4, es escultismo. Si respondes 'no' a alguna, no necesariamente está mal — pero no es escultismo. Eso no la descalifica como actividad: solo significa que para esa actividad necesitas otro marco, no este."_
 9. **`heading` (nivel 3)** — _"Lo que viene"_
@@ -303,7 +303,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 >
 > a) _Aplicando el Método correctamente, porque es la adulta._
 > b) _Rompiendo la alianza joven-adulto: el joven debe ser sujeto activo, no objeto pasivo._  ✅
-> c) _Haciendo lo que se espera de un Jefe de Rama._
+> c) _Haciendo lo que hacía el dirigente que la formó a ella._
 
 **Logro al completar:** "Conozco mi Movimiento" (logro final del curso, `unlockOnModule: -1`).
 

@@ -3,7 +3,7 @@
   "title": "Mi Compromiso con el Programa de Jóvenes",
   "subtitle": "Tu plan personal de dirigente — cierre del Nivel 1",
   "description": "El cierre del Nivel 1 de la Línea Programa de Jóvenes. En ~30 minutos vas a convertir los Cursos 1 a 6 en un Plan Personal de Dirigente firmable: revisas tu brújula, defines tu rol, rama y áreas prioritarias, planeas tu próxima reunión y tu proyecto del trimestre, trazas tu ruta de formación y firmas tu promesa personal. No hay contenido nuevo: integras lo que ya tienes en algo accionable.",
-  "contentVersion": "2026-09-15",
+  "contentVersion": "2026-09-16",
   "icon": "🗺️",
   "duration": "30 minutos",
   "level": 1,
@@ -24,7 +24,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Llegaste hasta acá. Tomaste 5 cursos. Leíste a Baden-Powell, a la OMMS, a la PNPJ. Te asomaste a los 8 elementos del Método y al Modelo de Aplicación colombiano. Reflexionaste, contestaste quizzes, escribiste compromisos parciales. Hoy todo eso se vuelve plan."
+          "text": "Llegaste hasta acá. Tomaste 6 cursos. Leíste a Baden-Powell, a la OMMS, a la PNPJ. Te asomaste a los 8 elementos del Método y al Modelo de Aplicación colombiano. Reflexionaste, contestaste quizzes, escribiste compromisos parciales. Hoy todo eso se vuelve plan."
         },
         {
           "type": "heading",
@@ -64,7 +64,7 @@
         },
         {
           "type": "info-box",
-          "text": "🧭 <strong>Tu brújula del Nivel 1.</strong> Recupera las reflexiones de cierre que escribiste en cada curso: el compromiso de la primera semana (Curso 1, L6), tu compromiso pedagógico (Curso 2, L6), tu frase de definición (Curso 4, L6), tu ajuste de reunión (Curso 5, L8) y tu mapa del Modelo (Curso 6, L7). Tenlas a la vista mientras construyes tu plan."
+          "text": "🧭 <strong>Tu brújula del Nivel 1.</strong> Recupera las reflexiones de cierre que escribiste en cada curso: el compromiso de la primera semana (Curso 1, L6), tu compromiso pedagógico (Curso 2, L6), tu frase de «antes pensaba / ahora entiendo» sobre qué es educar (Curso 3, L6), tu frase de definición (Curso 4, L6), tu ajuste de reunión (Curso 5, L8) y tu mapa del Modelo (Curso 6, L7). Tenlas a la vista mientras construyes tu plan."
         },
         {
           "type": "heading",
@@ -75,7 +75,7 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "¿Cuál idea de los 5 cursos <strong>más me transformó la mirada</strong> sobre el Programa de Jóvenes? Escríbela en una frase.",
+            "¿Cuál idea de los 6 cursos <strong>más me transformó la mirada</strong> sobre el Programa de Jóvenes? Escríbela en una frase.",
             "¿Cuál práctica <strong>me di cuenta que estoy haciendo mal o ausente</strong>, y necesito ajustar?",
             "¿Cuál fortaleza <strong>ya tengo</strong> que el Movimiento necesita de mí?"
           ]
@@ -86,7 +86,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Responde las 3 preguntas del paso anterior. No copies de tus reflexiones anteriores; reescribe con la perspectiva de quien ya terminó los 5 cursos."
+        "prompt": "Responde las 3 preguntas del paso anterior. No copies de tus reflexiones anteriores; reescribe con la perspectiva de quien ya terminó los 6 cursos."
       },
       "quiz": {
         "title": "Mini-quiz Lección 2",
@@ -104,7 +104,7 @@
           {
             "text": "¿Para qué sirve la auto-revisión de la L2 antes de planear?",
             "options": [
-              "Para repasar todo el contenido de los 5 cursos anteriores, en clave de examen final del Nivel 1.",
+              "Para repasar todo el contenido de los 6 cursos anteriores, en clave de examen final del Nivel 1.",
               "Para identificar la idea más transformadora, la práctica a ajustar y la fortaleza presente.",
               "Para evaluar si los cursos del nivel estuvieron bien diseñados."
             ],
@@ -134,7 +134,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Anota en tu reflexión tu ámbito de servicio: <strong>rama</strong> (Familia, Manada, Tropa, Comunidad, Clan, Equipo de Programa de Grupo, Comisión Regional PJ, Comisión Nacional PJ o Red de Jóvenes); <strong>cargo</strong> actual o esperado (Asistente, Subjefe de Rama, Jefe de Rama, Consejero Juvenil, Comisionado de PJ, Coordinador RDJ u otro); el <strong>grupo scout o ámbito</strong> donde sirves (nombre del grupo, región); y la <strong>cantidad de protagonistas</strong> que acompañas o acompañarás."
+          "text": "Anota en tu reflexión dónde sirves: tu <strong>unidad</strong> (Familia, Manada, Tropa, Comunidad o Clan) o tu <strong>otro ámbito</strong> (equipo de programa del grupo, comisión de PJ regional o nacional, Red de Jóvenes); <strong>cargo</strong> actual o esperado (Asistente, Subjefe de Rama, Jefe de Rama, Consejero Juvenil, Comisionado de PJ, Coordinador RDJ u otro); el <strong>grupo scout o ámbito</strong> donde sirves (nombre del grupo, región); y la <strong>cantidad de protagonistas</strong> que acompañas o acompañarás."
         },
         {
           "type": "heading",
@@ -178,14 +178,14 @@
             "intro": "Selecciona las <strong>2 áreas de crecimiento</strong> donde quieras poner foco este trimestre — no las que más amas: las que más necesita tu unidad ahora.",
             "placeholderMeta": "Ej: qué quieres lograr en esta área con tu unidad este trimestre, y en qué se va a notar el avance...",
             "placeholderPlazo": "Ej: 6 meses",
-            "placeholderRecursos": "Ej: leer la cartilla X, asistir al taller Y, pedir retroalimentación a...",
-            "placeholderCompromiso": "Ej: Me comprometo a trabajar en mi plan con disciplina, a buscar a mi dirigente cada mes, y a no rendirme cuando me cueste...",
-            "botonGenerar": "📄 Generar mi Plan Personal",
+            "placeholderRecursos": "Ej: proponerlo en el consejo de unidad, pedirles ideas a los protagonistas, mirar la Guía de mi rama…",
+            "placeholderCompromiso": "Ej: Me comprometo a revisar estas dos áreas en cada reunión, a contarle a mi par dirigente cómo van cada mes, y a no rendirme cuando me cueste…",
+            "botonGenerar": "📄 Armar mi compromiso del trimestre",
             "minimo": 2,
             "avisoMinimo": "⚠️ La lección te pide elegir 2 áreas de crecimiento. Marca al menos 2 y completa sus campos antes de generar el plan.",
             "avisoCampos": "⚠️ Hay campos vacíos. Completa meta, plazo y recursos en todas las áreas seleccionadas.",
-            "titulo": "📋 Plan Personal de Desarrollo",
-            "subtituloPrioridades": "Mis prioridades de desarrollo",
+            "titulo": "📋 Mi compromiso con el Programa de Jóvenes",
+            "subtituloPrioridades": "Las 2 áreas de crecimiento que elegí para este trimestre",
             "cierre": "Imprime este plan, fírmalo y consérvalo como tu compromiso personal."
           }
         },
@@ -248,7 +248,7 @@
         },
         {
           "type": "paragraph",
-          "text": "En tu reflexión, fija tu próxima reunión: la <strong>fecha</strong>; el <strong>tema o foco principal</strong>; el <strong>elemento del Método</strong> que vas a fortalecer especialmente y <strong>cómo</strong> lo vas a fortalecer (1-2 líneas); y cuál de los 8 atributos <strong>DURASLID</strong> (Desafiante, Útil, Recompensante, Atractiva, Segura, Lúdica, Inclusiva, Diversa) está en riesgo y necesita atención."
+          "text": "En tu reflexión, fija tu próxima reunión: la <strong>fecha</strong>; el <strong>tema o foco principal</strong>; el <strong>elemento del Método</strong> que vas a fortalecer especialmente y <strong>cómo</strong> lo vas a fortalecer (1-2 líneas); y cuál de los 8 criterios <strong>DURASLID</strong> (Desafiante, Útil, Recompensante, Atractiva, Segura, Lúdica, Inclusiva, Diversa) está en riesgo y necesita atención."
         },
         {
           "type": "heading",
@@ -257,7 +257,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Un proyecto scout no es una actividad. Es una experiencia con propuesta (de quién surge), decisión (cómo se elige), preparación (qué se necesita), desarrollo (cómo se ejecuta), evaluación (qué aprendimos). Lo más importante: <strong>lo proponen los protagonistas</strong>, no los adultos. Tu rol es Apoyar, Acompañar y Enlazar."
+          "text": "Un proyecto scout no es una actividad larga. Empieza con una pregunta que sale de mirar el entorno — ¿qué duele?, ¿qué falta?, ¿qué queremos mejorar? — y avanza en cinco momentos: <strong>miran</strong> su realidad, <strong>planean</strong> juntos qué van a hacer y para quién, lo <strong>hacen</strong> por tramos, lo <strong>muestran</strong> a quien va dirigido, y al final <strong>evalúan</strong> qué se llevan. Lo más importante: la pregunta la formulan los protagonistas contigo. Tu rol es Apoyar, Acompañar y Enlazar."
         },
         {
           "type": "paragraph",
@@ -276,7 +276,7 @@
         "nextLabel": "Continuar a mi ruta de formación 📚",
         "questions": [
           {
-            "text": "Un proyecto scout, según el Modelo de Aplicación 2026, idealmente…",
+            "text": "En el ciclo de programa que propone el Modelo de Aplicación 2026, un proyecto…",
             "options": [
               "Lo propone el dirigente y lo ejecutan los protagonistas.",
               "Surge de los protagonistas; el dirigente Apoya, Acompaña y Enlaza.",
@@ -285,11 +285,11 @@
             "correctIndex": 1
           },
           {
-            "text": "¿Por qué se planea pensando en un elemento del Método y un atributo DURASLID?",
+            "text": "¿Por qué se planea pensando en un elemento del Método y un criterio DURASLID?",
             "options": [
-              "Para cumplir con un requisito de planeación que la PNPJ le exige hoy a cada dirigente de unidad.",
+              "Para llenar un formato y tener el papeleo al día.",
               "Para hacer consciente lo que la reunión va a fortalecer, en vez de confiarlo a la intuición.",
-              "Para evitar tener que aplicar los 8 elementos del Método en cada reunión."
+              "Para evitar tener que aplicar los 8 elementos del Método en cada reunión y ahorrarse la preparación."
             ],
             "correctIndex": 1
           }
@@ -308,7 +308,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Hoy cierras el Nivel 1. La línea tiene 4 niveles. Aquí defines cuál curso del Nivel 2 vas a tomar primero y cuándo vas a hacer el Curso 25 (A Salvo del Peligro), que es de adopción inmediata."
+          "text": "Hoy cierras el Nivel 1. La línea tiene 4 niveles. Aquí defines cuál curso del Nivel 2 vas a tomar primero y cuándo vas a hacer el módulo oficial A Salvo del Peligro de la ASC, que no se deja para después."
         },
         {
           "type": "heading",
@@ -317,7 +317,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Cada dirigente toma el curso de su rama. La plataforma te lo sugiere automáticamente según la rama que declaraste en la L3 de este curso."
+          "text": "Cada dirigente toma el curso de su rama. Abajo está la lista: busca la tuya y anota cuál vas a tomar primero."
         },
         {
           "type": "list",
@@ -326,7 +326,7 @@
             "🐻 <strong>Curso 9</strong> — Rama Familia (Cachorros, 5-6 años).",
             "🐺 <strong>Curso 8</strong> — Rama Manada (Lobatos, 7-10 años).",
             "⚜️ <strong>Curso 10</strong> — Rama Tropa Scout (11-14 años).",
-            "🧗 <strong>Curso 11</strong> — Rama Comunidad (Nómadas, 15-17 años).",
+            "🧗 <strong>Curso 11</strong> — Rama Comunidad (Nómadas Scout, 15-17 años).",
             "🏔️ <strong>Curso 12</strong> — Rama Clan (Rovers, 18-20 años)."
           ]
         },
@@ -351,11 +351,11 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "Curso 25 — A Salvo del Peligro: tómalo ya"
+          "text": "A Salvo del Peligro: el módulo oficial de la ASC, cuanto antes"
         },
         {
           "type": "info-box",
-          "text": "<strong>Importante</strong>: ningún curso de esta plataforma te bloquea el acceso a otro — puedes entrar al Nivel 2 cuando quieras. Pero el Curso 25 (A Salvo del Peligro aplicado al Programa) es de <strong>adopción inmediata</strong>: tómalo en paralelo con tu primer curso del Nivel 2. Lo que protege a un niño no se deja para después."
+          "text": "<strong>Importante</strong>: ningún curso de esta plataforma te bloquea el acceso a otro — entra al Nivel 2 cuando quieras. Y hay algo que no se deja para después: <strong>el módulo oficial A Salvo del Peligro de la ASC</strong>, que es el que la Asociación exige y certifica. Ninguno de nuestros cursos lo reemplaza; búscalo y hazlo ya. Cuando publiquemos el Curso 25 (A Salvo del Peligro aplicado al Programa) te va a servir para llevarlo a tu unidad, pero el obligatorio es el oficial."
         },
         {
           "type": "paragraph",
@@ -370,11 +370,11 @@
         "nextLabel": "Continuar a mi par y mi promesa 🤝",
         "questions": [
           {
-            "text": "Un dirigente ya terminó el Nivel 1 y quiere arrancar el Curso 10 (Rama Tropa) del Nivel 2 la próxima semana, pero todavía no ha hecho el Curso 25 (A Salvo del Peligro). ¿Qué pasa?",
+            "text": "Un dirigente ya terminó el Nivel 1 y quiere arrancar el Curso 10 (Rama Tropa) del Nivel 2 la próxima semana. Te pregunta si antes tiene que hacer algún otro curso de la plataforma. ¿Qué le dices?",
             "options": [
-              "Nada se lo impide y puede dejar el Curso 25 para cuando le quede tiempo: es uno más del Nivel 4, igual que los kits.",
-              "Nada se lo impide, pero el Curso 25 es de adopción inmediata: lo sensato es tomarlo en paralelo desde ya.",
-              "Tiene que esperar, porque la plataforma le bloquea el acceso al Nivel 2 hasta que lo complete."
+              "Que sí, que primero tiene que completar el Nivel 4 entero, que es donde están los kits y todo lo relativo a la protección.",
+              "Que no, que nada lo bloquea; y que lo que no debe esperar es el módulo oficial A Salvo del Peligro de la ASC.",
+              "Que sí: la plataforma le bloquea el acceso al Nivel 2 hasta que complete el curso de A Salvo del Peligro."
             ],
             "correctIndex": 1
           },
@@ -424,7 +424,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Yo, <strong>[tu nombre]</strong>, completé el Nivel 1 de la Línea Programa de Jóvenes el día <strong>[fecha]</strong>.<br>Asumí los aprendizajes de los Cursos 1 a 6 como brújula de mi servicio al Movimiento Scout.<br>Me comprometo a vivir el Programa de Jóvenes como una alianza educativa entre jóvenes y adultos, no como un manual.<br>Me comprometo a educar por el amor, no por el temor.<br>Me comprometo a aplicar el Método Scout como sistema completo, no como menú.<br>Me comprometo a tomar el Curso 25 (A Salvo del Peligro) antes de avanzar al Nivel 2.<br>Y me comprometo a revisar y ajustar este Plan Personal de Dirigente, junto con mi par, cada <strong>[frecuencia que elegí]</strong>."
+          "text": "Yo, <strong>[tu nombre]</strong>, completé el Nivel 1 de la Línea Programa de Jóvenes el día <strong>[fecha]</strong>.<br>Asumí los aprendizajes de los Cursos 1 a 6 como brújula de mi servicio al Movimiento Scout.<br>Me comprometo a vivir el Programa de Jóvenes como una alianza educativa entre jóvenes y adultos, no como un manual.<br>Me comprometo a educar por el amor, no por el temor.<br>Me comprometo a aplicar el Método Scout como sistema completo, no como menú.<br>Me comprometo a hacer el módulo oficial A Salvo del Peligro de la ASC, si todavía no lo he hecho.<br>Y me comprometo a revisar y ajustar este Plan Personal de Dirigente, junto con mi par, cada <strong>[frecuencia que elegí]</strong>."
         },
         {
           "type": "mission-box",
@@ -446,14 +446,14 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "<strong>Inmediato</strong>: Curso 25 (A Salvo del Peligro), que es de adopción inmediata.",
+            "<strong>Inmediato</strong>: el módulo oficial A Salvo del Peligro de la ASC, que no lo reemplaza ningún curso nuestro.",
             "<strong>Próximo mes</strong>: tu curso de rama del Nivel 2 + un curso pedagógico operativo (13, 14 o 15).",
             "<strong>Próximos meses</strong>: el resto del Nivel 2, el Nivel 3 (cuando ejerzas un cargo) y los demás cursos del Nivel 4."
           ]
         },
         {
           "type": "info-box",
-          "text": "Bienvenido al equipo de los dirigentes con plan. El Movimiento te necesitaba. Tu unidad también. Buen camino, hermano mayor."
+          "text": "Bienvenida, bienvenido al equipo de quienes tienen plan. El Movimiento te necesitaba. Tu unidad también. Buen camino."
         }
       ],
       "reflection": {

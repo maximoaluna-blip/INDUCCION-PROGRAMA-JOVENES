@@ -17,7 +17,7 @@
 | Duración | ~30 min |
 | Lecciones de contenido | 5 + intro + certificado |
 | Audiencia primaria | Todo adulto que cursa el Nivel 1 de la Línea Programa de Jóvenes. |
-| Pre-requisitos | Curso 2 — La Educación por el Amor (recomendado, no bloqueante). |
+| Cursos previos recomendados | Curso 2 — La Educación por el Amor (recomendado, no bloqueante). |
 | Logro final | "Pienso como educador" |
 
 ---
@@ -74,7 +74,7 @@ Se enuncia en la bienvenida y cierra con eco en la Lección 6 ("Lo que sigue ya 
 ## 6. Conexiones cross-course
 
 - **Hacia atrás:** retoma el Curso 2 (la educación por el amor) como el "porqué"; este curso da el "cómo se educa" general.
-- **Hacia adelante:** anuncia explícitamente que el Curso 4 (Características), el Curso 5 (Método), el Curso 6 (PNPJ/Modelo) y el Curso 7 (Mi Compromiso) son la **aplicación** de estos conceptos. En L3 conecta los 4 pilares con las 6 áreas de crecimiento (que se ven en el Curso 6). En L6 conecta el aprendizaje experiencial con el Método (Curso 5) y con el porqué de la reflexión que pide cada lección de la plataforma.
+- **Hacia adelante:** anuncia explícitamente que el Curso 4 (Características), el Curso 5 (Método), el Curso 6 (PNPJ/Modelo) y el Curso 7 (Mi Compromiso) son la **aplicación** de estos conceptos. En L3 conecta los 4 pilares con las **competencias educativas** de la política colombiana —no con las 6 áreas de crecimiento, que se ven en el Curso 6—, siguiendo la PNPJ (p. 31 y p. 37). En L6 conecta el aprendizaje experiencial con el Método (Curso 5) y con el porqué de la reflexión que pide cada lección de la plataforma.
 
 ---
 
@@ -86,15 +86,17 @@ Se enuncia en la bienvenida y cierra con eco en la Lección 6 ("Lo que sigue ya 
 
 ## 8. Fuentes
 
-Documento angular local: `DOCUMENTOS BASE/SCOUTS/PROGRAMA DE JOVENES/Caracteristicasesenciales-DelMovimientoScout.pdf` (OMMS/WOSM 2019), que cita las fuentes primarias: Informe Delors «La educación encierra un tesoro» (UNESCO, 1996, los 4 pilares), «The Nature of Learning» (OCDE, 2010, los 7 principios) y la clasificación de tipos de educación de la UNESCO (CITE 2011). Las 5 `policy-quote` se cotejaron contra ese documento (auditoría doctrinal 28-jun-2026: APTO).
+Documento angular local: `DOCUMENTOS BASE/SCOUTS/PROGRAMA DE JOVENES/Caracteristicasesenciales-DelMovimientoScout.pdf` (OMMS/WOSM 2019), que cita las fuentes primarias: Informe Delors «La educación encierra un tesoro» (UNESCO, 1996, los 4 pilares), «The Nature of Learning» (OCDE, 2010, los 7 principios) y la clasificación de tipos de educación de la UNESCO (CITE 2011). Las 5 `policy-quote` se cotejaron contra ese documento. **La auditoría doctrinal del 16-sep-2026 corrigió ese veredicto de APTO: las cinco tenían defectos y las cinco se restituyeron contra la fuente.** L4 (7 principios, p. 11) presentaba como textual un texto reescrito en **cinco de los siete** principios y se copió carácter por carácter; L3 (4 pilares, p. 10) era una cita compuesta y se cortó en «definidos en el informe UNESCO»; L6 (p. 17) había borrado sin marca la apertura «En el Movimiento Scout,» y la glosa «(conocimientos, habilidades, actitudes y valores)», que es la que desambigua «competencias» en el plano del joven; L5 (p. 11, CITE 2011) tenía tres alteraciones dentro de las comillas; y L2 (p. 9) atribuía a la UNESCO una definición de la OMMS. Todas las correcciones están aplicadas.
 
 ---
 
 ## 9. Validación pedagógica (auditoría 28-jun-2026)
 
-- Quizzes: **92 % comprensión/aplicación** (11 de 12 preguntas de escenario). Veredicto pedagógico: **APTO**.
+- Quizzes: **92 % comprensión/aplicación** (11 de 12 preguntas de escenario). Veredicto pedagógico: **APTO**. _(Este veredicto es pedagógico; para lo doctrinal rige la nota de la §8.)_
 - Hook con eco ✅ · reflexiones que fuerzan caso concreto ✅ · patrón anti-definición ✅ · andamiaje simple→complejo ✅ · antídoto al riesgo "académico" aplicado ✅.
 
 ---
 
 _Documento de diseño del Curso 3, versión inicial — 28 de junio de 2026._
+
+_Revisión doctrinal — 16 de septiembre de 2026: las **cinco** `policy-quote` restituidas contra la fuente (L2, L3, L4, L5, L6); cadena 4 pilares → competencias corregida en L3; «democracia» restituida en la tarjeta de «aprender a vivir juntos» (p. 10); tarjeta de educación informal y etiqueta del Curso 7 ajustadas; registro coeducativo alternado en tres pasos. `contentVersion` 2026-09-16 (ADR-027)._

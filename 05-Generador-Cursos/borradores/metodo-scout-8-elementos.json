@@ -3,7 +3,7 @@
   "title": "El Método Scout y sus 8 elementos",
   "subtitle": "El \"cómo\" del Movimiento — un sistema, no una lista",
   "description": "El curso más largo y más importante del Nivel 1. En ~40 minutos vas a entender el Método Scout como un sistema de autoeducación progresiva basado en 8 elementos interdependientes — no una lista de técnicas que se eligen a gusto. Vas a recorrer los 8 elementos en 4 parejas, ver las 4 dinámicas que hacen visible el Método en tu unidad y salir con un plan concreto para integrar el Método en tu próxima reunión.",
-  "contentVersion": "2026-09-15",
+  "contentVersion": "2026-09-16",
   "icon": "🧭",
   "duration": "40 minutos",
   "level": 1,
@@ -275,7 +275,7 @@
           "items": [
             {
               "title": "🐻 Familia",
-              "description": "<strong>Camadas</strong> y Círculo de Familia.",
+              "description": "<strong>Camadas</strong>.",
               "color": "#fff8e1",
               "borderColor": "#f9a825"
             },
@@ -307,7 +307,7 @@
         },
         {
           "type": "paragraph",
-          "text": "En la Tropa, el Sistema de Patrullas es <strong>lo que más claramente distingue al escultismo</strong>: B-P lo llamó 'la característica esencial que diferencia a la educación scout de la que ofrecen todas las demás organizaciones similares' (1919). Una patrulla bien constituida lidera sus propias actividades, planea su comida, organiza su rincón, resuelve sus conflictos. El Jefe de Tropa no manda a las patrullas; trabaja con los Guías de Patrulla."
+          "text": "En la Tropa, el Sistema de Patrullas es <strong>lo que más claramente distingue al escultismo</strong>: B-P lo llamó 'la característica esencial que diferencia a la educación scout de la que ofrecen todas las demás organizaciones similares' (Orientaciones para la tarea del dirigente scout, 1919, citado en la Guía para dirigentes de la Rama Scout, Oficina Scout Mundial – Región Interamericana, 2ª ed. 2005, p. 59). Una patrulla bien constituida lidera sus propias actividades, planea su comida, organiza su rincón, resuelve sus conflictos. El Jefe de Tropa no manda a las patrullas; trabaja con los Guías de Patrulla."
         },
         {
           "type": "info-box",
@@ -368,7 +368,7 @@
         {
           "type": "policy-quote",
           "label": "📋 El rol del adulto según B-P",
-          "source": "B-P, Orientaciones para la tarea del dirigente scout (1919), citado en el Manual de la Rama Scout (Región Interamericana), p. 166.",
+          "source": "B-P, Orientaciones para la tarea del dirigente scout (1919), citado en la Guía para dirigentes de la Rama Scout, Oficina Scout Mundial – Región Interamericana, 2ª ed. 2005, p. 166.",
           "text": "Hacer las veces de hermano mayor, esto es, considerar las cosas desde el punto de vista de los jóvenes, guiarlos por el buen sendero, transmitirles entusiasmo."
         },
         {
@@ -381,35 +381,39 @@
           "text": "Es el universo narrativo, los imaginarios y los símbolos propios de cada rama. No es decoración: es el lenguaje con el que la rama vive sus valores. Un lobato no aprende cooperación leyendo un manual; la aprende viviendo el Libro de las Tierras Vírgenes con sus seisenas. Un cachorro aprende fraternidad jugando a ser Hermano de Mowgli."
         },
         {
+          "type": "paragraph",
+          "text": "<strong>Tres palabras que se confunden todo el tiempo.</strong> El <strong>marco simbólico</strong> es el mundo que la rama habita. El <strong>fondo motivador</strong> es el relato del que saca sus historias. El <strong>ambiente de referencia</strong> es el tono de esas historias."
+        },
+        {
           "type": "method-grid",
           "items": [
             {
-              "title": "🐻 Familia",
-              "description": "Los Hermanos de Mowgli, Nombres de Caza, Viejo Lobo.",
+              "title": "🐻 Familia (Cachorros)",
+              "description": "<strong>La Fantasía.</strong> Se nutre del <em>Libro de las Tierras Vírgenes</em>, sobre todo de <em>Los Hermanos de Mowgli</em>, y su tono son los relatos infantiles.",
               "color": "#fff8e1",
               "borderColor": "#f9a825"
             },
             {
-              "title": "🐺 Manada",
-              "description": "El Libro de las Tierras Vírgenes (Kipling).",
+              "title": "🐺 Manada (Lobatos)",
+              "description": "<strong>La Fantasía</strong> también, con el mismo relato de fondo. Lo que la distingue es el tono —relatos fantásticos— y los personajes que se reserva.",
               "color": "#fff3e0",
               "borderColor": "#fb8c00"
             },
             {
-              "title": "⚜️ Tropa",
-              "description": "La vida en patrullas y la aventura al aire libre.",
+              "title": "⚜️ Tropa (Scouts)",
+              "description": "<strong>La Aventura.</strong>",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             },
             {
-              "title": "🧗 Comunidad",
-              "description": "La aventura hacia la ciudadanía; se nutre de las historias que la humanidad ha recogido a lo largo del tiempo.",
+              "title": "🧗 Comunidad (Nómadas Scout)",
+              "description": "<strong>La aventura hacia la ciudadanía</strong>, nutrida por las historias de la humanidad.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
             {
-              "title": "🏔️ Clan",
-              "description": "La Ley y la Promesa llevadas a la vida real, con sus momentos propios: Vigilia, Peregrinaje y Partida.",
+              "title": "🏔️ Clan (Rovers)",
+              "description": "<strong>La Ciudadanía Activa</strong>, que se vive sirviendo.",
               "color": "#ede7f6",
               "borderColor": "#5e35b1"
             }
@@ -418,6 +422,10 @@
         {
           "type": "paragraph",
           "text": "Familia y Manada comparten el Libro de las Tierras Vírgenes; en Familia se vive sobre todo a través de los Hermanos de Mowgli y los Nombres de Caza."
+        },
+        {
+          "type": "info-box",
+          "text": "📝 <strong>Dos documentos vigentes, dos formas de decirlo.</strong> Las Guías de Familia y de Manada dan a las dos ramas el mismo marco, <strong>La Fantasía</strong>. El <em>Modelo</em> las distingue: llama a la de Familia <strong>Territorio de la Fantasía</strong> y a la de Manada <strong>Territorio de la Fantasía Expandida</strong>, y nombra los cinco marcos por territorio (§8.2.2, p. 56) — incluido el de la Tropa, que es la única rama sin Guía propia. No lo arreglamos por cuenta propia: lo decimos, como hacemos con el acrónimo DURASLID y con las edades del Rover."
         },
         {
           "type": "info-box",
@@ -441,11 +449,11 @@
             "correctIndex": 1
           },
           {
-            "text": "El Marco Simbólico de la rama Manada se basa en…",
+            "text": "En la Manada, ¿qué papel cumple el Libro de las Tierras Vírgenes?",
             "options": [
-              "Los Hermanos de Mowgli y los Nombres de Caza.",
-              "El Libro de las Tierras Vírgenes (Kipling).",
-              "La aventura hacia la ciudadanía."
+              "Es el marco simbólico de la rama: el mundo entero que la Manada habita.",
+              "Es el fondo motivador: el relato del que la Manada saca sus historias.",
+              "Es decoración para las ceremonias y para el rincón de la seisena."
             ],
             "correctIndex": 1
           }
@@ -553,7 +561,7 @@
           "items": [
             {
               "title": "🎯 Competencias Educativas",
-              "description": "el norte del crecimiento del protagonista: qué queremos que aprenda a hacer en su vida diaria. Se escriben como competencias terminales (lo que logra al salir de la rama) e intermedias (los pasos para llegar).",
+              "description": "el norte del crecimiento del protagonista: qué queremos que aprenda a hacer en su vida diaria. Se escriben en dos alturas: las <strong>terminales</strong> son la meta grande, lo que logra <strong>a lo largo de todo su paso por el Movimiento</strong>; las <strong>intermedias</strong> son esa misma meta partida en pasos <strong>por rama y por edad</strong>, y las encuentras en la Guía de Dirigente de tu rama.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
@@ -564,7 +572,7 @@
               "borderColor": "#fb8c00"
             },
             {
-              "title": "👥 Vida de Grupo",
+              "title": "👥 Vida en Grupo",
               "description": "el clima, los vínculos, la cultura de la unidad (acogida, conflictos resueltos, alegría compartida).",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
@@ -579,7 +587,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Una unidad con Programa de calidad muestra las 4 Dinámicas activas a la vez. El Modelo 2026 lo dice a su manera: mira la unidad como un ecosistema donde todo eso tiene que estar vivo al tiempo (§3.2, p. 16). Una unidad que solo cuida las competencias educativas pero descuida la Vida de Grupo se vuelve fría. Una que solo cuida la Vida de Grupo pero no tiene claro qué quiere que sus jóvenes aprendan se vuelve divertida pero no educativa."
+          "text": "Una unidad con Programa de calidad muestra las 4 Dinámicas activas a la vez. El Modelo 2026 lo dice a su manera: mira la unidad como un ecosistema donde todo eso tiene que estar vivo al tiempo (§3.2, p. 16). Una unidad que solo cuida las competencias educativas pero descuida la Vida en Grupo se vuelve fría. Una que solo cuida la Vida en Grupo pero no tiene claro qué quiere que sus jóvenes aprendan se vuelve divertida pero no educativa."
         },
         {
           "type": "heading",
@@ -588,7 +596,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El Modelo de Aplicación 2026 añade un filtro práctico para evaluar la calidad de cada Oportunidad de Aprendizaje: <strong>DURASLID</strong>. Toda actividad debería ser <strong>D</strong>esafiante, <strong>U</strong>til, <strong>R</strong>ecompensante, <strong>A</strong>tractiva, <strong>S</strong>egura, <strong>L</strong>údica, <strong>I</strong>nclusiva y <strong>D</strong>iversa. Si una actividad solo cumple 2 o 3 de los 8 atributos, hay algo que ajustar."
+          "text": "El Modelo de Aplicación 2026 añade un filtro práctico para evaluar la calidad de cada Oportunidad de Aprendizaje: <strong>DURASLID</strong>. Toda actividad debería ser <strong>D</strong>esafiante, <strong>Ú</strong>til, <strong>R</strong>ecompensante, <strong>A</strong>tractiva, <strong>S</strong>egura, <strong>L</strong>údica, <strong>I</strong>nclusiva y <strong>D</strong>iversa. Si una actividad solo cumple 2 o 3 de los 8 atributos, hay algo que ajustar."
         },
         {
           "type": "info-box",
@@ -596,7 +604,7 @@
         }
       ],
       "reflection": {
-        "prompt": "De las 4 Dinámicas (Competencias Educativas, Oportunidades, Vida de Grupo, Estructura), ¿cuál es la que mejor funciona en tu unidad y cuál la que peor?"
+        "prompt": "De las 4 Dinámicas (Competencias Educativas, Oportunidades, Vida en Grupo, Estructura), ¿cuál es la que mejor funciona en tu unidad y cuál la que peor?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 7",
@@ -606,7 +614,7 @@
             "text": "Cuando miras tu unidad completa, ¿qué cuatro cosas tienen que estar funcionando a la vez?",
             "options": [
               "Promesa, Ley, Sistema de Equipos y Naturaleza, que son cuatro de los ocho elementos del Método Scout y los más antiguos del Movimiento.",
-              "Las competencias educativas, las oportunidades de aprendizaje, la vida de grupo, y la estructura y el funcionamiento de la unidad.",
+              "Las competencias educativas, las oportunidades de aprendizaje, la vida en grupo, y la estructura y el funcionamiento de la unidad.",
               "Apoyar, Acompañar, Enlazar y Evaluar, que describen las tareas del dirigente cuando acompaña el crecimiento de su unidad."
             ],
             "correctIndex": 1
@@ -635,7 +643,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vas a hacer el ejercicio más importante del Nivel 1. Piensa en tus últimas cuatro reuniones juntas. La PNPJ lo dice así: una foto de un día no alcanza a mostrar los 8 elementos; una película de varias semanas, sí (p. 8). Vamos a ver qué tan bien integran los 8 elementos."
+          "text": "Vas a hacer el ejercicio más importante del Nivel 1. Piensa en tus últimas cuatro reuniones juntas. La PNPJ lo explica con una imagen muy parecida: una instantánea de un día no captura los 8 elementos; un diario en video de varias semanas, sí (p. 8). Vamos a ver qué tan bien integran los 8 elementos."
         },
         {
           "type": "heading",
@@ -683,7 +691,7 @@
           "ordered": false,
           "items": [
             "📜 <strong>Curso 6</strong> — La PNPJ y \"El Gran Juego para la Vida\": cómo Colombia aterriza el Método al Modelo de Aplicación 2026, las 5 ramas y las 6 áreas de crecimiento.",
-            "🗺️ <strong>Curso 7</strong> — Mi Compromiso con el Programa de Jóvenes: tu plan personal de dirigente."
+            "🗺️ <strong>Curso 7</strong> — Mi Compromiso con el Programa de Jóvenes: tu compromiso escrito como dirigente."
           ]
         },
         {

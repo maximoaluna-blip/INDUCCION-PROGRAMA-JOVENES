@@ -2,7 +2,7 @@
 
 **Línea:** Programa de Jóvenes · **Nivel:** 1 (Fundamentación) · **Posición:** Curso 7 de 7 del Nivel 1.
 
-> Cierre de la ruta. Tras la bienvenida, la educación por el amor, las características esenciales, el método y el modelo colombiano, este curso convierte los 5 anteriores en un plan personal firmable. No introduce contenido nuevo: integra todo lo visto en una herramienta accionable para el día a día del dirigente.
+> Cierre de la ruta. Tras la bienvenida, la educación por el amor, las características esenciales, el método y el modelo colombiano, este curso convierte los 6 anteriores en un plan personal firmable. No introduce contenido nuevo: integra todo lo visto en una herramienta accionable para el día a día del dirigente.
 
 ---
 
@@ -67,7 +67,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 **Secciones (en orden):**
 
 1. **`info-box`** — Tiempo (~30 min) y promesa: _"Al final vas a tener un Plan Personal de Dirigente firmado, descargable en PDF, con compromisos chicos y concretos para el próximo trimestre. Y un par dirigente con quien compartirlo."_
-2. **`paragraph`** — Reconocimiento: _"Llegaste hasta acá. Tomaste 5 cursos. Leíste a Baden-Powell, a la OMMS, a la PNPJ. Te asomaste a los 8 elementos del Método y al Modelo de Aplicación colombiano. Reflexionaste, contestaste quizzes, escribiste compromisos parciales. Hoy todo eso se vuelve plan."_
+2. **`paragraph`** — Reconocimiento: _"Llegaste hasta acá. Tomaste 6 cursos. Leíste a Baden-Powell, a la OMMS, a la PNPJ. Te asomaste a los 8 elementos del Método y al Modelo de Aplicación colombiano. Reflexionaste, contestaste quizzes, escribiste compromisos parciales. Hoy todo eso se vuelve plan."_
 3. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 4. **`list`** — Las 5 ideas:
     - Revisión de tu brújula: qué te quedó de los Cursos 1–6.
@@ -92,17 +92,17 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — Apertura: _"Antes de planear, miremos hacia atrás. Las reflexiones que escribiste en cada curso son tu **brújula personal**: lo que más te resonó, lo que más te costó, lo que reconociste como propio. Aquí las vamos a recuperar."_
 3. **`brujula-display`** — Componente que muestra al adulto sus propias reflexiones acumuladas:
-    - `sourceCourses`: `["bienvenida-programa-jovenes", "educacion-por-el-amor", "caracteristicas-esenciales-movimiento-scout", "metodo-scout-8-elementos", "pnpj-gran-juego-para-la-vida"]`
+    - `sourceCourses`: `["bienvenida-programa-jovenes", "educacion-por-el-amor", "como-se-educa-hoy", "caracteristicas-esenciales-movimiento-scout", "metodo-scout-8-elementos", "pnpj-gran-juego-para-la-vida"]`
     - `displayMode`: `lecciones-clave`
-    - Muestra reflexiones de cierre por curso: Curso 1 L6 (compromiso primera semana), Curso 2 L6 (compromiso pedagógico), Curso 4 L6 (frase de definición), Curso 5 L8 (ajuste de reunión), Curso 6 L7 (mapa del Modelo).
+    - Muestra reflexiones de cierre por curso: Curso 1 L6 (compromiso primera semana), Curso 2 L6 (compromiso pedagógico), Curso 3 L6 (frase «antes pensaba / ahora entiendo» sobre qué es educar), Curso 4 L6 (frase de definición), Curso 5 L8 (ajuste de reunión), Curso 6 L7 (mapa del Modelo).
 4. **`heading` (nivel 3)** — _"Tres preguntas para mirar el camino"_
 5. **`paragraph`** — Plantilla de auto-revisión:
-    - _"¿Cuál idea de los 5 cursos **más me transformó la mirada** sobre el Programa de Jóvenes? Escríbela en una frase."_
+    - _"¿Cuál idea de los 6 cursos **más me transformó la mirada** sobre el Programa de Jóvenes? Escríbela en una frase."_
     - _"¿Cuál práctica **me di cuenta que estoy haciendo mal o ausente**, y necesito ajustar?"_
     - _"¿Cuál fortaleza **ya tengo** que el Movimiento necesita de mí?"_
 6. **`info-box`** — _"Esta auto-revisión es la materia prima de tu plan. Lo que escribas aquí va a guiar los compromisos de las próximas lecciones. Sé honesto y específico."_
 
-**Reflexión:** _"Responde las 3 preguntas del paso 5. No copies de tus reflexiones anteriores; reescribe con la perspectiva de quien ya terminó los 5 cursos."_
+**Reflexión:** _"Responde las 3 preguntas del paso 5. No copies de tus reflexiones anteriores; reescribe con la perspectiva de quien ya terminó los 6 cursos."_
 
 **Quiz (2 preguntas):**
 
@@ -114,7 +114,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 > **P2.** ¿Para qué sirve la auto-revisión de la L2 antes de planear?
 >
-> a) _Para repasar el contenido de los 5 cursos en clave de examen._
+> a) _Para repasar el contenido de los 6 cursos en clave de examen._
 > b) _Para identificar la idea más transformadora, la práctica a ajustar y la fortaleza ya presente — insumos directos del plan._  ✅
 > c) _Para evaluar si los cursos estuvieron bien diseñados._
 
@@ -131,7 +131,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — Apertura: _"Tu plan personal arranca con tu rol concreto. Si serves en Manada, no vas a planear como serves en Clan. Si eres asistente, no vas a planear como un jefe de rama. Vamos al detalle."_
 3. **`plan-builder` — Bloque 1 de 4 (rol y rama)**
-    - **Campo 1: Rama** — `select` con opciones [Familia, Manada, Tropa, Comunidad, Clan, Equipo de Programa de Grupo, Comisión Regional PJ, Comisión Nacional PJ, Red de Jóvenes].
+    - **Campo 1: Ámbito de servicio** — `select` con opciones [unidad: Familia, Manada, Tropa, Comunidad, Clan] o [otro ámbito: equipo de programa del grupo, comisión de PJ regional, comisión de PJ nacional, Red de Jóvenes]. Las cuatro últimas **no son ramas**.
     - **Campo 2: Cargo actual o esperado** — `select` con opciones [Asistente, Subjefe de Rama, Jefe de Rama, Consejero Juvenil, Comisionado de PJ, Coordinador RDJ, Otro].
     - **Campo 3: Grupo Scout o ámbito** — `text` (nombre del grupo, región).
     - **Campo 4: Cantidad de protagonistas que acompaño / acompañaré** — `number`.
@@ -181,9 +181,9 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
     - **Campo 11: Tema o foco principal** — `text`.
     - **Campo 12: Elemento del Método que voy a fortalecer especialmente** — `select` con los 8 elementos.
     - **Campo 13: ¿Cómo voy a fortalecerlo? (1-2 líneas)** — `textarea`.
-    - **Campo 14: ¿Cuál de los 8 atributos DURASLID está en riesgo y necesita atención?** — `select` con los 8 (Desafiante, Útil, Recompensante, Atractiva, Segura, Lúdica, Inclusiva, Diversa).
+    - **Campo 14: ¿Cuál de los 8 criterios DURASLID está en riesgo y necesita atención?** — `select` con los 8 (Desafiante, Útil, Recompensante, Atractiva, Segura, Lúdica, Inclusiva, Diversa).
 5. **`heading` (nivel 3)** — _"Mi proyecto del trimestre"_
-6. **`paragraph`** — _"Un proyecto scout no es una actividad. Es una experiencia con propuesta (de quién surge), decisión (cómo se elige), preparación (qué se necesita), desarrollo (cómo se ejecuta), evaluación (qué aprendimos). Lo más importante: **lo proponen los protagonistas**, no los adultos. Tu rol es Apoyar, Acompañar y Enlazar."_
+6. **`paragraph`** — _"Un proyecto scout no es una actividad larga. Empieza con una pregunta que sale de mirar el entorno — ¿qué duele?, ¿qué falta?, ¿qué queremos mejorar? — y avanza en cinco momentos: **miran** su realidad, **planean** juntos qué van a hacer y para quién, lo **hacen** por tramos, lo **muestran** a quien va dirigido, y al final **evalúan** qué se llevan. Lo más importante: la pregunta la formulan los protagonistas contigo. Tu rol es Apoyar, Acompañar y Enlazar."_
 7. **`plan-builder` — Bloque 4 continúa**
     - **Campo 15: Nombre tentativo del proyecto del trimestre** — `text`.
     - **Campo 16: ¿De dónde surgió la idea? (¿de los protagonistas o del adulto?)** — `radio` con [Surgió de los protagonistas, Surgió del adulto y voy a abrirla a votación, Aún no surgió — la próxima reunión la abrimos].
@@ -195,17 +195,17 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 **Quiz (2 preguntas):**
 
-> **P1.** Un proyecto scout, según el Modelo de Aplicación 2026, idealmente…
+> **P1.** En el ciclo de programa que propone el Modelo de Aplicación 2026, un proyecto…
 >
 > a) _Lo propone el dirigente y lo ejecutan los protagonistas._
 > b) _Surge de los protagonistas; el dirigente Apoya, Acompaña y Enlaza._  ✅
 > c) _Lo asigna el Comisionado Regional según el plan nacional._
 
-> **P2.** ¿Por qué se planea pensando en un elemento del Método y un atributo DURASLID?
+> **P2.** ¿Por qué se planea pensando en un elemento del Método y un criterio DURASLID?
 >
-> a) _Para cumplir un requisito de la PNPJ._
+> a) _Para llenar un formato y tener el papeleo al día._
 > b) _Para hacer consciente lo que la reunión va a fortalecer especialmente, en vez de confiarlo a la intuición._  ✅
-> c) _Para evitar tener que aplicar los 8 elementos._
+> c) _Para evitar tener que aplicar los 8 elementos del Método en cada reunión y ahorrarse la preparación._
 
 **Logro:** "Tengo planes concretos".
 
@@ -218,14 +218,14 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Apertura: _"Hoy cierras el Nivel 1. La línea tiene 4 niveles. Aquí defines cuál curso del Nivel 2 vas a tomar primero y cuándo vas a hacer el Curso 25 (A Salvo del Peligro), que es de adopción inmediata."_
+2. **`paragraph`** — Apertura: _"Hoy cierras el Nivel 1. La línea tiene 4 niveles. Aquí defines cuál curso del Nivel 2 vas a tomar primero y cuándo vas a hacer el módulo oficial A Salvo del Peligro de la ASC, que no se deja para después."_
 3. **`heading` (nivel 3)** — _"Tu curso de rama del Nivel 2 (Cursos 8–12)"_
-4. **`paragraph`** — _"Cada dirigente toma el curso de su rama. La plataforma te lo sugiere automáticamente según la rama que declaraste en la L3 de este curso."_
+4. **`paragraph`** — _"Cada dirigente toma el curso de su rama. Abajo está la lista: busca la tuya y anota cuál vas a tomar primero."_
 5. **`list`** — Recordatorio de los 5 cursos por rama:
     - 🐻 **Curso 9** — Rama Familia (Cachorros, 5-6 años).
     - 🐺 **Curso 8** — Rama Manada (Lobatos, 7-10 años).
     - ⚜️ **Curso 10** — Rama Tropa Scout (11-14 años).
-    - 🧗 **Curso 11** — Rama Comunidad (Nómadas, 15-17 años).
+    - 🧗 **Curso 11** — Rama Comunidad (Nómadas Scout, 15-17 años).
     - 🏔️ **Curso 12** — Rama Clan (Rovers, 18-20 años).
 6. **`heading` (nivel 3)** — _"Los 3 cursos pedagógicos operativos (Cursos 13, 14, 15)"_
 7. **`paragraph`** — _"Estos los toman todos los dirigentes de unidad. Recomendamos este orden, según tu rol:"_
@@ -233,19 +233,19 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
     - **Si tu foco es acompañar la progresión personal** (uno-a-uno con los protagonistas) → empieza por el **Curso 13 (Seguimiento de la Progresión)**.
     - **Si eres Jefe o Subjefe de Rama** → empieza por el **Curso 14 (Planeación de Reuniones)** y luego el **Curso 15 (Ciclo con ABP)**.
     - **Si eres Asistente o entras nuevo** → orden libre, según prioridad de tu unidad.
-9. **`heading` (nivel 3)** — _"Curso 25 — A Salvo del Peligro: tómalo ya"_
-10. **`info-box`** — _"**Importante**: ningún curso de esta plataforma te bloquea el acceso a otro — puedes entrar al Nivel 2 cuando quieras. Pero el Curso 25 (A Salvo del Peligro aplicado al Programa) es de **adopción inmediata**: tómalo en paralelo con tu primer curso del Nivel 2. Lo que protege a un niño no se deja para después."_
+9. **`heading` (nivel 3)** — _"A Salvo del Peligro: el módulo oficial de la ASC, cuanto antes"_
+10. **`info-box`** — _"**Importante**: ningún curso de esta plataforma te bloquea el acceso a otro — entra al Nivel 2 cuando quieras. Y hay algo que no se deja para después: **el módulo oficial A Salvo del Peligro de la ASC**, que es el que la Asociación exige y certifica. Ninguno de nuestros cursos lo reemplaza; búscalo y hazlo ya. Cuando publiquemos el Curso 25 (A Salvo del Peligro aplicado al Programa) te va a servir para llevarlo a tu unidad, pero el obligatorio es el oficial."_
 11. **`paragraph`** — _"Los otros 4 cursos del Nivel 4 (Marco de Mundo Mejor, Kit Constructores de Paz, Kit HeForShe, Kit Patrimonito) se toman según interés o convocatorias nacionales. No tienen orden obligatorio."_
 
 **Reflexión:** _"Escribe cuál será **el primer curso del Nivel 2** que vas a tomar (de los 8) y cuándo planeas empezarlo. Sé específico (semana, mes)."_
 
 **Quiz (2 preguntas):**
 
-> **P1.** Un dirigente ya terminó el Nivel 1 y quiere arrancar el Curso 10 (Rama Tropa) del Nivel 2 la próxima semana, pero todavía no ha hecho el Curso 25 (A Salvo del Peligro). ¿Qué pasa?
+> **P1.** Un dirigente ya terminó el Nivel 1 y quiere arrancar el Curso 10 (Rama Tropa) del Nivel 2 la próxima semana. Te pregunta si antes tiene que hacer algún otro curso de la plataforma. ¿Qué le dices?
 >
-> a) _Puede arrancar el Curso 10 sin problema; el Curso 25 es opcional y lo hace cuando quiera._
-> b) _No puede avanzar al Nivel 2 hasta completar el Curso 25; lo ideal es tomarlo en paralelo con su primer curso de Nivel 2._  ✅
-> c) _Solo lo necesita si su grupo está en una zona de alto riesgo._
+> a) _Que sí, que primero tiene que completar el Nivel 4 entero, que es donde están los kits y todo lo relativo a la protección._
+> b) _Que no, que nada lo bloquea; y que lo que no debe esperar es el módulo oficial A Salvo del Peligro de la ASC._  ✅
+> c) _Que sí: la plataforma le bloquea el acceso al Nivel 2 hasta que complete el curso de A Salvo del Peligro._
 
 > **P2.** Un dirigente nuevo de Manada que se enfocará en acompañar la progresión personal debería empezar el Nivel 2 con…
 >
@@ -279,7 +279,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
     - _"Me comprometo a vivir el Programa de Jóvenes como una alianza educativa entre jóvenes y adultos, no como un manual."_
     - _"Me comprometo a educar por el amor, no por el temor."_
     - _"Me comprometo a aplicar el Método Scout como sistema completo, no como menú."_
-    - _"Me comprometo a tomar el Curso 25 (A Salvo del Peligro) antes de avanzar al Nivel 2."_
+    - _"Me comprometo a hacer el módulo oficial A Salvo del Peligro de la ASC, si todavía no lo he hecho."_
     - _"Y me comprometo a revisar y ajustar este Plan Personal de Dirigente, junto con mi par, cada **[frecuencia que elegí]**."_
 8. **`mission-box`** — _"Lee tu promesa en voz alta antes de descargar tu certificado. Lo que se dice cobra peso. Lo que se escribe se queda."_
 9. **`photo-upload`**
@@ -289,10 +289,10 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
     - `buttonLabel`: "Subir foto de mi promesa"
 10. **`heading` (nivel 3)** — _"Lo que viene"_
 11. **`list`** — Mapa hacia los Niveles 2-4:
-    - **Inmediato**: Curso 25 (A Salvo del Peligro), que es de adopción inmediata.
+    - **Inmediato**: el módulo oficial A Salvo del Peligro de la ASC, que no lo reemplaza ningún curso nuestro.
     - **Próximo mes**: tu curso de rama del Nivel 2 + un curso pedagógico operativo (13, 14 o 15).
     - **Próximos meses**: el resto del Nivel 2, el Nivel 3 (cuando ejerzas un cargo) y los demás cursos del Nivel 4.
-12. **`info-box`** — Despedida: _"Bienvenido al equipo de los dirigentes con plan. El Movimiento te necesitaba. Tu unidad también. Buen camino, hermano mayor."_
+12. **`info-box`** — Despedida: _"Bienvenida, bienvenido al equipo de quienes tienen plan. El Movimiento te necesitaba. Tu unidad también. Buen camino."_
 
 **Reflexión:** _"Escribe tu promesa personal completa (paso 7) y agrega una línea propia tuya — algo que solo tú podrías comprometer, según tu camino. Esta promesa te la enviaremos por correo con tu certificado."_
 
@@ -329,9 +329,9 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 ## 6. Conexiones cross-course
 
-### 6.1 Hacia atrás (los 5 cursos del Nivel 1)
+### 6.1 Hacia atrás (los 6 cursos del Nivel 1)
 
-- **L2 — `brujula-display`** lee las reflexiones de **los 5 cursos anteriores** y se las muestra al adulto como insumo.
+- **L2 — `brujula-display`** lee las reflexiones de **los 6 cursos anteriores** y se las muestra al adulto como insumo.
 - **L3 — áreas y roles** integra Curso 4 (Características Esenciales — alianza joven-adulto), Curso 5 (Método — Apoyo del Adulto) y Curso 6 (PNPJ — 6 áreas + 3 roles).
 - **L4 — reunión y proyecto** opera con los 8 elementos del Curso 5 y el filtro DURASLID del Curso 6.
 - **L6 — promesa** recoge la educación por el amor del Curso 2, los principios del Curso 4 y el compromiso pedagógico del Curso 2.
@@ -340,12 +340,12 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 - **L5 → Cursos 8–12 (rama)**: recomendación automática según la rama declarada en L3.
 - **L5 → Cursos 13, 14, 15 (pedagógicos)**: orden recomendado según rol.
-- **L5 + L6 → Curso 25 (A Salvo del Peligro)**: recomendado de adopción inmediata, **no** habilitante (ADR-019).
+- **L5 + L6 → módulo oficial A Salvo del Peligro de la ASC**: lo que no se deja para después. El **Curso 25** (A Salvo del Peligro aplicado al Programa) **aún no está construido** y, cuando lo esté, **no** será habilitante (ADR-019) ni sustituirá al oficial.
 - **L6 → par dirigente**: vínculo informal de acompañamiento entre niveles.
 
 ### 6.3 Cross-línea
 
-- **Con Política de Adultos Curso 6 (Plan Personal de Desarrollo)**: el Plan Personal de Dirigente de este curso se lee al lado del Plan Personal de Desarrollo de Política de Adultos en el dashboard.
+- **Con Política de Adultos Curso 5 (Plan Personal de Desarrollo)**: el Plan Personal de Dirigente de este curso se lee al lado del Plan Personal de Desarrollo de Política de Adultos en el dashboard.
 - **Con DI Curso 6 (Mi Aporte al Desarrollo Institucional)**: paralelismo de estructura: ambas líneas cierran su Nivel 1 con un plan personal.
 
 ---
@@ -402,11 +402,11 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 1. **Revisar este diseño** con el dueño del proyecto.
 2. **Diseñar la plantilla PDF "Plan Personal de Dirigente PJ"** (salida del `plan-builder`).
-3. **Adaptar el `brujula-display`** del Curso 6 DI a esta línea, con los 5 courseIds de PJ.
+3. **Adaptar el `brujula-display`** del Curso 6 DI a esta línea, con los 6 courseIds de PJ.
 4. **Generar el JSON** del curso siguiendo `course-schema.json`.
 5. **Generar HTML** con `node build-course.js mi-compromiso-programa-jovenes`.
 6. **Generar preview PDF** y revisar.
-7. **Pilotar** como cierre del Nivel 1 — los 5-10 dirigentes que hicieron los 5 cursos anteriores deberían completar este como integración.
+7. **Pilotar** como cierre del Nivel 1 — los 5-10 dirigentes que hicieron los 6 cursos anteriores deberían completar este como integración.
 
 ---
 

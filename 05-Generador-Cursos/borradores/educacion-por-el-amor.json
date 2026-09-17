@@ -3,7 +3,7 @@
   "title": "La Educación por el Amor",
   "subtitle": "La apuesta de Baden-Powell en Ginebra, 1922",
   "description": "El segundo curso de la Línea Programa de Jóvenes y la brújula ética del Programa. En ~30 minutos vas a entender qué dijo Baden-Powell en Ginebra en 1922 sobre cómo se educa, vas a distinguir la educación por el temor de la educación por el amor, y vas a ver cómo los 4 objetivos de la instrucción se convirtieron en las 6 áreas de crecimiento de hoy. Termina con tu propia revisión pedagógica y un compromiso de práctica.",
-  "contentVersion": "2026-08-02",
+  "contentVersion": "2026-09-16",
   "icon": "💗",
   "duration": "30 minutos",
   "level": 1,
@@ -56,7 +56,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "<strong>Idea central:</strong> el día que B-P dijo: “Sustituyamos el temor por el amor.”"
+          "text": "<strong>Idea central:</strong> el día que B-P propuso cambiar el temor por el amor."
         },
         {
           "type": "paragraph",
@@ -76,7 +76,7 @@
             },
             {
               "title": "1914–1918",
-              "description": "Primera Guerra Mundial. 17 millones de muertos. Europa entera de luto."
+              "description": "Primera Guerra Mundial. Cerca de 17 millones de muertos. Europa entera de luto."
             },
             {
               "title": "1919–1922",
@@ -84,7 +84,7 @@
             },
             {
               "title": "1 de agosto de 1922",
-              "description": "B-P toma la palabra en Ginebra y dice: “He aquí lo que el escultismo propone como alternativa.”"
+              "description": "B-P toma la palabra en Ginebra y propone cambiar el motor de la educación: el amor en lugar del temor."
             }
           ]
         },
@@ -95,7 +95,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Su informe se llamó <strong>“La educación por el amor en sustitución de la educación por el temor”</strong>. No habló de uniformes, ni de insignias, ni de campamentos. Habló de pedagogía. De cómo se educa a un joven sin convertirlo en un soldado dócil ni en un alumno obediente. Habló de <strong>autoeducación voluntaria, fraternidad universal y deseo de conocer</strong>. Lo escucharon educadores de todo el mundo. La OMMS lo reeditó en 2007, en el año centenario del Movimiento, para que ningún dirigente lo olvide."
+          "text": "Su informe se llamó <strong>“La educación por el amor en sustitución de la educación por el temor”</strong>. No fue a hablar de uniformes ni de campamentos —aunque los menciona—: fue a hablar de pedagogía. De cómo se educa a un joven sin convertirlo en un soldado dócil ni en un alumno obediente. Habló de <strong>autoeducación voluntaria, fraternidad universal y deseo de conocer</strong>. Lo escucharon educadores de todo el mundo. La OMMS lo reeditó en 2007, en el año centenario del Movimiento, para que ningún dirigente lo olvide."
         },
         {
           "type": "policy-quote",
@@ -196,8 +196,8 @@
         {
           "type": "policy-quote",
           "label": "📋 Ver la crítica de B-P",
-          "source": "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 12).",
-          "text": "El Método antiguo pecó por la base, porque desarrollaba en el alumno el miedo al castigo, el deseo de recompensa, la vanidad y el espíritu de competencia."
+          "source": "B-P, resumiendo al educador Edmundo Holmes — Ginebra 1922 (reedición OMMS 2007, p. 12).",
+          "text": "El Método antiguo pecó por la base, porque desarrollaba en el alumno el miedo al castigo, el deseo de recompensa, la vanidad y el espíritu de competencia, en vez de desarrollar las necesidades inherentes al niño, de expansión y manifestación."
         },
         {
           "type": "heading",
@@ -211,7 +211,7 @@
             "El dirigente que avergüenza al lobato que no se sabe la promesa frente a toda la Manada.",
             "El maestro que cuelga la lista de notas para que cada alumno vea quién perdió.",
             "El padre que dice “si no sacas 5, no hay vacaciones”.",
-            "La líder de patrulla que humilla al scout que llegó tarde.",
+            "La guía de patrulla que humilla al scout que llegó tarde.",
             "El dirigente que solo se reúne con el protagonista para señalar lo que está mal."
           ]
         },
@@ -221,7 +221,7 @@
         }
       ],
       "reflection": {
-        "prompt": "¿Cuál de los 4 motores (castigo, recompensa, vanidad, competencia) sigue colándose más en tu propia práctica como dirigente, maestro, padre o jefe? Escribe una situación concreta donde te pasó."
+        "prompt": "¿Cuál de los 4 motores (castigo, recompensa, vanidad, competencia) sigue colándose más en tu propia práctica como dirigente, maestro, padre o jefe en tu trabajo? Escribe una situación concreta donde te pasó."
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",
@@ -260,12 +260,12 @@
         },
         {
           "type": "paragraph",
-          "text": "Si la educación por el temor se sostiene en el castigo, la recompensa, la vanidad y la competencia, ¿en qué se sostiene la educación por el amor? B-P propuso cuatro pilares que siguen siendo los del Movimiento hoy."
+          "text": "Si la educación por el temor se sostiene en el castigo, la recompensa, la vanidad y la competencia, ¿en qué se sostiene la educación por el amor? B-P no hizo una lista con ese nombre, pero su informe vuelve una y otra vez sobre cuatro ideas."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Los 4 pilares de la educación por el amor"
+          "text": "Las 4 ideas que sostienen la educación por el amor"
         },
         {
           "type": "method-grid",
@@ -314,21 +314,21 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "La fraternidad universal en una frase"
+          "text": "La fraternidad universal, en la frase que dijo una semana antes en París"
         },
         {
           "type": "policy-quote",
           "label": "📋 Ver la definición de fraternidad",
-          "source": "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 3).",
+          "source": "Baden-Powell, París, julio de 1922 — citado en la introducción de la reedición OMMS 2007, p. 3.",
           "text": "Una hermandad universal de servicio, una asociación de amistad que no se detiene más allá de las fronteras."
         },
         {
           "type": "info-box",
-          "text": "Cuando un rover colombiano y un rover ucraniano se saludan en el Jamboree Mundial 2027 y se reconocen hermanos sin haberse visto nunca, esto es lo que B-P estaba imaginando en 1922."
+          "text": "Cuando dos jóvenes scouts, uno colombiano y uno ucraniano, se reconocen hermanos sin haberse visto nunca, esto es lo que B-P estaba imaginando en 1922."
         }
       ],
       "reflection": {
-        "prompt": "De los 4 pilares (autoeducación voluntaria, fraternidad universal, deseo de conocer, servir al prójimo), ¿cuál te cuesta más sostener en tu práctica actual y por qué? Sé honesto."
+        "prompt": "De las 4 ideas (autoeducación voluntaria, fraternidad universal, deseo de conocer, servir al prójimo), ¿cuál te cuesta más sostener en tu práctica actual y por qué? Sé honesto."
       },
       "quiz": {
         "title": "Mini-quiz Lección 4",
@@ -406,17 +406,17 @@
         {
           "type": "policy-quote",
           "label": "📋 Ver los 4 objetivos textuales",
-          "source": "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 10).",
-          "text": "En cada una de las sesiones la instrucción es orientada con vista a cuatro objetivos principales… desarrollar: el carácter y la inteligencia; la habilidad manual; el hábito de servir al prójimo; y la salud y el vigor físico."
+          "source": "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 10). Se omiten las glosas de 1922 que acompañan a cada objetivo.",
+          "text": "En cada una de las sesiones la instrucción es orientada con vista a cuatro objetivos principales […] desarrollar: (1) El carácter y la inteligencia […]. (2) La habilidad manual […]. (3) El hábito de servir al prójimo […]. (4) La salud y el vigor físico […]."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "De 4 objetivos (1922) a 6 áreas (2024)"
+          "text": "De 4 objetivos (1922) a 6 áreas (hoy)"
         },
         {
           "type": "paragraph",
-          "text": "Esos 4 objetivos son la semilla de lo que la Política Nacional de Programa de Jóvenes 2024 desarrolla hoy como las <strong>6 áreas de crecimiento</strong>: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad y Espiritualidad. Lo que B-P dijo en 4 palabras, hoy la ASC lo desdobla en 6 dimensiones —incluyendo la afectividad y la espiritualidad que en 1922 estaban implícitas pero hoy se nombran—. El árbol creció. La raíz es la misma."
+          "text": "Esos 4 objetivos se parecen mucho a lo que hoy la ASC llama las <strong>6 áreas de crecimiento</strong>: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad y Espiritualidad. Así las nombra el <strong>Modelo de Aplicación 2026</strong>; la PNPJ 2024 ya hablaba de seis, con nombres más antiguos (desarrollo físico, intelectual, social, emocional, espiritual y del carácter). El árbol creció. La raíz es la misma."
         },
         {
           "type": "heading",
@@ -435,7 +435,7 @@
         },
         {
           "type": "info-box",
-          "text": "En el Curso 6 vas a ver con más detalle cómo el Modelo de Aplicación 2026 organiza las competencias por área y por rama. Hoy solo guarda esta idea: lo que enseñas siempre toca a la persona entera."
+          "text": "En el Curso 6 vas a ver con más detalle cómo el Modelo de Aplicación 2026 organiza las competencias educativas por área y por rama. Hoy solo guarda esta idea: lo que enseñas siempre toca a la persona entera."
         }
       ],
       "reflection": {
@@ -455,10 +455,10 @@
             "correctIndex": 1
           },
           {
-            "text": "¿Cuál es la relación entre los 4 objetivos de B-P (1922) y las 6 áreas de crecimiento de la PNPJ 2024?",
+            "text": "Según este curso, ¿qué relación hay entre los 4 objetivos de 1922 y las 6 áreas de hoy?",
             "options": [
               "Son listas completamente distintas, formuladas en épocas distintas, y no tienen relación entre sí.",
-              "Los 4 objetivos son la semilla; las 6 áreas son el desarrollo posterior de esa misma idea.",
+              "Apuntan a lo mismo: educar a la persona entera, no solo una parte de ella.",
               "La PNPJ 2024 reemplaza por completo lo que B-P había planteado en su momento."
             ],
             "correctIndex": 1
@@ -515,7 +515,7 @@
             "🌟 <strong>Curso 4</strong> — Características Esenciales del Movimiento Scout: el Propósito, los Principios, los 6 elementos definitorios.",
             "🧭 <strong>Curso 5</strong> — El Método Scout y sus 8 elementos: la herramienta metodológica con la que aterrizas el amor a una reunión concreta.",
             "📜 <strong>Curso 6</strong> — La PNPJ y “El Gran Juego para la Vida”: cómo Colombia aterriza todo esto en su Modelo de Aplicación 2026.",
-            "🗺️ <strong>Curso 7</strong> — Mi Compromiso con el Programa de Jóvenes: tu plan personal."
+            "🗺️ <strong>Curso 7</strong> — Mi Compromiso con el Programa de Jóvenes: tu plan de compromisos como dirigente."
           ]
         },
         {
@@ -524,7 +524,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tu compromiso pedagógico completo (plantilla del paso anterior). Te lo enviaremos por correo con tu certificado para que lo recuerdes."
+        "prompt": "Escribe tu compromiso pedagógico completo. Queda guardado en tu progreso del curso: puedes volver a leerlo cuando quieras."
       },
       "quiz": {
         "title": "Mini-quiz Lección 6",

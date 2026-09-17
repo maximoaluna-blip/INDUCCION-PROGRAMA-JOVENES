@@ -3,7 +3,7 @@
   "title": "Cómo se Educa Hoy",
   "subtitle": "Conceptos clave de la educación — la base de todo lo que sigue",
   "description": "El Curso 3 de la Línea Programa de Jóvenes, y un paréntesis necesario antes de entrar de lleno a lo scout. En ~30 minutos vas a entender qué es educar, los cuatro pilares de la educación (UNESCO), cómo aprenden de verdad las personas, dónde se aprende (educación formal, no formal e informal) y por qué el aprender haciendo funciona. No es teoría por la teoría: es la base que hace que el Método Scout, las ramas y el Modelo —que vienen después— se entiendan como la aplicación de estas ideas.",
-  "contentVersion": "2026-08-02",
+  "contentVersion": "2026-09-16",
   "icon": "🎓",
   "duration": "30 minutos",
   "level": 1,
@@ -65,7 +65,7 @@
         {
           "type": "policy-quote",
           "label": "📋 Ver cómo lo define el Movimiento",
-          "source": "Características Esenciales del Movimiento Scout (OMMS, 2019), p. 9 — citando el enfoque de la UNESCO.",
+          "source": "Características Esenciales del Movimiento Scout (OMMS, 2019), p. 9 — definición de la OMMS, en línea con el enfoque de la UNESCO.",
           "text": "En el sentido más amplio, la educación es un proceso de por vida que permite el desarrollo continuo de las habilidades de una persona, tanto como individuo como miembro de la sociedad."
         },
         {
@@ -116,7 +116,7 @@
             "correctIndex": 1
           },
           {
-            "text": "Dos personas discuten. Una dice: “educar es meter la mayor cantidad de contenidos en la cabeza del chico mientras es joven”. La otra: “educar es acompañar a una persona toda la vida para que pueda responder a lo que le toque”. Según cómo lo define el Movimiento (citando a la UNESCO), ¿quién se acerca más?",
+            "text": "Dos personas discuten. Una dice: “educar es meter la mayor cantidad de contenidos en la cabeza del chico mientras es joven”. La otra: “educar es acompañar a una persona toda la vida para que pueda responder a lo que le toque”. Según cómo lo define el Movimiento, ¿quién se acerca más?",
             "options": [
               "La primera: educar es acumular la mayor cantidad de contenidos en la etapa de formación.",
               "La segunda: educar es un proceso de por vida que desarrolla a la persona entera.",
@@ -145,7 +145,7 @@
           "type": "policy-quote",
           "label": "📋 Ver los 4 pilares textuales",
           "source": "Características Esenciales del Movimiento Scout (OMMS, 2019), p. 10 — citando el Informe Delors a la UNESCO, «La educación encierra un tesoro» (1996).",
-          "text": "La educación es un proceso continuo, un desarrollo holístico de por vida, que cuenta con el apoyo de cada uno de los cuatro pilares definidos en el informe UNESCO: aprender a ser, aprender a conocer, aprender a hacer y aprender a vivir juntos."
+          "text": "La educación es un proceso continuo, un desarrollo holístico de por vida, que cuenta con el apoyo de cada uno de los cuatro pilares definidos en el informe UNESCO."
         },
         {
           "type": "method-grid",
@@ -164,7 +164,7 @@
             },
             {
               "title": "🤝 Aprender a VIVIR JUNTOS",
-              "description": "Comprender al otro, apreciar que dependemos unos de otros, y sostener valores de respeto, paz y justicia.",
+              "description": "Comprender al otro, apreciar que dependemos unos de otros, y sostener los valores de la democracia, el respeto mutuo, la paz y la justicia.",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             },
@@ -183,15 +183,15 @@
         },
         {
           "type": "paragraph",
-          "text": "Una educación que solo desarrolla el “conocer” produce gente que sabe mucho y no sabe convivir, o que no decide por sí misma. Los cuatro pilares son un recordatorio de que la persona es entera. Cuando planees una experiencia para tus chicos, vale preguntarte: ¿esto solo los hace <em>saber</em>, o también los hace <em>hacer</em>, <em>convivir</em> y <em>ser</em>?"
+          "text": "Una educación que solo desarrolla el “conocer” produce gente que sabe mucho y no sabe convivir, o que no decide por sí misma. Los cuatro pilares son un recordatorio de que la persona es entera. Cuando planees una experiencia para tus chicos y chicas, vale preguntarte: ¿esto solo los hace <em>saber</em>, o también los hace <em>hacer</em>, <em>convivir</em> y <em>ser</em>?"
         },
         {
           "type": "info-box",
-          "text": "Pista para más adelante: cuando en el Curso 6 veas las <strong>6 áreas de crecimiento</strong> de la Asociación Scouts de Colombia, vas a notar que son una versión más detallada de esta misma idea. La raíz es esta."
+          "text": "Pista para más adelante: la política colombiana se apoya en estos mismos cuatro pilares — pero no para nombrar las <strong>6 áreas de crecimiento</strong> (esas las vas a ver en el Curso 6), sino para sostener las <strong>competencias educativas</strong>, que es lo que cada joven va logrando dentro de cada área. Dicho fácil: las áreas son las seis caras de la persona; lo que se logra en cada cara son las competencias, y ahí es donde entran estos cuatro pilares."
         }
       ],
       "reflection": {
-        "prompt": "De los 4 pilares (conocer, hacer, vivir juntos, ser), ¿cuál crees que la educación que tú recibiste trabajó MENOS? ¿Y cuál te gustaría que tus chicos vivieran más?"
+        "prompt": "De los 4 pilares (conocer, hacer, vivir juntos, ser), ¿cuál crees que la educación que tú recibiste trabajó MENOS? ¿Y cuál te gustaría que tus chicos y chicas vivieran más?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",
@@ -236,7 +236,7 @@
           "type": "policy-quote",
           "label": "📋 Ver los 7 principios textuales",
           "source": "Características Esenciales del Movimiento Scout (OMMS, 2019), p. 11 — citando «The Nature of Learning», OCDE (2010).",
-          "text": "1. Los sujetos que aprenden deben estar en el centro del proceso. 2. El aprendizaje es un proceso social, principalmente cooperativo. 3. Las emociones y la motivación son parte integral del aprendizaje. 4. El aprendizaje debe tener en cuenta las diferencias individuales. 5. El desafío y el esfuerzo son esenciales, no la sobrecarga. 6. La evaluación formativa y la claridad de las expectativas promueven el aprendizaje. 7. El aprendizaje se promueve al crear vínculos entre dominios de conocimiento y con la comunidad y el mundo."
+          "text": "1. Los sujetos que aprenden deben estar en el centro del proceso de aprendizaje. 2. El aprendizaje es un proceso social, es decir, principalmente cooperativo. 3. Las emociones y la motivación son una parte integral del aprendizaje. 4. El aprendizaje debe tener en cuenta las diferencias individuales. 5. El desafío y el esfuerzo son esenciales para el aprendizaje, no sobrecarga. 6. La evaluación formativa y la claridad de las expectativas promueven el aprendizaje. 7. El aprendizaje se promueve cuando se crean vínculos horizontales entre dominios de conocimiento y con la comunidad y el mundo en general."
         },
         {
           "type": "heading",
@@ -320,7 +320,7 @@
             },
             {
               "title": "🏠 Educación INFORMAL",
-              "description": "El aprendizaje de la vida diaria, no institucionalizado: la familia, el trabajo, la comunidad, lo cotidiano. Pasa todo el tiempo, sin programa.",
+              "description": "El aprendizaje de la vida diaria, fuera de toda institución: la familia, el trabajo, la comunidad. Puede ser a propósito —un papá que se sienta a enseñarle a su hija— pero no hay colegio, ni programa, ni título detrás.",
               "color": "#fff3e0",
               "borderColor": "#fb8c00"
             }
@@ -339,7 +339,7 @@
           "type": "policy-quote",
           "label": "📋 Ver qué dice la fuente",
           "source": "Características Esenciales del Movimiento Scout (OMMS, 2019), p. 11 — clasificación de la UNESCO (CITE 2011).",
-          "text": "Educación no formal: educación institucionalizada, intencional y planificada por un proveedor de educación, que es un adicional, una alternativa y/o un complemento de la educación formal… (por ejemplo, el Movimiento Scout…)."
+          "text": "Educación no formal: Educación institucionalizada, intencional y planificada por un proveedor de educación, que es un adicional, una alternativa y/o un complemento de la educación formal… (por ejemplo Movimiento Scout…)."
         },
         {
           "type": "info-box",
@@ -392,7 +392,7 @@
           "type": "policy-quote",
           "label": "📋 Ver el enfoque experiencial",
           "source": "Características Esenciales del Movimiento Scout (OMMS, 2019), p. 17.",
-          "text": "El aprendizaje activo ilustra el enfoque práctico del Movimiento Scout para la educación, basado en la experiencia directa más que en la mera enseñanza teórica… la adquisición de nuevas competencias se logra mediante la práctica de diversas actividades, entretenidas y relevantes, que llevan a los jóvenes a actuar, cometer errores, reflexionar y descubrir."
+          "text": "El aprendizaje activo ilustra el enfoque práctico del Movimiento Scout para la educación, basado en la experiencia directa más que en la mera enseñanza teórica… En el Movimiento Scout, la adquisición de nuevas competencias (conocimientos, habilidades, actitudes y valores) se logra mediante la práctica de diversas actividades, entretenidas y relevantes, que llevan a los jóvenes a actuar, cometer errores, reflexionar y descubrir."
         },
         {
           "type": "heading",
@@ -415,7 +415,7 @@
             "🌟 <strong>Curso 4 — Características Esenciales:</strong> qué es exactamente el Movimiento Scout (su identidad), construida sobre esta propuesta educativa.",
             "🧭 <strong>Curso 5 — El Método Scout:</strong> el “sistema” con el que el escultismo pone en práctica el aprender haciendo, el equipo, el reto y la reflexión.",
             "📜 <strong>Curso 6 — La PNPJ y el Modelo colombiano:</strong> cómo Colombia organiza todo esto en ramas, áreas de crecimiento y herramientas.",
-            "🗺️ <strong>Curso 7 — Mi Compromiso:</strong> tu plan personal como educador scout."
+            "🗺️ <strong>Curso 7 — Mi Compromiso:</strong> tu plan de dirigente, escrito y firmado por ti."
           ]
         },
         {
@@ -424,7 +424,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Completa, pensando en tu rol: «Antes pensaba que educar a mis chicos era ______. Después de este curso entiendo que es ______. Lo primero que voy a cambiar en cómo planeo una reunión es ______.»"
+        "prompt": "Completa, pensando en tu rol: «Antes pensaba que educar a mis chicos y chicas era ______. Después de este curso entiendo que es ______. Lo primero que voy a cambiar en cómo planeo una reunión es ______.»"
       },
       "quiz": {
         "title": "Mini-quiz Lección 6",
