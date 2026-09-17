@@ -104,7 +104,7 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "No son dos documentos: son seis"
+          "text": "No son dos documentos: son siete"
         },
         {
           "type": "paragraph",
@@ -132,6 +132,10 @@
               "borderColor": "#fb8c00"
             }
           ]
+        },
+        {
+          "type": "info-box",
+          "text": "📄 <strong>Y hay un séptimo, que cuenta distinto a propósito.</strong> El <em>Modelo de Aplicación de Bolsillo</em> —el resumen de 14 páginas— dedica su Capítulo 11 al mismo asunto y <strong>no enumera momentos</strong>: dice que <em>«planear, hacer, celebrar, revisar y volver a proyectar no son momentos aislados, sino un movimiento continuo»</em>, y después ofrece una «secuencia de trabajo» de <strong>seis pasos</strong>. No te enredes con la cuenta — fíjate en otra cosa: <strong>«celebrar» está ahí, en medio</strong>. Es el mismo momento que las Guías no traen, dicho con otra palabra."
         },
         {
           "type": "heading",
