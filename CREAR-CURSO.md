@@ -583,7 +583,11 @@ Toda cita doctrinal dentro de `policy-quote` debe apuntar a uno de estos documen
 
 ### 12.3 Verificación de vigencia
 
-Antes de publicar, verificar contra https://scout.org.co/biblioteca/dnpj que los documentos citados siguen siendo la versión vigente. Si una guía de rama o un manual se actualiza, abrir tarea para revisar todos los cursos que lo citen.
+**Antes de EMPEZAR el curso** —no antes de publicarlo— recomprobar su **fuente angular** contra https://scout.org.co/biblioteca/dnpj: entrar a la página de detalle del documento, bajar el PDF y cotejar su sha256 con el del corpus. Si difiere, **la del corpus no es la vigente**. Y antes de leerlo, mirar su **primera página**: un documento que empieza en mitad de un capítulo es un trozo, no un documento.
+
+> ⚠️ **El acta del corpus no sustituye esta comprobación.** `verificar-corpus.py` detecta **deriva local** —que un archivo cambió, se perdió o se renombró aquí— y para eso es excelente. No puede detectar **deriva remota**: que la biblioteca haya publicado otra edición, porque el archivo local no cambia. **ADR-054**: la fuente angular del Curso 13 llevaba cuatro meses en el corpus siendo un **borrador de trabajo**, con una nota del redactor a sí mismo impresa dentro, y el acta decía «sin deriva» **con razón**. La edición publicada renombraba un instrumento entero (*«Libro de oro»* → *«Bitácora»*).
+
+Antes de publicar, verificar que **todos** los documentos citados siguen siendo la versión vigente. Si una guía de rama o un manual se actualiza, abrir tarea para revisar todos los cursos que lo citen y registrarlo en `CHANGELOG-DOCTRINA.md`.
 
 ---
 
