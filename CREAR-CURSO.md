@@ -199,10 +199,11 @@ INDUCCION-PROGRAMA-JOVENES/
 #### Fase de publicación
 
 10. **Actualizar `02-Plataforma-Web/cursos.json`** agregando la entrada del curso nuevo con `status: "active"`.
-11. **Verificar backend:**
+11. **Registrar el curso en el panel de administración** — `../PORTAL-ADMIN-ASC/dashboards.json`, entrada `programa-jovenes`: añadir el `courseId` a `courseIds` **y** subir `coursesActive`. ⚠️ **Sin esto el panel no muestra los alumnos del curso**, y no lo avisa nadie salvo `python ../verificar-consistencia.py`, que lo marca como **ERROR**. *Este paso faltaba en el manual hasta el 17-sep-2026: apareció al publicar el Curso 14.*
     ```bash
-    node 05-Generador-Cursos/verificar-backend.js
+    python ../verificar-consistencia.py   # debe decir «Sin desajustes»
     ```
+    > ⚠️ El paso que antes ocupaba este número —`node 05-Generador-Cursos/verificar-backend.js`— **manda correr un archivo que no existe en esta línea** (sí está en Política de Adultos y en DI). Comprobado el 17-sep-2026. Se retira hasta que se porte.
 12. **Auditoría funcional (`PRUEBAS-E2E`)** — antes de publicar, sumar el `courseId` nuevo a la lista de cursos que recompila `.github/workflows/pruebas-e2e.yml`, y correr la suite en local para confirmarla en verde:
     ```bash
     cd PRUEBAS-E2E && ASC_BASE_URL="http://localhost:8099/02-Plataforma-Web/" npx playwright test --reporter=list
