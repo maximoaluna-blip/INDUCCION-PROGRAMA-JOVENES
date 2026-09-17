@@ -3,7 +3,7 @@
   "title": "Rama Clan (Rovers)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El último curso de rama, y el único cuyos protagonistas son mayores de edad. Vas a acompañar a Sebastián desde el día que llega al Clan hasta su Partida Rover, y a entender el cambio que define esta rama: aquí tu trabajo es volverte innecesario.",
-  "contentVersion": "2026-09-16",
+  "contentVersion": "2026-09-17",
   "icon": "🏔️",
   "duration": "65 minutos",
   "level": 2,
@@ -75,7 +75,7 @@
         {
           "type": "policy-quote",
           "label": "📋 El rol del adulto en esta rama",
-          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 1, p. 12 del PDF.",
+          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 1, p. 14 del PDF.",
           "text": "El rol de los adultos en el programa Rover consiste en acompañar, facilitar y orientar sin desplazar el protagonismo juvenil, actuando como garantes del proceso educativo y del marco institucional."
         },
         {
@@ -85,7 +85,7 @@
         {
           "type": "policy-quote",
           "label": "📋 Y cómo evoluciona",
-          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 10, p. 53 del PDF.",
+          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 10, p. 57 del PDF.",
           "text": "En esta etapa, la participación del dirigente se desvanece progresivamente, aunque su presencia es permanente."
         },
         {
@@ -138,6 +138,10 @@
           "text": "⚠️ <strong>Por qué te lo decimos en vez de simplificarlo.</strong> Si crees que todo se acaba a los 20, vas a tramitar tarde el BP de alguien que se lo ganó — y los 20 años y 8 meses no se negocian. Anota la fecha de nacimiento de cada Rover el día que entra, y cuenta hacia atrás."
         },
         {
+          "type": "info-box",
+          "text": "📮 <strong>Y por dónde va el trámite, que la Guía ahora sí lo dice.</strong> La venera BP la solicita <strong>el Rover con apoyo de su dirigente de Clan</strong> al <strong>Jefe de Grupo Scout</strong>; el Grupo verifica los requisitos junto con el dirigente y hace el trámite con la <strong>Oficina Scout Nacional</strong>. Todo eso, dentro del tope de los 20 años y 8 meses. Tres pasos, y el primero no eres tú."
+        },
+        {
           "type": "paragraph",
           "text": "Una última precisión de vocabulario, la misma que ya viste en Comunidad: la <strong>Sección</strong> es el tramo etario (18 a 20), la <strong>Rama</strong> es <strong>Rovers</strong> y la <strong>Unidad</strong> es el <strong>Clan</strong>. Por eso se dice «un Rover del Clan Guaraguao», no «un Clan»."
         }
@@ -183,7 +187,7 @@
         {
           "type": "policy-quote",
           "label": "📋 Qué es la Ley, dicho por su Guía",
-          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 3, p. 18 del PDF.",
+          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 3, p. 21 del PDF.",
           "text": "Si la promesa es el compromiso, la Ley Scout es la brújula. No impone, orienta. No castiga, inspira."
         },
         {
@@ -227,13 +231,13 @@
         {
           "type": "policy-quote",
           "label": "📋 Las dos fórmulas, palabra por palabra",
-          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 3, p. 19 del PDF.",
+          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 3, pp. 21-22 del PDF.",
           "text": "<strong>Fórmula tradicional.</strong> «Por mi honor y con la gracia de Dios, prometo hacer todo cuánto de mí dependa para cumplir mis deberes para con Dios y con la patria, ayudar al prójimo en toda circunstancia y cumplir fielmente la ley Scout»<br><br><strong>Alternativa.</strong> «Por mi honor prometo hacer todo cuanto de mí dependa para cumplir mis deberes para conmigo, para con los demás y para con mi espiritualidad, ayudando a mi prójimo en toda circunstancia y cumpliendo fielmente la Ley Scout»"
         },
         {
           "type": "policy-quote",
           "label": "📋 Cómo NO se presenta",
-          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 3, p. 19 del PDF.",
+          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 3, pp. 21-22 del PDF.",
           "text": "Bajo ninguna circunstancia la promesa debe presentarse como una obligación y menos como una imposición; por el contrario, este compromiso debe asumirse de manera libre y no condicionada."
         },
         {
@@ -286,7 +290,7 @@
         {
           "type": "policy-quote",
           "label": "📋 Qué es el Consejo de Clan",
-          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 5, p. 26 del PDF.",
+          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 5, p. 29 del PDF.",
           "text": "Es el órgano de gobierno de la rama, a través del cual se efectúa el proceso de toma de decisiones frente a todos los temas que son de interés del clan."
         },
         {
@@ -333,7 +337,7 @@
         {
           "type": "policy-quote",
           "label": "📋 El Sistema de Equipos en esta rama",
-          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 5, p. 25 del PDF.",
+          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 5, p. 28 del PDF.",
           "text": "conservando su autonomía personal, pueden organizarse en grupos para colaborar, decidir y actuar colectivamente, aportando cada uno desde su identidad, talentos, experiencias o vivencias como individuos asociados."
         },
         {
@@ -395,7 +399,7 @@
         {
           "type": "policy-quote",
           "label": "📋 El marco simbólico de la rama",
-          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 6, p. 28 del PDF.",
+          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 6, p. 31 del PDF.",
           "text": "El marco simbólico para la rama Rover es el ejercicio de la Ciudadanía Activa."
         },
         {
@@ -405,12 +409,16 @@
         {
           "type": "policy-quote",
           "label": "📋 Y cómo se materializa",
-          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 6, p. 28 del PDF.",
-          "text": "La materialización de la Ciudadanía Activa es a través del servicio."
+          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 6, p. 31 del PDF.",
+          "text": "La materialización de la Ciudadanía Global es a través del servicio."
         },
         {
           "type": "paragraph",
           "text": "Una sola línea, y es toda la identidad de la rama. Por eso el lema del Rover es <strong>«Servir»</strong> — que la Guía describe no como una consigna sino como <em>«una actitud permanente de vida»</em>."
+        },
+        {
+          "type": "info-box",
+          "text": "📝 <strong>Dos palabras en el mismo capítulo, y no las juntamos nosotros.</strong> El <strong>§6.1</strong> dice que el marco simbólico de la rama es la <strong>Ciudadanía Activa</strong>, y unos párrafos después aparece la <strong>Ciudadanía Global</strong>. En la edición anterior de la Guía todo decía «Activa»; la vigente la cambió en <strong>tres sitios</strong>: al hablar del servicio (§6.2), al hablar de los símbolos (§6.4) y al hablar de la salida del Movimiento (§8.15). <strong>El marco de la rama no cambió</strong> — eso está en el §6.1 y sigue diciendo Activa. Lo decimos porque vas a leerlo y conviene que no te desconcierte."
         },
         {
           "type": "heading",
@@ -441,8 +449,8 @@
         {
           "type": "policy-quote",
           "label": "📋 La advertencia que la propia Guía se hace",
-          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 6, p. 28 del PDF.",
-          "text": "queremos invitarles para que no solamente piensen en él como único referente, sino que faciliten a los Rovers la posibilidad de acudir a otras inspiraciones desde lo trascendente y desde sus propias creencias y valores"
+          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 6, p. 31 del PDF.",
+          "text": "queremos invitarles para que no solamente piensen en él como único referente, sino que faciliten a los rovers la posibilidad de acudir a otras inspiraciones desde lo trascendente y desde sus propias creencias y valores"
         },
         {
           "type": "paragraph",
@@ -463,7 +471,7 @@
         },
         {
           "type": "info-box",
-          "text": "🏕️ <strong>Tres cosas se entregan siempre ante el Grupo Scout.</strong> Las insignias del PARCE pueden entregarse en el contexto que el Clan elija, pero <strong>la investidura, la insignia máxima BP - Ciudadano Global y los estímulos</strong> se entregan necesariamente <strong>en presencia del Grupo</strong>. La razón que da la Guía: la incidencia de los Rovers como ejemplo en la comunidad scout."
+          "text": "🏕️ <strong>Tres cosas se entregan siempre ante el Grupo Scout.</strong> Las insignias del PARCE pueden entregarse en el contexto que el Clan elija, pero <strong>la investidura, la insignia máxima BP - Ciudadano Global y los estímulos</strong> se entregan necesariamente <strong>en presencia del Grupo</strong>. La razón que da la Guía: la incidencia de los Rovers como ejemplo en la comunidad scout. <em>Si al leer el capítulo 8 encuentras que las insignias de progresión pueden entregarse en cualquier escenario, es cierto para Rover Ciudadano, Participativo y Transformador. Para la venera BP mandan el §6.5 y el §8.12, que piden el Grupo.</em>"
         }
       ],
       "reflection": {
@@ -523,7 +531,7 @@
         },
         {
           "type": "info-box",
-          "text": "📝 <strong>Nota de lectura.</strong> Cuando abras tu Guía de Clan vas a ver la sigla escrita <strong>DURALSID</strong>, con la L y la S cambiadas de sitio. Son los mismos ocho criterios: las Guías de Familia, Manada y Comunidad —y toda esta plataforma— escriben DURASLID. No busques un noveno."
+          "text": "📝 <strong>Nota de edición.</strong> Si tienes a mano una copia vieja de la Guía de Clan —la de 63 páginas—, ahí la sigla aparece como <strong>DURALSID</strong>, con la L y la S cambiadas de sitio. <strong>La edición vigente ya la escribe DURASLID</strong>, igual que las Guías de Familia, Manada y Comunidad y que toda esta plataforma. Son los mismos ocho criterios; no busques un noveno."
         },
         {
           "type": "heading",
@@ -662,20 +670,20 @@
         },
         {
           "type": "paragraph",
-          "text": "Antes de los números, quédate con el destino, que es lo único que no se mueve: <strong>las seis áreas de crecimiento en los tres niveles</strong>. Los topes de cada fase te van a importar mucho; las cuentas parciales, menos — y con razón, porque si te pones a sumar el nivel de aplicación te van a dar siete áreas y solo hay seis. La Guía se pasa por una. No lo arreglamos por cuenta propia: lo decimos, como hicimos con el acrónimo y con las edades."
+          "text": "Antes de los números, quédate con el destino, que es lo único que no se mueve: <strong>las seis áreas de crecimiento en los tres niveles</strong>. Los topes de cada fase te van a importar mucho; las cuentas parciales, menos — y ahora cierran solas. <em>Si tienes a mano una copia vieja de la Guía, la de 63 páginas, ahí las cuentas del nivel de aplicación daban siete áreas y solo hay seis. La edición vigente lo corrigió.</em>"
         },
         {
           "type": "method-grid",
           "items": [
             {
               "title": "🟡 Rover Ciudadano (RC) · tope 5 meses",
-              "description": "La adaptación. Se familiariza con el Clan, repasa contigo lo básico del Movimiento y <strong>diseña su PARCE</strong>. Cierra con la vigilia y la renovación de la promesa o la investidura.",
+              "description": "La adaptación. Se familiariza con el Clan, repasa contigo lo básico del Movimiento y <strong>diseña su PARCE</strong>. Cierra con la vigilia y la renovación de la promesa o la investidura. En su ceremonia se entrega <strong>la horquilla</strong>, y la Guía precisa que <em>no está condicionada a un requisito</em>: marca la adhesión, no el logro.",
               "color": "#fff8e1",
               "borderColor": "#f9a825"
             },
             {
               "title": "🟠 Rover Participativo (RP) · 7 meses más",
-              "description": "Define como mínimo <strong>cuatro competencias educativas</strong>, en las áreas que él elija priorizar, en nivel de exploración, y dos más en aplicación.",
+              "description": "Elige <strong>cuatro áreas de crecimiento</strong> para trabajar en nivel de exploración y <strong>una</strong> en aplicación, y en ellas desarrolla <em>todas</em> sus competencias terminales.",
               "color": "#fff3e0",
               "borderColor": "#fb8c00"
             },
@@ -700,7 +708,7 @@
         {
           "type": "policy-quote",
           "label": "📋 La regla que evita el atajo",
-          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 8, p. 43 del PDF.",
+          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 8, p. 47 del PDF.",
           "text": "no se considera adecuado la entrega de insignias de manera acumulada, ni tampoco la entrega de más de una insignia de progresión en un lapso de tiempo inferior a los 5 meses."
         },
         {
@@ -767,7 +775,7 @@
         {
           "type": "policy-quote",
           "label": "📋 Lo que no es válido en ninguna ceremonia",
-          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 8, p. 44 del PDF.",
+          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 8, p. 48 del PDF.",
           "text": "no es válido bajo ninguna circunstancia, propiciar escenarios que impliquen exigencias físicas desproporcionadas, ayunos, golpes o latigazos (usando la pañoleta u otros objetos), pruebas, retos, expresiones invalidantes, desobligantes o discriminatorias y demás acciones que promuevan o faciliten la afectación física o psicológica de nuestros jóvenes."
         },
         {
@@ -809,12 +817,12 @@
         {
           "type": "policy-quote",
           "label": "📋 Qué es un peregrinaje aquí",
-          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 8, p. 46 del PDF.",
+          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 8, p. 50 del PDF.",
           "text": "el peregrinaje en el contexto de los Scouts de Colombia no es una actividad religiosa; tiene como propósito motivar una experiencia scout espiritual, significativa y trascendente que lleve a cada joven a “explorar lo invisible”"
         },
         {
           "type": "paragraph",
-          "text": "Tampoco tiene una forma fija: <em>«puede ser un recorrido caminando 1, 5 o 15 kilómetros, puede ser una caminata de 60 kilómetros distribuida en 3 días, puede ser un recorrido en bicicleta»</em> — y la Guía nombra expresamente la posibilidad de hacerlo <strong>en silla de ruedas</strong>, con apoyo en los tramos que haga falta. Lo que no admite es ser <em>«una réplica de versiones previas»</em>. Para prepararlo, la Guía sugiere apoyarse en los cinco objetivos del desarrollo espiritual — acoger, maravillarse, trabajar, juzgar y celebrar."
+          "text": "Tampoco tiene una forma fija: <em>«puede ser un recorrido caminando 1, 5 o 15 kilómetros, puede ser una caminata de 60 kilómetros distribuida en 3 días, puede ser un recorrido en bicicleta»</em> — y la Guía nombra expresamente la posibilidad de hacerlo <strong>en silla de ruedas</strong>, con apoyo en los tramos que haga falta. Lo que no admite es ser <em>«una réplica de versiones previas»</em>. Para prepararlo, la Guía sugiere apoyarse en los cinco objetivos del desarrollo espiritual — acoger, maravillarse, trabajar, <strong>tener juicio</strong> y celebrar."
         },
         {
           "type": "paragraph",
@@ -882,13 +890,13 @@
             "El Rover recorre la calle con su <strong>madrina o padrino</strong>; si no tiene esa figura, elige al integrante del Clan más cercano, o va solo si lo prefiere.",
             "Al pasar por cada rama puede <strong>sumarse un momento a su formación</strong> y emitir sus gritos y presentaciones, si fue miembro de ella.",
             "Al final, el Clan lo espera con las banderas de Clan, de Grupo y de la OMMS. El Rover hace <strong>por última vez</strong> la presentación de Clan.",
-            "Recibe un <strong>símbolo de despedida</strong> —un libro firmado por todos, una caja de recuerdos— y el Clan lo rodea para cantar <em>«el vagabundo»</em> por última vez como Rover."
+            "Recibe un <strong>símbolo de despedida</strong> —un libro firmado por todos, una caja de recuerdos— y el Clan lo rodea para cantar <em>la canción «vagabundo»</em> por última vez como Rover."
           ]
         },
         {
           "type": "policy-quote",
           "label": "📋 Lo que NO se hace",
-          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 8, p. 48 del PDF.",
+          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 8, p. 52 del PDF.",
           "text": "no hay una formación en “Y” o bifurcación, ni se propicia un momento público para que el o la rover que parte “escoja” un camino a seguir."
         },
         {
@@ -1007,7 +1015,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La Guía recuerda que A Salvo del Peligro cubre <em>«todas las áreas de trabajo de protección para los miembros»</em> y busca <em>«crear entornos seguros, tanto físicos como virtuales, libres de cualquier tipo de abuso»</em>. Y define la gestión del riesgo como el estudio pormenorizado de cada actividad, identificando sus riesgos y enumerando las medidas que los eliminen o los reduzcan."
+          "text": "A Salvo del Peligro, dice tu Guía, es <strong>cosa de toda la membresía</strong>, y tiene tres tareas: <strong>garantizar los derechos</strong>, mantener a niñez, juventud y adultez <strong>fuera de riesgos y peligros</strong>, y <strong>orientar sobre las rutas de atención</strong> — las de dentro y las de fuera de la organización. Y gestionar el riesgo son cinco pasos: <strong>identificar</strong> los peligros de la actividad, <strong>evaluar</strong> qué tan probables y graves son, poner <strong>medidas de prevención y mitigación</strong>, tener un <strong>plan de emergencia</strong>, y <strong>formar</strong> a quienes acompañan."
         },
         {
           "type": "info-box",
@@ -1025,7 +1033,7 @@
         {
           "type": "policy-quote",
           "label": "📋 La frase con la que cierra esta rama",
-          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 10, p. 53 del PDF.",
+          "source": "Guía de Dirigente de Clan (DNPJ 2026), cap. 10, p. 57 del PDF.",
           "text": "En esta etapa, la participación del dirigente se desvanece progresivamente, aunque su presencia es permanente."
         },
         {

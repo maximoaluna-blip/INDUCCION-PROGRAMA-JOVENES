@@ -8,11 +8,19 @@
 
 ## 0. La situación de fuentes
 
-**Clan tiene Guía de Dirigente 2026**, y es la más extensa de las cinco: **63 páginas, 12 capítulos**.
+**Clan tiene Guía de Dirigente 2026**, y es la más extensa de las cinco: **68 páginas**.
+
+> 🔴 **Este diseño se escribió sobre una edición que no era la vigente (corregido el 17-sep-2026, ADR-056).**
+>
+> El curso se construyó sobre una copia de **63 páginas**; la que publica la biblioteca tiene **68** desde el 23-jul-2026, y **no es solo paginación: cambió contenido**. Lo que la reedición tocó y afectaba al curso: la **segunda fase del PARCE** pasó de «cuatro competencias + dos áreas» a **cuatro áreas en exploración y una en aplicación** (§8.7.2); el **capítulo de A Salvo del Peligro se reescribió entero**, de modo que dos frases que el curso citaba entrecomilladas **ya no existen**; el acrónimo pasó de **DURALSID a DURASLID**; se añadió el **trámite de la venera BP** (Rover → Jefe de Grupo → Oficina Scout Nacional); «Ciudadanía Activa» pasó a **«Ciudadanía Global»** en tres sitios; y **la errata aritmética que este diseño registra como discrepancia 5 la corrigió la propia fuente**.
+>
+> **Lo que enseñó, y es la regla que dejó:** las quince `policy-quote` estaban protegidas por su campo `source` y por su fila de trazabilidad, y **las quince sobrevivieron**. Las dos que murieron eran **comillas angulares dentro de un párrafo**, sin `source` y sin fila, invisibles a cualquier barrido de páginas. **Un fragmento entrecomillado que se atribuye a la fuente es una cita, lleve o no `source`, y por tanto lleva fila en `TRAZABILIDAD.csv`.**
+>
+> **Lo que sigue se conserva porque explica cómo quedó el curso.**
 
 | Fuente | Qué cubre | Peso |
 |---|---|---|
-| **Guía de Dirigente de Clan** (DNPJ 2026, 63 pp.) | Todo lo propio de la rama, incluidos el **PARCE** y los cuatro ritos que el dirigente prepara | **Angular** |
+| **Guía de Dirigente de Clan** (DNPJ 2026, **68 pp.** — el curso se construyó sobre la de 63) | Todo lo propio de la rama, incluidos el **PARCE** y los cuatro ritos que el dirigente prepara | **Angular** |
 | **Modelo de Aplicación 2026** | Sección/Rama/Unidad y el lugar del Clan en el recorrido | Manda en la estructura de ramas |
 | **PNPJ 2024** | Marco de política | Textos oficiales |
 | **Guía de Dirigente de Comunidad** (DNPJ 2026) | El otro lado de la transición de entrada | Se cita solo para eso |
@@ -25,13 +33,15 @@
 Ninguna se inventa ni se esconde. Las que el adulto va a encontrarse al leer los documentos se le dicen dentro del curso.
 
 1. **El plan de línea tenía inventado el nombre del PARCE — y se corrigió antes de diseñar.** Decía *«Plan de Aprendizaje y Reconocimiento Comunitario Equilibrado»*; la Guía dice **«Proceso Autónomo del Rover en Competencias para su Evolución»** (§4.2, §5.2, §8.9 y §11.2 — siete veces en todo el documento: pp. 8, 21, 25, 40, 41, 44 y 57). *Es el hallazgo que más justifica leer la fuente antes que el plan: de haber seguido el plan, el error entraba al curso y de ahí al certificado.*
-2. **El acrónimo de las actividades se escribe de dos maneras.** Esta Guía escribe **DURALSID** (7 veces, 0 de DURASLID); las de Comunidad, Manada y Familia escriben **DURASLID**, y así lo dicen **los 7 cursos publicados** de la plataforma. Son **los mismos ocho criterios** — solo cambian de sitio la L y la S. *Se enseña **DURASLID**, que es la forma mayoritaria y la que el adulto ya vio, y se avisa de que su Guía lo escribe al revés.*
+2. ~~**El acrónimo de las actividades se escribe de dos maneras.**~~ **RESUELTO por la edición vigente: escribe DURASLID** (6 veces, y deja una DURALSID residual en la p. 26). Lo que decía, sobre la edición de 63 pp.: Esta Guía escribe **DURALSID** (7 veces, 0 de DURASLID); las de Comunidad, Manada y Familia escriben **DURASLID**, y así lo dicen **los 7 cursos publicados** de la plataforma. Son **los mismos ocho criterios** — solo cambian de sitio la L y la S. *Se enseña **DURASLID**, que es la forma mayoritaria y la que el adulto ya vio, y se avisa de que su Guía lo escribe al revés.*
 3. **Scouts por los ODS: dos iniciativas, cuatro o seis, según qué se lea.** La Guía de Comunidad describe **dos** (Mensajeros de Paz y Tribu Tierra) más dos reconocimientos mundiales, y así lo enseña el **Curso 11, publicado ayer**. Esta Guía anuncia *«seis iniciativas»* y a continuación **describe cuatro**: Mensajeros de la Paz, Tribu Tierra, **LifeLeaders** y **HealthAllies** (pp. 57–61). *Se enseñan las cuatro que la fuente describe, se dice que el marco creció desde lo que vio en el Curso 11, y **se dice dentro del curso que la Guía anuncia seis y describe cuatro**; no se enseñan como seis, porque la propia Guía no las lista.*
 4. **La edad de egreso no cuadra consigo misma.** §8.3 fija *«edad máxima de egreso del movimiento scout hasta los 20 años»*; §8.11 exige para el BP *«edad no superior a los 20 años y 8 meses»*; §8.12 permite que la Partida se haga hasta los **21 años y 2 meses**; y §8.7.1 admite a un aspirante que ingresa *«antes de cumplir 21 años»*. El plan de línea escribe la rama como **«18–20/21 años»**. *Se enseña la banda 18–20 como sección y **se dicen los tres topes reales** —20 y 8 meses para el BP, 21 y 2 meses para la Partida—, porque un dirigente que no los sepa deja a un Rover sin su insignia máxima por un trámite tardío.*
-5. **La aritmética del PARCE tampoco cuadra consigo misma.** La Guía describe fase por fase cuántas competencias educativas se llevan a cada nivel. En **exploración** suman 4 (RP) + 2 (RT) = **6**, y en **profundización** 1 (RT) + 5 (BP) = **6**: cierran contra las **seis áreas de crecimiento**. Pero en **aplicación** suman 2 (RP) + 3 (RT) + 2 (BP) = **siete**, y áreas solo hay seis. *No se armoniza por cuenta propia —la fuente es la que manda—, pero **se dice dentro del curso**, porque la propia lección invita a sumar y el adulto va a llegar al mismo siete. Lo que sí queda claro en la Guía, y es lo que se enseña como meta, es el destino: **las seis áreas en los tres niveles**.*
+5. ~~**La aritmética del PARCE tampoco cuadra consigo misma.** La Guía describe fase por fase cuántas competencias educativas se llevan a cada nivel. En **exploración** suman 4 (RP) + 2 (RT) = **6**, y en **profundización** 1 (RT) + 5 (BP) = **6**: cierran contra las **seis áreas de crecimiento**. Pero en **aplicación** suman 2 (RP) + 3 (RT) + 2 (BP) = **siete**, y áreas solo hay seis. *No se armoniza po
+
+> ⚠️ **RESUELTA por la edición vigente (ADR-056):** la segunda fase pasó a **cuatro áreas en exploración y una en aplicación** (§8.7.2, p. 45) y las tres columnas cierran en seis. El curso dejó de denunciarla el 17-sep-2026.r cuenta propia —la fuente es la que manda—, pero **se dice dentro del curso**, porque la propia lección invita a sumar y el adulto va a llegar al mismo siete. Lo que sí queda claro en la Guía, y es lo que se enseña como meta, es el destino: **las seis áreas en los tres niveles**.*
 6. **El artículo 4 de la Ley cambia una palabra entre guías.** Aquí dice *«sin distinción de credo, **raza**, nacionalidad o clase social»*; la Guía de Comunidad dice *«credo, **etnia**, nacionalidad o clase social»*. *Se cita la Ley del Rover tal como la imprime **su** Guía, y no se armoniza por cuenta propia: es texto ritual.*
 7. **La progresión Rover tiene dos nombres entre guías.** La Guía de **Comunidad** manda al Nómada a preguntar *«¿cómo funciona el **Plan de Progresión Personal Rover**?»* — y así quedó escrito en el Curso 11. La Guía de **Clan** la llama **PARCE** en todo el documento. *Se enseña PARCE y se dice que es lo mismo que el Curso 11 anunció con el otro nombre.*
-8. **Dos erratas de edición que confunden al leer.** El §10.2 aparece numerado **«0.2»**, y el §12.4 se titula **«omisiones Regionales Rover»** —le falta la C de Comisiones—. *No afectan al contenido; se anotan aquí para que nadie crea que se saltó una sección.*
+8. ~~**Dos erratas de edición que confunden al leer.**~~ **LAS DOS CORREGIDAS en la edición vigente** — hoy son «**10.2** Rol del Dirigente…» (p. 57) y «**12.4 Comisiones** Regionales Rover» (p. 68). ⚠️ *Pero la vigente estrena otra:* los apartados **13.1, 13.2 y 13.2.1** (pp. 65–66) están impresos **dentro del Capítulo 11**, así que no falta un capítulo 13: está mal numerado. ⚠️ *Y una señal sobre el corpus:* esa edición arrastra **13 instrucciones de edición sin ejecutar** dentro del texto («Nota para insertar como pie de página…»), contra 2 de la anterior — es el patrón del **ADR-054**, con la diferencia de que **esta sí es la que publica la biblioteca**. Lo que decía: El §10.2 aparece numerado **«0.2»**, y el §12.4 se titula **«omisiones Regionales Rover»** —le falta la C de Comisiones—. *No afectan al contenido; se anotan aquí para que nadie crea que se saltó una sección.*
 
 ---
 
@@ -46,7 +56,7 @@ Ninguna se inventa ni se esconde. Las que el adulto va a encontrarse al leer los
 | Duración declarada | **65 minutos** — **remedida tras las auditorías**, que es lo que manda el ADR-047, y por eso cambió: el borrador cerró en 7.652 palabras y declaró 60 min; las dos vueltas de corrección doctrinal y la pedagógica sumaron unas 470, y hoy son **8.118 palabras** equivalentes al método con que se midieron sus hermanos. A 60 min el ritmo sería de **135 palabras/minuto**, fuera de la banda de las otras cuatro ramas (Manada 119 · Tropa 126 · Familia 129 · Comunidad 130); a **65 min** queda en **125**, dentro. **Es el curso más largo de la plataforma** |
 | Módulos | 10 (1 de registro + **9 de contenido**) |
 | Destinatario | Dirigentes de Clan y quienes van a abrir uno |
-| `contentVersion` | 2026-09-16 |
+| `contentVersion` | 2026-09-17 |
 
 **Decisión de alcance (del dueño, 16-sep-2026):** el curso va **completo y largo**, con el PARCE y los cuatro ritos dentro —la Guía cuenta **cinco** ceremonias, porque suma la entrega de insignias del PARCE—, **aceptando de antemano que pudiera quedar por encima del Curso 11**. Se evaluó partirlo en dos —el inventario de sistemas enumerables de esta rama lo justificaba— y se descartó para no renumerar el plan. *Al cerrar el borrador había quedado al revés —más corto que el Curso 11—, pero las correcciones de las tres auditorías lo devolvieron por encima: hoy son 8.118 palabras contra 7.831. La decisión se cumplió, aunque no por donde se esperaba.*
 
@@ -142,3 +152,7 @@ Al terminar, el adulto podrá:
 
 1. Diseño — este documento. **Commiteado antes de tocarlo con scripts** *(lección del Curso 9).*
 2. Pendiente: JSON · build · las **tres auditorías** · compuerta humana.
+
+---
+
+> **Revisión del 17-sep-2026 (ADR-056).** Las **nueve columnas «Fuente (p. del PDF)» del §4 siguen en la paginación de la edición de 63 pp.** y no se repaginaron aquí: el JSON y `TRAZABILIDAD.csv` sí están al día, y son la fuente operativa. Si alguien reconstruye el curso desde este documento, **debe repaginar contra la edición de 68 pp.** — el desplazamiento medido va de +0 a +5 según el tramo.
