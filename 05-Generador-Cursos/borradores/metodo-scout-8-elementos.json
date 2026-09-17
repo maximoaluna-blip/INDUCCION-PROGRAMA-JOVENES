@@ -3,7 +3,7 @@
   "title": "El Método Scout y sus 8 elementos",
   "subtitle": "El \"cómo\" del Movimiento — un sistema, no una lista",
   "description": "El curso más largo y más importante del Nivel 1. En ~40 minutos vas a entender el Método Scout como un sistema de autoeducación progresiva basado en 8 elementos interdependientes — no una lista de técnicas que se eligen a gusto. Vas a recorrer los 8 elementos en 4 parejas, ver las 4 dinámicas que hacen visible el Método en tu unidad y salir con un plan concreto para integrar el Método en tu próxima reunión.",
-  "contentVersion": "2026-09-16",
+  "contentVersion": "2026-09-17",
   "icon": "🧭",
   "duration": "40 minutos",
   "level": 1,
@@ -425,7 +425,7 @@
         },
         {
           "type": "info-box",
-          "text": "📝 <strong>Dos documentos vigentes, dos formas de decirlo.</strong> Las Guías de Familia y de Manada dan a las dos ramas el mismo marco, <strong>La Fantasía</strong>. El <em>Modelo</em> las distingue: llama a la de Familia <strong>Territorio de la Fantasía</strong> y a la de Manada <strong>Territorio de la Fantasía Expandida</strong>, y nombra los cinco marcos por territorio (§8.2.2, p. 56) — incluido el de la Tropa, que es la única rama sin Guía propia. No lo arreglamos por cuenta propia: lo decimos, como hacemos con el acrónimo DURASLID y con las edades del Rover."
+          "text": "📝 <strong>Dos documentos vigentes, dos formas de decirlo.</strong> Las Guías de Familia y de Manada dan a las dos ramas el mismo marco, <strong>La Fantasía</strong>. El <em>Modelo</em> las distingue: llama a la de Familia <strong>Territorio de la Fantasía</strong> y a la de Manada <strong>Territorio de la Fantasía Expandida</strong>, y nombra los cinco marcos por territorio (§8.2.2, p. 56). El de la <strong>Tropa es La Aventura</strong>, y su <strong>Guía de Dirigente</strong> le dedica un capítulo entero. No lo arreglamos por cuenta propia: lo decimos, como hacemos con el acrónimo DURASLID y con las edades del Rover."
         },
         {
           "type": "info-box",

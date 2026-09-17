@@ -8,7 +8,17 @@
 
 ## 0. La situación de fuentes, que en esta rama es distinta
 
-**Tropa es la única de las cinco ramas sin «Guía de Dirigente» 2026.** Lo que hay:
+> 🔴 **LEER ANTES QUE NADA — este §0 fue falso durante cinco meses (corregido el 17-sep-2026, ADR-057).**
+>
+> **La *Guía de Dirigente de Tropa* existe**: 68 páginas, creada el **20-abr-2026**, con los mismos doce capítulos que las otras cuatro Guías de Rama. **No estaba en el corpus**, y nadie fue a buscarla a la biblioteca. El curso se construyó entero sobre la *Guía de Buenas Prácticas para Jefes de Tropa*, que **no es de 2026: es del 25-oct-2023** —el año se le adjudicó por estar en la carpeta `2026/`— y que en su p. 3 **se declara a sí misma** *«una recopilación de los documentos que actualmente se encuentran en proceso de revisión y actualización»*, con **«Módulo 1»** en la portada.
+>
+> **Qué se corrigió el 17-sep-2026:** la **L7 y la L8 se rehicieron desde cero** (el sistema de progresión de la rama es otro: **seis Rutas** con **territorios** y tres niveles **Descubro/Construyo/Conquisto**, y las insignias son **Vigía del Valle · Explorador de Cumbres · Navegante de Horizontes · Maestro de la Aventura**); la **L5 recibió el marco simbólico** —**La Aventura**, Cap. 6— y perdió un `info-box` que mandaba al dirigente a preguntarle a su Comisionado un dato que estaba impreso; siete etiquetas de fuente pasaron a decir **2023**; y el certificado cambió *«la Travesía hacia la Comunidad»* por *«el paso hacia la Comunidad de Nómadas Scout»*.
+>
+> **Regla que dejó este caso, y que vale para las cinco ramas:** donde las dos Guías hablan del mismo asunto **manda la de 2026**; donde solo habla la de 2023 y la de 2026 calla —buen orden, silbatos, formaciones, cargos, especialidades— el contenido se conserva **citado como lo que es**. La L6 entera está en ese segundo caso y lo dice en un `info-box`.
+>
+> **Lo que sigue de este §0 se conserva porque explica cómo quedó el curso, no porque sea cierto.**
+
+~~**Tropa es la única de las cinco ramas sin «Guía de Dirigente» 2026.**~~ Lo que hay:
 
 | Fuente | Qué cubre | Peso |
 |---|---|---|
@@ -23,7 +33,7 @@ La propia Guía de Buenas Prácticas lo dice de sí misma (p. 3): *«una recopil
 
 1. **La edad.** El **Modelo 2026 (p. 19 del PDF)** dice *«Sección 11 a 14 años: Rama Scouts»*. La **Guía de Buenas Prácticas (p. 4)** dice *«de 10 años de edad hasta los 14»*. **El curso enseña 11–14**, porque el Modelo es internamente consistente (5-6 · 7-10 · **11-14** · 15-17 · 18-20) y el «10» de la Guía **solaparía con la Manada**. Marcado para el auditor doctrinal.
 2. **Cómo se llama el que recibe al Scout en Travesía.** La Guía (p. 4) dice *«compartiendo con los **Caminantes** de la rama»*; el Modelo llama a esa rama **Nómadas Scout**. **El curso evita el término obsoleto sin usar ninguno de los dos: dice siempre «la Comunidad»**, que es el nombre de la *unidad* y es igualmente correcto — verificado, cero apariciones de «Nómadas» y de «Caminantes». Marcado.
-3. **El marco simbólico de la Tropa sigue sin fuente limpia**, y es un hallazgo abierto del proyecto (apareció auditando `metodo-scout-8-elementos`). Lo más cercano es la Guía, p. 8: *«la "aventura fantástica" que se vive en la tropa está relacionada con la toma de conciencia del scout de su propia naturaleza y trascendencia»* — pero la Guía **no lo llama marco simbólico**, y aparece dentro del bloque de ELEMENTOS DE IDENTIDAD, explicando el color verde. **Por eso el curso no dice nada del marco simbólico de la Tropa, ni cita esa frase: cero apariciones.** Es la decisión correcta mientras no haya fuente, y el Modelo la respalda (p. 19 del PDF): *«los pormenores específicos de cada rama —su marco simbólico, su organización interna, sus dinámicas y los recursos concretos para dirigentes— serán desarrollados en las Guías para Dirigentes de Rama»*. Tropa es justamente la rama que todavía no tiene una.
+3. ~~**El marco simbólico de la Tropa sigue sin fuente limpia**~~ **CERRADO el 17-sep-2026: es «La Aventura»**, y la *Guía de Dirigente de Tropa* le dedica el **Capítulo 6 entero** más la tabla de la p. 32, donde además consta que su **fondo motivador «No aplica para la rama»** — la única de las cinco. Entró en la **L5**. Lo que sigue era el razonamiento de entonces: , y es un hallazgo abierto del proyecto (apareció auditando `metodo-scout-8-elementos`). Lo más cercano es la Guía, p. 8: *«la "aventura fantástica" que se vive en la tropa está relacionada con la toma de conciencia del scout de su propia naturaleza y trascendencia»* — pero la Guía **no lo llama marco simbólico**, y aparece dentro del bloque de ELEMENTOS DE IDENTIDAD, explicando el color verde. **Por eso el curso no dice nada del marco simbólico de la Tropa, ni cita esa frase: cero apariciones.** Es la decisión correcta mientras no haya fuente, y el Modelo la respalda (p. 19 del PDF): *«los pormenores específicos de cada rama —su marco simbólico, su organización interna, sus dinámicas y los recursos concretos para dirigentes— serán desarrollados en las Guías para Dirigentes de Rama»*. Tropa es justamente la rama que todavía no tiene una.
 
 ### Dos cosas que la Guía nombra pero no desarrolla — y que el curso no inventa
 
@@ -52,7 +62,7 @@ La propia Guía de Buenas Prácticas lo dice de sí misma (p. 3): *«una recopil
 | Recomendado antes | Nivel 1 completo (Cursos 1–7) — **recomendado, no exigido** |
 | Logro final | ⚜️✨ Jefe de Tropa |
 
-**Hilo narrativo:** **Andrés**, el lobato del Curso 8, dio su **Gran Salto** y llega a la Tropa a los 11. A los 14 empezará su **Travesía** hacia la Comunidad — que es donde arrancará el **Curso 11 (Comunidad)**, todavía por construirse. La cadena queda completa: Salomé (Familia) → Andrés (Manada → **Tropa**) → Comunidad.
+**Hilo narrativo:** **Andrés**, el lobato del Curso 8, dio su **Gran Salto** y llega a la Tropa a los 11. A los **catorce y medio** empezará su **paso** hacia la Comunidad — que es donde arrancará el **Curso 11 (Comunidad)**, todavía por construirse. La cadena queda completa: Salomé (Familia) → Andrés (Manada → **Tropa**) → Comunidad.
 
 ---
 
@@ -64,7 +74,7 @@ La propia Guía de Buenas Prácticas lo dice de sí misma (p. 3): *«una recopil
 4. **Nombrar** los símbolos que construyen Espíritu de Patrulla y explicar para qué sirve cada uno.
 5. **Reconocer** las señales de silbato de la Tropa y **explicar** por qué la formación se dispone como se dispone.
 6. **Acompañar** la progresión por sus **cuatro fases** y orientar la obtención de especialidades.
-7. **Preparar** la **Travesía** de un Scout de 14 años hacia la Comunidad.
+7. **Preparar** el **paso** de un Scout de catorce y medio hacia la Comunidad, mirando si está listo y no solo si tiene la edad.
 
 ---
 
@@ -90,14 +100,14 @@ El error más común del adulto que pasa de Manada a Tropa es seguir siendo el c
 | 4 | ⚜️ La Patrulla: la célula de la Tropa | 6 a 8, por afinidad, Guía y Subguía, y todos con cargo |
 | 5 | 🔥 Espíritu de Patrulla | Animal, grito, lema, banderín, Libro de Oro, rincón — y los dos órganos de gobierno |
 | 6 | 📯 Presentación y buen orden | Silbato en Morse, señales de brazo, formaciones. «El Grande Protege al Pequeño» |
-| 7 | 🎖️ Cómo crece un Scout | Cuatro fases: Vigía, Explorador, Excursionista, Expedicionario. Desafíos + Especialidades |
-| 8 | 🌄 La Travesía y tu primer paso | El paso a la Comunidad a los 14, la Insignia de Paso, y el compromiso |
+| 7 | 🎖️ Cómo crece un Scout | **Seis Rutas** (= las 6 áreas) con **territorios** (= competencias) · tres niveles **Descubro · Construyo · Conquisto** · las cuatro insignias **Vigía del Valle · Explorador de Cumbres · Navegante de Horizontes · Maestro de la Aventura** · **Diario de Exploración** · «no hay reloj» |
+| 8 | 🌄 **El paso a la Comunidad** | Los **últimos seis meses**, a los **catorce y medio** · el criterio va **más allá de la edad** · insignia **Viajero del Territorio** (y **Lobo Solitario** como la de entrada) · campamento seguro y el compromiso |
 
 ---
 
 ### 4.2 Lección 1 — 🏕️ Bienvenida a la Tropa (`isIntro: true`)
 
-`info-box` (duración + lo que va a poder hacer) · `paragraph` (Andrés, 11 años, acaba de dar el Gran Salto desde la Manada; a los 14 empieza la Travesía hacia la Comunidad, cuyo curso todavía está por construirse) · `paragraph` **con el hook textual** y «todo este curso sale de esa frase» · `info-box` anti-definición — la Tropa **no** es «la Manada con niños más grandes», **no** es una unidad militar aunque tenga formaciones y silbatos, **no** es un club de campamentos · `paragraph` (lo que sí es: una unidad con Promesa y Ley completas, gobierno propio y un sistema donde los jóvenes mandan de verdad) · `mission-box` (cada lección termina en algo que probar el sábado, **y cómo funciona el quiz: dos preguntas por lección, hay que acertar las dos, y reintentar no penaliza**).
+`info-box` (duración + lo que va a poder hacer) · `paragraph` (Andrés, 11 años, acaba de dar el Gran Salto desde la Manada; a los catorce y medio empieza su paso hacia la Comunidad, cuyo curso todavía está por construirse) · `paragraph` **con el hook textual** y «todo este curso sale de esa frase» · `info-box` anti-definición — la Tropa **no** es «la Manada con niños más grandes», **no** es una unidad militar aunque tenga formaciones y silbatos, **no** es un club de campamentos · `paragraph` (lo que sí es: una unidad con Promesa y Ley completas, gobierno propio y un sistema donde los jóvenes mandan de verdad) · `mission-box` (cada lección termina en algo que probar el sábado, **y cómo funciona el quiz: dos preguntas por lección, hay que acertar las dos, y reintentar no penaliza**).
 
 ---
 
@@ -163,23 +173,29 @@ El error más común del adulto que pasa de Manada a Tropa es seguir siendo el c
 
 ### 4.8 Lección 7 — 🎖️ Cómo crece un Scout
 
-**Idea central:** cuatro fases, dos ejes, y ninguna carrera.
+> **Rehecha entera el 17-sep-2026 (ADR-057).** El guion anterior describía *«cuatro fases, dos ejes: Desafíos y Especialidades»*, con las insignias Vigía/Explorador/**Excursionista**/**Expedicionario** — un sistema que la *Guía de Dirigente de Tropa* reemplazó y cuyos dos últimos nombres **no aparecen ni una vez** en ella.
 
-`info-box` · **`policy-quote`** Guía p. 17 — el Plan de Progresión incluye **dos ejes temáticos: Desafíos y Especialidades** · `paragraph` (**Desafíos**: actividades dentro de las **seis áreas de crecimiento**) · `heading` «Las cuatro fases» · `paragraph` (la Guía, p. 17, **solo da los cuatro nombres**, sin describirlos — el curso lo avisa antes de la lista) · `list` — **Vigía** · **Explorador** · **Excursionista** · **Expedicionario**, cada una simbolizada por una insignia · `paragraph` (**la anti-definición cobrada: no hay reloj** — las fases dicen por dónde va un Scout, no qué tan rápido) · **`policy-quote`** Guía p. 17 — *Expedicionario* es *«la insignia máxima otorgada por el cumplimiento de todos los desafíos del plan de progresión, la obtención de las especialidades correspondientes y reflejar en su estilo de vida y relación con los demás la vivencia de la ley y la promesa scout»* · `paragraph` (el Expedicionario **lo certifica la Comisión Nacional Scout**: se solicita a `scouts@scout.org.co` con los datos del Scout, y responden en **≤5 días hábiles**, Guía p. 18) · `heading` «Las especialidades» · `list` de **las cinco áreas con su color**, avisando que **no son las seis áreas de crecimiento** —las especialidades *«cruzan transversalmente las áreas de crecimiento»*, Guía p. 20—: 🟠 Arte, expresión y cultura · 🟡 Ciencia y tecnología · 🔵 Deportes (*«actividad física y juegos donde se compite»*: la fuente dice «juegos de competencia» y `lexico.json` prohíbe «competencia» a secas) · 🔴 Servicio a los demás · 🟣 Vida en la naturaleza · `paragraph` (**dos tipos de insignia**: individual —círculo de 3 cm, en la banda— y **de área** —3 o más especialidades de la misma área, manga izquierda—; la **banda es verde**, 13 cm, hombro derecho) · `info-box` (**se puede crear una especialidad nueva**: sinodal, ubicarla en una de las cinco áreas, tres fases **Descubrir · Experimentar · Compartir**, diseñar la insignia respetando colores, y el Jefe de Tropa envía el formato — respuesta en ≤8 días).
+**Idea central:** seis Rutas, tres niveles y ninguna carrera.
 
-**Reflexión:** escoge un Scout concreto. ¿En qué fase está y qué desafío le falta? Escribe **uno** que puedas proponerle el sábado.
+`info-box` · `paragraph` (Andrés a los cuatro meses: la pregunta no es qué nota saca, es **por dónde va**) · `heading` · `paragraph` (las seis áreas del Curso 6, aquí llamadas **Rutas**, como los Rumbos de Comunidad) · **`method-grid`** con las seis: **Temple** (Corporalidad) · **Ingenio** (Creatividad) · **Forja** (Carácter) · **Lazos** (Afectividad) · **Patrulla** (Sociabilidad) · **Horizonte** (Espiritualidad) · **`policy-quote`** §8.6.1 p. 44 (qué hay dentro de cada Ruta) · `paragraph` (**territorio = competencia educativa**, con la frase de la propia Guía: *«ambos términos describen lo mismo»*; **travesía** = la experiencia que se vive) · **`info-box` de aviso** (⚠️ ojo con la palabra «travesía»: **no** es el paso a la Comunidad) · `heading` · **`method-grid`** de los tres niveles **Descubro · Construyo · Conquisto**, cada uno con su equivalencia *Exploración / Aplicación / Profundización* entre paréntesis · `paragraph` (y **no basta una travesía**: hacen falta dos territorios de la misma Ruta en el mismo nivel) · `heading` · `list` ordenada con **las cuatro insignias y sus requisitos del §8.7** · `paragraph` (**«no hay reloj»**, conservado palabra por palabra del guion anterior) · **`policy-quote`** §8.6.2 p. 45 (que lo respalda) · `heading` · `paragraph` (**Diario de Exploración**) · **`info-box` de honestidad** (Desafíos y Especialidades **no desaparecen**, pero lo que las detallaba es el documento de 2023).
 
-**Quiz (2):** escenario sobre un Scout que quiere una especialidad que no existe · escenario sobre la insignia de área.
+**Reflexión:** un Scout concreto, con nombre. Algo que le hayas visto hacer este mes: ¿en qué **Ruta** cae y en qué **nivel** está? Y **una travesía** que puedas proponerle el próximo mes. Si no sabes por dónde va, esa es la tarea — y no se averigua revisando papeles.
+
+**Quiz (2):** un Scout cree que «terminó» una Ruta con una sola travesía · dos Scouts del mismo mes con insignias distintas, y un papá que pregunta si el segundo va atrasado.
 
 ---
 
-### 4.9 Lección 8 — 🌄 La Travesía y tu primer paso
+### 4.9 Lección 8 — 🌄 El paso a la Comunidad
 
-**Idea central:** el paso a la Comunidad no es una despedida: es una transición que se prepara.
+> **Rehecha entera el 17-sep-2026 (ADR-057).** Se llamaba *«La Travesía y tu primer paso»*. Tres cosas cambiaron: **«travesía» significa otra cosa** en la Guía vigente (es la oportunidad de aprendizaje, y así lo enseña ya el Curso 13), la transición **empieza a los catorce y medio** y no al cumplir 14, y la insignia es **«Viajero del Territorio»**, no la «Insignia de Paso», que **no aparece** en la Guía. Y el criterio se invirtió: el guion anterior enseñaba *la edad manda sobre la progresión*; la Guía pide mirar *«más allá de la edad»*.
 
-`info-box` · `heading` «La Travesía» · **`policy-quote`** Guía p. 18 — *«Una vez el Scout ha terminado el proceso en Tropa, inicia su etapa de transición denominada Travesía, que tendrá una duración no mayor a 6 meses»* · `paragraph` (se hace **con invitaciones a actividades de la Comunidad** y **de común acuerdo entre los dirigentes de las dos ramas**, para que el paso ocurra *«sin ninguna dificultad»*) · `paragraph` (la Guía es explícita en que la Travesía empieza **al cumplir 14**, *«sin importar la fase de progresión en la que se encuentre»*, p. 4 — la progresión no retiene a nadie, **con la excepción que la propia Guía escribe**: el Scout que por *«alguna condición cognitiva o emocional»* requiera permanecer más tiempo en la Tropa) · `heading` «La Insignia de Paso» · `paragraph` (la entrega el **Jefe de Tropa** en la ceremonia; tiene **carácter de mención** y *«el único requisito que debe cumplir el Scout es haber hecho parte de la Tropa Scout»*, p. 19) · `heading` «Un campamento seguro» · `paragraph` (**el Curso 25 todavía está por construirse**: mientras llega, el protocolo del grupo se le pide al Jefe de Grupo antes de la próxima salida) + enlace a Transversales C03 para la conducta ante una revelación (ADR-038), y la ruta de reporte por su nombre · `mission-box` **con el eco literal del hook**.
+**Idea central:** el paso a la Comunidad no es una despedida ni un trámite de cumpleaños: mira al Scout, no al calendario.
 
-**Reflexión / compromiso:** tres cosas cortas — el Scout de tu tropa que está más cerca de los 14, qué vas a hacer esta semana para preparar su Travesía, y UNA cosa que vas a cambiar por lo que viste aquí.
+`info-box` · `heading` «Cuándo empieza» · `paragraph` (los **últimos seis meses**, a los **catorce y medio**, con invitaciones a actividades conjuntas) · **`policy-quote`** §8.11.3 p. 51 · `paragraph` (**el criterio**: no *¿ya tiene la edad?* sino *¿está listo?* — las competencias personales y sociales) · `paragraph` (se coordina **entre las dos ramas**; el dirigente de Tropa motiva, no empuja ni retiene) · `heading` · `paragraph` (**Viajero del Territorio**: no premia lo hecho, señala que ya va de camino) · **`info-box`** (**Lobo Solitario**, la simétrica de entrada desde Manada, que ningún curso enseñaba) · `heading` «Un campamento seguro» + `paragraph` + **`info-box`** de frontera con Transversales *(los tres, conservados del guion anterior)* · **`mission-box`** *(conservado)*.
+
+**Reflexión / compromiso:** tres cosas cortas — el Scout más cercano a los **catorce y medio**, con nombre; qué vas a hacer esta semana para prepararle el paso (una llamada al dirigente de Comunidad cuenta, y es la más útil); y **una cosa que hayas visto en él** que te diga si ya está listo. *La tercera es la que importa: la edad la sabe cualquiera.*
+
+**Quiz (2):** su Guía propone que se quede a cerrar la Ruta que lleva a medias — ¿qué mira la Guía de Dirigente? · cuál es la insignia que recibe quien empieza el paso.
 
 **Logro final:** ⚜️✨ «Jefe de Tropa».
 
@@ -248,3 +264,7 @@ Se completa al medir el JSON. Compromisos de diseño, tomados de lo aprendido en
 1. Diseño — este documento. **Commiteado antes de tocarlo con scripts** *(lección del Curso 9, donde un script truncó el diseño a cero bytes).*
 2. JSON · build · las **tres auditorías** (§7-bis) · compuerta humana — **todo hecho el 15-sep-2026**.
 3. **Publicado el 15-sep-2026** como Curso 10 de la línea (`status: active`, `order: 10`). Es el tercer curso de rama y el tercero de PJ con las tres auditorías.
+
+---
+
+> **Revisión del 17-sep-2026 (ADR-057).** Este diseño se corrigió **después** de que el curso llevara dos días publicado, porque su fuente angular no era la que le correspondía. **Lo que falló no fue la redacción ni las auditorías:** el curso fue fiel a la fuente que se le dio y las tres compuertas lo certificaron correctamente. Falló la verificación de que esa fuente fuera la vigente — un PDF de **2023** en una carpeta llamada `2026/`, con la trazabilidad y el glosario repitiendo el año de la carpeta en vez del año del documento. La fecha que lo desmentía (`/CreationDate D:20231025`) estaba dentro del archivo desde el principio, y la autodeclaración provisional, en su página 3.

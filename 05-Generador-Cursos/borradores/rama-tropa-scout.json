@@ -3,7 +3,7 @@
   "title": "Rama Tropa Scout",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El curso de rama para quienes acompañan la adolescencia temprana. Vas a acompañar a Andrés, que acaba de dar el Gran Salto desde la Manada, y a entender el cambio que hace difícil esta rama: en la Tropa los Scouts deciden solos.",
-  "contentVersion": "2026-09-15",
+  "contentVersion": "2026-09-17",
   "icon": "⚜️",
   "duration": "45 minutos",
   "level": 2,
@@ -20,11 +20,11 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~45 minutos.</strong> Al final vas a poder reconocer la Promesa y los diez artículos completos de la Ley, formar patrullas que se sostengan solas, encender el Espíritu de Patrulla, reconocer las señales de silbato y saber por qué la Tropa forma como forma, acompañar la progresión por sus cuatro fases, y preparar la Travesía de un Scout de 14 años."
+          "text": "⏱️ <strong>~45 minutos.</strong> Al final vas a poder reconocer la Promesa y los diez artículos completos de la Ley, formar patrullas que se sostengan solas, encender el Espíritu de Patrulla, reconocer las señales de silbato y saber por qué la Tropa forma como forma, acompañar la progresión por sus cuatro fases, y preparar el paso a la Comunidad de un Scout de catorce y medio."
         },
         {
           "type": "paragraph",
-          "text": "Vuelves a encontrarte con <strong>Andrés</strong>. Lo dejaste en el Curso 8 con diez años, a punto de dar su Gran Salto desde la Manada. Ya lo dio: tiene 11 y hoy es su primer día en la Tropa. Dentro de tres años empezará su <strong>Travesía</strong> hacia la Comunidad — y ahí lo recoge el <strong>Curso 11 (Rama Comunidad · Nómadas Scout)</strong>, donde Andrés llega con catorce y medio."
+          "text": "Vuelves a encontrarte con <strong>Andrés</strong>. Lo dejaste en el Curso 8 con diez años, a punto de dar su Gran Salto desde la Manada. Ya lo dio: tiene 11 y hoy es su primer día en la Tropa. Dentro de tres años y medio empezará su <strong>paso</strong> hacia la Comunidad — y ahí lo recoge el <strong>Curso 11 (Rama Comunidad · Nómadas Scout)</strong>, donde Andrés llega con catorce y medio."
         },
         {
           "type": "paragraph",
@@ -227,7 +227,7 @@
         {
           "type": "policy-quote",
           "label": "📋 Qué es la patrulla",
-          "source": "Guía de Buenas Prácticas para Jefes de Tropa (Scouts de Colombia, 2026), p. 9 del PDF.",
+          "source": "Guía de Buenas Prácticas para Jefes de Tropa (Scouts de Colombia, 2023 — documento de apoyo, Módulo 1, en revisión), p. 9 del PDF.",
           "text": "La patrulla es la célula de la Tropa pues allí es donde se experimenta la vida de grupo donde sus integrantes aprenden de sus compañeros y se adhieren a un conjunto de normas de conducta implantadas por este pequeño equipo."
         },
         {
@@ -259,7 +259,7 @@
         {
           "type": "policy-quote",
           "label": "📋 Qué es el Sistema de Patrulla",
-          "source": "Guía de Buenas Prácticas para Jefes de Tropa (Scouts de Colombia, 2026), p. 11 del PDF.",
+          "source": "Guía de Buenas Prácticas para Jefes de Tropa (Scouts de Colombia, 2023 — documento de apoyo, Módulo 1, en revisión), p. 11 del PDF.",
           "text": "La Patrulla trabaja mediante un sistema llamado Sistema de Patrulla, el cual se puede definir como una máquina donde cada integrante es un piñón vital de esta y donde se deben acoplar de una forma perfecta, cada pieza debe realizar su labor pues si falta el trabajo de alguno…"
         },
         {
@@ -337,12 +337,53 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "<strong>Idea central:</strong> los símbolos de patrulla no son adorno. Son lo que convierte a seis chicos en un \"nosotros\"."
+          "text": "<strong>Idea central:</strong> la Tropa tiene un marco simbólico —<strong>la aventura</strong>— y los símbolos de patrulla son la forma en que ese marco se vive todas las semanas. Ninguno de los dos es adorno."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La Aventura: el marco simbólico de la rama"
+        },
+        {
+          "type": "paragraph",
+          "text": "En la Tropa, <strong>la aventura no es una palabra bonita para describir las salidas: es el marco simbólico de la rama</strong>. Es el lenguaje común que convierte una caminata en una expedición, un juego en una misión y un campamento en una hazaña compartida. No se elige ni se cambia: viene con la rama, igual que La Fantasía viene con la Manada."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Marco simbólico",
+              "description": "<strong>La aventura</strong> — <em>«explorar nuevos territorios con un grupo de amigos»</em>. Es de la rama y no se elige.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "Fondo motivador",
+              "description": "<strong>No aplica para la rama.</strong> Y esto conviene saberlo: la Tropa es <strong>la única de las cinco</strong> cuya Guía declara que no tiene uno. Si vienes de Manada, no busques aquí un libro equivalente al de las Tierras Vírgenes.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "Ambiente de referencia",
+              "description": "Historias de aventuras, historias reales, novelas policíacas, cómics, videojuegos, leyendas… La lista de su Guía <strong>termina en puntos suspensivos</strong>, a propósito: esto sí lo elige tu Tropa, y por ciclo de programa.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Su Guía explica por qué la aventura y no otra cosa, y lo hace nombrando <strong>tres motores de esta edad</strong>: el gusto por explorar, el interés por apropiarse de un territorio y la pertenencia a un grupo de amigos. Míralos otra vez: son exactamente la patrulla. <strong>El marco de la rama y el grupo natural de la rama dicen lo mismo con dos lenguajes.</strong>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los símbolos de la patrulla"
         },
         {
           "type": "policy-quote",
           "label": "📋 De qué se hace el Espíritu de Patrulla",
-          "source": "Guía de Buenas Prácticas para Jefes de Tropa (Scouts de Colombia, 2026), p. 9 del PDF.",
+          "source": "Guía de Buenas Prácticas para Jefes de Tropa (Scouts de Colombia, 2023 — documento de apoyo, Módulo 1, en revisión), p. 9 del PDF.",
           "text": "El Espíritu de Patrulla se basa en el sentido de pertenencia y de propiedad que cada Scout sienta por su Propia Patrulla, este será enriquecido por los diferentes Símbolos de Patrulla que logren constituir…"
         },
         {
@@ -373,20 +414,20 @@
         },
         {
           "type": "paragraph",
-          "text": "Los símbolos no son solo de patrulla. La Guía le da también elementos de identidad a la Tropa entera (p. 8 del PDF): un <strong>nombre</strong>; un <strong>lema</strong>, que deciden los Scouts en la Corte de Honor; una <strong>bandera</strong> que cada Tropa diseña con los colores de su grupo; y un <strong>color</strong>, el <strong>VERDE</strong>, por su afinidad con la naturaleza — armonía, crecimiento y frescura. Cuando en la próxima lección veas que la banda de especialidades es verde, ya sabes de dónde sale. Y por encima de todos, el lema que comparten todos los scouts de Colombia: <strong>SIEMPRE LISTOS</strong>."
+          "text": "Los símbolos no son solo de patrulla. La Guía le da también elementos de identidad a la Tropa entera (p. 8 del PDF): un <strong>nombre</strong>; un <strong>lema</strong>, que deciden los Scouts en la Corte de Honor; una <strong>bandera</strong> que cada Tropa diseña con los colores de su grupo; y un <strong>color</strong>, el <strong>VERDE</strong>, por su afinidad con la naturaleza — armonía, crecimiento y frescura. De ahí sale también el verde de la banda de especialidades. Y por encima de todos, el lema que comparten todos los scouts de Colombia: <strong>SIEMPRE LISTOS</strong>."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Los dos órganos de gobierno"
+          "text": "Los espacios donde deciden"
         },
         {
           "type": "paragraph",
-          "text": "La Tropa se gobierna, y no por ti. La Guía nombra <strong>dos organismos</strong>: el <strong>Consejo de Patrulla</strong> y la <strong>Corte de Honor de la Tropa</strong>, y los define como <em>\"dos organismos de gobierno que están basados en la democracia representativa acorde a la necesidad de expresión de esta edad\"</em> (p. 9 del PDF). La Corte de Honor es, por ejemplo, donde los Scouts deciden el lema de la Tropa (p. 8)."
+          "text": "La Tropa se gobierna, y no por ti. El documento de apoyo de 2023 nombraba <strong>dos organismos</strong> —el <strong>Consejo de Patrulla</strong> y la <strong>Corte de Honor de la Tropa</strong>— y los definía como <em>\"dos organismos de gobierno que están basados en la democracia representativa acorde a la necesidad de expresión de esta edad\"</em> (p. 9 del PDF). La Corte de Honor es, por ejemplo, donde los Scouts deciden el lema de la Tropa (p. 8). Su <strong>Guía de Dirigente</strong> vigente añade un tercero, y además dice quién se sienta en cada uno:"
         },
         {
           "type": "info-box",
-          "text": "🔎 <strong>Honestidad sobre la fuente.</strong> Lo que sí sabemos: en el <strong>Consejo de Patrulla</strong> se eligen los cargos y se lleva un libro de actas que firman el Guía y el Tesorero. En la <strong>Corte de Honor</strong> los Scouts deciden el lema de la Tropa y en qué ocasiones se porta la banda. Donde la Guía se detiene es en otra cosa: <strong>no dice quién compone cada órgano</strong>, porque es el Módulo 1 de una serie en construcción — y el Modelo de Aplicación 2026 no los menciona. Este curso no te va a inventar un reglamento. Si necesitas el detalle, pídeselo a tu <strong>Comisionado Regional de Programa de Jóvenes</strong> antes de improvisarlo."
+          "text": "🏛️ <strong>Quién se sienta en cada espacio.</strong> En el <strong>Consejo de Patrulla</strong> manda la patrulla sola: <em>«planifican, distribuyen tareas, revisan acuerdos y evalúan sus actividades»</em>. En la <strong>Corte de Honor</strong> se sientan <strong>los Guías junto con el equipo de dirigentes</strong>, y ahí se coordina la vida de la Tropa y se reconocen los avances. Y hay un tercero que a veces se olvida: los <strong>espacios conjuntos de Tropa</strong>, la reunión general donde se comparten decisiones y se proyectan actividades comunes. <em>Su Guía los resume así: existen para que los scouts sean protagonistas activos, «y no simples ejecutores de decisiones adultas».</em>"
         }
       ],
       "reflection": {
@@ -472,7 +513,7 @@
         {
           "type": "policy-quote",
           "label": "📋 Cómo se dispone una patrulla en formación",
-          "source": "Guía de Buenas Prácticas para Jefes de Tropa (Scouts de Colombia, 2026), p. 6 del PDF.",
+          "source": "Guía de Buenas Prácticas para Jefes de Tropa (Scouts de Colombia, 2023 — documento de apoyo, Módulo 1, en revisión), p. 6 del PDF.",
           "text": "…disponiéndose por Patrullas con el Guía al costado derecho de la misma y de ahí en adelante los Scouts en orden de antigüedad hasta llegar al Sub-Guía de Patrulla que cierra la formación, de esta manera el muchacho que lleva menos tiempo en la Patrulla formará al lado izquierdo del Guía de patrulla…"
         },
         {
@@ -482,6 +523,10 @@
         {
           "type": "paragraph",
           "text": "Y no es solo para izar bandera. La Guía recuerda que <em>\"Gran parte de la actividad de la Tropa se desarrolla o inicia en una formación\"</em>: ahí se abre junta, se inicia un juego, y ahí mismo <strong>se entregan las etapas de progresión y los reconocimientos</strong>. El día que Andrés reciba su insignia, va a ser en una formación."
+        },
+        {
+          "type": "info-box",
+          "text": "🔎 <strong>Honestidad sobre la fuente, otra vez.</strong> Todo lo de esta lección —llamadas, señales, formaciones, buen orden— viene de un <strong>documento de apoyo de 2023</strong> que la propia Asociación anunció que iba a actualizar, y la <strong>Guía de Dirigente de Tropa</strong> vigente <strong>no trata este tema</strong>: ni lo confirma ni lo contradice. Sigue siendo lo mejor que hay escrito sobre el buen orden de la Tropa, y por eso está aquí. Pero si tu Región o tu Grupo te dan una pauta distinta, <strong>esa manda</strong>."
         }
       ],
       "reflection": {
@@ -520,106 +565,173 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "<strong>Idea central:</strong> cuatro fases, dos ejes, y ninguna carrera."
-        },
-        {
-          "type": "policy-quote",
-          "label": "📋 Los dos ejes del Plan de Progresión",
-          "source": "Guía de Buenas Prácticas para Jefes de Tropa (Scouts de Colombia, 2026), p. 17 del PDF.",
-          "text": "El Plan de Progresión para Scouts incluye dos ejes temáticos: Desafíos y Especialidades…"
+          "text": "<strong>Idea central:</strong> seis Rutas, tres niveles y ninguna carrera. La progresión de la Tropa no mide cuánto lleva un Scout: mide <strong>qué tan hondo ha llegado</strong>."
         },
         {
           "type": "paragraph",
-          "text": "Los <strong>Desafíos</strong> son actividades que el Scout desarrolla dentro de las <strong>seis áreas de crecimiento</strong> que ya viste en el Curso 6, y que además lo vinculan con su entorno mediante acciones concretas de conservación. Las <strong>Especialidades</strong> son lo otro: cruzan las áreas de forma transversal y salen de lo que a él le interesa."
+          "text": "Andrés lleva cuatro meses en la Tropa. Si alguien te pregunta «¿cómo va?», la respuesta no es una nota ni una lista de actividades cumplidas: es <strong>por dónde va</strong>. Y para decirlo, la rama tiene un mapa propio."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Las cuatro fases"
+          "text": "Seis Rutas, que son las seis áreas con otro nombre"
         },
         {
           "type": "paragraph",
-          "text": "La Guía lista los cuatro nombres sin describirlos —los nombres lo dicen casi todo—:"
+          "text": "Las <strong>seis áreas de crecimiento</strong> que viste en el Curso 6 están aquí completas — solo que la Tropa las llama <strong>Rutas</strong>, para hablarlas en el lenguaje de la aventura. Es lo mismo que hace Comunidad con sus Rumbos."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Ruta del Temple",
+              "description": "Tu cuerpo, tu salud, tu seguridad. <em>(Corporalidad)</em>",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "Ruta del Ingenio",
+              "description": "Tu mente, tu creatividad, la tecnología. <em>(Creatividad)</em>",
+              "color": "#fff8e1",
+              "borderColor": "#ffb300"
+            },
+            {
+              "title": "Ruta de la Forja",
+              "description": "Tu identidad, tus valores, tu resiliencia. <em>(Carácter)</em>",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "Ruta de los Lazos",
+              "description": "Tus emociones, tus relaciones, tu empatía. <em>(Afectividad)</em>",
+              "color": "#fce4ec",
+              "borderColor": "#d81b60"
+            },
+            {
+              "title": "Ruta de la Patrulla",
+              "description": "Tu equipo, tu liderazgo, el planeta. <em>(Sociabilidad)</em>",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "Ruta del Horizonte",
+              "description": "Tu sentido de vida, tu trascendencia. <em>(Espiritualidad)</em>",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "🗺️ Qué hay dentro de cada Ruta",
+          "source": "Guía de Dirigente de Tropa (Scouts de Colombia, 2026), §8.6.1, p. 44 del PDF.",
+          "text": "Cada Ruta contiene territorios (Competencias): conocimientos y capacidades concretas que el Scout va conquistando a través de las travesías que vive."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dos palabras nuevas, y las dos son traducciones de algo que ya conoces. Un <strong>territorio</strong> es una <strong>competencia educativa</strong>; su Guía lo dice sin rodeos: <em>«ambos términos describen lo mismo; el segundo simplemente lo hace con la voz y el espíritu de quien vive la aventura desde adentro»</em>. Y una <strong>travesía</strong> es cada experiencia que el Scout vive y después conversa contigo."
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>Ojo con la palabra «travesía».</strong> En la Tropa, una travesía es <strong>una oportunidad de aprendizaje</strong>: una actividad, un campamento, un proyecto, una responsabilidad asumida. <strong>No es el paso a la Comunidad</strong> — eso es otra cosa y lo vemos en la próxima lección. Si te llega un documento donde «Travesía» nombra la transición entre ramas, es de una edición anterior."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tres niveles: Descubro, Construyo, Conquisto"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Descubro",
+              "description": "<strong>El primer encuentro.</strong> Lo prueba, pregunta, se atreve. No necesita saberlo todo de antemano. <em>(Es el nivel de Exploración.)</em>",
+              "color": "#fff8e1",
+              "borderColor": "#ffb300"
+            },
+            {
+              "title": "Construyo",
+              "description": "<strong>La competencia en acción.</strong> Ya no solo conoce el territorio: lo habita con autonomía y lo usa en situaciones reales. <em>(Es el de Aplicación.)</em>",
+              "color": "#e0f7fa",
+              "borderColor": "#00acc1"
+            },
+            {
+              "title": "Conquisto",
+              "description": "<strong>La competencia como sello personal.</strong> Puede enseñarla a otros y liderar con ella. Ya no la aprende: la ejerce. <em>(Es el de Profundización.)</em>",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fíjate en los paréntesis: son los <strong>mismos tres niveles</strong> que el <em>Modelo</em> llama Exploración, Aplicación y Profundización, y que ya conoces del Curso 6. La Tropa les pone su nombre, y su Guía imprime la equivalencia al lado para que nadie se pierda. <strong>Y no basta una travesía para avanzar en una Ruta:</strong> hacen falta al menos dos territorios de esa Ruta trabajados en el mismo nivel."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las cuatro insignias"
+        },
+        {
+          "type": "paragraph",
+          "text": "Siguen siendo <strong>cuatro fases</strong>, como antes. Lo que cambió son los nombres y —sobre todo— lo que hay que hacer para llegar a cada una, que ahora está tabulado:"
         },
         {
           "type": "list",
           "ordered": true,
           "items": [
-            "<strong>Vigía</strong> — el que empieza a mirar.",
-            "<strong>Explorador</strong> — el que se atreve a salir.",
-            "<strong>Excursionista</strong> — el que ya sabe moverse.",
-            "<strong>Expedicionario</strong> — la fase final, y la insignia máxima de la rama."
+            "<strong>Vigía del Valle</strong> — al menos 3 territorios en «Descubro» y 1 en «Construyo».",
+            "<strong>Explorador de Cumbres</strong> — al menos 3 en «Descubro» y 3 en «Construyo».",
+            "<strong>Navegante de Horizontes</strong> — al menos 3 en «Construyo» y 3 en «Conquisto».",
+            "<strong>Maestro de la Aventura</strong> — la máxima: <strong>las seis Rutas</strong> en «Conquisto»."
           ]
         },
         {
           "type": "paragraph",
-          "text": "Y ahora la parte que los nombres no dicen: <strong>no hay reloj</strong>. Un Scout no va atrasado por seguir de Explorador a los trece, ni adelantado por llegar rápido a Excursionista. Las fases dicen por dónde va, no qué tan rápido. Si te sorprendes comparando a dos Scouts de la misma edad por su insignia, ya estás corriendo una carrera que nadie convocó."
-        },
-        {
-          "type": "paragraph",
-          "text": "Cada fase está simbolizada por una insignia (p. 17 del PDF). Andrés va a entrar como <strong>Vigía</strong> y, si la Tropa hace bien su trabajo, va a salir hacia la Comunidad siendo <strong>Expedicionario</strong>. Y la última no se regala:"
+          "text": "Y ahora la parte que los nombres no dicen: <strong>no hay reloj</strong>. Un Scout no va atrasado por seguir de Vigía del Valle a los trece, ni adelantado por llegar rápido a Explorador de Cumbres. Las insignias dicen por dónde va, no qué tan rápido. Si te sorprendes comparando a dos Scouts de la misma edad por su insignia, ya estás corriendo una carrera que nadie convocó."
         },
         {
           "type": "policy-quote",
-          "label": "📋 Qué exige el Expedicionario",
-          "source": "Guía de Buenas Prácticas para Jefes de Tropa (Scouts de Colombia, 2026), p. 17 del PDF.",
-          "text": "La fase final del Plan de Progresión se denomina Expedicionario, siendo ésta la insignia máxima otorgada por el cumplimiento de todos los desafíos del plan de progresión, la obtención de las especialidades correspondientes y reflejar en su estilo de vida y relación con los demás la vivencia de la ley y la promesa scout."
-        },
-        {
-          "type": "info-box",
-          "text": "📮 <strong>El Expedicionario no lo otorgas tú.</strong> Lo certifica la <strong>Comisión Nacional Scout</strong>. Se solicita a <strong>scouts@scout.org.co</strong> con los datos del Scout —nombre completo, fecha de nacimiento, documento, Grupo y Región, patrulla y motivos— y responden con el certificado digital en un plazo <strong>no mayor a cinco días hábiles</strong> (p. 18 del PDF). Tenlo a mano: es un trámite que suele tomar por sorpresa."
+          "label": "⏳ Y no lo decimos nosotros",
+          "source": "Guía de Dirigente de Tropa (Scouts de Colombia, 2026), §8.6.2, p. 45 del PDF.",
+          "text": "Así, la progresión personal no depende del tiempo que lleva el Scout en la Tropa, sino de qué tan profundo ha llegado en cada uno de los territorios que componen su camino de aventura."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Las especialidades"
+          "text": "Dónde queda anotado"
         },
         {
           "type": "paragraph",
-          "text": "Se agrupan en <strong>cinco áreas</strong>, cada una con su color. Ojo: estas <strong>cinco áreas de especialidad</strong> no son las <strong>seis áreas de crecimiento</strong> — las especialidades las cruzan por encima (p. 20 del PDF):"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "🟠 <strong>Arte, expresión y cultura</strong> — creatividad, aficiones, artes plásticas, culturas del mundo, trabajos manuales y colecciones.",
-            "🟡 <strong>Ciencia y tecnología</strong> — profesiones, oficios, oficios mecánicos y arte industrial.",
-            "🔵 <strong>Deportes</strong> — actividad física y juegos donde se compite.",
-            "🔴 <strong>Servicio a los demás</strong> — trabajo comunitario, solidaridad y desarrollo religioso.",
-            "🟣 <strong>Vida en la naturaleza</strong> — la relación con la naturaleza, y la manera de protegerla y servirse de ella."
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Hay <strong>dos tipos de insignia</strong>. La <strong>individual</strong> se obtiene al completar una especialidad y es un círculo de 3 cm que se porta en la banda. La <strong>de área</strong> se obtiene con <strong>tres o más</strong> especialidades de la misma área y se lleva en la manga izquierda de la camisa. La <strong>banda es verde</strong>, de 13 cm de ancho, y va sobre el hombro derecho (pp. 20–21 del PDF)."
+          "text": "Cada vez que Andrés vive una travesía y la conversa contigo, avanza en alguno de los territorios de sus seis Rutas. Ese avance <strong>se registra en su Diario de Exploración</strong>, que es suyo, y va construyendo su progresión de forma visible y acumulativa. Tu trabajo no es llenarlo: es que la conversación ocurra."
         },
         {
           "type": "info-box",
-          "text": "🛠️ <strong>Si a un Scout le interesa algo que no está en el manual, se crea.</strong> El procedimiento existe y es corto: conseguir un <strong>sinodal</strong> que sepa del tema, ubicar la especialidad en una de las cinco áreas, definir con él sus <strong>tres fases — Descubrir, Experimentar y Compartir</strong>, diseñar la insignia respetando los colores del área, y el Jefe de Tropa envía el formato de solicitud. La Comisión responde en <strong>no más de ocho días</strong> (p. 28 del PDF)."
+          "text": "🔎 <strong>Honestidad sobre la fuente.</strong> Quizá oigas hablar de <strong>Desafíos</strong> y <strong>Especialidades</strong>, con sus áreas de color y su banda. <strong>No han desaparecido</strong> —la Guía de Dirigente sigue pidiendo registrar «desafíos superados, especialidades obtenidas»—, pero lo que los describía en detalle es un <strong>documento de apoyo de 2023 que la propia Asociación anunció que iba a actualizar</strong>, y la Guía vigente no los desarrolla. Úsalos si tu Región los trabaja; <strong>lo que estructura la progresión hoy son las Rutas</strong>."
         }
       ],
       "reflection": {
-        "prompt": "Escoge un Scout concreto de tu tropa, con nombre. ¿En qué fase está? Escribe UN desafío que puedas proponerle el sábado — uno solo, del tamaño de una reunión. Y si no sabes en qué fase está, esa es la tarea de esta semana."
+        "prompt": "Escoge un Scout concreto de tu tropa, con nombre. Piensa en algo que le hayas visto hacer este mes y ubícalo: ¿en qué Ruta cae, y en qué nivel dirías que está — Descubro, Construyo o Conquisto? Escríbelo. Y después escribe UNA travesía que puedas proponerle para el próximo mes, del tamaño de una salida, no de un año. Si no sabes por dónde va, esa es tu tarea de esta semana: no se averigua revisando papeles, se averigua conversando con él."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7",
-        "nextLabel": "Continuar a la Travesía 🌄",
+        "nextLabel": "Continuar al paso a la Comunidad 🌄",
         "questions": [
           {
-            "text": "A un Scout le apasiona la apicultura y no hay ninguna especialidad de eso en el manual. Te pregunta si puede hacerla. ¿Qué le dices?",
+            "text": "Un Scout te dice que ya «terminó» la Ruta del Temple porque hizo una salida de resistencia y le fue muy bien. ¿Qué le respondes?",
             "options": [
-              "Que solo pueden hacerse las que están en el manual, y que busque la más parecida dentro de su área.",
-              "Que sí: consiguen un sinodal, la ubican en un área, definen sus tres fases y tú envías la solicitud.",
-              "Que la proponga en la Corte de Honor y que, si sus compañeros la aprueban, puede empezarla de una vez."
+              "Que con una sola travesía basta, siempre que en ella haya demostrado todo lo que el territorio pide.",
+              "Que una travesía no cierra una Ruta: hacen falta al menos dos territorios de ella en el mismo nivel.",
+              "Que debe esperar a que el Consejo de Patrulla valide su avance antes de darlo por terminado del todo."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Un Scout tiene tres especialidades del área de Deportes y te pregunta qué gana con eso. ¿Qué le respondes?",
+            "text": "Dos Scouts entraron el mismo mes. Uno lleva Explorador de Cumbres y el otro sigue en Vigía del Valle. Un papá te pregunta si el segundo va atrasado. ¿Qué le dices?",
             "options": [
-              "Que con tres del área ya puede pedir la insignia de Expedicionario, que es la máxima de la rama.",
-              "Que con tres o más de una misma área obtiene la insignia de área, que se porta en la manga izquierda.",
-              "Que las especialidades no se acumulan por área y que lo que cuenta es el total que lleve en la banda."
+              "Que sí, y que conviene ponerle un plan de choque para que alcance a su compañero antes del campamento.",
+              "Que las insignias dicen por dónde va cada uno, no qué tan rápido: aquí no hay reloj que los compare.",
+              "Que el ritmo lo fija la Corte de Honor, que revisa cada semestre quién debería haber avanzado ya."
             ],
             "correctIndex": 1
           }
@@ -628,41 +740,49 @@
     },
     {
       "id": 8,
-      "title": "🌄 La Travesía y tu primer paso",
+      "title": "🌄 El paso a la Comunidad",
       "emoji": "🌄",
-      "navLabel": "La Travesía",
+      "navLabel": "El paso",
       "sections": [
         {
           "type": "info-box",
-          "text": "<strong>Idea central:</strong> el paso a la Comunidad no es una despedida. Es una transición que se prepara entre dos ramas."
+          "text": "<strong>Idea central:</strong> el paso a la Comunidad no es una despedida ni un trámite de cumpleaños. Es una transición que se prepara entre dos ramas, y que mira al Scout, no al calendario."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "La Travesía"
+          "text": "Cuándo empieza"
         },
         {
           "type": "paragraph",
-          "text": "Andrés cumple 14. La Guía es clara en que la Travesía empieza <strong>por la edad, no por la progresión</strong>: el Scout inicia su acercamiento a la rama siguiente <em>\"sin importar la fase de progresión en la que se encuentre\"</em> (p. 4 del PDF). Nadie se queda atrás por no haber terminado. Con una excepción, y la Guía la escribe: un Scout que por una condición cognitiva o emocional necesite más tiempo en la Tropa, lo tiene. La regla es para que nadie se quede por la progresión, no para empujar a quien todavía no está."
+          "text": "Andrés va a cumplir catorce y medio. Ese es el momento: <strong>los últimos seis meses del Scout en la Tropa</strong>. No es que se vaya entonces — es que entonces <strong>empieza a irse</strong>, con invitaciones a actividades conjuntas con la Comunidad, para que conozca su dinámica, sus rumbos y su forma de organizarse antes de tener que vivirlos."
         },
         {
           "type": "policy-quote",
-          "label": "📋 Qué es la Travesía",
-          "source": "Guía de Buenas Prácticas para Jefes de Tropa (Scouts de Colombia, 2026), p. 18 del PDF.",
-          "text": "Una vez el Scout ha terminado el proceso en Tropa, inicia su etapa de transición denominada Travesía, que tendrá una duración no mayor a 6 meses, según él caso…"
+          "label": "📅 El momento, según su Guía",
+          "source": "Guía de Dirigente de Tropa (Scouts de Colombia, 2026), §8.11.3, p. 51 del PDF.",
+          "text": "El proceso puede iniciarse durante los últimos 6 meses en la Tropa, los últimos seis meses del protagonista en la rama, es decir, a los 14 años y medio, invitando a los jóvenes mayores a participar en actividades conjuntas con la Comunidad de Nómadas Scout, donde conozcan su dinámica, sus rumbos y su forma de organización."
         },
         {
           "type": "paragraph",
-          "text": "Y no se hace solo. La Guía describe el mecanismo: <strong>varias invitaciones a las actividades que desarrolla la Comunidad</strong> de su Grupo Scout, <strong>de común acuerdo entre los dirigentes de las dos ramas</strong>, para que el joven se vaya adentrando en el nuevo Sistema de Equipos y busque afinidades — de modo que, llegado el paso, <em>\"éste se lleve a cabo sin ninguna dificultad\"</em>. Eso quiere decir que la Travesía de Andrés es una conversación tuya con el dirigente de Comunidad, no un trámite."
+          "text": "Y aquí está lo que más cambia tu trabajo. La pregunta no es <em>¿ya tiene la edad?</em>, sino <strong>¿está listo?</strong> — su Guía pide mirar <em>«más allá de la edad»</em> y valorar si el Scout <strong>ha consolidado las competencias personales y sociales</strong> que le van a permitir asumir el estilo de vida de la Comunidad. La edad abre la puerta; la conversación contigo decide cómo la cruza."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nada de esto lo haces solo: la transición se coordina <strong>entre los dirigentes de las dos ramas</strong>, y su Guía es explícita en que el dirigente de Tropa tiene aquí un papel determinante — motivar al joven a reconocerse listo, no empujarlo ni retenerlo."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "La Insignia de Paso"
+          "text": "La insignia que marca el camino"
         },
         {
           "type": "paragraph",
-          "text": "En la ceremonia, el Scout recibe de manos del <strong>Jefe de Tropa</strong> la Insignia de Paso, <em>\"a manera de recordatorio de su paso por la Tropa\"</em>. Tiene <strong>carácter de mención</strong>, y el único requisito es <em>\"haber hecho parte de la Tropa Scout\"</em> (p. 19 del PDF). No se gana: se recibe. Y por eso mismo importa que la entregues tú."
+          "text": "Al empezar esa etapa, el Scout recibe la insignia de <strong>Viajero del Territorio</strong>, que representa el inicio de su transición hacia la Comunidad de Nómadas Scout. No es un premio por lo hecho: es una señal de que ya va de camino."
+        },
+        {
+          "type": "info-box",
+          "text": "🐺 <strong>Y hay otra que quizá no conozcas, la de la puerta de entrada.</strong> Cuando un lobato empieza su tránsito <em>hacia</em> la Tropa, entre los diez y medio y los once, recibe la insignia de <strong>Lobo Solitario</strong>. Es la simétrica de la anterior: una abre tu rama y la otra la cierra. Si recibes a un chico con esa insignia, ya sabes que su Manada hizo el trabajo."
         },
         {
           "type": "heading",
@@ -683,27 +803,27 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tres cosas, cortas y concretas: (1) el Scout de tu tropa que está más cerca de los 14; (2) qué vas a hacer esta semana para empezar a preparar su Travesía — una llamada al dirigente de Comunidad cuenta; y (3) UNA cosa que vas a cambiar en tu próxima reunión por lo que viste aquí."
+        "prompt": "Escribe tres cosas, cortas y concretas: (1) el Scout de tu tropa que esté más cerca de los catorce y medio, con nombre; (2) qué vas a hacer esta semana para empezar a prepararle el paso — una llamada al dirigente de Comunidad cuenta, y es la más útil; y (3) una cosa que hayas visto en él este mes que te diga que ya está listo para el estilo de vida que viene, o que todavía no. Esa tercera es la que de verdad importa: la edad la sabe cualquiera."
       },
       "quiz": {
         "title": "Mini-quiz Lección 8",
-        "nextLabel": "Ver mi certificado 🏅",
+        "nextLabel": "Finalizar el curso ⚜️",
         "questions": [
           {
-            "text": "Andrés cumple 14 pero le faltan dos desafíos para terminar su fase de Excursionista. Su Guía propone que se quede hasta terminarla. ¿Qué le respondes?",
+            "text": "Andrés cumple catorce y medio y su Guía de patrulla dice que debería quedarse hasta cerrar la Ruta que lleva a medias. ¿Qué mira su Guía de Dirigente para decidir?",
             "options": [
-              "Que conviene esperar: pasar sin cerrar la fase le deja un proceso incompleto que ya no podrá retomar.",
-              "Que la Travesía empieza al cumplir los 14, sin importar la fase de progresión en la que se encuentre.",
-              "Que la decisión la toma la Corte de Honor, sopesando cuánto le falta y qué tan integrado esté al grupo."
+              "La fase de progresión: mientras no cierre la que lleva a medias, no puede empezar el paso.",
+              "Si ya consolidó las competencias personales y sociales que pide el estilo de vida que viene.",
+              "Solo la edad: cumplidos los catorce y medio, el paso se inicia sin mirar ninguna otra cosa."
             ],
             "correctIndex": 1
           },
           {
-            "text": "En la ceremonia de paso, un dirigente nuevo te pregunta si la Insignia de Paso se le entrega solo a los que «se la ganaron». ¿Qué le respondes?",
+            "text": "En la ceremonia, un dirigente nuevo te pregunta cuál es la insignia que recibe el Scout que empieza su paso a la Comunidad. ¿Cuál es?",
             "options": [
-              "Que debe haber alcanzado al menos la fase de Excursionista y tener tres especialidades completadas.",
-              "Que el único requisito es haber hecho parte de la Tropa: la insignia tiene carácter de mención.",
-              "Que la otorga la Comisión Nacional Scout y que se solicita por correo con los datos del Scout."
+              "La Insignia de Paso, que tiene carácter de mención y se da por haber hecho parte de la Tropa.",
+              "La de Viajero del Territorio, que marca el inicio de su transición hacia la Comunidad.",
+              "La de Maestro de la Aventura, que es la máxima de la rama y cierra su recorrido por las Rutas."
             ],
             "correctIndex": 1
           }
@@ -757,6 +877,6 @@
   ],
   "certificate": {
     "courseName": "RAMA TROPA SCOUT",
-    "description": "ha completado el Curso 10 de la Línea Programa de Jóvenes — Rama Tropa Scout, reconociendo la Promesa y los diez artículos de la Ley Scout, el Sistema de Patrulla y sus cargos, los símbolos que construyen el Espíritu de Patrulla, la presentación y el buen orden de la rama, las cuatro fases de la progresión y la Travesía hacia la Comunidad, al servicio de los adolescentes de la Asociación Scouts de Colombia"
+    "description": "ha completado el Curso 10 de la Línea Programa de Jóvenes — Rama Tropa Scout, reconociendo la Promesa y los diez artículos de la Ley Scout, el Sistema de Patrulla y sus cargos, los símbolos que construyen el Espíritu de Patrulla, la presentación y el buen orden de la rama, las cuatro fases de la progresión y el paso hacia la Comunidad de Nómadas Scout, al servicio de los adolescentes de la Asociación Scouts de Colombia"
   }
 }

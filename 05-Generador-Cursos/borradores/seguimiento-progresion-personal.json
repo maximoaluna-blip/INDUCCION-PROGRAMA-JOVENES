@@ -53,7 +53,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Y si ya hiciste el curso de tu rama, traes algo más: sabes cómo se llama el camino que recorren tus protagonistas — las <strong>Sendas</strong> en Manada, las <strong>Travesías</strong> en Tropa, los <strong>Rumbos</strong> en Comunidad, las <strong>fases de progresión</strong> en Familia y el <strong>PARCE</strong> en Clan. Este curso no te trae otro camino. Te trae la forma de ver por dónde va cada quien, y esa forma es la misma en las cinco."
+          "text": "Y si ya hiciste el curso de tu rama, traes algo más: sabes cómo se llama el camino que recorren tus protagonistas — las <strong>Sendas</strong> en Manada, las <strong>Rutas</strong> en Tropa, los <strong>Rumbos</strong> en Comunidad, las <strong>fases de progresión</strong> en Familia y el <strong>PARCE</strong> en Clan. Este curso no te trae otro camino. Te trae la forma de ver por dónde va cada quien, y esa forma es la misma en las cinco."
         },
         {
           "type": "policy-quote",
@@ -442,7 +442,7 @@
         },
         {
           "type": "info-box",
-          "text": "📓 <strong>Bitácora no es Libro de Oro.</strong> La bitácora es el instrumento de seguimiento: guarda acuerdos, roles asumidos y un cierre breve, y sirve para que cada actividad no empiece de cero. El <strong>Libro de Oro</strong> es otra cosa y sigue llamándose así: es un <strong>símbolo de la rama</strong> — la memoria de la Manada, o el libro que la patrulla escribe y que custodia el Guardián de Leyenda. Uno registra; el otro recuerda."
+          "text": "📓 <strong>Bitácora no es Libro de Oro.</strong> La bitácora es el instrumento de seguimiento: guarda acuerdos, roles asumidos y un cierre breve, y sirve para que cada actividad no empiece de cero. El <strong>Libro de Oro</strong> es otra cosa y sigue llamándose así: es un <strong>símbolo de la rama</strong> — la memoria de la Manada, o el libro que la patrulla escribe y que custodia el Guardián de Leyenda — un símbolo tradicional de la rama, que su Guía de Dirigente vigente ya no nombra. Uno registra; el otro recuerda."
         },
         {
           "type": "info-box",
@@ -1170,15 +1170,60 @@
     }
   ],
   "achievements": [
-    { "id": "achievement-1", "emoji": "👀", "name": "Escribo lo que se ve", "unlockOnModule": 2 },
-    { "id": "achievement-2", "emoji": "🧰", "name": "Elijo una, no todas", "unlockOnModule": 3 },
-    { "id": "achievement-3", "emoji": "🎒", "name": "Tengo kit", "unlockOnModule": 4 },
-    { "id": "achievement-4", "emoji": "⏱️", "name": "Decido antes", "unlockOnModule": 5 },
-    { "id": "achievement-5", "emoji": "💬", "name": "Devuelvo sin juzgar", "unlockOnModule": 6 },
-    { "id": "achievement-6", "emoji": "🚪", "name": "Abro la puerta sin entrar", "unlockOnModule": 7 },
-    { "id": "achievement-7", "emoji": "🔐", "name": "Sé lo que no escribo", "unlockOnModule": 8 },
-    { "id": "achievement-8", "emoji": "📄", "name": "Abro el archivo correcto", "unlockOnModule": 9 },
-    { "id": "achievement-9", "emoji": "⭐", "name": "Acompaño la progresión", "unlockOnModule": -1 }
+    {
+      "id": "achievement-1",
+      "emoji": "👀",
+      "name": "Escribo lo que se ve",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "emoji": "🧰",
+      "name": "Elijo una, no todas",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "emoji": "🎒",
+      "name": "Tengo kit",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "emoji": "⏱️",
+      "name": "Decido antes",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "emoji": "💬",
+      "name": "Devuelvo sin juzgar",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "emoji": "🚪",
+      "name": "Abro la puerta sin entrar",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
+      "emoji": "🔐",
+      "name": "Sé lo que no escribo",
+      "unlockOnModule": 8
+    },
+    {
+      "id": "achievement-8",
+      "emoji": "📄",
+      "name": "Abro el archivo correcto",
+      "unlockOnModule": 9
+    },
+    {
+      "id": "achievement-9",
+      "emoji": "⭐",
+      "name": "Acompaño la progresión",
+      "unlockOnModule": -1
+    }
   ],
   "certificate": {
     "courseName": "SEGUIMIENTO DE LA PROGRESIÓN PERSONAL",

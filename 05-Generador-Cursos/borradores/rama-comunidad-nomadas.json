@@ -3,7 +3,7 @@
   "title": "Rama Comunidad (Nómadas Scout)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El curso de rama para quienes acompañan la adolescencia tardía. Vas a reencontrarte con Andrés, que llega de su Travesía desde la Tropa, y a entender el cambio que define esta rama: en la Comunidad las decisiones de los jóvenes salen de la unidad y aterrizan en el territorio.",
-  "contentVersion": "2026-09-16",
+  "contentVersion": "2026-09-17",
   "icon": "🧗",
   "duration": "60 minutos",
   "level": 2,
@@ -892,7 +892,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Andrés llegó a tu Comunidad con catorce y medio. Eso es correcto, aunque la sección se declare de 15 a 17: la Guía de Tropa manda al Scout a la rama siguiente en un plazo no mayor a seis meses después de cumplir 14, y la de Comunidad sitúa la ventana entre los 14 años y 6 meses y los 15. <strong>Vas a tener Nómadas de catorce, y no es un error.</strong>"
+          "text": "Andrés llegó a tu Comunidad con catorce y medio. Eso es correcto, aunque la sección se declare de 15 a 17: la <strong>Guía de Dirigente de Tropa</strong> inicia el paso <em>«durante los últimos 6 meses en la Tropa… es decir, a los 14 años y medio»</em>, y la de Comunidad sitúa la ventana entre los 14 años y 6 meses y los 15. <strong>Vas a tener Nómadas de catorce, y no es un error.</strong>"
         },
         {
           "type": "policy-quote",
@@ -902,7 +902,7 @@
         },
         {
           "type": "info-box",
-          "text": "🔀 <strong>Son dos insignias distintas, no una.</strong> La <strong>Insignia de Paso</strong> la entrega el Jefe de Tropa como recordatorio del paso por la Tropa — cierra. La de <strong>Viajero del Territorio</strong> se entrega al comenzar la Etapa de Transición para que tú puedas enlazar la adaptación — abre. Si lees las dos guías vas a dudar; ahora ya no."
+          "text": "🔀 <strong>Es una sola insignia, y se llama Viajero del Territorio.</strong> Se entrega al comenzar la Etapa de Transición, para que tú puedas enlazar la adaptación: <strong>abre</strong>, no cierra. Si encuentras por ahí una «Insignia de Paso» entregada al final de la Tropa, viene de un documento de apoyo de <strong>2023</strong> que la propia Asociación anunció que iba a actualizar — y la <strong>Guía de Dirigente de Tropa</strong> no la menciona ni una vez."
         },
         {
           "type": "paragraph",
