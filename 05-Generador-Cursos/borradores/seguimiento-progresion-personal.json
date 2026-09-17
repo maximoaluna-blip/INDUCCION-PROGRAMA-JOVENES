@@ -5,7 +5,7 @@
   "description": "El primero de los tres cursos operativos, y el que sirve a las cinco ramas a la vez. Cómo mirar con intención, registrar lo justo y acordar un paso siguiente, sin que el seguimiento se convierta en papeleo. Los instrumentos oficiales llegan al final, y a propósito.",
   "contentVersion": "2026-09-17",
   "icon": "🛠️",
-  "duration": "55 minutos",
+  "duration": "60 minutos",
   "level": 2,
   "levelName": "Profundización por rama y práctica pedagógica",
   "order": 13,
@@ -20,7 +20,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~55 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra sola y tu avance se guarda, así que no hace falta hacerlo de una sentada."
+          "text": "⏱️ <strong>~60 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra sola y tu avance se guarda, así que no hace falta hacerlo de una sentada."
         },
         {
           "type": "course-objectives",
@@ -29,7 +29,7 @@
             "<strong>Elegir</strong> una técnica del banco según la experiencia que tienes enfrente, en vez de intentar usarlas todas.",
             "<strong>Armar</strong> el kit mínimo de tu rama y sostenerlo un mes.",
             "<strong>Repartir</strong> el seguimiento en tres momentos, para que no aparezca de golpe al final del mes.",
-            "<strong>Dar</strong> una devolución con la estructura Vi – Logró – Próximo paso, ajustada al momento de progresión.",
+            "<strong>Dar</strong> una devolución con la estructura Vi – Logró – Próximo paso, ajustada al nivel de progresión.",
             "<strong>Acompañar</strong> una experiencia de fuera del Movimiento sin invadir.",
             "<strong>Decidir</strong> qué no se registra, dónde se guarda y quién puede leerlo.",
             "<strong>Abrir</strong> los tres instrumentos oficiales sabiendo cuál necesitas hoy."
@@ -52,6 +52,10 @@
           "text": "En el <strong>Curso 6</strong> quedó dicho el principio: la progresión <strong>se observa, no se examina</strong>. Aquí vienen las técnicas concretas para hacerlo, y también los límites: qué no se escribe, quién puede leerlo y cuánto tiempo se guarda."
         },
         {
+          "type": "paragraph",
+          "text": "Y si ya hiciste el curso de tu rama, traes algo más: sabes cómo se llama el camino que recorren tus protagonistas — las <strong>Sendas</strong> en Manada, las <strong>Travesías</strong> en Tropa, los <strong>Rumbos</strong> en Comunidad, las <strong>fases de progresión</strong> en Familia y el <strong>PARCE</strong> en Clan. Este curso no te trae otro camino. Te trae la forma de ver por dónde va cada quien, y esa forma es la misma en las cinco."
+        },
+        {
           "type": "policy-quote",
           "label": "📋 Para qué es todo esto, dicho por el Modelo",
           "source": "Modelo de Aplicación «El Gran Juego para la Vida» (DNPJ-2026-024), Cap. 9, p. 66 del PDF.",
@@ -63,7 +67,7 @@
         },
         {
           "type": "mission-box",
-          "text": "🎯 <strong>Cómo usar este curso.</strong> Sirve a las cinco ramas, así que cada lección cierra con una caja «Y en tu rama» que traduce lo visto a tu Camada, tu seisena, tu patrulla, tu equipo o tu club. De la próxima lección en adelante, cada una cierra con dos preguntas, y hay que acertar las dos para seguir. Si fallas, vuelves al párrafo y lo intentas otra vez, sin penalización."
+          "text": "🎯 <strong>Cómo usar este curso.</strong> Sirve a las cinco ramas, así que cada lección cierra con una caja «Y en tu rama» que traduce lo visto a la unidad donde acompañas: Familia, Manada, Tropa, Comunidad o Clan. De la próxima lección en adelante, cada una cierra con dos preguntas, y hay que acertar las dos para seguir. Si fallas, vuelves al párrafo y lo intentas otra vez, sin penalización."
         }
       ]
     },
@@ -144,7 +148,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La misma competencia se ve distinta a los cinco años que a los diecinueve. Lo que cambia es dónde mirar, no qué se busca."
+          "text": "La misma competencia educativa se ve distinta a los cinco años que a los diecinueve. Lo que cambia es dónde mirar, no qué se busca."
         },
         {
           "type": "method-grid",
@@ -216,13 +220,13 @@
             "correctIndex": 0
           },
           {
-            "text": "Una jefa de Comunidad quiere trabajar la competencia de convivencia este ciclo. ¿Cuántas conductas observables le conviene poner en foco?",
+            "text": "Una jefa de Comunidad escribió seis conductas observables para la competencia educativa de convivencia y quiere mirarlas todas este ciclo. ¿Qué le dirías?",
             "options": [
-              "Todas las que la competencia permita, para no dejar por fuera ninguna señal de avance.",
-              "Dos o tres, elegidas a propósito, y mirarlas con intención durante el ciclo.",
-              "Una sola por trimestre, porque más de una hace imposible el registro honesto."
+              "Que se quede con dos o tres, elegidas a propósito, y que las mire con intención durante todo el ciclo.",
+              "Que las seis sirven si las reparte con el otro dirigente de la Comunidad, tres conductas para cada uno.",
+              "Que las seis están bien: mientras más conductas escritas, más completa le queda la síntesis por áreas."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -273,7 +277,7 @@
             },
             {
               "title": "Autoevaluación y coevaluación",
-              "description": "Semáforo o caritas, coevaluación 2+1, coevaluación guiada por preguntas. <em>→ Al cerrar: ¿qué salió bien?, ¿qué nos costó?, ¿qué haríamos distinto?</em>",
+              "description": "Semáforo o caritas, coevaluación 2+1 —dos fortalezas y una mejora—, coevaluación guiada por preguntas. <em>→ Al cerrar: ¿qué salió bien?, ¿qué nos costó?, ¿qué haríamos distinto?</em>",
               "color": "#fff3e0",
               "borderColor": "#fb8c00"
             },
@@ -348,7 +352,7 @@
             "options": [
               "Que las aplique todas una vez y después se quede con las que mejor le hayan funcionado en el campamento.",
               "Que el banco es para elegir con criterio: una o dos, sostenidas, rinden más que todas a la vez.",
-              "Que en campamento conviene no registrar nada y dejar el seguimiento para las reuniones normales."
+              "Que arranque por las de instrumentos simples, que son las que dan un dato comparable entre patrullas."
             ],
             "correctIndex": 1
           },
@@ -442,7 +446,7 @@
         },
         {
           "type": "info-box",
-          "text": "🏕️ <strong>Y en tu rama.</strong> Mira el kit de arriba que te corresponde y cuenta cuántas de esas herramientas ya usas sin llamarlas así. Casi siempre son una o dos: el trabajo no es empezar de cero, es nombrar lo que ya haces y sostenerlo."
+          "text": "🏕️ <strong>Y en tu rama.</strong> Vuelve al kit de arriba que te corresponde y cuenta cuántas de esas herramientas ya usas sin llamarlas así: el cierre en círculo de Manada ya es una coevaluación guiada; el cuaderno del guía de patrulla ya es media bitácora; el «¿cómo nos fue?» de Clan ya es una reflexión de transferencia. Casi siempre son una o dos. El trabajo no es empezar de cero: es nombrar lo que ya haces y sostenerlo."
         }
       ],
       "reflection": {
@@ -455,20 +459,20 @@
           {
             "text": "Una jefa de Familia quiere seguir el hábito de lavarse las manos en sus cachorros de cinco años. ¿Qué herramienta del kit de su rama encaja mejor?",
             "options": [
-              "Un formato de rúbrica ligera con tres criterios, aplicado al cierre de cada reunión.",
-              "Una bitácora personal donde cada cachorro anote si cumplió el hábito durante la semana.",
-              "Un calendario de hábitos con stickers, que es visual, motivador y sostenible a esa edad."
+              "Un formato de rúbrica ligera de tres criterios, que da un puntaje comparable de una semana a la siguiente.",
+              "Una bitácora personal, que deja al cachorro a cargo de anotar cada día si cumplió el hábito.",
+              "Un calendario de hábitos con stickers, que se ve de una mirada y no necesita saber escribir."
             ],
             "correctIndex": 2
           },
           {
-            "text": "Un equipo de dirigentes está desbordado y quiere empezar de cero con el seguimiento. ¿Qué les propone la fuente para el primer mes?",
+            "text": "El equipo de una Manada nueva se propone, para el primer mes: una lista de cotejo por reunión, un registro anecdótico semanal, coevaluación al cierre de cada juego y una evidencia visual por actividad. ¿Qué le recortarías para que sobreviva al mes?",
             "options": [
-              "Una conducta por semana, un anecdótico cada quince días, un cierre de dos preguntas y una revisión.",
-              "Montar el kit completo de la rama desde la primera reunión, para no dejar ningún vacío de registro.",
-              "Esperar al siguiente ciclo de programa y arrancar cuando el equipo tenga más dirigentes disponibles."
+              "Nada: son cuatro herramientas y el equipo está motivado, así que conviene probarlas todas y evaluar en octubre.",
+              "Casi todo: una sola conducta en foco a la semana, un anecdótico quincenal y un cierre corto que se revise después.",
+              "La coevaluación, porque a los siete años los lobatos todavía no pueden valorar el trabajo de sus compañeros."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
           }
         ]
       }
@@ -484,13 +488,17 @@
           "text": "<strong>Idea central:</strong> el seguimiento no aparece al final del mes. Se prepara un poco antes, se mira con intención durante y se cierra con una conversación corta."
         },
         {
+          "type": "paragraph",
+          "text": "Marcela probó algo distinto el jueves: escribió en el reverso de la hoja de la reunión una sola frase — <em>«cómo asumen los roles sin que se los recuerden»</em>. El sábado no hizo nada especial. Solo que esta vez sabía qué estaba mirando. El domingo tenía tres líneas escritas y no le costó ningún esfuerzo."
+        },
+        {
           "type": "heading",
           "level": 3,
           "text": "Antes — donde está el trabajo decisivo"
         },
         {
           "type": "paragraph",
-          "text": "Es el momento más barato y el que más rinde. Dos decisiones bastan: <strong>una o dos competencias en foco</strong> y <strong>unas cuantas conductas observables</strong> para mirar a propósito. En Scouts puede ser «cómo asumen roles sin recordatorios»; en Lobatos, «cómo sostienen acuerdos simples en seisena»; en Nómadas Scout, «cómo justifican decisiones en un proyecto»."
+          "text": "Es el momento más barato y el que más rinde. Dos decisiones bastan: <strong>una o dos competencias educativas en foco</strong> y <strong>unas cuantas conductas observables</strong> para mirar a propósito. En Scouts puede ser «cómo asumen roles sin recordatorios»; en Lobatos, «cómo sostienen acuerdos simples en seisena»; en Nómadas Scout, «cómo justifican decisiones en un proyecto»."
         },
         {
           "type": "info-box",
@@ -516,7 +524,7 @@
         },
         {
           "type": "paragraph",
-          "text": "No hace falta una gran reunión de evaluación. Lo que importa es cerrar: una pregunta, una devolución breve y un acuerdo de próximo paso. Tres formatos funcionan casi siempre: <strong>semáforo o caritas</strong> en Cachorros y Lobatos, <strong>coevaluación 2+1</strong> de Scouts en adelante, y <strong>dos preguntas de cierre</strong> en todas las ramas, ajustando el lenguaje."
+          "text": "No hace falta una gran reunión de evaluación. Lo que importa es cerrar: una pregunta, una devolución breve y un acuerdo de próximo paso. Tres formatos funcionan casi siempre: <strong>semáforo o caritas</strong> en Cachorros y Lobatos, <strong>coevaluación 2+1</strong> de Scouts en adelante, y <strong>dos preguntas de cierre</strong> en todas las ramas, ajustando el lenguaje. (El <em>Modelo de Aplicación</em> desmenuza este mismo ritmo con más detalle para tu día a día, Cap. 9, pp. 66–67.)"
         },
         {
           "type": "heading",
@@ -594,22 +602,22 @@
         },
         {
           "type": "info-box",
-          "text": "🔗 <strong>Esto mismo, en el Modelo.</strong> El <em>Modelo de Aplicación</em> propone un ciclo operativo de seis pasos para tu día a día: diagnosticar, planear, facilitar, reflexionar, registrar y retroalimentar. Es la misma lógica de antes–durante–después, contada con más detalle (Cap. 9, pp. 66–67)."
+          "text": "🏕️ <strong>Y en tu rama.</strong> El «antes» cambia de forma, no de sentido: en Familia cabe en una frase dicha al equipo de dirigentes mientras se arma el salón; en Manada, en el acta de la reunión de seisenas; en Tropa, en el reverso de la hoja de la reunión — como Marcela; en Comunidad y en Clan, dentro de la planeación del proyecto, donde ya hay un lugar para eso. Lo que no cambia es que se decide <em>antes</em>."
         }
       ],
       "reflection": {
-        "prompt": "Toma tu próxima reunión — la de esta semana, con su fecha. Escribe las tres casillas: qué vas a mirar (antes), con qué técnica vas a registrar uno o dos hechos (durante) y con qué pregunta vas a cerrar (después). Después mira tu agenda real y responde honestamente si eso se sostiene cuatro semanas seguidas. Si no, recórtalo."
+        "prompt": "Mira lo que escribiste en la Lección 3 y ponlo contra tu agenda real: ¿eso se sostiene cuatro semanas seguidas? Si no, recórtalo hasta que se sostenga y escribe aquí qué quitaste."
       },
       "quiz": {
         "title": "Mini-quiz Lección 5",
         "nextLabel": "Continuar a la retroalimentación 💬",
         "questions": [
           {
-            "text": "La Comunidad va a cerrar un proyecto de servicio con un comedor comunitario. ¿Qué combinación recomienda la fuente para ese tipo de experiencia?",
+            "text": "Una Comunidad pasó seis semanas montando una huerta en el patio del colegio vecino y el viernes se la entrega al comité de padres. ¿Con qué cierra la jefa esa experiencia?",
             "options": [
-              "Lista de cotejo breve, evidencia visual del montaje y revisión del acuerdo en la reunión siguiente.",
-              "Evidencia-producto, devolución del destinatario y una reflexión breve de transferencia.",
-              "Registro de hábitos de catorce días, una señal simple de avance y una conversación breve."
+              "Con una lista de cotejo de la parte técnica, una foto del montaje y la revisión del acuerdo la semana siguiente.",
+              "Con la huerta entregada como evidencia, lo que diga el comité de padres y una pregunta de transferencia.",
+              "Con un registro de hábitos de las seis semanas y una señal simple de avance por cada nómada del equipo."
             ],
             "correctIndex": 1
           },
@@ -637,6 +645,10 @@
         },
         {
           "type": "paragraph",
+          "text": "El lunes Marcela quiere decirle algo a Juan sobre el sábado. Lo que le sale es <em>«Juan, tú siempre te desconectas cuando algo no sale»</em>. Lo piensa dos veces y no lo dice, porque sabe que eso no lo va a ayudar a hacer nada distinto el próximo sábado. No le faltan ganas: le falta la estructura."
+        },
+        {
+          "type": "paragraph",
           "text": "La retroalimentación no necesita ser larga ni perfecta. Necesita ser oportuna, clara y respetuosa. Y hay una estructura de tres pasos que funciona casi siempre."
         },
         {
@@ -657,11 +669,11 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "Cambia con el momento de progresión"
+          "text": "Cambia con el nivel de progresión"
         },
         {
           "type": "paragraph",
-          "text": "La misma conducta pide devoluciones distintas según dónde esté el protagonista. Y ahí encajan los <strong>tres roles pedagógicos</strong> que ya viste en el Curso 6: apoyar, acompañar y enlazar no son tres estilos a elegir, son tres momentos."
+          "text": "La misma conducta pide devoluciones distintas según dónde esté el protagonista. Y ahí encajan los <strong>tres roles pedagógicos</strong> que ya viste en el Curso 6: apoyar, acompañar y enlazar no son tres estilos a elegir: van con los tres niveles."
         },
         {
           "type": "method-grid",
@@ -739,7 +751,7 @@
             "options": [
               "Hacia la consistencia: reconocer el avance y preguntarle qué le ayudaría a sostenerlo en el tiempo.",
               "Hacia el intento: animarlo a seguir probando y darle una pista concreta para la próxima vez.",
-              "Hacia la transferencia: preguntarle dónde más podría usar eso, fuera del Clan y de la unidad."
+              "Hacia la transferencia: preguntarle dónde más podría usar eso, fuera de la unidad, en lo que ya hace afuera."
             ],
             "correctIndex": 2
           },
@@ -764,6 +776,10 @@
         {
           "type": "info-box",
           "text": "<strong>Idea central:</strong> las experiencias de fuera del Movimiento no se recolectan. Se escuchan cuando aparecen, y se convierten en aprendizaje sin invadir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Camino a la casa, una scout le cuenta a Marcela que discutió con su papá y que esta vez no gritó. No pasó en la reunión, no está en ningún formato y no encaja en ninguna casilla. Y es, con diferencia, lo más importante que Marcela va a escuchar esta semana."
         },
         {
           "type": "paragraph",
@@ -830,21 +846,25 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "Convertir la experiencia en aprendizaje: cuatro momentos"
+          "text": "Convertir la experiencia en aprendizaje: cuatro pasos"
         },
         {
           "type": "paragraph",
-          "text": "Cuando una experiencia externa se acompaña bien, no se queda en anécdota. El <em>Modelo</em> lo llamó ciclo de aprendizaje experiencial y lo anunció en el Curso 6; aquí se recorre en cuatro pasos y en pocos minutos:"
+          "text": "Cuando una experiencia externa se acompaña bien, no se queda en anécdota. Es el mismo ciclo de cuatro pasos que en el Curso 6 viste como <strong>Vivir → Mirar → Comprender → Proyectar</strong>; los documentos técnicos lo llaman <strong>ciclo de Kolb</strong> y le ponen estos nombres:"
         },
         {
           "type": "list",
           "ordered": true,
           "items": [
-            "<strong>Experiencia concreta</strong> — qué ocurrió, en términos simples. Solo ubicar el hecho.",
-            "<strong>Observación reflexiva</strong> — qué sintió, qué pensó, qué notó de sí mismo y de otros. Aquí ya hay aprendizaje.",
-            "<strong>Conceptualización</strong> — qué idea o criterio se lleva. No tiene que sonar académico: «cuando me apuro, me equivoco» sirve.",
-            "<strong>Aplicación</strong> — dónde lo va a usar la próxima vez."
+            "<strong>Experiencia concreta</strong> <em>(Vivir)</em> — qué ocurrió, en términos simples. Solo ubicar el hecho.",
+            "<strong>Observación reflexiva</strong> <em>(Mirar)</em> — qué sintió, qué pensó, qué notó de sí mismo y de otros. Aquí ya hay aprendizaje.",
+            "<strong>Conceptualización</strong> <em>(Comprender)</em> — qué idea o criterio se lleva. No tiene que sonar académico: «cuando me apuro, me equivoco» sirve.",
+            "<strong>Experimentación activa</strong> <em>(Proyectar)</em> — dónde lo va a usar la próxima vez."
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ojo: este cuarto paso <strong>no</strong> es el momento «Aplico» de la progresión. Aquel es el camino largo de una competencia educativa; este cabe en una reunión."
         },
         {
           "type": "info-box",
@@ -872,11 +892,11 @@
             "correctIndex": 1
           },
           {
-            "text": "Un dirigente escucha una experiencia externa y quiere conectarla con la progresión. ¿Qué conexión recomienda la fuente?",
+            "text": "Una lobata cuenta que en el colegio defendió a una compañera, se quedó sin recreo y aun así lo volvería a hacer. Ahí se ve convivencia, autocuidado, criterio y hasta corporalidad. ¿Qué haces con eso?",
             "options": [
-              "Una experiencia con una competencia educativa principal, y una conducta observable como foco.",
-              "Todas las competencias que la experiencia toque, para no perder ninguna señal de aprendizaje.",
-              "Ninguna: lo que ocurre fuera del Movimiento no se conecta con la progresión personal del joven."
+              "Eliges una competencia educativa y una conducta observable como foco, y dejas lo demás para otra vez.",
+              "Registras las cuatro: una experiencia así de rica no se repite y conviene aprovecharla entera.",
+              "Esperas a que algo así aparezca dentro de una actividad de la Manada para poder conectarlo con la progresión."
             ],
             "correctIndex": 0
           }
@@ -892,6 +912,10 @@
         {
           "type": "info-box",
           "text": "<strong>Idea central:</strong> el seguimiento se basa en confianza, y la confianza se cuida con decisiones pequeñas — qué escribimos, cómo, dónde se guarda y quién lo puede ver."
+        },
+        {
+          "type": "paragraph",
+          "text": "Marcela abre el cuaderno que le dejó la jefa anterior y encuentra, sobre un scout que ya no está en la Tropa, tres renglones sobre la separación de sus papás. No hubo mala intención al escribirlos. Pero ahí están, dos años después, legibles para cualquiera que abra la carpeta."
         },
         {
           "type": "paragraph",
@@ -979,7 +1003,7 @@
         },
         {
           "type": "info-box",
-          "text": "🏕️ <strong>Y en tu rama.</strong> En unidades pequeñas o en grupos donde todos se conocen, esto pesa más, no menos: la cercanía hace más fácil que un comentario se convierta en etiqueta y que una etiqueta viaje. La confianza es parte del método."
+          "text": "🏕️ <strong>Y en tu rama.</strong> En Familia y Manada casi todo lo escribe el dirigente y las familias están cerca: una nota mal puesta llega a casa. En Tropa la bitácora la escriben los propios scouts, y ahí hay que enseñar a escribir hechos y no apodos. En Comunidad y Clan el protagonista lleva su propia bitácora: lo que tú guardes sobre él, guárdalo sabiendo que él tiene derecho a leerlo."
         }
       ],
       "reflection": {
@@ -992,20 +1016,20 @@
           {
             "text": "Durante una salida, un scout le cuenta a Marcela algo delicado sobre su situación familiar. ¿Qué hace Marcela con esa información?",
             "options": [
-              "La anota en el registro de seguimiento con la fecha, para que quede constancia de lo que le contó.",
-              "No la comenta con nadie más y la anota en el registro para poder hacerle seguimiento después.",
+              "No la comenta con nadie, pero la anota en el registro de seguimiento con la fecha, para que quede constancia.",
+              "La comparte en el chat del equipo de dirigentes, para que todos estén pendientes de ese scout.",
               "No la lleva al instrumento pedagógico: eso se maneja por las rutas institucionales y con reserva."
             ],
             "correctIndex": 2
           },
           {
-            "text": "Un equipo de dirigentes va a abrir una carpeta digital compartida para el seguimiento de su unidad. ¿Qué tres acuerdos conviene dejar dichos?",
+            "text": "Un equipo de Tropa abrió hace tres meses una carpeta compartida de seguimiento. Hoy cualquier dirigente del grupo puede entrar, nadie recuerda quién escribió qué, y siguen ahí las notas del año pasado. ¿Qué tres cosas no acordaron?",
             "options": [
-              "Quién registra, quién puede leer y cuánto tiempo se conserva la información guardada.",
-              "Quién diseña el formato, con qué frecuencia se llena y quién revisa que esté al día cada mes.",
-              "Qué áreas de crecimiento se priorizan, cuántas evidencias se guardan y dónde se imprimen."
+              "Quién diseña el formato, cada cuánto se llena y quién revisa que esté al día cada mes.",
+              "Quién registra, quién puede leer y cuánto tiempo se conserva lo que está guardado.",
+              "Qué áreas de crecimiento priorizan, cuántas evidencias guardan y dónde se imprimen."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
           }
         ]
       }
@@ -1029,7 +1053,7 @@
           "items": [
             {
               "title": "Archivo Base de Oportunidades de Aprendizaje",
-              "description": "Responde <em>«¿qué miro, y con qué?»</em>. Una hoja por rama, y dentro las seis áreas con sus competencias. Para cada una, en los tres niveles: cómo facilitarla, cómo se ve en una reunión, qué <strong>conductas observables</strong> buscar y qué <strong>herramientas de evaluación</strong> usar. Es un mapa de consulta, no un formato para llenar.",
+              "description": "Responde <em>«¿qué miro, y con qué?»</em>. Una hoja por rama, y dentro las seis áreas con sus competencias educativas. Para cada una, en los tres niveles: cómo facilitarla, cómo se ve en una reunión, qué <strong>conductas observables</strong> buscar y qué <strong>herramientas de evaluación</strong> usar. Es un mapa de consulta, no un formato para llenar.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
@@ -1048,39 +1072,51 @@
           ]
         },
         {
+          "type": "info-box",
+          "text": "📥 <strong>Dónde conseguirlos.</strong> Los tres los publica la Dirección Nacional de Programa de Jóvenes en la <strong>biblioteca virtual</strong> de la Asociación —<em>scout.org.co/biblioteca</em>, sección DNPJ—. Búscalos por el nombre exacto: <em>Archivo Base de Oportunidades de Aprendizaje</em>, <em>Registro Acompañamiento Progresión Personal</em> y <em>Herramienta - Registro y Acompañamiento Progresión Personal</em>, que es la versión web. La tercera casi nadie sabe que existe: nómbrala completa y la encuentras."
+        },
+        {
           "type": "heading",
           "level": 3,
           "text": "Cómo se lee una casilla del Archivo Base"
         },
         {
           "type": "paragraph",
-          "text": "Marcela abre la hoja <strong>Scouts</strong> y busca la primera competencia de Corporalidad. En la columna <strong>Aplicación</strong> encuentra, ya escrito, lo que le costaba inventar: la conducta observable — <em>«define una meta física realista y hace seguimiento»</em> — y las herramientas que le sirven — bitácora personal con dos preguntas, bitácora de patrulla, registro anecdótico —. No tuvo que crear nada: tuvo que elegir."
+          "text": "Marcela abre la hoja <strong>Scouts</strong> y busca la primera competencia de Corporalidad. En la columna <strong>Aplicación</strong> encuentra, ya escrito, lo que le costaba inventar: la conducta observable — <em>«define una meta física realista y hace seguimiento (aunque sea básico)»</em> — y las herramientas que le sirven — bitácora personal con dos preguntas, bitácora de patrulla, registro anecdótico —. No tuvo que crear nada: tuvo que elegir."
         },
         {
           "type": "info-box",
-          "text": "📌 <strong>Ojo con los nombres de las hojas.</strong> El Archivo Base rotula por <strong>rama</strong> (Cachorros, Lobatos, Scouts, Nómadas Scout, Rovers) y el Registro rotula por <strong>unidad</strong> (Familia, Manada, Tropa, Comunidad, Clan). Los dos están bien: son las dos caras de la misma distinción que viste en el curso de tu rama. Y en Cachorros la columna se llama <strong>Dimensión</strong>, no Competencia — también a propósito."
+          "text": "📌 <strong>Ojo con los nombres de las hojas.</strong> El Archivo Base rotula por <strong>rama</strong> (Cachorros, Lobatos, Scouts, Nómadas Scout, Rovers) y el Registro rotula por <strong>unidad</strong> (Familia, Manada, Tropa, Comunidad, Clan). Los dos están bien: son las dos caras de la misma distinción que viste en el curso de tu rama. Y en Cachorros la columna se llama <strong>Dimensión</strong>, no Competencia — también a propósito. Y si eres de <strong>Familia</strong>: los dos instrumentos no traen lo mismo. El Archivo Base te da las seis áreas con sus veintidós dimensiones; el Registro resume en cinco, porque <strong>junta Afectividad y Sociabilidad en «Socioafectividad»</strong>. No es un error de ninguno: usa el Archivo Base para decidir qué mirar y el Registro para anotar."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Tres nombres para los mismos tres momentos"
+          "text": "Tres nombres para los mismos tres niveles"
         },
         {
           "type": "paragraph",
-          "text": "Te vas a encontrar los tres momentos de la progresión escritos de tres maneras, y conviene saberlo antes de abrir los archivos y pensar que te equivocaste de documento."
+          "text": "Te vas a encontrar los tres niveles de la progresión escritos de tres maneras, y conviene saberlo antes de abrir los archivos y pensar que te equivocaste de documento."
+        },
+        {
+          "type": "paragraph",
+          "text": "Son <strong>tres niveles, no tres etapas de una reunión</strong>: se recorren en orden a lo largo del camino de una competencia educativa, y una misma experiencia se registra <strong>en uno solo</strong>. Nada que ver con el antes–durante–después de la Lección 5, que es el ritmo de tu seguimiento."
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "<strong>Exploro · Aplico · Profundizo</strong> — así los nombra el <em>Modelo de Aplicación</em>, y es la forma que usa esta plataforma.",
-            "<strong>Exploración · Aplicación · Profundización</strong> — así aparecen en las <em>Herramientas de Seguimiento 2.0</em> y en las columnas del Archivo Base.",
-            "<strong>Explora · Aplica · Profundiza</strong> — así se marca el nivel de desempeño en el Registro DNPJ-2026-021."
+            "<strong>Exploro · Aplico · Profundizo</strong> — así los nombra el <em>Modelo de Aplicación</em> cuando habla del protagonista (§8.1.2.1), y así los rotula la herramienta web. Es la forma que usa esta plataforma.",
+            "<strong>Exploración · Aplicación · Profundización</strong> — la forma «en sustantivo» del mismo trío. El <em>Modelo</em> la usa cuando los presenta como los <strong>tres niveles de desempeño</strong> (p. 46), y es la que verás en las columnas del Archivo Base y en las <em>Herramientas 2.0</em>.",
+            "<strong>Explora · Aplica · Profundiza</strong> — así se marca la casilla «Nivel de desempeño» en el Registro DNPJ-2026-021."
           ]
         },
         {
           "type": "paragraph",
-          "text": "Son <strong>los mismos tres</strong>, nombrados por tres documentos vigentes. No hay que elegir bando: hay que reconocerlos."
+          "text": "Son <strong>los mismos tres</strong>, escritos de tres maneras en los documentos oficiales. No hay que elegir bando: hay que reconocerlos."
+        },
+        {
+          "type": "info-box",
+          "text": "🏕️ <strong>Y en tu rama.</strong> Abre primero la hoja con el nombre de tu <strong>rama</strong> en el Archivo Base —Cachorros, Lobatos, Scouts, Nómadas Scout o Rovers— y después la hoja con el nombre de tu <strong>unidad</strong> en el Registro: Familia, Manada, Tropa, Comunidad o Clan. Son dos nombres para los mismos chicos, y son las dos únicas hojas que necesitas hoy. El resto del archivo no es para ti esta semana."
         },
         {
           "type": "heading",
@@ -1093,7 +1129,7 @@
         },
         {
           "type": "mission-box",
-          "text": "🎯 <strong>Tu compromiso.</strong> Escríbelo para una reunión con fecha, no para «algún día»: «En la reunión del ____ quiero ver ______ en ______. Lo voy a registrar con ______, y voy a cerrar preguntando ______.» Después elige <strong>una</strong> herramienta del kit de tu rama y sostenla un mes. Una sola. Si al mes sigue en pie, ya tienes seguimiento."
+          "text": "🎯 <strong>Y esta semana.</strong> Abre el instrumento que te corresponda y llénalo para <strong>un solo</strong> protagonista — uno, con nombre. Si te toma más de diez minutos, estás poniendo cosas que no hacen falta: vuelve a la Lección 8 y quita todo lo que no ayude a acompañar una conducta y un paso siguiente. Después elige <strong>una</strong> herramienta del kit de tu rama y sostenla un mes. Una sola. Si al mes sigue en pie, ya tienes seguimiento."
         },
         {
           "type": "info-box",
@@ -1105,14 +1141,14 @@
         }
       ],
       "reflection": {
-        "prompt": "Abre el instrumento que te corresponda hoy y llénalo para un solo protagonista — uno, con nombre. Si te toma más de diez minutos, estás poniendo cosas que no hacen falta; vuelve a la Lección 8 y quita todo lo que no ayude a acompañar una conducta y un paso siguiente. Escribe aquí qué te sobró."
+        "prompt": "Escríbelo aquí, para una reunión con fecha y no para «algún día»: «En la reunión del ____ quiero ver ______ en ______. Lo voy a registrar con ______, y voy a cerrar preguntando ______.» Léelo completo. Si alguna casilla te quedó en blanco, esa es la que todavía no has decidido — y es la que te va a faltar el sábado."
       },
       "quiz": {
         "title": "Mini-quiz Lección 9",
         "nextLabel": "Ver mi certificado 🎓",
         "questions": [
           {
-            "text": "Marcela no sabe qué conducta observable mirar para la competencia de convivencia en su Tropa. ¿Qué instrumento le resuelve eso?",
+            "text": "Marcela no sabe qué mirar para trabajar convivencia en su Tropa. ¿Qué instrumento le resuelve eso?",
             "options": [
               "El Registro de Acompañamiento, en su hoja de síntesis de avance por áreas de crecimiento.",
               "El Archivo Base, que trae las conductas observables y las herramientas de cada nivel por rama.",
@@ -1123,7 +1159,7 @@
           {
             "text": "Un dirigente abre el Archivo Base y ve «Exploración», pero en el Registro la casilla dice «Explora» y en el curso aprendió «Exploro». ¿Qué está pasando?",
             "options": [
-              "Son los mismos tres momentos nombrados por tres documentos oficiales distintos y vigentes.",
+              "Son los mismos tres niveles, escritos de tres maneras en los documentos oficiales.",
               "El Archivo Base quedó desactualizado y hay que corregirlo antes de usarlo con la unidad.",
               "Son tres escalas diferentes: una para áreas, otra para competencias y otra para las fases."
             ],
@@ -1146,6 +1182,6 @@
   ],
   "certificate": {
     "courseName": "SEGUIMIENTO DE LA PROGRESIÓN PERSONAL",
-    "description": "ha completado el Curso 13 de la Línea Programa de Jóvenes — Seguimiento de la Progresión Personal, reconociendo las tres piezas de una conducta observable y los errores que la arruinan, el banco de técnicas como un conjunto de opciones que se eligen con criterio, el kit mínimo de cada una de las cinco ramas, los tres momentos del seguimiento dentro del ciclo de programa, la retroalimentación con la estructura Vi – Logró – Próximo paso ajustada a cada momento de la progresión, el acompañamiento de las experiencias vividas fuera del Movimiento sin invadir la intimidad, los límites éticos de lo que se registra y de quién puede leerlo, y el uso de los instrumentos oficiales de la Dirección Nacional de Programa de Jóvenes"
+    "description": "ha completado el Curso 13 de la Línea Programa de Jóvenes — Seguimiento de la Progresión Personal, reconociendo las tres piezas de una conducta observable y los errores que la arruinan, el banco de técnicas como un conjunto de opciones que se eligen con criterio, el kit mínimo de cada una de las cinco ramas, los tres momentos del seguimiento dentro del ciclo de programa, la retroalimentación con la estructura Vi – Logró – Próximo paso ajustada a cada nivel de la progresión, el acompañamiento de las experiencias vividas fuera del Movimiento sin invadir la intimidad, los límites éticos de lo que se registra y de quién puede leerlo, y el uso de los instrumentos oficiales de la Dirección Nacional de Programa de Jóvenes"
   }
 }
