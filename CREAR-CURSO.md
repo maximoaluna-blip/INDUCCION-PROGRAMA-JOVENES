@@ -208,7 +208,9 @@ INDUCCION-PROGRAMA-JOVENES/
     ```bash
     cd PRUEBAS-E2E && ASC_BASE_URL="http://localhost:8099/02-Plataforma-Web/" npx playwright test --reporter=list
     ```
-    (requiere servir la carpeta de la línea en ese puerto; ver `PRUEBAS-E2E/README.md`). Al hacer push, el mismo workflow corre sola en GitHub Actions — no republicar si queda en rojo.
+    (requiere servir la carpeta de la línea en ese puerto; ver `PRUEBAS-E2E/README.md`).
+    > ⚠️ **`--list` NO ejecuta el `globalSetup`** (17-sep-2026). Lee el `tests/.cursos.json` que quedó de una corrida anterior, así que **devuelve el conteo viejo aunque el catálogo servido sí incluya el curso**. Comprobar con `--list` que «subió el número de pruebas» —que es la verificación del **ADR-052**— da un **falso negativo silencioso**. Regenerar el catálogo a mano con `node -e "require('./tests/_setup-cursos.js')()"`, o correr la suite de verdad.
+    > ⚠️ **La suite no recorría la landing de la línea hasta el 17-sep-2026** (**ADR-058**): las cuatro suites de cursos se parametrizan por el catálogo, así que el `index.html` quedaba fuera por construcción. Hoy lo cubre `tests/landing.spec.js`, que exige **una tarjeta por curso activo** — si publicas un curso y no aparece en la landing, esa prueba es la que lo dice. Al hacer push, el mismo workflow corre sola en GitHub Actions — no republicar si queda en rojo.
 13. **Commit + push** del repo de la línea:
     ```bash
     git add . && git commit -m "Agregar Curso N: <título>" && git push
@@ -449,7 +451,7 @@ A las decisiones pedagógicas globales del proyecto (lecciones cortas, auto-guar
 
 ### 8.3 Riesgos del Nivel 2 (cursos 8–15)
 
-**Los cinco cursos de rama (8–12) están construidos y publicados** — las cinco ramas se cerraron el 16-sep-2026. Faltan los tres operativos (13, 14, 15):
+**El Nivel 2 está COMPLETO: 8 de 8, desde el 17-sep-2026.** Los cinco cursos de rama (8–12) cerraron el 16-sep y los tres operativos (13, 14, 15) el 17. La tabla se conserva porque los antídotos siguen valiendo para el Nivel 3:
 
 | Curso | Riesgo anticipado | Antídoto sugerido |
 |---|---|---|
@@ -566,6 +568,8 @@ Toda cita doctrinal dentro de `policy-quote` debe apuntar a uno de estos documen
 - **Recursos Educativos para Dirigentes — Herramientas de Seguimiento para la Progresión Personal 2.0** (DNPJ, 42 pp).
 - **Registro de Acompañamiento a la Progresión Personal** (DNPJ-2026-021, Excel).
 - **Planeación de Reunión y Oportunidades de Aprendizaje** (**DNPJ-2026-020**, Excel) — **fuente angular del Curso 14**. Ocho hojas: *Pautas de Uso*, *Hoja de Ruta*, *Ficha Oportunidad Aprendizaje* y una por rama. ⚠️ Sus *Pautas de Uso* anuncian **cuatro** hojas y remiten a dos que **no existen en el archivo** —*«Competencias y Dimensiones»* y *«Objetivos Educativos»*, esta última además **nomenclatura superada**—. ⚠️ Su evaluación cuantitativa puntúa **7 de los 8 componentes de DURASLID: falta «Diversa»**.
+- ***Modelo de Aplicación*, Capítulo 11 «El Ciclo de Programa y ABP»** (pp. 75–80) — **fuente angular del Curso 15**. ⚠️ **El capítulo se titula «El Ciclo de Programa *y* ABP»**; *«El Ciclo de Programa **amalgamado** con ABP»* es su **§11.2**, no el capítulo. ⚠️ **El §11.2 ordena cinco momentos a–e y la *presentación pública* es el CUARTO**, no el quinto: el quinto es *evaluación y transferencia*. ⚠️ **DURASLID no vive solo aquí:** el **§10.3, p. 73**, se titula *«Tres momentos y un mismo filtro»* —diseño, facilitación y cierre— y el **§11.3, p. 78**, pide que *«todo pase por el tamiz DURASLID»*. Decir que entra en la planificación «y no al final» es falso, y contradice al certificado del Curso 14 (**crítico C1 del Curso 15**).
+- ***Modelo de Aplicación de Bolsillo*** (14 pp.) — resumen. ⚠️ **Su cap. 11 (p. 9) cuenta el ciclo de OTRA manera a propósito**: *«planear, hacer, celebrar, revisar y volver a proyectar **no son momentos aislados**, sino un movimiento continuo»*, más una «secuencia de trabajo» de **seis pasos**. No contradice al *Modelo* grande, pero es **un séptimo recuento** que un dirigente puede tener delante.
 - **Herramienta — Planeación de Reuniones Scout** (**DNPJ-2026-022**, **V3.0**, HTML) — segunda superficie del anterior: funde Hoja de Ruta y Ficha, y **no trae DURASLID**. El Curso 14 se construye sobre el **Excel** y la nombra (**ADR-056**).
 - **Competencias Educativas** (DNPJ, Excel) — la **malla completa** de áreas, prioridades, competencias terminales e intermedias por franja de edad. Es la hoja que el DNPJ-2026-020 anuncia y no contiene.
 - **Reglamento de la Red Nacional de Jóvenes** (Acuerdo C.S.N. N° 556).

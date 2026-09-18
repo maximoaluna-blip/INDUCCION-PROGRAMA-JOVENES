@@ -221,7 +221,9 @@ Estos 3 cursos los toma cualquier dirigente de unidad —sin importar la rama—
 | 14 | 📋 Planeación de Reuniones y Oportunidades de Aprendizaje | Todo dirigente de unidad | Uso de la herramienta oficial **Planeación de Reunión y Oportunidades de Aprendizaje** (Excel DNPJ): Hoja de Ruta para Reunión, Ficha de Oportunidad de Aprendizaje, hojas por rama. Botón A Salvo del Peligro. Ciclo pedagógico **Vivir → Mirar → Comprender → Proyectar**. Cómo planear una reunión que cumpla DURASLID y los 8 elementos del Método. |
 | 15 | 🎯 Ciclo de Programa con ABP | Todo dirigente de unidad | El ciclo de programa de la unidad como Aprendizaje Basado en Proyectos: fases de propuesta, decisión, preparación, desarrollo, evaluación. Articulación entre proyectos de unidad y progresión individual. Cómo el ciclo encarna las 4 Dinámicas del Escultismo (Objetivos Educativos, Oportunidades de Aprendizaje, Vida de Grupo, Estructura y Funcionamiento). |
 
-> ⚠️ **DECISIÓN ABIERTA (16-sep-2026) — leer antes de construir los Cursos 13 y 15.** Tres frases de esta
+> ✅ **Los Cursos 13, 14 y 15 ya están construidos y publicados (17-sep-2026), y el Nivel 2 queda completo: 8 de 8.** El **Curso 15 evitó las dos trampas que este aviso señalaba** —su auditoría doctrinal lo verificó expresamente: *«Objetivos Educativos»* no aparece **ni una vez** en el curso, y el ciclo se enseña con los cinco momentos vigentes, con la **presentación pública** como el **cuarto**. **Las frases de abajo siguen sin corregir a propósito**: la decisión es del dueño y sigue en el bloque «Decisiones abiertas» de `DECISIONES.md`. Lo que cambia es que **ya no son un riesgo para construir, sino una incoherencia entre el plan y lo publicado.**
+>
+> ⚠️ **DECISIÓN ABIERTA (16-sep-2026) — leía «antes de construir los Cursos 13 y 15».** Tres frases de esta
 > sección y del §2.3 **reintroducirían errores ya corregidos en cursos publicados**. Se dejan marcadas, no
 > corregidas: la decisión es del dueño y está en el bloque «Decisiones abiertas» de `DECISIONES.md`.
 >
