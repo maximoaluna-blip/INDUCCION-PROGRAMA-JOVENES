@@ -61,7 +61,7 @@ Para evitar fricción y duplicación de esfuerzo, los roles están claramente se
 
 **Estructura de cada lección, incluyendo el tipo de sección del motor para cada bloque:**
 
-Cowork **sí nombra** los tipos de sección del motor cuando los conoce del vocabulario del proyecto (`info-box`, `method-grid`, `timeline`, `policy-quote`, `photo-upload`, `self-assessment`, `brujula-display`, `plan-builder`, `mission-box`, `list`, `heading`, `paragraph`, `reflection`, `quiz`). Nombrarlos en el diseño **no es invadir el rol técnico** — es proveer vocabulario compartido que **estandariza la estructura visual de la línea** y agiliza el handoff.
+Cowork **sí nombra** los tipos de sección del motor cuando los conoce del vocabulario del proyecto (`info-box`, `method-grid`, `timeline`, `policy-quote`, `photo-upload`, `plan-builder`, `mission-box`, `list`, `heading`, `paragraph`, `reflection`, `quiz`). Nombrarlos en el diseño **no es invadir el rol técnico** — es proveer vocabulario compartido que **estandariza la estructura visual de la línea** y agiliza el handoff.
 
 > Ejemplo: en vez de escribir _"aquí va una caja destacada con la idea central"_ (ambiguo: ¿`info-box`? ¿`mission-box`? ¿`policy-quote`? — son cosas distintas), Cowork escribe directamente _"`info-box` con la idea central"_. Claude Code recibe la intención clara y monta la mecánica.
 
@@ -74,7 +74,7 @@ Aunque Cowork **nomine** los tipos de sección, las decisiones técnicas interna
 - **Confirmar o ajustar** el tipo de sección sugerido por Cowork (si hay uno mejor, lo propone).
 - **Colores, bordes, layout visual, tipografía.**
 - **Estructura JSON, esquema, IDs de logros, `unlockOnModule`.**
-- **Mecánica interna** de componentes complejos (`photo-upload`, `plan-builder`, `brujula-display`, `self-assessment`). Cowork dice _"aquí va un `plan-builder` con 22 campos"_; Claude Code define los IDs de cada campo, su validación, su persistencia en localStorage y su renderizado.
+- **Mecánica interna** de componentes complejos (en esta línea, `photo-upload` y `plan-builder`). Cowork dice _"aquí va un `plan-builder` con 22 campos"_; Claude Code define los IDs de cada campo, su validación, su persistencia en localStorage y su renderizado.
 - **Encabezados de quiz, etiquetas de botones, copy de UI** que no es contenido pedagógico.
 - **Conexiones técnicas cross-course** (qué clave de localStorage lee qué).
 - **Build, preview, validación, deploy.**
@@ -239,17 +239,25 @@ Cuando se quieren publicar varios cursos del mismo nivel a la vez.
 3. **Cuando todos los cursos del nivel estén listos**, actualizar `cursos.json` en un solo commit:
    - Marcar todos los del nivel como `status: "active"`.
    - Asegurar que el orden de `cursos.json` refleja el orden pedagógico del nivel.
-4. **Verificar conexiones cross-course:** que cada curso del nivel referencie al siguiente correctamente y que los componentes que dependen de otros (ej. `brujula-display` del Curso 7 que lee reflexiones de los cursos previos, `plan-builder` del Curso 7 que integra rama+áreas+rol+reunión+proyecto+par) funcionen.
+4. **Verificar conexiones cross-course:** que cada curso del nivel referencie al siguiente correctamente y que los componentes que dependen de otros funcionen (ej. el `plan-builder` del Curso 7, que integra rama+áreas+rol+reunión+proyecto+par). **Ojo:** el `brujula-display` que el diseño del Curso 7 pedía para leer las reflexiones de los cursos previos **no existe en esta línea** — ver §5.A.
 5. **Piloto (opcional, ya no bloqueante)** — ver `CLAUDE.md` §5.4, ADR-019. Si se quiere validar recepción real, pilotear con 5-10 dirigentes reales (para Nivel 1: idealmente 2 de Manada, 2 de Tropa, 1 de Comunidad y 1 de Clan); no es requisito para publicar.
 
 ---
 
 ## 5. Casos especiales
 
-### A. Curso que reusa un componente especializado (`brujula-display`, `plan-builder`, `self-assessment`)
+### A. Curso que reusa un componente especializado (`plan-builder`, `photo-upload`)
 
-- Cualquier curso del Nivel 1 puede usar `brujula-display`, `plan-builder` o `self-assessment` (ya están soportados por el motor — no requiere tocar `engine.js`).
-- El **Curso 7 (Mi Compromiso)** usa `brujula-display` para recuperar reflexiones de los Cursos 1–6 (`sourceCourses` con los 5 IDs) y `plan-builder` con 22 campos distribuidos en L3-L4-L6.
+> ⚠️ **Corregido el 19-sep-2026 (ADR-067).** Este apartado prometía `brujula-display` y `self-assessment` como
+> *«ya soportados por el motor»* de esta línea, y afirmaba que el Curso 7 usaba `brujula-display` con cinco
+> `sourceCourses`. **Las dos cosas eran falsas:** el `build-course.js` de Programa de Jóvenes no tiene `case` para
+> ninguno de los dos —su `course-schema.json` tampoco los admite— y el Curso 7 declara `plan-builder` y
+> `photo-upload`, nada más. Una guía de autoría que promete componentes inexistentes es el primer eslabón del
+> defecto que documenta ese ADR: declarar un tipo que la línea no sabe dibujar. **Los 13 tipos que esta línea
+> dibuja son los del `course-schema.json`, que desde hoy coincide exactamente con el build.**
+
+- Los componentes interactivos disponibles **en esta línea** son `plan-builder` y `photo-upload` (ya están soportados por el motor — no requiere tocar `engine.js`). `brujula-display` existe en **Desarrollo Institucional** y en **Políticas Transversales**, no aquí: llevarlo a PJ es escribir su `case` y su renderizador, no declararlo en un JSON.
+- El **Curso 7 (Mi Compromiso)** usa `plan-builder` (las 2 áreas de crecimiento del trimestre, con sus `labels` propias) y un `photo-upload`. Si se declara un tipo sin `case`, **el build falla y lo dice**: desde el 19-sep-2026 no hay forma silenciosa de publicar una sección en blanco.
 - Si el componente lee datos de otro curso, usar la clave global de localStorage acordada en el proyecto (ej. `dirigenteProfile` para el cross-course del perfil de dirigente, paralela a `politica-adultos:competencyProfile` de la Línea Política de Adultos — siempre **con apellido de línea**, porque las líneas comparten `localStorage` (ADR-034)).
 - **Cowork solo dice**: _"aquí va un plan-builder con 22 campos"_ o _"aquí se muestra al adulto sus reflexiones de los cursos 1-5"_. **Claude Code monta** la mecánica.
 
@@ -441,7 +449,7 @@ A las decisiones pedagógicas globales del proyecto (lecciones cortas, auto-guar
 | **4 — Características Esenciales** | Sonar a manual doctrinal seco. | **Los 6 elementos definitorios** con un **NO-ejemplo** por elemento (campamento militar = rompe voluntario; grupo confesional excluyente = rompe abierto). Test de pertenencia accionable al final. _Curso ya diseñado._ |
 | **5 — Método Scout y sus 8 elementos** | El más extenso (40 min). Riesgo de "manual de oficina". | Estructurar los 8 elementos en **4 parejas** (cada lección dos elementos relacionados) + cada elemento aterrizado a **una práctica concreta de la rama**. Cierre con **checklist de 8 preguntas** para la próxima reunión. _Curso ya diseñado._ |
 | **6 — PNPJ y "El Gran Juego para la Vida"** | El más documental. Riesgo de volverse lectura de actas. | **Infografía única "Mapa del Modelo"** (5 ramas + 6 áreas + 3 etapas + 3 momentos) descargable. Las novedades de la PNPJ enunciadas con un ejemplo, no con una definición. _Curso ya diseñado._ |
-| **7 — Mi Compromiso con el PJ** | Riesgo de "compromiso vacío" o de exceso de campos. | `plan-builder` de **22 campos distribuidos en 3 lecciones** (no en una sola), con `brujula-display` que recupera las reflexiones de los **Cursos 1–6** como insumo. Cierre con **Promesa personal del Nivel 1** firmable. _Curso ya diseñado._ |
+| **7 — Mi Compromiso con el PJ** | Riesgo de "compromiso vacío" o de exceso de campos. | `plan-builder` de **22 campos distribuidos en 3 lecciones** (no en una sola). El diseño pedía además un `brujula-display` con las reflexiones de los **Cursos 1–6** como insumo; **no se construyó** (esta línea no lo dibuja) y la L2 publicada lo resuelve con un `info-box` que le pide al adulto recuperarlas a mano. Cierre con **Promesa personal del Nivel 1** firmable. _Curso ya diseñado._ |
 
 ### 8.2 Riesgos transversales del Nivel 1 PJ
 
@@ -478,7 +486,7 @@ Cada curso del Nivel 1 cierra con un anuncio del siguiente (1–2 frases). En pa
 
 ### 9.1 Hilos de datos (responsabilidad de Claude Code)
 
-- El **`brujula-display` del Curso 7** lee las reflexiones de cierre de los cursos previos del Nivel 1 (`sourceCourses` con sus IDs).
+- ⚠️ El **`brujula-display` del Curso 7 nunca se construyó** (19-sep-2026, ADR-067): su diseño lo pedía en la L2 para leer las reflexiones de cierre del Nivel 1, pero esta línea no tiene ese componente ni en el build ni en el esquema. El curso **publicado** lo sustituye por un `info-box` que le pide al adulto ir a buscarlas. Portarlo desde Desarrollo Institucional o Transversales es trabajo real, y está como **decisión abierta**.
 - El **`plan-builder` del Curso 7 (Mi Compromiso)** guarda hoy su plan **dentro de `courseProgress_mi-compromiso-programa-jovenes`**, no en una clave propia.
   > ⚠️ **Pendiente, no hecho (verificado 14-sep-2026).** Este documento afirmaba que persistía en `dirigenteProfile` y que los cursos del Nivel 2 lo leían. **Ninguna de las dos cosas era cierta**: la clave no existe en el motor y ningún curso la lee. La prescripción sigue siendo correcta —ver §5.A— y está declarada como `planeada` en `PRUEBAS-E2E/claves-localstorage.json`, donde una compuerta la vigila. Mientras no se implemente, **no escribir en ningún documento que ya funciona**. Ver ADR-034.
 - Ningún curso marca flags de bloqueo ni desbloqueo entre sí (ver `CLAUDE.md` §5.3, ADR-019) — solo recomendaciones en la ficha del curso.
@@ -546,7 +554,7 @@ Si falta algún elemento (por ejemplo, una pregunta de quiz para una lección, u
 
 - [ ] Si el curso es de rama (Cursos 7–11), incluye marco simbólico, Promesa/Ley y grupo natural de la rama.
 - [ ] Si el curso depende de A Salvo del Peligro (Cursos 7–14), valida el prerrequisito.
-- [ ] Si el curso usa `brujula-display` o `plan-builder`, los `sourceCourses` están bien encadenados.
+- [ ] Si el curso usa `plan-builder`, sus `labels` están completas (el build falla si faltan) y, si declara rótulos de campo, son los que quieres ver también en el **plan impreso** (ADR-067).
 
 ---
 
@@ -703,7 +711,7 @@ A esto, la Línea PJ añade las **3 exigencias propias** (sección 7): cada curs
 - [`01-Diseno-Cursos/Curso-01-Bienvenida-al-Programa-de-Jovenes.md`](01-Diseno-Cursos/Curso-01-Bienvenida-al-Programa-de-Jovenes.md) — **Ejemplo canónico de diseño pedagógico**. Replicar para cursos nuevos.
 - [`01-Diseno-Cursos/Curso-02-La-Educacion-por-el-Amor.md`](01-Diseno-Cursos/Curso-02-La-Educacion-por-el-Amor.md) — Patrón de curso doctrinal con varias citas oficiales.
 - [`01-Diseno-Cursos/Curso-04-El-Metodo-Scout-y-sus-8-Elementos.md`](01-Diseno-Cursos/Curso-04-El-Metodo-Scout-y-sus-8-Elementos.md) — Patrón de curso extenso (8 lecciones) con justificación documentada.
-- [`01-Diseno-Cursos/Curso-06-Mi-Compromiso-con-el-Programa-de-Jovenes.md`](01-Diseno-Cursos/Curso-06-Mi-Compromiso-con-el-Programa-de-Jovenes.md) — Patrón de curso integrador con `brujula-display` y `plan-builder`.
+- [`01-Diseno-Cursos/Curso-06-Mi-Compromiso-con-el-Programa-de-Jovenes.md`](01-Diseno-Cursos/Curso-06-Mi-Compromiso-con-el-Programa-de-Jovenes.md) — Patrón de curso integrador. **Su `brujula-display` quedó sin construir** (ver §5.A); lo que sí se construyó es el `plan-builder`.
 - `BACKEND.md` — (por crear, replicar de DI) Detalles del Apps Script, sheet, deployment.
 - `../INDUCCION-DESARROLLO-INSTITUCIONAL/CREAR-CURSO.md` — Documento equivalente de la línea hermana DI, usado como base para este manual.
 - `../INDUCCION-DESARROLLO-INSTITUCIONAL/Recomendaciones-Cowork-Diseno-Cursos.md` — Documento de coordinación de DI, cuyas recomendaciones quedaron **integradas en este `CREAR-CURSO.md` de PJ** (secciones 1, 6, 8, 9, 10, 14, 15).
