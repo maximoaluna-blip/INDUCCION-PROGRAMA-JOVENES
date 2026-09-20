@@ -85,24 +85,42 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 ### 4.3 Lección 2 — 🪞 Mi brújula: qué me quedó del Nivel 1 (5 min)
 
+> ⚠️ **Corregido el 19-sep-2026 (ADR-067) — esta lección se construyó SIN el `brujula-display` que este diseño
+> pedía, y el diseño no se enteró.** El componente existe en **Desarrollo Institucional** y en **Políticas
+> Transversales**, no en Programa de Jóvenes: esta línea no tiene su `case` en `build-course.js` ni el tipo en su
+> `course-schema.json`. **No se publicó nada en blanco** —el tipo nunca llegó al JSON—: la lección resuelve el
+> mismo propósito con un `info-box` que le pide al adulto tener a la vista sus seis reflexiones de cierre, y las
+> enumera una por una. Lo que sigue abierto —decisión del dueño— es **si se porta el componente y se republica el
+> curso**. Abajo está descrito **lo que existe**; lo que el diseño pedía queda anotado dentro del propio paso 3,
+> para que se entienda de dónde viene y qué haría falta para portarlo.
+
 **Idea central:** Revisión guiada de las reflexiones acumuladas.
 
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — Apertura: _"Antes de planear, miremos hacia atrás. Las reflexiones que escribiste en cada curso son tu **brújula personal**: lo que más te resonó, lo que más te costó, lo que reconociste como propio. Aquí las vamos a recuperar."_
-3. **`brujula-display`** — Componente que muestra al adulto sus propias reflexiones acumuladas:
-    - `sourceCourses`: `["bienvenida-programa-jovenes", "educacion-por-el-amor", "como-se-educa-hoy", "caracteristicas-esenciales-movimiento-scout", "metodo-scout-8-elementos", "pnpj-gran-juego-para-la-vida"]`
-    - `displayMode`: `lecciones-clave`
-    - Muestra reflexiones de cierre por curso: Curso 1 L6 (compromiso primera semana), Curso 2 L6 (compromiso pedagógico), Curso 3 L6 (frase «antes pensaba / ahora entiendo» sobre qué es educar), Curso 4 L6 (frase de definición), Curso 5 L8 (ajuste de reunión), Curso 6 L7 (mapa del Modelo).
+3. **`info-box`** — La brújula, enumerada para que el adulto la recupere él mismo. Texto construido:
+    _"🧭 **Tu brújula del Nivel 1.** Recupera las reflexiones de cierre que escribiste en cada curso: el compromiso
+    de la primera semana (Curso 1, L6), tu compromiso pedagógico (Curso 2, L6), tu frase de «antes pensaba / ahora
+    entiendo» sobre qué es educar (Curso 3, L6), tu frase de definición (Curso 4, L6), tu ajuste de reunión
+    (Curso 5, L8) y tu mapa del Modelo (Curso 6, L7). Tenlas a la vista mientras construyes tu plan."_
+    - **Conserva las seis fuentes exactas** que pedía el diseño original; lo que cambia es **quién las trae**: las
+      trae el adulto, no el motor.
+    - ⚠️ **Lo que el diseño pedía y no se construyó**, por si algún día se porta el componente: un
+      `brujula-display` con `sourceCourses` = `["bienvenida-programa-jovenes", "educacion-por-el-amor",
+      "como-se-educa-hoy", "caracteristicas-esenciales-movimiento-scout", "metodo-scout-8-elementos",
+      "pnpj-gran-juego-para-la-vida"]` y `displayMode: lecciones-clave`. **Ojo con dos cosas al portarlo:** el
+      renderizador de DI lee **un** curso y **un** módulo por caja (`data-source-course` / `data-source-module`),
+      no seis, y el módulo hay que declararlo **siempre** —cae al 6 por defecto y la caja sale vacía sin avisar—.
 4. **`heading` (nivel 3)** — _"Tres preguntas para mirar el camino"_
-5. **`paragraph`** — Plantilla de auto-revisión:
+5. **`list`** — Plantilla de auto-revisión (tres ítems; el diseño decía `paragraph` y se construyó como lista):
     - _"¿Cuál idea de los 6 cursos **más me transformó la mirada** sobre el Programa de Jóvenes? Escríbela en una frase."_
     - _"¿Cuál práctica **me di cuenta que estoy haciendo mal o ausente**, y necesito ajustar?"_
     - _"¿Cuál fortaleza **ya tengo** que el Movimiento necesita de mí?"_
 6. **`info-box`** — _"Esta auto-revisión es la materia prima de tu plan. Lo que escribas aquí va a guiar los compromisos de las próximas lecciones. Sé honesto y específico."_
 
-**Reflexión:** _"Responde las 3 preguntas del paso 5. No copies de tus reflexiones anteriores; reescribe con la perspectiva de quien ya terminó los 6 cursos."_
+**Reflexión:** _"Responde las 3 preguntas del paso anterior. No copies de tus reflexiones anteriores; reescribe con la perspectiva de quien ya terminó los 6 cursos."_
 
 **Quiz (2 preguntas):**
 
@@ -331,7 +349,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 ### 6.1 Hacia atrás (los 6 cursos del Nivel 1)
 
-- **L2 — `brujula-display`** lee las reflexiones de **los 6 cursos anteriores** y se las muestra al adulto como insumo.
+- **L2 — la brújula** recoge las reflexiones de cierre de **los 6 cursos anteriores** como insumo. ⚠️ El diseño pedía un `brujula-display` que se las mostrara en pantalla; **no se construyó** (esta línea no dibuja ese tipo) y la lección publicada las **enumera en un `info-box`** para que el adulto las recupere. Ver §4.3 y el ADR-067.
 - **L3 — áreas y roles** integra Curso 4 (Características Esenciales — alianza joven-adulto), Curso 5 (Método — Apoyo del Adulto) y Curso 6 (PNPJ — 6 áreas + 3 roles).
 - **L4 — reunión y proyecto** opera con los 8 elementos del Curso 5 y el filtro DURASLID del Curso 6.
 - **L6 — promesa** recoge la educación por el amor del Curso 2, los principios del Curso 4 y el compromiso pedagógico del Curso 2.
@@ -357,15 +375,15 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 | `info-box` | Todas |
 | `paragraph` | Todas |
 | `heading` (nivel 3) | Todas |
-| `list` | L1, L5 |
-| `brujula-display` | L2 (nuevo en esta línea; ya existe en DI Curso 6) |
-| `plan-builder` | L3, L4, L6 (con 22 campos en total) |
+| `list` | L1, **L2**, L5, **L6** |
+| ~~`brujula-display`~~ | ~~L2 (nuevo en esta línea; ya existe en DI Curso 6)~~ — **no se construyó**: esta línea no dibuja ese tipo (ADR-067) |
+| `plan-builder` | **L3** — uno solo, con las **6 áreas de crecimiento** como elementos |
 | `mission-box` | L1, L6 |
 | `photo-upload` | L6 |
 | `reflection` | L2, L3, L4, L5, L6 |
 | `quiz` | L2, L3, L4, L5, L6 |
 
-**Requiere reutilización del `brujula-display`** del Curso 6 de DI con `sourceCourses` actualizados a los IDs de PJ. **El `plan-builder` opera con 22 campos** distribuidos en L3, L4 y L6 — generan un PDF descargable con el Plan Personal de Dirigente al finalizar.
+> ⚠️ **Tabla corregida el 19-sep-2026 (ADR-067) contra el curso realmente construido.** Este párrafo decía: *«Requiere reutilización del `brujula-display` del Curso 6 de DI con `sourceCourses` actualizados a los IDs de PJ. El `plan-builder` opera con 22 campos distribuidos en L3, L4 y L6 — generan un PDF descargable con el Plan Personal de Dirigente al finalizar»*. **Ninguna de las dos cosas es lo que se publicó:** el `brujula-display` no se portó, y hay **un solo `plan-builder`, en la L3**, cuyos elementos son las **6 áreas de crecimiento** (meta, plazo y recursos por área, más el compromiso final). El plan **sí es imprimible / guardable como PDF** desde el botón del propio componente. ⚠️ **Desde el 19-sep-2026 sus rótulos de campo pueden declararse en `labels` y llegan también al plan impreso** — este curso no los declara, así que imprime los genéricos.
 
 ---
 
@@ -398,16 +416,24 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 ---
 
-## 10. Próximos pasos
+## 10. Próximos pasos *(lista del 28-may-2026 — histórica; el curso está publicado)*
 
-1. **Revisar este diseño** con el dueño del proyecto.
-2. **Diseñar la plantilla PDF "Plan Personal de Dirigente PJ"** (salida del `plan-builder`).
-3. **Adaptar el `brujula-display`** del Curso 6 DI a esta línea, con los 6 courseIds de PJ.
-4. **Generar el JSON** del curso siguiendo `course-schema.json`.
-5. **Generar HTML** con `node build-course.js mi-compromiso-programa-jovenes`.
-6. **Generar preview PDF** y revisar.
+> ⚠️ **Se conserva tal cual porque explica el hueco.** El **paso 3 nunca se hizo**, y nada lo detectó hasta el
+> 19-sep-2026 (ADR-067): el curso se generó, se auditó y se publicó sin el componente, porque el JSON simplemente
+> no lo declaró. *Una tarea de esta lista que no se ejecuta no deja rastro en ninguna parte — ni en el build, ni en
+> las auditorías, ni en la suite.*
+
+1. ✅ **Revisar este diseño** con el dueño del proyecto.
+2. ✅ **Diseñar la plantilla PDF "Plan Personal de Dirigente PJ"** (salida del `plan-builder`) — resuelto con la
+   salida imprimible del propio componente.
+3. ❌ **Adaptar el `brujula-display`** del Curso 6 DI a esta línea, con los 6 courseIds de PJ. **No se hizo.** La L2
+   quedó con un `info-box` que enumera las seis reflexiones (§4.3). **Decisión abierta:** portarlo y republicar, o
+   dejarlo así.
+4. ✅ **Generar el JSON** del curso siguiendo `course-schema.json`.
+5. ✅ **Generar HTML** con `node build-course.js mi-compromiso-programa-jovenes`.
+6. ✅ **Generar preview PDF** y revisar.
 7. **Pilotar** como cierre del Nivel 1 — los 5-10 dirigentes que hicieron los 6 cursos anteriores deberían completar este como integración.
 
 ---
 
-_Documento de diseño del Curso 7, versión inicial — 28 de mayo de 2026. Este curso cierra la ruta del Nivel 1 de la Línea Programa de Jóvenes. Integra los aprendizajes de los Cursos 1-6 en un Plan Personal de Dirigente y una Promesa personal. Validado contra el marco metodológico de la plataforma._
+_Documento de diseño del Curso 7 — **v1.1, 19 de septiembre de 2026** (ADR-067: el documento se pone al día con el curso que de verdad se construyó y publicó. Corregidos la §4.3 —el `brujula-display` que esta línea no dibuja, y el `list` de las tres preguntas—, la §6.1, la tabla de componentes de la §7 y la lista de próximos pasos de la §10, donde el paso 3 quedó sin hacer. **El diseño es fuente:** quien reconstruyera el curso desde la versión anterior reintroduciría un componente que el build de Programa de Jóvenes no sabe dibujar). Versión inicial — 28 de mayo de 2026. Este curso cierra la ruta del Nivel 1 de la Línea Programa de Jóvenes. Integra los aprendizajes de los Cursos 1-6 en un Plan Personal de Dirigente y una Promesa personal. Validado contra el marco metodológico de la plataforma._
