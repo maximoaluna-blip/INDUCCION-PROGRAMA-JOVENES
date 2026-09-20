@@ -527,8 +527,8 @@ Si falta algún elemento (por ejemplo, una pregunta de quiz para una lección, u
 - [ ] Hook **enunciado al menos una vez** explícitamente en una lección + **referenciado** al cierre.
 - [ ] Cada lección tiene los **7 bloques** (anclaje, desarrollo, cita oficial cuando aplica, reformulación, reflexión, quiz, logro).
 - [ ] **Patrón 6.2 (anti-definición + reformulación accesible)** aplicado en su variante apropiada (A literal o B narrativa) y **documentado** en la sección de Validación del archivo de diseño. Para cursos de integración personal o de bienvenida, justificar la no-aplicación.
-- [ ] Lecciones entre 3 y 7 min cada una (óptimo 5).
-- [ ] Curso total entre 20 y 40 min (excepción Curso 04 — Método: 40 min justificados por centralidad).
+- [ ] Lecciones entre **3 y 8 min** cada una, **óptimo 5–7** — la medida que manda (ADR-069).
+- [ ] Duración total **derivada** de esa banda × número de lecciones; sin tope fijo. Por encima de **60 min**, justificar en `DECISIONES.md` por qué el curso no se parte — hoy solo `rama-clan-rovers` (65 min en 10 lecciones, 6,5 por lección).
 - [ ] Mini-quiz tiene **mínimo 2 preguntas** por lección (excepto intro), **con al menos un distractor que sea la idea vieja**.
 - [ ] Reflexión personal por lección (excepto intro), **forzando a un caso concreto**.
 - [ ] Logros: 4-6 + 1 final con `unlockOnModule: -1`. (Excepción documentada: Curso 04 con 7+1.)
@@ -671,7 +671,7 @@ Antes de publicar, verificar que **todos** los documentos citados siguen siendo 
 |---|---|
 | **Línea** | Una de las 4 líneas formativas del portal: Política de Adultos, **Programa de Jóvenes**, Desarrollo Institucional, Políticas Transversales. |
 | **Nivel** | Cada línea tiene 4 niveles. En PJ: Fundamentación (1), Profundización por rama y práctica pedagógica (2), Especialización por cargo (3), Transversales (4). |
-| **Curso** | Una unidad formativa de 20–40 min, 5–8 lecciones cortas. |
+| **Curso** | Una unidad formativa de **6–10 lecciones cortas**; la duración total se deriva de la banda por lección (3–8 min, óptimo 5–7) — en PJ hoy va de 25 a 65 min. |
 | **Lección** | Bloque de 3–8 minutos con una idea central, reflexión y mini-quiz. |
 | **Hito pedagógico** | El "aha moment" que la lección busca producir en el adulto. |
 | **Hook** | La frase clave que abre y cierra el curso. |
@@ -718,5 +718,7 @@ A esto, la Línea PJ añade las **3 exigencias propias** (sección 7): cada curs
 - `../INDUCCION-ADULTOS/CREAR-CURSO.md` — Documento equivalente de la línea más antigua (Política de Adultos).
 
 ---
+
+_**Actualizado el 20-sep-2026 (`DECISIONES.md` ADR-069):** desaparece el **tope de 40 minutos** del §9 y de la §14. Manda la **banda por lección** —3 a 8 min, óptimo 5–7— y el total se **deriva**: por encima de 60 min hay que justificar por qué el curso no se parte. En esta línea el tope era papel mojado —**7 de sus 15 cursos publicados lo excedían**— y la excepción que la guía citaba (*«Curso 04 — Método, 40 min justificados por centralidad»*) llevaba meses siendo la **menos** excepcional de todas._
 
 _Documento operativo de la Línea Programa de Jóvenes — Asociación Scouts de Colombia. **Actualizado el 17-sep-2026:** el **§8 estaba entero en la numeración anterior al 28-jun** —seis cursos de Nivel 1 en vez de siete, sin el Curso 3, y el Nivel 2 como «cursos 7–14»—, así que la renumeración del **ADR-041** se le aplicó ahora; de paso se sacaron dos afirmaciones que ya se habían corregido en cursos publicados («las 9 técnicas» y los cinco momentos del ciclo de programa en su nomenclatura anterior) y se añadió el antídoto que costó los dos críticos del Curso 12: **barrer el vocabulario de las otras cuatro ramas antes de auditar**. En §13.2, los Cursos 11 y 12 reciben su ✅. Versión inicial — 28 de mayo de 2026. **Consolida en un solo manual** el `CREAR-CURSO.md` técnico y las `Recomendaciones-Cowork-Diseno-Cursos.md` pedagógicas que en la Línea DI viven como dos documentos separados. Para PJ se decidió unificarlos para evitar dispersión documental al inicio de la línea._
