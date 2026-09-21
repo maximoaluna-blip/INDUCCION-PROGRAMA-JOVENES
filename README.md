@@ -6,7 +6,7 @@ Plataforma de formación online de la **Línea Programa de Jóvenes** de la Asoc
 
 ## Estado actual
 
-**15 cursos activos** al 17-sep-2026, `status: "active"` en `cursos.json` y publicados en GitHub Pages. **Nivel 1 — Fundamentación** completo (7 cursos, **220 min ≈ 3.7 h**) y **Nivel 2** con **7 de sus 8**: **las cinco ramas, cerradas el 16-sep-2026** (250 min ≈ 4.2 h), más **dos de los tres cursos operativos**, ambos del 17-sep-2026 y ambos con las tres auditorías — el **Curso 13 — Seguimiento de la Progresión Personal** (60 min), que enseña a mirar lo que pasa en la reunión, y el **Curso 14 — Planeación de Reuniones y Oportunidades de Aprendizaje** (60 min), que enseña a decidirla antes de que pase. Los dos sirven a las cinco ramas a la vez. El menú de la línea agrupa por nivel. **Del Nivel 2 falta solo el Curso 15**; el plan total son 25 cursos.
+**15 cursos activos** al 17-sep-2026, `status: "active"` en `cursos.json` y publicados en GitHub Pages. **Nivel 1 — Fundamentación** completo (7 cursos, **220 min ≈ 3,7 h**) y **Nivel 2 — Profundización COMPLETO, 8 de 8** (**420 min = 7 h**): **las cinco ramas, cerradas el 16-sep-2026** (250 min ≈ 4,2 h), más los **tres cursos operativos**, los tres del 17-sep-2026 y los tres con las tres auditorías — el **Curso 13 — Seguimiento de la Progresión Personal** (60 min), que enseña a mirar lo que pasa en la reunión; el **Curso 14 — Planeación de Reuniones y Oportunidades de Aprendizaje** (60 min), que enseña a decidirla antes de que pase; y el **Curso 15 — Ciclo de Programa con ABP** (50 min), que cierra el nivel encadenando el ciclo completo. Los tres sirven a las cinco ramas a la vez. El menú de la línea agrupa por nivel. **Lo siguiente es el Nivel 3, por cargo**; el plan total son 25 cursos.
 
 | # | Curso | Nivel | Duración | Estado |
 |---|-------|-------|----------|--------|
@@ -22,6 +22,9 @@ Plataforma de formación online de la **Línea Programa de Jóvenes** de la Asoc
 | 10 | ⚜️ Rama Tropa Scout | 2 | 45 minutos | ✅ Activo |
 | 11 | 🧗 Rama Comunidad (Nómadas Scout) | 2 | 60 minutos | ✅ Activo |
 | 12 | 🏔️ Rama Clan (Rovers) | 2 | 65 minutos | ✅ Activo |
+| 13 | 🛠️ Seguimiento de la Progresión Personal | 2 | 60 minutos | ✅ Activo |
+| 14 | 📋 Planeación de Reuniones y Oportunidades de Aprendizaje | 2 | 60 minutos | ✅ Activo |
+| 15 | 🎯 Ciclo de Programa con ABP | 2 | 50 minutos | ✅ Activo |
 
 > **Los siete cursos del Nivel 1 y el Curso 8 se re-auditaron el 16-sep-2026** — **19 críticos, 52 mayores y 61 menores**, todos corregidos y verificados en producción **salvo el texto del certificado del Curso 8**, que es decisión del dueño. Los ocho llevan `contentVersion: 2026-09-16`. Detalle en `CHANGELOG-DOCTRINA.md` (asiento 2026-09-16) y `ESTADO-AUDITORIA.md`; lo que quedó abierto, en el bloque **«Decisiones abiertas»** de `DECISIONES.md`.
 
