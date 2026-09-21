@@ -36,6 +36,7 @@ Plataforma de formación online de la **Línea Programa de Jóvenes** de la Asoc
 INDUCCION-PROGRAMA-JOVENES/
 ├── index.html                          # Landing público (GitHub Pages, agrupado por nivel)
 ├── 404.html
+├── verificar-certificado.html        # Valida un código ASC-AAAA-XXXXX contra el backend (ADR-070)
 ├── assets/                             # Logos, favicon, dark theme
 ├── 01-Diseno-Cursos/                   # Diseños pedagógicos .md, uno por curso
 ├── 02-Plataforma-Web/                  # HTMLs públicos
