@@ -256,7 +256,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 > **P2.** Por "Primum non nocere" (lo primero, no hacer daño), antes de poner a un adulto frente a jóvenes el Movimiento mira su madurez y su equilibrio, lo forma, le pone fecha de vencimiento al nombramiento y lo acompaña y lo evalúa mientras sirve. ¿Qué prioriza esto?
 >
-> a) _Que el adulto nunca contradiga las decisiones del joven._
+> a) _Que el adulto nunca contradiga en público las decisiones que toma el joven._
 > b) _Que la protección del joven está antes que la comodidad o la antigüedad del adulto._  ✅
 > c) _Que ningún adulto puede tener contacto con jóvenes._
 
@@ -301,7 +301,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 > **P2.** Una dirigente decide cada actividad de la unidad y los jóvenes solo ejecutan. Según las Características Esenciales, está…
 >
-> a) _Aplicando el Método correctamente, porque es la adulta._
+> a) _Aplicando el Método correctamente, porque para eso es la adulta responsable._
 > b) _Rompiendo la alianza joven-adulto: el joven debe ser sujeto activo, no objeto pasivo._  ✅
 > c) _Haciendo lo que hacía el dirigente que la formó a ella._
 

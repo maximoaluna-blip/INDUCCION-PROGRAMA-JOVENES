@@ -3,7 +3,7 @@
   "title": "Rama Manada (Lobatos)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El primer curso de rama del Nivel 2 de la Línea Programa de Jóvenes. En ~35 minutos vas a acompañar a Andrés, un lobato de 7 años, desde su llegada a la Manada hasta su Gran Salto hacia la Tropa: el marco simbólico de La Fantasía y su fondo motivador, El Libro de las Tierras Vírgenes, las seisenas sin jefes fijos, las seis Sendas de la progresión y tu rol como Viejo Lobo — facilitador, no jefe.",
-  "contentVersion": "2026-09-17",
+  "contentVersion": "2026-09-20",
   "icon": "🐺",
   "duration": "35 minutos",
   "level": 2,
@@ -132,7 +132,7 @@
             "options": [
               "Es un lobato indisciplinado que necesita aprender a poner atención.",
               "Su cuerpo necesita movimiento para aprender — la quietud prolongada no es su vía natural de aprendizaje.",
-              "Necesita que le expliquen el tema de forma más abstracta y detallada."
+              "Necesita que le expliquen otra vez el tema, de forma más abstracta y con muchos más detalles."
             ],
             "correctIndex": 1
           },
@@ -267,7 +267,7 @@
           {
             "text": "La Promesa de la Manada dice “prometo hacer siempre lo mejor”. Un lobato falla en cumplir la Ley un día y se siente culpable. Según esta lección, ¿qué le dirías?",
             "options": [
-              "Que la Promesa exige perfección y debe esforzarse más para no repetir el error.",
+              "Que la Promesa exige perfección y que, si falló, debe esforzarse el doble para no volver a repetir ese error delante de su seisena.",
               "Que la Promesa es un compromiso de intentarlo cada día, no de lograrlo siempre a la perfección — el esfuerzo cuenta, no la perfección.",
               "Que mejor no haga la Promesa hasta que esté seguro de poder cumplirla siempre."
             ],
@@ -365,7 +365,7 @@
           {
             "text": "Una dirigente diseña una actividad muy divertida, pero al analizarla nota que no le exige nada nuevo a los lobatos y no les deja ninguna habilidad. Según el filtro DURASLID, ¿qué le falta?",
             "options": [
-              "Nada: si es lúdica y segura, ya cumple con lo esencial.",
+              "Nada: si la actividad es lúdica y segura, ya cumple con lo esencial del filtro y no hace falta cambiarle nada.",
               "Le falta ser Desafiante y Útil — la diversión sola no basta, la actividad debe exigir algo y dejar un aprendizaje real.",
               "Le falta que sea más larga en duración."
             ],
@@ -648,7 +648,7 @@
           {
             "text": "Un dirigente nuevo, acostumbrado a otras ramas, empieza a llamar a la Manada con un silbato para formar el Círculo de Roca. Según esta lección, ¿qué corrección le harías?",
             "options": [
-              "Ninguna: el silbato es un método universal en el escultismo, funciona igual en cualquier rama.",
+              "Ninguna: el silbato es un método universal en el escultismo y funciona igual en cualquier rama, también en la Manada de cualquier Grupo.",
               "Que en la Manada el llamado nunca se hace con silbato — se convoca por voz, en coherencia con el tono cálido y cercano de la rama.",
               "Que solo debe usar el silbato en las ceremonias, no en las reuniones normales."
             ],
@@ -659,7 +659,7 @@
             "options": [
               "Nada grave, mientras el lobato efectivamente termine pasando a la Tropa dentro de ese mismo año.",
               "Se pierden el momento de cerrar una etapa con gratitud: no es un trámite.",
-              "Solo se pierde tiempo si se hace la ceremonia completa; mejor avanzar rápido a la Tropa."
+              "Solo se pierde tiempo con la ceremonia completa; mejor pasar rápido a la Tropa."
             ],
             "correctIndex": 1
           }
@@ -725,7 +725,7 @@
             "options": [
               "'Voy a rediseñar por completo el sistema de seisenas de mi Manada durante este mes, con roles y turnos nuevos.'",
               "'La próxima reunión voy a preguntar en el Consejo de Roca quién quiere proponer el juego esta vez.'",
-              "'Voy a explicarles en la próxima reunión, con calma, por qué la rotación de funciones es importante.'"
+              "'La próxima reunión voy a explicarles, con calma, por qué la rotación de funciones es importante.'"
             ],
             "correctIndex": 1
           },

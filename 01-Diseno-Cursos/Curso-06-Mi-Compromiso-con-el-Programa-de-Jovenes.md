@@ -217,7 +217,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 >
 > a) _Lo propone el dirigente y lo ejecutan los protagonistas._
 > b) _Surge de los protagonistas; el dirigente Apoya, Acompaña y Enlaza._  ✅
-> c) _Lo asigna el Comisionado Regional según el plan nacional._
+> c) _Surge del plan nacional: lo asigna el Comisionado Regional._
 
 > **P2.** ¿Por qué se planea pensando en un elemento del Método y un criterio DURASLID?
 >
@@ -324,7 +324,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 > **P2.** La promesa personal del Nivel 1 es…
 >
-> a) _Un trámite administrativo necesario para obtener el certificado._
+> a) _Un trámite administrativo necesario para que el sistema emita el certificado del curso._
 > b) _Un acto de compromiso explícito que convierte el aprendizaje en orientación viva del servicio._  ✅
 > c) _Una promesa de cumplir los 5 cursos restantes del Nivel 1._
 

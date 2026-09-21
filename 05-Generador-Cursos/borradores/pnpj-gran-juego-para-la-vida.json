@@ -3,7 +3,7 @@
   "title": "La PNPJ y \"El Gran Juego para la Vida\"",
   "subtitle": "El Programa de Jóvenes aterrizado a Colombia",
   "description": "El Curso 6 de la Línea Programa de Jóvenes. En ~35 minutos vas a aterrizar todo lo aprendido al contexto colombiano: la Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. 617 de 2024) y su Modelo de Aplicación \"El Gran Juego para la Vida\" (DNPJ 2026). Vas a recorrer las 5 ramas, las 6 áreas de crecimiento, las 3 etapas × 3 momentos y las herramientas operativas, y a construir tu mapa personal del Modelo.",
-  "contentVersion": "2026-09-17",
+  "contentVersion": "2026-09-20",
   "icon": "📜",
   "duration": "35 minutos",
   "level": 1,
@@ -119,7 +119,7 @@
             "options": [
               "Son documentos distintos sin relación entre sí.",
               "La PNPJ es la norma; \"El Gran Juego para la Vida\" es su manual operativo de aplicación.",
-              "\"El Gran Juego para la Vida\" reemplaza a la PNPJ."
+              "\"El Gran Juego para la Vida\" reemplaza a la PNPJ y hoy es la norma vigente del Programa."
             ],
             "correctIndex": 1
           }
@@ -642,7 +642,7 @@
             "options": [
               "Solo el documento de la PNPJ y todo su articulado, pero todavía no la manera en que se aplica en el día a día de la unidad.",
               "El marco normativo (PNPJ), las 5 ramas, las 6 áreas, las 3 etapas × 3 momentos y las 4 herramientas operativas.",
-              "Solo las herramientas operativas del Modelo, pero no el marco normativo que las respalda."
+              "El Modelo y sus herramientas operativas, pero no el marco normativo que las respalda."
             ],
             "correctIndex": 1
           }

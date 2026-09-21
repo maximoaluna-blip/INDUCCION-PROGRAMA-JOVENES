@@ -3,7 +3,7 @@
   "title": "La Educación por el Amor",
   "subtitle": "La apuesta de Baden-Powell en Ginebra, 1922",
   "description": "El segundo curso de la Línea Programa de Jóvenes y la brújula ética del Programa. En ~30 minutos vas a entender qué dijo Baden-Powell en Ginebra en 1922 sobre cómo se educa, vas a distinguir la educación por el temor de la educación por el amor, y vas a ver cómo los 4 objetivos de la instrucción se convirtieron en las 6 áreas de crecimiento de hoy. Termina con tu propia revisión pedagógica y un compromiso de práctica.",
-  "contentVersion": "2026-09-16",
+  "contentVersion": "2026-09-20",
   "icon": "💗",
   "duration": "30 minutos",
   "level": 1,
@@ -127,7 +127,7 @@
           {
             "text": "B-P pronunció este informe en…",
             "options": [
-              "Un congreso militar en Londres.",
+              "Un congreso militar en Londres, ante oficiales del Ejército.",
               "Un congreso de moral y educación en Ginebra (antecedente de UNESCO).",
               "Una asamblea Scout en Brownsea."
             ],
@@ -232,7 +232,7 @@
             "options": [
               "Que el premio enseña al joven a hacer lo correcto solo mientras lo miran, sin construir un sentido interno.",
               "Ninguno: premiar siempre es buena idea porque refuerza la conducta deseada.",
-              "Que el problema no es la recompensa sino que sea pequeña; con un premio mayor sí funciona."
+              "Que el problema no es la recompensa sino su tamaño: con un premio mayor y más seguido sí funciona."
             ],
             "correctIndex": 0
           },

@@ -3,7 +3,7 @@
   "title": "Características Esenciales del Movimiento Scout",
   "subtitle": "El \"qué\" del Movimiento según la OMMS (Kuala Lumpur, 2019)",
   "description": "El Curso 4 de la Línea Programa de Jóvenes entrega la identidad doctrinal del Movimiento: su Propósito, sus 3 Principios y los 6 elementos que lo distinguen de cualquier otra propuesta para jóvenes. Al final vas a poder explicarle a alguien externo qué es el Movimiento Scout en menos de un minuto, sin recurrir a uniformes ni a campamentos.",
-  "contentVersion": "2026-09-16",
+  "contentVersion": "2026-09-20",
   "icon": "🌟",
   "duration": "30 minutos",
   "level": 1,
@@ -462,7 +462,7 @@
           {
             "text": "Por 'Primum non nocere' (lo primero, no hacer daño), antes de poner a un adulto frente a jóvenes el Movimiento mira su madurez y su equilibrio, lo forma, le pone fecha de vencimiento al nombramiento y lo acompaña y lo evalúa mientras sirve. ¿Qué prioriza esto?",
             "options": [
-              "Que el adulto nunca contradiga las decisiones del joven.",
+              "Que el adulto nunca contradiga en público las decisiones que toma el joven.",
               "Que la protección del joven está antes que la comodidad o la antigüedad del adulto.",
               "Que ningún adulto puede tener contacto con jóvenes."
             ],
@@ -555,7 +555,7 @@
           {
             "text": "Una dirigente decide cada actividad de la unidad y los jóvenes solo ejecutan. Según las Características Esenciales, está…",
             "options": [
-              "Aplicando el Método correctamente, porque es la adulta.",
+              "Aplicando el Método correctamente, porque para eso es la adulta responsable.",
               "Rompiendo la alianza joven-adulto: el joven debe ser sujeto activo, no objeto pasivo.",
               "Haciendo lo que hacía el dirigente que la formó a ella."
             ],

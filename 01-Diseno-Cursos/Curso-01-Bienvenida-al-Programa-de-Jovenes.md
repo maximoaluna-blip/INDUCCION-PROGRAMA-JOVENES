@@ -210,7 +210,7 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 
 > **P2.** ¿Cuál es la norma marco vigente que rige hoy al Programa de Jóvenes en la ASC?
 >
-> a) _El Reglamento de la Red Nacional de Jóvenes (Acuerdo CSN 556)._
+> a) _La Red Nacional de Jóvenes y su Reglamento (Acuerdo CSN 556)._
 > b) _La Política Nacional de Programa de Jóvenes (Acuerdo CSN 617 de 2024)._  ✅
 > c) _El Manual de Implementación del Marco de Mundo Mejor (junio 2021)._
 
@@ -260,7 +260,7 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 
 > **P2.** Camilo, en la Tropa, aprendió a decidir con su patrulla qué cocinar y qué proyecto de servicio hacer, y a asumir las consecuencias. ¿Qué área de crecimiento se estaba trabajando, sobre todo?
 >
-> a) _Corporalidad, porque cocinar implica el cuerpo._
+> a) _Corporalidad, porque cocinar con fuego y herramientas es un trabajo del cuerpo._
 > b) _Carácter: estaba decidiendo, asumiendo responsabilidades y construyendo autonomía._  ✅
 > c) _Espiritualidad, porque el servicio siempre es espiritual._
 

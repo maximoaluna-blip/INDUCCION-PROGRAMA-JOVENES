@@ -117,7 +117,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 > **P2.** B-P pronunció este informe en…
 >
-> a) _Un congreso militar en Londres._
+> a) _Un congreso militar en Londres, ante oficiales del Ejército._
 > b) _Un congreso de moral y educación en Ginebra (antecedente de UNESCO)._  ✅
 > c) _Una asamblea Scout en Brownsea._
 
@@ -162,7 +162,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 >
 > a) _Que el premio enseña al joven a hacer lo correcto solo mientras lo miran, sin construir un sentido interno._  ✅
 > b) _Ninguno: premiar siempre es buena idea porque refuerza la conducta deseada._
-> c) _Que el problema no es la recompensa sino que sea pequeña; con un premio mayor sí funciona._
+> c) _Que el problema no es la recompensa sino su tamaño: con un premio mayor y más seguido sí funciona._
 
 > **P2.** Un dirigente avergüenza públicamente a un lobato que no se sabe la promesa. Está aplicando…
 >

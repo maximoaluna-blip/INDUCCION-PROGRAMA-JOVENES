@@ -3,7 +3,7 @@
   "title": "Cómo se Educa Hoy",
   "subtitle": "Conceptos clave de la educación — la base de todo lo que sigue",
   "description": "El Curso 3 de la Línea Programa de Jóvenes, y un paréntesis necesario antes de entrar de lleno a lo scout. En ~30 minutos vas a entender qué es educar, los cuatro pilares de la educación (UNESCO), cómo aprenden de verdad las personas, dónde se aprende (educación formal, no formal e informal) y por qué el aprender haciendo funciona. No es teoría por la teoría: es la base que hace que el Método Scout, las ramas y el Modelo —que vienen después— se entiendan como la aplicación de estas ideas.",
-  "contentVersion": "2026-09-16",
+  "contentVersion": "2026-09-20",
   "icon": "🎓",
   "duration": "30 minutos",
   "level": 1,
@@ -273,7 +273,7 @@
             "options": [
               "Nada: si la explicación fue clara, el aprendizaje está garantizado.",
               "Que el que aprende estuvo pasivo: faltó ponerlo al centro, activo, retado y aprendiendo con otros.",
-              "Que la charla fue muy corta; debió durar el doble para que quedara."
+              "Que la charla fue muy corta; con el doble de tiempo y más ejemplos les habría quedado grabada."
             ],
             "correctIndex": 1
           },
@@ -282,7 +282,7 @@
             "options": [
               "El reto y el esfuerzo en su punto justo (ni sobrecarga ni demasiado fácil).",
               "Que el aprendizaje es un proceso social.",
-              "Que hay que conectar con la comunidad y el mundo."
+              "El principio de conectar el aprendizaje con la comunidad y el mundo real."
             ],
             "correctIndex": 0
           }
@@ -444,7 +444,7 @@
             "options": [
               "Para llenar un requisito de la plataforma y poder desbloquear la siguiente lección del curso.",
               "Porque la experiencia se convierte en aprendizaje propio cuando se cierra con reflexión.",
-              "Para que el formador pueda calificar qué tan bien escribes."
+              "Porque el formador necesita calificar qué tan bien escribes."
             ],
             "correctIndex": 1
           }

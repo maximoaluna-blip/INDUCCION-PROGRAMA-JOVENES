@@ -122,7 +122,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 >
 > a) _Es un lobato indisciplinado que necesita aprender a poner atención._
 > b) _Su cuerpo necesita movimiento para aprender — la quietud prolongada no es su vía natural de aprendizaje._  ✅
-> c) _Necesita que le expliquen el tema de forma más abstracta y detallada._
+> c) _Necesita que le expliquen otra vez el tema, de forma más abstracta y con muchos más detalles._
 
 > **P2.** Llega a tu Manada Tomás, de 8 años. Nunca fue Cachorro: es su primer contacto con el escultismo. Su papá pregunta cuándo es la ceremonia. ¿Qué le explicas?
 >
@@ -180,7 +180,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 
 > **P2.** La Promesa de la Manada dice "prometo hacer siempre lo mejor". Un lobato falla en cumplir la Ley un día y se siente culpable. Según esta lección, ¿qué le dirías?
 >
-> a) _Que la Promesa exige perfección y debe esforzarse más para no repetir el error._
+> a) _Que la Promesa exige perfección y que, si falló, debe esforzarse el doble para no volver a repetir ese error delante de su seisena._
 > b) _Que la Promesa es un compromiso de intentarlo cada día, no de lograrlo siempre a la perfección — el esfuerzo cuenta, no la perfección._  ✅
 > c) _Que mejor no haga la Promesa hasta que esté seguro de poder cumplirla siempre._
 
@@ -230,7 +230,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 
 > **P2.** Una dirigente diseña una actividad muy divertida, pero al analizarla nota que no le exige nada nuevo a los lobatos y no les deja ninguna habilidad. Según el filtro DURASLID, ¿qué le falta?
 >
-> a) _Nada: si es lúdica y segura, ya cumple con lo esencial._
+> a) _Nada: si la actividad es lúdica y segura, ya cumple con lo esencial del filtro y no hace falta cambiarle nada._
 > b) _Le falta ser Desafiante y Útil — la diversión sola no basta, la actividad debe exigir algo y dejar un aprendizaje real._  ✅
 > c) _Le falta que sea más larga en duración._
 
@@ -359,7 +359,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 
 > **P1.** Un dirigente nuevo, acostumbrado a otras ramas, empieza a llamar a la Manada con un silbato para formar el Círculo de Roca. Según esta lección, ¿qué corrección le harías?
 >
-> a) _Ninguna: el silbato es un método universal en el escultismo, funciona igual en cualquier rama._
+> a) _Ninguna: el silbato es un método universal en el escultismo y funciona igual en cualquier rama, también en la Manada de cualquier Grupo._
 > b) _Que en la Manada el llamado nunca se hace con silbato — se convoca por voz, en coherencia con el tono cálido y cercano de la rama._  ✅
 > c) _Que solo debe usar el silbato en las ceremonias, no en las reuniones normales._
 
@@ -367,7 +367,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 >
 > a) _Nada grave, mientras el lobato efectivamente pase a la Tropa._
 > b) _Se pierden el momento de reconocer el camino recorrido y cerrar una etapa con gratitud — el Gran Salto es una ceremonia cargada de significado, no un trámite administrativo._  ✅
-> c) _Solo se pierde tiempo si se hace la ceremonia completa; mejor avanzar rápido a la Tropa._
+> c) _Solo se pierde tiempo con la ceremonia completa; mejor pasar rápido a la Tropa._
 
 **Logro:** "Sostengo el Círculo de Roca".
 

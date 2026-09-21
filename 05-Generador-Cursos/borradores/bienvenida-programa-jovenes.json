@@ -3,7 +3,7 @@
   "title": "Bienvenida al Programa de Jóvenes",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El primer paso en la Línea Programa de Jóvenes. En ~25 minutos vas a entender qué es realmente el Programa de Jóvenes (y qué no), desarmar los mitos del dirigente nuevo, ubicar las 5 ramas y la documentación marco, y dar tu primer compromiso concreto. Sin tecnicismos, con ejemplos del día a día de una unidad.",
-  "contentVersion": "2026-09-16",
+  "contentVersion": "2026-09-20",
   "icon": "🎒",
   "duration": "25 minutos",
   "level": 1,
@@ -345,7 +345,7 @@
           {
             "text": "¿Cuál es la norma marco vigente que rige hoy al Programa de Jóvenes en la ASC?",
             "options": [
-              "El Reglamento de la Red Nacional de Jóvenes (Acuerdo CSN 556).",
+              "La Red Nacional de Jóvenes y su Reglamento (Acuerdo CSN 556).",
               "La Política Nacional de Programa de Jóvenes (Acuerdo CSN 617 de 2024).",
               "El Manual de Implementación del Marco de Mundo Mejor (junio 2021)."
             ],
@@ -437,14 +437,14 @@
             "options": [
               "Que sus dirigentes la dejaran ganar más juegos y destacarse más frente a sus compañeras de unidad.",
               "Que el Programa fuera planeado para tocar todas las áreas de crecimiento.",
-              "Que Mariana entrara a la rama más tarde, cuando ya tuviera la edad para aprovecharla."
+              "Que Mariana entrara a la rama más tarde, cuando tuviera la edad para aprovecharla."
             ],
             "correctIndex": 1
           },
           {
             "text": "Camilo, en la Tropa, aprendió a decidir con su patrulla qué cocinar y qué proyecto de servicio hacer, y a asumir las consecuencias. ¿Qué área de crecimiento se estaba trabajando, sobre todo?",
             "options": [
-              "Corporalidad, porque cocinar implica el cuerpo.",
+              "Corporalidad, porque cocinar con fuego y herramientas es un trabajo del cuerpo.",
               "Carácter: estaba decidiendo, asumiendo responsabilidades y construyendo autonomía.",
               "Espiritualidad, porque el servicio siempre es espiritual."
             ],
@@ -528,7 +528,7 @@
           {
             "text": "¿Cuál de estos compromisos cumple mejor el criterio “chico, concreto y tuyo”?",
             "options": [
-              "“Voy a transformar la cultura del Programa en toda mi región a lo largo de este año.”",
+              "“En este año voy a transformar la cultura del Programa en toda mi región.”",
               "“En la próxima reunión voy a dejar que mi equipo decida parte de la actividad.”",
               "“Voy a estudiarme el Modelo de Aplicación completo antes de la reunión del próximo sábado.”"
             ],

@@ -121,7 +121,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 >
 > a) _Son documentos distintos sin relación entre sí._
 > b) _La PNPJ es la norma; "El Gran Juego para la Vida" es su manual operativo de aplicación._  ✅
-> c) _"El Gran Juego para la Vida" reemplaza a la PNPJ._
+> c) _"El Gran Juego para la Vida" reemplaza a la PNPJ y hoy es la norma vigente del Programa._
 
 **Logro:** "Sé qué es la PNPJ".
 
