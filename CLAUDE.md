@@ -40,6 +40,7 @@ Es la única con las **3 auditorías** (doctrinal `/auditar-curso`, pedagógica 
 
 ## Trampas de esta línea (cuestan una jornada cada una)
 
+- **El diseño `.md` no es espejo del JSON publicado.** En el barrido de paridad del **ADR-073** (20-sep-2026) el texto de la opción coincidía en **14 de 22**; en el resto, `01-Diseno-Cursos/` guarda una versión anterior y más corta. **Corregir el diseño no corrige el curso** —no se compila desde ahí— y **leerlo no dice qué está publicado**. Al tocar contenido: el JSON manda, y el diseño se actualiza donde el texto coincida.
 - **El motor NO convierte markdown (ADR-053).** `*«cita»*` llega a la pantalla **con los asteriscos**. En un JSON: `<em>` y `<strong>`, nunca `*` ni `**`. El Curso 12 tuvo **24 marcas literales** y las **tres auditorías lo dejaron pasar**.
 - **Un curso en `draft` se salta la suite E2E entera (ADR-052)** — el CI pasa en verde sin haberlo probado. Para probarlo: servir una **copia** con el `status` volteado (nunca el catálogo real), con `ThreadingHTTPServer`, y comprobar que **subió el número de pruebas**.
 - **El patrón de error del curso de rama N es importar vocabulario de la rama N−1.** Los dos críticos del Curso 12 fueron eso y solo eso: «Rumbo» y «rojo coral», que son de Comunidad y no aparecen **ni una vez** en la Guía de Clan. **Antes de auditar, barrer el vocabulario propio de las otras cuatro ramas.**

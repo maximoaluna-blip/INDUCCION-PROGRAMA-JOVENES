@@ -530,6 +530,7 @@ Si falta algún elemento (por ejemplo, una pregunta de quiz para una lección, u
 - [ ] Lecciones entre **3 y 8 min** cada una, **óptimo 5–7** — la medida que manda (ADR-069).
 - [ ] Duración total **derivada** de esa banda × número de lecciones; sin tope fijo. Por encima de **60 min**, justificar en `DECISIONES.md` por qué el curso no se parte — hoy solo `rama-clan-rovers` (65 min en 10 lecciones, 6,5 por lección).
 - [ ] Mini-quiz tiene **mínimo 2 preguntas** por lección (excepto intro), **con al menos un distractor que sea la idea vieja**.
+- [ ] **Las dos reglas de paridad del quiz, leídas en los avisos del build** (`MANUAL` §A.6.5, reglas 6 y 7): la correcta **no es el extremo de longitud** de su pregunta por 12 caracteres o más, y **dos opciones comparten su primera palabra** (y su polaridad en las de sí/no). ⚠️ **El build avisa, no rompe**: si nadie lee el `⚠️`, el curso se publica con el sesgo. Se empareja moviendo **distractores**, nunca la correcta (ADR-073).
 - [ ] Reflexión personal por lección (excepto intro), **forzando a un caso concreto**.
 - [ ] Logros: 4-6 + 1 final con `unlockOnModule: -1`. (Excepción documentada: Curso 04 con 7+1.)
 - [ ] Conexiones cross-course con el curso anterior y siguiente verificadas (sección 9).
