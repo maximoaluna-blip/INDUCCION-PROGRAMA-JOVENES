@@ -3,7 +3,7 @@
   "title": "Rama Manada (Lobatos)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El primer curso de rama del Nivel 2 de la Línea Programa de Jóvenes. En ~35 minutos vas a acompañar a Andrés, un lobato de 7 años, desde su llegada a la Manada hasta su Gran Salto hacia la Tropa: el marco simbólico de La Fantasía y su fondo motivador, El Libro de las Tierras Vírgenes, las seisenas sin jefes fijos, las seis Sendas de la progresión y tu rol como Viejo Lobo — facilitador, no jefe.",
-  "contentVersion": "2026-09-20",
+  "contentVersion": "2026-09-21",
   "icon": "🐺",
   "duration": "35 minutos",
   "level": 2,
@@ -725,7 +725,7 @@
             "options": [
               "'Voy a rediseñar por completo el sistema de seisenas de mi Manada durante este mes, con roles y turnos nuevos.'",
               "'La próxima reunión voy a preguntar en el Consejo de Roca quién quiere proponer el juego esta vez.'",
-              "'La próxima reunión voy a explicarles, con calma, por qué la rotación de funciones es importante.'"
+              "'La próxima reunión voy a repartir yo las funciones de cada seisena y explicarles mi criterio.'"
             ],
             "correctIndex": 1
           },

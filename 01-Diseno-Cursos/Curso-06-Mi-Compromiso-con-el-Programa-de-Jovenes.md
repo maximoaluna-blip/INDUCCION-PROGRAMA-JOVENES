@@ -217,7 +217,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 >
 > a) _Lo propone el dirigente y lo ejecutan los protagonistas._
 > b) _Surge de los protagonistas; el dirigente Apoya, Acompaña y Enlaza._  ✅
-> c) _Surge del plan nacional: lo asigna el Comisionado Regional._
+> c) _Surge del plan nacional: lo asigna la DNPJ a cada unidad._
 
 > **P2.** ¿Por qué se planea pensando en un elemento del Método y un criterio DURASLID?
 >
