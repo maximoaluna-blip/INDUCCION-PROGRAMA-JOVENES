@@ -209,7 +209,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 > **P2.** ¿Cómo se evalúa la progresión personal en el Modelo de Aplicación 2026?
 >
 > a) _Con exámenes escritos al final de cada trimestre._
-> b) _Con observación, conversación y reconocimiento, usando un banco de técnicas (Herramientas 2.0)._  ✅
+> b) _Mirando al joven en acción, hablando con él y reconociéndole lo logrado (Herramientas 2.0)._  ✅
 > c) _Solo con la autoevaluación del propio protagonista._
 
 **Logro:** "Veo las áreas".
