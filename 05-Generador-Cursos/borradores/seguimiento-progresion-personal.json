@@ -3,7 +3,7 @@
   "title": "Seguimiento de la Progresión Personal",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El primero de los tres cursos operativos, y el que sirve a las cinco ramas a la vez. Cómo mirar con intención, registrar lo justo y acordar un paso siguiente, sin que el seguimiento se convierta en papeleo. Los instrumentos oficiales llegan al final, y a propósito.",
-  "contentVersion": "2026-09-17",
+  "contentVersion": "2026-09-27",
   "icon": "🛠️",
   "duration": "60 minutos",
   "level": 2,
@@ -204,7 +204,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Piensa en un protagonista concreto de tu unidad — con nombre. Escribe la frase que le pondrías hoy si tuvieras que describirlo en una línea. Léela: ¿es un rasgo («es callado», «es líder») o es una conducta con verbo, contexto y señal? Si es un rasgo, reescríbela contando un hecho que hayas visto en las últimas cuatro reuniones."
+        "prompt": "Piensa en un protagonista concreto de tu unidad —con nombre, en tu cabeza; aquí basta su inicial—. Escribe la frase que le pondrías hoy si tuvieras que describirlo en una línea. Léela: ¿es un rasgo («es callado», «es líder») o es una conducta con verbo, contexto y señal? Si es un rasgo, reescríbela contando un hecho que hayas visto en las últimas cuatro reuniones."
       },
       "quiz": {
         "title": "Mini-quiz Lección 2",
@@ -876,7 +876,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Piensa en un protagonista que te haya contado algo de su vida fuera del Movimiento en los últimos dos meses — con nombre, y con lo que realmente te dijo. Escribe cuál de las tres puertas se abrió, qué competencia educativa estaba en juego y qué pregunta de cierre le habrías hecho sabiendo lo que sabes ahora."
+        "prompt": "Piensa en un protagonista que te haya contado algo de su vida fuera del Movimiento en los últimos dos meses —con nombre y con lo que realmente te dijo, en tu cabeza; aquí ni su nombre ni lo que te contó: solo el tipo de situación—. Escribe cuál de las tres puertas se abrió, qué competencia educativa estaba en juego y qué pregunta de cierre le habrías hecho sabiendo lo que sabes ahora."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7",
@@ -1007,7 +1007,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Abre lo que hoy tienes escrito sobre tus protagonistas — el cuaderno, el chat del equipo de dirigentes, el archivo compartido. Busca una frase que sea una etiqueta y no un hecho, y reescríbela. Después responde las tres preguntas para tu unidad: quién registra, quién puede leer y cuánto tiempo se conserva. Si alguna no tiene respuesta acordada, esa es tu tarea de esta semana."
+        "prompt": "Abre lo que hoy tienes escrito sobre tus protagonistas — el cuaderno, el chat del equipo de dirigentes, el archivo compartido. Busca una frase que sea una etiqueta y no un hecho, y reescríbela —aquí, sin el nombre del protagonista—. Después responde las tres preguntas para tu unidad: quién registra, quién puede leer y cuánto tiempo se conserva. Si alguna no tiene respuesta acordada, esa es tu tarea de esta semana."
       },
       "quiz": {
         "title": "Mini-quiz Lección 8",

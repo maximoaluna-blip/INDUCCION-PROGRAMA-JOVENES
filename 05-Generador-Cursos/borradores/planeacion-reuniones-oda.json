@@ -3,7 +3,7 @@
   "title": "Planeación de Reuniones y Oportunidades de Aprendizaje",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El segundo de los tres cursos operativos. Cómo se decide una reunión antes de que ocurra: el guion de lo que va a pasar, la ficha de para qué, el filtro que deja entrar unas ideas y no otras, y el riesgo escrito antes de que alguien se lastime. La herramienta oficial es el soporte; el tema es la decisión.",
-  "contentVersion": "2026-09-17",
+  "contentVersion": "2026-09-27",
   "icon": "📋",
   "duration": "60 minutos",
   "level": 2,
@@ -243,7 +243,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Abre el calendario de tu unidad y mira la próxima reunión — la que ya tiene fecha. Escribe su guion en tres filas: hora, qué pasa y quién lo conduce. Y ahora la parte que cuesta: en al menos una de las tres filas, el responsable tiene que ser un protagonista de programa con nombre propio. ¿Quién, y en qué momento?"
+        "prompt": "Abre el calendario de tu unidad y mira la próxima reunión — la que ya tiene fecha. Escribe su guion en tres filas: hora, qué pasa y quién lo conduce —con su rol o su inicial, no su nombre—. Y ahora la parte que cuesta: en al menos una de las tres filas, el responsable tiene que ser un protagonista de programa concreto. ¿Quién, y en qué momento?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 2",

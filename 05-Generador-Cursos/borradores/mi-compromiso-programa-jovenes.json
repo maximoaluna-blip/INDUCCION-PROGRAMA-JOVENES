@@ -3,7 +3,7 @@
   "title": "Mi Compromiso con el Programa de Jóvenes",
   "subtitle": "Tu plan personal de dirigente — cierre del Nivel 1",
   "description": "El cierre del Nivel 1 de la Línea Programa de Jóvenes. En ~30 minutos vas a convertir los Cursos 1 a 6 en un Plan Personal de Dirigente firmable: revisas tu brújula, defines tu rol, rama y áreas prioritarias, planeas tu próxima reunión y tu proyecto del trimestre, trazas tu ruta de formación y firmas tu promesa personal. No hay contenido nuevo: integras lo que ya tienes en algo accionable.",
-  "contentVersion": "2026-09-21",
+  "contentVersion": "2026-09-27",
   "icon": "🗺️",
   "duration": "30 minutos",
   "level": 1,
@@ -415,7 +415,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Anota en tu reflexión: el <strong>nombre</strong> del par dirigente, su <strong>grupo o ámbito</strong>, <strong>cuándo</strong> le compartirás el plan, y con <strong>qué frecuencia</strong> se reunirán para revisar avances (semanal, quincenal o mensual)."
+          "text": "Anota en tu reflexión: la <strong>inicial o el rol</strong> del par dirigente, su <strong>grupo o ámbito</strong>, <strong>cuándo</strong> le compartirás el plan, y con <strong>qué frecuencia</strong> se reunirán para revisar avances (semanal, quincenal o mensual)."
         },
         {
           "type": "heading",

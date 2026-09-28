@@ -3,7 +3,7 @@
   "title": "Ciclo de Programa con ABP",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El último del Nivel 2, y el tercero de los cursos operativos. De dónde salen las reuniones que ya sabes planear: de un proyecto que tu unidad eligió y sostiene durante meses. Y por qué tu Guía de rama cuenta cuatro momentos donde el Modelo cuenta cinco.",
-  "contentVersion": "2026-09-17",
+  "contentVersion": "2026-09-27",
   "icon": "🎯",
   "duration": "50 minutos",
   "level": 2,
@@ -353,7 +353,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Coge el proyecto o el trimestre que tu unidad tiene por delante — el que ya está en el calendario. Escribe dos cosas, cortas: (1) el <em>destinatario</em>, con nombre propio: una persona, una junta, un colegio, un tramo de río; y (2) <strong>dos criterios de éxito</strong> en lenguaje que un protagonista de tu rama entienda. Si el destinatario te sale «la comunidad» o «el medio ambiente», todavía no tienes destinatario: aprieta hasta que sea alguien a quien puedas llamar por teléfono."
+        "prompt": "Coge el proyecto o el trimestre que tu unidad tiene por delante — el que ya está en el calendario. Escribe dos cosas, cortas: (1) el <em>destinatario</em>, concreto: una persona —por su cargo, no por su nombre—, una junta, un colegio, un tramo de río; y (2) <strong>dos criterios de éxito</strong> en lenguaje que un protagonista de tu rama entienda. Si el destinatario te sale «la comunidad» o «el medio ambiente», todavía no tienes destinatario: aprieta hasta que sea alguien a quien puedas llamar por teléfono."
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",

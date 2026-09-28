@@ -3,7 +3,7 @@
   "title": "Rama Clan (Rovers)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El último curso de rama, y el único cuyos protagonistas son mayores de edad. Vas a acompañar a Sebastián desde el día que llega al Clan hasta su Partida Rover, y a entender el cambio que define esta rama: aquí tu trabajo es volverte innecesario.",
-  "contentVersion": "2026-09-17",
+  "contentVersion": "2026-09-27",
   "icon": "🏔️",
   "duration": "65 minutos",
   "level": 2,
@@ -475,7 +475,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe el nombre de un Rover de tu unidad y, al lado, un referente de inspiración que le quede a él o a ella — de los nueve que propone la Guía o cualquier otro. Después las tres preguntas: qué esencia tiene hoy, a qué invita, cómo se haría visible en la vida de tu Clan. Si te sale más fácil con Saulo de Tarso que con ese Rover concreto, vuelve a empezar. Si todavía no tienes Clan, usa el nombre del Nómada de tu Grupo que esté más cerca de cumplir los dieciocho."
+        "prompt": "Escribe la inicial de un Rover de tu unidad —su nombre, en tu cabeza— y, al lado, un referente de inspiración que le quede a él o a ella — de los nueve que propone la Guía o cualquier otro. Después las tres preguntas: qué esencia tiene hoy, a qué invita, cómo se haría visible en la vida de tu Clan. Si te sale más fácil con Saulo de Tarso que con ese Rover concreto, vuelve a empezar. Si todavía no tienes Clan, piensa en el Nómada de tu Grupo que esté más cerca de cumplir los dieciocho."
       },
       "quiz": {
         "title": "Mini-quiz Lección 5",
@@ -730,7 +730,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Coge a un Rover real de tu unidad, o imagina a Sebastián. Escribe la fecha en que entró al Clan y súmale 5, 12, 21 y 32 meses. Esas son las cuatro fechas tope de su PARCE. Ahora compáralas con la fecha en que cumple 20 años y 8 meses. Si la última fecha se pasa de ahí, ya sabes qué conversación te toca tener esta semana."
+        "prompt": "Coge a un Rover real de tu unidad, o imagina a Sebastián. Escribe cuántos meses lleva en el Clan y cuántos le faltan para cumplir 20 años y 8 meses —meses, no fechas—. Los cuatro topes de su PARCE caen a los 5, 12, 21 y 32 meses de haber entrado. Si el último tope se pasa de ahí, ya sabes qué conversación te toca tener esta semana."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7",
@@ -935,7 +935,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe el nombre del Rover de tu unidad que esté más cerca de su Partida y la fecha en que cumple 20 años y 8 meses. Si no tienes ningún Rover todavía, usa la de un Nómada que vaya a llegar. Debajo, anota una sola cosa que quieras que él se lleve de esa ceremonia — no lo que tú quieras decir, sino lo que quieres que él recuerde. Guárdala: esa frase es el guion de tu parte."
+        "prompt": "Escribe la inicial del Rover de tu unidad que esté más cerca de su Partida y cuántos meses le faltan para cumplir 20 años y 8 meses. Si no tienes ningún Rover todavía, piensa en un Nómada que vaya a llegar. Debajo, anota una sola cosa que quieras que él se lleve de esa ceremonia — no lo que tú quieras decir, sino lo que quieres que él recuerde. Guárdala: esa frase es el guion de tu parte."
       },
       "quiz": {
         "title": "Mini-quiz Lección 9",

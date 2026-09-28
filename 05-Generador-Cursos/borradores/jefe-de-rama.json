@@ -372,7 +372,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe los nombres de los adultos de tu unidad y, al lado de cada uno, una tarea que sea suya y solo suya. Después cuenta: ¿cuántas tareas quedaron a tu nombre? Si la mitad o más son tuyas, escribe cuál de ellas vas a llevar a la próxima reunión del equipo para que cambie de dueño — y a quién se la vas a proponer."
+        "prompt": "Escribe los adultos de tu unidad —con su inicial o su rol, no su nombre— y, al lado de cada uno, una tarea que sea suya y solo suya. Después cuenta: ¿cuántas tareas quedaron a tu nombre? Si la mitad o más son tuyas, escribe cuál de ellas vas a llevar a la próxima reunión del equipo para que cambie de dueño — y a quién se la vas a proponer."
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",
