@@ -22,6 +22,15 @@ const FALLBACK = [
   { courseId: 'rama-familia-cachorros', file: 'rama-familia-cachorros.html', tituloIncluye: 'Familia' },
   { courseId: 'rama-tropa-scout', file: 'rama-tropa-scout.html', tituloIncluye: 'Tropa' },
   { courseId: 'rama-comunidad-nomadas', file: 'rama-comunidad-nomadas.html', tituloIncluye: 'Comunidad' },
+  { courseId: 'rama-clan-rovers', file: 'rama-clan-rovers.html', tituloIncluye: 'Clan' },
+  { courseId: 'seguimiento-progresion-personal', file: 'seguimiento-progresion-personal.html', tituloIncluye: 'Seguimiento' },
+  { courseId: 'planeacion-reuniones-oda', file: 'planeacion-reuniones-oda.html', tituloIncluye: 'Reuniones' },
+  { courseId: 'ciclo-programa-abp', file: 'ciclo-programa-abp.html', tituloIncluye: 'ABP' },
+  { courseId: 'jefe-de-rama', file: 'jefe-de-rama.html', tituloIncluye: 'Jefe de Rama' },
+  { courseId: 'acompanamiento-progresion-personal', file: 'acompanamiento-progresion-personal.html', tituloIncluye: 'Progresi' },
+  { courseId: 'comisionado-programa-jovenes', file: 'comisionado-programa-jovenes.html', tituloIncluye: 'Comisionado' },
+  { courseId: 'consejero-juvenil', file: 'consejero-juvenil.html', tituloIncluye: 'Consejero' },
+  { courseId: 'red-de-jovenes', file: 'red-de-jovenes.html', tituloIncluye: 'Red de' },
 ];
 
 let CURSOS = FALLBACK;

@@ -395,6 +395,8 @@ Ejemplo del Curso 01 de PJ:
 
 **Recomendación:** diseñar las preguntas pensando _"¿qué quiero que recuerden en 6 meses?"_ — no _"¿qué leyeron en este párrafo?"_.
 
+⚠️ **La fuga de conjunto (ADR-090).** Las compuertas del build miran longitud, posición y primera palabra; **no ven el vocabulario**. En el Nivel 3 un alumno que no leyó acertaba así: *acompañar/formación* solo en las correctas (Curso 18, 9 de 14; **la metió la corrección**), *Consejo* solo en los distractores (Curso 19, 82 %), *porque* en 13 distractores y 1 correcta (Curso 20). **En cada vuelta de corrección**, contar en qué lado aparece cada palabra de contenido y simular un «alumno que solo sabe hacer exámenes» (descarta absolutos, «porque», «Esperar»…, elige la más larga): debe quedar cerca del azar (~4,7 de 14). El remedio es que el vocabulario de la lección aparezca también **mal usado** en un distractor.
+
 ### 6.6 Compromiso aterrizado en cada curso
 
 Cada curso del Nivel 1 cierra con un **compromiso firmable** (no abstracto):
@@ -467,6 +469,14 @@ A las decisiones pedagógicas globales del proyecto (lecciones cortas, auto-guar
 | **13 — Seguimiento de la Progresión** | Riesgo de volverse manual de Excel. | ⚠️ **No decir «las 9 técnicas»**: las *Herramientas 2.0* se presentan como *«una pequeña muestra a manera de banco»* y recomiendan *«escoger una o dos»* — no es lista cerrada (corregido en el Curso 6 el 28-jun-2026). **Un ejemplo vivo por técnica**: un anecdotario real, una rúbrica real, una conversación real. Ver el aviso de decisión abierta del §4.2 del Plan de Línea antes de construirlo. |
 | **14 — Planeación de Reuniones** | Riesgo de volverse tutorial de software. | El Excel oficial DNPJ (**DNPJ-2026-020**) como **soporte, no como tema**. El tema es: cómo se planea pensando en los 8 elementos + DURASLID. ⚠️ **Dos cosas que el instrumento trae y hay que contar, no tapar:** su rúbrica puntúa **7 de los 8 DURASLID** —falta **«Diversa»**, que el *Modelo* sí enuncia en su Cap. 10— y existe una **segunda superficie**, la herramienta HTML **DNPJ-2026-022 V3.0**, que funde Hoja de Ruta y Ficha y **no trae DURASLID**. El curso va sobre el Excel, que es lo que el **Curso 5 le prometió al adulto**, y nombra la otra (**ADR-056**). |
 | **15 — Ciclo de Programa con ABP** | Riesgo de "ABP como moda pedagógica". | ABP **aterrizado al proyecto scout real**, con los **cinco momentos del *Modelo* §11.2, pp. 75–77**: *diagnóstico participativo · planificación con ABP · ejecución iterativa · **presentación pública** · evaluación y transferencia*, y la **pregunta guía** (§11.1, p. 75). ⚠️ **No usar** *propuesta-decisión-preparación-desarrollo-evaluación*: es la nomenclatura anterior, se cae la presentación pública —*«un acto de ciudadanía, no un show»*, p. 77— y **el error estuvo publicado en el Curso 7** hasta el 16-sep-2026. |
+
+### 8.4 Lo que dejó el Nivel 3 (cursos 16–20, completo el 27-sep-2026)
+
+- **Las fichas del *Manual de Cargos* 2020 están debajo del *Reglamento Nacional* 2026** (Art. 19): donde choquen, manda el Reglamento; y las incompatibilidades se citan **enteras** (Art. 72 exceptúa el nivel de grupo).
+- **Un curso para un joven no puede llamarlo «adulto voluntario»:** declarar `registration.motivationLabel` y `commitmentBox` en el JSON (Cursos 18–20). Sin ellos el motor usa los textos de adultos.
+- **Normas de 2022 de la Red contra el Estatuto 2025** (miembro juvenil ante la CNVC, delegados Rover): contar la regla de jerarquía y remitir a la Comisión Nacional Rover; **no afirmar cómo quedó**.
+- **Ruta de protección:** el adulto **reporta** por el botón «Me Pongo A Salvo del Peligro»; activar las rutas es del Comité (Política ASP dic-2025). El *Manual* 2020 dice «activar»: no copiarlo.
+- **Cada vuelta de corrección mete defectos nuevos**: en los tres cursos, la cuarta pasada arregló lo que trajo la tercera. Re-auditar siempre, y una verificación final corta antes de publicar.
 
 ---
 

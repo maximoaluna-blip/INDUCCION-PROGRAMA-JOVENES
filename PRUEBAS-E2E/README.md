@@ -65,11 +65,13 @@ Nivel 2 — **las cinco ramas**: `rama-manada-lobatos`, `rama-familia-cachorros`
 `rama-tropa-scout`, `rama-comunidad-nomadas`, `rama-clan-rovers`.
 Nivel 2 — **los tres operativos** (17-sep-2026, cierran el nivel): `seguimiento-progresion-personal`,
 `planeacion-reuniones-oda`, `ciclo-programa-abp`.
-Nivel 3 — **por cargo** (27-sep-2026): `jefe-de-rama`, `acompanamiento-progresion-personal`.
+Nivel 3 — **por cargo** (27-sep-2026, completo): `jefe-de-rama`, `acompanamiento-progresion-personal`,
+`comisionado-programa-jovenes`, `consejero-juvenil`, `red-de-jovenes`.
 
-Con los 16 la suite da **211 passed / 0 failed / 2 skipped** (las 2 son las opcionales:
-backend de integración y portal). Medido el 27-sep-2026 contra una copia local con el curso
-volteado a `active` (ADR-052); con 15 cursos eran 200 + 2 desde el ADR-081.
+Con los 20 la suite da **255 passed / 0 failed / 2 skipped** (las 2 son las opcionales:
+backend de integración y portal). Medido el 27-sep-2026 contra una copia local con los cursos
+volteados a `active` (ADR-052) **y repetido contra producción** con el mismo resultado (ADR-090);
+con 16 cursos eran 211 + 2 y con 15, 200 + 2.
 
 Todos con `status: "active"` en `02-Plataforma-Web/cursos.json`. El catálogo dinámico
 (`_setup-cursos.js`, filtra por `status: "active"/"new"`) y el fallback estático de

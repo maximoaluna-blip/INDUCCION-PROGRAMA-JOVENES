@@ -101,8 +101,8 @@ Cuando un curso es compartido entre líneas, se consume desde una sola fuente pa
 | Nivel | Nombre | # de cursos | Audiencia primaria | Estado |
 |---|---|---|---|---|
 | 1 | Ruta de Fundamentación | 7 cursos | Todo adulto que entra a la línea | **Completo** — 7/7 publicados |
-| 2 | Profundización por rama y por práctica pedagógica | 8 cursos | Dirigentes de unidad y equipos de programa | En construcción — 4/8 (Manada, Familia, Tropa y Comunidad publicadas) |
-| 3 | Especialización por cargo | 5 cursos | Adulto en cargo de programa | Por construir |
+| 2 | Profundización por rama y por práctica pedagógica | 8 cursos | Dirigentes de unidad y equipos de programa | **Completo** — 8/8 publicados (17-sep-2026) |
+| 3 | Especialización por cargo | 5 cursos | Adulto en cargo de programa —y, en los Cursos 19 y 20, el Rover en un cargo juvenil— | **Completo** — 5/5 publicados (27-sep-2026, ADR-090) |
 | 4 | Transversales | 5 cursos | Todo adulto del movimiento | Por construir |
 
 **Total: 25 cursos.**
@@ -258,9 +258,9 @@ Una vez los Niveles 1 y 2 estén operando, este nivel aterriza las funciones, co
 |---|---|---|---|
 | 16 | Jefe de Rama (Manada, Tropa, Comunidad, Clan) | Quienes encabezan la unidad | Conducción del equipo de dirigentes de la unidad; ciclo de programa de la unidad; relación con el Jefe de Grupo; planeación trimestral/anual; rendición de cuentas al consejo; vínculo con las familias; sostenibilidad de la unidad (recambio, formación, traspasos). |
 | 17 | Acompañar la Progresión Personal *(publicado el 27-sep-2026; antes «Asistente y acompañamiento…», retitulado por el ADR-087)* | Todo dirigente de unidad que acompaña la progresión individual | El acompañamiento uno-a-uno de la progresión personal como **función del dirigente** (Modelo de Aplicación 2026, Cap. 9 — roles Apoyar/Acompañar/Enlazar), no como un cargo aparte; la entrevista personal; el plan de progresión individual; el manejo del Registro de Acompañamiento (DNPJ-2026-021); confidencialidad, ética, escucha activa, límites del rol. |
-| 18 | Comisionado de Programa de Jóvenes (regional y nacional) | Comisionados PJ de cualquier nivel | Funciones del comisionado de PJ; articulación entre niveles (DNPJ ↔ regional ↔ grupo); conducción de comisiones especializadas (por rama, Mundo Mejor, A Salvo del Peligro); plan de comisionado; rendición de cuentas; relación con la Red Nacional de Jóvenes. Réplica del patrón del Curso 19 de DI aterrizado al ámbito de Programa. |
-| 19 | Consejero Juvenil | Consejeros juveniles de grupo, región y nivel nacional | Rol de puente entre los jóvenes y los órganos de administración (consejo de grupo, asamblea regional, CSN); articulación con la **Política Nacional de Participación Juvenil**; acompañamiento al consejo en perspectiva juvenil. Articula con el Curso 18 de DI (Consejero de Grupo y Regional). |
-| 20 | Coordinador y Comunicador de la Red de Jóvenes | Rovers en cargos RDJ regional y nacional | **Reglamento de la Red Nacional de Jóvenes** (Acuerdo C.S.N. 556), **Manual de Cargos y Funciones RDJ** (2024) y **Reglamento para Asambleas Rover y Elección de Representantes Juveniles** (2022). Estructura piramidal Rovers → Equipo Regional → Equipo Nacional; los 4 ejes Rover (transversal, Viaje y Enlace Internacional, Servicio, Empresa); Asamblea Nacional Rover; cargos Coordinador, Comunicador, Consejero Juvenil Nacional, Miembro Juvenil ante CNVC; articulación con la Red Interamericana. |
+| 18 | Comisionado de Programa de Jóvenes (regional y nacional) *(publicado el 27-sep-2026, ADR-090)* | Comisionados PJ de cualquier nivel | Funciones del comisionado de PJ; articulación entre niveles (DNPJ ↔ regional ↔ grupo); conducción de comisiones especializadas (por rama, Mundo Mejor, A Salvo del Peligro); plan de comisionado; rendición de cuentas; relación con la Red Nacional de Jóvenes. Réplica del patrón del Curso 19 de DI aterrizado al ámbito de Programa. |
+| 19 | Consejero Juvenil *(publicado el 27-sep-2026, ADR-090; primer curso para un joven)* | Consejeros juveniles de grupo, región y nivel nacional | Rol de puente entre los jóvenes y los órganos de administración (consejo de grupo, asamblea regional, CSN); articulación con la **Política Nacional de Participación Juvenil**; acompañamiento al consejo en perspectiva juvenil. Articula con el Curso 18 de DI (Consejero de Grupo y Regional). |
+| 20 | Red de Jóvenes: coordinar y comunicar *(publicado el 27-sep-2026 con ese título, ADR-090)* | Rovers en cargos RDJ regional y nacional | **Reglamento de la Red Nacional de Jóvenes** (Acuerdo C.S.N. 556), **Manual de Cargos y Funciones RDJ** (2024) y **Reglamento para Asambleas Rover y Elección de Representantes Juveniles** (2022). Estructura piramidal Rovers → Equipo Regional → Equipo Nacional; los 4 ejes Rover (transversal, Viaje y Enlace Internacional, Servicio, Empresa); Asamblea Nacional Rover; cargos Coordinador, Comunicador, Consejero Juvenil Nacional, Miembro Juvenil ante CNVC; articulación con la Red Interamericana. |
 
 ### 5.2 Nota sobre la oferta del Nivel 3
 
@@ -300,13 +300,13 @@ El Curso 25 es de **adopción inmediata y fuertemente recomendado** para todo ad
 
 ## 7. Roadmap
 
-### 7.1 Estado actual (15-sep-2026)
+### 7.1 Estado actual (27-sep-2026)
 
-- **12 cursos publicados de 25.** Nivel 1 **completo** (7/7) y Nivel 2 con **5 de 8**: Curso 8 (Rama Manada), **Curso 9 (Rama Familia)**, **Curso 10 (Rama Tropa Scout)**, **Curso 11 (Rama Comunidad · Nómadas Scout)** y **Curso 12 (Rama Clan · Rovers)**, los dos últimos el 16-sep-2026. **Con el Curso 12 quedan cerradas las cinco ramas**, que era el bloque de identidad del Nivel 2; lo que resta del nivel son los tres cursos de práctica pedagógica (13, 14 y 15).
+- **20 cursos publicados de 25. Niveles 1, 2 y 3 completos** (7 + 8 + 5). El Nivel 3, por cargo, se abrió y cerró el 27-sep-2026 (ADR-083, ADR-087 y ADR-090). **Queda el Nivel 4**, transversal (Cursos 21–25).
 - Plataforma técnica **en producción**: frontend en GitHub Pages, backend en Google Apps Script con backup nocturno, dashboard administrativo, generador de cursos basado en JSON. El motor es compartido con las otras líneas desde el ADR-025 (núcleo único en `_MOTOR/`, propagado por `sincronizar-motor.py`).
 - Repositorio: `INDUCCION-PROGRAMA-JOVENES`.
 - URL pública: `https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/`.
-- **Quedan 14 cursos**: el **12** de rama (Clan); 13–15 operativos; 16–20 por cargo; 21–25 transversales.
+- **Quedan 5 cursos**: los transversales del Nivel 4 (21–25).
 
 ### 7.2 Próximos hitos
 
@@ -315,10 +315,10 @@ El Curso 25 es de **adopción inmediata y fuertemente recomendado** para todo ad
 - ~~**Hito C — Validación del Nivel 1 con piloto**~~ **DEROGADO por el ADR-019 (11-jul-2026):** el piloto humano dejó de ser requisito para publicar. La compuerta de calidad son las tres auditorías — doctrinal, pedagógica y funcional.
 - **Hito D — Curso 25 (A Salvo del Peligro) en paralelo**: por su valor —**no por ser habilitante, que no lo es (ADR-019)**— se construye y publica antes que el resto del Nivel 4, idealmente al cierre del Nivel 1, para que ningún dirigente llegue al Nivel 2 sin haberlo tenido disponible.
 - ~~**Hito E — Nivel 2 Prioridad 1 — Rama de mayor demanda**~~ **HECHO (jul-2026):** el **Curso 8 (Manada)** fue el segundo vertical slice y el primer curso publicado bajo el ADR-019, sin piloto bloqueante.
-- **Hito F — Cierre del Nivel 2 ramas**: ~~Familia (9)~~ y ~~Tropa (10)~~ **HECHAS el 15-sep-2026**; ~~Comunidad (11)~~ **HECHA el 16-sep-2026**. Queda **Clan (12)** para cerrar las cinco ramas — y con la advertencia del **ADR-047**: si su Guía es tan extensa como la de Comunidad, **se diseña como dos cursos desde el principio**. *(La versión anterior de esta línea decía "los otros 4" y listaba solo 3: se le había caído Tropa.)*
-- **Hito G — Nivel 2 cursos operativos**: construir los Cursos 13, 14 y 15 (Seguimiento, Planeación, Ciclo de Programa con ABP) como complemento universal.
-- **Hito H — Iniciar Nivel 3 con curso integrador (16 — Jefe de Rama)** y el acompañamiento de la progresión (17), que es función de todo dirigente.
-- **Hito I — Completar Nivel 3 y Nivel 4** según demanda. Los kits de Mundo Mejor (Cursos 21–24) pueden lanzarse de a uno, aprovechando convocatorias nacionales o mundiales para hacer pilotos vivenciales.
+- ~~**Hito F — Cierre del Nivel 2 ramas**~~ **HECHO (16-sep-2026)**: ~~Familia (9)~~ y ~~Tropa (10)~~ **HECHAS el 15-sep-2026**; ~~Comunidad (11)~~ **HECHA el 16-sep-2026**. Queda **Clan (12)** para cerrar las cinco ramas — y con la advertencia del **ADR-047**: si su Guía es tan extensa como la de Comunidad, **se diseña como dos cursos desde el principio**. *(La versión anterior de esta línea decía "los otros 4" y listaba solo 3: se le había caído Tropa.)*
+- ~~**Hito G — Nivel 2 cursos operativos**~~ **HECHO (17-sep-2026)**: construir los Cursos 13, 14 y 15 (Seguimiento, Planeación, Ciclo de Programa con ABP) como complemento universal.
+- ~~**Hito H — Iniciar Nivel 3 con curso integrador (16 — Jefe de Rama)**~~ **HECHO (27-sep-2026)**: y el acompañamiento de la progresión (17), que es función de todo dirigente.
+- **Hito I — Completar Nivel 3 y Nivel 4** según demanda. **El Nivel 3 se completó el 27-sep-2026 (ADR-090)**; queda el 4. Los kits de Mundo Mejor (Cursos 21–24) pueden lanzarse de a uno, aprovechando convocatorias nacionales o mundiales para hacer pilotos vivenciales.
 
 ### 7.3 Criterio para avanzar entre niveles
 
@@ -416,5 +416,7 @@ Toda la línea se basa en documentos oficiales y materiales validados de la ASC,
 | Vivir-Mirar-Comprender-Proyectar | Ciclo pedagógico de la lección/oportunidad de aprendizaje según el Modelo de Aplicación de Bolsillo: vivir la experiencia, mirarla, comprender lo aprendido, proyectar la siguiente acción. |
 
 ---
+
+_Plan de Formación de la Línea Programa de Jóvenes — **v1.3, 27 de septiembre de 2026**. La v1.3 marca el **Nivel 3 completo** (Cursos 16–20, ADR-083, ADR-087 y ADR-090), actualiza el estado por nivel y la hoja de ruta, retitula el Curso 20 (*Red de Jóvenes: coordinar y comunicar*) y corrige el eje de la Red «Vida y Espíritu» por **Viaje y Enlace Internacional**. No cambia la estructura._
 
 _Documento elaborado como parte del proyecto de digitalización de la formación de adultos voluntarios del movimiento scout colombiano. Plan de Formación de la Línea Programa de Jóvenes — **v1.2, 17 de septiembre de 2026**. La v1.2 **no cambia doctrina ni estructura**: añade en el §4.2 un aviso de **decisión abierta** sobre tres frases —«Objetivos Educativos», «Asesores Personales» y los cinco momentos del ciclo de programa— que **reintroducirían en los Cursos 13 y 15 errores ya corregidos en cursos publicados**. Se marcan, no se corrigen: el plan es aguas arriba del JSON y tocarlo es decisión del dueño. La v1.1, del 15-sep-2026, fue la renumeración +1 (ver §2.1)._
