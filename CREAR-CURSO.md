@@ -648,21 +648,21 @@ Antes de publicar, verificar que **todos** los documentos citados siguen siendo 
 | 2 | 10 Rama Tropa Scout | `rama-tropa-scout` ✅ |
 | 2 | 11 Rama Comunidad (Nómadas Scout) | `rama-comunidad-nomadas` ✅ |
 | 2 | 12 Rama Clan (Rovers) | `rama-clan-rovers` ✅ |
-| 2 | 13 Seguimiento de la Progresión Personal | `seguimiento-progresion-personal` |
-| 2 | 14 Planeación de Reuniones y OdA | `planeacion-reuniones-oda` |
-| 2 | 15 Ciclo de Programa con ABP | `ciclo-programa-abp` |
-| 3 | 16 Jefe de Rama | `jefe-de-rama` |
-| 3 | 17 Asistente y acompañamiento de la progresión personal | `asistente-acompanamiento-progresion` |
-| 3 | 18 Comisionado de Programa de Jóvenes | `comisionado-programa-jovenes` |
-| 3 | 19 Consejero Juvenil | `consejero-juvenil` |
-| 3 | 20 Coordinador y Comunicador RDJ | `coordinador-comunicador-rdj` |
+| 2 | 13 Seguimiento de la Progresión Personal | `seguimiento-progresion-personal` ✅ |
+| 2 | 14 Planeación de Reuniones y OdA | `planeacion-reuniones-oda` ✅ |
+| 2 | 15 Ciclo de Programa con ABP | `ciclo-programa-abp` ✅ |
+| 3 | 16 Jefe de Rama | `jefe-de-rama` ✅ |
+| 3 | 17 Acompañar la Progresión Personal | `acompanamiento-progresion-personal` ✅ |
+| 3 | 18 Comisionado de Programa de Jóvenes | `comisionado-programa-jovenes` ✅ |
+| 3 | 19 Consejero Juvenil | `consejero-juvenil` ✅ |
+| 3 | 20 Red de Jóvenes: coordinar y comunicar | `red-de-jovenes` ✅ |
 | 4 | 21 Marco de Mundo Mejor y ODS | `marco-mundo-mejor-ods` |
 | 4 | 22 Kit Constructores de Paz | `kit-constructores-paz` |
 | 4 | 23 Kit HeForShe y enfoque de género | `kit-heforshe-genero` |
 | 4 | 24 Kit Patrimonito y Patrimonio | `kit-patrimonito-patrimonio` |
 | 4 | 25 A Salvo del Peligro aplicado al Programa | `a-salvo-del-peligro-programa` |
 
-*(✅ = publicado y `active` al 15-sep-2026 — 10 de 25.)*
+*(✅ = publicado y `active` al 27-sep-2026 — 20 de 25: Niveles 1, 2 y 3 completos.)*
 
 ---
 

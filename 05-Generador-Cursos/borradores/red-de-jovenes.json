@@ -609,7 +609,7 @@
             "text": "Preparas el orden del día de la Asamblea Nacional Rover. El reglamento de las Asambleas Rover, de 2022, dice que debe elegir hasta cuatro delegados Rover a la Asamblea Scout Nacional. ¿Qué haces con esa elección?",
             "options": [
               "Ponerla, porque el reglamento de las Asambleas es la norma propia de los Rovers y la más específica.",
-              "Quitarla, porque el Estatuto 2025 cambió cómo se arma la Asamblea Scout Nacional y esa elección ya no existe.",
+              "Quitarla, porque desde el Estatuto 2025 el reglamento de las Asambleas Rover ya no rige en nada.",
               "Preguntar antes a la Comisión Nacional Rover, porque el Estatuto, que manda, cambió esa asamblea."
             ],
             "correctIndex": 2
@@ -629,7 +629,7 @@
         },
         {
           "type": "info-box",
-          "text": "<strong>Idea central:</strong> los cargos de la Red duran uno o dos años, y quien los ocupa está en sus últimos meses como Rover. <strong>El relevo no es el final del cargo: es parte del cargo.</strong>"
+          "text": "<strong>Idea central:</strong> los cargos de la Red duran uno o dos años, y quien los ocupa suele estar en su último tramo como Rover. <strong>El relevo no es el final del cargo: es parte del cargo.</strong>"
         },
         {
           "type": "paragraph",

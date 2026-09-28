@@ -247,7 +247,7 @@
     "levelName": "Especialización por cargo",
     "order": 18,
     "modules": 8,
-    "status": "draft",
+    "status": "active",
     "file": "comisionado-programa-jovenes.html",
     "folder": "comisionado-programa-jovenes"
   },
@@ -261,7 +261,7 @@
     "levelName": "Especialización por cargo",
     "order": 19,
     "modules": 8,
-    "status": "draft",
+    "status": "active",
     "file": "consejero-juvenil.html",
     "folder": "consejero-juvenil"
   },
@@ -275,7 +275,7 @@
     "levelName": "Especialización por cargo",
     "order": 20,
     "modules": 8,
-    "status": "draft",
+    "status": "active",
     "file": "red-de-jovenes.html",
     "folder": "red-de-jovenes"
   }
