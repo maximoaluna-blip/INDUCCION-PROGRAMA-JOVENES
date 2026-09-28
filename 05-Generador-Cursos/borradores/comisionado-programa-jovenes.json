@@ -10,6 +10,10 @@
   "levelName": "Especialización por cargo",
   "order": 18,
   "totalContentModules": 7,
+  "commitmentBox": {
+    "prompt": "Escribe aquí tu tarea del próximo mes: <strong>el mapa de tu territorio</strong> y <strong>la conversación de acompañamiento</strong> que vas a fijar, con el mes. Por roles, no por nombres.",
+    "placeholder": "Este mes voy a mapear… y voy a conversar con un Jefe de Grupo sobre…"
+  },
   "achievements": [
     { "id": "achievement-1", "emoji": "🧭", "name": "Leo mis funciones", "unlockOnModule": 2 },
     { "id": "achievement-2", "emoji": "🌱", "name": "Animo el territorio", "unlockOnModule": 3 },
@@ -104,7 +108,7 @@
             "Si tu cargo es regional, <strong>te nombra el Jefe Scout Regional</strong>, previo aval de la Dirección Nacional de Programa de Jóvenes. A los comisionados nacionales de rama los nombra el Director Nacional, con aval del Jefe Scout Nacional.",
             "<strong>Respondes</strong> al Consejo Scout Regional, al Jefe Scout Regional, a la Dirección Nacional de Programa de Jóvenes y a los comisionados nacionales de rama en lo de su rama.",
             "<strong>No integras el Consejo Scout Regional.</strong> Lo dice tu ficha, y lo dice el <em>Reglamento Nacional</em> para todos los niveles: <em>«Los adultos que ejerzan cargos operativos en las ramas de los grupos, en las regiones o en la nación no podrán integrar los Consejos de su respectivo nivel»</em>.",
-            "<strong>No puedes tener a la vez</strong> un cargo de dirección o liderazgo en la nación y otro en la región; ser parte de un equipo no cuenta."
+            "<strong>No puedes tener a la vez</strong> un cargo de dirección o liderazgo en la nación y otro en la región; ser parte de un equipo no cuenta, y tener además un cargo en tu Grupo está permitido."
           ]
         },
         {
@@ -198,16 +202,16 @@
           {
             "text": "Una Tropa de la región no tiene quien la dirija este semestre. Algunos proponen que el comisionado regional la conduzca mientras tanto «porque sabe hacerlo». ¿Qué dice su ficha de funciones?",
             "options": [
-              "Que sí puede: la cuarta función le pide ejecutar el Programa en los grupos de la región.",
-              "Que no la dirige él: su cargo es acompañar al grupo para que la Tropa tenga quien la dirija.",
-              "Que no la dirige él: la Tropa se suspende hasta que la región le nombre un nuevo Jefe."
+              "Que sí puede: acompañar el Programa en los grupos incluye dirigir una unidad cuando falta Jefe, hasta que el grupo nombre a otro.",
+              "Que conducir una unidad no es una de sus funciones: lo suyo es acompañar al grupo, y al Jefe de Tropa lo nombra el Jefe de Grupo.",
+              "Que no la dirige él: la Tropa se suspende hasta que la región le nombre un nuevo Jefe, y sus scouts esperan sin reunirse."
             ],
             "correctIndex": 1
           },
           {
             "text": "Un comisionado regional quiere responder su cuarta pregunta: ¿se aplica bien el Programa en los grupos? ¿Qué dato le sirve?",
             "options": [
-              "Cuántos jóvenes entraron y cuántos salieron de los grupos de la región este año.",
+              "Cuántos grupos tienen a sus dirigentes con la formación al día, grupo por grupo.",
               "Cuántos eventos regionales se hicieron y cuántos jóvenes asistieron a cada uno.",
               "Cuántos grupos aplican el Modelo en sus unidades, y cómo lo hacen, grupo por grupo."
             ],
@@ -264,7 +268,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El segundo plan de Liliana fue distinto. Repartió los catorce grupos entre los comisionados de rama y los miembros de su comisión, organizó dos jornadas regionales de formación sobre el Modelo, y acordó con cada Jefe de Grupo una conversación por ciclo sobre cómo iba el Programa en sus unidades. Ella dejó de visitarlo todo, y la región empezó a moverse."
+          "text": "El segundo plan de Liliana fue distinto. Pidió a cada comisionado de rama acompañar a los Jefes de su rama, repartió los catorce grupos entre los miembros de su comisión, organizó dos jornadas regionales de formación sobre el Modelo, preparadas con el área de Adultos de la región, y acordó con cada Jefe de Grupo una conversación cada trimestre sobre cómo iba el Programa en sus unidades. Ella dejó de visitarlo todo, y la región empezó a moverse."
         },
         {
           "type": "paragraph",
@@ -296,7 +300,7 @@
             "options": [
               "Que visita poco: si fuera cada quince días, la mejora duraría entre una visita y otra.",
               "Que los grupos dependen de ella: les faltan herramientas y formación para sostenerlo solos.",
-              "Que las visitas funcionan: la mejora antes de cada una prueba que la toman en serio."
+              "Que las visitas funcionan: la mejora antes de cada una muestra que acompañarlos da fruto."
             ],
             "correctIndex": 1
           },
@@ -305,7 +309,7 @@
             "options": [
               "Hablando con el Jefe de la Manada y con su Jefe de Grupo, y ofreciéndoles herramientas y formación.",
               "Hablando con el Jefe de la Manada en confianza, sin pasar por el Jefe de Grupo, para no hacerlo oficial.",
-              "Enviando una comunicación al Consejo de Grupo para que corrija a la Manada en su próxima sesión."
+              "Ofreciéndose a acompañar él mismo las reuniones de la Manada hasta que el ciclo salga bien."
             ],
             "correctIndex": 0
           }
@@ -374,11 +378,11 @@
             "correctIndex": 2
           },
           {
-            "text": "Un comisionado de Tropa quiere que los Jefes de Tropa de su región usen una herramienta nueva de planeación. ¿Cuál es el camino que respeta su papel?",
+            "text": "Un comisionado regional de la rama Scout quiere que los Jefes de Tropa de su región usen una herramienta nueva de planeación. ¿Cuál es el camino que respeta su papel?",
             "options": [
               "Enviar una circular a los Jefes de Tropa ordenando su uso, sin pasar por sus Jefes de Grupo.",
               "Ofrecer la herramienta con formación y acompañamiento, en acuerdo con los Jefes de Grupo.",
-              "Pasarles la herramienta a los Jefes de Grupo, para que ellos se la exijan a los Jefes de Tropa."
+              "Acompañar él mismo a cada Jefe de Tropa, unidad por unidad, en su primera planeación con ella."
             ],
             "correctIndex": 1
           }
@@ -416,7 +420,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Prevenir va primero. Un evento regional seguro tiene sus riesgos pensados antes: responsables con nombre para la seguridad, los primeros auxilios y los tiempos; fichas de salud y autorizaciones al día; protocolos del lugar. Liliana aprendió a pedir esa lista una semana antes, no dos días."
+          "text": "Prevenir va primero. Un evento regional seguro tiene sus riesgos pensados antes: responsables con nombre para la seguridad, los primeros auxilios y los tiempos; fichas de salud y autorizaciones al día; protocolos del lugar. Liliana aprendió a pedir esa lista una semana antes, no dos días. Y en todo evento regional hay un plan de A Salvo del Peligro que se hace con la Comisión Nacional ASP, y el equipo de servicio tiene hecho el curso ASP. Pregunta por los dos antes de fijar la fecha."
         },
         {
           "type": "heading",
@@ -425,11 +429,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Tu ficha incluye también la competencia <strong>Garante del debido proceso</strong>, y una de sus conductas es exacta: <em>«Remite los casos, activando las rutas determinadas para dar trámite a la situación según el caso»</em>. Activar la ruta no es investigar, ni decidir quién tiene la razón, ni guardar el caso para ti. Es asegurar que llegue a quien corresponde, <em>«salvaguardando la presunción de inocencia y el buen nombre»</em> de las personas."
+          "text": "Tu ficha incluye también la competencia <strong>Garante del debido proceso</strong>, y una de sus conductas es exacta: <em>«Remite los casos, activando las rutas determinadas para dar trámite a la situación según el caso»</em>. Hoy, con la política vigente, eso se hace reportando por la ruta oficial: quien recibe el reporte es quien activa lo que siga. Reportar no es investigar, ni decidir quién tiene la razón, ni guardar el caso para ti. Es asegurar que llegue a quien corresponde, <em>«salvaguardando la presunción de inocencia y el buen nombre»</em> de las personas."
         },
         {
           "type": "paragraph",
-          "text": "Con aquella llamada, a Liliana le salió la Jefa de Tropa: quiso ir ese fin de semana al grupo, para entender qué había pasado. Se detuvo antes de marcar. Entender no le tocaba a ella; le tocaba que el caso llegara a quien corresponde. Activó la ruta, y no comentó el caso con nadie fuera de ella."
+          "text": "Con aquella llamada, a Liliana le salió la Jefa de Tropa: quiso ir ese fin de semana al grupo, para entender qué había pasado. Se detuvo antes de salir. Entender no le tocaba a ella; le tocaba que el caso llegara a quien corresponde. Lo reportó por la ruta oficial, el botón «Me Pongo A Salvo del Peligro», y no comentó el caso con nadie más."
         },
         {
           "type": "info-box",
@@ -441,7 +445,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Piensa en el próximo evento regional que vas a coordinar o a acompañar. Escribe tres riesgos que pueden aparecer y quién (por su rol) va a responder por cada uno. Y escribe, en una línea, cuál es la ruta que activarías si un Jefe de Grupo te contara algo delicado que pasó con un joven. Si no la sabes, escribe dónde la vas a averiguar antes del evento."
+        "prompt": "Piensa en el próximo evento regional que vas a coordinar o a acompañar. Escribe tres riesgos que pueden aparecer y quién (por su rol) va a responder por cada uno. Y escribe, en una línea, por qué ruta lo reportarías si un Jefe de Grupo te contara algo delicado que pasó con un joven. Si no la sabes, escribe dónde la vas a averiguar antes del evento."
       },
       "quiz": {
         "title": "Mini-quiz Lección 5",
@@ -450,8 +454,8 @@
           {
             "text": "En un evento regional que coordinas, un Jefe de Clan te cuenta lo que un rover le reveló sobre un adulto de otro grupo. Conoces a ese adulto hace años y no lo crees capaz. ¿Qué haces?",
             "options": [
-              "Activar la ruta aunque no lo creas: decidir qué pasó le toca a quien recibe el caso.",
-              "Hablar primero en privado con el adulto, para oír su versión antes de activar la ruta.",
+              "Reportarlo por la ruta oficial aunque no lo creas: valorar qué pasó le toca a quien recibe el reporte.",
+              "Hablar primero en privado con el adulto, para oír su versión antes de reportarlo.",
               "Esperar a que termine el evento y el rover lo confirme, para cuidar el buen nombre del adulto."
             ],
             "correctIndex": 0
@@ -498,7 +502,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La quinta te pide <em>«Proponer objetivos y actividades en pro de fortalecer el crecimiento de la membresía de los grupos de la Región»</em>: coordinar las acciones de crecimiento, buscar actividades, alianzas y convenios. Un Programa bien aplicado retiene a los jóvenes; uno mal aplicado los pierde. Por eso el crecimiento no es un tema aparte del Programa: es uno de sus resultados."
+          "text": "La quinta te pide <em>«Proponer objetivos y actividades en pro de fortalecer el crecimiento de la membresía de los grupos de la Región»</em>: coordinar las acciones de crecimiento, buscar actividades, alianzas y convenios. Un Programa bien aplicado retiene a los jóvenes; uno mal aplicado los pierde. Por eso el crecimiento no es un tema aparte del Programa: es uno de sus resultados. En la región también hay un comisionado de crecimiento, del área de Desarrollo Institucional: con él se coordina, no se le entrega."
         },
         {
           "type": "heading",
@@ -530,18 +534,18 @@
           {
             "text": "El informe semestral de un comisionado de rama trae una tabla impecable: 38 actividades, 12 visitas, 4 jornadas. El Consejo Regional pregunta: «¿y cómo va la rama?». ¿Qué le faltó?",
             "options": [
-              "Resultados que sirvan para decidir: unidades que aplican el Modelo, jóvenes que entran y salen.",
+              "Datos del efecto: qué cambió en las unidades y cuántos jóvenes tiene la rama frente al año pasado.",
               "Más detalle de lo hecho: la fecha, el lugar y los asistentes de cada una de las 38 actividades.",
               "Un anexo con fotos y testimonios de cada grupo, que muestre cómo se vive la rama en la región."
             ],
             "correctIndex": 0
           },
           {
-            "text": "En una región, la Tropa pierde un tercio de sus scouts entre un año y el siguiente. ¿Qué tiene que ver eso con el comisionado de Programa?",
+            "text": "En una región, la Tropa pierde un tercio de sus scouts entre un año y el siguiente. ¿Qué le toca al Comisionado Regional de Programa de Jóvenes?",
             "options": [
-              "Algo: le toca contarlo en su informe, pero la causa está en cada grupo, no en la región.",
-              "Poco: el crecimiento es tarea del área de Desarrollo Institucional, no del Programa.",
-              "Mucho: su quinta función es el crecimiento, y un Programa mal aplicado pierde jóvenes."
+              "Registrarlo en su informe y pedir a cada grupo que busque sus causas, porque la salida ocurre en sus unidades.",
+              "Remitirlo al área de Desarrollo Institucional, que es la que lleva el crecimiento y las alianzas de la región.",
+              "Revisar con esos grupos cómo se aplica el Programa en sus Tropas, y llevar al plan acciones de crecimiento."
             ],
             "correctIndex": 2
           }
@@ -569,7 +573,11 @@
         },
         {
           "type": "paragraph",
-          "text": "La ficha del Director Nacional de Programa de Jóvenes muestra el mismo oficio, una escala más arriba. Entre sus funciones: <strong>alinear</strong> el Programa con las políticas de la Región Interamericana y de la Organización Mundial, atendiendo a las necesidades de la juventud colombiana; <strong>desarrollar, promover e impulsar</strong> la Política Nacional y su modelo de aplicación, con un <em>«acompañamiento activo a los diferentes comisionados de Programa del país (animación territorial)»</em>; y <strong>evaluar</strong> su aplicación en cada región por medio de los comisionados regionales. Así como tú acompañas a los grupos, la Dirección Nacional acompaña a las regiones. Y el <em>Reglamento Nacional</em> sitúa a la Dirección dentro de la Jefatura: el Jefe Scout Nacional dirige la organización <em>«desde las Direcciones de Programa de Jóvenes, Adultos en el Movimiento, Comunicaciones y Desarrollo Institucional»</em>. Esa era la respuesta que Liliana buscaba: a ella también la acompañan, por la misma razón que ella acompaña a los grupos. Volvió a su región sabiendo que ese acompañamiento también se pide."
+          "text": "La ficha del Director Nacional de Programa de Jóvenes muestra el mismo oficio, una escala más arriba. Entre sus funciones: <strong>alinear</strong> el Programa con las políticas de la Región Interamericana y de la Organización Mundial, atendiendo a las necesidades de la juventud colombiana; <strong>desarrollar, promover e impulsar</strong> la Política Nacional y su modelo de aplicación, con un <em>«acompañamiento activo a los diferentes comisionados de Programa del país (animación territorial)»</em>; y <strong>evaluar</strong> su aplicación en cada región por medio de los comisionados regionales. Así como tú acompañas a los grupos, la Dirección Nacional acompaña a las regiones. Esa era la respuesta que Liliana buscaba: a ella también la acompañan, por la misma razón que ella acompaña a los grupos. Volvió a su región sabiendo que ese acompañamiento también se pide."
+        },
+        {
+          "type": "paragraph",
+          "text": "El <em>Reglamento Nacional</em> sitúa a la Dirección dentro de la Jefatura: el Jefe Scout Nacional dirige la organización <em>«desde las Direcciones de Programa de Jóvenes, Adultos en el Movimiento, Comunicaciones y Desarrollo Institucional»</em>."
         },
         {
           "type": "info-box",
@@ -610,11 +618,11 @@
         "nextLabel": "Continuar a tu perfil 🧩",
         "questions": [
           {
-            "text": "Una comisionada regional planea un encuentro regional de formación sobre el Modelo de Aplicación. ¿Con quién le conviene conversar antes de fijarlo?",
+            "text": "Una comisionada regional planea un encuentro regional de formación sobre el Modelo de Aplicación. ¿Con quién le pide la política conversar antes de fijarlo?",
             "options": [
               "Con el área de Adultos en el Movimiento de su región, porque la formación de adultos se hace en conjunto.",
-              "Con los Jefes de Rama de la región, uno por uno, porque son ellos quienes aplican el Modelo cada sábado.",
-              "Con su comisión de Programa, que es la que conoce el Modelo y la que va a dictar el encuentro."
+              "Con los Jefes de Rama de la región, porque son ellos quienes aplican el Modelo cada sábado en sus unidades.",
+              "Con su comisión de Programa, que acompaña a los grupos de la región y conoce la formación que les falta."
             ],
             "correctIndex": 0
           },
@@ -675,7 +683,7 @@
         },
         {
           "type": "mission-box",
-          "text": "🎯 <strong>Tu tarea para el próximo mes.</strong> Haz el <strong>mapa de tu territorio</strong>: los grupos de tu región, sus unidades y, al lado de cada grupo, quién de tu comisión lo acompaña (por su rol o sus iniciales). Marca los grupos que nadie acompaña hoy. Después fija <strong>una conversación de acompañamiento</strong> con un Jefe de Grupo de esa lista, con fecha, y una pregunta: <em>¿cómo va el Programa en tus unidades, y qué necesitas de la región?</em> Porque un comisionado no aplica el Programa: hace que se aplique bien en unidades que no dirige. Escríbelo también en el Compromiso Personal que aparece junto a tu certificado."
+          "text": "🎯 <strong>Tu tarea para el próximo mes.</strong> Haz el <strong>mapa de tu territorio</strong>: los grupos de tu región, sus unidades y, al lado de cada grupo, quién de tu comisión lo acompaña (por su rol). Marca los grupos que nadie acompaña hoy. Después fija <strong>una conversación de acompañamiento</strong> con un Jefe de Grupo de esa lista, con fecha, y una pregunta: <em>¿cómo va el Programa en tus unidades, y qué necesitas de la región?</em> Porque un comisionado no aplica el Programa: hace que se aplique bien en unidades que no dirige. Escríbelo también en el Compromiso Personal que aparece junto a tu certificado."
         }
       ],
       "reflection": {
@@ -699,7 +707,7 @@
             "options": [
               "Visitar ella misma las unidades con más problemas, para resolverlos durante el mes.",
               "Mapear quién acompaña cada grupo y abrir una conversación con uno que nadie acompaña.",
-              "Mapear las unidades de la región que mejor funcionan, y visitarlas para aprender de sus Jefes."
+              "Mapear las unidades que mejor funcionan y acompañar sus reuniones para aprender de sus Jefes."
             ],
             "correctIndex": 1
           }
