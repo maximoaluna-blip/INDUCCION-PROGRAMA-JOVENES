@@ -25,7 +25,7 @@
   },
   "commitmentBox": {
     "prompt": "Escribe tu compromiso para tu tiempo en el asiento juvenil —o para acompañar a quien lo ocupa—:",
-    "placeholder": "Mi compromiso con los niños y jóvenes que represento es..."
+    "placeholder": "Mi compromiso es..."
   },
   "certificate": {
     "courseName": "CONSEJERO JUVENIL",
@@ -51,7 +51,7 @@
             "<strong>Ejercer</strong> el asiento con voz y voto en todo lo que decide el Consejo.",
             "<strong>Recoger</strong> la voz de todos los miembros infantiles y juveniles antes de llevarla.",
             "<strong>Rendir cuentas</strong> ante la asamblea que te eligió.",
-            "<strong>Distinguir</strong> lo que el cargo te prohíbe: dádivas, información confidencial, proselitismo, conflictos de interés.",
+            "<strong>Distinguir</strong> lo que el cargo te prohíbe —dádivas, mal uso de información confidencial, proselitismo— y cómo declarar un conflicto de intereses.",
             "<strong>Diferenciar</strong>, si eres el adulto que acompaña, entre apoyar la voz juvenil y sustituirla."
           ]
         },
@@ -149,7 +149,7 @@
             },
             {
               "title": "Si te postulas en tu región",
-              "description": "Te elige cada año la <strong>Asamblea Regional Rover</strong>. Los reglamentos de la Red y de las Asambleas Rover piden tener entre <strong>18 y 21 años y 2 meses</strong> al ser elegido. El periodo es de <strong>un año</strong>.",
+              "description": "Te elige cada año la <strong>Asamblea Regional Rover</strong>. Tienes que ser Rover, y el reglamento de las Asambleas Rover pide tener entre <strong>18 y 21 años y 2 meses</strong> al ser elegido. El periodo es de <strong>un año</strong>.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
@@ -183,7 +183,7 @@
         },
         {
           "type": "info-box",
-          "text": "🔢 <strong>Tres edades, cada una con su fuente.</strong> El <em>Estatuto</em> pide ser mayor de edad. Para la región y la nación, los reglamentos de la Red y de las Asambleas Rover piden tener entre <strong>18 y 21 años y 2 meses</strong> al ser elegido. Y el reglamento de las Asambleas Rover recuerda que la ley colombiana considera joven a quien tiene entre <strong>14 y 28 años</strong>. No se contradicen: cada una responde a una pregunta distinta. Cuando te postules, mira la del nivel al que vas."
+          "text": "🔢 <strong>Tres edades, cada una con su fuente.</strong> El <em>Estatuto</em> pide ser mayor de edad. Para la región y la nación, los reglamentos de la Red y de las Asambleas Rover ponen el rango que precisan las tarjetas de arriba. Y el reglamento de las Asambleas Rover recuerda que la ley colombiana considera joven a quien tiene entre <strong>14 y 28 años</strong>. No se contradicen: cada una responde a una pregunta distinta. Cuando te postules, mira la del nivel al que vas."
         },
         {
           "type": "info-box",
@@ -201,15 +201,15 @@
             "text": "En un Grupo con cinco Rovers, el Jefe de Grupo propone que el Consejo de Grupo designe directamente al Rover «más responsable» para el asiento juvenil. ¿Qué debería responderle el consejero juvenil que termina su periodo?",
             "options": [
               "Que lo eligen los Rovers, pero el Consejo puede cambiarlo si no le parece el más responsable.",
-              "Que es válido si el Jefe de Grupo lo propone y la Asamblea de Grupo lo ratifica.",
-              "Que lo eligen los Rovers inscritos en el Grupo, entre ellos y en votación, por un año."
+              "Que lo designa la Asamblea de Grupo a propuesta del Jefe de Grupo, y no el Consejo, para darle más respaldo.",
+              "Que el Consejo no lo designa: lo eligen los Rovers inscritos en el Grupo, en votación, por un año."
             ],
             "correctIndex": 2
           },
           {
             "text": "Un Rover es coordinador de la Red de Jóvenes de su región y la Asamblea Nacional Rover lo elige Consejero Juvenil Nacional. ¿Qué pasa con su cargo regional?",
             "options": [
-              "Que renuncia al cargo regional para asumir el nacional, como pide el reglamento de la Red.",
+              "Que renuncia al cargo regional, porque el reglamento de la Red no le deja tener los dos.",
               "Que conserva los dos: se complementan y le dan más información para llevar al Consejo Nacional.",
               "Que renuncia al cargo nacional si la región lo necesita más, porque allí lo eligieron primero."
             ],
@@ -253,7 +253,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Para la tercera sesión, en la que se votaba el presupuesto, Daniela pidió el orden del día con anticipación, leyó el presupuesto y preparó una pregunta: cuánto se destinaba ese año a formar dirigentes. Nadie más la había hecho."
+          "text": "Para la tercera sesión, en la que el Consejo votaba el proyecto de presupuesto que llevaría a la Asamblea Scout Regional, Daniela pidió el orden del día con anticipación, leyó el proyecto y preparó una pregunta: cuánto se destinaba ese año a formar dirigentes. Nadie más la había hecho."
         },
         {
           "type": "info-box",
@@ -271,17 +271,17 @@
             "text": "El Consejo de Grupo va a decidir si traslada la sede a un salón más barato pero más lejos. El consejero juvenil piensa: «eso es de plata; que decidan los adultos». ¿Qué le conviene hacer?",
             "options": [
               "Votar con la mayoría, porque en temas de dinero su aporte es menor y no conviene frenar al Consejo.",
-              "Votar como los demás, después de preguntar cómo llegarían los lobatos y los scouts a la nueva sede.",
-              "Abstenerse, porque su función es llevar las propuestas de los jóvenes y no la administración del Grupo."
+              "Preguntar cómo llegarían los lobatos y los scouts a la sede nueva, y votar, porque es su tema.",
+              "Abstenerse: su función es llevar las propuestas de los jóvenes, no la administración del Grupo."
             ],
             "correctIndex": 1
           },
           {
             "text": "El día de la sesión, a la consejera juvenil de Grupo le llega un resumen de dos líneas del plan anual, «para que no se canse»; los demás tienen el documento completo desde hace una semana. ¿Qué le conviene hacer?",
             "options": [
-              "Pedir que le expliquen el resumen en la sesión y votar con eso, confiando en quienes lo leyeron.",
+              "Pedir que le expliquen el resumen al empezar la sesión y votar con eso, confiando en quienes lo leyeron.",
               "Votar en blanco ese punto y dejar el reclamo por los documentos para el informe de fin de año.",
-              "Pedir el documento completo ya, y que desde ahora le llegue con el mismo tiempo que a los demás."
+              "Pedir el documento completo antes de votar, y avisar que lo necesita con la misma anticipación que el resto."
             ],
             "correctIndex": 2
           }
@@ -309,7 +309,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El reglamento de la Red de Jóvenes dice qué hace el Consejero Juvenil Nacional. En la región no es solo el espíritu: el reglamento de las Asambleas Rover le pide lo mismo al Consejero Juvenil Regional ante su Consejo (Art. 5.8). En el Grupo vale el mismo espíritu:"
+          "text": "El reglamento de la Red de Jóvenes dice qué hace el Consejero Juvenil Nacional. En la región no es solo el espíritu: el reglamento de las Asambleas Rover le pide lo mismo —representar a todos y llevar sus propuestas— al Consejero Juvenil Regional ante su Consejo (Art. 5.8). En el Grupo vale el mismo espíritu:"
         },
         {
           "type": "list",
@@ -391,8 +391,8 @@
             "text": "Una dirigente de Manada recibe la pregunta del consejero juvenil: ¿qué preocupa a tu unidad? ¿Qué respuesta ayuda a que la voz de los lobatos llegue al Consejo?",
             "options": [
               "Lo que ella y los demás dirigentes concluyeron sobre lo que los lobatos necesitan el próximo año.",
-              "Lo que los lobatos propusieron y eligieron en sus últimas reuniones, aunque a ella le parezca menor.",
-              "Lo que las familias de los lobatos le comentan, a la salida, sobre las actividades de la Manada."
+              "Lo que los lobatos propusieron y eligieron en sus reuniones, aunque a ella le parezca menor.",
+              "Lo que le contaron, a la salida de la reunión, los dos o tres lobatos que más hablan con ella."
             ],
             "correctIndex": 1
           }
@@ -407,7 +407,7 @@
       "sections": [
         {
           "type": "paragraph",
-          "text": "Al final del año, en la Asamblea Regional Rover, le preguntaron a Daniela qué había hecho en el Consejo. Tenía una buena historia de la sesión del presupuesto y la lista de los tres temas. Le faltaba decir qué había pasado con cada uno."
+          "text": "Un mes antes de la Asamblea Regional Rover, el Coordinador Regional de la Red le pidió a Daniela un borrador de su informe. Tenía una buena historia de la sesión del presupuesto y la lista de los tres temas. Le faltaba decir qué había pasado con cada uno."
         },
         {
           "type": "info-box",
@@ -438,7 +438,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Daniela rehízo su informe en esas cuatro partes. De los tres temas, uno se aprobó, uno quedó en estudio y uno se negó; explicó por qué en cada caso. Y dejó una página para quien la reemplazara."
+          "text": "Daniela rehízo el borrador en esas cuatro partes. De los tres temas, uno se aprobó, uno quedó en estudio y uno se negó; explicó por qué en cada caso. Y dejó una página para quien la reemplazara."
         },
         {
           "type": "info-box",
@@ -455,17 +455,17 @@
           {
             "text": "Un consejero juvenil llega a la Asamblea Rover con un informe de diez páginas que narra, sesión por sesión, lo que se habló en el Consejo. ¿Qué va a echar de menos la asamblea que lo eligió?",
             "options": [
-              "Un resumen más corto de las sesiones, con las principales decisiones que tomó el Consejo en el año.",
-              "Un anexo con las actas oficiales de cada sesión, firmadas por el secretario del Consejo.",
-              "Un balance de qué pasó con lo que él llevó, cómo votó y qué le deja pendiente a su sucesor."
+              "Un resumen más corto de las sesiones, con las principales decisiones que se tomaron en el año.",
+              "Un anexo con las actas oficiales de cada sesión, firmadas por el presidente y el secretario.",
+              "Un balance de qué pasó en el Consejo con lo que llevó, cómo votó y qué le queda a su sucesor."
             ],
             "correctIndex": 2
           },
           {
             "text": "A una consejera juvenil de Grupo le quedan dos meses de periodo, y dos de sus propuestas siguen en estudio en el Consejo. ¿Qué le conviene hacer?",
             "options": [
-              "Retirarlas para que su sucesor proponga las suyas desde cero, sin cargas heredadas.",
-              "Dejarlas por escrito en su informe, con su estado, para que su sucesor pueda retomarlas.",
+              "Contárselas a su sucesor en una reunión de empalme, y dejar en el informe lo que el Consejo aprobó.",
+              "Dejarlas por escrito en su informe, con su estado, para que su sucesor las retome en el Consejo.",
               "Pedir que el Consejo las vote antes de irse, aunque no hayan terminado su estudio."
             ],
             "correctIndex": 1
@@ -517,11 +517,11 @@
         },
         {
           "type": "paragraph",
-          "text": "<em>Puedan influir, o parecer influir.</em> No hace falta que Daniela fuera a favorecer a su tía: basta con que pareciera. La salida es sencilla: decirlo apenas lo sabes —a más tardar al empezar la sesión— y no participar en la discusión ni en la votación de ese punto. Así lo dice el <em>Reglamento Nacional</em> (Arts. 82 y 83). Callarlo es lo que convierte una casualidad en un problema."
+          "text": "<em>Puedan influir, o parecer influir.</em> No hace falta que Daniela fuera a favorecer a su tía: basta con que pareciera. La salida es sencilla: decirlo apenas lo sabes —a más tardar al empezar la sesión— y no participar en la discusión ni en la votación de ese punto; el Consejo decide sobre tu declaración antes de votarlo. Así lo dice el <em>Reglamento Nacional</em> (Arts. 82 y 83). Callarlo es lo que convierte una casualidad en un problema."
         },
         {
           "type": "paragraph",
-          "text": "Daniela no esperó a que se lo preguntaran. Lo dijo apenas lo supo —al empezar la sesión, antes de que nadie hablara de precios—: «Una de esas tiendas es de mi tía». Y no participó en la discusión ni en la votación de ese punto. Le tomó treinta segundos."
+          "text": "Daniela no esperó a que se lo preguntaran. Apenas vio la lista de proveedores, le escribió al presidente del Consejo: «Una de esas tiendas es de mi tía». Al empezar la sesión lo repitió ante todos, y no participó en la discusión ni en la votación de ese punto. Le tomó treinta segundos."
         },
         {
           "type": "heading",
@@ -538,7 +538,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Piensa en las decisiones que tomará el Consejo en el que estás o al que aspiras este año: eventos, proveedores, nombramientos, alianzas. Escribe una situación en la que podrías tener un conflicto de intereses —tuyo o de alguien cercano— y cómo lo declararías. Sin nombres de personas."
+        "prompt": "Piensa en las decisiones que tomará el Consejo en el que estás o al que aspiras este año: eventos, proveedores, nombramientos, alianzas. Escribe un tipo de situación que podría crearle un conflicto de intereses a un consejero juvenil —un proveedor, un empleador, una beca— y las palabras exactas con que lo declararía al empezar la sesión. No tiene que ser tu caso. Sin nombres de personas."
       },
       "quiz": {
         "title": "Mini-quiz Lección 6",
@@ -549,7 +549,7 @@
             "options": [
               "Votar a favor sin mencionarlo, porque la beca no depende de la alianza y él no saca ningún provecho de ella.",
               "Declarar la beca apenas lo sabe, y no participar en la discusión ni en la votación del punto.",
-              "Declarar que votará en contra de la alianza, para que no quede duda de que actúa con independencia."
+              "Declarar la beca apenas lo sabe y votar igual: ya dejó claro su interés ante el Consejo."
             ],
             "correctIndex": 1
           },
@@ -558,7 +558,7 @@
             "options": [
               "Que no: su poder lo debe llevar otro miembro activo juvenil de la región, y le pide ayuda para encontrarlo.",
               "Que sí, siempre que el consejero firme el poder por escrito y el dirigente pertenezca a la misma región.",
-              "Que no: que es mejor que su voto no llegue a la Asamblea Scout Nacional, antes de que lo lleve un adulto."
+              "Que no hace falta dar poder: el Rover con la segunda mayor votación lo reemplaza en la Asamblea."
             ],
             "correctIndex": 0
           }
@@ -611,7 +611,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Si eres Rover: escribe qué necesitas de los adultos para ejercer bien el asiento juvenil —en cada uno de los tres verbos— y a quién (por su cargo) se lo vas a pedir. Si eres adulto: escribe una situación reciente en la que hablaste por un joven cuando podías haberle abierto la puerta para que hablara él. Nómbralo por su rama o su cargo, no por su nombre."
+        "prompt": "Si eres Rover: escribe qué necesitas de los adultos para ejercer bien el asiento juvenil —en cada uno de los tres verbos— y a quién (por su cargo) se lo vas a pedir. Si eres adulto: escribe una situación reciente en la que hablaste por un joven cuando podías haberle abierto la puerta para que hablara él. Nómbralo por su rama, no por su nombre ni por su cargo."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7",
@@ -621,16 +621,16 @@
             "text": "Un consejero adulto del Consejo de Grupo le propone al consejero juvenil: «En las votaciones difíciles, mírame y vota lo mismo que yo, así no te equivocas». ¿Qué debería responderle el consejero juvenil?",
             "options": [
               "Que acepta durante el primer año, mientras aprende cómo vota un Consejo, y que después ya decidirá por su cuenta.",
-              "Que no, y que en adelante prefiere no hablar con los adultos del Consejo antes de las sesiones.",
-              "Que no, pero que le ayude antes de la sesión a entender lo que está en juego, y él decide su voto."
+              "Que no: en las votaciones difíciles va a votar lo que decida la mayoría de su Clan, que es quien lo eligió.",
+              "Que no, pero que le ayude antes de la sesión a entender lo que está en juego en el Consejo, y él decide su voto."
             ],
             "correctIndex": 2
           },
           {
             "text": "Una consejera juvenil nacional quiere presentar al Consejo una propuesta sobre inclusión, pero no sabe qué ha hecho la Asociación en el tema. ¿Cómo la acompaña mejor un adulto que conoce el tema?",
             "options": [
-              "Presentándole a quienes han trabajado el tema en la Asociación, para que se informe y decida.",
-              "Presentándole la propuesta ya escrita, basada en su experiencia, para que la lleve al Consejo.",
+              "Presentándole a quienes han trabajado el tema, para que se informe y decida qué lleva al Consejo.",
+              "Presentándole la propuesta ya escrita, basada en su experiencia, para que ella la presente tal cual.",
               "Presentándose él al Consejo como invitado, para defender la propuesta junto a ella."
             ],
             "correctIndex": 0
@@ -646,7 +646,7 @@
       "sections": [
         {
           "type": "paragraph",
-          "text": "Un año después, Daniela entregó su informe en la Asamblea Regional Rover y se quedó a escuchar a quienes se postulaban para reemplazarla. Le preguntó a cada uno lo mismo: ¿cómo vas a saber qué piensan los lobatos de la región?"
+          "text": "Un año después de su elección, Daniela entregó su informe en la Asamblea Regional Rover y se quedó a escuchar a quienes se postulaban para reemplazarla. Le preguntó a cada uno lo mismo: ¿cómo vas a saber qué piensan los lobatos de la región?"
         },
         {
           "type": "info-box",
@@ -682,7 +682,7 @@
             "options": [
               "Pedir el orden del día, leer los documentos y llevar una pregunta que recogió en otra rama.",
               "Pedir la palabra al inicio para presentar los proyectos que su Clan tiene para el año.",
-              "Pedir el orden del día y escuchar la primera sesión sin intervenir, para aprender cómo funciona."
+              "Pedir el orden del día, leer los documentos y llevar la pregunta que a él más le preocupa hoy."
             ],
             "correctIndex": 0
           },
@@ -690,8 +690,8 @@
             "text": "En la Asamblea Regional Rover, Daniela les pregunta a los candidatos: ¿cómo vas a saber qué piensan los lobatos de la región? ¿Qué respuesta muestra que el candidato entendió de quién es la silla?",
             "options": [
               "«Voy a preguntarles a los Rovers de la región, que tienen hermanos lobatos y saben lo que les pasa.»",
-              "«Voy a pedir espacio en las reuniones de dirigentes de Manada y traer lo que decidieron sus lobatos.»",
-              "«Les pregunto a los dirigentes de Manada qué creen que necesitan sus lobatos, y eso llevo al Consejo.»"
+              "«Voy a pedir espacio en las reuniones de dirigentes de Manada de la región y traer lo que decidieron sus lobatos.»",
+              "«Voy a pedir espacio en la reunión de dirigentes de la Manada de mi Grupo y traer lo que decidieron sus lobatos.»"
             ],
             "correctIndex": 1
           }
