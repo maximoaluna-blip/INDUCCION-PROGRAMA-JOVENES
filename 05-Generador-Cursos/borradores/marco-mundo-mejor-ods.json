@@ -1,0 +1,687 @@
+{
+  "courseId": "marco-mundo-mejor-ods",
+  "title": "Scouts por los ODS: el Marco de Mundo Mejor en tu unidad",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "Qué es Scouts por los ODS, por qué el Movimiento se comprometió con la Agenda 2030 y cómo se convierte un desafío en una oportunidad de aprendizaje de verdad: las cuatro iniciativas, los siete pasos del Modelo de Aplicación, las reglas de las insignias y los dos reconocimientos mundiales. Primero se lee el barrio; después se enlaza con el mundo. Para todo dirigente de unidad.",
+  "contentVersion": "2026-09-28",
+  "icon": "🌍",
+  "duration": "45 minutos",
+  "level": 4,
+  "levelName": "Transversales",
+  "order": 21,
+  "totalContentModules": 6,
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "emoji": "🧭",
+      "name": "Sé por qué",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "emoji": "🗺️",
+      "name": "Conozco el mapa",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "emoji": "🔎",
+      "name": "Leo el barrio",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "emoji": "🛠️",
+      "name": "Traduzco desafíos",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "emoji": "🏅",
+      "name": "Reconozco con sentido",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "emoji": "✅",
+      "name": "Mi primer desafío",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
+      "emoji": "🌍",
+      "name": "Del barrio al mundo",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "SCOUTS POR LOS ODS: EL MARCO DE MUNDO MEJOR EN TU UNIDAD",
+    "description": "ha completado el Curso 21 de la Línea Programa de Jóvenes — Scouts por los ODS: el Marco de Mundo Mejor en tu unidad, explicando por qué el Movimiento Scout se comprometió con la Agenda 2030 y qué busca la Educación para el Desarrollo Sostenible, distinguiendo las cuatro iniciativas de Scouts por los ODS, partiendo de una necesidad real de su entorno antes de elegir un desafío, traduciendo ese desafío en una oportunidad de aprendizaje con destinatario, criterios, competencias educativas y presentación pública, y reconociendo con sentido según las reglas de las insignias y lo que abren los reconocimientos mundiales."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "🌍 Del barrio al mundo",
+      "emoji": "🌍",
+      "navLabel": "Bienvenida",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>~45 minutos de lectura y quizzes</strong> — y unos 15 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Explicar</strong> por qué el Movimiento Scout se comprometió con la Agenda 2030 y qué busca la Educación para el Desarrollo Sostenible.",
+            "<strong>Distinguir</strong> las cuatro iniciativas de Scouts por los ODS y ubicar en ellas una preocupación real de tu unidad.",
+            "<strong>Traducir</strong> un desafío en una oportunidad de aprendizaje con destinatario, criterios, competencias educativas y presentación pública.",
+            "<strong>Evitar</strong> tres atajos: la cátedra sobre los ODS, la etiqueta primero y la insignia como meta.",
+            "<strong>Reconocer</strong> con sentido, conociendo las reglas de las insignias y a dónde pueden llevar los reconocimientos mundiales.",
+            "<strong>Identificar</strong> a quién acudir y qué hacer cuando la guía de un desafío no está publicada."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un sábado, la Manada de Luisa llega a la reunión con una idea: quieren «salvar el planeta». Vieron un video sobre los océanos llenos de plástico y proponen hacer una cartelera enorme con los 17 Objetivos de Desarrollo Sostenible para pegarla en la entrada de la sede. Luisa, Jefa de Manada, siente dos cosas a la vez: orgullo por el entusiasmo, y la sospecha de que una cartelera no es lo que el Movimiento tiene en mente cuando habla de un mundo mejor."
+        },
+        {
+          "type": "info-box",
+          "text": "🌍 <strong>La idea que sostiene este curso:</strong> primero se lee el barrio; <strong>después se enlaza con el mundo</strong>."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lo contrario de esa idea es muy tentador, y tiene dos formas. Una es <strong>la cátedra</strong>: una charla sobre los 17 objetivos, bien hecha, que los protagonistas olvidan el lunes. La otra es <strong>la etiqueta primero</strong>: escoger un ODS de la lista y después buscarle una actividad que quepa debajo. Las dos empiezan por el mundo y nunca llegan al barrio. Este curso va al revés. Y hay un tercer atajo, que verás en la Lección 6: la insignia como meta."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Dos nombres para un mismo asunto"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vas a encontrar dos nombres, y conviene no confundirlos. <strong>Mundo Mejor</strong> es el marco que organiza las iniciativas y los desafíos del Movimiento; así se llama el <em>Manual de Implementación del Marco de Mundo Mejor</em> que la Asociación publicó en junio de 2021. <strong>Scouts por los ODS</strong> es la propuesta que conecta el Programa de Jóvenes con los Objetivos de Desarrollo Sostenible, y es el nombre con que hoy aparece todo en la biblioteca de la Asociación, en las Guías de Rama y en el <em>Modelo de Aplicación</em> 2026. Una propuesta se apoya en un marco: por eso el título de este curso lleva los dos."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 Qué son, en una frase",
+          "source": "Modelo de Aplicación de la Política Nacional de Programa de Jóvenes «El Gran Juego para la Vida» (DNPJ-2026-024), Cap. 16, p. 98 del PDF.",
+          "text": "Los Desafíos ODS son oportunidades de aprendizaje de alta calidad que viven dentro del Programa de Jóvenes, bajo el Método Scout, y que se evidencian con experiencias reales, reflexiones con sentido y resultados visibles para la comunidad."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fíjate en dónde viven: <strong>dentro del Programa</strong>, bajo el Método. No son un programa aparte que se suma al de la unidad, ni una actividad especial para el día del medio ambiente. Son una manera de elegir oportunidades de aprendizaje."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Qué NO es este curso"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>No es cada desafío por dentro.</strong> Tres de ellos tendrán curso propio en este Nivel 4: Constructores de Paz (22), HeForShe (23) y Patrimonito (24).",
+            "<strong>No es el curso del proyecto.</strong> Cómo se conduce un proyecto con Aprendizaje Basado en Proyectos es el <a href=\"ciclo-programa-abp.html\">Curso 15</a>, y el filtro DURASLID, el <a href=\"planeacion-reuniones-oda.html\">Curso 14</a>. Aquí se usan.",
+            "<strong>No es el curso de la seguridad.</strong> Cómo se hace segura una actividad, incluidas las fotos de los protagonistas, es el <a href=\"a-salvo-del-peligro-programa.html\">Curso 25</a>."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📍 <strong>Para quién es:</strong> todo dirigente de unidad, de cualquier rama. Las escenas siguen a una Manada, y la última lección tiene una caja «Y en tu rama» con lo que dice la Guía de cada una."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🧭 Por qué el Movimiento está en esto",
+      "emoji": "🧭",
+      "navLabel": "El porqué",
+      "reflection": {
+        "prompt": "Piensa en la última actividad de tu unidad que tuvo que ver con el ambiente, la convivencia o la salud. ¿Qué supieron los protagonistas al terminar, qué sintieron y qué hicieron distinto? Si solo puedes responder la primera pregunta, ¿qué le faltó a esa actividad?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar al mapa 🗺️",
+        "questions": [
+          {
+            "text": "Un dirigente de Tropa propone dedicar la reunión a una presentación sobre los 17 ODS, para «que los scouts sepan de qué se trata». ¿Qué le diría la Educación para el Desarrollo Sostenible?",
+            "options": [
+              "Que la charla puede servir, pero sola no basta: la EDS busca también lo socioemocional y lo que los scouts hacen.",
+              "Que es un buen comienzo: la EDS arranca por lo cognitivo, y lo demás llega cuando ya se saben los 17 objetivos.",
+              "Que se salte la teoría: la EDS es acción pura, y los scouts aprenden los ODS únicamente haciendo proyectos."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En la Manada de Luisa, un lobato pregunta para qué limpiar el parque de la sede si «el planeta es muy grande». ¿Qué respuesta va con lo que la Guía de Manada busca a esa edad?",
+            "options": [
+              "Que el parque es solo el comienzo: lo que de verdad cuenta es la campaña grande que la Manada haga después.",
+              "Que su parque es parte del planeta, y que lo que un lobato hace ahí le importa a los niños que juegan en él todas las tardes.",
+              "Que por eso la Manada empieza aprendiendo qué dice el ODS 15, para que la limpieza tenga sentido cuando la hagan."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Antes de mirar el catálogo, vale la pena saber por qué existe. La respuesta corta: porque el Movimiento decidió que su manera de educar tenía algo que aportar a los problemas que el mundo reconoce como comunes."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el Movimiento no se sumó a los ODS para dar charlas sobre ellos. Se sumó porque su manera de educar puede aportar lo que una charla no da: que además de saber, las personas sientan y actúen."
+        },
+        {
+          "type": "paragraph",
+          "text": "La <strong>Agenda 2030</strong> y sus <strong>17 Objetivos de Desarrollo Sostenible</strong> son el acuerdo de las Naciones Unidas para enfrentar desafíos comunes: la pobreza, el clima, la desigualdad, la paz. El <em>Manual de Implementación</em> recoge su principio tutelar —<em>«No dejar a nadie atrás»</em>— y cuenta el paso del Movimiento: la Organización Mundial del Movimiento Scout se comprometió con los ODS en todos sus niveles (resolución 8/17 de su 41.ª Conferencia Scout Mundial, en Bakú). Desde entonces, el Movimiento incorporó al Programa el marco Mundo Mejor y lo alineó con los ODS."
+        },
+        {
+          "type": "paragraph",
+          "text": "El mismo Manual dice qué tipo de persona quiere ayudar a formar:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 La ciudadanía activa global",
+          "source": "Manual de Implementación del Marco de Mundo Mejor (Asociación Scouts de Colombia, junio 2021), Cap. 1, p. 5.",
+          "text": "Entendiendo por ciudadanía activa global, un ser autónomo, empoderado, capaz de tomar sus propias decisiones, solidario, capaz de preocuparse por los otros y ayudarles, responsable, capaz de adoptar y completar las responsabilidades adquiridas, comprometido, hace y mantener su palabra, sensible culturalmente, capaz de celebrar la diversidad e inclusión con los demás."
+        },
+        {
+          "type": "paragraph",
+          "text": "En palabras simples: alguien que decide por sí mismo, se ocupa de los demás, cumple lo que promete y sabe convivir con quien es distinto. Si esa lista te suena, es porque se parece mucho a la Ley Scout."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Saber no basta: los tres dominios"
+        },
+        {
+          "type": "paragraph",
+          "text": "El marco se alinea con la <strong>Educación para el Desarrollo Sostenible</strong> (EDS), que busca una pedagogía <em>«transformadora y orientada a la acción»</em>. Y la EDS separa tres dominios de aprendizaje que conviene tener a la vista, porque son justo lo que distingue una actividad de una charla:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🧠 Cognitivo",
+              "description": "El conocimiento y las herramientas de pensamiento para comprender los ODS y lo que cuesta alcanzarlos. Es lo que una charla sí consigue.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "💬 Socioemocional",
+              "description": "Colaborar, negociar, comunicarse, y la autorreflexión, los valores y las actitudes que mueven a actuar. Es lo que se aprende en la patrulla, no en la silla.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            },
+            {
+              "title": "🤝 Conductual",
+              "description": "Las competencias de acción: lo que la persona hace distinto. Es lo que una actividad bien cerrada deja y una charla casi nunca.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Por eso la presentación de diapositivas sobre los 17 objetivos no está prohibida, pero se queda corta: toca un dominio de tres. El Método Scout —aprender haciendo, en pequeños grupos, con compromiso con la comunidad— toca los tres a la vez. Esa es la razón de fondo por la que el Movimiento está en esto."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📘 Lo que busca tu Guía, si tu rama es la Manada",
+          "source": "Guía de Dirigente de Manada (DNPJ, 2026), §7.4.2 «Compromiso global desde lo local», p. 36.",
+          "text": "No se busca formar expertos en problemas globales, sino niños conscientes y comprometidos con su realidad."
+        },
+        {
+          "type": "paragraph",
+          "text": "La frase vale para las cinco ramas, con la medida de cada edad. Un lobato no necesita saberse el número del ODS de los ecosistemas terrestres; necesita descubrir que el parque donde juega también es suyo para cuidar."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "🗺️ El mapa: cuatro iniciativas",
+      "emoji": "🗺️",
+      "navLabel": "El mapa",
+      "reflection": {
+        "prompt": "Piensa en algo que preocupa hoy a los protagonistas de tu unidad, o que ellos mismos han nombrado: en el barrio, en el colegio, entre ellos. ¿En cuál de las cuatro iniciativas lo ubicarías, y por qué? Si dudas entre dos, escribe las dos y qué te hace dudar."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar al barrio 🔎",
+        "questions": [
+          {
+            "text": "Un Clan nota que varios compañeros del colegio pasan los exámenes con angustia, se encierran y no saben con quién hablar. Quieren hacer algo. ¿En qué iniciativa lo ubicas?",
+            "options": [
+              "En Messengers of Peace: es un asunto del colegio y de sus compañeros, y todo lo comunitario entra por esa puerta.",
+              "En Earth Tribe: el bienestar depende del entorno donde se estudia y se vive, y el entorno es la puerta de esa iniciativa.",
+              "En Health Allies: su puerta incluye la salud mental, y lo que el Clan vio es eso, aunque nadie lo haya llamado así."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Una dirigente busca en la biblioteca de la Asociación la guía del desafío «Constructores de Mentes», de Health Allies, y no la encuentra. ¿Qué es lo correcto?",
+            "options": [
+              "Dar el desafío por inexistente: lo que no aparece publicado en la biblioteca de la Asociación no es oficial.",
+              "Preguntar a la comisión de Mundo Mejor de su región: el desafío existe, pero su guía todavía no está publicada.",
+              "Armar el desafío con materiales de internet y pedir después la insignia oficial a la Asociación, como con los otros."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Luisa abre la página de Scouts por los ODS en la biblioteca de la Asociación y encuentra decenas de documentos: kits, manuales, guías juveniles, insignias. Sin un mapa, el catálogo abruma. El mapa existe, y es sencillo."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> todo el catálogo cabe en <strong>cuatro iniciativas</strong>. Cada una es una puerta, y dentro de cada puerta hay desafíos concretos."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🌱 Medio Ambiente y Sostenibilidad — Earth Tribe (Tribu Tierra)",
+              "description": "Cuidar el planeta: reducir impactos, restaurar ecosistemas, energías limpias, biodiversidad y consumo responsable. Desafíos: Campeones por la Naturaleza, Plastic Tide Turners, Scouts Go Solar y YUNGA.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🕊️ Paz e Involucramiento Comunitario — Messengers of Peace (Mensajeros de la Paz)",
+              "description": "Convivencia, cultura de paz y participación: diálogo, cooperación, memoria, voluntariado, ciudadanía. Desafíos: Constructores de Paz, Diálogos por la Paz, HeForShe, Patrimonito y Diálogo Interreligioso.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "❤️ Salud y Bienestar — Health Allies",
+              "description": "Estilos de vida saludables y entornos seguros: actividad física, nutrición, salud mental, salud sexual y reproductiva con enfoque de derechos, y salvaguarda. Desafíos: Nutrición y Constructores de Mentes.",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            },
+            {
+              "title": "💡 Habilidades para la Vida — Life Leaders",
+              "description": "Pensamiento crítico, creatividad, comunicación, liderazgo ético, iniciativa emprendedora. Desafíos: Innovadores del Impacto e Inteligencia Emocional en Acción.",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Los propósitos son los del <em>Modelo de Aplicación</em> (§16.1), y los desafíos de cada iniciativa, los que lista la <em>Guía de Dirigente de Clan</em> (§11.3). La salvaguarda, por ejemplo, está en Health Allies: una vez más, la protección no es un anexo, es parte del programa."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El mapa creció, y vas a ver versiones distintas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si abres el <em>Manual de Implementación</em> de 2021, vas a ver solo <strong>dos</strong> iniciativas, y otras dos anunciadas «para 2022». No es un error: el catálogo creció después. También vas a notar que las Guías de rama escogen las que convienen a su edad —la de Comunidad propone dos, la de Manada una—, y la de Clan anuncia seis y describe cuatro. Cuando dos fuentes no coincidan en el número, guíate por el <em>Modelo</em> 2026, que es el documento rector más reciente y ordena el mapa en cuatro."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Qué está publicado, y qué no"
+        },
+        {
+          "type": "paragraph",
+          "text": "En la biblioteca de Programa de Jóvenes, subcategoría «Scouts por los ODS», encontrarás el <em>Manual de Implementación</em> y los kits de varios desafíos —entre ellos Mareas Plásticas, que es el nombre en español de Plastic Tide Turners—. No todos tienen guía publicada todavía: los de Health Allies y Life Leaders, por ejemplo. Y ojo con un nombre parecido: en la biblioteca sí hay una <em>Insignia de la Nutrición</em>, pero es de YUNGA, dentro de Tribu Tierra; no es la guía del desafío Nutrición de Health Allies. Si el desafío que te interesa no aparece, no lo descartes: pregunta a la comisión de Mundo Mejor de tu región."
+        },
+        {
+          "type": "paragraph",
+          "text": "Luisa ya sabe dónde buscar. Lo que todavía no sabe es qué desafío tomar, y esa respuesta no está en el catálogo: está afuera de la sede."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "🔎 Primero se lee el barrio",
+      "emoji": "🔎",
+      "navLabel": "Leer el barrio",
+      "reflection": {
+        "prompt": "Sal un momento con la mirada de tus protagonistas: ¿qué ven ellos cerca de la sede, del colegio o de su vereda que les preocupa, les duele o les entusiasma? Escribe dos o tres cosas concretas —un lugar, una situación, sin nombres de personas— y, solo después, a qué iniciativa se podría enlazar cada una."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar al desafío 🛠️",
+        "questions": [
+          {
+            "text": "Una Tropa escoge primero el ODS 13, «Acción por el clima», y después busca qué actividad hacer que le quepa debajo. ¿Qué le cambiaría el Modelo de Bolsillo?",
+            "options": [
+              "El tamaño: el 13 es demasiado grande para una Tropa, así que conviene escoger un ODS más cercano y buscarle actividad.",
+              "Nada: empezar por el ODS asegura que la actividad quede bien enmarcada en la Agenda 2030 desde el primer día.",
+              "El orden: primero se mira qué preocupa en su entorno cercano y después se enlaza con el ODS que corresponda."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Después de una jornada de limpieza de una quebrada, un dirigente escribe en la cartelera del grupo: «¡Salvamos el planeta!». ¿Qué le advierte el Modelo de Bolsillo?",
+            "options": [
+              "Que la jornada no cuenta como desafío ODS: lo que vale es un proyecto de incidencia sostenido, no una limpieza puntual.",
+              "Que no sobredimensione: la jornada vale por lo que aprendieron e hicieron allí, no por un titular más grande que ella.",
+              "Que está bien motivar con frases grandes, siempre que los protagonistas sientan que su acción cambia el mundo entero."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Luisa no le dice que no a la cartelera. Hace una pregunta: «¿Y aquí, cerca de la sede, qué ven que les preocupe?». La Manada tarda en contestar, y de pronto contesta toda a la vez: el parque de al lado está lleno de envolturas y botellas, y los niños pequeños que juegan en él recogen lo que encuentran."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> no se parte de una etiqueta global para buscarle actividad. Se parte de lo que el grupo ve, y desde ahí se enlaza con el mundo."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📗 La regla, en el Modelo de Bolsillo",
+          "source": "Modelo de Aplicación de Bolsillo (DNPJ-2026-063), Cap. 16, p. 13.",
+          "text": "La clave está en no forzar etiquetas: primero se lee la realidad, luego se construye una experiencia relevante y, desde allí, se enlaza con marcos más amplios de ciudadanía global."
+        },
+        {
+          "type": "paragraph",
+          "text": "El mismo documento dice por qué: el valor pedagógico de los ODS <em>«no está en repetir sus enunciados»</em>, sino en que el grupo amplíe su lectura del contexto y descubra que sus preguntas locales dialogan con retos que comparte el mundo. Cuando eso se hace bien, el joven no siente que está estudiando una agenda internacional: descubre que lo que hace en su cuadra tiene que ver con algo más grande."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La ruta simple, en cinco pasos"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Partir de una necesidad, tensión o pregunta visible en el entorno cercano.",
+            "Relacionarla con una iniciativa o desafío que realmente convoque al grupo.",
+            "Traducirla en experiencias concretas, viables y pedagógicamente cuidadas.",
+            "Identificar qué aprendizajes, actitudes y competencias se están poniendo en juego.",
+            "Cerrar el proceso con lectura de impacto, reconocimiento y nuevas proyecciones."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Son los pasos del <em>Bolsillo</em>, y el primero es el que más se salta. En la Manada de Luisa, el paso uno es el parque; el dos, Earth Tribe, que es la iniciativa del entorno, y dentro de ella el desafío de los plásticos, que la <em>Guía de Manada</em> nombra entre los que se pueden trabajar con lobatos. Los pasos tres a cinco son la lección que sigue."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Sin cátedra y sin titulares grandes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dos advertencias del <em>Modelo</em>, cortas y fáciles de olvidar. La primera: enlazar con los ODS <em>«sin convertirlo en cátedra»</em>, con una frase en el momento justo —«esto que hicimos conecta con reducir residuos»—, no con una clase. La segunda, del <em>Bolsillo</em>: cuidarse de <em>«sobredimensionar cualquier acción o ponerles un discurso grandilocuente a experiencias pequeñas»</em>. Una jornada en un parque puede tener un valor educativo profundo; no necesita salvar el planeta para valer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Luisa guarda la cartelera de los 17 objetivos para el final, pero con otro uso: los lobatos van a marcar en ella, cuando terminen, con cuál de esos objetivos conectó lo que hicieron en el parque. Primero el barrio; después el mundo."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "🛠️ Del desafío a la oportunidad de aprendizaje",
+      "emoji": "🛠️",
+      "navLabel": "Los siete pasos",
+      "reflection": {
+        "prompt": "Toma la preocupación que escribiste en la lección anterior y pásala por los siete pasos del Modelo, aunque sea en una línea cada uno. ¿Cuál no sabes responder todavía? Escribe también quién sería el «para quién» real: un grupo, un lugar, una institución, sin nombres de personas."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar al reconocimiento 🏅",
+        "questions": [
+          {
+            "text": "La Manada de Luisa ya decidió que va a trabajar en el parque. Según los siete pasos del Modelo, ¿qué conviene definir primero?",
+            "options": [
+              "Qué insignia van a solicitar: el paso siete pide registrarla, y tenerla clara desde el inicio le da rumbo.",
+              "Para quién es el proyecto de la Manada y qué le van a entregar: sin destinatario real, el desafío se vacía.",
+              "Con cuál de los 17 ODS conecta: es el marco, y ponerlo primero asegura que las actividades queden alineadas."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Al cerrar el desafío de los plásticos, la Manada de Luisa quiere anotar en el portafolio de cada lobato las doce competencias educativas que «tocaron» en el parque. ¿Qué le sugieren los siete pasos?",
+            "options": [
+              "Que anote las doce: cuantas más competencias queden en el portafolio, más completo se ve el trabajo de la Manada.",
+              "Que no anote ninguna: en un desafío ODS se registra la insignia, y las competencias quedan para el ciclo de programa.",
+              "Que anote solo las pocas que eligieron al planear, las que el desafío de verdad movió, cada una en el nivel que mostró cada lobato."
+            ],
+            "correctIndex": 2
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "El parque ya está elegido. Ahora viene lo que separa una jornada bonita de una oportunidad de aprendizaje: decidir para qué, para quién y cómo se va a saber que se aprendió algo."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> un desafío se vuelve oportunidad de aprendizaje cuando tiene <strong>destinatario, criterios, competencias educativas y una presentación pública</strong>. Sin eso, es una actividad con insignia."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 La traducción pedagógica mínima, en siete pasos",
+          "source": "Modelo de Aplicación de la Política Nacional de Programa de Jóvenes (DNPJ-2026-024), §16.3 «De la experiencia al reconocimiento y a las competencias», p. 101 del PDF.",
+          "text": "1. Define el “para quién” (audiencia/destinatario) y el producto esperado. 2. Acuerda criterios de calidad simples (2–4) y revisables públicamente. 3. Mapea competencias educativas relacionadas (1–3 por proyecto) y ubícalas en Exploro–Aplico–Profundizo según el tramo y la evidencia que esperas. 4. Diseña actividades DURASLID alineadas al desafío concreto. 5. Cierra cada hito con procesos reflexivos (qué hicimos, qué observamos o sentimos, qué comprendimos, a dónde lo llevamos) y documenta evidencias observables (fotos responsables, registros, prototipos, testimonios). 6. Realiza una presentación pública ante quienes participaron, intervinieron o se vieron beneficiados, y recoge sus impresiones. 7. Registra: solicitud y entrega de insignias o distingos, y acreditación de competencias en el portafolio de progresión del Protagonista de Programa."
+        },
+        {
+          "type": "paragraph",
+          "text": "En palabras simples, cada paso contesta una pregunta. <strong>¿Para quién?</strong> <strong>¿Cómo sabremos que quedó bien?</strong> <strong>¿Qué vamos a aprender, y a qué nivel?</strong> <strong>¿Es desafiante, útil, segura, divertida?</strong> <strong>¿Qué nos dejó cada etapa?</strong> <strong>¿Quién lo ve y qué dice?</strong> <strong>¿Dónde queda anotado?</strong>"
+        },
+        {
+          "type": "paragraph",
+          "text": "Estos siete pasos son el detalle de los pasos tres a cinco del <em>Bolsillo</em> que viste en la lección anterior. Y si hiciste el Curso 15, cinco ya los conoces: el para quién, los criterios, DURASLID, la reflexión y la presentación pública son los mismos del proyecto con ABP. Lo que el desafío añade está en el paso tres —escoger pocas competencias educativas, de una a tres, y ubicarlas en Exploro, Aplico o Profundizo— y en el siete: anotar en el portafolio lo que cada uno aprendió, no solo pedir la insignia."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los siete pasos en la Manada de Luisa"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Para quién:</strong> los niños pequeños que juegan en el parque, y la junta del barrio que lo cuida. El producto: el parque limpio un sábado y una propuesta de tres canecas marcadas.",
+            "<strong>Criterios:</strong> tres, que se puedan revisar a la vista de todos — el parque queda sin plástico en la zona de juegos; las canecas están marcadas con dibujos que un niño entiende; la junta recibe la propuesta.",
+            "<strong>Competencias educativas:</strong> una o dos de la malla de la Manada, en el nivel que corresponda a cada lobato — por ejemplo, la sensibilidad ambiental y el trabajo en equipo.",
+            "<strong>DURASLID:</strong> la jornada es un juego de exploradores; es segura porque los lobatos recogen con guantes y pinzas, nunca con la mano.",
+            "<strong>Reflexión:</strong> en el Consejo de Roca, con las cuatro preguntas; y evidencias responsables: el antes y el después del parque, sin caras de niños que no tengan permiso.",
+            "<strong>Presentación pública:</strong> los lobatos le cuentan a la junta y a sus familias lo que encontraron y lo que proponen, y escuchan qué opinan.",
+            "<strong>Registro:</strong> en el portafolio de cada lobato, lo que aprendió; y, si corresponde, la solicitud de la insignia del desafío."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fíjate en el paso cinco: <em>«fotos responsables»</em>. La evidencia puede ser el parque, no el niño; la próxima lección vuelve sobre esto."
+        },
+        {
+          "type": "info-box",
+          "text": "🔗 <strong>Si el desafío es grande, es un proyecto.</strong> Cuando un desafío pide semanas y un producto para la comunidad, se conduce como un proyecto con Aprendizaje Basado en Proyectos, y eso es el <a href=\"ciclo-programa-abp.html\">Curso 15</a>, con la misma presentación pública. El filtro de las actividades, DURASLID, es el <a href=\"planeacion-reuniones-oda.html\">Curso 14</a>."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "🏅 Reconocer con sentido",
+      "emoji": "🏅",
+      "navLabel": "Reconocer",
+      "reflection": {
+        "prompt": "¿Qué lugar ocupan hoy las insignias en tu unidad: son el cierre de algo que se aprendió, o el motivo para hacer la actividad? Recuerda una insignia reciente —sin nombres— y escribe qué sabía hacer el protagonista al recibirla que antes no sabía."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Continuar al cierre ✅",
+        "questions": [
+          {
+            "text": "Una familia ofrece mandar a bordar las insignias de un desafío en un taller del barrio, para que toda la Manada las tenga el día de la ceremonia. ¿Qué le respondes?",
+            "options": [
+              "Que se agradece, pero las insignias se adquieren por la Asociación o sus distribuidores, y las porta solo quien fue reconocido.",
+              "Que está bien si el taller las borda iguales a las de la Asociación: la insignia es la huella del desafío, y esa huella ya se ganó.",
+              "Que mejor no haya insignias: en la Manada el reconocimiento debe ser solo verbal, para que ningún lobato compita por ellas."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una Tropa propone empezar el desafío de los plásticos «para completar las insignias antes del campamento». ¿Qué le dirías?",
+            "options": [
+              "Que es buena idea: una insignia clara desde el comienzo es la meta que mantiene motivada a la Tropa todo el desafío.",
+              "Que empiece por lo que quieren cambiar y para quién: la insignia llega al final, como huella de lo que aprendieron.",
+              "Que no pida insignias: si el reconocimiento es solo una huella, ya no hace falta solicitarlo ni entregarlo."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Terminada la jornada del parque, un papá le pregunta a Luisa cuándo les dan «la insignia de los plásticos». Es una pregunta legítima, y la respuesta dice mucho de cómo entiende la unidad el reconocimiento."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la insignia no es la meta del desafío: es su huella. Llega después de que se aprendió algo, y lo nombra."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 Lo que el Modelo espera del reconocimiento",
+          "source": "Modelo de Aplicación de la Política Nacional de Programa de Jóvenes (DNPJ-2026-024), §16.4, p. 102 del PDF.",
+          "text": "El reconocimiento (insignias de desafío y distinciones de iniciativa) deja de ser una meta aislada para convertirse en la huella visible de lo que se aprendió y de lo que ahora se es capaz de hacer por otros, aquí y ahora."
+        },
+        {
+          "type": "paragraph",
+          "text": "El <em>Modelo</em> distingue dos cosas: las <strong>insignias de desafío</strong>, que reconocen un desafío concreto, y las <strong>distinciones de iniciativa</strong>. Y pide que las dos atestigüen <em>«un proceso con criterios, destinatarios, reflexión y transferencia»</em>: los mismos siete pasos de la lección anterior. Una insignia sin proceso detrás no es un reconocimiento; es un adorno."
+        },
+        {
+          "type": "paragraph",
+          "text": "Luisa le contesta al papá sin prisa: «Cuando la Manada le presente a la junta lo que hizo y cada lobato pueda contar qué aprendió. Ahí la solicitamos. Si la pidiéramos hoy, estaríamos premiando una mañana, no un aprendizaje»."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las reglas de las insignias"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hay dos que conviene saber antes de que alguien las rompa con buena intención. Las insignias de los programas del marco tienen marca registrada: se adquieren a través de la Asociación o de sus distribuidores autorizados, no se mandan a hacer. Y las porta solo quien fue reconocido oficialmente por la Comisión Nacional, con su resolución y registro. Y tiene todo el sentido con esta lección: la insignia dice que detrás hubo un proceso reconocido, y una copia no puede decirlo. (El <em>Manual de Implementación</em> advierte, además, que saltarse esto puede traer problemas disciplinarios y legales.)"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los dos reconocimientos mundiales"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🌐 Scouts del Mundo",
+              "description": "Para jóvenes-adultos de <strong>15 a 26 años</strong>, miembros o no del Movimiento. Tres pasos en una de tres áreas —desarrollo, medio ambiente o paz—: <em>explorar</em> (un encuentro de dos o tres días), <em>responder</em> (formular el proyecto) y <em>tomar acción</em> (el servicio voluntario, que la Comisión Nacional revisa antes). Al terminar: la insignia y el pasaporte Scouts del Mundo.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🕊️ Héroes Mensajeros de la Paz",
+              "description": "Para jóvenes de <strong>11 a 26 años</strong>, individuos o equipos, que hicieron una contribución significativa a su comunidad. No se admite autonominación; el proyecto tiene que ser de los <strong>últimos 24 meses</strong> y estar registrado en scout.org antes de la nominación.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Los requisitos son los del <em>Manual de Implementación</em> de 2021; antes de postular a alguien, confírmalos con la comisión de Mundo Mejor, porque la plataforma de registro puede haber cambiado. Y ninguno de los dos se busca como objetivo: se alcanzan cuando ya hay un proyecto sostenido detrás. Si diriges Familia o Manada, todavía no son para tus protagonistas; conviene saber, de todos modos, a dónde puede llegar lo que hoy empieza en tu unidad."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Evidencias sí; fotos de menores en redes, no sin permiso"
+        },
+        {
+          "type": "paragraph",
+          "text": "El <em>Manual de Implementación</em> de 2021 pedía, para uno de los desafíos, publicar las evidencias en las redes sociales de los participantes y etiquetar a la Asociación. Hoy eso tiene que pasar por una regla posterior: el <em>Modelo</em> 2026 habla de <em>«fotos responsables»</em> y exige consentimiento para las imágenes, y la Política A Salvo del Peligro pide directrices para publicar imágenes de jóvenes. Una evidencia puede ser el parque, la caneca, el acta de la junta. Si hay protagonistas en la foto, manda el consentimiento que pida tu Grupo; lo trabaja la Lección 4 del Curso 25."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "✅ Tu primer desafío",
+      "emoji": "✅",
+      "navLabel": "Tu compromiso",
+      "reflection": {
+        "prompt": "Retoma lo que escribiste en las Lecciones 4 y 5 y, antes de preguntarles, escribe tu hipótesis: ¿qué preocupación real crees que van a nombrar tus protagonistas, a qué iniciativa se enlazaría y quién podría ser el «para quién»? Sin nombres de personas. ¿Qué necesitas averiguar antes de llevarlo al órgano donde decide tu unidad: a tu equipo, a los protagonistas o a la comisión de Mundo Mejor?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7",
+        "nextLabel": "Ver mi certificado 🌍",
+        "questions": [
+          {
+            "text": "Un dirigente anuncia: «Este año hacemos Scouts por los ODS: una actividad por cada uno de los 17 objetivos». ¿Qué le responderías?",
+            "options": [
+              "Que es buena idea si reparte los objetivos entre las patrullas, para que cada una tenga el suyo y lo exponga al final.",
+              "Que mejor elija las cuatro iniciativas y haga una actividad de cada una, para que la unidad las conozca todas este año.",
+              "Que la unidad elija con sus protagonistas una preocupación real y la trabaje a fondo: 17 actividades no son un desafío."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Una Comunidad nota que en su colegio hay burlas contra estudiantes migrantes y quiere hacer algo. Según este curso, ¿por dónde empieza?",
+            "options": [
+              "Por entender bien lo que pasa y a quién le afecta, y luego ubicarlo en Mensajeros de la Paz, que trabaja la convivencia.",
+              "Por pedir la distinción de Mensajeros de la Paz, para que el proyecto tenga respaldo oficial al presentarse en el colegio.",
+              "Por una charla sobre el ODS 10 en la próxima reunión, para que todos entiendan la desigualdad antes de salir a actuar."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Tres semanas después, la Manada de Luisa presenta su trabajo a la junta del barrio y a las familias. No salvaron el planeta: dejaron limpia la zona de juegos del parque, dibujaron las canecas y la junta aceptó ponerlas. Al final, cada lobato marca en la vieja cartelera de los 17 objetivos con cuál conectó lo que hicieron. Casi todos marcan el mismo; uno marca otro y explica por qué. Pero Luisa se queda con algo que oyó en el Consejo de Roca: un lobato que antes tiraba la envoltura al suelo dijo que ahora la guarda en el bolsillo. La cartelera muestra lo que entendieron; el bolsillo, lo que cambió."
+        },
+        {
+          "type": "info-box",
+          "text": "🌍 <strong>Por eso este curso se sostiene en una frase:</strong> primero se lee el barrio; después se enlaza con el mundo. La cartelera no era mala idea: estaba al principio, y su lugar era el final."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "A quién acudir"
+        },
+        {
+          "type": "paragraph",
+          "text": "Para orientación sobre un desafío, las insignias o los reconocimientos mundiales, el <em>Manual de Implementación</em> remite a los <strong>comisionados regionales de Mundo Mejor</strong> y a la <strong>Comisión Nacional de Mundo Mejor</strong>. Son las figuras que el <em>Manual de Cargos</em> prevé para este programa, como viste si hiciste el <a href=\"comisionado-programa-jovenes.html\">Curso 18</a>. Si tu región no tiene comisionado de Mundo Mejor, empieza por el Comisionado Regional de Programa de Jóvenes."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama.</strong> <strong>Familia:</strong> pequeñas acciones que conectan con la Ley del Cachorro —<em>«el Cachorro cuida el agua, la tierra y el aire»</em>—, que empiezan en la reunión y siguen en casa. Tu Guía menciona un documento de Scouts por los ODS para Familias que no está en la biblioteca de Programa de Jóvenes: pídelo a la comisión de Mundo Mejor de tu región. <strong>Manada:</strong> tu Guía nombra Tribu Tierra y sus cuatro desafíos para trabajar con lobatos. <strong>Tropa:</strong> tu Guía propone ejemplos concretos —reforestar, campamentos sin plástico, bicisalidas, dinámicas de igualdad en la patrulla— y el manual <em>Descubriendo los ODS</em>. <strong>Comunidad:</strong> tu Guía trabaja dos iniciativas, Mensajeros de la Paz y Tribu Tierra, y los dos reconocimientos mundiales. <strong>Clan:</strong> tu Guía trae las cuatro iniciativas y las conecta con el PARCE."
+        },
+        {
+          "type": "info-box",
+          "text": "🔁 <strong>Y ahora, las cuatro preguntas — sobre este curso.</strong> <strong>Vivir:</strong> seguiste a una Manada de la cartelera al parque. <strong>Mirar:</strong> ¿en qué se parece la última actividad «ambiental» de tu unidad a la cartelera del primer sábado? <strong>Comprender:</strong> ¿qué paso de los siete le faltó? <strong>Proyectar:</strong> ¿cuál es la preocupación real de tus protagonistas por la que vas a empezar? Son los cuatro pasos del <em>Modelo de Aplicación de Bolsillo</em>."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Qué sigue en el Nivel 4"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tres desafíos de Mensajeros de la Paz tendrán curso propio en esta línea, cada uno con su kit de acción: <strong>Constructores de Paz</strong> (Curso 22), <strong>HeForShe</strong> (Curso 23) y <strong>Patrimonito</strong> (Curso 24). Cuando se publiquen, los encontrarás en la página de esta línea. Diálogos por la Paz y los desafíos de Tribu Tierra no tienen curso propio: si tu desafío es de uno de ellos, el <em>Manual de Implementación</em> los desarrolla en sus §4.2 y §5. Para el Diálogo Interreligioso, que el Manual no trae, pregunta a la comisión de Mundo Mejor de tu región. Y el <a href=\"a-salvo-del-peligro-programa.html\">Curso 25, A Salvo del Peligro aplicado al Programa</a>, ya está disponible. Y una condición que pone el propio Manual de Implementación: para acompañar cualquiera de sus actividades hay que haber completado el curso A Salvo del Peligro, que es el <strong>módulo oficial</strong> de la Asociación; el Curso 25 no lo reemplaza, te ayuda a llevarlo a tu unidad."
+        },
+        {
+          "type": "mission-box",
+          "text": "🎯 <strong>Tu tarea para este ciclo.</strong> En la Lección 4 imaginaste qué ven tus protagonistas; ahora pregúntaselo a ellos: qué ven cerca que les preocupe o les entusiasme. Puede que no coincida con lo que escribiste, y eso es buena señal. Lleva <strong>todas</strong> sus respuestas al órgano donde tu unidad decide, y que ellos escojan <strong>una</strong>. Tú llega con lo que te toca como adulto: a quién podría servir y cómo se haría segura. Los criterios, la presentación pública y el resto de los siete pasos los recorren juntos. La lista de los 17 objetivos, al final. Anota en el Compromiso Personal que aparece junto a tu certificado cuándo vas a preguntarles."
+        }
+      ]
+    }
+  ],
+  "commitmentBox": {
+    "prompt": "Escribe cuándo vas a preguntar a tus protagonistas qué ven, y a qué órgano de tu unidad llevarás sus respuestas:",
+    "placeholder": "El próximo … voy a preguntarles … y lo llevaré a …"
+  }
+}

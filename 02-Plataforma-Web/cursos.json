@@ -292,5 +292,19 @@
     "status": "active",
     "file": "a-salvo-del-peligro-programa.html",
     "folder": "a-salvo-del-peligro-programa"
+  },
+  {
+    "courseId": "marco-mundo-mejor-ods",
+    "title": "Scouts por los ODS: el Marco de Mundo Mejor en tu unidad",
+    "description": "Qué es Scouts por los ODS, por qué el Movimiento se comprometió con la Agenda 2030 y cómo se convierte un desafío en una oportunidad de aprendizaje de verdad: las cuatro iniciativas, los siete pasos del Modelo de Aplicación, las reglas de las insignias y los dos reconocimientos mundiales. Primero se lee el barrio; después se enlaza con el mundo. Para todo dirigente de unidad.",
+    "icon": "🌍",
+    "duration": "45 minutos",
+    "level": 4,
+    "levelName": "Transversales",
+    "order": 21,
+    "modules": 7,
+    "status": "active",
+    "file": "marco-mundo-mejor-ods.html",
+    "folder": "marco-mundo-mejor-ods"
   }
 ]
