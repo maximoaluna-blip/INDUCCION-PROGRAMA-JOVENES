@@ -47,6 +47,7 @@ el piloto — ver `PORTAL-ADMIN-ASC/README.md`.
 | `tests/codigo.spec.js` | La parte **mecánica** de `AUDITORIA.md` (checks A, B, C, E-bis) sobre el HTML **ya compilado**: cubre también los cursos en `draft` y caza el «no se recompiló». Desde el ADR-067 exige además que **ninguna sección compilada salga vacía**. | ADR-033 — la salud del código dependía de que alguien dijera la frase que dispara `AUDITORIA.md` |
 | `tests/feedback-quiz.spec.js` | Falla **a propósito** cada pregunta de cada curso y comprueba que el motor marca en verde **la opción correcta**, no otra. | ADR-061 — el motor señalaba una opción equivocada al fallar, en 26 cursos de 4 líneas: `e2e-flujo` solo recorre el camino de acierto |
 | `tests/certificado-puntuacion.spec.js` | Completa cada curso **acertando todo** y exige que el certificado imprima **100**. | ADR-065 — `quizScores` se indexa por número de módulo: `reduce` se salta los huecos y `length` los cuenta, así que seis quizzes perfectos daban **75 %** |
+| `tests/consentimiento.spec.js` | La casilla de tratamiento de datos (Ley 1581) es **obligatoria** en el registro y en «Recuperar mi avance», y cita la ley. Sin marcarla, el registro no valida y recuperar no llama al backend. | ADR-081 — se avisaba pero no se pedía autorización. Vigila lo que no se ve al romperse: quitarle el `required` no cambia nada en pantalla. ⚠️ Toda spec que se registre tiene que marcar `#consent`. |
 | `tests/landing.spec.js` | Que la **landing de la línea** pinte el catálogo completo agrupado por nivel, con `level`/`levelName`/`order`. | ADR-058 — ninguna prueba tocaba esa página: las demás se parametrizan por el catálogo de **cursos**, así que lo que no es un curso quedaba fuera **por construcción** |
 | `tests/e2e-integracion.spec.js` | Escritura y lectura reales contra un **backend de pruebas** (Fase 1b). Opcional: se salta si no hay `ASC_TEST_BACKEND`. | — |
 
@@ -55,7 +56,7 @@ el piloto — ver `PORTAL-ADMIN-ASC/README.md`.
 > página que simplemente **no estaba en ninguna lista**. Al añadir una página o un artefacto a la línea,
 > preguntar **qué spec lo recorre** — si la respuesta es «ninguna», no hay compuerta.
 
-## Cursos cubiertos hoy (15 activos)
+## Cursos cubiertos hoy (16 activos)
 
 Nivel 1: `bienvenida-programa-jovenes`, `educacion-por-el-amor`, `como-se-educa-hoy`,
 `caracteristicas-esenciales-movimiento-scout`, `metodo-scout-8-elementos`,
@@ -64,9 +65,11 @@ Nivel 2 — **las cinco ramas**: `rama-manada-lobatos`, `rama-familia-cachorros`
 `rama-tropa-scout`, `rama-comunidad-nomadas`, `rama-clan-rovers`.
 Nivel 2 — **los tres operativos** (17-sep-2026, cierran el nivel): `seguimiento-progresion-personal`,
 `planeacion-reuniones-oda`, `ciclo-programa-abp`.
+Nivel 3 — **por cargo** (27-sep-2026, lo abre): `jefe-de-rama`.
 
-Con los 15 la suite da **183 passed / 0 failed / 2 skipped** (las 2 son las opcionales:
-backend de integración y portal). Medido el 20-sep-2026.
+Con los 16 la suite da **211 passed / 0 failed / 2 skipped** (las 2 son las opcionales:
+backend de integración y portal). Medido el 27-sep-2026 contra una copia local con el curso
+volteado a `active` (ADR-052); con 15 cursos eran 200 + 2 desde el ADR-081.
 
 Todos con `status: "active"` en `02-Plataforma-Web/cursos.json`. El catálogo dinámico
 (`_setup-cursos.js`, filtra por `status: "active"/"new"`) y el fallback estático de
