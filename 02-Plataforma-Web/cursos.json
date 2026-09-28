@@ -306,5 +306,19 @@
     "status": "active",
     "file": "marco-mundo-mejor-ods.html",
     "folder": "marco-mundo-mejor-ods"
+  },
+  {
+    "courseId": "kit-constructores-paz",
+    "title": "Constructores de Paz: el kit de acción en tu unidad",
+    "description": "Cómo se lleva a tu unidad el desafío Constructores de Paz, de Mensajeros de la Paz: la diferencia entre paz negativa y paz positiva, el viaje en tres etapas —toma conciencia, comparte, actúa—, la autoevaluación y las actividades del Kit según la rama, cómo trabajar la memoria histórica sin revictimizar y cómo cerrar con un proyecto de servicio, reconocimiento y celebración. La paz no es que no haya pelea: se construye cada día. Para dirigentes de Manada, Tropa, Comunidad y Clan.",
+    "icon": "🕊️",
+    "duration": "50 minutos",
+    "level": 4,
+    "levelName": "Transversales",
+    "order": 22,
+    "modules": 7,
+    "status": "active",
+    "file": "kit-constructores-paz.html",
+    "folder": "kit-constructores-paz"
   }
 ]
