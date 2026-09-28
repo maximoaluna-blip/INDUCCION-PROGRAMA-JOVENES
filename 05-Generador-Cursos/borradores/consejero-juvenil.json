@@ -1,7 +1,7 @@
 {
   "courseId": "consejero-juvenil",
   "title": "Consejero Juvenil",
-  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "subtitle": "Una silla en el Consejo, y la voz de todos los que no están",
   "description": "Para el Rover que ocupa —o va a ocupar— el asiento juvenil del Consejo de Grupo, del Consejo Scout Regional o del Consejo Scout Nacional, y para los adultos que lo acompañan. Cómo se llega a esa silla, qué se puede y se debe hacer en ella, a quién representas —a todos los niños y jóvenes, no solo al Clan—, qué te prohíbe el cargo y cómo se rinde cuentas a quienes te eligieron.",
   "contentVersion": "2026-09-27",
   "icon": "🪑",
@@ -20,6 +20,13 @@
     { "id": "achievement-7", "emoji": "✅", "name": "Preparo mi primer Consejo", "unlockOnModule": 8 },
     { "id": "achievement-8", "emoji": "⭐", "name": "Represento a los que no están", "unlockOnModule": -1 }
   ],
+  "registration": {
+    "motivationLabel": "¿Qué te trae a este curso?"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe tu compromiso para tu tiempo en el asiento juvenil —o para acompañar a quien lo ocupa—:",
+    "placeholder": "Mi compromiso con los niños y jóvenes que represento es..."
+  },
   "certificate": {
     "courseName": "CONSEJERO JUVENIL",
     "description": "ha completado el Curso 19 de la Línea Programa de Jóvenes — Consejero Juvenil, ubicando el asiento juvenil en el Consejo de Grupo, el Consejo Scout Regional y el Consejo Scout Nacional, reconociendo cómo se llega a él por elección de los pares y por un año, ejerciéndolo con voz y voto en todo lo que decide el Consejo, recogiendo la voz de todos los miembros infantiles y juveniles antes de llevarla, rindiendo cuentas ante la asamblea que lo eligió, cuidando lo que el cargo prohíbe, y distinguiendo entre acompañar la voz juvenil y sustituirla."
@@ -91,7 +98,7 @@
         {
           "type": "policy-quote",
           "label": "📖 A quién representa",
-          "source": "Estatuto de la Asociación Scouts de Colombia (2025), Art. 48, sobre la conformación del Consejo Scout Nacional.",
+          "source": "Estatuto de la Asociación Scouts de Colombia (2025), Art. 48, numeral 48.1 «Con voz y voto», sobre la conformación del Consejo Scout Nacional.",
           "text": "El miembro Juvenil, mayor de edad, en representación de los miembros infantiles y juveniles."
         },
         {
@@ -100,7 +107,7 @@
         },
         {
           "type": "info-box",
-          "text": "📄 <strong>Una política que no vas a encontrar publicada.</strong> Los reglamentos y el <em>Modelo de Aplicación</em> citan una <em>Política Nacional de Participación Juvenil</em>; el <em>Modelo</em> la fecha en 2022. Esa política no está hoy en la biblioteca virtual de la Asociación, y la versión de 2016 que circula no es la que citan los documentos vigentes. Este curso no te enseña desde ella: te enseña desde el <em>Estatuto</em>, los reglamentos y el <em>Modelo</em>. Si la necesitas, pídela a tu región."
+          "text": "📄 <strong>Una política que no vas a encontrar publicada.</strong> Los reglamentos y el <em>Modelo de Aplicación</em> citan una <em>Política Nacional de Participación Juvenil</em>; el <em>Modelo</em> la fecha en 2022. Cuando se escribió este curso (septiembre de 2026), esa política no estaba en la biblioteca virtual de la Asociación, y la versión de 2016 que circula no es la que citan los documentos vigentes. Este curso no te enseña desde ella: te enseña desde el <em>Estatuto</em>, los reglamentos y el <em>Modelo</em>. Si la necesitas, pídela a tu región."
         },
         {
           "type": "paragraph",
@@ -153,7 +160,7 @@
         },
         {
           "type": "info-box",
-          "text": "🔢 <strong>Tres edades, cada una con su fuente.</strong> El <em>Estatuto</em> pide ser mayor de edad. El reglamento de la Red pone el límite nacional en <strong>veintiún años y dos meses</strong>. Y el reglamento de las Asambleas Rover recuerda que la ley colombiana considera joven a quien tiene entre <strong>14 y 28 años</strong>. No se contradicen: cada una responde a una pregunta distinta. Cuando te postules, mira la del nivel al que vas."
+          "text": "🔢 <strong>Tres edades, cada una con su fuente.</strong> El <em>Estatuto</em> pide ser mayor de edad. Para la región y la nación, los reglamentos de la Red y de las Asambleas Rover piden tener entre <strong>18 y 21 años y 2 meses</strong> al ser elegido. Y el reglamento de las Asambleas Rover recuerda que la ley colombiana considera joven a quien tiene entre <strong>14 y 28 años</strong>. No se contradicen: cada una responde a una pregunta distinta. Cuando te postules, mira la del nivel al que vas."
         },
         {
           "type": "info-box",
@@ -210,7 +217,7 @@
         },
         {
           "type": "paragraph",
-          "text": "<em>Las funciones propias de los consejeros.</em> Si el Consejo aprueba el presupuesto, tú votas el presupuesto. Si nombra, tú votas el nombramiento. Si decide un plan, tú lo votas. Y tu voto, en cada una de esas decisiones, se pregunta lo mismo: <strong>¿qué significa esto para los niños y jóvenes que represento?</strong> Un presupuesto que recorta la formación de dirigentes es un tema de jóvenes, aunque no lo parezca."
+          "text": "Lo mismo dice ese reglamento del Consejero Juvenil Regional (Art. 5.8): <strong>plenos deberes y derechos</strong> en su Consejo. Y en el Grupo, el Rover es uno de los miembros principales del Consejo <em>«con derecho a voz y voto»</em> (<em>Reglamento de Grupos</em>, 5.1). <em>Las funciones propias de los consejeros.</em> Si el Consejo aprueba el presupuesto, tú votas el presupuesto. Si nombra, tú votas el nombramiento. Si decide un plan, tú lo votas. Y tu voto, en cada una de esas decisiones, se pregunta lo mismo: <strong>¿qué significa esto para los niños y jóvenes que represento?</strong> Un presupuesto que recorta la formación de dirigentes es un tema de jóvenes, aunque no lo parezca."
         },
         {
           "type": "heading",
@@ -219,7 +226,7 @@
         },
         {
           "type": "paragraph",
-          "text": "No es lo mismo sentarse en un Consejo que en otro. El <strong>Consejo de Grupo</strong> es el órgano de administración del Grupo. El <strong>Consejo Scout Nacional</strong>, según el <em>Estatuto</em>, es responsable de <em>«dirigir y administrar los asuntos de la Asociación»</em> cuando la Asamblea Scout Nacional no está en sesión. Cómo funcionan por dentro —actas, quórum, votaciones— lo enseña el curso de <strong>Gobernanza Práctica</strong> de la línea de Desarrollo Institucional; vale la pena hacerlo antes de tu primera sesión."
+          "text": "No es lo mismo sentarse en un Consejo que en otro. El <strong>Consejo de Grupo</strong> es el órgano de administración del Grupo. El <strong>Consejo Scout Regional</strong> es el órgano de administración de la región. El <strong>Consejo Scout Nacional</strong> es el máximo órgano de dirección y gobierno cuando la Asamblea no está reunida, y es responsable de <em>«dirigir y administrar los asuntos de la Asociación»</em> (<em>Estatuto</em>, Art. 47). Cómo funcionan por dentro —actas, quórum, votaciones— lo enseña el curso de <strong>Gobernanza Práctica</strong> de la línea de Desarrollo Institucional; vale la pena hacerlo antes de tu primera sesión."
         },
         {
           "type": "paragraph",
@@ -279,7 +286,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El reglamento de la Red de Jóvenes dice qué hace el Consejero Juvenil Nacional, y el mismo espíritu vale en la región y en el Grupo:"
+          "text": "El reglamento de la Red de Jóvenes dice qué hace el Consejero Juvenil Nacional. En la región no es solo el espíritu: el reglamento de las Asambleas Rover le pide lo mismo al Consejero Juvenil Regional ante su Consejo (Art. 5.8). En el Grupo vale el mismo espíritu:"
         },
         {
           "type": "list",
@@ -297,7 +304,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El <em>Modelo de Aplicación</em> nombra los espacios donde los jóvenes participan, y cada uno es un lugar donde puedes escuchar: los <strong>grupos naturales</strong> —camadas, seisenas, patrullas, equipos—, los <strong>consejos o asambleas de unidad</strong>, los <strong>espacios institucionales</strong> como los foros de jóvenes y la Red de Jóvenes, y los <strong>proyectos juveniles</strong>. Los más pequeños no van a escribirte: su voz está en lo que decidieron en su Consejo de Roca o en su Corte de Honor, y en lo que cuentan sus dirigentes."
+          "text": "El <em>Modelo de Aplicación</em> nombra los espacios donde los jóvenes participan, y cada uno es un lugar donde puedes escuchar: los <strong>grupos naturales</strong> —camadas, seisenas, patrullas, equipos—, los <strong>consejos o asambleas de unidad</strong>, los <strong>espacios institucionales</strong> como los foros de jóvenes y los consejos de distintos niveles —como el tuyo—, y los <strong>proyectos juveniles</strong>. Los más pequeños no van a escribirte: su voz está en lo que decidieron en su Encuentro del Cubil, su Consejo de Roca o su Corte de Honor, y en lo que cuentan sus dirigentes."
         },
         {
           "type": "method-grid",
@@ -316,7 +323,7 @@
             },
             {
               "title": "Corresponsable",
-              "description": "Asumen responsabilidades en la organización y gestión, con acompañamiento adulto.",
+              "description": "Asumen responsabilidades en la organización y gestión de su grupo natural o de su rama, con acompañamiento adulto.",
               "color": "#fff3e0",
               "borderColor": "#fb8c00"
             },
@@ -330,7 +337,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Son los cuatro <strong>niveles de participación</strong> que reconoce el <em>Modelo</em>. Tu silla en el Consejo es corresponsable: decides con los adultos. Pero la mayoría de los niños y jóvenes que representas participan en otros niveles, y tu trabajo es que lo que dicen allí <strong>llegue</strong> a donde tú estás."
+          "text": "Son los cuatro <strong>niveles de participación</strong> que reconoce el <em>Modelo</em>. Tu silla en el Consejo es lo que el <em>Modelo</em> llama representar <em>«a sus pares en espacios institucionales»</em>: decides con los adultos. Pero la mayoría de los niños y jóvenes que representas participan en otros niveles, y tu trabajo es que lo que dicen allí <strong>llegue</strong> a donde tú estás."
         },
         {
           "type": "paragraph",
@@ -385,7 +392,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Las asambleas Rover no solo eligen: también evalúan. La Asamblea Nacional Rover tiene entre sus atribuciones <em>«Evaluar la gestión técnica, operativa y administrativa realizada por la Red de Jóvenes, el Coordinador Nacional de la Red, el Comunicador Nacional de la Red, y el Miembro Juvenil de la Comisión Nacional de Vigilancia y Control, y el Consejero Juvenil Nacional, a la luz de los informes que le sean presentados»</em>. La Asamblea Regional Rover hace lo mismo con el Consejero Juvenil de su región."
+          "text": "Las asambleas Rover no solo eligen: también evalúan. La Asamblea Nacional Rover tiene entre sus atribuciones <em>«Evaluar la gestión técnica, operativa y administrativa realizada por la Red de Jóvenes […] y el Consejero Juvenil Nacional, a la luz de los informes que le sean presentados»</em> (<em>Reglamento de la Red</em>, Art. 18.1). La Asamblea Regional Rover hace lo mismo con el Consejero Juvenil de su región."
         },
         {
           "type": "heading",
@@ -404,7 +411,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El cuarto punto importa más de lo que parece: el cargo dura un año, y en el nacional sin reelección inmediata. Si no dejas escrito lo que quedó en camino, la próxima persona empieza desde cero."
+          "text": "El cuarto punto importa más de lo que parece: el cargo dura un año en los tres niveles; en el nacional, sin reelección inmediata, y los reglamentos de Grupo y Región piden renovar al representante Rover cada año. Si no dejas escrito lo que quedó en camino, la próxima persona empieza desde cero."
         },
         {
           "type": "paragraph",
@@ -464,7 +471,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El <em>Reglamento Nacional</em> de 2026 prohíbe a los consejeros, entre otras cosas:"
+          "text": "El <em>Reglamento Nacional</em> de 2026 prohíbe a los consejeros, entre otras cosas (Art. 81):"
         },
         {
           "type": "list",
@@ -487,16 +494,16 @@
         },
         {
           "type": "paragraph",
-          "text": "<em>Puedan influir, o parecer influir.</em> No hace falta que Daniela fuera a favorecer a su tía: basta con que pareciera. La salida es sencilla: decirlo en la sesión, antes de que se discuta, y dejar que el Consejo decida cómo proceder. Callarlo es lo que convierte una casualidad en un problema."
+          "text": "<em>Puedan influir, o parecer influir.</em> No hace falta que Daniela fuera a favorecer a su tía: basta con que pareciera. La salida es sencilla: decirlo apenas lo sabes —a más tardar al empezar la sesión— y no participar en la discusión ni en la votación de ese punto. Así lo dice el <em>Reglamento Nacional</em> (Arts. 82 y 83). Callarlo es lo que convierte una casualidad en un problema."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Si no puedes ir a una sesión o a una asamblea"
+          "text": "Si no puedes ir a la Asamblea Scout Nacional"
         },
         {
           "type": "paragraph",
-          "text": "El <em>Reglamento Nacional</em> regula cómo se delega la representación en las asambleas. Y para el consejero juvenil regional pone una condición propia: la delegación <em>«deberá hacerse a otro miembro activo juvenil de la región»</em>. Tu voz no la puede llevar un adulto, ni siquiera uno bien intencionado."
+          "text": "Como Miembro Juvenil del Consejo Regional, vas a la Asamblea Scout Nacional con el Presidente de tu región. Si no puedes ir, solo puedes darle tu poder a otro miembro activo juvenil de tu región: el <em>Reglamento Nacional</em> dice que esa delegación <em>«deberá hacerse a otro miembro activo juvenil de la región»</em> (Art. 136). Tu voz no la puede llevar un adulto, ni siquiera uno bien intencionado."
         },
         {
           "type": "info-box",
@@ -513,14 +520,14 @@
           {
             "text": "El Consejo de Grupo va a elegir el lugar del campamento anual. Una de las opciones es la finca del padre del consejero juvenil, que la ofrece a buen precio. ¿Qué hace el consejero?",
             "options": [
-              "Declarar el conflicto de intereses en la sesión antes de la discusión, y dejar que el Consejo decida.",
-              "Declarar su apoyo a la finca, porque el buen precio beneficia al Grupo y eso es lo que importa.",
+              "Declarar el conflicto apenas lo sabe, y no participar en la discusión ni en la votación del punto.",
+              "Declarar su apoyo a la finca, porque el buen precio beneficia al Grupo y eso es lo que más importa.",
               "Votar en contra de la finca, para que nadie piense que favorece a su familia en el Consejo."
             ],
             "correctIndex": 0
           },
           {
-            "text": "El consejero juvenil regional no puede asistir a una asamblea. Su dirigente de Clan, adulto, se ofrece a llevar su voto porque «conoce bien lo que piensa». ¿Qué dice el Reglamento Nacional?",
+            "text": "El consejero juvenil regional no puede asistir a la Asamblea Scout Nacional. Su dirigente de Clan, adulto, se ofrece a llevar su voto porque «conoce bien lo que piensa». ¿Qué dice el Reglamento Nacional?",
             "options": [
               "Que es válido si el consejero firma el poder y el dirigente pertenece a la misma región.",
               "Que la delegación del consejero juvenil regional debe hacerse a otro miembro activo juvenil.",
