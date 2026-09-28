@@ -1,0 +1,694 @@
+{
+  "courseId": "comisionado-programa-jovenes",
+  "title": "Comisionado de Programa de Jóvenes",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "Para quien acompaña el Programa desde fuera de la unidad: comisionados regionales de Programa de Jóvenes y de rama, y miembros de comisiones. Dónde está tu cargo en la estructura, qué es la animación territorial, cómo se conduce una comisión de voluntarios, qué se cuida y qué se remite, y cómo se rinde cuentas — sin volverte el Jefe de Rama de todas las unidades.",
+  "contentVersion": "2026-09-27",
+  "icon": "🗺️",
+  "duration": "50 minutos",
+  "level": 3,
+  "levelName": "Especialización por cargo",
+  "order": 18,
+  "totalContentModules": 7,
+  "achievements": [
+    { "id": "achievement-1", "emoji": "🧭", "name": "Leo mis funciones", "unlockOnModule": 2 },
+    { "id": "achievement-2", "emoji": "🌱", "name": "Animo el territorio", "unlockOnModule": 3 },
+    { "id": "achievement-3", "emoji": "👥", "name": "Conduzco una comisión", "unlockOnModule": 4 },
+    { "id": "achievement-4", "emoji": "🛡️", "name": "Cuido lo que pasa", "unlockOnModule": 5 },
+    { "id": "achievement-5", "emoji": "📈", "name": "Rindo cuentas", "unlockOnModule": 6 },
+    { "id": "achievement-6", "emoji": "🌐", "name": "Articulo arriba y al lado", "unlockOnModule": 7 },
+    { "id": "achievement-7", "emoji": "🧩", "name": "Conozco mi perfil", "unlockOnModule": 8 },
+    { "id": "achievement-8", "emoji": "⭐", "name": "Acompaño una región", "unlockOnModule": -1 }
+  ],
+  "certificate": {
+    "courseName": "COMISIONADO DE PROGRAMA DE JÓVENES",
+    "description": "ha completado el Curso 18 de la Línea Programa de Jóvenes — Comisionado de Programa de Jóvenes, ubicando su cargo en la estructura nacional y regional del Programa, leyendo sus funciones por la pregunta que responde cada una, entendiendo la animación territorial como acompañar a los grupos para que apliquen el Programa y no aplicarlo por ellos, conduciendo una comisión de adultos voluntarios, cuidando la seguridad de las actividades y remitiendo lo que excede su papel, planeando y rindiendo cuentas dentro del plan operativo, y articulando su trabajo con la Dirección Nacional, la Jefatura y la participación juvenil."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "🗺️ Un cargo sin unidad",
+      "emoji": "🗺️",
+      "navLabel": "Bienvenida",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>~50 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Ubicar</strong> tu cargo en la estructura: la Dirección Nacional, las comisiones por rama o asunto, el comisionado regional y los comisionados de rama.",
+            "<strong>Explicar</strong> tus cinco funciones por la pregunta que responde cada una.",
+            "<strong>Diseñar</strong> la animación territorial: acompañar a los grupos para que apliquen el Programa, no aplicarlo por ellos.",
+            "<strong>Conducir</strong> una comisión de adultos voluntarios.",
+            "<strong>Distinguir</strong> lo que cuidas de lo que remites, en las actividades de la región.",
+            "<strong>Planear y rendir cuentas</strong> dentro del plan operativo regional.",
+            "<strong>Articular</strong> tu trabajo con la Dirección Nacional, la Jefatura y la participación juvenil.",
+            "<strong>Ubicarte</strong> frente a un perfil de competencias exigente."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Liliana fue Jefa de Tropa durante ocho años. Conocía cada rincón de su unidad y sabía sacar adelante un campamento con los ojos cerrados. Hace un mes el Jefe Scout de su Región la nombró <strong>Comisionada Regional de Programa de Jóvenes</strong>: catorce grupos, más de cincuenta unidades. El primer sábado, por costumbre, se levantó temprano para ir a la reunión de «su» Tropa. Ya no tenía unidad."
+        },
+        {
+          "type": "info-box",
+          "text": "🗺️ <strong>La idea que sostiene este curso:</strong> un comisionado no aplica el Programa. <strong>Hace que se aplique bien en unidades que no dirige.</strong>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Dónde está tu cargo"
+        },
+        {
+          "type": "paragraph",
+          "text": "El Programa de Jóvenes tiene una estructura que va de la nación a la región. La <em>Política Nacional de Programa de Jóvenes</em> pide, en cada nivel, <em>«un responsable»</em> del Programa y <em>«un equipo»</em>. En el <em>Manual de Cargos, Perfiles y Funciones por Competencias</em> esos responsables tienen ficha:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "En la nación",
+              "description": "La <strong>Dirección Nacional de Programa de Jóvenes</strong>, a cargo de un Director o Directora, y los <strong>comisionados nacionales</strong> de cada rama y de programas específicos, como Mundo Mejor.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "En la región",
+              "description": "El <strong>Comisionado Regional de Programa de Jóvenes</strong> y, con él, los <strong>comisionados regionales</strong> de cada rama y de Mundo Mejor.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "Las comisiones",
+              "description": "Los <strong>miembros de las comisiones</strong> regionales y nacionales, que apoyan la supervisión y la ejecución del Programa.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📌 <strong>Un nombre que no cuadra, y no es culpa tuya.</strong> La ficha del Comisionado Regional dice que responde a un <em>«Comisionado Nacional de Programa de Jóvenes»</em>; la ficha nacional del mismo <em>Manual</em> se titula <strong>Director Nacional</strong> de Programa de Jóvenes. El <em>Reglamento Nacional</em> de 2026 distingue los dos cargos: el <strong>Director o Directora Nacional</strong> y la <strong>Comisionada o Comisionado Nacional</strong>, que es <em>«Responsable de coordinar, acompañar y supervisar la aplicación del Programa de Jóvenes su respectiva rama o asunto»</em>. Cuando leas «Comisionado Nacional de Programa de Jóvenes» en tu ficha, piensa en quien encabeza el Programa en la nación."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que el cargo te pide, y lo que te impide"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Te nombra el Jefe Scout Regional</strong>, previo aval de la Dirección Nacional de Programa de Jóvenes.",
+            "<strong>Respondes</strong> al Consejo Scout Regional, al Jefe Scout Regional y a quien encabeza el Programa en la nación.",
+            "<strong>No integras el Consejo Scout Regional.</strong> Lo dice tu ficha, y lo dice el <em>Reglamento Nacional</em> para todos los niveles: <em>«Los adultos que ejerzan cargos operativos en las ramas de los grupos, en las regiones o en la nación no podrán integrar los Consejos de su respectivo nivel»</em>.",
+            "<strong>No puedes ocupar a la vez</strong> un cargo de dirección en la nación y otro en la región."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Y si tu cargo es nacional, el <em>Reglamento</em> añade dos cosas: es un <strong>cargo voluntario</strong>, sin remuneración, y su periodo es de <strong>máximo dos años</strong>, sujeto a la evaluación de desempeño. Un cargo con fecha de salida se prepara desde el primer día para que otro lo reciba."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Qué NO es este curso.</strong> No es un curso sobre cómo aplicar el Programa en una unidad: eso son los Cursos 13 a 17. Tampoco el de la Red de Jóvenes ni el del Consejero Juvenil, que son el 19 y el 20. Este curso es sobre el oficio de quien <strong>acompaña a muchas unidades a la vez</strong>, sin dirigir ninguna."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🧭 Cinco funciones, cinco preguntas",
+      "emoji": "🧭",
+      "navLabel": "Las funciones",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Liliana leyó su ficha completa. Esta vez no se detuvo en las tareas sino en las funciones, y se hizo la pregunta que aprendió como Jefa de Tropa: <strong>¿qué pregunta responde cada una?</strong>"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> tus funciones no son una lista de tareas: son <strong>cinco preguntas sobre tu región</strong> que alguien tiene que poder responder."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "1 · ¿Qué se propone la región para el Programa este año?",
+              "description": "<em>Participar de la elaboración y ejecución del plan operativo regional en lo relacionado al programa de jóvenes.</em> Es la Lección 6.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "2 · ¿Se cumplen las normas?",
+              "description": "<em>Conocer y hacer cumplir los Estatutos, Políticas y Reglamentos.</em> Incluye aplicar lo que dispongan las Jefaturas y los Consejos, y cuidar la marca.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "3 · ¿Crece el equipo que te acompaña?",
+              "description": "<em>Orientar y acompañar la atracción, vinculación y desarrollo de competencias de los adultos adscritos a su comisión.</em> Es la Lección 4.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "4 · ¿Se aplica bien el Programa en los grupos?",
+              "description": "<em>Desarrollar, promover e impulsar y evaluar la Política Nacional de Programa de Jóvenes y su modelo de aplicación en los grupos Scout de la Región.</em> Es el corazón del cargo: Lecciones 3 y 5.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "5 · ¿Crece la membresía?",
+              "description": "<em>Proponer objetivos y actividades en pro de fortalecer el crecimiento de la membresía de los grupos de la Región.</em> Es parte de la Lección 6.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fíjate en que ninguna de las cinco dice «dirigir una unidad». La cuarta, que es la más larga, dice <strong>desarrollar, promover, impulsar y evaluar</strong>. Son verbos de quien acompaña desde fuera."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los comisionados de rama repiten el esquema"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si eres comisionado regional de una rama, tu ficha tiene la misma estructura, acotada a tu rama: la del Comisionado Regional de Lobatos, por ejemplo, es responsable de <em>«la coordinación, supervisión y ejecución del Programa de Jóvenes en la rama Lobatos de la Región»</em>. A ti también te nombra el Jefe Scout Regional, en tu caso con el aval de la comisión nacional de tu rama. Y respondes también al Comisionado Regional de Programa de Jóvenes."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama, dos cosas que el <em>Manual</em> de 2020 no dice como hoy.</strong> Sus comisionados de rama son de <strong>Lobatos, Scout, Caminantes, Rover</strong> y del programa <strong>Mundo Mejor</strong>. <strong>«Caminantes» es el nombre viejo de la rama que hoy se llama Nómadas Scout</strong>, la de la Comunidad. Y <strong>no hay ficha de comisionado para la Familia de Cachorros</strong>: la rama es posterior a ese <em>Manual</em>. Si acompañas Familias en tu región, tu referencia de contenido es su Guía, igual que para sus dirigentes."
+        }
+      ],
+      "reflection": {
+        "prompt": "Toma las cinco preguntas de esta lección y respóndelas sobre tu región, hoy, con una palabra cada una: «sí», «a medias» o «no sé». ¿Cuál de las cinco no sabrías responder con datos? Escribe qué necesitarías saber para responderla y a quién se lo preguntarías (por su cargo)."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar a la animación territorial 🌱",
+        "questions": [
+          {
+            "text": "Una Tropa de la región no tiene quien la dirija este semestre. Algunos proponen que el comisionado regional la conduzca mientras tanto «porque sabe hacerlo». ¿Qué dice su ficha de funciones?",
+            "options": [
+              "Que es parte de su cargo: la cuarta función le pide ejecutar el Programa en los grupos.",
+              "Que su cargo es acompañar y evaluar la aplicación en los grupos, no dirigir una unidad.",
+              "Que es parte de su cargo solo si el Consejo Scout Regional se lo encarga por escrito."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Un comisionado regional lee en el Manual «Comisionado Regional de Caminantes» y se pregunta a qué rama corresponde hoy. ¿Qué le respondes?",
+            "options": [
+              "A la Tropa, porque los caminantes son los scouts que ya hacen travesías largas.",
+              "A la Comunidad de Nómadas Scout: «Caminantes» es el nombre viejo de esa rama.",
+              "A ninguna, porque el Reglamento de 2026 eliminó a los comisionados de rama."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "🌱 Animación territorial",
+      "emoji": "🌱",
+      "navLabel": "Animar el territorio",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "El primer plan que Liliana escribió era una lista de visitas: iría a cada grupo, vería una reunión de cada unidad y dejaría recomendaciones. A los tres meses había visitado cuatro grupos, estaba agotada y las unidades hacían lo mismo que antes, esperando la próxima visita."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> animar el territorio no es visitar ni inspeccionar. Es <strong>acompañar a los grupos para que ellos mismos apliquen bien el Programa</strong>, con herramientas, formación y seguimiento."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que pide la política"
+        },
+        {
+          "type": "paragraph",
+          "text": "La <em>Política Nacional de Programa de Jóvenes</em> le pide a la nación <em>«Crear una red de animación territorial adecuada que garantice la implementación efectiva del Programa de Jóvenes en las ramas»</em>. Y a la región, algo más concreto:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 El plan de animación territorial",
+          "source": "Política Nacional de Programa de Jóvenes (DNPJ-2026-023), §7.2 «A nivel Regional».",
+          "text": "Diseñar y ejecutar en conjunto con el equipo nacional de programa, un plan de animación territorial adecuado, que garantice la implementación efectiva del Programa de Jóvenes en las ramas scout, la evaluación del mismo y las necesidades educativas de los protagonistas de programa de acuerdo con su contexto."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tu ficha lo traduce en cuatro tareas de la cuarta función: <strong>difundir</strong> la política en los grupos; propender por su correcta aplicación <em>«a través de un acompañamiento activo de los grupos»</em> —y entre paréntesis, la palabra clave: <em>animación territorial</em>—; <strong>evaluar</strong> su aplicación en cada grupo; y <strong>desarrollar las herramientas</strong> que la hagan posible."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tres preguntas antes de salir a la región"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>¿Qué necesita saber cada grupo</strong> para aplicar el Programa, y cómo le llega? (difundir y formar)",
+            "<strong>¿Quién acompaña a quién</strong>, y con qué frecuencia? (no puedes acompañar tú solo a cincuenta unidades)",
+            "<strong>¿Cómo sabremos si se está aplicando bien</strong>, grupo por grupo? (evaluar)"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "El segundo plan de Liliana fue distinto. Repartió los catorce grupos entre los comisionados de rama y los miembros de su comisión, organizó dos jornadas regionales de formación sobre el Modelo, y acordó con cada Jefe de Grupo una conversación por ciclo sobre cómo iba el Programa en sus unidades. Ella dejó de visitarlo todo, y la región empezó a moverse."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tu relación con los Jefes de Grupo y de Rama"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tu ficha te pide <em>«Mantener una permanente y estrecha comunicación con los Comisionados a su cargo, Coordinadores de Distritos Scouts, los Jefes de Grupo y los Jefes de rama adscritos a su Región»</em>, e incluso pone a los Jefes de Rama entre quienes le responden. Pero la ficha del Jefe de Rama, en el mismo <em>Manual</em>, dice que él responde al Consejo Scout de Grupo y al Jefe de Grupo. <strong>Las dos cosas conviven</strong>: tú acompañas el Programa en sus unidades; su Grupo sigue siendo su casa. Si entras por encima del Jefe de Grupo, rompes justo la cadena que te permite acompañar."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama, qué se acompaña.</strong> Si eres comisionado de rama, lo que acompañas es lo que enseñan los cursos de esa rama. <strong>Manada:</strong> la vida de la Selva y el Consejo de Roca. <strong>Tropa:</strong> el sistema de patrullas y la Corte de Honor. <strong>Comunidad:</strong> los proyectos de los equipos y el Congreso de Comunidad. <strong>Clan:</strong> los proyectos de los rovers y el Consejo de Clan. <strong>Mundo Mejor:</strong> los programas del marco Mundo Mejor aplicados en todas las ramas. Y en <strong>Familia</strong>, aunque no haya comisionado propio, la referencia es su Guía."
+        }
+      ],
+      "reflection": {
+        "prompt": "Haz el cálculo de tu región: ¿cuántos grupos, cuántas unidades, cuántos adultos en tu comisión? Si tuvieras que acompañar todo tú, ¿cuántas visitas al año te tocaría hacer? Ahora escribe cómo repartirías ese acompañamiento entre tu equipo, y qué harías tú que nadie más puede hacer."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar a la comisión 👥",
+        "questions": [
+          {
+            "text": "Un comisionado regional con veinte grupos se propone visitar personalmente cada unidad una vez por trimestre. ¿Qué le dirías sobre ese plan?",
+            "options": [
+              "Que es el mejor plan posible: la animación territorial exige la presencia del comisionado.",
+              "Que reparta el acompañamiento en su comisión y combine visitas con formación y seguimiento.",
+              "Que es mejor no visitar: la animación territorial se hace solo con circulares y reuniones."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Un comisionado nota que una Manada aplica mal el ciclo de programa. Tiene buena relación con el Jefe de esa Manada. ¿Cómo lo acompaña?",
+            "options": [
+              "Hablando con el Jefe de la Manada y con su Jefe de Grupo, y ofreciéndoles herramientas y formación.",
+              "Hablando solo con el Jefe de la Manada, sin pasar por el Jefe de Grupo, para no hacerlo oficial.",
+              "Enviando una comunicación al Consejo de Grupo para que corrija a la Manada en su próxima sesión."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "👥 Una comisión de voluntarios",
+      "emoji": "👥",
+      "navLabel": "Tu comisión",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "La comisión que Liliana heredó tenía tres personas en el papel y una en la realidad. La primera reunión a la que convocó llegaron dos. En la segunda, una de ellas le dijo con franqueza que no sabía qué se esperaba de ella."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> tu comisión es un equipo de voluntarios. Se <strong>arma, se acompaña y se cuida</strong> igual que el equipo de una unidad, solo que a otra escala."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que te pide la tercera función"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Acompañar y guiar</strong> el desarrollo de las competencias de los adultos que están en tu equipo.",
+            "<strong>Detectar las necesidades</strong> de la comisión para incorporar adultos con los perfiles requeridos.",
+            "<strong>Crear los equipos de trabajo</strong> que consideres necesarios para cumplir lo que te encomienden el Consejo Scout Regional y el Jefe Scout Regional.",
+            "<strong>Mantener la comunicación</strong> con los comisionados a tu cargo, los coordinadores de distrito, los Jefes de Grupo y los Jefes de Rama."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Y para eso tu ficha te pide una competencia específica, la misma que a un Jefe de Rama: <strong>Asesoría personal</strong>, <em>«la capacidad de motivar, acompañar y guiar el desarrollo de las competencias del adulto para el desempeño de su cargo o función»</em>. Si hiciste el <strong>Curso 16</strong>, ya conoces la idea: <strong>las tareas se reparten; la responsabilidad, no</strong>. Aquí vale igual, con una diferencia: tu equipo no se ve cada sábado, así que lo que no se acuerda por escrito se pierde."
+        },
+        {
+          "type": "paragraph",
+          "text": "Liliana hizo tres cosas. Escribió en una página qué haría cada miembro de la comisión, con los grupos que le tocaban. Pidió a la Jefatura Regional incorporar a dos adultos con perfiles que faltaban —uno con experiencia en Clan, otra en formación—. Y fijó una reunión mensual corta, con acta. A los seis meses la comisión eran cinco personas, y todas sabían qué se esperaba de ellas."
+        },
+        {
+          "type": "info-box",
+          "text": "🔗 <strong>Los adultos de tu comisión también tienen un ciclo.</strong> Se captan, se incorporan, se acompañan y se evalúan según la <strong>Política de Adultos en el Movimiento</strong>, que desarrolla la línea de Política de Adultos de esta plataforma. Tu papel es aplicarla con tu equipo, no reinventarla."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama.</strong> Si eres comisionado de rama, tu equipo son los <strong>miembros de la comisión de tu rama</strong> y, en la práctica, los Jefes de las unidades de tu rama en la región — a quienes no nombras ni diriges, pero sí acompañas. La ficha del Comisionado Regional de Lobatos, por ejemplo, pone a los <strong>Jefes de Manada</strong> entre quienes le responden; su Grupo sigue siendo su casa."
+        }
+      ],
+      "reflection": {
+        "prompt": "Describe tu comisión hoy sin nombres, por roles: ¿cuántas personas hay en el papel y cuántas en la realidad? ¿Qué sabe cada una que se espera de ella? Escribe qué perfil te falta y a quién (por su cargo) le vas a pedir que te ayude a incorporarlo."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar a la seguridad 🛡️",
+        "questions": [
+          {
+            "text": "Una comisionada regional descubre que dos miembros de su comisión no han hecho nada en seis meses. Ninguno sabía bien qué le tocaba. ¿Qué le toca a ella?",
+            "options": [
+              "Acordar con cada uno, por escrito, qué grupos acompaña y qué se espera de él, y seguirlo.",
+              "Acordar con la Jefatura que los retire del cargo, porque seis meses sin hacer nada es abandono.",
+              "Asumir ella sus tareas este año, y buscar reemplazos cuando termine el periodo de la comisión."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un comisionado de Tropa quiere que los Jefes de Tropa de su región usen una herramienta nueva de planeación. ¿Cuál es el camino que respeta su papel?",
+            "options": [
+              "Ordenar su uso a los Jefes de Tropa, porque según su ficha ellos le responden de su gestión.",
+              "Ofrecer la herramienta con formación y acompañamiento, en acuerdo con los Jefes de Grupo.",
+              "Ofrecer la herramienta solo a los Jefes de Grupo, para que ellos se la exijan a los Jefes de Tropa."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "🛡️ Eventos seguros, casos que se remiten",
+      "emoji": "🛡️",
+      "navLabel": "Seguridad",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "El primer gran evento que Liliana coordinó fue un campamento regional de Tropa. Todo estaba listo cuando, dos días antes, alguien preguntó quién era el responsable de primeros auxilios. Nadie lo había asignado. Y el mismo mes, un Jefe de Grupo la llamó para contarle algo delicado que había pasado con un joven en su grupo."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> en la región hay dos cosas que te tocan: que las actividades <strong>sean seguras antes de que ocurran</strong>, y que cualquier caso que afecte a una persona <strong>siga su ruta</strong>. La segunda no la resuelves tú."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que cuidas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tu cuarta función incluye <em>«Coordinar, dirigir, supervisar la planeación y realización de los eventos Scouts de la Región»</em> y <em>«Propender por el cumplimiento de las normas de seguridad en las actividades que desarrollan los jóvenes»</em>. Y tu ficha te pide una competencia específica para eso:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 Seguridad y control de actividades",
+          "source": "Manual de Cargos, Perfiles y Funciones por Competencias (DNAM, agosto 2020), ficha 2.2.16 Comisionado Regional de Programa de Jóvenes, competencia específica 10, p. 273 impresa (p. 281 del PDF).",
+          "text": "Es la capacidad de prevenir y reaccionar ante comportamientos que puedan generar un daño a la integridad física, psíquica o moral de cualquier persona sin importar la edad, el sexo o la ocasión de los involucrados."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prevenir va primero. Un evento regional seguro tiene sus riesgos pensados antes: responsables con nombre para la seguridad, los primeros auxilios y los tiempos; fichas de salud y autorizaciones al día; protocolos del lugar. Liliana aprendió a pedir esa lista una semana antes, no dos días."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que remites"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tu ficha incluye también la competencia <strong>Garante del debido proceso</strong>, y una de sus conductas es exacta: <em>«Remite los casos, activando las rutas determinadas para dar trámite a la situación según el caso»</em>. Activar la ruta no es investigar, ni decidir quién tiene la razón, ni guardar el caso para ti. Es asegurar que llegue a quien corresponde, <em>«salvaguardando la presunción de inocencia y el buen nombre»</em> de las personas."
+        },
+        {
+          "type": "info-box",
+          "text": "🛡️ <strong>A dónde se remite.</strong> Lo que corresponde hacer ante un riesgo, una sospecha o una revelación lo enseña el curso <strong>«El Adulto como Garante: reportar, no investigar»</strong>, de la línea de Políticas Transversales, conforme a la Política Nacional A Salvo del Peligro. Si ese curso no lo has hecho, hazlo antes de coordinar tu próximo evento regional."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama, el evento que más riesgo concentra.</strong> Cada rama tiene los suyos: los campamentos de la Manada y la Tropa, las expediciones y proyectos en el territorio de la Comunidad, las actividades del Clan fuera del grupo. Tu tarea no es conocer cada técnica, sino <strong>preguntar antes quién responde por la seguridad</strong> y comprobar que la respuesta tenga responsables asignados."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en el próximo evento regional que vas a coordinar o a acompañar. Escribe tres riesgos que pueden aparecer y quién (por su rol) va a responder por cada uno. Y escribe, en una línea, cuál es la ruta que activarías si un Jefe de Grupo te contara algo delicado que pasó con un joven."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar al plan 📈",
+        "questions": [
+          {
+            "text": "Un Jefe de Grupo llama al comisionado regional para contarle una sospecha delicada sobre la conducta de un adulto con un joven. ¿Qué le corresponde al comisionado?",
+            "options": [
+              "Activar la ruta establecida para que el caso llegue a quien corresponde, sin investigar él.",
+              "Activar una investigación propia en el grupo antes de reportar, para no dañar un buen nombre.",
+              "Pedirle al Jefe de Grupo que lo resuelva dentro del grupo, porque es asunto de su Consejo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Faltan tres días para un campamento regional. Todo está listo, pero nadie tiene asignada la atención de primeros auxilios. ¿Qué hace el comisionado que lo coordina?",
+            "options": [
+              "Confiar en que los Jefes de cada unidad lleven su botiquín, como en cualquier campamento.",
+              "Asignar ya un responsable y revisar con él los protocolos antes de que salga el campamento.",
+              "Asumir él la atención de primeros auxilios durante el campamento, aunque no esté formado."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "📈 El plan y las cuentas",
+      "emoji": "📈",
+      "navLabel": "Plan y cuentas",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "En la Asamblea Regional le pidieron a Liliana un informe del Programa de Jóvenes. Tenía fotos de eventos y una lista de visitas. Le preguntaron cuántos grupos aplicaban el Modelo de Aplicación y cuántos jóvenes había ganado o perdido la región. No lo sabía."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> tu trabajo cabe dentro del <strong>plan operativo regional</strong>, y se rinde cuentas de él con datos que sirvan para decidir, no con una lista de actividades."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El plan: la primera función"
+        },
+        {
+          "type": "paragraph",
+          "text": "No escribes tu plan solo. Tu primera función es <em>«Participar de la elaboración y ejecución del plan operativo regional en lo relacionado al programa de jóvenes»</em>, y sus tareas son tres: <strong>proponer</strong> al Jefe Scout Regional los proyectos que consideres necesarios, <strong>participar en la planeación</strong> de los programas y cronogramas del Plan Regional, y <strong>hacer seguimiento</strong> a su desarrollo. Proponer, planear con otros, seguir."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El crecimiento: la quinta función"
+        },
+        {
+          "type": "paragraph",
+          "text": "La quinta te pide <em>«Proponer objetivos y actividades en pro de fortalecer el crecimiento de la membresía de los grupos de la Región»</em>: coordinar las acciones de crecimiento, buscar actividades, alianzas y convenios. Un Programa bien aplicado retiene a los jóvenes; uno mal aplicado los pierde. Por eso el crecimiento no es un tema aparte del Programa: es uno de sus resultados."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Las cuentas"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 Administración y gestión estratégica",
+          "source": "Manual de Cargos, Perfiles y Funciones por Competencias (DNAM, agosto 2020), ficha 2.2.16, competencia específica 21, p. 274 impresa (p. 282 del PDF).",
+          "text": "Es la capacidad de dirigir administrativa y financieramente la organización, llevando a cabo procesos de gestión para el desarrollo y cumplimiento de los objetivos pactados, así como la realización de informes de gestión que apoyan la toma de decisiones y el fortalecimiento de la misma."
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>Informes de gestión que apoyan la toma de decisiones.</em> El informe que Liliana llevó la siguiente vez tenía cuatro partes: lo que el plan se propuso para el Programa, lo que se hizo, los resultados con datos —grupos acompañados, unidades que aplican el Modelo, jóvenes que entraron y que salieron— y lo que propone cambiar. Cuatro líneas por cada parte. Por primera vez el Consejo Regional le hizo preguntas que ella podía responder."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama.</strong> Si eres comisionado de rama, tu informe es la parte de tu rama en el informe del Comisionado Regional de Programa de Jóvenes, al que también respondes. Los datos que pides a los Jefes de las unidades son los mismos que el <strong>Curso 16</strong> les enseñó a juntar por ciclo: lo planificado, lo ejecutado, los resultados y las mejoras."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe el informe de tu comisión del último semestre en cuatro líneas: lo que se propuso, lo que se hizo, los resultados con algún dato y lo que cambiarías. ¿En cuál no tenías datos? Escribe qué dato vas a empezar a pedir a los grupos y cómo lo vas a juntar."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Continuar hacia arriba y al lado 🌐",
+        "questions": [
+          {
+            "text": "Un comisionado regional presenta al Consejo Regional su informe: una galería de fotos de los eventos del año. ¿Qué le falta para ser un informe de gestión?",
+            "options": [
+              "Lo propuesto, lo hecho, resultados con datos y lo que se propone cambiar para decidir.",
+              "Lo propuesto en el plan, y una galería más amplia con los eventos de cada grupo.",
+              "Nada, si las fotos muestran eventos de todas las ramas y de todos los grupos."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En una región, la Tropa pierde un tercio de sus scouts entre un año y el siguiente. ¿Qué tiene que ver eso con el comisionado de Programa?",
+            "options": [
+              "Nada: el crecimiento es tarea del área de Desarrollo Institucional, no del Programa.",
+              "Mucho: su quinta función es el crecimiento, y un Programa mal aplicado pierde jóvenes.",
+              "Mucho, pero solo si la pérdida se concentra en los grupos que él visitó personalmente."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "title": "🌐 Hacia arriba y hacia los lados",
+      "emoji": "🌐",
+      "navLabel": "Articular",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Al año, Liliana fue a su primer encuentro nacional de comisionados. Llegó con una duda que llevaba meses: si ella acompañaba a los grupos de su región, ¿quién la acompañaba a ella?"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> tu región no está sola. El Programa se sostiene en una <strong>cadena de acompañamiento</strong> que va de la nación a la unidad, y tú eres un eslabón del medio."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Hacia arriba: la Dirección Nacional"
+        },
+        {
+          "type": "paragraph",
+          "text": "La ficha del Director Nacional de Programa de Jóvenes muestra el mismo oficio, una escala más arriba. Entre sus funciones: <strong>alinear</strong> el Programa con las políticas de la Región Interamericana y de la Organización Mundial, atendiendo a las necesidades de la juventud colombiana; <strong>desarrollar, promover e impulsar</strong> la Política Nacional y su modelo de aplicación, con un <em>«acompañamiento activo a los diferentes comisionados de Programa del país (animación territorial)»</em>; y <strong>evaluar</strong> su aplicación en cada región por medio de los comisionados regionales. Así como tú acompañas a los grupos, la Dirección Nacional acompaña a las regiones. Y el <em>Reglamento Nacional</em> sitúa a la Dirección dentro de la Jefatura: el Jefe Scout Nacional dirige la organización <em>«desde las Direcciones de Programa de Jóvenes, Adultos en el Movimiento, Comunicaciones y Desarrollo Institucional»</em>."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Hacia los lados: las otras áreas"
+        },
+        {
+          "type": "paragraph",
+          "text": "El Programa no se aplica sin adultos formados, y los adultos no se forman sin Programa. La ficha nacional le pide a la Dirección <strong>participar con Adultos en el Movimiento</strong> en la formación de adultos, y <strong>coordinar con Desarrollo Institucional</strong> el crecimiento y las actividades. Y la <em>Política Nacional de Programa de Jóvenes</em> pide lo mismo en todos los niveles: <em>«Asegurar una estrecha colaboración entre los responsables del Programa de Jóvenes y los Adultos en el Movimiento, en todos los niveles de las estructuras»</em>. En tu región, eso se traduce en conversar con quienes llevan esas áreas antes de planear, no después."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Y con los jóvenes"
+        },
+        {
+          "type": "paragraph",
+          "text": "La misma política, en su apartado regional, pide <em>«Implementar los mecanismos necesarios para garantizar la participación y el empoderamiento juvenil en el Programa de Jóvenes»</em>, y tu ficha te pide promover las políticas de participación juvenil, diversidad e inclusión. Los jóvenes tienen sus propios cargos de representación —el Consejero Juvenil, la Red de Jóvenes—, que son los <strong>Cursos 19 y 20</strong>. Lo que te toca a ti es que su voz llegue a las decisiones del Programa en tu región, no hablar por ellos."
+        },
+        {
+          "type": "info-box",
+          "text": "🔁 <strong>La idea que abrió el curso, cobrada.</strong> En la Lección 1 dijimos que un comisionado no aplica el Programa, sino que hace que se aplique bien en unidades que no dirige. Ahora se ve de qué está hecho eso: de un plan de animación territorial en lugar de una lista de visitas (Lección 3), de una comisión que sabe qué se espera de ella (Lección 4), de eventos con sus riesgos pensados y de casos que siguen su ruta (Lección 5), de informes que sirven para decidir (Lección 6) y de una cadena que va de la nación a la unidad. <strong>Todo eso es lo contrario de hacerlo todo tú.</strong>"
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama.</strong> Si eres comisionado regional de rama, tu eslabón de arriba es doble: el <strong>Comisionado Regional de Programa de Jóvenes</strong> y el <strong>comisionado nacional de tu rama</strong>. Si eres comisionado nacional de rama, te responden los comisionados regionales de tu rama y de Programa de Jóvenes, y el <em>Reglamento</em> te fija un periodo de máximo dos años."
+        }
+      ],
+      "reflection": {
+        "prompt": "Dibuja, en palabras, la cadena de acompañamiento de tu cargo: ¿quién te acompaña a ti, a quién acompañas tú, y con qué otras áreas deberías conversar antes de planear? ¿Qué eslabón está hoy roto o débil? Escribe una acción para fortalecerlo."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7",
+        "nextLabel": "Continuar a tu perfil 🧩",
+        "questions": [
+          {
+            "text": "Una comisionada regional planea un encuentro regional de formación sobre el Modelo de Aplicación. ¿Con quién le conviene conversar antes de fijarlo?",
+            "options": [
+              "Con el área de Adultos en el Movimiento de su región, porque la formación de adultos se hace en conjunto.",
+              "Con los Jefes de Rama de la región, uno por uno, porque son ellos quienes aplican el Modelo cada sábado.",
+              "Con nadie más: la formación sobre el Programa es exclusiva de la comisión regional de Programa."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En una región, la comisión de Programa decide cambiar el calendario de actividades de las ramas sin consultar a ningún joven. ¿Qué dice la política sobre eso?",
+            "options": [
+              "Que es una decisión técnica de los adultos, y los jóvenes solo se consultan en sus unidades.",
+              "Que hay que garantizar la participación juvenil, y que su voz llegue a las decisiones del Programa.",
+              "Que hay que garantizar la participación juvenil dejando la decisión solo en manos de los jóvenes."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "title": "🧩 Tu perfil, y tu primer mes",
+      "emoji": "🧩",
+      "navLabel": "Perfil y cierre",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Cuando Liliana comparó su ficha de comisionada con la de Jefa de Tropa que había tenido, notó que el <em>Manual</em> le pedía mucho más, en casi todo."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el perfil de un comisionado es de los más exigentes del <em>Manual</em>. No es un examen: es un mapa para saber <strong>por dónde crecer</strong> — y estas son tus competencias como adulto, no las competencias educativas de los jóvenes."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Grado 4",
+              "description": "<strong>Adaptabilidad al Cambio · Compromiso · Conciencia Organizacional · Relaciones Interpersonales · Trabajo en Equipo.</strong> Cinco de las siete, en el grado más alto.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "Grado 3",
+              "description": "<strong>Aprendizaje y Desarrollo Personal · Planeamiento Estratégico.</strong> En la ficha del Director Nacional, Planeamiento Estratégico sube a 4.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Y seis competencias específicas: <strong>Asesoría personal</strong>, <strong>Garante del debido proceso</strong>, <strong>Seguridad y control de actividades</strong>, <strong>Generación de contenido</strong>, <strong>Dirección del proyecto educativo</strong> y <strong>Administración y gestión estratégica</strong>. Varias ya las viste en acción en este curso. Una Jefa de Tropa necesita Trabajo en Equipo en grado 4; una comisionada, además, <strong>Adaptabilidad al Cambio</strong> en grado 4: <em>«Evalúa y proyecta el cambio»</em>. Es la que más le costó a Liliana, y la que más usó."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama.</strong> Los comisionados regionales de rama comparten la estructura de la ficha regional de Programa de Jóvenes, acotada a su rama; busca tu ficha en el <em>Manual</em> y compara sus grados con los de esta lección antes de hacer tu autodiagnóstico. Si hiciste el curso de competencias esenciales de la línea de <strong>Política de Adultos</strong>, ya sabes cómo hacerlo."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Nivel 3 sigue con los <strong>Cursos 19 y 20</strong>, pensados para los jóvenes en cargos de representación: Consejero Juvenil y la Red de Jóvenes. Si acompañas a jóvenes en esos cargos, vale la pena que los conozcas. Cuando se publiquen, los encontrarás en la página de esta línea."
+        },
+        {
+          "type": "mission-box",
+          "text": "🎯 <strong>Tu tarea para el próximo mes.</strong> Haz el <strong>mapa de tu territorio</strong>: los grupos de tu región, sus unidades y, al lado de cada grupo, quién de tu comisión lo acompaña. Marca los grupos que nadie acompaña hoy. Después fija <strong>una conversación de acompañamiento</strong> con un Jefe de Grupo de esa lista, con fecha, y una pregunta: <em>¿cómo va el Programa en tus unidades, y qué necesitas de la región?</em> Porque un comisionado no aplica el Programa: hace que se aplique bien en unidades que no dirige. Escríbelo también en el Compromiso Personal que aparece junto a tu certificado."
+        }
+      ],
+      "reflection": {
+        "prompt": "De las siete competencias esenciales de tu ficha, elige las dos que pide en grado 4 y que hoy más te cuestan. Para cada una, escribe un momento de tu último mes en que la necesitaste, y qué harías distinto. Sin nombres de personas: por su rol."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 8",
+        "nextLabel": "Ver mi certificado ⭐",
+        "questions": [
+          {
+            "text": "Un comisionado regional se autodiagnostica: está en grado 3 en todas sus competencias esenciales. ¿Dónde están sus brechas frente a la ficha?",
+            "options": [
+              "En cinco de las siete, que su ficha pide en grado 4; en Aprendizaje y Planeamiento ya cumple.",
+              "En Planeamiento Estratégico, que la ficha regional pide en grado 4 como la del Director Nacional.",
+              "En ninguna: la ficha regional pide grado 3 en todas, y el grado 4 es solo del Director Nacional."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una comisionada recién nombrada tiene poco tiempo. ¿Cuál de estas tareas de su primer mes cumple mejor la idea central del curso?",
+            "options": [
+              "Visitar ella misma las unidades con más problemas, para resolverlos durante el mes.",
+              "Mapear quién acompaña cada grupo y abrir una conversación con uno que nadie acompaña.",
+              "Mapear las unidades de la región que mejor funcionan, y visitarlas para aprender de sus Jefes."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    }
+  ]
+}

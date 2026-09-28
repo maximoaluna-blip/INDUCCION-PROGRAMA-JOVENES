@@ -236,5 +236,19 @@
     "status": "active",
     "file": "acompanamiento-progresion-personal.html",
     "folder": "acompanamiento-progresion-personal"
+  },
+  {
+    "courseId": "comisionado-programa-jovenes",
+    "title": "Comisionado de Programa de Jóvenes",
+    "description": "Para quien acompaña el Programa desde fuera de la unidad: comisionados regionales de Programa de Jóvenes y de rama, y miembros de comisiones. Dónde está tu cargo en la estructura, qué es la animación territorial, cómo se conduce una comisión de voluntarios, qué se cuida y qué se remite, y cómo se rinde cuentas — sin volverte el Jefe de Rama de todas las unidades.",
+    "icon": "🗺️",
+    "duration": "50 minutos",
+    "level": 3,
+    "levelName": "Especialización por cargo",
+    "order": 18,
+    "modules": 8,
+    "status": "draft",
+    "file": "comisionado-programa-jovenes.html",
+    "folder": "comisionado-programa-jovenes"
   }
 ]
