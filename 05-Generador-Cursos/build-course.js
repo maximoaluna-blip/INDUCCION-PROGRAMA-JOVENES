@@ -504,7 +504,7 @@ function buildRegistrationModule(course) {
                         <input type="email" id="email" name="email" placeholder="Ej: juan.perez@email.com">
                     </div>
                     <div class="form-group">
-                        <label for="motivation">¿Cuál es tu motivación para participar en el movimiento como adulto voluntario?</label>
+                        <label for="motivation">${(course.registration && course.registration.motivationLabel) || '¿Cuál es tu motivación para participar en el movimiento como adulto voluntario?'}</label>
                         <textarea id="motivation" name="motivation" rows="4" placeholder="Describe brevemente tu motivación..."></textarea>
                     </div>
                     <div class="consent-box">
@@ -654,8 +654,8 @@ function buildCertificateModule(course, certModuleId) {
 
                 <div class="reflection-area">
                     <h4>🎯 Compromiso Personal</h4>
-                    <p>Escribe tu compromiso como adulto certificado para servir a tu grupo scout y al movimiento:</p>
-                    <textarea id="commitment" placeholder="Mi compromiso como adulto del movimiento es..." onchange="saveCommitment(this.value)"></textarea>
+                    <p>${(course.commitmentBox && course.commitmentBox.prompt) || 'Escribe tu compromiso como adulto certificado para servir a tu grupo scout y al movimiento:'}</p>
+                    <textarea id="commitment" placeholder="${(course.commitmentBox && course.commitmentBox.placeholder) || 'Mi compromiso como adulto del movimiento es...'}" onchange="saveCommitment(this.value)"></textarea>
                 </div>
             </div>`;
 }
