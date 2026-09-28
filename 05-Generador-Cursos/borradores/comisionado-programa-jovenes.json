@@ -15,14 +15,54 @@
     "placeholder": "Este mes voy a mapear… y voy a conversar con un Jefe de Grupo sobre…"
   },
   "achievements": [
-    { "id": "achievement-1", "emoji": "🧭", "name": "Leo mis funciones", "unlockOnModule": 2 },
-    { "id": "achievement-2", "emoji": "🌱", "name": "Animo el territorio", "unlockOnModule": 3 },
-    { "id": "achievement-3", "emoji": "👥", "name": "Conduzco una comisión", "unlockOnModule": 4 },
-    { "id": "achievement-4", "emoji": "🛡️", "name": "Cuido lo que pasa", "unlockOnModule": 5 },
-    { "id": "achievement-5", "emoji": "📈", "name": "Rindo cuentas", "unlockOnModule": 6 },
-    { "id": "achievement-6", "emoji": "🌐", "name": "Articulo arriba y al lado", "unlockOnModule": 7 },
-    { "id": "achievement-7", "emoji": "🧩", "name": "Conozco mi perfil", "unlockOnModule": 8 },
-    { "id": "achievement-8", "emoji": "⭐", "name": "Acompaño una región", "unlockOnModule": -1 }
+    {
+      "id": "achievement-1",
+      "emoji": "🧭",
+      "name": "Leo mis funciones",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "emoji": "🌱",
+      "name": "Animo el territorio",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "emoji": "👥",
+      "name": "Conduzco una comisión",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "emoji": "🛡️",
+      "name": "Cuido lo que pasa",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "emoji": "📈",
+      "name": "Rindo cuentas",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "emoji": "🌐",
+      "name": "Articulo arriba y al lado",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
+      "emoji": "🧩",
+      "name": "Conozco mi perfil",
+      "unlockOnModule": 8
+    },
+    {
+      "id": "achievement-8",
+      "emoji": "⭐",
+      "name": "Acompaño una región",
+      "unlockOnModule": -1
+    }
   ],
   "certificate": {
     "courseName": "COMISIONADO DE PROGRAMA DE JÓVENES",
@@ -209,7 +249,7 @@
             "correctIndex": 1
           },
           {
-            "text": "Un comisionado regional quiere responder su cuarta pregunta: ¿se aplica bien el Programa en los grupos? ¿Qué dato le sirve?",
+            "text": "Un comisionado regional quiere responder su cuarta pregunta: ¿se aplica bien el Programa en los grupos? ¿Qué dato responde directamente esa pregunta?",
             "options": [
               "Cuántos grupos tienen a sus dirigentes con la formación al día, grupo por grupo.",
               "Cuántos eventos regionales se hicieron y cuántos jóvenes asistieron a cada uno.",
@@ -382,7 +422,7 @@
             "options": [
               "Enviar una circular a los Jefes de Tropa ordenando su uso, sin pasar por sus Jefes de Grupo.",
               "Ofrecer la herramienta con formación y acompañamiento, en acuerdo con los Jefes de Grupo.",
-              "Acompañar él mismo a cada Jefe de Tropa, unidad por unidad, en su primera planeación con ella."
+              "Acompañar a cada Jefe de Tropa haciendo él mismo su primera planeación con ella."
             ],
             "correctIndex": 1
           }
@@ -541,7 +581,7 @@
             "correctIndex": 0
           },
           {
-            "text": "En una región, la Tropa pierde un tercio de sus scouts entre un año y el siguiente. ¿Qué le toca al Comisionado Regional de Programa de Jóvenes?",
+            "text": "En una región, las Tropas pierden un tercio de sus scouts entre un año y el siguiente. ¿Qué le toca al Comisionado Regional de Programa de Jóvenes?",
             "options": [
               "Registrarlo en su informe y pedir a cada grupo que busque sus causas, porque la salida ocurre en sus unidades.",
               "Remitirlo al área de Desarrollo Institucional, que es la que lleva el crecimiento y las alianzas de la región.",

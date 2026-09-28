@@ -33,7 +33,7 @@ Es el primer curso de la línea cuyo destinatario **no trabaja en una unidad**. 
 - **No usar el *Modelo* 2020** (su §14 describía la estructura de la DNPJ) como vigente: está superado por el *Modelo* 2026, que no trae capítulo de estructura.
 - **No detallar la Red de Jóvenes ni el Consejero Juvenil**: son los Cursos 19 y 20. Aquí solo el vínculo.
 - **No enseñar la conducta ante un caso de A Salvo del Peligro**: la competencia 8 del cargo (*«Remite los casos, activando las rutas determinadas»*) se nombra y se remite a Transversales (ADR-038).
-- **No pedir en las reflexiones nombres de personas** (decisión del dueño, 27-sep-2026: iniciales o roles).
+- **No pedir en las reflexiones nombres de personas** (decisión del dueño, 27-sep-2026: por roles).
 
 ---
 
