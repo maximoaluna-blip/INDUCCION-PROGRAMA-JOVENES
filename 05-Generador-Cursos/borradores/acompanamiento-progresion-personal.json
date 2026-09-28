@@ -1,0 +1,785 @@
+{
+  "courseId": "acompanamiento-progresion-personal",
+  "title": "Acompañar la Progresión Personal",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "Del día que un protagonista llega a tu unidad al día que pasa a la siguiente rama. Cómo recibirlo, dejarlo elegir su camino, ajustar tu papel competencia por competencia, cuidar su ritmo, reconocer lo que aprendió y acompañar su paso — sin que la progresión se vuelva una carrera colectiva. Para todo dirigente de unidad, tenga el cargo que tenga.",
+  "contentVersion": "2026-09-27",
+  "icon": "👣",
+  "duration": "50 minutos",
+  "level": 3,
+  "levelName": "Especialización por cargo",
+  "order": 17,
+  "totalContentModules": 7,
+  "achievements": [
+    { "id": "achievement-1", "emoji": "🚪", "name": "Sé recibir", "unlockOnModule": 2 },
+    { "id": "achievement-2", "emoji": "🧭", "name": "Dejo elegir", "unlockOnModule": 3 },
+    { "id": "achievement-3", "emoji": "🔄", "name": "Ajusto mi rol", "unlockOnModule": 4 },
+    { "id": "achievement-4", "emoji": "⚖️", "name": "Cuido el ritmo", "unlockOnModule": 5 },
+    { "id": "achievement-5", "emoji": "🏅", "name": "Reconozco con sentido", "unlockOnModule": 6 },
+    { "id": "achievement-6", "emoji": "🌉", "name": "Tejo continuidad", "unlockOnModule": 7 },
+    { "id": "achievement-7", "emoji": "✅", "name": "Conozco mis límites", "unlockOnModule": 8 },
+    { "id": "achievement-8", "emoji": "⭐", "name": "Acompaño un camino", "unlockOnModule": -1 }
+  ],
+  "certificate": {
+    "courseName": "ACOMPAÑAR LA PROGRESIÓN PERSONAL",
+    "description": "ha completado el Curso 17 de la Línea Programa de Jóvenes — Acompañar la Progresión Personal, distinguiendo las tres etapas de vida en la unidad —adaptación, progresión y transición—, recibiendo a quien llega hasta su investidura, dejando que cada protagonista elija su propio camino entre las competencias, ajustando su papel de apoyar, acompañar o enlazar competencia por competencia, cuidando el ritmo de cada uno sin comparaciones, reconociendo con competencias y evidencias en lugar de insignias acumuladas, y acompañando el paso a la siguiente rama en coordinación con el equipo que recibe."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "👣 Seguirle el paso a una persona",
+      "emoji": "👣",
+      "navLabel": "Bienvenida",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>~50 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Distinguir</strong> las tres etapas de vida en la unidad —adaptación, progresión y transición— y qué te pide cada una.",
+            "<strong>Recibir</strong> a quien llega de modo que su investidura sea la culminación de una acogida y no un trámite.",
+            "<strong>Dejar elegir</strong> a cada protagonista su camino entre las competencias, sin imponerle un orden.",
+            "<strong>Ajustar</strong> tu papel competencia por competencia: apoyar, acompañar y enlazar a la misma persona a la vez.",
+            "<strong>Cuidar</strong> el ritmo propio de cada uno, sin comparaciones y sin dejar a nadie fuera.",
+            "<strong>Reconocer</strong> nombrando competencias y evidencias, no acumulando insignias.",
+            "<strong>Acompañar</strong> el paso a la siguiente rama en coordinación con el equipo que recibe.",
+            "<strong>Distinguir</strong> lo que te toca de lo que debes remitir."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sofía llegó a la Manada un sábado de marzo, con ocho años y sin haber pasado por la Familia de Cachorros. Andrés es uno de los Viejos Lobos de esa Manada. <strong>No es el Jefe</strong>: es uno de los adultos del equipo. Y sin embargo, durante los siguientes tres años, va a ser la persona que mejor conozca el camino de Sofía. Este curso sigue ese camino, del día que llega al día que pasa a la Tropa."
+        },
+        {
+          "type": "info-box",
+          "text": "👣 <strong>La idea que sostiene este curso:</strong> la unidad avanza cuando cada quien avanza — y cada quien avanza <strong>por su propio camino, a su propio ritmo</strong>."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Para quién es este curso"
+        },
+        {
+          "type": "paragraph",
+          "text": "Para <strong>todo dirigente de unidad</strong>: Jefe, Subjefe o cualquier adulto del equipo. El plan de esta línea lo anunciaba como el curso del «Asistente», y en la misma frase aclaraba que el acompañamiento es una <strong>función del dirigente, no un cargo aparte</strong>. El <em>Manual de Cargos, Perfiles y Funciones por Competencias</em> no tiene ningún cargo llamado «Asistente». Así que aquí no hablamos de un cargo: hablamos de algo que todos los adultos de la unidad hacen, o deberían hacer."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 Lo que es, en una frase",
+          "source": "Modelo de Aplicación de la Política Nacional de Programa de Jóvenes «El Gran Juego para la Vida» (DNPJ-2026-024), §9.1 «El dirigente como educador Scout».",
+          "text": "El dirigente, en esencia, es un acompañante pedagógico que hace posible que la progresión personal ocurra de manera auténtica, respetuosa y significativa."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El mapa: tres etapas"
+        },
+        {
+          "type": "paragraph",
+          "text": "El <em>Modelo</em> ordena la vida de cada protagonista en su unidad en <strong>tres etapas consecutivas</strong>. Son el mapa de este curso:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Adaptación",
+              "description": "Cuando llega a la rama o al Movimiento por primera vez. Aprende lo básico y <strong>culmina con su investidura</strong> o la renovación de su Promesa. Es la Lección 2.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "Progresión personal",
+              "description": "La parte más larga: vive oportunidades de aprendizaje y avanza en las competencias de su rama, <strong>cada una a su nivel</strong>. Son las Lecciones 3 a 6.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "Transición",
+              "description": "El paso a la siguiente rama, vivido como <strong>un momento educativo en sí mismo</strong> y no como un traslado. Es la Lección 7.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Qué NO es este curso.</strong> Si hiciste el <strong>Curso 13</strong>, ya sabes mirar una reunión: qué es una conducta observable, cómo se da una retroalimentación, qué se registra y qué no. Aquí no lo repetimos. El 13 mira <strong>lo que pasa en una reunión</strong>; este curso mira <strong>el camino de una persona a lo largo de los años</strong>."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🚪 El día que llega",
+      "emoji": "🚪",
+      "navLabel": "La llegada",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "El primer sábado, Sofía no conocía los juegos ni las canciones, no conocía a nadie y se quedó pegada a su mamá hasta el juego del final. La pregunta que Andrés se hizo esa noche no fue «¿cuándo le damos la pañoleta?», sino otra: <strong>«¿qué necesita vivir para querer quedarse?»</strong>"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la investidura no es el comienzo del camino. Es la <strong>culminación de la primera etapa</strong>, y lo que la hace valer es lo que pasó antes."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Qué se aprende en la etapa de adaptación"
+        },
+        {
+          "type": "paragraph",
+          "text": "Según el <em>Modelo</em>, cuando un joven se incorpora a una rama o al Movimiento por primera vez, adquiere los conocimientos básicos sobre el escultismo y las particularidades de su unidad:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>La Promesa y la Ley Scout.</strong>",
+            "<strong>El marco simbólico</strong> de su rama.",
+            "<strong>Las tradiciones y la vida de grupo.</strong>",
+            "<strong>Lo general del Movimiento</strong>, en Colombia y en el mundo."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Y la etapa <em>«culmina con una ceremonia de investidura o renovación de la Promesa, en la que el joven asume su compromiso con los valores del escultismo y se reconoce como miembro pleno de la rama»</em>. Fíjate en el orden: primero conoce, después se compromete. Una investidura que llega antes de que el protagonista sepa a qué se compromete <strong>se queda en ceremonia</strong>."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía de Dirigente de Manada lo dice pensando en niños como Sofía, que no vivieron la Familia: <em>«Más que enseñar conceptos, crea experiencias»</em>. Y añade algo que conviene no saltarse: esta etapa le da al niño <em>«la oportunidad de tomar una decisión consciente: continuar en el Movimiento Scout y expresar su deseo de pertenecer»</em>. <strong>La investidura es una decisión suya, no un trámite tuyo.</strong>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La familia, desde el primer día"
+        },
+        {
+          "type": "paragraph",
+          "text": "El <em>Modelo</em> le da a la familia un papel en cada etapa. En esta, la primera, <em>«ayuda a la integración del joven a la rama, apoya en la comprensión de los símbolos y de las primeras experiencias, y celebra junto a él o ella la investidura o renovación de la promesa»</em>. La mamá de Sofía no es alguien a quien hay que despegar de la puerta: es la primera aliada para que Sofía entienda qué es eso de la Selva."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esa semana, Andrés le propuso a la mamá de Sofía algo sencillo: que en casa le preguntara qué personaje de la Selva le había gustado más. Dos meses después, cuando el equipo de Viejos Lobos habló de su investidura, Sofía ya sabía la Ley de la Manada — y había pedido ella misma hacer la Promesa."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama, cómo se llama esta etapa.</strong> <strong>Familia:</strong> su Guía la llama <strong>Etapa de Adaptación</strong>, y es el primer momento del camino del Cachorro. <strong>Manada:</strong> para quien no pasó por la Familia existe la etapa introductoria <strong>«Lobezno»</strong>, que culmina en la Investidura. <strong>Tropa:</strong> el scout vive su Etapa de Adaptación antes de empezar su progresión; si viene de la Manada, ya trae su camino. <strong>Comunidad:</strong> quien llega de la Tropa trae la insignia de Viajero del Territorio, para que el dirigente de la Comunidad pueda enlazar su etapa de adaptación. <strong>Clan:</strong> su Guía habla de los recién llegados como <strong>Ciudadanos Scouts o aspirantes</strong> en etapa de adaptación."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en el último protagonista que llegó a tu unidad. ¿Cuánto tiempo pasó entre su primer sábado y su investidura? ¿Qué de las cuatro cosas de esta etapa —Promesa y Ley, marco simbólico, tradiciones, el Movimiento— había vivido antes de su Promesa, y qué no? ¿Quién de tu equipo habló con su familia en esas primeras semanas?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar al camino 🧭",
+        "questions": [
+          {
+            "text": "Llega a la Manada un niño de nueve años. Su papá pregunta si pueden investirlo el sábado siguiente, porque viene un campamento y quiere que vaya «como lobato». ¿Qué le propones?",
+            "options": [
+              "Investirlo ese sábado: la pañoleta lo hará sentirse parte y así llega al campamento integrado.",
+              "Que vaya al campamento como está: la investidura llega cuando haya vivido la etapa y la pida.",
+              "Aplazar el campamento para él hasta que se invista, porque sin Promesa no es aún un lobato."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Una dirigente de Tropa recibe a una joven de doce años que nunca estuvo en el Movimiento. ¿Qué es lo primero que la etapa de adaptación le pide ofrecerle?",
+            "options": [
+              "Unas fichas con las competencias de la rama, para que escoja por cuál empezar su progresión.",
+              "Unas experiencias para conocer la Promesa, la Ley, el marco simbólico y la vida de la Tropa.",
+              "Una prueba de nudos y campismo, para ubicarla en la fase de progresión que le corresponde."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "🧭 Un camino que elige quien lo camina",
+      "emoji": "🧭",
+      "navLabel": "Elegir el camino",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Después de su investidura, Sofía empezó su progresión. El equipo de Viejos Lobos tenía una idea clara de por dónde debía empezar: por las competencias que todos los lobatos «de su edad» ya estaban trabajando. Sofía tenía otra: quería aprender todo sobre las plantas del parque donde se reunían."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> en la progresión no hay un orden obligatorio. <strong>El camino lo elige el protagonista</strong>; el adulto le ofrece opciones y lo ayuda a decidir el siguiente paso."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 No hay un orden",
+          "source": "Modelo de Aplicación de la Política Nacional de Programa de Jóvenes «El Gran Juego para la Vida» (DNPJ-2026-024), §8.1.2 «Etapa de Progresión Personal».",
+          "text": "Es importante aclarar que no existe un orden específico para iniciar el abordaje de las competencias en las áreas de crecimiento. La intención es que el Protagonista de Programa construya su propio camino de desarrollo, eligiendo y avanzando según sus intereses, ritmos y motivaciones."
+        },
+        {
+          "type": "paragraph",
+          "text": "Léela otra vez y fíjate en quién hace los verbos: <em>construya, eligiendo, avanzando</em>. Todos son del protagonista. El interés de Sofía por las plantas no es una distracción del programa: <strong>es una puerta de entrada</strong>, tan válida como cualquier otra, a competencias de su rama."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La conversación de uno a uno"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si el camino lo elige el protagonista, alguien tiene que conversar con él para que elija con criterio. El <em>Modelo</em> propone cerrar cada ciclo de trabajo con una conversación breve, y da la frase:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 Tres partes, en una sola frase",
+          "source": "Modelo de Aplicación (DNPJ-2026-024), §9.5 «Un ciclo operativo para tu día a día», paso 6.",
+          "text": "Reúnete con el protagonista: “Esto hiciste, así se vio, este es el siguiente paso”. Involucra al grupo natural: “¿qué reconocemos? ¿qué repetimos?”."
+        },
+        {
+          "type": "paragraph",
+          "text": "Es una conversación, no una entrega de resultados. La tercera parte —<em>este es el siguiente paso</em>— se decide <strong>con</strong> el protagonista: tú ofreces dos o tres oportunidades posibles y él escoge. Cómo mirar y qué anotar para llegar a esa conversación con hechos lo aprendiste en el <strong>Curso 13</strong>; aquí lo que importa es <strong>quién decide</strong>."
+        },
+        {
+          "type": "paragraph",
+          "text": "Andrés hizo eso con Sofía después de una salida al parque: le contó lo que había visto —que había reconocido tres plantas y se las había enseñado a su seisena—, le preguntó qué quería probar después, y le dio dos opciones. Sofía escogió hacer un pequeño herbario con su seisena. Esa semana su mamá le ayudó a prensar las hojas en casa."
+        },
+        {
+          "type": "info-box",
+          "text": "👨‍👩‍👧 <strong>La familia, en cada nivel.</strong> El <em>Modelo</em> le da un papel distinto según el nivel en que va el protagonista: cuando <strong>explora</strong>, la familia puede ofrecer información y experiencias de su entorno; cuando <strong>aplica</strong>, refuerza en casa los valores y actitudes; cuando <strong>profundiza</strong>, apoya su proyección hacia la vocación, el liderazgo o el servicio. Saber en qué nivel va tu protagonista te dice qué pedirle a su familia."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama, cuánto elige quien lo camina.</strong> La regla es la misma en las cinco; lo que cambia es cuánta elección cabe a cada edad. <strong>Familia:</strong> elegir un juego, proponer una actividad o una regla sencilla ya es elegir. <strong>Manada:</strong> el lobato elige entre dos o tres opciones concretas que le ofreces. <strong>Tropa:</strong> el scout propone, y su patrulla lo acompaña. <strong>Comunidad:</strong> el nómada diseña su propio camino y te lo presenta. <strong>Clan:</strong> el rover conduce su plan y tú lo acompañas sin fijarle las metas — su Guía lo dice así: el adulto acompañante no debe imponer metas, sino ayudar al joven a descubrirlas."
+        }
+      ],
+      "reflection": {
+        "prompt": "Elige a un protagonista de tu unidad, con nombre. ¿Quién decidió la última competencia o reto en el que trabajó: él, su grupo, o el equipo de dirigentes? Escribe ahora dos o tres opciones que le podrías ofrecer para su siguiente paso a partir de algo que a él le interese de verdad, y cuándo vas a tener esa conversación."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar a los tres roles 🔄",
+        "questions": [
+          {
+            "text": "En la Tropa, un scout de trece años quiere trabajar primero una competencia de un área que su dirigente pensaba dejar para el año siguiente. ¿Qué le dice el Modelo al dirigente?",
+            "options": [
+              "Que mantenga su orden, porque las áreas tienen una secuencia pensada para cada edad.",
+              "Que puede empezar por ahí: no hay un orden específico, y el camino lo elige él.",
+              "Que primero complete las competencias que su patrulla ya está trabajando este ciclo."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Terminada una salida, un dirigente quiere acordar el siguiente paso con una lobata. ¿Cuál de estas conversaciones se parece a la que propone el Modelo?",
+            "options": [
+              "«Te vi cuidar a tu seisena en el río. ¿Qué quieres probar ahora: guiar el juego o preparar la merienda?»",
+              "«Te vi cuidar a tu seisena en el río. La próxima semana te toca guiar el juego, ya lo tenemos planeado.»",
+              "«Estuviste muy bien en la salida. Sigue así y pronto vas a tener tu próxima insignia de la Manada.»"
+            ],
+            "correctIndex": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "🔄 Tres roles, una misma persona",
+      "emoji": "🔄",
+      "navLabel": "Los tres roles",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Al año de su investidura, Andrés se dio cuenta de algo curioso. Con Sofía estaba haciendo tres cosas distintas al mismo tiempo. En lo del herbario casi no intervenía: ella lo llevaba sola y él solo le había conseguido el contacto de una bióloga del barrio. En cambio, cuando le tocaba hablar delante de toda la Manada, había que animarla, explicarle y esperar."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el rol del adulto no depende de la persona, sino de <strong>la competencia</strong>. Con el mismo protagonista, en la misma semana, puedes estar apoyando en una y enlazando en otra."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los niveles son por competencia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ya conoces los tres roles de otros cursos. Lo que vale la pena mirar despacio es de qué dependen. El <em>Modelo</em> lo dice así: <em>«Un Protagonista de Programa puede acercarse a una determinada competencia en tres niveles de desempeño»</em>. Una determinada competencia. <strong>Los niveles no son de la persona: son de cada competencia.</strong> Y como el rol del adulto sigue al nivel, <strong>el rol también es de cada competencia</strong>."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Exploro → Apoyar",
+              "description": "Se acerca por primera vez a la competencia. Tú facilitas recursos y oportunidades <em>«sin imponer ritmos ni resultados»</em>. Sofía, hablando delante de la Manada.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "Aplico → Acompañar",
+              "description": "La pone en práctica en situaciones reales. Tú das retroalimentación y guía, <em>«permitiendo que sea el joven quien lidere su proceso»</em>. Sofía, cuidando a los más pequeños de su seisena.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "Profundizo → Enlazar",
+              "description": "Se especializa en algo que es de su interés. Tú la conectas <em>«con mentores, instituciones y experiencias externas»</em>. Sofía y la bióloga del barrio.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La consecuencia práctica es grande. Si piensas en «Sofía es de apoyo» o «Sofía ya es de enlace», vas a equivocarte en la mitad de sus competencias: la vas a sobreproteger donde ya vuela, o la vas a dejar sola donde recién empieza. <strong>La pregunta útil no es «¿en qué nivel está Sofía?», sino «¿en qué nivel está Sofía en esta competencia?»</strong>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Niveles no es lo mismo que fases"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hay otra palabra que se cruza aquí. Las <strong>fases de progresión</strong> son los hitos de la rama, cada uno con su nombre propio, que marcan un avance del conjunto y se celebran con un reconocimiento. Los <strong>niveles</strong> —Exploro, Aplico, Profundizo— se ven competencia por competencia. Una persona tiene <strong>una</strong> fase en su rama y <strong>muchos</strong> niveles a la vez, uno en cada competencia que trabaja."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama, las fases.</strong> Cada Guía nombra las suyas. <strong>Familia:</strong> son <strong>tres</strong> —Mirada de Raksha, Aullido de Papá Lobo y Fuerza del Cubil—, no las cuatro que menciona el <em>Modelo</em>; en Familia manda su Guía. <strong>Manada, Tropa, Comunidad y Clan:</strong> búscalas en el capítulo de progresión de tu Guía y en el curso de tu rama. En la <strong>Comunidad</strong> se ve con claridad la relación entre las dos cosas: su Guía define cada fase por <strong>cuántas áreas</strong> tiene el nómada en Aplicación o en Profundización — la fase es un resumen de muchos niveles."
+        }
+      ],
+      "reflection": {
+        "prompt": "Vuelve al protagonista de la lección anterior. Escribe dos competencias en las que esté trabajando y, para cada una, en qué nivel va —explora, aplica o profundiza— y qué rol te toca a ti en ella. ¿Coinciden? Si en las dos haces lo mismo, pregúntate si alguna de ellas te está pidiendo otra cosa."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar al ritmo ⚖️",
+        "questions": [
+          {
+            "text": "Un nómada lidera con soltura el proyecto de su equipo, pero se paraliza cada vez que tiene que hablar con adultos de fuera del Movimiento. ¿Qué rol le toca a su dirigente?",
+            "options": [
+              "Enlazar en todo, porque ya lidera un proyecto y eso muestra que está en el nivel final.",
+              "Enlazar en el proyecto y apoyar en hablar con adultos: el rol se decide por competencia.",
+              "Apoyar en todo, porque si algo le cuesta todavía no está listo para que lo enlaces."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "En el consejo de dirigentes alguien dice: «Tomás ya está en Profundizo». ¿Qué pregunta conviene hacer antes de decidir cómo acompañarlo?",
+            "options": [
+              "«¿En qué competencia?», porque los niveles se ven competencia por competencia.",
+              "«¿Desde cuándo?», porque el nivel depende del tiempo que lleva en la rama.",
+              "«¿Qué fase tiene?», porque el nivel se deduce de la fase de progresión."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "⚖️ Cada uno a su ritmo",
+      "emoji": "⚖️",
+      "navLabel": "El ritmo propio",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "En la seisena de Sofía estaba Martín, que llegó el mismo mes que ella. Martín tardaba más en todo: en aprender la Ley, en atreverse a los juegos, en recordar los nombres. En una reunión de equipo, otro Viejo Lobo propuso «ponerlo a la par» con los demás. Andrés pidió otra cosa: mirar desde dónde había empezado Martín."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el parámetro de avance de cada protagonista <strong>no es el otro, es su propio camino</strong>. Y el adulto es quien garantiza que nadie quede fuera."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Garante de inclusión"
+        },
+        {
+          "type": "paragraph",
+          "text": "El <em>Modelo</em> le pide al dirigente asumir <em>«un papel activo como garante de inclusión, asegurando que nadie quede fuera del proceso»</em>, y lo concreta en cuatro compromisos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Adaptar</strong> actividades y oportunidades de aprendizaje a las necesidades de cada joven.",
+            "<strong>Reconocer y valorar</strong> la diversidad cultural, social, étnica, de género y de capacidades.",
+            "<strong>Asegurar</strong> que todos tengan acceso real a las fases de progresión, sean cuales sean sus condiciones externas.",
+            "<strong>Evitar la comparación</strong> entre jóvenes, centrándose en la evolución personal de cada uno."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "El cuarto es el que más cuesta en el día a día, porque la comparación sale sola. La Guía del Dirigente de Familia da la frase para reemplazarla: <em>«Hoy lo hiciste mejor que la vez pasada»</em> es más formativo que <em>«mira cómo tu compañero ya pudo»</em>. <strong>El parámetro de avance no es el otro, sino el crecimiento propio.</strong>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Ver a tiempo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Acompañar el ritmo de alguien también es notar cuándo algo no va bien. El <em>Modelo</em> dice que la observación atenta permite <em>«identificar oportunamente factores que puedan afectar la participación y el bienestar de los jóvenes, tales como conflictos interpersonales, exclusión dentro del grupo o desmotivación»</em>. Que Martín dejara de venir dos sábados seguidos no era un dato de asistencia: era una señal."
+        },
+        {
+          "type": "info-box",
+          "text": "🛡️ <strong>Lo que excede tu papel se remite.</strong> Si lo que notas no es un ritmo distinto sino una señal de que algo le está pasando a un niño o un joven —un cambio brusco, una revelación, una sospecha de riesgo—, no lo resuelves tú solo con una conversación. La conducta que corresponde la enseña la línea de <strong>Políticas Transversales</strong> y el <strong>Curso 25</strong> de esta línea; tu Jefe de Rama y tu Jefe de Grupo tienen que saberlo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Con Martín, el equipo de Andrés acordó tres ajustes: consignas más cortas, un compañero de seisena que lo acompañara en los juegos nuevos y una conversación con su familia. A los seis meses, Martín hizo su Promesa. No el mismo día que Sofía, pero con la misma certeza de por qué la hacía."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama, el ritmo.</strong> <strong>Familia:</strong> su Guía lo pone en el centro — el Viejo Lobo es <em>«garante del ritmo personal»</em>, y en la primera infancia esperar el turno o controlar los impulsos todavía están en desarrollo. <strong>Manada:</strong> <em>«cada niño crece a su propio ritmo»</em>, repite su Guía al hablar de los pasos entre ramas. <strong>Tropa:</strong> su Guía habla de <em>«educar desde la comprensión del ritmo individual, no desde la prisa institucional»</em>. <strong>Comunidad y Clan:</strong> a estas edades el ritmo depende también del estudio, el trabajo y la familia; acordarlo con el propio joven es parte del acompañamiento."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en el protagonista de tu unidad que va «más lento». Escribe desde dónde empezó cuando llegó y qué ha logrado desde entonces, sin compararlo con nadie. ¿Qué ajuste —en las consignas, en el grupo, con su familia— podría ayudarlo en el próximo ciclo? ¿Y hay algo en su caso que debas comentar con tu Jefe de Rama?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar al reconocimiento 🏅",
+        "questions": [
+          {
+            "text": "En la reunión de dirigentes de una Tropa, alguien propone publicar en la sede una tabla con el avance de cada scout «para motivarlos». ¿Qué dice el Modelo sobre eso?",
+            "options": [
+              "Que es útil, porque la competencia sana entre patrullas impulsa el avance de todos.",
+              "Que conviene evitarlo: el dirigente centra la mirada en la evolución de cada uno, sin comparar.",
+              "Que es aceptable si la tabla muestra solo las fases, y no las competencias de cada scout."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Una lobata que siempre llegaba feliz lleva tres semanas callada, no quiere jugar y pide irse temprano. ¿Qué le toca a su dirigente?",
+            "options": [
+              "Esperar un par de semanas más, porque a esa edad los cambios de ánimo suelen pasar solos.",
+              "Tomarlo como una señal, hablar con su equipo y su Jefe, y remitir si hay indicios de riesgo.",
+              "Hablar a fondo con ella a solas hasta que le cuente qué le pasa y resolverlo directamente."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "🏅 Reconocer sin coleccionar",
+      "emoji": "🏅",
+      "navLabel": "Reconocer",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Al final del segundo año, la Manada preparó una ceremonia para reconocer los avances del ciclo. Alguien propuso lo de siempre: llamar a cada lobato, entregarle sus insignias y aplaudir. Andrés preguntó qué iban a decir de cada uno <strong>además</strong> de entregarle algo."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> un reconocimiento no se mide por lo que se entrega, sino por lo que se nombra. <strong>El símbolo ilumina el aprendizaje; no ocupa su lugar.</strong>"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 Nombrar, no contar",
+          "source": "Modelo de Aplicación (DNPJ-2026-024), Capítulo 12 «Reconocimiento en el proceso educativo».",
+          "text": "Cuando hablas del reconocimiento personal en una ceremonia, no anuncias números ni colecciones de insignias. Nombras competencias y evidencias."
+        },
+        {
+          "type": "paragraph",
+          "text": "El <em>Modelo</em> da ejemplos de cómo suena eso: <em>«hoy celebramos que aprendiste a escuchar mejor al equipo»</em>, <em>«hoy vimos cómo llevaste lo aprendido a tu hogar y contagiaste a tu familia»</em>. En la ceremonia de la Manada, Andrés dijo de Sofía: «Este año aprendiste a reconocer las plantas del parque y se lo enseñaste a tu seisena». La insignia vino después, y ya significaba algo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "No todo reconocimiento es una ceremonia"
+        },
+        {
+          "type": "paragraph",
+          "text": "El <em>Modelo</em> distingue <strong>siete tipos</strong> de reconocimiento, cada uno con su función:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Ceremonia de investidura o promesa</strong> — al ingresar a la rama.",
+            "<strong>Ceremonia de paso</strong> — al transitar de una unidad a otra.",
+            "<strong>Reconocimientos cotidianos</strong> — felicitaciones y gestos de aprecio durante las actividades.",
+            "<strong>Reconocimientos simbólicos intermedios</strong> — insignias o menciones asociadas a competencias o avances.",
+            "<strong>Reconocimientos de fase o de progresión mayor</strong> — el paso de una fase a otra o la culminación en la rama.",
+            "<strong>Reconocimientos colectivos</strong> — el trabajo del grupo natural.",
+            "<strong>Reconocimientos de impacto externo</strong> — proyectos comunitarios, ambientales o sociales."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "El tercero es el más barato y el más olvidado. Una palabra a tiempo en medio de un juego sostiene la motivación de una semana. Los otros seis la necesitan para no quedarse huecos."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que no aporta"
+        },
+        {
+          "type": "paragraph",
+          "text": "El <em>Modelo</em> advierte contra cinco cosas: la <strong>inflación simbólica</strong> (acumular objetos sin sentido), el <strong>protagonismo adulto permanente</strong>, las <strong>comparaciones y clasificaciones</strong>, la <strong>tematización vacía</strong> y la <strong>burocracia sin sentido pedagógico</strong>. Y cuando dudes, propone volver a tres preguntas simples:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>¿Qué queremos reconocer?</strong>",
+            "<strong>¿Qué evidencia lo muestra?</strong>",
+            "<strong>¿Qué haremos ahora con esto?</strong>"
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama, los reconocimientos propios.</strong> Cada Guía tiene los suyos, con su propio lenguaje simbólico. <strong>Familia:</strong> las Dentelladas, la entrega de fases de progresión y la ceremonia de Fase Máxima (la Fuerza del Cubil). <strong>Manada, Tropa, Comunidad y Clan:</strong> sus Guías describen sus ceremonias e insignias en el capítulo de progresión y reconocimiento, y el curso de tu rama los recorre. En todas vale lo mismo: <strong>nombra la competencia y la evidencia antes de entregar el símbolo.</strong>"
+        }
+      ],
+      "reflection": {
+        "prompt": "Recuerda el último reconocimiento que se entregó en tu unidad. ¿Qué se dijo de la persona que lo recibió, además de su nombre? Escribe ahora cómo lo dirías tú, en una frase, nombrando una competencia y una evidencia concreta. Y piensa en un reconocimiento cotidiano que puedas dar este sábado."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Continuar a la transición 🌉",
+        "questions": [
+          {
+            "text": "En la ceremonia de fin de ciclo de un Clan, el dirigente anuncia: «Camila completó cuatro insignias este año, ¡un récord!». ¿Qué le diría el Modelo?",
+            "options": [
+              "Que es un buen reconocimiento, porque hace visible el esfuerzo con un dato concreto.",
+              "Que nombre qué aprendió Camila y con qué evidencia, en vez de contar sus insignias.",
+              "Que las ceremonias del Clan no reconocen logros personales, solo los del equipo."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Una patrulla terminó un proyecto de reciclaje con su barrio. Nadie de la patrulla logró por eso una insignia individual. ¿Qué tipo de reconocimiento corresponde?",
+            "options": [
+              "Ninguno formal: el proyecto ya fue su propio premio y se reconoce en la reunión siguiente.",
+              "Uno colectivo, o de impacto externo, que haga visible lo que la patrulla logró con su barrio.",
+              "Uno simbólico intermedio para cada scout, para que el trabajo quede en su progresión."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "title": "🌉 El paso a la otra rama",
+      "emoji": "🌉",
+      "navLabel": "La transición",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Sofía cumplió diez años y medio. Andrés empezó a notarla distinta: miraba a la Tropa en los campamentos de Grupo, preguntaba por las patrullas, se aburría en juegos que antes le encantaban. En el equipo alguien dijo «a los once pasa y ya». Andrés sabía que el paso no empieza el día del cumpleaños."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la transición no es un traslado administrativo. Es <strong>un momento educativo en sí mismo</strong>, que se acompaña entre dos equipos de dirigentes."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 Lo que el Modelo trae de nuevo",
+          "source": "Modelo de Aplicación (DNPJ-2026-024), §8.1.3 «Etapa de Transición».",
+          "text": "Uno de los aportes significativos del Modelo de Aplicación del Programa de Jóvenes en Scouts de Colombia es la incorporación de la Transición como un momento educativo en sí mismo, que conecta las diferentes ramas y permite a cada Protagonista de Programa vivir el paso de una etapa a otra como parte integral de su crecimiento."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Dos cosas a la vez: la edad y el acompañamiento"
+        },
+        {
+          "type": "paragraph",
+          "text": "Según el <em>Modelo</em>, en la transición conviven dos elementos: <strong>el tiempo cronológico</strong>, que marca el final de una franja de edad, y <strong>el acompañamiento adulto</strong>, que asegura que el paso <em>«no sea prematuro ni tardío, sino oportuno y significativo»</em>. Empieza cuando el protagonista alcanza la edad final de su sección y tiene como límite la edad inicial de la siguiente; para ese periodo, el <em>Modelo</em> aconseja un lapso de <strong>seis meses</strong>. <strong>La única excepción es el Clan</strong>: su ingreso lo fija la mayoría de edad, y todos los jóvenes empiezan su vida en el Clan al cumplir los 18 años."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cinco cosas que hacen de un paso una experiencia"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Reconocer el camino recorrido",
+              "description": "Revisar con el protagonista las competencias que exploró, aplicó o profundizó, las insignias y las experiencias que vivió — y despedirse de su unidad con gratitud.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "Acompañarlo",
+              "description": "Espacios de diálogo, fortalezas y cosas por mejorar, y preparación para los retos que encontrará en la siguiente rama.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "Que participe su grupo natural",
+              "description": "Su seisena, su patrulla o su equipo reconocen lo que aportó y lo animan en su nueva etapa.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "Prepararlo para la nueva unidad",
+              "description": "Un primer contacto real con la rama que lo recibe, <strong>sin abandonar todavía la suya</strong>: durante un tiempo, convive en las dos.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            },
+            {
+              "title": "Darle carácter simbólico",
+              "description": "Una <strong>ceremonia de paso</strong> sencilla pero significativa. El <em>Modelo</em> la describe como una continuidad, no un corte: la nueva unidad lo acoge y se compromete a acompañar su progresión.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tejer continuidad con el otro equipo"
+        },
+        {
+          "type": "paragraph",
+          "text": "La transición no la acompaña un solo equipo de dirigentes: la acompañan dos. La Guía de Dirigente de Tropa lo llama <strong>tejer continuidad</strong>, y le pide al dirigente cinco cosas:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Acompaña emocionalmente</strong> a cada joven, reconociendo su ritmo de maduración.",
+            "<strong>Coordina</strong> con los equipos de ramas vecinas para garantizar un tránsito ordenado y motivante.",
+            "<strong>Prepara a los grupos</strong> que recibirán al nuevo integrante, fomentando la acogida y el respeto.",
+            "<strong>Celebra</strong> las ceremonias de paso como momentos de significado y pertenencia.",
+            "<strong>No acelera el proceso</strong>: cuida su sentido."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Andrés se sentó con la dirigente de la Tropa y le contó quién era Sofía: su herbario, sus competencias y en qué nivel iba en cada una, lo que todavía le costaba y lo que la entusiasmaba. <strong>Así la Tropa la recibió como alguien que ya venía caminando, no como alguien que empezaba desde cero.</strong> Durante seis meses Sofía compartió actividades con las dos ramas, hasta su Gran Salto. Su mamá estuvo en la ceremonia, y su seisena le preparó un regalo: un herbario nuevo, en blanco."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama, cómo se llama el paso.</strong> <strong>Familia → Manada:</strong> la etapa <strong>«Cachorro Explorador»</strong>; el paso, al cumplir los 7 años, con una flexibilidad máxima de tres meses que analizan los Viejos Lobos de Familia y de Manada con el Jefe de Grupo — en Familia manda su Guía. <strong>Manada → Tropa:</strong> la insignia <strong>«Lobo Solitario»</strong> hacia los diez años y medio, unos seis meses en las dos ramas y la ceremonia del <strong>Gran Salto</strong>. <strong>Tropa → Comunidad:</strong> desde los catorce años y medio, con la insignia de <strong>Viajero del Territorio</strong>. <strong>Comunidad → Clan:</strong> la etapa <strong>Ciudadano Scout</strong>, entre seis y tres meses antes de los 18, en tres pasos —<strong>Legado, Asentamiento y Ciudadanía</strong>. <strong>Clan:</strong> su transición es la partida hacia la vida adulta, según el proyecto de vida de cada rover."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en el próximo protagonista de tu unidad que va a pasar de rama. ¿Cuándo empieza su transición? ¿Quién de tu equipo va a hablar con el equipo que lo recibe, y qué le va a contar de él —competencias, niveles, lo que le cuesta, lo que lo entusiasma—? ¿Qué papel tendrá su grupo natural en su despedida?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7",
+        "nextLabel": "Continuar a los límites ✅",
+        "questions": [
+          {
+            "text": "Un scout cumple catorce años y medio. Su dirigente de Tropa quiere que pase a la Comunidad el mes siguiente, «para que no pierda el año». ¿Qué le diría el Modelo?",
+            "options": [
+              "Que es lo correcto: al llegar a la edad final de la sección, el paso debe hacerse enseguida.",
+              "Que la transición empieza ahí y se acompaña: el Modelo aconseja un lapso de unos seis meses.",
+              "Que espere a que cumpla quince, porque antes de esa edad no puede empezar la transición."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Una lobata pasa a la Tropa. El equipo de la Manada no ha hablado con el de la Tropa: «que la conozcan allá». ¿Qué parte de la transición se están saltando?",
+            "options": [
+              "La ceremonia de paso, que es la que presenta a la lobata ante la Tropa que la recibe.",
+              "Coordinar con el equipo que recibe para que la acoja sabiendo el camino que ya recorrió.",
+              "Coordinar con su seisena, que es la que debe presentarla ante su nueva patrulla."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "title": "✅ Lo que te toca, y lo que no",
+      "emoji": "✅",
+      "navLabel": "Límites y cierre",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Un año después del Gran Salto, Sofía volvió un sábado a la Manada, con su pañoleta de la Tropa, a contarles a los lobatos cómo era su patrulla. Andrés la escuchó desde atrás. No había estado en ninguna de sus decisiones importantes de ese año, y así tenía que ser."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> acompañar bien es saber <strong>hasta dónde llega tu papel</strong>. No eres el centro del camino de nadie."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 El facilitador invisible",
+          "source": "Modelo de Aplicación (DNPJ-2026-024), §9.4 «El dirigente como garante de inclusión y diversidad».",
+          "text": "Recuerda siempre que tu rol no es ser el centro, sino el facilitador invisible que hace posible que cada Protagonista de Programa brille, crezca y se convierta en el mejor ciudadano que puede ser."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tres límites que protegen a todos"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "No decides por él",
+              "description": "Ofreces opciones y das tu mirada; <strong>el camino lo elige el protagonista</strong> (Lección 3). Si te descubres decidiendo sus retos, retrocede un paso.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "No eres su terapeuta",
+              "description": "Escuchas y validas lo que siente, pero sin psicologizar. El <em>Modelo</em> lo dice así: <em>«Valida emociones sin psicologizar»</em>. Lo que excede tu papel se remite (Lección 5).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "No todo se cuenta",
+              "description": "Al equipo que lo recibe le pasas su camino de progresión; lo personal y sensible sigue las reglas de lo que se registra y quién lo ve, que aprendiste en el <strong>Curso 13</strong>.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Y un límite más, que no es una prohibición sino una tranquilidad: <strong>no acompañas solo</strong>. El camino de un protagonista lo sostiene su grupo natural, su familia y el equipo de dirigentes entero. Andrés no fue el único adulto de Sofía; fue el que mejor conocía su camino, y por eso supo contarlo cuando hizo falta."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Qué viene después"
+        },
+        {
+          "type": "paragraph",
+          "text": "El Nivel 3 sigue con los cursos de quienes acompañan desde fuera de la unidad: el <strong>Curso 18</strong> es el del Comisionado de Programa de Jóvenes, y los <strong>Cursos 19 y 20</strong> los de los cargos juveniles —Consejero Juvenil y la Red de Jóvenes—. Cuando se publiquen, los encontrarás en la página de esta línea."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama, el límite que más se cruza.</strong> <strong>Familia y Manada:</strong> hacerles todo — el niño aprende más de un error acompañado que de una tarea resuelta por el adulto. <strong>Tropa:</strong> reemplazar a la patrulla — su Guía titula la figura del adulto <em>«El educador Scout como facilitador, no como jefe»</em>. <strong>Comunidad:</strong> diseñarle el proyecto al nómada. <strong>Clan:</strong> fijarle las metas al rover — su Guía pide ayudarlo a descubrirlas, no imponérselas."
+        },
+        {
+          "type": "mission-box",
+          "text": "🎯 <strong>Tu tarea para las próximas dos semanas.</strong> Elige <strong>un protagonista</strong> de tu unidad, con nombre. Escribe en qué <strong>etapa</strong> está —adaptación, progresión o transición—, <strong>dos competencias</strong> en las que trabaja con el nivel de cada una y <strong>tu rol</strong> en cada una. Después ponle <strong>fecha a una conversación</strong> con él: esto hiciste, así se vio, ¿qué quieres probar ahora? Porque la unidad avanza cuando <strong>cada quien</strong> avanza. Escríbelo también en el Compromiso Personal que aparece junto a tu certificado."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Cuál de los tres límites —decidir por él, psicologizar, contar lo que no corresponde— es el que más te cuesta sostener? Escribe una situación reciente en la que lo cruzaste o estuviste a punto, y qué harías distinto."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 8",
+        "nextLabel": "Ver mi certificado ⭐",
+        "questions": [
+          {
+            "text": "Un rover le cuenta a su dirigente que está muy angustiado por la presión de su familia sobre qué estudiar. ¿Qué respuesta respeta los límites del rol?",
+            "options": [
+              "Escucharlo, validar lo que siente y ayudarlo a pensar qué quiere, sin diagnosticarlo.",
+              "Explicarle que su angustia viene de la relación con sus padres y cómo debe manejarla.",
+              "Decirle qué carrera le conviene más, porque conoce bien sus capacidades en el Clan."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Al pasar una scout a la Comunidad, su dirigente de Tropa prepara lo que le va a contar al nuevo equipo. ¿Qué es lo que corresponde compartir?",
+            "options": [
+              "Todo lo que sabe de ella, incluidos asuntos de su familia, para que la conozcan a fondo.",
+              "Su camino de progresión: competencias, niveles, lo que le cuesta y lo que la entusiasma.",
+              "Nada: que la Comunidad la conozca de cero, para que empiece sin etiquetas de la Tropa."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    }
+  ]
+}

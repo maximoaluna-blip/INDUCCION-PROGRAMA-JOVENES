@@ -222,5 +222,19 @@
     "status": "active",
     "file": "jefe-de-rama.html",
     "folder": "jefe-de-rama"
+  },
+  {
+    "courseId": "acompanamiento-progresion-personal",
+    "title": "Acompañar la Progresión Personal",
+    "description": "Del día que un protagonista llega a tu unidad al día que pasa a la siguiente rama. Cómo recibirlo, dejarlo elegir su camino, ajustar tu papel competencia por competencia, cuidar su ritmo, reconocer lo que aprendió y acompañar su paso — sin que la progresión se vuelva una carrera colectiva. Para todo dirigente de unidad, tenga el cargo que tenga.",
+    "icon": "👣",
+    "duration": "50 minutos",
+    "level": 3,
+    "levelName": "Especialización por cargo",
+    "order": 17,
+    "modules": 8,
+    "status": "draft",
+    "file": "acompanamiento-progresion-personal.html",
+    "folder": "acompanamiento-progresion-personal"
   }
 ]
