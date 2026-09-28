@@ -1,7 +1,7 @@
 {
   "courseId": "red-de-jovenes",
   "title": "Red de Jóvenes: coordinar y comunicar",
-  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "subtitle": "Lo que los Rovers hacen juntos, y quién lo sostiene",
   "description": "El último del Nivel 3. Para los Rovers que coordinan, comunican o asesoran un eje en la Red de Jóvenes —en su región o en la nación—, para quienes se postulan y para los comisionados Rover que los acompañan. Qué es la Red, cuánto dura cada cargo, cómo se prepara una Asamblea Rover, cómo se coordina sin hacerlo todo, cómo se comunica y cómo se deja la Red lista para el relevo.",
   "contentVersion": "2026-09-27",
   "icon": "🕸️",
@@ -10,6 +10,13 @@
   "levelName": "Especialización por cargo",
   "order": 20,
   "totalContentModules": 7,
+  "registration": {
+    "motivationLabel": "¿Qué te trae a este curso sobre la Red de Jóvenes? Cuéntanos si estás en un cargo, si piensas postularte o si acompañas como comisionado."
+  },
+  "commitmentBox": {
+    "prompt": "Escribe tu compromiso con la Red para este año, como Rover en un cargo o como adulto que acompaña. Escríbelo por roles, no por nombres de personas:",
+    "placeholder": "Mi compromiso con la Red de Jóvenes es..."
+  },
   "achievements": [
     {
       "id": "achievement-1",
@@ -101,7 +108,7 @@
           "type": "policy-quote",
           "label": "📖 Para qué existe",
           "source": "Reglamento Red Nacional de Jóvenes (modificado por el Acuerdo CSN 556, 30-nov-2022), Art. 2.",
-          "text": "Integrar el trabajo del Roverismo en nuestro país siendo la herramienta adecuada para la participación e interacción juvenil en el Movimiento Scout, por medio de proyectos y acciones de servicio, buscando la representación activa de los jóvenes dentro de la Asociación Scouts de Colombia y la comunidad."
+          "text": "Integrar el trabajo del Roverismo en nuestro país siendo la herramienta adecuada para la participación e interacción juvenil en el Movimiento Scout, por medio de proyectos y acciones de servicio, buscando la representación activa de los jóvenes dentro de la Asociación Scouts de Colombia y la comunidad que conlleven a la formulación de propuestas ante la Comisión Nacional Rover y la Red Interamericana de Jóvenes."
         },
         {
           "type": "heading",
@@ -176,7 +183,7 @@
           "type": "list",
           "items": [
             "<strong>Elección:</strong> los cargos nacionales se eligen según la hoja de vida scout y profesional de cada candidato, por votación democrática entre los delegados a la Asamblea Nacional Rover. Cualquier Rover inscrito que cumpla el perfil puede postularse.",
-            "<strong>Si quien fue elegido no puede seguir</strong>, lo sustituye el Rover con la segunda mayor votación. Si queda vacante la Coordinación Nacional, el Consejero Juvenil Nacional la asume como encargado y cita a una asamblea extraordinaria.",
+            "<strong>Si alguien no puede seguir</strong>, el reglamento trae reglas distintas por cargo. En general lo sustituye quien sacó la segunda mayor votación. Si queda vacía la Coordinación Nacional, la asume como encargado el Consejero Juvenil Nacional y cita de inmediato una asamblea extraordinaria. Si queda vacía la Comunicación Nacional, la asume un Comunicador Regional elegido por el equipo nacional de comunicaciones.",
             "<strong>Si te eligen para un cargo nacional</strong> y tienes uno regional, renuncias al regional."
           ]
         },
@@ -193,7 +200,7 @@
         "nextLabel": "Continuar a la Asamblea Rover 🗳️",
         "questions": [
           {
-            "text": "Una rover de veintiún años quiere postularse a la Coordinación Nacional de la Red. ¿Qué le dice el perfil del cargo?",
+            "text": "Una rover de veintiún años recién cumplidos quiere postularse a la Coordinación Nacional de la Red. ¿Qué le dice el perfil del cargo?",
             "options": [
               "Que puede postularse: la coordinación admite hasta los veintiún años y dos meses en cualquier nivel.",
               "Que no cumple la edad del cargo nacional, que es hasta veinte años y dos meses; sí la del regional.",
@@ -221,7 +228,7 @@
       "sections": [
         {
           "type": "paragraph",
-          "text": "La primera tarea grande de Sebastián fue la Asamblea Regional Rover. La convocó por el grupo de mensajes de siempre, una semana antes. Llegaron los doce de siempre, y no hubo quórum."
+          "text": "La primera tarea grande de Sebastián fue una asamblea extraordinaria de la Red, para elegir a los asesores de eje que faltaban. La convocó por el grupo de mensajes de siempre, una semana antes. Llegaron los doce de siempre, no hubo quórum, y los asesores se quedaron sin elegir."
         },
         {
           "type": "info-box",
@@ -236,10 +243,11 @@
           "type": "list",
           "items": [
             "<strong>Cuándo:</strong> una vez al año, a más tardar el 31 de enero, y antes de la Asamblea Scout Regional y de la Asamblea Nacional Rover.",
-            "<strong>Quién convoca:</strong> el Coordinador Regional de la Red; también puede hacerlo la mitad más uno de sus integrantes, o la Jefatura Regional si la coordinación no convoca a tiempo. La citación la hace el Comunicador, con al menos un mes de antelación.",
+            "<strong>Quién convoca:</strong> el Coordinador Regional de la Red; también puede hacerlo la mitad más uno de sus integrantes, o la Jefatura Regional si la coordinación no convoca a tiempo. La citación a la ordinaria la hace el Comunicador, con al menos un mes de antelación; una extraordinaria también se cita con un mes, por escrito a cada Grupo.",
             "<strong>Quién vota:</strong> todos los Rovers inscritos tienen voz; vota el delegado de cada Grupo, y cada Grupo tiene dos votos, sin importar cuántos Rovers tenga. Coordinador, comunicador y consejero juvenil regional tienen voz y no voto; también el Jefe Scout Regional y los comisionados, como invitados.",
             "<strong>Quórum:</strong> para deliberar, la mitad más uno de los Clanes, cada uno representado por al menos un Rover.",
-            "<strong>Qué elige:</strong> cada año, el Coordinador y el Comunicador regionales, el asesor de cada eje estructural y el Miembro Juvenil del Consejo Scout Regional, además de los delegados a la Asamblea Nacional Rover.",
+            "<strong>Si no hay quórum en la ordinaria:</strong> se espera media hora. Si sigue sin haberlo, se convoca en el acto una asamblea extraordinaria que empieza una hora después, y en ella basta con los Clanes presentes. Se elige igual, con los que llegaron.",
+            "<strong>Qué elige:</strong> cada año, el Coordinador y el Comunicador regionales, el asesor de cada eje estructural y el Miembro Juvenil del Consejo Scout Regional, y a <strong>un</strong> delegado a la Asamblea Nacional Rover, que va junto con el Coordinador Regional.",
             "<strong>El acta:</strong> la firman el presidente y el secretario de la asamblea, la avala el Comisionado Regional Rover y se envía al Consejo Scout Regional y al Comisionado Nacional Rover a más tardar quince días después."
           ]
         },
@@ -250,7 +258,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Cada región tiene derecho a <strong>dos delegados con voto</strong>: su Coordinador Regional de la Red y un Rover elegido por la Asamblea Regional. La asamblea se reúne una vez al año, antes de la Asamblea Scout Nacional, y es la que <strong>evalúa</strong> la gestión de la Red y de los representantes juveniles, <strong>elige</strong> a los cargos nacionales y a los representantes juveniles, y aprueba o no las reformas del reglamento de la Red."
+          "text": "Cada región tiene derecho a <strong>dos delegados con voto</strong>: su Coordinador Regional de la Red y un Rover elegido por la Asamblea Regional. La asamblea se reúne una vez al año, antes de la Asamblea Scout Nacional, y es la que <strong>evalúa</strong> la gestión de la Red y de los representantes juveniles, <strong>elige</strong> a los cargos nacionales y a los representantes juveniles, y aprueba o no las reformas del reglamento de la Red, que luego van al Consejo Scout Nacional."
         },
         {
           "type": "info-box",
@@ -258,7 +266,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Para la asamblea extraordinaria, Sebastián hizo otra cosa: el Comunicador de la región citó por escrito a cada Grupo con un mes de antelación, él llamó a los Clanes que nunca iban, y la Jefatura Regional le ayudó a llegar a los grupos sin Rovers conocidos. Hubo quórum, y veinte grupos votaron."
+          "text": "Para la asamblea siguiente, Sebastián hizo otra cosa: el Comunicador de la región citó por escrito a cada Grupo con un mes de antelación, él llamó a los Clanes que nunca iban, y la Jefatura Regional le ayudó a llegar a los grupos sin Rovers conocidos. Hubo quórum, y veinte grupos votaron."
         },
         {
           "type": "info-box",
@@ -405,7 +413,7 @@
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y si eres el adulto que acompaña.</strong> La Comisión Nacional de Comunicaciones de la Asociación trabaja con el Comunicador Nacional de la Red. En la región, ayuda que la comunicación de la Red sepa con quién hablar en la Jefatura cuando necesita una pieza oficial o una autorización."
+          "text": "🌿 <strong>Y si eres el adulto que acompaña.</strong> El equipo de comunicaciones de la Asociación, que hoy depende de la Jefatura Scout Nacional, trabaja con el Comunicador Nacional de la Red. En la región, ayuda que la comunicación de la Red sepa con quién hablar en la Jefatura cuando necesita una pieza oficial o una autorización."
         }
       ],
       "reflection": {
@@ -455,13 +463,13 @@
           "items": [
             {
               "title": "Transversal",
-              "description": "Herramientas para las habilidades para la vida y la técnica scout, y para identificar esa transversalidad en el plan de desarrollo personal de cada Rover.",
+              "description": "Herramientas para las habilidades para la vida y la técnica scout, y para ver cómo esas habilidades se trabajan en la progresión personal de cada Rover, el PARCE.",
               "color": "#eceff1",
               "borderColor": "#546e7a"
             },
             {
               "title": "Viaje y Enlace Internacional",
-              "description": "Proyectos de viaje y enlace, dentro y fuera del país; contactos, herramientas y un <strong>turismo responsable</strong>, de acuerdo con la política de protección y gestión del riesgo.",
+              "description": "Proyectos de viaje y enlace, dentro y fuera del país; contactos, herramientas y un <strong>turismo responsable</strong>, de acuerdo con la política A Salvo del Peligro y la gestión del riesgo.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
@@ -481,7 +489,7 @@
         },
         {
           "type": "info-box",
-          "text": "📌 <strong>Si en algún documento lees «Vida y Espíritu» como eje de la Red, es un error.</strong> El reglamento de la Red y su Manual de Cargos nombran los ejes estructurales como <strong>Viaje y Enlace Internacional, Servicio y Empresa</strong>, más el <strong>transversal</strong>. El plan de esta línea tenía el nombre equivocado y se corrigió al publicar este curso."
+          "text": "📌 <strong>Los nombres exactos.</strong> El reglamento de la Red nombra tres ejes de trabajo: <strong>Viaje y Enlace Internacional, Servicio y Empresa</strong>. El Manual de Cargos les suma el <strong>transversal</strong>."
         },
         {
           "type": "paragraph",
@@ -489,7 +497,7 @@
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y en el Clan.</strong> Los ejes de la Red no reemplazan el plan de progresión de cada Rover ni la vida de su Clan, que enseña el <strong>Curso 12</strong>. Son la forma en que la Red agrupa y acompaña los proyectos que los Clanes ya hacen."
+          "text": "🌿 <strong>Y en el Clan.</strong> Los ejes de la Red no reemplazan el PARCE de cada Rover ni la vida de su Clan, que enseña el <strong>Curso 12</strong>. Son la forma en que la Red agrupa y acompaña los proyectos que los Clanes ya hacen."
         }
       ],
       "reflection": {
@@ -544,7 +552,7 @@
           "items": [
             "<strong>La Comisión Rover</strong>, regional y nacional: la Red es su órgano operativo, y la coordinación forma parte de su equipo.",
             "<strong>La Dirección Nacional de Programa de Jóvenes</strong>: la Coordinación Nacional representa ante ella a todos los Rovers del país.",
-            "<strong>La Red Interamericana de Jóvenes</strong>: la Coordinación Nacional articula los procesos de la Red con ella. Para los eventos de la Red Interamericana, según el reglamento, <strong>la representación de la Asociación la elige el Jefe Scout Nacional</strong> entre los postulados."
+            "<strong>La Red Interamericana de Jóvenes</strong>: la Coordinación Nacional articula los procesos de la Red con ella y representa ante ella a los Rovers; pero quién viaja a cada evento no lo decide la coordinación. Para los eventos de la Red Interamericana, según el reglamento, <strong>la representación de la Asociación la elige el Jefe Scout Nacional</strong> entre los postulados."
           ]
         },
         {
@@ -554,11 +562,11 @@
         },
         {
           "type": "paragraph",
-          "text": "La Asamblea Nacional Rover elige cada año al miembro juvenil del Consejo Scout Nacional —el Consejero Juvenil Nacional, que es materia del <strong>Curso 19</strong>— y a cuatro delegados Rover a la Asamblea Scout Nacional, y evalúa, con sus informes, la gestión de todos ellos y la de la propia Red."
+          "text": "La Asamblea Nacional Rover elige cada año al miembro juvenil del Consejo Scout Nacional —el Consejero Juvenil Nacional, que es materia del <strong>Curso 19</strong>—, y evalúa, con sus informes, la gestión de los representantes juveniles y la de la propia Red."
         },
         {
           "type": "info-box",
-          "text": "⚖️ <strong>El miembro juvenil ante la Comisión Nacional de Vigilancia y Control, y una norma más nueva.</strong> Los reglamentos de la Red y de las Asambleas Rover, de 2022, dicen que la Asamblea Nacional Rover elige cada año a un miembro juvenil para esa comisión. El <strong>Estatuto 2025</strong> cambió su composición: <strong>siete integrantes elegidos por cuatro años, de los cuales al menos uno debe ser menor de 30 años</strong>, y no menciona un miembro elegido por los Rovers. El <em>Reglamento Nacional</em> de 2026 fija la regla para estos casos: <strong>el Estatuto está por encima de los reglamentos</strong>, y da un año para actualizar los reglamentos que lo contraríen. Cómo se está aplicando mientras tanto lo sabe la <strong>Comisión Nacional Rover</strong>: pregúntale antes de convocar esa elección."
+          "text": "⚖️ <strong>El miembro juvenil ante la Comisión Nacional de Vigilancia y Control, y una norma más nueva.</strong> Los reglamentos de la Red y de las Asambleas Rover, de 2022, dicen que la Asamblea Nacional Rover elige cada año a un miembro juvenil para esa comisión. El <strong>Estatuto 2025</strong> cambió su composición: <strong>siete integrantes elegidos por cuatro años, de los cuales al menos uno debe ser menor de 30 años</strong>, y no menciona un miembro elegido por los Rovers. El <em>Reglamento Nacional</em> de 2026 fija la regla para estos casos: <strong>el Estatuto está por encima de los reglamentos</strong> (Art. 19); y el propio Reglamento Nacional, que también dice que la Comisión Nacional de Vigilancia y Control tiene siete integrantes elegidos por la Asamblea Scout Nacional, da un año para ajustar las normas que lo contraríen (Art. 246). Cómo se está aplicando mientras tanto lo sabe la <strong>Comisión Nacional Rover</strong>: pregúntale antes de convocar esa elección. Lo mismo pasa con los <strong>cuatro delegados Rover a la Asamblea Scout Nacional</strong> que eligen esos reglamentos: el Estatuto 2025 arma la Asamblea con delegados de las regiones, y en cada delegación regional va el Miembro Juvenil del Consejo Scout Regional. Pregunta también por ellos a la Comisión Nacional Rover."
         },
         {
           "type": "info-box",

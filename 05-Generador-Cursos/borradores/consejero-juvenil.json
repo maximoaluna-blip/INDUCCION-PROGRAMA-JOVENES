@@ -64,6 +64,10 @@
           "text": "🪑 <strong>La idea que sostiene este curso:</strong> tu silla en el Consejo no es la del Clan. Es la de <strong>todos los niños y jóvenes que no pueden sentarse ahí</strong>."
         },
         {
+          "type": "info-box",
+          "text": "🌿 <strong>Si eres el adulto que acompaña.</strong> Este curso le habla de tú al Rover que ocupa la silla. Léelo como lo leería él: así sabrás qué le pide el cargo. En cada lección hay una caja como esta con lo que te toca a ti, y la Lección 7 es entera sobre tu papel."
+        },
+        {
           "type": "heading",
           "level": 3,
           "text": "Una silla en tres Consejos"
@@ -135,12 +139,31 @@
           "text": "Lo que piden las normas"
         },
         {
-          "type": "list",
+          "type": "method-grid",
           "items": [
-            "<strong>Para el Consejo Scout Nacional</strong>, el <em>Estatuto</em> pide ser <strong>mayor de edad</strong>, no haber sido sancionado por faltas muy graves y estar debidamente afiliado. El periodo es de <strong>un año</strong>, sin reelección inmediata.",
-            "<strong>El reglamento de la Red de Jóvenes</strong> precisa el perfil del Consejero Juvenil Nacional: ser Rover inscrito, tener al menos <strong>un año de inscripción consecutiva</strong>, tener entre <strong>dieciocho y veintiún años y dos meses</strong> al momento de la elección, <strong>experiencia en procesos de participación juvenil</strong> y disponibilidad de tiempo.",
-            "<strong>Para el Consejo de Grupo</strong>, el Rover es elegido por los Rovers inscritos en el Grupo, en votación uninominal, por un año. Si el Grupo no tiene Rovers, la Asamblea de Grupo elige un miembro adicional."
+            {
+              "title": "Si te postulas en tu Grupo",
+              "description": "Te eligen los Rovers inscritos en el Grupo, en votación uninominal, por <strong>un año</strong>. Si el Grupo no tiene Rovers, la Asamblea de Grupo elige un miembro adicional.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "Si te postulas en tu región",
+              "description": "Te elige cada año la <strong>Asamblea Regional Rover</strong>. Los reglamentos de la Red y de las Asambleas Rover piden tener entre <strong>18 y 21 años y 2 meses</strong> al ser elegido. El periodo es de <strong>un año</strong>.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "Si te postulas a la nación",
+              "description": "El <em>Estatuto</em> pide ser <strong>mayor de edad</strong>, no haber sido sancionado por faltas muy graves y estar debidamente afiliado. El reglamento de la Red de Jóvenes precisa el perfil: ser Rover inscrito, tener al menos <strong>un año de inscripción consecutiva</strong>, tener entre <strong>dieciocho y veintiún años y dos meses</strong> al momento de la elección, <strong>experiencia en procesos de participación juvenil</strong> y disponibilidad de tiempo. El periodo es de <strong>un año</strong>, sin reelección inmediata.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si hiciste el Curso 12, esto lo viste entre las tareas del Clan: elegir cada año al Rover que va al Consejo de Grupo. Aquí se ve qué le pasa a quien elegiste."
         },
         {
           "type": "heading",
@@ -175,22 +198,22 @@
         "nextLabel": "Continuar a la voz y el voto ✋",
         "questions": [
           {
-            "text": "En un Grupo con cinco Rovers, el Jefe de Grupo propone que el Consejo de Grupo designe directamente al Rover «más responsable» para el asiento juvenil. ¿Qué dice el Reglamento de Grupos?",
+            "text": "En un Grupo con cinco Rovers, el Jefe de Grupo propone que el Consejo de Grupo designe directamente al Rover «más responsable» para el asiento juvenil. ¿Qué debería responderle el consejero juvenil que termina su periodo?",
             "options": [
-              "Que es válido si el Consejo lo aprueba por mayoría y el Rover acepta el cargo.",
-              "Que lo eligen los Rovers del Grupo entre ellos, en votación, por un año.",
-              "Que es válido si el Jefe de Grupo lo propone y la Asamblea de Grupo lo ratifica."
+              "Que lo eligen los Rovers, pero el Consejo puede cambiarlo si no le parece el más responsable.",
+              "Que es válido si el Jefe de Grupo lo propone y la Asamblea de Grupo lo ratifica.",
+              "Que lo eligen los Rovers inscritos en el Grupo, entre ellos y en votación, por un año."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "Un Rover es coordinador de la Red de Jóvenes de su región y la Asamblea Nacional Rover lo elige Consejero Juvenil Nacional. ¿Qué pasa con su cargo regional?",
             "options": [
-              "Que lo conserva: los dos cargos se complementan y le dan más información para el Consejo Nacional.",
-              "Que renuncia al cargo regional: al ser elegido en el nivel nacional, deja la representación regional.",
-              "Que lo conserva hasta terminar su periodo regional completo, y después asume el cargo nacional."
+              "Que renuncia al cargo regional para asumir el nacional, como pide el reglamento de la Red.",
+              "Que conserva los dos: se complementan y le dan más información para llevar al Consejo Nacional.",
+              "Que renuncia al cargo nacional si la región lo necesita más, porque allí lo eligieron primero."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -203,7 +226,7 @@
       "sections": [
         {
           "type": "paragraph",
-          "text": "En la segunda sesión, el Consejo Regional discutió el presupuesto del año. Daniela no dijo nada: pensó que eso era «de los adultos» y que a ella la habían elegido para hablar de los jóvenes. Votó lo que votó la mayoría."
+          "text": "En la segunda sesión, el Consejo Regional aprobó el calendario de eventos del año. Daniela no dijo nada: pensó que eso era «de los adultos» y que a ella la habían elegido para hablar de los jóvenes. Votó lo que votó la mayoría."
         },
         {
           "type": "info-box",
@@ -226,11 +249,11 @@
         },
         {
           "type": "paragraph",
-          "text": "No es lo mismo sentarse en un Consejo que en otro. El <strong>Consejo de Grupo</strong> es el órgano de administración del Grupo. El <strong>Consejo Scout Regional</strong> es el órgano de administración de la región. El <strong>Consejo Scout Nacional</strong> es el máximo órgano de dirección y gobierno cuando la Asamblea no está reunida, y es responsable de <em>«dirigir y administrar los asuntos de la Asociación»</em> (<em>Estatuto</em>, Art. 47). Cómo funcionan por dentro —actas, quórum, votaciones— lo enseña el curso de <strong>Gobernanza Práctica</strong> de la línea de Desarrollo Institucional; vale la pena hacerlo antes de tu primera sesión."
+          "text": "No es lo mismo sentarse en un Consejo que en otro. El <strong>Consejo de Grupo</strong> es el órgano de administración del Grupo. El <strong>Consejo Scout Regional</strong> es el órgano de administración de la región. El <strong>Consejo Scout Nacional</strong> es el máximo órgano de dirección y gobierno cuando la Asamblea no está reunida, y es responsable de <em>«dirigir y administrar los asuntos de la Asociación»</em> (<em>Estatuto</em>, Art. 47). Cómo funcionan por dentro —actas, quórum y cómo se decide— lo enseña el curso de <strong>Gobernanza Práctica</strong> de la línea de Desarrollo Institucional; vale la pena hacerlo antes de tu primera sesión."
         },
         {
           "type": "paragraph",
-          "text": "Para la tercera sesión, Daniela pidió el orden del día con anticipación, leyó el presupuesto y preparó una pregunta: cuánto se destinaba ese año a la formación de los dirigentes de Manada, que en su región escaseaban. Nadie más la había hecho."
+          "text": "Para la tercera sesión, en la que se votaba el presupuesto, Daniela pidió el orden del día con anticipación, leyó el presupuesto y preparó una pregunta: cuánto se destinaba ese año a formar dirigentes. Nadie más la había hecho."
         },
         {
           "type": "info-box",
@@ -238,29 +261,29 @@
         }
       ],
       "reflection": {
-        "prompt": "Mira el último orden del día de un Consejo al que tengas acceso —de tu Grupo, de tu región o de la nación—. Escribe tres puntos que parecían «de adultos» y, al lado de cada uno, qué pregunta haría el consejero juvenil pensando en los niños y jóvenes que representa."
+        "prompt": "Mira el último orden del día de un Consejo al que tengas acceso —de tu Grupo, de tu región o de la nación—; si todavía no tienes ninguno, pídeselo a tu Jefe de Grupo o usa el plan del año de tu Grupo. Escribe tres puntos que parecían «de adultos» y, al lado de cada uno, qué pregunta haría el consejero juvenil pensando en los niños y jóvenes que representa."
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",
         "nextLabel": "Continuar a llevar la voz 👂",
         "questions": [
           {
-            "text": "En el Consejo Scout Nacional se vota el presupuesto anual. El consejero juvenil nacional duda si le toca votar «algo que no es de jóvenes». ¿Qué le dice el reglamento?",
+            "text": "El Consejo de Grupo va a decidir si traslada la sede a un salón más barato pero más lejos. El consejero juvenil piensa: «eso es de plata; que decidan los adultos». ¿Qué le conviene hacer?",
             "options": [
-              "Que vota como cualquier consejero: tiene plenos deberes y derechos en lo que decide el Consejo.",
-              "Que vota solo si el presupuesto incluye rubros para la Red de Jóvenes o los Rovers.",
-              "Que se abstiene: su función es llevar las propuestas de los jóvenes, no la administración."
-            ],
-            "correctIndex": 0
-          },
-          {
-            "text": "Una consejera juvenil de Grupo recibe el día de la sesión un resumen de dos líneas del plan anual, «para que no se canse». Los demás recibieron el documento completo hace una semana. ¿Qué está fallando?",
-            "options": [
-              "Nada: el resumen le ahorra tiempo y el plan anual no es un tema juvenil en sentido estricto.",
-              "Que no la tratan como par: debe recibir los mismos documentos, con el mismo tiempo que los demás.",
-              "Que debió recibirlo antes, aunque el resumen basta para votar si el plan no toca a las ramas."
+              "Votar con la mayoría, porque en temas de dinero su aporte es menor y no conviene frenar al Consejo.",
+              "Votar como los demás, después de preguntar cómo llegarían los lobatos y los scouts a la nueva sede.",
+              "Abstenerse, porque su función es llevar las propuestas de los jóvenes y no la administración del Grupo."
             ],
             "correctIndex": 1
+          },
+          {
+            "text": "El día de la sesión, a la consejera juvenil de Grupo le llega un resumen de dos líneas del plan anual, «para que no se canse»; los demás tienen el documento completo desde hace una semana. ¿Qué le conviene hacer?",
+            "options": [
+              "Pedir que le expliquen el resumen en la sesión y votar con eso, confiando en quienes lo leyeron.",
+              "Votar en blanco ese punto y dejar el reclamo por los documentos para el informe de fin de año.",
+              "Pedir el documento completo ya, y que desde ahora le llegue con el mismo tiempo que a los demás."
+            ],
+            "correctIndex": 2
           }
         ]
       }
@@ -349,7 +372,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Haz la cuenta de a quién representa el asiento juvenil de tu Grupo o de tu región: ¿cuántos niños, adolescentes y jóvenes son, por rama, aproximadamente? Escribe por qué canal podría llegar al consejero juvenil la voz de cada rama, y cuál de esos canales hoy no existe."
+        "prompt": "Haz la cuenta de a quién representa el asiento juvenil de tu Grupo o de tu región: ¿cuántos niños, adolescentes y jóvenes son, por rama, aproximadamente? Escribe por qué canal podría llegar al consejero juvenil la voz de cada rama, cuál de esos canales hoy no existe y en qué nivel de participación está hoy cada rama."
       },
       "quiz": {
         "title": "Mini-quiz Lección 4",
@@ -358,20 +381,20 @@
           {
             "text": "Un consejero juvenil regional prepara su primera intervención y consulta a los Rovers de la región por redes sociales. ¿Qué le falta a su consulta?",
             "options": [
-              "Nada: los Rovers son quienes lo eligieron y, por lo tanto, a quienes representa.",
-              "Llegar a los niños y adolescentes, por medio de las unidades y de sus dirigentes.",
-              "Una encuesta formal con más preguntas, para que los resultados sean representativos."
+              "Le falta poco: los Rovers son quienes lo eligieron y, por lo tanto, a quienes representa.",
+              "Una encuesta formal con más preguntas, para que los resultados sean representativos.",
+              "Llegar a los niños y adolescentes, por medio de las unidades y de sus dirigentes."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "Una dirigente de Manada recibe la pregunta del consejero juvenil: ¿qué preocupa a tu unidad? ¿Qué respuesta ayuda a que la voz de los lobatos llegue al Consejo?",
             "options": [
-              "Lo que los lobatos decidieron y pidieron en su Consejo de Roca en los últimos meses.",
-              "Lo que ella, como dirigente, cree que los lobatos necesitan para el próximo año.",
-              "Lo que las familias de los lobatos le comentan sobre las actividades de la Manada."
+              "Lo que ella y los demás dirigentes concluyeron sobre lo que los lobatos necesitan el próximo año.",
+              "Lo que los lobatos propusieron y eligieron en sus últimas reuniones, aunque a ella le parezca menor.",
+              "Lo que las familias de los lobatos le comentan, a la salida, sobre las actividades de la Manada."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
           }
         ]
       }
@@ -392,7 +415,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Las asambleas Rover no solo eligen: también evalúan. La Asamblea Nacional Rover tiene entre sus atribuciones <em>«Evaluar la gestión técnica, operativa y administrativa realizada por la Red de Jóvenes […] y el Consejero Juvenil Nacional, a la luz de los informes que le sean presentados»</em> (<em>Reglamento de la Red</em>, Art. 18.1). La Asamblea Regional Rover hace lo mismo con el Consejero Juvenil de su región."
+          "text": "Las asambleas Rover no solo eligen: también evalúan. La Asamblea Nacional Rover tiene entre sus atribuciones <em>«Evaluar la gestión técnica, operativa y administrativa realizada por la Red de Jóvenes […] y el Consejero Juvenil Nacional, a la luz de los informes que le sean presentados»</em> (<em>Reglamento de la Red</em>, Art. 18.1). La Asamblea Regional Rover hace lo mismo con el Consejero Juvenil de su región. En corto: tu asamblea te pide cuentas con lo que tú le lleves por escrito."
         },
         {
           "type": "heading",
@@ -430,13 +453,13 @@
         "nextLabel": "Continuar a lo que el cargo prohíbe ⚖️",
         "questions": [
           {
-            "text": "Un consejero juvenil nacional llega a la Asamblea Nacional Rover sin informe escrito: «estuve en todas las sesiones y todos saben lo que hice». ¿Qué le falta?",
+            "text": "Un consejero juvenil llega a la Asamblea Rover con un informe de diez páginas que narra, sesión por sesión, lo que se habló en el Consejo. ¿Qué va a echar de menos la asamblea que lo eligió?",
             "options": [
-              "Nada, si asistió a todas las sesiones: la asistencia demuestra el cumplimiento del cargo.",
-              "Un informe con lo que llevó, lo que pasó con ello, lo que votó y lo que queda pendiente.",
-              "Una presentación con fotos de las sesiones, para que la asamblea vea su participación."
+              "Un resumen más corto de las sesiones, con las principales decisiones que tomó el Consejo en el año.",
+              "Un anexo con las actas oficiales de cada sesión, firmadas por el secretario del Consejo.",
+              "Un balance de qué pasó con lo que él llevó, cómo votó y qué le deja pendiente a su sucesor."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "A una consejera juvenil de Grupo le quedan dos meses de periodo, y dos de sus propuestas siguen en estudio en el Consejo. ¿Qué le conviene hacer?",
@@ -497,6 +520,10 @@
           "text": "<em>Puedan influir, o parecer influir.</em> No hace falta que Daniela fuera a favorecer a su tía: basta con que pareciera. La salida es sencilla: decirlo apenas lo sabes —a más tardar al empezar la sesión— y no participar en la discusión ni en la votación de ese punto. Así lo dice el <em>Reglamento Nacional</em> (Arts. 82 y 83). Callarlo es lo que convierte una casualidad en un problema."
         },
         {
+          "type": "paragraph",
+          "text": "Daniela no esperó a que se lo preguntaran. Lo dijo apenas lo supo —al empezar la sesión, antes de que nadie hablara de precios—: «Una de esas tiendas es de mi tía». Y no participó en la discusión ni en la votación de ese punto. Le tomó treinta segundos."
+        },
+        {
           "type": "heading",
           "level": 3,
           "text": "Si no puedes ir a la Asamblea Scout Nacional"
@@ -518,22 +545,22 @@
         "nextLabel": "Continuar a los adultos que acompañan 🤝",
         "questions": [
           {
-            "text": "El Consejo de Grupo va a elegir el lugar del campamento anual. Una de las opciones es la finca del padre del consejero juvenil, que la ofrece a buen precio. ¿Qué hace el consejero?",
+            "text": "El Consejo va a decidir si firma una alianza con la universidad donde el consejero juvenil estudia con una beca. ¿Qué le conviene hacer?",
             "options": [
-              "Declarar el conflicto apenas lo sabe, y no participar en la discusión ni en la votación del punto.",
-              "Declarar su apoyo a la finca, porque el buen precio beneficia al Grupo y eso es lo que más importa.",
-              "Votar en contra de la finca, para que nadie piense que favorece a su familia en el Consejo."
-            ],
-            "correctIndex": 0
-          },
-          {
-            "text": "El consejero juvenil regional no puede asistir a la Asamblea Scout Nacional. Su dirigente de Clan, adulto, se ofrece a llevar su voto porque «conoce bien lo que piensa». ¿Qué dice el Reglamento Nacional?",
-            "options": [
-              "Que es válido si el consejero firma el poder y el dirigente pertenece a la misma región.",
-              "Que la delegación del consejero juvenil regional debe hacerse a otro miembro activo juvenil.",
-              "Que es válido si el dirigente asiste solo con voz y sin voto en nombre del consejero juvenil."
+              "Votar a favor sin mencionarlo, porque la beca no depende de la alianza y él no saca ningún provecho de ella.",
+              "Declarar la beca apenas lo sabe, y no participar en la discusión ni en la votación del punto.",
+              "Declarar que votará en contra de la alianza, para que no quede duda de que actúa con independencia."
             ],
             "correctIndex": 1
+          },
+          {
+            "text": "El consejero juvenil regional no puede asistir a la Asamblea Scout Nacional. Su dirigente de Clan, adulto, se ofrece a llevar su voto porque «conoce bien lo que piensa». ¿Qué debería responderle el consejero?",
+            "options": [
+              "Que no: su poder lo debe llevar otro miembro activo juvenil de la región, y le pide ayuda para encontrarlo.",
+              "Que sí, siempre que el consejero firme el poder por escrito y el dirigente pertenezca a la misma región.",
+              "Que no: que es mejor que su voto no llegue a la Asamblea Scout Nacional, antes de que lo lleve un adulto."
+            ],
+            "correctIndex": 0
           }
         ]
       }
@@ -560,7 +587,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El <em>Modelo</em> resume el papel del adulto en la participación juvenil en tres verbos que ya conoces: <strong>apoyar</strong> en las primeras fases, brindando información y opciones; <strong>acompañar</strong> en las intermedias, asegurando recursos, herramientas y confianza; y <strong>enlazar</strong> en las avanzadas, conectando la participación de los jóvenes con espacios más amplios de incidencia. Un consejero juvenil está justo en ese último punto: lo que necesita del adulto es que le <strong>abra puertas</strong>, no que las cruce por él."
+          "text": "El <em>Modelo</em> resume el papel del adulto en la participación juvenil en tres verbos —si hiciste los cursos de la línea para dirigentes, ya los conoces—: <strong>apoyar</strong> en las primeras fases, brindando información y opciones; <strong>acompañar</strong> en las intermedias, asegurando recursos, herramientas y confianza; y <strong>enlazar</strong> en las avanzadas, conectando la participación de los jóvenes con espacios más amplios de incidencia. Un consejero juvenil está justo en ese último punto: lo que necesita del adulto es que le <strong>abra puertas</strong>, no que las cruce por él."
         },
         {
           "type": "list",
@@ -584,20 +611,20 @@
         }
       ],
       "reflection": {
-        "prompt": "Si eres Rover: escribe qué necesitas de los adultos para ejercer bien el asiento juvenil —en cada uno de los tres verbos— y a quién (por su cargo) se lo vas a pedir. Si eres adulto: escribe una situación reciente en la que hablaste por un joven cuando podías haberle abierto la puerta para que hablara él."
+        "prompt": "Si eres Rover: escribe qué necesitas de los adultos para ejercer bien el asiento juvenil —en cada uno de los tres verbos— y a quién (por su cargo) se lo vas a pedir. Si eres adulto: escribe una situación reciente en la que hablaste por un joven cuando podías haberle abierto la puerta para que hablara él. Nómbralo por su rama o su cargo, no por su nombre."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7",
         "nextLabel": "Continuar a tu primer Consejo ✅",
         "questions": [
           {
-            "text": "Un consejero adulto del Consejo de Grupo le propone al consejero juvenil: «En las votaciones difíciles, mírame y vota lo mismo que yo, así no te equivocas». ¿Qué dice el Modelo sobre ese acompañamiento?",
+            "text": "Un consejero adulto del Consejo de Grupo le propone al consejero juvenil: «En las votaciones difíciles, mírame y vota lo mismo que yo, así no te equivocas». ¿Qué debería responderle el consejero juvenil?",
             "options": [
-              "Que es un buen apoyo mientras el joven aprende, siempre que sea solo el primer año.",
-              "Que sustituye la voz del joven: el adulto crea condiciones para que él decida, no decide por él.",
-              "Que es aceptable en temas financieros, que son técnicos, pero no en los temas de jóvenes."
+              "Que acepta durante el primer año, mientras aprende cómo vota un Consejo, y que después ya decidirá por su cuenta.",
+              "Que no, y que en adelante prefiere no hablar con los adultos del Consejo antes de las sesiones.",
+              "Que no, pero que le ayude antes de la sesión a entender lo que está en juego, y él decide su voto."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "Una consejera juvenil nacional quiere presentar al Consejo una propuesta sobre inclusión, pero no sabe qué ha hecho la Asociación en el tema. ¿Cómo la acompaña mejor un adulto que conoce el tema?",
@@ -632,7 +659,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El <strong>Curso 20</strong>, el último del Nivel 3, es el de la <strong>Red de Jóvenes</strong>: sus coordinadores y comunicadores, sus ejes y sus asambleas, que son el espacio de donde salen —y ante el que responden— los consejeros juveniles. Cuando se publique, lo encontrarás en la página de esta línea."
+          "text": "El <strong>Curso 20</strong>, el último del Nivel 3, es el de la <strong>Red de Jóvenes</strong>: sus coordinadores y comunicadores, sus ejes y sus asambleas, que son el espacio de donde salen —y ante el que responden— los consejeros juveniles. Lo encontrarás en la página de esta línea."
         },
         {
           "type": "info-box",
@@ -644,7 +671,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe, en tres líneas, qué te llevas de este curso para el asiento juvenil —si lo ocupas, si aspiras a él o si acompañas a quien lo ocupa—: una cosa que vas a hacer distinto, una que vas a seguir haciendo y una pregunta que todavía tienes."
+        "prompt": "Escribe, en tres líneas, qué te llevas de este curso para el asiento juvenil —si lo ocupas, si aspiras a él o si acompañas a quien lo ocupa—: una cosa que vas a hacer distinto, una que vas a seguir haciendo y una pregunta que todavía tienes, y a quién (por su cargo) se la vas a hacer antes de tu próxima sesión."
       },
       "quiz": {
         "title": "Mini-quiz Lección 8",
@@ -660,11 +687,11 @@
             "correctIndex": 0
           },
           {
-            "text": "¿Qué distingue a un consejero juvenil que representa bien a los miembros juveniles?",
+            "text": "En la Asamblea Regional Rover, Daniela les pregunta a los candidatos: ¿cómo vas a saber qué piensan los lobatos de la región? ¿Qué respuesta muestra que el candidato entendió de quién es la silla?",
             "options": [
-              "Que habla en todas las sesiones y defiende con fuerza las propuestas de los Rovers.",
-              "Que lleva la voz recogida en todas las ramas, vota informado en todo y rinde cuentas.",
-              "Que lleva la voz de los Rovers de su región, que son quienes lo eligieron y lo evalúan."
+              "«Voy a preguntarles a los Rovers de la región, que tienen hermanos lobatos y saben lo que les pasa.»",
+              "«Voy a pedir espacio en las reuniones de dirigentes de Manada y traer lo que decidieron sus lobatos.»",
+              "«Les pregunto a los dirigentes de Manada qué creen que necesitan sus lobatos, y eso llevo al Consejo.»"
             ],
             "correctIndex": 1
           }

@@ -15,7 +15,7 @@ El plan lo titula *«Coordinador y Comunicador de la Red de Jóvenes»*, para **
 |---|---|
 | **Reglamento Red Nacional de Jóvenes** (Acuerdo CSN 556, 30-nov-2022) | Qué es la Red (*«El órgano operativo de la Comisión Nacional Rover»*, Art. 1), objetivos (Arts. 2–3), miembros (todo Rover; colaboradores), **niveles regional y nacional** (Arts. 12–14), **Equipo Nacional** (Art. 15), **Asamblea Nacional Rover** (Arts. 16–18: dos delegados por región, una vez al año en los tres primeros meses, antes de la Asamblea Scout Nacional; evalúa gestiones, elige), **Asamblea Regional Rover** (Art. 19: dos votos por Grupo), perfiles y funciones del **Coordinador** (Arts. 21–22) y el **Comunicador** nacionales (Arts. 24–25), vacancias (Arts. 23, 26), elección (Art. 31), reforma (Art. 32: 75 % y luego el CSN), representación internacional (Art. 36: la elige el Jefe Scout Nacional). |
 | **Manual de Cargos y Funciones Red de Jóvenes** (2.ª ed., 2024) | Estructura **Proyectos Rovers → Equipo Regional → Equipo Nacional**; coordinación y comunicación **regional (1 año, 18 a 21 años y 2 meses)** y **nacional (2 años, 18 a 20 años y 2 meses)** con sus funciones; **asesores de eje**: **transversal, Viaje y Enlace Internacional (VyE), Servicio y Empresa**. |
-| **Reglamento de Asambleas Rover y Elección de Representantes Juveniles** (2022) | Asamblea Regional Rover: una vez al año, **a más tardar el 31 de enero**, antes de la Asamblea Scout Regional; conformación, quórum, actas avaladas por el Comisionado Regional Rover; elige Coordinador, Comunicador y **asesor de cada eje estructural** cada año. Asamblea Nacional elige cuatro delegados Rover a la Asamblea Scout Nacional. |
+| **Reglamento de Asambleas Rover y Elección de Representantes Juveniles** (2022) | Asamblea Regional Rover: una vez al año, **a más tardar el 31 de enero**, antes de la Asamblea Scout Regional; conformación, quórum, actas avaladas por el Comisionado Regional Rover; elige Coordinador, Comunicador y **asesor de cada eje estructural** cada año, y **un** delegado a la Asamblea Nacional Rover (Art. 5.2.5); sin quórum en la ordinaria, extraordinaria inmediata con los Clanes presentes (Art. 5.3.4); las extraordinarias se citan con un mes, por escrito. Dice que la Asamblea Nacional elige cuatro delegados Rover a la Asamblea Scout Nacional, apoyándose en el Estatuto anterior: **el Estatuto 2025 (Arts. 31 y 33) no los contempla** — misma discrepancia que la CNVC, y el curso la trata igual. |
 | **Estatuto 2025** y **Reglamento Nacional 2026** | Art. 70 del Estatuto: la **CNVC** tiene siete integrantes elegidos por cuatro años, **al menos uno menor de 30**. Reglamento Nacional, Art. 19 (jerarquía: el Estatuto por encima de reglamentos y manuales) y Art. 246 (un año para actualizar reglamentos). |
 
 ### Lo que este curso tiene que resolver
@@ -29,6 +29,8 @@ El plan lo titula *«Coordinador y Comunicador de la Red de Jóvenes»*, para **
 
 - **No «Vida y Espíritu»** como eje.
 - **No que el miembro juvenil de la CNVC se sigue eligiendo** igual que antes, ni lo contrario: se cuenta la discrepancia y la regla.
+- **No dar por vigentes los cuatro delegados Rover a la Asamblea Scout Nacional**: mismo tratamiento que la CNVC.
+- **No llamar «adulto voluntario» al Rover** en el texto que pone el motor: el JSON declara `registration.motivationLabel` y `commitmentBox` propios (el compromiso, por roles y no por nombres).
 - **No repetir el Curso 19** (el asiento juvenil en los Consejos): aquí el Consejero Juvenil aparece como parte de la Asamblea Nacional Rover y de su rendición de cuentas.
 - **No pedir en las reflexiones nombres de personas.**
 
@@ -64,7 +66,7 @@ El plan lo titula *«Coordinador y Comunicador de la Red de Jóvenes»*, para **
 
 > **«La Red no es un club de los Rovers que llegan a las asambleas: es la manera de que los proyectos de todos los Clanes se encuentren.»**
 
-Anclado en el Art. 2 (*«Integrar el trabajo del Roverismo… por medio de proyectos y acciones de servicio»*) y en la estructura del Manual (Proyectos → Equipo Regional → Equipo Nacional). Ataca el riesgo de la **Red como élite** que se reúne una vez al año, y la **coordinación que hace los proyectos** en vez de enlazarlos. **Hilo: Sebastián, 20 años, recién elegido Coordinador Regional de la Red**, y la Comunicadora de su región.
+Anclado en el Art. 2 (*«Integrar el trabajo del Roverismo… por medio de proyectos y acciones de servicio»*; el `policy-quote` de la L1 lo cita **completo**, hasta *«…ante la Comisión Nacional Rover y la Red Interamericana de Jóvenes.»*) y en la estructura del Manual (Proyectos → Equipo Regional → Equipo Nacional). Ataca el riesgo de la **Red como élite** que se reúne una vez al año, y la **coordinación que hace los proyectos** en vez de enlazarlos. **Hilo: Sebastián, 20 años, recién elegido Coordinador Regional de la Red**, y la Comunicadora de su región.
 
 ---
 
@@ -74,11 +76,11 @@ Anclado en el Art. 2 (*«Integrar el trabajo del Roverismo… por medio de proye
 |---|---|---|
 | 1 | 🕸️ Qué es la Red | Registro. Hook. Órgano operativo de la Comisión Rover; objetivos; todos los Rovers son miembros; colaboradores; niveles regional y nacional; la estructura en pirámide. Qué no es este curso (el 19). |
 | 2 | 🧩 Los cargos, y cuánto duran | Coordinación y comunicación, regional (1 año, hasta 21 y 2 meses) y nacional (2 años, hasta 20 y 2 meses); asesores de eje (cada año en la región); el Equipo Nacional; vacancias; elección por hoja de vida y votación; renuncia a cargos regionales. |
-| 3 | 🗳️ La Asamblea Rover | Regional (a más tardar el 31 de enero; un delegado con voto por Grupo, dos votos por Grupo; coordinador, comunicador y consejero con voz y sin voto; quórum; acta avalada por el Comisionado Regional Rover y enviada en 15 días) y Nacional (dos delegados por región; qué elige y qué evalúa). |
+| 3 | 🗳️ La Asamblea Rover | Regional (a más tardar el 31 de enero; un delegado con voto por Grupo, dos votos por Grupo; coordinador, comunicador y consejero con voz y sin voto; quórum y extraordinaria inmediata sin quórum; elige **un** delegado a la Nacional; acta avalada por el Comisionado Regional Rover y enviada en 15 días) y Nacional (dos delegados por región; qué elige y qué evalúa; reformas que luego van al CSN). Hilo: la primera asamblea de Sebastián es una **extraordinaria** para elegir a los asesores de eje que faltaban, citada con una semana: sin quórum y sin elección. La **asamblea siguiente**, citada por escrito con un mes, tiene quórum. |
 | 4 | 🧭 Coordinar sin hacer | Funciones de la coordinación: gestionar, animar y acompañar iniciativas; ser puente entre Rovers y comisionado; formar parte de la Comisión Rover; convocar y presidir las asambleas. **Se prueba el hook**. |
-| 5 | 📣 Comunicar | Funciones de la comunicación: redes, marca, secretaría de las asambleas, estrategia de difusión, trabajo con la Comisión Nacional de Comunicaciones. |
-| 6 | 🌍 Los cuatro ejes | Transversal, **Viaje y Enlace Internacional**, Servicio, Empresa: qué asesora cada uno; turismo responsable y la política de protección; servicio que no sea asistencialismo. |
-| 7 | 🏛️ Arriba y afuera | Comisión Rover, Dirección Nacional, Red Interamericana (el Jefe Scout Nacional elige la representación internacional, Art. 36). Los representantes juveniles que la Asamblea elige y evalúa. **La CNVC**: la discrepancia y la regla. **Se cobra el hook**. |
+| 5 | 📣 Comunicar | Funciones de la comunicación: redes, marca, secretaría de las asambleas, estrategia de difusión, trabajo con el equipo de comunicaciones de la Asociación, que depende de la Jefatura Scout Nacional (Reglamento Nacional 2026, Art. 126). |
+| 6 | 🌍 Los cuatro ejes | Transversal, **Viaje y Enlace Internacional**, Servicio, Empresa: qué asesora cada uno (el transversal, ligado al PARCE de cada Rover); turismo responsable, la política A Salvo del Peligro y la gestión del riesgo; servicio que no sea asistencialismo. |
+| 7 | 🏛️ Arriba y afuera | Comisión Rover, Dirección Nacional, Red Interamericana (el Jefe Scout Nacional elige la representación internacional, Art. 36). Los representantes juveniles que la Asamblea elige y evalúa. **La CNVC y los cuatro delegados Rover a la Asamblea Scout Nacional**: la discrepancia con el Estatuto 2025 y la regla (Reglamento Nacional, Arts. 19 y 246). **Se cobra el hook**. |
 | 8 | ✅ Tu año en la Red | Relevo: *«Incentivar la formación de líderes para un adecuado relevo intergeneracional»*. Compromiso: el mapa de proyectos de tu región. Cierre del Nivel 3. |
 
 ---
