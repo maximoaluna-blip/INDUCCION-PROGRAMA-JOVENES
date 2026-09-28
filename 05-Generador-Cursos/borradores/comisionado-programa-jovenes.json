@@ -64,7 +64,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El Programa de Jóvenes tiene una estructura que va de la nación a la región. La <em>Política Nacional de Programa de Jóvenes</em> pide, en cada nivel, <em>«un responsable»</em> del Programa y <em>«un equipo»</em>. En el <em>Manual de Cargos, Perfiles y Funciones por Competencias</em> esos responsables tienen ficha:"
+          "text": "El Programa de Jóvenes tiene una estructura que va de la nación a la región. La <em>Política Nacional de Programa de Jóvenes</em> pide, en la nación y en la región, <em>«un responsable»</em> del Programa y <em>«un equipo»</em>. En el <em>Manual de Cargos, Perfiles y Funciones por Competencias</em> esos responsables tienen ficha:"
         },
         {
           "type": "method-grid",
@@ -91,7 +91,7 @@
         },
         {
           "type": "info-box",
-          "text": "📌 <strong>Un nombre que no cuadra, y no es culpa tuya.</strong> La ficha del Comisionado Regional dice que responde a un <em>«Comisionado Nacional de Programa de Jóvenes»</em>; la ficha nacional del mismo <em>Manual</em> se titula <strong>Director Nacional</strong> de Programa de Jóvenes. El <em>Reglamento Nacional</em> de 2026 distingue los dos cargos: el <strong>Director o Directora Nacional</strong> y la <strong>Comisionada o Comisionado Nacional</strong>, que es <em>«Responsable de coordinar, acompañar y supervisar la aplicación del Programa de Jóvenes su respectiva rama o asunto»</em>. Cuando leas «Comisionado Nacional de Programa de Jóvenes» en tu ficha, piensa en quien encabeza el Programa en la nación."
+          "text": "📌 <strong>Un nombre que no cuadra, y no es culpa tuya.</strong> La ficha del Comisionado Regional dice que responde a un <em>«Comisionado Nacional de Programa de Jóvenes»</em>; la ficha nacional del mismo <em>Manual</em> se titula <strong>Director Nacional</strong> de Programa de Jóvenes. El <em>Reglamento Nacional</em> de 2026 distingue los dos cargos: el <strong>Director o Directora Nacional</strong> y la <strong>Comisionada o Comisionado Nacional</strong>, que es <em>«Responsable de coordinar, acompañar y supervisar la aplicación del Programa de Jóvenes [en] su respectiva rama o asunto»</em>. ¿A quién le respondes, entonces? Mira las fichas del otro lado: la del Director Nacional pone a los Comisionados Regionales de Programa de Jóvenes entre quienes le responden, y las de los comisionados nacionales de rama, también."
         },
         {
           "type": "heading",
@@ -101,19 +101,19 @@
         {
           "type": "list",
           "items": [
-            "<strong>Te nombra el Jefe Scout Regional</strong>, previo aval de la Dirección Nacional de Programa de Jóvenes.",
-            "<strong>Respondes</strong> al Consejo Scout Regional, al Jefe Scout Regional y a quien encabeza el Programa en la nación.",
+            "Si tu cargo es regional, <strong>te nombra el Jefe Scout Regional</strong>, previo aval de la Dirección Nacional de Programa de Jóvenes. A los comisionados nacionales de rama los nombra el Director Nacional, con aval del Jefe Scout Nacional.",
+            "<strong>Respondes</strong> al Consejo Scout Regional, al Jefe Scout Regional, a la Dirección Nacional de Programa de Jóvenes y a los comisionados nacionales de rama en lo de su rama.",
             "<strong>No integras el Consejo Scout Regional.</strong> Lo dice tu ficha, y lo dice el <em>Reglamento Nacional</em> para todos los niveles: <em>«Los adultos que ejerzan cargos operativos en las ramas de los grupos, en las regiones o en la nación no podrán integrar los Consejos de su respectivo nivel»</em>.",
-            "<strong>No puedes ocupar a la vez</strong> un cargo de dirección en la nación y otro en la región."
+            "<strong>No puedes tener a la vez</strong> un cargo de dirección o liderazgo en la nación y otro en la región; ser parte de un equipo no cuenta."
           ]
         },
         {
           "type": "paragraph",
-          "text": "Y si tu cargo es nacional, el <em>Reglamento</em> añade dos cosas: es un <strong>cargo voluntario</strong>, sin remuneración, y su periodo es de <strong>máximo dos años</strong>, sujeto a la evaluación de desempeño. Un cargo con fecha de salida se prepara desde el primer día para que otro lo reciba."
+          "text": "Si eres director o comisionado nacional, el <em>Reglamento</em> añade dos cosas: es un <strong>cargo voluntario</strong>, sin remuneración, y su periodo es de <strong>máximo dos años</strong>, sujeto a la evaluación de desempeño. Un cargo con fecha de salida se prepara desde el primer día para que otro lo reciba."
         },
         {
           "type": "paragraph",
-          "text": "<strong>Qué NO es este curso.</strong> No es un curso sobre cómo aplicar el Programa en una unidad: eso son los Cursos 13 a 17. Tampoco el de la Red de Jóvenes ni el del Consejero Juvenil, que son el 19 y el 20. Este curso es sobre el oficio de quien <strong>acompaña a muchas unidades a la vez</strong>, sin dirigir ninguna."
+          "text": "<strong>Qué NO es este curso.</strong> No es un curso sobre cómo aplicar el Programa en una unidad: eso son los Cursos 13 a 17. Tampoco el del Consejero Juvenil ni el de la Red de Jóvenes, que son el 19 y el 20. Este curso es sobre el oficio de quien <strong>acompaña a muchas unidades a la vez</strong>, sin dirigir ninguna."
         }
       ]
     },
@@ -142,13 +142,13 @@
             },
             {
               "title": "2 · ¿Se cumplen las normas?",
-              "description": "<em>Conocer y hacer cumplir los Estatutos, Políticas y Reglamentos.</em> Incluye aplicar lo que dispongan las Jefaturas y los Consejos, y cuidar la marca.",
+              "description": "<em>Conocer y hacer cumplir los Estatutos, Políticas y Reglamentos de la Asociación Scouts de Colombia.</em> Incluye aplicar lo que dispongan las Jefaturas y los Consejos, y cuidar la marca.",
               "color": "#ffebee",
               "borderColor": "#e53935"
             },
             {
               "title": "3 · ¿Crece el equipo que te acompaña?",
-              "description": "<em>Orientar y acompañar la atracción, vinculación y desarrollo de competencias de los adultos adscritos a su comisión.</em> Es la Lección 4.",
+              "description": "<em>Orientar y acompañar la atracción y vinculación, y desarrollo de competencias de los adultos adscritos a su comisión.</em> Es la Lección 4.",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             },
@@ -177,11 +177,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Si eres comisionado regional de una rama, tu ficha tiene la misma estructura, acotada a tu rama: la del Comisionado Regional de Lobatos, por ejemplo, es responsable de <em>«la coordinación, supervisión y ejecución del Programa de Jóvenes en la rama Lobatos de la Región»</em>. A ti también te nombra el Jefe Scout Regional, en tu caso con el aval de la comisión nacional de tu rama. Y respondes también al Comisionado Regional de Programa de Jóvenes."
+          "text": "Si eres comisionado regional de una rama, tu ficha se parece: cuatro de estas cinco funciones, acotadas a tu rama. No trae la tercera, la de los adultos de la comisión, y la de Mundo Mejor cambia el crecimiento por los programas de su marco. La del Comisionado Regional de Lobatos, por ejemplo, tiene a su cargo <em>«la coordinación, supervisión y ejecución del Programa de Jóvenes en la rama Lobatos de la Región»</em>. La ficha dice «ejecución»: es la del plan y los eventos de la región, no la de cada unidad. A ti también te nombra el Jefe Scout Regional, en tu caso con el aval de la comisión nacional de tu rama. Y respondes también al Comisionado Regional de Programa de Jóvenes."
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y en tu rama, dos cosas que el <em>Manual</em> de 2020 no dice como hoy.</strong> Sus comisionados de rama son de <strong>Lobatos, Scout, Caminantes, Rover</strong> y del programa <strong>Mundo Mejor</strong>. <strong>«Caminantes» es el nombre viejo de la rama que hoy se llama Nómadas Scout</strong>, la de la Comunidad. Y <strong>no hay ficha de comisionado para la Familia de Cachorros</strong>: la rama es posterior a ese <em>Manual</em>. Si acompañas Familias en tu región, tu referencia de contenido es su Guía, igual que para sus dirigentes."
+          "text": "🌿 <strong>Y en tu rama, dos cosas que el <em>Manual</em> de 2020 no dice como hoy.</strong> Sus comisionados de rama son de <strong>Lobatos, Scout, Caminantes, Rover</strong> y del programa <strong>Mundo Mejor</strong>. <strong>«Caminantes» es el nombre viejo de la rama que hoy se llama Nómadas Scout</strong>, la de la Comunidad. Y el <em>Manual</em> es de 2020 y <strong>no tiene ficha de comisionado para la Familia de Cachorros</strong>. Si acompañas Familias en tu región, tu referencia de contenido es su Guía, igual que para sus dirigentes."
         }
       ],
       "reflection": {
@@ -238,7 +238,7 @@
         {
           "type": "policy-quote",
           "label": "📖 El plan de animación territorial",
-          "source": "Política Nacional de Programa de Jóvenes (DNPJ-2026-023), §7.2 «A nivel Regional».",
+          "source": "Política Nacional de Programa de Jóvenes (DNPJ-2026-023), §7.2 «A nivel Regional», p. 38 impresa (p. 41 del PDF).",
           "text": "Diseñar y ejecutar en conjunto con el equipo nacional de programa, un plan de animación territorial adecuado, que garantice la implementación efectiva del Programa de Jóvenes en las ramas scout, la evaluación del mismo y las necesidades educativas de los protagonistas de programa de acuerdo con su contexto."
         },
         {
@@ -346,7 +346,7 @@
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y en tu rama.</strong> Si eres comisionado de rama, tu equipo son los <strong>miembros de la comisión de tu rama</strong> y, en la práctica, los Jefes de las unidades de tu rama en la región — a quienes no nombras ni diriges, pero sí acompañas. La ficha del Comisionado Regional de Lobatos, por ejemplo, pone a los <strong>Jefes de Manada</strong> entre quienes le responden; su Grupo sigue siendo su casa."
+          "text": "🌿 <strong>Y en tu rama.</strong> Si eres comisionado de rama, tu ficha no trae esta función. Lo tuyo es <strong>acompañar a los Jefes de las unidades de tu rama</strong> en la región —a quienes no nombras ni diriges— y trabajar con la <strong>comisión regional de Programa de Jóvenes</strong>. La ficha del Comisionado Regional de Lobatos, por ejemplo, pone a los <strong>Jefes de Manada</strong> entre quienes le responden; su Grupo sigue siendo su casa."
         }
       ],
       "reflection": {
@@ -368,7 +368,7 @@
           {
             "text": "Un comisionado de Tropa quiere que los Jefes de Tropa de su región usen una herramienta nueva de planeación. ¿Cuál es el camino que respeta su papel?",
             "options": [
-              "Ordenar su uso a los Jefes de Tropa, porque según su ficha ellos le responden de su gestión.",
+              "Enviar una circular a los Jefes de Tropa ordenando su uso, sin pasar por sus Jefes de Grupo.",
               "Ofrecer la herramienta con formación y acompañamiento, en acuerdo con los Jefes de Grupo.",
               "Ofrecer la herramienta solo a los Jefes de Grupo, para que ellos se la exijan a los Jefes de Tropa."
             ],
@@ -464,7 +464,7 @@
       "sections": [
         {
           "type": "paragraph",
-          "text": "En la Asamblea Regional le pidieron a Liliana un informe del Programa de Jóvenes. Tenía fotos de eventos y una lista de visitas. Le preguntaron cuántos grupos aplicaban el Modelo de Aplicación y cuántos jóvenes había ganado o perdido la región. No lo sabía."
+          "text": "En el Consejo Scout Regional le pidieron a Liliana un informe del Programa de Jóvenes. Tenía fotos de eventos y una lista de visitas. Le preguntaron cuántos grupos aplicaban el Modelo de Aplicación y cuántos jóvenes había ganado o perdido la región. No lo sabía."
         },
         {
           "type": "info-box",
@@ -651,7 +651,7 @@
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y en tu rama.</strong> Los comisionados regionales de rama comparten la estructura de la ficha regional de Programa de Jóvenes, acotada a su rama; busca tu ficha en el <em>Manual</em> y compara sus grados con los de esta lección antes de hacer tu autodiagnóstico. Si hiciste el curso de competencias esenciales de la línea de <strong>Política de Adultos</strong>, ya sabes cómo hacerlo."
+          "text": "🌿 <strong>Y en tu rama.</strong> Los comisionados regionales de rama tienen sus propios grados —en sus fichas, Relaciones Interpersonales y Trabajo en Equipo van en grado 3—: búscalos en tu ficha antes de tu autodiagnóstico. Si hiciste el curso de competencias esenciales de la línea de <strong>Política de Adultos</strong>, ya sabes cómo hacerlo."
         },
         {
           "type": "paragraph",

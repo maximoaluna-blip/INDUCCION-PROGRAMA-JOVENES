@@ -1,0 +1,661 @@
+{
+  "courseId": "red-de-jovenes",
+  "title": "Red de Jóvenes: coordinar y comunicar",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "El último del Nivel 3. Para los Rovers que coordinan, comunican o asesoran un eje en la Red de Jóvenes —en su región o en la nación—, para quienes se postulan y para los comisionados Rover que los acompañan. Qué es la Red, cuánto dura cada cargo, cómo se prepara una Asamblea Rover, cómo se coordina sin hacerlo todo, cómo se comunica y cómo se deja la Red lista para el relevo.",
+  "contentVersion": "2026-09-27",
+  "icon": "🕸️",
+  "duration": "45 minutos",
+  "level": 3,
+  "levelName": "Especialización por cargo",
+  "order": 20,
+  "totalContentModules": 7,
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "emoji": "🧩",
+      "name": "Conozco los cargos",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "emoji": "🗳️",
+      "name": "Preparo una asamblea",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "emoji": "🧭",
+      "name": "Coordino sin hacerlo todo",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "emoji": "📣",
+      "name": "Comunico con sentido",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "emoji": "🌍",
+      "name": "Conozco los ejes",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "emoji": "🏛️",
+      "name": "Sé dónde está la Red",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
+      "emoji": "✅",
+      "name": "Preparo el relevo",
+      "unlockOnModule": 8
+    },
+    {
+      "id": "achievement-8",
+      "emoji": "⭐",
+      "name": "Hago que los proyectos se encuentren",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "RED DE JÓVENES: COORDINAR Y COMUNICAR",
+    "description": "ha completado el Curso 20 de la Línea Programa de Jóvenes — Red de Jóvenes: coordinar y comunicar, con el que se cierra el Nivel 3, explicando qué es la Red de Jóvenes y sus niveles, distinguiendo los cargos de coordinación, comunicación y asesoría de eje con sus periodos, preparando y conduciendo una Asamblea Rover, coordinando proyectos sin hacerlos por otros, comunicando para que lleguen a quien tienen que llegar, reconociendo los cuatro ejes de trabajo y situando la Red entre la Comisión Rover, la Dirección Nacional y la Red Interamericana, con el relevo preparado desde el primer día."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "🕸️ Qué es la Red",
+      "emoji": "🕸️",
+      "navLabel": "Bienvenida",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>~45 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Explicar</strong> qué es la Red de Jóvenes, a quién pertenece y cómo se organiza en la región y en la nación.",
+            "<strong>Distinguir</strong> los cargos de coordinación, comunicación y asesoría de eje, y cuánto dura cada uno.",
+            "<strong>Preparar</strong> y conducir una Asamblea Rover: convocatoria, votos, quórum y acta.",
+            "<strong>Coordinar</strong> una red de proyectos sin hacer los proyectos por otros.",
+            "<strong>Comunicar</strong> para que un proyecto llegue a quien tiene que llegar, cuidando la marca.",
+            "<strong>Reconocer</strong> los cuatro ejes de trabajo y qué asesora cada uno.",
+            "<strong>Situar</strong> la Red entre la Comisión Rover, la Dirección Nacional y la Red Interamericana.",
+            "<strong>Preparar</strong> el relevo desde el primer día del cargo."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sebastián tiene veinte años y en enero lo eligieron Coordinador Regional de la Red de Jóvenes. Lo primero que hizo fue revisar quiénes habían ido a la última asamblea: los mismos doce rovers de siempre, de cuatro grupos. En la región había treinta Clanes. De los otros veintiséis, la Red no sabía casi nada."
+        },
+        {
+          "type": "info-box",
+          "text": "🕸️ <strong>La idea que sostiene este curso:</strong> la Red no es un club de los rovers que llegan a las asambleas. <strong>Es la manera de que los proyectos de todos los Clanes se encuentren.</strong>"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 Para qué existe",
+          "source": "Reglamento Red Nacional de Jóvenes (modificado por el Acuerdo CSN 556, 30-nov-2022), Art. 2.",
+          "text": "Integrar el trabajo del Roverismo en nuestro país siendo la herramienta adecuada para la participación e interacción juvenil en el Movimiento Scout, por medio de proyectos y acciones de servicio, buscando la representación activa de los jóvenes dentro de la Asociación Scouts de Colombia y la comunidad."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "De quién es, y cómo se organiza"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Es de los Rovers.</strong> Para ser miembro basta ser Rover de la Asociación; también hay <strong>colaboradores</strong> que la apoyan sin formar parte de su estructura.",
+            "<strong>Es el órgano operativo de la Comisión Rover.</strong> El reglamento la define así: <em>«El órgano operativo de la Comisión Nacional Rover»</em>, y en la región trabaja con la Comisión Regional Rover.",
+            "<strong>Tiene dos niveles: regional y nacional.</strong> En la región confluyen los Rovers de los Clanes; en la nación, los de todas las regiones."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "El Manual de Cargos y Funciones de la Red la dibuja como una pirámide: en la base, los <strong>proyectos Rovers</strong>; encima, los <strong>equipos regionales</strong>; arriba, el <strong>equipo nacional</strong>. La base son los proyectos, no los cargos. Si la base está vacía, lo de arriba es una reunión."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Qué NO es este curso.</strong> El asiento juvenil en los Consejos de Grupo, Región y Nación es el <strong>Curso 19</strong>. Aquí los representantes juveniles aparecen donde la Red los toca: cuando la Asamblea Rover los elige y evalúa su gestión."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🧩 Los cargos, y cuánto duran",
+      "emoji": "🧩",
+      "navLabel": "Los cargos",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Cuando Sebastián llegó a la primera reunión del equipo nacional, descubrió que su par nacional tenía un periodo de dos años y él de uno. Pensó que era un error del reglamento."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la Red tiene pocos cargos, y cada uno con <strong>un periodo y una edad</strong> que cambian según el nivel. Conocerlos antes de postularte evita sorpresas."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Coordinación",
+              "description": "Lidera el equipo coordinador de su nivel junto a la comunicación y es el puente entre los Rovers y el comisionado Rover. <strong>Regional:</strong> 1 año, de 18 a 21 años y 2 meses al ser elegido. <strong>Nacional:</strong> 2 años, de 18 a 20 años y 2 meses.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "Comunicación",
+              "description": "Maneja los canales y la marca de la Red y hace de secretaría de las asambleas. <strong>Regional:</strong> 1 año, de 18 a 21 años y 2 meses. <strong>Nacional:</strong> 2 años, de 18 a 20 años y 2 meses.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "Asesores de eje",
+              "description": "Rovers con habilidades en un eje de trabajo que asesoran los proyectos de ese eje en la región. La Asamblea Regional Rover elige cada año al asesor de cada eje estructural.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "El <strong>Equipo Nacional</strong> de la Red lo forman el Coordinador y el Comunicador nacionales, los coordinadores de cada eje a nivel nacional, y los coordinadores y comunicadores de las redes regionales. Es decir: Sebastián, sin moverse de su región, ya es parte del equipo nacional."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Elección, vacancia y renuncia"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Elección:</strong> los cargos nacionales se eligen según la hoja de vida scout y profesional de cada candidato, por votación democrática entre los delegados a la Asamblea Nacional Rover. Cualquier Rover inscrito que cumpla el perfil puede postularse.",
+            "<strong>Si quien fue elegido no puede seguir</strong>, lo sustituye el Rover con la segunda mayor votación. Si queda vacante la Coordinación Nacional, el Consejero Juvenil Nacional la asume como encargado y cita a una asamblea extraordinaria.",
+            "<strong>Si te eligen para un cargo nacional</strong> y tienes uno regional, renuncias al regional."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y si eres el comisionado Rover que acompaña.</strong> Estos cargos los eligen los Rovers, no la comisión. Lo que sí te toca es que los Rovers de la región conozcan los perfiles con tiempo, para que las asambleas elijan entre varios candidatos y no por descarte."
+        }
+      ],
+      "reflection": {
+        "prompt": "Si eres Rover: ¿qué cargo de la Red te interesaría, en qué nivel, y cumples hoy su perfil de edad y experiencia? Escribe qué te falta y cuándo podrías postularte. Si eres adulto: escribe cómo se enteran los Rovers de tu región de que estos cargos existen."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar a la Asamblea Rover 🗳️",
+        "questions": [
+          {
+            "text": "Una rover de veintiún años quiere postularse a la Coordinación Nacional de la Red. ¿Qué le dice el perfil del cargo?",
+            "options": [
+              "Que puede postularse: la coordinación admite hasta los veintiún años y dos meses en cualquier nivel.",
+              "Que no cumple la edad del cargo nacional, que es hasta veinte años y dos meses; sí la del regional.",
+              "Que puede postularse si tiene un año de inscripción y el aval del Comisionado Nacional Rover."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "El Coordinador Nacional de la Red renuncia a mitad de su periodo. ¿Qué dice el reglamento que pasa?",
+            "options": [
+              "Que el Consejero Juvenil Nacional asume como encargado y cita una asamblea extraordinaria.",
+              "Que el Comunicador Nacional asume la coordinación hasta que termine el periodo de dos años.",
+              "Que el Comisionado Nacional Rover designa un reemplazo entre los coordinadores regionales."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "🗳️ La Asamblea Rover",
+      "emoji": "🗳️",
+      "navLabel": "La asamblea",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "La primera tarea grande de Sebastián fue la Asamblea Regional Rover. La convocó por el grupo de mensajes de siempre, una semana antes. Llegaron los doce de siempre, y no hubo quórum."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la asamblea es donde la Red decide y elige. Si se convoca mal, decide la misma minoría de siempre — o no decide."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La Asamblea Regional Rover"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Cuándo:</strong> una vez al año, a más tardar el 31 de enero, y antes de la Asamblea Scout Regional y de la Asamblea Nacional Rover.",
+            "<strong>Quién convoca:</strong> el Coordinador Regional de la Red; también puede hacerlo la mitad más uno de sus integrantes, o la Jefatura Regional si la coordinación no convoca a tiempo. La citación la hace el Comunicador, con al menos un mes de antelación.",
+            "<strong>Quién vota:</strong> todos los Rovers inscritos tienen voz; vota el delegado de cada Grupo, y cada Grupo tiene dos votos, sin importar cuántos Rovers tenga. Coordinador, comunicador y consejero juvenil regional tienen voz y no voto; también el Jefe Scout Regional y los comisionados, como invitados.",
+            "<strong>Quórum:</strong> para deliberar, la mitad más uno de los Clanes, cada uno representado por al menos un Rover.",
+            "<strong>Qué elige:</strong> cada año, el Coordinador y el Comunicador regionales, el asesor de cada eje estructural y el Miembro Juvenil del Consejo Scout Regional, además de los delegados a la Asamblea Nacional Rover.",
+            "<strong>El acta:</strong> la firman el presidente y el secretario de la asamblea, la avala el Comisionado Regional Rover y se envía al Consejo Scout Regional y al Comisionado Nacional Rover a más tardar quince días después."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La Asamblea Nacional Rover"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cada región tiene derecho a <strong>dos delegados con voto</strong>: su Coordinador Regional de la Red y un Rover elegido por la Asamblea Regional. La asamblea se reúne una vez al año, antes de la Asamblea Scout Nacional, y es la que <strong>evalúa</strong> la gestión de la Red y de los representantes juveniles, <strong>elige</strong> a los cargos nacionales y a los representantes juveniles, y aprueba o no las reformas del reglamento de la Red."
+        },
+        {
+          "type": "info-box",
+          "text": "📅 <strong>Una fecha con dos versiones.</strong> El reglamento de la Red dice que la Asamblea Nacional Rover se reúne <em>«durante los tres (3) primeros meses»</em> del año; el reglamento de Asambleas pone como límite el 28 de febrero. Las dos coinciden en lo importante: antes de la Asamblea Scout Nacional. Si te toca convocarla, pregunta a la Comisión Nacional Rover cuál se está aplicando."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para la asamblea extraordinaria, Sebastián hizo otra cosa: el Comunicador de la región citó por escrito a cada Grupo con un mes de antelación, él llamó a los Clanes que nunca iban, y la Jefatura Regional le ayudó a llegar a los grupos sin Rovers conocidos. Hubo quórum, y veinte grupos votaron."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y si eres el comisionado Rover que acompaña.</strong> El Comisionado Regional Rover supervisa la asamblea y avala su acta. Tu papel es de garante: que la convocatoria sea a tiempo y a todos los Grupos, que se voten las cosas que corresponden y que el acta salga en plazo. No votas, y no presides."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en la última Asamblea Regional Rover de tu región —o imagina la próxima—. ¿Cuántos Grupos con Rovers tiene tu región, y cuántos votaron? Escribe qué harías para que la próxima convocatoria llegue a los Clanes que nunca van, y con cuánta anticipación."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar a coordinar 🧭",
+        "questions": [
+          {
+            "text": "Un Grupo tiene un solo Rover inscrito y otro Grupo tiene quince. ¿Cuántos votos tiene cada Grupo en la Asamblea Regional Rover?",
+            "options": [
+              "Cada Grupo tiene dos votos, sin importar cuántos Rovers tenga inscritos.",
+              "Cada Rover inscrito tiene un voto, así que uno y quince votos respectivamente.",
+              "Cada Grupo tiene un voto, y dos si tiene más de diez Rovers inscritos."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Estamos a mediados de enero y el Coordinador Regional de la Red no ha convocado la asamblea ordinaria. ¿Qué dice el reglamento de Asambleas?",
+            "options": [
+              "Que la asamblea se aplaza hasta que el Coordinador pueda convocarla, sin fecha límite.",
+              "Que la Jefatura Regional puede convocarla, porque la coordinación no lo hizo a tiempo.",
+              "Que la asamblea se omite ese año y los cargos se prorrogan hasta la siguiente."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "🧭 Coordinar sin hacerlo todo",
+      "emoji": "🧭",
+      "navLabel": "Coordinar",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Con la asamblea resuelta, Sebastián tenía una lista de catorce proyectos de los Clanes de su región. Empezó a ayudar en todos: conseguía contactos, hacía los formularios, iba a las jornadas. En tres meses estaba agotado, y los proyectos dependían de él."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la coordinación de la Red <strong>gestiona, anima y acompaña</strong> los proyectos de los Rovers; no los hace. Su trabajo es que se encuentren entre sí y con quien los puede apoyar."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Manual de Cargos de la Red lo dice sin rodeos: quienes coordinan <em>«se encargarán de gestionar, animar y acompañar las iniciativas en los diferentes niveles de la RDJ»</em>, por medio de la difusión y del contacto con ellas para resolver dificultades. Y le da a la coordinación, en los dos niveles, una función principal: liderar el equipo coordinador junto a la comunicación, <strong>ser el puente entre los Rovers y el comisionado Rover</strong>, y apoyar la gestión de los proyectos buscando enlaces estratégicos."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que le toca a cada nivel"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Coordinación regional",
+              "description": "Convocar y presidir las Asambleas Regionales Rover; representar a los Rovers de la región en la Asamblea Nacional Rover, llevando sus propuestas; motivar proyectos de todos los ejes; y <strong>formar parte del equipo de la Comisión Regional Rover</strong>, llevando allí las ideas de sus pares.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "Coordinación nacional",
+              "description": "Representar a los Rovers ante la Dirección Nacional de Programa de Jóvenes y la Comisión Nacional Rover; articular el trabajo de todas las redes regionales; enlazar con la Red Interamericana; convocar y presidir las Asambleas Nacionales Rover; e <em>«Incentivar la formación de líderes para un adecuado relevo intergeneracional»</em>.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sebastián cambió de método. Juntó a los líderes de los catorce proyectos en una reunión virtual, les pidió que contaran qué necesitaba cada uno, y descubrió que tres Clanes trabajaban en el mismo río sin saberlo. Los presentó entre sí y los conectó con el asesor del eje de Servicio. Dejó de ir a todas las jornadas. Los proyectos siguieron."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y si eres el comisionado Rover que acompaña.</strong> La coordinación regional forma parte de tu comisión: es la voz de los Rovers dentro de ella. Si la tratas como a un asistente al que le delegas tareas, pierdes justo lo que la Red le aporta a la comisión."
+        }
+      ],
+      "reflection": {
+        "prompt": "Si coordinas o vas a coordinar: haz la lista de los proyectos Rovers de tu región que conoces. ¿En cuántos estás haciendo tú el trabajo? Escribe qué dos proyectos podrías poner en contacto entre sí, y con quién (por su cargo o su eje) podrías enlazarlos."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar a comunicar 📣",
+        "questions": [
+          {
+            "text": "Un Clan pide a la coordinación regional de la Red que le organice un proyecto de reforestación completo, «porque la Red tiene los contactos». ¿Qué le toca a la coordinación?",
+            "options": [
+              "Organizarlo, porque apoyar los proyectos de los Clanes es su función principal en la región.",
+              "Acompañarlo: ponerlo en contacto con el asesor de eje, otros Clanes y aliados, sin hacerlo por él.",
+              "Acompañarlo en lo que pida, y organizarlo ella misma si el Clan no tiene experiencia previa."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "La Comisión Regional Rover prepara el plan del año. ¿Cuál es el papel del Coordinador Regional de la Red en esa comisión?",
+            "options": [
+              "Formar parte de su equipo y llevar a ella las ideas y propuestas de sus pares.",
+              "Asistir como invitado con voz y sin voto, porque la comisión es un equipo de adultos.",
+              "Recibir el plan terminado y difundirlo entre los Clanes de la región por la Red."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "📣 Comunicar",
+      "emoji": "📣",
+      "navLabel": "Comunicar",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Laura, la Comunicadora Regional, publicaba todo lo que le llegaba: fotos de campamentos, frases, convocatorias. La cuenta de la Red tenía muchas publicaciones y pocos Rovers enterados de nada importante."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la comunicación de la Red existe para que <strong>los proyectos lleguen a quien tienen que llegar</strong> y para que los Rovers de todas las regiones se conecten. Publicar mucho no es lo mismo."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Manual de Cargos de la Red le pide a la comunicación, en los dos niveles: manejar las redes sociales de la Red —o crearlas en las plataformas que los jóvenes usan—, hacer un correcto uso de la imagen de la Red y de la Asociación, y trabajar las iniciativas de la mano de la coordinación. Y a cada nivel, algo propio:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Regional</strong> (1 año): cumplir el papel de la <strong>secretaría</strong> en las Asambleas Regionales Rover y hacer estrategias de difusión de los proyectos de la región.",
+            "<strong>Nacional</strong> (2 años): llevar un trabajo conjunto con las comunicaciones de la Asociación, <strong>vigilar el buen uso de la marca de la RDJ</strong>, hacer de secretaría de las Asambleas Nacionales Rover y promover los proyectos nacionales con las comunicaciones regionales."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Laura cambió la pregunta. En lugar de «¿qué publico hoy?», empezó cada mes con «¿qué necesita saber cada Clan este mes, y quién más tiene que enterarse de lo que hacen?». Hizo un calendario con la coordinación: convocatorias con un mes de antelación, un proyecto por semana contado por sus propios Rovers, y un resumen para la Comisión Regional Rover. Publicó menos. La asamblea siguiente tuvo más grupos."
+        },
+        {
+          "type": "info-box",
+          "text": "🛡️ <strong>Lo que la comunicación cuida.</strong> Una foto de un proyecto con niños o jóvenes es un dato personal. Publica con el consentimiento que corresponde y de acuerdo con la política de protección vigente de la Asociación; y si tienes dudas, pregunta a la comisión antes de publicar, no después."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y si eres el adulto que acompaña.</strong> La Comisión Nacional de Comunicaciones de la Asociación trabaja con el Comunicador Nacional de la Red. En la región, ayuda que la comunicación de la Red sepa con quién hablar en la Jefatura cuando necesita una pieza oficial o una autorización."
+        }
+      ],
+      "reflection": {
+        "prompt": "Mira las últimas diez publicaciones del canal de tu Red —o del Clan, si aún no hay Red—. ¿Cuántas le sirvieron a un Rover para enterarse de algo que necesitaba, o a un proyecto para conseguir apoyo? Escribe qué publicarías el próximo mes, y para quién."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar a los ejes 🌍",
+        "questions": [
+          {
+            "text": "La Asamblea Regional Rover está en tres semanas y la Comunicadora aún no ha citado. ¿Qué dice el reglamento de Asambleas sobre la citación?",
+            "options": [
+              "Que la hace la comunicación con al menos un mes de antelación, así que ya va tarde.",
+              "Que la hace la coordinación con una semana de antelación, así que todavía hay tiempo.",
+              "Que la hace la comunicación el mismo mes de la asamblea, así que todavía hay tiempo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un Clan envía a la Comunicadora Regional fotos de su proyecto con niños de una escuela, para publicarlas ese mismo día. ¿Qué hace primero?",
+            "options": [
+              "Publicarlas enseguida, porque visibilizar los proyectos es la función principal de su cargo.",
+              "Verificar el consentimiento de las imágenes según la política de protección antes de publicarlas.",
+              "Verificar que las fotos tengan buena calidad y publicarlas ese mismo día, como pidió el Clan."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "🌍 Los cuatro ejes",
+      "emoji": "🌍",
+      "navLabel": "Los ejes",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Cuando Sebastián presentó los catorce proyectos a la Comisión Regional, alguien le preguntó a qué eje pertenecía cada uno. No lo sabía: nunca había pensado en ellos como ejes."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la Red organiza su trabajo en <strong>cuatro ejes</strong>, y cada uno tiene un asesor que conoce su campo. Saber a qué eje pertenece un proyecto es saber a quién pedirle ayuda."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Transversal",
+              "description": "Herramientas para las habilidades para la vida y la técnica scout, y para identificar esa transversalidad en el plan de desarrollo personal de cada Rover.",
+              "color": "#eceff1",
+              "borderColor": "#546e7a"
+            },
+            {
+              "title": "Viaje y Enlace Internacional",
+              "description": "Proyectos de viaje y enlace, dentro y fuera del país; contactos, herramientas y un <strong>turismo responsable</strong>, de acuerdo con la política de protección y gestión del riesgo.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "Servicio",
+              "description": "Proyectos de servicio con impacto en la región, captación de voluntarios y alianzas con organizaciones externas — enfocados en mejorar condiciones de vida, <strong>no en asistencialismo</strong>.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "Empresa",
+              "description": "Acompañar los emprendimientos de los Rovers, visibilizarlos en los eventos regionales y enlazar proyectos ya constituidos con Rovers que quieren empezar.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📌 <strong>Si en algún documento lees «Vida y Espíritu» como eje de la Red, es un error.</strong> El reglamento de la Red y su Manual de Cargos nombran los ejes estructurales como <strong>Viaje y Enlace Internacional, Servicio y Empresa</strong>, más el <strong>transversal</strong>. El plan de esta línea tenía el nombre equivocado y se corrigió al publicar este curso."
+        },
+        {
+          "type": "paragraph",
+          "text": "Los asesores de eje, dice el Manual, apoyan con sus conocimientos la asesoría de proyectos de su eje y aportan <em>«técnicas, consejos, gestiones, contacto con otros rovers»</em>, y pueden hacer de monitores organizando planes de mejora a las iniciativas en marcha. Sebastián clasificó los catorce proyectos: nueve eran de Servicio, tres de Viaje y Enlace, dos de Empresa. Y pidió a los tres asesores una hora con los líderes de cada eje."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en el Clan.</strong> Los ejes de la Red no reemplazan el plan de progresión de cada Rover ni la vida de su Clan, que enseña el <strong>Curso 12</strong>. Son la forma en que la Red agrupa y acompaña los proyectos que los Clanes ya hacen."
+        }
+      ],
+      "reflection": {
+        "prompt": "Toma tres proyectos Rovers que conozcas —de tu Clan o de tu región— y ubica cada uno en un eje. ¿A qué asesor le pedirías ayuda para cada uno? Si en tu región no hay asesor de algún eje, escribe qué perfil buscarías para la próxima asamblea."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Continuar a arriba y afuera 🏛️",
+        "questions": [
+          {
+            "text": "Un Clan quiere organizar un intercambio con un Clan de otro país. ¿A qué asesor de eje le conviene acudir primero?",
+            "options": [
+              "Al de Viaje y Enlace Internacional, que apoya los proyectos de viaje y los enlaces con otros lugares.",
+              "Al de Servicio, porque todo intercambio debe incluir una acción de servicio en la comunidad.",
+              "Al de Empresa, porque un intercambio necesita financiarse con un emprendimiento del Clan."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un proyecto de un Clan consiste en entregar mercados cada mes a las mismas familias, sin más. ¿Qué le diría el asesor del eje de Servicio?",
+            "options": [
+              "Que es un buen proyecto de servicio, porque atiende una necesidad real de las familias de forma constante.",
+              "Que lo oriente a mejorar las condiciones de vida de esas familias, para no quedarse en asistencialismo.",
+              "Que lo pase al eje de Empresa, porque maneja recursos, compras y donaciones que requieren gestión propia."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "title": "🏛️ Arriba y afuera",
+      "emoji": "🏛️",
+      "navLabel": "Arriba y afuera",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "En la Asamblea Nacional Rover, Sebastián votó por primera vez para elegir a los representantes juveniles. Alguien preguntó por qué en la papeleta seguía el cargo de miembro juvenil ante la Comisión Nacional de Vigilancia y Control, si el Estatuto nuevo había cambiado esa comisión. Nadie en la sala supo responder con seguridad."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la Red no está sola. Responde a la <strong>Comisión Rover</strong>, dialoga con la <strong>Dirección Nacional</strong>, se enlaza con la <strong>Red Interamericana</strong> — y elige y evalúa a quienes representan a los jóvenes."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La Red, en la estructura"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>La Comisión Rover</strong>, regional y nacional: la Red es su órgano operativo, y la coordinación forma parte de su equipo.",
+            "<strong>La Dirección Nacional de Programa de Jóvenes</strong>: la Coordinación Nacional representa ante ella a todos los Rovers del país.",
+            "<strong>La Red Interamericana de Jóvenes</strong>: la Coordinación Nacional articula los procesos de la Red con ella. Para los eventos de la Red Interamericana, según el reglamento, <strong>la representación de la Asociación la elige el Jefe Scout Nacional</strong> entre los postulados."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los representantes que la Asamblea elige y evalúa"
+        },
+        {
+          "type": "paragraph",
+          "text": "La Asamblea Nacional Rover elige cada año al miembro juvenil del Consejo Scout Nacional —el Consejero Juvenil Nacional, que es materia del <strong>Curso 19</strong>— y a cuatro delegados Rover a la Asamblea Scout Nacional, y evalúa, con sus informes, la gestión de todos ellos y la de la propia Red."
+        },
+        {
+          "type": "info-box",
+          "text": "⚖️ <strong>El miembro juvenil ante la Comisión Nacional de Vigilancia y Control, y una norma más nueva.</strong> Los reglamentos de la Red y de las Asambleas Rover, de 2022, dicen que la Asamblea Nacional Rover elige cada año a un miembro juvenil para esa comisión. El <strong>Estatuto 2025</strong> cambió su composición: <strong>siete integrantes elegidos por cuatro años, de los cuales al menos uno debe ser menor de 30 años</strong>, y no menciona un miembro elegido por los Rovers. El <em>Reglamento Nacional</em> de 2026 fija la regla para estos casos: <strong>el Estatuto está por encima de los reglamentos</strong>, y da un año para actualizar los reglamentos que lo contraríen. Cómo se está aplicando mientras tanto lo sabe la <strong>Comisión Nacional Rover</strong>: pregúntale antes de convocar esa elección."
+        },
+        {
+          "type": "info-box",
+          "text": "🔁 <strong>La idea que abrió el curso, cobrada.</strong> En la Lección 1 dijimos que la Red no es un club de los rovers que llegan a las asambleas, sino la manera de que los proyectos de todos los Clanes se encuentren. Ahora se ve de qué está hecha: de asambleas que llegan a todos los Grupos (Lección 3), de una coordinación que enlaza en vez de hacer (Lección 4), de una comunicación que sirve a los proyectos (Lección 5), de ejes que dicen a quién pedir ayuda (Lección 6) y de una Red que sabe dónde está en la Asociación. <strong>Todo eso es lo contrario de un club.</strong>"
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe, en palabras, el mapa de relaciones de tu cargo en la Red —o del cargo al que aspiras—: a qué comisión respondes, con qué otras instancias hablas, a quién eliges y a quién evalúas. ¿Qué relación está hoy débil? Escribe una acción para fortalecerla. Por cargos, no por nombres."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7",
+        "nextLabel": "Continuar al relevo ✅",
+        "questions": [
+          {
+            "text": "La Red Interamericana de Jóvenes convoca un encuentro. Tres coordinadores regionales se ofrecen a ir en representación de Colombia. ¿Quién decide, según el reglamento de la Red?",
+            "options": [
+              "El Jefe Scout Nacional, que elige entre los postulados según su idoneidad y los temas del evento.",
+              "La Asamblea Nacional Rover, que vota entre los coordinadores regionales que se postulen.",
+              "El Coordinador Nacional de la Red, que representa a los Rovers del país ante la Interamericana."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un reglamento de la Red de 2022 dice algo que el Estatuto 2025 ya no contempla. ¿Qué regla da el Reglamento Nacional de 2026 para ese caso?",
+            "options": [
+              "Que se aplica el reglamento de la Red, porque es la norma específica de los Rovers.",
+              "Que el Estatuto está por encima de los reglamentos, que tienen un año para ajustarse.",
+              "Que se aplica la norma más favorable a los jóvenes hasta que la Asamblea Rover decida."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "title": "✅ Tu año en la Red",
+      "emoji": "✅",
+      "navLabel": "El relevo",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Al final de su año, Sebastián no se postuló de nuevo. Se ofreció a acompañar durante un mes a quien lo reemplazara, y le entregó tres cosas: la lista de proyectos de la región con su eje y su contacto, los Clanes que por fin habían empezado a ir a las asambleas, y lo que no había logrado."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> los cargos de la Red duran uno o dos años, y quien los ocupa deja de ser Rover poco después. <strong>El relevo no es el final del cargo: es parte del cargo.</strong>"
+        },
+        {
+          "type": "paragraph",
+          "text": "El Manual de Cargos de la Red le pide a la Coordinación Nacional <em>«Incentivar la formación de líderes para un adecuado relevo intergeneracional»</em>. Vale igual en la región: un Coordinador que lo hace todo solo deja, al irse, una Red que no sabe hacerlo. Uno que forma a otros deja una que sigue."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Con este curso se cierra el Nivel 3"
+        },
+        {
+          "type": "paragraph",
+          "text": "Los cursos por cargo recorren la cadena completa del Programa: quien responde por una unidad (<strong>Curso 16</strong>), quien acompaña el camino de cada protagonista (<strong>Curso 17</strong>), quien acompaña a las unidades de una región (<strong>Curso 18</strong>), quien lleva la voz de los niños y jóvenes a los Consejos (<strong>Curso 19</strong>) y quienes hacen que los proyectos de los Rovers se encuentren (este). Lo que sigue en la línea es el Nivel 4, con cursos transversales para todo dirigente. Cuando se publiquen, los encontrarás en la página de esta línea."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y si eres el comisionado Rover que acompaña.</strong> El mejor momento para ayudar al relevo es la mitad del periodo, no el final: pregúntale a quien coordina quién podría reemplazarlo y qué necesitaría aprender."
+        },
+        {
+          "type": "mission-box",
+          "text": "🎯 <strong>Tu tarea para este mes.</strong> Haz el <strong>mapa de proyectos</strong> de tu región —o de tu Clan—: cada proyecto con su eje y su contacto. Marca los Clanes que no aparecen. Después elige <strong>a un Rover</strong> que pueda relevarte —con nombre, aquí es solo para ti— y escribe <strong>una tarea</strong> que le vas a enseñar este mes. Porque la Red no es un club: es la manera de que los proyectos de todos se encuentren. Escríbelo también en el Compromiso Personal que aparece junto a tu certificado."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe qué dejarías por escrito para quien te reemplace en la Red, en tres partes: lo que funciona, lo que no lograste y lo que harías distinto. Sin nombres de personas: por Clan, proyecto o cargo."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 8",
+        "nextLabel": "Ver mi certificado ⭐",
+        "questions": [
+          {
+            "text": "Un Coordinador Regional de la Red tiene veintiún años y termina su periodo en dos meses. ¿Qué es lo que más le conviene hacer ahora?",
+            "options": [
+              "Enseñar sus tareas a Rovers que puedan relevarlo y dejar por escrito lo que funciona y lo que no.",
+              "Terminar todos los proyectos pendientes él mismo, para entregar la Red sin trabajo acumulado.",
+              "Postularse de nuevo al mismo cargo, porque es quien mejor conoce la Red de la región."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "¿Cuál de estas señales indica que una Red Regional está cumpliendo lo que enseña este curso?",
+            "options": [
+              "Que los mismos rovers que la fundaron siguen coordinándola año tras año.",
+              "Que cada vez más Clanes votan en la asamblea y sus proyectos se conocen entre sí.",
+              "Que su cuenta publica todos los días fotos de las actividades de los Clanes."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      }
+    }
+  ]
+}

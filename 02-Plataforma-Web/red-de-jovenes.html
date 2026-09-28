@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comisionado de Programa de Jóvenes - Plataforma de Formación de Adultos ASC</title>
+    <title>Red de Jóvenes: coordinar y comunicar - Plataforma de Formación de Adultos ASC</title>
     <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
     <link rel="icon" type="image/png" href="../assets/logo-asc.png">
     <link rel="stylesheet" href="../assets/dark-theme.css">
@@ -871,7 +871,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
     <div class="container">
         <div class="header">
-            <h1>🗺️ Comisionado de Programa de Jóvenes</h1>
+            <h1>🕸️ Red de Jóvenes: coordinar y comunicar</h1>
             <p>Formación de Adultos Voluntarios — Asociación Scouts de Colombia</p>
             <div class="progress-container">
                 <div class="progress-bar" id="progressBar"></div>
@@ -884,28 +884,28 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
         <div class="nav-menu">
             <button class="nav-btn active" onclick="showModule(0)">📝 Registro</button>
-            <button class="nav-btn" onclick="showModule(1)">🗺️ Bienvenida</button>
-            <button class="nav-btn" onclick="showModule(2)">🧭 Las funciones</button>
-            <button class="nav-btn" onclick="showModule(3)">🌱 Animar el territorio</button>
-            <button class="nav-btn" onclick="showModule(4)">👥 Tu comisión</button>
-            <button class="nav-btn" onclick="showModule(5)">🛡️ Seguridad</button>
-            <button class="nav-btn" onclick="showModule(6)">📈 Plan y cuentas</button>
-            <button class="nav-btn" onclick="showModule(7)">🌐 Articular</button>
-            <button class="nav-btn" onclick="showModule(8)">🧩 Perfil y cierre</button>
+            <button class="nav-btn" onclick="showModule(1)">🕸️ Bienvenida</button>
+            <button class="nav-btn" onclick="showModule(2)">🧩 Los cargos</button>
+            <button class="nav-btn" onclick="showModule(3)">🗳️ La asamblea</button>
+            <button class="nav-btn" onclick="showModule(4)">🧭 Coordinar</button>
+            <button class="nav-btn" onclick="showModule(5)">📣 Comunicar</button>
+            <button class="nav-btn" onclick="showModule(6)">🌍 Los ejes</button>
+            <button class="nav-btn" onclick="showModule(7)">🏛️ Arriba y afuera</button>
+            <button class="nav-btn" onclick="showModule(8)">✅ El relevo</button>
             <button class="nav-btn" onclick="showModule(9)">🏆 Certificado</button>
         </div>
 
         <div class="mobile-nav">
             <select onchange="showModule(this.value)">
                 <option value="0">📝 Registro</option>
-                <option value="1">🗺️ Bienvenida</option>
-                <option value="2">🧭 Las funciones</option>
-                <option value="3">🌱 Animar el territorio</option>
-                <option value="4">👥 Tu comisión</option>
-                <option value="5">🛡️ Seguridad</option>
-                <option value="6">📈 Plan y cuentas</option>
-                <option value="7">🌐 Articular</option>
-                <option value="8">🧩 Perfil y cierre</option>
+                <option value="1">🕸️ Bienvenida</option>
+                <option value="2">🧩 Los cargos</option>
+                <option value="3">🗳️ La asamblea</option>
+                <option value="4">🧭 Coordinar</option>
+                <option value="5">📣 Comunicar</option>
+                <option value="6">🌍 Los ejes</option>
+                <option value="7">🏛️ Arriba y afuera</option>
+                <option value="8">✅ El relevo</option>
                 <option value="9">🏆 Certificado</option>
             </select>
         </div>
@@ -918,7 +918,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
                 <div class="info-box">
                     <strong>🎯 Objetivo del Curso:</strong><br>
-                    Para quien acompaña el Programa desde fuera de la unidad: comisionados regionales de Programa de Jóvenes y de rama, y miembros de comisiones. Dónde está tu cargo en la estructura, qué es la animación territorial, cómo se conduce una comisión de voluntarios, qué se cuida y qué se remite, y cómo se rinde cuentas — sin volverte el Jefe de Rama de todas las unidades.
+                    El último del Nivel 3. Para los Rovers que coordinan, comunican o asesoran un eje en la Red de Jóvenes —en su región o en la nación—, para quienes se postulan y para los comisionados Rover que los acompañan. Qué es la Red, cuánto dura cada cargo, cómo se prepara una Asamblea Rover, cómo se coordina sin hacerlo todo, cómo se comunica y cómo se deja la Red lista para el relevo.
                 </div>
 
                 <div class="toggle-buttons">
@@ -1030,72 +1030,56 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                 </div>
             </div>
 
-            <!-- MÓDULO 1: 🗺️ UN CARGO SIN UNIDAD -->
+            <!-- MÓDULO 1: 🕸️ QUÉ ES LA RED -->
             <div class="module" id="module-1">
-                <h2>🗺️ 🗺️ Un cargo sin unidad <span id="welcomeName"></span></h2>
+                <h2>🕸️ 🕸️ Qué es la Red <span id="welcomeName"></span></h2>
 
-                <div class="info-box">⏱️ <strong>~50 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada.</div>
+                <div class="info-box">⏱️ <strong>~45 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada.</div>
 
                 <h3>🎯 Objetivos del Curso</h3>
 <ul>
-                    <li><strong>Ubicar</strong> tu cargo en la estructura: la Dirección Nacional, las comisiones por rama o asunto, el comisionado regional y los comisionados de rama.</li>
-                    <li><strong>Explicar</strong> tus cinco funciones por la pregunta que responde cada una.</li>
-                    <li><strong>Diseñar</strong> la animación territorial: acompañar a los grupos para que apliquen el Programa, no aplicarlo por ellos.</li>
-                    <li><strong>Conducir</strong> una comisión de adultos voluntarios.</li>
-                    <li><strong>Distinguir</strong> lo que cuidas de lo que remites, en las actividades de la región.</li>
-                    <li><strong>Planear y rendir cuentas</strong> dentro del plan operativo regional.</li>
-                    <li><strong>Articular</strong> tu trabajo con la Dirección Nacional, la Jefatura y la participación juvenil.</li>
-                    <li><strong>Ubicarte</strong> frente a un perfil de competencias exigente.</li>
+                    <li><strong>Explicar</strong> qué es la Red de Jóvenes, a quién pertenece y cómo se organiza en la región y en la nación.</li>
+                    <li><strong>Distinguir</strong> los cargos de coordinación, comunicación y asesoría de eje, y cuánto dura cada uno.</li>
+                    <li><strong>Preparar</strong> y conducir una Asamblea Rover: convocatoria, votos, quórum y acta.</li>
+                    <li><strong>Coordinar</strong> una red de proyectos sin hacer los proyectos por otros.</li>
+                    <li><strong>Comunicar</strong> para que un proyecto llegue a quien tiene que llegar, cuidando la marca.</li>
+                    <li><strong>Reconocer</strong> los cuatro ejes de trabajo y qué asesora cada uno.</li>
+                    <li><strong>Situar</strong> la Red entre la Comisión Rover, la Dirección Nacional y la Red Interamericana.</li>
+                    <li><strong>Preparar</strong> el relevo desde el primer día del cargo.</li>
                 </ul>
 
-                <p>Liliana fue Jefa de Tropa durante ocho años. Conocía cada rincón de su unidad y sabía sacar adelante un campamento con los ojos cerrados. Hace un mes el Jefe Scout de su Región la nombró <strong>Comisionada Regional de Programa de Jóvenes</strong>: catorce grupos, más de cincuenta unidades. El primer sábado, por costumbre, se levantó temprano para ir a la reunión de «su» Tropa. Ya no tenía unidad.</p>
+                <p>Sebastián tiene veinte años y en enero lo eligieron Coordinador Regional de la Red de Jóvenes. Lo primero que hizo fue revisar quiénes habían ido a la última asamblea: los mismos doce rovers de siempre, de cuatro grupos. En la región había treinta Clanes. De los otros veintiséis, la Red no sabía casi nada.</p>
 
-                <div class="info-box">🗺️ <strong>La idea que sostiene este curso:</strong> un comisionado no aplica el Programa. <strong>Hace que se aplique bien en unidades que no dirige.</strong></div>
+                <div class="info-box">🕸️ <strong>La idea que sostiene este curso:</strong> la Red no es un club de los rovers que llegan a las asambleas. <strong>Es la manera de que los proyectos de todos los Clanes se encuentren.</strong></div>
 
-                <h3>Dónde está tu cargo</h3>
+                <details class="policy-quote">
+                    <summary>📖 Para qué existe</summary>
+                    <blockquote class="policy-quote-text">Integrar el trabajo del Roverismo en nuestro país siendo la herramienta adecuada para la participación e interacción juvenil en el Movimiento Scout, por medio de proyectos y acciones de servicio, buscando la representación activa de los jóvenes dentro de la Asociación Scouts de Colombia y la comunidad.</blockquote>
+                    <p class="policy-quote-source">— Reglamento Red Nacional de Jóvenes (modificado por el Acuerdo CSN 556, 30-nov-2022), Art. 2.</p>
+                </details>
 
-                <p>El Programa de Jóvenes tiene una estructura que va de la nación a la región. La <em>Política Nacional de Programa de Jóvenes</em> pide, en la nación y en la región, <em>«un responsable»</em> del Programa y <em>«un equipo»</em>. En el <em>Manual de Cargos, Perfiles y Funciones por Competencias</em> esos responsables tienen ficha:</p>
-
-                <div class="method-elements">
-                    <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
-                        <h4>En la nación</h4>
-                        <p>La <strong>Dirección Nacional de Programa de Jóvenes</strong>, a cargo de un Director o Directora, y los <strong>comisionados nacionales</strong> de cada rama y de programas específicos, como Mundo Mejor.</p>
-                    </div>
-                    <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
-                        <h4>En la región</h4>
-                        <p>El <strong>Comisionado Regional de Programa de Jóvenes</strong> y, con él, los <strong>comisionados regionales</strong> de cada rama y de Mundo Mejor.</p>
-                    </div>
-                    <div class="method-element" style="background: linear-gradient(135deg, #fff3e0, #fff3e0dd); border-color: #fb8c00;">
-                        <h4>Las comisiones</h4>
-                        <p>Los <strong>miembros de las comisiones</strong> regionales y nacionales, que apoyan la supervisión y la ejecución del Programa.</p>
-                    </div>
-                </div>
-
-                <div class="info-box">📌 <strong>Un nombre que no cuadra, y no es culpa tuya.</strong> La ficha del Comisionado Regional dice que responde a un <em>«Comisionado Nacional de Programa de Jóvenes»</em>; la ficha nacional del mismo <em>Manual</em> se titula <strong>Director Nacional</strong> de Programa de Jóvenes. El <em>Reglamento Nacional</em> de 2026 distingue los dos cargos: el <strong>Director o Directora Nacional</strong> y la <strong>Comisionada o Comisionado Nacional</strong>, que es <em>«Responsable de coordinar, acompañar y supervisar la aplicación del Programa de Jóvenes [en] su respectiva rama o asunto»</em>. ¿A quién le respondes, entonces? Mira las fichas del otro lado: la del Director Nacional pone a los Comisionados Regionales de Programa de Jóvenes entre quienes le responden, y las de los comisionados nacionales de rama, también.</div>
-
-                <h3>Lo que el cargo te pide, y lo que te impide</h3>
+                <h3>De quién es, y cómo se organiza</h3>
 
                 <ul>
-                    <li>Si tu cargo es regional, <strong>te nombra el Jefe Scout Regional</strong>, previo aval de la Dirección Nacional de Programa de Jóvenes. A los comisionados nacionales de rama los nombra el Director Nacional, con aval del Jefe Scout Nacional.</li>
-                    <li><strong>Respondes</strong> al Consejo Scout Regional, al Jefe Scout Regional, a la Dirección Nacional de Programa de Jóvenes y a los comisionados nacionales de rama en lo de su rama.</li>
-                    <li><strong>No integras el Consejo Scout Regional.</strong> Lo dice tu ficha, y lo dice el <em>Reglamento Nacional</em> para todos los niveles: <em>«Los adultos que ejerzan cargos operativos en las ramas de los grupos, en las regiones o en la nación no podrán integrar los Consejos de su respectivo nivel»</em>.</li>
-                    <li><strong>No puedes tener a la vez</strong> un cargo de dirección o liderazgo en la nación y otro en la región; ser parte de un equipo no cuenta.</li>
+                    <li><strong>Es de los Rovers.</strong> Para ser miembro basta ser Rover de la Asociación; también hay <strong>colaboradores</strong> que la apoyan sin formar parte de su estructura.</li>
+                    <li><strong>Es el órgano operativo de la Comisión Rover.</strong> El reglamento la define así: <em>«El órgano operativo de la Comisión Nacional Rover»</em>, y en la región trabaja con la Comisión Regional Rover.</li>
+                    <li><strong>Tiene dos niveles: regional y nacional.</strong> En la región confluyen los Rovers de los Clanes; en la nación, los de todas las regiones.</li>
                 </ul>
 
-                <p>Si eres director o comisionado nacional, el <em>Reglamento</em> añade dos cosas: es un <strong>cargo voluntario</strong>, sin remuneración, y su periodo es de <strong>máximo dos años</strong>, sujeto a la evaluación de desempeño. Un cargo con fecha de salida se prepara desde el primer día para que otro lo reciba.</p>
+                <p>El Manual de Cargos y Funciones de la Red la dibuja como una pirámide: en la base, los <strong>proyectos Rovers</strong>; encima, los <strong>equipos regionales</strong>; arriba, el <strong>equipo nacional</strong>. La base son los proyectos, no los cargos. Si la base está vacía, lo de arriba es una reunión.</p>
 
-                <p><strong>Qué NO es este curso.</strong> No es un curso sobre cómo aplicar el Programa en una unidad: eso son los Cursos 13 a 17. Tampoco el del Consejero Juvenil ni el de la Red de Jóvenes, que son el 19 y el 20. Este curso es sobre el oficio de quien <strong>acompaña a muchas unidades a la vez</strong>, sin dirigir ninguna.</p>
+                <p><strong>Qué NO es este curso.</strong> El asiento juvenil en los Consejos de Grupo, Región y Nación es el <strong>Curso 19</strong>. Aquí los representantes juveniles aparecen donde la Red los toca: cuando la Asamblea Rover los elige y evalúa su gestión.</p>
 
                 <h3>🏆 Logros por Desbloquear</h3>
                 <div class="achievements">
-                    <div class="achievement" id="achievement-1">🧭 Leo mis funciones</div>
-                    <div class="achievement" id="achievement-2">🌱 Animo el territorio</div>
-                    <div class="achievement" id="achievement-3">👥 Conduzco una comisión</div>
-                    <div class="achievement" id="achievement-4">🛡️ Cuido lo que pasa</div>
-                    <div class="achievement" id="achievement-5">📈 Rindo cuentas</div>
-                    <div class="achievement" id="achievement-6">🌐 Articulo arriba y al lado</div>
-                    <div class="achievement" id="achievement-7">🧩 Conozco mi perfil</div>
-                    <div class="achievement" id="achievement-8">⭐ Acompaño una región</div>
+                    <div class="achievement" id="achievement-1">🧩 Conozco los cargos</div>
+                    <div class="achievement" id="achievement-2">🗳️ Preparo una asamblea</div>
+                    <div class="achievement" id="achievement-3">🧭 Coordino sin hacerlo todo</div>
+                    <div class="achievement" id="achievement-4">📣 Comunico con sentido</div>
+                    <div class="achievement" id="achievement-5">🌍 Conozco los ejes</div>
+                    <div class="achievement" id="achievement-6">🏛️ Sé dónde está la Red</div>
+                    <div class="achievement" id="achievement-7">✅ Preparo el relevo</div>
+                    <div class="achievement" id="achievement-8">⭐ Hago que los proyectos se encuentren</div>
                 </div>
 
                 <div class="stats">
@@ -1107,527 +1091,507 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                 <button class="btn" onclick="showModule(2)">🚀 Comenzar el Curso</button>
             </div>
 
-            <!-- MÓDULO 2: 🧭 CINCO FUNCIONES, CINCO PREGUNTAS -->
+            <!-- MÓDULO 2: 🧩 LOS CARGOS, Y CUÁNTO DURAN -->
             <div class="module" id="module-2">
-                <h2>🧭 🧭 Cinco funciones, cinco preguntas</h2>
+                <h2>🧩 🧩 Los cargos, y cuánto duran</h2>
                 <div class="badge">Módulo 1/7</div>
 
-                <p>Liliana leyó su ficha completa. Esta vez no se detuvo en las tareas sino en las funciones, y se hizo la pregunta que aprendió como Jefa de Tropa: <strong>¿qué pregunta responde cada una?</strong></p>
+                <p>Cuando Sebastián llegó a la primera reunión del equipo nacional, descubrió que su par nacional tenía un periodo de dos años y él de uno. Pensó que era un error del reglamento.</p>
 
-                <div class="info-box"><strong>Idea central:</strong> tus funciones no son una lista de tareas: son <strong>cinco preguntas sobre tu región</strong> que alguien tiene que poder responder.</div>
+                <div class="info-box"><strong>Idea central:</strong> la Red tiene pocos cargos, y cada uno con <strong>un periodo y una edad</strong> que cambian según el nivel. Conocerlos antes de postularte evita sorpresas.</div>
 
                 <div class="method-elements">
                     <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
-                        <h4>1 · ¿Qué se propone la región para el Programa este año?</h4>
-                        <p><em>Participar de la elaboración y ejecución del plan operativo regional en lo relacionado al programa de jóvenes.</em> Es la Lección 6.</p>
-                    </div>
-                    <div class="method-element" style="background: linear-gradient(135deg, #ffebee, #ffebeedd); border-color: #e53935;">
-                        <h4>2 · ¿Se cumplen las normas?</h4>
-                        <p><em>Conocer y hacer cumplir los Estatutos, Políticas y Reglamentos de la Asociación Scouts de Colombia.</em> Incluye aplicar lo que dispongan las Jefaturas y los Consejos, y cuidar la marca.</p>
+                        <h4>Coordinación</h4>
+                        <p>Lidera el equipo coordinador de su nivel junto a la comunicación y es el puente entre los Rovers y el comisionado Rover. <strong>Regional:</strong> 1 año, de 18 a 21 años y 2 meses al ser elegido. <strong>Nacional:</strong> 2 años, de 18 a 20 años y 2 meses.</p>
                     </div>
                     <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
-                        <h4>3 · ¿Crece el equipo que te acompaña?</h4>
-                        <p><em>Orientar y acompañar la atracción y vinculación, y desarrollo de competencias de los adultos adscritos a su comisión.</em> Es la Lección 4.</p>
+                        <h4>Comunicación</h4>
+                        <p>Maneja los canales y la marca de la Red y hace de secretaría de las asambleas. <strong>Regional:</strong> 1 año, de 18 a 21 años y 2 meses. <strong>Nacional:</strong> 2 años, de 18 a 20 años y 2 meses.</p>
                     </div>
                     <div class="method-element" style="background: linear-gradient(135deg, #fff3e0, #fff3e0dd); border-color: #fb8c00;">
-                        <h4>4 · ¿Se aplica bien el Programa en los grupos?</h4>
-                        <p><em>Desarrollar, promover e impulsar y evaluar la Política Nacional de Programa de Jóvenes y su modelo de aplicación en los grupos Scout de la Región.</em> Es el corazón del cargo: Lecciones 3 y 5.</p>
-                    </div>
-                    <div class="method-element" style="background: linear-gradient(135deg, #f3e5f5, #f3e5f5dd); border-color: #8e24aa;">
-                        <h4>5 · ¿Crece la membresía?</h4>
-                        <p><em>Proponer objetivos y actividades en pro de fortalecer el crecimiento de la membresía de los grupos de la Región.</em> Es parte de la Lección 6.</p>
+                        <h4>Asesores de eje</h4>
+                        <p>Rovers con habilidades en un eje de trabajo que asesoran los proyectos de ese eje en la región. La Asamblea Regional Rover elige cada año al asesor de cada eje estructural.</p>
                     </div>
                 </div>
 
-                <p>Fíjate en que ninguna de las cinco dice «dirigir una unidad». La cuarta, que es la más larga, dice <strong>desarrollar, promover, impulsar y evaluar</strong>. Son verbos de quien acompaña desde fuera.</p>
+                <p>El <strong>Equipo Nacional</strong> de la Red lo forman el Coordinador y el Comunicador nacionales, los coordinadores de cada eje a nivel nacional, y los coordinadores y comunicadores de las redes regionales. Es decir: Sebastián, sin moverse de su región, ya es parte del equipo nacional.</p>
 
-                <h3>Los comisionados de rama repiten el esquema</h3>
+                <h3>Elección, vacancia y renuncia</h3>
 
-                <p>Si eres comisionado regional de una rama, tu ficha se parece: cuatro de estas cinco funciones, acotadas a tu rama. No trae la tercera, la de los adultos de la comisión, y la de Mundo Mejor cambia el crecimiento por los programas de su marco. La del Comisionado Regional de Lobatos, por ejemplo, tiene a su cargo <em>«la coordinación, supervisión y ejecución del Programa de Jóvenes en la rama Lobatos de la Región»</em>. La ficha dice «ejecución»: es la del plan y los eventos de la región, no la de cada unidad. A ti también te nombra el Jefe Scout Regional, en tu caso con el aval de la comisión nacional de tu rama. Y respondes también al Comisionado Regional de Programa de Jóvenes.</p>
+                <ul>
+                    <li><strong>Elección:</strong> los cargos nacionales se eligen según la hoja de vida scout y profesional de cada candidato, por votación democrática entre los delegados a la Asamblea Nacional Rover. Cualquier Rover inscrito que cumpla el perfil puede postularse.</li>
+                    <li><strong>Si quien fue elegido no puede seguir</strong>, lo sustituye el Rover con la segunda mayor votación. Si queda vacante la Coordinación Nacional, el Consejero Juvenil Nacional la asume como encargado y cita a una asamblea extraordinaria.</li>
+                    <li><strong>Si te eligen para un cargo nacional</strong> y tienes uno regional, renuncias al regional.</li>
+                </ul>
 
-                <div class="info-box">🌿 <strong>Y en tu rama, dos cosas que el <em>Manual</em> de 2020 no dice como hoy.</strong> Sus comisionados de rama son de <strong>Lobatos, Scout, Caminantes, Rover</strong> y del programa <strong>Mundo Mejor</strong>. <strong>«Caminantes» es el nombre viejo de la rama que hoy se llama Nómadas Scout</strong>, la de la Comunidad. Y el <em>Manual</em> es de 2020 y <strong>no tiene ficha de comisionado para la Familia de Cachorros</strong>. Si acompañas Familias en tu región, tu referencia de contenido es su Guía, igual que para sus dirigentes.</div>
+                <div class="info-box">🌿 <strong>Y si eres el comisionado Rover que acompaña.</strong> Estos cargos los eligen los Rovers, no la comisión. Lo que sí te toca es que los Rovers de la región conozcan los perfiles con tiempo, para que las asambleas elijan entre varios candidatos y no por descarte.</div>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>Toma las cinco preguntas de esta lección y respóndelas sobre tu región, hoy, con una palabra cada una: «sí», «a medias» o «no sé». ¿Cuál de las cinco no sabrías responder con datos? Escribe qué necesitarías saber para responderla y a quién se lo preguntarías (por su cargo).</p>
+                    <p>Si eres Rover: ¿qué cargo de la Red te interesaría, en qué nivel, y cumples hoy su perfil de edad y experiencia? Escribe qué te falta y cuándo podrías postularte. Si eres adulto: escribe cómo se enteran los Rovers de tu región de que estos cargos existen.</p>
                     <textarea id="reflection-2" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(2, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 2</h3>
 
                     <div class="question">
-                        <h4>1. Una Tropa de la región no tiene quien la dirija este semestre. Algunos proponen que el comisionado regional la conduzca mientras tanto «porque sabe hacerlo». ¿Qué dice su ficha de funciones?</h4>
+                        <h4>1. Una rover de veintiún años quiere postularse a la Coordinación Nacional de la Red. ¿Qué le dice el perfil del cargo?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q10">
-                            Que es parte de su cargo: la cuarta función le pide ejecutar el Programa en los grupos.
+                            Que puede postularse: la coordinación admite hasta los veintiún años y dos meses en cualquier nivel.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q10">
-                            Que su cargo es acompañar y evaluar la aplicación en los grupos, no dirigir una unidad.
+                            Que no cumple la edad del cargo nacional, que es hasta veinte años y dos meses; sí la del regional.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q10">
-                            Que es parte de su cargo solo si el Consejo Scout Regional se lo encarga por escrito.
+                            Que puede postularse si tiene un año de inscripción y el aval del Comisionado Nacional Rover.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. Un comisionado regional lee en el Manual «Comisionado Regional de Caminantes» y se pregunta a qué rama corresponde hoy. ¿Qué le respondes?</h4>
+                        <h4>2. El Coordinador Nacional de la Red renuncia a mitad de su periodo. ¿Qué dice el reglamento que pasa?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q11">
-                            A la Tropa, porque los caminantes son los scouts que ya hacen travesías largas.
+                            Que el Consejero Juvenil Nacional asume como encargado y cita una asamblea extraordinaria.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q11">
-                            A la Comunidad de Nómadas Scout: «Caminantes» es el nombre viejo de esa rama.
+                            Que el Comunicador Nacional asume la coordinación hasta que termine el periodo de dos años.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q11">
-                            A ninguna, porque el Reglamento de 2026 eliminó a los comisionados de rama.
+                            Que el Comisionado Nacional Rover designa un reemplazo entre los coordinadores regionales.
                         </label>
                     </div>
 
                     <button class="btn" onclick="checkQuiz(2)" id="checkBtn-2">Verificar Respuestas</button>
-                    <button class="btn hidden" onclick="completeModule(2)" id="nextBtn-2">Continuar a la animación territorial 🌱</button>
+                    <button class="btn hidden" onclick="completeModule(2)" id="nextBtn-2">Continuar a la Asamblea Rover 🗳️</button>
                 </div>
             </div>
 
-            <!-- MÓDULO 3: 🌱 ANIMACIÓN TERRITORIAL -->
+            <!-- MÓDULO 3: 🗳️ LA ASAMBLEA ROVER -->
             <div class="module" id="module-3">
-                <h2>🌱 🌱 Animación territorial</h2>
+                <h2>🗳️ 🗳️ La Asamblea Rover</h2>
                 <div class="badge">Módulo 2/7</div>
 
-                <p>El primer plan que Liliana escribió era una lista de visitas: iría a cada grupo, vería una reunión de cada unidad y dejaría recomendaciones. A los tres meses había visitado cuatro grupos, estaba agotada y las unidades hacían lo mismo que antes, esperando la próxima visita.</p>
+                <p>La primera tarea grande de Sebastián fue la Asamblea Regional Rover. La convocó por el grupo de mensajes de siempre, una semana antes. Llegaron los doce de siempre, y no hubo quórum.</p>
 
-                <div class="info-box"><strong>Idea central:</strong> animar el territorio no es visitar ni inspeccionar. Es <strong>acompañar a los grupos para que ellos mismos apliquen bien el Programa</strong>, con herramientas, formación y seguimiento.</div>
+                <div class="info-box"><strong>Idea central:</strong> la asamblea es donde la Red decide y elige. Si se convoca mal, decide la misma minoría de siempre — o no decide.</div>
 
-                <h3>Lo que pide la política</h3>
-
-                <p>La <em>Política Nacional de Programa de Jóvenes</em> le pide a la nación <em>«Crear una red de animación territorial adecuada que garantice la implementación efectiva del Programa de Jóvenes en las ramas»</em>. Y a la región, algo más concreto:</p>
-
-                <details class="policy-quote">
-                    <summary>📖 El plan de animación territorial</summary>
-                    <blockquote class="policy-quote-text">Diseñar y ejecutar en conjunto con el equipo nacional de programa, un plan de animación territorial adecuado, que garantice la implementación efectiva del Programa de Jóvenes en las ramas scout, la evaluación del mismo y las necesidades educativas de los protagonistas de programa de acuerdo con su contexto.</blockquote>
-                    <p class="policy-quote-source">— Política Nacional de Programa de Jóvenes (DNPJ-2026-023), §7.2 «A nivel Regional», p. 38 impresa (p. 41 del PDF).</p>
-                </details>
-
-                <p>Tu ficha lo traduce en cuatro tareas de la cuarta función: <strong>difundir</strong> la política en los grupos; propender por su correcta aplicación <em>«a través de un acompañamiento activo de los grupos»</em> —y entre paréntesis, la palabra clave: <em>animación territorial</em>—; <strong>evaluar</strong> su aplicación en cada grupo; y <strong>desarrollar las herramientas</strong> que la hagan posible.</p>
-
-                <h3>Tres preguntas antes de salir a la región</h3>
+                <h3>La Asamblea Regional Rover</h3>
 
                 <ul>
-                    <li><strong>¿Qué necesita saber cada grupo</strong> para aplicar el Programa, y cómo le llega? (difundir y formar)</li>
-                    <li><strong>¿Quién acompaña a quién</strong>, y con qué frecuencia? (no puedes acompañar tú solo a cincuenta unidades)</li>
-                    <li><strong>¿Cómo sabremos si se está aplicando bien</strong>, grupo por grupo? (evaluar)</li>
+                    <li><strong>Cuándo:</strong> una vez al año, a más tardar el 31 de enero, y antes de la Asamblea Scout Regional y de la Asamblea Nacional Rover.</li>
+                    <li><strong>Quién convoca:</strong> el Coordinador Regional de la Red; también puede hacerlo la mitad más uno de sus integrantes, o la Jefatura Regional si la coordinación no convoca a tiempo. La citación la hace el Comunicador, con al menos un mes de antelación.</li>
+                    <li><strong>Quién vota:</strong> todos los Rovers inscritos tienen voz; vota el delegado de cada Grupo, y cada Grupo tiene dos votos, sin importar cuántos Rovers tenga. Coordinador, comunicador y consejero juvenil regional tienen voz y no voto; también el Jefe Scout Regional y los comisionados, como invitados.</li>
+                    <li><strong>Quórum:</strong> para deliberar, la mitad más uno de los Clanes, cada uno representado por al menos un Rover.</li>
+                    <li><strong>Qué elige:</strong> cada año, el Coordinador y el Comunicador regionales, el asesor de cada eje estructural y el Miembro Juvenil del Consejo Scout Regional, además de los delegados a la Asamblea Nacional Rover.</li>
+                    <li><strong>El acta:</strong> la firman el presidente y el secretario de la asamblea, la avala el Comisionado Regional Rover y se envía al Consejo Scout Regional y al Comisionado Nacional Rover a más tardar quince días después.</li>
                 </ul>
 
-                <p>El segundo plan de Liliana fue distinto. Repartió los catorce grupos entre los comisionados de rama y los miembros de su comisión, organizó dos jornadas regionales de formación sobre el Modelo, y acordó con cada Jefe de Grupo una conversación por ciclo sobre cómo iba el Programa en sus unidades. Ella dejó de visitarlo todo, y la región empezó a moverse.</p>
+                <h3>La Asamblea Nacional Rover</h3>
 
-                <h3>Tu relación con los Jefes de Grupo y de Rama</h3>
+                <p>Cada región tiene derecho a <strong>dos delegados con voto</strong>: su Coordinador Regional de la Red y un Rover elegido por la Asamblea Regional. La asamblea se reúne una vez al año, antes de la Asamblea Scout Nacional, y es la que <strong>evalúa</strong> la gestión de la Red y de los representantes juveniles, <strong>elige</strong> a los cargos nacionales y a los representantes juveniles, y aprueba o no las reformas del reglamento de la Red.</p>
 
-                <p>Tu ficha te pide <em>«Mantener una permanente y estrecha comunicación con los Comisionados a su cargo, Coordinadores de Distritos Scouts, los Jefes de Grupo y los Jefes de rama adscritos a su Región»</em>, e incluso pone a los Jefes de Rama entre quienes le responden. Pero la ficha del Jefe de Rama, en el mismo <em>Manual</em>, dice que él responde al Consejo Scout de Grupo y al Jefe de Grupo. <strong>Las dos cosas conviven</strong>: tú acompañas el Programa en sus unidades; su Grupo sigue siendo su casa. Si entras por encima del Jefe de Grupo, rompes justo la cadena que te permite acompañar.</p>
+                <div class="info-box">📅 <strong>Una fecha con dos versiones.</strong> El reglamento de la Red dice que la Asamblea Nacional Rover se reúne <em>«durante los tres (3) primeros meses»</em> del año; el reglamento de Asambleas pone como límite el 28 de febrero. Las dos coinciden en lo importante: antes de la Asamblea Scout Nacional. Si te toca convocarla, pregunta a la Comisión Nacional Rover cuál se está aplicando.</div>
 
-                <div class="info-box">🌿 <strong>Y en tu rama, qué se acompaña.</strong> Si eres comisionado de rama, lo que acompañas es lo que enseñan los cursos de esa rama. <strong>Manada:</strong> la vida de la Selva y el Consejo de Roca. <strong>Tropa:</strong> el sistema de patrullas y la Corte de Honor. <strong>Comunidad:</strong> los proyectos de los equipos y el Congreso de Comunidad. <strong>Clan:</strong> los proyectos de los rovers y el Consejo de Clan. <strong>Mundo Mejor:</strong> los programas del marco Mundo Mejor aplicados en todas las ramas. Y en <strong>Familia</strong>, aunque no haya comisionado propio, la referencia es su Guía.</div>
+                <p>Para la asamblea extraordinaria, Sebastián hizo otra cosa: el Comunicador de la región citó por escrito a cada Grupo con un mes de antelación, él llamó a los Clanes que nunca iban, y la Jefatura Regional le ayudó a llegar a los grupos sin Rovers conocidos. Hubo quórum, y veinte grupos votaron.</p>
+
+                <div class="info-box">🌿 <strong>Y si eres el comisionado Rover que acompaña.</strong> El Comisionado Regional Rover supervisa la asamblea y avala su acta. Tu papel es de garante: que la convocatoria sea a tiempo y a todos los Grupos, que se voten las cosas que corresponden y que el acta salga en plazo. No votas, y no presides.</div>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>Haz el cálculo de tu región: ¿cuántos grupos, cuántas unidades, cuántos adultos en tu comisión? Si tuvieras que acompañar todo tú, ¿cuántas visitas al año te tocaría hacer? Ahora escribe cómo repartirías ese acompañamiento entre tu equipo, y qué harías tú que nadie más puede hacer.</p>
+                    <p>Piensa en la última Asamblea Regional Rover de tu región —o imagina la próxima—. ¿Cuántos Grupos con Rovers tiene tu región, y cuántos votaron? Escribe qué harías para que la próxima convocatoria llegue a los Clanes que nunca van, y con cuánta anticipación.</p>
                     <textarea id="reflection-3" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(3, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 3</h3>
 
                     <div class="question">
-                        <h4>1. Un comisionado regional con veinte grupos se propone visitar personalmente cada unidad una vez por trimestre. ¿Qué le dirías sobre ese plan?</h4>
+                        <h4>1. Un Grupo tiene un solo Rover inscrito y otro Grupo tiene quince. ¿Cuántos votos tiene cada Grupo en la Asamblea Regional Rover?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q20">
-                            Que es el mejor plan posible: la animación territorial exige la presencia del comisionado.
+                            Cada Grupo tiene dos votos, sin importar cuántos Rovers tenga inscritos.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q20">
-                            Que reparta el acompañamiento en su comisión y combine visitas con formación y seguimiento.
+                            Cada Rover inscrito tiene un voto, así que uno y quince votos respectivamente.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q20">
-                            Que es mejor no visitar: la animación territorial se hace solo con circulares y reuniones.
+                            Cada Grupo tiene un voto, y dos si tiene más de diez Rovers inscritos.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. Un comisionado nota que una Manada aplica mal el ciclo de programa. Tiene buena relación con el Jefe de esa Manada. ¿Cómo lo acompaña?</h4>
+                        <h4>2. Estamos a mediados de enero y el Coordinador Regional de la Red no ha convocado la asamblea ordinaria. ¿Qué dice el reglamento de Asambleas?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q21">
-                            Hablando con el Jefe de la Manada y con su Jefe de Grupo, y ofreciéndoles herramientas y formación.
+                            Que la asamblea se aplaza hasta que el Coordinador pueda convocarla, sin fecha límite.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q21">
-                            Hablando solo con el Jefe de la Manada, sin pasar por el Jefe de Grupo, para no hacerlo oficial.
+                            Que la Jefatura Regional puede convocarla, porque la coordinación no lo hizo a tiempo.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q21">
-                            Enviando una comunicación al Consejo de Grupo para que corrija a la Manada en su próxima sesión.
+                            Que la asamblea se omite ese año y los cargos se prorrogan hasta la siguiente.
                         </label>
                     </div>
 
                     <button class="btn" onclick="checkQuiz(3)" id="checkBtn-3">Verificar Respuestas</button>
-                    <button class="btn hidden" onclick="completeModule(3)" id="nextBtn-3">Continuar a la comisión 👥</button>
+                    <button class="btn hidden" onclick="completeModule(3)" id="nextBtn-3">Continuar a coordinar 🧭</button>
                 </div>
             </div>
 
-            <!-- MÓDULO 4: 👥 UNA COMISIÓN DE VOLUNTARIOS -->
+            <!-- MÓDULO 4: 🧭 COORDINAR SIN HACERLO TODO -->
             <div class="module" id="module-4">
-                <h2>👥 👥 Una comisión de voluntarios</h2>
+                <h2>🧭 🧭 Coordinar sin hacerlo todo</h2>
                 <div class="badge">Módulo 3/7</div>
 
-                <p>La comisión que Liliana heredó tenía tres personas en el papel y una en la realidad. La primera reunión a la que convocó llegaron dos. En la segunda, una de ellas le dijo con franqueza que no sabía qué se esperaba de ella.</p>
+                <p>Con la asamblea resuelta, Sebastián tenía una lista de catorce proyectos de los Clanes de su región. Empezó a ayudar en todos: conseguía contactos, hacía los formularios, iba a las jornadas. En tres meses estaba agotado, y los proyectos dependían de él.</p>
 
-                <div class="info-box"><strong>Idea central:</strong> tu comisión es un equipo de voluntarios. Se <strong>arma, se acompaña y se cuida</strong> igual que el equipo de una unidad, solo que a otra escala.</div>
+                <div class="info-box"><strong>Idea central:</strong> la coordinación de la Red <strong>gestiona, anima y acompaña</strong> los proyectos de los Rovers; no los hace. Su trabajo es que se encuentren entre sí y con quien los puede apoyar.</div>
 
-                <h3>Lo que te pide la tercera función</h3>
+                <p>El Manual de Cargos de la Red lo dice sin rodeos: quienes coordinan <em>«se encargarán de gestionar, animar y acompañar las iniciativas en los diferentes niveles de la RDJ»</em>, por medio de la difusión y del contacto con ellas para resolver dificultades. Y le da a la coordinación, en los dos niveles, una función principal: liderar el equipo coordinador junto a la comunicación, <strong>ser el puente entre los Rovers y el comisionado Rover</strong>, y apoyar la gestión de los proyectos buscando enlaces estratégicos.</p>
 
-                <ul>
-                    <li><strong>Acompañar y guiar</strong> el desarrollo de las competencias de los adultos que están en tu equipo.</li>
-                    <li><strong>Detectar las necesidades</strong> de la comisión para incorporar adultos con los perfiles requeridos.</li>
-                    <li><strong>Crear los equipos de trabajo</strong> que consideres necesarios para cumplir lo que te encomienden el Consejo Scout Regional y el Jefe Scout Regional.</li>
-                    <li><strong>Mantener la comunicación</strong> con los comisionados a tu cargo, los coordinadores de distrito, los Jefes de Grupo y los Jefes de Rama.</li>
-                </ul>
+                <h3>Lo que le toca a cada nivel</h3>
 
-                <p>Y para eso tu ficha te pide una competencia específica, la misma que a un Jefe de Rama: <strong>Asesoría personal</strong>, <em>«la capacidad de motivar, acompañar y guiar el desarrollo de las competencias del adulto para el desempeño de su cargo o función»</em>. Si hiciste el <strong>Curso 16</strong>, ya conoces la idea: <strong>las tareas se reparten; la responsabilidad, no</strong>. Aquí vale igual, con una diferencia: tu equipo no se ve cada sábado, así que lo que no se acuerda por escrito se pierde.</p>
+                <div class="method-elements">
+                    <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
+                        <h4>Coordinación regional</h4>
+                        <p>Convocar y presidir las Asambleas Regionales Rover; representar a los Rovers de la región en la Asamblea Nacional Rover, llevando sus propuestas; motivar proyectos de todos los ejes; y <strong>formar parte del equipo de la Comisión Regional Rover</strong>, llevando allí las ideas de sus pares.</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #fff3e0, #fff3e0dd); border-color: #fb8c00;">
+                        <h4>Coordinación nacional</h4>
+                        <p>Representar a los Rovers ante la Dirección Nacional de Programa de Jóvenes y la Comisión Nacional Rover; articular el trabajo de todas las redes regionales; enlazar con la Red Interamericana; convocar y presidir las Asambleas Nacionales Rover; e <em>«Incentivar la formación de líderes para un adecuado relevo intergeneracional»</em>.</p>
+                    </div>
+                </div>
 
-                <p>Liliana hizo tres cosas. Escribió en una página qué haría cada miembro de la comisión, con los grupos que le tocaban. Pidió a la Jefatura Regional incorporar a dos adultos con perfiles que faltaban —uno con experiencia en Clan, otra en formación—. Y fijó una reunión mensual corta, con acta. A los seis meses la comisión eran cinco personas, y todas sabían qué se esperaba de ellas.</p>
+                <p>Sebastián cambió de método. Juntó a los líderes de los catorce proyectos en una reunión virtual, les pidió que contaran qué necesitaba cada uno, y descubrió que tres Clanes trabajaban en el mismo río sin saberlo. Los presentó entre sí y los conectó con el asesor del eje de Servicio. Dejó de ir a todas las jornadas. Los proyectos siguieron.</p>
 
-                <div class="info-box">🔗 <strong>Los adultos de tu comisión también tienen un ciclo.</strong> Se captan, se incorporan, se acompañan y se evalúan según la <strong>Política de Adultos en el Movimiento</strong>, que desarrolla la línea de Política de Adultos de esta plataforma. Tu papel es aplicarla con tu equipo, no reinventarla.</div>
-
-                <div class="info-box">🌿 <strong>Y en tu rama.</strong> Si eres comisionado de rama, tu ficha no trae esta función. Lo tuyo es <strong>acompañar a los Jefes de las unidades de tu rama</strong> en la región —a quienes no nombras ni diriges— y trabajar con la <strong>comisión regional de Programa de Jóvenes</strong>. La ficha del Comisionado Regional de Lobatos, por ejemplo, pone a los <strong>Jefes de Manada</strong> entre quienes le responden; su Grupo sigue siendo su casa.</div>
+                <div class="info-box">🌿 <strong>Y si eres el comisionado Rover que acompaña.</strong> La coordinación regional forma parte de tu comisión: es la voz de los Rovers dentro de ella. Si la tratas como a un asistente al que le delegas tareas, pierdes justo lo que la Red le aporta a la comisión.</div>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>Describe tu comisión hoy sin nombres, por roles: ¿cuántas personas hay en el papel y cuántas en la realidad? ¿Qué sabe cada una que se espera de ella? Escribe qué perfil te falta y a quién (por su cargo) le vas a pedir que te ayude a incorporarlo.</p>
+                    <p>Si coordinas o vas a coordinar: haz la lista de los proyectos Rovers de tu región que conoces. ¿En cuántos estás haciendo tú el trabajo? Escribe qué dos proyectos podrías poner en contacto entre sí, y con quién (por su cargo o su eje) podrías enlazarlos.</p>
                     <textarea id="reflection-4" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(4, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 4</h3>
 
                     <div class="question">
-                        <h4>1. Una comisionada regional descubre que dos miembros de su comisión no han hecho nada en seis meses. Ninguno sabía bien qué le tocaba. ¿Qué le toca a ella?</h4>
+                        <h4>1. Un Clan pide a la coordinación regional de la Red que le organice un proyecto de reforestación completo, «porque la Red tiene los contactos». ¿Qué le toca a la coordinación?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q30">
-                            Acordar con cada uno, por escrito, qué grupos acompaña y qué se espera de él, y seguirlo.
+                            Organizarlo, porque apoyar los proyectos de los Clanes es su función principal en la región.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q30">
-                            Acordar con la Jefatura que los retire del cargo, porque seis meses sin hacer nada es abandono.
+                            Acompañarlo: ponerlo en contacto con el asesor de eje, otros Clanes y aliados, sin hacerlo por él.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q30">
-                            Asumir ella sus tareas este año, y buscar reemplazos cuando termine el periodo de la comisión.
+                            Acompañarlo en lo que pida, y organizarlo ella misma si el Clan no tiene experiencia previa.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. Un comisionado de Tropa quiere que los Jefes de Tropa de su región usen una herramienta nueva de planeación. ¿Cuál es el camino que respeta su papel?</h4>
+                        <h4>2. La Comisión Regional Rover prepara el plan del año. ¿Cuál es el papel del Coordinador Regional de la Red en esa comisión?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q31">
-                            Enviar una circular a los Jefes de Tropa ordenando su uso, sin pasar por sus Jefes de Grupo.
+                            Formar parte de su equipo y llevar a ella las ideas y propuestas de sus pares.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q31">
-                            Ofrecer la herramienta con formación y acompañamiento, en acuerdo con los Jefes de Grupo.
+                            Asistir como invitado con voz y sin voto, porque la comisión es un equipo de adultos.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q31">
-                            Ofrecer la herramienta solo a los Jefes de Grupo, para que ellos se la exijan a los Jefes de Tropa.
+                            Recibir el plan terminado y difundirlo entre los Clanes de la región por la Red.
                         </label>
                     </div>
 
                     <button class="btn" onclick="checkQuiz(4)" id="checkBtn-4">Verificar Respuestas</button>
-                    <button class="btn hidden" onclick="completeModule(4)" id="nextBtn-4">Continuar a la seguridad 🛡️</button>
+                    <button class="btn hidden" onclick="completeModule(4)" id="nextBtn-4">Continuar a comunicar 📣</button>
                 </div>
             </div>
 
-            <!-- MÓDULO 5: 🛡️ EVENTOS SEGUROS, CASOS QUE SE REMITEN -->
+            <!-- MÓDULO 5: 📣 COMUNICAR -->
             <div class="module" id="module-5">
-                <h2>🛡️ 🛡️ Eventos seguros, casos que se remiten</h2>
+                <h2>📣 📣 Comunicar</h2>
                 <div class="badge">Módulo 4/7</div>
 
-                <p>El primer gran evento que Liliana coordinó fue un campamento regional de Tropa. Todo estaba listo cuando, dos días antes, alguien preguntó quién era el responsable de primeros auxilios. Nadie lo había asignado. Y el mismo mes, un Jefe de Grupo la llamó para contarle algo delicado que había pasado con un joven en su grupo.</p>
+                <p>Laura, la Comunicadora Regional, publicaba todo lo que le llegaba: fotos de campamentos, frases, convocatorias. La cuenta de la Red tenía muchas publicaciones y pocos Rovers enterados de nada importante.</p>
 
-                <div class="info-box"><strong>Idea central:</strong> en la región hay dos cosas que te tocan: que las actividades <strong>sean seguras antes de que ocurran</strong>, y que cualquier caso que afecte a una persona <strong>siga su ruta</strong>. La segunda no la resuelves tú.</div>
+                <div class="info-box"><strong>Idea central:</strong> la comunicación de la Red existe para que <strong>los proyectos lleguen a quien tienen que llegar</strong> y para que los Rovers de todas las regiones se conecten. Publicar mucho no es lo mismo.</div>
 
-                <h3>Lo que cuidas</h3>
+                <p>El Manual de Cargos de la Red le pide a la comunicación, en los dos niveles: manejar las redes sociales de la Red —o crearlas en las plataformas que los jóvenes usan—, hacer un correcto uso de la imagen de la Red y de la Asociación, y trabajar las iniciativas de la mano de la coordinación. Y a cada nivel, algo propio:</p>
 
-                <p>Tu cuarta función incluye <em>«Coordinar, dirigir, supervisar la planeación y realización de los eventos Scouts de la Región»</em> y <em>«Propender por el cumplimiento de las normas de seguridad en las actividades que desarrollan los jóvenes»</em>. Y tu ficha te pide una competencia específica para eso:</p>
+                <ul>
+                    <li><strong>Regional</strong> (1 año): cumplir el papel de la <strong>secretaría</strong> en las Asambleas Regionales Rover y hacer estrategias de difusión de los proyectos de la región.</li>
+                    <li><strong>Nacional</strong> (2 años): llevar un trabajo conjunto con las comunicaciones de la Asociación, <strong>vigilar el buen uso de la marca de la RDJ</strong>, hacer de secretaría de las Asambleas Nacionales Rover y promover los proyectos nacionales con las comunicaciones regionales.</li>
+                </ul>
 
-                <details class="policy-quote">
-                    <summary>📖 Seguridad y control de actividades</summary>
-                    <blockquote class="policy-quote-text">Es la capacidad de prevenir y reaccionar ante comportamientos que puedan generar un daño a la integridad física, psíquica o moral de cualquier persona sin importar la edad, el sexo o la ocasión de los involucrados.</blockquote>
-                    <p class="policy-quote-source">— Manual de Cargos, Perfiles y Funciones por Competencias (DNAM, agosto 2020), ficha 2.2.16 Comisionado Regional de Programa de Jóvenes, competencia específica 10, p. 273 impresa (p. 281 del PDF).</p>
-                </details>
+                <p>Laura cambió la pregunta. En lugar de «¿qué publico hoy?», empezó cada mes con «¿qué necesita saber cada Clan este mes, y quién más tiene que enterarse de lo que hacen?». Hizo un calendario con la coordinación: convocatorias con un mes de antelación, un proyecto por semana contado por sus propios Rovers, y un resumen para la Comisión Regional Rover. Publicó menos. La asamblea siguiente tuvo más grupos.</p>
 
-                <p>Prevenir va primero. Un evento regional seguro tiene sus riesgos pensados antes: responsables con nombre para la seguridad, los primeros auxilios y los tiempos; fichas de salud y autorizaciones al día; protocolos del lugar. Liliana aprendió a pedir esa lista una semana antes, no dos días.</p>
+                <div class="info-box">🛡️ <strong>Lo que la comunicación cuida.</strong> Una foto de un proyecto con niños o jóvenes es un dato personal. Publica con el consentimiento que corresponde y de acuerdo con la política de protección vigente de la Asociación; y si tienes dudas, pregunta a la comisión antes de publicar, no después.</div>
 
-                <h3>Lo que remites</h3>
-
-                <p>Tu ficha incluye también la competencia <strong>Garante del debido proceso</strong>, y una de sus conductas es exacta: <em>«Remite los casos, activando las rutas determinadas para dar trámite a la situación según el caso»</em>. Activar la ruta no es investigar, ni decidir quién tiene la razón, ni guardar el caso para ti. Es asegurar que llegue a quien corresponde, <em>«salvaguardando la presunción de inocencia y el buen nombre»</em> de las personas.</p>
-
-                <div class="info-box">🛡️ <strong>A dónde se remite.</strong> Lo que corresponde hacer ante un riesgo, una sospecha o una revelación lo enseña el curso <strong>«El Adulto como Garante: reportar, no investigar»</strong>, de la línea de Políticas Transversales, conforme a la Política Nacional A Salvo del Peligro. Si ese curso no lo has hecho, hazlo antes de coordinar tu próximo evento regional.</div>
-
-                <div class="info-box">🌿 <strong>Y en tu rama, el evento que más riesgo concentra.</strong> Cada rama tiene los suyos: los campamentos de la Manada y la Tropa, las expediciones y proyectos en el territorio de la Comunidad, las actividades del Clan fuera del grupo. Tu tarea no es conocer cada técnica, sino <strong>preguntar antes quién responde por la seguridad</strong> y comprobar que la respuesta tenga responsables asignados.</div>
+                <div class="info-box">🌿 <strong>Y si eres el adulto que acompaña.</strong> La Comisión Nacional de Comunicaciones de la Asociación trabaja con el Comunicador Nacional de la Red. En la región, ayuda que la comunicación de la Red sepa con quién hablar en la Jefatura cuando necesita una pieza oficial o una autorización.</div>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>Piensa en el próximo evento regional que vas a coordinar o a acompañar. Escribe tres riesgos que pueden aparecer y quién (por su rol) va a responder por cada uno. Y escribe, en una línea, cuál es la ruta que activarías si un Jefe de Grupo te contara algo delicado que pasó con un joven.</p>
+                    <p>Mira las últimas diez publicaciones del canal de tu Red —o del Clan, si aún no hay Red—. ¿Cuántas le sirvieron a un Rover para enterarse de algo que necesitaba, o a un proyecto para conseguir apoyo? Escribe qué publicarías el próximo mes, y para quién.</p>
                     <textarea id="reflection-5" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(5, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 5</h3>
 
                     <div class="question">
-                        <h4>1. Un Jefe de Grupo llama al comisionado regional para contarle una sospecha delicada sobre la conducta de un adulto con un joven. ¿Qué le corresponde al comisionado?</h4>
+                        <h4>1. La Asamblea Regional Rover está en tres semanas y la Comunicadora aún no ha citado. ¿Qué dice el reglamento de Asambleas sobre la citación?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q40">
-                            Activar la ruta establecida para que el caso llegue a quien corresponde, sin investigar él.
+                            Que la hace la comunicación con al menos un mes de antelación, así que ya va tarde.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q40">
-                            Activar una investigación propia en el grupo antes de reportar, para no dañar un buen nombre.
+                            Que la hace la coordinación con una semana de antelación, así que todavía hay tiempo.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q40">
-                            Pedirle al Jefe de Grupo que lo resuelva dentro del grupo, porque es asunto de su Consejo.
+                            Que la hace la comunicación el mismo mes de la asamblea, así que todavía hay tiempo.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. Faltan tres días para un campamento regional. Todo está listo, pero nadie tiene asignada la atención de primeros auxilios. ¿Qué hace el comisionado que lo coordina?</h4>
+                        <h4>2. Un Clan envía a la Comunicadora Regional fotos de su proyecto con niños de una escuela, para publicarlas ese mismo día. ¿Qué hace primero?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q41">
-                            Confiar en que los Jefes de cada unidad lleven su botiquín, como en cualquier campamento.
+                            Publicarlas enseguida, porque visibilizar los proyectos es la función principal de su cargo.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q41">
-                            Asignar ya un responsable y revisar con él los protocolos antes de que salga el campamento.
+                            Verificar el consentimiento de las imágenes según la política de protección antes de publicarlas.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q41">
-                            Asumir él la atención de primeros auxilios durante el campamento, aunque no esté formado.
+                            Verificar que las fotos tengan buena calidad y publicarlas ese mismo día, como pidió el Clan.
                         </label>
                     </div>
 
                     <button class="btn" onclick="checkQuiz(5)" id="checkBtn-5">Verificar Respuestas</button>
-                    <button class="btn hidden" onclick="completeModule(5)" id="nextBtn-5">Continuar al plan 📈</button>
+                    <button class="btn hidden" onclick="completeModule(5)" id="nextBtn-5">Continuar a los ejes 🌍</button>
                 </div>
             </div>
 
-            <!-- MÓDULO 6: 📈 EL PLAN Y LAS CUENTAS -->
+            <!-- MÓDULO 6: 🌍 LOS CUATRO EJES -->
             <div class="module" id="module-6">
-                <h2>📈 📈 El plan y las cuentas</h2>
+                <h2>🌍 🌍 Los cuatro ejes</h2>
                 <div class="badge">Módulo 5/7</div>
 
-                <p>En el Consejo Scout Regional le pidieron a Liliana un informe del Programa de Jóvenes. Tenía fotos de eventos y una lista de visitas. Le preguntaron cuántos grupos aplicaban el Modelo de Aplicación y cuántos jóvenes había ganado o perdido la región. No lo sabía.</p>
+                <p>Cuando Sebastián presentó los catorce proyectos a la Comisión Regional, alguien le preguntó a qué eje pertenecía cada uno. No lo sabía: nunca había pensado en ellos como ejes.</p>
 
-                <div class="info-box"><strong>Idea central:</strong> tu trabajo cabe dentro del <strong>plan operativo regional</strong>, y se rinde cuentas de él con datos que sirvan para decidir, no con una lista de actividades.</div>
+                <div class="info-box"><strong>Idea central:</strong> la Red organiza su trabajo en <strong>cuatro ejes</strong>, y cada uno tiene un asesor que conoce su campo. Saber a qué eje pertenece un proyecto es saber a quién pedirle ayuda.</div>
 
-                <h3>El plan: la primera función</h3>
+                <div class="method-elements">
+                    <div class="method-element" style="background: linear-gradient(135deg, #eceff1, #eceff1dd); border-color: #546e7a;">
+                        <h4>Transversal</h4>
+                        <p>Herramientas para las habilidades para la vida y la técnica scout, y para identificar esa transversalidad en el plan de desarrollo personal de cada Rover.</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
+                        <h4>Viaje y Enlace Internacional</h4>
+                        <p>Proyectos de viaje y enlace, dentro y fuera del país; contactos, herramientas y un <strong>turismo responsable</strong>, de acuerdo con la política de protección y gestión del riesgo.</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
+                        <h4>Servicio</h4>
+                        <p>Proyectos de servicio con impacto en la región, captación de voluntarios y alianzas con organizaciones externas — enfocados en mejorar condiciones de vida, <strong>no en asistencialismo</strong>.</p>
+                    </div>
+                    <div class="method-element" style="background: linear-gradient(135deg, #fff3e0, #fff3e0dd); border-color: #fb8c00;">
+                        <h4>Empresa</h4>
+                        <p>Acompañar los emprendimientos de los Rovers, visibilizarlos en los eventos regionales y enlazar proyectos ya constituidos con Rovers que quieren empezar.</p>
+                    </div>
+                </div>
 
-                <p>No escribes tu plan solo. Tu primera función es <em>«Participar de la elaboración y ejecución del plan operativo regional en lo relacionado al programa de jóvenes»</em>, y sus tareas son tres: <strong>proponer</strong> al Jefe Scout Regional los proyectos que consideres necesarios, <strong>participar en la planeación</strong> de los programas y cronogramas del Plan Regional, y <strong>hacer seguimiento</strong> a su desarrollo. Proponer, planear con otros, seguir.</p>
+                <div class="info-box">📌 <strong>Si en algún documento lees «Vida y Espíritu» como eje de la Red, es un error.</strong> El reglamento de la Red y su Manual de Cargos nombran los ejes estructurales como <strong>Viaje y Enlace Internacional, Servicio y Empresa</strong>, más el <strong>transversal</strong>. El plan de esta línea tenía el nombre equivocado y se corrigió al publicar este curso.</div>
 
-                <h3>El crecimiento: la quinta función</h3>
+                <p>Los asesores de eje, dice el Manual, apoyan con sus conocimientos la asesoría de proyectos de su eje y aportan <em>«técnicas, consejos, gestiones, contacto con otros rovers»</em>, y pueden hacer de monitores organizando planes de mejora a las iniciativas en marcha. Sebastián clasificó los catorce proyectos: nueve eran de Servicio, tres de Viaje y Enlace, dos de Empresa. Y pidió a los tres asesores una hora con los líderes de cada eje.</p>
 
-                <p>La quinta te pide <em>«Proponer objetivos y actividades en pro de fortalecer el crecimiento de la membresía de los grupos de la Región»</em>: coordinar las acciones de crecimiento, buscar actividades, alianzas y convenios. Un Programa bien aplicado retiene a los jóvenes; uno mal aplicado los pierde. Por eso el crecimiento no es un tema aparte del Programa: es uno de sus resultados.</p>
-
-                <h3>Las cuentas</h3>
-
-                <details class="policy-quote">
-                    <summary>📖 Administración y gestión estratégica</summary>
-                    <blockquote class="policy-quote-text">Es la capacidad de dirigir administrativa y financieramente la organización, llevando a cabo procesos de gestión para el desarrollo y cumplimiento de los objetivos pactados, así como la realización de informes de gestión que apoyan la toma de decisiones y el fortalecimiento de la misma.</blockquote>
-                    <p class="policy-quote-source">— Manual de Cargos, Perfiles y Funciones por Competencias (DNAM, agosto 2020), ficha 2.2.16, competencia específica 21, p. 274 impresa (p. 282 del PDF).</p>
-                </details>
-
-                <p><em>Informes de gestión que apoyan la toma de decisiones.</em> El informe que Liliana llevó la siguiente vez tenía cuatro partes: lo que el plan se propuso para el Programa, lo que se hizo, los resultados con datos —grupos acompañados, unidades que aplican el Modelo, jóvenes que entraron y que salieron— y lo que propone cambiar. Cuatro líneas por cada parte. Por primera vez el Consejo Regional le hizo preguntas que ella podía responder.</p>
-
-                <div class="info-box">🌿 <strong>Y en tu rama.</strong> Si eres comisionado de rama, tu informe es la parte de tu rama en el informe del Comisionado Regional de Programa de Jóvenes, al que también respondes. Los datos que pides a los Jefes de las unidades son los mismos que el <strong>Curso 16</strong> les enseñó a juntar por ciclo: lo planificado, lo ejecutado, los resultados y las mejoras.</div>
+                <div class="info-box">🌿 <strong>Y en el Clan.</strong> Los ejes de la Red no reemplazan el plan de progresión de cada Rover ni la vida de su Clan, que enseña el <strong>Curso 12</strong>. Son la forma en que la Red agrupa y acompaña los proyectos que los Clanes ya hacen.</div>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>Escribe el informe de tu comisión del último semestre en cuatro líneas: lo que se propuso, lo que se hizo, los resultados con algún dato y lo que cambiarías. ¿En cuál no tenías datos? Escribe qué dato vas a empezar a pedir a los grupos y cómo lo vas a juntar.</p>
+                    <p>Toma tres proyectos Rovers que conozcas —de tu Clan o de tu región— y ubica cada uno en un eje. ¿A qué asesor le pedirías ayuda para cada uno? Si en tu región no hay asesor de algún eje, escribe qué perfil buscarías para la próxima asamblea.</p>
                     <textarea id="reflection-6" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(6, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 6</h3>
 
                     <div class="question">
-                        <h4>1. Un comisionado regional presenta al Consejo Regional su informe: una galería de fotos de los eventos del año. ¿Qué le falta para ser un informe de gestión?</h4>
+                        <h4>1. Un Clan quiere organizar un intercambio con un Clan de otro país. ¿A qué asesor de eje le conviene acudir primero?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q50">
-                            Lo propuesto, lo hecho, resultados con datos y lo que se propone cambiar para decidir.
+                            Al de Viaje y Enlace Internacional, que apoya los proyectos de viaje y los enlaces con otros lugares.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q50">
-                            Lo propuesto en el plan, y una galería más amplia con los eventos de cada grupo.
+                            Al de Servicio, porque todo intercambio debe incluir una acción de servicio en la comunidad.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q50">
-                            Nada, si las fotos muestran eventos de todas las ramas y de todos los grupos.
+                            Al de Empresa, porque un intercambio necesita financiarse con un emprendimiento del Clan.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. En una región, la Tropa pierde un tercio de sus scouts entre un año y el siguiente. ¿Qué tiene que ver eso con el comisionado de Programa?</h4>
+                        <h4>2. Un proyecto de un Clan consiste en entregar mercados cada mes a las mismas familias, sin más. ¿Qué le diría el asesor del eje de Servicio?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q51">
-                            Nada: el crecimiento es tarea del área de Desarrollo Institucional, no del Programa.
+                            Que es un buen proyecto de servicio, porque atiende una necesidad real de las familias de forma constante.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q51">
-                            Mucho: su quinta función es el crecimiento, y un Programa mal aplicado pierde jóvenes.
+                            Que lo oriente a mejorar las condiciones de vida de esas familias, para no quedarse en asistencialismo.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q51">
-                            Mucho, pero solo si la pérdida se concentra en los grupos que él visitó personalmente.
+                            Que lo pase al eje de Empresa, porque maneja recursos, compras y donaciones que requieren gestión propia.
                         </label>
                     </div>
 
                     <button class="btn" onclick="checkQuiz(6)" id="checkBtn-6">Verificar Respuestas</button>
-                    <button class="btn hidden" onclick="completeModule(6)" id="nextBtn-6">Continuar hacia arriba y al lado 🌐</button>
+                    <button class="btn hidden" onclick="completeModule(6)" id="nextBtn-6">Continuar a arriba y afuera 🏛️</button>
                 </div>
             </div>
 
-            <!-- MÓDULO 7: 🌐 HACIA ARRIBA Y HACIA LOS LADOS -->
+            <!-- MÓDULO 7: 🏛️ ARRIBA Y AFUERA -->
             <div class="module" id="module-7">
-                <h2>🌐 🌐 Hacia arriba y hacia los lados</h2>
+                <h2>🏛️ 🏛️ Arriba y afuera</h2>
                 <div class="badge">Módulo 6/7</div>
 
-                <p>Al año, Liliana fue a su primer encuentro nacional de comisionados. Llegó con una duda que llevaba meses: si ella acompañaba a los grupos de su región, ¿quién la acompañaba a ella?</p>
+                <p>En la Asamblea Nacional Rover, Sebastián votó por primera vez para elegir a los representantes juveniles. Alguien preguntó por qué en la papeleta seguía el cargo de miembro juvenil ante la Comisión Nacional de Vigilancia y Control, si el Estatuto nuevo había cambiado esa comisión. Nadie en la sala supo responder con seguridad.</p>
 
-                <div class="info-box"><strong>Idea central:</strong> tu región no está sola. El Programa se sostiene en una <strong>cadena de acompañamiento</strong> que va de la nación a la unidad, y tú eres un eslabón del medio.</div>
+                <div class="info-box"><strong>Idea central:</strong> la Red no está sola. Responde a la <strong>Comisión Rover</strong>, dialoga con la <strong>Dirección Nacional</strong>, se enlaza con la <strong>Red Interamericana</strong> — y elige y evalúa a quienes representan a los jóvenes.</div>
 
-                <h3>Hacia arriba: la Dirección Nacional</h3>
+                <h3>La Red, en la estructura</h3>
 
-                <p>La ficha del Director Nacional de Programa de Jóvenes muestra el mismo oficio, una escala más arriba. Entre sus funciones: <strong>alinear</strong> el Programa con las políticas de la Región Interamericana y de la Organización Mundial, atendiendo a las necesidades de la juventud colombiana; <strong>desarrollar, promover e impulsar</strong> la Política Nacional y su modelo de aplicación, con un <em>«acompañamiento activo a los diferentes comisionados de Programa del país (animación territorial)»</em>; y <strong>evaluar</strong> su aplicación en cada región por medio de los comisionados regionales. Así como tú acompañas a los grupos, la Dirección Nacional acompaña a las regiones. Y el <em>Reglamento Nacional</em> sitúa a la Dirección dentro de la Jefatura: el Jefe Scout Nacional dirige la organización <em>«desde las Direcciones de Programa de Jóvenes, Adultos en el Movimiento, Comunicaciones y Desarrollo Institucional»</em>.</p>
+                <ul>
+                    <li><strong>La Comisión Rover</strong>, regional y nacional: la Red es su órgano operativo, y la coordinación forma parte de su equipo.</li>
+                    <li><strong>La Dirección Nacional de Programa de Jóvenes</strong>: la Coordinación Nacional representa ante ella a todos los Rovers del país.</li>
+                    <li><strong>La Red Interamericana de Jóvenes</strong>: la Coordinación Nacional articula los procesos de la Red con ella. Para los eventos de la Red Interamericana, según el reglamento, <strong>la representación de la Asociación la elige el Jefe Scout Nacional</strong> entre los postulados.</li>
+                </ul>
 
-                <h3>Hacia los lados: las otras áreas</h3>
+                <h3>Los representantes que la Asamblea elige y evalúa</h3>
 
-                <p>El Programa no se aplica sin adultos formados, y los adultos no se forman sin Programa. La ficha nacional le pide a la Dirección <strong>participar con Adultos en el Movimiento</strong> en la formación de adultos, y <strong>coordinar con Desarrollo Institucional</strong> el crecimiento y las actividades. Y la <em>Política Nacional de Programa de Jóvenes</em> pide lo mismo en todos los niveles: <em>«Asegurar una estrecha colaboración entre los responsables del Programa de Jóvenes y los Adultos en el Movimiento, en todos los niveles de las estructuras»</em>. En tu región, eso se traduce en conversar con quienes llevan esas áreas antes de planear, no después.</p>
+                <p>La Asamblea Nacional Rover elige cada año al miembro juvenil del Consejo Scout Nacional —el Consejero Juvenil Nacional, que es materia del <strong>Curso 19</strong>— y a cuatro delegados Rover a la Asamblea Scout Nacional, y evalúa, con sus informes, la gestión de todos ellos y la de la propia Red.</p>
 
-                <h3>Y con los jóvenes</h3>
+                <div class="info-box">⚖️ <strong>El miembro juvenil ante la Comisión Nacional de Vigilancia y Control, y una norma más nueva.</strong> Los reglamentos de la Red y de las Asambleas Rover, de 2022, dicen que la Asamblea Nacional Rover elige cada año a un miembro juvenil para esa comisión. El <strong>Estatuto 2025</strong> cambió su composición: <strong>siete integrantes elegidos por cuatro años, de los cuales al menos uno debe ser menor de 30 años</strong>, y no menciona un miembro elegido por los Rovers. El <em>Reglamento Nacional</em> de 2026 fija la regla para estos casos: <strong>el Estatuto está por encima de los reglamentos</strong>, y da un año para actualizar los reglamentos que lo contraríen. Cómo se está aplicando mientras tanto lo sabe la <strong>Comisión Nacional Rover</strong>: pregúntale antes de convocar esa elección.</div>
 
-                <p>La misma política, en su apartado regional, pide <em>«Implementar los mecanismos necesarios para garantizar la participación y el empoderamiento juvenil en el Programa de Jóvenes»</em>, y tu ficha te pide promover las políticas de participación juvenil, diversidad e inclusión. Los jóvenes tienen sus propios cargos de representación —el Consejero Juvenil, la Red de Jóvenes—, que son los <strong>Cursos 19 y 20</strong>. Lo que te toca a ti es que su voz llegue a las decisiones del Programa en tu región, no hablar por ellos.</p>
-
-                <div class="info-box">🔁 <strong>La idea que abrió el curso, cobrada.</strong> En la Lección 1 dijimos que un comisionado no aplica el Programa, sino que hace que se aplique bien en unidades que no dirige. Ahora se ve de qué está hecho eso: de un plan de animación territorial en lugar de una lista de visitas (Lección 3), de una comisión que sabe qué se espera de ella (Lección 4), de eventos con sus riesgos pensados y de casos que siguen su ruta (Lección 5), de informes que sirven para decidir (Lección 6) y de una cadena que va de la nación a la unidad. <strong>Todo eso es lo contrario de hacerlo todo tú.</strong></div>
-
-                <div class="info-box">🌿 <strong>Y en tu rama.</strong> Si eres comisionado regional de rama, tu eslabón de arriba es doble: el <strong>Comisionado Regional de Programa de Jóvenes</strong> y el <strong>comisionado nacional de tu rama</strong>. Si eres comisionado nacional de rama, te responden los comisionados regionales de tu rama y de Programa de Jóvenes, y el <em>Reglamento</em> te fija un periodo de máximo dos años.</div>
+                <div class="info-box">🔁 <strong>La idea que abrió el curso, cobrada.</strong> En la Lección 1 dijimos que la Red no es un club de los rovers que llegan a las asambleas, sino la manera de que los proyectos de todos los Clanes se encuentren. Ahora se ve de qué está hecha: de asambleas que llegan a todos los Grupos (Lección 3), de una coordinación que enlaza en vez de hacer (Lección 4), de una comunicación que sirve a los proyectos (Lección 5), de ejes que dicen a quién pedir ayuda (Lección 6) y de una Red que sabe dónde está en la Asociación. <strong>Todo eso es lo contrario de un club.</strong></div>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>Dibuja, en palabras, la cadena de acompañamiento de tu cargo: ¿quién te acompaña a ti, a quién acompañas tú, y con qué otras áreas deberías conversar antes de planear? ¿Qué eslabón está hoy roto o débil? Escribe una acción para fortalecerlo.</p>
+                    <p>Escribe, en palabras, el mapa de relaciones de tu cargo en la Red —o del cargo al que aspiras—: a qué comisión respondes, con qué otras instancias hablas, a quién eliges y a quién evalúas. ¿Qué relación está hoy débil? Escribe una acción para fortalecerla. Por cargos, no por nombres.</p>
                     <textarea id="reflection-7" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(7, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 7</h3>
 
                     <div class="question">
-                        <h4>1. Una comisionada regional planea un encuentro regional de formación sobre el Modelo de Aplicación. ¿Con quién le conviene conversar antes de fijarlo?</h4>
+                        <h4>1. La Red Interamericana de Jóvenes convoca un encuentro. Tres coordinadores regionales se ofrecen a ir en representación de Colombia. ¿Quién decide, según el reglamento de la Red?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q60">
-                            Con el área de Adultos en el Movimiento de su región, porque la formación de adultos se hace en conjunto.
+                            El Jefe Scout Nacional, que elige entre los postulados según su idoneidad y los temas del evento.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q60">
-                            Con los Jefes de Rama de la región, uno por uno, porque son ellos quienes aplican el Modelo cada sábado.
+                            La Asamblea Nacional Rover, que vota entre los coordinadores regionales que se postulen.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q60">
-                            Con nadie más: la formación sobre el Programa es exclusiva de la comisión regional de Programa.
+                            El Coordinador Nacional de la Red, que representa a los Rovers del país ante la Interamericana.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. En una región, la comisión de Programa decide cambiar el calendario de actividades de las ramas sin consultar a ningún joven. ¿Qué dice la política sobre eso?</h4>
+                        <h4>2. Un reglamento de la Red de 2022 dice algo que el Estatuto 2025 ya no contempla. ¿Qué regla da el Reglamento Nacional de 2026 para ese caso?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q61">
-                            Que es una decisión técnica de los adultos, y los jóvenes solo se consultan en sus unidades.
+                            Que se aplica el reglamento de la Red, porque es la norma específica de los Rovers.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q61">
-                            Que hay que garantizar la participación juvenil, y que su voz llegue a las decisiones del Programa.
+                            Que el Estatuto está por encima de los reglamentos, que tienen un año para ajustarse.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q61">
-                            Que hay que garantizar la participación juvenil dejando la decisión solo en manos de los jóvenes.
+                            Que se aplica la norma más favorable a los jóvenes hasta que la Asamblea Rover decida.
                         </label>
                     </div>
 
                     <button class="btn" onclick="checkQuiz(7)" id="checkBtn-7">Verificar Respuestas</button>
-                    <button class="btn hidden" onclick="completeModule(7)" id="nextBtn-7">Continuar a tu perfil 🧩</button>
+                    <button class="btn hidden" onclick="completeModule(7)" id="nextBtn-7">Continuar al relevo ✅</button>
                 </div>
             </div>
 
-            <!-- MÓDULO 8: 🧩 TU PERFIL, Y TU PRIMER MES -->
+            <!-- MÓDULO 8: ✅ TU AÑO EN LA RED -->
             <div class="module" id="module-8">
-                <h2>🧩 🧩 Tu perfil, y tu primer mes</h2>
+                <h2>✅ ✅ Tu año en la Red</h2>
                 <div class="badge">Módulo 7/7</div>
 
-                <p>Cuando Liliana comparó su ficha de comisionada con la de Jefa de Tropa que había tenido, notó que el <em>Manual</em> le pedía mucho más, en casi todo.</p>
+                <p>Al final de su año, Sebastián no se postuló de nuevo. Se ofreció a acompañar durante un mes a quien lo reemplazara, y le entregó tres cosas: la lista de proyectos de la región con su eje y su contacto, los Clanes que por fin habían empezado a ir a las asambleas, y lo que no había logrado.</p>
 
-                <div class="info-box"><strong>Idea central:</strong> el perfil de un comisionado es de los más exigentes del <em>Manual</em>. No es un examen: es un mapa para saber <strong>por dónde crecer</strong> — y estas son tus competencias como adulto, no las competencias educativas de los jóvenes.</div>
+                <div class="info-box"><strong>Idea central:</strong> los cargos de la Red duran uno o dos años, y quien los ocupa deja de ser Rover poco después. <strong>El relevo no es el final del cargo: es parte del cargo.</strong></div>
 
-                <div class="method-elements">
-                    <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
-                        <h4>Grado 4</h4>
-                        <p><strong>Adaptabilidad al Cambio · Compromiso · Conciencia Organizacional · Relaciones Interpersonales · Trabajo en Equipo.</strong> Cinco de las siete, en el grado más alto.</p>
-                    </div>
-                    <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
-                        <h4>Grado 3</h4>
-                        <p><strong>Aprendizaje y Desarrollo Personal · Planeamiento Estratégico.</strong> En la ficha del Director Nacional, Planeamiento Estratégico sube a 4.</p>
-                    </div>
-                </div>
+                <p>El Manual de Cargos de la Red le pide a la Coordinación Nacional <em>«Incentivar la formación de líderes para un adecuado relevo intergeneracional»</em>. Vale igual en la región: un Coordinador que lo hace todo solo deja, al irse, una Red que no sabe hacerlo. Uno que forma a otros deja una que sigue.</p>
 
-                <p>Y seis competencias específicas: <strong>Asesoría personal</strong>, <strong>Garante del debido proceso</strong>, <strong>Seguridad y control de actividades</strong>, <strong>Generación de contenido</strong>, <strong>Dirección del proyecto educativo</strong> y <strong>Administración y gestión estratégica</strong>. Varias ya las viste en acción en este curso. Una Jefa de Tropa necesita Trabajo en Equipo en grado 4; una comisionada, además, <strong>Adaptabilidad al Cambio</strong> en grado 4: <em>«Evalúa y proyecta el cambio»</em>. Es la que más le costó a Liliana, y la que más usó.</p>
+                <h3>Con este curso se cierra el Nivel 3</h3>
 
-                <div class="info-box">🌿 <strong>Y en tu rama.</strong> Los comisionados regionales de rama tienen sus propios grados —en sus fichas, Relaciones Interpersonales y Trabajo en Equipo van en grado 3—: búscalos en tu ficha antes de tu autodiagnóstico. Si hiciste el curso de competencias esenciales de la línea de <strong>Política de Adultos</strong>, ya sabes cómo hacerlo.</div>
+                <p>Los cursos por cargo recorren la cadena completa del Programa: quien responde por una unidad (<strong>Curso 16</strong>), quien acompaña el camino de cada protagonista (<strong>Curso 17</strong>), quien acompaña a las unidades de una región (<strong>Curso 18</strong>), quien lleva la voz de los niños y jóvenes a los Consejos (<strong>Curso 19</strong>) y quienes hacen que los proyectos de los Rovers se encuentren (este). Lo que sigue en la línea es el Nivel 4, con cursos transversales para todo dirigente. Cuando se publiquen, los encontrarás en la página de esta línea.</p>
 
-                <p>El Nivel 3 sigue con los <strong>Cursos 19 y 20</strong>, pensados para los jóvenes en cargos de representación: Consejero Juvenil y la Red de Jóvenes. Si acompañas a jóvenes en esos cargos, vale la pena que los conozcas. Cuando se publiquen, los encontrarás en la página de esta línea.</p>
+                <div class="info-box">🌿 <strong>Y si eres el comisionado Rover que acompaña.</strong> El mejor momento para ayudar al relevo es la mitad del periodo, no el final: pregúntale a quien coordina quién podría reemplazarlo y qué necesitaría aprender.</div>
 
-                <div class="mission-box">🎯 <strong>Tu tarea para el próximo mes.</strong> Haz el <strong>mapa de tu territorio</strong>: los grupos de tu región, sus unidades y, al lado de cada grupo, quién de tu comisión lo acompaña. Marca los grupos que nadie acompaña hoy. Después fija <strong>una conversación de acompañamiento</strong> con un Jefe de Grupo de esa lista, con fecha, y una pregunta: <em>¿cómo va el Programa en tus unidades, y qué necesitas de la región?</em> Porque un comisionado no aplica el Programa: hace que se aplique bien en unidades que no dirige. Escríbelo también en el Compromiso Personal que aparece junto a tu certificado.</div>
+                <div class="mission-box">🎯 <strong>Tu tarea para este mes.</strong> Haz el <strong>mapa de proyectos</strong> de tu región —o de tu Clan—: cada proyecto con su eje y su contacto. Marca los Clanes que no aparecen. Después elige <strong>a un Rover</strong> que pueda relevarte —con nombre, aquí es solo para ti— y escribe <strong>una tarea</strong> que le vas a enseñar este mes. Porque la Red no es un club: es la manera de que los proyectos de todos se encuentren. Escríbelo también en el Compromiso Personal que aparece junto a tu certificado.</div>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>De las siete competencias esenciales de tu ficha, elige las dos que pide en grado 4 y que hoy más te cuestan. Para cada una, escribe un momento de tu último mes en que la necesitaste, y qué harías distinto. Sin nombres de personas: por su rol.</p>
+                    <p>Escribe qué dejarías por escrito para quien te reemplace en la Red, en tres partes: lo que funciona, lo que no lograste y lo que harías distinto. Sin nombres de personas: por Clan, proyecto o cargo.</p>
                     <textarea id="reflection-8" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(8, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 8</h3>
 
                     <div class="question">
-                        <h4>1. Un comisionado regional se autodiagnostica: está en grado 3 en todas sus competencias esenciales. ¿Dónde están sus brechas frente a la ficha?</h4>
+                        <h4>1. Un Coordinador Regional de la Red tiene veintiún años y termina su periodo en dos meses. ¿Qué es lo que más le conviene hacer ahora?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q70">
-                            En cinco de las siete, que su ficha pide en grado 4; en Aprendizaje y Planeamiento ya cumple.
+                            Enseñar sus tareas a Rovers que puedan relevarlo y dejar por escrito lo que funciona y lo que no.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q70">
-                            En Planeamiento Estratégico, que la ficha regional pide en grado 4 como la del Director Nacional.
+                            Terminar todos los proyectos pendientes él mismo, para entregar la Red sin trabajo acumulado.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q70">
-                            En ninguna: la ficha regional pide grado 3 en todas, y el grado 4 es solo del Director Nacional.
+                            Postularse de nuevo al mismo cargo, porque es quien mejor conoce la Red de la región.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. Una comisionada recién nombrada tiene poco tiempo. ¿Cuál de estas tareas de su primer mes cumple mejor la idea central del curso?</h4>
+                        <h4>2. ¿Cuál de estas señales indica que una Red Regional está cumpliendo lo que enseña este curso?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q71">
-                            Visitar ella misma las unidades con más problemas, para resolverlos durante el mes.
+                            Que los mismos rovers que la fundaron siguen coordinándola año tras año.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q71">
-                            Mapear quién acompaña cada grupo y abrir una conversación con uno que nadie acompaña.
+                            Que cada vez más Clanes votan en la asamblea y sus proyectos se conocen entre sí.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q71">
-                            Mapear las unidades de la región que mejor funcionan, y visitarlas para aprender de sus Jefes.
+                            Que su cuenta publica todos los días fotos de las actividades de los Clanes.
                         </label>
                     </div>
 
@@ -1665,14 +1629,14 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
                     <!-- Course name -->
                     <div style="text-align: center; background: linear-gradient(135deg, #622599 0%, #3d1660 100%); color: white; padding: 10px 20px; margin: 10px 0;">
-                        <h3 style="font-size: 1.1em; letter-spacing: 1px; margin: 0; color: white;">COMISIONADO DE PROGRAMA DE JÓVENES</h3>
+                        <h3 style="font-size: 1.1em; letter-spacing: 1px; margin: 0; color: white;">RED DE JÓVENES: COORDINAR Y COMUNICAR</h3>
                     </div>
 
                     <!-- Body -->
                     <div style="text-align: center; margin: 15px 0;">
                         <p style="font-size: 0.9em; color: #636363; margin-bottom: 8px;">Se otorga el presente certificado a</p>
                         <h3 style="color: #622599; font-size: 1.5em; margin: 8px 0; border-bottom: 2px solid #ffe675; display: inline-block; padding-bottom: 5px;" id="studentName"></h3>
-                        <p style="font-size: 0.85em; color: #636363; margin-top: 10px; line-height: 1.5;">ha completado el Curso 18 de la Línea Programa de Jóvenes — Comisionado de Programa de Jóvenes, ubicando su cargo en la estructura nacional y regional del Programa, leyendo sus funciones por la pregunta que responde cada una, entendiendo la animación territorial como acompañar a los grupos para que apliquen el Programa y no aplicarlo por ellos, conduciendo una comisión de adultos voluntarios, cuidando la seguridad de las actividades y remitiendo lo que excede su papel, planeando y rindiendo cuentas dentro del plan operativo, y articulando su trabajo con la Dirección Nacional, la Jefatura y la participación juvenil.</p>
+                        <p style="font-size: 0.85em; color: #636363; margin-top: 10px; line-height: 1.5;">ha completado el Curso 20 de la Línea Programa de Jóvenes — Red de Jóvenes: coordinar y comunicar, con el que se cierra el Nivel 3, explicando qué es la Red de Jóvenes y sus niveles, distinguiendo los cargos de coordinación, comunicación y asesoría de eje con sus periodos, preparando y conduciendo una Asamblea Rover, coordinando proyectos sin hacerlos por otros, comunicando para que lleguen a quien tienen que llegar, reconociendo los cuatro ejes de trabajo y situando la Red entre la Comisión Rover, la Dirección Nacional y la Red Interamericana, con el relevo preparado desde el primer día.</p>
                     </div>
 
                     <!-- Details grid -->
@@ -1699,14 +1663,14 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
                 <h3 style="margin-top: 30px;">🎯 Logros Desbloqueados</h3>
                 <div class="achievements">
-                    <div class="achievement earned">🧭 Leo mis funciones</div>
-                    <div class="achievement earned">🌱 Animo el territorio</div>
-                    <div class="achievement earned">👥 Conduzco una comisión</div>
-                    <div class="achievement earned">🛡️ Cuido lo que pasa</div>
-                    <div class="achievement earned">📈 Rindo cuentas</div>
-                    <div class="achievement earned">🌐 Articulo arriba y al lado</div>
-                    <div class="achievement earned">🧩 Conozco mi perfil</div>
-                    <div class="achievement earned">⭐ Acompaño una región</div>
+                    <div class="achievement earned">🧩 Conozco los cargos</div>
+                    <div class="achievement earned">🗳️ Preparo una asamblea</div>
+                    <div class="achievement earned">🧭 Coordino sin hacerlo todo</div>
+                    <div class="achievement earned">📣 Comunico con sentido</div>
+                    <div class="achievement earned">🌍 Conozco los ejes</div>
+                    <div class="achievement earned">🏛️ Sé dónde está la Red</div>
+                    <div class="achievement earned">✅ Preparo el relevo</div>
+                    <div class="achievement earned">⭐ Hago que los proyectos se encuentren</div>
                 </div>
 
                 <div style="text-align: center; margin: 30px 0;">
@@ -1733,17 +1697,17 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
     <script>
     // --- Configuracion del curso (generada automaticamente) ---
     var COURSE_CONFIG = {
-        courseId: "comisionado-programa-jovenes",
-        title: "Comisionado de Programa de Jóvenes",
+        courseId: "red-de-jovenes",
+        title: "Red de Jóvenes: coordinar y comunicar",
         totalModules: 10,
         contentModules: 7,
         googleScriptUrl: "https://script.google.com/macros/s/AKfycbxxZBp6XpmdRzZS0BXO02WMq31K5FUU8-Mqzc2Sj0PcwB3cMcrhIqbHQA0naUQb5mgBWw/exec",
         lineName: "Programa de Jóvenes",
-        achievements: [{"id":"achievement-1","emoji":"🧭","name":"Leo mis funciones","unlockOnModule":2},{"id":"achievement-2","emoji":"🌱","name":"Animo el territorio","unlockOnModule":3},{"id":"achievement-3","emoji":"👥","name":"Conduzco una comisión","unlockOnModule":4},{"id":"achievement-4","emoji":"🛡️","name":"Cuido lo que pasa","unlockOnModule":5},{"id":"achievement-5","emoji":"📈","name":"Rindo cuentas","unlockOnModule":6},{"id":"achievement-6","emoji":"🌐","name":"Articulo arriba y al lado","unlockOnModule":7},{"id":"achievement-7","emoji":"🧩","name":"Conozco mi perfil","unlockOnModule":8},{"id":"achievement-8","emoji":"⭐","name":"Acompaño una región","unlockOnModule":-1}]
+        achievements: [{"id":"achievement-1","emoji":"🧩","name":"Conozco los cargos","unlockOnModule":2},{"id":"achievement-2","emoji":"🗳️","name":"Preparo una asamblea","unlockOnModule":3},{"id":"achievement-3","emoji":"🧭","name":"Coordino sin hacerlo todo","unlockOnModule":4},{"id":"achievement-4","emoji":"📣","name":"Comunico con sentido","unlockOnModule":5},{"id":"achievement-5","emoji":"🌍","name":"Conozco los ejes","unlockOnModule":6},{"id":"achievement-6","emoji":"🏛️","name":"Sé dónde está la Red","unlockOnModule":7},{"id":"achievement-7","emoji":"✅","name":"Preparo el relevo","unlockOnModule":8},{"id":"achievement-8","emoji":"⭐","name":"Hago que los proyectos se encuentren","unlockOnModule":-1}]
     };
 
     // --- Respuestas correctas (indice base 0) ---
-    var QUIZ_ANSWERS = {"2":[1,1],"3":[1,0],"4":[0,1],"5":[0,1],"6":[0,1],"7":[0,1],"8":[0,1]};
+    var QUIZ_ANSWERS = {"2":[1,0],"3":[0,1],"4":[1,0],"5":[0,1],"6":[0,1],"7":[0,1],"8":[0,1]};
 
 // ============================================
 // engine.linea.js — EXTENSIÓN de la línea Programa de Jóvenes
