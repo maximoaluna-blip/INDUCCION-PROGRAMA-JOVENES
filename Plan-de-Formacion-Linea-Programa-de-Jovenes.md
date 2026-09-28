@@ -35,7 +35,7 @@ Una idea atraviesa toda la línea: **el Programa de Jóvenes no es un manual de 
 La línea está dirigida a una audiencia amplia, en orden de prioridad:
 
 - **Jefes y dirigentes de unidad** de cada una de las 5 ramas: Familia (Cachorros, 5–6 años), Manada (Lobatos, 7–10), Tropa (Scouts, 11–14), Comunidad (Nómadas, 15–17), Clan (Rovers, 18–20).
-- **Asistentes y asesores personales** que acompañan la progresión individual de niñas, niños y jóvenes.
+- **Dirigentes de unidad** que acompañan la progresión individual de niñas, niños y jóvenes (el acompañamiento es función de todo dirigente, no un cargo aparte: el *Manual de Cargos* no tiene un cargo de «Asistente» en la unidad — ADR-087).
 - **Equipos de programa del grupo scout** (Jefe de Grupo, Consejero Juvenil, Asesores Personales) en su rol de articular y dar soporte al Programa entre las ramas.
 - **Comisionados regionales y nacionales de Programa de Jóvenes** y sus comisiones especializadas (Familia, Manada, Tropa, Comunidad, Clan, Mundo Mejor, A Salvo del Peligro).
 - **Miembros de la Red Nacional de Jóvenes (RDJ)**: rovers en cargos de Coordinación y Comunicación regionales y nacionales, Consejeros Juveniles, Miembros Juveniles ante el CSN y la CNVC, asesores de los 4 ejes (transversal, Vida y Espíritu, Servicio, Empresa).
@@ -115,7 +115,7 @@ El adulto típico ingresa por el **Nivel 1**, lo completa para construir un marc
 
 - Toma el curso del **Nivel 2** correspondiente a la **rama** donde sirve (uno solo, idealmente).
 - Toma los **cursos pedagógicos operativos** del Nivel 2 (planeación, seguimiento, ciclo de programa) en el orden que más le sirva.
-- Toma el curso del **Nivel 3** correspondiente al **cargo** que ejerce (Jefe de Rama, Asistente, Comisionado, Coordinador RDJ, Consejero Juvenil).
+- Toma el curso del **Nivel 3** correspondiente al **cargo** que ejerce (Jefe de Rama, Comisionado, Coordinador RDJ, Consejero Juvenil; el Curso 17 es para todo dirigente de unidad).
 - Toma los **Transversales (Nivel 4)** en cualquier momento; A Salvo del Peligro es de adopción inmediata.
 
 Los Niveles 2, 3 y 4 no son secuenciales entre sí: el adulto elige según su rol y momento.
@@ -257,7 +257,7 @@ Una vez los Niveles 1 y 2 estén operando, este nivel aterriza las funciones, co
 | # | Curso | Sirve a quién | Funciones / Competencias específicas |
 |---|---|---|---|
 | 16 | Jefe de Rama (Manada, Tropa, Comunidad, Clan) | Quienes encabezan la unidad | Conducción del equipo de dirigentes de la unidad; ciclo de programa de la unidad; relación con el Jefe de Grupo; planeación trimestral/anual; rendición de cuentas al consejo; vínculo con las familias; sostenibilidad de la unidad (recambio, formación, traspasos). |
-| 17 | Asistente y acompañamiento de la progresión personal | Asistentes y dirigentes que acompañan la progresión individual | El acompañamiento uno-a-uno de la progresión personal como **función del dirigente** (Modelo de Aplicación 2026, Cap. 9 — roles Apoyar/Acompañar/Enlazar), no como un cargo aparte; la entrevista personal; el plan de progresión individual; el manejo del Registro de Acompañamiento (DNPJ-2026-021); confidencialidad, ética, escucha activa, límites del rol. |
+| 17 | Acompañar la Progresión Personal *(publicado el 27-sep-2026; antes «Asistente y acompañamiento…», retitulado por el ADR-087)* | Todo dirigente de unidad que acompaña la progresión individual | El acompañamiento uno-a-uno de la progresión personal como **función del dirigente** (Modelo de Aplicación 2026, Cap. 9 — roles Apoyar/Acompañar/Enlazar), no como un cargo aparte; la entrevista personal; el plan de progresión individual; el manejo del Registro de Acompañamiento (DNPJ-2026-021); confidencialidad, ética, escucha activa, límites del rol. |
 | 18 | Comisionado de Programa de Jóvenes (regional y nacional) | Comisionados PJ de cualquier nivel | Funciones del comisionado de PJ; articulación entre niveles (DNPJ ↔ regional ↔ grupo); conducción de comisiones especializadas (por rama, Mundo Mejor, A Salvo del Peligro); plan de comisionado; rendición de cuentas; relación con la Red Nacional de Jóvenes. Réplica del patrón del Curso 19 de DI aterrizado al ámbito de Programa. |
 | 19 | Consejero Juvenil | Consejeros juveniles de grupo, región y nivel nacional | Rol de puente entre los jóvenes y los órganos de administración (consejo de grupo, asamblea regional, CSN); articulación con la **Política Nacional de Participación Juvenil**; acompañamiento al consejo en perspectiva juvenil. Articula con el Curso 18 de DI (Consejero de Grupo y Regional). |
 | 20 | Coordinador y Comunicador de la Red de Jóvenes | Rovers en cargos RDJ regional y nacional | **Reglamento de la Red Nacional de Jóvenes** (Acuerdo C.S.N. 556), **Manual de Cargos y Funciones RDJ** (2024) y **Reglamento para Asambleas Rover y Elección de Representantes Juveniles** (2022). Estructura piramidal Rovers → Equipo Regional → Equipo Nacional; los 4 ejes Rover (transversal, Vida y Espíritu, Servicio, Empresa); Asamblea Nacional Rover; cargos Coordinador, Comunicador, Consejero Juvenil Nacional, Miembro Juvenil ante CNVC; articulación con la Red Interamericana. |
@@ -317,7 +317,7 @@ El Curso 25 es de **adopción inmediata y fuertemente recomendado** para todo ad
 - ~~**Hito E — Nivel 2 Prioridad 1 — Rama de mayor demanda**~~ **HECHO (jul-2026):** el **Curso 8 (Manada)** fue el segundo vertical slice y el primer curso publicado bajo el ADR-019, sin piloto bloqueante.
 - **Hito F — Cierre del Nivel 2 ramas**: ~~Familia (9)~~ y ~~Tropa (10)~~ **HECHAS el 15-sep-2026**; ~~Comunidad (11)~~ **HECHA el 16-sep-2026**. Queda **Clan (12)** para cerrar las cinco ramas — y con la advertencia del **ADR-047**: si su Guía es tan extensa como la de Comunidad, **se diseña como dos cursos desde el principio**. *(La versión anterior de esta línea decía "los otros 4" y listaba solo 3: se le había caído Tropa.)*
 - **Hito G — Nivel 2 cursos operativos**: construir los Cursos 13, 14 y 15 (Seguimiento, Planeación, Ciclo de Programa con ABP) como complemento universal.
-- **Hito H — Iniciar Nivel 3 con curso integrador (16 — Jefe de Rama)** y los cargos más demandados (17 — Asistente).
+- **Hito H — Iniciar Nivel 3 con curso integrador (16 — Jefe de Rama)** y el acompañamiento de la progresión (17), que es función de todo dirigente.
 - **Hito I — Completar Nivel 3 y Nivel 4** según demanda. Los kits de Mundo Mejor (Cursos 21–24) pueden lanzarse de a uno, aprovechando convocatorias nacionales o mundiales para hacer pilotos vivenciales.
 
 ### 7.3 Criterio para avanzar entre niveles

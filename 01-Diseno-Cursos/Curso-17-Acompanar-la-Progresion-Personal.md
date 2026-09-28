@@ -3,7 +3,7 @@
 > **Línea:** Programa de Jóvenes · **Nivel 3** · Curso **17** de 25
 > **`courseId`:** `acompanamiento-progresion-personal`
 > **Diseño pedagógico:** Claude Code, con **autonomía de punta a punta otorgada por el dueño el 27-sep-2026** hasta cerrar el Nivel 3 (incluye la excepción del §1.4 de `CREAR-CURSO.md`).
-> **Estado:** diseño · pendiente JSON, build y las tres auditorías.
+> **Estado:** **publicado el 27-sep-2026** — tres auditorías, 50 min medidos.
 
 El plan titula este curso *«Asistente y acompañamiento de la progresión personal»* y en la misma fila lo describe como **«función del dirigente… no como un cargo aparte»**. El *Manual de Cargos* **no tiene cargo de «Asistente»** (decisión abierta desde el ADR-083). **Se resuelve con la salida (a) de esa decisión, que es la que el propio plan ya describe:** el curso es para **todo dirigente de unidad** —Jefe, Subjefe y el resto del equipo— y el título deja de nombrar un cargo que no existe. Se registra en un ADR y se corrigen los punteros publicados que lo nombran.
 
@@ -51,7 +51,7 @@ El plan titula este curso *«Asistente y acompañamiento de la progresión perso
 | Subtítulo (catálogo) | Del día que llega al día que pasa de rama |
 | Icono | 👣 |
 | Nivel / orden | 3 · Curso **17** |
-| Duración declarada | **se mide al cerrar las auditorías** (ADR-047) |
+| Duración declarada | **50 minutos**, medidos al cerrar las auditorías (ADR-047): 6.328 palabras, 126,6 pal/min |
 | Módulos | 8 (1 de registro + **7 de contenido**) |
 | Destinatario | **Todo dirigente de unidad** de las cinco ramas: Jefe, Subjefe y cualquier adulto del equipo |
 | Recomendado antes | El **Curso 13** (seguimiento) y el curso de tu rama. Ninguno bloquea (ADR-019) |
@@ -62,10 +62,10 @@ El plan titula este curso *«Asistente y acompañamiento de la progresión perso
 ## 2. Objetivos
 
 1. **Distinguir** las tres etapas de vida en la unidad —adaptación, progresión, transición— y qué pide cada una del adulto.
-2. **Recibir** a un protagonista que llega de modo que la investidura sea la culminación de una acogida y no un trámite.
+2. **Planear** la acogida de quien llega para que su investidura o la renovación de su Promesa culmine una etapa y no sea un trámite.
 3. **Dejar al protagonista elegir** su camino entre competencias, sin imponerle un orden.
 4. **Ajustar tu rol por competencia**, no por persona: apoyar, acompañar y enlazar a la misma persona a la vez.
-5. **Cuidar el ritmo propio** de cada uno, sin comparaciones y sin dejar a nadie fuera.
+5. **Sustituir** la comparación por el avance propio de cada uno, y detectar a tiempo lo que no es ritmo sino señal.
 6. **Reconocer** nombrando competencias y evidencias, no coleccionando insignias.
 7. **Acompañar el paso a la siguiente rama** coordinando con el equipo que recibe.
 8. **Reconocer los límites** de tu papel.
@@ -82,7 +82,7 @@ La primera mitad es **literal del *Modelo*** (Cap. 12, p. 85: *«la unidad avanz
 
 **Verificación anti-ADR-044 (barrido de los 16 publicados, 27-sep-2026):** los tres roles en 9 cursos, sin contradicción con «por competencia» (se leerán antes de auditar); «etapa de adaptación» en 4; «entrevista» en 13 y 15; «Asistente» en 1, 7 y 15 — **punteros a voltear al publicar**. El **Curso 16** anuncia *«el Curso 17, trata del acompañamiento uno a uno de la progresión personal —los roles de apoyar, acompañar y enlazar del Modelo—, que es función de todo dirigente de tu equipo»*: **coincide**.
 
-**Hilo narrativo: Sofía, que llega a la Manada con ocho años sin haber pasado por la Familia, y Andrés, un Viejo Lobo que no es el Jefe.** Se la sigue del día que llega (Lobezno) al Gran Salto hacia la Tropa. **Que Andrés no sea el Jefe es deliberado**: el curso enseña una función de todo dirigente. Cada lección de contenido cierra con **«Y en tu rama»**.
+**Hilo narrativo: Sofía, que llega a la Manada con ocho años sin haber pasado por la Familia, y Hernán, un Viejo Lobo que no es el Jefe.** Se la sigue del día que llega (Lobezno) al Gran Salto hacia la Tropa. **Que Hernán no sea el Jefe es deliberado**: el curso enseña una función de todo dirigente. Cada lección de contenido cierra con **«Y en tu rama»**.
 
 ---
 
@@ -93,11 +93,11 @@ La primera mitad es **literal del *Modelo*** (Cap. 12, p. 85: *«la unidad avanz
 | **1** | 👣 Seguirle el paso a una persona | Registro. Hook. **Para quién es**: todo dirigente; por qué no se llama «Asistente». **El mapa**: las tres etapas de vida en la unidad. **Qué no es**: el Curso 13 (la reunión) — aquí, el camino de una persona. | *Modelo* §8.1, §9.1; plan §5.1 |
 | **2** | 🚪 El día que llega | **Etapa de adaptación**: qué aprende (Promesa y Ley, marco simbólico, tradiciones, el Movimiento) y que **culmina en la investidura**. La familia en esa etapa (§13.4). La investidura como **primer reconocimiento** (Cap. 12, tipo 1). Sofía como Lobezna. | *Modelo* §8.1.1 p. 46, §13.4 p. 88, Cap. 12 p. 83; Guía de Manada §8.7.4 p. 53 |
 | **3** | 🧭 Un camino que elige quien lo camina | **No hay orden**: el protagonista elige por dónde empezar. La **conversación uno a uno** para acordar el siguiente paso (*«Esto hiciste, así se vio, este es el siguiente paso»*, §9.5 paso 6) — decidir **con** él. La familia por nivel (§13.4). Remite al 13 para el registro. | *Modelo* §8.1.2 p. 47, §9.5 p. 67, §13.4 p. 88 |
-| **4** | 🔄 Tres roles, una misma persona | Los niveles son **por competencia**; por eso **el rol también**. Sofía, en el mismo mes: apoyo en una, acompañamiento en otra. Y **fases ≠ niveles**. | *Modelo* §8.1.2 pp. 46–49, §9.2 pp. 58–60; Guías (fases) |
+| **4** | 🔄 Tres roles, una misma persona | Los niveles son **por competencia**; por eso **el rol también**. Sofía, en el mismo mes: apoyo en una, acompañamiento en otra. Y **fases ≠ niveles**. **Familia** trabaja por **cinco dimensiones**, con niveles **Reconoce, Expresa y Comparte** (Guía de Familia pp. 56–58, §8.11 pp. 64–65); **Tropa** llama a los niveles **Descubro, Construyo y Conquisto**. | *Modelo* §8.1.2 pp. 46–49, §9.2 pp. 58–60; Guías (fases) |
 | **5** | ⚖️ Cada uno a su ritmo | **Garante de inclusión** (§9.4): adaptar, valorar la diversidad, acceso real a las fases, **no comparar**. *«Hoy lo hiciste mejor que la vez pasada»* (Guía de Familia). **Detección temprana** (§9.3) y a dónde se remite lo que excede el rol. | *Modelo* §9.3 p. 61, §9.4 p. 66; Guía de Familia §8.13 p. 67 |
 | **6** | 🏅 Reconocer sin coleccionar | Cap. 12: **nombrar competencias y evidencias**, los **siete tipos** de reconocimiento, **qué no aporta** (inflación simbólica, protagonismo adulto, comparaciones), las **tres preguntas**. La familia en la ceremonia. | *Modelo* Cap. 12, pp. 81–85 |
 | **7** | 🌉 El paso a la otra rama | **La transición** (§8.1.3): tiempo cronológico **y** acompañamiento; ~6 meses; **excepción del Clan**; los cinco aspectos. **Tejer continuidad** con el equipo que recibe. La **ceremonia de paso** (Cap. 12, tipo 2). Sofía, Lobo Solitario → Gran Salto. | *Modelo* §8.1.3 pp. 51–53, Cap. 12 p. 83, §13.4; Guías (transición) |
-| **8** | ✅ Lo que te toca, y lo que no | **Límites del rol**: *«tu rol no es ser el centro, sino el facilitador invisible»* (§9.4); validar sin psicologizar; qué se remite (ASP, C03, C25); qué se comparte con el otro equipo y qué no (remite al 13). **Compromiso**: un protagonista, su etapa, dos competencias con su nivel y tu rol en cada una, y la fecha de la próxima conversación. | *Modelo* §9.3.2.2 p. 63, §9.4 p. 66 |
+| **8** | ✅ Lo que te toca, y lo que no | **Límites del rol**: *«tu rol no es ser el centro, sino el facilitador invisible»* (§9.4); validar sin psicologizar; qué se remite (ASP, C03, C25); qué se comparte con el otro equipo y qué no (remite al 13). **Compromiso**: un protagonista, su etapa, dos competencias (en Familia, dos dimensiones) con su nivel y tu rol en cada una, y la fecha de la próxima conversación. | *Modelo* §9.3.2.2 p. 63, §9.4 p. 66 |
 
 ---
 
@@ -129,14 +129,15 @@ La primera mitad es **literal del *Modelo*** (Cap. 12, p. 85: *«la unidad avanz
 
 - **Variante B** (narrativa + cierre operativo). **Knowles**: el adulto ya acompaña a alguien; el curso le pide ese alguien. **Ausubel**: se apoya en los tres roles y en el Curso 13. **Bandura**: guiones literales (*«Esto hiciste…»*, las tres preguntas del reconocimiento, las cinco acciones de «tejer continuidad»).
 - **Quizzes**: 2 por lección (14), de decisión, **sin distractor pasivo sistemático** (lección del Curso 16: la fuga de conjunto), con correctas de contención cuando corresponda y **casos nuevos**, no el de la lección.
-- **Reflexiones**: un protagonista real, con nombre.
+- **Reflexiones**: un protagonista real, pero **sin escribir su nombre** (a lo sumo su inicial) ni nada de lo que un joven contó en confianza — por decisión del dueño, porque las reflexiones se envían a una hoja de la Asociación. Lo que haya que comentar con el Jefe de Rama se anota como «si lo harás y cuándo», no su contenido. La **mission-box** sí puede pedir «con nombre»: va al Compromiso Personal, que se queda en el navegador.
+- **Hook**: se enuncia en L1 junto con su contrario (la carrera colectiva), se cobra en L7 con un `info-box` y la cita *«La Transición no tiene un calendario fijo ni idéntico para todos»* (§8.1.3, p. 53) y en la L7 Q1, y se cierra completo en la mission-box de L8.
 
 ---
 
 ## 8. Estado
 
-1. **Diseño** — este documento, commiteado antes de los scripts.
-
+1. **Diseño** commiteado antes de los scripts.
+2. **Hecho el 27-sep-2026:** JSON y build · **doctrinal** (1.ª: 0 críticos, 2 mayores, 14 menores, 3 no verificables — los dos mayores: Familia trabaja por **cinco dimensiones** con niveles Reconoce/Expresa/Comparte, y el *Manual* **sí** tiene «asistentes», pero administrativos; re-auditoría: 3 menores, uno de ellos **introducido por el texto que el propio auditor propuso**) · **pedagógica** (1.ª: 3 altos, 6 medios, 5 bajos, 86 %; re-auditoría: APTO CON MEJORAS MENORES, **100 %**) · **reflexiones sin nombres** (decisión del dueño) · duración medida: **50 min** · publicado con sus colaterales (punteros de «Asistente» en los Cursos 1, 7 y 15 y en el plan).
 ---
 
 _Documento de diseño v1.0 — 27 de septiembre de 2026._

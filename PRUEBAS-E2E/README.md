@@ -56,7 +56,7 @@ el piloto — ver `PORTAL-ADMIN-ASC/README.md`.
 > página que simplemente **no estaba en ninguna lista**. Al añadir una página o un artefacto a la línea,
 > preguntar **qué spec lo recorre** — si la respuesta es «ninguna», no hay compuerta.
 
-## Cursos cubiertos hoy (16 activos)
+## Cursos cubiertos hoy (17 activos)
 
 Nivel 1: `bienvenida-programa-jovenes`, `educacion-por-el-amor`, `como-se-educa-hoy`,
 `caracteristicas-esenciales-movimiento-scout`, `metodo-scout-8-elementos`,
@@ -65,7 +65,7 @@ Nivel 2 — **las cinco ramas**: `rama-manada-lobatos`, `rama-familia-cachorros`
 `rama-tropa-scout`, `rama-comunidad-nomadas`, `rama-clan-rovers`.
 Nivel 2 — **los tres operativos** (17-sep-2026, cierran el nivel): `seguimiento-progresion-personal`,
 `planeacion-reuniones-oda`, `ciclo-programa-abp`.
-Nivel 3 — **por cargo** (27-sep-2026, lo abre): `jefe-de-rama`.
+Nivel 3 — **por cargo** (27-sep-2026): `jefe-de-rama`, `acompanamiento-progresion-personal`.
 
 Con los 16 la suite da **211 passed / 0 failed / 2 skipped** (las 2 son las opcionales:
 backend de integración y portal). Medido el 27-sep-2026 contra una copia local con el curso

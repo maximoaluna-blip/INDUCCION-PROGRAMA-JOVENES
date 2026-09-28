@@ -125,7 +125,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Tu plan personal arranca con tu rol concreto. Si sirves en Manada, no vas a planear como sirves en Clan. Si eres asistente, no vas a planear como un jefe de rama. Vamos al detalle."
+          "text": "Tu plan personal arranca con tu rol concreto. Si sirves en Manada, no vas a planear como sirves en Clan. Si eres parte del equipo de dirigentes de tu unidad, no vas a planear como un jefe de rama. Vamos al detalle."
         },
         {
           "type": "heading",
@@ -134,7 +134,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Anota en tu reflexión dónde sirves: tu <strong>unidad</strong> (Familia, Manada, Tropa, Comunidad o Clan) o tu <strong>otro ámbito</strong> (equipo de programa del grupo, comisión de PJ regional o nacional, Red de Jóvenes); <strong>cargo</strong> actual o esperado (Asistente, Subjefe de Rama, Jefe de Rama, Consejero Juvenil, Comisionado de PJ, Coordinador RDJ u otro); el <strong>grupo scout o ámbito</strong> donde sirves (nombre del grupo, región); y la <strong>cantidad de protagonistas</strong> que acompañas o acompañarás."
+          "text": "Anota en tu reflexión dónde sirves: tu <strong>unidad</strong> (Familia, Manada, Tropa, Comunidad o Clan) o tu <strong>otro ámbito</strong> (equipo de programa del grupo, comisión de PJ regional o nacional, Red de Jóvenes); <strong>cargo</strong> actual o esperado (dirigente del equipo de la unidad, Subjefe de Rama, Jefe de Rama, Consejero Juvenil, Comisionado de PJ, Coordinador RDJ u otro); el <strong>grupo scout o ámbito</strong> donde sirves (nombre del grupo, región); y la <strong>cantidad de protagonistas</strong> que acompañas o acompañarás."
         },
         {
           "type": "heading",
@@ -345,7 +345,7 @@
           "items": [
             "<strong>Si tu foco es acompañar la progresión personal</strong> (uno-a-uno con los protagonistas) → empieza por el <strong>Curso 13 (Seguimiento de la Progresión)</strong>.",
             "<strong>Si eres Jefe o Subjefe de Rama</strong> → empieza por el <strong>Curso 14 (Planeación de Reuniones)</strong> y luego el <strong>Curso 15 (Ciclo con ABP)</strong>.",
-            "<strong>Si eres Asistente o entras nuevo</strong> → orden libre, según prioridad de tu unidad."
+            "<strong>Si eres dirigente del equipo o entras nuevo</strong> → orden libre, según prioridad de tu unidad."
           ]
         },
         {
