@@ -278,5 +278,19 @@
     "status": "active",
     "file": "red-de-jovenes.html",
     "folder": "red-de-jovenes"
+  },
+  {
+    "courseId": "a-salvo-del-peligro-programa",
+    "title": "A Salvo del Peligro aplicado al Programa",
+    "description": "Cómo el Método Scout hace segura a tu unidad: los once puntos en que la Política Nacional A Salvo del Peligro se articula con el Programa de Jóvenes, aplicados a un campamento real — la cultura de escucha, la práctica 2+1 al planear, la vida en línea, los datos de los protagonistas y el mecanismo de reporte. Para todo dirigente de unidad, de cualquier rama. No reemplaza el módulo oficial A Salvo del Peligro.",
+    "icon": "🛡️",
+    "duration": "55 minutos",
+    "level": 4,
+    "levelName": "Transversales",
+    "order": 25,
+    "modules": 7,
+    "status": "active",
+    "file": "a-salvo-del-peligro-programa.html",
+    "folder": "a-salvo-del-peligro-programa"
   }
 ]

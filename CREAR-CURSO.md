@@ -670,9 +670,9 @@ Antes de publicar, verificar que **todos** los documentos citados siguen siendo 
 | 4 | 22 Kit Constructores de Paz | `kit-constructores-paz` |
 | 4 | 23 Kit HeForShe y enfoque de género | `kit-heforshe-genero` |
 | 4 | 24 Kit Patrimonito y Patrimonio | `kit-patrimonito-patrimonio` |
-| 4 | 25 A Salvo del Peligro aplicado al Programa | `a-salvo-del-peligro-programa` |
+| 4 | 25 A Salvo del Peligro aplicado al Programa ✅ | `a-salvo-del-peligro-programa` |
 
-*(✅ = publicado y `active` al 27-sep-2026 — 20 de 25: Niveles 1, 2 y 3 completos.)*
+*(✅ = publicado y `active` al 27-sep-2026 — 21 de 25: Niveles 1, 2 y 3 completos y el 25 del Nivel 4.)*
 
 ---
 

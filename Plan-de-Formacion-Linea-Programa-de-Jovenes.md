@@ -302,23 +302,23 @@ El Curso 25 es de **adopción inmediata y fuertemente recomendado** para todo ad
 
 ### 7.1 Estado actual (27-sep-2026)
 
-- **20 cursos publicados de 25. Niveles 1, 2 y 3 completos** (7 + 8 + 5). El Nivel 3, por cargo, se abrió y cerró el 27-sep-2026 (ADR-083, ADR-087 y ADR-090). **Queda el Nivel 4**, transversal (Cursos 21–25).
+- **21 cursos publicados de 25. Niveles 1, 2 y 3 completos** (7 + 8 + 5). El Nivel 3, por cargo, se abrió y cerró el 27-sep-2026 (ADR-083, ADR-087 y ADR-090). **El Nivel 4 lo abrió el Curso 25** (ADR-100).
 - Plataforma técnica **en producción**: frontend en GitHub Pages, backend en Google Apps Script con backup nocturno, dashboard administrativo, generador de cursos basado en JSON. El motor es compartido con las otras líneas desde el ADR-025 (núcleo único en `_MOTOR/`, propagado por `sincronizar-motor.py`).
 - Repositorio: `INDUCCION-PROGRAMA-JOVENES`.
 - URL pública: `https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/`.
-- **Quedan 5 cursos**: los transversales del Nivel 4 (21–25).
+- **Quedan 4 cursos**: los transversales de Mundo Mejor (21–24).
 
 ### 7.2 Próximos hitos
 
 - ~~**Hito A — Vertical slice del Nivel 1**~~ **HECHO (jun-2026):** el **Curso 1 (Bienvenida al Programa de Jóvenes)** validó el patrón de la línea.
 - ~~**Hito B — Cierre del Nivel 1**~~ **HECHO (jun–jul 2026):** Cursos 2 a 7, incluido el **Curso 3 (Cómo se Educa Hoy)** que no estaba en el plan original y produjo la renumeración +1. **Sigue pendiente lo crítico:** el Curso 6 (PNPJ + Modelo de Aplicación) y el Curso 5 (Método Scout) son los más extensos y de mayor riesgo doctrinal, y **la revisión con la DNPJ no se ha hecho** — se publicaron con las auditorías automatizadas como compuerta.
 - ~~**Hito C — Validación del Nivel 1 con piloto**~~ **DEROGADO por el ADR-019 (11-jul-2026):** el piloto humano dejó de ser requisito para publicar. La compuerta de calidad son las tres auditorías — doctrinal, pedagógica y funcional.
-- **Hito D — Curso 25 (A Salvo del Peligro) en paralelo**: por su valor —**no por ser habilitante, que no lo es (ADR-019)**— se construye y publica antes que el resto del Nivel 4, idealmente al cierre del Nivel 1, para que ningún dirigente llegue al Nivel 2 sin haberlo tenido disponible.
+- ~~**Hito D — Curso 25 (A Salvo del Peligro) en paralelo**~~ **HECHO (27-sep-2026, ADR-100)**, más tarde de lo que pedía el hito: por su valor —**no por ser habilitante, que no lo es (ADR-019)**— se construye y publica antes que el resto del Nivel 4, idealmente al cierre del Nivel 1, para que ningún dirigente llegue al Nivel 2 sin haberlo tenido disponible.
 - ~~**Hito E — Nivel 2 Prioridad 1 — Rama de mayor demanda**~~ **HECHO (jul-2026):** el **Curso 8 (Manada)** fue el segundo vertical slice y el primer curso publicado bajo el ADR-019, sin piloto bloqueante.
 - ~~**Hito F — Cierre del Nivel 2 ramas**~~ **HECHO (16-sep-2026)**: ~~Familia (9)~~ y ~~Tropa (10)~~ **HECHAS el 15-sep-2026**; ~~Comunidad (11)~~ **HECHA el 16-sep-2026**. Queda **Clan (12)** para cerrar las cinco ramas — y con la advertencia del **ADR-047**: si su Guía es tan extensa como la de Comunidad, **se diseña como dos cursos desde el principio**. *(La versión anterior de esta línea decía "los otros 4" y listaba solo 3: se le había caído Tropa.)*
 - ~~**Hito G — Nivel 2 cursos operativos**~~ **HECHO (17-sep-2026)**: construir los Cursos 13, 14 y 15 (Seguimiento, Planeación, Ciclo de Programa con ABP) como complemento universal.
 - ~~**Hito H — Iniciar Nivel 3 con curso integrador (16 — Jefe de Rama)**~~ **HECHO (27-sep-2026)**: y el acompañamiento de la progresión (17), que es función de todo dirigente.
-- **Hito I — Completar Nivel 3 y Nivel 4** según demanda. **El Nivel 3 se completó el 27-sep-2026 (ADR-090)**; queda el 4. Los kits de Mundo Mejor (Cursos 21–24) pueden lanzarse de a uno, aprovechando convocatorias nacionales o mundiales para hacer pilotos vivenciales.
+- **Hito I — Completar Nivel 3 y Nivel 4** según demanda. **El Nivel 3 se completó el 27-sep-2026 (ADR-090)**; el 4 lo abrió el Curso 25 (ADR-100) y quedan los Cursos 21–24. Los kits de Mundo Mejor (Cursos 21–24) pueden lanzarse de a uno, aprovechando convocatorias nacionales o mundiales para hacer pilotos vivenciales.
 
 ### 7.3 Criterio para avanzar entre niveles
 

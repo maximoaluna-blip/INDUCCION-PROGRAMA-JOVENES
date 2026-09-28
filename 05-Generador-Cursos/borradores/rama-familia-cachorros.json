@@ -807,7 +807,7 @@
         },
         {
           "type": "info-box",
-          "text": "🔗 <strong>Dónde sigue esto.</strong> Aquí aprendiste a <strong>planear</strong> una actividad segura. Qué hacer —y qué <strong>no</strong>— cuando un niño te revela un daño lo enseña la línea <strong>Políticas Transversales</strong>, en el curso <em>El adulto como garante de un entorno seguro</em>. Este curso enlaza allá y no lo reexplica, para que esa conducta tenga una sola fuente en toda la plataforma. Esa línea todavía se está construyendo: mientras tanto, quédate con lo que sigue aquí abajo — la ruta de reporte ya existe y ya la puedes usar."
+          "text": "🔗 <strong>Dónde sigue esto.</strong> Aquí aprendiste a <strong>planear</strong> una actividad segura. Qué hacer —y qué <strong>no</strong>— cuando un niño te revela un daño lo enseña la línea <strong>Políticas Transversales</strong>, en <a href=\"https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/02-Plataforma-Web/adulto-garante-entorno-seguro.html\" target=\"_blank\" rel=\"noopener\"><em>El Adulto como Garante: reportar, no investigar</em></a>. Este curso enlaza allá y no lo reexplica, para que esa conducta tenga una sola fuente en toda la plataforma. Quédate con lo que sigue aquí abajo: la ruta de reporte ya existe y ya la puedes usar."
         },
         {
           "type": "paragraph",
