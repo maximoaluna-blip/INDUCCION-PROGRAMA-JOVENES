@@ -320,5 +320,19 @@
     "status": "active",
     "file": "kit-constructores-paz.html",
     "folder": "kit-constructores-paz"
+  },
+  {
+    "courseId": "kit-heforshe-genero",
+    "title": "HeForShe: igualdad de género en tu unidad",
+    "description": "Cómo se lleva a tu unidad el desafío HeForShe, de Mensajeros de la Paz: qué es la igualdad de género y qué les pide HeForShe a los hombres y a los niños, la coeducación en la vida diaria de la unidad, el viaje del desafío y sus actividades por rama, cómo trabajar las violencias basadas en género con casos y no con historias propias, y a dónde lleva: la insignia, el taller y la acción HeForShe. No es solo un tema de mujeres: es asunto de todos. Para dirigentes de Manada, Tropa, Comunidad y Clan.",
+    "icon": "🤝",
+    "duration": "40 minutos",
+    "level": 4,
+    "levelName": "Transversales",
+    "order": 23,
+    "modules": 7,
+    "status": "active",
+    "file": "kit-heforshe-genero.html",
+    "folder": "kit-heforshe-genero"
   }
 ]

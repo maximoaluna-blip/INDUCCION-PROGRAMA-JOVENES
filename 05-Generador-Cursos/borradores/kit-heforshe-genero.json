@@ -1,0 +1,658 @@
+{
+  "courseId": "kit-heforshe-genero",
+  "title": "HeForShe: igualdad de género en tu unidad",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "Cómo se lleva a tu unidad el desafío HeForShe, de Mensajeros de la Paz: qué es la igualdad de género y qué les pide HeForShe a los hombres y a los niños, la coeducación en la vida diaria de la unidad, el viaje del desafío y sus actividades por rama, cómo trabajar las violencias basadas en género con casos y no con historias propias, y a dónde lleva: la insignia, el taller y la acción HeForShe. No es solo un tema de mujeres: es asunto de todos. Para dirigentes de Manada, Tropa, Comunidad y Clan.",
+  "contentVersion": "2026-09-28",
+  "icon": "🤝",
+  "duration": "40 minutos",
+  "level": 4,
+  "levelName": "Transversales",
+  "order": 23,
+  "totalContentModules": 6,
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "emoji": "⚖️",
+      "name": "Nombro la desigualdad",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "emoji": "🏕️",
+      "name": "Coeduco en mi unidad",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "emoji": "🧭",
+      "name": "Acuerdo el viaje",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "emoji": "🗺️",
+      "name": "Elijo por rama",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "emoji": "🛡️",
+      "name": "Casos, no historias",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "emoji": "🏅",
+      "name": "Actúo y reconozco",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
+      "emoji": "🤝",
+      "name": "Es asunto de todos",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "HEFORSHE: IGUALDAD DE GÉNERO EN TU UNIDAD",
+    "description": "ha completado el Curso 23 de la Línea Programa de Jóvenes — HeForShe: igualdad de género en tu unidad, reconociendo la desigualdad y los estereotipos de género como asunto de todas y todos, viviendo la coeducación en la organización diaria de su unidad, acompañando el viaje del desafío HeForShe acordado con cada protagonista y según su rama, trabajando las violencias basadas en género con casos y no con historias propias, reportando por la ruta institucional cuando corresponde, y reconociendo el camino con la insignia, el taller y la acción HeForShe."
+  },
+  "commitmentBox": {
+    "prompt": "Escribe qué tarea de la vida de tu unidad vas a revisar con tus protagonistas para ver quién la hace y por qué, y en qué espacio lo harán:",
+    "placeholder": "Vamos a revisar … en … y a preguntarnos …"
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "🤝 No es solo un tema de mujeres",
+      "emoji": "🤝",
+      "navLabel": "Bienvenida",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>~40 minutos de lectura y quizzes</strong> — y unos 15 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Explicar</strong> qué es HeForShe, de dónde viene y por qué la igualdad de género es asunto de todas y todos.",
+            "<strong>Reconocer</strong> los estereotipos de género en lo cotidiano de tu unidad, empezando por quién hace qué.",
+            "<strong>Aplicar</strong> la coeducación como requisito del Programa, no como tema de una reunión.",
+            "<strong>Acordar</strong> con un protagonista sus seis actividades —partes A y B, tres fases— según su rama.",
+            "<strong>Adaptar</strong> una actividad que pide relatos propios a un caso inventado, y reportar cuando alguien revela una violencia o un riesgo.",
+            "<strong>Distinguir</strong> las tres insignias HeForShe —del desafío, Emisor/a y Embajador/a— y cuándo corresponde cada una."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Paula es Jefa de Comunidad. Al volver de un campamento, repasa las fotos y nota algo que nadie decidió: las nómadas cocinaron y lavaron todos los días; los nómadas armaron las carpas, cortaron la leña y prendieron la fogata. Salió solo. Paula piensa que es buen momento para «hacer HeForShe», y se imagina una charla sobre igualdad para las chicas. Cuando lo comenta en la reunión, un nómada le resume lo que muchos piensan: «Eso es tema de ellas, jefa»."
+        },
+        {
+          "type": "info-box",
+          "text": "🤝 <strong>La idea que sostiene este curso:</strong> la igualdad de género no es solo un tema de mujeres: <strong>es asunto de todos</strong>."
+        },
+        {
+          "type": "paragraph",
+          "text": "La idea viene del propio Kit de Acción, entre los mensajes que HeForShe quiere promover (p. 82). Y desarma las dos ideas de la escena. La primera, que el género es un tema de ellas: HeForShe existe justamente para sumar a los hombres y a los niños. La segunda, que la desigualdad se ve en las noticias y no en casa: en el campamento de Paula estaba en quién lavaba y quién cortaba la leña."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Qué es HeForShe"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 HeForShe, en palabras del Kit",
+          "source": "Kit de Acción HeForShe (Asociación Scouts de Colombia, junio 2021), «HeForShe y Mundo Mejor», p. 11, citando a la Organización Mundial del Movimiento Scout (2018).",
+          "text": "HeForShe es el movimiento mundial de solidaridad de las Naciones Unidas para la igualdad de género. El movimiento proporciona un enfoque sistemático y una plataforma específica en la cual las personas de todo el mundo pueden involucrarse y convertirse en agentes de cambio para lograr la igualdad de género en nuestra época."
+        },
+        {
+          "type": "paragraph",
+          "text": "En el Movimiento, HeForShe llegó por un acuerdo: en agosto de 2017, ONU Mujeres y la Organización Mundial del Movimiento Scout firmaron un marco de cooperación para esta campaña (Kit, p. 8). En la Asociación es un <strong>desafío</strong> de <strong>Mensajeros de la Paz</strong>, la iniciativa de Scouts por los ODS dedicada a la paz y el compromiso comunitario; si hiciste el <a href=\"marco-mundo-mejor-ods.html\">Curso 21</a>, ya conoces el mapa, y si hiciste el <a href=\"kit-constructores-paz.html\">Curso 22</a>, ya conoces cómo funciona un kit de acción por dentro."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Qué NO es este curso"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>No es una clase sobre género.</strong> Es un curso sobre cómo llevar el desafío a tu unidad. Los conceptos que usa son los del Kit y los de los documentos de la Asociación.",
+            "<strong>No desarrolla todos los temas del Kit.</strong> El Kit trae, en algunas ramas, contenidos sobre identidad y expresión de género y sobre derechos sexuales y reproductivos. Este curso los nombra donde aparecen y te dice cómo cuidarlos, pero no los enseña: se centra en la igualdad, los estereotipos, la coeducación y la prevención de las violencias.",
+            "<strong>No es el curso de la protección.</strong> La ruta de reporte está en el <a href=\"a-salvo-del-peligro-programa.html\">Curso 25</a>, y qué hacer cuando alguien te revela un daño, en <a href=\"https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/02-Plataforma-Web/adulto-garante-entorno-seguro.html\" target=\"_blank\" rel=\"noopener\">El Adulto como Garante</a>, de Políticas Transversales. Aquí se aplican a las violencias basadas en género."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📍 <strong>Para quién es:</strong> dirigentes de Manada, Tropa, Comunidad y Clan. Las escenas siguen a una Comunidad, y la Lección 5 trae lo que el Kit propone para cada rama. Si tu unidad es la Familia, el Kit no tiene sección para los cachorros; la coeducación de la Lección 3 vale igual para tu unidad."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "⚖️ Igualdad, estereotipos y lo que HeForShe les pide a ellos",
+      "emoji": "⚖️",
+      "navLabel": "Igualdad",
+      "reflection": {
+        "prompt": "Piensa en tu unidad y elige una tarea de todos los días —cocinar, cargar, hablar en público, animar un juego, coordinar—. ¿Quién la hace casi siempre? ¿Es una elección de cada uno o una costumbre que nadie revisó? Sin nombres: descríbelo por rol y di qué pregunta les harías a tus protagonistas."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar a la coeducación 🏕️",
+        "questions": [
+          {
+            "text": "En un juego de la Tropa, un scout falla un pase y otro le grita «¡juegas como niña!». Todos se ríen, también varias scouts. ¿Qué propondría HeForShe?",
+            "options": [
+              "Que las scouts frenen ese micromachismo y respondan al chiste: el comentario va contra ellas, así que les toca a ellas.",
+              "Que los chicos lo reconozcan como un micromachismo y acuerden con las chicas qué frases va a dejar la patrulla.",
+              "Que lo dejen pasar: es un chiste de juego, nadie lo dijo para ofender, y corregirlo le quita la gracia a la actividad."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Una dirigente de Tropa dice: «En mi Tropa no hay desigualdad: a nadie se le prohíbe nada». ¿Qué le mostraría el Kit?",
+            "options": [
+              "Que no basta con no prohibir: la desigualdad vive en las ideas de quién sirve para cada tarea de la Tropa.",
+              "Que tiene razón: si nadie tiene prohibido nada en la Tropa, ya cumple la igualdad que pide el desafío.",
+              "Que la desigualdad es una violación de derechos humanos que se mide en cifras nacionales, no dentro de una Tropa."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Paula no quiere dar una charla sin tener claras las palabras. El Kit las trae, en sus notas al pie, y conviene tenerlas a mano porque se usan mal con facilidad."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la desigualdad de género no es solo lo que se prohíbe: es también lo que se da por hecho. Y HeForShe les pide a los hombres y a los niños que se hagan cargo de ella."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "⚖️ Igualdad de género",
+              "description": "La existencia de una igualdad de oportunidades y de derechos entre las mujeres y los hombres, en lo privado y en lo público, que les permita realizar la vida que deseen (Kit, p. 8, nota 2). El Kit la distingue de «equidad»: la igualdad incluye eliminar la discriminación (nota 3).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🏷️ Estereotipos de género",
+              "description": "«Generalizaciones simplistas de los atributos de género, las diferencias y los roles de las mujeres y los hombres» (Kit, p. 82, nota 1, citando a ONU Mujeres). Son las ideas de quién sirve para qué: ellas para cuidar, ellos para mandar o cargar.",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "El Kit es claro sobre por qué importa: el desafío permite reconocer la desigualdad de género <em>«como una violación grave a los derechos humanos»</em> (p. 11). Y la ubica también dentro del Movimiento: cuenta que las posiciones de liderazgo de las mujeres en la Organización se identificaron como <em>«muy bajas»</em> (p. 8). No es un problema de otros."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que HeForShe les pide a ellos"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 Los mensajes que HeForShe quiere promover",
+          "source": "Kit de Acción HeForShe (ASC, junio 2021), «Club, proyecto y campaña HeForShe», p. 82.",
+          "text": "HeForShe es un movimiento solidario a favor de la igualdad de género que implica a hombres y niños como defensores y partícipes de la causa. […] La igualdad de género no es sólo una cuestión que ataña a las mujeres, es un asunto que nos afecta a todos los seres humanos: mujeres y niñas, hombres y niños. […] La igualdad de género libera no sólo a las mujeres, sino también a los hombres, de los roles sociales preestablecidos y de los estereotipos de género."
+        },
+        {
+          "type": "paragraph",
+          "text": "En palabras simples: HeForShe no le pide a él que se haga a un lado para que ella hable. Le pide que revise lo que hace, lo que dice y lo que calla. El Kit lo baja a tierra en el Clan con una idea que sirve para cualquier edad: identificar los <strong>micromachismos</strong> —en palabras de este curso, los comentarios, chistes y costumbres pequeñas que tratan a las mujeres como menos— y hacer una lista de los que cada uno va a dejar (p. 69). El <em>Modelo de Aplicación</em> nombra el mismo frente cuando, entre los programas de Mensajeros de la Paz, incluye rutas de convivencia contra las <em>«masculinidades invasivas»</em> (p. 99)."
+        },
+        {
+          "type": "paragraph",
+          "text": "El nómada que dijo «eso es tema de ellas» es exactamente el destinatario del desafío. Paula lo anota."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "🏕️ Coeducación: donde se juega todos los días",
+      "emoji": "🏕️",
+      "navLabel": "Coeducación",
+      "reflection": {
+        "prompt": "Mira la organización de tu unidad: cargos, turnos de campamento, quién coordina y quién ayuda, cómo se forman los pequeños grupos. ¿En qué punto un estereotipo podría estar decidiendo por los protagonistas? ¿Qué cambiarías con ellos, y en qué espacio lo decidirían?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar al viaje 🧭",
+        "questions": [
+          {
+            "text": "En su Congreso, la Comunidad acordó rotar los turnos de cocina y leña del próximo campamento, sin mirar quién es chico o chica. Un dirigente del Grupo dice que eso «no es HeForShe, es logística». ¿Qué le responde Paula?",
+            "options": [
+              "Que el dirigente acierta: la coeducación se mide por las actividades del Kit, y mirar quién hace cada tarea es logística.",
+              "Que los turnos no le tocan a la Comunidad: los fija el Consejo de Grupo según la experiencia de cada persona.",
+              "Que es coeducación: repartir las tareas sin mirar si es chico o chica educa, aunque esa actividad no esté en el Kit."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Una Tropa tiene patrullas solo de chicos y otras solo de chicas, porque así lo decidieron los scouts. Una dirigente nueva quiere mezclarlas ya, «porque la coeducación es requisito». ¿Qué le dirías?",
+            "options": [
+              "Que tiene razón a medias: el requisito no obliga a mezclar patrullas; pide respeto, iguales oportunidades y tiempo en común.",
+              "Que tiene razón: el requisito obliga a que cada patrulla tenga chicos y chicas, en igual número, desde este mes.",
+              "Que no hace falta revisar nada: si los scouts decidieron separarse con respeto, el requisito de coeducación ya se cumple."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Antes de pensar en actividades, Paula vuelve a las fotos del campamento. El Kit tiene una actividad para Comunidad que parece escrita para ella: <em>¿Qué pasa cuando aportamos?</em> Propone, en un campamento de rama, conversar sobre el orden y la limpieza, cuestionar los roles de género que se vieron allí y compararlos con los de cada casa (p. 64)."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la coeducación no es un tema de una reunión. Es cómo se vive la unidad todos los días: quién coordina, quién cocina, quién habla primero."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 La coeducación, en el Modelo de Aplicación",
+          "source": "Modelo de Aplicación de la Política Nacional de Programa de Jóvenes «El Gran Juego para la Vida» (DNPJ, 2026), Cap. 14, §14.1, pp. 90–91.",
+          "text": "La coeducación se entiende como la educación conjunta de niños, niñas, adolescentes y jóvenes en un mismo proceso formativo, donde la diferencia de género no implica desigualdad de oportunidades, expectativas o roles. […] La coeducación, en este sentido, es un requisito metodológico del Programa de Jóvenes […]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fíjate en la palabra <strong>requisito</strong>: no es un tema optativo. El mismo capítulo dice para qué sirve, y una de sus razones es la escena de Paula: fomenta <em>«que todos puedan asumir roles de responsabilidad, rompiendo estereotipos»</em> (p. 91). Las <em>Características Esenciales del Movimiento Scout</em> agregan un matiz que evita un error: un enfoque coeducativo <em>«no implica que los jóvenes de diferentes géneros deban participar juntos en todas las actividades»</em> (p. 14). Lo que pide es respeto mutuo, iguales oportunidades y vivir juntos lo suficiente para aprender a convivir."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tres lugares donde mirar en tu unidad"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Los turnos y las tareas.</strong> Cocina, leña, orden, cuidado de los más pequeños. ¿Se reparten o se asumen?",
+            "<strong>Los cargos y la palabra.</strong> Quién coordina, quién toma nota, quién habla en el espacio donde se decide. El Kit propone para Tropa revisar hasta los nombres y los gritos de patrulla: <em>¿Los gritos tienen género?</em> (p. 38).",
+            "<strong>Los adultos.</strong> Lo que los protagonistas ven en el equipo de dirigentes enseña más que cualquier actividad: quién dirige, quién prepara la comida, quién decide."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Paula no lleva una charla al Congreso de Comunidad. Lleva las fotos del campamento y una pregunta: «¿Quién decidió esto?». Nadie lo sabe. La Comunidad acuerda que el próximo campamento los turnos se rotan, y el primer turno de cocina, por sorteo, le toca al nómada de «eso es tema de ellas»."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "🧭 El viaje del desafío",
+      "emoji": "🧭",
+      "navLabel": "El viaje",
+      "reflection": {
+        "prompt": "Imagina a un protagonista de tu unidad interesado en HeForShe. ¿Cómo sería la conversación en la que acuerdan sus seis actividades? ¿Qué propondrías tú, qué dejarías que escoja, y cómo sabrías al final si desarrolló las competencias del desafío y no solo si cumplió la lista?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar a las ramas 🗺️",
+        "questions": [
+          {
+            "text": "Un dirigente de Clan quiere que todo su Clan haga HeForShe este año y ya escogió las seis actividades para todos. ¿Qué diría el Kit?",
+            "options": [
+              "Que está bien si escoge las dos obligatorias de Toma conciencia, porque el resto no necesita ningún acuerdo previo.",
+              "Que cada rover decide si lo asume, porque el desafío es de cada uno, y acuerda con él sus seis actividades.",
+              "Que está bien: en el Clan el desafío es colectivo, y basta con que el Clan haga junto las mismas seis actividades."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Una lobata terminó sus seis actividades y su autoevaluación. ¿Qué falta, según el Manual de Implementación, antes de la insignia?",
+            "options": [
+              "Que su dirigente revise la hoja y, si está completa, le entregue la insignia en la siguiente reunión, sin más pasos.",
+              "Que la comisión regional de Mundo Mejor revise lo que recibieron sus compañeros y califique las actividades con nota.",
+              "Que mire con su Manada y con las personas que recibieron lo que hizo qué aprendió, y que su dirigente lo celebre."
+            ],
+            "correctIndex": 2
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Con la Comunidad revuelta en el buen sentido, dos nómadas le dicen a Paula que quieren hacer el desafío. Ahora sí toca el Kit por dentro."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> HeForShe es un proceso individual. Cada protagonista se interesa, acuerda con su dirigente al menos seis actividades, las vive, se evalúa con otros y celebra."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>La persona se interesa</strong> por el desafío.",
+            "<strong>Dirigente y protagonista acuerdan</strong> <em>«mínimo seis actividades del Kit de Acción»</em>: las dos de Toma conciencia son obligatorias —en el Kit aparecen en color magenta— y las demás se escogen del Kit o se acuerdan, siempre que cumplan la competencia.",
+            "<strong>La persona realiza</strong> lo acordado, hace su autoevaluación y comparte sus acciones.",
+            "<strong>Evalúa sus competencias</strong> con las personas de su rama, con quienes recibieron sus acciones y con los adultos.",
+            "<strong>El dirigente celebra</strong> el logro <em>«en ceremonia sencilla, sentida y significativa»</em> y entrega la insignia."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Son los pasos del <em>Manual de Implementación del Marco de Mundo Mejor</em> (p. 31); el Kit trae los cuatro primeros (p. 13). El cuarto es el que más se olvida: la evaluación no la hace solo el adulto con una lista, sino el joven con su rama y con las personas a las que llegaron sus acciones."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Seis actividades, en dos partes y tres fases"
+        },
+        {
+          "type": "paragraph",
+          "text": "La ruta de cada rama tiene una <strong>parte A</strong> y una <strong>parte B</strong>, cada una con sus tres fases. Para la insignia basta <em>«una actividad de cada fase del lado A y una actividad de cada fase para el lado B»</em> (Kit, p. 14): seis en total."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🅰️ Parte A",
+              "description": "<strong>Toma conciencia:</strong> del banco del Kit, obligatoria. <strong>Comparte:</strong> del Kit o creada con el adulto. <strong>Actúa:</strong> del Kit o creada con el adulto.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🅱️ Parte B",
+              "description": "<strong>Toma conciencia:</strong> del banco del Kit, obligatoria. <strong>Comparte:</strong> del Kit o creada con el adulto. <strong>Actúa:</strong> del Kit o creada con el adulto.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Las que se crean tienen que cumplir la competencia del desafío de esa fase: las del Kit, no las competencias educativas de tu Guía. La autoevaluación usa las mismas tres marcas que viste en el Curso 22 —al comienzo, explorando, terminé— y, como allí, dice dónde está el joven en el desafío, no su nivel en una competencia educativa."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que te piden a ti antes de empezar"
+        },
+        {
+          "type": "paragraph",
+          "text": "El Kit pide que el adulto que acompañe haya completado el curso A Salvo del Peligro (p. 7). El <em>Manual de Implementación</em> pide además el <strong>taller nacional HeForShe</strong> (p. 29). Las dos fuentes no coinciden: si vas a acompañar el desafío, pregunta a la comisión de Mundo Mejor de tu región por el taller. Y las dos repiten la misma pauta: <em>«Haga preguntas abiertas en lugar de promover posiciones o dar consejos»</em>; el Manual agrega: <em>«Evite exponer sus puntos de vista»</em> (p. 29). En un tema donde cada familia tiene sus convicciones, esa pauta es la que protege a todos."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "🗺️ Lo que el Kit propone para cada rama",
+      "emoji": "🗺️",
+      "navLabel": "Por rama",
+      "reflection": {
+        "prompt": "Busca en el Kit las competencias de tu rama, partes A y B. ¿Cuál responde mejor a algo que ya viste en tu unidad? Descríbelo como situación, sin nombres ni detalles de nadie. Si una de ellas toca un tema delicado para las familias de tu Grupo, ¿qué harías antes de trabajarla y con quién lo hablarías?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar a las violencias 🛡️",
+        "questions": [
+          {
+            "text": "Un dirigente de Manada va a trabajar con una lobata la parte B de su hoja, que toca las expresiones de género. ¿Qué le recomiendas antes de empezar?",
+            "options": [
+              "Que se quede con la parte A para no inquietar a las familias: en Manada la parte B es opcional y la insignia sale con la A.",
+              "Que le cuente a la familia qué van a trabajar y cómo, lo ajuste a la edad con la Guía y pregunte sin dar su opinión.",
+              "Que la adapte a la edad con la Guía y la trabaje sin avisar: contarles a las familias cómo se va a trabajar abre críticas."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "En la Tropa, una scout propone para la fase Actúa una campaña propia en el colegio contra los chistes machistas, que no está en el Kit. ¿Vale?",
+            "options": [
+              "Sí, si responde a la competencia del desafío en Actúa: salvo Toma conciencia, las demás fases admiten propuestas propias.",
+              "No: para la insignia, de Toma conciencia a Actúa, todo sale del banco del Kit, y esa campaña no aparece en él.",
+              "Sí, pero como actividad extra que no cuenta para las seis: las de Actúa las define la comisión regional."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Cada rama tiene en el <a href=\"https://biblioteca.cdnscout.org/Kit_He_for_She_Vr_Jun2021_bc1cfc0cfb.pdf\" target=\"_blank\" rel=\"noopener\">Kit de Acción HeForShe</a> su propia hoja, con competencias para las partes A y B, y un banco de actividades. Esto es lo que trae cada una, en resumen:"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el desafío cambia con la edad. Guíate por tu rama, escoge con el protagonista y cuida los temas delicados antes de abrirlos."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🐺 Manada",
+              "description": "<strong>A:</strong> las habilidades de cada persona no dependen del sexo; sentirse bien haciendo cosas que se pensaron para las personas del otro sexo; no tratar a las niñas como menos (p. 17). <strong>B:</strong> expresiones de género, valorar la diferencia, invitar a reflexionar a quien rechaza o violenta a otro por ser diferente (p. 18). Actividades como <em>Quiero ser cuando crezca</em> o <em>Cocinando ando</em> (p. 23).",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "⛺ Tropa",
+              "description": "<strong>A:</strong> la desigualdad como violación de derechos humanos, los estereotipos detrás de las violencias, acciones para cambiarlos (p. 32). <strong>B:</strong> los derechos de mujeres y niñas y el respeto a sus decisiones (p. 33). Actividades como <em>¿Los gritos tienen género?</em> o <em>Lideresas en sus comunidades</em>.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🧭 Comunidad",
+              "description": "<strong>A:</strong> el impacto de la desigualdad en salud, educación, empleo, política y economía (p. 47). <strong>B:</strong> el amor romántico, el trabajo doméstico no remunerado y el tiempo libre; relaciones sanas y corresponsabilidad en casa (p. 48). Actividades como <em>¿Qué pasa cuando aportamos?</em> o <em>Nuestra casa: labor de familia</em>.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🏔️ Clan",
+              "description": "<strong>A:</strong> reconocer las violencias basadas en género, desde las cotidianas; divulgar las rutas de atención; revisar los propios comportamientos (p. 67). <strong>B:</strong> derechos sexuales y reproductivos y participación de las mujeres en las decisiones (p. 68). Actividades como <em>Resistimos callando</em> o <em>Lideresas rebeldes</em>.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si tu unidad es la Familia, el Kit no tiene hoja para los cachorros, y las edades del desafío —de 7 a 23 años en el Kit (p. 13), de 6 a 22 en el Manual (p. 28)— no coinciden con las de las ramas. Como en el Curso 22: guíate por la rama, no por el número. Y si vas a usar la sección de Comunidad, verás que habla de la «agenda de caminantes»: es el nombre anterior de la rama, hoy <strong>Nómadas Scout</strong>."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los temas delicados"
+        },
+        {
+          "type": "paragraph",
+          "text": "La parte B de la Manada toca las expresiones de género, algunas actividades de la parte A usan dibujos del cuerpo humano, y la parte B del Clan trabaja los derechos sexuales y reproductivos. Son contenidos del Kit, y este curso no los desarrolla. Si tu unidad va a trabajarlos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Adécualos a la edad</strong> con la Guía de tu rama.",
+            "<strong>Informa antes a las familias</strong> de qué se va a trabajar y cómo: el <em>Modelo</em> pone el consentimiento informado dentro de lo que hace segura una actividad (p. 71).",
+            "<strong>No impongas posiciones</strong>, como piden el Kit (p. 7) y el Manual (p. 29).",
+            "<strong>O escoge otra:</strong> fuera de Toma conciencia, el Kit deja crear actividades con el adulto, siempre que cumplan la competencia del desafío (pp. 13–14)."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Las dos nómadas de Paula escogen sus actividades con ella. Para Toma conciencia de la parte B eligen <em>Deconstruyendo el amor romántico</em>; para Actúa, una propia: rotar las tareas de la casa durante un mes y contar qué pasó."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "🛡️ Casos, no historias propias",
+      "emoji": "🛡️",
+      "navLabel": "Violencias",
+      "reflection": {
+        "prompt": "Sin describir hechos ni personas reales: si tu unidad fuera a trabajar las violencias basadas en género, ¿qué caso inventado usarías para que nadie tenga que hablar de lo suyo? ¿A quiénes avisarías antes de que se va a trabajar el tema? Y si, aun así, alguien empieza a contar lo suyo, ¿qué frase le dirías para cuidarlo sin prometerle silencio? (Si alguna vez un protagonista te contó algo, no lo escribas aquí: eso va por el botón «Me Pongo A Salvo del Peligro».)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Continuar al cierre 🏅",
+        "questions": [
+          {
+            "text": "Una actividad del Kit pide a los lobatos contar situaciones en las que se hayan sentido violentados por su género. ¿Cómo la adaptaría un dirigente que hizo este curso?",
+            "options": [
+              "Reemplazar el relato por una historia inventada que la Manada analice junta: así nadie tiene que exponer lo propio.",
+              "Hacerla tal cual, pero en parejas y no ante toda la Manada, para que cada lobato cuente su caso con más confianza.",
+              "Pedir que cada lobato lo escriba en una hoja que el dirigente lee después, así nadie queda expuesto ante el grupo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En el Clan, una rover dice durante una actividad que su pareja la controla y le revisa el celular. ¿Qué hace su dirigente?",
+            "options": [
+              "La escucha, le aconseja terminar la relación y habla él mismo con la pareja, para que no escale ni haga falta el botón.",
+              "La escucha sin juzgarla ni interrogarla delante del Clan, no le promete silencio y reporta por el botón, así sea adulta.",
+              "La deja decidir: es mayor de edad y es su vida privada, así que solo usa el botón si ella misma se lo pide."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Varias actividades del Kit trabajan las violencias basadas en género, y algunas piden a los protagonistas contar las que han vivido: en la Manada, situaciones en las que <em>«se hayan sentido violentadas por su género»</em> (p. 29); en la Tropa, <em>«situaciones de desigualdad que han vivido»</em> (p. 39). Este tema puede tocar algo propio: si te pasa, haz una pausa; tu avance se guarda."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> para aprender sobre las violencias no hace falta que nadie cuente la suya. Se trabaja con casos; y si alguien revela algo, se reporta."
+        },
+        {
+          "type": "paragraph",
+          "text": "El propio Kit muestra el camino. En la Tropa propone simular una Corte de Honor que analiza un caso de violencia basada en género, y aclara: <em>«este caso es hipotético»</em> (p. 35). La misma actividad vuelve luego a lo vivido, y ahí aplica la regla que te proponemos para todas las edades: <strong>casos, no historias propias</strong>. Un caso inventado permite reconocer la violencia, discutir qué hacer y ensayar respuestas, sin exponer a nadie."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Si alguien cuenta lo suyo"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Escucha sin juzgar ni pedir detalles</strong>, y no le pidas que siga frente al grupo.",
+            "<strong>No prometas silencio.</strong> La Política A Salvo del Peligro es clara: <em>«no cabrá la posibilidad de guardar ningún secreto»</em> (p. 21). Lo que alguien cuenta se cuida y no se repite, pero si revela una vulneración o un riesgo, se reporta. Vale también si es mayor de edad.",
+            "<strong>Reporta</strong> por el botón «Me Pongo A Salvo del Peligro». El Comité de Gestión de Incidentes analiza y activa las rutas. No investigas, no confrontas a nadie ni resuelves por tu cuenta.",
+            "<strong>Avisa también a las autoridades cuando el caso lo pide.</strong> La Política obliga a informar a las autoridades de salud, protección o justicia (p. 21). Y un consejo de este curso: si hay un peligro inmediato, llama primero a la línea de emergencia y después reporta igual por el botón."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "El botón y el Comité son la ruta que enseña el <a href=\"a-salvo-del-peligro-programa.html\">Curso 25</a>. Qué decir y qué no prometer cuando alguien te cuenta lo suyo lo enseña <a href=\"https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/02-Plataforma-Web/adulto-garante-entorno-seguro.html\" target=\"_blank\" rel=\"noopener\">El Adulto como Garante</a>, de Políticas Transversales; aquí solo se aplica a las violencias basadas en género. Los cuidados para temas que duelen son los del <a href=\"kit-constructores-paz.html\">Curso 22</a>. En el Clan, la competencia de la parte A pide además <strong>divulgar las rutas de atención</strong> a víctimas de violencia basada en género (p. 67): conocerlas sirve para orientar a otros, pero no reemplaza el reporte: si quien te lo cuenta es de tu unidad, el botón va igual, aunque lo que le pasa ocurra fuera del Grupo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Y lo que se publica"
+        },
+        {
+          "type": "paragraph",
+          "text": "Muchas actividades del Kit terminan en una publicación en redes con la etiqueta de la campaña. El Kit mismo pide, cuando se muestra a otras personas, <em>«pedir autorización a las personas para mostrarlas en videos o imágenes, y que quede evidencia de esta autorización»</em> (p. 43). Con menores de edad, además, rigen el consentimiento y las fotos responsables que trabajan los Cursos 21 y 25. El mensaje puede circular; la cara de un niño, no sin permiso."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "🏅 Actúa, reconoce y sigue",
+      "emoji": "🏅",
+      "navLabel": "Tu compromiso",
+      "reflection": {
+        "prompt": "Piensa en el cierre del desafío en tu unidad: ¿quiénes recibirían las acciones de tus protagonistas, cómo se evaluarían con ellos y cómo sería una ceremonia sencilla, sentida y significativa? ¿Qué harías para que la insignia llegue como huella del proceso y no como la meta?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7",
+        "nextLabel": "Ver mi certificado 🤝",
+        "questions": [
+          {
+            "text": "Un rover que terminó el desafío propone un club HeForShe en su universidad y pregunta si con eso ya es Embajador. ¿Qué le dices?",
+            "options": [
+              "Todavía no: quien coordine el club debe haber hecho el taller, y tras ocho meses con impacto se pide a la comisión regional.",
+              "Sí: la insignia del desafío ya lo acredita, y su Jefe de Clan le entrega la de Embajador cuando presente el club al Grupo.",
+              "Todavía no: basta con haber hecho el taller y sostener el club un mes; luego la pide él mismo a su Jefe de Clan."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una nómada que empieza el desafío le pregunta a Paula cuáles son las actividades más rápidas, «para tener ya la insignia». ¿Qué le responde?",
+            "options": [
+              "Que escojan juntas las que respondan a lo que ella quiere aprender: la insignia se entrega al final, y no es la meta.",
+              "Que escoja las más rápidas del banco: la insignia es la huella de marcar las seis en la lista, y se entrega en la reunión.",
+              "Que se salte Toma conciencia y haga dos de Actúa, que son las que más cuentan para la huella y para la ceremonia."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Un mes después, las dos nómadas presentan en el Congreso de Comunidad lo que pasó en sus casas al rotar las tareas: en una, el hermano mayor aprendió a cocinar; en la otra, nadie cambió nada, y eso también se discute. Se evalúan con la Comunidad y con sus familias, que recibieron la acción. Paula les entrega la insignia en una ceremonia corta, al lado del fuego."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el desafío termina con una evaluación compartida y una celebración sencilla. Y abre caminos: el taller, el club, el proyecto y la campaña."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tres reconocimientos, tres momentos"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🏅 Insignia del desafío",
+              "description": "Por la ruta completa —seis actividades, autoevaluación y evaluación de competencias—, <em>«de acuerdo con su desarrollo y edad»</em> (Kit, p. 14). La entrega el dirigente en la ceremonia (Manual, p. 31); para portarla hace falta el reconocimiento oficial de la Comisión Nacional, con su resolución y registro (Manual, p. 67), como viste en el <a href=\"marco-mundo-mejor-ods.html\">Curso 21</a>, donde está también por qué es huella y no meta.",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "📣 Emisor/a HeForShe",
+              "description": "Por participar en el <strong>taller HeForShe</strong>, que el equipo nacional hace cada año para scouts y no scouts, desde los 14 años según el Kit (p. 80) o los 15 según el Manual (p. 36). Se puede hacer antes o después de la ruta. El Manual, al pedírselo al adulto que acompaña, lo llama «taller nacional HeForShe» (p. 29).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🌍 Embajador/a HeForShe",
+              "description": "Por sostener un club, un proyecto o una campaña con impacto comunitario durante <strong>al menos ocho meses</strong>. Se solicita a la comisión regional de Mundo Mejor o, en su defecto, a la de Programa de Jóvenes. El club y la campaña piden haber hecho el taller; el proyecto no tiene requisitos previos (Manual, pp. 36–37; Kit, pp. 81–82).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En el campamento siguiente los turnos se rotan. El nómada que había dicho «eso es tema de ellas» hace el desayuno del primer día, lo quema, y al tercero es el que explica a los nuevos cómo se reparte la cocina. Paula no le dio ninguna charla."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama.</strong> Lo de todos —turnos, cargos, quién habla— se revisa en el órgano de tu rama; el desafío lo asume cada protagonista y lo acuerda contigo. <strong>Familia:</strong> no hay hoja en el Kit, pero la coeducación vale igual: juegos, tareas y cargos sin «de niñas» ni «de niños». <strong>Manada:</strong> el reparto se mira en el Consejo de Roca; ahí se presenta el desafío, y cada lobato o lobata decide si lo asume; te sugerimos empezar por la parte A. <strong>Tropa:</strong> en los Consejos de Patrulla y la Corte de Honor; mira también los nombres y gritos de patrulla. <strong>Comunidad:</strong> en el Congreso de Comunidad; el campamento es tu mejor espejo. <strong>Clan:</strong> en el Consejo de Clan; tu Guía dice que el desafío promueve la igualdad de género y la corresponsabilidad, y el taller y la acción HeForShe son el horizonte."
+        },
+        {
+          "type": "info-box",
+          "text": "🔁 <strong>Las cuatro preguntas, sobre este curso.</strong> <strong>Vivir:</strong> seguiste a una Comunidad del campamento que «salió solo» a uno con turnos rotados. <strong>Mirar:</strong> ¿qué tarea de tu unidad hace siempre la misma persona? <strong>Comprender:</strong> ¿qué estereotipo la sostiene? <strong>Proyectar:</strong> ¿cómo lo revisarán tus protagonistas y en qué espacio? Son los pasos del <em>Modelo de Aplicación de Bolsillo</em>."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Qué sigue en el Nivel 4"
+        },
+        {
+          "type": "paragraph",
+          "text": "Queda un desafío de Mensajeros de la Paz con curso propio: <strong>Patrimonito</strong> (Curso 24), que encontrarás en la página de la línea cuando se publique. Y recuerda: para acompañar las actividades de HeForShe, el <em>Manual de Implementación</em> pide el curso oficial A Salvo del Peligro y el taller nacional HeForShe; el <a href=\"a-salvo-del-peligro-programa.html\">Curso 25</a> no reemplaza el primero."
+        },
+        {
+          "type": "info-box",
+          "text": "🤝 <strong>Por eso este curso se sostiene en una frase:</strong> la igualdad de género no es solo un tema de mujeres: es asunto de todos. La charla para las chicas no hacía falta; hacía falta que todos miraran quién hacía qué."
+        },
+        {
+          "type": "mission-box",
+          "text": "🎯 <strong>Tu tarea para este ciclo.</strong> Antes de proponer HeForShe, mira con tus protagonistas una tarea de la vida de tu unidad —turnos, cargos, quién habla primero— y pregúntense quién la hace y por qué. Llévenlo al espacio donde tu unidad decide. Si alguien quiere asumir el desafío, acuerden juntos sus actividades; tú cuidas que sean seguras, a su medida y sin imponer tu punto de vista. Anota en el Compromiso Personal, junto a tu certificado, qué tarea van a revisar y en qué espacio."
+        }
+      ]
+    }
+  ]
+}

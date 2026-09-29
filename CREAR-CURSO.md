@@ -668,7 +668,7 @@ Antes de publicar, verificar que **todos** los documentos citados siguen siendo 
 | 3 | 20 Red de Jóvenes: coordinar y comunicar | `red-de-jovenes` ✅ |
 | 4 | 21 Scouts por los ODS: el Marco de Mundo Mejor en tu unidad ✅ | `marco-mundo-mejor-ods` |
 | 4 | 22 Constructores de Paz: el kit de acción en tu unidad | `kit-constructores-paz` |
-| 4 | 23 Kit HeForShe y enfoque de género | `kit-heforshe-genero` |
+| 4 | 23 HeForShe: igualdad de género en tu unidad | `kit-heforshe-genero` |
 | 4 | 24 Kit Patrimonito y Patrimonio | `kit-patrimonito-patrimonio` |
 | 4 | 25 A Salvo del Peligro aplicado al Programa ✅ | `a-salvo-del-peligro-programa` |
 
