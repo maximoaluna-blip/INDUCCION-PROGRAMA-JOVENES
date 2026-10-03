@@ -3,7 +3,7 @@
   "title": "Acompañar la Progresión Personal",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Del día que un protagonista llega a tu unidad al día que pasa a la siguiente rama. Cómo recibirlo, dejarlo elegir su camino, ajustar tu papel competencia por competencia, cuidar su ritmo, reconocer lo que aprendió y acompañar su paso — sin que la progresión se vuelva una carrera colectiva. Para todo dirigente de unidad, tenga el cargo que tenga.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-02",
   "icon": "👣",
   "duration": "50 minutos",
   "level": 3,
@@ -297,7 +297,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Elige a un protagonista de tu unidad —piénsalo con nombre; aquí basta con su inicial—. ¿Quién decidió la última competencia o reto en el que trabajó: él, su grupo, o el equipo de dirigentes? Escribe ahora dos o tres opciones que le podrías ofrecer para su siguiente paso a partir de algo que a él le interese de verdad, y cuándo vas a tener esa conversación."
+        "prompt": "Elige a un protagonista de tu unidad —piénsalo con nombre, en tu cabeza; aquí no hace falta escribirlo—. ¿Quién decidió la última competencia o reto en el que trabajó: él, su grupo, o el equipo de dirigentes? Escribe ahora dos o tres opciones que le podrías ofrecer para su siguiente paso a partir de algo que a él le interese de verdad, y cuándo vas a tener esa conversación."
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",
@@ -788,7 +788,7 @@
         },
         {
           "type": "mission-box",
-          "text": "🎯 <strong>Tu tarea para las próximas dos semanas.</strong> Elige <strong>un protagonista</strong> de tu unidad, con nombre. Escribe en qué <strong>etapa</strong> está —adaptación, progresión o transición—, <strong>dos competencias</strong> (en Familia, dos dimensiones) en las que trabaja con el nivel de cada una y <strong>tu rol</strong> en cada una. Después ponle <strong>fecha a una conversación</strong> con él: esto hiciste, así se vio, ¿qué quieres probar ahora? Porque la unidad avanza cuando <strong>cada quien</strong> avanza — y cada quien avanza por su propio camino, a su propio ritmo. Empieza por el de esa persona. Escríbelo también en el Compromiso Personal que aparece junto a tu certificado."
+          "text": "🎯 <strong>Tu tarea para las próximas dos semanas.</strong> Elige <strong>un protagonista</strong> de tu unidad, con nombre. Escribe en qué <strong>etapa</strong> está —adaptación, progresión o transición—, <strong>dos competencias</strong> (en Familia, dos dimensiones) en las que trabaja con el nivel de cada una y <strong>tu rol</strong> en cada una. Después ponle <strong>fecha a una conversación</strong> con él: esto hiciste, así se vio, ¿qué quieres probar ahora? Porque la unidad avanza cuando <strong>cada quien</strong> avanza — y cada quien avanza por su propio camino, a su propio ritmo. Empieza por el de esa persona. Escríbelo también en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."
         }
       ],
       "reflection": {
@@ -819,5 +819,9 @@
         ]
       }
     }
-  ]
+  ],
+  "commitmentBox": {
+    "prompt": "Escribe tu paso de la Lección 8: el protagonista que vas a acompañar (aquí sí puedes poner su nombre: este recuadro no sale de tu navegador), en qué etapa está, las dos competencias —o dimensiones, en Familia— en que trabaja con el nivel de cada una, tu rol en cada una —apoyar, acompañar o enlazar— y la fecha de la conversación.",
+    "placeholder": "Voy a acompañar a … Etapa: … Competencias y nivel: … / … Mi rol en cada una: … / … Conversaremos el …"
+  }
 }

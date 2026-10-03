@@ -3,7 +3,7 @@
   "title": "Jefe de Rama",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El primero del Nivel 3, el de los cursos por cargo. Qué te pide tu nombramiento cuando dice Jefe de Manada, de Tropa, de Comunidad o de Clan: coordinar a un equipo de adultos, recibir al que llega, rendir cuentas al Jefe de Grupo, tener a las familias adentro y dejar una unidad que funcione aunque tú faltes.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-02",
   "icon": "🧭",
   "duration": "55 minutos",
   "level": 3,
@@ -372,7 +372,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe los adultos de tu unidad —con su inicial o su rol, no su nombre— y, al lado de cada uno, una tarea que sea suya y solo suya. Después cuenta: ¿cuántas tareas quedaron a tu nombre? Si la mitad o más son tuyas, escribe cuál de ellas vas a llevar a la próxima reunión del equipo para que cambie de dueño — y a quién se la vas a proponer."
+        "prompt": "Escribe los adultos de tu unidad —por su rol, sin nombre ni inicial— y, al lado de cada uno, una tarea que sea suya y solo suya. Después cuenta: ¿cuántas tareas quedaron a tu nombre? Si la mitad o más son tuyas, escribe cuál de ellas vas a llevar a la próxima reunión del equipo para que cambie de dueño — y a quién se la vas a proponer."
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",
@@ -890,7 +890,7 @@
         },
         {
           "type": "mission-box",
-          "text": "🎯 <strong>Tu tarea para la próxima reunión del equipo.</strong> Lleva escrita <strong>una tarea que hoy solo haces tú</strong> —mandar la convocatoria, llamar a las familias, guardar las fichas de salud, llevar el registro de progresión—, <strong>el nombre de la persona a quien se la vas a enseñar</strong> y <strong>la fecha en que ella la hará sin ti</strong>. No la delegues de golpe: enséñala, hazla con ella una vez y después suéltala. La tarea cambia de manos; de que se haga sigues respondiendo tú. Así empieza <strong>una unidad que funciona aunque tú faltes</strong>: con una cosa que ya no depende de ti. Escríbela también en el Compromiso Personal que aparece junto a tu certificado."
+          "text": "🎯 <strong>Tu tarea para la próxima reunión del equipo.</strong> Lleva escrita <strong>una tarea que hoy solo haces tú</strong> —mandar la convocatoria, llamar a las familias, guardar las fichas de salud, llevar el registro de progresión—, <strong>el nombre de la persona a quien se la vas a enseñar</strong> y <strong>la fecha en que ella la hará sin ti</strong>. No la delegues de golpe: enséñala, hazla con ella una vez y después suéltala. La tarea cambia de manos; de que se haga sigues respondiendo tú. Así empieza <strong>una unidad que funciona aunque tú faltes</strong>: con una cosa que ya no depende de ti. Escríbela también en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."
         }
       ],
       "reflection": {
@@ -921,5 +921,9 @@
         ]
       }
     }
-  ]
+  ],
+  "commitmentBox": {
+    "prompt": "Escribe la tarea que vas a soltar (Lección 8): cuál es, a quién se la vas a enseñar y la fecha en que esa persona la hará sin ti.",
+    "placeholder": "Voy a soltar … Se la enseño a … La hará sin mí el …"
+  }
 }

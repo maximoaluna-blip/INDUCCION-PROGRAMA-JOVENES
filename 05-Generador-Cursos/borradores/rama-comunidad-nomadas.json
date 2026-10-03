@@ -3,7 +3,7 @@
   "title": "Rama Comunidad (Nómadas Scout)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El curso de rama para quienes acompañan la adolescencia tardía. Vas a reencontrarte con Andrés, que llega de su Travesía desde la Tropa, y a entender el cambio que define esta rama: en la Comunidad las decisiones de los jóvenes salen de la unidad y aterrizan en el territorio.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-02",
   "icon": "🧗",
   "duration": "60 minutos",
   "level": 2,
@@ -265,7 +265,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe la fórmula de la Promesa que se usa hoy en tu Grupo Scout, tal cual la dicen — palabra por palabra, no de memoria aproximada. Después escribe la inicial de un Nómada de tu unidad que todavía no ha hecho la suya, y la frase exacta con la que lo vas a invitar esta semana. Una sola frase. Ahora reléela: si suena a requisito o a premio, está condicionando la Promesa. Reescríbela hasta que suene a invitación."
+        "prompt": "Escribe la fórmula de la Promesa que se usa hoy en tu Grupo Scout, tal cual la dicen — palabra por palabra, no de memoria aproximada. Después piensa en un Nómada de tu unidad que todavía no ha hecho la suya —su nombre, en tu cabeza— y escribe la frase exacta —sin su nombre— con la que lo vas a invitar esta semana. Una sola frase. Ahora reléela: si suena a requisito o a premio, está condicionando la Promesa. Reescríbela hasta que suene a invitación."
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",
@@ -422,7 +422,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Dibuja en una hoja los Equipos que tienes hoy —o los que tendrías si abrieras la Comunidad mañana— con nombres reales en la hoja; si lo pasas aquí, solo iniciales. Al lado de cada uno escribe quién es el Coordinador. Y anota quién lleva la Carta de Navegación: un Navegante por Equipo, o uno solo para toda la Comunidad, como te sirva mejor. Si no puedes poner ese nombre, ese es tu primer trabajo: sin memoria compartida, la Comunidad empieza de cero cada año. Y una última pregunta por cada Equipo que dibujaste: ¿estos se buscarían el sábado sin que nadie se los pida? Si la respuesta es no, lo armaste por equilibrio de talentos, no por afinidad — y eso es justo lo que la Guía pide no hacer."
+        "prompt": "Dibuja en una hoja los Equipos que tienes hoy —o los que tendrías si abrieras la Comunidad mañana— con nombres reales: esa hoja se queda contigo. Al lado de cada Equipo anota quién es el Coordinador y quién lleva la Carta de Navegación: un Navegante por Equipo, o uno solo para toda la Comunidad, como te sirva mejor. Aquí, sin nombres, escribe tres cosas: cuántos Equipos son y cuántos jóvenes tiene cada uno; cuáles se quedaron sin Coordinador o sin Navegante —si falta ese nombre, ese es tu primer trabajo: sin memoria compartida, la Comunidad empieza de cero cada año—; y, por cada Equipo, si sus miembros se buscarían el sábado sin que nadie se los pida. Si la respuesta es no, lo armaste por equilibrio de talentos, no por afinidad — y eso es justo lo que la Guía pide no hacer."
       },
       "quiz": {
         "title": "Mini-quiz Lección 4",
@@ -974,11 +974,11 @@
         },
         {
           "type": "mission-box",
-          "text": "🎯 <strong>Tu primer paso como Dirigente de Comunidad.</strong> No intentes cambiar la Comunidad entera el sábado: escoge una sola cosa de este curso y pruébala en la próxima reunión. ¿Cuál? La que empuje una decisión hacia afuera — una llamada que hagan ellos, una visita al barrio, una pregunta a alguien que no sea scout. <strong>Escríbela en el recuadro de Compromiso Personal que te aparece con el certificado.</strong> Ahí dice «tu compromiso como adulto»: el tuyo, hoy, es esa sola cosa. Ponle fecha. Y si dudas por dónde seguir, vuelve a la frase con la que abrimos: en la Tropa aprendieron a decidir entre ellos; en la Comunidad deciden hacia afuera — y de eso se entera el barrio."
+          "text": "🎯 <strong>Tu primer paso como Dirigente de Comunidad.</strong> No intentes cambiar la Comunidad entera el sábado: escoge una sola cosa de este curso y pruébala en la próxima reunión. ¿Cuál? La que empuje una decisión hacia afuera — una llamada que hagan ellos, una visita al barrio, una pregunta a alguien que no sea scout. <strong>Escríbela en el recuadro «Compromiso Personal» que te aparece con el certificado: ese se queda en tu navegador.</strong> Tu compromiso, hoy, es esa sola cosa. Ponle fecha. Y si dudas por dónde seguir, vuelve a la frase con la que abrimos: en la Tropa aprendieron a decidir entre ellos; en la Comunidad deciden hacia afuera — y de eso se entera el barrio."
         }
       ],
       "reflection": {
-        "prompt": "Escribe la inicial de un joven de tu unidad que esté por cambiar de rama — entrando desde la Tropa o saliendo hacia el Clan. Al lado, el mes aproximado. Y debajo, la primera acción concreta que vas a hacer esta semana por esa transición: una llamada al otro dirigente, una invitación a una actividad, o pedir el pin. Una sola, con fecha."
+        "prompt": "Piensa en un joven de tu unidad que esté por cambiar de rama —entrando desde la Tropa o saliendo hacia el Clan—; su nombre, en tu cabeza: aquí no hace falta escribirlo. Escribe hacia dónde va y el mes aproximado. Y debajo, la primera acción concreta que vas a hacer esta semana por esa transición: una llamada al otro dirigente, una invitación a una actividad, o pedir el pin. Una sola, con fecha."
       },
       "quiz": {
         "title": "Mini-quiz Lección 8",
@@ -1053,5 +1053,9 @@
   "certificate": {
     "courseName": "RAMA COMUNIDAD (NÓMADAS SCOUT)",
     "description": "ha completado el Curso 11 de la Línea Programa de Jóvenes — Rama Comunidad (Nómadas Scout), reconociendo los diez artículos de la Ley del Nómada Scout y las dos fórmulas oficiales de su Promesa, el Sistema de Equipos y sus cargos, la diferencia entre el Consejo de Equipo y el Congreso de Comunidad, el marco simbólico de la aventura hacia la ciudadanía y su ambiente de referencia, el involucramiento comunitario en sus seis momentos, los seis Rumbos y las cuatro fases de la progresión, y las dos etapas de transición de la rama, al servicio de los adolescentes de la Asociación Scouts de Colombia"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe tu primer paso como Dirigente de Comunidad (Lección 8): la sola cosa que empuja una decisión hacia afuera en la próxima reunión, y su fecha.",
+    "placeholder": "En la próxima reunión de la Comunidad, los Nómadas van a … Fecha: …"
   }
 }

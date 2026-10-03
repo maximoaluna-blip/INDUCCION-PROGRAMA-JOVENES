@@ -3,7 +3,7 @@
   "title": "Rama Tropa Scout",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El curso de rama para quienes acompañan la adolescencia temprana. Vas a acompañar a Andrés, que acaba de dar el Gran Salto desde la Manada, y a entender el cambio que hace difícil esta rama: en la Tropa los Scouts deciden solos.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-02",
   "icon": "⚜️",
   "duration": "45 minutos",
   "level": 2,
@@ -302,7 +302,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Mira tu tropa con nombres —en tu cabeza; aquí basta la inicial—. ¿Hay algún Scout sin cargo, o con uno solo? Escribe cuál le propondrías al Consejo de Patrulla y por qué ese en particular — no el que sobra, el que le va a servir para algo que le cuesta."
+        "prompt": "Mira tu tropa con nombres —en tu cabeza; aquí no hace falta escribirlos—. ¿Hay algún Scout sin cargo, o con uno solo? Sin nombrarlo ni nombrar su patrulla, escribe qué cargo le propondrías al Consejo de Patrulla y por qué ese en particular — no el que sobra, el que le va a servir para algo que le cuesta."
       },
       "quiz": {
         "title": "Mini-quiz Lección 4",
@@ -711,7 +711,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escoge un Scout concreto de tu tropa —con nombre, en tu cabeza; aquí basta su inicial—. Piensa en algo que le hayas visto hacer este mes y ubícalo: ¿en qué Ruta cae, y en qué nivel dirías que está — Descubro, Construyo o Conquisto? Escríbelo. Y después escribe UNA travesía que puedas proponerle para el próximo mes, del tamaño de una salida, no de un año. Si no sabes por dónde va, esa es tu tarea de esta semana: no se averigua revisando papeles, se averigua conversando con él."
+        "prompt": "Escoge un Scout concreto de tu tropa —con nombre, en tu cabeza; aquí no hace falta escribirlo—. Piensa en algo que le hayas visto hacer este mes y ubícalo: ¿en qué Ruta cae, y en qué nivel dirías que está — Descubro, Construyo o Conquisto? Escríbelo. Y después escribe UNA travesía que puedas proponerle para el próximo mes, del tamaño de una salida, no de un año. Si no sabes por dónde va, esa es tu tarea de esta semana: no se averigua revisando papeles, se averigua conversando con él."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7",
@@ -803,7 +803,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tres cosas, cortas y concretas: (1) el Scout de tu tropa que esté más cerca de los catorce y medio, con su inicial; (2) qué vas a hacer esta semana para empezar a prepararle el paso — una llamada al dirigente de Comunidad cuenta, y es la más útil; y (3) una cosa que hayas visto en él este mes que te diga que ya está listo para el estilo de vida que viene, o que todavía no. Esa tercera es la que de verdad importa: la edad la sabe cualquiera."
+        "prompt": "Piensa en el Scout de tu tropa que esté más cerca de los catorce y medio —su nombre, en tu cabeza; aquí no hace falta escribirlo— y escribe dos cosas, cortas y concretas: (1) qué vas a hacer esta semana para empezar a prepararle el paso — una llamada al dirigente de Comunidad cuenta, y es la más útil; y (2) una cosa que hayas visto en él este mes que te diga que ya está listo para el estilo de vida que viene, o que todavía no. Esa segunda es la que de verdad importa: la edad la sabe cualquiera."
       },
       "quiz": {
         "title": "Mini-quiz Lección 8",

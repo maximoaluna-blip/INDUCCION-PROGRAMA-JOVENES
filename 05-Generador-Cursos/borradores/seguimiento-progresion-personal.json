@@ -3,7 +3,7 @@
   "title": "Seguimiento de la Progresión Personal",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El primero de los tres cursos operativos, y el que sirve a las cinco ramas a la vez. Cómo mirar con intención, registrar lo justo y acordar un paso siguiente, sin que el seguimiento se convierta en papeleo. Los instrumentos oficiales llegan al final, y a propósito.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-02",
   "icon": "🛠️",
   "duration": "60 minutos",
   "level": 2,
@@ -204,7 +204,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Piensa en un protagonista concreto de tu unidad —con nombre, en tu cabeza; aquí basta su inicial—. Escribe la frase que le pondrías hoy si tuvieras que describirlo en una línea. Léela: ¿es un rasgo («es callado», «es líder») o es una conducta con verbo, contexto y señal? Si es un rasgo, reescríbela contando un hecho que hayas visto en las últimas cuatro reuniones."
+        "prompt": "Piensa en un protagonista concreto de tu unidad —con nombre, en tu cabeza; aquí no hace falta escribirlo—. Escribe la frase que le pondrías hoy si tuvieras que describirlo en una línea. Léela: ¿es un rasgo («es callado», «es líder») o es una conducta con verbo, contexto y señal? Si es un rasgo, reescríbela contando un hecho que hayas visto en las últimas cuatro reuniones."
       },
       "quiz": {
         "title": "Mini-quiz Lección 2",

@@ -3,7 +3,7 @@
   "title": "Rama Clan (Rovers)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El último curso de rama, y el único cuyos protagonistas son mayores de edad. Vas a acompañar a Sebastián desde el día que llega al Clan hasta su Partida Rover, y a entender el cambio que define esta rama: aquí tu trabajo es volverte innecesario.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-02",
   "icon": "🏔️",
   "duration": "65 minutos",
   "level": 2,
@@ -475,7 +475,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe la inicial de un Rover de tu unidad —su nombre, en tu cabeza— y, al lado, un referente de inspiración que le quede a él o a ella — de los nueve que propone la Guía o cualquier otro. Después las tres preguntas: qué esencia tiene hoy, a qué invita, cómo se haría visible en la vida de tu Clan. Si te sale más fácil con Saulo de Tarso que con ese Rover concreto, vuelve a empezar. Si todavía no tienes Clan, piensa en el Nómada de tu Grupo que esté más cerca de cumplir los dieciocho."
+        "prompt": "Piensa en un Rover de tu unidad —su nombre, en tu cabeza; aquí no hace falta escribirlo— y escribe un referente de inspiración que le quede a él o a ella — de los nueve que propone la Guía o cualquier otro. Después las tres preguntas: qué esencia tiene hoy, a qué invita, cómo se haría visible en la vida de tu Clan. Si te sale más fácil con Saulo de Tarso que con ese Rover concreto, vuelve a empezar. Si todavía no tienes Clan, piensa en el Nómada de tu Grupo que esté más cerca de cumplir los dieciocho."
       },
       "quiz": {
         "title": "Mini-quiz Lección 5",
@@ -935,7 +935,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe la inicial del Rover de tu unidad que esté más cerca de su Partida y cuántos meses le faltan para cumplir 20 años y 8 meses. Si no tienes ningún Rover todavía, piensa en un Nómada que vaya a llegar. Debajo, anota una sola cosa que quieras que él se lleve de esa ceremonia — no lo que tú quieras decir, sino lo que quieres que él recuerde. Guárdala: esa frase es el guion de tu parte."
+        "prompt": "Piensa en el Rover de tu unidad que esté más cerca de su Partida —su nombre, en tu cabeza— y en cuánto tiempo le falta para cumplir 20 años y 8 meses. Si no tienes ningún Rover todavía, piensa en un Nómada que vaya a llegar. Escribe una sola cosa que quieras que él se lleve de esa ceremonia — no lo que tú quieras decir, sino lo que quieres que él recuerde. Guárdala: esa frase es el guion de tu parte."
       },
       "quiz": {
         "title": "Mini-quiz Lección 9",
@@ -1038,7 +1038,7 @@
         },
         {
           "type": "mission-box",
-          "text": "🎯 <strong>Tu primer paso como Dirigente de Clan.</strong> No intentes montar el Clan entero el sábado: escoge una sola cosa de este curso y pruébala en la próxima reunión. ¿Cuál? La que te quite a ti una tarea de encima y se la devuelva al Clan — la convocatoria, el orden del día, la llamada que ibas a hacer tú. <strong>Escríbela en el recuadro de Compromiso Personal que te aparece con el certificado — el que te pide tu compromiso como adulto certificado.</strong> El tuyo, hoy, es esa sola cosa. Ponle fecha. Y si dudas por dónde seguir, vuelve a la frase con la que abrimos: en la Comunidad todavía te necesitaban; en el Clan tu trabajo es volverte innecesario — y la Partida Rover es donde se comprueba si lo lograste."
+          "text": "🎯 <strong>Tu primer paso como Dirigente de Clan.</strong> No intentes montar el Clan entero el sábado: escoge una sola cosa de este curso y pruébala en la próxima reunión. ¿Cuál? La que te quite a ti una tarea de encima y se la devuelva al Clan — la convocatoria, el orden del día, la llamada que ibas a hacer tú. <strong>Escríbela en el recuadro «Compromiso Personal» que te aparece con el certificado: ese se queda en tu navegador.</strong> Tu compromiso, hoy, es esa sola cosa. Ponle fecha. Y si dudas por dónde seguir, vuelve a la frase con la que abrimos: en la Comunidad todavía te necesitaban; en el Clan tu trabajo es volverte innecesario — y la Partida Rover es donde se comprueba si lo lograste."
         }
       ],
       "reflection": {
@@ -1129,5 +1129,9 @@
   "certificate": {
     "courseName": "RAMA CLAN (ROVERS)",
     "description": "ha completado el Curso 12 de la Línea Programa de Jóvenes — Rama Clan (Rovers), reconociendo los diez artículos de la Ley del Rover y las dos fórmulas oficiales de su Promesa, el gobierno del Clan a través de su Consejo y su Comité, el marco simbólico de la Ciudadanía Activa y sus símbolos, el PARCE con sus cuatro fases, las ceremonias propias de la rama y lo que en ellas está prohibido, y la Partida Rover como cierre de la experiencia de protagonista de programa, al servicio de los jóvenes adultos de la Asociación Scouts de Colombia"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe tu primer paso como Dirigente de Clan (Lección 10): la sola cosa que le devuelves al Clan en la próxima reunión, y su fecha.",
+    "placeholder": "En la próxima reunión del Clan, … dejará de hacerlo yo y lo hará el Clan. Fecha: …"
   }
 }

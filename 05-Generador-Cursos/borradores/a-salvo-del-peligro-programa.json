@@ -3,7 +3,7 @@
   "title": "A Salvo del Peligro aplicado al Programa",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Cómo el Método Scout hace segura a tu unidad: los once puntos en que la Política Nacional A Salvo del Peligro se articula con el Programa de Jóvenes, aplicados a un campamento real — la cultura de escucha, la práctica 2+1 al planear, la vida en línea, los datos de los protagonistas y el mecanismo de reporte. Para todo dirigente de unidad, de cualquier rama. No reemplaza el módulo oficial A Salvo del Peligro.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-02",
   "icon": "🛡️",
   "duration": "55 minutos",
   "level": 4,
@@ -856,9 +856,13 @@
         },
         {
           "type": "mission-box",
-          "text": "🎯 <strong>Tu tarea antes de la próxima salida.</strong> Toma el plan de tu próxima actividad fuera de la sede —o de la próxima reunión, si no hay salida pronto— y pásale las cinco preguntas de esta lección. Escribe una decisión concreta por cada una: quién acompaña a quién en el minuto que encontraste, por dónde se comunica la unidad, dónde viajan las fichas, dónde queda el QR. Llévalo a tu equipo de dirigentes antes de salir. Si son muchas para esta semana, empieza por la del minuto: es la que más protege. Escríbelo también en el Compromiso Personal que aparece junto a tu certificado."
+          "text": "🎯 <strong>Tu tarea antes de la próxima salida.</strong> Toma el plan de tu próxima actividad fuera de la sede —o de la próxima reunión, si no hay salida pronto— y pásale las cinco preguntas de esta lección. Escribe una decisión concreta por cada una: quién acompaña a quién en el minuto que encontraste, por dónde se comunica la unidad, dónde viajan las fichas, dónde queda el QR. Llévalo a tu equipo de dirigentes antes de salir. Si son muchas para esta semana, empieza por la del minuto: es la que más protege. Escríbelo también en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."
         }
       ]
     }
-  ]
+  ],
+  "commitmentBox": {
+    "prompt": "Escribe tu plan para la próxima salida (Lección 7): una decisión por cada una de las cinco preguntas, empezando por la del minuto que encontraste.",
+    "placeholder": "El minuto: … Quién acompaña a quién: … Por dónde nos comunicamos: … Las fichas viajan en: … El QR queda en: …"
+  }
 }
