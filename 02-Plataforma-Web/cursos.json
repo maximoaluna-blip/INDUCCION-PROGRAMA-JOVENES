@@ -334,5 +334,19 @@
     "status": "active",
     "file": "kit-heforshe-genero.html",
     "folder": "kit-heforshe-genero"
+  },
+  {
+    "courseId": "kit-patrimonito-patrimonio",
+    "title": "Patrimonito: el patrimonio de la humanidad en tu unidad",
+    "description": "Cómo se acompaña el desafío Patrimonito, de Mensajeros de la Paz, que se hace desde los 15 años y en alianza con la UNESCO: qué cuenta como patrimonio —cultural, natural e inmaterial—, las tres rutas del desafío, los pasos de la insignia con Scouts del Mundo y las horas de servicio en el sitio, cómo trabajar con la comunidad que vive el patrimonio y cómo hacerlo seguro. El patrimonio no es lo viejo: es lo que recibimos, vivimos y dejamos. Para dirigentes de Comunidad y Clan, y con un camino para las demás ramas.",
+    "icon": "🏛️",
+    "duration": "35 minutos",
+    "level": 4,
+    "levelName": "Transversales",
+    "order": 24,
+    "modules": 7,
+    "status": "active",
+    "file": "kit-patrimonito-patrimonio.html",
+    "folder": "kit-patrimonito-patrimonio"
   }
 ]

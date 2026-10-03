@@ -1,0 +1,592 @@
+{
+  "courseId": "kit-patrimonito-patrimonio",
+  "title": "Patrimonito: el patrimonio de la humanidad en tu unidad",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "Cómo se acompaña el desafío Patrimonito, de Mensajeros de la Paz, que se hace desde los 15 años y en alianza con la UNESCO: qué cuenta como patrimonio —cultural, natural e inmaterial—, las tres rutas del desafío, los pasos de la insignia con Scouts del Mundo y las horas de servicio en el sitio, cómo trabajar con la comunidad que vive el patrimonio y cómo hacerlo seguro. El patrimonio no es lo viejo: es lo que recibimos, vivimos y dejamos. Para dirigentes de Comunidad y Clan, y con un camino para las demás ramas.",
+  "contentVersion": "2026-09-28",
+  "icon": "🏛️",
+  "duration": "35 minutos",
+  "level": 4,
+  "levelName": "Transversales",
+  "order": 24,
+  "totalContentModules": 6,
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "emoji": "🌍",
+      "name": "Reconozco el patrimonio",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "emoji": "🧭",
+      "name": "Elijo la ruta",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "emoji": "📋",
+      "name": "Conozco los pasos",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "emoji": "🤝",
+      "name": "Con la comunidad",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "emoji": "🧳",
+      "name": "Servicio seguro",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "emoji": "🏅",
+      "name": "Comparto y reconozco",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
+      "emoji": "🏛️",
+      "name": "Recibo, vivo y dejo",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "PATRIMONITO: EL PATRIMONIO DE LA HUMANIDAD EN TU UNIDAD",
+    "description": "ha completado el Curso 24 de la Línea Programa de Jóvenes — Patrimonito: el patrimonio de la humanidad en tu unidad, reconociendo el patrimonio cultural, natural e inmaterial y lo que la UNESCO declara patrimonio de la humanidad, acompañando a jóvenes desde los 15 años en las rutas de promoción, difusión y conservación del desafío, conociendo los pasos de su reconocimiento con Scouts del Mundo y el servicio en el sitio, trabajando con la comunidad que vive el patrimonio y no sobre ella, y planeando ese servicio con seguridad."
+  },
+  "commitmentBox": {
+    "prompt": "Escribe qué patrimonio cercano a tu unidad van a explorar primero con tus protagonistas y a quién de su comunidad —por su rol— le preguntarán:",
+    "placeholder": "Vamos a explorar … y a preguntarle a (su rol) …"
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "🏛️ Lo que recibimos, vivimos y dejamos",
+      "emoji": "🏛️",
+      "navLabel": "Bienvenida",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>~35 minutos de lectura y quizzes</strong> — y unos 15 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Distinguir</strong> el patrimonio cultural, natural e inmaterial, y cuál es patrimonio de la humanidad declarado por la UNESCO.",
+            "<strong>Ubicar</strong> el desafío Patrimonito: para quién es, qué busca y por qué va de la mano de Scouts del Mundo.",
+            "<strong>Acompañar</strong> la elección de una ruta —promoción, difusión o conservación— y el viaje del desafío.",
+            "<strong>Explicar</strong> los pasos del reconocimiento, incluidas las horas de servicio en el sitio.",
+            "<strong>Planear</strong> un proyecto con la comunidad que vive el patrimonio, y no sobre ella, y con sus instituciones.",
+            "<strong>Preparar</strong> un servicio en el sitio seguro, con los protocolos de tu Grupo o tu Región."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Camila es Jefa de Clan en Pasto. Un rover llega a la reunión con una idea para «hacer Patrimonito»: pintar un mural sobre el Carnaval en la pared de la sede, un sábado, y subir las fotos. Otro propone limpiar la capilla vieja del barrio. Los dos entusiasman al Clan. Camila abre el Kit y descubre que ninguna de las dos ideas alcanza para el desafío, y que, sin embargo, las dos apuntan en la dirección correcta."
+        },
+        {
+          "type": "info-box",
+          "text": "🏛️ <strong>La idea que sostiene este curso:</strong> el patrimonio no es lo viejo: <strong>es lo que recibimos, lo que vivimos hoy y lo que vamos a dejar</strong>."
+        },
+        {
+          "type": "paragraph",
+          "text": "La idea viene de cómo el propio Kit define el patrimonio cultural: <em>«el legado del pasado, nuestro activo en el presente y la herencia que les dejaremos a las futuras generaciones»</em> (p. 12, citando al Ministerio de Cultura). Desarma dos ideas de la escena. La primera, que el patrimonio son los edificios antiguos: también lo son una música, una fiesta o un saber artesanal. La segunda, que el desafío es una jornada: Patrimonito reconoce un <strong>proyecto</strong>."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Qué es Patrimonito"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 El desafío, en palabras del Kit",
+          "source": "Kit de Acción Patrimonito (Asociación Scouts de Colombia, junio 2021), «¿Qué es el Desafío de Patrimonito?», p. 4.",
+          "text": "Patrimonito Scout es el reconocimiento a un proyecto social con enfoque en la preservación de espacios o manifestaciones culturales pudiendo ser abordado desde tres perspectivas: La Promoción […] La Difusión […] La Conservación."
+        },
+        {
+          "type": "paragraph",
+          "text": "Es un desafío de <strong>Mensajeros de la Paz</strong>, hecho en alianza con la UNESCO, que adoptó a Patrimonito —un personaje que inventaron unos estudiantes en 1995— como mascota de su Programa de Educación del Patrimonio Mundial (Kit, pp. 2 y 19). Si hiciste el <a href=\"marco-mundo-mejor-ods.html\">Curso 21</a>, ya conoces el mapa. Y hay una diferencia con los demás desafíos de este nivel que cambia a quién le sirve este curso: Patrimonito está diseñado para jóvenes <em>«a partir de los 15 años hasta la edad que se determine para la rama rover»</em> (p. 4)."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Qué NO es este curso"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>No es un curso de historia del arte ni de gestión cultural.</strong> Usa lo que trae el Kit sobre patrimonio para que puedas acompañar el desafío.",
+            "<strong>No es el curso de Scouts del Mundo.</strong> Ese reconocimiento lo presentó el <a href=\"marco-mundo-mejor-ods.html\">Curso 21</a>; aquí se ve solo en lo que toca a Patrimonito.",
+            "<strong>No es el curso de la seguridad.</strong> Cómo se hace segura una salida está en el <a href=\"a-salvo-del-peligro-programa.html\">Curso 25</a>; aquí se aplica a las horas de servicio en el sitio."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📍 <strong>Para quién es:</strong> dirigentes de Comunidad y de Clan, que son quienes acompañan el desafío. Las escenas siguen a un Clan. Si tu unidad es la Familia, la Manada o la Tropa, el desafío no es para tus protagonistas todavía, pero la Lección 7 te dice cómo trabajar el patrimonio cercano en tu rama."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🌍 Qué cuenta como patrimonio",
+      "emoji": "🌍",
+      "navLabel": "El patrimonio",
+      "reflection": {
+        "prompt": "Piensa en el lugar donde vive tu unidad. Nombra algo cultural, algo natural y algo inmaterial —una fiesta, una música, un saber, una comida— que la comunidad reconozca como suyo. ¿Cuál de los tres conocen menos tus protagonistas, y por qué crees que pasa?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar a las rutas 🧭",
+        "questions": [
+          {
+            "text": "Un rover dice que el Carnaval de Negros y Blancos «es una fiesta, no un patrimonio», porque patrimonio son los monumentos. ¿Qué le mostraría el Kit?",
+            "options": [
+              "Que tiene razón: la lista del Patrimonio Mundial de la UNESCO inscribe sitios y monumentos, no manifestaciones.",
+              "Que el Kit lo cuenta entre lo que reconoce la UNESCO: patrimonio es también lo que se vive y se transmite.",
+              "Que depende de su antigüedad: una fiesta es patrimonio cultural cuando cumple cien años, como los monumentos."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Una nómada propone para el desafío una práctica tradicional de su región en la que se hace sufrir a animales: «es tradición, así que es patrimonio». ¿Qué le respondes con el Kit?",
+            "options": [
+              "Que puede ser tradición y aun así no ameritar la salvaguardia especial: el daño a los animales también pesa.",
+              "Que toda práctica que una comunidad transmite es patrimonio inmaterial, y la UNESCO no mira su contenido.",
+              "Que si su Congreso de Comunidad la vota como patrimonio, cuenta para el desafío igual que otra tradición."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Camila empieza por la pregunta de fondo: ¿qué es patrimonio? El Kit dedica casi la mitad de sus páginas a responderla, y conviene tenerlo claro antes de escoger nada."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> hay patrimonio cultural, natural e inmaterial. Y hay un patrimonio que la UNESCO declara de toda la humanidad: sobre ese se hace el desafío."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🏛️ Cultural",
+              "description": "Monumentos, conjuntos y lugares con un valor universal excepcional desde la historia, el arte o la ciencia: obras arquitectónicas, sitios arqueológicos, obras conjuntas del ser humano y la naturaleza (Convención de 1972, en el Kit, pp. 13–14).",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "🌿 Natural",
+              "description": "Monumentos naturales, formaciones geológicas y zonas que son hábitat de especies amenazadas, con valor universal excepcional estético o científico (pp. 15–16). En Colombia, por ejemplo, el Parque Nacional de los Katíos o el Santuario de Malpelo.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🎶 Inmaterial",
+              "description": "Usos, expresiones, conocimientos y técnicas que las comunidades reconocen como parte de su patrimonio, que se transmiten de generación en generación y se recrean constantemente (Convención de 2003, p. 16). En Colombia, por ejemplo, las músicas de marimba del Pacífico sur o el Barniz de Pasto.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Hay además sitios <strong>mixtos</strong>, como el Parque Nacional de Chiribiquete. Para entrar en la lista del Patrimonio Mundial, un sitio debe tener un <em>valor universal excepcional</em> (pp. 16–18); para el desafío, lo que importa no es memorizar los criterios, sino saber si lo que les interesa está en la lista."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que el Kit reconoce en Colombia"
+        },
+        {
+          "type": "paragraph",
+          "text": "El Kit lista <strong>nueve sitios</strong> inscritos en la lista del Patrimonio Mundial —de Cartagena a Chiribiquete—, <strong>doce manifestaciones inmateriales</strong> —del Carnaval de Barranquilla al Barniz de Pasto— y <strong>quince sitios</strong> de la Lista Tentativa, que Colombia postuló y aún no están declarados, donde el Kit también permite hacer proyectos (pp. 7–8). La lista es de 2021: antes de escoger, comprueba en la UNESCO si hubo inscripciones nuevas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Una advertencia que el Kit hace y que conviene repetir: hay prácticas <em>«cuyo carácter cultural es incuestionable, pero que por sus implicaciones lesivas contra personas o animales no ameritan el nivel especial de salvaguardia»</em> (p. 22). Que algo sea tradición no le da, por eso, la protección especial del patrimonio."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "El patrimonio natural y la naturaleza del Método"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Clan que ya vive la naturaleza como elemento del Método Scout tiene una puerta natural a este desafío: el patrimonio natural. La diferencia es de mirada. En un campamento, la naturaleza es el lugar donde se aprende; en Patrimonito, un sitio natural declarado es algo que hay que ayudar a conservar, promover o dar a conocer, con quienes lo cuidan."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Clan de Camila revisa la lista. La capilla del barrio no está en ella. El Carnaval sí, y también el Barniz de Pasto, un saber artesanal que la UNESCO incluyó entre las manifestaciones que requieren <em>«medidas urgentes de salvaguardia»</em> (p. 8)."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "🧭 Tres rutas y un viaje",
+      "emoji": "🧭",
+      "navLabel": "Las rutas",
+      "reflection": {
+        "prompt": "Piensa en un joven de tu unidad al que le interese el patrimonio (sin escribir su nombre). ¿Qué ruta crees que le calzaría mejor —promoción, difusión o conservación— y por qué? ¿Cómo harías para que la elija él, y no tú, después de hacer su autoevaluación?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar a los pasos 📋",
+        "questions": [
+          {
+            "text": "El rover del mural quiere que el Carnaval se conozca en otros países, con una serie de videos cortos en varios idiomas. ¿En qué ruta del Kit cae su idea?",
+            "options": [
+              "Conservación: todo lo que ayuda a que el Carnaval siga vivo sirve para mantener su permanencia e integridad.",
+              "Difusión: lo que busca es que el Carnaval se conozca lejos de Pasto, más allá del lugar donde nació.",
+              "Promoción: cualquier video sobre un patrimonio impulsa su desarrollo, así que este cae en esa ruta del Kit."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Una dirigente ve que a una rover le iría mejor la difusión, porque dibuja muy bien. En su autoevaluación, la rover se reconoce más en las frases de conservación. ¿Qué hace la dirigente?",
+            "options": [
+              "Le propone difusión, que va con sus talentos, y le sugiere ajustar la autoevaluación a esa ruta del Kit.",
+              "Le cuenta lo que ve y conversan, pero la ruta la escoge la rover desde su autoevaluación, aunque sea conservación.",
+              "Le propone recorrer las tres rutas, una por etapa: conciencia en promoción, comparte en difusión, actúa en conservación."
+            ],
+            "correctIndex": 1
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Con el patrimonio claro, el Clan tiene que escoger qué hacer con él. El Kit ofrece tres caminos, y cada joven decide el suyo."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el desafío se recorre por una ruta —promoción, difusión o conservación, o más de una: el Kit dice «y/o»— y en tres etapas. La ruta la escoge el joven, después de mirarse en su autoevaluación."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📣 Promoción",
+              "description": "<em>«Conjunto de acciones o intervenciones dirigidas a impulsar el desarrollo de un patrimonio, ya sea material o inmaterial.»</em> Pensar, por ejemplo, cómo un patrimonio puede generar sus propios recursos sin perder su valor.",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "📡 Difusión",
+              "description": "<em>«Hacer que el patrimonio sea conocido y llegue a sitios distintos de aquel en que se origina.»</em> Contar el patrimonio a quien no lo conoce.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🛡️ Conservación",
+              "description": "<em>«Mantener o cuidar de la permanencia o integridad de un sitio patrimonial cultural, natural o mixto y las prácticas que hacen parte del patrimonio inmaterial.»</em>",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Las tres definiciones son del Kit (p. 4). Y el viaje es el mismo de Constructores de Paz y HeForShe: <strong>toma conciencia</strong> del patrimonio y de sus problemas, <strong>comparte</strong> con otros para encontrar soluciones y <strong>actúa</strong> con un proyecto (pp. 8–10). Al comienzo, adultos o compañeros apoyan al joven para hacer su <strong>autoevaluación</strong> y <em>«decidir en qué ruta de aprendizaje les gustaría trabajar»</em> (p. 9)."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La autoevaluación"
+        },
+        {
+          "type": "paragraph",
+          "text": "Está en las pp. 11 y 12: una tabla por ruta, la misma para jóvenes de 15 a 18 y de 18 a 21 años. Ojo, porque cambia respecto de los Cursos 22 y 23: aquí <strong>Toma conciencia, Comparte y Actúa no son las marcas, son las etapas</strong>. Cada etapa tiene su frase y, al lado, tres casillas: <em>«Estoy al comienzo de la exploración»</em>, <em>«Estoy en exploración»</em> y <em>«He terminado mi exploración»</em>, más dos columnas para escribir los logros personales y las actividades. Como en los otros kits, dice dónde está el joven <strong>en el desafío</strong>, no su nivel en una competencia educativa: sus frases son las competencias del desafío. Y la marca la pone él."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dos rovers de Camila hacen la autoevaluación. Uno, el del mural, se descubre en difusión. Otra, que tiene una tía artesana del Barniz, se queda mirando la frase de conservación sobre <em>«el importante rol de la cultura para alcanzar la sostenibilidad»</em> (p. 12) y dice que por ahí quiere empezar."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "📋 Los pasos del reconocimiento",
+      "emoji": "📋",
+      "navLabel": "Los pasos",
+      "reflection": {
+        "prompt": "Mira los pasos del reconocimiento. ¿Cuál sería el más difícil para un joven de tu unidad —el Descubrimiento, el lugar, las horas de servicio, el registro— y qué necesitarías averiguar tú, como adulto, para que ese paso no lo frene?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar a la comunidad 🤝",
+        "questions": [
+          {
+            "text": "Un Clan de otra ciudad duda entre un parque muy querido del barrio, que no está en ninguna lista, y una música tradicional de su región que sí está en la lista del Kit. ¿Qué les dirías?",
+            "options": [
+              "Que cualquiera: la UNESCO pide proyectos donde una comunidad reconoce su patrimonio, esté o no en la lista.",
+              "Que sirve la música: el proyecto va donde la UNESCO reconoció algo, y el parque puede ser otro servicio del Clan.",
+              "Que escojan el parque: el desafío exige un lugar físico, y en una música no hay sitio donde cumplir las horas."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Una rover terminó su proyecto y sus horas, y ya lo compartió y lo evaluó con la comunidad. Su Jefe de Clan quiere entregarle la insignia el sábado. ¿Qué falta?",
+            "options": [
+              "Pedir el reconocimiento a la comisión de Mundo Mejor, con sus dos autoevaluaciones y las evidencias del proyecto.",
+              "Nada más: con las 80 horas de servicio completas en el sitio, el reconocimiento de la comisión llega solo.",
+              "Que su Jefe de Clan firme las evidencias del proyecto: el reconocimiento lo da la unidad, no una comisión."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Patrimonito pide más que los otros desafíos del nivel, y conviene que el dirigente lo sepa antes de que el joven se ilusione."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el reconocimiento pide un Descubrimiento de Scouts del Mundo, un patrimonio reconocido por la UNESCO, un proyecto con horas de servicio en el sitio y una solicitud con evidencias."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Participa en un Descubrimiento</strong> Scouts del Mundo – Patrimonito.",
+            "<strong>Elige el patrimonio</strong> reconocido por la UNESCO que te interese.",
+            "<strong>Contacta a la Comisión Nacional de Mundo Mejor</strong> para recibir las herramientas del proyecto o servicio.",
+            "<strong>Inscribe la iniciativa</strong> en la plataforma de registro scout, que además puede ayudarte a gestionar fondos.",
+            "<strong>Ejecuta el proyecto y 80 horas de servicio voluntario</strong> en el sitio.",
+            "<strong>Comparte y evalúa</strong> la ejecución del proyecto.",
+            "<strong>Solicita el reconocimiento</strong> a la comisión de Mundo Mejor, nacional o de tu Región, con la autoevaluación inicial y final y el proyecto formulado con las evidencias de su ejecución."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Son los pasos del Kit (p. 6), que agrega una regla que el <em>Manual de Implementación del Marco de Mundo Mejor</em> repite: <em>«Los proyectos deben ser ejecutados en los lugares que la UNESCO ha declarado como Patrimonio de la Humanidad»</em> (Manual, p. 42). Eso incluye los sitios inscritos y las manifestaciones inmateriales reconocidas; el Kit abre además una puerta: los quince sitios de la Lista Tentativa, que Colombia postuló y aún no están declarados (p. 8). Y una pregunta que el Kit no responde: si las 80 horas son de cada joven o del equipo. Pregúntalo a la comisión de Mundo Mejor antes de planear, porque cambia el calendario."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Scouts del Mundo, de la mano"
+        },
+        {
+          "type": "paragraph",
+          "text": "El primer paso conecta Patrimonito con el reconocimiento <strong>Scouts del Mundo</strong>, para jóvenes de 15 a 26 años. Su Descubrimiento —el paso «explorar» que viste en el Curso 21— es un encuentro de dos o tres días para explorar una problemática y organizar las ideas del proyecto (Manual, pp. 63–64). Uno de los objetivos del Kit es justamente ese: dar a los jóvenes, a través de Scouts del Mundo, una plataforma para seguir actuando (p. 5). Los detalles de ese reconocimiento los viste en el <a href=\"marco-mundo-mejor-ods.html\">Curso 21</a>. Y las reglas de porte de la insignia son las mismas: la porta quien fue reconocido oficialmente por la Comisión Nacional (Manual, p. 67)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Camila no le da la respuesta al rover de la capilla: le pasa la lista del Kit. Él la busca, no la encuentra y saca su conclusión: cuidar la capilla puede ser un buen servicio del Clan, pero no es Patrimonito. Decide sumarse al equipo del Barniz, como el rover del mural, que se ofrece para la difusión. Antes de ir al taller, el equipo escribe a la comisión de Mundo Mejor para preguntar por el próximo Descubrimiento: es el primer paso, y sin él no hay reconocimiento."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "🤝 Con la comunidad, no sobre ella",
+      "emoji": "🤝",
+      "navLabel": "La comunidad",
+      "reflection": {
+        "prompt": "Imagina el proyecto de tu unidad sobre un patrimonio cercano. ¿Quiénes lo viven todos los días y quiénes lo gestionan? Descríbelos por su rol —portadores, junta, entidad—, sin nombres. ¿Qué les preguntarías antes de proponer nada, y qué harías si su respuesta no coincide con la idea que traían tus protagonistas?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar a la seguridad 🧳",
+        "questions": [
+          {
+            "text": "Unos nómadas encuentran fragmentos de cerámica antigua en una salida y proponen «rescatarlos» para exhibirlos en la sede, como proyecto de conservación. ¿Qué es lo correcto?",
+            "options": [
+              "Recogerlos y entregarlos a la comunidad del lugar: el patrimonio es de quienes lo viven, y ellos lo cuidarán.",
+              "Dejarlos donde están y avisar a la autoridad: lo arqueológico es de la nación, y está a cargo del ICANH.",
+              "Llevárselos si nadie los reclama en la zona: el patrimonio es de todos, y exhibirlo en la sede lo difunde."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Una Comunidad quiere apoyar a una escuela de músicas de marimba. Los nómadas llegan con un video de arreglos modernos «para que los jóvenes la escuchen»; los maestros dicen que lo que les falta son alumnos. ¿Qué hace el dirigente?",
+            "options": [
+              "Ayudar a replantear el proyecto con los maestros: ese saber es de la comunidad que lo practica y lo transmite.",
+              "Animarlos a seguir: el video también ayuda a salvaguardar ese saber, y lo lleva a quienes todavía no lo conocen.",
+              "Pedir a los maestros que aprueben la idea: si la comunidad da su visto bueno, el proyecto sigue como estaba."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "El equipo del Barniz ya pasó por el Descubrimiento, recibió de la comisión las herramientas del proyecto y lo inscribió en la plataforma de registro scout. Tiene ruta, lugar y ganas. Le falta lo más importante: la gente que vive ese patrimonio."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> un patrimonio tiene dueños, cuidadores y reglas. El proyecto se hace con la comunidad que lo vive y con las instituciones que lo gestionan, no sobre ellas."
+        },
+        {
+          "type": "paragraph",
+          "text": "La etapa Comparte del Kit lo dice en su orden: identificar los problemas o necesidades del patrimonio con amigos, grupos, comunidad y socios; explorar soluciones con otras personas; hacer una lluvia de ideas con los miembros de la comunidad; revisar si es viable y sostenible; presentar los resultados al grupo y a los beneficiarios; y acordar la solución, con un plan de acción y objetivos SMART (pp. 9–10). Una de sus actividades propone empezar por un <strong>mapeo social</strong> de la comunidad que vive el patrimonio: qué actividades económicas se generan a su alrededor y cómo lo hace suyo en la vida diaria (p. 25)."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "De quién es el patrimonio"
+        },
+        {
+          "type": "paragraph",
+          "text": "La definición de patrimonio inmaterial que trae el Kit empieza por ahí: son los usos, expresiones y saberes <em>«que las comunidades, los grupos y, en algunos casos, los individuos reconozcan como parte integrante de su patrimonio cultural»</em> (p. 16). Un Clan puede ayudar a salvaguardar un saber, pero no decide por quienes lo practican qué hay que cambiar de él. Por eso los planes de salvaguardia piden que <em>«toda la comunidad sea facilitadora y que participe permanentemente»</em> (p. 22)."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Y quién lo gestiona"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cada patrimonio tiene quién lo cuida y un plan para hacerlo (pp. 19–22): antes de proponer nada, averigüen cuál es. El patrimonio arqueológico, además, <em>«pertenece a la nación y es inalienable, imprescriptible e inembargable»</em>, y está a cargo del Instituto Colombiano de Antropología e Historia (p. 21). Y un consejo de este curso: un hallazgo no se toca; se avisa a la autoridad. Otra actividad del Kit ayuda a ubicarse: hacer la lista de las instituciones que gestionan el sitio o la práctica y un mapa de cómo se relacionan (p. 25)."
+        },
+        {
+          "type": "paragraph",
+          "text": "El equipo del Barniz llega al taller de la tía con una idea de «modernizar» la técnica. Las artesanas les explican que lo que falta son aprendices y quién cuente el oficio sin inventarlo. El proyecto cambia: acompañar durante varios meses a un grupo de aprendices y registrar con ellas, y con su permiso, el paso a paso del oficio. Ahí el Clan entiende la frase de este curso: el Barniz es lo que las artesanas recibieron, lo que viven hoy en el taller y lo que, sin aprendices, no van a poder dejar."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "🧳 Horas de servicio, con seguridad",
+      "emoji": "🧳",
+      "navLabel": "Seguridad",
+      "reflection": {
+        "prompt": "Si tus protagonistas hicieran sus horas de servicio en un sitio fuera de su ciudad, ¿qué protocolo de tu Grupo o de tu Región aplicarías, a quiénes informarías —por su cargo— y cómo cuidarías que nadie quede a solas con un adulto? Si tu Grupo no tiene protocolo, ¿a quién se lo pedirías?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Continuar al cierre 🏅",
+        "questions": [
+          {
+            "text": "Una nómada de 16 años quiere hacer parte de sus horas en un sitio del Kit que queda a dos días de viaje. ¿Qué hace su dirigente?",
+            "options": [
+              "Lo planea con el protocolo de su Grupo o Región, con el permiso escrito de su familia y la práctica 2+1.",
+              "Le busca un sitio cercano: sin protocolo nacional de pernocta, una menor no puede hacer horas fuera de su ciudad.",
+              "La deja ir con su familia: las horas de servicio son personales, no una actividad scout que se planee en el Grupo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El equipo del Barniz quiere publicar en redes el paso a paso del oficio, con fotos de las artesanas y de los aprendices, varios de ellos menores. ¿Qué hace primero?",
+            "options": [
+              "Mostrar solo el oficio, sin las artesanas: en un proyecto de difusión, las fotos de personas nunca se publican.",
+              "Publicar ya con la etiqueta del desafío: el paso a paso es difusión del patrimonio, y a eso va la ruta.",
+              "Acordar con las artesanas qué se muestra y pedir autorización escrita; con menores, también la de sus familias."
+            ],
+            "correctIndex": 2
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Ochenta horas en un sitio que muchas veces no está en la propia ciudad suponen viajar, dormir fuera y convivir con adultos que no son del Grupo. El Kit no dice nada de eso. Este curso tampoco va a inventarlo."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el servicio en el sitio es una actividad scout, y se planea como cualquier salida: con el protocolo de tu Grupo o tu Región, con las familias informadas —y, si son menores, con su permiso— y con la práctica 2+1."
+        },
+        {
+          "type": "paragraph",
+          "text": "Como viste en el <a href=\"a-salvo-del-peligro-programa.html\">Curso 25</a>, entre los documentos oficiales que sostienen esta plataforma <strong>no hay un protocolo nacional de transporte ni de pernocta</strong>: si tu Grupo o tu Región tienen uno, ese es el que aplicas. Lo que sí rige para todos es la práctica 2+1 al planear salidas, pernoctas y traslados, que el Curso 25 enseña. Y una diferencia que importa: en el Clan tus protagonistas son adultos; en la Comunidad son menores de edad, y eso cambia qué permisos pides y a quién."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que se publica"
+        },
+        {
+          "type": "paragraph",
+          "text": "Una de las actividades del Kit propone inventar una etiqueta para declarar una postura sobre el patrimonio (p. 25), y la ruta de difusión vive de contar. Contar no es lo mismo que exponer. La autorización de las personas que aparecen en una foto o un video se pide antes, y mejor si queda por escrito; con menores de edad, además, la autorización de sus familias, y las fotos responsables que trabajan los Cursos 21 y 25. En un saber artesanal, pregunta también qué parte del oficio la comunidad quiere mostrar."
+        },
+        {
+          "type": "paragraph",
+          "text": "El equipo planea sus horas con Camila y con el protocolo de salidas de su Región. Es el caso sencillo: el taller queda en Pasto y no hay pernocta. Si una nómada de su Grupo quisiera sumarse, el plan cambiaría: es menor de edad, y harían falta los permisos de su familia y la práctica 2+1 en cada traslado. Y son los rovers quienes acuerdan con las artesanas qué se puede grabar y qué no; Camila está en esa conversación, pero no la lleva."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "🏅 Comparte, evalúa y reconoce",
+      "emoji": "🏅",
+      "navLabel": "Tu compromiso",
+      "reflection": {
+        "prompt": "Piensa en el cierre de un proyecto de patrimonio en tu unidad: ¿con quiénes se evaluaría —compañeros, beneficiarios, socios—, qué evidencia mostraría el cambio y cómo lo celebrarían? ¿Qué harías para que la insignia llegue como huella del proceso y no como la meta?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7",
+        "nextLabel": "Ver mi certificado 🏛️",
+        "questions": [
+          {
+            "text": "Un dirigente de Tropa quiere que su Tropa «haga Patrimonito» este año, con insignia incluida. ¿Qué le dirías?",
+            "options": [
+              "Que la Tropa puede vivir el desafío con un proyecto cercano, y la insignia llega cuando cada scout tenga los 15 años.",
+              "Que el desafío empieza a los 15, pero la Tropa puede trabajar una fiesta, un saber o un lugar cercano, sin insignia.",
+              "Que la Tropa puede trabajar el patrimonio natural cercano, pero el cultural y el inmaterial son de ramas mayores."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Un Clan terminó un proyecto de difusión sobre las músicas de marimba y propone cerrarlo con una foto en la sede y pedir la insignia. ¿Qué le falta al cierre, según el Kit?",
+            "options": [
+              "Nada: la evaluación ya se hizo durante el proyecto, y la celebración llega el día en que llegue la insignia.",
+              "La solicitud a la comisión con las evidencias; celebrar con los maestros queda para cuando llegue la insignia.",
+              "Evaluar el impacto con los maestros y sus alumnos, compartirlo en la plataforma y celebrarlo con ellos."
+            ],
+            "correctIndex": 2
+          }
+        ]
+      },
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Meses después, con sus horas de servicio cumplidas en el taller, los aprendices del Barniz son tres, y el registro del oficio, hecho con las artesanas, está en la biblioteca del barrio. El Clan presenta el trabajo en el taller, delante de ellas, y evalúa con ellas y con los aprendices qué cambió."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el desafío termina evaluando con quienes recibieron el proyecto, compartiéndolo y celebrándolo. Y el reconocimiento se pide con evidencias, no se da por las horas."
+        },
+        {
+          "type": "paragraph",
+          "text": "La etapa Actúa del Kit cierra con tres pasos: <strong>evaluar</strong> los objetivos y el impacto, con evaluaciones colectivas e individuales; <strong>informar y compartir</strong> en la plataforma de registro scout; y <strong>celebrar y reconocer</strong> el trabajo con compañeros, beneficiarios y socios (p. 10). Después viene la solicitud a la comisión de Mundo Mejor con la autoevaluación inicial y final y las evidencias (p. 6). La autoevaluación final, puesta al lado de la primera, muestra el camino."
+        },
+        {
+          "type": "paragraph",
+          "text": "La rover de la tía artesana vuelve a su autoevaluación y marca «He terminado mi exploración» en la frase de la cultura y la sostenibilidad. Con esa hoja, la del comienzo y las evidencias, el equipo pide el reconocimiento a la comisión de Mundo Mejor. Y el rover del mural hizo su parte de difusión: con las artesanas, que escogieron qué mostrar, grabó una pieza sobre el oficio que el Clan llevó a un encuentro de rovers de otra Región, lejos de donde nació el Barniz."
+        },
+        {
+          "type": "info-box",
+          "text": "🏛️ <strong>Por eso este curso se sostiene en una frase:</strong> el patrimonio no es lo viejo: es lo que recibimos, lo que vivimos hoy y lo que vamos a dejar. El Barniz lo muestra entero: las artesanas lo recibieron de quienes les enseñaron, lo viven cada día en el taller, y lo que el Clan ayudó a dejar son tres aprendices y un registro hecho con ellas. Al mural de un sábado le faltaban la comunidad, el tiempo y los pasos del reconocimiento. A la capilla, estar en la lista: cuidarla sigue valiendo, pero como servicio del Clan, no como Patrimonito."
+        },
+        {
+          "type": "info-box",
+          "text": "🌿 <strong>Y en tu rama.</strong> El desafío es desde los 15 años, pero el patrimonio cercano se puede trabajar en cualquier rama como parte de su programa: el <em>Modelo de Aplicación</em> nombra, entre los programas de Mensajeros de la Paz, el rescate de historias barriales, el patrimonio natural y cultural y las rutas de memoria viva (p. 99). <strong>Familia y Manada:</strong> sin insignia, con una canción, un juego o una comida que las familias recuerden. <strong>Tropa:</strong> sin insignia, una ruta de memoria viva por el barrio. <strong>Comunidad:</strong> tus nómadas ya tienen la edad del desafío; se presenta en el Congreso de Comunidad y cada nómada decide si lo asume, con la autoevaluación del Kit y, como son menores de edad, con los permisos de la Lección 6. <strong>Clan:</strong> se presenta en el Consejo de Clan y cada rover decide si lo asume; tu Guía dice que el desafío invita a <em>«valorar, proteger y promover el patrimonio cultural y natural como base de la identidad, la memoria colectiva y la convivencia entre generaciones»</em> (p. 62)."
+        },
+        {
+          "type": "info-box",
+          "text": "🔁 <strong>Las cuatro preguntas, sobre este curso.</strong> <strong>Vivir:</strong> seguiste a un Clan del mural de un sábado a un proyecto de meses con las artesanas. <strong>Mirar:</strong> ¿qué patrimonio cercano conocen poco tus protagonistas? <strong>Comprender:</strong> ¿qué le faltaría a una jornada para ser un proyecto? <strong>Proyectar:</strong> ¿a quién de esa comunidad le preguntarán primero? Son los pasos del <em>Modelo de Aplicación de Bolsillo</em>."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Con este curso se cierra el Nivel 4"
+        },
+        {
+          "type": "paragraph",
+          "text": "Con este curso se completa el Nivel 4 de la línea: el marco de Scouts por los ODS en el <a href=\"marco-mundo-mejor-ods.html\">Curso 21</a>, tres desafíos de Mensajeros de la Paz —<a href=\"kit-constructores-paz.html\">Constructores de Paz</a>, <a href=\"kit-heforshe-genero.html\">HeForShe</a> y Patrimonito— y la seguridad en el <a href=\"a-salvo-del-peligro-programa.html\">Curso 25</a>. Y recuerda la condición del <em>Manual de Implementación</em> para acompañar sus actividades: haber completado el curso oficial A Salvo del Peligro (p. 6); el Curso 25 no lo reemplaza."
+        },
+        {
+          "type": "mission-box",
+          "text": "🎯 <strong>Tu tarea para este ciclo.</strong> Con tus protagonistas, busquen un patrimonio cercano —una fiesta, un saber, un lugar— y antes de proponer nada, pregúntenle a alguien de la comunidad que lo vive qué necesita. Si en tu unidad hay jóvenes de 15 años o más interesados en el desafío, revisa con ellos la lista del Kit y averigua con la comisión de Mundo Mejor cuándo es el próximo Descubrimiento. Anota en el Compromiso Personal, junto a tu certificado, qué patrimonio van a explorar y a quién le preguntarán."
+        }
+      ]
+    }
+  ]
+}
