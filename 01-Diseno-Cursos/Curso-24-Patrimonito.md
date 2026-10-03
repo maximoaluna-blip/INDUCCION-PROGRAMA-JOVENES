@@ -15,7 +15,7 @@ El plan lo describe como la aplicación del *Kit Patrimonito* (alianza con UNESC
 | **Manual de Implementación MM** (jun-2021) §4.4, pp. 38–46 | ODS 4, 8, 11 (p. 38); 15 años (p. 39); *«Los proyectos deben ser ejecutados en los lugares que la UNESCO ha declarado»* (p. 42); tabla por Comunidad y Clan (p. 46); **Scouts del Mundo**: 15–26 años, Descubrimiento de 2–3 días (pp. 63–64); porte (p. 67). |
 | **Modelo** 2026 | Mensajeros de la Paz: *«Cultura y patrimonio (rescate de historias barriales, patrimonio natural y cultural, rutas de memoria viva)»* (p. 99). |
 | **Guía de Clan** 2026 | Patrimonito *«invita a valorar, proteger y promover el patrimonio cultural y natural»* (p. 62). |
-| **Curso 25** | No hay protocolo nacional de transporte ni pernocta; se aplica el del Grupo o la Región; práctica 2+1. |
+| **Curso 25** | Para el transporte por carretera rige el *Protocolo Nacional de Transporte* (CNGR-022-1, 2025, obligatorio); no hay protocolo nacional de pernocta: se aplica el del Grupo o la Región; práctica 2+1. (Corregido el 03-oct-2026: antes decía que no había protocolo de transporte.) |
 
 **Discrepancias y decisiones registradas (dentro de la autonomía, sin arbitrar):**
 1. **El plan dice «en las ramas»; el Kit y el Manual, desde 15 años.** El curso es para dirigentes de **Comunidad y Clan**; para Familia, Manada y Tropa ofrece el camino del *Modelo* p. 99 (patrimonio cercano en el programa, sin insignia).

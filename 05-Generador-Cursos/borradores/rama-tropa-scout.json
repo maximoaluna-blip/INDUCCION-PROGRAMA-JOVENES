@@ -3,7 +3,7 @@
   "title": "Rama Tropa Scout",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El curso de rama para quienes acompañan la adolescencia temprana. Vas a acompañar a Andrés, que acaba de dar el Gran Salto desde la Manada, y a entender el cambio que hace difícil esta rama: en la Tropa los Scouts deciden solos.",
-  "contentVersion": "2026-10-02",
+  "contentVersion": "2026-10-03",
   "icon": "⚜️",
   "duration": "45 minutos",
   "level": 2,
@@ -791,7 +791,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Esta rama acampa, camina y sale más que ninguna de las anteriores, así que las reglas de entorno seguro dejan de ser teóricas. Cómo aplicar la práctica 2+1 y la gestión del riesgo al planear salidas, traslados y pernoctas lo trabaja el <strong>Curso 25 (A Salvo del Peligro aplicado al Programa)</strong>, ya disponible. No hay un protocolo nacional publicado para eso: pídele el de tu grupo a tu Jefe de Grupo antes de la próxima salida."
+          "text": "Esta rama acampa, camina y sale más que ninguna de las anteriores, así que las reglas de entorno seguro dejan de ser teóricas. Cómo aplicar la práctica 2+1 y la gestión del riesgo al planear salidas, traslados y pernoctas lo trabaja el <strong>Curso 25 (A Salvo del Peligro aplicado al Programa)</strong>, ya disponible. Para el transporte por carretera rige el <em>Protocolo Nacional de Transporte</em>, de cumplimiento obligatorio; para la pernocta no hay uno nacional publicado. Pídele a tu Jefe de Grupo el de transporte antes de la próxima salida, y pregúntale si tu Grupo o tu Región usan uno para pernoctar."
         },
         {
           "type": "info-box",

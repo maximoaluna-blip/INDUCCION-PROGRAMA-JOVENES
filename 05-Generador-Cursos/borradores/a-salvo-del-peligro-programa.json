@@ -3,7 +3,7 @@
   "title": "A Salvo del Peligro aplicado al Programa",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Cómo el Método Scout hace segura a tu unidad: los once puntos en que la Política Nacional A Salvo del Peligro se articula con el Programa de Jóvenes, aplicados a un campamento real — la cultura de escucha, la práctica 2+1 al planear, la vida en línea, los datos de los protagonistas y el mecanismo de reporte. Para todo dirigente de unidad, de cualquier rama. No reemplaza el módulo oficial A Salvo del Peligro.",
-  "contentVersion": "2026-10-02",
+  "contentVersion": "2026-10-03",
   "icon": "🛡️",
   "duration": "55 minutos",
   "level": 4,
@@ -406,15 +406,32 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "El traslado y la actividad acuática: lo que no te vamos a inventar"
+          "text": "El traslado y la actividad acuática: lo que hay y lo que no"
         },
         {
           "type": "paragraph",
-          "text": "Algunos cursos de esta línea te dijeron que lo que aplica a salidas, transporte y pernoctas estaría aquí. Te debemos una precisión: <strong>entre los documentos oficiales que sostienen esta plataforma no hay un protocolo nacional de transporte, de pernocta ni de actividades acuáticas</strong>. Ni la Política ni su Manual Operativo lo traen. Si tu Grupo o tu Región tienen uno, ese es el que aplicas; la <em>Guía de Dirigente de Comunidad</em>, de hecho, pide seguir los protocolos de gestión del riesgo nacionales, regionales y locales que existan: pregunta cuáles aplican en los tuyos. Lo que sí hay es con qué pensar esos momentos: la práctica 2+1, los seis elementos de la gestión del riesgo y la matriz del Curso 14."
+          "text": "Algunos cursos de esta línea te dijeron que lo que aplica a salidas, transporte y pernoctas estaría aquí. Te debemos una precisión. Para el <strong>transporte terrestre sí hay protocolo nacional</strong>: el <em>Protocolo Nacional de Transporte</em> (CNGR-022-1, mayo de 2025), que se declara <em>«de obligatorio cumplimiento en todos los niveles de la Asociación Scouts de Colombia»</em>. Para la <strong>pernocta y las actividades acuáticas</strong>, en cambio, entre los documentos oficiales que sostienen esta plataforma no hay protocolo nacional: ni la Política ni su Manual Operativo lo traen. Si tu Grupo o tu Región tienen uno, ese es el que aplicas; la <em>Guía de Dirigente de Comunidad</em>, de hecho, pide seguir los protocolos de gestión del riesgo nacionales, regionales y locales que existan: pregunta cuáles aplican en los tuyos. Y para todos esos momentos tienes con qué pensar: la práctica 2+1, los seis elementos de la gestión del riesgo y la matriz del Curso 14."
         },
         {
           "type": "paragraph",
-          "text": "Para el <strong>traslado</strong>, entonces: quién viaja con quién se decide en el plan, también para una urgencia —por ejemplo, quién acompaña si hay que llevar a alguien al médico—, para que nadie termine a solas con un protagonista. Para la <strong>actividad acuática</strong>: pasa por la matriz como cualquier otra, con la probabilidad y la consecuencia que de verdad tiene, y pregunta en tu Grupo y en tu Región qué protocolo aplican. Y para lo que no tenga protocolo, la <em>Guía de Dirigente de Clan</em> da una pista que sirve a todas las ramas: al planear un peregrinaje, buscar el apoyo de un dirigente del Grupo o de la Región con conocimientos en gestión del riesgo."
+          "text": "Para el <strong>traslado</strong>, el Protocolo pone la responsabilidad en la jefatura que autoriza el desplazamiento: en una salida de Grupo, el Jefe de Grupo o quien él delegue. Quizás no te toque contratar el bus, pero sí pedirle el Protocolo a tu Jefe de Grupo antes de subir a un protagonista a un vehículo. Entre otras cosas, pide:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Un <strong>dirigente supervisor del viaje</strong>, y alguien que no viaje para seguir el vehículo desde fuera.",
+            "Que el cupo lo marquen los <strong>cinturones</strong> en buen estado, no los asientos.",
+            "Que cada menor lleve su <strong>documento</strong> y, si viaja sin su familia, la <strong>autorización firmada</strong>: reúnelos a tiempo en tu unidad.",
+            "Un <strong>grupo con las familias</strong> para avisarles dónde van, las paradas y la llegada."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Y lo que el Protocolo no resuelve lo resuelve la práctica 2+1: quién viaja con quién se decide en el plan, también para una urgencia —por ejemplo, quién acompaña si hay que llevar a alguien al médico—, para que nadie termine a solas con un protagonista."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para la <strong>actividad acuática</strong>: pasa por la matriz como cualquier otra, con la probabilidad y la consecuencia que de verdad tiene, y pregunta en tu Grupo y en tu Región qué protocolo aplican. Y para lo que no tenga protocolo, la <em>Guía de Dirigente de Clan</em> da una pista que sirve a todas las ramas: al planear un peregrinaje, buscar el apoyo de un dirigente del Grupo o de la Región con conocimientos en gestión del riesgo."
         },
         {
           "type": "heading",

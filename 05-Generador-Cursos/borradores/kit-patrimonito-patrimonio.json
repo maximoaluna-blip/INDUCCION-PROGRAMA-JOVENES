@@ -3,7 +3,7 @@
   "title": "Patrimonito: el patrimonio de la humanidad en tu unidad",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Cómo se acompaña el desafío Patrimonito, de Mensajeros de la Paz, que se hace desde los 15 años y en alianza con la UNESCO: qué cuenta como patrimonio —cultural, natural e inmaterial—, las tres rutas del desafío, los pasos de la insignia con Scouts del Mundo y las horas de servicio en el sitio, cómo trabajar con la comunidad que vive el patrimonio y cómo hacerlo seguro. El patrimonio no es lo viejo: es lo que recibimos, vivimos y dejamos. Para dirigentes de Comunidad y Clan, y con un camino para las demás ramas.",
-  "contentVersion": "2026-09-28",
+  "contentVersion": "2026-10-03",
   "icon": "🏛️",
   "duration": "35 minutos",
   "level": 4,
@@ -467,9 +467,9 @@
           {
             "text": "Una nómada de 16 años quiere hacer parte de sus horas en un sitio del Kit que queda a dos días de viaje. ¿Qué hace su dirigente?",
             "options": [
-              "Lo planea con el protocolo de su Grupo o Región, con el permiso escrito de su familia y la práctica 2+1.",
+              "Lo planea con el protocolo nacional de transporte, el de su Región, el permiso de su familia y la práctica 2+1.",
               "Le busca un sitio cercano: sin protocolo nacional de pernocta, una menor no puede hacer horas fuera de su ciudad.",
-              "La deja ir con su familia: las horas de servicio son personales, no una actividad scout que se planee en el Grupo."
+              "Lo planea con ella y su familia: con el permiso firmado y un rover que la acompañe, el viaje ya está cubierto."
             ],
             "correctIndex": 0
           },
@@ -491,11 +491,11 @@
         },
         {
           "type": "info-box",
-          "text": "<strong>Idea central:</strong> el servicio en el sitio es una actividad scout, y se planea como cualquier salida: con el protocolo de tu Grupo o tu Región, con las familias informadas —y, si son menores, con su permiso— y con la práctica 2+1."
+          "text": "<strong>Idea central:</strong> el servicio en el sitio es una actividad scout, y se planea como cualquier salida: con el protocolo nacional de transporte y el de tu Grupo o tu Región, con las familias informadas —y, si son menores, con su permiso— y con la práctica 2+1."
         },
         {
           "type": "paragraph",
-          "text": "Como viste en el <a href=\"a-salvo-del-peligro-programa.html\">Curso 25</a>, entre los documentos oficiales que sostienen esta plataforma <strong>no hay un protocolo nacional de transporte ni de pernocta</strong>: si tu Grupo o tu Región tienen uno, ese es el que aplicas. Lo que sí rige para todos es la práctica 2+1 al planear salidas, pernoctas y traslados, que el Curso 25 enseña. Y una diferencia que importa: en el Clan tus protagonistas son adultos; en la Comunidad son menores de edad, y eso cambia qué permisos pides y a quién."
+          "text": "Como viste en el <a href=\"a-salvo-del-peligro-programa.html\">Curso 25</a>, para el transporte por carretera rige el <em>Protocolo Nacional de Transporte</em>, de cumplimiento obligatorio: pídeselo a tu Jefe de Grupo antes del primer viaje. Para la pernocta no hay protocolo nacional entre los documentos oficiales que sostienen esta plataforma: si tu Grupo o tu Región tienen uno, ese es el que aplicas. Y lo que rige siempre, haya o no protocolo, es la práctica 2+1 al planear salidas, pernoctas y traslados, que el Curso 25 enseña. Y una diferencia que importa: en el Clan tus protagonistas son adultos; en la Comunidad son menores de edad, y eso cambia qué permisos pides y a quién."
         },
         {
           "type": "heading",
