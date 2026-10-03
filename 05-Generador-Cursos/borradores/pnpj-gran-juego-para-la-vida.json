@@ -3,7 +3,7 @@
   "title": "La PNPJ y \"El Gran Juego para la Vida\"",
   "subtitle": "El Programa de Jóvenes aterrizado a Colombia",
   "description": "El Curso 6 de la Línea Programa de Jóvenes. En ~35 minutos vas a aterrizar todo lo aprendido al contexto colombiano: la Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. 617 de 2024) y su Modelo de Aplicación \"El Gran Juego para la Vida\" (DNPJ 2026). Vas a recorrer las 5 ramas, las 6 áreas de crecimiento, las 3 etapas × 3 momentos y las herramientas operativas, y a construir tu mapa personal del Modelo.",
-  "contentVersion": "2026-09-21",
+  "contentVersion": "2026-10-02",
   "icon": "📜",
   "duration": "35 minutos",
   "level": 1,
@@ -599,7 +599,7 @@
         },
         {
           "type": "mission-box",
-          "text": "Guarda este mapa. Te servirá cada vez que vayas a planear una reunión, un campamento o un proyecto."
+          "text": "Escríbelo en tu reflexión y, si quieres tenerlo a mano, guárdalo también en el recuadro «Compromiso Personal», junto a tu certificado. Te servirá cada vez que vayas a planear una reunión, un campamento o un proyecto."
         },
         {
           "type": "heading",
@@ -622,7 +622,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tu mapa del Modelo completo (la plantilla de arriba) y guárdalo. Te lo enviaremos por correo con tu certificado."
+        "prompt": "Escribe tu mapa del Modelo completo (la plantilla de arriba). Si quieres tenerlo a mano, cópialo también en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7",
@@ -697,5 +697,9 @@
   "certificate": {
     "courseName": "LA PNPJ Y \"EL GRAN JUEGO PARA LA VIDA\"",
     "description": "ha completado el Curso 6 de la Línea Programa de Jóvenes, situando la Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. 617 de 2024) y su Modelo de Aplicación \"El Gran Juego para la Vida\" como marco vigente del Programa de Jóvenes en Colombia, y reconociendo las 5 ramas, las 6 áreas de crecimiento, las 3 etapas y los 3 momentos, y las herramientas operativas del Modelo al servicio de los protagonistas de programa de la Asociación Scouts de Colombia"
+  },
+  "commitmentBox": {
+    "prompt": "Copia aquí tu mapa del Modelo, para tenerlo a mano cuando planees una reunión, un campamento o un proyecto:",
+    "placeholder": "Sirvo en la rama … Su grupo natural se llama … Su marco simbólico es …"
   }
 }

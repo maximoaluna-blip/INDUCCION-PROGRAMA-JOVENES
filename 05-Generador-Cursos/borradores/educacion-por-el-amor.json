@@ -3,7 +3,7 @@
   "title": "La Educación por el Amor",
   "subtitle": "La apuesta de Baden-Powell en Ginebra, 1922",
   "description": "El segundo curso de la Línea Programa de Jóvenes y la brújula ética del Programa. En ~30 minutos vas a entender qué dijo Baden-Powell en Ginebra en 1922 sobre cómo se educa, vas a distinguir la educación por el temor de la educación por el amor, y vas a ver cómo los 4 objetivos de la instrucción se convirtieron en las 6 áreas de crecimiento de hoy. Termina con tu propia revisión pedagógica y un compromiso de práctica.",
-  "contentVersion": "2026-09-20",
+  "contentVersion": "2026-10-02",
   "icon": "💗",
   "duration": "30 minutos",
   "level": 1,
@@ -500,7 +500,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Completa esta plantilla en tu reflexión: <em>“Esta semana, en mi unidad/familia/aula, voy a reemplazar la práctica __________ por la práctica __________. La señal de que se cumplió será __________.”</em>"
+          "text": "Completa esta plantilla en el recuadro «Compromiso Personal» que aparece junto a tu certificado —ese se queda en tu navegador—: <em>“Esta semana, en mi unidad/familia/aula, voy a reemplazar la práctica __________ por la práctica __________. La señal de que se cumplió será __________.”</em>"
         },
         {
           "type": "heading",
@@ -524,7 +524,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tu compromiso pedagógico completo. Queda guardado en tu progreso del curso: puedes volver a leerlo cuando quieras."
+        "prompt": "De los cuatro motores antiguos —castigo, recompensa, vanidad o competencia—, ¿cuál se te coló más en tu auto-revisión, y qué práctica por el amor vas a probar en su lugar? No cuentes la situación ni nombres a nadie: basta con el motor y la práctica. El compromiso completo escríbelo en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."
       },
       "quiz": {
         "title": "Mini-quiz Lección 6",
@@ -593,5 +593,9 @@
   "certificate": {
     "courseName": "LA EDUCACIÓN POR EL AMOR",
     "description": "ha completado el Curso 2 de la Línea Programa de Jóvenes, comprendiendo la apuesta de Baden-Powell en Ginebra (1922) por la educación por el amor en sustitución de la educación por el temor, y comprometiéndose a una práctica pedagógica por el amor al servicio de los protagonistas de programa de la Asociación Scouts de Colombia"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe tu compromiso pedagógico de esta semana con la plantilla de la Lección 6: qué práctica vas a reemplazar, por cuál, y cuál será la señal.",
+    "placeholder": "Esta semana voy a reemplazar la práctica … por la práctica … La señal de que se cumplió será …"
   }
 }

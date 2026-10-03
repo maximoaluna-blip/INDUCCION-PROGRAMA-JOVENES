@@ -3,7 +3,7 @@
   "title": "Características Esenciales del Movimiento Scout",
   "subtitle": "El \"qué\" del Movimiento según la OMMS (Kuala Lumpur, 2019)",
   "description": "El Curso 4 de la Línea Programa de Jóvenes entrega la identidad doctrinal del Movimiento: su Propósito, sus 3 Principios y los 6 elementos que lo distinguen de cualquier otra propuesta para jóvenes. Al final vas a poder explicarle a alguien externo qué es el Movimiento Scout en menos de un minuto, sin recurrir a uniformes ni a campamentos.",
-  "contentVersion": "2026-09-21",
+  "contentVersion": "2026-10-02",
   "icon": "🌟",
   "duration": "30 minutos",
   "level": 1,
@@ -537,7 +537,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tu frase de una línea (paso 4). Te la enviaremos por correo con tu certificado para que la tengas a mano."
+        "prompt": "Escribe tu definición de una frase (la plantilla de arriba). Si quieres tenerla a mano, cópiala también en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."
       },
       "quiz": {
         "title": "Mini-quiz Lección 6",
@@ -606,5 +606,9 @@
   "certificate": {
     "courseName": "CARACTERÍSTICAS ESENCIALES DEL MOVIMIENTO SCOUT",
     "description": "ha completado el Curso 4 de la Línea Programa de Jóvenes, reconociendo el Propósito, los 3 Principios y los 6 elementos que definen al Movimiento Scout según las Características Esenciales de la OMMS (2019), y comprendiendo la alianza joven-adulto como criterio para evaluar su propia práctica al servicio de los protagonistas de programa de la Asociación Scouts de Colombia"
+  },
+  "commitmentBox": {
+    "prompt": "Copia aquí tu definición de una frase, para tenerla a mano cuando alguien te pregunte qué es el Movimiento Scout:",
+    "placeholder": "El Movimiento Scout es …, que existe para …, basado en … y se distingue porque es …"
   }
 }

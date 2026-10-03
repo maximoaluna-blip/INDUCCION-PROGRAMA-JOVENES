@@ -392,7 +392,9 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
     - 🐻⚜️🧗🏔️ **Cursos 9, 10, 11 y 12** — las guías de las otras 4 ramas: Familia (9), Tropa (10), Comunidad (11) y Clan (12), si acompañas o vas a acompañar más de una. *(Las cuatro ya están publicadas.)*
 8. **`info-box`** — Despedida: _"Tú no diriges la Manada. Le ofreces el territorio, el símbolo y la confianza — y el rumbo lo marcan ellos. Bienvenido, Viejo Lobo."_
 
-**Reflexión:** _"Escribe tu compromiso completo siguiendo la plantilla. Te lo recordaremos junto a tu certificado."_
+**Reflexión:** _"Sin nombres: ¿qué tipo de decisión vas a dejar de tomar tú —un juego, una regla, una salida…— y a quién se la pasas: al Consejo de Roca o a una seisena? El compromiso completo escríbelo en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."_
+
+**Compromiso Personal** (`commitmentBox`, se queda en el navegador; corrección de privacidad del 02-oct-2026, ADR-117): _"Escribe tu primer paso como Viejo Lobo con la plantilla de la Lección 8: qué vas a hacer en la próxima reunión de Manada y cuál será la señal de que se cumplió."_ — placeholder _"En mi próxima reunión de Manada voy a … La señal de que se cumplió será …"_
 
 **Quiz (2 preguntas):**
 

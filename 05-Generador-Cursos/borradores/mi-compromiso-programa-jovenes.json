@@ -3,7 +3,7 @@
   "title": "Mi Compromiso con el Programa de Jóvenes",
   "subtitle": "Tu plan personal de dirigente — cierre del Nivel 1",
   "description": "El cierre del Nivel 1 de la Línea Programa de Jóvenes. En ~30 minutos vas a convertir los Cursos 1 a 6 en un Plan Personal de Dirigente firmable: revisas tu brújula, defines tu rol, rama y áreas prioritarias, planeas tu próxima reunión y tu proyecto del trimestre, trazas tu ruta de formación y firmas tu promesa personal. No hay contenido nuevo: integras lo que ya tienes en algo accionable.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-02",
   "icon": "🗺️",
   "duration": "30 minutos",
   "level": 1,
@@ -56,15 +56,15 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "<strong>Idea central:</strong> revisión guiada de las reflexiones acumuladas."
+          "text": "<strong>Idea central:</strong> revisión guiada de lo que escribiste al cerrar cada curso."
         },
         {
           "type": "paragraph",
-          "text": "Antes de planear, miremos hacia atrás. Las reflexiones que escribiste en cada curso son tu <strong>brújula personal</strong>: lo que más te resonó, lo que más te costó, lo que reconociste como propio. Aquí las vamos a recuperar."
+          "text": "Antes de planear, miremos hacia atrás. Lo que escribiste al cierre de cada curso es tu <strong>brújula personal</strong>: lo que más te resonó, lo que más te costó, lo que reconociste como propio. Aquí lo vamos a recuperar."
         },
         {
           "type": "info-box",
-          "text": "🧭 <strong>Tu brújula del Nivel 1.</strong> Recupera las reflexiones de cierre que escribiste en cada curso: el compromiso de la primera semana (Curso 1, L6), tu compromiso pedagógico (Curso 2, L6), tu frase de «antes pensaba / ahora entiendo» sobre qué es educar (Curso 3, L6), tu frase de definición (Curso 4, L6), tu ajuste de reunión (Curso 5, L8) y tu mapa del Modelo (Curso 6, L7). Tenlas a la vista mientras construyes tu plan."
+          "text": "🧭 <strong>Tu brújula del Nivel 1.</strong> Recupera lo que escribiste al cerrar cada curso: el compromiso de la primera semana (Curso 1, L6), tu compromiso pedagógico (Curso 2, L6), tu frase de «antes pensaba / ahora entiendo» sobre qué es educar (Curso 3, L6), tu frase de definición (Curso 4, L6), tu ajuste de reunión (Curso 5, L8) y tu mapa del Modelo (Curso 6, L7). Tenlo todo a la vista mientras construyes tu plan. Unos están en la reflexión de la última lección y otros en el recuadro «Compromiso Personal», junto al certificado de ese curso. Ojo: el recuadro solo está en el navegador donde lo escribiste."
         },
         {
           "type": "heading",
@@ -86,7 +86,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Responde las 3 preguntas del paso anterior. No copies de tus reflexiones anteriores; reescribe con la perspectiva de quien ya terminó los 6 cursos."
+        "prompt": "Responde las 3 preguntas del paso anterior. No copies lo que escribiste en los cursos anteriores; reescribe con la perspectiva de quien ya terminó los 6 cursos."
       },
       "quiz": {
         "title": "Mini-quiz Lección 2",
@@ -95,9 +95,9 @@
           {
             "text": "Una \"brújula personal\" en este Nivel 1 es…",
             "options": [
-              "Un instrumento físico que se le entrega a cada participante cuando cierra el Nivel 1.",
-              "El conjunto de reflexiones que escribiste en cada curso y que ahora guía tu plan.",
-              "La hoja de ruta con los cursos que siguen en el Nivel 2."
+              "Un objeto simbólico que te entregan al cerrar el Nivel 1 y que llevas a tus reuniones.",
+              "Lo que escribiste al cerrar cada curso, en reflexiones o recuadros, y que guía tu plan.",
+              "La lista de cursos que te faltan del Nivel 2, en el orden en que te conviene tomarlos."
             ],
             "correctIndex": 1
           },
@@ -415,7 +415,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Anota en tu reflexión: la <strong>inicial o el rol</strong> del par dirigente, su <strong>grupo o ámbito</strong>, <strong>cuándo</strong> le compartirás el plan, y con <strong>qué frecuencia</strong> se reunirán para revisar avances (semanal, quincenal o mensual)."
+          "text": "Anota en tu reflexión, sin su nombre ni su inicial: el <strong>rol</strong> del par dirigente, su <strong>ámbito</strong> —tu grupo, tu rama en otro grupo, un curso—, <strong>cuándo</strong> le compartirás el plan, y con <strong>qué frecuencia</strong> se reunirán para revisar avances (semanal, quincenal o mensual)."
         },
         {
           "type": "heading",
@@ -428,13 +428,13 @@
         },
         {
           "type": "mission-box",
-          "text": "Lee tu promesa en voz alta antes de descargar tu certificado. Lo que se dice cobra peso. Lo que se escribe se queda."
+          "text": "Escribe tu promesa en el recuadro «Compromiso Personal» que aparece junto a tu certificado —ese se queda en tu navegador— y léela en voz alta antes de descargar el certificado. Lo que se dice cobra peso. Lo que se escribe se queda."
         },
         {
           "type": "photo-upload",
           "photoId": "pj-promesa-personal-nivel-1",
           "prompt": "Foto de tu promesa firmada (opcional)",
-          "hint": "Si quieres, imprime la promesa, fírmala a mano y súbele la foto. Es solo para ti — la guardamos en tu navegador.",
+          "hint": "Si quieres, copia a mano la promesa —la misma que vas a escribir en el recuadro junto a tu certificado—, fírmala y sube la foto. Es solo para ti: la guardamos en tu navegador.",
           "buttonLabel": "📷 Subir foto de mi promesa"
         },
         {
@@ -457,7 +457,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tu promesa personal completa (la plantilla de arriba) y agrega una línea propia tuya — algo que solo tú podrías comprometer, según tu camino. Esta promesa te la enviaremos por correo con tu certificado."
+        "prompt": "Sin nombres ni iniciales: ¿qué rol tiene tu par dirigente, en qué ámbito lo conoces, cuándo le vas a compartir el plan y cada cuánto lo revisarán juntos? Tu promesa personal escríbela en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."
       },
       "quiz": {
         "title": "Mini-quiz Lección 6",
@@ -526,5 +526,9 @@
   "certificate": {
     "courseName": "MI COMPROMISO CON EL PROGRAMA DE JÓVENES",
     "description": "ha completado el Curso 7 de la Línea Programa de Jóvenes, cerrando el Nivel 1 con un Plan Personal de Dirigente y una Promesa personal que integran los aprendizajes de los Cursos 1 a 6, comprometiéndose a vivir el Programa de Jóvenes como una alianza educativa al servicio de los protagonistas de la Asociación Scouts de Colombia"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe aquí tu promesa personal del Nivel 1 (la de la Lección 6) y agrega una línea propia: algo que solo tú podrías comprometer, según tu camino.",
+    "placeholder": "Yo, …, completé el Nivel 1 de la Línea Programa de Jóvenes… Me comprometo a…"
   }
 }

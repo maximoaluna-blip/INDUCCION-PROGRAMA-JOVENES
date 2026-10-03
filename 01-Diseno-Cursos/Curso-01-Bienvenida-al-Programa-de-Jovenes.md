@@ -296,7 +296,9 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
     - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes.
 11. **`info-box`** — Despedida: _"Bienvenido al equipo de los que acompañan. Lo que viene vale el viaje."_
 
-**Reflexión:** _"Escribe tu compromiso completo siguiendo la plantilla. Esto te lo enviaremos por correo cuando descargues tu certificado para que lo recuerdes en una semana."_
+**Reflexión:** _"Sin nombres: ¿con quién vas a dar tu primer paso —otro dirigente, un protagonista o una familia— y qué señal observable te dirá que se cumplió? El compromiso completo escríbelo en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."_
+
+**Compromiso Personal** (`commitmentBox`, se queda en el navegador; corrección de privacidad del 02-oct-2026, ADR-117): _"Escribe tu compromiso de esta semana con la plantilla de la Lección 6: qué vas a hacer en tu unidad, con quién (por su rol) y cuál será la señal de que se cumplió."_ — placeholder _"Esta semana, en mi unidad, voy a … Lo voy a hacer con … Y la señal de que se cumplió será …"_
 
 **Quiz (2 preguntas):**
 

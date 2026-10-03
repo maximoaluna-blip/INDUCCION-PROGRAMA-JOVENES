@@ -377,7 +377,9 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
     - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes: tu compromiso escrito como dirigente.
 11. **`info-box`** — Despedida: _"Bienvenido al equipo de los que aplican el Método con conciencia. Lo que viene vale el viaje."_
 
-**Reflexión:** _"Escribe tu ajuste para la próxima reunión (paso 7) y guárdalo. Lo vas a recibir por correo con tu certificado."_
+**Reflexión:** _"¿Cuántas de las 8 preguntas respondiste con «sí», y qué elemento escogiste fortalecer? Solo el número y el elemento. El ajuste completo escríbelo en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."_
+
+**Compromiso Personal** (`commitmentBox`, se queda en el navegador; corrección de privacidad del 02-oct-2026, ADR-117): _"Escribe tu ajuste para la próxima reunión: el elemento que vas a fortalecer, qué vas a agregar y cuál será la señal de que se cumplió."_ — placeholder _"En mi próxima reunión voy a fortalecer el elemento …, agregando … La señal será …"_
 
 **Quiz (2 preguntas):**
 

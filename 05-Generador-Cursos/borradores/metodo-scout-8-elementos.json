@@ -3,7 +3,7 @@
   "title": "El Método Scout y sus 8 elementos",
   "subtitle": "El \"cómo\" del Movimiento — un sistema, no una lista",
   "description": "El curso más largo y más importante del Nivel 1. En ~40 minutos vas a entender el Método Scout como un sistema de autoeducación progresiva basado en 8 elementos interdependientes — no una lista de técnicas que se eligen a gusto. Vas a recorrer los 8 elementos en 4 parejas, ver las 4 dinámicas que hacen visible el Método en tu unidad y salir con un plan concreto para integrar el Método en tu próxima reunión.",
-  "contentVersion": "2026-09-17",
+  "contentVersion": "2026-10-02",
   "icon": "🧭",
   "duration": "40 minutos",
   "level": 1,
@@ -675,7 +675,7 @@
         },
         {
           "type": "paragraph",
-          "text": "En mi próxima reunión voy a fortalecer el elemento __________, agregando __________. La señal de que se cumplió será __________."
+          "text": "Complétalo en el recuadro «Compromiso Personal» que aparece junto a tu certificado: “En mi próxima reunión voy a fortalecer el elemento __________, agregando __________. La señal de que se cumplió será __________.”"
         },
         {
           "type": "mission-box",
@@ -700,7 +700,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tu ajuste para la próxima reunión (paso 7) y guárdalo. Lo vas a recibir por correo con tu certificado."
+        "prompt": "¿Cuántas de las 8 preguntas respondiste con «sí», y qué elemento escogiste fortalecer? Como el Método es un sistema, di también qué otro elemento crees que se va a mover cuando fortalezcas ese, y por qué. El ajuste completo escríbelo en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."
       },
       "quiz": {
         "title": "Mini-quiz Lección 8",
@@ -781,5 +781,9 @@
   "certificate": {
     "courseName": "EL MÉTODO SCOUT Y SUS 8 ELEMENTOS",
     "description": "ha completado el Curso 5 de la Línea Programa de Jóvenes, comprendiendo el Método Scout como un sistema de autoeducación progresiva basado en la interacción de sus 8 elementos, y formulando un plan concreto para integrarlos en su próxima reunión al servicio de los protagonistas de programa de la Asociación Scouts de Colombia"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe tu ajuste para la próxima reunión: el elemento que vas a fortalecer, qué vas a agregar y cuál será la señal de que se cumplió.",
+    "placeholder": "En mi próxima reunión voy a fortalecer el elemento …, agregando … La señal será …"
   }
 }

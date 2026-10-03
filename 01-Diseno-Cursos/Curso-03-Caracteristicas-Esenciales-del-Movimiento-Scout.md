@@ -289,7 +289,9 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes.
 11. **`info-box`** — Despedida: _"Bienvenido al equipo de los que pueden explicar lo que hacen. Lo que viene vale el viaje."_
 
-**Reflexión:** _"Escribe tu frase de una línea (paso 4). Te la enviaremos por correo con tu certificado para que la tengas a mano."_
+**Reflexión:** _"Escribe tu frase de una línea (paso 4). Si quieres tenerla a mano, cópiala también en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."_
+
+**Compromiso Personal** (`commitmentBox`, se queda en el navegador; corrección de privacidad del 02-oct-2026, ADR-117): _"Copia aquí tu definición de una frase, para tenerla a mano cuando alguien te pregunte qué es el Movimiento Scout:"_ — placeholder _"El Movimiento Scout es …, que existe para …, basado en … y se distingue porque es …"_
 
 **Quiz (2 preguntas):**
 

@@ -312,7 +312,9 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
     - **Próximos meses**: el resto del Nivel 2, el Nivel 3 (cuando ejerzas un cargo) y los demás cursos del Nivel 4.
 12. **`info-box`** — Despedida: _"Bienvenida, bienvenido al equipo de quienes tienen plan. El Movimiento te necesitaba. Tu unidad también. Buen camino."_
 
-**Reflexión:** _"Escribe tu promesa personal completa (paso 7) y agrega una línea propia tuya — algo que solo tú podrías comprometer, según tu camino. Esta promesa te la enviaremos por correo con tu certificado."_
+**Reflexión:** _"Sin nombres ni iniciales: ¿qué rol tiene tu par dirigente, en qué ámbito lo conoces y cada cuánto revisarán juntos el plan? Tu promesa personal escríbela en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."_
+
+**Compromiso Personal** (`commitmentBox`, se queda en el navegador; corrección de privacidad del 02-oct-2026, ADR-117): _"Escribe aquí tu promesa personal del Nivel 1 (la de la Lección 6) y agrega una línea propia: algo que solo tú podrías comprometer, según tu camino."_ — placeholder _"Yo, …, completé el Nivel 1 de la Línea Programa de Jóvenes… Me comprometo a…"_
 
 **Quiz (2 preguntas):**
 

@@ -3,7 +3,7 @@
   "title": "Rama Familia (Cachorros)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El curso de rama para quienes acompañan la primera infancia. En ~45 minutos vas a acompañar a Salomé, que llega al Cubil a los 5 años, y a entender por qué a esa edad el juego no es el envoltorio del Método Scout: es el Método funcionando a plena potencia.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-02",
   "icon": "🐻",
   "duration": "45 minutos",
   "level": 2,
@@ -116,7 +116,7 @@
         }
       ],
       "reflection": {
-        "prompt": "¿Qué Nombre de Caza elegirías, y por qué ese? Y ahora la parte incómoda: de las dos formas que este curso descarta —la del maestro y la del papá—, ¿cuál te va a costar más soltar? Escríbelo sin adornarlo; nadie más lo va a leer."
+        "prompt": "¿Qué Nombre de Caza elegirías, y por qué ese? Y ahora la parte incómoda: de las dos formas que este curso descarta —la del maestro y la del papá—, ¿cuál te va a costar más soltar? Escríbelo sin adornarlo: nadie te va a calificar por esto."
       },
       "quiz": {
         "title": "Mini-quiz Lección 2",
@@ -837,7 +837,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tres cosas, cortas y concretas: (1) el Nombre de Caza que vas a usar; (2) UNA cosa que vas a cambiar en tu próxima reunión por lo que viste en este curso; y (3) la próxima salida de tu unidad: cuántos Cachorros van, cuántos adultos hacen falta según la proporción, quiénes son y quién los confirma esta semana. La tercera es la que no se puede dejar para después."
+        "prompt": "Escribe tres cosas, cortas y concretas: (1) el Nombre de Caza que vas a usar; (2) UNA cosa que vas a cambiar en tu próxima reunión por lo que viste en este curso; y (3) la próxima salida de tu unidad: cuántos Cachorros van, cuántos adultos hacen falta según la proporción, qué roles cubren y quién —por su cargo— los confirma esta semana. La tercera es la que no se puede dejar para después."
       },
       "quiz": {
         "title": "Mini-quiz Lección 8",

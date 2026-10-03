@@ -295,7 +295,9 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes: tu plan de compromisos como dirigente.
 10. **`info-box`** — Despedida: _"Cuando dudes, recuerda la idea que B-P hizo suya en Ginebra, del educador Edmundo Holmes: 'Aprender haciendo y contribuyendo a la formación del propio yo y no recibiendo pasivamente las ideas de otros; ese es el principio.' Buen camino."_
 
-**Reflexión:** _"Escribe tu compromiso pedagógico completo. Queda guardado en tu progreso del curso: puedes volver a leerlo cuando quieras."_
+**Reflexión:** _"De los cuatro motores antiguos —castigo, recompensa, vanidad o competencia—, ¿cuál se te coló más en tu auto-revisión? Solo el motor, sin situaciones ni personas. El compromiso completo escríbelo en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."_
+
+**Compromiso Personal** (`commitmentBox`, se queda en el navegador; corrección de privacidad del 02-oct-2026, ADR-117): _"Escribe tu compromiso pedagógico de esta semana con la plantilla de la Lección 6: qué práctica vas a reemplazar, por cuál, y cuál será la señal."_ — placeholder _"Esta semana voy a reemplazar la práctica … por la práctica … La señal de que se cumplió será …"_
 
 **Quiz (2 preguntas):**
 

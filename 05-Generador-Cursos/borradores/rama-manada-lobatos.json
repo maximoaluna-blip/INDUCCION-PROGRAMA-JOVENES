@@ -3,7 +3,7 @@
   "title": "Rama Manada (Lobatos)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El primer curso de rama del Nivel 2 de la Línea Programa de Jóvenes. En ~35 minutos vas a acompañar a Andrés, un lobato de 7 años, desde su llegada a la Manada hasta su Gran Salto hacia la Tropa: el marco simbólico de La Fantasía y su fondo motivador, El Libro de las Tierras Vírgenes, las seisenas sin jefes fijos, las seis Sendas de la progresión y tu rol como Viejo Lobo — facilitador, no jefe.",
-  "contentVersion": "2026-09-21",
+  "contentVersion": "2026-10-02",
   "icon": "🐺",
   "duration": "35 minutos",
   "level": 2,
@@ -687,7 +687,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Completa esta plantilla en tu reflexión: <em>“En mi próxima reunión de Manada, voy a ______ (algo que muestre que eres facilitador, no jefe — por ejemplo, llevar una decisión al Consejo de Roca, o dejar que una seisena rote quién propone el juego). La señal de que se cumplió será ______ (algo observable, no una intención).”</em>"
+          "text": "Completa esta plantilla en el recuadro «Compromiso Personal» que aparece junto a tu certificado —ese se queda en tu navegador—: <em>“En mi próxima reunión de Manada, voy a ______ (algo que muestre que eres facilitador, no jefe — por ejemplo, llevar una decisión al Consejo de Roca, o dejar que una seisena rote quién propone el juego). La señal de que se cumplió será ______ (algo observable, no una intención).”</em>"
         },
         {
           "type": "mission-box",
@@ -714,7 +714,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tu compromiso completo siguiendo la plantilla. Te lo recordaremos junto a tu certificado."
+        "prompt": "Sin nombres: ¿qué tipo de decisión vas a dejar de tomar tú —un juego, una regla, una salida…— y a quién se la pasas: al Consejo de Roca o a una seisena? El compromiso completo escríbelo en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."
       },
       "quiz": {
         "title": "Mini-quiz Lección 8",
@@ -789,5 +789,9 @@
   "certificate": {
     "courseName": "RAMA MANADA (LOBATOS)",
     "description": "ha completado el Curso 8 de la Línea Programa de Jóvenes — Rama Manada (Lobatos), reconociendo el marco simbólico de El Libro de las Tierras Vírgenes, la organización sin jerarquías fijas de las seisenas, las seis Sendas de la progresión personal y el rol del Viejo Lobo como facilitador, no jefe, al servicio de los lobatos de la Asociación Scouts de Colombia"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe tu primer paso como Viejo Lobo con la plantilla de la Lección 8: qué vas a hacer en la próxima reunión de Manada y cuál será la señal de que se cumplió.",
+    "placeholder": "En mi próxima reunión de Manada voy a … La señal de que se cumplió será …"
   }
 }

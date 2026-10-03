@@ -325,7 +325,9 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
     - 🛡️ **Nivel 4 — Curso 25** — A Salvo del Peligro (de adopción inmediata).
 8. **`info-box`** — Despedida: _"Ya sabes qué dice Colombia. Te queda un curso para cerrar el Nivel 1. Buen camino."_
 
-**Reflexión:** _"Escribe tu mapa del Modelo completo (paso 4) y guárdalo. Te lo enviaremos por correo con tu certificado."_
+**Reflexión:** _"Escribe tu mapa del Modelo completo (la plantilla de arriba). Si quieres tenerlo a mano, cópialo también en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."_
+
+**Compromiso Personal** (`commitmentBox`, se queda en el navegador; corrección de privacidad del 02-oct-2026, ADR-117): _"Copia aquí tu mapa del Modelo, para tenerlo a mano cuando planees una reunión, un campamento o un proyecto:"_ — placeholder _"Sirvo en la rama … Su grupo natural se llama … Su marco simbólico es …"_
 
 **Quiz (2 preguntas):**
 

@@ -3,7 +3,7 @@
   "title": "Bienvenida al Programa de Jóvenes",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El primer paso en la Línea Programa de Jóvenes. En ~25 minutos vas a entender qué es realmente el Programa de Jóvenes (y qué no), desarmar los mitos del dirigente nuevo, ubicar las 5 ramas y la documentación marco, y dar tu primer compromiso concreto. Sin tecnicismos, con ejemplos del día a día de una unidad.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-02",
   "icon": "🎒",
   "duration": "25 minutos",
   "level": 1,
@@ -490,7 +490,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Completa esta plantilla en tu reflexión: <em>“Esta semana, en mi unidad, voy a ______ (algo que muestre que el Programa es alianza, no manual). Lo voy a hacer con ______ (otro dirigente, un protagonista, una familia). Y la señal de que se cumplió será ______ (algo observable, no una intención).”</em>"
+          "text": "Completa esta plantilla en el recuadro «Compromiso Personal» que aparece junto a tu certificado —ese se queda en tu navegador—: <em>“Esta semana, en mi unidad, voy a ______ (algo que muestre que el Programa es alianza, no manual). Lo voy a hacer con ______ (otro dirigente, un protagonista, una familia: por su rol, no por su nombre). Y la señal de que se cumplió será ______ (algo observable, no una intención).”</em>"
         },
         {
           "type": "mission-box",
@@ -519,7 +519,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tu compromiso completo siguiendo la plantilla. Esto te lo enviaremos por correo cuando descargues tu certificado, para que lo recuerdes en una semana."
+        "prompt": "Sin nombres: ¿qué vas a hacer esta semana, y por qué eso muestra que el Programa es una alianza y no un manual? ¿Con quién —otro dirigente, un protagonista o una familia— y qué señal observable te dirá que se cumplió? El compromiso completo escríbelo en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."
       },
       "quiz": {
         "title": "Mini-quiz Lección 6",
@@ -582,5 +582,9 @@
   "certificate": {
     "courseName": "BIENVENIDA AL PROGRAMA DE JÓVENES",
     "description": "ha completado el Curso 1 de la Línea Programa de Jóvenes, reconociendo el Programa de Jóvenes como una alianza educativa entre quien crece y quien acompaña, y dando su primer compromiso concreto como dirigente al servicio de los protagonistas de programa de la Asociación Scouts de Colombia"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe tu compromiso de esta semana con la plantilla de la Lección 6: qué vas a hacer en tu unidad, con quién (por su rol) y cuál será la señal de que se cumplió.",
+    "placeholder": "Esta semana, en mi unidad, voy a … Lo voy a hacer con … Y la señal de que se cumplió será …"
   }
 }
