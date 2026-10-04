@@ -3,7 +3,7 @@
   "title": "La Educación por el Amor",
   "subtitle": "La apuesta de Baden-Powell en Ginebra, 1922",
   "description": "El segundo curso de la Línea Programa de Jóvenes y la brújula ética del Programa. En ~30 minutos vas a entender qué dijo Baden-Powell en Ginebra en 1922 sobre cómo se educa, vas a distinguir la educación por el temor de la educación por el amor, y vas a ver cómo los 4 objetivos de la instrucción se convirtieron en las 6 áreas de crecimiento de hoy. Termina con tu propia revisión pedagógica y un compromiso de práctica.",
-  "contentVersion": "2026-10-02",
+  "contentVersion": "2026-10-04",
   "icon": "💗",
   "duration": "30 minutos",
   "level": 1,
@@ -95,7 +95,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Su informe se llamó <strong>“La educación por el amor en sustitución de la educación por el temor”</strong>. No fue a hablar de uniformes ni de campamentos —aunque los menciona—: fue a hablar de pedagogía. De cómo se educa a un joven sin convertirlo en un soldado dócil ni en un alumno obediente. Habló de <strong>autoeducación voluntaria, fraternidad universal y deseo de conocer</strong>. Lo escucharon educadores de todo el mundo. La OMMS lo reeditó en 2007, en el año centenario del Movimiento, para que ningún dirigente lo olvide."
+          "text": "Su informe se llamó <strong>“La educación por el amor en sustitución de la educación por el temor”</strong>. No fue a hablar de uniformes ni de campamentos —aunque los menciona—: fue a hablar de pedagogía. De cómo se educa a un joven sin convertirlo en un soldado dócil ni en un alumno obediente. Habló de <strong>autoeducación voluntaria, fraternidad universal y deseo de conocer</strong>. Lo escucharon educadores de todo el mundo. La Organización Mundial del Movimiento Scout (OMMS) lo reeditó en 2007, en el año centenario del Movimiento, para que ningún dirigente lo olvide."
         },
         {
           "type": "policy-quote",
@@ -187,6 +187,10 @@
         {
           "type": "paragraph",
           "text": "Cuando estos 4 motores manejan una unidad, una familia o un aula, los chicos aprenden a hacer lo correcto <strong>mientras alguien los mira</strong>. Aprenden a sobrevivir, no a crecer."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>¿Y las insignias?</strong> Por sí solas no son la recompensa que criticó Baden-Powell. El reconocimiento —insignias incluidas— tiene sentido cuando ilumina avances reales, sin volverse presión ni etiqueta (<em>Modelo de Aplicación</em> 2026, p. 14). Se vuelven recompensa cuando el premio reemplaza la razón de hacerlo: «si cumples, te doy algo»."
         },
         {
           "type": "heading",

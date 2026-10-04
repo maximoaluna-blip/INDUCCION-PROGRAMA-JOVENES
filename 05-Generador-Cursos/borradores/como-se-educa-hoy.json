@@ -3,7 +3,7 @@
   "title": "Cómo se Educa Hoy",
   "subtitle": "Conceptos clave de la educación — la base de todo lo que sigue",
   "description": "El Curso 3 de la Línea Programa de Jóvenes, y un paréntesis necesario antes de entrar de lleno a lo scout. En ~30 minutos vas a entender qué es educar, los cuatro pilares de la educación (UNESCO), cómo aprenden de verdad las personas, dónde se aprende (educación formal, no formal e informal) y por qué el aprender haciendo funciona. No es teoría por la teoría: es la base que hace que el Método Scout, las ramas y el Modelo —que vienen después— se entiendan como la aplicación de estas ideas.",
-  "contentVersion": "2026-09-20",
+  "contentVersion": "2026-10-04",
   "icon": "🎓",
   "duration": "30 minutos",
   "level": 1,
@@ -230,7 +230,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La investigación educativa (recogida por la OCDE) resume en <strong>siete principios</strong> lo que sabemos sobre cómo aprenden las personas, en cualquier entorno. Léelos pensando en una reunión tuya: vas a ver que varios ya los haces sin nombrarlos, y que otros son justo lo que falta cuando una actividad “no prende”."
+          "text": "La investigación educativa, recogida por la OCDE (Organización para la Cooperación y el Desarrollo Económicos), resume en <strong>siete principios</strong> lo que sabemos sobre cómo aprenden las personas, en cualquier entorno. Léelos pensando en una reunión tuya: vas a ver que varios ya los haces sin nombrarlos, y que otros son justo lo que falta cuando una actividad “no prende”."
         },
         {
           "type": "policy-quote",

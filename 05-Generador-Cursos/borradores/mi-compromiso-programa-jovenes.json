@@ -3,7 +3,7 @@
   "title": "Mi Compromiso con el Programa de Jóvenes",
   "subtitle": "Tu plan personal de dirigente — cierre del Nivel 1",
   "description": "El cierre del Nivel 1 de la Línea Programa de Jóvenes. En ~30 minutos vas a convertir los Cursos 1 a 6 en un Plan Personal de Dirigente firmable: revisas tu brújula, defines tu rol, rama y áreas prioritarias, planeas tu próxima reunión y tu proyecto del trimestre, trazas tu ruta de formación y firmas tu promesa personal. No hay contenido nuevo: integras lo que ya tienes en algo accionable.",
-  "contentVersion": "2026-10-02",
+  "contentVersion": "2026-10-04",
   "icon": "🗺️",
   "duration": "30 minutos",
   "level": 1,
@@ -261,11 +261,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Anota en tu reflexión: el <strong>nombre tentativo</strong> del proyecto; <strong>de dónde surgió la idea</strong> (de los protagonistas, del adulto que la abrirá a votación, o aún no surgió y la próxima reunión la abren); <strong>qué áreas de crecimiento toca</strong> (mínimo 2 de las 6); y <strong>cómo se conecta con el territorio</strong> (barrio, comunidad, escuela)."
+          "text": "Anota en tu reflexión: el <strong>nombre tentativo</strong> del proyecto; <strong>de dónde surgió la idea</strong> (la formularon los protagonistas; la formularon contigo a partir de algo que les mostraste; o aún no surgió y la buscan juntos en la próxima reunión); <strong>qué áreas de crecimiento toca</strong> (mínimo 2 de las 6); y <strong>cómo se conecta con el territorio</strong> (barrio, comunidad, escuela)."
         },
         {
           "type": "info-box",
-          "text": "Si te quedaste atascado en algún campo, está bien. Marca \"por definir\" y vuelve más tarde. El plan se construye, no se improvisa."
+          "text": "Si te quedaste atascado en algún campo, está bien. Marca \"por definir\" y vuelve más tarde. El plan se construye, no se improvisa. Si aún no tienes cargo o unidad, piensa en la función que cumples hoy o en una unidad que conozcas."
         }
       ],
       "reflection": {
@@ -308,7 +308,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Hoy cierras el Nivel 1. La línea tiene 4 niveles. Aquí defines cuál curso del Nivel 2 vas a tomar primero y cuándo vas a hacer el módulo oficial A Salvo del Peligro de la ASC, que no se deja para después."
+          "text": "Hoy cierras el Nivel 1. La línea tiene 4 niveles. Aquí defines cuál curso del Nivel 2 vas a tomar primero y cuándo vas a hacer los cuatro módulos oficiales de A Salvo del Peligro, que no se dejan para después."
         },
         {
           "type": "heading",
@@ -351,11 +351,25 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "A Salvo del Peligro: el módulo oficial de la ASC, cuanto antes"
+          "text": "A Salvo del Peligro: los módulos oficiales, cuanto antes"
         },
         {
           "type": "info-box",
-          "text": "<strong>Importante</strong>: ningún curso de esta plataforma te bloquea el acceso a otro — entra al Nivel 2 cuando quieras. Y hay algo que no se deja para después: <strong>el módulo oficial A Salvo del Peligro de la ASC</strong>, que es el que la Asociación exige y certifica. Ninguno de nuestros cursos lo reemplaza; búscalo y hazlo ya. El Curso 25 de esta línea (A Salvo del Peligro aplicado al Programa) te sirve para llevarlo a tu unidad, pero el obligatorio es el oficial."
+          "text": "<strong>Importante</strong>: ningún curso de esta plataforma te bloquea el acceso a otro; entra al Nivel 2 cuando quieras. Lo que no se deja para después es <strong>A Salvo del Peligro</strong>: son cuatro módulos oficiales, y ninguno de nuestros cursos los sustituye ni los certifica. Tampoco el Curso 25: ese te sirve para llevarlo a tu unidad."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<a href=\"https://learn.scout.org/resource/sfh-1-safe-harm-essential-learnings\" target=\"_blank\" rel=\"noopener\">SfH 1 — Aprendizajes esenciales</a> (learn.scout.org)",
+            "<a href=\"https://learn.scout.org/resource/sfh-2b-wosm-safe-harm-procedures\" target=\"_blank\" rel=\"noopener\">SfH 2b — Procedimientos de A Salvo del Peligro de la OMMS</a> (learn.scout.org)",
+            "<a href=\"https://learn.scout.org/resource/sfh-3-being-safe-online\" target=\"_blank\" rel=\"noopener\">SfH 3 — Estar seguro en línea</a> (learn.scout.org)",
+            "El complementario de la Asociación, enlazado en la <a href=\"https://scout.org.co/biblioteca/dnam/fase-induccion-adultos-voluntarios-nuevos\" target=\"_blank\" rel=\"noopener\">Guía de inducción</a>. Si ese enlace no te abre, pídeselo a tu jefe inmediato."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cuando termines los cuatro, entrega los certificados a tu jefe inmediato."
         },
         {
           "type": "paragraph",
@@ -373,8 +387,8 @@
             "text": "Un dirigente ya terminó el Nivel 1 y quiere arrancar el Curso 10 (Rama Tropa) del Nivel 2 la próxima semana. Te pregunta si antes tiene que hacer algún otro curso de la plataforma. ¿Qué le dices?",
             "options": [
               "Que sí, que primero tiene que completar el Nivel 4 entero, que es donde están los kits y todo lo relativo a la protección.",
-              "Que no, que nada lo bloquea; y que lo que no debe esperar es el módulo oficial A Salvo del Peligro de la ASC.",
-              "Que sí: la plataforma le bloquea el acceso al Nivel 2 hasta que complete el curso de A Salvo del Peligro."
+              "Que no, que nada lo bloquea; y que lo que no debe esperar son los módulos oficiales de A Salvo del Peligro.",
+              "Que no, nada lo bloquea; y que A Salvo del Peligro puede esperar, porque el Curso 25 ya le enseña lo esencial."
             ],
             "correctIndex": 1
           },
@@ -424,7 +438,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Yo, <strong>[tu nombre]</strong>, completé el Nivel 1 de la Línea Programa de Jóvenes el día <strong>[fecha]</strong>.<br>Asumí los aprendizajes de los Cursos 1 a 6 como brújula de mi servicio al Movimiento Scout.<br>Me comprometo a vivir el Programa de Jóvenes como una alianza educativa entre jóvenes y adultos, no como un manual.<br>Me comprometo a educar por el amor, no por el temor.<br>Me comprometo a aplicar el Método Scout como sistema completo, no como menú.<br>Me comprometo a hacer el módulo oficial A Salvo del Peligro de la ASC, si todavía no lo he hecho.<br>Y me comprometo a revisar y ajustar este Plan Personal de Dirigente, junto con mi par, cada <strong>[frecuencia que elegí]</strong>."
+          "text": "Yo, <strong>[tu nombre]</strong>, completé el Nivel 1 de la Línea Programa de Jóvenes el día <strong>[fecha]</strong>.<br>Asumí los aprendizajes de los Cursos 1 a 6 como brújula de mi servicio al Movimiento Scout.<br>Me comprometo a vivir el Programa de Jóvenes como una alianza educativa entre jóvenes y adultos, no como un manual.<br>Me comprometo a educar por el amor, no por el temor.<br>Me comprometo a aplicar el Método Scout como sistema completo, no como menú.<br>Me comprometo a hacer los cuatro módulos oficiales de A Salvo del Peligro, si todavía no los he hecho.<br>Y me comprometo a revisar y ajustar este Plan Personal de Dirigente, junto con mi par, cada <strong>[frecuencia que elegí]</strong>."
         },
         {
           "type": "mission-box",
@@ -446,7 +460,7 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "<strong>Inmediato</strong>: el módulo oficial A Salvo del Peligro de la ASC, que no lo reemplaza ningún curso nuestro.",
+            "<strong>Inmediato</strong>: los cuatro módulos oficiales de A Salvo del Peligro, que ningún curso nuestro reemplaza.",
             "<strong>Próximo mes</strong>: tu curso de rama del Nivel 2 + un curso pedagógico operativo (13, 14 o 15).",
             "<strong>Próximos meses</strong>: el resto del Nivel 2, el Nivel 3 (cuando ejerzas un cargo) y los demás cursos del Nivel 4."
           ]

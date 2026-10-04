@@ -3,27 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linea Programa de Jovenes - ASC</title>
+    <title>Línea Programa de Jóvenes - ASC</title>
 
     <!-- SEO -->
-    <meta name="description" content="Plataforma de formacion online de la Linea Programa de Jovenes de la Asociacion Scouts de Colombia. Cursos cortos sobre el Programa de Jovenes, las ramas, el Metodo Scout y la documentacion marco (PNPJ).">
-    <meta name="keywords" content="programa de jovenes, PNPJ, metodo scout, ramas scout, dirigente scout, scouts colombia, ASC, gran juego para la vida, educacion por el amor">
-    <meta name="author" content="Asociacion Scouts de Colombia">
+    <meta name="description" content="Plataforma de formación online de la Línea Programa de Jóvenes de la Asociación Scouts de Colombia. Cursos cortos sobre el Programa de Jóvenes, las ramas, el Método Scout y la documentación marco (PNPJ).">
+    <meta name="keywords" content="programa de jóvenes, PNPJ, método scout, ramas scout, dirigente scout, scouts colombia, ASC, gran juego para la vida, educación por el amor">
+    <meta name="author" content="Asociación Scouts de Colombia">
     <link rel="canonical" href="https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/">
 
     <!-- Open Graph / Facebook / WhatsApp -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/">
-    <meta property="og:title" content="Linea Programa de Jovenes - Asociacion Scouts de Colombia">
-    <meta property="og:description" content="Cursos cortos sobre el Programa de Jovenes para dirigentes del movimiento scout. Ramas, Metodo Scout, PNPJ y el Gran Juego para la Vida. Certificados verificables y acceso 24/7.">
+    <meta property="og:title" content="Línea Programa de Jóvenes - Asociación Scouts de Colombia">
+    <meta property="og:description" content="Cursos cortos sobre el Programa de Jóvenes para dirigentes del movimiento scout. Ramas, Método Scout, PNPJ y el Gran Juego para la Vida. Certificados verificables y acceso 24/7.">
     <meta property="og:image" content="https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/assets/logo-asc.png">
     <meta property="og:locale" content="es_CO">
-    <meta property="og:site_name" content="Linea Programa de Jovenes ASC">
+    <meta property="og:site_name" content="Línea Programa de Jóvenes ASC">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Linea Programa de Jovenes - ASC">
-    <meta name="twitter:description" content="Linea de formacion sobre el Programa de Jovenes para dirigentes del movimiento scout en Colombia.">
+    <meta name="twitter:title" content="Línea Programa de Jóvenes - ASC">
+    <meta name="twitter:description" content="Línea de formación sobre el Programa de Jóvenes para dirigentes del movimiento scout en Colombia.">
     <meta name="twitter:image" content="https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/assets/logo-asc.png">
 
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
@@ -285,7 +285,7 @@
         }
 
         .course-card.coming-soon::after {
-            content: 'PROXIMAMENTE';
+            content: 'PRÓXIMAMENTE';
             position: absolute;
             top: 12px;
             right: -35px;
@@ -444,12 +444,12 @@
     <div class="top-bar">
         <div class="top-bar-inner">
             <div class="logos">
-                <img src="assets/logo-asc.png" alt="Asociacion Scouts de Colombia">
+                <img src="assets/logo-asc.png" alt="Asociación Scouts de Colombia">
                 <div class="separator"></div>
                 <img src="assets/logo-vallescout.png" alt="Scouts del Valle">
             </div>
             <div class="top-bar-right">
-                <span class="top-bar-title">Linea Programa de Jovenes</span>
+                <span class="top-bar-title">Línea Programa de Jóvenes</span>
                 <a class="back-portal" href="https://maximoaluna-blip.github.io/PORTAL-ADULTOS-ASC/">← Plataforma ASC</a>
             </div>
         </div>
@@ -457,8 +457,8 @@
 
     <!-- Hero -->
     <div class="hero">
-        <h1>Linea Programa de Jovenes</h1>
-        <p>El Programa de Jovenes en claro: que es, las ramas, el Metodo Scout y la documentacion marco. Cursos cortos para todo dirigente que acompana a ninas, ninos y jovenes.</p>
+        <h1>Línea Programa de Jóvenes</h1>
+        <p>El Programa de Jóvenes en claro: qué es, las ramas, el Método Scout y la documentación marco. Cursos cortos para todo dirigente que acompaña a niñas, niños y jóvenes.</p>
     </div>
 
     <!-- Stats -->
@@ -488,7 +488,7 @@
         <div class="level-nav" id="levelNav"></div>
 
         <div id="levelsContainer">
-            <p style="color: #636363; text-align: center; padding: 20px;">Cargando catalogo de cursos...</p>
+            <p style="color: #636363; text-align: center; padding: 20px;">Cargando catálogo de cursos...</p>
         </div>
     </div>
 
@@ -542,10 +542,10 @@
             if (isNew) classes.push('new');
             if (isComingSoon) classes.push('coming-soon');
 
-            var statusText = isActive ? '✅ Activo' : isNew ? '🆕 Nuevo' : '🔒 Proximo';
+            var statusText = isActive ? '✅ Activo' : isNew ? '🆕 Nuevo' : '🔒 Próximo';
 
             var buttonHtml = isComingSoon
-                ? '<button class="btn disabled" disabled>Proximamente</button>'
+                ? '<button class="btn disabled" disabled>Próximamente</button>'
                 : '<a href="' + escapeHtml(buildHref(course)) + '" class="btn">Iniciar Curso</a>';
 
             return '<div class="' + classes.join(' ') + '">' +
@@ -554,7 +554,7 @@
                 '<p class="course-description">' + escapeHtml(course.description) + '</p>' +
                 '<div class="course-info">' +
                     '<span>⏱️ ' + escapeHtml(course.duration) + '</span>' +
-                    '<span>📊 ' + escapeHtml(course.modules) + ' modulos</span>' +
+                    '<span>📊 ' + escapeHtml(course.modules) + ' módulos</span>' +
                     '<span>' + statusText + '</span>' +
                 '</div>' +
                 buttonHtml +
@@ -641,15 +641,15 @@
             .then(renderCatalog)
             .catch(function(err) {
                 document.getElementById('levelsContainer').innerHTML =
-                    '<p style="color: #b00; text-align: center;">Error al cargar catalogo: ' + escapeHtml(err.message) + '</p>';
+                    '<p style="color: #b00; text-align: center;">Error al cargar el catálogo: ' + escapeHtml(err.message) + '</p>';
             });
     })();
     </script>
 
     <!-- Footer -->
     <div class="footer">
-        <p>© 2026 Asociacion Scouts de Colombia</p>
-        <p>Linea Programa de Jovenes - Asociacion Scouts de Colombia</p>
+        <p>© 2026 Asociación Scouts de Colombia</p>
+        <p>Línea Programa de Jóvenes - Asociación Scouts de Colombia</p>
         <p><a href="verificar-certificado.html">Verificar un certificado</a></p>
     </div>
 

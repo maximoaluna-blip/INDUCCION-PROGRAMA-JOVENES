@@ -3,7 +3,7 @@
   "title": "La PNPJ y \"El Gran Juego para la Vida\"",
   "subtitle": "El Programa de Jóvenes aterrizado a Colombia",
   "description": "El Curso 6 de la Línea Programa de Jóvenes. En ~35 minutos vas a aterrizar todo lo aprendido al contexto colombiano: la Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. 617 de 2024) y su Modelo de Aplicación \"El Gran Juego para la Vida\" (DNPJ 2026). Vas a recorrer las 5 ramas, las 6 áreas de crecimiento, las 3 etapas × 3 momentos y las herramientas operativas, y a construir tu mapa personal del Modelo.",
-  "contentVersion": "2026-10-02",
+  "contentVersion": "2026-10-04",
   "icon": "📜",
   "duration": "35 minutos",
   "level": 1,
@@ -205,7 +205,7 @@
             "<strong>6 → 7: Familia → Manada</strong> — paso de la primera infancia a la niñez. El marco sigue siendo el mismo; lo que cambia es el tipo de relatos y los personajes de cada rama.",
             "<strong>10 → 11: Manada → Tropa</strong> — paso a la patrulla, autonomía mayor.",
             "<strong>14 → 15: Tropa → Comunidad</strong> — el paso a la adolescencia tardía y al trabajo por proyectos.",
-            "<strong>17 → 18: Comunidad → Clan</strong> — paso al Movimiento adulto-joven, mayor toma de decisiones, articulación con RDJ."
+            "<strong>17 → 18: Comunidad → Clan</strong> — paso al Movimiento adulto-joven, mayor toma de decisiones, articulación con la Red de Jóvenes (RDJ)."
           ]
         },
         {
@@ -441,7 +441,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Piensa en un protagonista de tu unidad. ¿En qué etapa de vida en la rama está (Adaptación, Progresión, Transición)? ¿Y en qué momento de aprendizaje está respecto a uno de los contenidos que está trabajando? Sé concreto."
+        "prompt": "Piensa en un protagonista de tu unidad —o de una unidad que conozcas—. ¿En qué etapa de vida en la rama está (Adaptación, Progresión, Transición)? ¿Y en qué momento de aprendizaje está respecto a uno de los contenidos que está trabajando? Sé concreto."
       },
       "quiz": {
         "title": "Mini-quiz Lección 5",
@@ -613,7 +613,7 @@
             "🗺️ <strong>Curso 7</strong> — Mi Compromiso con el Programa de Jóvenes: tu plan personal completo, integrando todo el Nivel 1.",
             "🐻🐺⚜️🧗🏔️ <strong>Nivel 2 — Cursos 8–12</strong> — Profundización por rama (toma el de la tuya).",
             "🛠️ <strong>Nivel 2 — Cursos 13, 14, 15</strong> — Seguimiento, Planeación, Ciclo de Programa con ABP.",
-            "🛡️ <strong>Nivel 4 — Curso 25</strong> — A Salvo del Peligro aplicado al Programa (ya disponible). El que no espera es el <strong>módulo oficial de la ASC</strong>, que ningún curso nuestro reemplaza."
+            "🛡️ <strong>Nivel 4 — Curso 25</strong> — A Salvo del Peligro aplicado al Programa (ya disponible). Lo que no espera son los <strong>módulos oficiales de A Salvo del Peligro</strong>, que ningún curso nuestro reemplaza; dónde encontrarlos, en el <a href=\"mi-compromiso-programa-jovenes.html\">Curso 7</a>, Lección 5."
           ]
         },
         {

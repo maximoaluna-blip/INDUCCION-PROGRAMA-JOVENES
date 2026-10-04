@@ -3,7 +3,7 @@
   "title": "Patrimonito: el patrimonio de la humanidad en tu unidad",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Cómo se acompaña el desafío Patrimonito, de Mensajeros de la Paz, que se hace desde los 15 años y en alianza con la UNESCO: qué cuenta como patrimonio —cultural, natural e inmaterial—, las tres rutas del desafío, los pasos de la insignia con Scouts del Mundo y las horas de servicio en el sitio, cómo trabajar con la comunidad que vive el patrimonio y cómo hacerlo seguro. El patrimonio no es lo viejo: es lo que recibimos, vivimos y dejamos. Para dirigentes de Comunidad y Clan, y con un camino para las demás ramas.",
-  "contentVersion": "2026-10-03",
+  "contentVersion": "2026-10-04",
   "icon": "🏛️",
   "duration": "35 minutos",
   "level": 4,
@@ -495,7 +495,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Como viste en el <a href=\"a-salvo-del-peligro-programa.html\">Curso 25</a>, para el transporte por carretera rige el <em>Protocolo Nacional de Transporte</em>, de cumplimiento obligatorio: pídeselo a tu Jefe de Grupo antes del primer viaje. Para la pernocta no hay protocolo nacional entre los documentos oficiales que sostienen esta plataforma: si tu Grupo o tu Región tienen uno, ese es el que aplicas. Y lo que rige siempre, haya o no protocolo, es la práctica 2+1 al planear salidas, pernoctas y traslados, que el Curso 25 enseña. Y una diferencia que importa: en el Clan tus protagonistas son adultos; en la Comunidad son menores de edad, y eso cambia qué permisos pides y a quién."
+          "text": "Como viste en el <a href=\"a-salvo-del-peligro-programa.html\">Curso 25</a>, para el transporte por carretera rige el <em>Protocolo Nacional de Transporte</em>, de cumplimiento obligatorio: pídeselo a tu Jefe de Grupo antes del primer viaje; lo enseña paso a paso el curso <a href=\"https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/02-Plataforma-Web/actividades-seguras-y-datos.html\" target=\"_blank\" rel=\"noopener\"><em>Actividades seguras</em></a>, en Políticas Transversales. Para la pernocta no hay protocolo nacional entre los documentos oficiales que sostienen esta plataforma: si tu Grupo o tu Región tienen uno, ese es el que aplicas. Y lo que rige siempre, haya o no protocolo, es la práctica 2+1 al planear salidas, pernoctas y traslados, que el Curso 25 enseña. Y una diferencia que importa: en el Clan tus protagonistas son adultos; en la Comunidad son menores de edad, y eso cambia qué permisos pides y a quién."
         },
         {
           "type": "heading",

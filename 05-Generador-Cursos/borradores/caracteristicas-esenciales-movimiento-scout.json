@@ -3,7 +3,7 @@
   "title": "Características Esenciales del Movimiento Scout",
   "subtitle": "El \"qué\" del Movimiento según la OMMS (Kuala Lumpur, 2019)",
   "description": "El Curso 4 de la Línea Programa de Jóvenes entrega la identidad doctrinal del Movimiento: su Propósito, sus 3 Principios y los 6 elementos que lo distinguen de cualquier otra propuesta para jóvenes. Al final vas a poder explicarle a alguien externo qué es el Movimiento Scout en menos de un minuto, sin recurrir a uniformes ni a campamentos.",
-  "contentVersion": "2026-10-02",
+  "contentVersion": "2026-10-04",
   "icon": "🌟",
   "duration": "30 minutos",
   "level": 1,
@@ -180,7 +180,7 @@
           "items": [
             {
               "title": "🙏 Deber con Dios",
-              "description": "Adhesión a principios espirituales, fidelidad a la religión que los expresa y aceptación de los deberes que de ella derivan (<em>The Scout Method</em>, WOSM 2019, p. 10). <strong>El Movimiento no impone una religión específica</strong>; reconoce que la dimensión espiritual es parte del desarrollo integral, y respeta la fe (o búsqueda) de cada quien. En Colombia, la PNPJ lo dice así: reconocer que la espiritualidad y la fe importan en la vida del joven, y respetar las creencias de cada quien (PNPJ 2024, §4.3).",
+              "description": "Adhesión a principios espirituales, fidelidad a la religión que los expresa y aceptación de los deberes que de ella derivan (<em>The Scout Method</em>, OMMS 2019, p. 10). <strong>El Movimiento no impone una religión específica</strong>; reconoce que la dimensión espiritual es parte del desarrollo integral, y respeta la fe (o búsqueda) de cada quien. En Colombia, la PNPJ lo dice así: reconocer que la espiritualidad y la fe importan en la vida del joven, y respetar las creencias de cada quien (PNPJ 2024, §4.3).",
               "color": "#f3e5f5",
               "borderColor": "#8e24aa"
             },
@@ -327,7 +327,7 @@
           "ordered": false,
           "items": [
             "Un campamento militar con uniformes y disciplina no es scout (rompe que el joven sea sujeto activo: ahí se obedece, no se decide).",
-            "Una academia deportiva con insignias por logros no es scout (rompe <strong>para jóvenes</strong> si se vuelve trofeo del coach).",
+            "Una academia deportiva donde los logros de los chicos sirven sobre todo para lucir al club no es scout (rompe <strong>para jóvenes</strong>).",
             "Un grupo parroquial donde solo entran miembros de la fe local no es escultismo, aunque se le parezca (rompe <strong>abierto a todos</strong>).",
             "Un grupo que excluye a niñas o a menores con discapacidad no es escultismo (rompe <strong>abierto a todos</strong>).",
             "Una organización dependiente de un partido político no es escultismo, aunque se llame \"scouts\" (rompe <strong>independiente</strong> y <strong>no político</strong>)."
@@ -378,7 +378,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Hasta ahora vimos qué es el Movimiento. Ahora vamos al corazón de tu rol. Las Características Esenciales OMMS 2019 son enfáticas en algo que conviene grabar."
+          "text": "Hasta ahora vimos qué es el Movimiento. Ahora vamos al corazón de tu rol. Las Características Esenciales OMMS 2019 son enfáticas en algo que conviene grabar. En el Curso 1 viste cómo lo dice la PNPJ: “por” y “con” los jóvenes, no simplemente “para” ellos. La OMMS lo dice con otras palabras, y la idea es la misma: el Movimiento es de los jóvenes, y el adulto lo apoya; no lo gestiona en su nombre. Estas son sus palabras:"
         },
         {
           "type": "policy-quote",
@@ -436,7 +436,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Es una frase latina que significa <strong>'lo primero, no hacer daño'</strong>. La OMMS la usa en la p. 33 para decir algo incómodo y necesario: antes de poner a un adulto frente a jóvenes hay que mirar que tenga la madurez y el equilibrio para estar ahí, que se forme, que su nombramiento tenga fecha de vencimiento y que alguien lo acompañe y lo evalúe mientras sirve. La protección del joven es lo primero. Por eso hay algo que no conviene dejar para después: <strong>el módulo oficial A Salvo del Peligro de la ASC</strong>, que es el que la Asociación exige y certifica y que ningún curso de esta plataforma reemplaza. Aquí ningún curso te bloquea el acceso a otro — pero ese hazlo ya."
+          "text": "Es una frase latina que significa <strong>'lo primero, no hacer daño'</strong>. La OMMS la usa en la p. 33 para decir algo incómodo y necesario: antes de poner a un adulto frente a jóvenes hay que mirar que tenga la madurez y el equilibrio para estar ahí, que se forme, que su nombramiento tenga fecha de vencimiento y que alguien lo acompañe y lo evalúe mientras sirve. La protección del joven es lo primero. Por eso hay algo que no conviene dejar para después: <strong>los módulos oficiales de A Salvo del Peligro</strong>, que son los que la Asociación exige y que ningún curso de esta plataforma reemplaza. Aquí ningún curso te bloquea el acceso a otro — pero esos, hazlos ya: en el <a href=\"mi-compromiso-programa-jovenes.html\">Curso 7</a>, Lección 5, te decimos dónde están los cuatro módulos."
         },
         {
           "type": "info-box",
@@ -444,7 +444,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Recuerda una situación reciente donde tomaste una decisión 'en nombre' de un joven o de un grupo de jóvenes (no por una emergencia, simplemente porque te parecía más rápido). Escribe brevemente: ¿qué pasó? ¿Qué hubiera pasado si lo hubieran decidido ellos?"
+        "prompt": "Recuerda una situación reciente donde tomaste una decisión (o viste a otro adulto tomarla) 'en nombre' de un joven o de un grupo de jóvenes (no por una emergencia, simplemente porque te parecía más rápido). Escribe brevemente: ¿qué pasó? ¿Qué hubiera pasado si lo hubieran decidido ellos?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 5",
