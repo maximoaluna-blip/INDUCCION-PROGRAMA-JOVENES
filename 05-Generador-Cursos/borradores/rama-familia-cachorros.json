@@ -604,10 +604,6 @@
           "text": "Las cinco Dimensiones"
         },
         {
-          "type": "paragraph",
-          "text": "La Guía las define así:"
-        },
-        {
           "type": "policy-quote",
           "label": "📋 Qué es una Dimensión",
           "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §8.5, p. 54 del PDF.",
@@ -617,16 +613,16 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "<strong>Corporal</strong> — motricidad fina y gruesa, reconocer las partes de su cuerpo y la importancia de cuidarlo.",
-            "<strong>Cognitiva</strong> — observar, comparar y clasificar su entorno, y comunicar de forma creativa lo que descubre.",
-            "<strong>Ética</strong> — participar con respeto y solidaridad, reconociendo y siguiendo normas básicas de convivencia.",
-            "<strong>Socio-Afectiva</strong> — construir vínculos positivos, mostrar empatía y manejar sus emociones cotidianas.",
-            "<strong>Espiritual</strong> — cuidado, respeto y gratitud hacia los seres vivos, la naturaleza y lo que vive cada día."
+            "<strong>Corporal</strong> — su cuerpo: moverlo, reconocerlo y cuidarlo.",
+            "<strong>Cognitiva</strong> — observar, comparar y clasificar su entorno, y comunicar lo que descubre.",
+            "<strong>Ética</strong> — convivir con respeto y solidaridad, siguiendo normas básicas.",
+            "<strong>Socio-Afectiva</strong> — vínculos positivos, empatía y manejo de sus emociones.",
+            "<strong>Espiritual</strong> — cuidado, respeto y gratitud hacia los seres vivos y la naturaleza."
           ]
         },
         {
           "type": "paragraph",
-          "text": "Seguro te preguntaste por qué en el Curso 6 eran <strong>seis</strong> áreas de crecimiento y aquí son <strong>cinco</strong> dimensiones. No es una contradicción: la Guía las empareja una por una (p. 55 del PDF), y dos áreas entran por la misma puerta."
+          "text": "¿Por qué en el Curso 6 eran <strong>seis</strong> áreas de crecimiento y aquí son <strong>cinco</strong> dimensiones? No es una contradicción: la Guía las empareja una por una (p. 55 del PDF), y dos áreas entran por la misma puerta."
         },
         {
           "type": "list",
@@ -635,13 +631,13 @@
             "Corporalidad → Dimensión <strong>Corporal</strong>",
             "Creatividad → Dimensión <strong>Cognitiva</strong>",
             "Carácter → Dimensión <strong>Ética</strong>",
-            "Sociabilidad + Afectividad → Dimensión <strong>Socio-Afectiva</strong> (las dos juntas: ahí está el seis que se vuelve cinco)",
+            "Sociabilidad + Afectividad → Dimensión <strong>Socio-Afectiva</strong> (las dos juntas: ahí el seis se vuelve cinco)",
             "Espiritualidad → Dimensión <strong>Espiritual</strong>"
           ]
         },
         {
           "type": "paragraph",
-          "text": "Dicho de otro modo: no son dos sistemas que compiten, es el mismo sistema dicho en el lenguaje de la primera infancia. En este curso, <strong>Dimensión</strong> siempre quiere decir uno de esos cinco campos de formación de la Familia."
+          "text": "Es el mismo sistema, dicho en el lenguaje de la primera infancia. En este curso, <strong>Dimensión</strong> siempre quiere decir uno de esos cinco campos."
         },
         {
           "type": "heading",
@@ -650,7 +646,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El Cachorro que llega entra a la <strong>Etapa de Adaptación</strong>, de <strong>dos meses aproximadamente</strong>. La Guía dice a qué está orientada:"
+          "text": "El Cachorro que llega vive la <strong>Etapa de Adaptación</strong>, de <strong>dos meses aproximadamente</strong>: tiempo para conocer, explorar y sentirse parte — no para evaluar. Termina con la Investidura."
         },
         {
           "type": "policy-quote",
@@ -660,29 +656,20 @@
         },
         {
           "type": "paragraph",
-          "text": "Es tiempo para conocer, explorar y sentirse parte — no para evaluar. Termina con la Investidura."
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "Los tres tramos"
-        },
-        {
-          "type": "paragraph",
-          "text": "Después de la Investidura, el Cachorro recorre <strong>tres fases de progresión</strong>, y cada una tiene nombre de la Selva. La Guía avisa de entrada que <em>\"estas fases no representan grados rígidos ni comparaciones entre compañeros, sino momentos de crecimiento\"</em> (§8.6, p. 57 del PDF)."
+          "text": "Después vienen <strong>tres fases de progresión</strong>, con nombres de la Selva. La Guía avisa: <em>\"estas fases no representan grados rígidos ni comparaciones entre compañeros, sino momentos de crecimiento\"</em> (§8.6, p. 57 del PDF)."
         },
         {
           "type": "list",
           "ordered": true,
           "items": [
-            "👁️ <strong>Mirada de Raksha</strong> — el nivel <strong>Reconoce</strong>. Así como Raksha mira a Mowgli con amor y protección, el Cachorro empieza a mirar la Selva con asombro y confianza. Mira y descubre.",
-            "🐺 <strong>Aullido de Papá Lobo</strong> — el nivel <strong>Expresa</strong>. Encuentra su voz, se expresa con seguridad y afirma su lugar en la Familia. Se hace oír.",
-            "🐾 <strong>Fuerza del Cubil</strong> — el nivel <strong>Comparte</strong>. Ya no solo pertenece: ahora sostiene a los demás. Comparte lo que aprendió."
+            "👁️ <strong>Mirada de Raksha</strong> — nivel <strong>Reconoce</strong>: mira la Selva con asombro y seguridad.",
+            "🐺 <strong>Aullido de Papá Lobo</strong> — nivel <strong>Expresa</strong>: encuentra su voz y se hace oír.",
+            "🐾 <strong>Fuerza del Cubil</strong> — nivel <strong>Comparte</strong>: ya no solo pertenece, sostiene a los demás."
           ]
         },
         {
           "type": "paragraph",
-          "text": "Tres fases, tres verbos: <strong>Reconoce, Expresa, Comparte</strong> (§8.6, p. 56 y §8.7, pp. 59–60 del PDF). Y a cada verbo del niño le corresponde uno tuyo: <strong>Apoyar</strong> en Reconoce, <strong>Acompañar</strong> en Expresa, <strong>Enlazar</strong> en Comparte. La Guía lo remata así: <em>\"Apoyar, acompañar y enlazar no son tareas administrativas: son gestos pedagógicos\"</em> (§8.11, pp. 64–66 del PDF)."
+          "text": "Tres fases, tres verbos (§8.6, p. 56 y §8.7, pp. 59–60 del PDF). Y a cada verbo del niño le corresponde uno tuyo: <strong>Apoyar</strong> en Reconoce, <strong>Acompañar</strong> en Expresa, <strong>Enlazar</strong> en Comparte. <em>\"Apoyar, acompañar y enlazar no son tareas administrativas: son gestos pedagógicos\"</em> (§8.11, pp. 64–66 del PDF)."
         },
         {
           "type": "heading",
@@ -691,22 +678,17 @@
         },
         {
           "type": "paragraph",
-          "text": "Una por cada dimensión, y cada una con su elemento de la Selva. Entre paréntesis va el área de crecimiento con la que la Guía la empareja (p. 59 del PDF):"
+          "text": "Una por dimensión, cada una con su elemento de la Selva: 💧 <strong>Agua</strong> (Corporal), 🌱 <strong>Tierra</strong> (Cognitiva), 🔥 <strong>Fuego</strong> (Ética), 😊 <strong>Felicidad</strong> (Socio-Afectiva) y 🌬️ <strong>Aire</strong> (Espiritual)."
         },
         {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "💧 <strong>Dentellada de Agua</strong> (corporalidad) — el agua es movimiento, fluidez y vida: el cuidado del cuerpo.",
-            "🌱 <strong>Dentellada de Tierra</strong> (creatividad) — la tierra es donde se siembra y se construye: la exploración y el descubrimiento.",
-            "🔥 <strong>Dentellada de Fuego</strong> (carácter) — el fuego es fuerza interior, valentía y decisión: el carácter.",
-            "😊 <strong>Dentellada de Felicidad</strong> (afectividad y sociabilidad) — el espíritu alegre de \"Siempre Alegres\": los vínculos y la empatía.",
-            "🌬️ <strong>Dentellada de Aire</strong> (espiritualidad) — el aire es lo invisible pero esencial: la gratitud y el asombro."
-          ]
+          "type": "policy-quote",
+          "label": "📋 Ver qué simboliza cada Dentellada",
+          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §8.7, p. 59 del PDF.",
+          "text": "<strong>Dentellada de Agua:</strong> El agua en la selva representa movimiento, fluidez y vida. Esta dentellada simboliza el cuidado del cuerpo, el desarrollo motor y la energía vital del Cachorro. Es aprender a moverse con seguridad y a reconocer la funcionalidad de su cuerpo.<br><br><strong>Dentellada de Tierra:</strong> La tierra es donde se siembra y se construye. Esta dentellada simboliza la exploración, la imaginación y el descubrimiento del entorno. Aquí el Cachorro aprende a observar, crear y comprender el mundo que lo rodea.<br><br><strong>Dentellada de Fuego:</strong> El fuego representa fuerza interior, valentía y decisión. Esta dentellada simboliza el desarrollo del carácter, el respeto por las normas, la justicia y la capacidad de elegir hacer el bien.<br><br><strong>Dentellada de Felicidad:</strong> La felicidad es el espíritu alegre del Cachorro (“Siempre alegres”). Representa los vínculos, la empatía, la capacidad de compartir y convivir. Es la dentellada que fortalece la razón de ser de la Familia.<br><br><strong>Dentellada de Aire:</strong> El aire en la selva es lo invisible pero esencial. Simboliza la gratitud, el respeto por la vida y la conexión con la naturaleza y lo trascendente. Es la dimensión que invita al asombro y al cuidado del entorno."
         },
         {
           "type": "info-box",
-          "text": "<strong>Y sí, son insignias.</strong> La Guía dice que <em>\"la insignia de cada dentellada se entrega en el momento en que el Cachorro demuestra el nivel Expresa en la dimensión correspondiente\"</em>, y <strong>recomienda</strong> entregarlas <strong>de a una</strong>, sin acumular varias para el mismo día, <em>\"con el fin de resaltar el logro personal\"</em> (§8.6, p. 58 del PDF). Lo que la Guía sí descarta es otra cosa: <em>\"no es un sistema de requisitos acumulativos, sino un proceso gradual\"</em> (§8.6, p. 56 del PDF). Las insignias no son el problema; la carrera sí."
+          "text": "<strong>Y sí, son insignias.</strong> La Guía dice que <em>\"la insignia de cada dentellada se entrega en el momento en que el Cachorro demuestra el nivel Expresa en la dimensión correspondiente\"</em>, y <strong>recomienda</strong> entregarlas <strong>de a una</strong>, sin acumular varias para el mismo día, <em>\"con el fin de resaltar el logro personal\"</em> (§8.6, p. 58 del PDF). Lo que descarta es la carrera: <em>\"no es un sistema de requisitos acumulativos, sino un proceso gradual\"</em> (p. 56 del PDF)."
         },
         {
           "type": "heading",
@@ -715,44 +697,34 @@
         },
         {
           "type": "paragraph",
-          "text": "Con dos cosas. Las <strong>Dentelladas</strong>, que ya viste — cuando el niño <em>expresa</em> esa dimensión. Y las <strong>especialidades</strong>: algo que le gusta y que después comparte con la Familia. <strong>Una</strong> para llegar al Aullido de Papá Lobo; <strong>tres</strong> en total para la Fuerza del Cubil (§8.6, p. 58 del PDF). Por eso el tercer verbo se llama <em>Comparte</em>: lo que se profundiza, se devuelve."
+          "text": "Con las <strong>Dentelladas</strong> —cuando el niño <em>expresa</em> esa dimensión— y con las <strong>especialidades</strong>: algo que le gusta y que después comparte con la Familia. <strong>Una</strong> para llegar al Aullido de Papá Lobo; <strong>tres</strong> en total para la Fuerza del Cubil (§8.6, p. 58 del PDF). Por eso el tercer verbo se llama <em>Comparte</em>."
         },
         {
           "type": "paragraph",
-          "text": "<strong>Y una especialidad no es un examen.</strong> La Guía da la fórmula en tres pasos: <strong>SABE</strong> dos cosas básicas, <strong>DEMUESTRA</strong> dos acciones prácticas y <strong>COMPARTE</strong> una en la Familia o en la casa. Se completa en <em>“4 a 6 semanas”</em> y <em>“no necesita trámites complejos”</em>. Sale del interés del niño, no de un catálogo: le gustan los animales → <em>Amigo de los Animales</em>; le gusta cuidar plantas → <em>Guardián de la Selva</em> (§8.10, pp. 63–64 del PDF)."
+          "text": "<strong>Y una especialidad no es un examen.</strong> La fórmula tiene tres pasos: <strong>SABE</strong> dos cosas básicas, <strong>DEMUESTRA</strong> dos acciones prácticas y <strong>COMPARTE</strong> una en la Familia o en la casa. Se completa en <em>“4 a 6 semanas”</em>, <em>“no necesita trámites complejos”</em> y sale del interés del niño: le gusta cuidar plantas → <em>Guardián de la Selva</em> (§8.10, pp. 63–64 del PDF)."
         },
         {
           "type": "info-box",
-          "text": "🎖️ <strong>Las especialidades no llevan insignia.</strong> La Guía es explícita: <em>“no cuentan con insignias físicas; sin embargo, es fundamental reconocer y valorar los logros”</em> — con un diploma, una mención, lo que se les ocurra, pero <strong>delante de los demás</strong>. Ahí está tu papel de <strong>Enlazar</strong>: en esta rama, enlazar es acompañar una especialidad hasta que el Cachorro pueda enseñarle algo a la Familia (§8.10, p. 64 y §8.11, p. 65 del PDF)."
-        },
-        {
-          "type": "paragraph",
-          "text": "Y al final está la <strong>Etapa de Transición</strong>, llamada <strong>Cachorro Explorador</strong>. No es una despedida: es el mismo viaje que sigue en otra rama. La Guía lo dice con cuidado sobre el paso a la Manada:"
-        },
-        {
-          "type": "policy-quote",
-          "label": "📋 El paso a la Manada no es una ruptura",
-          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §8.15, p. 67 del PDF.",
-          "text": "…no debe vivirse como un cambio abrupto ni como una ruptura en el camino del Cachorro, sino como una continuidad natural del viaje fantástico."
-        },
-        {
-          "type": "paragraph",
-          "text": "¿Y cuándo se hace ese paso? La Guía pone fecha:"
-        },
-        {
-          "type": "policy-quote",
-          "label": "📋 La edad del paso a la Manada",
-          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §8.15, p. 68 del PDF.",
-          "text": "…idealmente, el paso a la Manada debe realizarse al cumplir los 7 años…"
-        },
-        {
-          "type": "paragraph",
-          "text": "Hay una <em>\"flexibilidad máxima de hasta tres meses\"</em> después de los 7 años, y solo con razones pedagógicas claras (§8.15, p. 68 del PDF). Tres meses es el margen — no es una puerta abierta."
+          "text": "🎖️ <strong>Las especialidades no llevan insignia.</strong> La Guía es explícita: <em>“no cuentan con insignias físicas; sin embargo, es fundamental reconocer y valorar los logros”</em> — con un diploma o una mención, pero <strong>delante de los demás</strong>. Ahí está tu papel de <strong>Enlazar</strong>: acompañar una especialidad hasta que el Cachorro pueda enseñarle algo a la Familia (§8.10, p. 64 y §8.11, p. 65 del PDF)."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Qué esperamos al final"
+          "text": "El paso a la Manada"
+        },
+        {
+          "type": "paragraph",
+          "text": "Al final está la <strong>Etapa de Transición</strong>, llamada <strong>Cachorro Explorador</strong>: el mismo viaje que sigue en otra rama, no una ruptura. El paso se hace, idealmente, <strong>al cumplir los 7 años</strong>, con una <em>\"flexibilidad máxima de hasta tres meses\"</em> y solo con razones pedagógicas claras (§8.15, p. 68 del PDF). Tres meses es el margen — no una puerta abierta."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Lo que dice la Guía del paso a la Manada",
+          "source": "Guía para el Dirigente de Familia de Cachorros (Scouts de Colombia, 2026), §8.15, pp. 67–68 del PDF.",
+          "text": "…no debe vivirse como un cambio abrupto ni como una ruptura en el camino del Cachorro, sino como una continuidad natural del viaje fantástico…<br><br>Idealmente, el paso a la Manada debe realizarse al cumplir los 7 años, garantizando coherencia con la estructura del Movimiento. Sin embargo, puede contemplarse una flexibilidad máxima de hasta tres meses después de esta edad, siempre que existan razones pedagógicas claras y justificadas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y lo que se espera al final no es un niño perfecto, sino uno seguro, alegre y preparado para nuevos desafíos (§8.3, p. 53 del PDF)."
         },
         {
           "type": "policy-quote",
@@ -762,7 +734,7 @@
         },
         {
           "type": "info-box",
-          "text": "🐺 <strong>Aquí Salomé cruza la Ceremonia de Paso.</strong> Del otro lado la espera la Manada — y ahí empieza el <strong>Curso 8</strong>, con Andrés, que acaba de cruzar esa misma ceremonia. Si algún día acompañas esa rama, ese curso continúa exactamente esta historia."
+          "text": "🐺 <strong>Aquí Salomé cruza la Ceremonia de Paso.</strong> Del otro lado la espera la Manada, y ahí empieza el <strong>Curso 8</strong>, con Andrés, que acaba de cruzar esa misma ceremonia."
         }
       ],
       "reflection": {
@@ -874,16 +846,13 @@
         },
         {
           "type": "paragraph",
-          "text": "Si tu Grupo está pensando en abrir la rama, hay un documento hecho para eso: <em>Cómo Crear una Familia de Cachorros</em> (DNPJ-2026-065). Propone <em>\"recorrer tres momentos fundamentales: Intención, Decisión y Acción\"</em>."
+          "text": "Si tu Grupo piensa abrir la rama, hay un documento hecho para eso: <em>Cómo Crear una Familia de Cachorros</em> (DNPJ-2026-065), con tres momentos: <strong>Intención, Decisión y Acción</strong>. Y la Decisión es justo lo de esta lección: ¿hay adultos idóneos, condiciones seguras y claridad en el Método Scout?"
         },
         {
-          "type": "list",
-          "ordered": true,
-          "items": [
-            "<strong>Intención</strong> — reflexionar sobre el porqué: para qué quiere el Grupo abrir esta rama.",
-            "<strong>Decisión</strong> — evaluar con criterio si hay adultos idóneos y condiciones seguras.",
-            "<strong>Acción</strong> — dar el paso, con la formación y los roles definidos."
-          ]
+          "type": "policy-quote",
+          "label": "📋 Ver los tres momentos",
+          "source": "Cómo Crear una Familia de Cachorros, DNPJ-2026-065 (Scouts de Colombia, 2026), p. 2 del PDF.",
+          "text": "Esta guía propone recorrer tres momentos fundamentales: Intención, Decisión y Acción; como un camino responsable y coherente para hacerlo posible. La Intención nos invita a reflexionar sobre el porqué, la Decisión nos llama a evaluar con criterio si contamos con los adultos idóneos, las condiciones seguras y la claridad en el Método Scout; y finalmente, la Acción nos impulsa a poner en marcha la Familia con organización, alegría y coherencia simbólica."
         },
         {
           "type": "mission-box",

@@ -291,28 +291,17 @@
         },
         {
           "type": "paragraph",
-          "text": "La metáfora del piñón se vuelve concreta en los cargos. La Guía los ordena en dos grupos —los de ciudad y los de campamento— y a los seis de ciudad les pone apodo. Vale la pena usarlos: son los que hacen que un chico de doce se sienta indispensable."
+          "text": "La metáfora del piñón se vuelve concreta en los cargos. La Guía nombra <strong>once</strong>: seis de ciudad —Intendente, Enfermero, Guardián de Leyenda, Mensajero, Secretario y Tesorero— y cinco de campamento —Cocinero, Ayudante de Cocina, Aguador, Leñador y Ambientador—; el Intendente aparece en las dos listas, y la Guía añade que el Guardián de Leyenda y el Enfermero también sirven en campamento. A los de ciudad les pone apodo (el Tesorero es <em>«el contador»</em>; el Guardián de Leyenda, <em>«el alegre»</em>), y vale la pena usarlos: son los que hacen que un chico de doce se sienta indispensable."
         },
         {
           "type": "paragraph",
           "text": "Los cargos no los repartes tú: se eligen en el <strong>Consejo de Patrulla</strong>, libremente, según lo que a cada uno se le dé bien. Y conviene que roten: la Guía recomienda entre 6 y 12 meses, que es lo que se tarda en aprender uno bien."
         },
         {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "<strong>Tesorero</strong>, <em>“el contador”</em> — lleva las cuentas de la patrulla y consigue lo que falta.",
-            "<strong>Secretario</strong>, <em>\"el archivero y escribano\"</em> — mantiene el libro de actas del Consejo de Patrulla y las hojas de vida de cada Scout.",
-            "<strong>Enfermero</strong>, <em>\"el servicial\"</em> — conoce primeros auxilios y cuida el botiquín.",
-            "<strong>Intendente</strong>, <em>“el ordenado”</em> — entrega y recibe el equipo de patrulla; que nada se pierda.",
-            "<strong>Cocinero</strong> — la despensa, el fogón, y sorprender con un plato en la reunión de ciudad.",
-            "<strong>Ayudante de Cocina</strong> — lava y pica, y entrega el material de cocina limpio al Intendente.",
-            "<strong>Aguador</strong> — el agua fresca de la patrulla, siempre disponible y siempre limpia.",
-            "<strong>Ambientador</strong> — el orden del rincón: lo diseña con el Guía y lo mantiene habitable.",
-            "<strong>Guardián de Leyenda</strong>, <em>\"el alegre\"</em> — lleva el Libro de Oro, y es el que pone los cantos y las danzas.",
-            "<strong>Mensajero</strong>, <em>\"el recordatorio\"</em> — el que chatea con todos durante la semana y visita al que está enfermo.",
-            "<strong>Leñador</strong> — hacha, machete, nudos y el fuego del campamento."
-          ]
+          "type": "policy-quote",
+          "label": "📋 Ver los once cargos y qué hace cada uno",
+          "source": "Guía de Buenas Prácticas para Jefes de Tropa (Scouts de Colombia, 2023 — documento de apoyo, Módulo 1, en revisión), pp. 11–15 del PDF. Selección: una función de cada cargo.",
+          "text": "<strong>CARGOS EN LA CIUDAD:</strong><ul><li><strong>INTENDENTE: “El ordenado”:</strong> Cuida y ordena el equipo de Patrulla, carpas, palos, cuerdas, herramientas. […]</li><li><strong>ENFERMERO. “El servicial”:</strong> Estudia y conoce nociones de primeros auxilios. […]</li><li><strong>GUARDIAN DE LEYENDA “El alegre”:</strong> Es la alegría de la patrulla. Mantiene la fraternidad e incentiva la amistad al interior de la Patrulla. […]</li><li><strong>MENSAJERO. “El recordatorio”:</strong> […] Avisa a la Patrulla todas las actividades que el Guía le encarga conforme al programa de Patrulla y de la Tropa. […]</li><li><strong>SECRETARIO “El archivero y escribano”:</strong> Es el buen escritor de la Patrulla. Mantiene las hojas de vida de cada scout. […]</li><li><strong>TESORERO “El contador”:</strong> Es el scout de los dineros. […]</li></ul><strong>CARGOS EN CAMPAMENTO:</strong><ul><li><strong>COCINERO:</strong> Aprende cocina básica y prepara los alimentos de la Patrulla. […]</li><li><strong>AYUDANTE DE COCINA:</strong> […] Lava y pica frutas y verduras. […]</li><li><strong>INTENDENTE:</strong> Entrega y recibe del scout todo el equipo de la Patrulla que fue usado en campamento o excursión. […]</li><li><strong>AGUADOR (O AGUATERO):</strong> Mantiene agua fresca en los bidones al interior de la Patrulla. […]</li><li><strong>LEÑADOR:</strong> Conoce las técnicas de hacha, cuchillo, machete y nudos. […]</li><li><strong>AMBIENTADOR:</strong> Es el scout del orden en el rincón de Patrulla. […]</li></ul><strong>IMPORTANTE:</strong> El Guardián de Leyenda lo será en campamento y en ciudad y el Intendente lo mismo. El Enfermero también actuará en campamento."
         },
         {
           "type": "info-box",
@@ -415,20 +404,32 @@
         },
         {
           "type": "paragraph",
-          "text": "Los símbolos que la Guía de 2023 nombra son estos. Ninguno lo pone el adulto: todos los construye la patrulla."
+          "text": "La Guía de 2023 nombra <strong>nueve</strong> símbolos de patrulla:"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "<strong>Animal de Patrulla</strong> — el que eligieron porque tiene las virtudes que quieren personificar. La Guía recomienda <em>\"un serio estudio sobre el animal\"</em>: hábitos, alimentación, comportamiento. No es escoger un dibujo bonito.",
-            "<strong>Grito</strong> — con el que se presentan y se animan. <em>\"A ningún Scout se le permite usar otra llamada que no sea la de su patrulla.\"</em>",
-            "<strong>Lema</strong> — suele referirse al animal: las Águilas, <em>\"volando a las altas cumbres\"</em>; los Castores, <em>\"construyendo el futuro\"</em>.",
-            "<strong>Banderín</strong> — tela con los colores de la patrulla, la silueta del animal y el número del Grupo Scout.",
-            "<strong>Canto</strong> — la Guía lo nombra entre los símbolos y no lo desarrolla. Quien lleva la libreta de cantos y danzas es el Guardián de Leyenda.",
-            "<strong>Insignia de Patrulla</strong> — la diseña la propia patrulla: un círculo de 5 cm con la figura del animal, que va en la manga izquierda, 2 cm debajo de la insignia de rama (p. 10 del PDF).",
-            "<strong>Libro de Oro</strong>, <strong>Bordón</strong> y <strong>Rincón</strong> — la memoria, el símbolo que se lleva y el territorio propio."
+            "Animal de Patrulla",
+            "Grito",
+            "Lema",
+            "Banderín",
+            "Canto",
+            "Insignia de Patrulla",
+            "Libro de Oro",
+            "Bordón",
+            "Rincón"
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Ninguno lo pone el adulto: todos los construye la patrulla.</strong> Y el animal no es escoger un dibujo bonito: la Guía recomienda <em>\"un serio estudio sobre el animal\"</em> —sus hábitos, su alimentación, su comportamiento—."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué dice la Guía de cada símbolo",
+          "source": "Guía de Buenas Prácticas para Jefes de Tropa (Scouts de Colombia, 2023 — documento de apoyo, Módulo 1, en revisión), pp. 9–10 del PDF. Selección; el canto y el bordón los nombra sin desarrollarlos.",
+          "text": "<ul><li><strong>Animal de Patrulla.</strong> Es el animal que la Patrulla eligió como símbolo y que posee las virtudes y representa los valores que cada Scout quiere respetar y personificar. Se recomienda que haya un serio estudio sobre el animal y se conozca plenamente en sus hábitos de alimentación, reproducción, comportamiento y sus particularidades.</li><li><strong>Grito.</strong> El Scout en la patrulla aprenderá a dar una llamada que se asemeje al grito del animal escogido. […] A ningún Scout se le permite usar otra llamada que no sea la de su patrulla.</li><li><strong>Lema.</strong> Cada patrulla escoge su propio lema que generalmente se refiere en alguna forma al animal de ella […]. Por ejemplo, las Águilas pueden tomar como lema: “volando a las altas cumbres”; los Castores; “Construyendo el futuro” así sucesivamente.</li><li><strong>Banderín.</strong> Cada Patrulla elige su forma y diseño; es un trozo de tela de los colores de la Patrulla que representa la misma […]</li><li><strong>Libro de Oro.</strong> Es un libro físico o virtual que crea y mantiene la patrulla de cierta forma artística donde se relatan los sucesos más importantes de la vida de la patrulla y de sus miembros […]</li><li><strong>Rincón.</strong> Es el lugar de la Patrulla por excelencia en donde se reúnen periódicamente y que tiene connotación y ambientación propia de la Patrulla. […]</li><li><strong>Insignia de Patrulla.</strong> Es una Insignia, que podrá ser diseñada por los miembros de cada Patrulla, es circular de 5:00 centímetros de diámetro, que en su interior lleva bordada la figura del Animal de la Patrulla. […] Se usa sobre el eje de la manga izquierda de la camisa, 2.00 centímetros abajo de la Insignia de Rama “scout” […]</li></ul>"
         },
         {
           "type": "paragraph",
@@ -441,7 +442,13 @@
         },
         {
           "type": "paragraph",
-          "text": "Los símbolos no son solo de patrulla. La Guía de 2023 le da también elementos de identidad a la Tropa entera (p. 8 del PDF): un <strong>nombre</strong>; un <strong>lema</strong>, que deciden los Scouts en la Corte de Honor; una <strong>bandera</strong> que cada Tropa diseña con los colores de su grupo; y un <strong>color</strong>, el <strong>VERDE</strong>, por su afinidad con la naturaleza — armonía, crecimiento y frescura. Verde es también la banda de especialidades. Y por encima de todos, el lema que comparten todos los scouts de Colombia: <strong>SIEMPRE LISTOS</strong>."
+          "text": "Los símbolos no son solo de patrulla. La Guía de 2023 le da también <strong>elementos de identidad</strong> a la Tropa entera: un nombre, una bandera, el color <strong>verde</strong> y un <strong>lema</strong>, que deciden los Scouts en la Corte de Honor. Y por encima de todos, el de los scouts de Colombia: <strong>SIEMPRE LISTOS</strong>."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver los elementos de identidad de la Tropa",
+          "source": "Guía de Buenas Prácticas para Jefes de Tropa (Scouts de Colombia, 2023 — documento de apoyo, Módulo 1, en revisión), p. 8 del PDF. Selección.",
+          "text": "<ul><li><strong>Nombre de tropa:</strong> La Tropa cuenta con un nombre que reafirme el sentido de pertenencia hacia la misma […]</li><li><strong>Lema de Tropa:</strong> Se podrá tener un lema, es decir una frase motivadora que define la conducta de un grupo; este lema se hará si así lo deciden los Scouts en la Corte de Honor […]</li><li><strong>Color:</strong> El color VERDE tiene una fuerte afinidad con la naturaleza permitiendo hacer una conexión con ella; representa armonía, crecimiento, exuberancia, fertilidad y frescura. […]</li><li><strong>Lema:</strong> Para Colombia el lema de los scouts es “SIEMPRE LISTOS” […]</li><li><strong>Bandera de Tropa:</strong> Cada tropa diseñará su bandera de manera que contenga los colores básicos de su grupo […]</li></ul>"
         },
         {
           "type": "heading",
@@ -674,11 +681,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Dos palabras nuevas, y las dos son traducciones de algo que ya conoces. Un <strong>territorio</strong> es una <strong>competencia educativa</strong>; su Guía lo dice sin rodeos: <em>«ambos términos describen lo mismo; el segundo simplemente lo hace con la voz y el espíritu de quien vive la aventura desde adentro»</em>. Y una <strong>travesía</strong> es cada experiencia que el Scout vive y después conversa contigo."
+          "text": "Dos palabras nuevas, y las dos son traducciones de algo que ya conoces. Cada Ruta se divide en <strong>territorios</strong>, y un territorio es una <strong>competencia educativa</strong>; su Guía lo dice sin rodeos: <em>«ambos términos describen lo mismo; el segundo simplemente lo hace con la voz y el espíritu de quien vive la aventura desde adentro»</em>. Y una <strong>travesía</strong> es cada experiencia que el Scout vive y después conversa contigo."
         },
         {
           "type": "info-box",
-          "text": "⚠️ <strong>Ojo con la palabra «travesía».</strong> En la Tropa, una travesía es <strong>una oportunidad de aprendizaje</strong>: una actividad, un campamento, un proyecto, una responsabilidad asumida. <strong>No es el paso a la Comunidad</strong> — eso es otra cosa y lo vemos en la próxima lección. Si te llega un documento donde «Travesía» nombra la transición entre ramas, es de una edición anterior."
+          "text": "⚠️ <strong>Ojo con la palabra «travesía».</strong> En la Tropa es <strong>una oportunidad de aprendizaje</strong> —una actividad, un campamento, un proyecto, una responsabilidad asumida—, <strong>no el paso a la Comunidad</strong>, que vemos en la próxima lección. Si un documento la usa para nombrar la transición entre ramas, es de una edición anterior."
         },
         {
           "type": "heading",
@@ -752,7 +759,7 @@
         },
         {
           "type": "info-box",
-          "text": "🔎 <strong>Honestidad sobre la fuente.</strong> Quizá oigas hablar de <strong>Desafíos</strong> y <strong>Especialidades</strong>, con sus áreas de color y su banda. <strong>No han desaparecido</strong> —la Guía de Dirigente sigue pidiendo registrar «desafíos superados, especialidades obtenidas»—, pero lo que los describía en detalle es un <strong>documento de apoyo de 2023 que la propia Asociación anunció que iba a actualizar</strong>, y la Guía vigente no los desarrolla. Úsalos si tu Región los trabaja; <strong>lo que estructura la progresión hoy son las Rutas</strong>."
+          "text": "🔎 <strong>Honestidad sobre la fuente.</strong> Los <strong>Desafíos</strong> y las <strong>Especialidades</strong> <strong>no han desaparecido</strong> —la Guía de Dirigente sigue pidiendo registrar «desafíos superados, especialidades obtenidas»—, pero lo que los detallaba es un <strong>documento de apoyo de 2023 que la Asociación anunció que iba a actualizar</strong>. Úsalos si tu Región los trabaja; <strong>lo que estructura la progresión hoy son las Rutas</strong>."
         }
       ],
       "reflection": {
