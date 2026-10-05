@@ -2,10 +2,10 @@
   "courseId": "educacion-por-el-amor",
   "title": "La Educación por el Amor",
   "subtitle": "La apuesta de Baden-Powell en Ginebra, 1922",
-  "description": "El segundo curso de la Línea Programa de Jóvenes y la brújula ética del Programa. En ~30 minutos vas a entender qué dijo Baden-Powell en Ginebra en 1922 sobre cómo se educa, vas a distinguir la educación por el temor de la educación por el amor, y vas a ver cómo los 4 objetivos de la instrucción se convirtieron en las 6 áreas de crecimiento de hoy. Termina con tu propia revisión pedagógica y un compromiso de práctica.",
+  "description": "El segundo curso de la Línea Programa de Jóvenes y la brújula ética del Programa. En ~33 minutos vas a entender qué dijo Baden-Powell en Ginebra en 1922 sobre cómo se educa, vas a distinguir la educación por el temor de la educación por el amor, y vas a ver cómo los 4 objetivos de la instrucción se parecen a las 6 áreas de crecimiento de hoy. Termina con tu propia revisión pedagógica y un compromiso de práctica.",
   "contentVersion": "2026-10-04",
   "icon": "💗",
-  "duration": "30 minutos",
+  "duration": "33 minutos",
   "level": 1,
   "levelName": "Fundamentación",
   "order": 2,
@@ -20,7 +20,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~30 minutos.</strong> Al final vas a saber qué dijo Baden-Powell en 1922 sobre cómo se educa, por qué fundó este Movimiento, y cómo eso se traduce en cómo conversas con un protagonista de programa el próximo sábado."
+          "text": "⏱️ <strong>~33 minutos.</strong> Al final vas a saber qué dijo Baden-Powell en 1922 sobre cómo se educa, por qué fundó este Movimiento, y cómo eso se traduce en cómo conversas con un protagonista de programa el próximo sábado."
         },
         {
           "type": "paragraph",
@@ -38,7 +38,7 @@
             "El contexto histórico del informe de Ginebra 1922.",
             "Qué es la “educación por el temor” que B-P combatió.",
             "Qué es la “educación por el amor” que B-P propuso.",
-            "Los 4 objetivos de la instrucción y cómo se convirtieron en las 6 áreas de crecimiento de hoy.",
+            "Los 4 objetivos de la instrucción y cómo se parecen a las 6 áreas de crecimiento de hoy.",
             "Tu propia revisión pedagógica + un compromiso."
           ]
         },
@@ -60,7 +60,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El 1 de agosto de 1922, en Ginebra, Robert Baden-Powell —el militar inglés que 15 años antes había fundado el Movimiento Scout— se subió al estrado del 3er Congreso Internacional sobre Moral y Educación. Estaba en el Instituto Jean-Jacques Rousseau, una de las casas pedagógicas más importantes del mundo, que organizó el congreso (de estos congresos nació en 1925 la Oficina Internacional de Educación, hoy parte de la UNESCO). Tenía 65 años, había vivido la Primera Guerra Mundial, y vio cómo Europa estaba a punto de cometer el mismo error otra vez."
+          "text": "El 1 de agosto de 1922, en Ginebra, Robert Baden-Powell —el militar inglés que 15 años antes había fundado el Movimiento Scout— se subió al estrado del 3er Congreso Internacional sobre Moral y Educación. Habló en el congreso que organizó el Instituto Jean-Jacques Rousseau (de estos congresos nació en 1925 la Oficina Internacional de Educación, hoy parte de la UNESCO). Tenía 65 años, había vivido la Primera Guerra Mundial, y vio cómo Europa estaba a punto de cometer el mismo error otra vez."
         },
         {
           "type": "heading",
@@ -76,11 +76,11 @@
             },
             {
               "title": "1914–1918",
-              "description": "Primera Guerra Mundial. Cerca de 17 millones de muertos. Europa entera de luto."
+              "description": "Primera Guerra Mundial. Millones de muertos. Europa entera de luto."
             },
             {
               "title": "1919–1922",
-              "description": "Resurge el militarismo, las pedagogías autoritarias y los movimientos juveniles armados (en varios países, los jóvenes vuelven a ser instruidos para la próxima guerra)."
+              "description": "Europa sale de la guerra, pero el militarismo y las pedagogías autoritarias siguen muy vivos."
             },
             {
               "title": "1 de agosto de 1922",
@@ -95,7 +95,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Su informe se llamó <strong>“La educación por el amor en sustitución de la educación por el temor”</strong>. No fue a hablar de uniformes ni de campamentos —aunque los menciona—: fue a hablar de pedagogía. De cómo se educa a un joven sin convertirlo en un soldado dócil ni en un alumno obediente. Habló de <strong>autoeducación voluntaria, fraternidad universal y deseo de conocer</strong>. Lo escucharon educadores de todo el mundo. La Organización Mundial del Movimiento Scout (OMMS) lo reeditó en 2007, en el año centenario del Movimiento, para que ningún dirigente lo olvide."
+          "text": "Su informe se llamó <strong>“La educación por el amor en sustitución de la educación por el temor”</strong>. No fue a hablar de uniformes ni de campamentos —aunque los menciona—: fue a hablar de pedagogía. De cómo se educa a un joven sin convertirlo en un soldado dócil ni en un alumno que solo recibe lo que le dicen. Habló de <strong>autoeducación voluntaria, fraternidad universal y deseo de conocer</strong>. Lo escucharon educadores de todo el mundo. La Organización Mundial del Movimiento Scout (OMMS) lo reeditó en 2007, en el año centenario del Movimiento, para que ningún dirigente lo olvide."
         },
         {
           "type": "policy-quote",
@@ -116,22 +116,31 @@
         "nextLabel": "Continuar a la educación por el temor 😨",
         "questions": [
           {
-            "text": "El informe de B-P en Ginebra 1922 se titula 'La educación por el amor en sustitución de la educación por el temor'. Más allá del título, ¿qué estaba proponiendo con esa frase?",
+            "text": "En una Manada los lobatos llegan puntuales porque el primer juego es su favorito y nadie quiere perdérselo; si alguien llega tarde, no pasa nada más. Un dirigente nuevo dice que eso es educar por el temor, porque «pierden algo si llegan tarde». ¿Qué le respondes?",
             "options": [
-              "Reemplazar los castigos de la época por premios y recompensas mucho más atractivas para el joven.",
-              "Cambiar el motor de la educación: dejar de mover al joven con miedo y moverlo con el deseo.",
-              "Sustituir la formación militar de la época por una formación deportiva al aire libre."
+              "Que tiene razón: perderse lo que les gusta es un castigo; mejor esperar a que lleguen todos.",
+              "Que no: aquí el motor es el deseo de jugar, no el miedo a una sanción que un adulto les impone.",
+              "Que no: mientras no haya gritos ni castigo físico, la puntualidad no tiene que ver con el temor."
             ],
             "correctIndex": 1
           },
           {
-            "text": "B-P pronunció este informe en…",
+            "text": "Una jefa de Tropa presume: «Mi Tropa es la más disciplinada del Grupo: obedecen a la primera y nadie discute una orden». Con lo que la lección dice que B-P fue a decir en Ginebra, ¿qué le señalas?",
             "options": [
-              "Un congreso militar en Londres, ante oficiales del Ejército.",
-              "Un congreso de moral y educación en Ginebra (antecedente de UNESCO).",
-              "Una asamblea Scout en Brownsea."
+              "Que su Tropa va bien: si obedecen sin gritos ni castigos, ya se están educando por el amor.",
+              "Que la meta es otra: B-P quería que el joven creciera por su propio interés, no porque se lo impongan.",
+              "Que la obediencia es buena si la sostiene con puntos y reconocimientos semanales a la mejor patrulla."
             ],
             "correctIndex": 1
+          },
+          {
+            "text": "Un dirigente de Clan prepara una charla sobre el informe de 1922 y quiere contar bien ante quién lo presentó B-P en Ginebra. Según la lección, ¿ante quién habló?",
+            "options": [
+              "Ante ministros de educación de varios países, convocados por la Liga de las Naciones.",
+              "Ante dirigentes scouts de varios países, reunidos en la primera conferencia scout internacional.",
+              "Ante educadores, en un congreso de moral y educación organizado por el Instituto Rousseau."
+            ],
+            "correctIndex": 2
           }
         ]
       }
@@ -232,22 +241,31 @@
         "nextLabel": "Continuar a la educación por el amor 💗",
         "questions": [
           {
-            "text": "Según esta lección, ¿cuál es el problema principal de educar con recompensas externas (“si cumples, te doy algo”)?",
+            "text": "Un jefe de Manada pregunta si debe dejar de entregar insignias, porque el curso critica la recompensa. Con lo que dice la lección, ¿qué le propones?",
             "options": [
-              "Que el premio enseña al joven a hacer lo correcto solo mientras lo miran, sin construir un sentido interno.",
-              "Ninguno: premiar siempre es buena idea porque refuerza la conducta deseada.",
-              "Que el problema no es la recompensa sino su tamaño: con un premio mayor y más seguido sí funciona."
-            ],
-            "correctIndex": 0
-          },
-          {
-            "text": "Un dirigente avergüenza públicamente a un lobato que no se sabe la promesa. Está aplicando…",
-            "options": [
-              "Educación por el amor — está mostrándole la importancia.",
-              "Educación por el temor — usa la humillación como motor.",
-              "Una técnica neutra del Método Scout."
+              "Que deje de entregarlas: toda insignia es un premio externo, y eso es educar por el temor.",
+              "Que las siga entregando ante la Manada, contando qué avance concreto reconoce en cada lobato.",
+              "Que las entregue en privado, lejos de la Manada, para no despertar la vanidad de los demás."
             ],
             "correctIndex": 1
+          },
+          {
+            "text": "Una jefa de Tropa ensaya muchas veces con los scouts la presentación para el día de familias, y les repite que lo importante es que los papás queden impresionados con ellos. ¿Qué motor de la educación por el temor está alimentando?",
+            "options": [
+              "La recompensa: el aplauso de los papás será el premio externo que los mueve a ensayar.",
+              "La vanidad: les enseña a hacer las cosas para lucirse ante otros, no para crecer ellos.",
+              "La competencia: los pone a compararse con las otras unidades para quedar como la mejor."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "En el campamento, una patrulla deja su rincón impecable cuando pasa la jefa a revisar, que le anota una falta a la patrulla desordenada, y lo desordena apenas ella se va. Según la lección, ¿qué está mostrando?",
+            "options": [
+              "Que a la patrulla le falta un sistema: con un turno fijo de revisión, el rincón quedaría ordenado.",
+              "Que a la patrulla la mueve la competencia: ordena para no quedar por debajo de las demás.",
+              "Que a la patrulla la mueve el temor: cumple mientras alguien la mira, pero no está creciendo."
+            ],
+            "correctIndex": 2
           }
         ]
       }
@@ -276,25 +294,25 @@
           "items": [
             {
               "title": "🤝 Autoeducación voluntaria",
-              "description": "“El joven aprende porque quiere, no porque le obligan.” La obligación produce obediencia; el deseo produce aprendizaje.",
+              "description": "En palabras sencillas: el joven aprende porque quiere, no porque le obligan. La obligación produce obediencia; el deseo produce aprendizaje.",
               "color": "#fce4ec",
               "borderColor": "#e91e63"
             },
             {
               "title": "🌍 Fraternidad universal",
-              "description": "“Somos hermanos más allá de país, religión, clase o género.” El Movimiento existe para tender puentes, no para construir muros.",
+              "description": "Somos hermanos más allá del país, la clase social o de si eres niño o niña. El Movimiento existe para tender puentes, no para construir muros.",
               "color": "#fff3e0",
               "borderColor": "#fb8c00"
             },
             {
               "title": "🔍 Despertar el deseo de conocer",
-              "description": "“No meterle ideas en la cabeza al niño. Despertarle la curiosidad y mostrarle el camino.” La pregunta vale más que la respuesta.",
+              "description": "No meterle ideas en la cabeza al niño, sino despertarle la curiosidad y mostrarle el camino. La pregunta vale más que la respuesta.",
               "color": "#fff8e1",
               "borderColor": "#f9a825"
             },
             {
               "title": "🙋 Servir al prójimo como hábito",
-              "description": "“Aprender haciendo y haciendo el bien.” El servicio no es una actividad ocasional; es la columna vertebral del carácter.",
+              "description": "Aprender haciendo —la idea del educador Edmundo Holmes que B-P hizo suya— y, además, haciendo el bien. El servicio no es una actividad ocasional; es la columna vertebral del carácter.",
               "color": "#ffebee",
               "borderColor": "#d81b60"
             }
@@ -318,11 +336,11 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "La fraternidad universal, en la frase que dijo una semana antes en París"
+          "text": "La fraternidad universal, en la frase que dijo pocos días antes en París"
         },
         {
           "type": "policy-quote",
-          "label": "📋 Ver la definición de fraternidad",
+          "label": "📋 Ver la frase de París",
           "source": "Baden-Powell, París, julio de 1922 — citado en la introducción de la reedición OMMS 2007, p. 3.",
           "text": "Una hermandad universal de servicio, una asociación de amistad que no se detiene más allá de las fronteras."
         },
@@ -339,22 +357,31 @@
         "nextLabel": "Continuar a los 4 objetivos de la instrucción 🎯",
         "questions": [
           {
-            "text": "Un dirigente nuevo te dice: 'Yo enseño bien porque mis chicos se saben de memoria la Ley y la Promesa.' Según la educación por el amor que propuso B-P, ¿qué le falta a esa idea?",
+            "text": "Un jefe de Tropa arranca la planeación del mes escribiendo: «Este mes les voy a enseñar cartografía, primeros auxilios y cocina». Según la lección, ¿qué distinguiría una planeación «por el amor» de la suya?",
             "options": [
-              "Nada: memorizar bien la Ley y la Promesa es exactamente lo que B-P le pedía al dirigente.",
-              "Que saber de memoria no es lo mismo que despertar el deseo de conocer.",
-              "Que primero deberían aprenderse el himno y los nudos, y solo después la Ley."
+              "El tono: proponer esos mismos temas con entusiasmo, sin obligar a nadie a participar.",
+              "El punto de partida: preguntarse qué quieren ellos descubrir o construir este mes.",
+              "El reparto: que cada tema lo prepare y lo enseñe un scout distinto, y no el adulto."
             ],
             "correctIndex": 1
           },
           {
-            "text": "¿Cuál es la diferencia entre planear una reunión “por el temor” y una “por el amor”, según esta lección?",
+            "text": "Los scouts de una Tropa cumplen todas las tareas de progresión sin quejarse, y su jefe dice que eso prueba que aprenden. ¿Qué le preguntarías para saberlo?",
             "options": [
-              "La primera resulta más corta y la segunda bastante más larga y mucho más difícil de planear bien.",
-              "La primera pregunta “¿qué les voy a hacer hacer?”; la segunda, “¿qué quieren ellos descubrir?”.",
-              "La primera la planea el dirigente solo; la segunda la planean los padres."
+              "Si alguno ha avanzado en algo sin que nadie se lo pidiera, o ha propuesto una tarea nueva.",
+              "Si las tareas están bien graduadas por edad, para que nadie se frustre ni se aburra al cumplirlas.",
+              "Si alguno las cumple sin premios ni castigos de por medio, solo porque él se lo pide con cariño."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
+          },
+          {
+            "text": "En una caminata, un lobato pregunta por qué unas hojas son amarillas y otras verdes. Su dirigente sabe la respuesta. Con la cita central de B-P en esta lección, ¿qué hace?",
+            "options": [
+              "Le da la respuesta completa con un juego, para que el dato se le quede grabado mejor.",
+              "Le pide que lo averigüe solo en su casa, para no quitarle el gusto de descubrirlo.",
+              "Le devuelve la pregunta y le muestra cómo averiguarlo: mirar, comparar y preguntar."
+            ],
+            "correctIndex": 2
           }
         ]
       }
@@ -367,7 +394,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "<strong>Idea central:</strong> carácter, habilidad manual, servir al prójimo, salud — semilla de las 6 áreas de crecimiento de hoy."
+          "text": "<strong>Idea central:</strong> carácter, habilidad manual, servir al prójimo, salud: un antecedente que recuerda las 6 áreas de crecimiento de hoy."
         },
         {
           "type": "paragraph",
@@ -420,7 +447,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Esos 4 objetivos se parecen mucho a lo que hoy la ASC llama las <strong>6 áreas de crecimiento</strong>: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad y Espiritualidad. Así las nombra el <strong>Modelo de Aplicación 2026</strong>; la PNPJ 2024 ya hablaba de seis, con nombres más antiguos (desarrollo físico, intelectual, social, emocional, espiritual y del carácter). El árbol creció. La raíz es la misma."
+          "text": "Esos 4 objetivos se parecen mucho a lo que hoy la ASC llama las <strong>6 áreas de crecimiento</strong>: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad y Espiritualidad. Así las nombra el <strong>Modelo de Aplicación 2026</strong>; la PNPJ 2024 ya hablaba de seis, con otros nombres (desarrollo físico, intelectual, social, emocional, espiritual y del carácter). En la Rama Familia se trabajan como cinco dimensiones, porque Afectividad y Sociabilidad van juntas en una sola. Los nombres cambian; la idea de educar a la persona entera es la misma."
         },
         {
           "type": "heading",
@@ -443,29 +470,38 @@
         }
       ],
       "reflection": {
-        "prompt": "De las 6 áreas de crecimiento (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad), ¿cuál crees que más se descuida en tu unidad (o en las unidades que conoces)? ¿Por qué?"
+        "prompt": "De las 6 áreas de crecimiento (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad; en Familia son cinco dimensiones), ¿cuál crees que más se descuida en tu unidad (o en las unidades que conoces)? ¿Por qué?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 5",
         "nextLabel": "Continuar a tu revisión pedagógica ✍️",
         "questions": [
           {
-            "text": "Estás planeando una salida y solo incluiste juegos físicos y deporte. Mirando los 4 objetivos que B-P propuso en 1922, ¿qué te están avisando que falta equilibrar?",
+            "text": "Estás planeando una salida de la Manada y solo incluiste juegos físicos y deporte. Con lo que la lección dice de los 4 objetivos de B-P, ¿qué concluyes?",
             "options": [
-              "Nada: con la salud y el vigor físico ya queda cubierto lo esencial de cualquier salida scout bien hecha.",
-              "Que tocaste el vigor físico, pero dejaste fuera carácter, habilidad manual y servicio al prójimo.",
-              "Que B-P pedía concentrarse en un solo objetivo por salida para no dispersar el trabajo."
+              "Que le faltan objetivos: B-P los quería integrados en cada sesión, no repartidos en varias.",
+              "Que está bien así: los objetivos de B-P eran para el campamento anual, no para cada salida.",
+              "Que ya cubre dos: el deporte también forma el carácter, y con eso la salida basta."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Al registrar la progresión de una scout, su dirigente ve que avanzó mucho en Creatividad y Corporalidad, y casi nada en Afectividad. Según lo que la lección pide para tu rol, ¿qué anota?",
+            "options": [
+              "Anota solo las dos áreas donde creció, para reconocer avances sin volverlos una presión.",
+              "Anota cómo va en las seis áreas, también en Afectividad, aunque allí crezca más despacio.",
+              "Anota cómo va solo en Afectividad, que es la que pide atención; las otras ya van bien."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Según este curso, ¿qué relación hay entre los 4 objetivos de 1922 y las 6 áreas de hoy?",
+            "text": "Una jefa de Tropa organiza una gran jornada de servicio cada diciembre y dice que con eso cubre el objetivo de servir al prójimo. Con lo que B-P pedía, ¿qué le señalas?",
             "options": [
-              "Son listas completamente distintas, formuladas en épocas distintas, y no tienen relación entre sí.",
-              "Apuntan a lo mismo: educar a la persona entera, no solo una parte de ella.",
-              "La PNPJ 2024 reemplaza por completo lo que B-P había planteado en su momento."
+              "Que B-P hablaba de un hábito: el servicio cabe en cada semana de la Tropa, no solo en una fecha.",
+              "Que una jornada al año está bien si cada scout elige a quién servir, y así no le es impuesta.",
+              "Que el servicio ya lo cubre el área de Sociabilidad, y basta con anotarlo en la progresión."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -535,20 +571,29 @@
         "nextLabel": "Obtener mi certificado 🎓",
         "questions": [
           {
-            "text": "Una dirigente que toma este curso reconoce que suele decir “el primero que termine la fogata gana un dulce”. Está reproduciendo…",
+            "text": "Una dirigente reconoce en su auto-revisión que suele decirle a su Tropa: «la primera patrulla que arme la fogata gana un dulce». ¿Cuál de estos compromisos completa bien la plantilla de la lección?",
             "options": [
-              "La educación por el amor — está incentivando el esfuerzo.",
-              "La educación por el temor — usa recompensa externa y competencia.",
-              "Una práctica neutra que no aplica al escultismo."
+              "Esta semana voy a ser menos competitiva con la Tropa y al final revisaré cómo me fue.",
+              "Voy a reemplazar el dulce por un aplauso a la primera patrulla; señal: se esfuerzan igual.",
+              "Voy a reemplazar la carrera por armarla entre todos; señal: nadie pregunta quién ganó."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Antes del primer campamento, un subjefe de Tropa quiere darles a los scouts una charla de dos horas sobre cómo armar las carpas, «para que no se equivoquen». Con la frase de Edmundo Holmes que B-P hizo suya y que cierra el curso, ¿qué le propones?",
+            "options": [
+              "Que la arme él primero frente a ellos, despacio, para que vean cómo queda bien hecha.",
+              "Que la armen ellos por patrullas, con él cerca, en vez de oír la explicación sentados.",
+              "Que mantenga la charla y al final les haga una prueba, para asegurar que la entendieron."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Según el cierre del curso, la frase que B-P hizo suya “Aprender haciendo y contribuyendo a la formación del propio yo” apunta a…",
+            "text": "Una dirigente quiere dejar escrito su compromiso completo, con la situación concreta de su unidad. Según la lección, ¿dónde lo escribe?",
             "options": [
-              "Que el joven es un recipiente vacío al que hay que llenar.",
-              "Que el joven es un sujeto activo de su propia formación, no pasivo.",
-              "Que el joven debe ser instruido por los adultos antes de poder hacer."
+              "En la reflexión de la lección, contando la situación y los nombres para que quede completa.",
+              "En el recuadro «Compromiso Personal» junto al certificado, que se queda en su navegador.",
+              "En el recuadro de la reflexión, sin nombres, para que quede impreso junto con el certificado."
             ],
             "correctIndex": 1
           }

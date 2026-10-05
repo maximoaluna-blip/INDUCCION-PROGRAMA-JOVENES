@@ -99,7 +99,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
     - `label`: "📋 Ver el propósito textual"
 4. **`heading` (nivel 3)** — _"Lo que la PNPJ trae de nuevo"_
 5. **`list`** — 4 novedades clave:
-    - **Adopta el Método Scout en su versión 2019** (8 elementos: la Naturaleza se desdobla como elemento autónomo).
+    - **Adopta el Método Scout actualizado por la OMMS** (8 elementos, entre ellos la Naturaleza y la Participación en la Comunidad).
     - **Incorpora las 6 áreas de crecimiento** alineadas con los 4 pilares UNESCO (conocer, hacer, vivir juntos, ser).
     - **Define competencias terminales** —para todo el camino scout— **y competencias intermedias** por rama y por área (lo que en Curso 5 era abstracto, aquí es concreto).
     - **Pone al joven al centro** con el concepto de "protagonista de programa" (no participante, no miembro, no usuario).
@@ -138,11 +138,11 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 3. **`heading` (nivel 3)** — _"Las 5 ramas en panorámica"_
 4. **`method-grid`** — Las 5 ramas con icono, color y datos clave:
     - 🐻 **Familia — Cachorros (5–6 años)** — Grupo natural: Camadas. Marco simbólico: La Fantasía. Fondo motivador: el Libro de las Tierras Vírgenes —Familia se queda con su primer capítulo, Los Hermanos de Mowgli, y con personajes como Raksha y Papá Lobo—. Ambiente de referencia: los relatos infantiles. Su órgano de participación es el Encuentro del Cubil. Promesa, Ley y Saludo del Cachorro.
-    - 🐺 **Manada — Lobatos (7–10 años)** — Grupo natural: Seisenas. Marco simbólico: La Fantasía, el mismo de Familia. Fondo motivador: el Libro de las Tierras Vírgenes (Kipling), que también comparte con Familia. Ambiente de referencia: los relatos fantásticos. Promesa y Ley del Lobato. Principios y Virtudes del Lobato.
+    - 🐺 **Manada — Lobatos (7–10 años)** — Grupo natural: Seisenas. Marco simbólico: La Fantasía, el mismo de Familia según las Guías de Rama (el Modelo lo afina como «Fantasía Expandida»). Fondo motivador: el Libro de las Tierras Vírgenes (Kipling), que también comparte con Familia. Ambiente de referencia: los relatos fantásticos. Promesa y Ley del Lobato. Principios y Virtudes del Lobato.
     - ⚜️ **Tropa — Scouts (11–14 años)** — Grupo natural: Patrullas (6–8 scouts). Promesa y Ley Scout. **Su marco simbólico todavía no está publicado**: el Modelo lo remite a la Guía de Dirigente de cada rama (p. 19), y la Tropa es la única que aún no tiene la suya.
     - 🧗 **Comunidad — Nómadas Scout (15–17 años)** — Grupo natural: equipos de Comunidad. Marco simbólico: La aventura hacia la ciudadanía. Promesa del Nómada Scout y Ley Scout.
     - 🏔️ **Clan — Rovers (18–20 años)** — Grupo natural: equipos de Clan. Marco simbólico: La Ciudadanía Activa. Promesa y Ley Scout. Eventos rituales: Vigilia, Peregrinaje, Partida, Cena Rover.
-5. **`paragraph`** — Frase puente: _"Tres palabras que se parecen y no son lo mismo: el **marco simbólico** es el mundo en el que se juega; el **fondo motivador** es el libro del que sale ese mundo; el **ambiente de referencia** es el tipo de historias con las que se cuenta. Familia y Manada juegan en el mismo mundo y con el mismo libro. Lo que cambia es el tipo de relato — y qué personajes se reserva cada una."_
+5. **`paragraph`** — Frase puente: _"Tres palabras que se parecen y no son lo mismo: el **marco simbólico** es el mundo en el que se juega; el **fondo motivador** es el libro del que sale ese mundo; el **ambiente de referencia** es el tipo de historias con las que se cuenta. Según sus Guías, Familia y Manada juegan en el mismo mundo y con el mismo libro. Lo que cambia es el tipo de relato — y qué personajes se reserva cada una."_
 6. **`heading` (nivel 3)** — _"El recorrido completo del protagonista"_
 7. **`paragraph`** — _"Un cachorro de 5 años que entra a Familia puede recorrer las 5 ramas y salir como rover de 20 años con su Partida Rover. Son 15 años de Movimiento. La PNPJ y el Modelo cuidan que ese recorrido tenga **continuidad** (cada rama prepara para la siguiente) y **coherencia** (los 8 elementos del Método están en todas las ramas, adaptados a la edad)."_
 8. **`heading` (nivel 3)** — _"Las transiciones, momentos clave"_
@@ -191,7 +191,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
     - 🌌 **Espiritualidad** — Hacerse preguntas grandes y construir sentido: trascendencia, fe (o búsqueda), valores últimos, conexión con lo sagrado o lo numinoso.
 5. **`heading` (nivel 3)** — _"Competencias terminales e intermedias"_
 6. **`paragraph`** — _"Por cada área, el Modelo define **competencias terminales**: lo que el joven debería poder hacer **al terminar todo su camino scout**, no al salir de una rama. Y de cada terminal salen las **competencias intermedias**, que son los pasos por edad — esas sí van rama por rama, y las encuentras en la Guía de Dirigente de tu rama. Las áreas son las mismas en todas las ramas; lo que cambia es el tamaño del paso."_
-7. **`paragraph`** — _"Ejemplo: en **Corporalidad**, un cachorro de 6 años trabaja 'fortalecer habilidades motoras finas y gruesas'; un lobato de 9 años, 'afianzar hábitos de higiene'; un scout de 13 años, 'reconocer y valorar su cuerpo como medio de expresión'; un nómada de 16, 'tomar decisiones informadas sobre su salud sexual y reproductiva'; un rover de 19, 'sostener un proyecto personal de salud integral'. Misma área, distintos niveles."_
+7. **`paragraph`** — _"Ejemplo: en **Corporalidad**, un cachorro de 6 años trabaja 'fortalecer habilidades motoras finas y gruesas'; un lobato de 9 años, 'afianzar hábitos de higiene'; un scout de 13 años trabaja en reconocer y valorar su cuerpo; un rover de 19, en sostener su propio proyecto de salud integral. Y todos caminan hacia las mismas competencias terminales del área, como la de llegar al final del camino scout tomando con responsabilidad decisiones libres e informadas sobre su salud sexual y reproductiva. Misma área, distintos niveles."_
 8. **`heading` (nivel 3)** — _"Cómo se evalúa la progresión en las áreas"_
 9. **`paragraph`** — _"No con exámenes. Con observación, conversación y reconocimiento. Las **Herramientas de Seguimiento de la Progresión Personal 2.0** (DNPJ) ofrecen un **banco de técnicas** — por ejemplo: observación en acción, anecdotario, registro conflicto-resolución, listas de cotejo, rúbricas, autoevaluación tipo semáforo y coevaluación. No hay que usarlas todas: se eligen una o dos según la experiencia. El instrumento operativo es el **Registro de Acompañamiento a la Progresión Personal** (Excel DNPJ-2026-021)."_
 10. **`info-box`** — _"En el Curso 13 del Nivel 2 vas a aprender estas técnicas en profundidad. Hoy solo guarda el principio: la progresión se observa, no se examina."_
@@ -223,7 +223,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Apertura: _"El Modelo de Aplicación 2026 trae dos secuencias que se cruzan: **3 etapas de vida en la unidad** (lo que vive el protagonista en su rama) y **3 momentos de aprendizaje**, que marcan qué tan lejos ha llegado el protagonista **en una competencia concreta**. Vamos a verlas por separado y luego juntas."_
+2. **`paragraph`** — Apertura: _"El Modelo de Aplicación 2026 trae dos secuencias que se cruzan: **3 etapas de vida en la unidad** (lo que vive el protagonista en su rama) y **3 momentos de aprendizaje** (el Modelo también los llama niveles de desempeño), que marcan qué tan lejos ha llegado el protagonista **en una competencia concreta**. Vamos a verlas por separado y luego juntas."_
 3. **`heading` (nivel 3)** — _"Las 3 etapas de vida en la unidad"_
 4. **`method-grid`** — Las 3 etapas con icono y descripción:
     - 🌱 **Adaptación** — El protagonista llega a la rama. Conoce, se conoce, se hace parte. Necesita acogida, vínculo, claridad de marco simbólico.
@@ -232,11 +232,11 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 5. **`heading` (nivel 3)** — _"Los 3 momentos de aprendizaje"_
 6. **`method-grid`** — Los 3 momentos con icono:
     - 🔍 **Exploro** — Primer contacto con un contenido, una habilidad, un valor. Curiosidad, ensayo, descubrimiento.
-    - 🛠️ **Aplico** — Práctica acompañada. Hago con apoyo. Reciba retroalimentación, ajusto.
+    - 🛠️ **Aplico** — Práctica acompañada. Hago con apoyo. Recibo retroalimentación, ajusto.
     - 🚀 **Profundizo** — Autonomía y transferencia. Hago solo. Enseño a otros. Llevo la práctica a contextos nuevos.
 7. **`heading` (nivel 3)** — _"Cómo se cruzan etapas y momentos"_
 8. **`paragraph`** — _"Un mismo protagonista en **etapa de Adaptación** suele estar en **momento Exploro** en muchos contenidos. Uno en **Progresión** está en **Aplico** y empieza a **Profundizar** algunos. Uno en **Transición** ya ha **Profundizado** varios y empieza a enseñar a los más nuevos. Las secuencias no son rígidas, pero ayudan a planear oportunidades acordes al momento del protagonista."_
-9. **`info-box`** — _"El Modelo de Aplicación de Bolsillo (14 páginas) trae además un ciclo distinto y muy útil: **Vivir → Mirar → Comprender → Proyectar**. No es una versión corta de Exploro/Aplico/Profundizo: es la manera de cerrar **una** actividad para que lo vivido se convierta en aprendizaje. Los tres niveles marcan el camino largo de una competencia; este ciclo cabe en una reunión. Volverás a verlo en el Curso 14."_
+9. **`info-box`** — _"El Modelo de Aplicación de Bolsillo (14 páginas) trae además un ciclo distinto y muy útil: **Vivir → Mirar → Comprender → Proyectar**. No es una versión corta de Exploro/Aplico/Profundizo: es la manera de convertir **una** experiencia concreta en aprendizaje. Los tres momentos marcan el camino largo de una competencia; este ciclo cabe en una reunión. Volverás a verlo en el Curso 14."_
 
 **Reflexión:** _"Piensa en un protagonista de tu unidad. ¿En qué etapa de vida en la rama está (Adaptación, Progresión, Transición)? ¿Y en qué momento de aprendizaje está respecto a uno de los contenidos que está trabajando? Sé concreto."_
 
@@ -270,7 +270,7 @@ Este hook se enuncia en la lección 2 y atraviesa todo el curso. Su función es 
 4. **`method-grid`** — Los 3 roles (recordatorio del Curso 5 L5):
     - 🛟 **Apoyar** — preparar las condiciones, asegurar los recursos, sostener la planeación.
     - 👣 **Acompañar** — estar presente en el proceso del protagonista, sin reemplazarlo.
-    - 🔗 **Enlazar** — conectar al protagonista con el grupo, con la familia, con el territorio y con la institución.
+    - 🔗 **Enlazar** — conectar al protagonista con personas, instituciones y experiencias de fuera de la unidad: mentores, redes, su territorio.
 5. **`paragraph`** — _"Estos 3 roles no cambian el nombre de ningún cargo: «Jefe de Grupo», «Jefe de Unidad» o «Guía de Patrulla» siguen siendo los nombres correctos. Lo que hacen es describir **cómo** acompañas: no como el que manda, sino como el que sostiene, acompaña y conecta. **Apoyas cuando exploran, acompañas cuando aplican, enlazas cuando profundizan.**"_
 6. **`heading` (nivel 3)** — _"Herramienta 2 — Filtro DURASLID"_
 7. **`paragraph`** — _"Toda oportunidad de aprendizaje debería pasar el filtro DURASLID: **D**esafiante (que invite a estirarse), **U**til (que sirva para algo real), **R**ecompensante (que genere satisfacción), **A**tractiva (que despierte ganas), **S**egura (sin riesgo innecesario), **L**údica (con elemento de juego), **I**nclusiva (que todos puedan participar), **D**iversa (con pluralidad de formas, voces y enfoques). Si una actividad solo cumple 2 o 3 de los 8 atributos, hay algo que ajustar."_

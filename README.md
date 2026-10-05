@@ -14,7 +14,7 @@ Plataforma de formación online de la **Línea Programa de Jóvenes** de la Asoc
 | 2 | 💗 La Educación por el Amor | 1 | 30 minutos | ✅ Activo |
 | 3 | 🎓 Cómo se Educa Hoy | 1 | 30 minutos | ✅ Activo |
 | 4 | 🌟 Características Esenciales del Movimiento Scout | 1 | 30 minutos | ✅ Activo |
-| 5 | 🧭 El Método Scout y sus 8 elementos | 1 | 40 minutos | ✅ Activo |
+| 5 | 🧭 El Método Scout y sus 8 elementos | 1 | 43 minutos | ✅ Activo |
 | 6 | 📜 La PNPJ y "El Gran Juego para la Vida" | 1 | 35 minutos | ✅ Activo |
 | 7 | 🗺️ Mi Compromiso con el Programa de Jóvenes | 1 | 30 minutos | ✅ Activo |
 | 8 | 🐺 Rama Manada (Lobatos) | 2 | 35 minutos | ✅ Activo |

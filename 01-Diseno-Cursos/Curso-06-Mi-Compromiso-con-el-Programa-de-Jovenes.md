@@ -160,7 +160,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
     - **Campo 6: Área prioritaria 2** — `select` con las 6 áreas (no repetir).
     - **Campo 7: Razón de la elección** — `textarea` (2-3 líneas).
 7. **`heading` (nivel 3)** — _"Mi rol principal del trimestre"_
-8. **`paragraph`** — _"De los 3 roles del Modelo de Aplicación (Apoyar, Acompañar, Enlazar), ¿cuál vas a fortalecer este trimestre? El que más te haga falta, no el que ya manejas bien."_
+8. **`paragraph`** — _"De los 3 roles del Modelo de Aplicación (Apoyar, Acompañar, Enlazar), ¿cuál vas a fortalecer este trimestre? El que más te haga falta, no el que ya manejas bien, sin dejar de ejercer el que tus protagonistas necesitan según su etapa."_
 9. **`plan-builder` — Bloque 3 de 4 (rol)**
     - **Campo 8: Rol prioritario** — `radio` con [Apoyar, Acompañar, Enlazar].
     - **Campo 9: Razón** — `textarea`.
@@ -201,7 +201,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
     - **Campo 13: ¿Cómo voy a fortalecerlo? (1-2 líneas)** — `textarea`.
     - **Campo 14: ¿Cuál de los 8 criterios DURASLID está en riesgo y necesita atención?** — `select` con los 8 (Desafiante, Útil, Recompensante, Atractiva, Segura, Lúdica, Inclusiva, Diversa).
 5. **`heading` (nivel 3)** — _"Mi proyecto del trimestre"_
-6. **`paragraph`** — _"Un proyecto scout no es una actividad larga. Empieza con una pregunta que sale de mirar el entorno — ¿qué duele?, ¿qué falta?, ¿qué queremos mejorar? — y avanza en cinco momentos: **miran** su realidad, **planean** juntos qué van a hacer y para quién, lo **hacen** por tramos, lo **muestran** a quien va dirigido, y al final **evalúan** qué se llevan. Lo más importante: la pregunta la formulan los protagonistas contigo. Tu rol es Apoyar, Acompañar y Enlazar."_
+6. **`paragraph`** — _"Un proyecto scout no es una actividad larga. Empieza con una pregunta que sale de mirar el entorno — ¿qué duele?, ¿qué falta?, ¿qué queremos mejorar? — y avanza en cinco momentos (así los cuenta el Modelo de Aplicación): **miran** su realidad, **planean** juntos qué van a hacer y para quién, lo **hacen** por tramos, lo **muestran** a quien va dirigido, y al final **evalúan** qué se llevan. Lo más importante: la pregunta la formulan los protagonistas contigo. Tu rol es Apoyar, Acompañar y Enlazar."_
 7. **`plan-builder` — Bloque 4 continúa**
     - **Campo 15: Nombre tentativo del proyecto del trimestre** — `text`.
     - **Campo 16: ¿De dónde surgió la idea? (¿de los protagonistas o del adulto?)** — `radio` con [Surgió de los protagonistas, Surgió del adulto y voy a abrirla a votación, Aún no surgió — la próxima reunión la abrimos].
@@ -246,11 +246,11 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
     - 🧗 **Curso 11** — Rama Comunidad (Nómadas Scout, 15-17 años).
     - 🏔️ **Curso 12** — Rama Clan (Rovers, 18-20 años).
 6. **`heading` (nivel 3)** — _"Los 3 cursos pedagógicos operativos (Cursos 13, 14, 15)"_
-7. **`paragraph`** — _"Estos los toman todos los dirigentes de unidad. Recomendamos este orden, según tu rol:"_
+7. **`paragraph`** — _"Se recomiendan a todos los dirigentes de unidad. Este es el orden que sugerimos, según tu rol:"_
 8. **`list`** — Orden sugerido:
-    - **Si tu foco es acompañar la progresión personal** (uno-a-uno con los protagonistas) → empieza por el **Curso 13 (Seguimiento de la Progresión)**.
-    - **Si eres Jefe o Subjefe de Rama** → empieza por el **Curso 14 (Planeación de Reuniones)** y luego el **Curso 15 (Ciclo con ABP)**.
-    - **Si eres Asistente o entras nuevo** → orden libre, según prioridad de tu unidad.
+    - **Si eres Jefe o Subjefe de Rama** → empieza por el **Curso 14 (Planeación de Reuniones)** y sigue con el **Curso 15 (Ciclo con ABP)**.
+    - **Si no lo eres y lo tuyo es acompañar la progresión personal** (uno-a-uno con los protagonistas) → empieza por el **Curso 13 (Seguimiento de la Progresión)**.
+    - **Si entras nuevo y aún no tienes una función clara** → en el orden que más le sirva a tu unidad.
 9. **`heading` (nivel 3)** — _"A Salvo del Peligro: el módulo oficial de la ASC, cuanto antes"_
 10. **`info-box`** — _"**Importante**: ningún curso de esta plataforma te bloquea el acceso a otro — entra al Nivel 2 cuando quieras. Y hay algo que no se deja para después: **el módulo oficial A Salvo del Peligro de la ASC**, que es el que la Asociación exige y certifica. Ninguno de nuestros cursos lo reemplaza; búscalo y hazlo ya. Cuando publiquemos el Curso 25 (A Salvo del Peligro aplicado al Programa) te va a servir para llevarlo a tu unidad, pero el obligatorio es el oficial."_
 11. **`paragraph`** — _"Los otros 4 cursos del Nivel 4 (Marco de Mundo Mejor, Kit Constructores de Paz, Kit HeForShe, Kit Patrimonito) se toman según interés o convocatorias nacionales. No tienen orden obligatorio."_
@@ -284,7 +284,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — Apertura: _"Los planes que se guardan en el cajón no se cumplen. Los que se comparten con un par, sí. Cerramos el Nivel 1 con dos actos: identificar un par dirigente con quien compartir el plan, y firmar una promesa personal."_
 3. **`heading` (nivel 3)** — _"Mi par dirigente"_
-4. **`paragraph`** — _"Un par dirigente puede ser: otro adulto de tu mismo consejo de grupo, alguien de tu rama en otro grupo de la región, un dirigente con quien hiciste un curso de formación. La función: compartirle el plan, contar cómo va cada mes, ajustar juntos. No es un jefe ni un evaluador; es un compañero de camino."_
+4. **`paragraph`** — _"Un par dirigente puede ser: otro dirigente de tu mismo grupo (de tu unidad o de otra), alguien de tu rama en otro grupo de la región, o un dirigente con quien hiciste un curso de formación. La función: compartirle el plan, contar cómo va cada mes, ajustar juntos. No es un jefe ni un evaluador; es un compañero de camino."_
 5. **`plan-builder` — Bloque final (par)**
     - **Campo 19: Nombre del par dirigente** — `text`.
     - **Campo 20: Grupo o ámbito del par** — `text`.
@@ -309,7 +309,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 11. **`list`** — Mapa hacia los Niveles 2-4:
     - **Inmediato**: el módulo oficial A Salvo del Peligro de la ASC, que no lo reemplaza ningún curso nuestro.
     - **Próximo mes**: tu curso de rama del Nivel 2 + un curso pedagógico operativo (13, 14 o 15).
-    - **Próximos meses**: el resto del Nivel 2, el Nivel 3 (cuando ejerzas un cargo) y los demás cursos del Nivel 4.
+    - **Próximos meses**: el resto del Nivel 2; el Nivel 3, con el Curso 17 en cuanto acompañes la progresión de tus protagonistas y los demás cuando ejerzas el cargo; y los demás cursos del Nivel 4.
 12. **`info-box`** — Despedida: _"Bienvenida, bienvenido al equipo de quienes tienen plan. El Movimiento te necesitaba. Tu unidad también. Buen camino."_
 
 **Reflexión:** _"Sin nombres ni iniciales: ¿qué rol tiene tu par dirigente, en qué ámbito lo conoces y cada cuánto revisarán juntos el plan? Tu promesa personal escríbela en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."_

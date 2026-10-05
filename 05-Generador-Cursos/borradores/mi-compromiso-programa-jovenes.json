@@ -2,10 +2,10 @@
   "courseId": "mi-compromiso-programa-jovenes",
   "title": "Mi Compromiso con el Programa de Jóvenes",
   "subtitle": "Tu plan personal de dirigente — cierre del Nivel 1",
-  "description": "El cierre del Nivel 1 de la Línea Programa de Jóvenes. En ~30 minutos vas a convertir los Cursos 1 a 6 en un Plan Personal de Dirigente firmable: revisas tu brújula, defines tu rol, rama y áreas prioritarias, planeas tu próxima reunión y tu proyecto del trimestre, trazas tu ruta de formación y firmas tu promesa personal. No hay contenido nuevo: integras lo que ya tienes en algo accionable.",
+  "description": "El cierre del Nivel 1 de la Línea Programa de Jóvenes. En ~33 minutos vas a convertir los Cursos 1 a 6 en un Plan Personal de Dirigente firmable: revisas tu brújula, defines tu rol, rama y áreas prioritarias, planeas tu próxima reunión y tu proyecto del trimestre, trazas tu ruta de formación y firmas tu promesa personal. No hay contenido nuevo: integras lo que ya tienes en algo accionable.",
   "contentVersion": "2026-10-04",
   "icon": "🗺️",
-  "duration": "30 minutos",
+  "duration": "33 minutos",
   "level": 1,
   "levelName": "Fundamentación",
   "order": 7,
@@ -20,7 +20,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~30 minutos.</strong> Al final vas a tener un Plan Personal de Dirigente firmado, descargable en PDF, con compromisos chicos y concretos para el próximo trimestre. Y un par dirigente con quien compartirlo."
+          "text": "⏱️ <strong>~33 minutos.</strong> Al final vas a tener un Plan Personal de Dirigente firmado, descargable en PDF, con compromisos chicos y concretos para el próximo trimestre. Y un par dirigente con quien compartirlo."
         },
         {
           "type": "paragraph",
@@ -93,20 +93,29 @@
         "nextLabel": "Continuar a mi rol y mi rama 🎯",
         "questions": [
           {
-            "text": "Una \"brújula personal\" en este Nivel 1 es…",
+            "text": "Una dirigente escribió su «Compromiso Personal» del Curso 4 en el computador de su trabajo. Hoy abre este curso en su celular y no lo encuentra. Según la lección, ¿qué pasó?",
             "options": [
-              "Un objeto simbólico que te entregan al cerrar el Nivel 1 y que llevas a tus reuniones.",
-              "Lo que escribiste al cerrar cada curso, en reflexiones o recuadros, y que guía tu plan.",
-              "La lista de cursos que te faltan del Nivel 2, en el orden en que te conviene tomarlos."
+              "Ese recuadro se borra al emitirse el certificado: tiene que reescribirlo de memoria en esta reflexión.",
+              "Ese recuadro solo queda en el navegador donde lo escribió: tiene que volver a ese computador a buscarlo.",
+              "Ese recuadro viaja con su avance: lo recupera en el celular con el botón «Recuperar mi Avance»."
             ],
             "correctIndex": 1
           },
           {
-            "text": "¿Para qué sirve la auto-revisión de la L2 antes de planear?",
+            "text": "A la segunda pregunta («qué práctica estoy haciendo mal o ausente») responden tres dirigentes de Manada. ¿Cuál deja materia prima útil para su plan?",
             "options": [
-              "Para repasar todo el contenido de los 6 cursos anteriores, en clave de examen final del Nivel 1.",
-              "Para identificar la idea más transformadora, la práctica a ajustar y la fortaleza presente.",
-              "Para evaluar si los cursos del nivel estuvieron bien diseñados."
+              "Las reuniones siempre arrancan tarde porque las familias traen tarde a los lobatos.",
+              "En mis reuniones yo escojo los juegos y los lobatos casi nunca deciden nada.",
+              "Tengo que mejorar en general en el Método Scout, como casi todos."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "A la tercera pregunta, un dirigente de Tropa escribe: «Quiero aprender a llevar mejor los consejos de patrulla». ¿Qué le señalas según la lección?",
+            "options": [
+              "Que está bien: esa pregunta pide la fortaleza que quiere desarrollar este año.",
+              "Que eso es algo por aprender; la pregunta pide una que ya tiene y el Movimiento necesita.",
+              "Que la cambie por una que sus scouts le reconozcan: la pregunta pide la mirada de la unidad."
             ],
             "correctIndex": 1
           }
@@ -196,7 +205,7 @@
         },
         {
           "type": "paragraph",
-          "text": "De los 3 roles del Modelo de Aplicación (Apoyar, Acompañar, Enlazar), ¿cuál vas a fortalecer este trimestre? El que más te haga falta, no el que ya manejas bien. Anota tu elección y por qué en tu reflexión."
+          "text": "De los 3 roles del Modelo de Aplicación (Apoyar, Acompañar, Enlazar), ¿cuál vas a fortalecer este trimestre? El que más te haga falta, no el que ya manejas bien, sin dejar de ejercer el que tus protagonistas necesitan según su etapa. Anota tu elección y por qué en tu reflexión."
         }
       ],
       "reflection": {
@@ -207,22 +216,31 @@
         "nextLabel": "Continuar a mi reunión y mi proyecto 🛠️",
         "questions": [
           {
-            "text": "Marcela ama el área de Creatividad y se le da fácil. Pero su Manada llega dispersa y se trata mal entre lobatos. Según el criterio de esta lección, ¿en qué 2 áreas debería poner foco este trimestre?",
+            "text": "A un subjefe de Tropa le encanta la Sociabilidad y se siente flojo en Espiritualidad. Su Tropa, en cambio, llega agotada a cada salida y casi nunca propone ideas nuevas. Con el criterio de la lección, ¿qué 2 áreas elige para el trimestre?",
             "options": [
-              "Creatividad y otra que le guste, porque así va a disfrutar mucho más el trimestre.",
-              "Carácter y Sociabilidad, porque son las que su unidad más necesita ahora.",
-              "Las 6 áreas de crecimiento a la vez, para no dejar ninguna por fuera."
+              "Corporalidad y Creatividad: las dos que más necesita su Tropa en este momento.",
+              "Corporalidad y Espiritualidad: la que su Tropa pide y la que a él le hace falta.",
+              "Corporalidad y Sociabilidad: la que su Tropa pide y la que él ya sabe trabajar."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
-            "text": "Andrés es buenísimo Enlazando: consigue aliados, gestiona permisos, conecta con los papás. Pero le cuesta Acompañar uno-a-uno a sus protagonistas. ¿Cuál rol del Modelo debería elegir como prioritario del trimestre?",
+            "text": "A una jefa de Comunidad le salen bien Acompañar y Enlazar, pero le cuesta Apoyar. Este trimestre entran seis nómadas nuevos que van a vivir todo por primera vez. Según la lección, ¿qué rol fija como prioritario?",
             "options": [
-              "Enlazar, para seguir explotando lo que ya hace bien.",
-              "Acompañar, porque es el que más le hace falta fortalecer.",
-              "Da igual cuál: los tres roles se desarrollan solos con el tiempo."
+              "Enlazar, que es lo que mejor hace y lo que más luce ante nómadas que recién llegan.",
+              "Los tres a la vez: con seis nómadas nuevos no puede descuidar ninguno.",
+              "Apoyar: es el que a ella le falta, y el que más piden quienes recién entran."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
+          },
+          {
+            "text": "Un adulto sirve en la comisión regional de Programa de Jóvenes y no tiene unidad a cargo. Según la lección, ¿cómo llena «Mi rol y mi rama»?",
+            "options": [
+              "Anota la unidad más cercana de su grupo, porque el plan de este curso se arma sobre una unidad.",
+              "Anota la comisión regional como su otro ámbito y en cargo pone «ninguno», porque no tiene una unidad a su cargo.",
+              "Anota la comisión regional como su otro ámbito, con el cargo que tiene y los protagonistas que acompaña."
+            ],
+            "correctIndex": 2
           }
         ]
       }
@@ -257,7 +275,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Un proyecto scout no es una actividad larga. Empieza con una pregunta que sale de mirar el entorno — ¿qué duele?, ¿qué falta?, ¿qué queremos mejorar? — y avanza en cinco momentos: <strong>miran</strong> su realidad, <strong>planean</strong> juntos qué van a hacer y para quién, lo <strong>hacen</strong> por tramos, lo <strong>muestran</strong> a quien va dirigido, y al final <strong>evalúan</strong> qué se llevan. Lo más importante: la pregunta la formulan los protagonistas contigo. Tu rol es Apoyar, Acompañar y Enlazar."
+          "text": "Un proyecto scout no es una actividad larga. Empieza con una pregunta que sale de mirar el entorno — ¿qué duele?, ¿qué falta?, ¿qué queremos mejorar? — y avanza en cinco momentos (así los cuenta el Modelo de Aplicación): <strong>miran</strong> su realidad, <strong>planean</strong> juntos qué van a hacer y para quién, lo <strong>hacen</strong> por tramos, lo <strong>muestran</strong> a quien va dirigido, y al final <strong>evalúan</strong> qué se llevan. Lo más importante: la pregunta la formulan los protagonistas contigo. Tu rol es Apoyar, Acompañar y Enlazar."
         },
         {
           "type": "paragraph",
@@ -276,20 +294,29 @@
         "nextLabel": "Continuar a mi ruta de formación 📚",
         "questions": [
           {
-            "text": "En el ciclo de programa que propone el Modelo de Aplicación 2026, un proyecto…",
+            "text": "Un jefe de Manada quiere poner como proyecto del trimestre una caminata de un día que ya tiene armada, con almuerzo y juegos. Según la lección, ¿qué le falta para ser un proyecto scout?",
             "options": [
-              "Lo propone el dirigente y lo ejecutan los protagonistas.",
-              "Surge de los protagonistas; el dirigente Apoya, Acompaña y Enlaza.",
-              "Surge del plan nacional: lo asigna la DNPJ a cada unidad."
+              "Que parta de una pregunta sobre el entorno que los lobatos formulen con él, y siga cinco momentos.",
+              "Que dure varias semanas y avance por tramos, porque un proyecto es más largo que una salida.",
+              "Que los lobatos escojan el destino y los juegos, para que la caminata sea de verdad de ellos."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
-            "text": "¿Por qué se planea pensando en un elemento del Método y un criterio DURASLID?",
+            "text": "Una Tropa recorrió el parque del barrio y vio que los vecinos no lo usaban porque estaba feo. Entre todos diseñaron un mural, lo pintaron en tres sábados, invitaron a los vecinos y a la junta a la inauguración y cerraron con un asado. Según los cinco momentos, ¿cuál quedó por fuera?",
             "options": [
-              "Para llenar un formato y tener el papeleo al día.",
-              "Para hacer consciente lo que la reunión va a fortalecer, en vez de confiarlo a la intuición.",
-              "Para evitar tener que aplicar los 8 elementos del Método en cada reunión y ahorrarse la preparación."
+              "Mirar su realidad antes de decidir qué hacer.",
+              "Mostrarlo a quienes iba dirigido.",
+              "Evaluar qué se llevan del proyecto."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Para su próxima reunión, una subjefe de Comunidad ya anotó la fecha, el tema y la Naturaleza como elemento del Método a fortalecer, con el cómo. Según la lección, ¿qué le falta anotar?",
+            "options": [
+              "Cuál de los ocho criterios DURASLID cumple mejor, para reforzarlo en la reunión.",
+              "Cuál de los ocho criterios DURASLID está en riesgo y necesita más atención.",
+              "Qué área de crecimiento, de las dos que eligió, va a trabajar ahí."
             ],
             "correctIndex": 1
           }
@@ -337,15 +364,15 @@
         },
         {
           "type": "paragraph",
-          "text": "Estos los toman todos los dirigentes de unidad. Recomendamos este orden, según tu rol:"
+          "text": "Se recomiendan a todos los dirigentes de unidad. Este es el orden que sugerimos, según tu rol:"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "<strong>Si tu foco es acompañar la progresión personal</strong> (uno-a-uno con los protagonistas) → empieza por el <strong>Curso 13 (Seguimiento de la Progresión)</strong>.",
-            "<strong>Si eres Jefe o Subjefe de Rama</strong> → empieza por el <strong>Curso 14 (Planeación de Reuniones)</strong> y luego el <strong>Curso 15 (Ciclo con ABP)</strong>.",
-            "<strong>Si eres dirigente del equipo o entras nuevo</strong> → orden libre, según prioridad de tu unidad."
+            "<strong>Si eres Jefe o Subjefe de Rama</strong> → empieza por el <strong>Curso 14 (Planeación de Reuniones)</strong> y sigue con el <strong>Curso 15 (Ciclo con ABP)</strong>.",
+            "<strong>Si no lo eres y lo tuyo es acompañar la progresión personal</strong> (uno-a-uno con los protagonistas) → empieza por el <strong>Curso 13 (Seguimiento de la Progresión)</strong>.",
+            "<strong>Si entras nuevo y aún no tienes una función clara</strong> → en el orden que más le sirva a tu unidad."
           ]
         },
         {
@@ -384,20 +411,29 @@
         "nextLabel": "Continuar a mi par y mi promesa 🤝",
         "questions": [
           {
-            "text": "Un dirigente ya terminó el Nivel 1 y quiere arrancar el Curso 10 (Rama Tropa) del Nivel 2 la próxima semana. Te pregunta si antes tiene que hacer algún otro curso de la plataforma. ¿Qué le dices?",
+            "text": "Una dirigente hizo SfH 1, SfH 2b y SfH 3 en learn.scout.org, pero el enlace del módulo complementario de la Asociación no le abre. Según la lección, ¿qué hace?",
             "options": [
-              "Que sí, que primero tiene que completar el Nivel 4 entero, que es donde están los kits y todo lo relativo a la protección.",
-              "Que no, que nada lo bloquea; y que lo que no debe esperar son los módulos oficiales de A Salvo del Peligro.",
-              "Que no, nada lo bloquea; y que A Salvo del Peligro puede esperar, porque el Curso 25 ya le enseña lo esencial."
+              "Le pide ese módulo a su jefe inmediato y, al terminar los cuatro, le entrega los certificados.",
+              "Le entrega ya los tres certificados a su jefe inmediato y deja el cuarto para cuando el enlace abra.",
+              "Toma el Curso 25 de la plataforma en su lugar y entrega ese certificado junto con los otros tres."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
-            "text": "Un dirigente nuevo de Manada que se enfocará en acompañar la progresión personal debería empezar el Nivel 2 con…",
+            "text": "Una Subjefe de Tropa con dos años en el cargo, que además acompaña de cerca la progresión de seis scouts, cierra el Nivel 1. Según el orden que recomienda la lección, ¿cómo sigue en el Nivel 2?",
             "options": [
-              "El Curso 8 (Rama Manada) y el Curso 13 (Seguimiento de la Progresión).",
-              "El Curso 15 (Ciclo con ABP) primero, y después el curso de su rama.",
-              "Los cursos del Nivel 3 directamente, porque ahí está el detalle de cada cargo."
+              "Con el Curso 10 de su rama y, de los pedagógicos, el 13 primero y luego el 14.",
+              "Con el Curso 10 de su rama y, de los pedagógicos, el 15 primero y luego el 14.",
+              "Con el Curso 10 de su rama y, de los pedagógicos, el 14 primero y luego el 15."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Una dirigente cerró el Nivel 1 y quiere empezar este mes el Curso 10 y el Kit HeForShe. Aún no hace A Salvo del Peligro. ¿Qué le dices?",
+            "options": [
+              "Que arranque ya con los dos y agende esta semana los módulos de A Salvo del Peligro.",
+              "Que arranque ya con los dos y deje A Salvo del Peligro para cuando cierre el Nivel 2.",
+              "Que haga antes A Salvo del Peligro: sin esos certificados no se le abre el Nivel 2."
             ],
             "correctIndex": 0
           }
@@ -425,7 +461,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Un par dirigente puede ser: otro adulto de tu mismo consejo de grupo, alguien de tu rama en otro grupo de la región, un dirigente con quien hiciste un curso de formación. La función: compartirle el plan, contar cómo va cada mes, ajustar juntos. No es un jefe ni un evaluador; es un compañero de camino."
+          "text": "Un par dirigente puede ser: otro dirigente de tu mismo grupo (de tu unidad o de otra), alguien de tu rama en otro grupo de la región, o un dirigente con quien hiciste un curso de formación. La función: compartirle el plan, contar cómo va cada mes, ajustar juntos. No es un jefe ni un evaluador; es un compañero de camino."
         },
         {
           "type": "paragraph",
@@ -462,7 +498,7 @@
           "items": [
             "<strong>Inmediato</strong>: los cuatro módulos oficiales de A Salvo del Peligro, que ningún curso nuestro reemplaza.",
             "<strong>Próximo mes</strong>: tu curso de rama del Nivel 2 + un curso pedagógico operativo (13, 14 o 15).",
-            "<strong>Próximos meses</strong>: el resto del Nivel 2, el Nivel 3 (cuando ejerzas un cargo) y los demás cursos del Nivel 4."
+            "<strong>Próximos meses</strong>: el resto del Nivel 2; el Nivel 3, con el Curso 17 en cuanto acompañes la progresión de tus protagonistas y los demás cuando ejerzas el cargo; y los demás cursos del Nivel 4."
           ]
         },
         {
@@ -478,22 +514,31 @@
         "nextLabel": "Obtener mi certificado 🎓",
         "questions": [
           {
-            "text": "¿Por qué se sugiere compartir el plan con un par dirigente, no con un jefe?",
+            "text": "Un Jefe de Tropa busca un par dirigente con quien compartir su plan. ¿Cuál encaja con lo que describe la lección?",
             "options": [
-              "Porque los jefes de grupo suelen estar ocupados con otras tareas del consejo.",
-              "Porque el par es compañero de camino, no evaluador: sostiene sin juzgar.",
-              "Porque el plan personal es privado y el jefe no debería verlo."
+              "Su Jefe de Grupo, que conoce la unidad y cada mes puede revisar si el plan se está cumpliendo.",
+              "Su compañera de un curso de formación, jefa de Tropa en otro grupo, para ajustarlo juntos cada mes.",
+              "El guía de patrulla más antiguo, que vive la Tropa desde dentro y puede decirle cómo va el plan."
             ],
             "correctIndex": 1
           },
           {
-            "text": "La promesa personal del Nivel 1 es…",
+            "text": "En la reflexión, un dirigente escribe: «Mi par es Carolina R., jefa de Manada del Grupo 12; le comparto el plan el sábado y nos vemos cada mes». ¿Qué le ajustas según la lección?",
             "options": [
-              "Un trámite administrativo necesario para que el sistema emita el certificado del curso.",
-              "Un acto de compromiso explícito que convierte el aprendizaje en orientación viva del servicio.",
-              "Una promesa de cumplir los 5 cursos restantes del Nivel 1."
+              "Que quite nombre e inicial y deje rol y ámbito: jefa de Manada de otro grupo.",
+              "Que pase a revisiones semanales: cada mes es muy poco para sostener un plan nuevo.",
+              "Que busque un par de su mismo grupo: alguien de otro grupo no ve su unidad."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
+          },
+          {
+            "text": "Al terminar la lección, un dirigente quiere dejar registrada su promesa personal. ¿Qué le indica la lección?",
+            "options": [
+              "La escribe en la reflexión de esta lección, para que quede guardada con su avance en la plataforma.",
+              "La copia a mano, la firma y sube la foto: ese es el paso que cierra el Nivel 1 y habilita el certificado.",
+              "La escribe en el recuadro «Compromiso Personal» y la lee en voz alta antes de descargar el certificado."
+            ],
+            "correctIndex": 2
           }
         ]
       }

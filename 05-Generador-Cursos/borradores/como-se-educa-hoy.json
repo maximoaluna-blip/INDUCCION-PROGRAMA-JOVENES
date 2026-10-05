@@ -2,10 +2,10 @@
   "courseId": "como-se-educa-hoy",
   "title": "Cómo se Educa Hoy",
   "subtitle": "Conceptos clave de la educación — la base de todo lo que sigue",
-  "description": "El Curso 3 de la Línea Programa de Jóvenes, y un paréntesis necesario antes de entrar de lleno a lo scout. En ~30 minutos vas a entender qué es educar, los cuatro pilares de la educación (UNESCO), cómo aprenden de verdad las personas, dónde se aprende (educación formal, no formal e informal) y por qué el aprender haciendo funciona. No es teoría por la teoría: es la base que hace que el Método Scout, las ramas y el Modelo —que vienen después— se entiendan como la aplicación de estas ideas.",
+  "description": "El Curso 3 de la Línea Programa de Jóvenes, y un paréntesis necesario antes de entrar de lleno a lo scout. En ~33 minutos vas a entender qué es educar, los cuatro pilares de la educación (UNESCO), cómo aprenden de verdad las personas, dónde se aprende (educación formal, no formal e informal) y por qué el aprender haciendo funciona. No es teoría por la teoría: es la base que hace que el Método Scout, las ramas y el Modelo —que vienen después— se entiendan como la aplicación de estas ideas.",
   "contentVersion": "2026-10-04",
   "icon": "🎓",
-  "duration": "30 minutos",
+  "duration": "33 minutos",
   "level": 1,
   "levelName": "Fundamentación",
   "order": 3,
@@ -20,7 +20,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~30 minutos.</strong> Al final vas a tener un lenguaje claro sobre <strong>cómo se educa</strong> — y vas a ver por qué todo lo scout que viene después no es más que la aplicación de estas ideas."
+          "text": "⏱️ <strong>~33 minutos.</strong> Al final vas a tener un lenguaje claro sobre <strong>cómo se educa</strong> — y vas a ver por qué todo lo scout que viene después no es más que la aplicación de estas ideas."
         },
         {
           "type": "paragraph",
@@ -75,7 +75,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El mundo cambia rápido y se vuelve complejo: desigualdad, crisis ambiental, conflictos, transformación digital. La UNESCO dice que para responder a eso ya no basta con “dar materia”: hace falta una educación que despierte el pensamiento crítico, la creatividad y la capacidad de convivir y decidir. Por eso la educación va <strong>mucho más allá del aula</strong>, tanto en lo que abarca como en el tiempo que dura."
+          "text": "El mundo cambia rápido y se vuelve complejo: desigualdad, crisis ambiental, conflictos, transformación digital. El Movimiento Scout, apoyándose en la UNESCO, dice que para responder a eso ya no basta con “dar materia”: hace falta una educación que despierte el pensamiento crítico, la creatividad y la capacidad de convivir y decidir. Por eso la educación va <strong>mucho más allá del aula</strong>, tanto en lo que abarca como en el tiempo que dura."
         },
         {
           "type": "method-grid",
@@ -107,20 +107,29 @@
         "nextLabel": "Continuar a los 4 pilares 🏛️",
         "questions": [
           {
-            "text": "Un papá te dice: “Mi hijo va a los scouts a jugar; para educarse ya está el colegio”. Según esta lección, ¿qué le falta a esa idea?",
+            "text": "Al cerrar el año, un dirigente hace su balance: «Cada chico creció mucho en lo personal: está más seguro, más hábil y más maduro. Con eso cumplimos». Mirando la definición de educación que adopta el Movimiento, ¿qué le falta revisar?",
             "options": [
-              "Nada: tiene razón, educar es lo que pasa en el colegio y los scouts son apenas el tiempo libre del chico.",
-              "Que educar es preparar para la vida y ocurre en muchos lugares; la experiencia scout también educa.",
-              "Que el colegio en realidad no educa para la vida; solo los scouts educan de verdad."
+              "Si crecieron también en conocimientos, que la definición pone antes que lo personal.",
+              "Si ese crecimiento quedó registrado: la definición habla de un desarrollo demostrable.",
+              "Si cada uno creció también como miembro de la sociedad, y no solo como individuo."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
-            "text": "Dos personas discuten. Una dice: “educar es meter la mayor cantidad de contenidos en la cabeza del chico mientras es joven”. La otra: “educar es acompañar a una persona toda la vida para que pueda responder a lo que le toque”. Según cómo lo define el Movimiento, ¿quién se acerca más?",
+            "text": "En una reunión de padres, alguien resume: «Educar es acompañar a la persona entera, y eso se hace en la niñez y la juventud; de adulto, cada uno ya es como es». Comparada con «la idea de hoy» que presenta la lección, ¿en qué acierta y en qué falla?",
             "options": [
-              "La primera: educar es acumular la mayor cantidad de contenidos en la etapa de formación.",
-              "La segunda: educar es un proceso de por vida que desarrolla a la persona entera.",
-              "Ninguna: educar es solo preparar para aprobar los exámenes que pone la sociedad."
+              "Acierta en la persona entera; falla en el tiempo, porque educar dura toda la vida.",
+              "Acierta en el tiempo, que es la etapa de formación; falla en olvidar que educar es transmitir contenidos.",
+              "Acierta en la persona entera; falla en el tiempo, porque se educa sobre todo en la escuela."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Preocupado por la transformación digital, un dirigente prepara para sus jóvenes una charla muy completa, con todos los datos sobre redes sociales y riesgos en internet. Según lo que la lección cuenta de los retos de hoy, ¿qué le falta a su plan?",
+            "options": [
+              "Más tiempo: un reto así de nuevo pide varias reuniones de contenido, no una sola charla.",
+              "Que la actividad despierte pensamiento crítico y capacidad de decidir, no solo que entregue datos.",
+              "Que la dé un experto de afuera, porque los retos nuevos piden contenidos más actualizados."
             ],
             "correctIndex": 1
           }
@@ -198,22 +207,31 @@
         "nextLabel": "Continuar a cómo aprendemos 🧩",
         "questions": [
           {
-            "text": "Una dirigente arma un trimestre lleno de talleres donde los chicos memorizan datos y técnicas, pero nunca tienen que decidir, convivir en equipo ni mirarse a sí mismos. Mirando los 4 pilares, ¿qué está pasando?",
+            "text": "En una excursión se le daña la estufa a una patrulla, y sus integrantes se reparten tareas en equipo para resolver el imprevisto y poder cocinar. Según cómo describe la lección cada pilar, ¿cuál se está trabajando más directamente?",
             "options": [
-              "Está bien: si terminan dominando los datos y las técnicas del trimestre, ya están educados.",
-              "Está trabajando sobre todo “conocer/hacer” y dejando de lado “vivir juntos” y “ser”.",
-              "Está fallando porque a esa edad lo único que de verdad importa es “aprender a ser”."
+              "Aprender a vivir juntos, porque el hacer se reserva a las habilidades de un oficio.",
+              "Aprender a hacer, porque ese pilar incluye enfrentar situaciones y trabajar en equipo.",
+              "Aprender a conocer, porque resolver un imprevisto pide profundizar en una técnica concreta."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Un joven que aprende a entender a los demás, a cooperar y a sostener el respeto y la paz está desarrollando sobre todo el pilar de…",
+            "text": "En un taller, un dirigente explica: «Las 6 áreas de crecimiento de la política colombiana salen de los 4 pilares de la UNESCO». Según la pista que deja esta lección, ¿qué le precisas?",
             "options": [
-              "Aprender a conocer.",
-              "Aprender a vivir juntos.",
-              "Aprender a hacer."
+              "Que solo cuatro áreas salen de los pilares; las otras dos vienen de otra fuente educativa.",
+              "Que los pilares no entran en la política colombiana: son un marco de la UNESCO pensado para el colegio.",
+              "Que la política usa los pilares para sostener las competencias educativas, no para nombrar las áreas."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
+          },
+          {
+            "text": "Una dirigente quiere que sus jóvenes aprendan a buscar información, a comprobarla y a seguir aprendiendo después de cada actividad. Según la descripción de los pilares en la lección, ¿cuál está trabajando sobre todo?",
+            "options": [
+              "Aprender a conocer, porque ese pilar pone en el centro el aprender a aprender toda la vida.",
+              "Aprender a ser, porque seguir aprendiendo es actuar con autonomía, juicio y responsabilidad.",
+              "Aprender a hacer, porque buscar y comprobar información es enfrentar situaciones reales."
+            ],
+            "correctIndex": 0
           }
         ]
       }
@@ -253,7 +271,7 @@
             "<strong>Cada quien es distinto.</strong> Hay ritmos e intereses diferentes; uno solo no le sirve a todos.",
             "<strong>Reto sí, sobrecarga no.</strong> Demasiado fácil aburre; demasiado difícil frustra. El punto justo enseña.",
             "<strong>Retroalimentar mientras se hace.</strong> Decirle al joven cómo va —y qué se espera— mientras aprende, no solo al final.",
-            "<strong>Conectar con la vida.</strong> Lo que se enlaza con el mundo real y con la comunidad se aprende de verdad."
+            "<strong>Conectar con la vida.</strong> Lo que se enlaza con otras cosas que ya sabes, con la comunidad y con el mundo real se aprende de verdad."
           ]
         },
         {
@@ -269,22 +287,31 @@
         "nextLabel": "Continuar a dónde se aprende 🏫",
         "questions": [
           {
-            "text": "Un dirigente prepara una charla larga, clarísima y muy bien explicada; los chicos escuchan sentados 40 minutos y al final no recuerdan casi nada. Según los principios de cómo se aprende, ¿qué falló sobre todo?",
+            "text": "Durante dos semanas una patrulla prepara un juego para la Manada. Su dirigente, por no quitarles protagonismo, solo les dice «vamos bien». El día del juego descubren que no era lo que él esperaba. ¿Qué debió hacer distinto?",
             "options": [
-              "Nada: si la explicación fue clara, el aprendizaje está garantizado.",
-              "Que el que aprende estuvo pasivo: faltó ponerlo al centro, activo, retado y aprendiendo con otros.",
-              "Que la charla fue muy corta; con el doble de tiempo y más ejemplos les habría quedado grabada."
+              "Darles aún más libertad: si el joven está al centro, el adulto no debe opinar del resultado.",
+              "Decirles desde el inicio qué esperaba y darles señales reales de cómo iban, a tiempo.",
+              "Cuidar su motivación: decirles que no era lo esperado los habría desanimado."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Le das a una patrulla un reto que les queda enorme y se frustran; a otra, uno tan fácil que se aburren. ¿Qué principio del aprendizaje no estás cuidando?",
+            "text": "Un dirigente arma una reunión de nudos: los jóvenes eligieron el tema, trabajan en patrulla, están motivados, el reto les queda justo y él les va diciendo cómo van. Al final, cada uno sabe hacer seis nudos sobre una cuerda en la mesa, y ahí se acaba la actividad. Según los 7 principios, ¿qué le falta?",
             "options": [
-              "El reto y el esfuerzo en su punto justo (ni sobrecarga ni demasiado fácil).",
-              "Que el aprendizaje es un proceso social.",
-              "El principio de conectar el aprendizaje con la comunidad y el mundo real."
+              "Que les explique mejor cada nudo antes de practicar: una buena explicación va primero.",
+              "Que usen los nudos en algo real —un montaje, un servicio— fuera de la reunión.",
+              "Que cada uno trabaje solo, a su ritmo: en grupo las diferencias se pierden."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
+          },
+          {
+            "text": "La lección te invita a mirar algo que NO aparece en la lista de los 7 principios. ¿Qué es, y qué enseña su ausencia?",
+            "options": [
+              "La motivación: la OCDE pone el peso en el esfuerzo y deja las emociones por fuera del aprendizaje.",
+              "La buena explicación: aprender depende más de que quien aprende esté activo, retado y acompañado.",
+              "La cooperación: la OCDE pone el peso en el ritmo de cada individuo más que en el del grupo."
+            ],
+            "correctIndex": 1
           }
         ]
       }
@@ -308,13 +335,13 @@
           "items": [
             {
               "title": "🏫 Educación FORMAL",
-              "description": "Institucionalizada, planificada y con títulos: el sistema escolar y las universidades. Lleva a un certificado oficial reconocido por el Estado.",
+              "description": "Institucionalizada y planificada: es el sistema educativo oficial del país, el colegio y la universidad.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
             {
               "title": "⚜️ Educación NO FORMAL",
-              "description": "También es <strong>intencional y planeada</strong>, pero fuera del sistema escolar: complementa o amplía lo formal. <strong>Aquí vive el Movimiento Scout</strong>, junto al trabajo juvenil y la formación permanente.",
+              "description": "También es <strong>intencional y planeada</strong>, y la ofrece una organización (como el Grupo Scout), pero fuera del sistema escolar: suma a lo formal o lo complementa. <strong>Aquí vive el Movimiento Scout</strong>, junto al trabajo juvenil y la formación permanente.",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             },
@@ -333,7 +360,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Que el escultismo sea educación <strong>no formal</strong> significa dos cosas. Primero: es <strong>intencional y planeada</strong> — no es solo “pasarla bien”; hay un propósito educativo detrás de cada actividad. Segundo: no reemplaza al colegio ni a la familia; los <strong>complementa</strong>. Tú no eres el profesor del chico ni su papá: eres el adulto que le ofrece un espacio educativo distinto, voluntario y poderoso."
+          "text": "Que el escultismo sea educación <strong>no formal</strong> significa dos cosas. Primero: es <strong>intencional, planeada y organizada por una institución</strong> — no es solo “pasarla bien”; hay un propósito educativo detrás de cada actividad y una organización que responde por él. Segundo: no reemplaza al colegio ni a la familia; los <strong>complementa</strong>. El Modelo de Aplicación colombiano (lo verás en el Curso 6) lo dice así: el escultismo ofrece «una educación no formal, complementaria a la familia y a la escuela» (p. 9). Tú no eres el profesor del chico ni su papá: eres el adulto que le ofrece un espacio educativo distinto, voluntario y poderoso."
         },
         {
           "type": "policy-quote",
@@ -354,20 +381,29 @@
         "nextLabel": "Continuar a aprender haciendo 🔨",
         "questions": [
           {
-            "text": "Un dirigente nuevo dice: “Como esto no es el colegio, aquí no hay que planear nada; los chicos vienen a jugar y ya”. Según lo que viste sobre la educación no formal, ¿qué le corriges?",
+            "text": "Una empresa organiza para sus empleados un curso de primeros auxilios, con programa, instructor y fechas. Según la clasificación de la lección, ¿qué tipo de educación es?",
             "options": [
-              "Nada: la educación no formal consiste justamente en dejar que los chicos jueguen sin planear nada.",
-              "Que la educación no formal SÍ es intencional y planeada: el juego tiene detrás un propósito.",
-              "Que debería planear sus reuniones exactamente igual que una clase de colegio, con temas y notas."
+              "Formal: la organiza una institución con programa e instructor, tal como lo haría un colegio.",
+              "Informal: ocurre en el lugar de trabajo, y la lección pone el trabajo entre lo informal.",
+              "No formal: es intencional y la organiza una institución, pero fuera del sistema escolar."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
-            "text": "Una familia le enseña a un niño a compartir y a respetar en el día a día, sin programa ni institución. ¿Qué tipo de educación es?",
+            "text": "Un colegio empieza a usar proyectos, juego y trabajo en equipo en sus clases. Un dirigente concluye: «Entonces ese colegio ya es educación no formal». Según la lección, ¿qué le precisas?",
             "options": [
-              "Educación formal.",
-              "Educación informal.",
-              "Educación no formal."
+              "Que sigue siendo formal: sigue dentro del sistema escolar; lo que adopta son métodos no formales.",
+              "Que tiene razón: lo que define el tipo de educación es el método con que se aprende, no la institución.",
+              "Que pasa a ser informal: al aprender jugando, el aprendizaje sale de lo planificado por la institución."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una mamá le pide al dirigente que, como su hijo va mal en matemáticas, usen parte de las reuniones para ponerlo al día con las tareas del colegio. Según lo que la lección dice del escultismo como educación no formal, ¿qué orienta tu respuesta?",
+            "options": [
+              "Que el grupo puede asumirlo si lo planea, porque lo que hace educativa una reunión es que sea intencional.",
+              "Que el grupo complementa al colegio con un espacio educativo distinto; no lo reemplaza ni hace su trabajo.",
+              "Que eso le corresponde a la familia, porque la educación informal es la que refuerza lo del colegio."
             ],
             "correctIndex": 1
           }
@@ -431,20 +467,29 @@
         "nextLabel": "Obtener mi certificado 🎓",
         "questions": [
           {
-            "text": "Una patrulla cocina sola en un campamento, les queda regular, y el dirigente pasa al siguiente punto sin detenerse a conversar qué pasó. Según el aprendizaje experiencial, ¿qué se perdió?",
+            "text": "En un campamento, un dirigente ve que la patrulla está armando mal la carpa y, para que no pierdan tiempo, se pone a armarla él mismo; luego conversan sobre lo que pasó. Según el enfoque experiencial que cita la lección, ¿qué se perdió?",
             "options": [
-              "Nada: ya hicieron la actividad completa, y con haberla vivido ya aprendieron.",
-              "La reflexión: hacer sin mirar lo que pasó deja la experiencia a medias.",
-              "El aprendizaje se perdió porque la comida les quedó regular."
+              "La oportunidad de hacerlo y equivocarse ellos: el error, junto con la reflexión, es parte de aprender haciendo.",
+              "Nada importante: si después conversan sobre lo que pasó, eso compensa con creces que él lo hiciera por ellos.",
+              "Solo un rato de práctica: armar una carpa es pura técnica, que se aprende repitiendo y no pide reflexión."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
-            "text": "Según este curso, ¿por qué cada lección de la plataforma te pide escribir una reflexión al final?",
+            "text": "Tras una caminata que salió muy bien, la patrulla quiere pasar directo a lo siguiente: «Si todo salió bien, no hay nada que reflexionar». Según la lección, ¿qué les respondes?",
             "options": [
-              "Para llenar un requisito de la plataforma y poder desbloquear la siguiente lección del curso.",
-              "Porque la experiencia se convierte en aprendizaje propio cuando se cierra con reflexión.",
-              "Porque el formador necesita calificar qué tan bien escribes."
+              "Que tienen algo de razón: la reflexión sirve sobre todo cuando algo falló y hay errores que mirar.",
+              "Que la reflexión la haga el dirigente: él mira qué pasó y les comparte la conclusión al final del día.",
+              "Que la reflexión también pregunta qué salió bien y qué cambiarían: es lo que cierra la experiencia."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Según la cita de la OMMS en esta lección, las nuevas competencias que se adquieren mediante la práctica de actividades incluyen…",
+            "options": [
+              "Conocer, hacer, vivir juntos y ser.",
+              "Conocimientos, habilidades, actitudes y valores.",
+              "Conocimientos técnicos, destrezas y conductas observables."
             ],
             "correctIndex": 1
           }

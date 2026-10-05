@@ -16,7 +16,7 @@
 | Título | El Método Scout y sus 8 elementos |
 | Subtítulo | El "cómo" del Movimiento — un sistema, no una lista |
 | Icono | 🧭 |
-| Duración | ~40 min |
+| Duración | ~43 min |
 | Lecciones de contenido | 8 + intro + certificado |
 | Audiencia primaria | Todo adulto que cursa el Nivel 1 de la Línea Programa de Jóvenes. |
 | Curso recomendado | Curso 4 — Características Esenciales. |
@@ -60,7 +60,7 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 | 7 | 🎯 Las 4 Dinámicas del Escultismo en acción | 4 min | Cómo se ven los 8 elementos juntos. | Veo el método en vivo |
 | 8 | ✍️ Mi próxima reunión con los 8 elementos | 4 min | Planear una reunión real integrando todo. | Practicante del Método (final) |
 
-**Total estimado: ~40 min**, en el límite superior del rango (justificado por la centralidad del contenido).
+**Total estimado: ~43 min** (medido tras las auditorías), por encima del rango (justificado por la centralidad del contenido).
 
 ---
 
@@ -70,7 +70,7 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 
 **Secciones (en orden):**
 
-1. **`info-box`** — Tiempo (~40 min) y promesa: _"Al final vas a poder mirar cualquier reunión scout y decir, con precisión, qué elementos del Método están activos y cuáles no."_
+1. **`info-box`** — Tiempo (~43 min) y promesa: _"Al final vas a poder mirar cualquier reunión scout y decir, con precisión, qué elementos del Método están activos y cuáles no."_
 2. **`paragraph`** — Saludo. Mensaje: este es el curso más largo y más importante del Nivel 1. Tómalo con calma. Cada elemento merece su propio momento.
 3. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 4. **`list`** — Las 7 ideas (lecciones 2 a 8):
@@ -98,13 +98,13 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
     - `text`: _"El Método Scout es un sistema de autoeducación progresiva… basado en la interacción de elementos igualmente importantes que funcionan como un sistema cohesivo."_
     - `source`: "The Scout Method, OMMS 2019 (Resolución 41 ª Conferencia Scout Mundial 2017-04), p. 14, dos frases unidas — traducción propia del original en inglés. Equivalente vigente en español: Modelo de Aplicación 2026, §3.1, p. 11."
     - `label`: "📋 Ver la definición oficial"
-4. **`info-box`** — **Reformulación accesible**: _"En palabras simples: el Método Scout es la forma en que el Movimiento educa. Y esa forma no es una lista de técnicas sueltas que tú puedas escoger según el día — es un sistema de 8 piezas que se sostienen mutuamente. Quitas una, se cae todo — y esa combinación equilibrada es lo que hace único al escultismo. La definición oficial dice eso mismo, en lenguaje doctrinal."_
+4. **`info-box`** — **Reformulación accesible**: _"En palabras simples: el Método Scout es la forma en que el Movimiento educa. Y esa forma no es una lista de técnicas sueltas que tú puedas escoger según el día — es un sistema de 8 piezas que se sostienen mutuamente. Si una de ellas desaparece de tu unidad por semanas, el sistema cojea —y esa combinación equilibrada es lo que hace único al escultismo—. No tienen que verse las ocho en cada reunión, pero sí a lo largo de varias. La definición oficial dice eso mismo, en lenguaje doctrinal."_
 5. **`heading` (nivel 3)** — _"Las palabras clave de la definición"_
 6. **`method-grid`** — Las 4 palabras clave:
     - 🛠️ **Sistema** — No una lista de la que tomas lo que te sirve. Un conjunto donde cada parte sostiene a las demás.
     - 🌱 **Autoeducación** — El joven se educa **a sí mismo**, con apoyo. El adulto no es maestro; es facilitador.
     - 📈 **Progresiva** — No se aprende todo de una vez. Se avanza por etapas, según el ritmo de cada quien.
-    - ⚖️ **Igualmente importantes** — Ningún elemento vale más que los demás. La Promesa no vale más que el Sistema de Equipos. La Naturaleza no vale más que el Marco Simbólico.
+    - ⚖️ **Igualmente importantes** — Ningún elemento vale más que los demás. La Promesa y la Ley son la base del Método (PNPJ 2024, p. 8), pero no valen más que el Sistema de Equipos. La Naturaleza no vale más que el Marco Simbólico.
 7. **`heading` (nivel 3)** — _"Los 8 elementos (visión panorámica)"_
 8. **`list`** — Los 8 elementos en orden oficial:
     - **Promesa y Ley** — el código de vida que el joven asume voluntariamente.
@@ -189,7 +189,7 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 1. **`info-box`** — Idea central de la lección.
 2. **`heading` (nivel 3)** — _"Elemento 3 — Progresión Personal"_
 3. **`paragraph`** — _"La PNPJ 2024 lo titula **'Progreso personal'**: es el camino individual de crecimiento del protagonista en las 6 áreas (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad). No es competitiva: cada joven avanza a su ritmo. Se construye con el acompañamiento del **dirigente** (en sus roles de apoyar, acompañar y enlazar), en momentos de conversación y reconocimiento. Se registra en el **Registro de Acompañamiento a la Progresión Personal** (DNPJ-2026-021) y se sostiene con las **Herramientas de Seguimiento 2.0**."_
-4. **`paragraph`** — _"El Modelo de Aplicación 2026 marca **tres niveles** por los que pasa cada competencia educativa, en este orden: **Exploro** (la conozco por primera vez), **Aplico** (la pongo en práctica en situaciones reales), **Profundizo** (ya es parte de mí y la pongo al servicio). No es un examen ni una carrera: una misma actividad suele trabajar **un** nivel, y cada joven va a su ritmo."_
+4. **`paragraph`** — _"El Modelo de Aplicación 2026 marca **tres niveles** por los que pasa cada competencia educativa, en este orden: **Exploro** (la conozco por primera vez), **Aplico** (la pongo en práctica en situaciones reales), **Profundizo** (ya es parte de mí y la pongo al servicio). No es un examen ni una carrera: en una misma actividad, unos exploran, otros aplican y otros profundizan (p. 25), porque cada joven va a su ritmo."_
 5. **`heading` (nivel 3)** — _"Elemento 4 — Sistema de Equipos"_
 6. **`paragraph`** — _"Los jóvenes no viven el Movimiento en grupo grande; lo viven en **pequeños grupos** donde se sienten conocidos, donde toman decisiones, donde aprenden a liderar entre pares. Cada rama tiene su grupo natural: Camadas (Familia), Seisenas (Manada), Patrullas (Tropa), equipos de Comunidad y de Clan."_
 7. **`method-grid`** — Las 5 ramas y sus grupos naturales (recordatorio del Curso 1):
@@ -229,7 +229,7 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 
 1. **`info-box`** — Idea central de la lección.
 2. **`heading` (nivel 3)** — _"Elemento 5 — Apoyo del Adulto"_
-3. **`paragraph`** — _"En el Curso 4 viste la frase eje del Movimiento (Características Esenciales, OMMS 2019, p. 28): de jóvenes, para jóvenes, **apoyado por adultos**. Aquí ese 'apoyo' se vuelve elemento metodológico. Las Características Esenciales enuncian **4 tipos de apoyo del adulto** (recordatorio del Curso 4, L5): educativo, emocional, informativo, evaluativo."_
+3. **`paragraph`** — _"En el Curso 4 viste la frase eje del Movimiento (Características Esenciales, OMMS 2019, p. 28): de jóvenes, para jóvenes, **apoyado por adultos**. Aquí ese 'apoyo' se vuelve elemento metodológico. Las Características Esenciales (p. 19) nombran **4 tipos de apoyo del adulto**: educativo, emocional, informativo y evaluativo (la PNPJ a este último lo llama «valorativo»: es el mismo)."_
 4. **`paragraph`** — _"El Modelo de Aplicación 2026 lo resume en tres palabras: **Apoyar** (preparar), **Acompañar** (sostener), **Enlazar** (proyectar). Apoyar es dejar la escena lista para que el joven se atreva. Acompañar es estar cerca mientras practica, sin resolverle. Enlazar es abrirle puertas **fuera del grupo** —gente que sabe, organizaciones del barrio, proyectos más grandes— cuando ya está listo para profundizar. El Modelo empareja cada uno con los tres niveles que viste en la Lección 4: Apoyar va con Exploro, Acompañar con Aplico y Enlazar con Profundizo (§9.2)."_
 5. **`policy-quote`** — Cita de B-P sobre el rol:
     - `text`: _"Hacer las veces de hermano mayor, esto es, considerar las cosas desde el punto de vista de los jóvenes, guiarlos por el buen sendero, transmitirles entusiasmo."_
@@ -281,12 +281,12 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
     - `text`: _"Para quienes tienen ojos para ver y oídos para oír, el bosque es a la vez un laboratorio, un club y un templo."_
     - `source`: "Baden-Powell, Rovering to Success, citado en The Scout Method, OMMS 2019, p. 25 — traducción propia del original en inglés."
     - `label`: "📋 La frase de B-P sobre la naturaleza"
-5. **`paragraph`** — _"La PNPJ 2024 reconoce la Naturaleza como un elemento propio del Método, y es clara: usar la naturaleza 'implica más que actividades realizadas al aire libre… implica el desarrollo de un contacto constructivo con la Naturaleza' (p. 19-20). Vale la pena preguntarse, honestamente, cuánto de eso está pasando en tu unidad."_
+5. **`paragraph`** — _"La PNPJ 2024 reconoce la Naturaleza como un elemento propio del Método, y es clara: usar la naturaleza 'implica más que actividades realizadas al aire libre… implica el desarrollo de un contacto constructivo con la Naturaleza' (p. 19-20). Y si tu grupo es de ciudad, la PNPJ te da una salida: el elemento también se vive al aire libre en lo que tengas cerca —su ejemplo es hacer pionerismo en una cancha de baloncesto—, siempre que ahí haya algo que aprender (p. 20). Vale la pena preguntarse, honestamente, cuánto de eso está pasando en tu unidad."_
 6. **`heading` (nivel 3)** — _"Elemento 8 — Participación en la Comunidad"_
 7. **`paragraph`** — _"El Movimiento no educa para encerrarse en la unidad. Educa para servir y participar. La Participación en la Comunidad incluye proyectos de servicio en el barrio, articulación con organizaciones locales, ejercicio de ciudadanía en espacios públicos. La PNPJ 2024 lo titula **'Participación comunitaria'**: ayudar a construir un mundo mejor desde la ciudadanía activa, en el **territorio** donde vive: su barrio, su colegio, su comunidad. El Modelo de Aplicación 2026 lo describe como un lugar con cuatro caras: la física (dónde pasa), la simbólica (qué significa), la de las relaciones (con quién) y la transformadora (qué cambia ahí gracias a ellos) — §8.2, p. 53."_
 8. **`policy-quote`** — Cita:
-    - `text`: _"El servicio no debe verse simplemente como hacer cosas para los demás, sino que, por la implicación, supone hacer cosas con los demás."_
-    - `source`: "The Scout Method, OMMS 2019, p. 27 — traducción propia del original en inglés."
+    - `text`: _"El servicio no debe verse simplemente como hacer cosas para los demás sino que, a través de la participación, definitivamente implicará hacer cosas con los demás."_
+    - `source`: "PNPJ 2024, pp. 22–23."
     - `label`: "📋 Servir CON, no PARA"
 9. **`info-box`** — _"El Programa de Jóvenes que se cocina solo en el salón del grupo no es escultismo completo. Le falta el laboratorio (la naturaleza) y le falta el campo (el territorio). Ambos elementos son no-negociables, aunque la región sea urbana."_
 
@@ -365,9 +365,9 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
     - **Sistema de Equipos** — ¿Hay momentos donde el pequeño grupo (camada/seisena/patrulla/equipo) opera por sí mismo, no como gran grupo?
     - **Apoyo del Adulto** — ¿El adulto está en rol de Apoyar/Acompañar/Enlazar — o en rol de dirigir y entretener?
     - **Marco Simbólico** — ¿El lenguaje, los símbolos, las ceremonias propias de la rama están presentes?
-    - **Naturaleza** — ¿Alguna de las cuatro reuniones ocurre o se conecta con un espacio natural (parque, cerro, jardín, plaza con árboles)?
+    - **Naturaleza** — ¿Alguna de las cuatro reuniones busca un contacto con la naturaleza —observar, cuidar, explorar—, aunque sea en un parque o en una plaza con árboles?
     - **Participación en la Comunidad** — ¿Hay algún hilo que vincule las cuatro reuniones con el territorio (familia, barrio, escuela, comunidad)?
-5. **`paragraph`** — _"Si respondiste 'no' o 'no sé' a más de 3 de las 8: tus próximas cuatro reuniones necesitan ajustes. Si respondiste 'sí' a las 8: vas en camino del Método; sigue cuidando que el sistema se mantenga."_
+5. **`paragraph`** — _"Si respondiste 'no' o 'no sé' a más de 3 de las 8: tus próximas cuatro reuniones necesitan ajustes. Si fueron entre 1 y 3: escoge uno de esos elementos para tu ajuste. Si respondiste 'sí' a las 8: vas en camino del Método; sigue cuidando que el sistema se mantenga."_
 6. **`heading` (nivel 3)** — _"Mi ajuste para la próxima reunión"_
 7. **`paragraph`** — Plantilla: _"En mi próxima reunión voy a fortalecer el elemento __________, agregando __________. La señal de que se cumplió será __________."_
 8. **`mission-box`** — _"El Método se aprende aplicándolo. Cada reunión es un ensayo. Si una semana no funciona, ajustas la siguiente. Si una se queda corta en un elemento, lo trabajas en la otra. El sistema es flexible; lo no negociable es seguir integrando los 8."_
@@ -472,7 +472,7 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 
 | Criterio | Cumplimiento |
 |---|---|
-| Curso entre 20 y 40 min | ✅ ~40 min (límite superior justificado por centralidad) |
+| Curso entre 20 y 40 min | ⚠️ ~43 min (por encima del rango, justificado por centralidad) |
 | Lecciones de 3–8 min | ✅ rango 3–6 min |
 | Lenguaje conversacional, tutea | ✅ |
 | Citas oficiales plegables | ✅ 6 citas (OMMS 2019, PNPJ 2024, Guía para dirigentes de la Rama Scout y B-P) |

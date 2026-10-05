@@ -14,7 +14,7 @@
 | Título | Cómo se Educa Hoy |
 | Subtítulo | Conceptos clave de la educación — la base de todo lo que sigue |
 | Icono | 🎓 |
-| Duración | ~30 min |
+| Duración | ~33 min |
 | Lecciones de contenido | 5 + intro + certificado |
 | Audiencia primaria | Todo adulto que cursa el Nivel 1 de la Línea Programa de Jóvenes. |
 | Cursos previos recomendados | Curso 2 — La Educación por el Amor (recomendado, no bloqueante). |
@@ -54,7 +54,7 @@ Se enuncia en la bienvenida y cierra con eco en la Lección 6 ("Lo que sigue ya 
 | 5 | 🏫 Dónde se aprende | Educación formal / no formal / informal; el escultismo es no formal. | UNESCO/CITE 2011 (vía Caract. Esenciales p. 11) |
 | 6 | 🔨 Aprender haciendo (y tu mirada de educador) | Experiencia + reflexión = aprendizaje. Cierre + puente a lo scout. | Caract. Esenciales OMMS 2019, p. 17 |
 
-**Total estimado: ~30 min.** Las citas textuales viven en `policy-quote` plegables; el cuerpo reformula en lenguaje llano (patrón anti-definición).
+**Total estimado: ~33 min.** Las citas textuales viven en `policy-quote` plegables; el cuerpo reformula en lenguaje llano (patrón anti-definición).
 
 ---
 

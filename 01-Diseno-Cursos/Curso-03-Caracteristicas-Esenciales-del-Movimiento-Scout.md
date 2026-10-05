@@ -14,7 +14,7 @@
 | Título | Características Esenciales del Movimiento Scout |
 | Subtítulo | El "qué" del Movimiento según la OMMS (Kuala Lumpur, 2019) |
 | Icono | 🌟 |
-| Duración | ~30 min |
+| Duración | ~33 min |
 | Lecciones de contenido | 5 + intro + certificado |
 | Audiencia primaria | Todo adulto que cursa el Nivel 1 de la Línea Programa de Jóvenes. |
 | Recomendado antes | Curso 2 — La Educación por el Amor (recomendado). |
@@ -56,7 +56,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 | 5 | 👥 La alianza joven-adulto | 5 min | El joven es sujeto activo; el adulto apoya, no dirige. | Sé cuál es mi rol |
 | 6 | ✍️ Mi Movimiento, en mis palabras | 3 min | Lo que aprendiste, en una sola frase tuya + un test de pertenencia. | Conozco mi Movimiento (final) |
 
-**Total estimado: ~30 min**, dentro del rango óptimo del marco metodológico.
+**Total estimado: ~33 min**, dentro del rango óptimo del marco metodológico.
 
 ---
 
@@ -66,7 +66,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 **Secciones (en orden):**
 
-1. **`info-box`** — Tiempo (~30 min) y promesa: _"Al final vas a poder explicarle a alguien externo qué es el Movimiento Scout en menos de un minuto, sin recurrir a uniformes ni a campamentos."_
+1. **`info-box`** — Tiempo (~33 min) y promesa: _"Al final vas a poder explicarle a alguien externo qué es el Movimiento Scout en menos de un minuto, sin recurrir a uniformes ni a campamentos."_
 2. **`paragraph`** — Saludo. Mensaje: muchos dirigentes operan el Movimiento durante años sin haber leído nunca el documento que lo define. Este curso es la lectura básica, traducida.
 3. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 4. **`list`** — Las 5 ideas:
@@ -90,7 +90,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Apertura: _"Antes de hablar de cómo se hace algo, conviene saber **para qué se hace**. El Movimiento Scout tiene un solo Propósito, y viene de su documento fundacional: la Constitución de la OMMS. El texto que vas a leer es el de la versión de 2017, y así lo recoge el documento de 2019 que estamos usando."_
+2. **`paragraph`** — Apertura: _"Antes de hablar de cómo se hace algo, conviene saber **para qué se hace**. El Movimiento Scout tiene un solo Propósito, y viene de su documento fundacional: la Constitución de la OMMS. El texto que vas a leer es ese Propósito, tal como lo recoge el documento de la OMMS de 2019 que estamos usando."_
 3. **`policy-quote`** — Cita textual del Propósito:
     - `text`: _"El Movimiento Scout tiene como objetivo contribuir al desarrollo de los jóvenes ayudándoles a realizar plenamente sus posibilidades **físicas, intelectuales, emocionales, sociales y espirituales**, como **individuos**, como **ciudadanos responsables** y como miembros de **comunidades locales, nacionales e internacionales**."_
     - `source`: "Características Esenciales del Movimiento Scout, OMMS 2019, p. 8. (Constitución de la OMMS, recogida en Características Esenciales…, p. 8)"
@@ -104,7 +104,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - 🤝 **Como ciudadanos responsables** — que aporten al bien común.
     - 🌍 **Comunidad local, nacional e internacional** — que sirvan en su barrio **y** se reconozcan parte de una hermandad mundial.
 6. **`heading` (nivel 3)** — _"De los 5 ámbitos OMMS a las 6 áreas de Colombia"_
-7. **`paragraph`** — _"En el Curso 1 viste que Colombia trabaja con **6 áreas de crecimiento** (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad). No contradicen los 5 ámbitos de la OMMS: cinco se corresponden una a una — físico→Corporalidad, intelectual→Creatividad, emocional→Afectividad, social→Sociabilidad, espiritual→Espiritualidad. Y Colombia suma una sexta: **Carácter**, la voluntad y las decisiones éticas, eso de «qué clase de persona decido ser». Esa es la que no aparece en la lista de la OMMS, y es muy scout que esté."_
+7. **`paragraph`** — _"En el Curso 1 viste que Colombia trabaja con **6 áreas de crecimiento** (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad). No contradicen los 5 ámbitos de la OMMS: cinco se corresponden una a una — físico→Corporalidad, intelectual→Creatividad, emocional→Afectividad, social→Sociabilidad, espiritual→Espiritualidad. La sexta, **Carácter** —la voluntad y las decisiones éticas, eso de «qué clase de persona decido ser»—, el Propósito no la nombra, pero la PNPJ la cuenta entre las áreas de crecimiento del Movimiento."_
 8. **`info-box`** — _"Cuando alguien te pregunte 'para qué sirven los scouts', responde con esto: contribuyen al desarrollo integral del joven —cuerpo, mente, emociones, vínculos y sentido— para que sea persona, ciudadano y miembro del mundo. Punto."_
 
 **Reflexión:** _"De los 5 ámbitos del Propósito (físico, intelectual, emocional, social, espiritual), ¿cuál crees que el escultismo colombiano hace **mejor** y cuál hace **peor**? Sé honesto."_
@@ -138,7 +138,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 3. **`heading` (nivel 3)** — _"Los 3 Principios según OMMS 2019"_
 4. **`method-grid`** — Los 3 Principios:
     - 🙏 **Deber con Dios** — Adhesión a principios espirituales, fidelidad a la religión que los expresa y aceptación de los deberes que de ella derivan (*The Scout Method*, WOSM 2019, p. 10). **El Movimiento no impone una religión específica**; reconoce que la dimensión espiritual es parte del desarrollo integral, y respeta la fe (o búsqueda) de cada quien. En Colombia, la PNPJ lo dice así: reconocer que la espiritualidad y la fe importan en la vida del joven, y respetar las creencias de cada quien (PNPJ 2024, §4.3).
-    - 🤝 **Deber con los otros** — Responsabilidad hacia la propia comunidad y país, hacia la fraternidad mundial, hacia la naturaleza y hacia la conservación del medio ambiente. El servicio no es ocasional: es ética.
+    - 🤝 **Deber con los otros** — Responsabilidad hacia su comunidad y su país, hacia la paz y la cooperación entre los pueblos, y hacia la naturaleza. El servicio no es ocasional: es ética.
     - 👤 **Deber con uno mismo** — Responsabilidad por el propio desarrollo. El joven (y el adulto) son protagonistas activos de su crecimiento — no objetos pasivos de la formación de otros.
 5. **`policy-quote`** — Cita textual:
     - `text`: _"Los principios son las creencias fundamentales que representan un ideal, una visión de la sociedad y un código de conducta para todos sus miembros."_
@@ -149,7 +149,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - **Deber con Dios** — en la unidad, abrir y cerrar espacios de reflexión, respetar las creencias del protagonista y de la familia, ofrecer momentos de silencio en campamento.
     - **Deber con los otros** — proyectos de servicio comunitario, mediación de conflictos en la patrulla, gestos de hermandad con otros grupos del país y del mundo.
     - **Deber con uno mismo** — conversaciones personales periódicas con su dirigente, autoevaluación de la progresión, decisión propia sobre qué área de crecimiento trabajar.
-8. **`info-box`** — _"Cuando dudes si una práctica es scout o no, hazte 3 preguntas: ¿cuida el deber con Dios (el sentido), con los otros (la fraternidad), con uno mismo (el crecimiento)? Si responde sí a las tres, es escultismo."_
+8. **`info-box`** — _"Cuando dudes si una práctica es scout o no, hazte 3 preguntas: ¿cuida el deber con Dios (el sentido), con los otros (la fraternidad), con uno mismo (el crecimiento)? Si alguna sale en no, ahí hay algo que revisar."_
 
 **Reflexión:** _"¿Cuál de los 3 Principios crees que se trabaja menos en tu unidad o en las unidades que conoces? ¿Por qué?"_
 
@@ -193,10 +193,10 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - `label`: "📋 Ver la cita de voluntariedad"
 6. **`heading` (nivel 3)** — _"Lo que NO es escultismo, aunque se le parezca"_
 7. **`list`** — 5 ejemplos:
-    - Un campamento militar con uniformes y disciplina no es scout (rompe que el joven sea sujeto activo: ahí se obedece, no se decide).
+    - Un campamento militar con uniformes y disciplina no es scout (rompe **para jóvenes**: es un movimiento de jóvenes apoyado por adultos, y ahí se obedece, no se decide).
     - Una academia deportiva con insignias por logros no es scout (rompe **para jóvenes** si se vuelve trofeo del coach).
-    - Un grupo parroquial donde solo entran miembros de la fe local no es escultismo, aunque se le parezca (rompe **abierto a todos**).
-    - Un grupo que excluye a niñas o a menores con discapacidad no es escultismo (rompe **abierto a todos**).
+    - Un grupo parroquial donde solo entran miembros de la fe local, o uno que excluye a niñas o a menores con discapacidad, no es escultismo, aunque se le parezca (rompe **abierto a todos**).
+    - Una actividad a la que el colegio obliga a ir no es escultismo (rompe **voluntario**).
     - Una organización dependiente de un partido político no es escultismo, aunque se llame "scouts" (rompe **independiente** y **no político**).
 8. **`info-box`** — _"En Colombia, la ASC es Movimiento, para jóvenes, voluntaria, abierta a todos, no política y independiente. Cuando una de las 6 se afloja en una región o un grupo, hay que volver a apretarla — sin acusar, sin avergonzar, simplemente recordándola."_
 
@@ -378,7 +378,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 | Criterio | Cumplimiento |
 |---|---|
-| Curso entre 20 y 40 min | ✅ ~30 min |
+| Curso entre 20 y 40 min | ✅ ~33 min |
 | Lecciones de 3–8 min | ✅ rango 3–6 min |
 | Lenguaje conversacional, tutea | ✅ |
 | Citas oficiales plegables | ✅ 4 citas OMMS 2019 |

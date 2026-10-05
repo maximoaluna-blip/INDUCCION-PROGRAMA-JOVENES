@@ -2,10 +2,10 @@
   "courseId": "metodo-scout-8-elementos",
   "title": "El Método Scout y sus 8 elementos",
   "subtitle": "El \"cómo\" del Movimiento — un sistema, no una lista",
-  "description": "El curso más largo y más importante del Nivel 1. En ~40 minutos vas a entender el Método Scout como un sistema de autoeducación progresiva basado en 8 elementos interdependientes — no una lista de técnicas que se eligen a gusto. Vas a recorrer los 8 elementos en 4 parejas, ver las 4 dinámicas que hacen visible el Método en tu unidad y salir con un plan concreto para integrar el Método en tu próxima reunión.",
+  "description": "El curso más largo y más importante del Nivel 1. En ~43 minutos vas a entender el Método Scout como un sistema de autoeducación progresiva basado en 8 elementos interdependientes — no una lista de técnicas que se eligen a gusto. Vas a recorrer los 8 elementos en 4 parejas, ver las 4 dinámicas que hacen visible el Método en tu unidad y salir con un plan concreto para integrar el Método en tu próxima reunión.",
   "contentVersion": "2026-10-04",
   "icon": "🧭",
-  "duration": "40 minutos",
+  "duration": "43 minutos",
   "level": 1,
   "levelName": "Fundamentación",
   "order": 5,
@@ -20,7 +20,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~40 minutos.</strong> Al final vas a poder mirar cualquier reunión scout y decir, con precisión, qué elementos del Método están activos y cuáles no."
+          "text": "⏱️ <strong>~43 minutos.</strong> Al final vas a poder mirar cualquier reunión scout y decir, con precisión, qué elementos del Método están activos y cuáles no."
         },
         {
           "type": "paragraph",
@@ -69,7 +69,7 @@
         },
         {
           "type": "info-box",
-          "text": "En palabras simples: el Método Scout es la forma en que el Movimiento educa. Y esa forma no es una lista de técnicas sueltas que tú puedas escoger según el día — es un sistema de 8 piezas que se sostienen mutuamente. Quitas una, se cae todo — y esa combinación equilibrada es lo que hace único al escultismo. La definición oficial dice eso mismo, en lenguaje doctrinal."
+          "text": "En palabras simples: el Método Scout es la forma en que el Movimiento educa. Y esa forma no es una lista de técnicas sueltas que tú puedas escoger según el día — es un sistema de 8 piezas que se sostienen mutuamente. Si una de ellas desaparece de tu unidad por semanas, el sistema cojea —y esa combinación equilibrada es lo que hace único al escultismo—. No tienen que verse las ocho en cada reunión, pero sí a lo largo de varias. La definición oficial dice eso mismo, en lenguaje doctrinal."
         },
         {
           "type": "heading",
@@ -99,7 +99,7 @@
             },
             {
               "title": "⚖️ Igualmente importantes",
-              "description": "Ningún elemento vale más que los demás. La Promesa no vale más que el Sistema de Equipos. La Naturaleza no vale más que el Marco Simbólico.",
+              "description": "Ningún elemento vale más que los demás. La Promesa y la Ley son fundamentales para el Método (PNPJ 2024, p. 8), pero no valen más que el Sistema de Equipos. La Naturaleza no vale más que el Marco Simbólico.",
               "color": "#f3e5f5",
               "borderColor": "#8e24aa"
             }
@@ -137,22 +137,31 @@
         "nextLabel": "Continuar a los elementos 1 y 2 📜",
         "questions": [
           {
-            "text": "Un dirigente nuevo te dice: 'Este año en mi tropa trabajo a fondo Naturaleza y Aprender Haciendo, y dejo Marco Simbólico para más adelante; cada rama escoge lo suyo'. Según lo que viste, ¿qué le respondes?",
+            "text": "Un dirigente te dice: «Cuando la reunión se alarga, siempre recorto el trabajo por patrullas; lo que no puede faltar es la Promesa y la Ley». Según la definición que viste, ¿qué le respondes?",
             "options": [
-              "Bien pensado: cada rama puede elegir los elementos que mejor le caen a su edad y a su realidad.",
-              "Cuidado: el Método es un sistema, no un menú — sin un elemento ya no es completo.",
-              "Da igual el orden, mientras al final del año hayas alcanzado a tocar los 8 alguna vez."
+              "Que hace bien: la Promesa y la Ley son fundamentales para el Método, y lo demás puede esperar a otra reunión.",
+              "Que sí son fundamentales, pero los ocho pesan igual: si uno falta semana tras semana, el sistema cojea.",
+              "Que mejor recorte la Promesa y la Ley, porque los equipos son lo que más distingue al escultismo."
             ],
             "correctIndex": 1
           },
           {
-            "text": "\"Igualmente importantes\" en la definición del Método significa que…",
+            "text": "En su primera reunión, la patrulla no se pone de acuerdo sobre qué juego hacer y le pide a la dirigente nueva que decida. ¿Qué hace alguien que entendió «autoeducación»?",
             "options": [
-              "Solo se aplica el elemento que más se ajusta a la rama.",
-              "Ningún elemento vale más que los otros; el sistema requiere los 8.",
-              "Cada rama elige cuál de los 8 trabajar cada año."
+              "Proponerles un juego que ella conozca bien y pedirles que lo evalúen al final, para que aprendan.",
+              "Esperar a un lado sin decir nada, aunque se pierda la reunión: intervenir sería decidir.",
+              "Ayudarles a poner dos o tres criterios para elegir, y que la decisión la tome la patrulla."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
+          },
+          {
+            "text": "La definición del Método que trae la lección no es la idea suelta de un autor. Según la lección, ¿de dónde viene y cómo llegó a la ASC?",
+            "options": [
+              "La aprobó el Consejo Scout Nacional en 2024 con la PNPJ, y luego la OMMS la tomó para The Scout Method.",
+              "La aprobó la Conferencia Scout Interamericana en 2019, y la PNPJ 2024 la adoptó (§4.2).",
+              "La aprobó la 41ª Conferencia Scout Mundial en 2017, y la PNPJ 2024 la adoptó (§4.2)."
+            ],
+            "correctIndex": 2
           }
         ]
       }
@@ -218,22 +227,31 @@
         "nextLabel": "Continuar a los elementos 3 y 4 🌱",
         "questions": [
           {
-            "text": "La Promesa y la Ley son una pareja porque…",
+            "text": "En una tropa, la Ley Scout está pegada en la pared y el Jefe la usa para poner sanciones, pero varios scouts llevan un año sin hacer su Promesa ni hablar de ella. Según la pareja Promesa–Ley, ¿qué está pasando?",
             "options": [
-              "Siempre se dicen una después de la otra en todas las ceremonias de la unidad.",
-              "La Promesa sin Ley es palabra vacía; la Ley sin Promesa es regla externa.",
-              "La Ley se les enseña a los Lobatos y la Promesa a los Scouts."
+              "La Promesa se está volviendo palabra vacía, porque a la Ley le falta explicación en la tropa.",
+              "La Ley está funcionando como una regla externa: se impone desde afuera, sin que nadie la asuma.",
+              "La Ley se está aplicando bien; la Promesa puede esperar a que cada scout la pida."
             ],
             "correctIndex": 1
           },
           {
-            "text": "El sábado, un lobato lleva 10 minutos peleando con un nudo que le queda flojo. Según Aprender Haciendo, ¿qué haces?",
+            "text": "Se acerca el campamento de Promesas. Un lobato dice que todavía no quiere prometer, y su seisenero insiste en que «todos la hacen ese día». Según la lección, ¿qué debe primar?",
             "options": [
-              "Se lo amarras tú bien hecho para que no se frustre y seguir con la actividad.",
-              "Le muestras una vez completo y le pides que te copie el movimiento.",
-              "Le das una pista pequeña y lo dejas seguir intentando, aunque tarde."
+              "Que prometa ese día con su seisena: el Sistema de Equipos también educa en el compromiso.",
+              "Que prometa ya y lo vaya entendiendo después: la Ley se asume poco a poco, con la práctica.",
+              "Que prometa solo cuando quiera: el joven dice «yo prometo», no «cumplo porque me obligan»."
             ],
             "correctIndex": 2
+          },
+          {
+            "text": "En el campamento, la patrulla Halcones cocina sola por primera vez y ves que la cena va a salir con una hora de retraso. Según Aprender Haciendo, ¿qué haces?",
+            "options": [
+              "Te encargas tú del fogón para ganar tiempo, y les dejas a ellos el resto de la cena.",
+              "Te quedas cerca y dejas que terminen ellos solos, aunque la cena salga una hora tarde.",
+              "Le pides a una patrulla con más experiencia que tome su fogón y que les vaya enseñando."
+            ],
+            "correctIndex": 1
           }
         ]
       }
@@ -259,7 +277,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El Modelo de Aplicación 2026 marca <strong>tres niveles</strong> por los que pasa cada competencia educativa, en este orden: <strong>Exploro</strong> (la conozco por primera vez), <strong>Aplico</strong> (la pongo en práctica en situaciones reales), <strong>Profundizo</strong> (ya es parte de mí y la pongo al servicio). No es un examen ni una carrera: una misma actividad suele trabajar <strong>un</strong> nivel, y cada joven va a su ritmo."
+          "text": "El Modelo de Aplicación 2026 marca <strong>tres niveles</strong> por los que pasa cada competencia educativa, en este orden: <strong>Exploro</strong> (la conozco por primera vez), <strong>Aplico</strong> (la pongo en práctica en situaciones reales), <strong>Profundizo</strong> (ya es parte de mí y la pongo al servicio). No es un examen ni una carrera: en una misma actividad, unos exploran, otros aplican y otros profundizan (p. 25), porque cada joven va a su ritmo."
         },
         {
           "type": "heading",
@@ -322,22 +340,31 @@
         "nextLabel": "Continuar a los elementos 5 y 6 💗",
         "questions": [
           {
-            "text": "La Progresión Personal en el Método Scout…",
+            "text": "Un scout que aprendió amarres el año pasado ahora, por iniciativa propia, se los enseña a los nuevos de su patrulla en cada salida. ¿En qué nivel de esa competencia lo ubica el Modelo 2026?",
             "options": [
-              "Es una competencia interna donde se reconoce públicamente al que más avanza.",
-              "Es el camino individual de cada protagonista, a su ritmo, en las 6 áreas.",
-              "Es la suma de las insignias que un joven va obteniendo en su rama."
+              "En Aplico, porque está usando la competencia en situaciones reales con su patrulla.",
+              "En Profundizo, porque la competencia ya es suya y ahora la pone al servicio de otros.",
+              "En Exploro, porque enseñar es algo que hace por primera vez, aunque sepa amarres."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Una manada hace toda la reunión junta, en círculo grande, dirigida por el Viejo Lobo; las seisenas no operan solas en ningún momento. ¿Qué elemento del Método está roto?",
+            "text": "La patrulla Zorros llega siempre sin el material del campamento. ¿Qué hace el Jefe de Tropa, según el Sistema de Equipos?",
             "options": [
-              "Ninguno: trabajar todos juntos en gran grupo es lo normal y lo esperado en la Manada.",
-              "El Sistema de Equipos: la seisena no está decidiendo nada por sí misma.",
-              "La Progresión Personal, porque en esa reunión no se entregaron insignias."
+              "Le asigna él a cada zorro qué material trae, y revisa la lista antes de salir.",
+              "Lo habla con el Guía de los Zorros y deja que la patrulla arme su propio reparto.",
+              "Pasa a los Zorros a trabajar con la tropa completa hasta que aprendan a organizarse."
             ],
             "correctIndex": 1
+          },
+          {
+            "text": "En la misma salida, Ana se orienta con brújula por primera vez y Luis ya la usa solo en cada campamento. ¿Qué cabe esperar?",
+            "options": [
+              "Que Ana esté en Exploro y Luis en Aplico, aunque compartan la misma salida.",
+              "Que Ana quede en Aplico, porque ya usó la brújula en una situación real de campo.",
+              "Que Luis pase a Profundizo, porque ya domina la brújula y la vuelve a usar."
+            ],
+            "correctIndex": 0
           }
         ]
       }
@@ -359,7 +386,7 @@
         },
         {
           "type": "paragraph",
-          "text": "En el Curso 4 viste la frase eje del Movimiento (Características Esenciales, OMMS 2019, p. 28): de jóvenes, para jóvenes, <strong>apoyado por adultos</strong>. Aquí ese 'apoyo' se vuelve elemento metodológico. Las Características Esenciales enuncian <strong>4 tipos de apoyo del adulto</strong> (recordatorio del Curso 4, L5): educativo, emocional, informativo, evaluativo."
+          "text": "En el Curso 4 viste la frase eje del Movimiento (Características Esenciales, OMMS 2019, p. 28): de jóvenes, para jóvenes, <strong>apoyado por adultos</strong>. Aquí ese 'apoyo' se vuelve elemento metodológico. Las Características Esenciales (p. 19) nombran <strong>4 tipos de apoyo del adulto</strong>: educativo, emocional, informativo y evaluativo (la PNPJ a este último lo llama «valorativo»: es el mismo)."
         },
         {
           "type": "paragraph",
@@ -440,22 +467,31 @@
         "nextLabel": "Continuar a los elementos 7 y 8 🌳",
         "questions": [
           {
-            "text": "En tu reunión, una patrulla tiene que organizar su rincón. ¿Cuál de estas acciones encaja con el rol de Apoyar (preparar las condiciones para que el joven actúe), y no con dirigir?",
+            "text": "Una lobata nunca ha preparado un refrigerio y el sábado le toca a su seisena. ¿Qué haces antes de la reunión?",
             "options": [
-              "Les organizas tú el rincón antes de la reunión, para que quede bien y no perder tiempo.",
-              "Les dejas listos los materiales y el espacio, y los dejas decidir cómo lo arman.",
-              "Les dices paso a paso dónde va cada cosa y en qué orden, mientras ellos miran."
+              "Dejarle a la seisena los ingredientes, una receta sencilla y el espacio listo para que lo intente.",
+              "Preparar tú el refrigerio esta vez, para que vea cómo se hace y lo repita en la próxima reunión.",
+              "Pedirle a una cocinera del barrio que le dé una clase de cocina a la seisena antes del sábado."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
-            "text": "Un dirigente de Manada quiere cambiar las historias de Mowgli por unas de superhéroes, pero que los lobatos sigan viviendo en La Fantasía. ¿Qué está tocando?",
+            "text": "Una rover del Clan ya domina los primeros auxilios y quiere ir más lejos. ¿Cuál de estas acciones es Enlazar, según el Modelo?",
             "options": [
-              "El marco simbólico: al cambiar de libro, la Manada deja de vivir en La Fantasía.",
-              "El fondo motivador: cambia de dónde salen las historias; La Fantasía sigue siendo su mundo.",
-              "Ninguno: los relatos son ambientación, y cada dirigente escoge los que le gusten."
+              "Proponerle ser la responsable de primeros auxilios del Clan y que les enseñe a los demás.",
+              "Proponerle practicar en cada reunión del Clan mientras tú le das retroalimentación.",
+              "Proponerle formarse con una brigada de salud del barrio y servir allí junto con ellos."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
+          },
+          {
+            "text": "Un dirigente de Manada sigue usando el Libro de las Tierras Vírgenes, pero cuenta las historias de Mowgli como cuentos infantiles para dormir, con voz suave y finales tiernos, y los lobatos se aburren. Según las tres palabras que se confunden, ¿qué tocó?",
+            "options": [
+              "El fondo motivador: al contarlas de otra forma, cambió el relato del que salen las historias.",
+              "El marco simbólico: los lobatos ya no sienten que viven en el mundo de La Fantasía.",
+              "El ambiente de referencia: el relato sigue siendo el mismo; lo que cambió es el tono."
+            ],
+            "correctIndex": 2
           }
         ]
       }
@@ -487,7 +523,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La PNPJ 2024 reconoce la Naturaleza como un elemento propio del Método, y es clara: usar la naturaleza 'implica más que actividades realizadas al aire libre… implica el desarrollo de un contacto constructivo con la Naturaleza' (p. 19-20). Vale la pena preguntarse, honestamente, cuánto de eso está pasando en tu unidad."
+          "text": "La PNPJ 2024 reconoce la Naturaleza como un elemento propio del Método, y es clara: usar la naturaleza 'implica más que actividades realizadas al aire libre… implica el desarrollo de un contacto constructivo con la Naturaleza' (p. 19-20). Y si tu grupo es de ciudad, la PNPJ te da una salida: el elemento también se vive al aire libre en lo que tengas cerca —su ejemplo es hacer pionerismo en una cancha de baloncesto—, siempre que ahí haya algo que aprender (p. 20). Vale la pena preguntarse, honestamente, cuánto de eso está pasando en tu unidad."
         },
         {
           "type": "heading",
@@ -501,8 +537,8 @@
         {
           "type": "policy-quote",
           "label": "📋 Servir CON, no PARA",
-          "source": "The Scout Method, OMMS 2019, p. 27 — traducción propia del original en inglés.",
-          "text": "El servicio no debe verse simplemente como hacer cosas para los demás, sino que, por la implicación, supone hacer cosas con los demás."
+          "source": "PNPJ 2024, pp. 22–23.",
+          "text": "El servicio no debe verse simplemente como hacer cosas para los demás sino que, a través de la participación, definitivamente implicará hacer cosas con los demás."
         },
         {
           "type": "info-box",
@@ -517,22 +553,31 @@
         "nextLabel": "Continuar a las 4 Dinámicas 🎯",
         "questions": [
           {
-            "text": "Según B-P, el bosque es para los Scouts…",
+            "text": "Una tropa acampa en una finca con río y monte, pero pasa casi todo el fin de semana jugando fútbol en la cancha y viendo películas en el salón. ¿Cumple el elemento Naturaleza?",
             "options": [
-              "Un lugar de entretenimiento de fin de semana.",
-              "Un laboratorio, un club y un templo a la vez.",
-              "Un escenario opcional según la región del grupo."
+              "Sí: basta con llevar a la tropa a un entorno natural, lejos de la ciudad y del salón del grupo.",
+              "No: cada actividad del campamento tiene que hacerse dentro del monte, nunca en la cancha.",
+              "No basta: pide más que estar al aire libre, un contacto constructivo con la naturaleza."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
-            "text": "La Participación en la Comunidad, según The Scout Method OMMS 2019, no consiste solo en…",
+            "text": "El Clan quiere pintar el salón comunal del barrio un sábado, con materiales que donó una ferretería. ¿Qué cambio lo acerca más a la Participación en la Comunidad que describe la lección?",
             "options": [
-              "Hacer cosas PARA los demás; consiste en hacer cosas CON los demás (implicación).",
-              "Realizar campañas anuales de recolección y donaciones para las causas sociales del municipio.",
-              "Asistir a los eventos comunitarios cuando llega una invitación al grupo."
+              "Pintarlo junto con los vecinos que usan el salón, y planearlo con ellos, no para ellos.",
+              "Pintarlo con más calidad que la vez pasada, y mostrarle al barrio el antes y el después del trabajo.",
+              "Pintarlo cada trimestre, para que el servicio sea constante y no de una sola jornada."
             ],
             "correctIndex": 0
+          },
+          {
+            "text": "Antes de su proyecto, una comunidad de Nómadas recorre el barrio preguntando a los vecinos qué recuerdan de la vieja cancha y por qué la quieren. ¿Qué cara del territorio están trabajando?",
+            "options": [
+              "La física, porque recorren las calles donde va a pasar el proyecto.",
+              "La simbólica, porque buscan lo que ese lugar quiere decir para el barrio.",
+              "La de las relaciones, porque buscan sumar a los vecinos como aliados del proyecto."
+            ],
+            "correctIndex": 1
           }
         ]
       }
@@ -611,20 +656,29 @@
         "nextLabel": "Continuar a tu próxima reunión ✍️",
         "questions": [
           {
-            "text": "Cuando miras tu unidad completa, ¿qué cuatro cosas tienen que estar funcionando a la vez?",
+            "text": "En una manada todos se quieren: hay juegos, acogida y alegría, pero ningún dirigente sabe decir qué debería estar aprendiendo un lobato este año. ¿Qué Dinámica está floja?",
             "options": [
-              "Promesa, Ley, Sistema de Equipos y Naturaleza, que son cuatro de los ocho elementos del Método Scout y los más antiguos del Movimiento.",
-              "Las competencias educativas, las oportunidades de aprendizaje, la vida en grupo, y la estructura y el funcionamiento de la unidad.",
-              "Apoyar, Acompañar, Enlazar y Evaluar, que describen las tareas del dirigente cuando acompaña el crecimiento de su unidad."
+              "Las Oportunidades de Aprendizaje: faltan actividades pensadas con un propósito.",
+              "Las Competencias Educativas: falta el norte hacia el que crece cada protagonista.",
+              "La Estructura y Funcionamiento: falta un consejo que planee el año y luego lo evalúe."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Diseñaste una actividad muy divertida y segura, pero los chicos no aprenden nada nuevo con ella ni los reta. Pasada por el filtro DURASLID, ¿qué falla?",
+            "text": "Una dirigente de Tropa quiere saber qué debería lograr en Sociabilidad un scout de 12 años. ¿Qué competencias busca, y dónde?",
             "options": [
-              "Nada: si la actividad resulta lúdica y segura, con eso ya cumple con todo lo que se le pide.",
-              "Le faltan atributos como Desafiante y Útil; DURASLID pide los 8, no solo diversión.",
-              "Falla solo si no es Inclusiva; los demás atributos de DURASLID son opcionales."
+              "Las terminales, que trae la Guía de Dirigente de Tropa para cada edad de la rama.",
+              "Las intermedias, que trae la Guía de Dirigente de Tropa partidas por rama y por edad.",
+              "Las del Registro de Acompañamiento, que anota lo que cada scout ya logró en el área."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Las Panteras proponen otra vez su carrera de observación por el barrio: les encanta, es segura y juegan todos, también los nuevos; ya la hicieron dos veces este trimestre exactamente igual. Pasada por DURASLID, ¿qué conviene ajustar?",
+            "options": [
+              "Mantenerla: tiene seguridad, juego y gusto, que es lo que más pesa.",
+              "Cambiarle el reto, porque a la patrulla ya no le exige nada nuevo.",
+              "Sumarle Inclusiva y Diversa, invitando a otra patrulla y a los nuevos."
             ],
             "correctIndex": 1
           }
@@ -660,13 +714,13 @@
             "<strong>Sistema de Equipos</strong> — ¿Hay momentos donde el pequeño grupo (camada/seisena/patrulla/equipo) opera por sí mismo, no como gran grupo?",
             "<strong>Apoyo del Adulto</strong> — ¿El adulto está en rol de Apoyar/Acompañar/Enlazar — o en rol de dirigir y entretener?",
             "<strong>Marco Simbólico</strong> — ¿El lenguaje, los símbolos, las ceremonias propias de la rama están presentes?",
-            "<strong>Naturaleza</strong> — ¿Alguna de las cuatro reuniones ocurre o se conecta con un espacio natural (parque, cerro, jardín, plaza con árboles)?",
+            "<strong>Naturaleza</strong> — ¿Alguna de las cuatro reuniones busca un contacto con la naturaleza —observar, cuidar, explorar—, aunque sea en un parque o en una plaza con árboles?",
             "<strong>Participación en la Comunidad</strong> — ¿Hay algún hilo que vincule las cuatro reuniones con el territorio (familia, barrio, escuela, comunidad)?"
           ]
         },
         {
           "type": "paragraph",
-          "text": "Si respondiste 'no' o 'no sé' a más de 3 de las 8: tus próximas cuatro reuniones necesitan ajustes. Si respondiste 'sí' a las 8: vas en camino del Método; sigue cuidando que el sistema se mantenga."
+          "text": "Si respondiste 'no' o 'no sé' a más de 3 de las 8: tus próximas cuatro reuniones necesitan ajustes. Si fueron entre 1 y 3: escoge uno de esos elementos para tu ajuste. Si respondiste 'sí' a las 8: vas en camino del Método; sigue cuidando que el sistema se mantenga."
         },
         {
           "type": "heading",
@@ -707,22 +761,31 @@
         "nextLabel": "Obtener mi certificado 🎓",
         "questions": [
           {
-            "text": "Si en un trimestre tu unidad solo trabajó 3 de los 8 elementos del Método, lo más correcto es…",
+            "text": "Un dirigente revisa la reunión del sábado y encuentra activos solo 5 de los 8 elementos. Concluye que su unidad «no aplica el Método». Según la lección, ¿qué le respondes?",
             "options": [
-              "Está perfecto; cada rama elige los elementos que más le sirven.",
-              "Hay que ajustar la planeación para volver a integrar el sistema completo.",
-              "Cambiar de método y aplicar uno escolar."
+              "Que tiene razón: si en esa reunión falta un elemento, el sistema ya no está completo.",
+              "Que una reunión es solo una instantánea: los 8 se miran a lo largo de varias semanas.",
+              "Que revise solo los elementos de su rama: no todos los 8 aplican a cada edad."
             ],
             "correctIndex": 1
           },
           {
-            "text": "El Método se aprende…",
+            "text": "Al pasar el checklist por sus últimas cuatro reuniones, una dirigente responde «sí» en 4 elementos y «no sé» en los otros 4. Concluye que va bien porque no marcó ningún «no». ¿Qué dice la lección?",
             "options": [
-              "Estudiando manuales hasta saberlo de memoria antes de aplicarlo.",
-              "Aplicándolo, ajustando reunión a reunión, sin perder el sistema completo.",
-              "Esperando a tener experiencia para empezar a usarlo."
+              "Que con la mitad de los elementos en «sí» ya va en camino del Método, y sigue cuidándolo.",
+              "Que «no sé» cuenta igual que «no»: con más de 3 así, sus reuniones necesitan ajustes.",
+              "Que «no sé» no cuenta en contra: solo los «no» piden ajustar las reuniones."
             ],
             "correctIndex": 1
+          },
+          {
+            "text": "Tu compromiso fue fortalecer Naturaleza. En la reunión siguiente notas que el Marco Simbólico se quedó corto. ¿Qué propone la lección?",
+            "options": [
+              "Retomar el Marco Simbólico el próximo trimestre, cuando Naturaleza ya esté firme.",
+              "Retomar desde cero la planeación de las cuatro reuniones, porque el sistema se cayó.",
+              "Retomar el Marco Simbólico en la reunión que sigue: cada reunión es un ensayo nuevo."
+            ],
+            "correctIndex": 2
           }
         ]
       }

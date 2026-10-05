@@ -14,7 +14,7 @@
 | Título | La Educación por el Amor |
 | Subtítulo | La apuesta de Baden-Powell en Ginebra, 1922 |
 | Icono | 💗 |
-| Duración | ~30 min |
+| Duración | ~33 min |
 | Lecciones de contenido | 6 + intro + certificado |
 | Audiencia primaria | Todo adulto que cursa el Nivel 1 de la Línea Programa de Jóvenes. |
 | Cursos recomendados | Curso 1 — Bienvenida al Programa de Jóvenes (recomendado, no bloqueante). |
@@ -53,10 +53,10 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 | 2 | 🕰️ Ginebra, 1 de agosto de 1922 | 5 min | El día que B-P propuso cambiar el temor por el amor. | Conozco el contexto |
 | 3 | 😨 La educación por el temor (lo que B-P combatió) | 5 min | Castigo, recompensa, vanidad, competencia: lo viejo. | Veo el contraste |
 | 4 | 💗 La educación por el amor (la apuesta de B-P) | 6 min | Autoeducación voluntaria, fraternidad universal, deseo de conocer. | Entiendo la apuesta |
-| 5 | 🎯 Los 4 objetivos de la instrucción | 5 min | Carácter, habilidad manual, servir al prójimo, salud — semilla de las 6 áreas. | Veo la raíz de las áreas |
+| 5 | 🎯 Los 4 objetivos de la instrucción | 5 min | Carácter, habilidad manual, servir al prójimo, salud: un antecedente que recuerda las 6 áreas. | Veo la raíz de las áreas |
 | 6 | ✍️ Mi pedagogía: ¿por el temor o por el amor? | 3 min | Auto-revisión + un compromiso de práctica. | Educador por el Amor (final) |
 
-**Total estimado: ~30 min**, dentro del rango óptimo del marco metodológico.
+**Total estimado: ~33 min**, dentro del rango óptimo del marco metodológico.
 
 ---
 
@@ -66,14 +66,14 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 **Secciones (en orden):**
 
-1. **`info-box`** — Tiempo estimado del curso (~30 min) y promesa concreta: _"Al final vas a saber qué dijo Baden-Powell en 1922 sobre cómo se educa, por qué fundó este Movimiento, y cómo eso se traduce en cómo conversas con un protagonista de programa el próximo sábado."_
+1. **`info-box`** — Tiempo estimado del curso (~33 min) y promesa concreta: _"Al final vas a saber qué dijo Baden-Powell en 1922 sobre cómo se educa, por qué fundó este Movimiento, y cómo eso se traduce en cómo conversas con un protagonista de programa el próximo sábado."_
 2. **`paragraph`** — Saludo cálido. Mensaje: muchos dirigentes aprenden el Método y se vuelven técnicamente impecables pero pedagógicamente fríos. Este curso es la vacuna contra eso.
 3. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 4. **`list`** — Las 5 ideas que verá:
     - El contexto histórico del informe de Ginebra 1922.
     - Qué es la "educación por el temor" que B-P combatió.
     - Qué es la "educación por el amor" que B-P propuso.
-    - Los 4 objetivos de la instrucción y cómo se convirtieron en las 6 áreas de crecimiento de hoy.
+    - Los 4 objetivos de la instrucción y cómo se parecen a las 6 áreas de crecimiento de hoy.
     - Tu propia revisión pedagógica + un compromiso.
 5. **`mission-box`** — Invitación: _"No te apures. Este curso te va a poner un espejo. Conviene tomarlo con honestidad: ¿cómo educo yo, en mi unidad, en mi familia, en mi trabajo? La respuesta importa."_
 
@@ -90,15 +90,15 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Apertura: _"El 1 de agosto de 1922, en Ginebra, Robert Baden-Powell —el militar inglés que 15 años antes había fundado el Movimiento Scout— se subió al estrado del 3er Congreso Internacional sobre Moral y Educación. Estaba en el Instituto Jean-Jacques Rousseau, una de las casas pedagógicas más importantes del mundo, que organizó el congreso (de estos congresos nació en 1925 la Oficina Internacional de Educación, hoy parte de la UNESCO). Tenía 65 años, había vivido la Primera Guerra Mundial, y vio cómo Europa estaba a punto de cometer el mismo error otra vez."_
+2. **`paragraph`** — Apertura: _"El 1 de agosto de 1922, en Ginebra, Robert Baden-Powell —el militar inglés que 15 años antes había fundado el Movimiento Scout— se subió al estrado del 3er Congreso Internacional sobre Moral y Educación. Habló en el congreso que organizó el Instituto Jean-Jacques Rousseau (de estos congresos nació en 1925 la Oficina Internacional de Educación, hoy parte de la UNESCO). Tenía 65 años, había vivido la Primera Guerra Mundial, y vio cómo Europa estaba a punto de cometer el mismo error otra vez."_
 3. **`heading` (nivel 3)** — _"Lo que estaba pasando en el mundo"_
 4. **`timeline`** — Hitos del contexto:
     - **1907** — B-P organiza el campamento de la isla de Brownsea: nace el escultismo.
-    - **1914–1918** — Primera Guerra Mundial. Cerca de 17 millones de muertos. Europa entera de luto.
-    - **1919–1922** — Resurge el militarismo, las pedagogías autoritarias y los movimientos juveniles armados (en varios países, los jóvenes vuelven a ser instruidos para la próxima guerra).
+    - **1914–1918** — Primera Guerra Mundial. Millones de muertos. Europa entera de luto.
+    - **1919–1922** — Europa sale de la guerra, pero el militarismo y las pedagogías autoritarias siguen muy vivos.
     - **1 de agosto de 1922** — B-P toma la palabra en Ginebra y propone cambiar el motor de la educación: el amor en lugar del temor.
 5. **`heading` (nivel 3)** — _"Lo que B-P fue a decir"_
-6. **`paragraph`** — _"Su informe se llamó **'La educación por el amor en sustitución de la educación por el temor'**. No fue a hablar de uniformes ni de campamentos —aunque los menciona—: fue a hablar de pedagogía. De cómo se educa a un joven sin convertirlo en un soldado dócil ni en un alumno obediente. Habló de **autoeducación voluntaria, fraternidad universal y deseo de conocer**. Lo escucharon educadores de todo el mundo. La OMMS lo reeditó en 2007, en el año centenario del Movimiento, para que ningún dirigente lo olvide."_
+6. **`paragraph`** — _"Su informe se llamó **'La educación por el amor en sustitución de la educación por el temor'**. No fue a hablar de uniformes ni de campamentos —aunque los menciona—: fue a hablar de pedagogía. De cómo se educa a un joven sin convertirlo en un soldado dócil ni en un alumno que solo recibe lo que le dicen. Habló de **autoeducación voluntaria, fraternidad universal y deseo de conocer**. Lo escucharon educadores de todo el mundo. La OMMS lo reeditó en 2007, en el año centenario del Movimiento, para que ningún dirigente lo olvide."_
 7. **`policy-quote`** — Cita textual del comienzo del informe:
     - `text`: _"Los fuertes se servirán del miedo como un arma para aterrorizar a los débiles."_
     - `source`: "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 5)."
@@ -184,21 +184,21 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 2. **`paragraph`** — Apertura: _"Si la educación por el temor se sostiene en el castigo, la recompensa, la vanidad y la competencia, ¿en qué se sostiene la educación por el amor? B-P no hizo una lista con ese nombre, pero su informe vuelve una y otra vez sobre cuatro ideas."_
 3. **`heading` (nivel 3)** — _"Las 4 ideas que sostienen la educación por el amor"_
 4. **`method-grid`** — las 4 ideas con icono y color (cálidos, vivos):
-    - 🤝 **Autoeducación voluntaria** — _"El joven aprende porque quiere, no porque le obligan."_ La obligación produce obediencia; el deseo produce aprendizaje.
-    - 🌍 **Fraternidad universal** — _"Somos hermanos más allá de país, religión, clase o género."_ El Movimiento existe para tender puentes, no para construir muros.
-    - 🔍 **Despertar el deseo de conocer** — _"No meterle ideas en la cabeza al niño. Despertarle la curiosidad y mostrarle el camino."_ La pregunta vale más que la respuesta.
-    - 🙋 **Servir al prójimo como hábito** — _"Aprender haciendo y haciendo el bien."_ El servicio no es una actividad ocasional; es la columna vertebral del carácter.
+    - 🤝 **Autoeducación voluntaria** — En palabras sencillas: el joven aprende porque quiere, no porque le obligan. La obligación produce obediencia; el deseo produce aprendizaje.
+    - 🌍 **Fraternidad universal** — Somos hermanos más allá del país, la clase social o de si eres niño o niña. El Movimiento existe para tender puentes, no para construir muros.
+    - 🔍 **Despertar el deseo de conocer** — No meterle ideas en la cabeza al niño, sino despertarle la curiosidad y mostrarle el camino. La pregunta vale más que la respuesta.
+    - 🙋 **Servir al prójimo como hábito** — Aprender haciendo —la idea del educador Edmundo Holmes que B-P hizo suya— y, además, haciendo el bien. El servicio no es una actividad ocasional; es la columna vertebral del carácter.
 5. **`policy-quote`** — Cita central de B-P:
     - `text`: _"La educación, tal como la entiendo, no consiste en introducir en el cerebro del niño una cierta dosis de conocimiento, sino en despertarle el deseo de conocer e indicarle el modo de estudiar."_
     - `source`: "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 8)."
     - `label`: "📋 Ver la cita central del informe"
 6. **`heading` (nivel 3)** — _"Esto cambia cómo planeas una reunión"_
 7. **`paragraph`** — _"Una reunión 'por el temor' se construye con la pregunta '¿qué les voy a hacer hacer hoy?'. Una reunión 'por el amor' empieza con otra: '¿qué quieren ellos descubrir o construir hoy?'. Una se planifica para que los chicos cumplan. La otra, para que aprendan."_
-8. **`heading` (nivel 3)** — _"La fraternidad universal, en la frase que dijo una semana antes en París"_
+8. **`heading` (nivel 3)** — _"La fraternidad universal, en la frase que dijo pocos días antes en París"_
 9. **`policy-quote`** — Cita de B-P:
     - `text`: _"Una hermandad universal de servicio, una asociación de amistad que no se detiene más allá de las fronteras."_
     - `source`: "Baden-Powell, París, julio de 1922 — citado en la introducción de la reedición OMMS 2007, p. 3."
-    - `label`: "📋 Ver la definición de fraternidad"
+    - `label`: "📋 Ver la frase de París"
 10. **`info-box`** — _"Cuando dos jóvenes scouts, uno colombiano y uno ucraniano, se reconocen hermanos sin haberse visto nunca, esto es lo que B-P estaba imaginando en 1922."_
 
 **Reflexión:** _"De las 4 ideas (autoeducación voluntaria, fraternidad universal, deseo de conocer, servir al prójimo), ¿cuál te cuesta más sostener en tu práctica actual y por qué? Sé honesto."_
@@ -223,7 +223,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 ### 4.6 Lección 5 — 🎯 Los 4 objetivos de la instrucción (5 min)
 
-**Idea central:** Carácter, habilidad manual, servir al prójimo, salud — semilla de las 6 áreas de crecimiento de hoy.
+**Idea central:** Carácter, habilidad manual, servir al prójimo, salud: un antecedente que recuerda las 6 áreas de crecimiento de hoy.
 
 **Secciones (en orden):**
 
@@ -240,7 +240,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - `source`: "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 10)."
     - `label`: "📋 Ver los 4 objetivos textuales"
 6. **`heading` (nivel 3)** — _"De 4 objetivos (1922) a 6 áreas (hoy)"_
-7. **`paragraph`** — _"Esos 4 objetivos se parecen mucho a lo que hoy la ASC llama las **6 áreas de crecimiento**: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad y Espiritualidad. Así las nombra el **Modelo de Aplicación 2026**; la PNPJ 2024 ya hablaba de seis, con nombres más antiguos (desarrollo físico, intelectual, social, emocional, espiritual y del carácter). El árbol creció. La raíz es la misma."_
+7. **`paragraph`** — _"Esos 4 objetivos se parecen mucho a lo que hoy la ASC llama las **6 áreas de crecimiento**: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad y Espiritualidad. Así las nombra el **Modelo de Aplicación 2026**; la PNPJ 2024 ya hablaba de seis, con otros nombres (desarrollo físico, intelectual, social, emocional, espiritual y del carácter). En la Rama Familia se llaman dimensiones. Los nombres cambian; la idea de educar a la persona entera es la misma."_
 8. **`heading` (nivel 3)** — _"Lo que esto significa para tu rol"_
 9. **`list`** — 4 implicaciones prácticas:
     - Cuando planeas una reunión, **revisa que toque varias áreas**, no solo una.
@@ -249,7 +249,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - Cuando registras la progresión, **anota avances en las 6 áreas**, aunque algunas crezcan más despacio.
 10. **`info-box`** — _"En el Curso 6 vas a ver con más detalle cómo el Modelo de Aplicación 2026 organiza las competencias educativas por área y por rama. Hoy solo guarda esta idea: lo que enseñas siempre toca a la persona entera."_
 
-**Reflexión:** _"De las 6 áreas de crecimiento (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad), ¿cuál crees que **más se descuida** en tu unidad (o en las unidades que conoces)? ¿Por qué?"_
+**Reflexión:** _"De las 6 áreas de crecimiento (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad; en Familia se llaman dimensiones), ¿cuál crees que **más se descuida** en tu unidad (o en las unidades que conoces)? ¿Por qué?"_
 
 **Quiz (2 preguntas):**
 
@@ -336,7 +336,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 - **L4 → Curso 4:** las 4 ideas de la educación por el amor anclan los **Principios** del Movimiento (Curso 4): deber con Dios, con los otros y consigo mismo.
 - **L4 → Curso 5:** la "autoeducación voluntaria" es la definición misma del Método Scout (Curso 5).
-- **L5 → Curso 6:** los 4 objetivos de la instrucción son la semilla directa de las 6 áreas de crecimiento que el Curso 6 va a desarrollar con el Modelo de Aplicación 2026.
+- **L5 → Curso 6:** los 4 objetivos de la instrucción son un antecedente que recuerda las 6 áreas de crecimiento que el Curso 6 va a desarrollar con el Modelo de Aplicación 2026.
 - **L6 → Curso 7:** la auto-revisión y el compromiso pedagógico alimentan el Plan Personal del Curso 7.
 
 ### 6.2 Hacia atrás (con el Curso 1)
@@ -386,7 +386,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 | Criterio | Cumplimiento |
 |---|---|
-| Curso entre 20 y 40 min | ✅ ~30 min |
+| Curso entre 20 y 40 min | ✅ ~33 min |
 | Lecciones de 3–8 min, óptimo 5–7 | ✅ rango 3–6 min |
 | Cada lección termina independiente | ✅ |
 | Lenguaje conversacional, tutea | ✅ |
