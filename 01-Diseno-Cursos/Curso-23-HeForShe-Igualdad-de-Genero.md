@@ -42,7 +42,7 @@ El Kit trae en **Manada, parte B**, identidad y expresión de género (p. 18) y 
 |---|---|
 | Título | HeForShe: igualdad de género en tu unidad |
 | Icono | 🤝 |
-| Duración | **40 min** (medida: 5.239 palabras; la primera versión declaraba 50 y la pedagógica lo cazó) |
+| Duración | **43 min** (40 min el 28-sep con 5.239 palabras; +3 por la tercera pregunta de cada quiz, 04-oct-2026) |
 | Destinatario | Dirigentes de Manada, Tropa, Comunidad y Clan (Familia: coeducación sí, Kit no) |
 | Recomendado antes | Cursos 21, 22 y 25 |
 | Logro final | Es asunto de todos |
