@@ -14,9 +14,9 @@
 | Título | Bienvenida al Programa de Jóvenes |
 | Subtítulo | Formación de Adultos Voluntarios — Asociación Scouts de Colombia |
 | Icono | 🎒 |
-| Duración | ~25 min |
+| Duración | ~27 min |
 | Lecciones de contenido | 5 + intro + certificado |
-| Audiencia primaria | Todo adulto que entra a la línea: dirigentes de unidad de las 5 ramas (Familia, Manada, Tropa, Comunidad, Clan), asistentes, equipos de programa de grupo, comisionados de PJ regionales y nacionales, miembros de la Red Nacional de Jóvenes, consejeros juveniles, adultos voluntarios en general. |
+| Audiencia primaria | Todo adulto que entra a la línea: dirigentes de unidad de las 5 ramas (Familia, Manada, Tropa, Comunidad, Clan), adultos que apoyan una unidad, equipos de programa de grupo, comisionados de PJ regionales y nacionales, miembros de la Red Nacional de Jóvenes, consejeros juveniles, adultos voluntarios en general. |
 | Pre-requisitos | Ninguno. Es la puerta de entrada a la línea. (Recomendado: haber tomado o estar tomando el Curso 1 de la Línea Política de Adultos, pero no es bloqueante.) |
 | Logro final | "Constructor de Programa" |
 
@@ -56,7 +56,7 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
 | 5 | 💡 Por qué un Programa de calidad cambia la vida de los chicos | 4 min | El Programa toca las 6 áreas de crecimiento del protagonista. | Veo por qué importa |
 | 6 | ✍️ Tu primer compromiso | 3 min | Saber sin actuar no transforma; el primer paso es chico y concreto. | Constructor de Programa (final) |
 
-**Total estimado: ~25 min** de lecciones de 3–5 min, dentro del rango óptimo del marco metodológico.
+**Total estimado: ~27 min** de lecciones de 3–5 min, dentro del rango óptimo del marco metodológico.
 
 ---
 
@@ -66,7 +66,7 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
 
 **Secciones (en orden):**
 
-1. **`info-box`** — Tiempo estimado del curso (~25 min) y promesa concreta: _"Al final vas a tener claro qué es el Programa de Jóvenes, por qué te aplica a ti incluso si nunca fuiste scout, y cuál es tu primer compromiso."_
+1. **`info-box`** — Tiempo estimado del curso (~27 min) y promesa concreta: _"Al final vas a tener claro qué es el Programa de Jóvenes, por qué te aplica a ti incluso si nunca fuiste scout, y cuál es tu primer compromiso."_
 2. **`paragraph`** — Saludo cálido en segunda persona. Reconocimiento del lugar del dirigente en el Movimiento. Mensaje: detrás de cada lobato, scout, nómada o rover que sonríe en una foto, hay un adulto que escogió estar ahí. Hoy esa persona eres tú.
 3. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 4. **`list`** — Las 5 ideas centrales que verá (una por lección 2–6):
@@ -94,14 +94,14 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — Anti-definición: _"Si abres la Política Nacional de Programa de Jóvenes vas a leer que el Programa es «la totalidad de las oportunidades de aprendizaje» de las que los jóvenes pueden beneficiarse, creadas para alcanzar el propósito del Movimiento y vividas a través del Método Scout. Es exacto. Y, si nunca has hecho un curso así, es difícil de digerir. Vamos a llegar a esa frase, pero por el camino aterrizado."_
 3. **`heading` (nivel 3)** — _"Mira tu propia unidad y vas a ver Programa por todos lados"_
-4. **`paragraph`** — Encuadre del grid: _"Una aclaración antes de mirarlos: algunos son elementos del Método; otros, la forma en que el Método se ve en la unidad."_ (Modelo de Aplicación §3.2, p. 16: la vida de grupo es una de las **cuatro dinámicas**, y la adaptación pedagógica no es un elemento del Método.)
+4. **`paragraph`** — Encuadre del grid: _"Una aclaración antes de mirarlos: cinco de estas flechas nombran elementos del Método Scout (los ocho llegan en el Curso 5). La otra —adaptación pedagógica— no es un elemento: es una forma en que el Método se nota en la unidad."_ (Modelo de Aplicación §3.1.4: Sistema de equipos, «uso de pequeños equipos como forma de aprendizaje colaborativo»; la adaptación pedagógica no es un elemento del Método.)
 5. **`method-grid`** — 6 ejemplos cotidianos de Programa con icono y color, para mostrar que el adulto ya hace Programa:
     - **La jefa de Manada** que cambia el orden de la reunión porque los lobatos llegaron cansados → _adaptación pedagógica_
     - **El dirigente** que se sienta 20 min con un scout a preguntarle qué le gustaría aprender este trimestre → _progresión personal (acompañar)_
     - **El subjefe de Tropa** que deja que la patrulla cocine sola aunque tarde el doble → _aprender haciendo_
     - **La dirigente de Comunidad** que acompaña a los nómadas a presentar un proyecto en la junta de acción comunal → _participación en la comunidad_
     - **El dirigente de Clan** que decide no decirle al rover cómo planear el peregrinaje y solo le hace preguntas → _apoyo del adulto_
-    - **El asistente** que se acuerda del nombre del lobato nuevo y le pregunta cómo le fue en el colegio → _vida de grupo_
+    - **El Viejo Lobo nuevo** (así se llama al dirigente de Manada y de Familia) que se acuerda del nombre del lobato nuevo, le pregunta cómo le fue en el colegio y se lo presenta a su seisena para que se sienta parte → _sistema de equipos_
 6. **`paragraph`** — Conclusión: _"Ninguno de estos adultos está pensando 'estoy aplicando el Método Scout'. Pero todos lo están haciendo. Y todos, de alguna forma, están firmando esa alianza educativa con el joven que tienen al frente."_
 7. **`policy-quote`** — Cita textual de la PNPJ 2024 con su definición técnica:
     - `text`: _"El Programa [de] Jóvenes en el Movimiento Scout es la totalidad de las oportunidades de aprendizaje de las que los jóvenes pueden beneficiarse (Qué), creadas para alcanzar el propósito del Movimiento Scout (Por qué), y que se vive a través del Método Scout (Cómo)."_
@@ -142,7 +142,7 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 3. **`heading` (nivel 3)** — _"Mito 1 — 'Yo no fui scout, no estoy en capacidad de hacer esto'"_
 4. **`paragraph`** — Refutación: el escultismo se aprende caminando, no se hereda. Muchos de los mejores dirigentes nunca fueron protagonistas de niños. Lo que sí necesitas es: querer estar, dejarte formar y respetar la propuesta. El resto se aprende junto a otros dirigentes y al lado de los propios jóvenes. La Política Nacional de Adultos en el Movimiento existe precisamente para formarte paso a paso.
 5. **`heading` (nivel 3)** — _"Mito 2 — 'Hacer Programa es seguir la guía oficial al pie de la letra'"_
-6. **`paragraph`** — Refutación: la guía es una orientación, no una receta. El Modelo de Aplicación 2026 insiste: la alianza es con el grupo concreto que tienes al frente, en su territorio, con sus historias y sus preguntas. La guía te da el qué y el cómo; tú —con los jóvenes— defines el cuándo, dónde, con quién y para qué local.
+6. **`paragraph`** — Refutación: la guía es una orientación, no una receta. El Modelo de Aplicación 2026 insiste: la alianza es con el grupo concreto que tienes al frente, en su territorio, con sus historias y sus preguntas. La guía te da el norte: lo que se busca en tu rama y cómo funciona ahí el Método. Con los jóvenes lo aterrizan: qué actividad, cuándo, dónde, con quién y para qué aquí.
 7. **`heading` (nivel 3)** — _"Mito 3 — 'A los chicos hay que entretenerlos'"_
 8. **`paragraph`** — Refutación: el Programa no entretiene, **educa**. Una reunión donde los chicos se rieron mucho pero no aprendieron nada, no se conocieron mejor, no avanzaron en ninguna área de crecimiento — fue una linda fiesta, no una reunión scout. El filtro **DURASLID** (desafiante, útil, recompensante, atractiva, segura, lúdica, inclusiva, diversa) está para evitar reuniones que solo cumplan una o dos de las ocho.
 9. **`heading` (nivel 3)** — _"Mito 4 — 'Los jóvenes deciden cuando yo se los permito'"_
@@ -181,7 +181,7 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 2. **`paragraph`** — Apertura: _"En los próximos cursos entras al detalle. Pero antes necesitas un mapa simple. El Programa de Jóvenes en la ASC se organiza en 5 tramos de edad, y cada tramo tiene su rama: su forma propia de vivir el escultismo, con su grupo natural (la forma en que los jóvenes se agrupan dentro de la unidad) y su marco simbólico (el universo narrativo que la sostiene)."_
 3. **`method-grid`** — Las 5 ramas con icono y color distintos:
     - 🐻 **Rama Familia — Cachorros (5–6 años)** — Grupo natural: Camadas. Marco simbólico: La Fantasía; su fondo motivador es el Libro de las Tierras Vírgenes — el mismo de la Manada.
-    - 🐺 **Rama Manada — Lobatos (7–10 años)** — Grupo natural: Seisenas. Marco simbólico: La Fantasía — el mismo de la Familia; su fondo motivador es el Libro de las Tierras Vírgenes.
+    - 🐺 **Rama Manada — Lobatos (7–10 años)** — Grupo natural: Seisenas. Marco simbólico: La Fantasía — el mismo de la Familia (según las Guías de rama; el Modelo de Aplicación los llama Fantasía y Fantasía Expandida); su fondo motivador es el Libro de las Tierras Vírgenes.
     - ⚜️ **Rama Tropa — Scouts (11–14 años)** — Grupo natural: Patrullas, con su Guía y su Subguía.
     - 🧗 **Rama Comunidad — Nómadas Scout (15–17 años)** — Grupo natural: equipos de Comunidad. Marco simbólico: La aventura hacia la ciudadanía.
     - 🏔️ **Rama Clan — Rovers (18–20 años)** — Grupo natural: equipos de proyectos o clubes Rovers. Marco simbólico: La Ciudadanía Activa.
@@ -190,7 +190,7 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 6. **`list`** — Las 4 normas/documentos marco vigentes:
     - **Política Nacional de Programa de Jóvenes** (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024) — la norma marco del PJ.
     - **Modelo de Aplicación "El Gran Juego para la Vida"** (DNPJ 2026) — el manual pedagógico que aterriza la política al día a día.
-    - **Guías de Dirigente por rama** (Familia, Manada, Comunidad y Clan — DNPJ 2026). Para la Tropa, la Guía de Buenas Prácticas para Jefes de Tropa.
+    - **Guías de Dirigente por rama** (Familia, Manada, Tropa, Comunidad y Clan — DNPJ 2026).
     - **Recursos Educativos para Dirigentes — Herramientas de Seguimiento para la Progresión Personal 2.0** (DNPJ) — la caja de herramientas evaluativas que usarán todos los dirigentes.
 7. **`info-box`** — _"Los puedes consultar todos en https://scout.org.co/biblioteca · No tienes que aprendértelos. Solo saber que existen y dónde encontrarlos cuando los necesites. En los Cursos 5 y 6 los vamos a recorrer juntos."_
 8. **`policy-quote`** — Cita textual de la PNPJ 2024:
@@ -236,7 +236,7 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 4. **`timeline`** — Tres historias breves:
     - **Lobato A — Cuando el Programa es solo entretenimiento.** Mariana llegó a la Manada a los 8 años. Le encantaban los juegos. Estuvo tres años. Su dirigente nunca planeó una reunión pensando en áreas de crecimiento ni hizo seguimiento a su progresión. A los 11 años se fue. _"Era divertido, pero ya me aburrí"_, dijo. Nunca supo que pudo haber escogido sus propios proyectos.
     - **Scout B — Cuando el Programa funciona como sistema.** Camilo entró a la Tropa a los 11. Su patrulla decidía qué cocinar, cómo armar el campamento, qué proyecto de servicio harían en el barrio. Su dirigente se sentaba con él cada trimestre y le preguntaba qué quería trabajar. A los 14 hizo su Travesía y pasó a Comunidad. A los 22 entró a estudiar trabajo social _"porque en los scouts aprendí que se puede cambiar algo en serio"_.
-    - **Rover C — Cuando el Programa se hace alianza.** Sofía entró a Clan a los 18. Su dirigente nunca le dijo qué hacer; le hizo preguntas. Sofía propuso, equivocó, ajustó, lideró un proyecto de paz con un colegio rural. A los 20 hizo su Partida Rover. Hoy, a los 28, dirige el equipo regional de jóvenes y forma a otros dirigentes. _"Lo que aprendí en el Clan no me lo enseñó nadie — lo viví."_
+    - **Rover C — Cuando el Programa se hace alianza.** Sofía entró a Clan a los 18. Su dirigente nunca le dijo qué hacer; le hizo preguntas. Sofía propuso, se equivocó, ajustó, lideró un proyecto de paz con un colegio rural. A los 20 hizo su Partida Rover. Hoy, a los 28, dirige el equipo regional de jóvenes y forma a otros dirigentes. _"Lo que aprendí en el Clan no me lo enseñó nadie — lo viví."_
 5. **`paragraph`** — Síntesis: _"El Programa no es un fin en sí mismo. Es la condición silenciosa para que la experiencia scout transforme la vida del protagonista."_
 6. **`heading` (nivel 3)** — _"Las 6 áreas de crecimiento"_
 7. **`list`** — Las 6 áreas (panorama, sin profundizar — es el corazón del Curso 5):
@@ -390,7 +390,7 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 
 | Criterio del MARCO-METODOLOGICO-PEDAGOGICO | Cumplimiento |
 |---|---|
-| Curso entre 20 y 40 min | ✅ ~25 min |
+| Curso entre 20 y 40 min | ✅ ~27 min |
 | Lecciones de 3–8 min, óptimo 5–7 | ✅ rango 3–5 min, dentro del óptimo |
 | Cada lección termina independiente | ✅ |
 | Lenguaje conversacional, tutea | ✅ |

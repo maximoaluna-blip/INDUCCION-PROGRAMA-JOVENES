@@ -2,10 +2,10 @@
   "courseId": "bienvenida-programa-jovenes",
   "title": "Bienvenida al Programa de Jóvenes",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
-  "description": "El primer paso en la Línea Programa de Jóvenes. En ~25 minutos vas a entender qué es realmente el Programa de Jóvenes (y qué no), desarmar los mitos del dirigente nuevo, ubicar las 5 ramas y la documentación marco, y dar tu primer compromiso concreto. Sin tecnicismos, con ejemplos del día a día de una unidad.",
+  "description": "El primer paso en la Línea Programa de Jóvenes. En ~27 minutos vas a entender qué es realmente el Programa de Jóvenes (y qué no), desarmar los mitos del dirigente nuevo, ubicar las 5 ramas y la documentación marco, y dar tu primer compromiso concreto. Sin tecnicismos, con ejemplos del día a día de una unidad.",
   "contentVersion": "2026-10-04",
   "icon": "🎒",
-  "duration": "25 minutos",
+  "duration": "27 minutos",
   "level": 1,
   "levelName": "Fundamentación",
   "order": 1,
@@ -20,7 +20,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~25 minutos.</strong> Al final vas a tener claro qué es el Programa de Jóvenes, por qué te aplica a ti <strong>incluso si nunca fuiste scout</strong>, y cuál es tu primer compromiso."
+          "text": "⏱️ <strong>~27 minutos.</strong> Al final vas a tener claro qué es el Programa de Jóvenes, por qué te aplica a ti <strong>incluso si nunca fuiste scout</strong>, y cuál es tu primer compromiso."
         },
         {
           "type": "paragraph",
@@ -73,7 +73,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Una aclaración antes de mirarlos: cuatro de estas flechas nombran elementos del Método Scout (los ocho llegan en el Curso 5). Las otras dos —adaptación pedagógica y vida en grupo— no son elementos: son formas en que el Método se nota en la unidad."
+          "text": "Una aclaración antes de mirarlos: cinco de estas flechas nombran elementos del Método Scout (los ocho llegan en el Curso 5). La otra —adaptación pedagógica— no es un elemento: es una forma en que el Método se nota en la unidad."
         },
         {
           "type": "method-grid",
@@ -110,7 +110,7 @@
             },
             {
               "title": "El Viejo Lobo nuevo (así se llama al dirigente de Manada y de Familia)",
-              "description": "Se acuerda del nombre del lobato nuevo, le pregunta cómo le fue en el colegio y se lo presenta a su seisena para que se sienta parte. <em>→ vida en grupo</em>",
+              "description": "Se acuerda del nombre del lobato nuevo, le pregunta cómo le fue en el colegio y se lo presenta a su seisena para que se sienta parte. <em>→ sistema de equipos</em>",
               "color": "#e0f7fa",
               "borderColor": "#00acc1"
             }
@@ -139,20 +139,29 @@
         "nextLabel": "Continuar a los 5 mitos 🧨",
         "questions": [
           {
-            "text": "Un compañero te dice: 'Programa de Jóvenes es la guía de actividades que la Dirección Nacional de Programa de Jóvenes (DNPJ) publica cada año'. ¿Qué le falta a esa idea, según esta lección?",
+            "text": "La definición del Programa que la lección cita de la Política Nacional de Programa de Jóvenes (§5.1) marca entre paréntesis un Qué, un Por qué y un Cómo. ¿Qué pone como el Por qué?",
             "options": [
-              "Nada: la guía oficial que se publica cada año es exactamente lo que es el Programa.",
-              "Le falta lo esencial: el Programa es la totalidad de oportunidades de aprendizaje, no un documento.",
-              "Le falta mencionar que el Programa también incluye las insignias y las especialidades propias de cada rama."
+              "Para alcanzar el propósito del Movimiento Scout.",
+              "Para vivirse a través del Método Scout en cada unidad.",
+              "Para lograr el desarrollo integral del joven."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
-            "text": "Una dirigente llega a la reunión, ve al grupo disperso y cansado, y cambia su plan para armar una dinámica corta que los reconecte antes de seguir. Según esta lección, ¿qué está haciendo?",
+            "text": "Un subjefe de Tropa recibe a una scout nueva: se aprende su nombre, la presenta a su patrulla y le pide a la guía que la integre en el primer juego. Con la aclaración de la lección sobre las flechas, ¿qué está poniendo en juego?",
             "options": [
-              "Está improvisando: como se salió de la guía oficial, en ese momento dejó de estar haciendo Programa.",
-              "Está haciendo Programa de Jóvenes: adaptó la experiencia al grupo real que tenía al frente.",
-              "Solo hará Programa si después registra ese cambio en el formato de planeación correspondiente."
+              "Un elemento del Método: la adaptación pedagógica, que nombra una flecha.",
+              "Una forma en que el Método se nota, y no un elemento: la progresión personal.",
+              "Un elemento del Método: el sistema de equipos, que nombra una de las flechas."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Una jefa de Manada sabe que los lobatos llegarán agotados de un evento del colegio. Según los ejemplos de la lección de alguien que ya está haciendo Programa, ¿qué hace?",
+            "options": [
+              "Ajusta la fecha: suspende la reunión de ese sábado y la repone la otra semana.",
+              "Ajusta la reunión: cambia el orden y deja para después lo más exigente.",
+              "Mantiene el plan como estaba: si lo cambia cada vez, la Manada pierde su rutina."
             ],
             "correctIndex": 1
           }
@@ -189,7 +198,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La guía es una orientación, no una receta. El Modelo de Aplicación 2026 insiste: la alianza es con el grupo concreto que tienes al frente, en su territorio, con sus historias y sus preguntas. La guía te da el qué y el cómo; tú —con los jóvenes— defines el cuándo, dónde, con quién y para qué local."
+          "text": "La guía es una orientación, no una receta. El Modelo de Aplicación 2026 insiste: la alianza es con el grupo concreto que tienes al frente, en su territorio, con sus historias y sus preguntas. La guía te da el norte: lo que se busca en tu rama y cómo funciona ahí el Método. Con los jóvenes lo aterrizan: qué actividad, cuándo, dónde, con quién y para qué aquí."
         },
         {
           "type": "heading",
@@ -231,22 +240,31 @@
         "nextLabel": "Continuar a tu Programa en una página 🗺️",
         "questions": [
           {
-            "text": "Un dirigente nuevo te dice: “Yo no fui scout cuando niño, mejor me retiro, no estoy en capacidad.” ¿Cuál es la mejor respuesta según esta lección?",
+            "text": "Una mamá acepta apoyar la Manada pero duda: «Nunca fui scout, no sabría ni por dónde empezar». Al responder el Mito 1, la lección dice que no hace falta haber sido scout y enumera lo que sí se necesita. ¿Qué enumera?",
             "options": [
-              "“Tienes razón, vamos a buscar a alguien que sí haya sido scout cuando niño.”",
-              "“Lo que necesitas no es haber sido scout, es querer estar y dejarte formar.”",
-              "“Te recomiendo que primero te leas todas las guías oficiales y después vuelvas a intentarlo.”"
+              "Querer estar, dejarse formar y tener tiempo.",
+              "Querer estar, dejarse formar y respetar la propuesta.",
+              "Querer estar, dejarse formar y tener paciencia."
             ],
             "correctIndex": 1
           },
           {
-            "text": "En una unidad, el dirigente decide cada actividad, cada fecha y cada equipo; los jóvenes solo 'votan' lo que él ya propuso. Según esta lección, ¿qué le dirías para ayudarlo a corregir el rumbo?",
+            "text": "En una Tropa, la patrulla quiere organizar un día de juegos en el parque del barrio. Según el rol del adulto que describe la lección, ¿qué hace su dirigente?",
             "options": [
-              "Que está bien: alguien tiene que poner orden, y los jóvenes ya participan cuando votan.",
-              "Que abra la decisión desde antes: que ellos propongan y elijan, y él acompañe sin imponer.",
-              "Que se retire de la planeación: si el Programa es de ellos, el adulto no debe sugerir nada."
+              "Les deja todo a ellos: no opina ni interviene en nada, para no dirigir sus decisiones.",
+              "Les pregunta qué quieren lograr, les ayuda a conseguir el permiso del parque y se queda cerca.",
+              "Les va diciendo paso a paso cómo hacerlo mejor, para que todo les salga bien desde el comienzo."
             ],
             "correctIndex": 1
+          },
+          {
+            "text": "Un subjefe de Tropa nuevo abre la guía de su rama esperando encontrar resuelto el próximo campamento: actividades, fechas y lugar. Según lo que la lección responde al Mito 2, ¿qué sí le trae la guía?",
+            "options": [
+              "El con quién de cada actividad: qué aliados o invitados conviene sumar.",
+              "El para qué de cada actividad en ese grupo y ese territorio.",
+              "El norte: lo que se busca en la rama y cómo funciona ahí el Método."
+            ],
+            "correctIndex": 2
           }
         ]
       }
@@ -276,7 +294,7 @@
             },
             {
               "title": "🐺 Rama Manada — Lobatos (7–10 años)",
-              "description": "Grupo natural: Seisenas. Marco simbólico: La Fantasía — el mismo de la Familia; su fondo motivador es el Libro de las Tierras Vírgenes.",
+              "description": "Grupo natural: Seisenas. Marco simbólico: La Fantasía — el mismo de la Familia (según las Guías de rama; el Modelo de Aplicación los llama Fantasía y Fantasía Expandida); su fondo motivador es el Libro de las Tierras Vírgenes.",
               "color": "#fff3e0",
               "borderColor": "#fb8c00"
             },
@@ -315,7 +333,7 @@
           "items": [
             "<strong>Política Nacional de Programa de Jóvenes</strong> (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024) — la norma marco del PJ.",
             "<strong>Modelo de Aplicación “El Gran Juego para la Vida”</strong> (DNPJ 2026) — el manual pedagógico que aterriza la política al día a día.",
-            "<strong>Guías de Dirigente por rama</strong> (Familia, Manada, Comunidad y Clan — DNPJ 2026). Para la Tropa, la Guía de Buenas Prácticas para Jefes de Tropa.",
+            "<strong>Guías de Dirigente por rama</strong> (Familia, Manada, Tropa, Comunidad y Clan — DNPJ 2026).",
             "<strong>Recursos Educativos para Dirigentes — Herramientas de Seguimiento para la Progresión Personal 2.0</strong> (DNPJ) — la caja de herramientas evaluativas que usarán todos los dirigentes."
           ]
         },
@@ -338,29 +356,29 @@
         "nextLabel": "Continuar a por qué importa 💡",
         "questions": [
           {
-            "text": "La Familia de Cachorros y la Manada comparten el mismo marco simbólico y el mismo fondo motivador. ¿Cuál de estas frases los nombra bien?",
+            "text": "Un papá va a empezar a apoyar a un grupo de jóvenes de 17 años. Según las tarjetas de ramas de la lección, ¿en qué rama están y con qué marco simbólico se va a encontrar?",
             "options": [
-              "Marco simbólico: el Libro de las Tierras Vírgenes. Fondo motivador: La Fantasía.",
-              "Marco simbólico: La Fantasía. Fondo motivador: el Libro de las Tierras Vírgenes.",
-              "Marco simbólico: las camadas y las seisenas. Fondo motivador: la selva de Kipling."
+              "En la Rama Clan, con el marco de la Ciudadanía Activa de los Rovers.",
+              "En la Rama Comunidad, con el marco de la aventura hacia la ciudadanía.",
+              "En la Rama Tropa, con el marco de La Aventura y sus patrullas."
             ],
             "correctIndex": 1
           },
           {
-            "text": "¿Cuál es la norma marco vigente que rige hoy al Programa de Jóvenes en la ASC?",
+            "text": "Un Viejo Lobo deja de acompañar la Manada y pasa a acompañar la Familia de Cachorros. Según las tarjetas de la lección, ¿qué cambia entre una rama y otra en grupo natural y fondo motivador?",
             "options": [
-              "La Red Nacional de Jóvenes y su Reglamento (Acuerdo CSN 556).",
-              "La Política Nacional de Programa de Jóvenes (Acuerdo CSN 617 de 2024).",
-              "El Manual de Implementación del Marco de Mundo Mejor (junio 2021)."
+              "Cambia el fondo motivador: la Familia tiene un relato propio, distinto del de la Manada.",
+              "No cambia el grupo natural: en la Familia los cachorros también se organizan en Seisenas.",
+              "Cambia el grupo natural, de Seisenas a Camadas; el fondo motivador sigue siendo el mismo."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
-            "text": "Los Lobatos, dentro de la Manada, se organizan en pequeños grupos llamados…",
+            "text": "Una subjefe de Tropa busca la guía de dirigente de su rama. Según la lista de documentación marco de la lección, ¿qué documento le corresponde?",
             "options": [
-              "Patrullas — así se llama el pequeño grupo de los Scouts en la Tropa.",
-              "Seisenas — pequeños grupos de unos seis Lobatos dentro de la Manada.",
-              "Camadas — así se llama el pequeño grupo de los Cachorros en la Familia."
+              "Ninguna de 2026: la Tropa sigue usando la Guía de Buenas Prácticas de 2023.",
+              "Una guía propia de su rama: la Guía de Dirigente de Tropa (DNPJ 2026).",
+              "Una guía compartida: la Guía de Dirigente de Comunidad (DNPJ 2026)."
             ],
             "correctIndex": 1
           }
@@ -399,7 +417,7 @@
             },
             {
               "title": "Rover C — Cuando el Programa se hace alianza",
-              "description": "Sofía entró a Clan a los 18. Su dirigente nunca le dijo qué hacer; le hizo preguntas. Sofía propuso, equivocó, ajustó, lideró un proyecto de paz con un colegio rural. A los 20 hizo su Partida Rover. Hoy, a los 28, dirige el equipo regional de jóvenes y forma a otros dirigentes. “Lo que aprendí en el Clan no me lo enseñó nadie — lo viví.”"
+              "description": "Sofía entró a Clan a los 18. Su dirigente nunca le dijo qué hacer; le hizo preguntas. Sofía propuso, se equivocó, ajustó, lideró un proyecto de paz con un colegio rural. A los 20 hizo su Partida Rover. Hoy, a los 28, dirige el equipo regional de jóvenes y forma a otros dirigentes. “Lo que aprendí en el Clan no me lo enseñó nadie — lo viví.”"
             }
           ]
         },
@@ -437,22 +455,31 @@
         "nextLabel": "Continuar a tu primer compromiso ✍️",
         "questions": [
           {
-            "text": "En la historia de Mariana, lo que faltó fue principalmente…",
+            "text": "Un scout de 13 años decide por su cuenta preparar su parte del menú del campamento; le queda salado y, en vez de culpar a otro, dice «me equivoqué yo» y propone cómo arreglarlo. Según la lista de la lección, ¿qué área de crecimiento muestra ante todo?",
             "options": [
-              "Que sus dirigentes la dejaran ganar más juegos y destacarse más frente a sus compañeras de unidad.",
-              "Que el Programa fuera planeado para tocar todas las áreas de crecimiento.",
-              "Que Mariana entrara a la rama más tarde, cuando tuviera la edad para aprovecharla."
+              "El área de Afectividad: le cuenta a su patrulla cómo se siente con el error.",
+              "El área de Sociabilidad: coopera con su patrulla y cumple su parte.",
+              "El área de Carácter: decide por su cuenta y asume lo que le sale mal."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Un Viejo Lobo tiene una lobata de 9 años que va a todas las reuniones, se divierte y nunca ha propuesto nada. ¿Qué le conviene hacer ante todo, según lo que le faltó a Mariana?",
+            "options": [
+              "Sentarse con su seisena para pedirle que la anime a participar más en los juegos.",
+              "Sentarse con ella a preguntarle qué le gustaría aprender y qué proyecto escoger.",
+              "Hablar con su familia para que en casa la motive a proponer ideas en la Manada."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Camilo, en la Tropa, aprendió a decidir con su patrulla qué cocinar y qué proyecto de servicio hacer, y a asumir las consecuencias. ¿Qué área de crecimiento se estaba trabajando, sobre todo?",
+            "text": "Un dirigente con experiencia pregunta cómo baja el Modelo de Aplicación 2026 las seis áreas de crecimiento a cada rama. Según la lección, ¿qué le respondes?",
             "options": [
-              "Corporalidad, porque cocinar con fuego y herramientas es un trabajo del cuerpo.",
-              "Carácter: estaba decidiendo, asumiendo responsabilidades y construyendo autonomía.",
-              "Espiritualidad, porque el servicio siempre es espiritual."
+              "Las desdobla en objetivos terminales e intermedios por rama.",
+              "Las desdobla en especialidades e insignias propias de cada rama.",
+              "Las desdobla en competencias terminales e intermedias por rama."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           }
         ]
       }
@@ -530,22 +557,31 @@
         "nextLabel": "Obtener mi certificado 🎓",
         "questions": [
           {
-            "text": "¿Cuál de estos compromisos cumple mejor el criterio “chico, concreto y tuyo”?",
+            "text": "Tres dirigentes llenan la plantilla del compromiso. Las tres hacen lo mismo; cambian en con quién y en la señal. ¿Cuál la llena como pide la lección?",
             "options": [
-              "“En este año voy a transformar la cultura del Programa en toda mi región.”",
-              "“En la próxima reunión voy a dejar que mi equipo decida parte de la actividad.”",
-              "“Voy a estudiarme el Modelo de Aplicación completo antes de la reunión del próximo sábado.”"
+              "Esta semana dejaré que la patrulla escoja el juego, con el guía de patrulla. Señal: que ellos lo dirijan.",
+              "Esta semana dejaré que la patrulla escoja el juego, con Tomás, el guía. Señal: que ellos lo dirijan.",
+              "Esta semana dejaré que la patrulla escoja el juego, con el guía. Señal: mi intención de escucharlos más."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un dirigente de Clan escribe: «Este mes voy a acompañar a cada rover a armar su plan de progresión, con los cinco del Clan. Señal: que los cinco tengan su plan escrito». Según la lección, ¿qué ajuste le sugieres?",
+            "options": [
+              "Que lo amarre: una fecha de entrega y la firma de cada familia como señal.",
+              "Que lo achique: un rover, esta semana, y como señal su plan empezado.",
+              "Que lo amplíe: un plan común para todo el Clan, con su fecha de entrega."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Dos dirigentes arrancan el año. Uno anuncia: 'voy a transformar el Programa de mi grupo'. El otro dice: 'esta semana voy a dejar que la patrulla escoja el juego'. Según el cierre del curso, ¿quién tiene más probabilidad de sostener el cambio?",
+            "text": "Una dirigente termina esta bienvenida y quiere saber qué sigue. Según «Lo que viene», ¿de qué trata el Curso 2 de la línea?",
             "options": [
-              "El primero, porque una meta grande inspira más al equipo y le marca el rumbo a todo el año.",
-              "El segundo, porque la transformación se construye con promesas chicas cumplidas.",
-              "Da igual: al final lo que cuenta es cuántos campamentos logre organizar cada uno."
+              "De la Educación por el Amor: la apuesta de Baden-Powell.",
+              "Del Método Scout y sus ocho elementos, uno por uno.",
+              "De las Características Esenciales del Movimiento Scout."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
