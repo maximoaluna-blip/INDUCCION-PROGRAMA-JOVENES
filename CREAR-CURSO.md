@@ -53,7 +53,7 @@ Para evitar fricción y duplicación de esfuerzo, los roles están claramente se
 - **Hook** del curso (una frase ancla, repetible).
 - **Lecciones** con su idea central, desarrollo en prosa, ejemplos cotidianos del dirigente.
 - **Reflexiones** personales aterrizadas a casos concretos.
-- **Quizzes** de 2 preguntas con distractores que desarman la idea vieja.
+- **Quizzes** de 3 preguntas (al menos 2 de aplicación, máximo 1 de detalle) con distractores que desarman la idea vieja.
 - **Logros** (4–6 + 1 final) con nombre evocativo.
 - **Conexiones cross-course** (cuál anuncia, cuál recoge).
 - **Tono, narrativa, ejemplos, voces juveniles cuando aplique.**
@@ -163,7 +163,7 @@ INDUCCION-PROGRAMA-JOVENES/
    1. **Ficha del curso** (courseId, título, subtítulo, icono, duración, lecciones, audiencia primaria, pre-requisitos, logro final).
    2. **Objetivos del curso** (6 verbos de aprendizaje observables).
    3. **Hook pedagógico** (la idea poderosa que sostiene el curso — ver sección 6.1).
-   4. **Estructura de lecciones** (mapa general + cada lección con: idea central, secciones en orden con su tipo, reflexión, quiz de 2 preguntas, logro).
+   4. **Estructura de lecciones** (mapa general + cada lección con: idea central, secciones en orden con su tipo, reflexión, quiz de 3 preguntas, logro).
    5. **Logros** (4–6 por lección + 1 final con `unlockOnModule: -1`).
    6. **Conexiones cross-course** (hacia adelante, hacia atrás, cross-línea).
    7. **Tipos de sección utilizados** (tabla resumen).
@@ -364,7 +364,7 @@ Toda lección de contenido sigue esta receta:
 | 3 — Cita oficial (cuando aplica) | Texto literal del documento doctrinal | Cowork |
 | 4 — Reformulación accesible | _"En simple, esto significa..."_ | Cowork |
 | 5 — Reflexión personal | Pregunta aterrizada a la unidad o rama del adulto | Cowork |
-| 6 — Mini-quiz | 2 preguntas, 3 opciones cada una, distractores con la idea vieja | Cowork |
+| 6 — Mini-quiz | 3 preguntas (≥2 de aplicación, máx. 1 de detalle), 3 opciones cada una, distractores con la idea vieja | Cowork |
 | 7 — Logro al completar | Frase de 2-4 palabras | Cowork |
 
 Lo que viene después (tipo de sección visual, colores, IDs, layout) lo monta Claude Code. **No es responsabilidad de Cowork.**
@@ -379,11 +379,11 @@ Lo que viene después (tipo de sección visual, colores, IDs, layout) lo monta C
 
 > _"Reflexiona sobre tu rol como dirigente."_
 
-**Recomendación:** toda reflexión debe forzar al adulto a pensar en **un caso concreto** que conoce: una reunión específica, un protagonista con nombre, un proyecto fallido. Si la respuesta puede ser genérica, la pregunta está mal hecha. Pedir **especificidad** (un nombre, una fecha, una rama, una situación).
+**Recomendación:** toda reflexión debe forzar al adulto a pensar en **un caso concreto** que conoce: una reunión específica, un protagonista (en su cabeza, sin escribir el nombre), un proyecto fallido. Si la respuesta puede ser genérica, la pregunta está mal hecha. Pedir **especificidad** (una rama, un cargo, una situación) — **pero nunca nombres, iniciales, fechas que identifiquen ni confidencias**: la reflexión viaja a la hoja de la Asociación (ADR-087). Fórmula: «con nombre, en tu cabeza; aquí no hace falta escribirlo».
 
 ### 6.5 Quiz que enseña, no que castiga
 
-Las 2 preguntas de cada lección **no son evaluación** — son ancla del concepto. Cada distractor debería ser plausible: idealmente, **uno de los distractores debe ser la idea vieja que el curso está tratando de desarmar**.
+Las 3 preguntas de cada lección **no son evaluación** — son ancla del concepto (con 3, el 70 % del motor exige acertar las tres; con 4 dejaría fallar una). Al menos 2 son escenarios de aplicación y como máximo 1 pregunta un detalle. La regla ciega (ADR-132) se mide y se registra, pero no se persigue con trampas (decisión del dueño, 04-oct-2026). Cada distractor debería ser plausible: idealmente, **uno de los distractores debe ser la idea vieja que el curso está tratando de desarmar**.
 
 Ejemplo del Curso 01 de PJ:
 
@@ -539,7 +539,7 @@ Si falta algún elemento (por ejemplo, una pregunta de quiz para una lección, u
 - [ ] **Patrón 6.2 (anti-definición + reformulación accesible)** aplicado en su variante apropiada (A literal o B narrativa) y **documentado** en la sección de Validación del archivo de diseño. Para cursos de integración personal o de bienvenida, justificar la no-aplicación.
 - [ ] Lecciones entre **3 y 8 min** cada una, **óptimo 5–7** — la medida que manda (ADR-069).
 - [ ] Duración total **derivada** de esa banda × número de lecciones; sin tope fijo. Por encima de **60 min**, justificar en `DECISIONES.md` por qué el curso no se parte — hoy solo `rama-clan-rovers` (65 min en 10 lecciones, 6,5 por lección).
-- [ ] Mini-quiz tiene **mínimo 2 preguntas** por lección (excepto intro), **con al menos un distractor que sea la idea vieja**.
+- [ ] Mini-quiz tiene **3 preguntas** por lección (excepto intro): **al menos 2 de aplicación, máximo 1 de detalle**, y al menos un distractor que sea la idea vieja. La intro dice «tres preguntas… acertar las tres».
 - [ ] **Las dos reglas de paridad del quiz, leídas en los avisos del build** (`MANUAL` §A.6.5, reglas 6 y 7): la correcta **no es el extremo de longitud** de su pregunta por 12 caracteres o más, y **dos opciones comparten su primera palabra** (y su polaridad en las de sí/no). ⚠️ **El build avisa, no rompe**: si nadie lee el `⚠️`, el curso se publica con el sesgo. Se empareja moviendo **distractores**, nunca la correcta (ADR-073).
 - [ ] Reflexión personal por lección (excepto intro), **forzando a un caso concreto**.
 - [ ] Logros: 4-6 + 1 final con `unlockOnModule: -1`. (Excepción documentada: Curso 04 con 7+1.)
@@ -729,6 +729,8 @@ A esto, la Línea PJ añade las **3 exigencias propias** (sección 7): cada curs
 - `../INDUCCION-ADULTOS/CREAR-CURSO.md` — Documento equivalente de la línea más antigua (Política de Adultos).
 
 ---
+
+_**Actualizado el 05-oct-2026:** quizzes de **3 preguntas** (≥2 de aplicación, máx. 1 de detalle) en los 25 cursos (Lotes 0–4, 04-oct-2026); reflexiones sin nombres ni fechas (ADR-087), que aquí todavía se pedían. El `policy-quote` es **plegable** (`<details>`): sirve para aligerar una lección larga, pero solo con texto **literal** y página, y dejando a la vista lo que evalúa el quiz._
 
 _**Actualizado el 20-sep-2026 (`DECISIONES.md` ADR-069):** desaparece el **tope de 40 minutos** del §9 y de la §14. Manda la **banda por lección** —3 a 8 min, óptimo 5–7— y el total se **deriva**: por encima de 60 min hay que justificar por qué el curso no se parte. En esta línea el tope era papel mojado —**7 de sus 15 cursos publicados lo excedían**— y la excepción que la guía citaba (*«Curso 04 — Método, 40 min justificados por centralidad»*) llevaba meses siendo la **menos** excepcional de todas._
 
