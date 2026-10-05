@@ -30,7 +30,7 @@ El plan lo describe como la aplicación del *Kit Patrimonito* (alianza con UNESC
 |---|---|
 | Título | Patrimonito: el patrimonio de la humanidad en tu unidad |
 | Icono | 🏛️ |
-| Duración | **35 min** (medida: ~4.800 palabras) |
+| Duración | **38 min** (la del JSON) |
 | Destinatario | Dirigentes de Comunidad y Clan (y un camino para las demás ramas) |
 | Logro final | Recibo, vivo y dejo |
 
@@ -49,7 +49,7 @@ Hilo: **el Clan de Camila, en Pasto**. Un rover quiere un mural del Carnaval «u
 | 3 | 🧭 Tres rutas y un viaje | Promoción, Difusión, Conservación; tres etapas; autoevaluación (competencias del desafío, no Exploro). |
 | 4 | 📋 Los pasos del reconocimiento | Los siete pasos; solo UNESCO; Scouts del Mundo; porte. |
 | 5 | 🤝 Con la comunidad, no sobre ella | Comparte; mapeo social; de quién es el inmaterial; PEMP/PMA/PES; arqueológico = ICANH. |
-| 6 | 🧳 Horas de servicio, con seguridad | Curso 25; protocolos; Comunidad menores vs Clan adultos; publicar con autorización. |
+| 6 | 🧳 Horas de servicio, con seguridad | Curso 25; protocolos; Comunidad menores vs Clan mayores de edad; publicar con autorización. |
 | 7 | 🏅 Comparte, evalúa y reconoce | Actúa; solicitud; cobro del hook; Y en tu rama (*Modelo* p. 99); cierre del Nivel 4; misión. |
 
 ## 4. Colaterales
@@ -58,4 +58,4 @@ Catálogo (orden 24), workflow, portal y panel (25); el 21, el 22 y el 23 enlaza
 
 ---
 
-_Documento de diseño v1.1 — 28 de septiembre de 2026. La v1.1 recoge dos vueltas de auditoría: la autoevaluación de Patrimonito tiene **las etapas como filas y las marcas como columnas** (al revés que Constructores de Paz; la pregunta calcada del 22 era falsa aquí); el ejemplo resuelto recorre los pasos (Descubrimiento, herramientas, inscripción, horas, evaluación, solicitud); la difusión se lleva lejos del lugar de origen; los rovers deciden y acuerdan con las artesanas; el consentimiento de fotos de menores lo dan **sus familias**; la tentativa es una puerta que abre el Kit, no un sitio declarado; el Kit permite más de una ruta («y/o»); duración 35 min. El JSON manda._
+_Documento de diseño v1.1 — 28 de septiembre de 2026. La v1.1 recoge dos vueltas de auditoría: la autoevaluación de Patrimonito tiene **las etapas como filas y las marcas como columnas** (al revés que Constructores de Paz; la pregunta calcada del 22 era falsa aquí); el ejemplo resuelto recorre los pasos (Descubrimiento, herramientas, inscripción, horas, evaluación, solicitud); la difusión se lleva lejos del lugar de origen; los rovers deciden y acuerdan con las artesanas; el consentimiento de fotos de menores lo dan **sus familias**; la tentativa es una puerta que abre el Kit, no un sitio declarado; el Kit permite más de una ruta («y/o»); duración 38 min (alineada con el JSON el 04-oct-2026). El JSON manda._

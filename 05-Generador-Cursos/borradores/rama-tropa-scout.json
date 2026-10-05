@@ -5,7 +5,7 @@
   "description": "El curso de rama para quienes acompañan la adolescencia temprana. Vas a acompañar a Andrés, que acaba de dar el Gran Salto desde la Manada, y a entender el cambio que hace difícil esta rama: en la Tropa los Scouts deciden solos.",
   "contentVersion": "2026-10-04",
   "icon": "⚜️",
-  "duration": "45 minutos",
+  "duration": "48 minutos",
   "level": 2,
   "levelName": "Profundización por rama y práctica pedagógica",
   "order": 10,
@@ -20,7 +20,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~45 minutos.</strong> Al final vas a poder reconocer la Promesa y los diez artículos completos de la Ley, formar patrullas que se sostengan solas, encender el Espíritu de Patrulla, reconocer las señales de silbato y saber por qué la Tropa forma como forma, acompañar la progresión por sus cuatro fases, y preparar el paso a la Comunidad de un Scout de catorce y medio."
+          "text": "⏱️ <strong>~48 minutos.</strong> Al final vas a poder reconocer la Promesa y los diez artículos completos de la Ley, formar patrullas que se sostengan solas, encender el Espíritu de Patrulla, reconocer las señales de silbato y saber por qué la Tropa forma como forma, acompañar la progresión por sus cuatro fases, y preparar el paso a la Comunidad de un Scout de catorce y medio."
         },
         {
           "type": "paragraph",
@@ -36,11 +36,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Lo que sí es: la rama donde por primera vez el joven asume la <strong>Promesa y la Ley completas</strong>, se organiza en un equipo que él mismo eligió, elige a quien lo representa, y tiene órganos de gobierno propios. Es la rama donde el escultismo se parece más a lo que Baden-Powell imaginó."
+          "text": "Lo que sí es: la rama donde por primera vez el joven asume la <strong>Promesa y la Ley completas</strong>, se organiza en un equipo que él mismo eligió, elige a quien lo representa, y tiene órganos de gobierno propios. Baden-Powell llamó al sistema de patrullas «la columna vertebral de la tropa» (Guía de Dirigente, p. 27)."
         },
         {
           "type": "mission-box",
-          "text": "🎯 <strong>Cómo usar este curso.</strong> Cada lección termina en algo concreto que puedas probar en tu próxima reunión. No hace falta que te lo aprendas: hace falta que lo uses el sábado. De la próxima lección en adelante, cada una cierra con dos preguntas, y hay que acertar las dos para seguir. No es una trampa: si fallas, vuelves al párrafo y lo intentas otra vez, sin penalización."
+          "text": "🎯 <strong>Cómo usar este curso.</strong> Cada lección termina en algo concreto que puedas probar en tu próxima reunión. No hace falta que te lo aprendas: hace falta que lo uses el sábado. De la próxima lección en adelante, cada una cierra con tres preguntas, y hay que acertar las tres para seguir. No es una trampa: si fallas, vuelves al párrafo y lo intentas otra vez, sin penalización."
         }
       ]
     },
@@ -84,11 +84,11 @@
         },
         {
           "type": "paragraph",
-          "text": "El Jefe de Tropa <strong>no conduce la patrulla: conduce a los Guías</strong>. La Guía de Buenas Prácticas lo deja ver en las funciones del Guía de Patrulla, que incluyen <em>\"mantener contacto directo con el Jefe de Tropa\"</em> y <em>\"planear actividades para su Patrulla\"</em> (p. 11 del PDF). Tu conversación principal ya no es con los treinta: es con los cinco o seis que los representan."
+          "text": "El Jefe de Tropa <strong>no dirige las patrullas: forma y sostiene a sus Guías</strong> (Guía de Dirigente, §5.8, p. 29). La Guía de Buenas Prácticas lo deja ver en las funciones del Guía de Patrulla, que incluyen <em>\"mantener contacto directo con el Jefe de Tropa\"</em> y <em>\"planear actividades para su Patrulla\"</em> (p. 11 del PDF). Tu conversación sobre la vida de cada patrulla ya no es con los treinta: es con los cinco o seis Guías que los representan. La conversación sobre cómo crece cada Scout sigue siendo tuya, con cada uno y siempre a la vista de otros —la verás en la lección 7—, y para eso ayuda lo que aconseja el Modelo: un adulto por patrulla, más el Jefe."
         },
         {
           "type": "paragraph",
-          "text": "En el Modelo de Aplicación tu trabajo tiene tres verbos: <strong>apoyar, acompañar y enlazar</strong>. En la Tropa, «apoyar» es preparar a los Guías; «acompañar» es estar cuando la patrulla se equivoca; «enlazar» es abrirles la puerta a lo que hay más allá del grupo."
+          "text": "Tu trabajo tiene tres verbos, y cambian según por dónde va cada Scout: <strong>apoyar</strong> cuando apenas descubre algo (tener recursos a mano y estar disponible, sin imponer tu idea), <strong>acompañar</strong> cuando ya lo pone en práctica (observar, retroalimentar, ayudarle a decidir sin decidir por él) y <strong>enlazar</strong> cuando ya lo domina (abrirle puertas más allá del grupo). Su Guía de Dirigente los amarra a los tres niveles de la Tropa —Descubro, Construyo, Conquisto— que verás en la lección 7."
         },
         {
           "type": "method-grid",
@@ -122,22 +122,31 @@
         "nextLabel": "Continuar a la Promesa y la Ley 🤝",
         "questions": [
           {
-            "text": "El Guía de la patrulla de Andrés planeó una actividad para el sábado y se nota que va a salir mal: le faltó material y calculó mal el tiempo. ¿Qué haces?",
+            "text": "Preparas el sábado. En la Manada habrías traído tú el juego y dejado que los lobatos se repartieran los papeles. ¿Qué cambia con la patrulla de Andrés?",
             "options": [
-              "Rehaces tú la planeación antes del sábado y se la entregas lista, para que la actividad no se les arruine.",
-              "Repasas el plan con él antes del sábado, le señalas los dos huecos y lo dejas decidir qué ajusta.",
-              "Dejas que salga mal tal cual, porque equivocarse es la única forma de que un Guía aprenda a planear."
+              "Que la patrulla define las reglas y los tiempos del juego que tú traes, y tú te limitas a presentarlo.",
+              "Que la patrulla escoge qué va a hacer el sábado, y tu trabajo es preparar a su Guía para planearlo.",
+              "Que el Guía reparte los papeles del juego que tú traes, en vez de dejarlo a la votación de todos."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Un Jefe de Tropa nuevo te cuenta que pasa cada reunión hablando uno a uno con los treinta Scouts, y termina agotado y con la sensación de no llegar a nada. ¿Qué le sugieres?",
+            "text": "Un Jefe de Tropa nuevo te cuenta que pasa cada reunión atendiendo él mismo a cada uno de los treinta Scouts, y termina agotado y con la sensación de no llegar a nada. ¿Qué le sugieres?",
             "options": [
-              "Que reparta la Tropa con su subjefe y cada uno hable con quince, así alcanzan a cubrirlos a todos entre los dos.",
-              "Que prepare bien a los Guías y deje que cada uno lleve a su patrulla, en vez de repartirse entre treinta.",
-              "Que hable solo con los que se están portando mal, que son los que de verdad necesitan al adulto."
+              "Que deje la progresión en manos de los Guías, para que él solo tenga que hablar con cinco o seis.",
+              "Que reúna a toda la Tropa al empezar y dé las indicaciones una sola vez, para no tener que repetirlas.",
+              "Que coordine la vida de patrulla con los Guías y sume adultos: el Modelo aconseja uno por patrulla."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
+          },
+          {
+            "text": "Estás redactando la circular de inicio de año para las familias de los Scouts nuevos. ¿Cómo nombras bien la sección de Andrés y a quien la dirige?",
+            "options": [
+              "La rama se llama Tropa y la unidad, Scouts; quien la dirige es el Jefe de Scouts.",
+              "La rama y la unidad se llaman igual, Tropa; quien la dirige es el Jefe de Tropa.",
+              "La rama se llama Scouts y la unidad, Tropa; quien la dirige es el Jefe de Tropa."
+            ],
+            "correctIndex": 2
           }
         ]
       }
@@ -160,7 +169,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Es la Promesa que la Constitución Mundial del Movimiento Scout recoge, y la que Andrés va a decir en voz alta delante de su patrulla. Fíjate en la estructura: <em>\"por mi honor\"</em> (quién responde), <em>\"hacer todo cuanto de mí dependa\"</em> (hasta dónde), y tres compromisos concretos. No promete ser perfecto: promete poner lo suyo."
+          "text": "Es el texto que trae la Política Nacional, y el que normalmente dice un Scout en voz alta delante de su patrulla. Fíjate en la estructura: <em>\"por mi honor\"</em> (quién responde), <em>\"hacer todo cuanto de mí dependa\"</em> (hasta dónde), y tres compromisos concretos. No promete ser perfecto: promete poner lo suyo. Y conviene saber esto: su Guía de Dirigente trae también una fórmula alternativa, sin <em>\"la gracia de Dios\"</em>, para proponérsela al Scout <em>\"de acuerdo con sus creencias y su visión espiritual\"</em> (cap. 3, p. 21). La Promesa es libre: nadie la dice con palabras que no siente."
         },
         {
           "type": "heading",
@@ -175,7 +184,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Andrés viene de una Manada donde la Ley estaba adaptada a su edad, y antes de eso los Cachorros tienen apenas dos artículos: <em>el Cachorro es alegre</em> y <em>el Cachorro cuida la naturaleza</em>. Aquí, por primera vez, recibe el texto completo. No es que antes le hubieran dado una versión recortada: es la misma Ley, que va creciendo con quien la vive."
+          "text": "Andrés viene de la Ley de la Manada —siete puntos en lenguaje de lobato—, y antes de eso los Cachorros tienen apenas dos artículos: <em>el Cachorro es alegre</em> y <em>el Cachorro cuida la naturaleza</em>. Aquí, por primera vez, recibe la Ley Scout completa. No empieza de cero: lo que vivió antes era la puerta de entrada a esta. Y si la comparas con tu Guía de Dirigente vas a ver pequeñas diferencias (por ejemplo, \"raza\" donde la Política dice \"etnia\"): manda el texto de la Política."
         },
         {
           "type": "info-box",
@@ -194,11 +203,11 @@
         "nextLabel": "Continuar a la Patrulla ⚜️",
         "questions": [
           {
-            "text": "Andrés lleva dos meses en la Tropa y te dice que en la Manada la Ley era más corta, y que esta se le hace mucho para acordarse. ¿Qué le respondes?",
+            "text": "En un Consejo de Patrulla, un Scout de trece años pregunta qué significa «puro en pensamiento» y varios se ríen. Según la lección, ¿qué te dice esa pregunta?",
             "options": [
-              "Que en la Manada la Ley venía recortada para niños pequeños y que esta de ahora es la versión definitiva.",
-              "Que no se trata de memorizarla: es el mismo código de siempre, y ahora ya está grande para discutirlo.",
-              "Que cada rama maneja su propia Ley y que conviene no compararlas para no confundirse entre las dos."
+              "Que la Ley se le entregó antes de tiempo: ese artículo conviene trabajarlo cuando llegue a la Comunidad.",
+              "Que la Ley ya es un texto que se discute: preguntar qué significa es señal de que la están tomando en serio.",
+              "Que la Ley no se explicó bien: cada artículo debió quedar aclarado por el dirigente antes de la Promesa."
             ],
             "correctIndex": 1
           },
@@ -206,10 +215,19 @@
             "text": "Un Scout de trece años te dice que el artículo 8 —\"sonríe y canta en sus dificultades\"— le parece una bobada. ¿Qué haces?",
             "options": [
               "Le explicas con calma que todos los artículos valen igual y que no conviene juzgar la Ley a esa edad.",
-              "Le das la razón en que suena raro dicho en un salón, y le propones que lo revisen después del campamento.",
-              "Le pides que no cuestione la Ley delante de los más pequeños, porque puede desanimar a su patrulla."
+              "Le pides que no cuestione la Ley delante de los más nuevos, porque puede desanimar a su patrulla.",
+              "Le das la razón en que suena raro dicho en un salón, y le propones revisarlo después del campamento."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
+          },
+          {
+            "text": "Después de su Promesa, un compañero le dice a Andrés: «Ahora, si fallas, la patrulla queda mal». Andrés te pregunta si es así. ¿Qué le respondes?",
+            "options": [
+              "Que la Promesa empieza «por mi honor»: responde él, y lo que promete es poner todo lo que de él dependa.",
+              "Que sí: desde la Promesa, lo que hace cada Scout lo responde también su patrulla delante de la Tropa.",
+              "Que no: mientras esté en la Tropa responde su Jefe de Tropa, que es quien le toma la Promesa."
+            ],
+            "correctIndex": 0
           }
         ]
       }
@@ -241,7 +259,7 @@
         },
         {
           "type": "paragraph",
-          "text": "<strong>Mínimo 6 Scouts, máximo 8.</strong> Y la Guía es tajante sobre el criterio: <em>\"no se debe forzar a los y las scouts a pertenecer a una patrulla en la cual ellos no se sientan cómodos, ellos se agruparán por afinidad de gustos y por lazos de amistad\"</em>. Pueden ser <strong>heterogéneas en edades y en género</strong> (p. 9 del PDF)."
+          "text": "<strong>Entre 6 y 8 Scouts, idealmente.</strong> Y la Guía de 2023 es tajante sobre el criterio: <em>\"no se debe forzar a los y las scouts a pertenecer a una patrulla en la cual ellos no se sientan cómodos, ellos se agruparán por afinidad de gustos y por lazos de amistad\"</em>. Pueden ser <strong>heterogéneas en edades y en género</strong> (p. 9 del PDF)."
         },
         {
           "type": "info-box",
@@ -298,7 +316,7 @@
         },
         {
           "type": "info-box",
-          "text": "<strong>La regla que casi siempre se olvida.</strong> La Guía lo dice sin matices: <em>\"Todos los scouts deben tener dos cargos y actuar como ayudante de cargo de algún otro compañero\"</em> (p. 15 del PDF). Dos, no uno. Un Scout sin cargo es un Scout que todavía no sabe para qué lo necesitan. A Andrés, recién llegado y sin saber aún atar un nudo decente, le van a dar el cargo que nadie quiere — y ese, bien acompañado, es el que lo va a volver de la patrulla. Con una excepción: el Guía y el Subguía, en principio, no llevan cargo — su trabajo es que los demás cumplan el suyo. Solo si la patrulla es pequeña asumen uno o dos, porque no pueden quedar cargos vacantes."
+          "text": "<strong>La regla que casi siempre se olvida.</strong> La Guía de 2023 lo dice sin matices: <em>\"Todos los scouts deben tener dos cargos y actuar como ayudante de cargo de algún otro compañero\"</em> (p. 15 del PDF). Dos, no uno. Un Scout sin cargo es un Scout que todavía no sabe para qué lo necesitan. A Andrés, recién llegado y sin saber aún atar un nudo decente, le va a tocar escoger cargo sin saber todavía para qué es bueno — y ese primer cargo, bien acompañado, es el que lo va a volver de la patrulla. Con una excepción: el Guía y el Subguía, en principio, no llevan cargo — su trabajo es que los demás cumplan el suyo. Solo si la patrulla es pequeña asumen uno o dos, porque no pueden quedar cargos vacantes."
         }
       ],
       "reflection": {
@@ -311,20 +329,29 @@
           {
             "text": "Se están formando las patrullas. Seis Scouts se juntan y quedan todos de doce y trece años; otra patrulla queda con los cuatro más pequeños y tres grandes. ¿Qué haces?",
             "options": [
-              "Rearmas las dos para que queden mezcladas por edad, que es lo que le conviene a los más pequeños.",
-              "Las dejas como quedaron, porque la Guía pide que se agrupen por afinidad, y miras que ninguna baje de seis.",
-              "Dejas la primera como está y rearmas solo la segunda, que es la que quedó claramente desequilibrada."
+              "Rearmas las dos para que queden mezcladas por edad, que es lo que más les conviene a los pequeños.",
+              "Dejas la primera como está y rearmas solo la segunda, que es la que quedó claramente desequilibrada.",
+              "Dejas las dos como quedaron: la Guía pide agruparse por afinidad, y ambas están entre seis y ocho."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
-            "text": "Un Guía te dice, orgulloso, que ya repartió los cargos de su patrulla y que cada uno de sus Scouts tiene el suyo. ¿Qué le falta revisar?",
+            "text": "Un Guía te cuenta, orgulloso, que en el Consejo de Patrulla cada Scout eligió su cargo y que todos quedaron con uno. ¿Qué le falta revisar?",
             "options": [
-              "Nada le falta: con que cada uno tenga el suyo, la patrulla ya funciona como esa máquina de piñones.",
-              "Que falta el segundo: cada Scout lleva dos cargos y además ayuda en el de otro compañero.",
-              "Que debió repartirlos él y no dejarlos al Consejo de Patrulla, que tiende a improvisar."
+              "Que cada Scout lleve dos cargos y además sea ayudante en el cargo de algún compañero.",
+              "Que él y el Subguía también tomen un cargo, para dar ejemplo y que ninguno quede vacante.",
+              "Que los cargos roten cada mes, para que todos alcancen a pasar por todos antes de fin de año."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
+          },
+          {
+            "text": "El Guía recién elegido de una patrulla quiere escoger él mismo a su Subguía, «porque es con quien va a trabajar». ¿Qué le dices?",
+            "options": [
+              "Que puede escogerlo él, siempre que después el Consejo de Patrulla ratifique su elección.",
+              "Que lo escoja, pero entre los dos de más antigüedad, que son los que mejor conocen la patrulla.",
+              "Que al Subguía también lo elige la patrulla, de la misma forma en que lo eligió a él como Guía."
+            ],
+            "correctIndex": 2
           }
         ]
       }
@@ -388,7 +415,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Los símbolos que la Guía nombra son estos. Ninguno lo pone el adulto: todos los construye la patrulla."
+          "text": "Los símbolos que la Guía de 2023 nombra son estos. Ninguno lo pone el adulto: todos los construye la patrulla."
         },
         {
           "type": "list",
@@ -414,7 +441,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Los símbolos no son solo de patrulla. La Guía le da también elementos de identidad a la Tropa entera (p. 8 del PDF): un <strong>nombre</strong>; un <strong>lema</strong>, que deciden los Scouts en la Corte de Honor; una <strong>bandera</strong> que cada Tropa diseña con los colores de su grupo; y un <strong>color</strong>, el <strong>VERDE</strong>, por su afinidad con la naturaleza — armonía, crecimiento y frescura. De ahí sale también el verde de la banda de especialidades. Y por encima de todos, el lema que comparten todos los scouts de Colombia: <strong>SIEMPRE LISTOS</strong>."
+          "text": "Los símbolos no son solo de patrulla. La Guía de 2023 le da también elementos de identidad a la Tropa entera (p. 8 del PDF): un <strong>nombre</strong>; un <strong>lema</strong>, que deciden los Scouts en la Corte de Honor; una <strong>bandera</strong> que cada Tropa diseña con los colores de su grupo; y un <strong>color</strong>, el <strong>VERDE</strong>, por su afinidad con la naturaleza — armonía, crecimiento y frescura. Verde es también la banda de especialidades. Y por encima de todos, el lema que comparten todos los scouts de Colombia: <strong>SIEMPRE LISTOS</strong>."
         },
         {
           "type": "heading",
@@ -427,11 +454,11 @@
         },
         {
           "type": "info-box",
-          "text": "🏛️ <strong>Quién se sienta en cada espacio.</strong> En el <strong>Consejo de Patrulla</strong> manda la patrulla sola: <em>«planifican, distribuyen tareas, revisan acuerdos y evalúan sus actividades»</em>. En la <strong>Corte de Honor</strong> se sientan <strong>los Guías junto con el equipo de dirigentes</strong>, y ahí se coordina la vida de la Tropa y se reconocen los avances. Y hay un tercero que a veces se olvida: los <strong>espacios conjuntos de Tropa</strong>, la reunión general donde se comparten decisiones y se proyectan actividades comunes. <em>Su Guía los resume así: existen para que los scouts sean protagonistas activos, «y no simples ejecutores de decisiones adultas».</em>"
+          "text": "🏛️ <strong>Quién se sienta en cada espacio.</strong> En el <strong>Consejo de Patrulla</strong> manda la patrulla sola: <em>«planifican, distribuyen tareas, revisan acuerdos y evalúan sus actividades»</em>. En la <strong>Corte de Honor</strong> se sientan <strong>los Guías junto con el equipo de dirigentes</strong>, y ahí se coordina la vida de la Tropa y se reconocen los avances. Y hay un tercero que a veces se olvida: los <strong>espacios conjuntos de Tropa</strong>, la reunión general donde se comparten decisiones y se proyectan actividades comunes. <em>Su Guía de Dirigente los resume así: existen para que los scouts sean protagonistas activos, «y no simples ejecutores de decisiones adultas».</em>"
         }
       ],
       "reflection": {
-        "prompt": "¿Tus patrullas tienen rincón propio? Si no, escribe qué necesitarías para que cada una tenga uno en el próximo campamento — y si ya lo tienen, qué símbolo les falta construir. Elige uno solo, ponle fecha y decide con quién de tu equipo de dirigentes lo vas a montar."
+        "prompt": "¿Tus patrullas tienen rincón propio? Si no, escribe qué necesitarías para que cada una tenga uno en el próximo campamento — y si ya lo tienen, qué símbolo les falta construir. Elige uno solo y decide con qué cargo de tu equipo de dirigentes lo vas a montar."
       },
       "quiz": {
         "title": "Mini-quiz Lección 5",
@@ -440,20 +467,29 @@
           {
             "text": "Una patrulla nueva quiere llamarse \"Los Tiburones\" porque les parece que suena fuerte, y nadie sabe nada del animal. ¿Qué haces?",
             "options": [
+              "Aceptas el nombre y les pides que estudien al animal en serio: hábitos, alimentación, comportamiento.",
               "Les propones otro animal de la región, que puedan observar de cerca y conocer mejor que uno marino.",
-              "Aceptas el nombre y les pides que investiguen al animal en serio: hábitos, alimentación, comportamiento.",
-              "Los dejas con el nombre y pasas a otra cosa, porque el animal de patrulla es al final solo una etiqueta."
+              "Aceptas el nombre sin más, porque lo que importa del animal es que les guste y los haga sentir equipo."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
-            "text": "El Jefe de Tropa propone un lema para toda la Tropa y lo anuncia en la reunión. ¿Qué se saltó?",
+            "text": "El Jefe de Tropa escoge un lema para toda la Tropa y lo anuncia en la reunión. ¿Qué se saltó?",
             "options": [
-              "Que el lema de la Tropa debe salir del Consejo de Patrulla de la patrulla con más antigüedad del grupo.",
-              "Que ese lema lo deciden los Scouts en la Corte de Honor, que es uno de sus órganos de gobierno.",
-              "Que el lema lo propone el Jefe de Tropa pero lo aprueba el Consejo de Grupo antes de anunciarlo."
+              "Que el lema lo propone cada patrulla en su Consejo de Patrulla y se adopta el más votado.",
+              "Que el lema lo propone el Jefe de Tropa, pero antes debe aprobarlo el Jefe de Grupo.",
+              "Que el lema de la Tropa no lo pone el adulto: lo deciden los Scouts en la Corte de Honor."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
+          },
+          {
+            "text": "Un dirigente que viene de la Manada propone buscar «el libro de la Tropa», el equivalente al de las Tierras Vírgenes, para ambientar todo el año. ¿Qué le respondes?",
+            "options": [
+              "Que la Tropa no tiene un libro así: el ambiente lo marca la aventura y se mantiene igual todo el año.",
+              "Que la Tropa sí tiene uno, Escultismo para muchachos, y que con ese se ambientan los ciclos de programa.",
+              "Que la Tropa no tiene fondo motivador: la aventura es el marco, y el ambiente lo elige la Tropa por ciclo."
+            ],
+            "correctIndex": 2
           }
         ]
       }
@@ -479,7 +515,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Van en <strong>Código Morse</strong>: un silbido largo sin interrupción es una raya, un sonido corto y seco es un punto. La Guía lista las más usadas (p. 5 del PDF):"
+          "text": "Van en <strong>Código Morse</strong>: un silbido largo sin interrupción es una raya, un sonido corto y seco es un punto. La Guía de 2023 lista las más usadas (p. 5 del PDF):"
         },
         {
           "type": "list",
@@ -526,7 +562,7 @@
         },
         {
           "type": "info-box",
-          "text": "🔎 <strong>Honestidad sobre la fuente, otra vez.</strong> Todo lo de esta lección —llamadas, señales, formaciones, buen orden— viene de un <strong>documento de apoyo de 2023</strong> que la propia Asociación anunció que iba a actualizar, y la <strong>Guía de Dirigente de Tropa</strong> vigente <strong>no trata este tema</strong>: ni lo confirma ni lo contradice. Sigue siendo lo mejor que hay escrito sobre el buen orden de la Tropa, y por eso está aquí. Pero si tu Región o tu Grupo te dan una pauta distinta, <strong>esa manda</strong>."
+          "text": "🔎 <strong>Honestidad sobre la fuente, otra vez.</strong> Todo lo de esta lección —llamadas, señales, formaciones, buen orden— viene de un <strong>documento de apoyo de 2023</strong> que la propia Asociación anunció que iba a actualizar. Tu <strong>Guía de Dirigente de Tropa</strong> vigente no trae silbatos ni señales, y de las formaciones dice poco, pero claro: al hablar de las ceremonias pide que la formación sea <em>«correcta, pero también cómoda y sonriente»</em>, y que se eviten los <em>«comandos militares»</em> (§8.10.4, p. 51). Justo lo que le respondes al papá. Si tu Región o tu Grupo te dan una pauta distinta, <strong>esa manda</strong>."
         }
       ],
       "reflection": {
@@ -539,18 +575,27 @@
           {
             "text": "Un papá nuevo te dice, medio en broma, que las formaciones y los silbatos le parecen cosa de militares. ¿Qué le respondes?",
             "options": [
-              "Que es una tradición antigua del escultismo que se conserva por respeto a como lo hacía Baden-Powell.",
-              "Que sirven para arrancar rápido y sin gritos, y que la forma de pararse enseña que el grande protege al pequeño.",
-              "Que efectivamente vienen del ámbito militar, pero que en la Tropa se usan con un sentido muy distinto."
+              "Que les ahorra gritos: con una señal la Tropa está lista en segundos y nadie tiene que alzar la voz.",
+              "Que es una tradición antigua del escultismo, y se conserva por respeto a cómo lo hacía Baden-Powell.",
+              "Que se usan sobre todo en las ceremonias, como izar bandera, y el resto del tiempo casi no aparecen."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "Llega un Scout nuevo a la patrulla y, en la primera formación, se va solo hasta el final de la fila. El Guía te pregunta si está bien así. ¿Qué le dices?",
             "options": [
               "Que está bien donde se puso: el Subguía cierra la fila y desde ahí puede estar pendiente de él.",
-              "Que su puesto es al lado izquierdo del Guía, porque en la Tropa el grande protege al pequeño.",
-              "Que lo mejor es dejarlo escoger puesto hasta que agarre confianza con el resto de la patrulla."
+              "Que lo mejor es dejarlo escoger puesto hasta que agarre confianza con el resto de la patrulla.",
+              "Que su puesto es al lado izquierdo del Guía, porque en la Tropa el grande protege al pequeño."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "En medio del campamento quieres reunir solo a los Guías, sin llamar a los treinta. ¿Qué señal de silbato usas?",
+            "options": [
+              "La de raya y punto, repetida tres veces seguidas.",
+              "La de tres puntos cortos seguidos de una raya.",
+              "La de una sola raya larga, sin interrupción."
             ],
             "correctIndex": 1
           }
@@ -665,7 +710,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Fíjate en los paréntesis: son los <strong>mismos tres niveles</strong> que el <em>Modelo</em> llama Exploración, Aplicación y Profundización, y que ya conoces del Curso 6. La Tropa les pone su nombre, y su Guía imprime la equivalencia al lado para que nadie se pierda. <strong>Y no basta una travesía para avanzar en una Ruta:</strong> hacen falta al menos dos territorios de esa Ruta trabajados en el mismo nivel."
+          "text": "Fíjate en los paréntesis: son los <strong>mismos tres niveles</strong> que el <em>Modelo</em> llama Exploración, Aplicación y Profundización: los que en los Cursos 5 y 6 viste como <strong>Exploro, Aplico y Profundizo</strong>. La Tropa les pone su nombre, y su Guía imprime la equivalencia al lado para que nadie se pierda. <strong>Y no basta una travesía para avanzar en una Ruta:</strong> hacen falta al menos dos territorios de esa Ruta trabajados en el mismo nivel."
         },
         {
           "type": "heading",
@@ -703,7 +748,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Cada vez que Andrés vive una travesía y la conversa contigo, avanza en alguno de los territorios de sus seis Rutas. Ese avance <strong>se registra en su Diario de Exploración</strong>, que es suyo, y va construyendo su progresión de forma visible y acumulativa. Tu trabajo no es llenarlo: es que la conversación ocurra."
+          "text": "Cada vez que Andrés vive una travesía y la conversa contigo, avanza en alguno de los territorios de sus seis Rutas. Ese avance <strong>se registra en su Diario de Exploración</strong>, que es suyo, y va construyendo su progresión de forma visible y acumulativa. Tu trabajo no es llenarlo: es que la conversación ocurra, y que ocurra donde otros los vean —en la reunión, en el campamento—, nunca a solas con él (la práctica 2+1 que trabaja el Curso 25)."
         },
         {
           "type": "info-box",
@@ -721,17 +766,26 @@
             "text": "Un Scout te dice que ya «terminó» la Ruta del Temple porque hizo una salida de resistencia y le fue muy bien. ¿Qué le respondes?",
             "options": [
               "Que con una sola travesía basta, siempre que en ella haya demostrado todo lo que el territorio pide.",
-              "Que una travesía no cierra una Ruta: hacen falta al menos dos territorios de ella en el mismo nivel.",
-              "Que debe esperar a que el Consejo de Patrulla valide su avance antes de darlo por terminado del todo."
+              "Que debe esperar a que el Consejo de Patrulla valide su avance antes de darlo por terminado del todo.",
+              "Que le fue muy bien, pero para subir de nivel en esa Ruta le falta otro territorio de ella en ese nivel."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "Dos Scouts entraron el mismo mes. Uno lleva Explorador de Cumbres y el otro sigue en Vigía del Valle. Un papá te pregunta si el segundo va atrasado. ¿Qué le dices?",
             "options": [
-              "Que sí, y que conviene ponerle un plan de choque para que alcance a su compañero antes del campamento.",
+              "Que va a su ritmo, pero que si a fin de año sigue en Vigía del Valle conviene revisar qué le falta.",
               "Que las insignias dicen por dónde va cada uno, no qué tan rápido: aquí no hay reloj que los compare.",
-              "Que el ritmo lo fija la Corte de Honor, que revisa cada semestre quién debería haber avanzado ya."
+              "Que el ritmo lo fija la Corte de Honor, que revisa cada semestre quién debería haber avanzado ya y quién no."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Revisas con Andrés su Diario de Exploración: tiene tres territorios en «Descubro» y tres en «Construyo», y ninguno en «Conquisto». ¿A qué insignia llega?",
+            "options": [
+              "A Vigía del Valle, porque Explorador de Cumbres pide ya algún territorio en «Conquisto».",
+              "A Explorador de Cumbres, porque pide tres en «Descubro» y tres en «Construyo», y los tiene.",
+              "A Navegante de Horizontes, porque ya reúne tres territorios trabajados en «Construyo»."
             ],
             "correctIndex": 1
           }
@@ -760,7 +814,7 @@
         {
           "type": "policy-quote",
           "label": "📅 El momento, según su Guía",
-          "source": "Guía de Dirigente de Tropa (Scouts de Colombia, 2026), §8.11.3, p. 51 del PDF.",
+          "source": "Guía de Dirigente de Tropa (Scouts de Colombia, 2026), §8.11.3, p. 52 del PDF.",
           "text": "El proceso puede iniciarse durante los últimos 6 meses en la Tropa, los últimos seis meses del protagonista en la rama, es decir, a los 14 años y medio, invitando a los jóvenes mayores a participar en actividades conjuntas con la Comunidad de Nómadas Scout, donde conozcan su dinámica, sus rumbos y su forma de organización."
         },
         {
@@ -810,22 +864,31 @@
         "nextLabel": "Finalizar el curso ⚜️",
         "questions": [
           {
-            "text": "Andrés cumple catorce y medio y su Guía de patrulla dice que debería quedarse hasta cerrar la Ruta que lleva a medias. ¿Qué mira su Guía de Dirigente para decidir?",
+            "text": "Andrés cumple catorce y medio. Su Guía de patrulla quiere que se quede hasta cerrar la Ruta que lleva a medias; su mamá quiere que pase ya, «porque le toca por edad». ¿Qué miras tú?",
             "options": [
-              "La fase de progresión: mientras no cierre la que lleva a medias, no puede empezar el paso.",
-              "Si ya consolidó las competencias personales y sociales que pide el estilo de vida que viene.",
-              "Solo la edad: cumplidos los catorce y medio, el paso se inicia sin mirar ninguna otra cosa."
+              "Si ya cerró la Ruta que lleva a medias, porque el paso no se inicia con una Ruta todavía abierta.",
+              "Si ya consolidó las competencias personales y sociales que le va a pedir la vida en la Comunidad.",
+              "Si su patrulla ya tiene quién lo reemplace en sus cargos, para que el paso no la deje coja."
             ],
             "correctIndex": 1
           },
           {
-            "text": "En la ceremonia, un dirigente nuevo te pregunta cuál es la insignia que recibe el Scout que empieza su paso a la Comunidad. ¿Cuál es?",
+            "text": "Andrés cumple catorce y medio y empieza su transición hacia la Comunidad. Un dirigente nuevo te pregunta qué insignia le corresponde en ese arranque. ¿Cuál es?",
             "options": [
-              "La Insignia de Paso, que tiene carácter de mención y se da por haber hecho parte de la Tropa.",
-              "La de Viajero del Territorio, que marca el inicio de su transición hacia la Comunidad.",
-              "La de Maestro de la Aventura, que es la máxima de la rama y cierra su recorrido por las Rutas."
+              "La de Viajero del Territorio, aunque todavía no deja la Tropa.",
+              "La de Lobo Solitario, la misma con la que llegó desde la Manada.",
+              "La de Maestro de la Aventura, la más alta de la progresión."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
+          },
+          {
+            "text": "Andrés tiene catorce años y siete meses. El dirigente de la Comunidad te escribe: «¿Lo pasamos ya o esperamos a su cumpleaños?». ¿Qué le propones?",
+            "options": [
+              "Que pase ya: le toca por edad, y en la Comunidad se adapta más rápido que en la Tropa.",
+              "Que esperen al cumpleaños para no partirle el año a su patrulla, y entonces haga el paso completo.",
+              "Que empiece a ir a algunas actividades de la Comunidad acordadas entre los dos, sin dejar todavía la Tropa."
+            ],
+            "correctIndex": 2
           }
         ]
       }

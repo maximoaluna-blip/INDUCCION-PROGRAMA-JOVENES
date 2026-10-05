@@ -3,9 +3,9 @@
   "title": "Red de Jóvenes: coordinar y comunicar",
   "subtitle": "Lo que los Rovers hacen juntos, y quién lo sostiene",
   "description": "El último del Nivel 3. Para los Rovers que coordinan, comunican o asesoran un eje en la Red de Jóvenes —en su región o en la nación—, para quienes se postulan y para los comisionados Rover que los acompañan. Qué es la Red, cuánto dura cada cargo, cómo se prepara una Asamblea Rover, cómo se coordina sin hacerlo todo, cómo se comunica y cómo se deja la Red lista para el relevo.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-04",
   "icon": "🕸️",
-  "duration": "40 minutos",
+  "duration": "43 minutos",
   "level": 3,
   "levelName": "Especialización por cargo",
   "order": 20,
@@ -81,7 +81,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~40 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
+          "text": "⏱️ <strong>~43 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con tres preguntas y hay que acertar las tres para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
         },
         {
           "type": "course-objectives",
@@ -208,7 +208,7 @@
             "options": [
               "Que sí puede postularse: la coordinación admite hasta los veintiún años y dos meses, también en la nación.",
               "Que no cumple la edad de la Coordinación Nacional, que es hasta veinte años y dos meses; sí la regional.",
-              "Que no puede postularse a ningún cargo de la Red: a los veintiún años ya pasó el tope de edad."
+              "Que no puede postularse a ningún cargo de la Red, porque a los veintiún años ya pasó el tope de edad."
             ],
             "correctIndex": 1
           },
@@ -216,10 +216,19 @@
             "text": "La Coordinadora Regional de la Red es elegida Coordinadora Nacional. ¿Qué pasa con su cargo regional?",
             "options": [
               "Que conserva los dos cargos, porque la coordinación regional ya hace parte del Equipo Nacional.",
-              "Que elige a cuál renuncia, al nacional o al regional, según el que prefiera ocupar.",
-              "Que renuncia a la coordinación regional, porque el reglamento no le deja ocupar los dos cargos."
+              "Que elige a cuál de los dos renuncia, al nacional o al regional, según el que prefiera ocupar.",
+              "Que renuncia a la coordinación regional, y la ocupa quien quedó de segundo en su asamblea."
             ],
             "correctIndex": 2
+          },
+          {
+            "text": "Faltan dos meses para la Asamblea Regional Rover y solo un Rover se ha postulado a la Coordinación. ¿Qué le toca al Comisionado Regional Rover?",
+            "options": [
+              "Proponer él a un segundo candidato con buen perfil, para que la asamblea tenga entre quién elegir.",
+              "Hacer que los Clanes conozcan con tiempo el perfil del cargo, para que se postulen más Rovers.",
+              "Aplazar la elección hasta que haya dos candidatos, para que la asamblea no elija por descarte."
+            ],
+            "correctIndex": 1
           }
         ]
       }
@@ -252,7 +261,7 @@
             },
             {
               "title": "El día: la ordinaria, una vez al año y a más tardar el 31 de enero",
-              "description": "Va antes de la Asamblea Scout Regional y de la Asamblea Nacional Rover. <strong>Primero, el quórum:</strong> para deliberar, la mitad más uno de los Clanes, cada uno representado por al menos un Rover. <strong>Después, los votos:</strong> todos los Rovers inscritos tienen voz; vota el delegado de cada Grupo, y cada Grupo tiene dos votos, sin importar cuántos Rovers tenga.",
+              "description": "Va antes de la Asamblea Scout Regional y de la Asamblea Nacional Rover. <strong>Primero, el quórum:</strong> para deliberar, la mitad más uno de los Clanes, cada uno representado por al menos un Rover. <strong>Después, los votos:</strong> todos los Rovers inscritos tienen voz; cada Grupo tiene dos votos, que emite su delegado con lo que decidan juntos los Rovers de su Grupo, sin importar cuántos Rovers tenga.",
               "subitems": [
                 "Coordinador, comunicador y consejero juvenil regional tienen voz y no voto; también el Jefe Scout Regional y los comisionados, como invitados."
               ]
@@ -290,7 +299,7 @@
           {
             "text": "A la Asamblea Regional Rover ordinaria llegan cuarenta Rovers, pero de cinco de los treinta Clanes. Pasa media hora y no llegan más Clanes. ¿Qué sigue?",
             "options": [
-              "Se convoca en el acto una extraordinaria, una hora después, y en ella basta con los Clanes presentes.",
+              "Se convoca ahí mismo una extraordinaria para una hora después, y en ella el quórum lo hacen los Clanes que llegaron.",
               "Se elige de una vez: con cuarenta Rovers en la sala hay mayoría de sobra para votar.",
               "Se cita una extraordinaria con un mes de antelación, por escrito a cada Grupo, y en ella se hace la elección."
             ],
@@ -299,9 +308,18 @@
           {
             "text": "Es 10 de diciembre y la coordinación regional no ha dicho nada de la asamblea ordinaria. ¿Qué pueden hacer los Rovers?",
             "options": [
-              "Dejarla para febrero: si en diciembre aún no la han citado, la ordinaria puede correrse un mes.",
-              "Esperar a que la convoque el Coordinador: convocarla es función de su cargo, no de los Rovers de la región.",
-              "Convocarla ellos, si son la mitad más uno, o pedir a la Jefatura Regional que la convoque a tiempo."
+              "Pedírsela al Comisionado Regional Rover: él supervisa la asamblea, así que le toca convocarla si la coordinación no lo hace.",
+              "Convocarla ellos, si son la mitad más uno, o pedir a la Jefatura Regional que la convoque a tiempo.",
+              "Esperar: la ordinaria la convoca la coordinación, y si no lo hace se aplaza hasta que ella la cite."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "A la Asamblea Regional Rover un Grupo llega con nueve Rovers inscritos y otro con dos. ¿Cuántos votos tiene cada Grupo?",
+            "options": [
+              "Cada Grupo, un voto por Rover inscrito presente, porque todos los inscritos tienen voz.",
+              "Cada Clan, un voto, porque el quórum de la asamblea se cuenta por Clanes y no por Rovers.",
+              "Cada Grupo, dos votos, que emite su delegado, sin importar cuántos Rovers haya llevado."
             ],
             "correctIndex": 2
           }
@@ -367,7 +385,7 @@
           {
             "text": "Un Clan pide a la coordinación regional de la Red que le organice un proyecto de reforestación completo, «porque la Red tiene los contactos». ¿Qué le toca a la coordinación?",
             "options": [
-              "Organizarlo, porque apoyar los proyectos de los Clanes es su función principal en la región.",
+              "Organizarlo, porque apoyar los proyectos de los Clanes es su función principal como coordinación regional.",
               "Acompañarlo: ponerlo en contacto con el asesor de eje, otros Clanes y aliados, sin hacerlo por él.",
               "Acompañarlo en lo que pida, y organizarlo ella misma si el Clan no tiene experiencia previa."
             ],
@@ -378,9 +396,18 @@
             "options": [
               "Aportar al plan, porque forma parte del equipo de la comisión y lleva allí las ideas de los Rovers.",
               "Tomar nota y difundirlo, porque en la comisión a la coordinación le toca hacer de secretaría.",
-              "Opinar cuando le den la palabra: en la comisión participa como invitado, no como parte del equipo."
+              "Aportar cuando le den la palabra: en la comisión participa como invitado, no como parte del equipo."
             ],
             "correctIndex": 0
+          },
+          {
+            "text": "Los Rovers de una región quieren que una propuesta suya llegue a la Dirección Nacional de Programa de Jóvenes. ¿Cómo la mueve su Coordinadora Regional?",
+            "options": [
+              "La presenta ella misma ante la Dirección Nacional, porque ella representa ante esa Dirección a los Rovers de su región.",
+              "La lleva a la Asamblea Nacional Rover; ante la Dirección Nacional representa a los Rovers la Coordinación Nacional.",
+              "La lleva al Consejo Scout Regional, porque es el Consejo el que representa a los Rovers de la región ante la Dirección."
+            ],
+            "correctIndex": 1
           }
         ]
       }
@@ -434,8 +461,8 @@
             "text": "Faltan tres semanas para la jornada de reforestación de un Clan, que necesita voluntarios de otros Clanes. La Comunicadora Regional tiene lista la foto más bonita del último campamento. ¿Qué publica esta semana?",
             "options": [
               "La convocatoria de la jornada, con fecha y contacto, para los Clanes que pueden sumar voluntarios.",
-              "La foto del campamento, porque una cuenta con buenas fotos atrae a más Rovers a los proyectos.",
-              "Las dos el mismo día, porque cuantas más publicaciones haga, más gente verá la convocatoria de la jornada."
+              "La foto del campamento, porque una cuenta con buenas fotos atrae a más Rovers de la región a los proyectos.",
+              "Las dos el mismo día, porque cuantas más publicaciones haga, más gente verá la convocatoria."
             ],
             "correctIndex": 0
           },
@@ -445,6 +472,15 @@
               "Publicarlas enseguida, porque si el Clan las envió es que ya tiene el permiso de las familias.",
               "Verificar el consentimiento de las fotos según la política de protección antes de publicarlas.",
               "Verificar con el Clan que las fotos son suyas y publicarlas ese mismo día, como pidió."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Una región usa el logo de la Red deformado y con otros colores. Según el Manual de Cargos, ¿a qué cargo le toca vigilar el buen uso de la marca de la RDJ?",
+            "options": [
+              "A la Coordinación Nacional, que representa a la Red y responde por su imagen ante la Asociación.",
+              "A la Comunicación Nacional, que además trabaja con las comunicaciones de la Asociación.",
+              "A la Comunicación Regional de esa región, que vigila la marca en las piezas de su territorio."
             ],
             "correctIndex": 1
           }
@@ -518,7 +554,7 @@
             "text": "Un Clan quiere hacer una travesía de una semana por otra región del país para conocer proyectos de otros Clanes. ¿A qué asesor de eje le conviene acudir primero?",
             "options": [
               "Al de Viaje y Enlace Internacional, porque ese eje acompaña también los viajes dentro del país.",
-              "Al transversal: preparar una travesía de una semana es técnica scout, y esa es justo su materia.",
+              "Al transversal, porque los viajes dentro del país no son de ninguno de los ejes estructurales.",
               "Al de Servicio, porque conocer los proyectos de otros Clanes es parte del servicio en la región."
             ],
             "correctIndex": 0
@@ -526,11 +562,20 @@
           {
             "text": "Un proyecto de un Clan consiste en entregar mercados cada mes a las mismas familias, sin más. ¿Qué le diría el asesor del eje de Servicio?",
             "options": [
-              "Que es un buen proyecto de servicio: su constancia es precisamente lo que lo separa del asistencialismo.",
+              "Que es un buen proyecto de servicio: su constancia en el tiempo es precisamente lo que lo separa del asistencialismo.",
               "Que busque con esas familias cómo mejorar sus condiciones de vida, porque entregar sin más no las cambia.",
               "Que lo pase al eje de Empresa: maneja recursos, compras y donaciones que requieren gestión propia."
             ],
             "correctIndex": 1
+          },
+          {
+            "text": "Dos Rovers montaron un pequeño negocio de mermeladas y otro Clan quiere empezar uno parecido. ¿A qué asesor de eje los acercas?",
+            "options": [
+              "Al de Servicio: si las ganancias van a la comunidad, el emprendimiento se vuelve un proyecto de servicio.",
+              "Al transversal: emprender es una habilidad para la vida, y esas habilidades son justo su materia.",
+              "Al de Empresa: acompaña emprendimientos y enlaza a los que ya funcionan con los que quieren empezar."
+            ],
+            "correctIndex": 2
           }
         ]
       }
@@ -573,7 +618,7 @@
         },
         {
           "type": "info-box",
-          "text": "📅 <strong>Una fecha con dos versiones.</strong> El reglamento de la Red dice que la Asamblea Nacional Rover se reúne <em>«durante los tres (3) primeros meses»</em> del año; el reglamento de Asambleas pone como límite el 28 de febrero. Las dos coinciden en lo importante: antes de la Asamblea Scout Nacional. Si te toca convocarla, pregunta a la Comisión Nacional Rover cuál se está aplicando."
+          "text": "📅 <strong>La fecha.</strong> El reglamento de la Red dice <em>«durante los tres (3) primeros meses»</em> del año; el de Asambleas, a más tardar el 28 de febrero. Antes de convocar, pregunta a la Comisión Nacional Rover cuál se aplica."
         },
         {
           "type": "heading",
@@ -597,22 +642,31 @@
         "nextLabel": "Continuar al relevo ✅",
         "questions": [
           {
-            "text": "La Red Interamericana de Jóvenes convoca un encuentro. Tres coordinadores regionales se ofrecen a ir en representación de Colombia. ¿Quién decide, según el reglamento de la Red?",
+            "text": "Faltan dos semanas para la Asamblea Nacional Rover. El Consejero Juvenil Nacional, que no se va a postular de nuevo, pregunta si tiene que llevar algo. ¿Qué le dices?",
             "options": [
-              "El Jefe Scout Nacional, que elige entre los postulados según su idoneidad y los temas del evento.",
-              "La Asamblea Nacional Rover, que vota entre los coordinadores regionales que se postulen.",
-              "El Coordinador Nacional de la Red, que representa a los Rovers del país ante la Interamericana."
+              "Su informe: la Asamblea Nacional Rover evalúa la gestión de los representantes juveniles que elige.",
+              "Nada: responde ante el Consejo Scout Nacional, donde tiene su asiento, y no ante la Asamblea Rover.",
+              "Solo si se postula otra vez: la Asamblea revisa su gestión cuando vuelve a pedir el voto."
             ],
             "correctIndex": 0
           },
           {
             "text": "Preparas el orden del día de la Asamblea Nacional Rover. El reglamento de las Asambleas Rover, de 2022, dice que debe elegir hasta cuatro delegados Rover a la Asamblea Scout Nacional. ¿Qué haces con esa elección?",
             "options": [
-              "Ponerla, porque el reglamento de las Asambleas es la norma propia de los Rovers y la más específica.",
-              "Quitarla, porque desde el Estatuto 2025 el reglamento de las Asambleas Rover ya no rige en nada.",
-              "Preguntar antes a la Comisión Nacional Rover, porque el Estatuto, que manda, cambió esa asamblea."
+              "Ponerla tal cual, porque el reglamento de las Asambleas es la norma propia de los Rovers y la más específica.",
+              "Quitarla, porque el Reglamento Nacional de 2026 derogó por completo el reglamento de las Asambleas Rover.",
+              "Ponerla en espera y preguntar a la Comisión Nacional Rover: el Estatuto, que manda, cambió esa asamblea."
             ],
             "correctIndex": 2
+          },
+          {
+            "text": "Una región quiere mandar a la Asamblea Nacional Rover a su Coordinador, a su Comunicadora y a un Rover elegido en la Asamblea Regional. ¿Quiénes votan allí por la región?",
+            "options": [
+              "Tres: el Coordinador, la Comunicadora y el Rover elegido, porque los cargos regionales integran el Equipo Nacional.",
+              "Dos: el Coordinador Regional de la Red y el Rover que eligió para ese fin la Asamblea Regional Rover.",
+              "Dos: el Coordinador y la Comunicadora regionales; el Rover elegido participa con voz, pero sin voto."
+            ],
+            "correctIndex": 1
           }
         ]
       }
@@ -665,20 +719,29 @@
         "nextLabel": "Ver mi certificado ⭐",
         "questions": [
           {
-            "text": "La Comunicadora Nacional de la Red va por la mitad de su periodo de dos años y es la única que sabe manejar las cuentas y el calendario. ¿Qué le conviene hacer ahora?",
+            "text": "La Comunicadora Nacional de la Red lleva ocho meses en su periodo de dos años y es la única que sabe manejar las cuentas y el calendario. ¿Qué le conviene hacer ahora?",
             "options": [
               "Empezar ya a enseñarle a otro Rover a manejar las cuentas, y dejar por escrito cómo funciona el calendario.",
-              "Enseñárselo todo a quien elijan como reemplazo, para no formar a alguien que al final no llegue a ocupar el cargo.",
+              "Empezar a enseñárselo cuando elijan a su reemplazo, para no formar a alguien que al final no ocupe el cargo.",
               "Dejar anotadas las claves de las cuentas y el calendario, para que quien llegue empiece sin depender de ella."
             ],
             "correctIndex": 0
           },
           {
-            "text": "¿Cuál de estas señales indica que una Red Regional está cumpliendo lo que enseña este curso?",
+            "text": "Al cerrar su año, un Coordinador Regional escribe su informe. ¿Cuál de estos logros dice más de una Red que funciona?",
             "options": [
-              "Que los mismos que la fundaron siguen coordinándola año tras año.",
-              "Que cada vez más Clanes de la región votan en la asamblea y sus proyectos se conocen entre sí.",
-              "Que su cuenta publica cada día fotos de las actividades de los Clanes de la región y gana seguidores."
+              "Que estuvo en las jornadas de los catorce proyectos de la región y ninguno de ellos se quedó sin su apoyo directo.",
+              "Que más Clanes votaron en la asamblea y que tres proyectos que no se conocían ahora trabajan juntos.",
+              "Que la cuenta de la Red duplicó sus publicaciones y sus seguidores a lo largo de todo el año."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "El Comisionado Regional Rover quiere ayudar a preparar el relevo de la Coordinación de la Red. ¿Cuándo le conviene preguntar quién podría reemplazarla?",
+            "options": [
+              "Al final del periodo, cuando ya se sabe quiénes se van a postular en la próxima asamblea.",
+              "Al llegar a la mitad del periodo, para que quien la reemplace tenga tiempo de aprender lo que necesita.",
+              "Al día siguiente de la asamblea que elija al reemplazo, para acompañar el empalme del primer mes."
             ],
             "correctIndex": 1
           }

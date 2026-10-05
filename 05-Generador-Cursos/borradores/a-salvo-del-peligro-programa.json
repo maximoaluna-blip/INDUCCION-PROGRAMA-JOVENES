@@ -5,7 +5,7 @@
   "description": "Cómo el Método Scout hace segura a tu unidad: los once puntos en que la Política Nacional A Salvo del Peligro se articula con el Programa de Jóvenes, aplicados a un campamento real — la cultura de escucha, la práctica 2+1 al planear, la vida en línea, los datos de los protagonistas y el mecanismo de reporte. Para todo dirigente de unidad, de cualquier rama. No reemplaza los módulos oficiales de A Salvo del Peligro.",
   "contentVersion": "2026-10-04",
   "icon": "🛡️",
-  "duration": "55 minutos",
+  "duration": "58 minutos",
   "level": 4,
   "levelName": "Transversales",
   "order": 25,
@@ -68,7 +68,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~55 minutos de lectura y quizzes</strong> — y unos 15 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
+          "text": "⏱️ <strong>~58 minutos de lectura y quizzes</strong> — y unos 15 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con tres preguntas y hay que acertar las tres para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
         },
         {
           "type": "course-objectives",
@@ -119,7 +119,7 @@
             },
             {
               "title": "👥 El plan — Lección 3",
-              "description": "La práctica 2+1 aplicada al planear y el rasgo «Seguras» de DURASLID.",
+              "description": "La práctica 2+1 aplicada al planear. El rasgo «Seguras» de DURASLID lo recoge la Lección 7.",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             },
@@ -201,7 +201,7 @@
             "text": "En la Manada, cada vez que un lobato pierde en un juego, el resto le canta la misma cancioncita de burla. Es tradición, todos se ríen y nadie ha llorado nunca. ¿Qué te pide esta lección?",
             "options": [
               "Verla como una costumbre que nadie decidió y que enseña que perder da vergüenza, y llevarla al Consejo de Roca.",
-              "Dejarla: es parte de la tradición de la Manada, nadie ha llorado nunca y a esa edad las burlas se olvidan pronto.",
+              "Verla como una tradición que une a la Manada, y dejarla mientras nadie la cante con mala intención.",
               "Cambiarla tú por una canción de aplauso para el que pierde, y explicarles en la formación por qué la otra ya no va."
             ],
             "correctIndex": 0
@@ -209,9 +209,18 @@
           {
             "text": "Una nómada le cuenta a su dirigente que una compañera de su equipo lleva semanas sin hablar y que eso le preocupa. ¿Qué respuesta construye la cultura que pide la Política?",
             "options": [
-              "Pedirle que no hable de la vida de sus compañeras, para que en el equipo no se instale la cultura del chisme y la sospecha.",
-              "Agradecerle y pedirle que averigüe con discreción qué le pasa a su compañera, y que después te lo cuente.",
-              "Agradecerle, decirle que hizo bien, y acercarte tú a la compañera sin quedarte a solas ni exponer a quien habló."
+              "Recordarle que no hable de la vida de sus compañeras, para que en el equipo no se instale la cultura del chisme y la sospecha.",
+              "Pedirle que averigüe con discreción qué le pasa a su compañera, y que después te lo cuente.",
+              "Decirle que hizo bien, y acercarte a la compañera para ofrecerle escucha, sin interrogarla ni quedarte a solas."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Decides llevar al Consejo de Patrulla el apodo que todos le dicen a un scout de doce años, que siempre es el primero en reírse. ¿Qué haces antes del Consejo?",
+            "options": [
+              "Llevarlo al Consejo sin hablar antes con nadie, y plantearlo en general para no señalar a ningún scout en particular.",
+              "Hablar antes con los de la patrulla que lo inventaron, para que en el Consejo le pidan disculpas delante de todos.",
+              "Hablar antes con él, a la vista de otro adulto, para que no se entere en pleno Consejo de que el tema va a salir."
             ],
             "correctIndex": 2
           }
@@ -312,20 +321,29 @@
           {
             "text": "Al revisar el horario de la caminata del domingo, notas que si alguien se lastima, el plan dice: «lo baja al puesto de salud el dirigente que tenga carro». ¿Qué ajuste le pide esta lección al plan?",
             "options": [
-              "Dejarlo así: en una urgencia lo que cuenta es llegar rápido, y un rato a solas con el herido se justifica.",
+              "Decidir que al herido lo baje el dirigente de primeros auxilios, que sabe atenderlo si empeora en el camino.",
               "Decidir ya quién acompaña a ese dirigente en el carro, para que en la urgencia nadie viaje a solas con el herido.",
-              "Anotar en la ficha de la actividad el nombre del dirigente con carro y el teléfono del puesto de salud más cercano."
+              "Dejarlo así, y pedirle al dirigente que comparta su ubicación con el grupo de dirigentes mientras baja con el herido."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Un dirigente dice: «El 2+1 lo tenemos claro; si alguno se queda solo con un chico, lo resolvemos ahí mismo». ¿Qué le faltó entender?",
+            "text": "Al final de cada reunión de Tropa en la sede, casi siempre queda un scout esperando a que lo recojan, cuando los demás dirigentes ya se fueron. ¿Qué decisión pide esta lección?",
             "options": [
-              "Que la práctica 2+1 aplica solo en las pernoctas: en una reunión de sede siempre hay gente alrededor.",
-              "Que la práctica 2+1 se juega en el plan: los minutos en que alguien quedaría solo se ven en el horario y se cierran allí.",
-              "Que la práctica 2+1 se resuelve en el momento y se deja constancia después en el plan, avisando al Jefe de Grupo."
+              "Que lo acompañe el dirigente de turno, con la puerta de la sede abierta y a la vista de la gente que pasa por la calle.",
+              "Que dos adultos se queden en la sede hasta entregar al último scout, y dejarlo acordado desde la planeación.",
+              "Que el dirigente de turno lo lleve a su casa en su carro, con permiso de la familia, para que no espere solo en la sede."
             ],
             "correctIndex": 1
+          },
+          {
+            "text": "Para una salida de Grupo, el bus contratado tiene 40 asientos pero solo 34 cinturones en buen estado, y van 38 personas. ¿Qué pide el Protocolo Nacional de Transporte?",
+            "options": [
+              "Que viajen los 38, con los menores en los puestos que tienen cinturón y los adultos en los que no lo tienen.",
+              "Que el dirigente supervisor del viaje decida si suben los 38 y lo deje anotado en el plan de la salida.",
+              "Que en ese bus no viajen más de 34, y los otros 4 vayan en un vehículo que también cumpla el Protocolo."
+            ],
+            "correctIndex": 2
           }
         ]
       },
@@ -388,7 +406,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Las otras ramas no tienen ese detalle en su Guía, pero el <em>Modelo de Aplicación</em> da para las cinco una <strong>proporción orientadora</strong> de adultos, y explica por qué importa: cuando hay suficientes dirigentes es más fácil observar y prevenir riesgos. Para la Familia, el <em>Modelo</em> dice uno por cada seis cachorros y su Guía pide uno por cada cinco, que es más exigente y cumple lo del <em>Modelo</em>; el propio <em>Modelo</em> deja el detalle a las Guías. Contar tus adultos contra la proporción de tu rama es parte de planear: si faltan, la práctica 2+1 se va a romper en algún minuto del horario."
+          "text": "El <em>Modelo de Aplicación</em> da para cada rama una <strong>proporción orientadora</strong> de adultos, y la Guía de Familia pide una más exigente (uno por cada cinco). Cuenta tus adultos contra la de tu rama: si faltan, la práctica 2+1 se va a romper en algún minuto del horario."
         },
         {
           "type": "heading",
@@ -427,30 +445,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Y lo que el Protocolo no resuelve lo resuelve la práctica 2+1: quién viaja con quién se decide en el plan, también para una urgencia —por ejemplo, quién acompaña si hay que llevar a alguien al médico—, para que nadie termine a solas con un protagonista."
+          "text": "Y lo que el Protocolo no resuelve lo resuelve la práctica 2+1: quién viaja con quién se decide en el plan, también para una urgencia —por ejemplo, quién acompaña si hay que llevar a alguien al médico—, para que nadie termine a solas con un protagonista. Si para eso el plan cuenta con el carro de un dirigente, ese carro también entra en el Protocolo, que aplica a todos los vehículos de la actividad: licencia, SOAT y un cinturón por persona."
         },
         {
           "type": "paragraph",
           "text": "Para la <strong>actividad acuática</strong>: pasa por la matriz como cualquier otra, con la probabilidad y la consecuencia que de verdad tiene, y pregunta en tu Grupo y en tu Región qué protocolo aplican. Y para lo que no tenga protocolo, la <em>Guía de Dirigente de Clan</em> da una pista que sirve a todas las ramas: al planear un peregrinaje, buscar el apoyo de un dirigente del Grupo o de la Región con conocimientos en gestión del riesgo."
-        },
-        {
-          "type": "heading",
-          "level": 3,
-          "text": "«Seguras», en DURASLID"
-        },
-        {
-          "type": "paragraph",
-          "text": "El tercer ítem de la Política pide mantener el enfoque de experiencias DURASLID, y una de sus letras es la S. Vale la pena leer cómo la define el <em>Modelo</em>, porque es más amplia de lo que parece:"
-        },
-        {
-          "type": "policy-quote",
-          "label": "📖 La S de DURASLID",
-          "source": "Modelo de Aplicación de la Política Nacional de Programa de Jóvenes «El Gran Juego para la Vida» (DNPJ-2026-024), Cap. 10, «Seguras», p. 71 del PDF.",
-          "text": "Sin seguridad, no hay aprendizaje. Seguridad es física, emocional, logística o digital."
-        },
-        {
-          "type": "paragraph",
-          "text": "Física, emocional, logística o digital. Un campamento sin un solo raspón puede no haber sido seguro si alguien pasó las dos noches humillado, o si sus fotos terminaron donde no debían. El mismo <em>Modelo</em> lo resume: la seguridad no es miedo, es libertad bien diseñada. Las dos lecciones que siguen se ocupan de lo que la matriz no ve."
         },
         {
           "type": "info-box",
@@ -471,22 +470,31 @@
         "nextLabel": "Continuar a los datos 🩺",
         "questions": [
           {
-            "text": "Después del campamento, el equipo quiere subir las fotos a la red social del Grupo. En una aparece un scout cuya familia no ha dado su consentimiento. ¿Qué haces?",
+            "text": "Después del campamento, el equipo quiere subir las fotos a la red social del Grupo. En una aparece un scout cuya familia todavía no ha firmado la autorización que pide el Grupo para las fotos. ¿Qué haces?",
             "options": [
-              "Publicarla igual, porque es una actividad del Grupo y la foto no muestra nada que exponga al scout.",
-              "No publicarla: la imagen de un protagonista sale solo con el consentimiento que pide el Grupo.",
-              "No publicar ninguna foto del campamento, porque cualquier imagen en línea pone en riesgo a la unidad."
+              "Publicarla si el scout está de acuerdo, porque la imagen es suya y es él quien decide dónde aparece.",
+              "Publicarla solo cuando la familia firme la autorización; las otras fotos que eligió la patrulla, sí.",
+              "Publicarla en la cuenta del Grupo configurada como privada, para que solo la vean seguidores aprobados."
             ],
             "correctIndex": 1
           },
           {
             "text": "Un dirigente de Comunidad propone abrir un canal de mensajes solo para él y los nómadas, «para estar más cerca de ellos». ¿Qué le dirías?",
             "options": [
-              "Que la cercanía está bien, pero por un canal que el Grupo conozca, con otro adulto y las familias al tanto.",
+              "Que escriba a los nómadas por el canal de la Comunidad, donde también están otro dirigente y las familias.",
               "Que sí, siempre que él sea el único adulto administrador del canal y revise todo lo que se publica ahí.",
-              "Que no use ningún canal digital con los nómadas y deje la comunicación para las reuniones de la unidad."
+              "Que lo abra si en él solo se tratan temas de la unidad, y nunca asuntos personales de los nómadas ni de sus familias."
             ],
             "correctIndex": 0
+          },
+          {
+            "text": "La patrulla Halcones abre su propio grupo de mensajes para el campamento. ¿Qué haces para trabajar con ellos el cuidado en línea?",
+            "options": [
+              "Pedirles que no abran ese grupo, y dejar toda la comunicación de la patrulla solo para las reuniones y el campamento.",
+              "Pedirles que acuerden en Consejo de Patrulla qué fotos se reenvían y a quién se cuenta si algo incomoda, y repasarlo al volver.",
+              "Autorizar el grupo solo si nadie publica fotos de nadie, ni siquiera de sí mismo, mientras dure el campamento y al volver."
+            ],
+            "correctIndex": 1
           }
         ]
       },
@@ -514,7 +522,7 @@
           "items": [
             {
               "title": "💬 Los canales",
-              "description": "¿Por dónde se comunica la unidad, y quién más está ahí? La Política habla de plataformas institucionales: canales que el Grupo conoce, con más de un adulto y con las familias al tanto; no cuentas personales que nadie más ve.",
+              "description": "¿Por dónde se comunica la unidad, y quién más está ahí? La Política habla de plataformas institucionales: canales que el Grupo conoce, no cuentas personales que nadie más ve. Sumar otro adulto y tener a las familias al tanto es la manera sencilla de lograrlo.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
@@ -553,7 +561,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Una estrategia de cuidado no es una charla sobre peligros: es un acuerdo que la patrulla practica. Por ejemplo, que en su grupo de mensajes nadie reenvía una foto de otro sin preguntarle, y que si a alguien le escribe un desconocido —o un conocido— algo que lo incomoda, se lo cuenta a un adulto de confianza o usa la puerta de la Lección 6. Contarlo no es exagerar: es lo que la unidad acordó."
+          "text": "Una estrategia de cuidado no se queda en una charla sobre peligros: es un acuerdo que la patrulla practica. Por ejemplo, que en su grupo de mensajes nadie reenvía una foto de otro sin preguntarle, y que si a alguien le escribe un desconocido —o un conocido— algo que lo incomoda, se lo cuenta a un adulto de confianza o usa la puerta de la Lección 6. Contarlo no es exagerar: es lo que la unidad acordó."
         },
         {
           "type": "paragraph",
@@ -581,7 +589,7 @@
             "text": "Para el campamento, un dirigente propone dejar las fichas médicas guardadas en la sede, «para proteger la privacidad de los scouts». ¿Qué problema tiene la propuesta?",
             "options": [
               "Ninguno: la confidencialidad pesa más, y si en una urgencia se necesita un dato, se llama a la familia.",
-              "Que la ficha tiene que estar en el campamento: confidencial no es inaccesible, y allá se necesita.",
+              "Que la ficha va al campamento, en la carpeta del adulto de primeros auxilios: es allá donde se necesita.",
               "Que las fichas estarían mejor en el grupo de mensajes de los dirigentes, más a mano que el papel en la sede."
             ],
             "correctIndex": 1
@@ -590,10 +598,19 @@
             "text": "En la reunión de dirigentes, uno cuenta —con cariño— lo que la familia de un scout le confió sobre sus dificultades en el colegio, «para que todos lo tengamos en cuenta». ¿Qué le dice esta lección?",
             "options": [
               "Que es información de desarrollo: la necesita quien acompaña a ese scout, no todo el equipo, por mucho cariño que le tengan.",
-              "Que lo que confía una familia se guarda entre ella y ese dirigente, aunque después él note algo que le preocupe del scout.",
+              "Que lo que confía una familia se guarda entre ella y ese dirigente, aunque después él note en las reuniones algo que le preocupe del scout.",
               "Que hizo bien: en un equipo de dirigentes que se tiene confianza, compartirlo ayuda a que todos traten mejor al scout."
             ],
             "correctIndex": 0
+          },
+          {
+            "text": "Revisando las fichas antes de una salida de Manada, ves que la de un lobato es de hace dos años y anota un medicamento diario. ¿Qué haces?",
+            "options": [
+              "Pedirle al lobato en la salida que te diga si todavía lo toma, y llevar la ficha así, porque el medicamento está anotado.",
+              "Pedirle a la familia que la actualice antes de salir: una ficha vieja puede llevar a darle lo que ya no toma.",
+              "Actualizarla tú con lo que te cuente el lobato en la próxima reunión, y avisarle después a la familia."
+            ],
+            "correctIndex": 1
           }
         ]
       },
@@ -687,20 +704,29 @@
           {
             "text": "En la Tropa vas a dedicar cinco minutos a contarles a los scouts qué pueden hacer si algo en la unidad no les gusta o los hace sentir mal. ¿Qué mensaje les das?",
             "options": [
-              "Que cualquier cosa se la cuenten primero a su Guía de Patrulla, que decide si hace falta usar el botón.",
+              "Que se lo cuenten primero a su Guía de Patrulla, que conoce a la patrulla y decide si hace falta usar el botón.",
               "Que pueden contárselo a un adulto de confianza, y que existe el botón, que también pueden usar ellos sin permiso.",
-              "Que eso lo manejan los adultos con sus familias: a su edad basta con que sepan que los dirigentes están pendientes."
+              "Que pueden contárselo a un adulto de confianza, y que ese adulto decide si hace falta usar el botón."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Un dirigente propone guardar el QR del botón en la carpeta del Jefe en vez de pegarlo en la sede, «para evitar reportes por cualquier cosa». ¿Qué le respondes?",
+            "text": "En la Familia, un dirigente quiere explicarles a los cachorros el formulario del botón, con el QR en la mano. ¿Qué le sugieres?",
             "options": [
-              "Que tiene sentido si el Jefe lo entrega a quien lo pida, porque así los reportes llegan bien pensados.",
-              "Que el QR va a la vista y explicado: para usar el botón no hay que pedirle permiso ni al Jefe.",
-              "Que el QR va a la vista, con una nota que pida permiso a un dirigente antes de usar el botón."
+              "Que a ellos les diga que pueden contarle a un adulto de confianza si algo no les gusta, y el formulario se lo explique a sus familias.",
+              "Que lo haga y lo practiquen juntos en la reunión: entre más pequeños aprendan a usar el botón, más protegidos van a estar.",
+              "Que no les hable del tema: a esa edad basta con que los dirigentes estén pendientes y que las familias sepan dónde está el botón."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
+          },
+          {
+            "text": "Un scout le cuenta a su dirigente algo que le pasó con un adulto del Grupo. El Jefe de Grupo dice: «Tráiganmelo a mí; hablo con las partes y miro si amerita reportarlo». ¿Qué responde esta lección?",
+            "options": [
+              "Que puede hacerlo si escucha a las partes con otro adulto presente y deja un acta firmada para enviarla a la Comisión A Salvo del Peligro.",
+              "Que mejor lo estudie el Consejo de Grupo, que es colegiado y no deja la decisión en manos de una sola persona.",
+              "Que no le toca a nadie del Grupo: el dirigente reporta por la ruta sin hablar antes con las partes, y decide el Comité de Gestión de Incidentes."
+            ],
+            "correctIndex": 2
           }
         ]
       },
@@ -775,7 +801,7 @@
         },
         {
           "type": "info-box",
-          "text": "🎪 <strong>En eventos regionales y nacionales</strong> hay además espacios <strong>¡Óyeme!</strong>, con dinamizadores que escuchan como primeros respondientes. La Política aclara que esa escucha no es atención en salud mental. Si tu unidad va a un evento así, cuéntales que existe."
+          "text": "🎪 <strong>En eventos regionales y nacionales</strong> hay además espacios <strong>¡Óyeme!</strong>, con dinamizadores que escuchan como primeros respondientes. La Política aclara que esa escucha no es atención en salud mental, y que, si hace falta, los dinamizadores enlazan a los líderes de A Salvo del Peligro del evento, que pueden activar de inmediato las rutas pertinentes (pp. 34 y 40). Si tu unidad va a un evento así, cuéntales que existe."
         }
       ]
     },
@@ -805,9 +831,18 @@
             "options": [
               "Que la pernocta se planea con la práctica 2+1 y la gestión del riesgo, porque proteger con el Método no es quitar salidas.",
               "Que tiene razón mientras la Asociación no publique un protocolo nacional de pernocta para las unidades.",
-              "Que en vez de suspenderlas se pida a cada familia firmar una autorización que libere al Grupo de responsabilidad."
+              "Que en vez de suspenderlas se le pida a cada familia firmar una autorización que libere al Grupo de toda responsabilidad."
             ],
             "correctIndex": 0
+          },
+          {
+            "text": "En la evaluación del campamento, alguien concluye: «Aquí no hubo riesgo de protección: conocemos a todos los adultos y nadie tiene malas intenciones». ¿Qué propones?",
+            "options": [
+              "Dejarlo así, porque todos los adultos que fueron tienen al día los módulos de A Salvo del Peligro, y eso es lo que pide la Asociación.",
+              "Revisar el campamento con las causas de la Política: qué minuto quedó sin segundo adulto, qué se dejó pasar y si todos sabían por dónde reportar.",
+              "Revisar solo la matriz de la Ficha: si el río y la fogata quedaron en riesgo bajo y sus medidas se cumplieron, la protección estuvo cubierta."
+            ],
+            "correctIndex": 1
           }
         ]
       },
@@ -830,6 +865,25 @@
             "🩺 <strong>Los datos:</strong> ¿dónde viajan las fichas, quién sabe qué, y están al día?",
             "🔴 <strong>La puerta:</strong> ¿saben los protagonistas, las familias y los adultos por dónde se reporta?"
           ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "«Seguras», en DURASLID"
+        },
+        {
+          "type": "paragraph",
+          "text": "Una última lente antes de repasar el plan. El tercer ítem de la Política pide mantener el enfoque de experiencias DURASLID, y una de sus letras es la S. Vale la pena leer cómo la define el <em>Modelo</em>, porque es más amplia de lo que parece:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 La S de DURASLID",
+          "source": "Modelo de Aplicación de la Política Nacional de Programa de Jóvenes «El Gran Juego para la Vida» (DNPJ-2026-024), Cap. 10, «Seguras», p. 71 del PDF.",
+          "text": "Sin seguridad, no hay aprendizaje. Seguridad es física, emocional, logística o digital."
+        },
+        {
+          "type": "paragraph",
+          "text": "Física, emocional, logística o digital. Un campamento sin un solo raspón puede no haber sido seguro si alguien pasó las dos noches humillado, o si sus fotos terminaron donde no debían; por eso las cinco preguntas no se quedan en la matriz del río y la fogata. El mismo <em>Modelo</em> lo resume: la seguridad no es miedo, es libertad bien diseñada."
         },
         {
           "type": "paragraph",

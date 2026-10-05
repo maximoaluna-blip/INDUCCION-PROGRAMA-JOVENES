@@ -3,9 +3,9 @@
   "title": "Comisionado de Programa de Jóvenes",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Para quien acompaña el Programa desde fuera de la unidad: comisionados regionales de Programa de Jóvenes y de rama, y miembros de comisiones. Dónde está tu cargo en la estructura, qué es la animación territorial, cómo se conduce una comisión de voluntarios, qué se cuida y qué se remite, y cómo se rinde cuentas — sin volverte el Jefe de Rama de todas las unidades.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-04",
   "icon": "🗺️",
-  "duration": "50 minutos",
+  "duration": "53 minutos",
   "level": 3,
   "levelName": "Especialización por cargo",
   "order": 18,
@@ -78,7 +78,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~50 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
+          "text": "⏱️ <strong>~53 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con tres preguntas y hay que acertar las tres para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
         },
         {
           "type": "course-objectives",
@@ -145,7 +145,7 @@
         {
           "type": "list",
           "items": [
-            "Si tu cargo es regional, <strong>te nombra el Jefe Scout Regional</strong>, previo aval de la Dirección Nacional de Programa de Jóvenes. A los comisionados nacionales de rama los nombra el Director Nacional, con aval del Jefe Scout Nacional.",
+            "Si tu cargo es regional, <strong>te nombra el Jefe Scout Regional</strong>, previo aval de la Dirección Nacional de Programa de Jóvenes (si eres comisionado de rama, el aval es el de la comisión nacional de tu rama). A los comisionados nacionales de rama los nombra el Director Nacional, con aval del Jefe Scout Nacional.",
             "<strong>Respondes</strong> al Consejo Scout Regional, al Jefe Scout Regional, a la Dirección Nacional de Programa de Jóvenes y a los comisionados nacionales de rama en lo de su rama.",
             "<strong>No integras el Consejo Scout Regional.</strong> Lo dice tu ficha, y lo dice el <em>Reglamento Nacional</em> para todos los niveles: <em>«Los adultos que ejerzan cargos operativos en las ramas de los grupos, en las regiones o en la nación no podrán integrar los Consejos de su respectivo nivel»</em>.",
             "<strong>No puedes tener a la vez</strong> un cargo de dirección o liderazgo en la nación y otro en la región; ser parte de un equipo no cuenta, y tener además un cargo en tu Grupo está permitido."
@@ -240,22 +240,31 @@
         "nextLabel": "Continuar a la animación territorial 🌱",
         "questions": [
           {
-            "text": "Una Tropa de la región no tiene quien la dirija este semestre. Algunos proponen que el comisionado regional la conduzca mientras tanto «porque sabe hacerlo». ¿Qué dice su ficha de funciones?",
+            "text": "Un comisionado regional de Lobatos lee en su ficha que tiene a su cargo «la coordinación, supervisión y ejecución del Programa» en su rama. Una Manada de la región no tiene Jefe este semestre, y él propone conducir su ciclo de programa. ¿Qué le dice la lección?",
             "options": [
-              "Que sí puede: acompañar el Programa en los grupos incluye dirigir una unidad cuando falta Jefe, hasta que el grupo nombre a otro.",
-              "Que conducir una unidad no es una de sus funciones: lo suyo es acompañar al grupo, y al Jefe de Tropa lo nombra el Jefe de Grupo.",
-              "Que no la dirige él: la Tropa se suspende hasta que la región le nombre un nuevo Jefe, y sus scouts esperan sin reunirse."
+              "Puede conducirlo mientras se nombra un Jefe: la ejecución de su ficha alcanza a las unidades de toda su rama.",
+              "No le corresponde: la ejecución de su ficha es la del plan y los eventos regionales, no la de cada Manada.",
+              "No sin aval: necesita el de la comisión nacional de su rama, como el que recibió para su nombramiento."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Un comisionado regional quiere responder su cuarta pregunta: ¿se aplica bien el Programa en los grupos? ¿Qué dato responde directamente esa pregunta?",
+            "text": "Un comisionado regional de la rama Scout quiere sumar a su equipo un adulto con experiencia en formación, y piensa apoyarse para eso en la tercera función, la de los adultos de la comisión. ¿Qué le recuerda su ficha?",
             "options": [
-              "Cuántos grupos tienen a sus dirigentes con la formación al día, grupo por grupo.",
-              "Cuántos eventos regionales se hicieron y cuántos jóvenes asistieron a cada uno.",
-              "Cuántos grupos aplican el Modelo en sus unidades, y cómo lo hacen, grupo por grupo."
+              "Que puede hacerlo: las cinco funciones son las mismas para todos los comisionados, acotadas a su rama.",
+              "Que primero pida el aval de la comisión nacional de su rama, como el que recibió para su nombramiento.",
+              "Que su ficha de rama no trae esa función: lo plantea al Comisionado Regional de Programa, a quien responde."
             ],
             "correctIndex": 2
+          },
+          {
+            "text": "En un encuentro regional, varios grupos llegan con pendones que alteran el logo de la Asociación. Un miembro de tu comisión dice que eso no es asunto de Programa. Según tus funciones, ¿dónde cae?",
+            "options": [
+              "Bajo la quinta, la del crecimiento, porque los pendones son la cara de los grupos ante quienes quieren entrar.",
+              "Bajo la segunda, la de hacer cumplir las normas de la Asociación, que incluye el cuidado de la marca.",
+              "Bajo ninguna de tus cinco: la marca la cuida el área de Comunicaciones, y a ti solo te toca avisarle del caso."
+            ],
+            "correctIndex": 1
           }
         ]
       }
@@ -338,7 +347,7 @@
           {
             "text": "Una comisionada regional visita cada grupo una vez al mes. Nota que las unidades mejoran justo antes de su visita y vuelven a lo de siempre después. ¿Qué le dice eso?",
             "options": [
-              "Que visita poco: si fuera cada quince días, la mejora duraría entre una visita y otra.",
+              "Que visita poco: si fuera cada quince días, la mejora alcanzaría a durar entre una visita y otra.",
               "Que los grupos dependen de ella: les faltan herramientas y formación para sostenerlo solos.",
               "Que las visitas funcionan: la mejora antes de cada una muestra que acompañarlos da fruto."
             ],
@@ -352,6 +361,15 @@
               "Ofreciéndose a acompañar él mismo las reuniones de la Manada hasta que el ciclo salga bien."
             ],
             "correctIndex": 0
+          },
+          {
+            "text": "Una comisionada regional termina con su comisión el plan de animación territorial y lo envía a la Dirección Nacional «para su conocimiento». ¿Qué le faltó?",
+            "options": [
+              "Diseñarlo con los Jefes de Grupo de la región, que son quienes van a aplicarlo en sus unidades.",
+              "Presentarlo antes al Consejo Scout Regional, que es el primero ante quien ella responde por su plan.",
+              "Diseñarlo en conjunto con el equipo nacional de programa, no enviárselo cuando ya estaba terminado."
+            ],
+            "correctIndex": 2
           }
         ]
       }
@@ -411,18 +429,27 @@
           {
             "text": "Tu comisión tiene cinco miembros. Dos faltan a casi todas las reuniones, pero con sus grupos cumplen lo acordado. Otro miembro propone pedir su retiro por falta de compromiso. ¿Qué haces?",
             "options": [
-              "Apoyar el retiro: una comisión se sostiene si todos llegan a las reuniones, y ellos no llegan.",
+              "Revisar su retiro con la Jefatura: una comisión se sostiene si todos llegan a las reuniones, y ellos no llegan.",
               "Asumir tú el seguimiento de sus grupos, para que la comisión no dependa de su asistencia.",
               "Revisar con ellos lo acordado y ajustar la forma de reunirse antes de juzgar su compromiso."
             ],
             "correctIndex": 2
           },
           {
-            "text": "Un comisionado regional de la rama Scout quiere que los Jefes de Tropa de su región usen una herramienta nueva de planeación. ¿Cuál es el camino que respeta su papel?",
+            "text": "A tu comisión le falta alguien con experiencia en Clan. Un miembro propone que la comisión diseñe su propia convocatoria e inducción, porque el proceso de Adultos «tarda mucho». ¿Qué te pide la lección?",
             "options": [
-              "Enviar una circular a los Jefes de Tropa ordenando su uso, sin pasar por sus Jefes de Grupo.",
-              "Ofrecer la herramienta con formación y acompañamiento, en acuerdo con los Jefes de Grupo.",
-              "Acompañar a cada Jefe de Tropa haciendo él mismo su primera planeación con ella."
+              "Que la comisión lo diseñe, si lo acuerda: tu ficha te deja crear los equipos de trabajo que necesites.",
+              "Que detectes el perfil y pidas incorporarlo, aplicando con tu equipo el ciclo de la Política de Adultos.",
+              "Que esperes a que la Jefatura te asigne a alguien: tu ficha te pide acompañar adultos, no incorporarlos."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Repartiste los grupos de la región entre los miembros de tu comisión. Uno de ellos lleva tres meses sin que nadie lo acompañe, y el Jefe Scout Regional te pregunta por él. ¿Qué le respondes?",
+            "options": [
+              "Que ese grupo ya no es asunto tuyo: al repartirlo, la responsabilidad pasó al miembro asignado.",
+              "Que ese grupo sigue siendo asunto tuyo: hablarás esta semana con el miembro asignado y le darás cuenta.",
+              "Que ese grupo pasa al comisionado de su rama, que es quien acompaña a los Jefes de sus unidades."
             ],
             "correctIndex": 1
           }
@@ -460,7 +487,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Prevenir va primero. Un evento regional seguro tiene sus riesgos pensados antes: responsables con nombre para la seguridad, los primeros auxilios y los tiempos; fichas de salud y autorizaciones al día; protocolos del lugar. Liliana aprendió a pedir esa lista una semana antes, no dos días. Y en todo evento regional hay un plan de A Salvo del Peligro que se hace con la Comisión Nacional ASP, y el equipo de servicio tiene hecho el curso ASP. Pregunta por los dos antes de fijar la fecha."
+          "text": "Prevenir va primero. Un evento regional seguro tiene sus riesgos pensados antes: responsables con nombre para la seguridad, los primeros auxilios y los tiempos; fichas de salud y autorizaciones al día; protocolos del lugar. Liliana aprendió a pedir esa lista una semana antes, no dos días. Y todo evento regional lleva un plan de A Salvo del Peligro que arma la Comisión Nacional ASP para ese evento, y el equipo de servicio tiene hecho el curso ASP. Pregunta por los dos antes de fijar la fecha."
         },
         {
           "type": "heading",
@@ -495,19 +522,28 @@
             "text": "En un evento regional que coordinas, un Jefe de Clan te cuenta lo que un rover le reveló sobre un adulto de otro grupo. Conoces a ese adulto hace años y no lo crees capaz. ¿Qué haces?",
             "options": [
               "Reportarlo por la ruta oficial aunque no lo creas: valorar qué pasó le toca a quien recibe el reporte.",
-              "Hablar primero en privado con el adulto, para oír su versión antes de reportarlo.",
-              "Esperar a que termine el evento y el rover lo confirme, para cuidar el buen nombre del adulto."
+              "Reportarlo después de hablar en privado con el adulto, para oír su versión y no reportar a ciegas.",
+              "Esperar a que termine el evento y el rover lo confirme por su cuenta, para cuidar el buen nombre del adulto."
             ],
             "correctIndex": 0
           },
           {
             "text": "Tu comisión organiza una travesía regional de Nómadas Scout por un páramo. Un miembro, montañista con experiencia, se ofrece a encargarse de todo. ¿Qué te toca a ti?",
             "options": [
-              "Confiar en su experiencia: con un experto al frente, la seguridad ya está cubierta.",
-              "Aprender las técnicas de montaña necesarias para supervisar la travesía en el terreno.",
+              "Dejarle a él la seguridad del terreno y ocuparte tú de las fichas de salud.",
+              "Pedirle que te enseñe las técnicas de montaña necesarias para supervisar la travesía en el terreno.",
               "Pedirle antes de salir los riesgos, con un responsable por cada uno, y revisarlos con él."
             ],
             "correctIndex": 2
+          },
+          {
+            "text": "Faltan tres semanas para un campamento regional de Manada. Tu comisión armó sola el plan de A Salvo del Peligro, y el equipo de servicio son voluntarios nuevos, con muchas ganas. ¿Qué haces antes de fijar la fecha?",
+            "options": [
+              "Revisar el plan una vez más con tu comisión y pedirles a los voluntarios nuevos que lean la Política ASP.",
+              "Hacer el plan con la Comisión Nacional ASP y comprobar que el equipo de servicio tenga hecho el curso ASP.",
+              "Fijar la fecha y pedirle a cada Jefe de Manada asistente que traiga el plan ASP de su propio grupo."
+            ],
+            "correctIndex": 1
           }
         ]
       }
@@ -575,7 +611,7 @@
             "text": "El informe semestral de un comisionado de rama trae una tabla impecable: 38 actividades, 12 visitas, 4 jornadas. El Consejo Regional pregunta: «¿y cómo va la rama?». ¿Qué le faltó?",
             "options": [
               "Datos del efecto: qué cambió en las unidades y cuántos jóvenes tiene la rama frente al año pasado.",
-              "Más detalle de lo hecho: la fecha, el lugar y los asistentes de cada una de las 38 actividades.",
+              "Datos de lo hecho, con más detalle: la fecha, el lugar y los asistentes de cada una de las 38 actividades.",
               "Un anexo con fotos y testimonios de cada grupo, que muestre cómo se vive la rama en la región."
             ],
             "correctIndex": 0
@@ -583,9 +619,18 @@
           {
             "text": "En una región, las Tropas pierden un tercio de sus scouts entre un año y el siguiente. ¿Qué le toca al Comisionado Regional de Programa de Jóvenes?",
             "options": [
-              "Registrarlo en su informe y pedir a cada grupo que busque sus causas, porque la salida ocurre en sus unidades.",
+              "Revisar el dato en su informe y pedir a cada grupo que busque sus causas, porque la salida ocurre en sus unidades.",
               "Remitirlo al área de Desarrollo Institucional, que es la que lleva el crecimiento y las alianzas de la región.",
-              "Revisar con esos grupos cómo se aplica el Programa en sus Tropas, y llevar al plan acciones de crecimiento."
+              "Revisar con esos grupos cómo aplican el Programa en sus Tropas, y llevar al plan regional acciones de crecimiento."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Un comisionado regional escribe solo, en vacaciones, «el plan del Programa de Jóvenes» de la región, y quiere llevarlo al Consejo Scout Regional como un plan aparte del plan operativo. ¿Qué le aconsejas?",
+            "options": [
+              "Que no lo presenta él: los planes regionales de Programa los aprueba la Dirección Nacional antes de llegar al Consejo.",
+              "Que es un plan aparte, pero debe construirlo con su comisión y los comisionados de rama, no escribirlo solo.",
+              "Que no va aparte: entra al plan operativo regional, que se construye con otros, y a él le toca proponer y seguir."
             ],
             "correctIndex": 2
           }
@@ -658,22 +703,31 @@
         "nextLabel": "Continuar a tu perfil 🧩",
         "questions": [
           {
-            "text": "Una comisionada regional planea un encuentro regional de formación sobre el Modelo de Aplicación. ¿Con quién le pide la política conversar antes de fijarlo?",
+            "text": "Una comisionada regional tiene listo un encuentro de formación sobre el Modelo de Aplicación: fecha, lugar y temario. Piensa avisarle al área de Adultos en el Movimiento de su región «para que lo certifique». ¿Qué le aconsejas?",
             "options": [
-              "Con el área de Adultos en el Movimiento de su región, porque la formación de adultos se hace en conjunto.",
-              "Con los Jefes de Rama de la región, porque son ellos quienes aplican el Modelo cada sábado en sus unidades.",
-              "Con su comisión de Programa, que acompaña a los grupos de la región y conoce la formación que les falta."
+              "Que hable con Adultos antes de cerrarlo y lo planeen juntos: la formación de adultos se hace en conjunto.",
+              "Que basta con avisar a tiempo: la formación sobre el Programa es de su comisión, y Adultos solo la certifica.",
+              "Que le deje la formación entera a Adultos: formar a los adultos de la región no es una función del Programa."
             ],
             "correctIndex": 0
           },
           {
-            "text": "En una región, la comisión de Programa decide cambiar el calendario de actividades de las ramas sin consultar a ningún joven. ¿Qué dice la política sobre eso?",
+            "text": "La comisión de Programa de una región quiere cambiar el mes entrante el calendario de actividades de las ramas. ¿Qué le propones?",
             "options": [
-              "Que es una decisión técnica de adultos; los jóvenes participan en lo que decide su unidad.",
-              "Que la voz de los jóvenes tiene que llegar a la decisión antes de tomarla, no después.",
-              "Que la comisión debe comunicar el nuevo calendario a los jóvenes por medio de sus representantes."
+              "Decidirlo entre adultos, que conocen la logística, y que luego cada unidad lo ajuste en su propio programa.",
+              "Escuchar antes a los jóvenes, por ejemplo por la Red de Jóvenes, y decidir teniendo en cuenta lo que digan.",
+              "Decidirlo y comunicarlo a los jóvenes por medio de sus representantes, para que lo conozcan con tiempo."
             ],
             "correctIndex": 1
+          },
+          {
+            "text": "Una comisionada regional de Programa de Jóvenes necesita apoyo nacional para su plan de animación y busca a quien su ficha llama «Comisionado Nacional de Programa de Jóvenes». Según la lección, ¿a quién acude?",
+            "options": [
+              "Al Jefe Scout Nacional, porque el Reglamento ubica la Dirección de Programa dentro de la Jefatura.",
+              "A un Comisionado Nacional de Programa de Jóvenes general, que el Reglamento de 2026 pone por encima del Director.",
+              "Al Director o Directora Nacional de Programa de Jóvenes, cuya ficha la pone entre quienes le responden."
+            ],
+            "correctIndex": 2
           }
         ]
       }
@@ -734,20 +788,29 @@
         "nextLabel": "Ver mi certificado ⭐",
         "questions": [
           {
-            "text": "Un comisionado regional se autodiagnostica: está en grado 3 en todas sus competencias esenciales. ¿Dónde están sus brechas frente a la ficha?",
+            "text": "Un comisionado recién nombrado se autodiagnostica y encuentra brechas en cinco competencias. Piensa renunciar «porque no da el perfil». ¿Qué le dices?",
             "options": [
-              "En Planeamiento Estratégico, que la ficha regional pide en grado 4 como la del Director Nacional.",
-              "En ninguna: la ficha regional pide grado 3 en todas, y el grado 4 queda para el Director Nacional.",
-              "En cinco de las siete, que su ficha pide en grado 4; en Aprendizaje y Planeamiento ya cumple."
+              "Que tiene razón en dudar: la ficha pide grado 4 desde el nombramiento, y mejor que lo asuma quien ya lo tenga.",
+              "Que no se fije en los grados: sus ocho años como Jefe de Tropa ya le dan todo lo que el cargo le va a pedir.",
+              "Que la ficha es un mapa para saber por dónde crecer: que elija una o dos brechas y empiece por ahí este mes."
             ],
             "correctIndex": 2
           },
           {
             "text": "Una comisionada recién nombrada tiene poco tiempo. ¿Cuál de estas tareas de su primer mes cumple mejor la idea central del curso?",
             "options": [
-              "Visitar ella misma las unidades con más problemas, para resolverlos durante el mes.",
-              "Mapear quién acompaña cada grupo y abrir una conversación con uno que nadie acompaña.",
+              "Leer su ficha y las de los comisionados de rama, para saber qué le toca a cada uno.",
+              "Mapear quién acompaña cada grupo y abrir una conversación con un grupo que nadie acompaña.",
               "Mapear las unidades que mejor funcionan y acompañar sus reuniones para aprender de sus Jefes."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Un comisionado regional de la rama Scout hace su autodiagnóstico con los grados de esta lección y se marca brecha en Trabajo en Equipo, porque está en grado 3. ¿Qué le dice la lección?",
+            "options": [
+              "Que la brecha es real: esos grados valen para todos los comisionados regionales, de Programa y de rama.",
+              "Que revise su propia ficha: en las de rama, Trabajo en Equipo y Relaciones Interpersonales van en grado 3.",
+              "Que su referencia es la ficha del comisionado nacional de su rama, que es la que fija los grados de las regiones."
             ],
             "correctIndex": 1
           }

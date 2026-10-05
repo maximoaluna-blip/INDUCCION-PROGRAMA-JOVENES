@@ -1035,7 +1035,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                 <h2>📋 📋 Dos hojas, dos preguntas <span id="welcomeName"></span></h2>
                 <div class="badge">Lección 1 de 8</div>
 
-                <div class="info-box">⏱️ <strong>~60 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra sola y tu avance se guarda, así que no hace falta hacerlo de una sentada. Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada.</div>
+                <div class="info-box">⏱️ <strong>~65 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra sola y tu avance se guarda, así que no hace falta hacerlo de una sentada. Cada lección cierra con tres preguntas y hay que acertar las tres para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada.</div>
 
                 <h3>🎯 Objetivos del Curso</h3>
 <ul>
@@ -1159,7 +1159,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>Abre el calendario de tu unidad y mira la próxima reunión — la que ya tiene fecha. Escribe su guion en tres filas: hora, qué pasa y quién lo conduce —por su rol, sin nombre ni inicial—. Y ahora la parte que cuesta: en al menos una de las tres filas, el responsable tiene que ser un protagonista de programa concreto. ¿Qué protagonista —por su cargo, sin nombre ni patrulla: «un Guía de Patrulla», «un Subguía»—, y en qué momento?</p>
+                    <p>Abre el calendario de tu unidad y mira la próxima reunión — la que ya tiene fecha. Escribe su guion en tres filas: hora, qué pasa y quién lo conduce —por su rol, sin nombre ni inicial—. Y ahora la parte que cuesta: en al menos una de las tres filas, el responsable tiene que ser un protagonista de programa concreto. ¿Qué protagonista —por su papel, sin nombre ni a qué grupo pertenece: «el lobato al que le toca anunciar en su seisena», «un Guía de Patrulla», «el Coordinador de un Equipo»—, y en qué momento?</p>
                     <textarea id="reflection-2" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(2, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
@@ -1193,7 +1193,23 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q11">
-                            Falta la hora de finalización de ese momento, sin la cual el guion no se puede seguir.
+                            Falta el ambiente de referencia del juego, que cada fila del guion debe repetir para tener sentido.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>3. Un dirigente se niega a llenar la columna «Hora» del guion porque «las reuniones nunca salen a tiempo». ¿Qué le responde lo que dice el instrumento?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q12">
+                            Que basta con la hora de inicio y de fin de la reunión; los tiempos de cada momento los fija quien lo conduce.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q12">
+                            Que el instrumento ya avisa que no son estrictos; escribirlos entrena a calcular cuánto dura de verdad lo planeado.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q12">
+                            Que los escriba igual, porque el guion debe cumplirse al minuto para que otro dirigente lo pueda seguir sin él.
                         </label>
                     </div>
 
@@ -1207,7 +1223,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                 <h2>🎚️ 🎚️ ¿Esta idea merece entrar?</h2>
                 <div class="badge">Lección 3 de 8</div>
 
-                <p>Miércoles, consejo de unidad. Diana propone su idea con entusiasmo. Alguien pregunta: <em>«¿y a quién le sirve?»</em>. Diana responde que a los lobatos, que se van a divertir muchísimo. Silencio corto. La idea entra al plan igual, porque nadie tiene un argumento mejor y porque hay que llenar el sábado.</p>
+                <p>Miércoles, reunión del equipo de dirigentes de la Manada. Diana propone su idea con entusiasmo. Alguien del equipo pregunta: <em>«¿y a quién le sirve?»</em>. Diana responde que a los lobatos, que se van a divertir muchísimo. Silencio corto. La idea entra al plan igual, porque nadie tiene un argumento mejor y porque hay que llenar el sábado.</p>
 
                 <div class="info-box"><strong>Idea central:</strong> hay un filtro oficial para decidir si una idea merece entrar al plan. No se aplica al final, para justificar lo que ya se hizo: se aplica antes, cuando la idea todavía se puede cambiar.</div>
 
@@ -1281,25 +1297,25 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>Toma una actividad que hayas hecho este año y que en el fondo sabes que no funcionó — una concreta, con fecha. Pásala por las ocho preguntas ahora, tarde. ¿En cuál se cae? Y la pregunta que importa: si la hubieras pasado por el tablero el miércoles anterior, ¿qué habrías cambiado?</p>
+                    <p>Toma una actividad que hayas hecho este año y que en el fondo sabes que no funcionó — una concreta. Pásala por las ocho preguntas ahora, tarde. ¿En cuál se cae? Y la pregunta que importa: si la hubieras pasado por el tablero el miércoles anterior, ¿qué habrías cambiado?</p>
                     <textarea id="reflection-3" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(3, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 3</h3>
 
                     <div class="question">
-                        <h4>1. Un equipo de dirigentes propone una caminata de ocho horas para una Manada, argumentando que así los lobatos «se ponen a prueba de verdad». Según el criterio del Modelo, ¿qué está fallando?</h4>
+                        <h4>1. Un equipo de dirigentes propone una caminata de ocho horas para una Manada, argumentando que así los lobatos «se ponen a prueba de verdad». Según el criterio del Modelo, ¿cómo lo ves?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q20">
-                            Nada del filtro: una caminata larga es exactamente lo que el atributo «Desafiante» pide de una actividad.
+                            Bien planteada: una caminata larga es justo lo que el atributo «Desafiante» le pide a una actividad.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q20">
-                            El desafío no es hacerlo difícil por difícil, sino calibrarlo a la edad y al momento de progresión.
+                            Mal calibrada: el desafío no es hacerlo difícil por difícil, sino ajustarlo a la edad y a la progresión.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q20">
-                            El problema es de seguridad, no de desafío: con hidratación y relevos la caminata sería adecuada.
+                            Mal enfocada: el problema es de seguridad, no de desafío; con hidratación y relevos sería adecuada.
                         </label>
                     </div>
 
@@ -1307,7 +1323,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <h4>2. Al llenar el tablero de ocho preguntas para un proyecto de servicio, la Comunidad no logra responder «¿quién se beneficia y cómo lo mediremos?». ¿Qué corresponde hacer?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q21">
-                            Dejar esa casilla vacía y seguir: las ocho preguntas son una guía, no un requisito para ejecutar.
+                            Seguir con el proyecto y dejar esa casilla vacía: las ocho preguntas son una guía, no un requisito.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q21">
@@ -1315,7 +1331,23 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q21">
-                            Trabajar la idea hasta poder responderla: mientras falte eso, la propuesta está sin terminar.
+                            Seguir trabajando la idea hasta poder responderla: mientras le falte eso, la propuesta está sin terminar.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>3. A media actividad, la Tropa resuelve en cinco minutos el reto que debía tomarle media hora. El jefe deja que pasen a lo siguiente del guion y anota: «revisar en la evaluación». ¿Cómo lo ves?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q22">
+                            Le faltó ajustar ahí mismo: subir un peldaño el reto también es aplicar el filtro, mientras se facilita.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q22">
+                            Bien hecho: cambiar un reto en marcha desordena el guion; el filtro se corrige al evaluar la actividad.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q22">
+                            Le faltó ajustar ahí mismo: dividir la tarea entre los de cada patrulla para que dure lo previsto.
                         </label>
                     </div>
 
@@ -1358,7 +1390,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
                 <p>Aquí hay algo que conviene saber antes de abrir el archivo y frustrarse. Las instrucciones del propio Excel anuncian una hoja con la malla completa de competencias, y <strong>esa hoja no está dentro del archivo</strong>. No es que te falte a ti: no viene. La malla existe, pero se publica como <strong>documento aparte</strong>.</p>
 
-                <div class="info-box">📥 <strong>El documento que te falta se llama <em>Competencias Educativas</em>.</strong> Es un Excel independiente, está en la biblioteca virtual de la Asociación —<code>scout.org.co/biblioteca</code>, sección Programa de Jóvenes— y trae la malla completa: las seis áreas de crecimiento con sus prioridades educativas, sus competencias terminales y las <strong>competencias intermedias por franja de edad</strong> (5–6, 7–10, 11–14, 15–17 y 18–20 años). Descárgalo una vez y tenlo al lado cuando llenes una Ficha.</div>
+                <div class="info-box">📥 <strong>El documento que te falta se llama <em>Competencias Educativas</em>.</strong> Es un Excel independiente, está en la biblioteca virtual de la Asociación —<code>scout.org.co/biblioteca</code>, sección Programa de Jóvenes— y trae la malla completa: las seis áreas de crecimiento con sus prioridades educativas, sus competencias terminales y las <strong>competencias intermedias por franja de edad</strong> (5–6, 7–10, 11–14, 15–17 y 18–20 años). Las hojas por rama del Excel solo traen la lista para el desplegable; la malla con prioridades y competencias terminales está en este documento aparte. Descárgalo una vez y tenlo al lado cuando llenes una Ficha.</div>
 
                 <p>Con la malla abierta, la regla es corta y el Modelo la dice al describir el tablero DURASLID: <strong>una o dos competencias como foco</strong>, no seis. Una actividad que dice tocar las seis áreas no está tocando ninguna; está describiendo la vida. Elige el área, elige la competencia, y deja que la actividad haga lo demás sin que tú lo reclames.</p>
 
@@ -1393,18 +1425,34 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                     </div>
 
                     <div class="question">
-                        <h4>2. Diana llena la Ficha y marca las seis áreas de crecimiento, porque su actividad «las toca todas de alguna manera». ¿Cuál es el problema?</h4>
+                        <h4>2. Diana llena la Ficha y marca las seis áreas de crecimiento, porque su actividad «las toca todas de alguna manera». ¿Qué le dirías?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q31">
-                            Ninguno mientras pueda justificar cada área con algo concreto de la actividad que planeó.
+                            Que está bien mientras pueda justificar cada área con algo concreto de la actividad que planeó.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q31">
-                            Que la Ficha solo admite marcar dos áreas y el archivo le va a rechazar las otras cuatro.
+                            Que la Ficha solo admite marcar dos áreas y el archivo le va a rechazar las otras cuatro que marcó.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q31">
                             Que el foco se elige, no se declara: una o dos competencias, o no estará mirando ninguna.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>3. Una dirigente abre el Excel buscando la hoja con la malla completa de competencias que anuncian sus instrucciones, y no la encuentra. ¿Qué pasa?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q32">
+                            Está repartida en las cinco hojas de consulta por rama del mismo archivo, que juntas traen la malla.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q32">
+                            No viene en el archivo: la malla completa se publica aparte, como el documento Competencias Educativas.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q32">
+                            No está: se retiró del archivo cuando el Modelo reemplazó las competencias por objetivos educativos.
                         </label>
                     </div>
 
@@ -1478,25 +1526,25 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>¿Cuál es el ambiente de referencia que tu unidad está viviendo <em>ahora mismo</em>? Escríbelo con el nombre exacto que pondrías en la casilla, y di desde qué mes lo están viviendo. Si no lo sabes, o si cada dirigente de tu equipo contestaría algo distinto, ya encontraste algo que arreglar en el próximo consejo. Después escribe cómo entra en ese mundo la actividad concreta que tienen para el próximo sábado — dos o tres líneas, como las escribirías en el campo «Contexto desde el Ambiente de Referencia».</p>
+                    <p>¿Cuál es el ambiente de referencia que tu unidad está viviendo <em>ahora mismo</em>? Escríbelo con el nombre exacto que pondrías en la casilla, y di desde qué mes lo están viviendo. Si no lo sabes, o si cada dirigente de tu equipo contestaría algo distinto, ya encontraste algo que arreglar en la próxima reunión de tu equipo de dirigentes. Después escribe cómo entra en ese mundo la actividad concreta que tienen para el próximo sábado — dos o tres líneas, como las escribirías en el campo «Contexto desde el Ambiente de Referencia».</p>
                     <textarea id="reflection-5" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(5, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 5</h3>
 
                     <div class="question">
-                        <h4>1. Un dirigente de Tropa dice en el consejo: «este ciclo vamos a cambiar el marco simbólico, porque la aventura ya nos aburrió». ¿Qué está confundiendo?</h4>
+                        <h4>1. Un dirigente de Tropa dice en la reunión de dirigentes: «este ciclo vamos a cambiar el marco simbólico, porque la aventura ya nos aburrió». ¿Qué le dirías?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q40">
-                            Nada: el marco simbólico se renueva en cada ciclo, igual que el ambiente y por las mismas razones.
+                            Que adelante: el marco simbólico se renueva en cada ciclo, igual que el ambiente y por las mismas razones.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q40">
-                            El marco viene con la rama y no se elige; lo que su unidad cambia cada ciclo es el ambiente.
+                            Que el marco viene con la rama y no se elige; lo que su unidad cambia en cada ciclo es el ambiente.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q40">
-                            Que el marco lo define el Consejo de Grupo, aunque sí pueda cambiarse de un ciclo al otro.
+                            Que eso lo decide el Consejo de Grupo, aunque el marco sí pueda cambiarse de un ciclo al otro.
                         </label>
                     </div>
 
@@ -1508,11 +1556,27 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q41">
-                            Que la Hoja de Ruta ya trae esa descripción, así que en la Ficha basta con nombrar la actividad.
+                            Que remita a la Hoja de Ruta, donde el guion de la reunión ya describe esa fogata por momentos.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q41">
                             Que se vea qué sucede, quién interviene y qué elementos se usan, con tiempos aproximados.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>3. Un jefe de Comunidad pone en la Hoja de Ruta del sábado «Parque Simón Bolívar, entrada de la calle 63», y en la Ficha de la actividad, en «Lugar sugerido», escribe «parque con zona arbolada». Un compañero le dice que se contradice. ¿Cómo lo ves?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q42">
+                            Tiene razón el compañero: si la Ficha es del Movimiento, la Hoja de Ruta también debe ir en genérico.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q42">
+                            No se contradice, pero la Ficha mejoraría con el sitio exacto: así otro sabe que el lugar funciona.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q42">
+                            No se contradice: la Hoja de Ruta sitúa esta reunión; la Ficha se escribe para que otro la use en otra ciudad.
                         </label>
                     </div>
 
@@ -1574,7 +1638,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
                 <div class="info-box">🔴 <strong>El botón no es un objeto.</strong> El mecanismo oficial de reporte se llama <strong>«Me Pongo A Salvo del Peligro»</strong> —así lo nombra la Política Nacional A Salvo del Peligro vigente; la hoja que vas a llenar todavía lo llama «Botón A Salvo del Peligro», y el nombre que manda es el de la Política—. Y lo importante no es tenerlo impreso: el instrumento insiste en que <em>el «Botón» es el mecanismo de reporte conocido por todos, no solo un elemento físico</em>. Dedica un minuto al inicio de la reunión a recordar qué es y cómo se usa. Un recordatorio constante afianza el autocuidado; un cartel que nadie sabe leer no sirve de nada.</div>
 
-                <div class="info-box">💻 <strong>Si la reunión es en línea</strong>, el bloque se amplía con cuatro verificaciones: que los protagonistas tengan acompañamiento parental según su edad, que <strong>todos los adultos</strong> presentes —sean o no del Movimiento— hayan hecho el curso <em>Estar Seguro en Línea</em>, que los protagonistas también lo hayan hecho, y qué estrategias de salvaguarda se tomaron. Entre ellas, la <strong>medida de protección 2+1</strong> de la Política —que la hoja llama «Estrategia 2+1»—: nunca un adulto a solas con un protagonista, tampoco en comunicaciones. La hoja trae los enlaces a los cursos y al formulario de reporte: no hay que buscarlos.</div>
+                <div class="info-box">💻 <strong>Si la reunión es en línea</strong>, el bloque se amplía con cuatro verificaciones: que los protagonistas tengan acompañamiento parental según su edad, que <strong>todos los adultos</strong> presentes —sean o no del Movimiento— hayan hecho el curso <em>Estar Seguro en Línea</em>, que los protagonistas también lo hayan hecho, y qué estrategias de salvaguarda se tomaron. Entre ellas, la <strong>práctica 2+1</strong> de la Política, una medida de protección: nunca un adulto a solas con un protagonista, tampoco en comunicaciones. La hoja trae los enlaces a los cursos y al formulario de reporte: no hay que buscarlos.</div>
 
                 <p>Y aquí paramos, a propósito. Este curso te enseña a <strong>preparar</strong> el entorno seguro de una reunión: que el mecanismo exista, que todos sepan usarlo, que los riesgos estén escritos. <strong>Qué hacer cuando un protagonista te revela un daño no es de este curso</strong> — se enseña completo en la línea Políticas Transversales, en <a href="https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/02-Plataforma-Web/adulto-garante-entorno-seguro.html" target="_blank" rel="noopener"><em>El Adulto como Garante: reportar, no investigar</em></a>. Enlazamos allá y no lo reexplicamos, para que esa conducta tenga una sola fuente en toda la plataforma. El <strong>Curso 25</strong> trabaja la otra cara: una unidad donde alguien se atreve a contar y donde todos saben por dónde se reporta.</p>
 
@@ -1605,18 +1669,34 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                     </div>
 
                     <div class="question">
-                        <h4>2. Al revisar la Hoja de Ruta, una jefa marca que el mecanismo de reporte está listo porque imprimió el formulario de reporte y lo pegó en la cartelera del salón. ¿Qué falta?</h4>
+                        <h4>2. Al revisar la Hoja de Ruta, una jefa marca que el mecanismo de reporte está listo: imprimió el formulario, lo pegó en la cartelera y dedicó el primer minuto de la reunión a explicar a todos qué es y cómo se usa. ¿Cómo lo ves?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q51">
-                            Falta registrar en la hoja la fecha de impresión del cartel y quién lo ubicó en la cartelera.
+                            Falta que el cartel diga «Botón A Salvo del Peligro», como lo nombra la hoja del chequeo.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q51">
-                            No falta nada: el instrumento pide que esté listo y al alcance, y el cartel cumple las dos cosas.
+                            Está bien: lo que pide el chequeo es que todos sepan qué es el mecanismo y cómo usarlo.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q51">
-                            Falta lo principal: que protagonistas, dirigentes y padres sepan qué es y cómo se usa.
+                            Está bien a medias: falta que cada protagonista lleve su copia impresa del formulario.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>3. Una Comunidad tendrá una reunión en línea con una bióloga invitada que no es del Movimiento. ¿Qué pide la hoja respecto a ella?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q52">
+                            Que figure como adulta externa; el curso Estar Seguro en Línea solo se les exige a los dirigentes del grupo.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q52">
+                            Nada adicional: con el acompañamiento parental de los protagonistas, una invitada externa queda cubierta.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q52">
+                            Que haya hecho el curso Estar Seguro en Línea, igual que todos los demás adultos presentes en la reunión.
                         </label>
                     </div>
 
@@ -1692,7 +1772,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q60">
-                            Que pueda calificarla con los trece criterios sin haberla hecho todavía con su propia unidad.
+                            Que vea primero el objetivo y la competencia, y así decida si la actividad encaja con su ciclo.
                         </label>
                     </div>
 
@@ -1700,7 +1780,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <h4>2. Al cerrar una salida, una jefa de Tropa pregunta a las patrullas: «¿les gustó?». Todos dicen que sí y ahí termina. ¿Qué se perdió?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q61">
-                            Las otras tres preguntas del ciclo, y con ellas lo que aprendieron y qué harán distinto.
+                            La parte del ciclo que faltó: las otras tres preguntas, con lo que aprendieron y qué harán distinto.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q61">
@@ -1709,6 +1789,22 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q61">
                             El registro escrito de la respuesta, que debía quedar en el campo de novedades de la ficha.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>3. En la evaluación cualitativa de una Ficha, un dirigente de Tropa anota qué conducta nueva mostró cada scout durante la actividad. ¿Cómo lo ves?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q62">
+                            Está bien: la evaluación cualitativa es justo el sitio para dejar lo que mostró cada scout.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q62">
+                            Fuera de lugar en ese campo: va en Novedades, que es donde la Ficha guarda lo inesperado.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q62">
+                            Fuera de lugar: la Ficha evalúa la actividad; lo de cada protagonista va al registro del Curso 13.
                         </label>
                     </div>
 
@@ -1785,6 +1881,22 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q71">
                             Que reparta las cinco fichas entre los dirigentes de su equipo, para que nadie cargue con todas.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>3. El miércoles, un dirigente nuevo te muestra su planeación del sábado: la Hoja de Ruta completa, con el entorno seguro revisado y el guion con horas, responsables y materiales. Te pregunta si ya puede dar la reunión por planeada. ¿Qué le respondes?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q72">
+                            Que sí: con responsables y materiales por momento, la reunión ya tiene lo que necesita para salir bien.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q72">
+                            Que tiene el qué va a pasar; le falta, al menos para la actividad principal, una Ficha que diga para qué.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q72">
+                            Que le falta la evaluación, que va arriba en la Hoja de Ruta y es lo que separa una reunión de una agenda.
                         </label>
                     </div>
 
@@ -1900,7 +2012,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
     };
 
     // --- Respuestas correctas (indice base 0) ---
-    var QUIZ_ANSWERS = {"2":[2,0],"3":[1,2],"4":[1,2],"5":[1,2],"6":[0,2],"7":[0,0],"8":[2,0]};
+    var QUIZ_ANSWERS = {"2":[2,0,1],"3":[1,2,0],"4":[1,2,1],"5":[1,2,2],"6":[0,1,2],"7":[0,0,2],"8":[2,0,1]};
 
 // ============================================
 // engine.linea.js — EXTENSIÓN de la línea Programa de Jóvenes

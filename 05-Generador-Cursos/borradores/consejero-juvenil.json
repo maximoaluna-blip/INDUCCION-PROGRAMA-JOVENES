@@ -3,29 +3,69 @@
   "title": "Consejero Juvenil",
   "subtitle": "Una silla en el Consejo, y la voz de todos los que no están",
   "description": "Para el Rover que ocupa —o va a ocupar— el asiento juvenil del Consejo de Grupo, del Consejo Scout Regional o del Consejo Scout Nacional, y para los adultos que lo acompañan. Cómo se llega a esa silla, qué se puede y se debe hacer en ella, a quién representas —a todos los niños y jóvenes, no solo al Clan—, qué te prohíbe el cargo y cómo se rinde cuentas a quienes te eligieron.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-04",
   "icon": "🪑",
-  "duration": "45 minutos",
+  "duration": "48 minutos",
   "level": 3,
   "levelName": "Especialización por cargo",
   "order": 19,
   "totalContentModules": 7,
   "achievements": [
-    { "id": "achievement-1", "emoji": "🗳️", "name": "Sé cómo se llega", "unlockOnModule": 2 },
-    { "id": "achievement-2", "emoji": "✋", "name": "Voto con todo", "unlockOnModule": 3 },
-    { "id": "achievement-3", "emoji": "👂", "name": "Llevo la voz de todos", "unlockOnModule": 4 },
-    { "id": "achievement-4", "emoji": "📋", "name": "Rindo cuentas", "unlockOnModule": 5 },
-    { "id": "achievement-5", "emoji": "⚖️", "name": "Cuido mi silla", "unlockOnModule": 6 },
-    { "id": "achievement-6", "emoji": "🤝", "name": "Acompaño sin hablar por él", "unlockOnModule": 7 },
-    { "id": "achievement-7", "emoji": "✅", "name": "Preparo mi primer Consejo", "unlockOnModule": 8 },
-    { "id": "achievement-8", "emoji": "⭐", "name": "Represento a los que no están", "unlockOnModule": -1 }
+    {
+      "id": "achievement-1",
+      "emoji": "🗳️",
+      "name": "Sé cómo se llega",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "emoji": "✋",
+      "name": "Voto con todo",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "emoji": "👂",
+      "name": "Llevo la voz de todos",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "emoji": "📋",
+      "name": "Rindo cuentas",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "emoji": "⚖️",
+      "name": "Cuido mi silla",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "emoji": "🤝",
+      "name": "Acompaño sin hablar por él",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
+      "emoji": "✅",
+      "name": "Preparo mi primer Consejo",
+      "unlockOnModule": 8
+    },
+    {
+      "id": "achievement-8",
+      "emoji": "⭐",
+      "name": "Represento a los que no están",
+      "unlockOnModule": -1
+    }
   ],
   "registration": {
     "motivationLabel": "¿Qué te trae a este curso?"
   },
   "commitmentBox": {
-    "prompt": "Escribe tu compromiso para tu tiempo en el asiento juvenil —o para acompañar a quien lo ocupa—:",
-    "placeholder": "Mi compromiso es..."
+    "prompt": "Escribe tu tarea para la próxima sesión: la rama cuya voz vas a buscar, por qué canal, y la pregunta que llevarás. Si acompañas, cómo harás que el consejero reciba los documentos a tiempo. Por ramas y cargos, no por nombres.",
+    "placeholder": "Para la sesión del …: voy a escuchar a la rama … por … Mi pregunta: …"
   },
   "certificate": {
     "courseName": "CONSEJERO JUVENIL",
@@ -41,7 +81,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~45 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
+          "text": "⏱️ <strong>~48 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con tres preguntas y hay que acertar las tres para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
         },
         {
           "type": "course-objectives",
@@ -177,7 +217,7 @@
         {
           "type": "list",
           "items": [
-            "<strong>Si el elegido no puede continuar</strong>, lo sustituye el Rover con la <strong>segunda mayor votación</strong>.",
+            "<strong>Si el elegido en la región o en la nación no puede continuar</strong>, lo sustituye el Rover con la <strong>segunda mayor votación</strong> en su asamblea Rover. En el Grupo la regla es otra: lo reemplaza el suplente que hayan elegido los Rovers, si lo eligieron.",
             "<strong>Si ya tienes un cargo regional</strong> —en el Consejo Regional, en la coordinación de la Red u otro— y te eligen para un cargo nacional, <strong>renuncias al regional</strong>."
           ]
         },
@@ -202,18 +242,27 @@
             "options": [
               "Que lo eligen los Rovers, pero el Consejo puede cambiarlo si no le parece el más responsable.",
               "Que lo designa la Asamblea de Grupo a propuesta del Jefe de Grupo, y no el Consejo, para darle más respaldo.",
-              "Que el Consejo no lo designa: lo eligen los Rovers inscritos en el Grupo, en votación, por un año."
+              "Que esa silla no la designa nadie: la deciden en votación los Rovers del Grupo, cada año."
             ],
             "correctIndex": 2
           },
           {
-            "text": "Un Rover es coordinador de la Red de Jóvenes de su región y la Asamblea Nacional Rover lo elige Consejero Juvenil Nacional. ¿Qué pasa con su cargo regional?",
+            "text": "En tu Grupo hay ocho Rovers y ninguno quiere postularse al Consejo de Grupo. El Jefe de Grupo propone que este año ocupe la silla el Jefe de Clan, «para que no quede vacía». ¿Qué le propones?",
             "options": [
-              "Que renuncia al cargo regional, porque el reglamento de la Red no le deja tener los dos.",
-              "Que conserva los dos: se complementan y le dan más información para llevar al Consejo Nacional.",
-              "Que renuncia al cargo nacional si la región lo necesita más, porque allí lo eligieron primero."
+              "Que no: la silla es de un Rover elegido por sus pares; mejor ayudar a los Rovers a llegar a la elección.",
+              "Aceptar por este año: el Jefe de Clan conoce a los jóvenes y la silla no se pierde mientras algún Rover se anima.",
+              "Que la ocupe el Rover más antiguo del Clan sin votación, para que al menos sea un joven quien se siente."
             ],
             "correctIndex": 0
+          },
+          {
+            "text": "A los cuatro meses de su periodo, la consejera juvenil regional se va a estudiar a otro país y renuncia. ¿Quién ocupa su silla en el Consejo Scout Regional?",
+            "options": [
+              "El Rover que designe el Consejo Scout Regional entre los candidatos de esa asamblea, hasta la próxima.",
+              "El Rover que obtuvo la segunda mayor votación en la Asamblea Regional Rover en la que ella fue elegida.",
+              "El Rover que elija la Red de Jóvenes de la región en su próxima reunión, para completar el periodo."
+            ],
+            "correctIndex": 1
           }
         ]
       }
@@ -270,11 +319,11 @@
           {
             "text": "El Consejo de Grupo va a decidir si traslada la sede a un salón más barato pero más lejos. El consejero juvenil piensa: «eso es de plata; que decidan los adultos». ¿Qué le conviene hacer?",
             "options": [
-              "Votar con la mayoría, porque en temas de dinero su aporte es menor y no conviene frenar al Consejo.",
-              "Preguntar cómo llegarían los lobatos y los scouts a la sede nueva, y votar, porque es su tema.",
-              "Abstenerse: su función es llevar las propuestas de los jóvenes, no la administración del Grupo."
+              "Preguntar cómo llegarían los lobatos y los scouts al salón y dejar constancia, sin votar: ahí su voz es consultiva.",
+              "Consultar antes al Clan, que es quien lo eligió, y votar en la sesión lo que decida la mayoría de los Rovers.",
+              "Preguntar cómo llegarían los lobatos y los scouts al salón nuevo, y votar el traslado con esa respuesta en mente."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "El día de la sesión, a la consejera juvenil de Grupo le llega un resumen de dos líneas del plan anual, «para que no se canse»; los demás tienen el documento completo desde hace una semana. ¿Qué le conviene hacer?",
@@ -284,6 +333,15 @@
               "Pedir el documento completo antes de votar, y avisar que lo necesita con la misma anticipación que el resto."
             ],
             "correctIndex": 2
+          },
+          {
+            "text": "Un consejero juvenil nacional recién elegido cree que el Consejo Scout Nacional solo prepara propuestas para la Asamblea, y que por eso su voto pesa poco durante el año. ¿Qué le respondes?",
+            "options": [
+              "Que el Consejo administra los asuntos de la Asociación, pero las decisiones de dirección esperan a la Asamblea.",
+              "Que el Consejo es, mientras la Asamblea no está reunida, el máximo órgano de dirección y gobierno.",
+              "Que el Consejo decide durante el año, pero sus decisiones solo valen cuando la Asamblea las ratifica."
+            ],
+            "correctIndex": 1
           }
         ]
       }
@@ -360,7 +418,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Son los cuatro <strong>niveles de participación</strong> que reconoce el <em>Modelo</em>. Tu silla en el Consejo es lo que el <em>Modelo</em> llama representar <em>«a sus pares en espacios institucionales»</em>: decides con los adultos. Pero la mayoría de los niños y jóvenes que representas participan en otros niveles, y tu trabajo es que lo que dicen allí <strong>llegue</strong> a donde tú estás."
+          "text": "Son los cuatro <strong>niveles de participación</strong> que reconoce el <em>Modelo</em>. Tu silla en el Consejo es lo que el <em>Modelo</em> describe, en la fase Profundizo, como representar <em>«a sus pares en espacios institucionales»</em>: decides con los adultos. Pero la mayoría de los niños y jóvenes que representas participan en otros niveles, y tu trabajo es que lo que dicen allí <strong>llegue</strong> a donde tú estás."
         },
         {
           "type": "paragraph",
@@ -382,19 +440,28 @@
             "text": "Un consejero juvenil regional prepara su primera intervención y consulta a los Rovers de la región por redes sociales. ¿Qué le falta a su consulta?",
             "options": [
               "Le falta poco: los Rovers son quienes lo eligieron y, por lo tanto, a quienes representa.",
-              "Una encuesta formal con más preguntas, para que los resultados sean representativos.",
-              "Llegar a los niños y adolescentes, por medio de las unidades y de sus dirigentes."
+              "Llegar a más Rovers con una encuesta formal, para que los resultados sean representativos.",
+              "Llegar a los niños y adolescentes, por medio de sus unidades y de sus dirigentes."
             ],
             "correctIndex": 2
           },
           {
-            "text": "Una dirigente de Manada recibe la pregunta del consejero juvenil: ¿qué preocupa a tu unidad? ¿Qué respuesta ayuda a que la voz de los lobatos llegue al Consejo?",
+            "text": "Un Viejo Lobo de la Manada recibe la pregunta del consejero juvenil: ¿qué preocupa a tu unidad? ¿Qué respuesta ayuda a que la voz de los lobatos llegue al Consejo?",
             "options": [
-              "Lo que ella y los demás dirigentes concluyeron sobre lo que los lobatos necesitan el próximo año.",
-              "Lo que los lobatos propusieron y eligieron en sus reuniones, aunque a ella le parezca menor.",
-              "Lo que le contaron, a la salida de la reunión, los dos o tres lobatos que más hablan con ella."
+              "Lo que él y los demás Viejos Lobos concluyeron sobre lo que los lobatos necesitan el próximo año.",
+              "Lo que los lobatos propusieron y eligieron en sus reuniones, aunque a él le parezca menor.",
+              "Lo que le contaron, a la salida de la reunión, los dos o tres lobatos que más hablan con él."
             ],
             "correctIndex": 1
+          },
+          {
+            "text": "En una Comunidad, los nómadas planean con sus dirigentes el proyecto de servicio y se reparten con ellos las tareas: unos consiguen el lugar, otros llevan la actividad. ¿En qué nivel de participación está?",
+            "options": [
+              "Activa: planean y ejecutan compartiendo la responsabilidad con los adultos.",
+              "Autónoma: el proyecto es de ellos y los adultos solo los apoyan y facilitan.",
+              "Consultiva: los adultos deciden después de escuchar lo que proponen los nómadas."
+            ],
+            "correctIndex": 0
           }
         ]
       }
@@ -464,11 +531,20 @@
           {
             "text": "A una consejera juvenil de Grupo le quedan dos meses de periodo, y dos de sus propuestas siguen en estudio en el Consejo. ¿Qué le conviene hacer?",
             "options": [
-              "Contárselas a su sucesor en una reunión de empalme, y dejar en el informe lo que el Consejo aprobó.",
+              "Dejarlas para una reunión de empalme con su sucesor, y poner en el informe lo que el Consejo aprobó.",
               "Dejarlas por escrito en su informe, con su estado, para que su sucesor las retome en el Consejo.",
-              "Pedir que el Consejo las vote antes de irse, aunque no hayan terminado su estudio."
+              "Pedir que el Consejo las vote antes de que ella se vaya, aunque no hayan terminado su estudio."
             ],
             "correctIndex": 1
+          },
+          {
+            "text": "Al terminar su año, el consejero juvenil regional prepara su informe de gestión y se pregunta ante quién lo presenta para que evalúen lo que hizo. ¿Ante quién?",
+            "options": [
+              "Ante la Asamblea Scout Regional, a la que el Consejo rinde cada año el informe de su gestión.",
+              "Ante el Consejo Scout Regional, del que es miembro y que aprueba los informes de sus consejeros.",
+              "Ante la Asamblea Regional Rover, que lo eligió y evalúa su gestión con los informes que recibe."
+            ],
+            "correctIndex": 2
           }
         ]
       }
@@ -561,6 +637,15 @@
               "Que no hace falta dar poder: el Rover con la segunda mayor votación lo reemplaza en la Asamblea."
             ],
             "correctIndex": 0
+          },
+          {
+            "text": "Un consejero juvenil regional milita en un partido y este año apoya a una candidata al concejo de su ciudad. ¿Qué le exige su cargo en el Consejo?",
+            "options": [
+              "Que mientras ocupe la silla no participe en ninguna campaña política, tampoco fuera de la Asociación.",
+              "Que puede hacer campaña como ciudadano, sin aprovechar su cargo, su posición ni sus relaciones.",
+              "Que haga su campaña solo desde sus cuentas personales, aunque se la comparta a los Rovers de la región."
+            ],
+            "correctIndex": 1
           }
         ]
       }
@@ -607,7 +692,7 @@
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y los adultos de la región.</strong> El Comisionado Regional Rover supervisa las asambleas Rover y avala sus actas; el Comisionado Regional de Programa de Jóvenes y el Jefe Scout Regional asisten con voz y sin voto. Su lugar en esas asambleas es de <strong>garantes</strong>: que la elección sea limpia y la voz sea de los jóvenes."
+          "text": "🌿 <strong>Y los adultos de la región.</strong> El Comisionado Regional Rover supervisa las asambleas Rover y avala sus actas; el Comisionado Regional de Programa de Jóvenes y el Jefe Scout Regional asisten con voz y sin voto. <strong>Ninguno de los tres vota</strong>: la elección es de los Rovers. El Comisionado Regional Rover cuida que se haga conforme al reglamento; los otros dos pueden opinar, no decidir."
         }
       ],
       "reflection": {
@@ -634,6 +719,15 @@
               "Presentándose él al Consejo como invitado, para defender la propuesta junto a ella."
             ],
             "correctIndex": 0
+          },
+          {
+            "text": "En la Asamblea Regional Rover, un Rover que asiste por primera vez ve sentado al Jefe Scout Regional y pregunta qué papel tiene ahí. ¿Qué le responde quien conoce el reglamento?",
+            "options": [
+              "Supervisa la asamblea y avala su acta, para que la elección se haga conforme al reglamento.",
+              "Asiste con voz y sin voto, como el Comisionado Regional de Programa de Jóvenes: opina, pero eligen los Rovers.",
+              "Asiste con voz y con voto de calidad, para desempatar si la elección queda igualada entre dos candidatos."
+            ],
+            "correctIndex": 1
           }
         ]
       }
@@ -682,7 +776,7 @@
             "options": [
               "Pedir el orden del día, leer los documentos y llevar una pregunta que recogió en otra rama.",
               "Pedir la palabra al inicio para presentar los proyectos que su Clan tiene para el año.",
-              "Pedir el orden del día, leer los documentos y llevar la pregunta que a él más le preocupa hoy."
+              "Llevar una propuesta escrita del Clan y apoyarla con los datos del último campamento de Grupo."
             ],
             "correctIndex": 0
           },
@@ -690,8 +784,17 @@
             "text": "En la Asamblea Regional Rover, Daniela les pregunta a los candidatos: ¿cómo vas a saber qué piensan los lobatos de la región? ¿Qué respuesta muestra que el candidato entendió de quién es la silla?",
             "options": [
               "«Voy a preguntarles a los Rovers de la región, que tienen hermanos lobatos y saben lo que les pasa.»",
-              "«Voy a pedir espacio en las reuniones de dirigentes de Manada de la región y traer lo que decidieron sus lobatos.»",
-              "«Voy a pedir espacio en la reunión de dirigentes de la Manada de mi Grupo y traer lo que decidieron sus lobatos.»"
+              "«Voy a pedir espacio en las reuniones de Viejos Lobos de la región y traer lo que decidieron sus lobatos.»",
+              "«Voy a hacer una encuesta en línea para que los lobatos de la región respondan desde la casa.»"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Un consejero adulto del Consejo de Grupo le pregunta al Jefe de Grupo qué puede hacer por el nuevo consejero juvenil antes de la próxima sesión. ¿Qué le recomienda la lección?",
+            "options": [
+              "Escribirle él mismo una intervención breve, para que el joven la lea si no se siente seguro.",
+              "Enviarle los documentos al mismo tiempo que a todos, y ofrecerse a prepararlos con él si él se lo pide.",
+              "Enviarle los documentos una semana antes que a los demás, marcando los puntos que tocan a los jóvenes."
             ],
             "correctIndex": 1
           }

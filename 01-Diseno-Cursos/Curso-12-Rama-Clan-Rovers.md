@@ -67,7 +67,7 @@ Ninguna se inventa ni se esconde. Las que el adulto va a encontrarse al leer los
 Al terminar, el adulto podrá:
 
 1. **Explicar qué cambia cuando el protagonista es mayor de edad**, y por qué aquí el dirigente se vuelve deliberadamente prescindible.
-2. **Usar la Ley del Rover** para conversar y no para juzgar, y saber que su Promesa tiene **dos fórmulas oficiales** y cuándo ofrecer cada una.
+2. **Usar la Ley del Rover** para conversar y no para juzgar, y **ofrecer** a cada Rover la fórmula de la Promesa que le corresponda (hay **dos fórmulas oficiales**).
 3. **Hacer funcionar el gobierno del Clan**: Consejo de Clan, Comité de Clan, carta constitutiva y clubes Rovers.
 4. **Usar el marco simbólico** —la Ciudadanía Activa— y sus símbolos, sin reducir el referente de inspiración a uno solo.
 5. **Acompañar un PARCE**: sus cuatro fases, qué exige cada una y en qué orden se entregan sus insignias.

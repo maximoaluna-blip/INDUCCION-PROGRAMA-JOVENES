@@ -82,7 +82,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
     - El territorio de la selva y las seis Sendas de la progresión.
     - Qué significa ser Viejo Lobo: facilitador, no jefe.
     - Las ceremonias de la Manada y el Gran Salto hacia la Tropa.
-6. **`mission-box`** — Invitación a pensar en un lobato real (o imaginado, si aún no tiene Manada) mientras avanza en las reflexiones.
+6. **`mission-box`** — Invitación a pensar en un lobato real (o imaginado, si aún no tiene Manada) mientras avanza en las reflexiones; además avisa: «De la próxima lección en adelante, cada una cierra con tres preguntas, y hay que acertar las tres para seguir. No es una trampa: si fallas, vuelves al párrafo y lo intentas otra vez, sin penalización.»
 
 **Reflexión:** ninguna en la intro (patrón establecido en el Curso 1).
 
@@ -105,7 +105,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
     - 🧠 **Una mente curiosa que quiere entender el mundo** — pregunta todo, varias veces, y necesita respuestas concretas, no abstractas.
     - 💛 **Un corazón sensible que necesita seguridad** — vive las emociones con intensidad; un ambiente predecible y cálido es condición, no lujo.
     - 🎭 **Fantasía y juego: su manera de aprender** — no juega *para después aprender*; jugando ya está aprendiendo.
-4. **`paragraph`** — Aplicación a Andrés: _"Cuando Andrés llegó a su primera reunión, no se sentó a escuchar una explicación de 10 minutos sobre qué es el escultismo. Se puso a cuatro patas a aullar con su seisena. Ese aullido —no la explicación— fue su primera lección de pertenencia."_
+4. **`paragraph`** — Aplicación a Andrés: _"Cuando Andrés llegó a su primera reunión, no se sentó a escuchar una explicación de 10 minutos sobre qué es el escultismo. Se puso a cuatro patas a aullar con toda la Manada. Ese aullido —no la explicación— fue su primera lección de pertenencia."_
 5. **`heading` (nivel 3)** — _"Cómo llega un niño a la Manada: la Ceremonia de Paso"_
 6. **`paragraph`** — Explicación de la transición de entrada: un cachorro de Familia no "se pasa" de un día para otro. Hay una **Ceremonia de Paso de Familia a Manada**, en la que es presentado a Akela por el Jefe de Grupo y acogido afectuosamente en la Manada. Es el primer ritual de pertenencia que va a vivir Andrés, y marca simbólicamente que entra a un territorio nuevo: la Selva.
 7. **`policy-quote`** — Cita textual de la Guía de Dirigente de Manada:
@@ -142,7 +142,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — Apertura (Variante B, preparación previa a la cita): _"Cuando Andrés dice que Akela lo va a acompañar en su próxima aventura, no está fingiendo un juego de disfraces. Está usando el único idioma que a los 7 años le permite entender ideas grandes como la lealtad o el cuidado mutuo."_
-3. **`info-box`** — Las tres capas del marco simbólico (Guía de Dirigente de Manada, Cap. 6.9, p. 30): _"En palabras simples: hay tres capas y vale la pena no mezclarlas. El **marco simbólico** de la Manada es **La Fantasía** — el aire que envuelve todo lo que pasa aquí. El **fondo motivador** es **El Libro de las Tierras Vírgenes**: las historias de donde salen Akela, Baloo y Bagheera. Y el **ambiente de referencia** son los **relatos fantásticos** que le dan sentido a cada aventura. La Familia de Cachorros comparte contigo el marco y el libro; lo que cambia es el tipo de relato y los personajes que cada rama se reserva."_
+3. **`info-box`** — Las tres capas del marco simbólico (Guía de Dirigente de Manada, Cap. 6.9, p. 30): _"En palabras simples: hay tres capas y vale la pena no mezclarlas. Según la Guía de Manada, el **marco simbólico** de la Manada es **La Fantasía** — el aire que envuelve todo lo que pasa aquí. El **fondo motivador** es **El Libro de las Tierras Vírgenes**: las historias de donde salen Akela, Baloo y Bagheera. Y el **ambiente de referencia** son los **relatos fantásticos** que le dan sentido a cada aventura. La Familia de Cachorros comparte contigo el marco y el libro; lo que cambia es el tipo de relato y los personajes que cada rama se reserva."_
 4. **`heading` (nivel 3)** — _"Los personajes que enseñan sin dar discursos"_
 5. **`method-grid`** — Personajes y elementos del marco simbólico (Guía de Dirigente de Manada, Cap. 6):
     - 🐺 **Akela** — la guía de la Manada, autoridad cercana y protectora.
@@ -203,7 +203,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
     - `source`: "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 5.2 — Organización, 'Liderazgo: Todos Aportan, Todos Crecen', pp. 26–27."
     - `label`: "📋 Ver el criterio oficial sobre liderazgo en la seisena"
 6. **`info-box`** — Reformulación accesible: _"En palabras simples: nadie es 'el líder de la seisena' de forma permanente. Hoy Andrés propone el juego; la próxima semana otro lobato de su seisena reparte las tareas. Todos experimentan guiar y ser guiados."_
-7. **`heading` (nivel 3)** — _"Aprender Haciendo: el otro elemento que se vive en la seisena"_
+7. **`heading` (nivel 3)** — _"Aprender Haciendo: otro elemento que se vive en la seisena"_
 8. **`paragraph`** — El Aprender Haciendo no es un lema decorativo: es la convicción de que el conocimiento no se recibe pasivamente, sino que se construye en la experiencia, la acción concreta y la reflexión que sigue a cada paso, a cada error y a cada descubrimiento. En la Manada esto se traduce en actividades que Andrés y su seisena viven, se equivocan, y de las que hablan después — no en explicaciones que escuchan sentados.
 9. **`heading` (nivel 3)** — _"El filtro DURASLID"_
 10. **`paragraph`** — Anclaje narrativo (H6 auditoría pedagógica): _"Antes de la próxima aventura de la seisena de Andrés, pásala por estas ocho letras:"_
@@ -261,7 +261,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
     - `text`: _"Las sendas serán los siguientes: Corporalidad - Senda del rastreador; Creatividad - Senda de la imaginación; Afectividad - Senda del corazón; Carácter - Senda del buen lobo; Sociabilidad: - Senda de la unidad; Espiritualidad - Senda del eco del bosque."_
     - `source`: "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 8.3 — El Esquema de Progresión en la Manada, p. 45."
     - `label`: "📋 Ver el esquema oficial de las seis Sendas"
-9. **`info-box`** — Reformulación accesible: _"En palabras simples: cada vez que Andrés supera un reto en una de las seis Sendas —no necesariamente al mismo ritmo en todas— avanza en su territorio de la selva. La insignia máxima de la rama se llama Plenitud de la Selva. Cuando un lobato profundiza en las seis áreas, alcanza además la fase máxima: Lobo Cazador de la Selva."_
+9. **`info-box`** — Reformulación accesible: _"En palabras simples: cada vez que Andrés supera un reto en una de las seis Sendas —no necesariamente al mismo ritmo en todas— avanza en su territorio de la selva. La insignia máxima de la rama se llama Plenitud de la Selva. Cuando un lobato llega al nivel de Profundización en las seis áreas, alcanza además la fase máxima: Lobo Cazador de la Selva."_
 10. **`info-box`** — Cierre operativo: _"En el Curso 13 del Nivel 2 (Seguimiento de la Progresión Personal) vas a aprender las técnicas concretas para observar y registrar este avance. Hoy solo guarda el mapa: seis Sendas, un ritmo propio para cada lobato."_
 
 **Reflexión:** _"Piensa en Andrés (o en un lobato real que acompañes). ¿En qué Senda dirías que está avanzando más rápido ahora mismo? ¿Y en cuál necesita más de tu acompañamiento? Nómbralas y escribe por qué."_
@@ -299,7 +299,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
     - `source`: "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Capítulo 4 — Aprender Haciendo, p. 19."
     - `label`: "📋 Ver el rol del Viejo Lobo textual"
 6. **`heading` (nivel 3)** — _"Firmeza con ternura"_
-7. **`paragraph`** — Ser Viejo Lobo no es ser permisivo ni distante. La Guía habla de **firmeza con ternura**: límites claros, sostenidos con calidez — no gritos ni castigos, pero tampoco ausencia de estructura. Un Viejo Lobo coherente y cercano crea el entorno seguro donde un lobato puede intentarlo, fallar, y volver a intentarlo sin miedo.
+7. **`paragraph`** — Ser Viejo Lobo no es ser permisivo ni distante. La Guía habla de **firmeza con ternura**: límites claros, sostenidos con calidez: sin gritos, sin humillaciones ni comparaciones, pero tampoco sin estructura — normas claras y conocidas, y consecuencias coherentes. Un Viejo Lobo coherente y cercano crea el entorno seguro donde un lobato puede intentarlo, fallar, y volver a intentarlo sin miedo.
 8. **`heading` (nivel 3)** — _"El Consejo de Roca: donde los lobatos deciden de verdad"_
 9. **`paragraph`** — El Involucramiento Comunitario en la Manada no significa que los lobatos asuman responsabilidades de adultos, sino que tengan oportunidades reales de opinar, decidir y actuar según su edad. El espacio formal donde esto ocurre es el **Consejo de Roca**: allí los lobatos comparten opiniones, proponen actividades y evalúan lo vivido, con Andrés y su seisena participando de verdad, no solo escuchando.
 10. **`info-box`** — Reformulación accesible: _"En palabras simples: si en tu Manada las decisiones importantes las tomas siempre tú, no hay Consejo de Roca — hay una clase con disfraz de lobo. El objetivo no es que los lobatos dirijan la Manada; es que experimenten, de verdad, su capacidad de aportar."_
@@ -332,8 +332,8 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — Apertura (Variante B): _"Ya viste cómo entra un lobato a la Manada (la Ceremonia de Paso) y cómo se organiza semana a semana (seisenas, Consejo de Roca). Falta ver cómo la Manada marca sus momentos importantes — y cómo, algún día, se despide de Andrés."_
-3. **`heading` (nivel 3)** — _"El Círculo de Roca: la única formación de la Manada"_
-4. **`paragraph`** — A diferencia de otras ramas, la Manada tiene una sola formación: el círculo, porque representa la unidad y requiere la presencia de todos. No tiene principio ni fin. Se llama, en dos pasos, Círculo de Roca y Círculo de Parada — y un detalle que sorprende a muchos dirigentes nuevos: **la Manada nunca se llama con silbato**. El llamado es siempre por voz, reuniendo a los lobatos alrededor de quien convoca.
+3. **`heading` (nivel 3)** — _"El círculo: la única formación de la Manada"_
+4. **`paragraph`** — A diferencia de otras ramas, la Manada tiene una sola formación: el círculo, porque representa la unidad y requiere la presencia de todos. No tiene principio ni fin. Se forma en dos pasos: Círculo de Roca y Círculo de Parada — y un detalle que sorprende a muchos dirigentes nuevos: **la Manada nunca se llama con silbato**. El llamado es siempre por voz, reuniendo a los lobatos alrededor de quien convoca.
 5. **`policy-quote`** — Cita textual sobre el llamado sin silbato:
     - `text`: _"[Los Lobatos se reúnen en] Círculo de Roca alrededor del Dirigente que hace dicho llamado. […] Vale la pena anotar que nunca serán llamados con silbatos […]"_
     - `source`: "Manual de Presentación y Buen Orden de la Manada (DNPJ), sección sobre el llamado y la formación de Manada."
@@ -342,7 +342,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 7. **`paragraph`** — Anclaje narrativo (H6 auditoría pedagógica): _"Además de la Ceremonia de Paso que ya vivió Andrés, la Manada marca otros momentos con ceremonias propias:"_
 8. **`list`** — Ceremonias de la Manada (Cap. 6.12):
     - **Ceremonia de Paso** — de Familia a Manada (ya vista en la Lección 2).
-    - **Ceremonia de Investidura** — el lobato ingresa oficialmente al Movimiento y a la Manada, asume su compromiso con símbolos y gestos sencillos.
+    - **Ceremonia de Investidura** — cierra la etapa de «Lobezno»: el niño que no venía de la Familia ingresa oficialmente al Movimiento y a la Manada, y asume su compromiso con símbolos y gestos sencillos.
     - **Ceremonia de Progresión Personal** — reconoce el crecimiento y esfuerzo del lobato en sus Sendas, sin comparar con los demás.
     - **El Gran Clamor** — más que una ceremonia en sí, es un elemento ceremonial que refuerza la unidad y da fuerza solemne a momentos como la Investidura y el Gran Salto.
 9. **`heading` (nivel 3)** — _"El Gran Salto: la despedida de Andrés"_

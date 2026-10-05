@@ -5,7 +5,7 @@
   "description": "Qué es Scouts por los ODS, por qué el Movimiento se comprometió con la Agenda 2030 y cómo se convierte un desafío en una oportunidad de aprendizaje de verdad: las cuatro iniciativas, los siete pasos del Modelo de Aplicación, las reglas de las insignias y los dos reconocimientos mundiales. Primero se lee el barrio; después se enlaza con el mundo. Para todo dirigente de unidad.",
   "contentVersion": "2026-10-04",
   "icon": "🌍",
-  "duration": "45 minutos",
+  "duration": "48 minutos",
   "level": 4,
   "levelName": "Transversales",
   "order": 21,
@@ -68,7 +68,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~45 minutos de lectura y quizzes</strong> — y unos 15 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
+          "text": "⏱️ <strong>~48 minutos de lectura y quizzes</strong> — y unos 15 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con tres preguntas y hay que acertar las tres para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
         },
         {
           "type": "course-objectives",
@@ -148,18 +148,27 @@
             "options": [
               "Que la charla puede servir, pero sola no basta: la EDS busca también lo socioemocional y lo que los scouts hacen.",
               "Que es un buen comienzo: la EDS arranca por lo cognitivo, y lo demás llega cuando ya se saben los 17 objetivos.",
-              "Que se salte la teoría: la EDS es acción pura, y los scouts aprenden los ODS únicamente haciendo proyectos."
+              "Que la charla ya cubre lo cognitivo y lo socioemocional: solo le falta cerrar con una acción para tocar lo conductual."
             ],
             "correctIndex": 0
           },
           {
             "text": "En la Manada de Luisa, un lobato pregunta para qué limpiar el parque de la sede si «el planeta es muy grande». ¿Qué respuesta va con lo que la Guía de Manada busca a esa edad?",
             "options": [
-              "Que el parque es solo el comienzo: lo que de verdad cuenta es la campaña grande que la Manada haga después.",
-              "Que su parque es parte del planeta, y que lo que un lobato hace ahí le importa a los niños que juegan en él todas las tardes.",
+              "Que el parque es solo el comienzo: lo que de verdad cuenta es la campaña grande que la Manada va a hacer después.",
+              "Que su parque también es parte del planeta, y lo que haga ahí les importa a los niños que juegan en él cada tarde.",
               "Que por eso la Manada empieza aprendiendo qué dice el ODS 15, para que la limpieza tenga sentido cuando la hagan."
             ],
             "correctIndex": 1
+          },
+          {
+            "text": "Al evaluar el desafío del parque, Luisa quiere saber si la Manada avanzó hacia la «ciudadanía activa global» que describe el Manual. ¿Qué observación lo muestra mejor?",
+            "options": [
+              "Que los lobatos ya saben nombrar varios de los 17 objetivos y explican con sus palabras qué busca la Agenda 2030.",
+              "Que un lobato siguió con cuidado, de principio a fin, cada una de las instrucciones que la Jefa dio en la jornada.",
+              "Que un lobato propuso por su cuenta guardar las envolturas en el bolsillo y cumplió lo que le prometió a su seisena."
+            ],
+            "correctIndex": 2
           }
         ]
       },
@@ -210,7 +219,7 @@
             },
             {
               "title": "💬 Socioemocional",
-              "description": "Colaborar, negociar, comunicarse, y la autorreflexión, los valores y las actitudes que mueven a actuar. Es lo que se aprende en la patrulla, no en la silla.",
+              "description": "Colaborar, negociar, comunicarse, y la autorreflexión, los valores y las actitudes que mueven a actuar. Es lo que se aprende haciendo con otros, no sentado en una silla.",
               "color": "#f3e5f5",
               "borderColor": "#8e24aa"
             },
@@ -262,9 +271,18 @@
           {
             "text": "Una dirigente busca en la biblioteca de la Asociación la guía del desafío «Constructores de Mentes», de Health Allies, y no la encuentra. ¿Qué es lo correcto?",
             "options": [
-              "Dar el desafío por inexistente: lo que no aparece publicado en la biblioteca de la Asociación no es oficial.",
+              "Armar el desafío con la Insignia de la Nutrición, que sí está en la biblioteca: es del mismo Health Allies.",
               "Preguntar a la comisión de Mundo Mejor de su región: el desafío existe, pero su guía todavía no está publicada.",
-              "Armar el desafío con materiales de internet y pedir después la insignia oficial a la Asociación, como con los otros."
+              "Preguntar a otro Grupo que ya lo hizo y armarlo con sus materiales, para pedir después la insignia oficial."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Preparando una reunión de dirigentes, una Jefa encuentra que el Manual de 2021 trae dos iniciativas, la Guía de Clan anuncia seis y este curso habla de cuatro. ¿Con qué mapa trabaja?",
+            "options": [
+              "Con las dos del Manual de 2021: es el documento propio de Mundo Mejor, y en este tema manda sobre las demás fuentes.",
+              "Con las cuatro del Modelo 2026: es el que rige el Programa, y el mapa siguió creciendo después del Manual de 2021.",
+              "Con las seis que anuncia la Guía de Clan: es el catálogo más amplio y reciente, y las otras fuentes se quedan cortas."
             ],
             "correctIndex": 1
           }
@@ -319,7 +337,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Si abres el <em>Manual de Implementación</em> de 2021, vas a ver solo <strong>dos</strong> iniciativas, y otras dos anunciadas «para 2022». No es un error: el catálogo creció después. También vas a notar que las Guías de rama escogen las que convienen a su edad —la de Comunidad propone dos, la de Manada una—, y la de Clan anuncia seis y describe cuatro. Cuando dos fuentes no coincidan en el número, guíate por el <em>Modelo</em> 2026, que es el documento rector más reciente y ordena el mapa en cuatro."
+          "text": "Si abres el <em>Manual de Implementación</em> de 2021, vas a ver solo <strong>dos</strong> iniciativas, y otras dos anunciadas «para 2022». No es un error: el catálogo creció después. También vas a notar que las Guías de rama escogen las que convienen a su edad —la de Comunidad propone dos, la de Manada una—, y la de Clan anuncia seis y describe cuatro. Cuando dos fuentes no coincidan en el número, guíate por el <em>Modelo</em> 2026, que es el documento rector y ordena el mapa en cuatro."
         },
         {
           "type": "heading",
@@ -363,6 +381,15 @@
               "Que la jornada no cuenta como desafío ODS: lo que vale es un proyecto de incidencia sostenido, no una limpieza puntual.",
               "Que no sobredimensione: la jornada vale por lo que aprendieron e hicieron allí, no por un titular más grande que ella.",
               "Que está bien motivar con frases grandes, siempre que los protagonistas sientan que su acción cambia el mundo entero."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Una Tropa termina de reforestar una ladera cerca de su sede, y el dirigente quiere que los scouts vean cómo eso se enlaza con los ODS. ¿Qué le propone el Modelo?",
+            "options": [
+              "Una sesión corta sobre el ODS 15 en la reunión siguiente, para que lo que vivieron en la ladera quede ordenado en conceptos.",
+              "Al cerrar, una frase que conecte la ladera con el objetivo de los ecosistemas, sin convertir el enlace en una clase.",
+              "Dejar el enlace para el informe que la unidad presenta a la región: en la actividad, los scouts solo deben vivir la experiencia."
             ],
             "correctIndex": 1
           }
@@ -414,7 +441,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Dos advertencias del <em>Modelo</em>, cortas y fáciles de olvidar. La primera: enlazar con los ODS <em>«sin convertirlo en cátedra»</em>, con una frase en el momento justo —«esto que hicimos conecta con reducir residuos»—, no con una clase. La segunda, del <em>Bolsillo</em>: cuidarse de <em>«sobredimensionar cualquier acción o ponerles un discurso grandilocuente a experiencias pequeñas»</em>. Una jornada en un parque puede tener un valor educativo profundo; no necesita salvar el planeta para valer."
+          "text": "Dos advertencias del <em>Modelo</em>, cortas y fáciles de olvidar. La primera: enlazar con los ODS <em>«sin convertirlo en cátedra»</em>, con una frase en el momento justo —«esta acción conecta con reducir residuos»—, no con una clase. La segunda, del <em>Bolsillo</em>: cuidarse de <em>«sobredimensionar cualquier acción o ponerles un discurso grandilocuente a experiencias pequeñas»</em>. Una jornada en un parque puede tener un valor educativo profundo; no necesita salvar el planeta para valer."
         },
         {
           "type": "paragraph",
@@ -437,7 +464,7 @@
           {
             "text": "La Manada de Luisa ya decidió que va a trabajar en el parque. Según los siete pasos del Modelo, ¿qué conviene definir primero?",
             "options": [
-              "Qué insignia van a solicitar: el paso siete pide registrarla, y tenerla clara desde el inicio le da rumbo.",
+              "Para qué insignia van a trabajar: el paso siete pide registrarla, y tenerla clara desde el inicio da rumbo.",
               "Para quién es el proyecto de la Manada y qué le van a entregar: sin destinatario real, el desafío se vacía.",
               "Con cuál de los 17 ODS conecta: es el marco, y ponerlo primero asegura que las actividades queden alineadas."
             ],
@@ -447,10 +474,19 @@
             "text": "Al cerrar el desafío de los plásticos, la Manada de Luisa quiere anotar en el portafolio de cada lobato las doce competencias educativas que «tocaron» en el parque. ¿Qué le sugieren los siete pasos?",
             "options": [
               "Que anote las doce: cuantas más competencias queden en el portafolio, más completo se ve el trabajo de la Manada.",
-              "Que no anote ninguna: en un desafío ODS se registra la insignia, y las competencias quedan para el ciclo de programa.",
-              "Que anote solo las pocas que eligieron al planear, las que el desafío de verdad movió, cada una en el nivel que mostró cada lobato."
+              "Que anote las que tocaron, pero todas en Exploro: en un primer desafío ningún lobato llega todavía a Aplico.",
+              "Que anote las pocas que eligieron al planear, cada una en el nivel que mostró cada lobato en el desafío."
             ],
             "correctIndex": 2
+          },
+          {
+            "text": "Una Tropa terminó de instalar puntos de reciclaje en su colegio. El dirigente propone mostrar el resultado en la ceremonia anual del Grupo, ante las familias. ¿Qué le recuerda el paso seis?",
+            "options": [
+              "Que la presenten ante la comisión de Mundo Mejor de la región, que decide si el desafío merece la insignia.",
+              "Que la presenten también ante quienes intervinieron o se beneficiaron —el colegio— y recojan sus impresiones.",
+              "Que la Tropa lleve además un informe escrito con las evidencias: el paso seis es documentar, y la ceremonia no basta."
+            ],
+            "correctIndex": 1
           }
         ]
       },
@@ -520,9 +556,9 @@
           {
             "text": "Una familia ofrece mandar a bordar las insignias de un desafío en un taller del barrio, para que toda la Manada las tenga el día de la ceremonia. ¿Qué le respondes?",
             "options": [
-              "Que se agradece, pero las insignias se adquieren por la Asociación o sus distribuidores, y las porta solo quien fue reconocido.",
-              "Que está bien si el taller las borda iguales a las de la Asociación: la insignia es la huella del desafío, y esa huella ya se ganó.",
-              "Que mejor no haya insignias: en la Manada el reconocimiento debe ser solo verbal, para que ningún lobato compita por ellas."
+              "Que se agradece, pero no se mandan a hacer: se adquieren a través de la Asociación o de sus distribuidores autorizados.",
+              "Que está bien si el taller las borda iguales a las de la Asociación: la insignia es la huella, y esa huella ya se ganó.",
+              "Que lo acepte, siempre que las porten solo los lobatos que la Comisión Nacional reconoció con su resolución y registro."
             ],
             "correctIndex": 0
           },
@@ -531,9 +567,18 @@
             "options": [
               "Que es buena idea: una insignia clara desde el comienzo es la meta que mantiene motivada a la Tropa todo el desafío.",
               "Que empiece por lo que quieren cambiar y para quién: la insignia llega al final, como huella de lo que aprendieron.",
-              "Que no pida insignias: si el reconocimiento es solo una huella, ya no hace falta solicitarlo ni entregarlo."
+              "Que la solicite apenas termine la jornada de limpieza: así la insignia premia el esfuerzo mientras está fresco."
             ],
             "correctIndex": 1
+          },
+          {
+            "text": "Un Rover de 19 años coordinó hace tres años un proyecto con su barrio y quiere postularse él mismo a Héroes Mensajeros de la Paz. ¿Qué le dices?",
+            "options": [
+              "No cabe así: no se admite la autonominación, y el proyecto tendría que ser de los últimos 24 meses.",
+              "Sí cabe: tiene entre 11 y 26 años y el proyecto ya terminó, que es lo que pide la nominación.",
+              "No cabe todavía: le falta registrar el proyecto en scout.org, y hecho eso ya puede postularse él mismo."
+            ],
+            "correctIndex": 0
           }
         ]
       },
@@ -621,20 +666,29 @@
           {
             "text": "Un dirigente anuncia: «Este año hacemos Scouts por los ODS: una actividad por cada uno de los 17 objetivos». ¿Qué le responderías?",
             "options": [
-              "Que es buena idea si reparte los objetivos entre las patrullas, para que cada una tenga el suyo y lo exponga al final.",
+              "Que es buena idea si reparte los objetivos entre los grupos pequeños de la unidad, y cada uno expone el suyo al final.",
               "Que mejor elija las cuatro iniciativas y haga una actividad de cada una, para que la unidad las conozca todas este año.",
               "Que la unidad elija con sus protagonistas una preocupación real y la trabaje a fondo: 17 actividades no son un desafío."
             ],
             "correctIndex": 2
           },
           {
-            "text": "Una Comunidad nota que en su colegio hay burlas contra estudiantes migrantes y quiere hacer algo. Según este curso, ¿por dónde empieza?",
+            "text": "La Manada escogió trabajar en el camino oscuro que va de la sede al colegio. Para ganar tiempo, la Jefa llega a la siguiente reunión con los criterios de calidad ya escritos. ¿Qué le sugieres?",
             "options": [
-              "Por entender bien lo que pasa y a quién le afecta, y luego ubicarlo en Mensajeros de la Paz, que trabaja la convivencia.",
-              "Por pedir la distinción de Mensajeros de la Paz, para que el proyecto tenga respaldo oficial al presentarse en el colegio.",
-              "Por una charla sobre el ODS 10 en la próxima reunión, para que todos entiendan la desigualdad antes de salir a actuar."
+              "Que traiga lo suyo —a quién podría servir y cómo hacerlo seguro— y acuerde los criterios con los lobatos.",
+              "Que está bien: a esa edad los criterios los redacta el adulto, y la Manada solo los aprueba en el Consejo de Roca.",
+              "Que los guarde para la presentación pública: los criterios se revisan al terminar, no se acuerdan al comienzo."
             ],
             "correctIndex": 0
+          },
+          {
+            "text": "Un dirigente nuevo terminó el Curso 25 de esta plataforma y quiere acompañar la jornada de un desafío de su unidad. Según el Manual de Implementación, ¿le basta?",
+            "options": [
+              "Le basta: el Curso 25 es A Salvo del Peligro aplicado al Programa, y cubre lo que pide el Manual.",
+              "Le falta algo: el Manual pide haber completado el curso oficial de A Salvo del Peligro, y el Curso 25 no lo reemplaza.",
+              "Le alcanza si va con otro adulto: el requisito del Manual es para quien dirige la jornada, no para quien acompaña."
+            ],
+            "correctIndex": 1
           }
         ]
       },
@@ -671,7 +725,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Tres desafíos de Mensajeros de la Paz tienen curso propio en esta línea, cada uno con su kit de acción: <a href=\"kit-constructores-paz.html\">Constructores de Paz</a> (Curso 22) y <a href=\"kit-heforshe-genero.html\">HeForShe</a> (Curso 23) y <a href=\"kit-patrimonito-patrimonio.html\">Patrimonito</a> (Curso 24), ya disponibles. Diálogos por la Paz y los desafíos de Tribu Tierra no tienen curso propio: si tu desafío es de uno de ellos, el <em>Manual de Implementación</em> los desarrolla en sus §4.2 y §5. Para el Diálogo Interreligioso, que el Manual no trae, pregunta a la comisión de Mundo Mejor de tu región. Y el <a href=\"a-salvo-del-peligro-programa.html\">Curso 25, A Salvo del Peligro aplicado al Programa</a>, ya está disponible. Y una condición que pone el propio Manual de Implementación: para acompañar cualquiera de sus actividades hay que haber completado A Salvo del Peligro, es decir, sus <strong>módulos oficiales</strong> (dónde están, en el <a href=\"mi-compromiso-programa-jovenes.html\">Curso 7, Lección 5</a>); el Curso 25 no los reemplaza, te ayuda a llevarlo a tu unidad."
+          "text": "Tres desafíos de Mensajeros de la Paz tienen curso propio en esta línea, cada uno con su kit de acción: <a href=\"kit-constructores-paz.html\">Constructores de Paz</a> (Curso 22) y <a href=\"kit-heforshe-genero.html\">HeForShe</a> (Curso 23) y <a href=\"kit-patrimonito-patrimonio.html\">Patrimonito</a> (Curso 24), ya disponibles. Diálogos por la Paz y los desafíos de Tribu Tierra no tienen curso propio: si tu desafío es de uno de ellos, el <em>Manual de Implementación</em> los desarrolla en sus §4.2 y §5. Para el Diálogo Interreligioso, que el Manual no trae, pregunta a la comisión de Mundo Mejor de tu región. Y el <a href=\"a-salvo-del-peligro-programa.html\">Curso 25, A Salvo del Peligro aplicado al Programa</a>, ya está disponible. Y una condición que pone el propio Manual de Implementación: para acompañar cualquiera de sus actividades hay que haber completado el <strong>curso oficial</strong> de A Salvo del Peligro (sus módulos y dónde están, en el <a href=\"mi-compromiso-programa-jovenes.html\">Curso 7, Lección 5</a>); el Curso 25 no lo reemplaza, te ayuda a llevarlo a tu unidad."
         },
         {
           "type": "mission-box",

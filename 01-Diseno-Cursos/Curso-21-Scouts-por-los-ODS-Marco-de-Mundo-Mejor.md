@@ -21,7 +21,7 @@ El plan lo titula *«Marco de Mundo Mejor y ODS»* y lo ancla en el *Manual de I
 
 ### Lo que este curso tiene que resolver (discrepancias registradas, no arbitradas)
 
-1. **Cuántas iniciativas.** Manual 2021: dos (Mensajeros de la Paz, Earth Tribe) y dos «desarrollo previsto para 2022». Guía de Comunidad: dos. *Modelo* 2026, *Bolsillo* y Guía de Clan: **cuatro**. El curso enseña las cuatro del *Modelo*, que es el documento rector más reciente, y **cuenta que el mapa creció**; no dice que la Guía de Comunidad esté «mal».
+1. **Cuántas iniciativas.** Manual 2021: dos (Mensajeros de la Paz, Earth Tribe) y dos «desarrollo previsto para 2022». Guía de Comunidad: dos. *Modelo* 2026, *Bolsillo* y Guía de Clan: **cuatro**. El curso enseña las cuatro del *Modelo*, que es el documento rector del Programa, y **cuenta que el mapa creció**; no dice que la Guía de Comunidad esté «mal».
 2. **Mundo Mejor / Scouts por los ODS.** No son sinónimos (glosario): el marco (2021) organiza; Scouts por los ODS es la propuesta que conecta el Programa con los ODS y es el nombre vigente del catálogo. El curso usa los dos, cada uno en su sitio.
 3. **Desafíos de Mensajeros de la Paz**: cuatro en el Manual, **cinco** en las Guías de Clan y Comunidad (se suma el **Diálogo Interreligioso**). Se cuentan los cinco con la fuente de cada uno.
 4. **Evidencias en redes sociales.** El Manual 2021 pedía publicarlas etiquetando a la Asociación (Scouts Go Solar, p. 52). El *Modelo* 2026 habla de *«fotos responsables»* y exige consentimiento para las imágenes (p. 82), y la Política ASP 2025 pide directrices para publicar imágenes de jóvenes (ítem 4). **El curso no enseña a publicar evidencias con menores**: remite al Curso 25.

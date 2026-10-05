@@ -1033,7 +1033,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                 <h2>🕊️ 🕊️ La paz se construye cada día <span id="welcomeName"></span></h2>
                 <div class="badge">Lección 1 de 7</div>
 
-                <div class="info-box">⏱️ <strong>~50 minutos de lectura y quizzes</strong> — y unos 15 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada.</div>
+                <div class="info-box">⏱️ <strong>~53 minutos de lectura y quizzes</strong> — y unos 15 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con tres preguntas y hay que acertar las tres para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada.</div>
 
                 <h3>🎯 Objetivos del Curso</h3>
 <ul>
@@ -1158,11 +1158,27 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q11">
-                            Dejarlo pasar: es un dicho de casa, y el desafío trata de la violencia del conflicto, no de refranes.
+                            Tomarlo como material para una actividad: en los dichos se aprende como normal una violencia.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q11">
-                            Tomar el refrán como material para una actividad: en los dichos se aprende como normal una violencia.
+                            Tomarlo como ejemplo de violencia directa, la que se ve, y trabajarlo con las frases de los dos murales.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>3. En la Manada, cada vez que se reparte el material de un juego, los lobatos mayores se quedan con lo mejor y a los nuevos les toca lo que sobra. Nadie se queja ni pelea. ¿Qué haría un dirigente que usa el Kit?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q12">
+                            Dejarlo así por ahora: si nadie se queja ni pelea, no hay un conflicto que trabajar, y abrirlo sería crear uno.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q12">
+                            Parar el juego y hacer que los mayores cedan lo mejor a los nuevos: la paz positiva pide justicia, y no puede esperar.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q12">
+                            Llevarlo a la Manada con el cuento del reparto de los 100 habitantes, y que ellos propongan cómo repartir.
                         </label>
                     </div>
 
@@ -1220,25 +1236,25 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>¿Cómo llegaría hoy un desafío a tu unidad: lo anunciarías tú o lo descubrirían los protagonistas? Describe en qué espacio de tu rama se acordaría el viaje y qué tendrías que soltar tú para que ese acuerdo sea de verdad mutuo.</p>
+                    <p>Recuerda la última actividad que tu unidad hizo porque tú la propusiste. ¿En qué espacio de tu rama se decidió y qué parte habrían podido decidir ellos?</p>
                     <textarea id="reflection-3" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(3, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
                     <h3>🧪 Mini-quiz Lección 3</h3>
 
                     <div class="question">
-                        <h4>1. Andrés quiere que su Tropa haga Constructores de Paz. Según el viaje que propone el Kit, ¿qué le toca hacer primero?</h4>
+                        <h4>1. A la Jefa de Manada le entusiasma Constructores de Paz. Según el viaje del Kit, ¿qué le toca hacer primero?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q20">
-                            Definir las actividades y el proyecto, y llevarlos a la Corte de Honor para que los guías los aprueben.
+                            Escoger ella las dos actividades y llevarlas al Consejo de Roca para que los lobatos las aprueben.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q20">
-                            Presentar la iniciativa y el desafío, para que los scouts lo descubran y digan si les interesa asumirlo.
+                            Contarles en el Consejo de Roca qué es el desafío y preguntarles si quieren asumirlo, y cómo.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q20">
-                            Pedir a cada scout la autoevaluación antes de contarles el desafío, para que nadie llegue influido por el adulto.
+                            Pasarles primero la autoevaluación, sin contarles aún el desafío, para que nadie llegue influido por el adulto.
                         </label>
                     </div>
 
@@ -1246,15 +1262,31 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <h4>2. Una Comunidad ya escogió sus tres actividades del Kit, y su dirigente no sabe cómo se reconocerá lo aprendido ni cómo se presentará al Grupo. ¿Dónde lo busca?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q21">
-                            Solo en el Kit: trae el procedimiento de la insignia y de la presentación, y el Modelo no se aplica a desafíos.
+                            En el Kit solamente: el desafío trae sus pasos, y mezclarlo con el Modelo lo vuelve un trámite más.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q21">
-                            En ninguno de los dos: los pasos de presentación pública son de los proyectos del Clan, no de un desafío de Comunidad.
+                            En ninguno de los dos: los pasos de presentación pública son de los proyectos del Clan, no de un desafío.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q21">
                             En los siete pasos del Modelo, con el Kit al lado: el desafío pone el tema y el Modelo lo vuelve aprendizaje.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>3. En el Consejo de Clan, los rovers escogen para el desafío una actividad que su dirigente ve insegura en el lugar donde la quieren hacer. ¿Qué le toca a él?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q22">
+                            Decirles qué riesgo ve y no dejarla así: buscar con ellos cómo hacerla segura o con qué reemplazarla.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q22">
+                            Respetar lo que voten: son mayores de edad, y el acuerdo del Consejo pesa más que la opinión del adulto.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q22">
+                            Cambiarla él por otra del Kit sin abrir el debate: en seguridad decide el adulto, y discutirlo es perder tiempo.
                         </label>
                     </div>
 
@@ -1351,6 +1383,22 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         </label>
                     </div>
 
+                    <div class="question">
+                        <h4>3. La Manada empezó Constructores de Paz y la dirigente de Familia no quiere que sus cachorros, de cinco y seis años, se queden por fuera. ¿Por dónde empieza?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q32">
+                            Esperar a que pasen a la Manada: Scouts por los ODS no tiene nada previsto para la Familia.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q32">
+                            Usar el documento propio de su rama que cita su Guía, Scouts por los ODS para las Familias de Cachorros.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q32">
+                            Adaptar las actividades más sencillas de la Manada, sin la autoevaluación, que el Kit pide desde los siete.
+                        </label>
+                    </div>
+
                     <button class="btn" onclick="checkQuiz(4)" id="checkBtn-4">Verificar Respuestas</button>
                     <button class="btn hidden" onclick="completeModule(4)" id="nextBtn-4">Continuar a las actividades 🛠️</button>
                 </div>
@@ -1430,6 +1478,22 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         </label>
                     </div>
 
+                    <div class="question">
+                        <h4>3. Un dirigente de Tropa va a usar «Dejar salir todo» tal como viene, porque «si está en el Kit, ya está probada». ¿Qué le falta?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q42">
+                            Prepararla él con tiempo y dejarla lista, para que los scouts la encuentren adaptada y solo tengan que jugarla.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q42">
+                            Nada de fondo: las actividades del Kit ya pasaron por el filtro de seguridad e inclusión antes de publicarse.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q42">
+                            Prepararla con los scouts: traducir lo que viene de la escuela y pasarla por DURASLID, que no viene de fábrica.
+                        </label>
+                    </div>
+
                     <button class="btn" onclick="checkQuiz(5)" id="checkBtn-5">Verificar Respuestas</button>
                     <button class="btn hidden" onclick="completeModule(5)" id="nextBtn-5">Continuar a la memoria 🤲</button>
                 </div>
@@ -1467,7 +1531,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
                 <p>Una advertencia más: tu papel no es el de un terapeuta, y ni el Kit ni la Política te lo piden. Cuidar el espacio, escuchar y saber a quién acudir es lo que te toca.</p>
 
-                <p>Andrés prepara la línea de tiempo con estos cuidados: manda una nota a las familias, empieza por los hitos del municipio —la fiesta patronal, la carretera, la escuela nueva— y deja claro que cada uno cuenta lo que quiera. A mitad de la actividad, un scout dice que su familia llegó desplazada, y se queda callado. Andrés le agradece, no le pregunta más frente a la Tropa y le dice que puede contar algo cuando quiera y con quien quiera. Lo dijo por decisión propia y como la historia de su familia: no cuenta nada que le esté pasando ni da señales de estar solo con eso. Si Andrés notara algo, o dudara, sabe el camino: reportar y dejar que el Comité decida.</p>
+                <p>Andrés prepara la línea de tiempo con estos cuidados: manda una nota a las familias, empieza por los hitos del municipio —la fiesta patronal, la carretera, la escuela nueva— y deja claro que cada uno cuenta lo que quiera. A mitad de la actividad, un scout dice que su familia llegó desplazada, y se queda callado. Andrés le agradece, no le pregunta más frente a la Tropa y le dice que, si algún día quiere contar algo, puede hacerlo cuando quiera y con quien él escoja; si es con Andrés, será con otro adulto presente, como siempre. Lo dijo por decisión propia y como la historia de su familia: no cuenta nada que le esté pasando ni da señales de estar solo con eso. Si Andrés notara algo, o dudara, sabe el camino: reportar y dejar que el Comité decida.</p>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
@@ -1489,7 +1553,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q50">
-                            Sigue con la actividad sin comentar lo que dijo, con cuidado de no hacer más grande el tema ni exponerla ante su equipo.
+                            Para la actividad y la lleva aparte, con otro adulto presente, para que cuente su historia sin el equipo delante.
                         </label>
                     </div>
 
@@ -1506,6 +1570,22 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q51">
                             Decirle con delicadeza que no puede prometerle silencio, y reportar por el botón: el Comité define los pasos.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>3. La Manada va a hacer «Los mapas», que pide ubicar en el municipio las huellas de la violencia. ¿Cómo la prepara su dirigente?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q52">
+                            Manda una nota a las familias y la hace como viene, con cada lobato ubicando y contando la huella que conoce.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q52">
+                            Avisa antes a las familias y empieza por la resistencia y las iniciativas de la comunidad, sin pedir historias.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q52">
+                            La deja para cuando sean más grandes: con niños de esa edad, cuidar la memoria es no tocarla todavía.
                         </label>
                     </div>
 
@@ -1593,6 +1673,22 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q61">
                             Que se puede celebrar, pero sin volver a la autoevaluación: ya la hicieron al comienzo y mostraría lo mismo.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>3. Un rover de 19 años lideró el proyecto de su Clan, y sus compañeros creen que merece ser Héroe Mensajero de la Paz. ¿Qué les dices?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q62">
+                            Que él mismo se postule, con el aval del Consejo de Clan: quien lideró el proyecto es quien lo presenta.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q62">
+                            Que no se puede: Héroes Mensajeros de la Paz es para menores de 18, y a su edad lo que sigue es Scouts del Mundo.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q62">
+                            Que pueden nominarlo ellos —él no puede hacerlo por sí mismo— y que la comisión de Mundo Mejor dice cómo.
                         </label>
                     </div>
 
@@ -1707,7 +1803,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
     };
 
     // --- Respuestas correctas (indice base 0) ---
-    var QUIZ_ANSWERS = {"2":[1,2],"3":[1,2],"4":[1,0],"5":[1,1],"6":[1,2],"7":[1,0]};
+    var QUIZ_ANSWERS = {"2":[1,1,2],"3":[1,2,0],"4":[1,0,1],"5":[1,1,2],"6":[1,2,1],"7":[1,0,2]};
 
 // ============================================
 // engine.linea.js — EXTENSIÓN de la línea Programa de Jóvenes

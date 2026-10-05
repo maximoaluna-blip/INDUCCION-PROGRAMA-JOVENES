@@ -3,9 +3,9 @@
   "title": "Acompañar la Progresión Personal",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Del día que un protagonista llega a tu unidad al día que pasa a la siguiente rama. Cómo recibirlo, dejarlo elegir su camino, ajustar tu papel competencia por competencia, cuidar su ritmo, reconocer lo que aprendió y acompañar su paso — sin que la progresión se vuelva una carrera colectiva. Para todo dirigente de unidad, tenga el cargo que tenga.",
-  "contentVersion": "2026-10-02",
+  "contentVersion": "2026-10-04",
   "icon": "👣",
-  "duration": "50 minutos",
+  "duration": "53 minutos",
   "level": 3,
   "levelName": "Especialización por cargo",
   "order": 17,
@@ -74,7 +74,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~50 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
+          "text": "⏱️ <strong>~53 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con tres preguntas y hay que acertar las tres para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
         },
         {
           "type": "course-objectives",
@@ -224,7 +224,7 @@
             "options": [
               "Investirlo ese sábado: la pañoleta lo hará sentirse parte y así llega al campamento integrado.",
               "Que vaya al campamento como está: la investidura llega cuando haya vivido la etapa y la pida.",
-              "Pedirle al papá que esta semana le enseñe la Ley en casa, para investirlo al volver del campamento."
+              "Que el papá le enseñe la Ley en casa esta semana, para investirlo al volver del campamento."
             ],
             "correctIndex": 1
           },
@@ -232,10 +232,19 @@
             "text": "Llega a la Tropa un scout que viene de la Manada de tu mismo Grupo. Un dirigente dice: «Este ya es scout, que se salte la adaptación». ¿Qué le respondes?",
             "options": [
               "Que tiene razón: la etapa de adaptación es solo para quien llega al Movimiento por primera vez.",
-              "Que también la vive: llega a otra rama, con otro marco simbólico, y eso se conoce antes de comprometerse.",
-              "Que la vive desde cero, como quien nunca fue scout, porque en la Tropa todo el camino empieza de nuevo."
+              "Que la vive desde cero, como quien nunca fue scout, porque en la Tropa todo el camino empieza de nuevo.",
+              "Que también la vive: llega a otra rama, con otro marco simbólico, y eso se conoce antes de comprometerse."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
+          },
+          {
+            "text": "Una scout nueva en la Tropa llega cada sábado sin entender las palabras de su patrulla, y su mamá pregunta cómo puede ayudarla en estas primeras semanas. ¿Qué le propones?",
+            "options": [
+              "Que en casa le pregunte por lo que vive en su patrulla y por los símbolos que va conociendo.",
+              "Que espere a la investidura para involucrarse: en esta etapa le toca al equipo de dirigentes.",
+              "Que la deje en la puerta unas semanas, para que se integre a su patrulla sin apoyarse en ella."
+            ],
+            "correctIndex": 0
           }
         ]
       }
@@ -267,7 +276,7 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "La conversación de uno a uno"
+          "text": "La conversación con cada protagonista"
         },
         {
           "type": "paragraph",
@@ -285,7 +294,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Hernán hizo eso con Sofía después de una salida al parque: le contó lo que había visto —que había reconocido tres plantas y se las había enseñado a su seisena—, le preguntó qué quería probar después, y le dio dos opciones. Sofía escogió hacer un pequeño herbario con su seisena. Esa semana su mamá le ayudó a prensar las hojas en casa."
+          "text": "Hernán hizo eso con Sofía después de una salida al parque, en medio de la seisena: le contó lo que había visto —que había reconocido tres plantas y se las había enseñado a su seisena—, le preguntó qué quería probar después, y le dio dos opciones. Sofía escogió hacer un pequeño herbario con su seisena. Esa semana su mamá le ayudó a prensar las hojas en casa."
         },
         {
           "type": "info-box",
@@ -297,18 +306,18 @@
         }
       ],
       "reflection": {
-        "prompt": "Elige a un protagonista de tu unidad —piénsalo con nombre, en tu cabeza; aquí no hace falta escribirlo—. ¿Quién decidió la última competencia o reto en el que trabajó: él, su grupo, o el equipo de dirigentes? Escribe ahora dos o tres opciones que le podrías ofrecer para su siguiente paso a partir de algo que a él le interese de verdad, y cuándo vas a tener esa conversación."
+        "prompt": "Elige a un protagonista de tu unidad —piénsalo con nombre, en tu cabeza; aquí no hace falta escribirlo—. ¿Quién decidió la última competencia o reto en el que trabajó: él, su grupo, o el equipo de dirigentes? Escribe ahora dos o tres opciones que le podrías ofrecer para su siguiente paso a partir de algo que a él le interese de verdad, y cuándo vas a tener esa conversación —en la reunión, a la vista de otros—."
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",
         "nextLabel": "Continuar a los tres roles 🔄",
         "questions": [
           {
-            "text": "En la Tropa, Mateo, de trece años, llega entusiasmado con una idea: una emisora de radio comunitaria. Su dirigente tenía pensado que este semestre todos trabajaran territorios de otra Ruta —así llama la Tropa a sus competencias y a sus áreas—. ¿Qué hace el dirigente?",
+            "text": "En la Tropa, Mateo, de trece años, llega entusiasmado con una idea: una emisora de radio comunitaria. Su dirigente tenía pensado que este semestre todos trabajaran otros territorios —así llama la Tropa a sus competencias—. ¿Qué hace el dirigente?",
             "options": [
               "Le pide que primero cierre lo que trabaja su patrulla, y que la radio espere al otro semestre.",
               "Le ayuda a ver qué territorios de su rama toca la radio y le ofrece dos o tres formas de empezar.",
-              "Lo deja arrancar solo con la radio, sin conversarlo: el camino lo elige él y tú no debes intervenir."
+              "Lo deja arrancar con la radio y espera a que él pida ayuda: el camino lo elige él, no el dirigente."
             ],
             "correctIndex": 1
           },
@@ -320,6 +329,15 @@
               "«Estuviste muy bien en la salida. Sigue así y pronto vas a tener tu próxima insignia de la Manada.»"
             ],
             "correctIndex": 0
+          },
+          {
+            "text": "Una nómada lleva tiempo profundizando en música: ya toca en eventos del barrio y se le nota que es lo suyo. Su mamá pregunta cómo puede ayudarla desde casa en esa competencia. ¿Qué le sugieres?",
+            "options": [
+              "Que le ofrezca información y experiencias de su entorno, para que conozca más de la música.",
+              "Que refuerce en casa la constancia y la responsabilidad que la música le está exigiendo.",
+              "Que la apoye en proyectar la música hacia una vocación, un liderazgo o un servicio."
+            ],
+            "correctIndex": 2
           }
         ]
       }
@@ -385,7 +403,7 @@
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y en tu rama, las fases.</strong> Cada Guía nombra las suyas. <strong>Familia:</strong> son <strong>tres</strong> —Mirada de Raksha, Aullido de Papá Lobo y Fuerza del Cubil—, no las cuatro que menciona el <em>Modelo</em>; en Familia manda su Guía. Además, allí no se trabaja por competencias sino por <strong>cinco dimensiones</strong>, y los niveles se llaman <strong>Reconoce, Expresa y Comparte</strong>. La regla es la misma: el nivel, y tu rol, se miran dimensión por dimensión. <strong>Tropa:</strong> los niveles se llaman <strong>Descubro, Construyo y Conquisto</strong>, y las competencias, territorios. <strong>En las cuatro ramas restantes:</strong> busca sus fases en el capítulo de progresión de tu Guía y en el curso de tu rama. Y así se ve la relación entre las dos cosas: cada Guía define sus fases contando cuántas áreas (en Familia, dimensiones; en Tropa, territorios) tiene el protagonista en cada nivel. La fase es un resumen de muchos niveles."
+          "text": "🌿 <strong>Y en tu rama, las fases.</strong> Cada Guía nombra las suyas. <strong>Familia:</strong> son <strong>tres</strong> —Mirada de Raksha, Aullido de Papá Lobo y Fuerza del Cubil—, no las cuatro que menciona el <em>Modelo</em>; en Familia manda su Guía. Además, allí no se trabaja por competencias sino por <strong>cinco dimensiones</strong>, y los niveles se llaman <strong>Reconoce, Expresa y Comparte</strong>. La regla es la misma: el nivel, y tu rol, se miran dimensión por dimensión. <strong>Tropa:</strong> los niveles se llaman <strong>Descubro, Construyo y Conquisto</strong>, y las competencias, territorios. <strong>En las cuatro ramas restantes:</strong> busca sus fases en el capítulo de progresión de tu Guía y en el curso de tu rama. Y así se ve la relación entre las dos cosas: cada Guía define sus fases contando cuántas áreas tiene el protagonista en cada nivel (en Familia cuenta dimensiones; la de Tropa cuenta territorios —o sea, competencias— y, para su fase máxima, las seis Rutas). La fase es un resumen de muchos niveles."
         }
       ],
       "reflection": {
@@ -405,13 +423,22 @@
             "correctIndex": 0
           },
           {
-            "text": "En la reunión del equipo de dirigentes alguien dice: «Tomás ya está en Profundizo». ¿Qué pregunta conviene hacer antes de decidir cómo acompañarlo?",
+            "text": "En la Tropa, Andrés acaba de recibir la insignia de su nueva fase de progresión. En la reunión de dirigentes alguien dice: «Entonces ya está en Conquisto: toca enlazarlo». ¿Qué le respondes?",
             "options": [
-              "«¿En qué competencia?», porque los niveles se ven competencia por competencia.",
-              "«¿Desde cuándo?», porque el nivel depende del tiempo que lleva en la rama.",
-              "«¿Qué fase tiene?», porque el nivel se deduce de la fase de progresión."
+              "Que no se deduce así: la fase resume muchos niveles, y en cada territorio puede ir en uno distinto.",
+              "Que sí: cada fase de la Tropa equivale a uno de sus niveles, y con ella cambia tu rol en todo.",
+              "Que no todavía: Conquisto llega con la última fase de la rama, y antes de eso toca acompañarlo."
             ],
             "correctIndex": 0
+          },
+          {
+            "text": "Un scout ya organiza con su patrulla la cocina en cada salida: arma el menú y reparte las tareas, y a veces se le quema el arroz. ¿Qué te toca a ti en esa competencia?",
+            "options": [
+              "Te toca enlazarlo: como ya lo hace en cada salida, conectarlo con un cocinero o con un curso externo.",
+              "Te toca apoyarlo: explicarle el propósito de cada salida y ayudarle con los primeros obstáculos.",
+              "Te toca acompañarlo: observar, preguntarle y darle retroalimentación, dejando que él lleve el proceso."
+            ],
+            "correctIndex": 2
           }
         ]
       }
@@ -484,20 +511,29 @@
           {
             "text": "En la reunión de dirigentes de una Tropa, alguien propone publicar en la sede una tabla con el avance de cada scout «para motivarlos». ¿Qué propones tú?",
             "options": [
-              "Aceptarlo: la rivalidad sana entre patrullas impulsa el avance de todos.",
-              "Evitarlo: centrar la mirada en la evolución de cada uno, sin comparar.",
-              "Cambiarla por una tabla solo de fases, que muestra el avance sin detallar competencias."
+              "Evitarla: centrar la mirada en la evolución de cada scout, sin compararlo con nadie.",
+              "Evitarla como tabla individual y hacerla por patrullas, para que la rivalidad sea sana.",
+              "Cambiarla por una tabla solo de fases, que muestre el avance sin detallar competencias."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "Una lobata que siempre llegaba feliz lleva tres semanas callada, no quiere jugar y pide irse temprano. ¿Qué le toca a su dirigente?",
             "options": [
               "Tomarlo como un bajón de ritmo: aflojarle las exigencias de su progresión unas semanas y ver.",
-              "Tomarlo como una señal: comentarlo con su equipo y su Jefe, y remitir si hay indicios de riesgo.",
-              "Hablar a fondo con ella a solas hasta que le cuente qué le pasa y resolverlo directamente."
+              "Tomarlo como una señal: avisar a su Jefe de Rama y de Grupo, y reportar si hay indicios de riesgo.",
+              "Hablar con su familia y resolverlo con ellos, sin alarmar todavía al resto del equipo."
             ],
             "correctIndex": 1
+          },
+          {
+            "text": "En una Tropa hay un scout con baja audición. Los juegos de su patrulla usan señales con silbato y él casi no logra participar. ¿Qué le toca al equipo de dirigentes?",
+            "options": [
+              "Adaptar su progresión: que se salte esos juegos y avance en otras competencias, sin exponerlo.",
+              "Dejar los juegos como están y darle más tiempo que al resto, para no tratarlo distinto a los demás.",
+              "Adaptar los juegos —señales visuales, un compañero de patrulla— para que tenga acceso real a ellos."
+            ],
+            "correctIndex": 2
           }
         ]
       }
@@ -543,7 +579,7 @@
             "<strong>Ceremonia de paso</strong> — al transitar de una unidad a otra.",
             "<strong>Reconocimientos cotidianos</strong> — felicitaciones y gestos de aprecio durante las actividades.",
             "<strong>Reconocimientos simbólicos intermedios</strong> — insignias o menciones asociadas a competencias o avances.",
-            "<strong>Reconocimientos de fase o de progresión mayor</strong> — el paso de una fase a otra o la culminación en la rama.",
+            "<strong>Reconocimientos de fase o de progresión mayor</strong> — el paso de un nivel a otro (aquí el <em>Modelo</em> los llama fases: Exploro, Aplico, Profundizo) o la culminación de la progresión en la rama.",
             "<strong>Reconocimientos colectivos</strong> — el trabajo del grupo natural.",
             "<strong>Reconocimientos de impacto externo</strong> — proyectos comunitarios, ambientales o sociales."
           ]
@@ -585,17 +621,26 @@
             "text": "En la ceremonia de fin de ciclo de un Clan, el dirigente anuncia: «Camila completó cuatro insignias este año, ¡un récord!». ¿Qué le sugieres?",
             "options": [
               "Que es un buen reconocimiento, porque hace visible el esfuerzo con un dato concreto.",
-              "Que nombre qué aprendió Camila y con qué evidencia, en vez de contar sus insignias.",
-              "Que quite lo del récord para no comparar, y diga solo que completó cuatro insignias."
+              "Que quite lo del récord para no comparar, y diga solo que completó cuatro insignias.",
+              "Que nombre qué aprendió Camila y con qué evidencia, en vez de contar sus insignias."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "Una patrulla terminó con su barrio un proyecto de reciclaje. En la reunión de dirigentes hay tres propuestas para reconocerlo. ¿Cuál tiene más sentido?",
             "options": [
-              "Darle a cada scout una insignia de reciclaje, para que el proyecto quede en su progresión.",
               "Invitar al barrio a que la patrulla cuente lo que logró, y nombrar lo que aprendieron juntos.",
-              "Entregarle a la patrulla un banderín por ser la que más proyectos terminó en todo el año."
+              "Darle a cada scout una insignia de reciclaje, para que el proyecto quede en su progresión.",
+              "Que el Jefe de Tropa lo presente ante el barrio en nombre de la patrulla y entregue los diplomas."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El equipo de una Comunidad solo reconoce los avances en las dos ceremonias del año, «para que tengan peso». Entre una y otra, los nómadas dicen que nadie nota lo que hacen. ¿Qué le propones al equipo?",
+            "options": [
+              "Mantener las dos ceremonias y darles más tiempo, para nombrar en ellas a cada nómada con su evidencia.",
+              "Mantener las ceremonias y sumar reconocimientos cotidianos: una palabra a tiempo que nombre lo visto.",
+              "Mantener las dos ceremonias y añadir entre ellas una mención mensual al equipo que más avanzó."
             ],
             "correctIndex": 1
           }
@@ -703,18 +748,27 @@
           {
             "text": "Un scout cumple catorce años y medio. En la reunión del equipo de dirigentes de la Tropa hay tres propuestas. ¿Cuál acompaña el paso como lo pide la transición?",
             "options": [
-              "Que pase a la Comunidad al cierre del ciclo, con todos los de su edad, para no partir el año.",
               "Que empiece a compartir con la Comunidad sin dejar su patrulla, y que dos equipos acompañen el paso.",
+              "Que pase a la Comunidad al cierre del ciclo, con todos los de su edad, para no partir el año.",
               "Que siga en la Tropa sin fecha hasta que él diga que quiere pasar, porque el camino lo elige él."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
-            "text": "Un nómada pasa al Clan. El equipo de la Comunidad no ha hablado con el del Clan: «que lo conozcan allá». ¿Qué parte de la transición se están saltando?",
+            "text": "Un nómada pasa al Clan. Su despedida en la Comunidad fue emotiva y la ceremonia de paso salió bien, pero en su primer mes los dirigentes del Clan le proponen empezar «desde lo básico». ¿Qué parte de la transición falló?",
             "options": [
-              "La ceremonia de paso, que es la que presenta al nómada ante el Clan que lo recibe.",
-              "Coordinar con el equipo que recibe para que lo acoja sabiendo el camino que ya recorrió.",
-              "Coordinar con su equipo de la Comunidad, que es el que debe presentarlo ante el Clan."
+              "La ceremonia de paso, que debió presentarlo mejor ante el Clan que lo recibe.",
+              "Su preparación: debió quedarse más tiempo en la Comunidad antes de pasar.",
+              "La coordinación entre los dos equipos: el Clan no sabía el camino que él ya traía."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Una nómada cumple diecisiete años y medio. Le dice a su dirigente que no se siente lista y que prefiere quedarse un año más en la Comunidad. ¿Qué le responde?",
+            "options": [
+              "Que puede quedarse: la transición no tiene un calendario fijo, y el acompañamiento decide cuándo cruza.",
+              "Que al Clan se entra al cumplir los 18, y que su transición se acompaña desde ahora, a su ritmo.",
+              "Que siga en la Comunidad hasta los 18, y que ese día empiece en el Clan su etapa de transición."
             ],
             "correctIndex": 1
           }
@@ -788,7 +842,7 @@
         },
         {
           "type": "mission-box",
-          "text": "🎯 <strong>Tu tarea para las próximas dos semanas.</strong> Elige <strong>un protagonista</strong> de tu unidad, con nombre. Escribe en qué <strong>etapa</strong> está —adaptación, progresión o transición—, <strong>dos competencias</strong> (en Familia, dos dimensiones) en las que trabaja con el nivel de cada una y <strong>tu rol</strong> en cada una. Después ponle <strong>fecha a una conversación</strong> con él: esto hiciste, así se vio, ¿qué quieres probar ahora? Porque la unidad avanza cuando <strong>cada quien</strong> avanza — y cada quien avanza por su propio camino, a su propio ritmo. Empieza por el de esa persona. Escríbelo también en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."
+          "text": "🎯 <strong>Tu tarea para las próximas dos semanas.</strong> Elige <strong>un protagonista</strong> de tu unidad, con nombre. Escribe en qué <strong>etapa</strong> está —adaptación, progresión o transición—, <strong>dos competencias</strong> (en Familia, dos dimensiones) en las que trabaja con el nivel de cada una y <strong>tu rol</strong> en cada una. Después ponle <strong>fecha a una conversación</strong> con él —en la reunión, a la vista de otros, nunca a solas—: esto hiciste, así se vio, ¿qué quieres probar ahora? Porque la unidad avanza cuando <strong>cada quien</strong> avanza — y cada quien avanza por su propio camino, a su propio ritmo. Empieza por el de esa persona. Escríbelo también en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."
         }
       ],
       "reflection": {
@@ -803,7 +857,7 @@
             "options": [
               "Escucharlo, validar lo que siente y ayudarlo a pensar qué quiere, sin diagnosticarlo.",
               "Explicarle que su angustia viene de la relación con sus padres y cómo debe manejarla.",
-              "Remitirlo de inmediato a un profesional, porque la angustia ya excede tu papel de dirigente."
+              "Escucharlo un momento y remitirlo de inmediato a un profesional: la angustia excede tu papel."
             ],
             "correctIndex": 0
           },
@@ -815,6 +869,15 @@
               "Su camino contado en etiquetas: «es tímida», «es desordenada», para que sepan con quién tratan."
             ],
             "correctIndex": 0
+          },
+          {
+            "text": "Un nómada presenta el proyecto que diseñó para el próximo ciclo. A su dirigente le parece que se queda corto y que podría proponerse metas más exigentes. ¿Qué hace?",
+            "options": [
+              "Le reescribe las metas con él delante, explicándole por qué, para que aprenda a exigirse más.",
+              "Le da su mirada con algunas preguntas, y deja que él decida si ajusta sus metas o no.",
+              "Le aprueba el proyecto tal como está, sin comentarios, para no influir en un camino que es suyo."
+            ],
+            "correctIndex": 1
           }
         ]
       }

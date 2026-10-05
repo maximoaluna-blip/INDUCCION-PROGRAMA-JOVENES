@@ -1035,7 +1035,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                 <h2>🕸️ 🕸️ Qué es la Red <span id="welcomeName"></span></h2>
                 <div class="badge">Lección 1 de 8</div>
 
-                <div class="info-box">⏱️ <strong>~40 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada.</div>
+                <div class="info-box">⏱️ <strong>~43 minutos de lectura y quizzes</strong> — y unos 20 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con tres preguntas y hay que acertar las tres para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada.</div>
 
                 <h3>🎯 Objetivos del Curso</h3>
 <ul>
@@ -1150,7 +1150,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q10">
-                            Que no puede postularse a ningún cargo de la Red: a los veintiún años ya pasó el tope de edad.
+                            Que no puede postularse a ningún cargo de la Red, porque a los veintiún años ya pasó el tope de edad.
                         </label>
                     </div>
 
@@ -1162,11 +1162,27 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q11">
-                            Que elige a cuál renuncia, al nacional o al regional, según el que prefiera ocupar.
+                            Que elige a cuál de los dos renuncia, al nacional o al regional, según el que prefiera ocupar.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q11">
-                            Que renuncia a la coordinación regional, porque el reglamento no le deja ocupar los dos cargos.
+                            Que renuncia a la coordinación regional, y la ocupa quien quedó de segundo en su asamblea.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>3. Faltan dos meses para la Asamblea Regional Rover y solo un Rover se ha postulado a la Coordinación. ¿Qué le toca al Comisionado Regional Rover?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q12">
+                            Proponer él a un segundo candidato con buen perfil, para que la asamblea tenga entre quién elegir.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q12">
+                            Hacer que los Clanes conozcan con tiempo el perfil del cargo, para que se postulen más Rovers.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q12">
+                            Aplazar la elección hasta que haya dos candidatos, para que la asamblea no elija por descarte.
                         </label>
                     </div>
 
@@ -1193,7 +1209,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                     </div>
                     <div class="timeline-item">
                         <h4>El día: la ordinaria, una vez al año y a más tardar el 31 de enero</h4>
-                        <p>Va antes de la Asamblea Scout Regional y de la Asamblea Nacional Rover. <strong>Primero, el quórum:</strong> para deliberar, la mitad más uno de los Clanes, cada uno representado por al menos un Rover. <strong>Después, los votos:</strong> todos los Rovers inscritos tienen voz; vota el delegado de cada Grupo, y cada Grupo tiene dos votos, sin importar cuántos Rovers tenga.</p>
+                        <p>Va antes de la Asamblea Scout Regional y de la Asamblea Nacional Rover. <strong>Primero, el quórum:</strong> para deliberar, la mitad más uno de los Clanes, cada uno representado por al menos un Rover. <strong>Después, los votos:</strong> todos los Rovers inscritos tienen voz; cada Grupo tiene dos votos, que emite su delegado con lo que decidan juntos los Rovers de su Grupo, sin importar cuántos Rovers tenga.</p>
                         <ul>
                             <li>Coordinador, comunicador y consejero juvenil regional tienen voz y no voto; también el Jefe Scout Regional y los comisionados, como invitados.</li>
                         </ul>
@@ -1228,7 +1244,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <h4>1. A la Asamblea Regional Rover ordinaria llegan cuarenta Rovers, pero de cinco de los treinta Clanes. Pasa media hora y no llegan más Clanes. ¿Qué sigue?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q20">
-                            Se convoca en el acto una extraordinaria, una hora después, y en ella basta con los Clanes presentes.
+                            Se convoca ahí mismo una extraordinaria para una hora después, y en ella el quórum lo hacen los Clanes que llegaron.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q20">
@@ -1244,15 +1260,31 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <h4>2. Es 10 de diciembre y la coordinación regional no ha dicho nada de la asamblea ordinaria. ¿Qué pueden hacer los Rovers?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q21">
-                            Dejarla para febrero: si en diciembre aún no la han citado, la ordinaria puede correrse un mes.
+                            Pedírsela al Comisionado Regional Rover: él supervisa la asamblea, así que le toca convocarla si la coordinación no lo hace.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q21">
-                            Esperar a que la convoque el Coordinador: convocarla es función de su cargo, no de los Rovers de la región.
+                            Convocarla ellos, si son la mitad más uno, o pedir a la Jefatura Regional que la convoque a tiempo.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q21">
-                            Convocarla ellos, si son la mitad más uno, o pedir a la Jefatura Regional que la convoque a tiempo.
+                            Esperar: la ordinaria la convoca la coordinación, y si no lo hace se aplaza hasta que ella la cite.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>3. A la Asamblea Regional Rover un Grupo llega con nueve Rovers inscritos y otro con dos. ¿Cuántos votos tiene cada Grupo?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q22">
+                            Cada Grupo, un voto por Rover inscrito presente, porque todos los inscritos tienen voz.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q22">
+                            Cada Clan, un voto, porque el quórum de la asamblea se cuenta por Clanes y no por Rovers.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q22">
+                            Cada Grupo, dos votos, que emite su delegado, sin importar cuántos Rovers haya llevado.
                         </label>
                     </div>
 
@@ -1301,7 +1333,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <h4>1. Un Clan pide a la coordinación regional de la Red que le organice un proyecto de reforestación completo, «porque la Red tiene los contactos». ¿Qué le toca a la coordinación?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q30">
-                            Organizarlo, porque apoyar los proyectos de los Clanes es su función principal en la región.
+                            Organizarlo, porque apoyar los proyectos de los Clanes es su función principal como coordinación regional.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q30">
@@ -1325,7 +1357,23 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q31">
-                            Opinar cuando le den la palabra: en la comisión participa como invitado, no como parte del equipo.
+                            Aportar cuando le den la palabra: en la comisión participa como invitado, no como parte del equipo.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>3. Los Rovers de una región quieren que una propuesta suya llegue a la Dirección Nacional de Programa de Jóvenes. ¿Cómo la mueve su Coordinadora Regional?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q32">
+                            La presenta ella misma ante la Dirección Nacional, porque ella representa ante esa Dirección a los Rovers de su región.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q32">
+                            La lleva a la Asamblea Nacional Rover; ante la Dirección Nacional representa a los Rovers la Coordinación Nacional.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q32">
+                            La lleva al Consejo Scout Regional, porque es el Consejo el que representa a los Rovers de la región ante la Dirección.
                         </label>
                     </div>
 
@@ -1372,11 +1420,11 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q40">
-                            La foto del campamento, porque una cuenta con buenas fotos atrae a más Rovers a los proyectos.
+                            La foto del campamento, porque una cuenta con buenas fotos atrae a más Rovers de la región a los proyectos.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q40">
-                            Las dos el mismo día, porque cuantas más publicaciones haga, más gente verá la convocatoria de la jornada.
+                            Las dos el mismo día, porque cuantas más publicaciones haga, más gente verá la convocatoria.
                         </label>
                     </div>
 
@@ -1393,6 +1441,22 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q41">
                             Verificar con el Clan que las fotos son suyas y publicarlas ese mismo día, como pidió.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>3. Una región usa el logo de la Red deformado y con otros colores. Según el Manual de Cargos, ¿a qué cargo le toca vigilar el buen uso de la marca de la RDJ?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q42">
+                            A la Coordinación Nacional, que representa a la Red y responde por su imagen ante la Asociación.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q42">
+                            A la Comunicación Nacional, que además trabaja con las comunicaciones de la Asociación.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q42">
+                            A la Comunicación Regional de esa región, que vigila la marca en las piezas de su territorio.
                         </label>
                     </div>
 
@@ -1451,7 +1515,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q50">
-                            Al transversal: preparar una travesía de una semana es técnica scout, y esa es justo su materia.
+                            Al transversal, porque los viajes dentro del país no son de ninguno de los ejes estructurales.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q50">
@@ -1463,7 +1527,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <h4>2. Un proyecto de un Clan consiste en entregar mercados cada mes a las mismas familias, sin más. ¿Qué le diría el asesor del eje de Servicio?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q51">
-                            Que es un buen proyecto de servicio: su constancia es precisamente lo que lo separa del asistencialismo.
+                            Que es un buen proyecto de servicio: su constancia en el tiempo es precisamente lo que lo separa del asistencialismo.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q51">
@@ -1472,6 +1536,22 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q51">
                             Que lo pase al eje de Empresa: maneja recursos, compras y donaciones que requieren gestión propia.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>3. Dos Rovers montaron un pequeño negocio de mermeladas y otro Clan quiere empezar uno parecido. ¿A qué asesor de eje los acercas?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q52">
+                            Al de Servicio: si las ganancias van a la comunidad, el emprendimiento se vuelve un proyecto de servicio.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q52">
+                            Al transversal: emprender es una habilidad para la vida, y esas habilidades son justo su materia.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q52">
+                            Al de Empresa: acompaña emprendimientos y enlaza a los que ya funcionan con los que quieren empezar.
                         </label>
                     </div>
 
@@ -1501,7 +1581,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
                 <p>Cada región tiene derecho a <strong>dos delegados con voto</strong>: su Coordinador Regional de la Red y un Rover elegido por la Asamblea Regional. La asamblea se reúne una vez al año, antes de la Asamblea Scout Nacional, y es la que <strong>evalúa</strong> la gestión de la Red y de los representantes juveniles, <strong>elige</strong> a los cargos nacionales y a los representantes juveniles, y aprueba o no las reformas del reglamento de la Red, que luego van al Consejo Scout Nacional.</p>
 
-                <div class="info-box">📅 <strong>Una fecha con dos versiones.</strong> El reglamento de la Red dice que la Asamblea Nacional Rover se reúne <em>«durante los tres (3) primeros meses»</em> del año; el reglamento de Asambleas pone como límite el 28 de febrero. Las dos coinciden en lo importante: antes de la Asamblea Scout Nacional. Si te toca convocarla, pregunta a la Comisión Nacional Rover cuál se está aplicando.</div>
+                <div class="info-box">📅 <strong>La fecha.</strong> El reglamento de la Red dice <em>«durante los tres (3) primeros meses»</em> del año; el de Asambleas, a más tardar el 28 de febrero. Antes de convocar, pregunta a la Comisión Nacional Rover cuál se aplica.</div>
 
                 <h3>Los representantes que la Asamblea elige y evalúa</h3>
 
@@ -1518,18 +1598,18 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                     <h3>🧪 Mini-quiz Lección 7</h3>
 
                     <div class="question">
-                        <h4>1. La Red Interamericana de Jóvenes convoca un encuentro. Tres coordinadores regionales se ofrecen a ir en representación de Colombia. ¿Quién decide, según el reglamento de la Red?</h4>
+                        <h4>1. Faltan dos semanas para la Asamblea Nacional Rover. El Consejero Juvenil Nacional, que no se va a postular de nuevo, pregunta si tiene que llevar algo. ¿Qué le dices?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q60">
-                            El Jefe Scout Nacional, que elige entre los postulados según su idoneidad y los temas del evento.
+                            Su informe: la Asamblea Nacional Rover evalúa la gestión de los representantes juveniles que elige.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q60">
-                            La Asamblea Nacional Rover, que vota entre los coordinadores regionales que se postulen.
+                            Nada: responde ante el Consejo Scout Nacional, donde tiene su asiento, y no ante la Asamblea Rover.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q60">
-                            El Coordinador Nacional de la Red, que representa a los Rovers del país ante la Interamericana.
+                            Solo si se postula otra vez: la Asamblea revisa su gestión cuando vuelve a pedir el voto.
                         </label>
                     </div>
 
@@ -1537,15 +1617,31 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <h4>2. Preparas el orden del día de la Asamblea Nacional Rover. El reglamento de las Asambleas Rover, de 2022, dice que debe elegir hasta cuatro delegados Rover a la Asamblea Scout Nacional. ¿Qué haces con esa elección?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q61">
-                            Ponerla, porque el reglamento de las Asambleas es la norma propia de los Rovers y la más específica.
+                            Ponerla tal cual, porque el reglamento de las Asambleas es la norma propia de los Rovers y la más específica.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q61">
-                            Quitarla, porque desde el Estatuto 2025 el reglamento de las Asambleas Rover ya no rige en nada.
+                            Quitarla, porque el Reglamento Nacional de 2026 derogó por completo el reglamento de las Asambleas Rover.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q61">
-                            Preguntar antes a la Comisión Nacional Rover, porque el Estatuto, que manda, cambió esa asamblea.
+                            Ponerla en espera y preguntar a la Comisión Nacional Rover: el Estatuto, que manda, cambió esa asamblea.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>3. Una región quiere mandar a la Asamblea Nacional Rover a su Coordinador, a su Comunicadora y a un Rover elegido en la Asamblea Regional. ¿Quiénes votan allí por la región?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q62">
+                            Tres: el Coordinador, la Comunicadora y el Rover elegido, porque los cargos regionales integran el Equipo Nacional.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q62">
+                            Dos: el Coordinador Regional de la Red y el Rover que eligió para ese fin la Asamblea Regional Rover.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q62">
+                            Dos: el Coordinador y la Comunicadora regionales; el Rover elegido participa con voz, pero sin voto.
                         </label>
                     </div>
 
@@ -1584,14 +1680,14 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                     <h3>🧪 Mini-quiz Lección 8</h3>
 
                     <div class="question">
-                        <h4>1. La Comunicadora Nacional de la Red va por la mitad de su periodo de dos años y es la única que sabe manejar las cuentas y el calendario. ¿Qué le conviene hacer ahora?</h4>
+                        <h4>1. La Comunicadora Nacional de la Red lleva ocho meses en su periodo de dos años y es la única que sabe manejar las cuentas y el calendario. ¿Qué le conviene hacer ahora?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q70">
                             Empezar ya a enseñarle a otro Rover a manejar las cuentas, y dejar por escrito cómo funciona el calendario.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q70">
-                            Enseñárselo todo a quien elijan como reemplazo, para no formar a alguien que al final no llegue a ocupar el cargo.
+                            Empezar a enseñárselo cuando elijan a su reemplazo, para no formar a alguien que al final no ocupe el cargo.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q70">
@@ -1600,18 +1696,34 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                     </div>
 
                     <div class="question">
-                        <h4>2. ¿Cuál de estas señales indica que una Red Regional está cumpliendo lo que enseña este curso?</h4>
+                        <h4>2. Al cerrar su año, un Coordinador Regional escribe su informe. ¿Cuál de estos logros dice más de una Red que funciona?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q71">
-                            Que los mismos que la fundaron siguen coordinándola año tras año.
+                            Que estuvo en las jornadas de los catorce proyectos de la región y ninguno de ellos se quedó sin su apoyo directo.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q71">
-                            Que cada vez más Clanes de la región votan en la asamblea y sus proyectos se conocen entre sí.
+                            Que más Clanes votaron en la asamblea y que tres proyectos que no se conocían ahora trabajan juntos.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q71">
-                            Que su cuenta publica cada día fotos de las actividades de los Clanes de la región y gana seguidores.
+                            Que la cuenta de la Red duplicó sus publicaciones y sus seguidores a lo largo de todo el año.
+                        </label>
+                    </div>
+
+                    <div class="question">
+                        <h4>3. El Comisionado Regional Rover quiere ayudar a preparar el relevo de la Coordinación de la Red. ¿Cuándo le conviene preguntar quién podría reemplazarla?</h4>
+                        <label class="option" onclick="selectOption(this, 0)">
+                            <input type="radio" name="q72">
+                            Al final del periodo, cuando ya se sabe quiénes se van a postular en la próxima asamblea.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 1)">
+                            <input type="radio" name="q72">
+                            Al llegar a la mitad del periodo, para que quien la reemplace tenga tiempo de aprender lo que necesita.
+                        </label>
+                        <label class="option" onclick="selectOption(this, 2)">
+                            <input type="radio" name="q72">
+                            Al día siguiente de la asamblea que elija al reemplazo, para acompañar el empalme del primer mes.
                         </label>
                     </div>
 
@@ -1727,7 +1839,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
     };
 
     // --- Respuestas correctas (indice base 0) ---
-    var QUIZ_ANSWERS = {"2":[1,2],"3":[0,2],"4":[1,0],"5":[0,1],"6":[0,1],"7":[0,2],"8":[0,1]};
+    var QUIZ_ANSWERS = {"2":[1,2,1],"3":[0,1,2],"4":[1,0,1],"5":[0,1,1],"6":[0,1,2],"7":[0,2,1],"8":[0,1,1]};
 
 // ============================================
 // engine.linea.js — EXTENSIÓN de la línea Programa de Jóvenes

@@ -3,9 +3,9 @@
   "title": "Constructores de Paz: el kit de acción en tu unidad",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Cómo se lleva a tu unidad el desafío Constructores de Paz, de Mensajeros de la Paz: la diferencia entre paz negativa y paz positiva, el viaje en tres etapas —toma conciencia, comparte, actúa—, la autoevaluación y las actividades del Kit según la rama, cómo trabajar la memoria histórica sin revictimizar y cómo cerrar con un proyecto de servicio, reconocimiento y celebración. La paz no es que no haya pelea: se construye cada día. Para dirigentes de Manada, Tropa, Comunidad y Clan.",
-  "contentVersion": "2026-09-28",
+  "contentVersion": "2026-10-04",
   "icon": "🕊️",
-  "duration": "50 minutos",
+  "duration": "53 minutos",
   "level": 4,
   "levelName": "Transversales",
   "order": 22,
@@ -72,7 +72,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~50 minutos de lectura y quizzes</strong> — y unos 15 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
+          "text": "⏱️ <strong>~53 minutos de lectura y quizzes</strong> — y unos 15 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con tres preguntas y hay que acertar las tres para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
         },
         {
           "type": "course-objectives",
@@ -157,8 +157,17 @@
             "text": "En la Tropa de Andrés, un scout dice que a quien le hace algo hay que devolvérselo, porque «el que la hace, la paga». ¿Qué haría un dirigente que usa el Kit?",
             "options": [
               "Corregirlo en el momento y darle la frase correcta, para que no la repita delante de los más pequeños.",
-              "Dejarlo pasar: es un dicho de casa, y el desafío trata de la violencia del conflicto, no de refranes.",
-              "Tomar el refrán como material para una actividad: en los dichos se aprende como normal una violencia."
+              "Tomarlo como material para una actividad: en los dichos se aprende como normal una violencia.",
+              "Tomarlo como ejemplo de violencia directa, la que se ve, y trabajarlo con las frases de los dos murales."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "En la Manada, cada vez que se reparte el material de un juego, los lobatos mayores se quedan con lo mejor y a los nuevos les toca lo que sobra. Nadie se queja ni pelea. ¿Qué haría un dirigente que usa el Kit?",
+            "options": [
+              "Dejarlo así por ahora: si nadie se queja ni pelea, no hay un conflicto que trabajar, y abrirlo sería crear uno.",
+              "Parar el juego y hacer que los mayores cedan lo mejor a los nuevos: la paz positiva pide justicia, y no puede esperar.",
+              "Llevarlo a la Manada con el cuento del reparto de los 100 habitantes, y que ellos propongan cómo repartir."
             ],
             "correctIndex": 2
           }
@@ -228,29 +237,38 @@
       "emoji": "🧭",
       "navLabel": "El viaje",
       "reflection": {
-        "prompt": "¿Cómo llegaría hoy un desafío a tu unidad: lo anunciarías tú o lo descubrirían los protagonistas? Describe en qué espacio de tu rama se acordaría el viaje y qué tendrías que soltar tú para que ese acuerdo sea de verdad mutuo."
+        "prompt": "Recuerda la última actividad que tu unidad hizo porque tú la propusiste. ¿En qué espacio de tu rama se decidió y qué parte habrían podido decidir ellos?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",
         "nextLabel": "Continuar a la autoevaluación 🪞",
         "questions": [
           {
-            "text": "Andrés quiere que su Tropa haga Constructores de Paz. Según el viaje que propone el Kit, ¿qué le toca hacer primero?",
+            "text": "A la Jefa de Manada le entusiasma Constructores de Paz. Según el viaje del Kit, ¿qué le toca hacer primero?",
             "options": [
-              "Definir las actividades y el proyecto, y llevarlos a la Corte de Honor para que los guías los aprueben.",
-              "Presentar la iniciativa y el desafío, para que los scouts lo descubran y digan si les interesa asumirlo.",
-              "Pedir a cada scout la autoevaluación antes de contarles el desafío, para que nadie llegue influido por el adulto."
+              "Escoger ella las dos actividades y llevarlas al Consejo de Roca para que los lobatos las aprueben.",
+              "Contarles en el Consejo de Roca qué es el desafío y preguntarles si quieren asumirlo, y cómo.",
+              "Pasarles primero la autoevaluación, sin contarles aún el desafío, para que nadie llegue influido por el adulto."
             ],
             "correctIndex": 1
           },
           {
             "text": "Una Comunidad ya escogió sus tres actividades del Kit, y su dirigente no sabe cómo se reconocerá lo aprendido ni cómo se presentará al Grupo. ¿Dónde lo busca?",
             "options": [
-              "Solo en el Kit: trae el procedimiento de la insignia y de la presentación, y el Modelo no se aplica a desafíos.",
-              "En ninguno de los dos: los pasos de presentación pública son de los proyectos del Clan, no de un desafío de Comunidad.",
+              "En el Kit solamente: el desafío trae sus pasos, y mezclarlo con el Modelo lo vuelve un trámite más.",
+              "En ninguno de los dos: los pasos de presentación pública son de los proyectos del Clan, no de un desafío.",
               "En los siete pasos del Modelo, con el Kit al lado: el desafío pone el tema y el Modelo lo vuelve aprendizaje."
             ],
             "correctIndex": 2
+          },
+          {
+            "text": "En el Consejo de Clan, los rovers escogen para el desafío una actividad que su dirigente ve insegura en el lugar donde la quieren hacer. ¿Qué le toca a él?",
+            "options": [
+              "Decirles qué riesgo ve y no dejarla así: buscar con ellos cómo hacerla segura o con qué reemplazarla.",
+              "Respetar lo que voten: son mayores de edad, y el acuerdo del Consejo pesa más que la opinión del adulto.",
+              "Cambiarla él por otra del Kit sin abrir el debate: en seguridad decide el adulto, y discutirlo es perder tiempo."
+            ],
+            "correctIndex": 0
           }
         ]
       },
@@ -362,6 +380,15 @@
               "Como un error de llenado: la autoevaluación se hace al inicio, y al inicio ningún joven puede estar en «Actúa»."
             ],
             "correctIndex": 0
+          },
+          {
+            "text": "La Manada empezó Constructores de Paz y la dirigente de Familia no quiere que sus cachorros, de cinco y seis años, se queden por fuera. ¿Por dónde empieza?",
+            "options": [
+              "Esperar a que pasen a la Manada: Scouts por los ODS no tiene nada previsto para la Familia.",
+              "Usar el documento propio de su rama que cita su Guía, Scouts por los ODS para las Familias de Cachorros.",
+              "Adaptar las actividades más sencillas de la Manada, sin la autoevaluación, que el Kit pide desde los siete."
+            ],
+            "correctIndex": 1
           }
         ]
       },
@@ -477,6 +504,15 @@
               "Sí, pero como actividad extra: para el desafío hay que hacer antes las del grupo de edad que trae el Kit."
             ],
             "correctIndex": 1
+          },
+          {
+            "text": "Un dirigente de Tropa va a usar «Dejar salir todo» tal como viene, porque «si está en el Kit, ya está probada». ¿Qué le falta?",
+            "options": [
+              "Prepararla él con tiempo y dejarla lista, para que los scouts la encuentren adaptada y solo tengan que jugarla.",
+              "Nada de fondo: las actividades del Kit ya pasaron por el filtro de seguridad e inclusión antes de publicarse.",
+              "Prepararla con los scouts: traducir lo que viene de la escuela y pasarla por DURASLID, que no viene de fábrica."
+            ],
+            "correctIndex": 2
           }
         ]
       },
@@ -552,7 +588,7 @@
             "options": [
               "Deja que el equipo pregunte: mencionarlo fue decisión de ella, y ese relato es justo la memoria que la actividad busca.",
               "Para con suavidad las preguntas del equipo, le da las gracias y le deja claro que seguir o no es decisión de ella.",
-              "Sigue con la actividad sin comentar lo que dijo, con cuidado de no hacer más grande el tema ni exponerla ante su equipo."
+              "Para la actividad y la lleva aparte, con otro adulto presente, para que cuente su historia sin el equipo delante."
             ],
             "correctIndex": 1
           },
@@ -564,6 +600,15 @@
               "Decirle con delicadeza que no puede prometerle silencio, y reportar por el botón: el Comité define los pasos."
             ],
             "correctIndex": 2
+          },
+          {
+            "text": "La Manada va a hacer «Los mapas», que pide ubicar en el municipio las huellas de la violencia. ¿Cómo la prepara su dirigente?",
+            "options": [
+              "Manda una nota a las familias y la hace como viene, con cada lobato ubicando y contando la huella que conoce.",
+              "Avisa antes a las familias y empieza por la resistencia y las iniciativas de la comunidad, sin pedir historias.",
+              "La deja para cuando sean más grandes: con niños de esa edad, cuidar la memoria es no tocarla todavía."
+            ],
+            "correctIndex": 1
           }
         ]
       },
@@ -613,7 +658,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Andrés prepara la línea de tiempo con estos cuidados: manda una nota a las familias, empieza por los hitos del municipio —la fiesta patronal, la carretera, la escuela nueva— y deja claro que cada uno cuenta lo que quiera. A mitad de la actividad, un scout dice que su familia llegó desplazada, y se queda callado. Andrés le agradece, no le pregunta más frente a la Tropa y le dice que puede contar algo cuando quiera y con quien quiera. Lo dijo por decisión propia y como la historia de su familia: no cuenta nada que le esté pasando ni da señales de estar solo con eso. Si Andrés notara algo, o dudara, sabe el camino: reportar y dejar que el Comité decida."
+          "text": "Andrés prepara la línea de tiempo con estos cuidados: manda una nota a las familias, empieza por los hitos del municipio —la fiesta patronal, la carretera, la escuela nueva— y deja claro que cada uno cuenta lo que quiera. A mitad de la actividad, un scout dice que su familia llegó desplazada, y se queda callado. Andrés le agradece, no le pregunta más frente a la Tropa y le dice que, si algún día quiere contar algo, puede hacerlo cuando quiera y con quien él escoja; si es con Andrés, será con otro adulto presente, como siempre. Lo dijo por decisión propia y como la historia de su familia: no cuenta nada que le esté pasando ni da señales de estar solo con eso. Si Andrés notara algo, o dudara, sabe el camino: reportar y dejar que el Comité decida."
         }
       ]
     },
@@ -646,6 +691,15 @@
               "Que se puede celebrar, pero sin volver a la autoevaluación: ya la hicieron al comienzo y mostraría lo mismo."
             ],
             "correctIndex": 0
+          },
+          {
+            "text": "Un rover de 19 años lideró el proyecto de su Clan, y sus compañeros creen que merece ser Héroe Mensajero de la Paz. ¿Qué les dices?",
+            "options": [
+              "Que él mismo se postule, con el aval del Consejo de Clan: quien lideró el proyecto es quien lo presenta.",
+              "Que no se puede: Héroes Mensajeros de la Paz es para menores de 18, y a su edad lo que sigue es Scouts del Mundo.",
+              "Que pueden nominarlo ellos —él no puede hacerlo por sí mismo— y que la comisión de Mundo Mejor dice cómo."
+            ],
+            "correctIndex": 2
           }
         ]
       },

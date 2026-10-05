@@ -2,10 +2,10 @@
   "courseId": "rama-familia-cachorros",
   "title": "Rama Familia (Cachorros)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
-  "description": "El curso de rama para quienes acompañan la primera infancia. En ~45 minutos vas a acompañar a Salomé, que llega al Cubil a los 5 años, y a entender por qué a esa edad el juego no es el envoltorio del Método Scout: es el Método funcionando a plena potencia.",
-  "contentVersion": "2026-10-02",
+  "description": "El curso de rama para quienes acompañan la primera infancia. En ~48 minutos vas a acompañar a Salomé, que llega al Cubil a los 5 años, y a entender por qué a esa edad el juego no es el envoltorio del Método Scout: es el Método funcionando a plena potencia.",
+  "contentVersion": "2026-10-04",
   "icon": "🐻",
-  "duration": "45 minutos",
+  "duration": "48 minutos",
   "level": 2,
   "levelName": "Profundización por rama y práctica pedagógica",
   "order": 9,
@@ -20,7 +20,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~45 minutos.</strong> Al final vas a poder decir la Promesa y la Ley del Cachorro, organizar tu unidad en Camadas, saber cómo se arma y qué significa un Círculo de Familia, usar el lenguaje de la Selva como método, y planear una actividad que cumpla las reglas de entorno seguro propias de la rama."
+          "text": "⏱️ <strong>~48 minutos.</strong> Al final vas a poder decir la Promesa y la Ley del Cachorro, organizar tu unidad en Camadas, saber cómo se arma y qué significa un Círculo de Familia, usar el lenguaje de la Selva como método, y planear una actividad que cumpla las reglas de entorno seguro propias de la rama."
         },
         {
           "type": "paragraph",
@@ -40,7 +40,7 @@
         },
         {
           "type": "mission-box",
-          "text": "🎯 <strong>Cómo usar este curso.</strong> Cada lección termina en algo concreto que puedas probar en tu próxima reunión. No hace falta que te lo aprendas: hace falta que lo uses el sábado."
+          "text": "🎯 <strong>Cómo usar este curso.</strong> Cada lección termina en algo concreto que puedas probar en tu próxima reunión. No hace falta que te lo aprendas: hace falta que lo uses el sábado. De la próxima lección en adelante, cada una cierra con tres preguntas, y hay que acertar las tres para seguir. Si fallas, vuelves al párrafo y lo intentas otra vez, sin penalización."
         }
       ]
     },
@@ -134,11 +134,20 @@
           {
             "text": "Un dirigente nuevo dice que los Nombres de Caza le parecen \"una bobada simpática\" y prefiere que los niños lo llamen por su nombre. ¿Qué le falta entender?",
             "options": [
-              "Que a los cinco años los niños no logran memorizar los nombres reales de los adultos de su unidad.",
-              "Que el Nombre de Caza es la puerta por la que el adulto entra al mundo simbólico donde el niño ya vive.",
-              "Que las actas y los registros de la unidad se llevan siempre con el Nombre de Caza y no con el civil."
+              "Que el Nombre de Caza es un juego de bienvenida que ayuda a los Cachorros a perderle el miedo al adulto nuevo.",
+              "Que sin ese nombre les habla a los Cachorros desde fuera del cuento que ellos ya están jugando.",
+              "Que es parte de su investidura como dirigente y sin él no puede dirigir el Círculo de Familia."
             ],
             "correctIndex": 1
+          },
+          {
+            "text": "Un Viejo Lobo nuevo sienta a los Cachorros, les explica durante diez minutos cómo germina una semilla y luego le pregunta a cada uno qué entendió. ¿Qué le señalas?",
+            "options": [
+              "Que en ese rato hizo de maestro: explicó y evaluó, en vez de poner la experiencia al alcance y dejarlos sembrar.",
+              "Que en ese rato hizo de papá: les resolvió la tarea de sembrar, en vez de dejar que se equivocaran al intentarlo.",
+              "Que lo hizo bien: a los cinco años conviene explicar primero con calma y luego comprobar qué entendió cada uno."
+            ],
+            "correctIndex": 0
           }
         ]
       }
@@ -223,9 +232,9 @@
           {
             "text": "Un papá te comenta, con buena intención, que la Ley del Cachorro \"está incompleta\" porque la Ley Scout tiene diez artículos. ¿Qué le respondes?",
             "options": [
-              "Que tiene razón, y que por eso en la Familia se van enseñando los otros ocho artículos poco a poco.",
-              "Que no es una ley distinta ni recortada, sino la misma síntesis puesta en el lenguaje de un niño de cinco años.",
-              "Que la Ley completa corresponde a la Manada, y que en Familia solo se hace una primera aproximación."
+              "Que tiene razón, y que por eso en la Familia se van sumando los otros ocho artículos a medida que crecen.",
+              "Que no es una ley distinta ni recortada: es una síntesis que siembra varios valores de la Ley Scout.",
+              "Que la Familia tiene una Ley propia, distinta de la Ley Scout, y que por eso no hay nada que completarle."
             ],
             "correctIndex": 1
           },
@@ -237,6 +246,15 @@
               "Le propones aplazar la Investidura de su hija hasta que sea mayor y pueda entender bien lo que promete."
             ],
             "correctIndex": 1
+          },
+          {
+            "text": "En una salida empieza a llover, el plan se cae y los Cachorros se desaniman. Un Viejo Lobo dice que ese es el momento de vivir la Ley del Cachorro. ¿Qué artículo tiene en mente y cómo lo entiende?",
+            "options": [
+              "El Cachorro cuida la naturaleza, entendido como aceptar la lluvia y el barro sin quejarse, porque son parte de ella.",
+              "El Cachorro es alegre, entendido como estar contento y celebrar todo lo que pasa en la salida, salga como salga.",
+              "El Cachorro es alegre, entendido como la actitud positiva y el buen ánimo justo cuando las cosas se ponen difíciles."
+            ],
+            "correctIndex": 2
           }
         ]
       }
@@ -306,13 +324,13 @@
         "nextLabel": "Continuar a las Camadas 🐾",
         "questions": [
           {
-            "text": "Estás planeando una actividad sobre cuidar la naturaleza para Cachorros de 5 años. ¿Cuál se acerca más a lo que pide la Guía?",
+            "text": "Un Viejo Lobo te muestra tres ideas para el sábado y te pide aplicarles la prueba de la lección: quitarles el juego. ¿Cuál se caería sin él?",
             "options": [
-              "Una charla corta con láminas sobre el cuidado del planeta y después un juego libre para los que pusieron atención.",
-              "Una salida a buscar \"tesoros de la selva\" donde recogen basura y clasifican hojas mientras juegan a ser exploradores.",
-              "Un taller de dibujo sobre el tema, con los resultados pegados después en la cartelera principal del Grupo Scout."
+              "Un relato de Mowgli que los Cachorros escuchan sentados y, al final, una ronda corta para que suelten la energía.",
+              "Una charla sobre los animales de la Selva, con disfraces y música de fondo para que el rato sea más alegre.",
+              "Una búsqueda en la que cada pista aparece solo si la Camada imita al animal que la guarda y adivina cuál es."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "Planeaste para el sábado: un juego de persecución, un rato para dibujar lo que jugaron y una salida al parque a recoger hojas. Un Viejo Lobo te dice que falta una de las cuatro actividades rectoras. ¿Cuál?",
@@ -320,6 +338,15 @@
               "La literatura: no hay un cuento ni un relato que le dé sentido y escenario a lo que van a jugar.",
               "El arte: dibujar lo que jugaron es registro y no creación, así que esa parte no cubre lo artístico.",
               "La exploración del medio: recoger hojas en un parque del barrio no cuenta como descubrir el entorno."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Para un juego de equilibrio, un Viejo Lobo duda entre tres versiones. ¿Cuál cumple el atributo Desafiante tal como la lección lo aterriza a los cinco años?",
+            "options": [
+              "Caminar sobre una banca baja con un vaso en la mano: casi todos lo logran, pero después de varios intentos.",
+              "Caminar sobre una cuerda en el piso, que todos logran al primer intento: a esa edad el éxito temprano engancha.",
+              "Caminar sobre una viga alta que casi nadie logra, para que el reto sea de verdad y el logro valga la pena."
             ],
             "correctIndex": 0
           }
@@ -400,7 +427,7 @@
         },
         {
           "type": "paragraph",
-          "text": "No es una asamblea en miniatura. Pedirle a un niño de cinco años que levante la mano y vote es pedirle que participe en el idioma de los adultos. Participar aquí se parece más a dibujar, a jugar una ronda o a escoger con el cuerpo. Salomé no va a decir <em>\"propongo una salida\"</em>: va a dibujar un río y va a decir <em>\"quiero ir allá\"</em>. Eso ya es una propuesta, y tu trabajo es oírla como tal."
+          "text": "No es una asamblea en miniatura. Pedirle a un niño de cinco años que levante la mano y vote es pedirle que participe en el idioma de los adultos. Votar sí cabe, pero con figuras o colores, no con la mano (§5.4). Participar aquí se parece más a dibujar, a jugar una ronda o a escoger con el cuerpo. Salomé no va a decir <em>\"propongo una salida\"</em>: va a dibujar un río y va a decir <em>\"quiero ir allá\"</em>. Eso ya es una propuesta, y tu trabajo es oírla como tal."
         }
       ],
       "reflection": {
@@ -411,11 +438,11 @@
         "nextLabel": "Continuar al idioma de la Selva 📖",
         "questions": [
           {
-            "text": "Un Viejo Lobo propone dejar las Camadas fijas todo el año \"para que los niños se acostumbren y haya orden\". ¿Qué dice la Guía?",
+            "text": "Un Viejo Lobo que viene de la Manada quiere nombrar en cada Camada a un Cachorro responsable, \"para que vaya aprendiendo a liderar\". ¿Qué le dices?",
             "options": [
-              "Que es lo correcto, porque la estabilidad del grupo natural es lo que le da identidad y cohesión a la rama.",
-              "Que las Camadas son grupos voluntarios que se congregan para una actividad y pueden tener distintos integrantes.",
-              "Que deben rotar de manera obligatoria en cada reunión, para que ningún Cachorro se apegue demasiado a otro."
+              "Que puede hacerlo, siempre que el cargo rote en cada reunión y así todos los Cachorros pasen por él.",
+              "Que en la Familia las Camadas se rehacen seguido y nadie las dirige: no hay a quién nombrar en ese cargo.",
+              "Que mejor las dirija un Viejo Lobo, porque a los cinco años todavía no se espera que un niño guíe a otros."
             ],
             "correctIndex": 1
           },
@@ -424,9 +451,18 @@
             "options": [
               "Que se repartan entre los Cachorros, dentro del círculo, y te ayuden a sostener el orden desde adentro.",
               "Que se queden detrás del círculo: ahí la Familia se ve reunida y ellos son símbolo de protección.",
-              "Que aprovechen el rato para dejar listo el material de la siguiente actividad y no perder tiempo."
+              "Que se pongan a tu lado, en el centro, para que los Cachorros vean a todos los adultos juntos frente a ellos."
             ],
             "correctIndex": 1
+          },
+          {
+            "text": "Quieres que la Familia decida a dónde va la próxima salida y lo llevas al Encuentro del Cubil. ¿Cómo lo planteas?",
+            "options": [
+              "Les pides que dibujen o muestren con el cuerpo a dónde quieren ir, y oyes cada dibujo como una propuesta.",
+              "Les explicas con calma las ventajas de cada lugar y escoges el que más les gustó por las preguntas que hicieron.",
+              "Lo decides con los demás Viejos Lobos y lo cuentas en el Encuentro, que es para expresar emociones."
+            ],
+            "correctIndex": 0
           }
         ]
       }
@@ -523,20 +559,29 @@
         "nextLabel": "Continuar a la progresión 🌱",
         "questions": [
           {
-            "text": "Un Viejo Lobo dice que el marco simbólico \"está bien para ambientar, pero lo importante es la actividad\". ¿Qué le falta entender?",
+            "text": "Al final de la reunión hay que recoger el material. ¿Cuál de estas formas usa el marco simbólico como lo pide la lección, y no como adorno?",
             "options": [
-              "Nada: el marco simbólico es un recurso de ambientación y la actividad bien diseñada es lo que educa.",
-              "Que el marco simbólico no ambienta la actividad, sino que es el lenguaje en el que la actividad ocurre.",
-              "Que debería reservarlo para las ceremonias, que es el único lugar donde la Guía lo ubica formalmente."
+              "Les dices \"recojan el material\" con voz clara y, cuando terminan, les cuentas de premio un pedazo del cuento de Mowgli.",
+              "Les cuentas que la Selva necesita el Cubil en orden antes del anochecer y que cada Cachorro lleve un tesoro a su cueva.",
+              "Recogen el material con una canción de la Selva de fondo, bajo la pancarta de Mowgli que preside el Cubil."
             ],
             "correctIndex": 1
           },
           {
-            "text": "El Eo-Wawa es…",
+            "text": "El Grupo arma su calendario y para la Familia solo agenda dos ceremonias delante de todo el Grupo Scout: la Investidura y la de Paso. ¿Qué le señalas?",
             "options": [
-              "El nombre que recibe la formación en círculo que es propia de la Familia de Cachorros.",
-              "El grito de felicidad de los Cachorros, que se hace cuando hay un motivo para celebrar.",
-              "La ceremonia con la que el Cachorro se despide del Cubil y pasa a la Manada."
+              "Que está completo: delante del Grupo van esas dos, y todas las demás se hacen dentro del Cubil.",
+              "Que falta la entrega de dentelladas, que también debe hacerse delante de todo el Grupo Scout.",
+              "Que falta la de Fase Máxima de Progresión, cuando un Cachorro llega a la Fuerza del Cubil."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Después de muchos intentos, Salomé logra por fin atarse sola los cordones y mira a su Viejo Lobo con los ojos brillantes. ¿Qué recurso de la Selva encaja con ese momento?",
+            "options": [
+              "Entregas una huella, el símbolo que marca cada logro nuevo en el Cubil.",
+              "Lanzas con toda la Familia un ¡Eo-Wawa!, para celebrar juntos lo que logró.",
+              "Le adelantas la Investidura, porque un logro así muestra que terminó su adaptación."
             ],
             "correctIndex": 1
           }
@@ -646,7 +691,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Una por cada área de crecimiento, y cada una con su elemento de la Selva (p. 59 del PDF):"
+          "text": "Una por cada dimensión, y cada una con su elemento de la Selva. Entre paréntesis va el área de crecimiento con la que la Guía la empareja (p. 59 del PDF):"
         },
         {
           "type": "list",
@@ -728,20 +773,29 @@
         "nextLabel": "Continuar al Cubil seguro 🛡️",
         "questions": [
           {
-            "text": "Un Viejo Lobo lleva la cuenta de cuántas insignias tiene cada Cachorro y las compara entre ellos para motivar a los que van más lento. ¿Qué está pasando por alto?",
+            "text": "Un Viejo Lobo propone guardar las Dentelladas que cada Cachorro vaya ganando y entregarlas todas juntas en una ceremonia de fin de semestre, \"para que luzca más\". ¿Qué le respondes?",
             "options": [
-              "Nada en particular: comparar avances es una forma legítima de motivar a quienes van más despacio que el resto.",
-              "Que la progresión se acompaña por dimensiones y ritmos propios de cada niño, no como una carrera entre ellos.",
-              "Que, si lo que quiere es motivar a los que van más lento, reconozca en público al Cachorro que va primero."
+              "Que las Dentelladas no llevan insignia física, así que basta una mención delante de la Familia en esa ocasión.",
+              "Que está bien, siempre que se haga delante de todo el Grupo Scout, para darle a cada logro la solemnidad debida.",
+              "Que las entregue de a una, en el momento en que cada Cachorro expresa esa dimensión, para que su logro se note."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
-            "text": "La Etapa de Adaptación de un Cachorro que acaba de llegar a la Familia dura aproximadamente…",
+            "text": "A Tomás le encantan las plantas y lleva cinco semanas con su especialidad: ya sabe dos cosas básicas y demostró dos acciones prácticas. ¿Qué falta, y cuál es tu papel?",
             "options": [
-              "Una reunión: la de bienvenida, donde conoce a sus Viejos Lobos y al resto de la Familia.",
-              "Dos meses, orientados a una integración gradual y segura a la vida en el Cubil.",
-              "Todo el primer año, hasta que cumple los seis años y pasa a ser Cachorro Explorador."
+              "Que comparta una de ellas con la Familia o en casa; tu papel es enlazar y reconocerlo delante de los demás.",
+              "Que reciba la insignia de su especialidad; tu papel es entregársela de a una, sin juntarla con otras.",
+              "Que presente una prueba ante los Viejos Lobos; tu papel es evaluar si de verdad domina lo que aprendió."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un dirigente que viene de otra rama busca el área de Afectividad entre las dimensiones de la Familia y no la encuentra. ¿Dónde quedó?",
+            "options": [
+              "Junto con el Carácter, en la Dimensión Ética: en Familia los afectos se trabajan como normas de convivencia.",
+              "Junto con la Sociabilidad, en la Dimensión Socio-Afectiva: dos áreas que en Familia entran por la misma puerta.",
+              "Junto con la Espiritualidad, en la Dimensión Espiritual: a esta edad el afecto y la gratitud van de la mano."
             ],
             "correctIndex": 1
           }
@@ -785,7 +839,7 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "🚻 <strong>El baño.</strong> Acompañas <em>\"únicamente hasta la puerta\"</em>. <em>\"En ningún caso un Viejo Lobo debe ingresar al baño con el Cachorro\"</em>, ni lo asiste en su higiene ni en acomodarle la ropa (§11.9, pp. 78–79 del PDF).",
+            "🚻 <strong>El baño.</strong> Al baño se acompaña <em>\"únicamente hasta la puerta\"</em>, y nunca a solas: <em>\"en ningún caso un adulto debe permanecer solo con un niño\"</em> (§11.7). Por eso van dos Viejos Lobos, aunque solo un Cachorro necesite ir. <em>\"En ningún caso un Viejo Lobo debe ingresar al baño con el Cachorro\"</em>, ni lo asiste en su higiene ni en acomodarle la ropa (§11.9, pp. 78–79 del PDF).",
             "👶 <strong>Si el niño no controla esfínteres</strong> o necesita apoyo directo, <em>\"serán exclusivamente los padres o acudientes\"</em> quienes lo hagan. No es tu tarea, y no es descortesía decirlo (§11.9, p. 79 del PDF).",
             "🤝 <strong>La entrega y la recepción.</strong> Tu responsabilidad empieza cuando recibes al Cachorro y termina cuando lo entregas a su padre, madre o acudiente autorizado. Siempre <em>\"visible y explícito\"</em>, en un punto definido, y <em>\"por ningún motivo se permite que el niño se retire solo\"</em> (§11.7 Responsabilidad y Custodia, p. 78 del PDF)."
           ]
@@ -844,20 +898,29 @@
         "nextLabel": "Ver mi certificado 🏅",
         "questions": [
           {
-            "text": "Estás organizando una salida con 12 Cachorros. Según la Guía, ¿cuántos adultos necesitas como mínimo?",
+            "text": "Estás organizando una salida con 13 Cachorros. Según la Guía, ¿cuántos adultos necesitas como mínimo?",
             "options": [
-              "Dos adultos, que es el mínimo que la norma exige para cualquier actividad de la rama.",
-              "Tres adultos, porque la proporción exigida es de un adulto por cada cinco Cachorros.",
-              "Seis adultos, uno por cada dos Cachorros, dada la edad de los protagonistas de programa."
+              "Con dos adultos basta, que es el mínimo que la norma exige para cualquier actividad de la rama.",
+              "Con tres adultos, porque la proporción exigida es de un adulto por cada cinco Cachorros.",
+              "Con siete adultos, uno por cada dos Cachorros, dada la corta edad de los protagonistas de programa."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Al final de la reunión, Salomé corre a abrazar a su Viejo Lobo delante de todos. Según la Guía, lo correcto es…",
+            "text": "Un Cachorro tiene un accidente en plena reunión, se moja la ropa y necesita que lo ayuden a cambiarse. ¿Qué haces?",
             "options": [
-              "Evitar el abrazo y explicarle que entre un adulto y un niño no puede haber ningún contacto en el Cubil.",
-              "Responder al abrazo con naturalidad y en corto, ahí mismo, donde el otro Viejo Lobo y las familias los ven.",
-              "Apartarse con ella a un lado para despedirse tranquilos y que el resto del grupo no se distraiga."
+              "Lo ayudas a cambiarse en el baño con la puerta entreabierta y otro Viejo Lobo afuera, como testigo.",
+              "Le pides a un Viejo Lobo de su mismo sexo que lo asista, mientras tú te quedas con el resto de la Familia.",
+              "Le avisas a su padre, madre o acudiente: asistirlo en su higiene y con su ropa les corresponde solo a ellos."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Termina la reunión. La mamá de Salomé avisa que llegará 20 minutos tarde, y Salomé dice que vive a dos cuadras y que puede irse sola. ¿Qué haces?",
+            "options": [
+              "Te comunicas con la mamá para que autorice por escrito que Salomé se vaya sola, ya que vive tan cerca.",
+              "Te quedas con Salomé y otro Viejo Lobo en el punto de entrega hasta que llegue su mamá o un acudiente autorizado.",
+              "Le encargas a la mamá de otro Cachorro, que vive cerca y conoce a la familia, que la lleve hasta su casa sin consultarlo con la mamá de Salomé."
             ],
             "correctIndex": 1
           }
