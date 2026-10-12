@@ -1,4 +1,4 @@
-# Diseño del Curso 8 — 🐺 Rama Manada (Lobatos)
+# Diseño del Curso 8 — 🐺 Rama Lobatos (Manada)
 
 **Línea:** Programa de Jóvenes · **Nivel:** 2 (Profundización por rama y práctica pedagógica) · **Posición:** Curso 8 de 8 del Nivel 2 (7–14), primero en construirse.
 
@@ -13,7 +13,7 @@
 | Campo | Valor |
 |---|---|
 | `courseId` | `rama-manada-lobatos` |
-| Título | Rama Manada (Lobatos) |
+| Título | Rama Lobatos (Manada) |
 | Subtítulo | Formación de Adultos Voluntarios — Asociación Scouts de Colombia |
 | Icono | 🐺 |
 | Duración | ~35 min |

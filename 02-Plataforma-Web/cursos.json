@@ -99,7 +99,7 @@
   },
   {
     "courseId": "rama-manada-lobatos",
-    "title": "Rama Manada (Lobatos)",
+    "title": "Rama Lobatos (Manada)",
     "description": "El primer curso de rama del Nivel 2 de la Línea Programa de Jóvenes. En ~38 minutos vas a acompañar a Andrés, un lobato de 7 años, desde su llegada a la Manada hasta su Gran Salto hacia la Tropa: el marco simbólico de La Fantasía y su fondo motivador, El Libro de las Tierras Vírgenes, las seisenas sin jefes fijos, las seis Sendas de la progresión y tu rol como Viejo Lobo — facilitador, no jefe.",
     "icon": "🐺",
     "duration": "38 minutos",
@@ -113,7 +113,7 @@
   },
   {
     "courseId": "rama-familia-cachorros",
-    "title": "Rama Familia (Cachorros)",
+    "title": "Rama Cachorros (Familia)",
     "description": "El curso de rama para quienes acompañan la primera infancia. En ~48 minutos vas a acompañar a Salomé, que llega al Cubil a los 5 años, y a entender por qué a esa edad el juego no es el envoltorio del Método Scout: es el Método funcionando a plena potencia.",
     "icon": "🐻",
     "duration": "48 minutos",
@@ -127,7 +127,7 @@
   },
   {
     "courseId": "rama-tropa-scout",
-    "title": "Rama Tropa Scout",
+    "title": "Rama Scouts (Tropa)",
     "description": "El curso de rama para quienes acompañan la adolescencia temprana. Vas a acompañar a Andrés, que acaba de dar el Gran Salto desde la Manada, y a entender el cambio que hace difícil esta rama: en la Tropa los Scouts deciden solos.",
     "icon": "⚜️",
     "duration": "48 minutos",
@@ -141,7 +141,7 @@
   },
   {
     "courseId": "rama-comunidad-nomadas",
-    "title": "Rama Comunidad (Nómadas Scout)",
+    "title": "Rama Nómadas Scout (Comunidad)",
     "description": "El curso de rama para quienes acompañan la adolescencia tardía. Vas a reencontrarte con Andrés, que llega desde la Tropa al final de su Etapa de Transición, y a entender el cambio que define esta rama: en la Comunidad las decisiones de los jóvenes salen de la unidad y aterrizan en el territorio.",
     "icon": "🧗",
     "duration": "63 minutos",
@@ -155,7 +155,7 @@
   },
   {
     "courseId": "rama-clan-rovers",
-    "title": "Rama Clan (Rovers)",
+    "title": "Rama Rovers (Clan)",
     "description": "El último curso de rama, y el único cuyos protagonistas son mayores de edad. Vas a acompañar a Sebastián desde el día que llega al Clan hasta su Partida Rover, y a entender el cambio que define esta rama: aquí tu trabajo es volverte innecesario.",
     "icon": "🏔️",
     "duration": "71 minutos",

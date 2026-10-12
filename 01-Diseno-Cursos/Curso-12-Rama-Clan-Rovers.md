@@ -1,4 +1,4 @@
-# Diseño del Curso 12 — 🏔️ Rama Clan (Rovers)
+# Diseño del Curso 12 — 🏔️ Rama Rovers (Clan)
 
 **Línea:** Programa de Jóvenes · **Nivel:** 2 (Profundización por rama y práctica pedagógica) · **Posición:** quinto y último curso de rama. Con él se cierran las cinco ramas.
 
@@ -50,7 +50,7 @@ Ninguna se inventa ni se esconde. Las que el adulto va a encontrarse al leer los
 | Campo | Valor |
 |---|---|
 | `courseId` | `rama-clan-rovers` |
-| Título | Rama Clan (Rovers) |
+| Título | Rama Rovers (Clan) |
 | Icono | 🏔️ |
 | Nivel / orden | 2 · Curso **12** |
 | Duración declarada | **71 minutos** (05-oct-2026: 9.851 palabras a ~140 por minuto, el ritmo con que ya declaraba 69 tras la relectura de quizzes; los +2 son las reglas de los clubes Rovers en la L4). *Historia:* **65 minutos** — **remedida tras las auditorías**, que es lo que manda el ADR-047, y por eso cambió: el borrador cerró en 7.652 palabras y declaró 60 min; las dos vueltas de corrección doctrinal y la pedagógica sumaron unas 470, y hoy son **8.118 palabras** equivalentes al método con que se midieron sus hermanos. A 60 min el ritmo sería de **135 palabras/minuto**, fuera de la banda de las otras cuatro ramas (Manada 119 · Tropa 126 · Familia 129 · Comunidad 130); a **65 min** queda en **125**, dentro. **Es el curso más largo de la plataforma** |

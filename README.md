@@ -10,31 +10,31 @@ Plataforma de formación online de la **Línea Programa de Jóvenes** de la Asoc
 
 | # | Curso | Nivel | Duración | Estado |
 |---|-------|-------|----------|--------|
-| 1 | 🎒 Bienvenida al Programa de Jóvenes | 1 | 25 minutos | ✅ Activo |
-| 2 | 💗 La Educación por el Amor | 1 | 30 minutos | ✅ Activo |
-| 3 | 🎓 Cómo se Educa Hoy | 1 | 30 minutos | ✅ Activo |
-| 4 | 🌟 Características Esenciales del Movimiento Scout | 1 | 30 minutos | ✅ Activo |
+| 1 | 🎒 Bienvenida al Programa de Jóvenes | 1 | 27 minutos | ✅ Activo |
+| 2 | 💗 La Educación por el Amor | 1 | 33 minutos | ✅ Activo |
+| 3 | 🎓 Cómo se Educa Hoy | 1 | 33 minutos | ✅ Activo |
+| 4 | 🌟 Características Esenciales del Movimiento Scout | 1 | 33 minutos | ✅ Activo |
 | 5 | 🧭 El Método Scout y sus 8 elementos | 1 | 43 minutos | ✅ Activo |
-| 6 | 📜 La PNPJ y "El Gran Juego para la Vida" | 1 | 35 minutos | ✅ Activo |
-| 7 | 🗺️ Mi Compromiso con el Programa de Jóvenes | 1 | 30 minutos | ✅ Activo |
-| 8 | 🐺 Rama Manada (Lobatos) | 2 | 35 minutos | ✅ Activo |
-| 9 | 🐻 Rama Familia (Cachorros) | 2 | 45 minutos | ✅ Activo |
-| 10 | ⚜️ Rama Tropa Scout | 2 | 45 minutos | ✅ Activo |
-| 11 | 🧗 Rama Comunidad (Nómadas Scout) | 2 | 60 minutos | ✅ Activo |
-| 12 | 🏔️ Rama Clan (Rovers) | 2 | 65 minutos | ✅ Activo |
-| 13 | 🛠️ Seguimiento de la Progresión Personal | 2 | 60 minutos | ✅ Activo |
-| 14 | 📋 Planeación de Reuniones y Oportunidades de Aprendizaje | 2 | 60 minutos | ✅ Activo |
-| 15 | 🎯 Ciclo de Programa con ABP | 2 | 50 minutos | ✅ Activo |
-| 16 | 🧭 Jefe de Rama | 3 | 55 minutos | ✅ Activo |
-| 17 | 👣 Acompañar la Progresión Personal | 3 | 50 minutos | ✅ Activo |
-| 18 | 🗺️ Comisionado de Programa de Jóvenes | 3 | 50 minutos | ✅ Activo |
-| 19 | 🪑 Consejero Juvenil | 3 | 45 minutos | ✅ Activo |
-| 20 | 🕸️ Red de Jóvenes: coordinar y comunicar | 3 | 40 minutos | ✅ Activo |
-| 21 | 🌍 Scouts por los ODS: el Marco de Mundo Mejor en tu unidad | 4 | 45 minutos | ✅ Activo |
-| 22 | 🕊️ Constructores de Paz: el kit de acción en tu unidad | 4 | 50 minutos | ✅ Activo |
-| 23 | 🤝 HeForShe: igualdad de género en tu unidad | 4 | 40 minutos | ✅ Activo |
-| 24 | 🏛️ Patrimonito: el patrimonio de la humanidad en tu unidad | 4 | 35 minutos | ✅ Activo |
-| 25 | 🛡️ A Salvo del Peligro aplicado al Programa | 4 | 55 minutos | ✅ Activo |
+| 6 | 📜 La PNPJ y "El Gran Juego para la Vida" | 1 | 38 minutos | ✅ Activo |
+| 7 | 🗺️ Mi Compromiso con el Programa de Jóvenes | 1 | 33 minutos | ✅ Activo |
+| 8 | 🐺 Rama Lobatos (Manada) | 2 | 38 minutos | ✅ Activo |
+| 9 | 🐻 Rama Cachorros (Familia) | 2 | 48 minutos | ✅ Activo |
+| 10 | ⚜️ Rama Scouts (Tropa) | 2 | 48 minutos | ✅ Activo |
+| 11 | 🧗 Rama Nómadas Scout (Comunidad) | 2 | 63 minutos | ✅ Activo |
+| 12 | 🏔️ Rama Rovers (Clan) | 2 | 71 minutos | ✅ Activo |
+| 13 | 🛠️ Seguimiento de la Progresión Personal | 2 | 64 minutos | ✅ Activo |
+| 14 | 📋 Planeación de Reuniones y Oportunidades de Aprendizaje | 2 | 65 minutos | ✅ Activo |
+| 15 | 🎯 Ciclo de Programa con ABP | 2 | 53 minutos | ✅ Activo |
+| 16 | 🧭 Jefe de Rama | 3 | 58 minutos | ✅ Activo |
+| 17 | 👣 Acompañar la Progresión Personal | 3 | 53 minutos | ✅ Activo |
+| 18 | 🗺️ Comisionado de Programa de Jóvenes | 3 | 53 minutos | ✅ Activo |
+| 19 | 🪑 Consejero Juvenil | 3 | 48 minutos | ✅ Activo |
+| 20 | 🕸️ Red de Jóvenes: coordinar y comunicar | 3 | 43 minutos | ✅ Activo |
+| 21 | 🌍 Scouts por los ODS: el Marco de Mundo Mejor en tu unidad | 4 | 49 minutos | ✅ Activo |
+| 22 | 🕊️ Constructores de Paz: el kit de acción en tu unidad | 4 | 53 minutos | ✅ Activo |
+| 23 | 🤝 HeForShe: igualdad de género en tu unidad | 4 | 43 minutos | ✅ Activo |
+| 24 | 🏛️ Patrimonito: el patrimonio de la humanidad en tu unidad | 4 | 38 minutos | ✅ Activo |
+| 25 | 🛡️ A Salvo del Peligro aplicado al Programa | 4 | 58 minutos | ✅ Activo |
 
 > **Los siete cursos del Nivel 1 y el Curso 8 se re-auditaron el 16-sep-2026** — **19 críticos, 52 mayores y 61 menores**, todos corregidos y verificados en producción **salvo el texto del certificado del Curso 8**, que es decisión del dueño. Los ocho llevan `contentVersion: 2026-09-16`. Detalle en `CHANGELOG-DOCTRINA.md` (asiento 2026-09-16) y `ESTADO-AUDITORIA.md`; lo que quedó abierto, en el bloque **«Decisiones abiertas»** de `DECISIONES.md`.
 

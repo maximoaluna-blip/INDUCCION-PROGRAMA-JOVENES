@@ -242,7 +242,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 5. **`list`** — Recordatorio de los 5 cursos por rama:
     - 🐻 **Curso 9** — Rama Familia (Cachorros, 5-6 años).
     - 🐺 **Curso 8** — Rama Manada (Lobatos, 7-10 años).
-    - ⚜️ **Curso 10** — Rama Tropa Scout (11-14 años).
+    - ⚜️ **Curso 10** — Rama Scouts (Tropa, 11-14 años).
     - 🧗 **Curso 11** — Rama Comunidad (Nómadas Scout, 15-17 años).
     - 🏔️ **Curso 12** — Rama Clan (Rovers, 18-20 años).
 6. **`heading` (nivel 3)** — _"Los 3 cursos pedagógicos operativos (Cursos 13, 14, 15)"_

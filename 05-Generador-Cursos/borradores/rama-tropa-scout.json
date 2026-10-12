@@ -1,9 +1,9 @@
 {
   "courseId": "rama-tropa-scout",
-  "title": "Rama Tropa Scout",
+  "title": "Rama Scouts (Tropa)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El curso de rama para quienes acompañan la adolescencia temprana. Vas a acompañar a Andrés, que acaba de dar el Gran Salto desde la Manada, y a entender el cambio que hace difícil esta rama: en la Tropa los Scouts deciden solos.",
-  "contentVersion": "2026-10-04",
+  "contentVersion": "2026-10-12",
   "icon": "⚜️",
   "duration": "48 minutos",
   "level": 2,
@@ -24,7 +24,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Vuelves a encontrarte con <strong>Andrés</strong>. Lo dejaste en el Curso 8 con diez años, a punto de dar su Gran Salto desde la Manada. Ya lo dio: tiene 11 y hoy es su primer día en la Tropa. Dentro de tres años y medio empezará su <strong>paso</strong> hacia la Comunidad — y ahí lo recoge el <strong>Curso 11 (Rama Comunidad · Nómadas Scout)</strong>, donde Andrés llega con catorce y medio."
+          "text": "Vuelves a encontrarte con <strong>Andrés</strong>. Lo dejaste en el Curso 8 con diez años, a punto de dar su Gran Salto desde la Manada. Ya lo dio: tiene 11 y hoy es su primer día en la Tropa. Dentro de tres años y medio empezará su <strong>paso</strong> hacia la Comunidad — y ahí lo recoge el <strong>Curso 11 (Rama Nómadas Scout · Comunidad)</strong>, donde Andrés llega con catorce y medio."
         },
         {
           "type": "paragraph",
@@ -946,7 +946,7 @@
     }
   ],
   "certificate": {
-    "courseName": "RAMA TROPA SCOUT",
-    "description": "ha completado el Curso 10 de la Línea Programa de Jóvenes — Rama Tropa Scout, reconociendo la Promesa y los diez artículos de la Ley Scout, el Sistema de Patrulla y sus cargos, los símbolos que construyen el Espíritu de Patrulla, la presentación y el buen orden de la rama, las cuatro fases de la progresión y el paso hacia la Comunidad de Nómadas Scout, al servicio de los adolescentes de la Asociación Scouts de Colombia"
+    "courseName": "RAMA SCOUTS (TROPA)",
+    "description": "ha completado el Curso 10 de la Línea Programa de Jóvenes — Rama Scouts (Tropa), reconociendo la Promesa y los diez artículos de la Ley Scout, el Sistema de Patrulla y sus cargos, los símbolos que construyen el Espíritu de Patrulla, la presentación y el buen orden de la rama, las cuatro fases de la progresión y el paso hacia la Comunidad de Nómadas Scout, al servicio de los adolescentes de la Asociación Scouts de Colombia"
   }
 }

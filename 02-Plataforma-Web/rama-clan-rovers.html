@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rama Clan (Rovers) - Plataforma de Formación de Adultos ASC</title>
+    <title>Rama Rovers (Clan) - Plataforma de Formación de Adultos ASC</title>
     <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
     <link rel="icon" type="image/png" href="../assets/logo-asc.png">
     <link rel="stylesheet" href="../assets/dark-theme.css">
@@ -871,7 +871,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
     <div class="container">
         <div class="header">
-            <h1>🏔️ Rama Clan (Rovers)</h1>
+            <h1>🏔️ Rama Rovers (Clan)</h1>
             <p>Formación de Adultos Voluntarios — Asociación Scouts de Colombia</p>
             <div class="progress-container">
                 <div class="progress-bar" id="progressBar"></div>
@@ -2140,14 +2140,14 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
                     <!-- Course name -->
                     <div style="text-align: center; background: linear-gradient(135deg, #622599 0%, #3d1660 100%); color: white; padding: 10px 20px; margin: 10px 0;">
-                        <h3 style="font-size: 1.1em; letter-spacing: 1px; margin: 0; color: white;">RAMA CLAN (ROVERS)</h3>
+                        <h3 style="font-size: 1.1em; letter-spacing: 1px; margin: 0; color: white;">RAMA ROVERS (CLAN)</h3>
                     </div>
 
                     <!-- Body -->
                     <div style="text-align: center; margin: 15px 0;">
                         <p style="font-size: 0.9em; color: #636363; margin-bottom: 8px;">Se otorga el presente certificado a</p>
                         <h3 style="color: #622599; font-size: 1.5em; margin: 8px 0; border-bottom: 2px solid #ffe675; display: inline-block; padding-bottom: 5px;" id="studentName"></h3>
-                        <p style="font-size: 0.85em; color: #636363; margin-top: 10px; line-height: 1.5;">ha completado el Curso 12 de la Línea Programa de Jóvenes — Rama Clan (Rovers), reconociendo los diez artículos de la Ley del Rover y las dos fórmulas oficiales de su Promesa, el gobierno del Clan a través de su Consejo y su Comité, el marco simbólico de la Ciudadanía Activa y sus símbolos, el PARCE con sus cuatro fases, las ceremonias propias de la rama y lo que en ellas está prohibido, y la Partida Rover como cierre de la experiencia de protagonista de programa, al servicio de los jóvenes adultos de la Asociación Scouts de Colombia</p>
+                        <p style="font-size: 0.85em; color: #636363; margin-top: 10px; line-height: 1.5;">ha completado el Curso 12 de la Línea Programa de Jóvenes — Rama Rovers (Clan), reconociendo los diez artículos de la Ley del Rover y las dos fórmulas oficiales de su Promesa, el gobierno del Clan a través de su Consejo y su Comité, el marco simbólico de la Ciudadanía Activa y sus símbolos, el PARCE con sus cuatro fases, las ceremonias propias de la rama y lo que en ellas está prohibido, y la Partida Rover como cierre de la experiencia de protagonista de programa, al servicio de los jóvenes adultos de la Asociación Scouts de Colombia</p>
                     </div>
 
                     <!-- Details grid -->
@@ -2210,7 +2210,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
     // --- Configuracion del curso (generada automaticamente) ---
     var COURSE_CONFIG = {
         courseId: "rama-clan-rovers",
-        title: "Rama Clan (Rovers)",
+        title: "Rama Rovers (Clan)",
         totalModules: 12,
         contentModules: 9,
         googleScriptUrl: "https://script.google.com/macros/s/AKfycbxxZBp6XpmdRzZS0BXO02WMq31K5FUU8-Mqzc2Sj0PcwB3cMcrhIqbHQA0naUQb5mgBWw/exec",
@@ -2533,14 +2533,14 @@ function recoverProgress() {
                 showModule(lastModule > 0 ? lastModule : 1);
             } else {
                 var reason = (data && data.message) ? data.message : 'No se encontro avance asociado a este correo.';
-                msgDiv.innerHTML = '<p style="color: #FF9800; font-weight: 600;">⚠️ ' + escapeHtml(reason) + '</p>' +
+                msgDiv.innerHTML = '<p style="color: #B34700; font-weight: 600;">⚠️ ' + escapeHtml(reason) + '</p>' +
                     '<p style="color: #636363; margin-top: 10px;">Puedes registrarte como nuevo usuario.</p>' +
                     '<button class="btn" style="margin-top: 10px;" onclick="toggleRegistrationMode(\'new\')">🆕 Registrarme</button>';
             }
         })
         .catch(function(err) {
             if (typeof console !== 'undefined') console.error('[Recovery] Error:', err);
-            msgDiv.innerHTML = '<p style="color: #f44336; font-weight: 600;">❌ Error al conectar con el servidor.</p>' +
+            msgDiv.innerHTML = '<p style="color: #C62828; font-weight: 600;">❌ Error al conectar con el servidor.</p>' +
                 '<p style="color: #636363; margin-top: 10px;">Error: ' + escapeHtml(err && err.message ? err.message : String(err)) + '</p>' +
                 '<p style="color: #636363; margin-top: 5px;">Verifica tu conexion a internet e intenta de nuevo.</p>';
         });

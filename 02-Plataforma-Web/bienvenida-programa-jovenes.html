@@ -1281,23 +1281,23 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
                 <div class="method-elements">
                     <div class="method-element" style="background: linear-gradient(135deg, #fff8e1, #fff8e1dd); border-color: #f9a825;">
-                        <h4>🐻 Rama Familia — Cachorros (5–6 años)</h4>
+                        <h4>🐻 Rama Cachorros — Familia (5–6 años)</h4>
                         <p>Grupo natural: Camadas. Marco simbólico: La Fantasía; su fondo motivador es el Libro de las Tierras Vírgenes — el mismo de la Manada.</p>
                     </div>
                     <div class="method-element" style="background: linear-gradient(135deg, #fff3e0, #fff3e0dd); border-color: #fb8c00;">
-                        <h4>🐺 Rama Manada — Lobatos (7–10 años)</h4>
+                        <h4>🐺 Rama Lobatos — Manada (7–10 años)</h4>
                         <p>Grupo natural: Seisenas. Marco simbólico: La Fantasía — el mismo de la Familia (según las Guías de rama; el Modelo de Aplicación los llama Fantasía y Fantasía Expandida); su fondo motivador es el Libro de las Tierras Vírgenes.</p>
                     </div>
                     <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #43a047;">
-                        <h4>⚜️ Rama Tropa — Scouts (11–14 años)</h4>
+                        <h4>⚜️ Rama Scouts — Tropa (11–14 años)</h4>
                         <p>Grupo natural: Patrullas, con su Guía y su Subguía de Patrulla (jóvenes que la patrulla elige). Marco simbólico: La Aventura.</p>
                     </div>
                     <div class="method-element" style="background: linear-gradient(135deg, #e3f2fd, #e3f2fddd); border-color: #1e88e5;">
-                        <h4>🧗 Rama Comunidad — Nómadas Scout (15–17 años)</h4>
+                        <h4>🧗 Rama Nómadas Scout — Comunidad (15–17 años)</h4>
                         <p>Grupo natural: equipos de Comunidad. Marco simbólico: La aventura hacia la ciudadanía.</p>
                     </div>
                     <div class="method-element" style="background: linear-gradient(135deg, #ede7f6, #ede7f6dd); border-color: #5e35b1;">
-                        <h4>🏔️ Rama Clan — Rovers (18–20 años)</h4>
+                        <h4>🏔️ Rama Rovers — Clan (18–20 años)</h4>
                         <p>Grupo natural: equipos de proyectos o clubes Rovers. Marco simbólico: La Ciudadanía Activa.</p>
                     </div>
                 </div>
@@ -1333,15 +1333,15 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <h4>1. Un papá va a empezar a apoyar a un grupo de jóvenes de 17 años. Según las tarjetas de ramas de la lección, ¿en qué rama están y con qué marco simbólico se va a encontrar?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q30">
-                            En la Rama Clan, con el marco de la Ciudadanía Activa de los Rovers.
+                            En la rama Rovers (Clan), con el marco de la Ciudadanía Activa de los Rovers.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q30">
-                            En la Rama Comunidad, con el marco de la aventura hacia la ciudadanía.
+                            En la rama Nómadas Scout (Comunidad), con la aventura hacia la ciudadanía.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q30">
-                            En la Rama Tropa, con el marco de La Aventura y sus patrullas.
+                            En la rama Scouts (Tropa), con el marco de La Aventura y sus patrullas.
                         </label>
                     </div>
 
@@ -2008,14 +2008,14 @@ function recoverProgress() {
                 showModule(lastModule > 0 ? lastModule : 1);
             } else {
                 var reason = (data && data.message) ? data.message : 'No se encontro avance asociado a este correo.';
-                msgDiv.innerHTML = '<p style="color: #FF9800; font-weight: 600;">⚠️ ' + escapeHtml(reason) + '</p>' +
+                msgDiv.innerHTML = '<p style="color: #B34700; font-weight: 600;">⚠️ ' + escapeHtml(reason) + '</p>' +
                     '<p style="color: #636363; margin-top: 10px;">Puedes registrarte como nuevo usuario.</p>' +
                     '<button class="btn" style="margin-top: 10px;" onclick="toggleRegistrationMode(\'new\')">🆕 Registrarme</button>';
             }
         })
         .catch(function(err) {
             if (typeof console !== 'undefined') console.error('[Recovery] Error:', err);
-            msgDiv.innerHTML = '<p style="color: #f44336; font-weight: 600;">❌ Error al conectar con el servidor.</p>' +
+            msgDiv.innerHTML = '<p style="color: #C62828; font-weight: 600;">❌ Error al conectar con el servidor.</p>' +
                 '<p style="color: #636363; margin-top: 10px;">Error: ' + escapeHtml(err && err.message ? err.message : String(err)) + '</p>' +
                 '<p style="color: #636363; margin-top: 5px;">Verifica tu conexion a internet e intenta de nuevo.</p>';
         });

@@ -3,7 +3,7 @@
   "title": "La Educación por el Amor",
   "subtitle": "La apuesta de Baden-Powell en Ginebra, 1922",
   "description": "El segundo curso de la Línea Programa de Jóvenes y la brújula ética del Programa. En ~33 minutos vas a entender qué dijo Baden-Powell en Ginebra en 1922 sobre cómo se educa, vas a distinguir la educación por el temor de la educación por el amor, y vas a ver cómo los 4 objetivos de la instrucción se parecen a las 6 áreas de crecimiento de hoy. Termina con tu propia revisión pedagógica y un compromiso de práctica.",
-  "contentVersion": "2026-10-04",
+  "contentVersion": "2026-10-12",
   "icon": "💗",
   "duration": "33 minutos",
   "level": 1,
@@ -447,7 +447,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Esos 4 objetivos se parecen mucho a lo que hoy la ASC llama las <strong>6 áreas de crecimiento</strong>: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad y Espiritualidad. Así las nombra el <strong>Modelo de Aplicación 2026</strong>; la PNPJ 2024 ya hablaba de seis, con otros nombres (desarrollo físico, intelectual, social, emocional, espiritual y del carácter). En la Rama Familia se trabajan como cinco dimensiones, porque Afectividad y Sociabilidad van juntas en una sola. Los nombres cambian; la idea de educar a la persona entera es la misma."
+          "text": "Esos 4 objetivos se parecen mucho a lo que hoy la ASC llama las <strong>6 áreas de crecimiento</strong>: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad y Espiritualidad. Así las nombra el <strong>Modelo de Aplicación 2026</strong>; la PNPJ 2024 ya hablaba de seis, con otros nombres (desarrollo físico, intelectual, social, emocional, espiritual y del carácter). En la rama Cachorros (Familia) se trabajan como cinco dimensiones, porque Afectividad y Sociabilidad van juntas en una sola. Los nombres cambian; la idea de educar a la persona entera es la misma."
         },
         {
           "type": "heading",

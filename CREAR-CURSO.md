@@ -653,11 +653,11 @@ Antes de publicar, verificar que **todos** los documentos citados siguen siendo 
 | 1 | 05 El Método Scout y sus 8 elementos | `metodo-scout-8-elementos` ✅ |
 | 1 | 06 La PNPJ y "El Gran Juego para la Vida" | `pnpj-gran-juego-para-la-vida` ✅ |
 | 1 | 07 Mi Compromiso con el Programa de Jóvenes | `mi-compromiso-programa-jovenes` ✅ |
-| 2 | 08 Rama Manada (Lobatos) | `rama-manada-lobatos` ✅ |
-| 2 | 09 Rama Familia (Cachorros) | `rama-familia-cachorros` ✅ |
-| 2 | 10 Rama Tropa Scout | `rama-tropa-scout` ✅ |
-| 2 | 11 Rama Comunidad (Nómadas Scout) | `rama-comunidad-nomadas` ✅ |
-| 2 | 12 Rama Clan (Rovers) | `rama-clan-rovers` ✅ |
+| 2 | 08 Rama Lobatos (Manada) | `rama-manada-lobatos` ✅ |
+| 2 | 09 Rama Cachorros (Familia) | `rama-familia-cachorros` ✅ |
+| 2 | 10 Rama Scouts (Tropa) | `rama-tropa-scout` ✅ |
+| 2 | 11 Rama Nómadas Scout (Comunidad) | `rama-comunidad-nomadas` ✅ |
+| 2 | 12 Rama Rovers (Clan) | `rama-clan-rovers` ✅ |
 | 2 | 13 Seguimiento de la Progresión Personal | `seguimiento-progresion-personal` ✅ |
 | 2 | 14 Planeación de Reuniones y OdA | `planeacion-reuniones-oda` ✅ |
 | 2 | 15 Ciclo de Programa con ABP | `ciclo-programa-abp` ✅ |

@@ -1,4 +1,4 @@
-# Diseño del Curso 11 — 🧗 Rama Comunidad (Nómadas Scout)
+# Diseño del Curso 11 — 🧗 Rama Nómadas Scout (Comunidad)
 
 **Línea:** Programa de Jóvenes · **Nivel:** 2 (Profundización por rama y práctica pedagógica) · **Posición:** cuarto curso de rama construido, después de Manada (8), Familia (9) y Tropa (10).
 
@@ -39,7 +39,7 @@ Ninguna se inventa ni se esconde. Se resuelven con criterio explícito, y las qu
 | Campo | Valor |
 |---|---|
 | `courseId` | `rama-comunidad-nomadas` |
-| Título | Rama Comunidad (Nómadas Scout) |
+| Título | Rama Nómadas Scout (Comunidad) |
 | Icono | 🧗 |
 | Nivel / orden | 2 · Curso **11** |
 | Duración declarada | **60 minutos** — ver §4-bis y el **ADR-047**. Es el curso más extenso de la plataforma |

@@ -1,4 +1,4 @@
-# Diseño del Curso 9 — 🐻 Rama Familia (Cachorros)
+# Diseño del Curso 9 — 🐻 Rama Cachorros (Familia)
 
 **Línea:** Programa de Jóvenes · **Nivel:** 2 (Profundización por rama y práctica pedagógica) · **Posición:** curso de rama, el segundo construido del Nivel 2.
 
@@ -19,7 +19,7 @@
 | Campo | Valor |
 |---|---|
 | `courseId` | `rama-familia-cachorros` |
-| Título | Rama Familia (Cachorros) |
+| Título | Rama Cachorros (Familia) |
 | Subtítulo | Formación de Adultos Voluntarios — Asociación Scouts de Colombia |
 | Icono | 🐻 |
 | Duración | **45 minutos** (excede el tope de 40 del CHECKLIST — justificado en el **ADR-045**) |

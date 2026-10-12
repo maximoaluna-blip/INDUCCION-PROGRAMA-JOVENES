@@ -3,7 +3,7 @@
   "title": "Bienvenida al Programa de Jóvenes",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El primer paso en la Línea Programa de Jóvenes. En ~27 minutos vas a entender qué es realmente el Programa de Jóvenes (y qué no), desarmar los mitos del dirigente nuevo, ubicar las 5 ramas y la documentación marco, y dar tu primer compromiso concreto. Sin tecnicismos, con ejemplos del día a día de una unidad.",
-  "contentVersion": "2026-10-04",
+  "contentVersion": "2026-10-12",
   "icon": "🎒",
   "duration": "27 minutos",
   "level": 1,
@@ -287,31 +287,31 @@
           "type": "method-grid",
           "items": [
             {
-              "title": "🐻 Rama Familia — Cachorros (5–6 años)",
+              "title": "🐻 Rama Cachorros — Familia (5–6 años)",
               "description": "Grupo natural: Camadas. Marco simbólico: La Fantasía; su fondo motivador es el Libro de las Tierras Vírgenes — el mismo de la Manada.",
               "color": "#fff8e1",
               "borderColor": "#f9a825"
             },
             {
-              "title": "🐺 Rama Manada — Lobatos (7–10 años)",
+              "title": "🐺 Rama Lobatos — Manada (7–10 años)",
               "description": "Grupo natural: Seisenas. Marco simbólico: La Fantasía — el mismo de la Familia (según las Guías de rama; el Modelo de Aplicación los llama Fantasía y Fantasía Expandida); su fondo motivador es el Libro de las Tierras Vírgenes.",
               "color": "#fff3e0",
               "borderColor": "#fb8c00"
             },
             {
-              "title": "⚜️ Rama Tropa — Scouts (11–14 años)",
+              "title": "⚜️ Rama Scouts — Tropa (11–14 años)",
               "description": "Grupo natural: Patrullas, con su Guía y su Subguía de Patrulla (jóvenes que la patrulla elige). Marco simbólico: La Aventura.",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             },
             {
-              "title": "🧗 Rama Comunidad — Nómadas Scout (15–17 años)",
+              "title": "🧗 Rama Nómadas Scout — Comunidad (15–17 años)",
               "description": "Grupo natural: equipos de Comunidad. Marco simbólico: La aventura hacia la ciudadanía.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
             {
-              "title": "🏔️ Rama Clan — Rovers (18–20 años)",
+              "title": "🏔️ Rama Rovers — Clan (18–20 años)",
               "description": "Grupo natural: equipos de proyectos o clubes Rovers. Marco simbólico: La Ciudadanía Activa.",
               "color": "#ede7f6",
               "borderColor": "#5e35b1"
@@ -358,9 +358,9 @@
           {
             "text": "Un papá va a empezar a apoyar a un grupo de jóvenes de 17 años. Según las tarjetas de ramas de la lección, ¿en qué rama están y con qué marco simbólico se va a encontrar?",
             "options": [
-              "En la Rama Clan, con el marco de la Ciudadanía Activa de los Rovers.",
-              "En la Rama Comunidad, con el marco de la aventura hacia la ciudadanía.",
-              "En la Rama Tropa, con el marco de La Aventura y sus patrullas."
+              "En la rama Rovers (Clan), con el marco de la Ciudadanía Activa de los Rovers.",
+              "En la rama Nómadas Scout (Comunidad), con la aventura hacia la ciudadanía.",
+              "En la rama Scouts (Tropa), con el marco de La Aventura y sus patrullas."
             ],
             "correctIndex": 1
           },

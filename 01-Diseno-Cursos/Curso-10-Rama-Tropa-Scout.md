@@ -1,4 +1,4 @@
-# Diseño del Curso 10 — ⚜️ Rama Tropa Scout
+# Diseño del Curso 10 — ⚜️ Rama Scouts (Tropa)
 
 **Línea:** Programa de Jóvenes · **Nivel:** 2 (Profundización por rama y práctica pedagógica) · **Posición:** tercer curso de rama construido, después de Manada (8) y Familia (9).
 
@@ -52,7 +52,7 @@ La propia Guía de Buenas Prácticas lo dice de sí misma (p. 3): *«una recopil
 | Campo | Valor |
 |---|---|
 | `courseId` | `rama-tropa-scout` |
-| Título | Rama Tropa Scout |
+| Título | Rama Scouts (Tropa) |
 | Subtítulo | Formación de Adultos Voluntarios — Asociación Scouts de Colombia |
 | Icono | ⚜️ |
 | Duración | **45 minutos** (excede el tope de 40 del CHECKLIST — justificado en el **ADR-046**) |

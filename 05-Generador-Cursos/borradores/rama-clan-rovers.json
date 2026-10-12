@@ -1,9 +1,9 @@
 {
   "courseId": "rama-clan-rovers",
-  "title": "Rama Clan (Rovers)",
+  "title": "Rama Rovers (Clan)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El último curso de rama, y el único cuyos protagonistas son mayores de edad. Vas a acompañar a Sebastián desde el día que llega al Clan hasta su Partida Rover, y a entender el cambio que define esta rama: aquí tu trabajo es volverte innecesario.",
-  "contentVersion": "2026-10-05",
+  "contentVersion": "2026-10-12",
   "icon": "🏔️",
   "duration": "71 minutos",
   "level": 2,
@@ -1231,8 +1231,8 @@
     }
   ],
   "certificate": {
-    "courseName": "RAMA CLAN (ROVERS)",
-    "description": "ha completado el Curso 12 de la Línea Programa de Jóvenes — Rama Clan (Rovers), reconociendo los diez artículos de la Ley del Rover y las dos fórmulas oficiales de su Promesa, el gobierno del Clan a través de su Consejo y su Comité, el marco simbólico de la Ciudadanía Activa y sus símbolos, el PARCE con sus cuatro fases, las ceremonias propias de la rama y lo que en ellas está prohibido, y la Partida Rover como cierre de la experiencia de protagonista de programa, al servicio de los jóvenes adultos de la Asociación Scouts de Colombia"
+    "courseName": "RAMA ROVERS (CLAN)",
+    "description": "ha completado el Curso 12 de la Línea Programa de Jóvenes — Rama Rovers (Clan), reconociendo los diez artículos de la Ley del Rover y las dos fórmulas oficiales de su Promesa, el gobierno del Clan a través de su Consejo y su Comité, el marco simbólico de la Ciudadanía Activa y sus símbolos, el PARCE con sus cuatro fases, las ceremonias propias de la rama y lo que en ellas está prohibido, y la Partida Rover como cierre de la experiencia de protagonista de programa, al servicio de los jóvenes adultos de la Asociación Scouts de Colombia"
   },
   "commitmentBox": {
     "prompt": "Escribe tu primer paso como Dirigente de Clan (Lección 10): la sola cosa que le devuelves al Clan en la próxima reunión, y su fecha.",

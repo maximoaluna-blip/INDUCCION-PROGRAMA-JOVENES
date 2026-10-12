@@ -1424,11 +1424,11 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                 <p>Cada dirigente toma el curso de su rama. Abajo está la lista: busca la tuya y anota cuál vas a tomar primero.</p>
 
                 <ul>
-                    <li>🐻 <strong>Curso 9</strong> — Rama Familia (Cachorros, 5-6 años).</li>
-                    <li>🐺 <strong>Curso 8</strong> — Rama Manada (Lobatos, 7-10 años).</li>
-                    <li>⚜️ <strong>Curso 10</strong> — Rama Tropa Scout (11-14 años).</li>
-                    <li>🧗 <strong>Curso 11</strong> — Rama Comunidad (Nómadas Scout, 15-17 años).</li>
-                    <li>🏔️ <strong>Curso 12</strong> — Rama Clan (Rovers, 18-20 años).</li>
+                    <li>🐻 <strong>Curso 9</strong> — Rama Cachorros (Familia, 5-6 años).</li>
+                    <li>🐺 <strong>Curso 8</strong> — Rama Lobatos (Manada, 7-10 años).</li>
+                    <li>⚜️ <strong>Curso 10</strong> — Rama Scouts (Tropa, 11-14 años).</li>
+                    <li>🧗 <strong>Curso 11</strong> — Rama Nómadas Scout (Comunidad, 15-17 años).</li>
+                    <li>🏔️ <strong>Curso 12</strong> — Rama Rovers (Clan, 18-20 años).</li>
                 </ul>
 
                 <h3>Los 3 cursos pedagógicos operativos (Cursos 13, 14, 15)</h3>
@@ -2041,14 +2041,14 @@ function recoverProgress() {
                 showModule(lastModule > 0 ? lastModule : 1);
             } else {
                 var reason = (data && data.message) ? data.message : 'No se encontro avance asociado a este correo.';
-                msgDiv.innerHTML = '<p style="color: #FF9800; font-weight: 600;">⚠️ ' + escapeHtml(reason) + '</p>' +
+                msgDiv.innerHTML = '<p style="color: #B34700; font-weight: 600;">⚠️ ' + escapeHtml(reason) + '</p>' +
                     '<p style="color: #636363; margin-top: 10px;">Puedes registrarte como nuevo usuario.</p>' +
                     '<button class="btn" style="margin-top: 10px;" onclick="toggleRegistrationMode(\'new\')">🆕 Registrarme</button>';
             }
         })
         .catch(function(err) {
             if (typeof console !== 'undefined') console.error('[Recovery] Error:', err);
-            msgDiv.innerHTML = '<p style="color: #f44336; font-weight: 600;">❌ Error al conectar con el servidor.</p>' +
+            msgDiv.innerHTML = '<p style="color: #C62828; font-weight: 600;">❌ Error al conectar con el servidor.</p>' +
                 '<p style="color: #636363; margin-top: 10px;">Error: ' + escapeHtml(err && err.message ? err.message : String(err)) + '</p>' +
                 '<p style="color: #636363; margin-top: 5px;">Verifica tu conexion a internet e intenta de nuevo.</p>';
         });

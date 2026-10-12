@@ -1433,7 +1433,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
                 <h3>De 4 objetivos (1922) a 6 áreas (hoy)</h3>
 
-                <p>Esos 4 objetivos se parecen mucho a lo que hoy la ASC llama las <strong>6 áreas de crecimiento</strong>: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad y Espiritualidad. Así las nombra el <strong>Modelo de Aplicación 2026</strong>; la PNPJ 2024 ya hablaba de seis, con otros nombres (desarrollo físico, intelectual, social, emocional, espiritual y del carácter). En la Rama Familia se trabajan como cinco dimensiones, porque Afectividad y Sociabilidad van juntas en una sola. Los nombres cambian; la idea de educar a la persona entera es la misma.</p>
+                <p>Esos 4 objetivos se parecen mucho a lo que hoy la ASC llama las <strong>6 áreas de crecimiento</strong>: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad y Espiritualidad. Así las nombra el <strong>Modelo de Aplicación 2026</strong>; la PNPJ 2024 ya hablaba de seis, con otros nombres (desarrollo físico, intelectual, social, emocional, espiritual y del carácter). En la rama Cachorros (Familia) se trabajan como cinco dimensiones, porque Afectividad y Sociabilidad van juntas en una sola. Los nombres cambian; la idea de educar a la persona entera es la misma.</p>
 
                 <h3>Lo que esto significa para tu rol</h3>
 
@@ -2018,14 +2018,14 @@ function recoverProgress() {
                 showModule(lastModule > 0 ? lastModule : 1);
             } else {
                 var reason = (data && data.message) ? data.message : 'No se encontro avance asociado a este correo.';
-                msgDiv.innerHTML = '<p style="color: #FF9800; font-weight: 600;">⚠️ ' + escapeHtml(reason) + '</p>' +
+                msgDiv.innerHTML = '<p style="color: #B34700; font-weight: 600;">⚠️ ' + escapeHtml(reason) + '</p>' +
                     '<p style="color: #636363; margin-top: 10px;">Puedes registrarte como nuevo usuario.</p>' +
                     '<button class="btn" style="margin-top: 10px;" onclick="toggleRegistrationMode(\'new\')">🆕 Registrarme</button>';
             }
         })
         .catch(function(err) {
             if (typeof console !== 'undefined') console.error('[Recovery] Error:', err);
-            msgDiv.innerHTML = '<p style="color: #f44336; font-weight: 600;">❌ Error al conectar con el servidor.</p>' +
+            msgDiv.innerHTML = '<p style="color: #C62828; font-weight: 600;">❌ Error al conectar con el servidor.</p>' +
                 '<p style="color: #636363; margin-top: 10px;">Error: ' + escapeHtml(err && err.message ? err.message : String(err)) + '</p>' +
                 '<p style="color: #636363; margin-top: 5px;">Verifica tu conexion a internet e intenta de nuevo.</p>';
         });

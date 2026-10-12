@@ -1,9 +1,9 @@
 {
   "courseId": "rama-comunidad-nomadas",
-  "title": "Rama Comunidad (Nómadas Scout)",
+  "title": "Rama Nómadas Scout (Comunidad)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El curso de rama para quienes acompañan la adolescencia tardía. Vas a reencontrarte con Andrés, que llega desde la Tropa al final de su Etapa de Transición, y a entender el cambio que define esta rama: en la Comunidad las decisiones de los jóvenes salen de la unidad y aterrizan en el territorio.",
-  "contentVersion": "2026-10-04",
+  "contentVersion": "2026-10-12",
   "icon": "🧗",
   "duration": "63 minutos",
   "level": 2,
@@ -986,7 +986,7 @@
         },
         {
           "type": "info-box",
-          "text": "🛶 <strong>Y al otro lado de la orilla.</strong> Qué es un Clan, qué significa la canoa y cómo funciona la progresión de un Rover —que allá se llama <strong>PARCE</strong>— es materia del <strong>Curso 12 (Rama Clan)</strong>, que ya puedes hacer. Y hay algo que no espera al curso: pídele al Jefe de Clan de tu Grupo que venga a una reunión de tu Comunidad antes de que tu primer Nómada cumpla los dieciocho. El Asentamiento se hace con gente, no con folletos."
+          "text": "🛶 <strong>Y al otro lado de la orilla.</strong> Qué es un Clan, qué significa la canoa y cómo funciona la progresión de un Rover —que allá se llama <strong>PARCE</strong>— es materia del <strong>Curso 12 (Rama Rovers · Clan)</strong>, que ya puedes hacer. Y hay algo que no espera al curso: pídele al Jefe de Clan de tu Grupo que venga a una reunión de tu Comunidad antes de que tu primer Nómada cumpla los dieciocho. El Asentamiento se hace con gente, no con folletos."
         },
         {
           "type": "heading",
@@ -1114,8 +1114,8 @@
     }
   ],
   "certificate": {
-    "courseName": "RAMA COMUNIDAD (NÓMADAS SCOUT)",
-    "description": "ha completado el Curso 11 de la Línea Programa de Jóvenes — Rama Comunidad (Nómadas Scout), reconociendo los diez artículos de la Ley del Nómada Scout y las dos fórmulas oficiales de su Promesa, el Sistema de Equipos y sus cargos, la diferencia entre el Consejo de Equipo y el Congreso de Comunidad, el marco simbólico de la aventura hacia la ciudadanía y su ambiente de referencia, el involucramiento comunitario en sus seis momentos, los seis Rumbos y las cuatro fases de la progresión, y las dos etapas de transición de la rama, al servicio de los adolescentes de la Asociación Scouts de Colombia"
+    "courseName": "RAMA NÓMADAS SCOUT (COMUNIDAD)",
+    "description": "ha completado el Curso 11 de la Línea Programa de Jóvenes — Rama Nómadas Scout (Comunidad), reconociendo los diez artículos de la Ley del Nómada Scout y las dos fórmulas oficiales de su Promesa, el Sistema de Equipos y sus cargos, la diferencia entre el Consejo de Equipo y el Congreso de Comunidad, el marco simbólico de la aventura hacia la ciudadanía y su ambiente de referencia, el involucramiento comunitario en sus seis momentos, los seis Rumbos y las cuatro fases de la progresión, y las dos etapas de transición de la rama, al servicio de los adolescentes de la Asociación Scouts de Colombia"
   },
   "commitmentBox": {
     "prompt": "Escribe tu primer paso como Dirigente de Comunidad (Lección 8): la sola cosa que empuja una decisión hacia afuera en la próxima reunión, y su fecha.",
