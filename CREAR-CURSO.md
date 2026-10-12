@@ -406,7 +406,7 @@ Cada curso del Nivel 1 cierra con un **compromiso firmable** (no abstracto):
 - Curso 3: una frase propia de definición del Movimiento.
 - Curso 4: un ajuste a la próxima reunión, fortaleciendo un elemento del Método.
 - Curso 5: el mapa personal del Modelo (rama, áreas prioritarias, rol).
-- Curso 7: el Plan Personal de Dirigente completo (22 campos) + Promesa personal del Nivel 1.
+- Curso 7: el compromiso con el Programa de Jóvenes (`plan-builder` de la L3) + Promesa personal del Nivel 1. ⚠️ No llamarlo «Plan Personal de Dirigente»: es el instrumento de la PNAM y el título del Curso 5 de Política de Adultos (cerrado el 12-oct-2026).
 
 **Recomendación:** ningún curso de PJ debería terminar sin un compromiso que el adulto pueda **mostrar a su consejo de grupo** o **revisar en una semana**.
 
@@ -488,7 +488,7 @@ Cada curso del Nivel 1 cierra con un anuncio del siguiente (1–2 frases). En pa
 - **Última lección del Curso 2** anuncia: _"En el Curso 3 vas a conocer la identidad doctrinal del Movimiento. En el Curso 4, su método. En el Curso 5, cómo Colombia lo aplica."_
 - **Última lección del Curso 3** anuncia: _"En el Curso 4 vas a aprender el Método Scout: la herramienta práctica con la que aterrizas el Propósito y los Principios a una reunión real."_
 - **Última lección del Curso 4** anuncia: _"En el Curso 5 vas a ver cómo Colombia aterriza el Método al Modelo de Aplicación 2026, las 5 ramas y las 6 áreas de crecimiento."_
-- **Última lección del Curso 6** anuncia: _"En el Curso 7 vas a convertir todo lo aprendido en un Plan Personal de Dirigente firmable."_
+- **Última lección del Curso 6** anuncia el Curso 7 como _«tu compromiso escrito, integrando todo el Nivel 1»_.
 - **Última lección del Curso 7** recomienda:
   - **Recomendado pronto**: Curso 25 (A Salvo del Peligro) — importante, no bloqueante.
   - **Próximo mes**: tu curso de rama del Nivel 2 + un curso pedagógico operativo (12, 13 o 14).

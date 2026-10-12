@@ -434,7 +434,7 @@ _Excepción documentada (8 lecciones → 7+1 logros, igual que el Curso 04 del N
 
 ### 6.1 Hacia atrás (dentro de la Línea PJ)
 
-- **L2 (Ceremonia de Paso) ← Curso 6:** retoma el compromiso escrito en el Plan Personal de Dirigente del Curso 6, ahora aterrizado a la rama concreta que el adulto declaró.
+- **L2 (Ceremonia de Paso) ← Curso 6:** retoma el compromiso escrito en el Curso 7 (*Mi Compromiso con el Programa de Jóvenes*), ahora aterrizado a la rama concreta que el adulto declaró.
 - **L4 (DURASLID) ← Curso 1 (Mito 3):** el Curso 1 introdujo DURASLID como filtro contra "hay que entretenerlos"; aquí se aplica en profundidad.
 - **L5 (seis Sendas) ← Curso 1 (L5) y Curso 5:** el Curso 1 presentó panorámicamente las 6 áreas de crecimiento; el Curso 5 las aterrizó al Modelo de Aplicación; aquí se convierten en las seis Sendas concretas de la Manada.
 - **Recomendado, no prerrequisito ← Curso 25 (A Salvo del Peligro):** cuando se construya, se recomienda en la ficha del curso; no bloquea el acceso (ver `CLAUDE.md` §5.3, ADR-019).

@@ -1,9 +1,9 @@
 {
   "courseId": "mi-compromiso-programa-jovenes",
   "title": "Mi Compromiso con el Programa de Jóvenes",
-  "subtitle": "Tu plan personal de dirigente — cierre del Nivel 1",
-  "description": "El cierre del Nivel 1 de la Línea Programa de Jóvenes. En ~33 minutos vas a convertir los Cursos 1 a 6 en un Plan Personal de Dirigente firmable: revisas tu brújula, defines tu rol, rama y áreas prioritarias, planeas tu próxima reunión y tu proyecto del trimestre, trazas tu ruta de formación y firmas tu promesa personal. No hay contenido nuevo: integras lo que ya tienes en algo accionable.",
-  "contentVersion": "2026-10-04",
+  "subtitle": "Tu compromiso con el Programa de Jóvenes — cierre del Nivel 1",
+  "description": "El cierre del Nivel 1 de la Línea Programa de Jóvenes. En ~33 minutos vas a convertir los Cursos 1 a 6 en un compromiso firmable con el Programa de Jóvenes: revisas tu brújula, defines tu rol, rama y áreas prioritarias, planeas tu próxima reunión y tu proyecto del trimestre, trazas tu ruta de formación y firmas tu promesa personal. No hay contenido nuevo: integras lo que ya tienes en algo accionable.",
+  "contentVersion": "2026-10-12",
   "icon": "🗺️",
   "duration": "33 minutos",
   "level": 1,
@@ -20,7 +20,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~33 minutos.</strong> Al final vas a tener un Plan Personal de Dirigente firmado, descargable en PDF, con compromisos chicos y concretos para el próximo trimestre. Y un par dirigente con quien compartirlo."
+          "text": "⏱️ <strong>~33 minutos.</strong> Al final vas a tener tu compromiso con el Programa de Jóvenes firmado, descargable en PDF, con compromisos chicos y concretos para el próximo trimestre. Y un par dirigente con quien compartirlo."
         },
         {
           "type": "paragraph",
@@ -474,7 +474,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Yo, <strong>[tu nombre]</strong>, completé el Nivel 1 de la Línea Programa de Jóvenes el día <strong>[fecha]</strong>.<br>Asumí los aprendizajes de los Cursos 1 a 6 como brújula de mi servicio al Movimiento Scout.<br>Me comprometo a vivir el Programa de Jóvenes como una alianza educativa entre jóvenes y adultos, no como un manual.<br>Me comprometo a educar por el amor, no por el temor.<br>Me comprometo a aplicar el Método Scout como sistema completo, no como menú.<br>Me comprometo a hacer los cuatro módulos oficiales de A Salvo del Peligro, si todavía no los he hecho.<br>Y me comprometo a revisar y ajustar este Plan Personal de Dirigente, junto con mi par, cada <strong>[frecuencia que elegí]</strong>."
+          "text": "Yo, <strong>[tu nombre]</strong>, completé el Nivel 1 de la Línea Programa de Jóvenes el día <strong>[fecha]</strong>.<br>Asumí los aprendizajes de los Cursos 1 a 6 como brújula de mi servicio al Movimiento Scout.<br>Me comprometo a vivir el Programa de Jóvenes como una alianza educativa entre jóvenes y adultos, no como un manual.<br>Me comprometo a educar por el amor, no por el temor.<br>Me comprometo a aplicar el Método Scout como sistema completo, no como menú.<br>Me comprometo a hacer los cuatro módulos oficiales de A Salvo del Peligro, si todavía no los he hecho.<br>Y me comprometo a revisar y ajustar este compromiso, junto con mi par, cada <strong>[frecuencia que elegí]</strong>."
         },
         {
           "type": "mission-box",
@@ -584,7 +584,7 @@
   ],
   "certificate": {
     "courseName": "MI COMPROMISO CON EL PROGRAMA DE JÓVENES",
-    "description": "ha completado el Curso 7 de la Línea Programa de Jóvenes, cerrando el Nivel 1 con un Plan Personal de Dirigente y una Promesa personal que integran los aprendizajes de los Cursos 1 a 6, comprometiéndose a vivir el Programa de Jóvenes como una alianza educativa al servicio de los protagonistas de la Asociación Scouts de Colombia"
+    "description": "ha completado el Curso 7 de la Línea Programa de Jóvenes, cerrando el Nivel 1 con un compromiso escrito con el Programa de Jóvenes y una Promesa personal que integran los aprendizajes de los Cursos 1 a 6, comprometiéndose a vivir el Programa de Jóvenes como una alianza educativa al servicio de los protagonistas de la Asociación Scouts de Colombia"
   },
   "commitmentBox": {
     "prompt": "Escribe aquí tu promesa personal del Nivel 1 (la de la Lección 6) y agrega una línea propia: algo que solo tú podrías comprometer, según tu camino.",

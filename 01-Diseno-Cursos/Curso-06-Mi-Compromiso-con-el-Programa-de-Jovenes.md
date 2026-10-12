@@ -12,7 +12,7 @@
 |---|---|
 | `courseId` | `mi-compromiso-programa-jovenes` |
 | Título | Mi Compromiso con el Programa de Jóvenes |
-| Subtítulo | Tu plan personal de dirigente — cierre del Nivel 1 |
+| Subtítulo | Tu compromiso con el Programa de Jóvenes — cierre del Nivel 1 |
 | Icono | 🗺️ |
 | Duración | ~30 min |
 | Lecciones de contenido | 6 + intro + certificado |
@@ -27,7 +27,7 @@
 Al completar este curso, el adulto:
 
 1. **Integra** los aprendizajes de los Cursos 1–6 en una visión personal del propio rol como dirigente de PJ.
-2. **Construye** un Plan Personal de Dirigente con compromisos chicos, concretos y observables para el próximo trimestre.
+2. **Construye** un compromiso con el Programa de Jóvenes con compromisos chicos, concretos y observables para el próximo trimestre.
 3. **Selecciona** los cursos del Nivel 2 y del Nivel 4 que más le servirán según su rama y rol.
 4. **Compromete** una primera acción de aplicación del Método Scout en su próxima reunión real.
 5. **Identifica** a un par dirigente con quien compartir el plan para sostenerse mutuamente.
@@ -66,7 +66,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 **Secciones (en orden):**
 
-1. **`info-box`** — Tiempo (~30 min) y promesa: _"Al final vas a tener un Plan Personal de Dirigente firmado, descargable en PDF, con compromisos chicos y concretos para el próximo trimestre. Y un par dirigente con quien compartirlo."_
+1. **`info-box`** — Tiempo (~30 min) y promesa: _"Al final vas a tener un compromiso con el Programa de Jóvenes firmado, descargable en PDF, con compromisos chicos y concretos para el próximo trimestre. Y un par dirigente con quien compartirlo."_
 2. **`paragraph`** — Reconocimiento: _"Llegaste hasta acá. Tomaste 6 cursos. Leíste a Baden-Powell, a la OMMS, a la PNPJ. Te asomaste a los 8 elementos del Método y al Modelo de Aplicación colombiano. Reflexionaste, contestaste quizzes, escribiste compromisos parciales. Hoy todo eso se vuelve plan."_
 3. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 4. **`list`** — Las 5 ideas:
@@ -298,7 +298,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
     - _"Me comprometo a educar por el amor, no por el temor."_
     - _"Me comprometo a aplicar el Método Scout como sistema completo, no como menú."_
     - _"Me comprometo a hacer el módulo oficial A Salvo del Peligro de la ASC, si todavía no lo he hecho."_
-    - _"Y me comprometo a revisar y ajustar este Plan Personal de Dirigente, junto con mi par, cada **[frecuencia que elegí]**."_
+    - _"Y me comprometo a revisar y ajustar este compromiso con el Programa de Jóvenes, junto con mi par, cada **[frecuencia que elegí]**."_
 8. **`mission-box`** — _"Lee tu promesa en voz alta antes de descargar tu certificado. Lo que se dice cobra peso. Lo que se escribe se queda."_
 9. **`photo-upload`**
     - `photoId`: `pj-promesa-personal-nivel-1`
@@ -365,7 +365,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 ### 6.3 Cross-línea
 
-- **Con Política de Adultos Curso 5 (Plan Personal de Desarrollo)**: el Plan Personal de Dirigente de este curso se lee al lado del Plan Personal de Desarrollo de Política de Adultos en el dashboard.
+- **Con Política de Adultos Curso 5 (Plan Personal de Desarrollo)**: el compromiso de este curso se lee al lado del Plan Personal de Desarrollo de Política de Adultos en el dashboard.
 - **Con DI Curso 6 (Mi Aporte al Desarrollo Institucional)**: paralelismo de estructura: ambas líneas cierran su Nivel 1 con un plan personal.
 
 ---
@@ -393,11 +393,11 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 | Activo | Tipo | Estado | Observación |
 |---|---|---|---|
-| Plantilla PDF "Plan Personal de Dirigente PJ" | PDF generado | Por diseñar | Crítica. Salida del `plan-builder` con todos los 22 campos llenos. Diseño coherente con la plantilla PDF del Curso 6 DI. |
+| Plantilla PDF "compromiso con el Programa de Jóvenes PJ" | PDF generado | Por diseñar | Crítica. Salida del `plan-builder` con todos los 22 campos llenos. Diseño coherente con la plantilla PDF del Curso 6 DI. |
 | Imagen de portada | PNG | Por crear | Brújula sobre mapa de Colombia — color #FF6F00 (cálido, motivacional). |
 | Plantilla "Promesa personal Nivel 1" | PDF imprimible | Por diseñar | La adulta puede imprimir, firmar a mano y subir foto. |
 
-**Decisión sugerida:** la plantilla del Plan Personal de Dirigente es el entregable más importante del Nivel 1. Vale la pena producirla con calidad de marca ASC.
+**Decisión sugerida:** la plantilla del compromiso con el Programa de Jóvenes es el entregable más importante del Nivel 1. Vale la pena producirla con calidad de marca ASC.
 
 ---
 
@@ -426,7 +426,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 > las auditorías, ni en la suite.*
 
 1. ✅ **Revisar este diseño** con el dueño del proyecto.
-2. ✅ **Diseñar la plantilla PDF "Plan Personal de Dirigente PJ"** (salida del `plan-builder`) — resuelto con la
+2. ✅ **Diseñar la plantilla PDF "compromiso con el Programa de Jóvenes PJ"** (salida del `plan-builder`) — resuelto con la
    salida imprimible del propio componente.
 3. ❌ **Adaptar el `brujula-display`** del Curso 6 DI a esta línea, con los 6 courseIds de PJ. **No se hizo.** La L2
    quedó con un `info-box` que enumera las seis reflexiones (§4.3). **Decisión abierta:** portarlo y republicar, o
@@ -438,4 +438,6 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 ---
 
-_Documento de diseño del Curso 7 — **v1.1, 19 de septiembre de 2026** (ADR-067: el documento se pone al día con el curso que de verdad se construyó y publicó. Corregidos la §4.3 —el `brujula-display` que esta línea no dibuja, y el `list` de las tres preguntas—, la §6.1, la tabla de componentes de la §7 y la lista de próximos pasos de la §10, donde el paso 3 quedó sin hacer. **El diseño es fuente:** quien reconstruyera el curso desde la versión anterior reintroduciría un componente que el build de Programa de Jóvenes no sabe dibujar). Versión inicial — 28 de mayo de 2026. Este curso cierra la ruta del Nivel 1 de la Línea Programa de Jóvenes. Integra los aprendizajes de los Cursos 1-6 en un Plan Personal de Dirigente y una Promesa personal. Validado contra el marco metodológico de la plataforma._
+_Documento de diseño del Curso 7 — **v1.1, 19 de septiembre de 2026** (ADR-067: el documento se pone al día con el curso que de verdad se construyó y publicó. Corregidos la §4.3 —el `brujula-display` que esta línea no dibuja, y el `list` de las tres preguntas—, la §6.1, la tabla de componentes de la §7 y la lista de próximos pasos de la §10, donde el paso 3 quedó sin hacer. **El diseño es fuente:** quien reconstruyera el curso desde la versión anterior reintroduciría un componente que el build de Programa de Jóvenes no sabe dibujar). Versión inicial — 28 de mayo de 2026. Este curso cierra la ruta del Nivel 1 de la Línea Programa de Jóvenes. Integra los aprendizajes de los Cursos 1-6 en un compromiso con el Programa de Jóvenes y una Promesa personal. Validado contra el marco metodológico de la plataforma._
+
+_Ajuste del 12-oct-2026 (decisión del dueño): el producto del curso deja de llamarse «Plan Personal de Dirigente», que es el instrumento de la PNAM (§5.2.1) y el título del Curso 5 de Política de Adultos. Ahora se llama «compromiso con el Programa de Jóvenes» en el subtítulo, la descripción, la L1, la promesa y el certificado. La cita histórica de la §7 se conserva._
