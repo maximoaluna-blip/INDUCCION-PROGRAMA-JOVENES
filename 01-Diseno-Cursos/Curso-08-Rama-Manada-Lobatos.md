@@ -31,7 +31,7 @@ Al completar este curso, el dirigente:
 
 1. **Reconoce** las características propias del niño y la niña de 7 a 10 años (cuerpo en movimiento, mente curiosa, corazón sensible, fantasía como lenguaje) y por qué determinan todo el diseño de la rama.
 2. **Recita y explica** la Ley y la Promesa de la Manada en el lenguaje sencillo en que están escritas, y las conecta con los Principios y Virtudes que las sostienen.
-3. **Usa el marco simbólico** de El Libro de las Tierras Vírgenes (Akela, Baloo, Bagheera, la Flor Roja, el Cubil) como lenguaje pedagógico principal, no como decoración.
+3. **Usa el fondo motivador** —El Libro de las Tierras Vírgenes, dentro del marco simbólico de La Fantasía (*Guía de Manada* §6.9, p. 30)— (Akela, Baloo, Bagheera, la Flor Roja, el Cubil) como lenguaje pedagógico principal, no como decoración.
 4. **Aplica DURASLID** al diseño de una actividad y organiza la Manada en seisenas sin caer en jerarquías fijas ni "seiseneros" permanentes.
 5. **Ubica** la Naturaleza y la Progresión Personal (territorio de la selva, seis Sendas) en el acompañamiento cotidiano de un lobato concreto.
 6. **Adopta** el rol de Viejo Lobo — facilitador, no jefe — y reconoce el Consejo de Roca, las ceremonias de la Manada y el Gran Salto como los momentos donde ese rol se hace visible.
