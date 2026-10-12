@@ -36,7 +36,7 @@ La línea está dirigida a una audiencia amplia, en orden de prioridad:
 
 - **Jefes y dirigentes de unidad** de cada una de las 5 ramas: Familia (Cachorros, 5–6 años), Manada (Lobatos, 7–10), Tropa (Scouts, 11–14), Comunidad (Nómadas, 15–17), Clan (Rovers, 18–20).
 - **Dirigentes de unidad** que acompañan la progresión individual de niñas, niños y jóvenes (el acompañamiento es función de todo dirigente, no un cargo aparte: el *Manual de Cargos* no tiene un cargo de «Asistente» en la unidad — ADR-087).
-- **Equipos de programa del grupo scout** (Jefe de Grupo, Consejero Juvenil, Asesores Personales) en su rol de articular y dar soporte al Programa entre las ramas.
+- **Equipos de programa del grupo scout** (Jefe de Grupo, Consejero Juvenil) en su rol de articular y dar soporte al Programa entre las ramas.
 - **Comisionados regionales y nacionales de Programa de Jóvenes** y sus comisiones especializadas (Familia, Manada, Tropa, Comunidad, Clan, Mundo Mejor, A Salvo del Peligro).
 - **Miembros de la Red Nacional de Jóvenes (RDJ)**: rovers en cargos de Coordinación y Comunicación regionales y nacionales, Consejeros Juveniles, Miembros Juveniles ante el CSN y la CNVC, asesores de los 4 ejes (transversal, Viaje y Enlace Internacional, Servicio, Empresa).
 - **Adultos voluntarios en general** que quieran entender cómo funciona la propuesta educativa scout y cómo aportar desde su rol.
@@ -122,7 +122,7 @@ Los Niveles 2, 3 y 4 no son secuenciales entre sí: el adulto elige según su ro
 
 ### 2.3 Cobertura conceptual de la línea
 
-Los 25 cursos cubren, sin saltos, los **8 elementos del Método Scout**, las **6 áreas de crecimiento**, las **5 ramas con sus grupos naturales**, las **3 etapas de vida en la unidad** (Adaptación, Progresión, Transición) y los **3 momentos de aprendizaje** (Exploro, Aplico, Profundizo) del Modelo de Aplicación 2026. Incluyen también las cuatro Dinámicas del Escultismo (Objetivos Educativos, Oportunidades de Aprendizaje, Vida de Grupo, Estructura y Funcionamiento) ⚠️ *(«Objetivos Educativos» es nomenclatura superada — ver el aviso del §4.2)* y todos los ejes de la Red Nacional de Jóvenes.
+Los 25 cursos cubren, sin saltos, los **8 elementos del Método Scout**, las **6 áreas de crecimiento**, las **5 ramas con sus grupos naturales**, las **3 etapas de vida en la unidad** (Adaptación, Progresión, Transición) y los **3 momentos de aprendizaje** (Exploro, Aplico, Profundizo) del Modelo de Aplicación 2026. Incluyen también las cuatro Dinámicas del Escultismo (Competencias Educativas, Oportunidades de Aprendizaje, Vida en Grupo, Estructura y Funcionamiento; «Objetivos Educativos» es la nomenclatura superada, *Modelo* pp. 27 y 51) y todos los ejes de la Red Nacional de Jóvenes.
 
 ```
 8 Elementos del Método Scout
@@ -217,34 +217,15 @@ Estos 3 cursos los toma cualquier dirigente de unidad —sin importar la rama—
 
 | # | Curso | Sirve a quién | Foco |
 |---|---|---|---|
-| 13 | 🛠️ Seguimiento de la Progresión Personal | Todo dirigente, especialmente Asesores Personales | **Recursos Educativos para Dirigentes — Herramientas de Seguimiento 2.0**: conductas observables por etapa (Explorar/Aplicar/Profundizar) y por rama; técnicas (observación en acción, anecdotario, registro conflicto-resolución, listas de cotejo, rúbricas, autoevaluación tipo semáforo, coevaluación "2+1", coevaluación por preguntas). Uso del **Registro de Acompañamiento Progresión Personal** (DNPJ-2026-021). Cómo NO burocratizar la progresión. |
-| 14 | 📋 Planeación de Reuniones y Oportunidades de Aprendizaje | Todo dirigente de unidad | Uso de la herramienta oficial **Planeación de Reunión y Oportunidades de Aprendizaje** (Excel DNPJ): Hoja de Ruta para Reunión, Ficha de Oportunidad de Aprendizaje, hojas por rama. Botón A Salvo del Peligro. Ciclo pedagógico **Vivir → Mirar → Comprender → Proyectar**. Cómo planear una reunión que cumpla DURASLID y los 8 elementos del Método. |
-| 15 | 🎯 Ciclo de Programa con ABP | Todo dirigente de unidad | El ciclo de programa de la unidad como Aprendizaje Basado en Proyectos: fases de propuesta, decisión, preparación, desarrollo, evaluación. Articulación entre proyectos de unidad y progresión individual. Cómo el ciclo encarna las 4 Dinámicas del Escultismo (Objetivos Educativos, Oportunidades de Aprendizaje, Vida de Grupo, Estructura y Funcionamiento). |
+| 13 | 🛠️ Seguimiento de la Progresión Personal | Todo dirigente de unidad | **Recursos Educativos para Dirigentes — Herramientas de Seguimiento 2.0**: conductas observables por etapa (Explorar/Aplicar/Profundizar) y por rama; técnicas (observación en acción, anecdotario, registro conflicto-resolución, listas de cotejo, rúbricas, autoevaluación tipo semáforo, coevaluación "2+1", coevaluación por preguntas). Uso del **Registro de Acompañamiento Progresión Personal** (DNPJ-2026-021). Cómo NO burocratizar la progresión. |
+| 14 | 📋 Planeación de Reuniones y Oportunidades de Aprendizaje | Todo dirigente de unidad | Uso de la herramienta oficial **Planeación de Reunión y Oportunidades de Aprendizaje** (Excel DNPJ): Hoja de Ruta para Reunión, Ficha de Oportunidad de Aprendizaje, hojas por rama. Botón A Salvo del Peligro. Cierre con el ciclo **Vivir → Mirar → Comprender → Proyectar** (*Modelo de Aplicación de Bolsillo*, p. 3), que el *Modelo* nombra con los pasos de **Kolb** (pp. 62 y 74). Cómo planear una reunión que cumpla DURASLID y los 8 elementos del Método. |
+| 15 | 🎯 Ciclo de Programa con ABP | Todo dirigente de unidad | El ciclo de programa de la unidad como Aprendizaje Basado en Proyectos: pregunta guía y cinco momentos: diagnóstico participativo · planificación con ABP · ejecución iterativa · **presentación pública** · evaluación y transferencia (*Modelo* §11.1–11.2, pp. 75–77). Articulación entre proyectos de unidad y progresión individual. Cómo el ciclo encarna las 4 Dinámicas del Escultismo (Competencias Educativas, Oportunidades de Aprendizaje, Vida en Grupo, Estructura y Funcionamiento). |
 
-> ✅ **Los Cursos 13, 14 y 15 ya están construidos y publicados (17-sep-2026), y el Nivel 2 queda completo: 8 de 8.** El **Curso 15 evitó las dos trampas que este aviso señalaba** —su auditoría doctrinal lo verificó expresamente: *«Objetivos Educativos»* no aparece **ni una vez** en el curso, y el ciclo se enseña con los cinco momentos vigentes, con la **presentación pública** como el **cuarto**. **Las frases de abajo siguen sin corregir a propósito**: la decisión es del dueño y sigue en el bloque «Decisiones abiertas» de `DECISIONES.md`. Lo que cambia es que **ya no son un riesgo para construir, sino una incoherencia entre el plan y lo publicado.**
->
-> ⚠️ **DECISIÓN ABIERTA (16-sep-2026) — leía «antes de construir los Cursos 13 y 15».** Tres frases de esta
-> sección y del §2.3 **reintroducirían errores ya corregidos en cursos publicados**. Se dejan marcadas, no
-> corregidas: la decisión es del dueño y está en el bloque «Decisiones abiertas» de `DECISIONES.md`.
->
-> 1. **«Objetivos Educativos»** como primera de las 4 Dinámicas del Escultismo (fila del Curso 15 y §2.3). El
->    *Modelo 2026* declara superada esa nomenclatura (pp. 27 y 51) y la sustituye por **«competencias
->    educativas»** (§3.2, p. 16). En `metodo-scout-8-elementos` llegó a estar **certificada como respuesta
->    correcta de un quiz**; se corrigió el 15-sep-2026.
-> 2. **«Asesores Personales»** como destinatario del Curso 13 (fila del Curso 13 y §4.3). **No es un rol del
->    Programa de Jóvenes** — es de la línea de Adultos, y allí ni siquiera es un cargo (*Guía de
->    Acompañamiento y Evaluación*, p. 13 impresa). Además, llamarlo **«obligatorio»** choca de frente con el
->    **ADR-019**, que eliminó los cursos habilitantes el 11-jul-2026.
-> 3. **Los cinco momentos del ciclo de programa** de la fila del Curso 15 —*propuesta, decisión, preparación,
->    desarrollo, evaluación*— son la **nomenclatura anterior**. El *Modelo* §11.2, pp. 75–77, dice:
->    **diagnóstico participativo · planificación con ABP · ejecución iterativa · presentación pública ·
->    evaluación y transferencia**. Se cae la **presentación pública**, que es el momento distintivo del ABP
->    (*«Es un acto de ciudadanía, no un show»*, p. 77), y falta la **pregunta guía** (§11.1, p. 75). El mismo
->    error estaba publicado en el Curso 7 y se corrigió el 16-sep-2026.
+> ✅ **Los Cursos 13, 14 y 15 están publicados desde el 17-sep-2026.** El aviso que había aquí señalaba tres frases del plan («Objetivos Educativos», «Asesores Personales» y los cinco momentos de la nomenclatura anterior) que podían colarse en esos cursos. **Se midió el 12-oct-2026: no se colaron.** El 13 es para todo dirigente de unidad y no dice «obligatorio», y el 15 usa las «competencias educativas» y los cinco momentos vigentes. Las frases se corrigieron en este plan (v1.4) y la decisión abierta quedó cerrada en `DECISIONES.md`.
 
 ### 4.3 Nota sobre la oferta del Nivel 2
 
-Cada dirigente toma el curso de su rama. Si rota, toma el de la nueva rama. Los cursos pedagógicos operativos (13, 14, 15) son **fuertemente recomendados** para todo dirigente de unidad y son **obligatorios** para Asesores Personales (Curso 13) y para Jefes de Rama (Cursos 14 y 15). Un consejo de grupo bien formado idealmente cubre, entre todos sus dirigentes, las 5 ramas + los 3 cursos operativos. La plataforma sugerirá la combinación apropiada según la rama y el cargo declarados por el adulto en su perfil.
+Cada dirigente toma el curso de su rama. Si rota, toma el de la nueva rama. Los cursos pedagógicos operativos (13, 14, 15) son **fuertemente recomendados** para todo dirigente de unidad, y en especial para los Jefes de Rama (Cursos 14 y 15). Ninguno es obligatorio ni bloquea a otro (ADR-019). Un consejo de grupo bien formado idealmente cubre, entre todos sus dirigentes, las 5 ramas + los 3 cursos operativos. La plataforma sugerirá la combinación apropiada según la rama y el cargo declarados por el adulto en su perfil.
 
 ---
 
@@ -394,7 +375,7 @@ Toda la línea se basa en documentos oficiales y materiales validados de la ASC,
 | Áreas de Crecimiento | Los 6 ámbitos del desarrollo integral del joven scout según la PNPJ y las hojas de progresión por rama: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad y Espiritualidad. La rama Familia las trabaja como dimensiones; las ramas mayores como competencias terminales e intermedias. |
 | ABP | Aprendizaje Basado en Proyectos. Es la lógica que el Modelo de Aplicación 2026 integra al ciclo de programa de la unidad. |
 | Características Esenciales | Documento doctrinal OMMS (2019) que define el Propósito, los Principios y los 6 elementos definitorios del Movimiento Scout (movimiento, para jóvenes, voluntario, abierto a todos, no político, independiente). |
-| Ciclo de Programa | Secuencia de propuesta, decisión, preparación, desarrollo y evaluación de las actividades de la unidad. En Clan se opera como **PARCE**. |
+| Ciclo de Programa | Con ABP: pregunta guía, diagnóstico participativo, planificación, ejecución iterativa, presentación pública y evaluación y transferencia (*Modelo* §11, pp. 75–77). En Clan se opera como **PARCE**. |
 | DURASLID | Filtro de calidad de toda oportunidad de aprendizaje según el Modelo de Aplicación 2026: **D**esafiante, **U**til, **R**ecompensante, **A**tractiva, **S**egura, **L**údica, **I**nclusiva, **D**iversa. |
 | Etapas de vida en la unidad | Las 3 etapas que vive un protagonista de programa dentro de su rama: Adaptación (recién llegado), Progresión (consolidación) y Transición (preparación a la rama siguiente). |
 | Eventos rituales Rover | Vigilia Rover, Peregrinaje, Partida Rover y Cena Rover. Hitos simbólicos de la rama Clan. |
@@ -420,3 +401,5 @@ Toda la línea se basa en documentos oficiales y materiales validados de la ASC,
 _Plan de Formación de la Línea Programa de Jóvenes — **v1.3, 27 de septiembre de 2026**. La v1.3 marca el **Nivel 3 completo** (Cursos 16–20, ADR-083, ADR-087 y ADR-090), actualiza el estado por nivel y la hoja de ruta, retitula el Curso 20 (*Red de Jóvenes: coordinar y comunicar*) y corrige el eje de la Red «Vida y Espíritu» por **Viaje y Enlace Internacional**. No cambia la estructura._
 
 _Documento elaborado como parte del proyecto de digitalización de la formación de adultos voluntarios del movimiento scout colombiano. Plan de Formación de la Línea Programa de Jóvenes — **v1.2, 17 de septiembre de 2026**. La v1.2 **no cambia doctrina ni estructura**: añade en el §4.2 un aviso de **decisión abierta** sobre tres frases —«Objetivos Educativos», «Asesores Personales» y los cinco momentos del ciclo de programa— que **reintroducirían en los Cursos 13 y 15 errores ya corregidos en cursos publicados**. Se marcan, no se corrigen: el plan es aguas arriba del JSON y tocarlo es decisión del dueño. La v1.1, del 15-sep-2026, fue la renumeración +1 (ver §2.1)._
+
+_Plan de Formación de la Línea Programa de Jóvenes — **v1.4, 12 de octubre de 2026**. Corrige las tres frases que el aviso de la v1.2 marcaba (§1.1, §2.3, §4.2, §4.3 y glosario), después de comprobar que no se colaron en los Cursos 13 y 15. Atribuye el ciclo Vivir → Mirar → Comprender → Proyectar al *Bolsillo* y los pasos de Kolb al *Modelo*. No cambia la estructura._
