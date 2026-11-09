@@ -3,7 +3,7 @@
   "title": "Comisionado de Programa de Jóvenes",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Para quien acompaña el Programa desde fuera de la unidad: comisionados regionales de Programa de Jóvenes y de rama, y miembros de comisiones. Dónde está tu cargo en la estructura, qué es la animación territorial, cómo se conduce una comisión de voluntarios, qué se cuida y qué se remite, y cómo se rinde cuentas — sin volverte el Jefe de Rama de todas las unidades.",
-  "contentVersion": "2026-10-04",
+  "contentVersion": "2026-11-08",
   "icon": "🗺️",
   "duration": "53 minutos",
   "level": 3,
@@ -85,12 +85,12 @@
           "items": [
             "<strong>Ubicar</strong> tu cargo en la estructura: la Dirección Nacional, las comisiones por rama o asunto, el comisionado regional y los comisionados de rama.",
             "<strong>Explicar</strong> tus cinco funciones por la pregunta que responde cada una.",
-            "<strong>Diseñar</strong> la animación territorial: acompañar a los grupos para que apliquen el Programa, no aplicarlo por ellos.",
+            "<strong>Esbozar</strong> la animación territorial de tu región: quién acompaña a quién y cómo se evalúa.",
             "<strong>Conducir</strong> una comisión de adultos voluntarios.",
             "<strong>Distinguir</strong> lo que cuidas de lo que remites, en las actividades de la región.",
             "<strong>Planear y rendir cuentas</strong> dentro del plan operativo regional.",
             "<strong>Articular</strong> tu trabajo con la Dirección Nacional, la Jefatura y la participación juvenil.",
-            "<strong>Ubicarte</strong> frente a un perfil de competencias exigente."
+            "<strong>Identificar</strong> en tu ficha las dos competencias por las que empezar a crecer."
           ]
         },
         {
@@ -115,13 +115,13 @@
           "items": [
             {
               "title": "En la nación",
-              "description": "La <strong>Dirección Nacional de Programa de Jóvenes</strong>, a cargo de un Director o Directora, y los <strong>comisionados nacionales</strong> de cada rama y de programas específicos, como Mundo Mejor.",
+              "description": "La <strong>Dirección Nacional de Programa de Jóvenes</strong>, a cargo de un Director o Directora, y los <strong>comisionados nacionales</strong> de las ramas y de programas específicos, como Mundo Mejor.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
             {
               "title": "En la región",
-              "description": "El <strong>Comisionado Regional de Programa de Jóvenes</strong> y, con él, los <strong>comisionados regionales</strong> de cada rama y de Mundo Mejor.",
+              "description": "El <strong>Comisionado Regional de Programa de Jóvenes</strong> y, con él, los <strong>comisionados regionales</strong> de las ramas y de Mundo Mejor.",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             },
@@ -229,7 +229,7 @@
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y en tu rama, dos cosas que el <em>Manual</em> de 2020 no dice como hoy.</strong> Sus comisionados de rama son de <strong>Lobatos, Scout, Caminantes, Rover</strong> y del programa <strong>Mundo Mejor</strong>. <strong>«Caminantes» es el nombre viejo de la rama que hoy se llama Nómadas Scout</strong>, la de la Comunidad. Y el <em>Manual</em> es de 2020 y <strong>no tiene ficha de comisionado para la Familia de Cachorros</strong>. Si acompañas Familias en tu región, tu referencia de contenido es su Guía, igual que para sus dirigentes."
+          "text": "🌿 <strong>Y en tu rama, dos cosas que el <em>Manual</em> de 2020 no dice como hoy.</strong> Sus comisionados de rama son de <strong>Lobatos, Scout, Caminantes, Rover</strong> y del programa <strong>Mundo Mejor</strong>. <strong>«Caminantes» es el nombre viejo de la rama que hoy se llama Nómadas Scout</strong>, la de la Comunidad. Y el <em>Manual</em> es de 2020 y <strong>no tiene ficha de comisionado para la Familia de Cachorros, ni en la región ni en la nación</strong>. Si acompañas Familias en tu región, tu referencia de contenido es su Guía, igual que para sus dirigentes."
         }
       ],
       "reflection": {
@@ -354,13 +354,13 @@
             "correctIndex": 1
           },
           {
-            "text": "Un comisionado nota que una Manada aplica mal el ciclo de programa. Tiene buena relación con el Jefe de esa Manada. ¿Cómo lo acompaña?",
+            "text": "Un comisionado regional nota que un grupo lleva dos años sin aplicar el ciclo de programa en ninguna de sus unidades. Su Jefe de Grupo le dice: «Eso lo decide cada unidad». ¿Qué hace el comisionado?",
             "options": [
-              "Hablando con el Jefe de la Manada y con su Jefe de Grupo, y ofreciéndoles herramientas y formación.",
-              "Hablando con el Jefe de la Manada en confianza, sin pasar por el Jefe de Grupo, para no hacerlo oficial.",
-              "Ofreciéndose a acompañar él mismo las reuniones de la Manada hasta que el ciclo salga bien."
+              "Lo respeta: acompañar no es imponer, y cómo aplica el Programa cada unidad lo decide su Grupo.",
+              "Lo anota en la evaluación del grupo, se lo dice al Jefe de Grupo y acuerdan cuándo revisarlo juntos.",
+              "Convoca él a los Jefes de las unidades para corregir el ciclo, y después le cuenta al Jefe de Grupo."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
           },
           {
             "text": "Una comisionada regional termina con su comisión el plan de animación territorial y lo envía a la Dirección Nacional «para su conocimiento». ¿Qué le faltó?",
@@ -537,11 +537,11 @@
             "correctIndex": 2
           },
           {
-            "text": "Faltan tres semanas para un campamento regional de Manada. Tu comisión armó sola el plan de A Salvo del Peligro, y el equipo de servicio son voluntarios nuevos, con muchas ganas. ¿Qué haces antes de fijar la fecha?",
+            "text": "La región le encarga a un grupo anfitrión un campamento regional de Tropas dentro de seis semanas. El grupo ya tiene el lugar, el menú y el transporte. ¿Qué te toca pedir antes de confirmar la fecha?",
             "options": [
-              "Revisar el plan una vez más con tu comisión y pedirles a los voluntarios nuevos que lean la Política ASP.",
-              "Hacer el plan con la Comisión Nacional ASP y comprobar que el equipo de servicio tenga hecho el curso ASP.",
-              "Fijar la fecha y pedirle a cada Jefe de Manada asistente que traiga el plan ASP de su propio grupo."
+              "Nada más: el grupo anfitrión responde por su evento, y a la región le toca difundirlo y animar.",
+              "Que el plan A Salvo del Peligro lo haga la Comisión Nacional ASP, y que el equipo de servicio tenga su curso.",
+              "Ir tú al lugar el fin de semana anterior y revisar en persona cada riesgo del terreno con el grupo."
             ],
             "correctIndex": 1
           }
@@ -721,13 +721,13 @@
             "correctIndex": 1
           },
           {
-            "text": "Una comisionada regional de Programa de Jóvenes necesita apoyo nacional para su plan de animación y busca a quien su ficha llama «Comisionado Nacional de Programa de Jóvenes». Según la lección, ¿a quién acude?",
+            "text": "Llegan a tu región orientaciones para las Tropas, firmadas por la Comisionada Nacional de la rama Scout. Un comisionado de tu equipo dice que no hay que atenderlas: tu ficha dice que respondes a un «Comisionado Nacional de Programa de Jóvenes», y ella no lo es. ¿Qué le respondes?",
             "options": [
-              "Al Jefe Scout Nacional, porque el Reglamento ubica la Dirección de Programa dentro de la Jefatura.",
-              "A un Comisionado Nacional de Programa de Jóvenes general, que el Reglamento de 2026 pone por encima del Director.",
-              "Al Director o Directora Nacional de Programa de Jóvenes, cuya ficha la pone entre quienes le responden."
+              "Que tiene razón: mientras la Dirección Nacional no las avale, esas orientaciones no obligan a la región.",
+              "Que se atienden: los comisionados nacionales de rama cuentan a los regionales entre quienes les responden.",
+              "Que se atienden, pero que él mismo las aplique en cada Tropa para que no se pierdan por el camino."
             ],
-            "correctIndex": 2
+            "correctIndex": 1
           }
         ]
       }
@@ -773,7 +773,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El Nivel 3 sigue con los <strong>Cursos 19 y 20</strong>, pensados para los jóvenes en cargos de representación: Consejero Juvenil y la Red de Jóvenes. Si acompañas a jóvenes en esos cargos, vale la pena que los conozcas. Cuando se publiquen, los encontrarás en la página de esta línea."
+          "text": "El Nivel 3 sigue con los <strong>Cursos 19 y 20</strong>: el del Consejero Juvenil y el de la Red de Jóvenes. Están pensados para los jóvenes que ocupan esos cargos, pero también para los adultos que los acompañan, y el 20 habla directamente a los comisionados Rover. Ya están en la página de esta línea: si acompañas a jóvenes en esos cargos, empieza por ahí."
         },
         {
           "type": "mission-box",
@@ -788,11 +788,11 @@
         "nextLabel": "Ver mi certificado ⭐",
         "questions": [
           {
-            "text": "Un comisionado recién nombrado se autodiagnostica y encuentra brechas en cinco competencias. Piensa renunciar «porque no da el perfil». ¿Qué le dices?",
+            "text": "Un comisionado recién nombrado hace su autodiagnóstico y queda lejos del grado 4 en Adaptabilidad al Cambio. ¿Qué le aconsejas para este mes?",
             "options": [
-              "Que tiene razón en dudar: la ficha pide grado 4 desde el nombramiento, y mejor que lo asuma quien ya lo tenga.",
-              "Que no se fije en los grados: sus ocho años como Jefe de Tropa ya le dan todo lo que el cargo le va a pedir.",
-              "Que la ficha es un mapa para saber por dónde crecer: que elija una o dos brechas y empiece por ahí este mes."
+              "Que no se preocupe por los grados: el perfil orienta, y lo que cuenta es la experiencia de su unidad.",
+              "Que se inscriba en una formación y espere a terminarla antes de tomar decisiones grandes del cargo.",
+              "Que elija una situación de este mes en que la necesite, y la revise después con quien lo acompaña."
             ],
             "correctIndex": 2
           },
@@ -809,7 +809,7 @@
             "text": "Un comisionado regional de la rama Scout hace su autodiagnóstico con los grados de esta lección y se marca brecha en Trabajo en Equipo, porque está en grado 3. ¿Qué le dice la lección?",
             "options": [
               "Que la brecha es real: esos grados valen para todos los comisionados regionales, de Programa y de rama.",
-              "Que revise su propia ficha: en las de rama, Trabajo en Equipo y Relaciones Interpersonales van en grado 3.",
+              "Que antes de marcarse la brecha compare con los grados de su propia ficha de rama, que no son los mismos.",
               "Que su referencia es la ficha del comisionado nacional de su rama, que es la que fija los grados de las regiones."
             ],
             "correctIndex": 1

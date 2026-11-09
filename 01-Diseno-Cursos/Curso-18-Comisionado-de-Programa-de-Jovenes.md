@@ -23,7 +23,7 @@ Es el primer curso de la línea cuyo destinatario **no trabaja en una unidad**. 
 ### Lo que este curso tiene que resolver
 
 1. **Los nombres no cuadran entre las fichas, y el curso lo dice.** La ficha regional (2.2.16) responde a un *«Comisionado Nacional de Programa de Jóvenes»*; la ficha nacional del mismo *Manual* se titula **Director Nacional** de Programa de Jóvenes (2.3.17), y el Reglamento 2026 distingue **Director/a** (Art. 123) de **Comisionada/o** nacional *«de su respectiva rama o asunto»* (Art. 124). El curso explica la estructura —una Dirección Nacional con comisionados nacionales por rama o asunto; un comisionado regional de PJ con comisionados regionales por rama— y cuenta la diferencia de nombre sin arbitrarla.
-2. **Los nombres de rama del *Manual* son de 2020.** Sus comisionados de rama son de **Lobatos, Scout, Caminantes, Rover y Mundo Mejor**; **«Caminantes» es el nombre viejo de la rama que hoy es Nómadas Scout** (Curso 11 y su nota). **No hay ficha de comisionado de Familia**. El curso lo dice.
+2. **Los nombres de rama del *Manual* son de 2020.** Sus comisionados de rama son de **Lobatos, Scout, Caminantes, Rover y Mundo Mejor**; **«Caminantes» es el nombre viejo de la rama que hoy es Nómadas Scout** (Curso 11 y su nota). **No hay ficha de comisionado de Familia, ni en la región ni en la nación**. El curso lo dice.
 3. **La relación con los Jefes de Rama.** La ficha 2.2.16 pone a los **Jefes de Rama** entre quienes *«le responden»*, y la del Comisionado Regional de Lobatos a los **Jefes de Manada**; la ficha del Jefe de Rama (Curso 16) dice que responde **al Consejo Scout de Grupo y al Jefe de Grupo**. Las dos cosas están en el mismo *Manual*. **El curso no las arbitra**: explica que el comisionado acompaña **el Programa** en las unidades de su región, y que el Jefe de Rama no deja de responder a su Grupo.
 
 ### Lo que este curso NO puede decir
@@ -57,12 +57,12 @@ Es el primer curso de la línea cuyo destinatario **no trabaja en una unidad**. 
 
 1. **Ubicar** tu cargo en la estructura: Dirección Nacional, comisiones nacionales por rama o asunto, comisionado regional y comisionados de rama.
 2. **Leer** tus cinco funciones por la pregunta que responde cada una.
-3. **Diseñar** la animación territorial: acompañar a los grupos para que apliquen el Programa, no aplicarlo por ellos.
+3. **Esbozar** la animación territorial de tu región: quién acompaña a quién y cómo se evalúa.
 4. **Conducir** una comisión de adultos voluntarios.
 5. **Cuidar** la seguridad de las actividades de la región y remitir lo que exceda tu papel.
 6. **Planear y rendir cuentas** dentro del plan operativo regional.
 7. **Articular** hacia arriba y hacia los lados: la Dirección Nacional, la Jefatura y la participación juvenil.
-8. **Situar** tus competencias frente a un perfil exigente.
+8. **Identificar** en tu ficha las dos competencias por las que empezar a crecer.
 
 ---
 

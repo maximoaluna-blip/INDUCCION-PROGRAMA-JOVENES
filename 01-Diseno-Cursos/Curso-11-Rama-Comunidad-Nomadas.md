@@ -45,7 +45,7 @@ Ninguna se inventa ni se esconde. Se resuelven con criterio explícito, y las qu
 | Duración declarada | **60 minutos** — ver §4-bis y el **ADR-047**. Es el curso más extenso de la plataforma |
 | Módulos | 8 (1 de registro + **7 de contenido**) |
 | Destinatario | Dirigentes de Comunidad y quienes van a abrir una |
-| `contentVersion` | 2026-09-16 |
+| `contentVersion` | 2026-11-08 |
 
 ---
 
@@ -158,6 +158,25 @@ Informe del `auditor-pedagogico-asc` (16-sep-2026) — veredicto **APTO CON MEJO
 
 **Fuera del alcance de la corrección:** H2 (el anuncio desactualizado del Curso 10, aplicado aparte sobre `rama-tropa-scout.json`) y **H12** — `engine.core.js` dice «Necesitas 70% para continuar» donde la L1 dice «hay que acertar las dos». Es del **núcleo compartido**: se edita en `_MOTOR/` y afecta a las tres líneas, así que no se toca desde aquí.
 
+### Re-auditoría pedagógica del 08/11/2026 (`docs/reauditoria-2026-11/PJ/rama-comunidad-nomadas-pedagogica.md`)
+
+Veredicto **APTO CON MEJORAS** (1 alto, 5 medios, 4 bajos). Regla ciega estimada por el auditor: 5 de 7 quizzes aprobables sin leer. Se aplicaron sobre el JSON las reescrituras literales, sin tocar doctrina; el texto de las preguntas vive en el JSON (este diseño no lo copia).
+
+| # | Dónde | Qué cambió |
+|---|---|---|
+| H1 | L4, quiz P1 | Sale el extremo «no dices nada», que regalaba el punto medio. Distractores: escalar al Jefe de Grupo y hablar de último. |
+| H1 | L6, quiz P2 | El moderador le pregunta directamente al adulto: la correcta es responder breve y devolver la palabra («o cuando sea requerido», p. 39). |
+| H1 | L3, quiz P2 | Sin la muleta «la Guía lo prohíbe»; las finalistas comparten «Que mejor no:» y elegir exige saber por qué no se condiciona. |
+| H3 | L4, quiz P3 | Reemplaza la de los Navegantes: armar Equipos por afinidad y no por talentos (la idea central de la lección). |
+| H4 | L5, quiz P2 | Reemplaza «Los Jaguares»: planear una fogata donde el marco se vive y no se explica. |
+| H5 | L2, quiz P3 | Reemplaza «Caminantes» (que sigue como `info-box`): participación real, la decisión ajena que igual se ejecuta. |
+| H6 | L4, reflexión | De 143 a unas 75 palabras; el Navegante queda en su `info-box`. |
+| H7 | L1 y L6 | El hook se enuncia como dolor en la L1 y con eco en la L6, tras «Lo que esto descarta en la práctica…». |
+| H8 | L7, reflexión | Recuerda que el nombre del joven no se escribe (ADR-087). |
+| H9 | L7, «Los seis Rumbos» | Anclaje antes de la lista: no hay que memorizarlos; cada Rumbo es un área del Curso 6. |
+
+**Pendiente:** H2 (recortar L6, L7 y L8: decisión del dueño) y volver a medir la regla ciega con dos lectores nuevos (ADR-148).
+
 ---
 
 ## 5. Logros
@@ -190,7 +209,7 @@ Informe del `auditor-pedagogico-asc` (16-sep-2026) — veredicto **APTO CON MEJO
 
 - **Andragogía (Knowles):** cada lección cierra en algo aplicable el sábado siguiente, no en una definición.
 - **Patrón anti-definición:** ninguna lección abre definiendo; abren con una situación de Comunidad y la definición llega cuando ya hace falta.
-- **Microlearning:** 7 lecciones de contenido, cada una con su quiz de 2 preguntas y umbral del 70 %.
+- **Microlearning:** 7 lecciones de contenido, cada una con su quiz de 3 preguntas y umbral del 70 %.
 - **Ausubel:** el andamiaje es explícito — lo de Tropa se nombra para apoyarse en ello, no para repetirlo.
 - **Bandura:** los ejemplos son de conducta del adulto observable (qué dices en un Congreso cuando no estás de acuerdo), no de rasgos.
 - **Quizzes:** se miden las tres compuertas de paridad que vigila el build —extremo de longitud, oveja negra y sesgo de longitud— y se corrigen **ajustando distractores**, nunca alargando la correcta.

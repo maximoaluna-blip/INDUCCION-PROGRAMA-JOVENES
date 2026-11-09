@@ -51,11 +51,11 @@ El plan titula este curso *«Asistente y acompañamiento de la progresión perso
 | Subtítulo (catálogo) | Del día que llega al día que pasa de rama |
 | Icono | 👣 |
 | Nivel / orden | 3 · Curso **17** |
-| Duración declarada | **50 minutos**, medidos al cerrar las auditorías (ADR-047): 6.328 palabras, 126,6 pal/min |
+| Duración declarada | **53 minutos** (la del JSON). La primera medición, al cerrar las auditorías de sep-2026 (ADR-047), dio 50: 6.328 palabras, 126,6 pal/min |
 | Módulos | 8 (1 de registro + **7 de contenido**) |
 | Destinatario | **Todo dirigente de unidad** de las cinco ramas: Jefe, Subjefe y cualquier adulto del equipo |
 | Recomendado antes | El **Curso 13** (seguimiento) y el curso de tu rama. Ninguno bloquea (ADR-019) |
-| `contentVersion` | 2026-09-27 |
+| `contentVersion` | la del JSON (2026-10-04 al re-auditar el 08-11-2026) |
 
 ---
 
@@ -63,7 +63,7 @@ El plan titula este curso *«Asistente y acompañamiento de la progresión perso
 
 1. **Distinguir** las tres etapas de vida en la unidad —adaptación, progresión, transición— y qué pide cada una del adulto.
 2. **Planear** la acogida de quien llega para que su investidura o la renovación de su Promesa culmine una etapa y no sea un trámite.
-3. **Dejar al protagonista elegir** su camino entre competencias, sin imponerle un orden.
+3. **Ofrecer** a cada protagonista dos o tres opciones y **acordar** con él su siguiente paso, sin imponerle un orden.
 4. **Ajustar tu rol por competencia**, no por persona: apoyar, acompañar y enlazar a la misma persona a la vez.
 5. **Sustituir** la comparación por el avance propio de cada uno, y detectar a tiempo lo que no es ritmo sino señal.
 6. **Reconocer** nombrando competencias y evidencias, no coleccionando insignias.
@@ -128,7 +128,7 @@ La primera mitad es **literal del *Modelo*** (Cap. 12, p. 85: *«la unidad avanz
 ## 7. Validación contra el marco
 
 - **Variante B** (narrativa + cierre operativo). **Knowles**: el adulto ya acompaña a alguien; el curso le pide ese alguien. **Ausubel**: se apoya en los tres roles y en el Curso 13. **Bandura**: guiones literales (*«Esto hiciste…»*, las tres preguntas del reconocimiento, las cinco acciones de «tejer continuidad»).
-- **Quizzes**: 2 por lección (14), de decisión, **sin distractor pasivo sistemático** (lección del Curso 16: la fuga de conjunto), con correctas de contención cuando corresponda y **casos nuevos**, no el de la lección.
+- **Quizzes**: 3 por lección (21), de decisión, **sin distractor pasivo sistemático** (lección del Curso 16: la fuga de conjunto), con correctas de contención cuando corresponda y **casos nuevos**, no el de la lección.
 - **Reflexiones**: un protagonista real, pero **sin escribir su nombre** (a lo sumo su inicial) ni nada de lo que un joven contó en confianza — por decisión del dueño, porque las reflexiones se envían a una hoja de la Asociación. Lo que haya que comentar con el Jefe de Rama se anota como «si lo harás y cuándo», no su contenido. La **mission-box** sí puede pedir «con nombre»: va al Compromiso Personal, que se queda en el navegador.
 - **Hook**: se enuncia en L1 junto con su contrario (la carrera colectiva), se cobra en L7 con un `info-box` y la cita *«La Transición no tiene un calendario fijo ni idéntico para todos»* (§8.1.3, p. 53) y en la L7 Q1, y se cierra completo en la mission-box de L8.
 

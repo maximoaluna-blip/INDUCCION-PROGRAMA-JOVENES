@@ -34,7 +34,7 @@ Es el **primero de los tres cursos pedagógicos operativos** (13, 14, 15) y el p
 6. **Erratas de la edición publicada, que obligan a parafrasear en vez de citar:** *«cada nivel de despeño»* (p. 3), *«Protagonistas de Programa»* en singular a lo largo de todo el texto, y *«comUnidad»* con U mayúscula. **Ninguna de esas frases se cita literal**; donde hace falta la idea, se parafrasea.
 7. **El documento se confunde a sí mismo en la FAQ 1** (p. 29): pregunta *«¿Tengo que usar todas las técnicas del Archivo Base de Oportunidades de Aprendizaje?»* cuando las técnicas están en su **Capítulo 4** y el Archivo Base es el Excel de competencias. **Al citar, decir «el banco de técnicas del Cap. 4»**, nunca «las técnicas del Archivo Base».
 8. **La fuente angular no tiene Capítulo 3.** El PDF salta del **Cap. 2 (p. 2)** al **Cap. 4 (p. 3)**. No afecta a ninguna cita de este curso; se registra para que nadie lo busque.
-9. **Familia no trae lo mismo en los dos instrumentos.** El Archivo Base (hoja *Cachorros*) da **6 áreas × 22 dimensiones**; el Registro (hoja *Familia*) resume en **5 áreas × 5 dimensiones**, porque **junta Afectividad y Sociabilidad en «Socioafectividad»** —lo confirma su hoja «OA duplicable»—. Las otras cuatro ramas coinciden. **El curso lo dice en la L9**: el Archivo Base para decidir qué mirar, el Registro para anotar.
+9. **Familia no trae lo mismo en los dos instrumentos.** El Archivo Base (hoja *Cachorros*) da **6 áreas × 22 dimensiones**; el Registro (hoja *Familia*) usa **5 áreas × 5 dimensiones**, las mismas cinco de la *Guía del Dirigente de Familia* (§8.5, p. 55: Corporal, Cognitiva, Ética, **Socio-Afectiva**, Espiritual), por eso **junta Afectividad y Sociabilidad** —lo confirma su hoja «OA duplicable»—. «Dimensión» es palabra de doble plano: en el Archivo Base nombra cada una de las 22 casillas. Las otras cuatro ramas coinciden. **El curso lo dice en la L9** (corregido 08-11-2026, M2 de la re-auditoría doctrinal): el Archivo Base para decidir qué mirar, el Registro para anotar.
 
 ### Lo que este curso NO puede decir
 
@@ -53,7 +53,7 @@ Es el **primero de los tres cursos pedagógicos operativos** (13, 14, 15) y el p
 | Subtítulo | Mirar con intención, registrar lo justo, acordar un paso |
 | Icono | 🛠️ |
 | Nivel / orden | 2 · Curso **13** |
-| Duración declarada | **60 minutos — medidos al cerrar las tres auditorías**, como manda el ADR-047. El borrador cerró en **6.923 palabras** y las correcciones de la doctrinal y la pedagógica añadieron **861**: hoy son **7.784**. A 55 min el ritmo sería de **141,5 palabras/minuto**, fuera de la banda de los cinco cursos de rama medidos con la misma extracción (Manada 131,6 · Tropa 131,9 · Comunidad 135,9 · Familia 136,2 · Clan 129,6); a **60 min** queda en **129,7**, que es justo el valor del Curso 12. *La estimación inicial de trabajo era ~40 min: la medida la descartó dos veces.* |
+| Duración declarada | **64 minutos en el JSON vigente** (`contentVersion` 2026-10-04, Lotes 2–4; el JSON manda, ADR-073). Medida original: **60 minutos — medidos al cerrar las tres auditorías**, como manda el ADR-047. El borrador cerró en **6.923 palabras** y las correcciones de la doctrinal y la pedagógica añadieron **861**: hoy son **7.784**. A 55 min el ritmo sería de **141,5 palabras/minuto**, fuera de la banda de los cinco cursos de rama medidos con la misma extracción (Manada 131,6 · Tropa 131,9 · Comunidad 135,9 · Familia 136,2 · Clan 129,6); a **60 min** queda en **129,7**, que es justo el valor del Curso 12. *La estimación inicial de trabajo era ~40 min: la medida la descartó dos veces.* |
 | Módulos | 9 (1 de registro + **8 de contenido**) |
 | Destinatario | **Todo dirigente de unidad, de cualquiera de las cinco ramas** |
 | Recomendado antes | Nivel 1 completo y **el curso de tu rama** (8–12). Ninguno bloquea: son recomendaciones (ADR-019) |
@@ -67,12 +67,12 @@ Al terminar, el adulto podrá:
 
 1. **Escribir una conducta observable** con sus tres piezas —verbo claro, contexto y señal verificable— y reconocer los tres errores que la arruinan.
 2. **Elegir una técnica** del banco según la experiencia que tiene enfrente, en vez de intentar usarlas todas.
-3. **Armar el kit mínimo de su propia rama** y sostenerlo un mes.
+3. **Armar el kit mínimo de su propia rama** con una herramienta para mirar, una para conversar y una para guardar evidencia.
 4. **Repartir el seguimiento en tres momentos** —antes, durante y después— para que no aparezca de golpe al final del mes.
 5. **Dar una devolución** con la estructura «Vi – Logró – Próximo paso», y ajustarla al nivel de progresión del protagonista.
 6. **Acompañar una experiencia de fuera del Movimiento** sin invadir, con las tres puertas de entrada y el cierre de Kolb en cuatro preguntas.
 7. **Decidir qué NO se registra**, dónde se guarda y quién puede leerlo.
-8. **Abrir los tres instrumentos oficiales** sabiendo qué hace cada uno y cuál necesita hoy.
+8. **Distinguir los tres instrumentos oficiales** y elegir el que necesita hoy.
 
 ---
 
@@ -103,7 +103,7 @@ Al terminar, el adulto podrá:
 
 | # | Lección | Contenido | Fuente (p. del PDF salvo nota) |
 |---|---|---|---|
-| **1** | 🛠️ La carpeta en blanco | Registro. Hook literal. Marcela y sus formatos vacíos. **Qué NO es este curso:** no es un tutorial de Excel — los instrumentos llegan al final, en la L9, y a propósito. Recoge la promesa del Curso 6: *la progresión se observa, no se examina*. **Puente con el curso de tu rama:** los cinco nombres del camino de progresión —**Sendas** en Manada, **Travesías** en Tropa, **Rumbos** en Comunidad, **fases de progresión** en Familia y **PARCE** en Clan—, para decir que este curso no trae otro camino, sino la forma de ver por dónde va cada quien. Las tres preguntas que el seguimiento responde. | Cap. 1, p. 2; Cursos 8–12 |
+| **1** | 🛠️ La carpeta en blanco | Registro. Hook literal. Marcela y sus formatos vacíos. **Qué NO es este curso:** no es un tutorial de Excel — los instrumentos llegan al final, en la L9, y a propósito. Recoge la promesa del Curso 6: *la progresión se observa, no se examina*. **Puente con el curso de tu rama:** los cinco nombres del camino de progresión —las seis **Sendas** de Manada, las seis **Rutas** de Tropa y los seis **Rumbos** de Comunidad (áreas de crecimiento con nombre propio), las **fases de progresión** de Familia y el **PARCE** de Clan—, para decir que este curso no trae otro camino, sino la forma de ver por dónde va cada quien. Las tres preguntas que el seguimiento responde. | Cap. 1, p. 2; Cursos 8–12 |
 | **2** | 👀 Qué es una conducta observable | Las **tres piezas**: verbo claro + contexto + señal verificable, con los dos ejemplos de la fuente. Los **tres errores**: rasgos generales, metas demasiado grandes para la edad, y mezclar tres ideas en una frase. **«La edad cambia la forma, no el sentido»**, con las cinco ramas en un `method-grid`. El estándar de registro: una nota breve con fecha y contexto, y dos o tres observaciones por ciclo. | Cap. 2, pp. 2–3; Modelo §9.5 p. 66 (2–3 conductas por competencia) |
 | **3** | 🧰 Un banco, no una lista | El Cap. 4 como **ocho propósitos**, no como inventario de técnicas: observar y registrar · instrumentos simples · auto y coevaluación · bitácoras y reflexión · evidencias · hábitos · retro externa · acuerdos. **Un ejemplo vivo por propósito.** `policy-quote` con *«una pequeña muestra de técnicas a manera de banco… la idea no es usarlo todo»*. La receta del §4.9: **una conducta, una técnica, una pregunta de cierre**. | Cap. 4, §§4.1–4.9, pp. 3–11 |
 | **4** | 🎒 El kit mínimo de tu rama | La lógica del kit —**una herramienta para mirar, una para conversar, una para guardar evidencia**— y los cinco kits en un `method-grid`, cada uno con su «cómo se ve en la práctica». El **«mínimo mínimo»** de un mes para equipos saturados. Aquí cae la aclaración de **bitácora ≠ Libro de Oro**. | Cap. 5, §§5.1–5.5, pp. 11–14 |

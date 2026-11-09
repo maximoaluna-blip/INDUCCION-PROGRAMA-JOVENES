@@ -58,7 +58,7 @@ Es el primer curso de la plataforma cuyo destinatario principal es **un joven**:
 
 1. **Ubicar** el asiento juvenil en los tres Consejos y reconocer sus tres nombres.
 2. **Explicar** cómo se llega: requisitos, elección por pares, periodo e incompatibilidades.
-3. **Ejercer** el asiento con voz y voto plenos, en todos los temas del Consejo.
+3. **Preparar** tu voto en cualquier punto del Consejo —presupuesto, nombramientos, planes— preguntándote qué significa para los niños y jóvenes que representas.
 4. **Recoger** la voz de los miembros juveniles —todos, no solo los Rovers— antes de llevarla.
 5. **Rendir cuentas** ante la asamblea que te eligió.
 6. **Distinguir** lo que el cargo prohíbe —dádivas, mal uso de información confidencial, proselitismo— y cómo declarar un conflicto de intereses.
@@ -99,7 +99,7 @@ Workflow, catálogo, portal y panel (19), README/CLAUDE de línea y raíz, ledge
 
 ## 6. Marco
 
-Knowles: el destinatario tiene 18–21 años y una responsabilidad real; el curso le habla de su primera sesión, no de teoría. Bandura: Daniela se equivoca (llega con la voz del Clan y no la de la región) y corrige. Quizzes: decisión, casos nuevos, sin «solo/nada/nadie» en los distractores ni justo medio sistemático; el enunciado cierra en lo que le conviene hacer o responder al consejero, no en «¿qué dice el reglamento?», y ninguna pregunta repite una escena de la lección (la sede, la beca, el informe de diez páginas son casos nuevos). Reflexiones: sin nombres de personas —ni el del joven del que habla el adulto: por su rama, no por su nombre ni por su cargo, porque un cargo unipersonal lo identifica—; y ninguna pide confidencias (la de la L6 pide un tipo de situación, no el caso propio).
+Knowles: el destinatario tiene 18–21 años y una responsabilidad real; el curso le habla de su primera sesión, no de teoría. Bandura: Daniela se equivoca (llega con la voz del Clan y no la de la región) y corrige. Quizzes: decisión, casos nuevos, sin «solo/nada/nadie» en los distractores ni justo medio sistemático; el enunciado cierra en lo que le conviene hacer o responder al consejero, no en «¿qué dice el reglamento?», y ninguna pregunta repite una escena de la lección (la sede, el Grupo sin Clan, las cuarenta Manadas son casos nuevos). Tras la re-auditoría pedagógica de noviembre de 2026, en cada quiz al menos una pregunta tiene como distractor la tesis del curso llevada al exceso (esperar, retirarse de todo, rechazar la ayuda adulta), para que no se apruebe a ciegas. Reflexiones: sin nombres de personas —ni el del joven del que habla el adulto: por su rama, no por su nombre ni por su cargo, porque un cargo unipersonal lo identifica—; y ninguna pide confidencias (la de la L6 pide un tipo de situación, no el caso propio).
 
 ---
 

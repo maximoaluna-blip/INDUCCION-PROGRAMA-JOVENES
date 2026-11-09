@@ -67,7 +67,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 **Secciones (en orden):**
 
 1. **`info-box`** — Tiempo estimado del curso (~33 min) y promesa concreta: _"Al final vas a saber qué dijo Baden-Powell en 1922 sobre cómo se educa, por qué fundó este Movimiento, y cómo eso se traduce en cómo conversas con un protagonista de programa el próximo sábado."_
-2. **`paragraph`** — Saludo cálido. Mensaje: muchos dirigentes aprenden el Método y se vuelven técnicamente impecables pero pedagógicamente fríos. Este curso es la vacuna contra eso.
+2. **`paragraph`** — Saludo cálido. Mensaje: muchos dirigentes aprenden el Método y se vuelven técnicamente impecables pero pedagógicamente fríos. Este curso es la vacuna contra eso. Cierra con el puente al Mito 5 del Curso 1: _"En el Curso 1 desarmaste el mito de que 'esto se hace por amor y no necesita estructura'. Aquí verás que el amor de B-P es exigente: tiene método."_
 3. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 4. **`list`** — Las 5 ideas que verá:
     - El contexto histórico del informe de Ginebra 1922.
@@ -154,7 +154,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - El dirigente que solo se reúne con el protagonista para señalar lo que está mal.
 10. **`info-box`** — _"Si reconociste alguna escena: bienvenido al club. Reconocerlo no te hace mala persona; no reconocerlo, sí te impide cambiar."_
 
-**Reflexión:** _"¿Cuál de los 4 motores (castigo, recompensa, vanidad, competencia) sigue colándose más en tu propia práctica como dirigente, maestro, padre o jefe en tu trabajo? Escribe una situación concreta donde te pasó."_
+**Reflexión:** _"¿Cuál de los 4 motores (castigo, recompensa, vanidad, competencia) se te cuela más en tu práctica como dirigente, maestro, padre o jefe? Describe el tipo de momento en que aparece (al corregir, antes de una actividad, en una ceremonia…) y la frase que sueles usar, sin nombres ni datos de nadie. Esta reflexión la puede leer el equipo de formación."_
 
 **Quiz (2 preguntas):**
 
@@ -182,6 +182,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — Apertura: _"Si la educación por el temor se sostiene en el castigo, la recompensa, la vanidad y la competencia, ¿en qué se sostiene la educación por el amor? B-P no hizo una lista con ese nombre, pero su informe vuelve una y otra vez sobre cuatro ideas."_
+2b. **`paragraph`** — Ancla concreta: _"Piensa en un lobato que se pasa la tarde intentando prender fuego con pedernal, sin que nadie se lo pida, y el sábado siguiente vuelve a intentarlo. Nadie le prometió un premio ni lo amenazó. Lo que lo mueve es lo que B-P puso en el centro."_
 3. **`heading` (nivel 3)** — _"Las 4 ideas que sostienen la educación por el amor"_
 4. **`method-grid`** — las 4 ideas con icono y color (cálidos, vivos):
     - 🤝 **Autoeducación voluntaria** — En palabras sencillas: el joven aprende porque quiere, no porque le obligan. La obligación produce obediencia; el deseo produce aprendizaje.
@@ -192,6 +193,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - `text`: _"La educación, tal como la entiendo, no consiste en introducir en el cerebro del niño una cierta dosis de conocimiento, sino en despertarle el deseo de conocer e indicarle el modo de estudiar."_
     - `source`: "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 8)."
     - `label`: "📋 Ver la cita central del informe"
+5b. **`paragraph`** — El hook, visible fuera del plegable: _"Dicho en una línea, la apuesta entera de B-P cabe aquí: no se trata de llenarles la cabeza, sino de despertarles las ganas de aprender y mostrarles el camino."_
 6. **`heading` (nivel 3)** — _"Esto cambia cómo planeas una reunión"_
 7. **`paragraph`** — _"Una reunión 'por el temor' se construye con la pregunta '¿qué les voy a hacer hacer hoy?'. Una reunión 'por el amor' empieza con otra: '¿qué quieren ellos descubrir o construir hoy?'. Una se planifica para que los chicos cumplan. La otra, para que aprendan."_
 8. **`heading` (nivel 3)** — _"La fraternidad universal, en la frase que dijo pocos días antes en París"_
@@ -201,7 +203,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - `label`: "📋 Ver la frase de París"
 10. **`info-box`** — _"Cuando dos jóvenes scouts, uno colombiano y uno ucraniano, se reconocen hermanos sin haberse visto nunca, esto es lo que B-P estaba imaginando en 1922."_
 
-**Reflexión:** _"De las 4 ideas (autoeducación voluntaria, fraternidad universal, deseo de conocer, servir al prójimo), ¿cuál te cuesta más sostener en tu práctica actual y por qué? Sé honesto."_
+**Reflexión:** _"Piensa en la última reunión que preparaste o viviste. ¿Arrancó con 'qué les voy a hacer hacer' o con 'qué quieren descubrir'? Elige una actividad concreta de esa reunión (sin nombrar a nadie) y escribe cómo la cambiarías con una de las 4 ideas."_
 
 **Quiz (2 preguntas):**
 
@@ -236,20 +238,20 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - 🙋 **Hábito de servir al prójimo** — no servir por obligación o por evento; servir como forma de ser.
     - 💪 **Salud y vigor físico** — cuidar el cuerpo: ejercicio, higiene, sueño, alimentación, naturaleza.
 5. **`policy-quote`** — Cita de B-P:
-    - `text`: _"En cada una de las sesiones la instrucción es orientada con vista a cuatro objetivos principales… desarrollar: el carácter y la inteligencia; la habilidad manual; el hábito de servir al prójimo; y la salud y el vigor físico."_
-    - `source`: "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 10)."
+    - `text`: _"En cada una de las sesiones la instrucción es orientada con vista a cuatro objetivos principales […] desarrollar: (1) El carácter y la inteligencia […]. (2) La habilidad manual […]. (3) El hábito de servir al prójimo […]. (4) La salud y el vigor físico […]."_
+    - `source`: "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 10). Se omiten las glosas de 1922 que acompañan a cada objetivo."
     - `label`: "📋 Ver los 4 objetivos textuales"
 6. **`heading` (nivel 3)** — _"De 4 objetivos (1922) a 6 áreas (hoy)"_
-7. **`paragraph`** — _"Esos 4 objetivos se parecen mucho a lo que hoy la ASC llama las **6 áreas de crecimiento**: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad y Espiritualidad. Así las nombra el **Modelo de Aplicación 2026**; la PNPJ 2024 ya hablaba de seis, con otros nombres (desarrollo físico, intelectual, social, emocional, espiritual y del carácter). En la Rama Familia se llaman dimensiones. Los nombres cambian; la idea de educar a la persona entera es la misma."_
+7. **`paragraph`** — _"Esos 4 objetivos se parecen mucho a lo que hoy la ASC llama las **6 áreas de crecimiento**: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad y Espiritualidad. Así las nombra el **Modelo de Aplicación 2026**; la PNPJ 2024 ya hablaba de seis, con otros nombres (desarrollo físico, intelectual, social, emocional, espiritual y del carácter). En la rama Cachorros (Familia) se trabajan como cinco dimensiones, porque Afectividad y Sociabilidad van juntas en una sola. Los nombres cambian; la idea de educar a la persona entera es la misma."_
 8. **`heading` (nivel 3)** — _"Lo que esto significa para tu rol"_
 9. **`list`** — 4 implicaciones prácticas:
-    - Cuando planeas una reunión, **revisa que toque varias áreas**, no solo una.
+    - Cuando planeas una reunión, **revisa qué objetivos y áreas toca** y que no se quede en uno solo.
     - Cuando observas a un protagonista, **míralo entero**, no solo lo que se ve en formación.
     - Cuando construyes un proyecto, asegúrate de que **invite a hacer, a servir, a cuidarse y a pensar** —no solo una de las cuatro—.
-    - Cuando registras la progresión, **anota avances en las 6 áreas**, aunque algunas crezcan más despacio.
+    - Cuando registras la progresión, **anota avances en todas las áreas** (en Familia, en las cinco dimensiones), aunque algunas crezcan más despacio.
 10. **`info-box`** — _"En el Curso 6 vas a ver con más detalle cómo el Modelo de Aplicación 2026 organiza las competencias educativas por área y por rama. Hoy solo guarda esta idea: lo que enseñas siempre toca a la persona entera."_
 
-**Reflexión:** _"De las 6 áreas de crecimiento (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad; en Familia se llaman dimensiones), ¿cuál crees que **más se descuida** en tu unidad (o en las unidades que conoces)? ¿Por qué?"_
+**Reflexión:** _"Toma la última reunión de tu unidad (o una que conozcas) y anota qué área tocó cada actividad. ¿Cuál de las seis (cinco dimensiones en Familia) quedó sin tocar, y qué actividad pequeña la habría incluido?"_
 
 **Quiz (2 preguntas):**
 
@@ -292,8 +294,8 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - 🌟 **Curso 4** — Características Esenciales del Movimiento Scout: el Propósito, los Principios, los 6 elementos definitorios.
     - 🧭 **Curso 5** — El Método Scout y sus 8 elementos: la herramienta metodológica con la que aterrizas el amor a una reunión concreta.
     - 📜 **Curso 6** — La PNPJ y "El Gran Juego para la Vida": cómo Colombia aterriza todo esto en su Modelo de Aplicación 2026.
-    - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes: tu plan de compromisos como dirigente.
-10. **`info-box`** — Despedida: _"Cuando dudes, recuerda la idea que B-P hizo suya en Ginebra, del educador Edmundo Holmes: 'Aprender haciendo y contribuyendo a la formación del propio yo y no recibiendo pasivamente las ideas de otros; ese es el principio.' Buen camino."_
+    - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes: ahí vas a recuperar el compromiso que escribes hoy, así que guárdalo (se queda solo en este navegador).
+10. **`info-box`** — Despedida con eco del dolor de apertura: _"Al empezar te dijimos que muchos dirigentes saben armar una reunión pero olvidan por qué la arman. Ya tienes el porqué: educar no es meterle conocimiento a un niño, sino despertarle el deseo de conocer y mostrarle cómo. Y cuando dudes, recuerda la idea que B-P hizo suya en Ginebra, del educador Edmundo Holmes: 'Aprender haciendo y contribuyendo a la formación del propio yo y no recibiendo pasivamente las ideas de otros; ese es el principio.' Buen camino."_
 
 **Reflexión:** _"De los cuatro motores antiguos —castigo, recompensa, vanidad o competencia—, ¿cuál se te coló más en tu auto-revisión? Solo el motor, sin situaciones ni personas. El compromiso completo escríbelo en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."_
 

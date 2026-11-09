@@ -3,7 +3,7 @@
   "title": "Mi Compromiso con el Programa de Jóvenes",
   "subtitle": "Tu compromiso con el Programa de Jóvenes — cierre del Nivel 1",
   "description": "El cierre del Nivel 1 de la Línea Programa de Jóvenes. En ~33 minutos vas a convertir los Cursos 1 a 6 en un compromiso firmable con el Programa de Jóvenes: revisas tu brújula, defines tu rol, rama y áreas prioritarias, planeas tu próxima reunión y tu proyecto del trimestre, trazas tu ruta de formación y firmas tu promesa personal. No hay contenido nuevo: integras lo que ya tienes en algo accionable.",
-  "contentVersion": "2026-10-12",
+  "contentVersion": "2026-11-08",
   "icon": "🗺️",
   "duration": "33 minutos",
   "level": 1,
@@ -25,6 +25,10 @@
         {
           "type": "paragraph",
           "text": "Llegaste hasta acá. Tomaste 6 cursos. Leíste a Baden-Powell, a la OMMS, a la PNPJ. Te asomaste a los 8 elementos del Método y al Modelo de Aplicación colombiano. Reflexionaste, contestaste quizzes, escribiste compromisos parciales. Hoy todo eso se vuelve plan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pasa mucho: terminas un curso con ganas, llega el sábado… y vuelves a hacer la reunión de siempre. No por falta de voluntad, sino porque lo aprendido nunca se volvió plan. Saber sin actuar no transforma. Y actuar sin plan termina en cansancio. Este curso es el puente: convierte lo que aprendiste en lo que vas a hacer, con quién, cuándo y cómo sabrás que se cumplió."
         },
         {
           "type": "heading",
@@ -64,7 +68,7 @@
         },
         {
           "type": "info-box",
-          "text": "🧭 <strong>Tu brújula del Nivel 1.</strong> Recupera lo que escribiste al cerrar cada curso: el compromiso de la primera semana (Curso 1, L6), tu compromiso pedagógico (Curso 2, L6), tu frase de «antes pensaba / ahora entiendo» sobre qué es educar (Curso 3, L6), tu frase de definición (Curso 4, L6), tu ajuste de reunión (Curso 5, L8) y tu mapa del Modelo (Curso 6, L7). Tenlo todo a la vista mientras construyes tu plan. Unos están en la reflexión de la última lección y otros en el recuadro «Compromiso Personal», junto al certificado de ese curso. Ojo: el recuadro solo está en el navegador donde lo escribiste."
+          "text": "🧭 <strong>Tu brújula del Nivel 1.</strong> Recupera lo que escribiste al cerrar cada curso: el compromiso de la primera semana (Curso 1, L6), tu compromiso pedagógico (Curso 2, L6), tu frase de «antes pensaba / ahora entiendo» sobre qué es educar (Curso 3, L6), tu frase de definición (Curso 4, L6), tu ajuste de reunión (Curso 5, L8) y tu mapa del Modelo (Curso 6, L7). Tenlo todo a la vista mientras construyes tu plan. Unos están en la reflexión de la última lección y otros en el recuadro «Compromiso Personal», junto al certificado de ese curso. Ojo: el recuadro solo está en el navegador donde lo escribiste. Si ya no lo tienes, no pasa nada: reconstrúyelo en dos líneas de memoria. Lo que recuerdas sin mirar es justo lo que te quedó."
         },
         {
           "type": "heading",
@@ -93,13 +97,13 @@
         "nextLabel": "Continuar a mi rol y mi rama 🎯",
         "questions": [
           {
-            "text": "Una dirigente escribió su «Compromiso Personal» del Curso 4 en el computador de su trabajo. Hoy abre este curso en su celular y no lo encuentra. Según la lección, ¿qué pasó?",
+            "text": "Al releer su brújula, un dirigente de Tropa ve que en el Curso 2 se comprometió a dejar de premiar al «mejor scout» del mes, y no lo cumplió. ¿Qué hace con eso en esta lección?",
             "options": [
-              "Ese recuadro se borra al emitirse el certificado: tiene que reescribirlo de memoria en esta reflexión.",
-              "Ese recuadro solo queda en el navegador donde lo escribió: tiene que volver a ese computador a buscarlo.",
-              "Ese recuadro viaja con su avance: lo recupera en el celular con el botón «Recuperar mi Avance»."
+              "Lo anota en la segunda pregunta como práctica por ajustar: es materia prima para su plan.",
+              "Lo deja por fuera: la brújula recoge lo que le resonó, y un compromiso incumplido no suma.",
+              "Copia tal cual el compromiso del Curso 2 en la reflexión, para no perder su versión original."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "A la segunda pregunta («qué práctica estoy haciendo mal o ausente») responden tres dirigentes de Manada. ¿Cuál deja materia prima útil para su plan?",
@@ -134,7 +138,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Tu plan personal arranca con tu rol concreto. Si sirves en Manada, no vas a planear como sirves en Clan. Si eres parte del equipo de dirigentes de tu unidad, no vas a planear como un jefe de rama. Vamos al detalle."
+          "text": "Tu compromiso arranca con tu rol concreto. Si sirves en Manada, no vas a planear como sirves en Clan. Si eres parte del equipo de dirigentes de tu unidad, no vas a planear como un jefe de rama. Vamos al detalle. Si aún no tienes cargo o unidad, piensa en la función que cumples hoy o en una unidad que conozcas."
         },
         {
           "type": "heading",
@@ -184,17 +188,17 @@
             }
           ],
           "labels": {
-            "intro": "Selecciona las <strong>2 áreas de crecimiento</strong> donde quieras poner foco este trimestre — no las que más amas: las que más necesita tu unidad ahora.",
+            "intro": "Selecciona las <strong>2 áreas de crecimiento</strong> donde quieras poner foco este trimestre — no las que más amas: las que más necesita tu unidad ahora. Si marcas más de 2, el plan las incluye todas, pero la idea es no dispersarte.",
             "placeholderMeta": "Ej: qué quieres lograr en esta área con tu unidad este trimestre, y en qué se va a notar el avance...",
-            "placeholderPlazo": "Ej: 6 meses",
+            "placeholderPlazo": "Ej: antes de la última reunión del trimestre (pon la fecha)",
             "placeholderRecursos": "Ej: proponerlo en el consejo de unidad, pedirles ideas a los protagonistas, mirar la Guía de mi rama…",
             "placeholderCompromiso": "Ej: Me comprometo a revisar estas dos áreas en cada reunión, a contarle a mi par dirigente cómo van cada mes, y a no rendirme cuando me cueste…",
             "botonGenerar": "📄 Armar mi compromiso del trimestre",
             "minimo": 2,
-            "avisoMinimo": "⚠️ La lección te pide elegir 2 áreas de crecimiento. Marca al menos 2 y completa sus campos antes de generar el plan.",
+            "avisoMinimo": "⚠️ La lección te pide elegir 2 áreas de crecimiento. Marca 2 y completa sus campos antes de armar tu compromiso.",
             "avisoCampos": "⚠️ Hay campos vacíos. Completa meta, plazo y recursos en todas las áreas seleccionadas.",
             "titulo": "📋 Mi compromiso con el Programa de Jóvenes",
-            "subtituloPrioridades": "Las 2 áreas de crecimiento que elegí para este trimestre",
+            "subtituloPrioridades": "Las áreas de crecimiento que elegí para este trimestre",
             "cierre": "Imprime este plan, fírmalo y consérvalo como tu compromiso personal."
           }
         },
@@ -209,7 +213,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe en una frase: ¿cómo conecta tu rol prioritario del trimestre (Apoyar, Acompañar o Enlazar) con las 2 áreas de crecimiento que elegiste?"
+        "prompt": "Anota, sin nombres: dónde sirves (tu unidad o tu otro ámbito), tu cargo, a cuántos protagonistas acompañas, y el rol del Modelo que vas a fortalecer este trimestre y por qué. Cierra con una frase: ¿cómo conecta ese rol con las 2 áreas de crecimiento que elegiste?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",
@@ -227,11 +231,11 @@
           {
             "text": "A una jefa de Comunidad le salen bien Acompañar y Enlazar, pero le cuesta Apoyar. Este trimestre entran seis nómadas nuevos que van a vivir todo por primera vez. Según la lección, ¿qué rol fija como prioritario?",
             "options": [
-              "Enlazar, que es lo que mejor hace y lo que más luce ante nómadas que recién llegan.",
-              "Los tres a la vez: con seis nómadas nuevos no puede descuidar ninguno.",
-              "Apoyar: es el que a ella le falta, y el que más piden quienes recién entran."
+              "Apoyar, y deja Acompañar y Enlazar para el próximo trimestre: no se puede con todo a la vez.",
+              "Apoyar, sin dejar de acompañar a los antiguos: es el que le falta y el que piden los que llegan.",
+              "Acompañar, que ya domina: con seis nómadas nuevos no es momento de ensayar lo que le cuesta."
             ],
-            "correctIndex": 2
+            "correctIndex": 1
           },
           {
             "text": "Un adulto sirve en la comisión regional de Programa de Jóvenes y no tiene unidad a cargo. Según la lección, ¿cómo llena «Mi rol y mi rama»?",
@@ -257,7 +261,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Esta es la lección donde el plan se vuelve acción. Vas a planear concretamente: una reunión que vas a tener esta o la próxima semana, y un proyecto que tu unidad va a vivir en el próximo trimestre."
+          "text": "Aquí está el puente entre saber y actuar: esta es la lección donde el plan se vuelve acción. Vas a planear concretamente: una reunión que vas a tener esta o la próxima semana, y un proyecto que tu unidad va a vivir en el próximo trimestre."
         },
         {
           "type": "heading",
@@ -275,7 +279,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Un proyecto scout no es una actividad larga. Empieza con una pregunta que sale de mirar el entorno — ¿qué duele?, ¿qué falta?, ¿qué queremos mejorar? — y avanza en cinco momentos (así los cuenta el Modelo de Aplicación): <strong>miran</strong> su realidad, <strong>planean</strong> juntos qué van a hacer y para quién, lo <strong>hacen</strong> por tramos, lo <strong>muestran</strong> a quien va dirigido, y al final <strong>evalúan</strong> qué se llevan. Lo más importante: la pregunta la formulan los protagonistas contigo. Tu rol es Apoyar, Acompañar y Enlazar."
+          "text": "Un proyecto scout no es una actividad larga. Empieza con una pregunta que sale de mirar el entorno — ¿qué duele?, ¿qué falta?, ¿qué queremos mejorar? — y avanza en cinco momentos (así los cuenta el Modelo de Aplicación): <strong>miran</strong> su realidad, <strong>planean</strong> juntos qué van a hacer y para quién, lo <strong>hacen</strong> por tramos, lo <strong>muestran</strong> a quien va dirigido, y al final <strong>evalúan</strong> qué se llevan (son los mismos que viste en el Curso 6: diagnóstico participativo, planificación, ejecución, presentación, y evaluación y transferencia). Lo más importante: la pregunta la formulan los protagonistas contigo. Tu rol es Apoyar, Acompañar y Enlazar."
         },
         {
           "type": "paragraph",
@@ -283,11 +287,11 @@
         },
         {
           "type": "info-box",
-          "text": "Si te quedaste atascado en algún campo, está bien. Marca \"por definir\" y vuelve más tarde. El plan se construye, no se improvisa. Si aún no tienes cargo o unidad, piensa en la función que cumples hoy o en una unidad que conozcas."
+          "text": "Si te quedaste atascado en algún campo, está bien. Marca \"por definir\" y vuelve más tarde. El plan se construye, no se improvisa. Si aún no tienes cargo o unidad, piensa en la función que cumples hoy o en una unidad que conozcas. Te lleva unos 10 minutos: si hoy no te alcanza, deja la reunión hecha y el proyecto «por definir»."
         }
       ],
       "reflection": {
-        "prompt": "Imagina que tu plan se cumple al 80%. Al final del trimestre, ¿qué se va a notar en tu unidad que hoy no se nota? Sé concreto."
+        "prompt": "Tu próxima reunión: fecha, foco, el elemento del Método que vas a fortalecer y cómo, y el criterio DURASLID que está en riesgo. Tu proyecto: nombre tentativo, de dónde salió la idea, las 2 áreas que toca y cómo se conecta con tu territorio. Lo que no tengas, márcalo «por definir». Y una frase final: si el plan se cumple al 80 %, ¿qué se va a notar en tu unidad que hoy no se nota?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 4",
@@ -297,8 +301,8 @@
             "text": "Un jefe de Manada quiere poner como proyecto del trimestre una caminata de un día que ya tiene armada, con almuerzo y juegos. Según la lección, ¿qué le falta para ser un proyecto scout?",
             "options": [
               "Que parta de una pregunta sobre el entorno que los lobatos formulen con él, y siga cinco momentos.",
-              "Que dure varias semanas y avance por tramos, porque un proyecto es más largo que una salida.",
-              "Que los lobatos escojan el destino y los juegos, para que la caminata sea de verdad de ellos."
+              "Que dure varias semanas, por tramos, y que al final los lobatos la muestren a sus familias.",
+              "Que los lobatos escojan destino y juegos, y que al volver evalúen qué se llevaron."
             ],
             "correctIndex": 0
           },
@@ -312,13 +316,13 @@
             "correctIndex": 2
           },
           {
-            "text": "Para su próxima reunión, una subjefe de Comunidad ya anotó la fecha, el tema y la Naturaleza como elemento del Método a fortalecer, con el cómo. Según la lección, ¿qué le falta anotar?",
+            "text": "En su última reunión, los nómadas de una Comunidad jugaron con ganas, pero al salir ninguno supo decir para qué les sirvió fuera del grupo. Para la próxima, ¿qué criterio DURASLID anota la subjefe como en riesgo?",
             "options": [
-              "Cuál de los ocho criterios DURASLID cumple mejor, para reforzarlo en la reunión.",
-              "Cuál de los ocho criterios DURASLID está en riesgo y necesita más atención.",
-              "Qué área de crecimiento, de las dos que eligió, va a trabajar ahí."
+              "Útil: lo vivido no se conectó con algo que les sirva en su vida fuera de la reunión.",
+              "Recompensante: faltó un premio al final que le diera sentido a lo que hicieron.",
+              "Atractiva: la actividad no les llamó la atención lo suficiente como para recordarla."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -478,7 +482,7 @@
         },
         {
           "type": "mission-box",
-          "text": "Escribe tu promesa en el recuadro «Compromiso Personal» que aparece junto a tu certificado —ese se queda en tu navegador— y léela en voz alta antes de descargar el certificado. Lo que se dice cobra peso. Lo que se escribe se queda."
+          "text": "Escribe tu promesa en el recuadro «Compromiso Personal» que aparece junto a tu certificado —ese se queda en tu navegador—, súmale una línea que solo tú podrías comprometer y léela en voz alta antes de descargar el certificado. Lo que se dice cobra peso. Lo que se escribe se queda."
         },
         {
           "type": "photo-upload",
@@ -503,7 +507,7 @@
         },
         {
           "type": "info-box",
-          "text": "Bienvenida, bienvenido al equipo de quienes tienen plan. El Movimiento te necesitaba. Tu unidad también. Buen camino."
+          "text": "Bienvenida, bienvenido al equipo de quienes tienen plan. Ya no te vas solo con lo que sabes: te vas con lo que vas a hacer, con quién y cuándo. El Movimiento te necesitaba. Tu unidad también. Buen camino."
         }
       ],
       "reflection": {
@@ -514,13 +518,13 @@
         "nextLabel": "Obtener mi certificado 🎓",
         "questions": [
           {
-            "text": "Un Jefe de Tropa busca un par dirigente con quien compartir su plan. ¿Cuál encaja con lo que describe la lección?",
+            "text": "Un Jefe de Tropa quiere un par dirigente con quien revisar su plan cada mes. ¿Cuál de estas elecciones se aleja de lo que describe la lección?",
             "options": [
-              "Su Jefe de Grupo, que conoce la unidad y cada mes puede revisar si el plan se está cumpliendo.",
-              "Su compañera de un curso de formación, jefa de Tropa en otro grupo, para ajustarlo juntos cada mes.",
-              "El guía de patrulla más antiguo, que vive la Tropa desde dentro y puede decirle cómo va el plan."
+              "Su Jefe de Grupo, porque así alguien con autoridad se asegura de que cumpla el plan.",
+              "Su compañera de un curso de formación, jefa de Tropa en otro grupo de la región.",
+              "Un subjefe de Manada de su mismo grupo, con quien ya comparte las reuniones de los sábados."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "En la reflexión, un dirigente escribe: «Mi par es Carolina R., jefa de Manada del Grupo 12; le comparto el plan el sábado y nos vemos cada mes». ¿Qué le ajustas según la lección?",
@@ -532,13 +536,13 @@
             "correctIndex": 0
           },
           {
-            "text": "Al terminar la lección, un dirigente quiere dejar registrada su promesa personal. ¿Qué le indica la lección?",
+            "text": "Una dirigente terminó su promesa y prefiere guardársela «porque es algo íntimo». Según la lección, ¿qué le sugieres?",
             "options": [
-              "La escribe en la reflexión de esta lección, para que quede guardada con su avance en la plataforma.",
-              "La copia a mano, la firma y sube la foto: ese es el paso que cierra el Nivel 1 y habilita el certificado.",
-              "La escribe en el recuadro «Compromiso Personal» y la lee en voz alta antes de descargar el certificado."
+              "Que la escriba en el recuadro de su certificado y le comparta el plan a su par: lo compartido se sostiene.",
+              "Que suba la foto firmada: así queda registrada en la plataforma y su Jefe de Grupo puede verla.",
+              "Que la deje así: la promesa es personal y en el Nivel 1 compartir el plan es solo opcional."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           }
         ]
       }
@@ -584,7 +588,7 @@
   ],
   "certificate": {
     "courseName": "MI COMPROMISO CON EL PROGRAMA DE JÓVENES",
-    "description": "ha completado el Curso 7 de la Línea Programa de Jóvenes, cerrando el Nivel 1 con un compromiso escrito con el Programa de Jóvenes y una Promesa personal que integran los aprendizajes de los Cursos 1 a 6, comprometiéndose a vivir el Programa de Jóvenes como una alianza educativa al servicio de los protagonistas de la Asociación Scouts de Colombia"
+    "description": "ha completado el Curso 7 de la Línea Programa de Jóvenes, cerrando el Nivel 1 con un compromiso escrito con el Programa de Jóvenes y una promesa personal que integran los aprendizajes de los Cursos 1 a 6, comprometiéndose a vivir el Programa de Jóvenes como una alianza educativa al servicio de los protagonistas de la Asociación Scouts de Colombia"
   },
   "commitmentBox": {
     "prompt": "Escribe aquí tu promesa personal del Nivel 1 (la de la Lección 6) y agrega una línea propia: algo que solo tú podrías comprometer, según tu camino.",

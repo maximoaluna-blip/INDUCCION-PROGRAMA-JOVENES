@@ -3,7 +3,7 @@
 > **Línea:** Programa de Jóvenes · **Nivel 4 — Transversales** · Curso **25** de 25 — **el primero del Nivel 4** (Hito D del plan: se construye antes que el 21–24 por su valor, no por ser habilitante, que no lo es — ADR-019)
 > **`courseId`:** `a-salvo-del-peligro-programa`
 > **Diseño pedagógico:** Claude Code, con autonomía de punta a punta renovada por el dueño el 27-sep-2026 para todo el Nivel 4.
-> **Estado:** diseño · pendiente JSON, build y las tres auditorías. ADR reservado: **100**.
+> **Estado:** construido y publicado (JSON `contentVersion` 2026-10-04); re-auditoría doctrinal del 08/11/2026: APTO. ADR: **100**.
 
 El alcance lo fijó el **ADR-038** con la regla de la propia Política: *¿el sujeto de la frase es el joven y la unidad, o el adulto y la institución?* Este curso enseña **cómo el Método Scout hace seguro el entorno de la unidad**. Lo que el adulto hace ante una revelación, su posición de garante, el límite de su rol y las señales de abuso son de la línea **Políticas Transversales**, y aquí **se enlazan sin reexplicarse**.
 
@@ -29,7 +29,7 @@ El alcance lo fijó el **ADR-038** con la regla de la propia Política: *¿el su
 ### Lo que este curso NO puede decir
 
 - **No reexplicar** la conducta ante una revelación, la posición de garante, la confidencialidad del reporte ni las señales de abuso: se enlaza al Curso 03 de PT.
-- **No afirmar un protocolo nacional** de transporte, pernocta o actividad acuática.
+- Para transporte terrestre rige el Protocolo Nacional de Transporte (CNGR-022-1); **no afirmar un protocolo nacional** de pernocta ni de actividad acuática.
 - **No decir «activar la ruta»** como acto del adulto: el adulto **reporta**; activar rutas es del Comité de Gestión de Incidentes.
 - **No presentarse como el módulo oficial** A Salvo del Peligro, que la Asociación exige y certifica: ningún curso de la plataforma lo reemplaza.
 - **No repetir el Curso 14**: la Hoja de Ruta y la matriz se nombran y se usan, no se enseñan.

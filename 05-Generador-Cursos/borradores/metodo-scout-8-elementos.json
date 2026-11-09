@@ -3,7 +3,7 @@
   "title": "El Método Scout y sus 8 elementos",
   "subtitle": "El \"cómo\" del Movimiento — un sistema, no una lista",
   "description": "El curso más largo y más importante del Nivel 1. En ~43 minutos vas a entender el Método Scout como un sistema de autoeducación progresiva basado en 8 elementos interdependientes — no una lista de técnicas que se eligen a gusto. Vas a recorrer los 8 elementos en 4 parejas, ver las 4 dinámicas que hacen visible el Método en tu unidad y salir con un plan concreto para integrar el Método en tu próxima reunión.",
-  "contentVersion": "2026-10-04",
+  "contentVersion": "2026-11-08",
   "icon": "🧭",
   "duration": "43 minutos",
   "level": 1,
@@ -20,11 +20,11 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~43 minutos.</strong> Al final vas a poder mirar cualquier reunión scout y decir, con precisión, qué elementos del Método están activos y cuáles no."
+          "text": "⏱️ <strong>~43 minutos.</strong> Al final vas a poder mirar varias reuniones de una unidad y decir, con precisión, qué elementos del Método están vivos y cuáles llevan semanas faltando."
         },
         {
           "type": "paragraph",
-          "text": "Te damos la bienvenida. Este es el curso más largo y más importante del Nivel 1. Tómalo con calma. Cada elemento merece su propio momento."
+          "text": "Te damos la bienvenida. Casi todo dirigente nuevo hace lo mismo: se queda con los elementos del Método que le salen fáciles —el juego, la salida, la Promesa— y deja para después los que le cuestan. Parece razonable. No lo es: el Método Scout no es una lista de ocho técnicas para escoger según el día. Es un sistema. Si una pieza falta semana tras semana, lo que queda ya no es el Método. Tómalo con calma."
         },
         {
           "type": "heading",
@@ -59,12 +59,12 @@
         },
         {
           "type": "paragraph",
-          "text": "Si abres The Scout Method de la OMMS vas a leer \"sistema de autoeducación progresiva… basado en la interacción de elementos igualmente importantes que funcionan como un sistema cohesivo\". Es exacto: lo aprobó la 41ª Conferencia Scout Mundial en 2017 y la PNPJ 2024 lo adoptó (§4.2, p. 7). Y, si nunca has hecho un curso así, es difícil de digerir en frío. Vamos a llegar a esa frase, pero por el camino aterrizado."
+          "text": "Si abres The Scout Method de la OMMS vas a leer, en inglés, algo así como \"sistema de autoeducación progresiva… basado en la interacción de elementos igualmente importantes que funcionan como un sistema cohesivo\". Es exacto: lo aprobó la 41ª Conferencia Scout Mundial en 2017 y la PNPJ 2024 lo adoptó (§4.2, p. 7). Y, si nunca has hecho un curso así, es difícil de digerir en frío. Vamos a llegar a esa frase, pero por el camino aterrizado."
         },
         {
           "type": "policy-quote",
           "label": "📋 Ver la definición oficial",
-          "source": "The Scout Method, OMMS 2019 (Resolución 41 ª Conferencia Scout Mundial 2017-04), p. 14, dos frases unidas — traducción propia del original en inglés. Equivalente vigente en español: Modelo de Aplicación 2026, §3.1, p. 11.",
+          "source": "The Scout Method, OMMS 2019 (Resolución 41.ª Conferencia Scout Mundial 2017-04), p. 14, dos frases unidas — traducción propia del original en inglés. Equivalente vigente en español: Modelo de Aplicación 2026, §3.1, p. 11.",
           "text": "El Método Scout es un sistema de autoeducación progresiva… basado en la interacción de elementos igualmente importantes que funcionan como un sistema cohesivo."
         },
         {
@@ -126,11 +126,11 @@
         },
         {
           "type": "info-box",
-          "text": "Para quienes tienen ojos para ver y oídos para oír, el bosque es a la vez un laboratorio, un club y un templo. (B-P, Rovering to Success)"
+          "text": "Ahora vamos a recorrerlos en cuatro parejas. Fíjate en cómo cada pareja se sostiene: ninguna funciona sola."
         }
       ],
       "reflection": {
-        "prompt": "De los 8 elementos, ¿cuáles ya reconoces que se aplican en tu unidad y cuáles te parecen extraños o ausentes?"
+        "prompt": "Piensa en el último mes de tu unidad (o de la que acompañas). ¿Qué elemento del Método no apareció ni una vez? Describe una actividad concreta de ese mes donde habría cabido, y cómo."
       },
       "quiz": {
         "title": "Mini-quiz Lección 2",
@@ -155,13 +155,13 @@
             "correctIndex": 2
           },
           {
-            "text": "La definición del Método que trae la lección no es la idea suelta de un autor. Según la lección, ¿de dónde viene y cómo llegó a la ASC?",
+            "text": "Una jefa de Manada revisa el trimestre: hubo Promesas, juegos en seisenas y una salida al parque, pero ni un solo momento de Marco Simbólico, porque «a los lobatos de ahora eso les da pena». ¿Qué haría alguien que entendió que el Método es un sistema?",
             "options": [
-              "La aprobó el Consejo Scout Nacional en 2024 con la PNPJ, y luego la OMMS la tomó para The Scout Method.",
-              "La aprobó la Conferencia Scout Interamericana en 2019, y la PNPJ 2024 la adoptó (§4.2).",
-              "La aprobó la 41ª Conferencia Scout Mundial en 2017, y la PNPJ 2024 la adoptó (§4.2)."
+              "Programar para el próximo mes dos o tres momentos de La Fantasía, porque ese elemento lleva semanas faltando.",
+              "Programar el Marco Simbólico en todas las actividades de cada reunión, para compensar las semanas en que faltó.",
+              "Dejarlo así mientras los otros siete sigan fuertes: si ninguno vale más que otro, este tampoco hace falta."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           }
         ]
       }
@@ -245,13 +245,13 @@
             "correctIndex": 2
           },
           {
-            "text": "En el campamento, la patrulla Halcones cocina sola por primera vez y ves que la cena va a salir con una hora de retraso. Según Aprender Haciendo, ¿qué haces?",
+            "text": "En el campamento, la patrulla Halcones cocina sola por primera vez. A media tarde ves que nadie ha prendido el fogón y que la leña está mojada. Según Aprender Haciendo, ¿qué haces?",
             "options": [
-              "Te encargas tú del fogón para ganar tiempo, y les dejas a ellos el resto de la cena.",
-              "Te quedas cerca y dejas que terminen ellos solos, aunque la cena salga una hora tarde.",
-              "Le pides a una patrulla con más experiencia que tome su fogón y que les vaya enseñando."
+              "Te acercas al Guía, le preguntas cómo piensan resolver lo de la leña y les dejas el fogón a ellos.",
+              "Te mantienes lejos toda la tarde: si intervienes, aunque sea con una pregunta, ya no aprenden.",
+              "Te pones a prender el fogón mientras ellos miran, para que aprendan viendo cómo se hace."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -265,6 +265,10 @@
         {
           "type": "info-box",
           "text": "<strong>Idea central:</strong> Crecimiento individual y vida de pequeño grupo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Piensa en dos scouts de la misma patrulla que entraron el mismo día. Un año después, uno ya enseña nudos y el otro apenas empieza a animarse a hablar en el consejo. ¿Va atrasado el segundo? No: cada uno va por su propio camino. Eso es la Progresión Personal."
         },
         {
           "type": "heading",
@@ -286,7 +290,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Los jóvenes no viven el Movimiento en grupo grande; lo viven en <strong>pequeños grupos</strong> donde se sienten conocidos, donde toman decisiones, donde aprenden a liderar entre pares. Cada rama tiene su grupo natural: Camadas (Familia), Seisenas (Manada), Patrullas (Tropa), equipos de Comunidad y de Clan."
+          "text": "En Tropa, Comunidad y Clan, los jóvenes viven el Movimiento sobre todo en <strong>pequeños grupos</strong> donde se sienten conocidos, toman decisiones y aprenden a liderar entre pares. <strong>En Familia y Manada pesa más la unidad completa</strong>: las camadas y las seisenas se arman para ciertas actividades y les ayudan a aprender a escuchar y a turnarse. Cada rama tiene su grupo natural: Camadas (Familia), Seisenas (Manada), Patrullas (Tropa), equipos de Comunidad y de Clan."
         },
         {
           "type": "method-grid",
@@ -333,7 +337,7 @@
         }
       ],
       "reflection": {
-        "prompt": "En tu unidad (o la que acompañas), ¿qué tan bien funciona el pequeño grupo (camada, seisena, patrulla, equipo)? Anota una cosa que ya funciona y una que crees que se puede mejorar."
+        "prompt": "Recuerda la última actividad de tu unidad en la que el pequeño grupo (camada, seisena, patrulla, equipo) tomó una decisión sin el adulto. ¿Qué decidió? Si no recuerdas ninguna, describe la última vez que un adulto decidió algo que el grupo podía haber decidido."
       },
       "quiz": {
         "title": "Mini-quiz Lección 4",
@@ -349,13 +353,13 @@
             "correctIndex": 1
           },
           {
-            "text": "La patrulla Zorros llega siempre sin el material del campamento. ¿Qué hace el Jefe de Tropa, según el Sistema de Equipos?",
+            "text": "El Guía de los Zorros te cuenta que su patrulla ya probó dos veces repartirse el material del campamento, y las dos veces se les quedó la carpa. ¿Qué haces, según el Sistema de Equipos?",
             "options": [
-              "Le asigna él a cada zorro qué material trae, y revisa la lista antes de salir.",
-              "Lo habla con el Guía de los Zorros y deja que la patrulla arme su propio reparto.",
-              "Pasa a los Zorros a trabajar con la tropa completa hasta que aprendan a organizarse."
+              "Le propones revisar juntos cómo hicieron el reparto y pensar un sistema que decida la patrulla.",
+              "Le dices que sigan intentando sin tu ayuda: la patrulla tiene que equivocarse sola hasta que le salga.",
+              "Le pides la lista de los Zorros y tú la revisas antes de cada salida, para que ya no se les quede nada."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "En la misma salida, Ana se orienta con brújula por primera vez y Luis ya la usa solo en cada campamento. ¿Qué cabe esperar?",
@@ -452,7 +456,7 @@
         },
         {
           "type": "info-box",
-          "text": "📝 <strong>Dos documentos vigentes, dos formas de decirlo.</strong> Las Guías de Familia y de Manada dan a las dos ramas el mismo marco, <strong>La Fantasía</strong>. El <em>Modelo</em> las distingue: llama a la de Familia <strong>Territorio de la Fantasía</strong> y a la de Manada <strong>Territorio de la Fantasía Expandida</strong>, y nombra los cinco marcos por territorio (§8.2.2, p. 56). El de la <strong>Tropa es La Aventura</strong>, y su <strong>Guía de Dirigente</strong> le dedica un capítulo entero. No lo arreglamos por cuenta propia: lo decimos, como hacemos con el acrónimo DURASLID y con las edades del Rover."
+          "text": "📝 <strong>Dos documentos vigentes, dos formas de decirlo.</strong> Las Guías de Familia y de Manada dan a las dos ramas el mismo marco, <strong>La Fantasía</strong>. El <em>Modelo</em> las distingue: llama a la de Familia <strong>Territorio de la Fantasía</strong> y a la de Manada <strong>Territorio de la Fantasía Expandida</strong>, y nombra los cinco marcos por territorio (§8.2.2, pp. 56–57). El de la <strong>Tropa es La Aventura</strong>, y su <strong>Guía de Dirigente</strong> le dedica un capítulo entero. No lo arreglamos por cuenta propia: lo decimos, como hacemos en otros cursos de la línea cuando dos documentos vigentes no coinciden."
         },
         {
           "type": "info-box",
@@ -460,7 +464,7 @@
         }
       ],
       "reflection": {
-        "prompt": "¿Qué tan bien usa tu unidad (o la unidad que acompañas) el Marco Simbólico propio de su rama? Anota una práctica simbólica que ya funciona y una que crees que se está perdiendo."
+        "prompt": "Describe el último momento de una reunión en que se usó el lenguaje o un símbolo propio de la rama (un nombre, una ceremonia, una historia). ¿Cómo reaccionaron los protagonistas? ¿Qué momento de la reunión habría ganado con un toque del marco simbólico?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 5",
@@ -469,9 +473,9 @@
           {
             "text": "Una lobata nunca ha preparado un refrigerio y el sábado le toca a su seisena. ¿Qué haces antes de la reunión?",
             "options": [
-              "Dejarle a la seisena los ingredientes, una receta sencilla y el espacio listo para que lo intente.",
-              "Preparar tú el refrigerio esta vez, para que vea cómo se hace y lo repita en la próxima reunión.",
-              "Pedirle a una cocinera del barrio que le dé una clase de cocina a la seisena antes del sábado."
+              "Preparar con la seisena la receta y el reparto de tareas, dejar todo listo y quedarte cerca el sábado.",
+              "Dejar que la seisena se las arregle sin receta ni ingredientes: así lo aprende de verdad, a su modo.",
+              "Preparar tú el refrigerio esta vez, para que vea cómo se hace y lo repita en la próxima reunión."
             ],
             "correctIndex": 0
           },
@@ -532,7 +536,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El Movimiento no educa para encerrarse en la unidad. Educa para servir y participar. La Participación en la Comunidad incluye proyectos de servicio en el barrio, articulación con organizaciones locales, ejercicio de ciudadanía en espacios públicos. La PNPJ 2024 lo titula <strong>'Participación comunitaria'</strong>: ayudar a construir un mundo mejor desde la ciudadanía activa, en el <strong>territorio</strong> donde vive: su barrio, su colegio, su comunidad. El Modelo de Aplicación 2026 lo describe como un lugar con cuatro caras: la física (dónde pasa), la simbólica (qué significa), la de las relaciones (con quién) y la transformadora (qué cambia ahí gracias a ellos) — §8.2, p. 53."
+          "text": "El Movimiento no educa para encerrarse en la unidad. Educa para servir y participar. La Participación en la Comunidad incluye proyectos de servicio en el barrio, articulación con organizaciones locales, ejercicio de ciudadanía en espacios públicos. La PNPJ 2024 lo titula <strong>'Participación comunitaria'</strong>: ayudar a construir un mundo mejor desde la ciudadanía activa, en el <strong>territorio</strong> donde vive: su barrio, su colegio, su comunidad. El Modelo de Aplicación 2026 lo describe como un lugar con cuatro caras: la física (dónde pasa), la simbólica (el marco de la rama que le da sentido: para una Comunidad, su aventura hacia la ciudadanía), la de las relaciones (con quién: vecinos, familias, otras organizaciones) y la transformadora (qué cambia ahí gracias a ellos) — §8.2, p. 54."
         },
         {
           "type": "policy-quote",
@@ -562,19 +566,19 @@
             "correctIndex": 2
           },
           {
-            "text": "El Clan quiere pintar el salón comunal del barrio un sábado, con materiales que donó una ferretería. ¿Qué cambio lo acerca más a la Participación en la Comunidad que describe la lección?",
+            "text": "El Clan quiere pintar el salón comunal con pintura que donó una ferretería. La Junta de Acción Comunal les dice que el salón está bien y que lo que les preocupa es el parque, que se volvió un basurero. ¿Qué lo acerca más a la Participación en la Comunidad?",
             "options": [
-              "Pintarlo junto con los vecinos que usan el salón, y planearlo con ellos, no para ellos.",
-              "Pintarlo con más calidad que la vez pasada, y mostrarle al barrio el antes y el después del trabajo.",
-              "Pintarlo cada trimestre, para que el servicio sea constante y no de una sola jornada."
+              "Sentarse con la Junta a mirar qué necesita el parque y planear con ellos una jornada allí.",
+              "Pintar el salón de todos modos, porque ya tienen la pintura donada y es un servicio que se ve.",
+              "Sentarse con la Junta y dejar que ella decida y organice todo; el Clan solo pone las manos."
             ],
             "correctIndex": 0
           },
           {
-            "text": "Antes de su proyecto, una comunidad de Nómadas recorre el barrio preguntando a los vecinos qué recuerdan de la vieja cancha y por qué la quieren. ¿Qué cara del territorio están trabajando?",
+            "text": "Antes de su proyecto en la vieja cancha, la Comunidad lo bautiza como una etapa de su «aventura hacia la ciudadanía» y lo cuenta con las historias de la humanidad que vienen trabajando. ¿Qué cara del territorio están trabajando?",
             "options": [
-              "La física, porque recorren las calles donde va a pasar el proyecto.",
-              "La simbólica, porque buscan lo que ese lugar quiere decir para el barrio.",
+              "La física, porque el proyecto pasa en la cancha que la Comunidad ya conoce.",
+              "La simbólica, porque le dan al proyecto el sentido que trae el marco de su rama.",
               "La de las relaciones, porque buscan sumar a los vecinos como aliados del proyecto."
             ],
             "correctIndex": 1
@@ -591,6 +595,10 @@
         {
           "type": "info-box",
           "text": "<strong>Idea central:</strong> Cómo se ven los 8 elementos juntos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Imagina dos manadas. En una, los lobatos llegan felices, pero nadie sabe qué deberían estar aprendiendo. En la otra, el plan es impecable y los niños llegan como a clase. A las dos les falta algo, y no es lo mismo. Las 4 Dinámicas sirven para ponerle nombre a eso que falta."
         },
         {
           "type": "paragraph",
@@ -649,7 +657,7 @@
         }
       ],
       "reflection": {
-        "prompt": "De las 4 Dinámicas (Competencias Educativas, Oportunidades, Vida en Grupo, Estructura), ¿cuál es la que mejor funciona en tu unidad y cuál la que peor?"
+        "prompt": "Elige la Dinámica más floja de tu unidad y escribe la escena de la última reunión que te hace pensar eso. ¿Qué harías distinto en la siguiente?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 7",
@@ -678,7 +686,7 @@
             "options": [
               "Mantenerla: tiene seguridad, juego y gusto, que es lo que más pesa.",
               "Cambiarle el reto, porque a la patrulla ya no le exige nada nuevo.",
-              "Sumarle Inclusiva y Diversa, invitando a otra patrulla y a los nuevos."
+              "Cambiarle el premio, para que vuelva a ser recompensante para todos."
             ],
             "correctIndex": 1
           }
@@ -702,16 +710,16 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "Checklist de los 8 elementos para tus próximas cuatro reuniones"
+          "text": "Checklist de los 8 elementos en tus últimas cuatro reuniones"
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
             "<strong>Promesa y Ley</strong> — ¿Hay un momento en las cuatro reuniones donde se mencione, se viva o se reconozca la Promesa o algún punto de la Ley?",
-            "<strong>Aprender Haciendo</strong> — ¿Los protagonistas van a <strong>hacer</strong> algo, o solo van a <strong>escuchar y mirar</strong>?",
+            "<strong>Aprender Haciendo</strong> — ¿Los protagonistas <strong>hicieron</strong> algo, o solo <strong>escucharon y miraron</strong>?",
             "<strong>Progresión Personal</strong> — ¿Las cuatro reuniones contemplan observar o registrar avances de algún protagonista en alguna área?",
-            "<strong>Sistema de Equipos</strong> — ¿Hay momentos donde el pequeño grupo (camada/seisena/patrulla/equipo) opera por sí mismo, no como gran grupo?",
+            "<strong>Sistema de Equipos</strong> — ¿Hay momentos de pequeño grupo (camada o seisena para una actividad; patrulla o equipo con vida propia), no como gran grupo?",
             "<strong>Apoyo del Adulto</strong> — ¿El adulto está en rol de Apoyar/Acompañar/Enlazar — o en rol de dirigir y entretener?",
             "<strong>Marco Simbólico</strong> — ¿El lenguaje, los símbolos, las ceremonias propias de la rama están presentes?",
             "<strong>Naturaleza</strong> — ¿Alguna de las cuatro reuniones busca un contacto con la naturaleza —observar, cuidar, explorar—, aunque sea en un parque o en una plaza con árboles?",
@@ -720,7 +728,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Si respondiste 'no' o 'no sé' a más de 3 de las 8: tus próximas cuatro reuniones necesitan ajustes. Si fueron entre 1 y 3: escoge uno de esos elementos para tu ajuste. Si respondiste 'sí' a las 8: vas en camino del Método; sigue cuidando que el sistema se mantenga."
+          "text": "Si respondiste \"no\" o \"no sé\" a más de 3 de las 8, a tus reuniones les están faltando piezas del sistema: empieza por una. Si fueron entre 1 y 3, escoge uno de esos elementos. Si respondiste \"sí\" a las 8, vas en camino del Método: escoge el que veas más flojo y cuídalo. En cualquier caso, el ajuste empieza en <strong>tu próxima reunión</strong>, y lo vuelves a mirar dentro de cuatro."
         },
         {
           "type": "heading",
@@ -750,7 +758,7 @@
         },
         {
           "type": "info-box",
-          "text": "Bienvenido al equipo de los que aplican el Método con conciencia. Lo que viene vale el viaje."
+          "text": "Ahora ya lo sabes: no es una lista de ocho técnicas para escoger según el día; es un sistema. Bienvenido al equipo de los que aplican el Método con conciencia."
         }
       ],
       "reflection": {
@@ -779,13 +787,13 @@
             "correctIndex": 1
           },
           {
-            "text": "Tu compromiso fue fortalecer Naturaleza. En la reunión siguiente notas que el Marco Simbólico se quedó corto. ¿Qué propone la lección?",
+            "text": "Tu compromiso fue fortalecer Naturaleza. Dos sábados después, la salida al parque se cayó por lluvia y nadie la reprogramó. ¿Qué propone la lección?",
             "options": [
-              "Retomar el Marco Simbólico el próximo trimestre, cuando Naturaleza ya esté firme.",
-              "Retomar desde cero la planeación de las cuatro reuniones, porque el sistema se cayó.",
-              "Retomar el Marco Simbólico en la reunión que sigue: cada reunión es un ensayo nuevo."
+              "Reprogramar la salida para la reunión que sigue y fijar la señal que te dirá si funcionó.",
+              "Reprogramar desde cero el plan de las cuatro reuniones, porque el sistema ya se cayó.",
+              "Esperar a que pase la temporada de lluvias y retomar Naturaleza cuando el clima ayude."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           }
         ]
       }

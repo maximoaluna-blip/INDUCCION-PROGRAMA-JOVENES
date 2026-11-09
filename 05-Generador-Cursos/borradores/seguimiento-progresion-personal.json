@@ -3,7 +3,7 @@
   "title": "Seguimiento de la Progresión Personal",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El primero de los tres cursos operativos, y el que sirve a las cinco ramas a la vez. Cómo mirar con intención, registrar lo justo y acordar un paso siguiente, sin que el seguimiento se convierta en papeleo. Los instrumentos oficiales llegan al final, y a propósito.",
-  "contentVersion": "2026-10-04",
+  "contentVersion": "2026-11-08",
   "icon": "🛠️",
   "duration": "64 minutos",
   "level": 2,
@@ -27,12 +27,12 @@
           "items": [
             "<strong>Escribir</strong> una conducta observable con sus tres piezas, y reconocer los tres errores que la arruinan.",
             "<strong>Elegir</strong> una técnica del banco según la experiencia que tienes enfrente, en vez de intentar usarlas todas.",
-            "<strong>Armar</strong> el kit mínimo de tu rama y sostenerlo un mes.",
+            "<strong>Armar</strong> el kit mínimo de tu rama con una herramienta para mirar, una para conversar y una para guardar evidencia.",
             "<strong>Repartir</strong> el seguimiento en tres momentos, para que no aparezca de golpe al final del mes.",
             "<strong>Dar</strong> una devolución con la estructura Vi – Logró – Próximo paso, ajustada al nivel de progresión.",
             "<strong>Acompañar</strong> una experiencia de fuera del Movimiento sin invadir.",
             "<strong>Decidir</strong> qué no se registra, dónde se guarda y quién puede leerlo.",
-            "<strong>Abrir</strong> los tres instrumentos oficiales sabiendo cuál necesitas hoy."
+            "<strong>Distinguir</strong> los tres instrumentos oficiales y elegir el que necesitas hoy."
           ]
         },
         {
@@ -53,7 +53,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Y si ya hiciste el curso de tu rama, traes algo más: sabes cómo se llama el camino que recorren tus protagonistas — las <strong>Sendas</strong> en Manada, las <strong>Rutas</strong> en Tropa, los <strong>Rumbos</strong> en Comunidad, las <strong>fases de progresión</strong> en Familia y el <strong>PARCE</strong> en Clan. Este curso no te trae otro camino. Te trae la forma de ver por dónde va cada quien, y esa forma es la misma en las cinco."
+          "text": "Y si ya hiciste el curso de tu rama, traes algo más: sabes cómo se llama el camino que recorren tus protagonistas — las seis <strong>Sendas</strong> de Manada, las seis <strong>Rutas</strong> de Tropa y los seis <strong>Rumbos</strong> de Comunidad —tus áreas de crecimiento con nombre propio—, las <strong>fases de progresión</strong> de Familia y el <strong>PARCE</strong> de Clan. Este curso no te trae otro camino. Te trae la forma de ver por dónde va cada quien, y esa forma es la misma en las cinco."
         },
         {
           "type": "policy-quote",
@@ -220,18 +220,18 @@
             "correctIndex": 1
           },
           {
-            "text": "Una jefa de Comunidad escribió seis conductas observables para la competencia educativa de convivencia y quiere mirarlas todas este ciclo. ¿Qué le dirías?",
+            "text": "Una jefa de Comunidad eligió para convivencia una sola conducta observable este ciclo, y piensa mirarla una vez, el último día. ¿Qué le ajustarías?",
             "options": [
-              "Que se quede con una sola por ciclo, para mirarla de verdad sin que se le disperse la atención.",
-              "Que se quede con dos o tres, elegidas a propósito, y que las mire con intención durante el ciclo.",
-              "Que las seis sirven si las reparte con el otro dirigente de la Comunidad, tres para cada uno."
+              "Que sume una o dos conductas más y las mire en dos o tres momentos del ciclo: con una sola mirada no se ve progreso.",
+              "Que lo deje así: mientras menos se observa, más se sostiene, y una sola mirada al cierre del ciclo ya cuenta como seguimiento.",
+              "Que cambie esa conducta por un rasgo amplio, como «es buena compañera», que abarca toda la convivencia de una sola vez."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "Un jefe de Tropa revisa tres notas de su cuaderno sobre el mismo scout. ¿Cuál le sirve, tal como está, para conversar con él y acordar un paso siguiente?",
             "options": [
-              "En la patrulla, gestiona sus emociones siempre que algo le sale mal y ya toma sus decisiones con plena autonomía.",
+              "En la reunión del sábado se mostró muy responsable con su rol y fue el más comprometido de toda la patrulla.",
               "Al cierre propone acuerdos, los recuerda, reparte los roles, cuida el material y anima a los nuevos.",
               "En la salida del sábado, cuando cambió el plan, propuso repartir otra vez las tareas y la patrulla lo siguió."
             ],
@@ -366,11 +366,11 @@
             "correctIndex": 1
           },
           {
-            "text": "Marcela va a aplicar la receta en el juego de pistas del sábado. Ya decidió mirar cómo se reparten los roles en cada patrulla. ¿Qué le falta?",
+            "text": "Marcela ya eligió qué mirar en el juego de pistas (cómo se reparten los roles) y lleva un registro anecdótico. Termina el juego. ¿Qué le falta para que la receta quede completa?",
             "options": [
-              "Elegir una técnica para recoger la evidencia y cerrar con una pregunta y un paso siguiente.",
-              "Elegir dos técnicas que se complementen: una para mirar el juego y otra para guardar evidencia.",
-              "Escoger una segunda conducta de respaldo, por si la primera no aparece durante el juego."
+              "Cerrar el juego con una pregunta a cada patrulla y acordar con ellos un paso para la próxima reunión.",
+              "Nada más: con la conducta elegida y el anecdótico escrito, el seguimiento de ese sábado ya quedó completo.",
+              "Pasar esa misma noche el anecdótico a la carpeta del Grupo, para que el registro del sábado no se pierda."
             ],
             "correctIndex": 0
           },
@@ -484,20 +484,20 @@
             "correctIndex": 1
           },
           {
-            "text": "El equipo de una Manada nueva se propone, para el primer mes: una lista de cotejo por reunión, un registro anecdótico semanal, coevaluación al cierre de cada juego y una evidencia visual por actividad. ¿Con qué debería quedarse ese primer mes para que el plan sobreviva?",
+            "text": "La Manada de Andrés lleva dos meses con el «mínimo mínimo» y ya le sale sin esfuerzo. ¿Qué le recomiendas ahora?",
             "options": [
-              "Con las cuatro, pero rotándolas: una distinta cada semana, para que el equipo las pruebe todas en el mes.",
-              "Con una conducta en foco por semana, un anecdótico quincenal, un cierre corto y su revisión en la reunión siguiente.",
-              "Con la lista de cotejo y el anecdótico semanal, que en Manada son los registros que lleva el propio dirigente."
+              "Que sume una herramienta del kit de su rama, como la lista de cotejo de seisena, y la sostenga otro mes.",
+              "Que no toque nada: si el mínimo funciona, sumarle cualquier herramienta es el primer paso para abandonarlo.",
+              "Que cambie el anecdótico por una bitácora que lleven los lobatos, para que registren ellos su propio avance."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "Un guía de patrulla propone usar el Libro de Oro de la patrulla para anotar los acuerdos y los roles de cada reunión. ¿Qué le respondes?",
             "options": [
               "Que para eso está la bitácora: el Libro de Oro es un símbolo que recuerda, no el instrumento que registra.",
-              "Que está bien: el Libro de Oro y la bitácora son el mismo cuaderno, así que da igual en cuál lo anoten.",
-              "Que mejor no lo usen para nada: la Guía de Dirigente vigente ya no lo nombra y la patrulla debe dejarlo."
+              "Que lo usen solo para los acuerdos importantes: el Libro de Oro guarda lo que de verdad vale la pena recordar.",
+              "Que anoten en la bitácora y pasen a limpio al Libro de Oro, al cierre de cada mes, los acuerdos y los roles."
             ],
             "correctIndex": 0
           }
@@ -625,11 +625,11 @@
         },
         {
           "type": "info-box",
-          "text": "🗂️ <strong>Pocas evidencias, bien elegidas.</strong> Por ciclo: tres o cuatro en Cachorros y Lobatos (foto y frase); cinco o seis en Scouts; seis a ocho por proyecto en Nómadas Scout; y en Rovers, máximo ocho por proyecto, seleccionadas y con reflexión de transferencia —sin pasar de las tres por ciclo que pide su kit de la Lección 4—. Son techos, no metas: el kit de tu rama casi siempre pide menos. Una carpeta sin límite deja de ser portafolio y se vuelve archivo."
+          "text": "🗂️ <strong>Pocas evidencias, bien elegidas.</strong> Por ciclo: tres o cuatro en Cachorros y Lobatos (foto y frase); cinco o seis en Scouts; seis a ocho por proyecto en Nómadas Scout; y en Rovers, máximo ocho por proyecto, seleccionadas y con reflexión de transferencia; y en el portafolio del kit, no más de tres por ciclo. Son techos, no metas: el kit de tu rama casi siempre pide menos. Una carpeta sin límite deja de ser portafolio y se vuelve archivo."
         },
         {
           "type": "info-box",
-          "text": "🏕️ <strong>Y en tu rama.</strong> El «antes» cambia de forma, no de sentido: en Familia cabe en una frase dicha al equipo de dirigentes mientras se arma el salón; en Manada, en el acta de la reunión de seisenas; en Tropa, en el reverso de la hoja de la reunión — como Marcela; en Comunidad y en Clan, dentro de la planeación del proyecto, donde ya hay un lugar para eso. Lo que no cambia es que se decide <em>antes</em>."
+          "text": "🏕️ <strong>Y en tu rama.</strong> El «antes» cambia de forma, no de sentido: en Familia cabe en una frase dicha al equipo de dirigentes mientras se arma el salón; en Manada, en el acta de la reunión del equipo de dirigentes; en Tropa, en el reverso de la hoja de la reunión — como Marcela; en Comunidad y en Clan, dentro de la planeación del proyecto, donde ya hay un lugar para eso. Lo que no cambia es que se decide <em>antes</em>."
         }
       ],
       "reflection": {
@@ -643,7 +643,7 @@
             "text": "Una Comunidad pasó seis semanas montando una huerta en el patio del colegio vecino y el viernes se la entrega al comité de padres. ¿Con qué cierra la jefa esa experiencia?",
             "options": [
               "Con una lista de cotejo de la parte técnica, una foto del montaje y la revisión del acuerdo la semana siguiente.",
-              "Con la huerta entregada como evidencia, lo que diga el comité de padres y una pregunta de transferencia.",
+              "Con la huerta entregada como evidencia, lo que diga quien la recibe y una pregunta de transferencia.",
               "Con un registro de hábitos de las seis semanas y una señal simple de avance por cada nómada del equipo."
             ],
             "correctIndex": 1
@@ -658,13 +658,13 @@
             "correctIndex": 0
           },
           {
-            "text": "En el campamento, un dirigente de Tropa lleva una libreta y anota todo lo que hace cada scout desde que llega. ¿Qué le ajustarías mientras la actividad está en marcha?",
+            "text": "En el campamento, un dirigente de Tropa decidió mirar cómo asumen los roles y lleva su libreta. A media tarde, dos scouts discuten por la carpa y lo arreglan solos. ¿Qué le ajustarías?",
             "options": [
-              "Que anote todo, pero de una sola patrulla por día, para que el registro de cada una quede completo.",
-              "Que guarde la libreta y lo anote todo al volver a casa, para no interrumpir el Programa con el registro.",
-              "Que anote solo uno o dos hechos significativos, de momentos donde se vean decisiones reales."
+              "Que anote además una línea de conflicto–resolución cuando dos scouts discuten por la carpa y lo arreglan.",
+              "Que guarde la libreta durante el campamento: registrar mientras pasa la actividad la vuelve un examen.",
+              "Que anote todo, pero de una sola patrulla por día, para que el registro de cada una quede completo."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           }
         ]
       }
@@ -803,7 +803,7 @@
           {
             "text": "Tras una salida, dos nómadas dejaron tirado y mojado el material del grupo. La jefa de Comunidad les dice: «Dejaron el material mojado. Eso daña lo que es de todos. Aquí cuidamos lo común». ¿Qué le falta para que el límite funcione?",
             "options": [
-              "Un hecho observable: «dejaron el material mojado» todavía es una opinión de la jefa sobre ellos.",
+              "Una pregunta para que expliquen por qué lo dejaron así, y entender antes de pedirles nada.",
               "Una consecuencia clara: sin una sanción acordada, el límite se queda en sermón y no se cumple.",
               "Una acción concreta que se espera ahora, como secarlo y guardarlo antes de irse a casa."
             ],
@@ -1068,13 +1068,13 @@
         "nextLabel": "Continuar a tus instrumentos 📄",
         "questions": [
           {
-            "text": "Durante una salida, un scout le cuenta a Marcela algo delicado sobre su situación familiar. ¿Qué hace Marcela con esa información?",
+            "text": "Durante una salida, un scout le cuenta a Marcela algo delicado de su situación familiar. Ella ya activó la ruta institucional. Esa noche, ¿qué escribe sobre él en la bitácora de seguimiento?",
             "options": [
-              "La anota en el registro sin detalles, solo «situación familiar difícil», para darle continuidad.",
-              "No la comenta con nadie, pero la anota en el registro de seguimiento con fecha, para que conste.",
-              "No la escribe en ningún registro: una situación sensible va por las rutas institucionales, con reserva."
+              "Lo educativo que sí vio en la salida, como el rol que asumió en la patrulla, y nada de lo que él le contó.",
+              "Nada sobre ese scout por un tiempo: después de una revelación, cualquier nota sobre él lo deja más expuesto.",
+              "Una línea neutra, «situación familiar difícil», sin detalles, para que el resto del equipo lo tenga presente."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           },
           {
             "text": "En el equipo de una Tropa, cada dirigente guarda notas de los scouts en su celular y las pasa por el chat cuando hace falta. Uno de ellos se va del Grupo. ¿Qué arreglan primero?",
@@ -1149,7 +1149,7 @@
         },
         {
           "type": "info-box",
-          "text": "📌 <strong>Ojo con los nombres de las hojas.</strong> El Archivo Base rotula por <strong>rama</strong> (Cachorros, Lobatos, Scouts, Nómadas Scout, Rovers) y el Registro rotula por <strong>unidad</strong> (Familia, Manada, Tropa, Comunidad, Clan). Los dos están bien: son las dos caras de la misma distinción que viste en el curso de tu rama. Y en Cachorros la columna se llama <strong>Dimensión</strong>, no Competencia — también a propósito. Y si eres de <strong>Familia</strong>: los dos instrumentos no traen lo mismo. El Archivo Base te da las seis áreas con sus veintidós dimensiones; el Registro resume en cinco, porque <strong>junta Afectividad y Sociabilidad en «Socioafectividad»</strong>. No es un error de ninguno: usa el Archivo Base para decidir qué mirar y el Registro para anotar."
+          "text": "📌 <strong>Ojo con los nombres de las hojas.</strong> El Archivo Base rotula por <strong>rama</strong> (Cachorros, Lobatos, Scouts, Nómadas Scout, Rovers) y el Registro rotula por <strong>unidad</strong> (Familia, Manada, Tropa, Comunidad, Clan). Los dos están bien: son las dos caras de la misma distinción que viste en el curso de tu rama. Y si eres de <strong>Familia</strong>, ojo con la palabra «dimensión». En tu Guía las dimensiones son cinco —Corporal, Cognitiva, Ética, Socio-Afectiva y Espiritual—, y el Registro usa esas mismas cinco: por eso <strong>junta Afectividad y Sociabilidad</strong>. El Archivo Base, en cambio, llama «Dimensión» a cada una de sus veintidós casillas, repartidas en las seis áreas. Ninguno está mal: usa el Archivo Base para decidir qué mirar y el Registro para anotar."
         },
         {
           "type": "heading",
@@ -1172,10 +1172,6 @@
             "<strong>Exploración · Aplicación · Profundización</strong> — la forma «en sustantivo» del mismo trío. El <em>Modelo</em> la usa cuando los presenta como los <strong>tres niveles de desempeño</strong> (p. 46), y es la que verás en las columnas del Archivo Base y en las <em>Herramientas 2.0</em>.",
             "<strong>Explora · Aplica · Profundiza</strong> — así se marca la casilla «Nivel de desempeño» en el Registro DNPJ-2026-021."
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Son <strong>los mismos tres</strong>, escritos de tres maneras en los documentos oficiales. No hay que elegir bando: hay que reconocerlos."
         },
         {
           "type": "info-box",
@@ -1211,7 +1207,7 @@
         "nextLabel": "Ver mi certificado 🎓",
         "questions": [
           {
-            "text": "Marcela no sabe qué mirar para trabajar convivencia en su Tropa. ¿Qué instrumento le resuelve eso?",
+            "text": "Marcela no sabe por dónde empezar para trabajar convivencia en su Tropa. ¿Qué instrumento le resuelve eso?",
             "options": [
               "El Registro de Acompañamiento, en su hoja de síntesis de avance por áreas de crecimiento.",
               "El Archivo Base, que trae las conductas observables y las herramientas de cada nivel por rama.",
@@ -1229,13 +1225,13 @@
             "correctIndex": 0
           },
           {
-            "text": "Una jefa de Clan abre por primera vez el Registro y decide llenarlo este fin de semana para los catorce rovers. ¿Qué le recomiendas?",
+            "text": "Una jefa de Clan llenó el Registro para un rover en ocho minutos, sin poner nada de más. ¿Qué hace la semana siguiente?",
             "options": [
-              "Que lo llene para todos, pero solo la identificación, y deje lo demás para cuando tenga observaciones.",
-              "Que empiece con uno solo y, si le toma más de diez minutos, quite lo que no ayude a acompañarlo.",
-              "Que antes pruebe un mes las técnicas del banco, una distinta cada semana, y después llene el Registro."
+              "Elige una herramienta del kit del Clan, como la rúbrica de transferencia, y la sostiene un mes con ese rover.",
+              "Llena el Registro para los otros trece rovers ese mismo fin de semana, ahora que ya le cogió el tiro al formato.",
+              "Espera al cierre del ciclo para volver a abrir el Registro, porque antes no habrá nada nuevo que anotar en él."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }

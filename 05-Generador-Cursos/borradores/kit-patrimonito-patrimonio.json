@@ -3,7 +3,7 @@
   "title": "Patrimonito: el patrimonio de la humanidad en tu unidad",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Cómo se acompaña el desafío Patrimonito, de Mensajeros de la Paz, que se hace desde los 15 años y en alianza con la UNESCO: qué cuenta como patrimonio —cultural, natural e inmaterial—, las tres rutas del desafío, los pasos de la insignia con Scouts del Mundo y las horas de servicio en el sitio, cómo trabajar con la comunidad que vive el patrimonio y cómo hacerlo seguro. El patrimonio no es lo viejo: es lo que recibimos, vivimos y dejamos. Para dirigentes de Comunidad y Clan, y con un camino para las demás ramas.",
-  "contentVersion": "2026-10-04",
+  "contentVersion": "2026-11-08",
   "icon": "🏛️",
   "duration": "38 minutos",
   "level": 4,
@@ -72,13 +72,13 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~38 minutos de lectura y quizzes</strong> — y unos 15 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con tres preguntas y hay que acertar las tres para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
+          "text": "⏱️ <strong>~38 minutos de lectura y quizzes</strong> — y unos 15 más si escribes las reflexiones, que es donde de verdad se aprende. Cada lección cierra con tres preguntas y hay que acertar las tres para seguir; puedes reintentarlo las veces que quieras, y no es una nota: sirve para que repases antes de seguir. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
         },
         {
           "type": "course-objectives",
           "items": [
             "<strong>Distinguir</strong> el patrimonio cultural, natural e inmaterial, y cuál es patrimonio de la humanidad declarado por la UNESCO.",
-            "<strong>Ubicar</strong> el desafío Patrimonito: para quién es, qué busca y por qué va de la mano de Scouts del Mundo.",
+            "<strong>Explicar</strong> a otro dirigente para quién es el desafío Patrimonito, qué busca y por qué va de la mano de Scouts del Mundo.",
             "<strong>Acompañar</strong> la elección de una ruta —promoción, difusión o conservación— y el viaje del desafío.",
             "<strong>Explicar</strong> los pasos del reconocimiento, incluidas las horas de servicio en el sitio.",
             "<strong>Planear</strong> un proyecto con la comunidad que vive el patrimonio, y no sobre ella, y con sus instituciones.",
@@ -137,18 +137,18 @@
       "emoji": "🌍",
       "navLabel": "El patrimonio",
       "reflection": {
-        "prompt": "Piensa en el lugar donde vive tu unidad. Nombra algo cultural, algo natural y algo inmaterial —una fiesta, una música, un saber, una comida— que la comunidad reconozca como suyo. ¿Cuál de los tres conocen menos tus protagonistas, y por qué crees que pasa?"
+        "prompt": "Nombra una fiesta, una música, un saber o un lugar de tu municipio que tu comunidad reconozca como suyo. Pregúntales en la próxima reunión a tus protagonistas qué saben de él. ¿Qué respondieron, y qué te sorprendió?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 2",
         "nextLabel": "Continuar a las rutas 🧭",
         "questions": [
           {
-            "text": "Un rover dice que el Carnaval de Negros y Blancos «es una fiesta, no un patrimonio», porque patrimonio son los monumentos. ¿Qué le mostraría el Kit?",
+            "text": "Después de oír que «el patrimonio no es lo viejo», un rover propone: «entonces el partido de microfútbol de los domingos en el barrio también vale para el desafío». ¿Qué le dices?",
             "options": [
-              "Que tiene razón: una fiesta cambia cada año, y el patrimonio es lo que se conserva tal como se recibió.",
-              "Que el Kit lo cuenta entre lo que reconoce la UNESCO: el patrimonio es también lo que se vive y se transmite.",
-              "Que sí es patrimonio, pero cultural y no inmaterial: se celebra en las calles del centro, que son su sitio."
+              "«Sí cuenta: si la comunidad lo vive y lo transmite, es patrimonio inmaterial y entra al desafío como cualquier otro.»",
+              "«Puede ser patrimonio cercano del barrio, pero el desafío se hace sobre lo que reconoce la UNESCO, y el partido no está.»",
+              "«No cuenta: a un juego de barrio le falta la antigüedad que la UNESCO pide para darle valor universal excepcional.»"
             ],
             "correctIndex": 1
           },
@@ -186,7 +186,7 @@
           "items": [
             {
               "title": "🏛️ Cultural",
-              "description": "Monumentos, conjuntos y lugares con un valor universal excepcional desde la historia, el arte o la ciencia: obras arquitectónicas, sitios arqueológicos, obras conjuntas del ser humano y la naturaleza (Convención de 1972, en el Kit, pp. 13–14).",
+              "description": "Monumentos, conjuntos y lugares con un valor universal excepcional por su historia, su arte, su ciencia o lo que dicen de un pueblo: obras arquitectónicas, sitios arqueológicos, obras conjuntas del ser humano y la naturaleza (Convención de 1972, en el Kit, pp. 13–14).",
               "color": "#fff8e1",
               "borderColor": "#f9a825"
             },
@@ -258,11 +258,11 @@
             "correctIndex": 1
           },
           {
-            "text": "Una dirigente ve que a una rover le iría mejor la difusión, porque dibuja muy bien. En su autoevaluación, la rover se reconoce más en las frases de conservación. ¿Qué hace la dirigente?",
+            "text": "Una rover termina su autoevaluación con «Estoy al comienzo de la exploración» en todas las frases y dice que mejor espera un año, porque «todavía no está lista para el desafío». ¿Qué hace su dirigente?",
             "options": [
-              "Le propone difusión, que va con sus talentos, y le sugiere ajustar la autoevaluación a esa ruta del Kit.",
-              "Le cuenta lo que ve y conversan, pero la ruta la escoge la rover desde su autoevaluación, aunque sea conservación.",
-              "Le propone recorrer las tres rutas, una por etapa: conciencia en promoción, comparte en difusión, actúa en conservación."
+              "«Respeta que espere: la marca la pone ella, y si se ve al comienzo en todo, el dirigente no debe insistirle más.»",
+              "«Le muestra que marcar “al comienzo” es lo normal antes de empezar, y la ayuda a ver por qué frase quiere arrancar.»",
+              "«Le cambia las marcas a “en exploración” donde la ha visto trabajar, para que la hoja muestre lo que de verdad sabe.»"
             ],
             "correctIndex": 1
           },
@@ -334,7 +334,7 @@
       "emoji": "📋",
       "navLabel": "Los pasos",
       "reflection": {
-        "prompt": "Mira los pasos del reconocimiento. ¿Cuál sería el más difícil para un joven de tu unidad —el Descubrimiento, el lugar, las horas de servicio, el registro— y qué necesitarías averiguar tú, como adulto, para que ese paso no lo frene?"
+        "prompt": "Piensa en el joven de 15 años o más de tu unidad que más podría interesarse en Patrimonito (por su rama y edad, sin nombre). De los siete pasos, ¿cuál lo frenaría primero —el Descubrimiento, el lugar, las 80 horas, el registro— y qué vas a averiguar tú esta semana, y con quién, para destrabarlo?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 4",
@@ -353,8 +353,8 @@
             "text": "Una rover terminó su proyecto y sus horas, y ya lo compartió y lo evaluó con la comunidad. Su Jefe de Clan quiere entregarle la insignia el sábado. ¿Qué falta?",
             "options": [
               "Pedir el reconocimiento a la comisión de Mundo Mejor, con sus dos autoevaluaciones y las evidencias del proyecto.",
-              "Nada más: con las 80 horas de servicio completas en el sitio, el reconocimiento de la comisión llega por sí solo.",
-              "Pedir que su Jefe de Clan firme las evidencias del proyecto: el reconocimiento lo da la unidad, no una comisión."
+              "Esperar a que la comisión la contacte: revisa los proyectos inscritos en la plataforma y otorga el reconocimiento.",
+              "Presentarlo al Consejo de Clan para que lo apruebe: el reconocimiento de un desafío lo deciden los propios rovers."
             ],
             "correctIndex": 0
           },
@@ -432,13 +432,13 @@
             "correctIndex": 1
           },
           {
-            "text": "Una Comunidad quiere apoyar a una escuela de músicas de marimba. Los nómadas llegan con un video de arreglos modernos «para que los jóvenes la escuchen»; los maestros dicen que lo que les falta son alumnos. ¿Qué hace el dirigente?",
+            "text": "Los maestros de una escuela de marimba aceptan el video de arreglos modernos que propusieron los nómadas, pero cuentan de pasada que este año se les fue la mitad de los alumnos. ¿Qué hace el dirigente?",
             "options": [
-              "Ayudar a replantear el proyecto con los maestros: ese saber es de la comunidad que lo practica y lo transmite.",
-              "Ayudar a los nómadas a seguir con el video: también salvaguarda ese saber y lo lleva a quien no lo conoce.",
-              "Pedir a los maestros que aprueben la idea: si la comunidad da su visto bueno, el proyecto puede seguir como estaba."
+              "«Sigue con el video: los maestros ya lo aprobaron, y el patrimonio es de quienes lo practican, no del dirigente.»",
+              "«Deja que los nómadas lo resuelvan solos: el proyecto es de ellos, y si el adulto opina, deja de ser su proyecto.»",
+              "«Pregunta a los maestros si el proyecto debería ir hacia los alumnos, y ayuda a los nómadas a decidirlo con ellos.»"
             ],
-            "correctIndex": 0
+            "correctIndex": 2
           },
           {
             "text": "Un Clan quiere hacer un proyecto de conservación en el centro histórico de Mompox y ya tiene la idea: pintar las fachadas de una calle. ¿Qué hace antes de proponerla?",
@@ -563,7 +563,7 @@
       "emoji": "🏅",
       "navLabel": "Tu compromiso",
       "reflection": {
-        "prompt": "Piensa en el cierre de un proyecto de patrimonio en tu unidad: ¿con quiénes se evaluaría —compañeros, beneficiarios, socios—, qué evidencia mostraría el cambio y cómo lo celebrarían? ¿Qué harías para que la insignia llegue como huella del proceso y no como la meta?"
+        "prompt": "Recuerda el último proyecto de servicio que cerró tu unidad (rama y mes). ¿Con quiénes se evaluó —compañeros, beneficiarios, socios—, qué evidencia quedó y cómo se celebró? ¿Qué le faltó a ese cierre según los tres pasos de la etapa Actúa?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 7",
@@ -588,13 +588,13 @@
             "correctIndex": 2
           },
           {
-            "text": "Un dirigente de Comunidad anuncia que este año «toda la Comunidad hace Patrimonito», y que él repartirá las rutas según los talentos de cada uno. ¿Qué le dices?",
+            "text": "En el Congreso de Comunidad, los nómadas votan que todos los de 15 años o más harán Patrimonito este año, y todos por difusión, «porque es la ruta más fácil». ¿Qué hace su dirigente?",
             "options": [
-              "Que lo presente en el Congreso de Comunidad, y que cada nómada decida si lo asume, con su autoevaluación.",
-              "Que está bien si les explica las tres rutas antes de repartirlas: así cada nómada sabe por qué le tocó la suya.",
-              "Que lo asuman solo los de 15 años o más, y que él les asigne la ruta para que el equipo quede completo."
+              "«Lo deja así: lo decidió el Congreso de Comunidad, y el adulto no corrige lo que los jóvenes votan entre ellos.»",
+              "«Celebra la idea, pero cada nómada decide si lo asume y escoge su ruta desde su propia autoevaluación.»",
+              "«Les pide que cada uno recorra las tres rutas, una por etapa, para que nadie se quede solo con la más fácil.»"
             ],
-            "correctIndex": 0
+            "correctIndex": 1
           }
         ]
       },

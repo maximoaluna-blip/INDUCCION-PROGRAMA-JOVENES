@@ -28,18 +28,18 @@ Al completar este curso, el adulto:
 
 1. **Distingue** la concepción amplia de educación (proceso de por vida, en muchos contextos) de la idea de "educar = transmitir contenidos en el aula".
 2. **Identifica** los 4 pilares de la educación de la UNESCO (aprender a ser, conocer, hacer, vivir juntos) y los usa como filtro al planear experiencias.
-3. **Reconoce** los principios de cómo aprenden las personas (sujeto al centro, social, emoción/motivación, diferencias individuales, reto sin sobrecarga, retroalimentación, conexión con la vida).
+3. **Diagnostica** qué principio de aprendizaje le faltó a una actividad que no funcionó (sujeto al centro, social, emoción/motivación, diferencias individuales, reto sin sobrecarga, retroalimentación, conexión con la vida).
 4. **Clasifica** la educación formal, no formal e informal, y ubica el escultismo como educación **no formal** (intencional y planeada, complementaria).
-5. **Comprende** el aprendizaje experiencial (experiencia + reflexión) y por qué la reflexión es indispensable.
+5. **Explica** por qué la reflexión es indispensable en el aprendizaje experiencial (experiencia + reflexión) y la **incorpora** al cierre de una actividad.
 6. **Conecta** estos conceptos con su rol: lo scout que sigue es la aplicación de esta base.
 
 ---
 
 ## 3. Hook pedagógico
 
-> **"Tú no vas a dar clase: vas a diseñar experiencias para que otros aprendan. Y eso pide entender el oficio. Todo lo scout que viene después no es más que la aplicación de estas ideas."**
+> **"Preparaste la reunión con cariño, explicaste todo clarito… y a la semana nadie se acuerda de nada. No es falta de ganas: es que casi nadie nos enseña el oficio. Tú no vas a dar clase: vas a diseñar experiencias para que otros aprendan."**
 
-Se enuncia en la bienvenida y cierra con eco en la Lección 6 ("Lo que sigue ya no son reglas sueltas: es la aplicación de lo que aprendiste hoy"). Riesgo principal del curso: sonar académico. Antídoto: cada lección aterriza en la realidad del dirigente.
+Se enuncia en el párrafo de la bienvenida (dolor real: la reunión que no prendió), reaparece en la Lección 4 («¿Te acuerdas de la reunión que no prendió? Léelos pensando en ella…») y cierra con eco en la `mission-box` de la Lección 6 («La próxima vez que una reunión no prenda, ya sabes dónde mirar»). Riesgo principal del curso: sonar académico. Antídoto: cada lección aterriza en la realidad del dirigente.
 
 ---
 
@@ -100,3 +100,7 @@ Documento angular local: `DOCUMENTOS BASE/SCOUTS/PROGRAMA DE JOVENES/Caracterist
 _Documento de diseño del Curso 3, versión inicial — 28 de junio de 2026._
 
 _Revisión doctrinal — 16 de septiembre de 2026: las **cinco** `policy-quote` restituidas contra la fuente (L2, L3, L4, L5, L6); cadena 4 pilares → competencias corregida en L3; «democracia» restituida en la tarjeta de «aprender a vivir juntos» (p. 10); tarjeta de educación informal y etiqueta del Curso 7 ajustadas; registro coeducativo alternado en tres pasos. `contentVersion` 2026-09-16 (ADR-027)._
+
+_Re-auditoría doctrinal — 8 de noviembre de 2026 (`docs/reauditoria-2026-11/PJ/como-se-educa-hoy-doctrinal.md`): L5, tarjeta de educación informal: ahora dice que **es a propósito** pero no la organiza ninguna institución (Caract. Esenciales p. 11); L5, «Dato de hoy»: se quita la paternidad del escultismo sobre los métodos activos (p. 12 pide no «reclamar exclusividad»); L6, la `policy-quote` de p. 17 termina con «…» porque la oración sigue. `contentVersion` 2026-11-08 (ADR-027)._
+
+_Re-auditoría pedagógica — 8 de noviembre de 2026 (`docs/reauditoria-2026-11/PJ/como-se-educa-hoy-pedagogica.md`): hook con dolor real en L1 y eco en L4 y L6; cinco preguntas de quiz reescritas a escenario con distractores de actitud distinta (L2 Q3, L3 Q2, L4 Q3, L5 Q3, L6 Q3) y distractores nuevos en L6 Q2 y L2 Q1; eco léxico quitado en L3 Q1 y Q3; reflexión de L3 sobre una reunión concreta; cierre accionable en L5; aviso de reuso en la reflexión de L6 (Curso 7); anuncio del Curso 5 ajustado a lo que ese curso trata; OA 3 y 5 con verbos observables. Las preguntas viven en el JSON (ADR-073: manda el JSON). Sin cambios doctrinales._

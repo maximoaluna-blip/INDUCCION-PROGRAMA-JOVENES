@@ -60,7 +60,7 @@ Hilo: **la Comunidad de Paula**; en el campamento el reparto de tareas «salió 
 | 1 | 🤝 No es un tema de mujeres | Hook; qué es HeForShe; acuerdo 2017; Mensajeros de la Paz; qué NO es el curso (incluida la decisión de alcance). |
 | 2 | ⚖️ Igualdad, estereotipos y lo que HeForShe les pide a ellos | Definiciones del Kit; DDHH; liderazgo femenino bajo; mensajes p. 82; micromachismos (p. 69); «masculinidades invasivas» (Modelo p. 99). |
 | 3 | 🏕️ Coeducación: donde se juega todos los días | Modelo Cap. 14 (requisito); Características Esenciales p. 14; tres lugares donde mirar; Paula al Congreso con las fotos. |
-| 4 | 🧭 El viaje del desafío | Cinco pasos (Manual p. 31); A/B y tres fases (Kit p. 14); autoevaluación como en el 22; requisitos del adulto (discrepancia). |
+| 4 | 🧭 El viaje del desafío | Cinco pasos (Manual p. 31); A/B y tres fases (Kit p. 14); autoevaluación del Kit (sin apoyarse en el 22, ADR-019); requisitos del adulto (discrepancia). |
 | 5 | 🗺️ Lo que el Kit propone para cada rama | Competencias A/B por rama; edades; «caminantes»; **los temas delicados**: nombrados, con tres cuidados. |
 | 6 | 🛡️ Casos, no historias propias | Relatos que pide el Kit; caso hipotético (p. 35); cuatro pasos si alguien cuenta lo suyo (Política p. 21, botón, Comité, autoridades); rutas de atención del Clan; publicar con autorización. |
 | 7 | 🏅 Actúa, reconoce y sigue | Ceremonia; tres reconocimientos (desafío, Emisor/a, Embajador/a); cobro del hook; Y en tu rama; cuatro preguntas; qué sigue (24); misión. |
@@ -72,3 +72,5 @@ Catálogo (orden 23), workflow E2E, portal y panel (24); el 22 anuncia el 23; gl
 ---
 
 _Documento de diseño v1.1 — 28 de septiembre de 2026. La v1.1 recoge tres vueltas de auditoría: el «solo» de la frase eje; el desafío se **presenta** en el órgano de la rama pero lo **asume cada protagonista**; la L6 remite a *El Adulto como Garante* (el Curso 25 no enseña qué hacer ante una revelación), informar a las autoridades «cuando el caso lo pide» y reportar aunque lo que le pasa ocurra fuera del Grupo; la insignia y la p. 67 del Manual; la L2 evalúa los micromachismos y la L7 «la insignia no es la meta»; objetivos medibles; duración 40 min. El JSON manda._
+
+_Re-auditoría pedagógica del 08/11/2026 (`docs/reauditoria-2026-11/PJ/kit-heforshe-genero-pedagogica.md`), aplicada en el JSON: distractores de L3·Q1, L4·Q1, L4·Q3 y L5·Q3 con actitudes distintas; correctas de L2·Q2, L3·Q3 y L6·Q2 sin eco de la lección; L4 y L5 ya no se apoyan en el Curso 22; reflexiones de L3 y L7 concretas; el objetivo 5 partido en dos (adaptar / reportar)._

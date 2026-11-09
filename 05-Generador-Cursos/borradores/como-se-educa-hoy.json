@@ -3,7 +3,7 @@
   "title": "Cómo se Educa Hoy",
   "subtitle": "Conceptos clave de la educación — la base de todo lo que sigue",
   "description": "El Curso 3 de la Línea Programa de Jóvenes, y un paréntesis necesario antes de entrar de lleno a lo scout. En ~33 minutos vas a entender qué es educar, los cuatro pilares de la educación (UNESCO), cómo aprenden de verdad las personas, dónde se aprende (educación formal, no formal e informal) y por qué el aprender haciendo funciona. No es teoría por la teoría: es la base que hace que el Método Scout, las ramas y el Modelo —que vienen después— se entiendan como la aplicación de estas ideas.",
-  "contentVersion": "2026-10-04",
+  "contentVersion": "2026-11-08",
   "icon": "🎓",
   "duration": "33 minutos",
   "level": 1,
@@ -24,7 +24,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Hagamos una pausa antes de entrar a lo scout. Ya viste el <strong>porqué</strong> (la educación por el amor, Curso 2). Antes del <strong>qué</strong> scout (Curso 4) y del <strong>cómo</strong> (Curso 5), conviene poner una base que casi nadie nos da: ¿qué es educar, en realidad? ¿Cómo aprende una persona? ¿Dónde se aprende? Porque tú no vas a dar clase: vas a <strong>diseñar experiencias para que otros aprendan</strong>. Y eso pide entender el oficio."
+          "text": "Preparaste la reunión con cariño, explicaste todo clarito… y a la semana nadie se acuerda de nada. No es falta de ganas: es que casi nadie nos enseña el oficio. Tú no vas a dar clase: vas a <strong>diseñar experiencias para que otros aprendan</strong>. Este curso te da la base —qué es educar, cómo se aprende y dónde— y desde el próximo la vas a ver aplicada en todo lo scout."
         },
         {
           "type": "heading",
@@ -109,7 +109,7 @@
           {
             "text": "Al cerrar el año, un dirigente hace su balance: «Cada chico creció mucho en lo personal: está más seguro, más hábil y más maduro. Con eso cumplimos». Mirando la definición de educación que adopta el Movimiento, ¿qué le falta revisar?",
             "options": [
-              "Si crecieron también en conocimientos, que la definición pone antes que lo personal.",
+              "Si además de crecer aprendieron contenidos concretos, porque sin conocimientos el crecimiento personal no cuenta como educación.",
               "Si ese crecimiento quedó registrado: la definición habla de un desarrollo demostrable.",
               "Si cada uno creció también como miembro de la sociedad, y no solo como individuo."
             ],
@@ -125,13 +125,13 @@
             "correctIndex": 0
           },
           {
-            "text": "Preocupado por la transformación digital, un dirigente prepara para sus jóvenes una charla muy completa, con todos los datos sobre redes sociales y riesgos en internet. Según lo que la lección cuenta de los retos de hoy, ¿qué le falta a su plan?",
+            "text": "Preocupado por la transformación digital, un dirigente prepara para sus jóvenes una charla muy completa sobre redes sociales y riesgos en internet. ¿Qué cambio concreto le propones, según los retos de hoy que cuenta la lección?",
             "options": [
-              "Más tiempo: un reto así de nuevo pide varias reuniones de contenido, no una sola charla.",
-              "Que la actividad despierte pensamiento crítico y capacidad de decidir, no solo que entregue datos.",
-              "Que la dé un experto de afuera, porque los retos nuevos piden contenidos más actualizados."
+              "Que reparta casos reales de chicos de su edad y que cada patrulla decida qué haría y por qué.",
+              "Que cancele la charla: en temas digitales, cualquier dato que traiga un adulto ya llega desactualizado.",
+              "Que la extienda a tres reuniones para cubrir cada riesgo con más detalle y ejemplos."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -200,32 +200,32 @@
         }
       ],
       "reflection": {
-        "prompt": "De los 4 pilares (conocer, hacer, vivir juntos, ser), ¿cuál crees que la educación que tú recibiste trabajó MENOS? ¿Y cuál te gustaría que tus chicos y chicas vivieran más?"
+        "prompt": "Piensa en la última reunión que preparaste o viviste en tu Unidad. Escribe qué actividad hicieron y marca cuáles de los cuatro pilares tocó (conocer, hacer, vivir juntos, ser). ¿Cuál quedó por fuera, y qué le cambiarías para que también lo tocara?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",
         "nextLabel": "Continuar a cómo aprendemos 🧩",
         "questions": [
           {
-            "text": "En una excursión se le daña la estufa a una patrulla, y sus integrantes se reparten tareas en equipo para resolver el imprevisto y poder cocinar. Según cómo describe la lección cada pilar, ¿cuál se está trabajando más directamente?",
+            "text": "En una excursión se le daña la estufa a una patrulla, y sus integrantes improvisan con lo que tienen a mano para resolver el imprevisto y poder cocinar. Según cómo describe la lección cada pilar, ¿cuál se está trabajando más directamente?",
             "options": [
               "Aprender a vivir juntos, porque el hacer se reserva a las habilidades de un oficio.",
-              "Aprender a hacer, porque ese pilar incluye enfrentar situaciones y trabajar en equipo.",
+              "Aprender a hacer, porque ese pilar va más allá de la técnica: incluye enfrentar situaciones imprevistas.",
               "Aprender a conocer, porque resolver un imprevisto pide profundizar en una técnica concreta."
             ],
             "correctIndex": 1
           },
           {
-            "text": "En un taller, un dirigente explica: «Las 6 áreas de crecimiento de la política colombiana salen de los 4 pilares de la UNESCO». Según la pista que deja esta lección, ¿qué le precisas?",
+            "text": "Una dirigente revisa su próxima reunión: un taller de primeros auxilios donde cada joven practica vendajes por su cuenta, con una tarjeta de instrucciones. ¿Qué le aconsejas, mirando los cuatro pilares juntos?",
             "options": [
-              "Que solo cuatro áreas salen de los pilares; las otras dos vienen de otra fuente educativa.",
-              "Que los pilares no entran en la política colombiana: son un marco de la UNESCO pensado para el colegio.",
-              "Que la política usa los pilares para sostener las competencias educativas, no para nombrar las áreas."
+              "Que los vendajes se practiquen en parejas, atendiendo a un compañero, para que también convivan y decidan.",
+              "Que primero dé una charla completa de anatomía: sin el conocer bien puesto, los otros pilares no arrancan.",
+              "Que la deje así: es una actividad de hacer, y cada reunión basta con que trabaje bien un solo pilar."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           },
           {
-            "text": "Una dirigente quiere que sus jóvenes aprendan a buscar información, a comprobarla y a seguir aprendiendo después de cada actividad. Según la descripción de los pilares en la lección, ¿cuál está trabajando sobre todo?",
+            "text": "Una dirigente quiere que sus jóvenes, ante cualquier tema nuevo, sepan dónde buscar, cómo comprobar lo que encuentran y cómo seguir solos. Según la descripción de los pilares en la lección, ¿cuál está trabajando sobre todo?",
             "options": [
               "Aprender a conocer, porque ese pilar pone en el centro el aprender a aprender toda la vida.",
               "Aprender a ser, porque seguir aprendiendo es actuar con autonomía, juicio y responsabilidad.",
@@ -248,7 +248,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La investigación educativa, recogida por la OCDE (Organización para la Cooperación y el Desarrollo Económicos), resume en <strong>siete principios</strong> lo que sabemos sobre cómo aprenden las personas, en cualquier entorno. Léelos pensando en una reunión tuya: vas a ver que varios ya los haces sin nombrarlos, y que otros son justo lo que falta cuando una actividad “no prende”."
+          "text": "La investigación educativa, recogida por la OCDE (Organización para la Cooperación y el Desarrollo Económicos), resume en <strong>siete principios</strong> lo que sabemos sobre cómo aprenden las personas, en cualquier entorno. ¿Te acuerdas de la reunión que no prendió? Léelos pensando en ella: vas a ver que varios ya los haces sin nombrarlos, y que otros son justo lo que falta cuando una actividad “no prende”."
         },
         {
           "type": "policy-quote",
@@ -305,13 +305,13 @@
             "correctIndex": 1
           },
           {
-            "text": "La lección te invita a mirar algo que NO aparece en la lista de los 7 principios. ¿Qué es, y qué enseña su ausencia?",
+            "text": "Un dirigente tiene 20 minutos para trabajar orientación. Planea entregar brújula y mapa a cada patrulla, con un recorrido corto de dificultad creciente. A los cinco minutos, dos patrullas están perdidas. Según los 7 principios, ¿qué hace?",
             "options": [
-              "La motivación: la OCDE pone el peso en el esfuerzo y deja las emociones por fuera del aprendizaje.",
-              "La buena explicación: aprender depende más de que quien aprende esté activo, retado y acompañado.",
-              "La cooperación: la OCDE pone el peso en el ritmo de cada individuo más que en el del grupo."
+              "Pasa por esas patrullas y les da una pista para que sigan ellas, sin detener a las demás.",
+              "Nada hasta el final: si el joven está al centro, el adulto observa y no interviene mientras hacen.",
+              "Detiene el juego, reúne a todos y explica bien el uso de la brújula antes de volver a salir."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -347,7 +347,7 @@
             },
             {
               "title": "🏠 Educación INFORMAL",
-              "description": "El aprendizaje de la vida diaria, fuera de toda institución: la familia, el trabajo, la comunidad. Puede ser a propósito —un papá que se sienta a enseñarle a su hija— pero no hay colegio, ni programa, ni título detrás.",
+              "description": "El aprendizaje de la vida diaria: la familia, el trabajo, la comunidad. Es a propósito —un papá que se sienta a enseñarle a su hija—, pero no lo organiza ninguna institución: no hay colegio ni título detrás.",
               "color": "#fff3e0",
               "borderColor": "#fb8c00"
             }
@@ -370,7 +370,7 @@
         },
         {
           "type": "info-box",
-          "text": "Dato de hoy: las fronteras entre estos tres tipos se están borrando — los colegios usan cada vez más métodos no formales (proyectos, juego, trabajo en equipo). Es decir: el mundo se está pareciendo cada vez más a como el escultismo educa hace más de un siglo."
+          "text": "Dato de hoy: las fronteras entre estos tres tipos se están borrando — los colegios usan cada vez más métodos no formales (proyectos, juego, trabajo en equipo). Es decir: los colegios y el escultismo se parecen cada vez más, y pueden aprender unos de otros. Llévalo a tu próxima reunión: si alguien te pregunta en qué se diferencia de una clase, ya tienes la respuesta en una frase: es intencional, la organiza el Grupo y complementa al colegio sin reemplazarlo."
         }
       ],
       "reflection": {
@@ -399,13 +399,13 @@
             "correctIndex": 0
           },
           {
-            "text": "Una mamá le pide al dirigente que, como su hijo va mal en matemáticas, usen parte de las reuniones para ponerlo al día con las tareas del colegio. Según lo que la lección dice del escultismo como educación no formal, ¿qué orienta tu respuesta?",
+            "text": "Una mamá le pide al dirigente que, como su hijo va mal en matemáticas, usen parte de las reuniones para ponerlo al día con las tareas del colegio. ¿Qué le respondes?",
             "options": [
-              "Que el grupo puede asumirlo si lo planea, porque lo que hace educativa una reunión es que sea intencional.",
-              "Que el grupo complementa al colegio con un espacio educativo distinto; no lo reemplaza ni hace su trabajo.",
-              "Que eso le corresponde a la familia, porque la educación informal es la que refuerza lo del colegio."
+              "Que el grupo no hace refuerzo escolar, y le cuentas lo que su hijo sí va a vivir allí: equipo, retos y servicio.",
+              "Que lo incluyes en el programa: si el grupo educa de forma intencional y planeada, puede asumir lo que el colegio no logra.",
+              "Que lo saque un tiempo hasta que suba las notas: el colegio va primero y el grupo es solo un complemento."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -428,7 +428,7 @@
           "type": "policy-quote",
           "label": "📋 Ver el enfoque experiencial",
           "source": "Características Esenciales del Movimiento Scout (OMMS, 2019), p. 17.",
-          "text": "El aprendizaje activo ilustra el enfoque práctico del Movimiento Scout para la educación, basado en la experiencia directa más que en la mera enseñanza teórica… En el Movimiento Scout, la adquisición de nuevas competencias (conocimientos, habilidades, actitudes y valores) se logra mediante la práctica de diversas actividades, entretenidas y relevantes, que llevan a los jóvenes a actuar, cometer errores, reflexionar y descubrir."
+          "text": "El aprendizaje activo ilustra el enfoque práctico del Movimiento Scout para la educación, basado en la experiencia directa más que en la mera enseñanza teórica… En el Movimiento Scout, la adquisición de nuevas competencias (conocimientos, habilidades, actitudes y valores) se logra mediante la práctica de diversas actividades, entretenidas y relevantes, que llevan a los jóvenes a actuar, cometer errores, reflexionar y descubrir…"
         },
         {
           "type": "heading",
@@ -449,18 +449,18 @@
           "ordered": false,
           "items": [
             "🌟 <strong>Curso 4 — Características Esenciales:</strong> qué es exactamente el Movimiento Scout (su identidad), construida sobre esta propuesta educativa.",
-            "🧭 <strong>Curso 5 — El Método Scout:</strong> el “sistema” con el que el escultismo pone en práctica el aprender haciendo, el equipo, el reto y la reflexión.",
+            "🧭 <strong>Curso 5 — El Método Scout:</strong> el “sistema” de 8 elementos con el que el escultismo pone en práctica estas ideas: el aprender haciendo, el trabajo en equipos pequeños, el reto y el acompañamiento del adulto.",
             "📜 <strong>Curso 6 — La PNPJ y el Modelo colombiano:</strong> cómo Colombia organiza todo esto en ramas, áreas de crecimiento y herramientas.",
             "🗺️ <strong>Curso 7 — Mi Compromiso:</strong> tu plan de dirigente, escrito y firmado por ti."
           ]
         },
         {
           "type": "mission-box",
-          "text": "Desde aquí dejas de ser “alguien que organiza actividades” y te vuelves <strong>un educador</strong> que sabe lo que hace. Lo que sigue ya no son reglas sueltas: es la aplicación de lo que aprendiste hoy. <strong>Tu primer gesto de educador no es grande: es preguntarte, antes de tu próxima reunión, “¿esto solo los hace saber, o también hacer, convivir y ser?”. Con eso ya empezaste.</strong>"
+          "text": "Desde aquí dejas de ser “alguien que organiza actividades” y te vuelves <strong>un educador</strong> que sabe lo que hace. Lo que sigue ya no son reglas sueltas: es la aplicación de lo que aprendiste hoy. <strong>Tu primer gesto de educador no es grande: es preguntarte, antes de tu próxima reunión, “¿esto solo los hace saber, o también hacer, convivir y ser?”. Con eso ya empezaste.</strong> La próxima vez que una reunión no prenda, ya sabes dónde mirar."
         }
       ],
       "reflection": {
-        "prompt": "Completa, pensando en tu rol: «Antes pensaba que educar a mis chicos y chicas era ______. Después de este curso entiendo que es ______. Lo primero que voy a cambiar en cómo planeo una reunión es ______.»"
+        "prompt": "Completa, pensando en tu rol: «Antes pensaba que educar a mis chicos y chicas era ______. Después de este curso entiendo que es ______. Lo primero que voy a cambiar en cómo planeo una reunión es ______.» (Guárdala: en el Curso 7 la vas a retomar para armar tu plan.)"
       },
       "quiz": {
         "title": "Mini-quiz Lección 6",
@@ -478,20 +478,20 @@
           {
             "text": "Tras una caminata que salió muy bien, la patrulla quiere pasar directo a lo siguiente: «Si todo salió bien, no hay nada que reflexionar». Según la lección, ¿qué les respondes?",
             "options": [
-              "Que tienen algo de razón: la reflexión sirve sobre todo cuando algo falló y hay errores que mirar.",
-              "Que la reflexión la haga el dirigente: él mira qué pasó y les comparte la conclusión al final del día.",
+              "Que pasen a lo siguiente, pero el dirigente anota lo que salió bien para repetirlo en la próxima.",
+              "Que hagan una ronda larga en la que cada uno diga lo que sintió en cada tramo de la caminata.",
               "Que la reflexión también pregunta qué salió bien y qué cambiarían: es lo que cierra la experiencia."
             ],
             "correctIndex": 2
           },
           {
-            "text": "Según la cita de la OMMS en esta lección, las nuevas competencias que se adquieren mediante la práctica de actividades incluyen…",
+            "text": "Tras un proyecto de servicio en un hogar de ancianos, un dirigente evalúa solo si sus jóvenes aprendieron a organizar la logística. Según lo que la cita de la OMMS dice que se adquiere con la práctica, ¿qué está dejando sin mirar?",
             "options": [
-              "Conocer, hacer, vivir juntos y ser.",
-              "Conocimientos, habilidades, actitudes y valores.",
-              "Conocimientos técnicos, destrezas y conductas observables."
+              "Las actitudes y los valores que el servicio movió en ellos: el trato, el respeto, el compromiso.",
+              "Los cuatro pilares completos, que la OMMS usa como lista de lo que se gana en cada actividad.",
+              "Nada: en un servicio lo que se adquiere es práctica, y la práctica se mide en habilidades."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }

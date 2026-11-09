@@ -3,7 +3,7 @@
   "title": "HeForShe: igualdad de género en tu unidad",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Cómo se lleva a tu unidad el desafío HeForShe, de Mensajeros de la Paz: qué es la igualdad de género y qué les pide HeForShe a los hombres y a los niños, la coeducación en la vida diaria de la unidad, el viaje del desafío y sus actividades por rama, cómo trabajar las violencias basadas en género con casos y no con historias propias, y a dónde lleva: la insignia, el taller y la acción HeForShe. No es solo un tema de mujeres: es asunto de todos. Para dirigentes de Manada, Tropa, Comunidad y Clan.",
-  "contentVersion": "2026-10-04",
+  "contentVersion": "2026-11-08",
   "icon": "🤝",
   "duration": "43 minutos",
   "level": 4,
@@ -81,7 +81,8 @@
             "<strong>Reconocer</strong> los estereotipos de género en lo cotidiano de tu unidad, empezando por quién hace qué.",
             "<strong>Aplicar</strong> la coeducación como requisito del Programa, no como tema de una reunión.",
             "<strong>Acordar</strong> con un protagonista sus seis actividades —partes A y B, tres fases— según su rama.",
-            "<strong>Adaptar</strong> una actividad que pide relatos propios a un caso inventado, y reportar cuando alguien revela una violencia o un riesgo.",
+            "<strong>Adaptar</strong> una actividad que pide relatos propios a un caso inventado.",
+            "<strong>Reportar</strong> por la ruta institucional cuando alguien revela una violencia o un riesgo.",
             "<strong>Distinguir</strong> las tres insignias HeForShe —del desafío, Emisor/a y Embajador/a— y cuándo corresponde cada una."
           ]
         },
@@ -156,7 +157,7 @@
             "text": "Una dirigente de Tropa dice: «Aquí hay igualdad: a nadie se le prohíbe nada, y cualquier scout puede ser guía de patrulla». Hace tres años que todos los guías son chicos. ¿Qué le falta mirar, según la lección?",
             "options": [
               "Si las scouts tienen la misma información y el mismo plazo para postularse: con eso hay igualdad y el resto es su elección.",
-              "Si se da por hecho quién sirve para guiar: quién se postula, a quién eligen y por qué; la desigualdad no es solo lo prohibido.",
+              "Por qué ninguna scout se postula ni sale elegida: qué se piensa en la Tropa sobre quién sirve para guiar y cómo pesa eso en los votos.",
               "Si conviene que el dirigente nombre guía a una scout el próximo año, para equilibrar sin esperar a la elección de la patrulla."
             ],
             "correctIndex": 1
@@ -192,7 +193,7 @@
             },
             {
               "title": "🏷️ Estereotipos de género",
-              "description": "«Generalizaciones simplistas de los atributos de género, las diferencias y los roles de las mujeres y los hombres» (Kit, p. 82, nota 1, citando a ONU Mujeres). Son las ideas de quién sirve para qué: ellas para cuidar, ellos para mandar o cargar.",
+              "description": "Son «generalizaciones simplistas de los atributos de género, las diferencias y los roles de las mujeres y los hombres» (Kit, p. 82, nota 1, citando a ONU Mujeres). Son las ideas de quién sirve para qué: ellas para cuidar, ellos para mandar o cargar.",
               "color": "#fff8e1",
               "borderColor": "#f9a825"
             }
@@ -229,7 +230,7 @@
       "emoji": "🏕️",
       "navLabel": "Coeducación",
       "reflection": {
-        "prompt": "Mira la organización de tu unidad: cargos, turnos de campamento, quién coordina y quién ayuda, cómo se forman los pequeños grupos. ¿En qué punto un estereotipo podría estar decidiendo por los protagonistas? ¿Qué cambiarías con ellos, y en qué espacio lo decidirían?"
+        "prompt": "Piensa en una actividad de tu unidad en la que chicos y chicas se separan, o en una en la que se mezclan a la fuerza. Descríbela por rama y por rol, sin nombres: ¿esa separación, o esa mezcla, la decidieron ellos o una costumbre? ¿Qué le preguntarías al órgano de tu rama para saber si hay iguales oportunidades?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",
@@ -238,8 +239,8 @@
           {
             "text": "En su Congreso, la Comunidad acordó rotar los turnos de cocina y leña del próximo campamento, sin mirar quién es chico o chica. Un dirigente del Grupo dice que eso «no es HeForShe, es logística». ¿Qué le responde Paula?",
             "options": [
-              "Que el dirigente acierta: la coeducación se mide por las actividades del Kit, y mirar quién hace cada tarea es logística.",
-              "Que acierta a medias: rotar turnos ayuda, pero la coeducación empieza cuando se hace una actividad del Kit sobre roles.",
+              "Que el dirigente acierta: es logística, y la coeducación queda para cuando se haga una actividad del Kit sobre roles.",
+              "Que es coeducación solo si el dirigente arma parejas mixtas fijas para cada turno, para que nadie vuelva a la costumbre.",
               "Que es coeducación: repartir las tareas sin mirar si es chico o chica educa, aunque esa actividad no esté en el Kit."
             ],
             "correctIndex": 2
@@ -256,7 +257,7 @@
           {
             "text": "En una Manada, los turnos de los lobatos ya rotan. En el equipo de dirigentes, en cambio, las dirigentes preparan siempre la comida del campamento y los dirigentes dirigen los juegos grandes. ¿Qué diría la lección?",
             "options": [
-              "Que se revise también: lo que los lobatos ven en el equipo de dirigentes enseña más que cualquier actividad sobre el tema.",
+              "Que el equipo de dirigentes también rote: los lobatos aprenden de quién cocina y quién dirige entre los adultos, no solo de sus turnos.",
               "Que no pesa: la coeducación es un requisito del Programa para los niños, y el reparto entre adultos es asunto del equipo.",
               "Que lo compense una actividad del Kit sobre roles, como Cocinando ando, para que los lobatos discutan el reparto."
             ],
@@ -317,9 +318,9 @@
           {
             "text": "Un dirigente de Clan quiere que todo su Clan haga HeForShe este año y ya escogió las seis actividades para todos. ¿Qué diría el Kit?",
             "options": [
-              "Que está bien si escoge las dos obligatorias de Toma conciencia, porque el resto no necesita ningún acuerdo previo.",
+              "Que está bien si escoge solo las dos obligatorias de Toma conciencia, porque el resto no necesita ningún acuerdo previo.",
               "Que cada rover decide si lo asume, porque el desafío es de cada uno, y acuerda con él sus seis actividades.",
-              "Que está bien: en el Clan el desafío es colectivo, y basta con que el Clan haga junto las mismas seis actividades."
+              "Que no le toca escoger nada: cada rover arma solo sus seis actividades y el dirigente firma la hoja al terminar."
             ],
             "correctIndex": 1
           },
@@ -337,7 +338,7 @@
             "options": [
               "Le alcanza: suma las seis e incluye la de Toma conciencia en cada parte, que es lo único obligatorio de la ruta.",
               "Le falta una: pide una actividad de cada fase en cada parte, y en la parte A no tiene ninguna de Comparte.",
-              "Le alcanza si crea con su dirigente la segunda de Actúa: las actividades creadas valen por la fase que falte."
+              "Le falta una: las dos de Toma conciencia obligatorias van juntas en la parte A, y ahí solo tiene una."
             ],
             "correctIndex": 1
           }
@@ -395,7 +396,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Las que se crean tienen que cumplir la competencia del desafío de esa fase: las del Kit, no las competencias educativas de tu Guía. La autoevaluación no tiene la tabla del Curso 22: las fases van en filas y las marcas son «Estoy al comienzo de la exploración», «Estoy en exploración» y «He terminado mi exploración»; pero, como allí, dice dónde está el joven en el desafío, no su nivel en una competencia educativa."
+          "text": "Las que se crean tienen que cumplir la competencia del desafío de esa fase, la del Kit, no las competencias educativas de tu Guía. Y la autoevaluación del Kit marca dónde está el joven en el desafío —«Estoy al comienzo de la exploración», «Estoy en exploración», «He terminado mi exploración»—, no su nivel en una competencia educativa."
         },
         {
           "type": "heading",
@@ -442,7 +443,7 @@
             "text": "Una dirigente de Familia quiere que sus cachorros vivan el desafío y busca en el Kit la hoja de su rama. Dos de ellos ya cumplieron 7 años. ¿Qué hace, según la lección?",
             "options": [
               "Usa con ellos la hoja de Manada, porque el Kit abre el desafío desde los 7 años y la edad es la que define la hoja.",
-              "Trabaja con toda la Familia la hoja de Manada, ajustada a la edad con la Guía de Familia, por ser la rama más cercana a los cachorros.",
+              "Deja el tema para cuando pasen a la Manada: si el Kit no trae hoja para cachorros, en la Familia no hay nada que trabajar.",
               "Trabaja la coeducación en la vida diaria de la Familia: no hay hoja para cachorros, y se guía por la rama, no por la edad."
             ],
             "correctIndex": 2
@@ -489,7 +490,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Si tu unidad es la Familia, el Kit no tiene hoja para los cachorros, y las edades del desafío —de 7 a 23 años en el Kit (p. 13), de 6 a 22 en el Manual (p. 28)— no coinciden con las de las ramas. Como en el Curso 22: guíate por la rama, no por el número. Y si vas a usar la sección de Comunidad, verás que habla de la «agenda de caminantes»: es el nombre anterior de la rama, hoy <strong>Nómadas Scout</strong>."
+          "text": "Si tu unidad es la Familia, el Kit no tiene hoja para los cachorros, y las edades del desafío —de 7 a 23 años en el Kit (p. 13), de 6 a 22 en el Manual (p. 28)— no coinciden con las de las ramas. Por eso, guíate por la rama, no por el número: la edad exacta no decide qué hoja usar. Y si vas a usar la sección de Comunidad, verás que habla de la «agenda de caminantes»: es el nombre anterior de la rama, hoy <strong>Nómadas Scout</strong>."
         },
         {
           "type": "heading",
@@ -540,7 +541,7 @@
             "text": "En el Clan, una rover dice durante una actividad que su pareja la controla y le revisa el celular. ¿Qué hace su dirigente?",
             "options": [
               "La lleva aparte con otro dirigente, le pide que cuente todo con fechas y detalles para que el reporte salga completo, y reporta.",
-              "La escucha sin juzgarla ni pedirle detalles, no la deja seguir ante el Clan, no le promete silencio y reporta por el botón.",
+              "La aparta con otro dirigente, oye solo lo que ella quiera contar, le dice que eso no puede quedar entre ellos y lo reporta por el botón.",
               "La deja decidir: es mayor de edad y es su vida privada, así que solo usa el botón si ella misma se lo pide más adelante."
             ],
             "correctIndex": 1
@@ -581,7 +582,7 @@
             "<strong>Escucha sin juzgar ni pedir detalles</strong>, y no le pidas que siga frente al grupo.",
             "<strong>No prometas silencio.</strong> La Política A Salvo del Peligro es clara: <em>«no cabrá la posibilidad de guardar ningún secreto»</em> (p. 21). Lo que alguien cuenta se cuida y no se repite, pero si revela una vulneración o un riesgo, se reporta. Vale también si es mayor de edad.",
             "<strong>Reporta</strong> por el botón «Me Pongo A Salvo del Peligro». El Comité de Gestión de Incidentes analiza y activa las rutas. No investigas, no confrontas a nadie ni resuelves por tu cuenta.",
-            "<strong>Avisa también a las autoridades cuando el caso lo pide.</strong> La Política obliga a informar a las autoridades de salud, protección o justicia (p. 21). Y si hay un peligro inmediato, la <em>Guía de Prevención</em> pide dar primero el reporte verbal a la Policía y después reportar igual por los canales de la Asociación, el botón (pp. 30–31)."
+            "<strong>Avisa también a las autoridades cuando el caso lo pide.</strong> La Política obliga a informar a las autoridades de salud, protección o justicia (p. 21). Y si hay un peligro inmediato, la <em>Guía de Prevención</em> pide avisar primero de palabra a la Policía y acompañar a la persona al hospital más cercano; y después, en menos de 24 horas, reportar igual por el botón (pp. 30–31)."
           ]
         },
         {
@@ -605,7 +606,7 @@
       "emoji": "🏅",
       "navLabel": "Tu compromiso",
       "reflection": {
-        "prompt": "Piensa en el cierre del desafío en tu unidad: ¿quiénes recibirían las acciones de tus protagonistas, cómo se evaluarían con ellos y cómo sería una ceremonia sencilla, sentida y significativa? ¿Qué harías para que la insignia llegue como huella del proceso y no como la meta?"
+        "prompt": "Elige la tarea de tu unidad que vas a revisar en este ciclo, por rol y sin nombres. ¿Quiénes recibirían la acción de tus protagonistas, en la unidad y en sus casas? Escribe en dos líneas cómo sería la ceremonia en tu próxima reunión."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7",

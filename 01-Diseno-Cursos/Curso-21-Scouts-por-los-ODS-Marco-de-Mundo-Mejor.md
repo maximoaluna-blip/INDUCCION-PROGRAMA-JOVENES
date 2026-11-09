@@ -24,7 +24,7 @@ El plan lo titula *«Marco de Mundo Mejor y ODS»* y lo ancla en el *Manual de I
 1. **Cuántas iniciativas.** Manual 2021: dos (Mensajeros de la Paz, Earth Tribe) y dos «desarrollo previsto para 2022». Guía de Comunidad: dos. *Modelo* 2026, *Bolsillo* y Guía de Clan: **cuatro**. El curso enseña las cuatro del *Modelo*, que es el documento rector del Programa, y **cuenta que el mapa creció**; no dice que la Guía de Comunidad esté «mal».
 2. **Mundo Mejor / Scouts por los ODS.** No son sinónimos (glosario): el marco (2021) organiza; Scouts por los ODS es la propuesta que conecta el Programa con los ODS y es el nombre vigente del catálogo. El curso usa los dos, cada uno en su sitio.
 3. **Desafíos de Mensajeros de la Paz**: cuatro en el Manual, **cinco** en las Guías de Clan y Comunidad (se suma el **Diálogo Interreligioso**). Se cuentan los cinco con la fuente de cada uno.
-4. **Evidencias en redes sociales.** El Manual 2021 pedía publicarlas etiquetando a la Asociación (Scouts Go Solar, p. 52). El *Modelo* 2026 habla de *«fotos responsables»* y exige consentimiento para las imágenes (p. 82), y la Política ASP 2025 pide directrices para publicar imágenes de jóvenes (ítem 4). **El curso no enseña a publicar evidencias con menores**: remite al Curso 25.
+4. **Evidencias en redes sociales.** El Manual 2021 pedía publicarlas etiquetando a la Asociación (Scouts Go Solar, p. 52). El *Modelo* 2026 habla de *«fotos responsables»* y pide verificar el consentimiento antes de usar imágenes (p. 82), y la Política ASP 2025 pide directrices para publicar imágenes de jóvenes (ítem 4). **El curso no enseña a publicar evidencias con menores**: remite al Curso 25.
 5. **Dos documentos que las fuentes citan y la biblioteca no publica**: el *«Recurso Educativo – Manual de Implementación de Scouts por los ODS para Dirigentes»* (*Modelo* p. 102) y *«Scouts por los ODS para las Familias de Cachorros»* (Guía de Familia p. 49). Tampoco hay en la biblioteca guías de implementación de los desafíos de **Life Leaders** y **Health Allies**. El curso lo dice y remite a la comisión de Mundo Mejor.
 
 ### Lo que este curso NO puede decir
@@ -58,8 +58,8 @@ El plan lo titula *«Marco de Mundo Mejor y ODS»* y lo ancla en el *Manual de I
 1. **Explicar** por qué el Movimiento se comprometió con la Agenda 2030 y qué busca la Educación para el Desarrollo Sostenible.
 2. **Distinguir** las cuatro iniciativas de Scouts por los ODS y ubicar en ellas una preocupación real de tu unidad.
 3. **Traducir** un desafío en una oportunidad de aprendizaje con destinatario, criterios, competencias y presentación pública.
-4. **Evitar** los dos atajos: la cátedra sobre los ODS y la insignia como meta.
-5. **Reconocer** con sentido: insignias de desafío, Scouts del Mundo y Héroes Mensajeros de la Paz, con sus reglas.
+4. **Detectar** en un plan de unidad tres atajos —la cátedra, la etiqueta primero y la insignia como meta— y proponer el paso que los corrige.
+5. **Decidir** cuándo solicitar una insignia y si un protagonista cumple las reglas de los reconocimientos mundiales.
 6. **Saber a quién acudir** y qué documentos existen —y cuáles no—.
 
 ---
@@ -84,7 +84,7 @@ Anclado en el *Bolsillo* (p. 13: *«primero se lee la realidad, luego se constru
 | 6 | 🏅 Reconocer con sentido | Insignias de desafío y distinciones de iniciativa (*Modelo* §16.2–16.3): *«huella visible»*, no meta. **Reglas de las insignias** (Manual §7: se adquieren por la Asociación o distribuidores autorizados; las porta quien fue reconocido oficialmente). **Scouts del Mundo** (15–26, tres pasos, pasaporte) y **Héroes Mensajeros de la Paz** (11–26, sin autonominación, proyecto de los últimos 24 meses registrado en scout.org). **Evidencias sí, fotos de menores en redes no** sin el consentimiento del Curso 25. |
 | 7 | ✅ Tu primer desafío | La Manada de Luisa presenta su proyecto. **Se cobra el hook.** A quién acudir: comisionado regional de Mundo Mejor y Comisión Nacional (Manual §6.1; Curso 18). `Y en tu rama` (Familia: pequeñas acciones y la Ley del Cachorro; Manada: Tribu Tierra; Tropa: ejemplos de su Guía; Comunidad: dos iniciativas y dos reconocimientos; Clan: cuatro iniciativas y el PARCE). Vivir → Mirar → Comprender → Proyectar (*Bolsillo*). Qué sigue: Cursos 22–24. Compromiso en `mission-box`. |
 
-Cada lección cierra con reflexión (por rol y situación, sin nombres) y dos preguntas. Los distractores llevan las ideas viejas: *la cátedra*, *la etiqueta primero*, *la insignia como meta*, *lo grande vale más que lo cercano*. La fuga se mide con **varias estrategias** en cada vuelta (ADR-100).
+Cada lección cierra con reflexión (por rol y situación, sin nombres) y tres preguntas (el JSON manda: ahí están el texto de las preguntas, las opciones y la reflexión vigentes; re-auditoría pedagógica del 08/11/2026: una pregunta por quiz «invertida» —la correcta es el cargo actuando— contra la regla ciega). Los distractores llevan las ideas viejas: *la cátedra*, *la etiqueta primero*, *la insignia como meta*, *lo grande vale más que lo cercano*. La fuga se mide con **varias estrategias** en cada vuelta (ADR-100).
 
 ---
 

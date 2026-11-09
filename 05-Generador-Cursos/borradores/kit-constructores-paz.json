@@ -3,7 +3,7 @@
   "title": "Constructores de Paz: el kit de acción en tu unidad",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Cómo se lleva a tu unidad el desafío Constructores de Paz, de Mensajeros de la Paz: la diferencia entre paz negativa y paz positiva, el viaje en tres etapas —toma conciencia, comparte, actúa—, la autoevaluación y las actividades del Kit según la rama, cómo trabajar la memoria histórica sin revictimizar y cómo cerrar con un proyecto de servicio, reconocimiento y celebración. La paz no es que no haya pelea: se construye cada día. Para dirigentes de Manada, Tropa, Comunidad y Clan.",
-  "contentVersion": "2026-10-04",
+  "contentVersion": "2026-11-08",
   "icon": "🕊️",
   "duration": "53 minutos",
   "level": 4,
@@ -59,7 +59,7 @@
     "description": "ha completado el Curso 22 de la Línea Programa de Jóvenes — Constructores de Paz: el kit de acción en tu unidad, distinguiendo la paz negativa de la paz positiva, acompañando el viaje del desafío —toma conciencia, comparte y actúa— acordado con los protagonistas, usando la autoevaluación y las actividades del Kit según la rama, trabajando la memoria histórica sin revictimizar y reportando por la ruta institucional cuando corresponde, y llevando el desafío a un proyecto de servicio que se evalúa, se reconoce y se celebra."
   },
   "commitmentBox": {
-    "prompt": "Escribe cuándo y en qué órgano de tu unidad vas a presentar Constructores de Paz a tus protagonistas, y qué pregunta les harás para empezar:",
+    "prompt": "Escribe cuándo y en qué espacio de tu unidad (Consejo de Roca, Corte de Honor, Congreso de Comunidad o Consejo de Clan) vas a presentar Constructores de Paz, y qué pregunta les harás para empezar:",
     "placeholder": "El … en … voy a presentarles el desafío y a preguntarles …"
   },
   "modules": [
@@ -154,11 +154,11 @@
             "correctIndex": 1
           },
           {
-            "text": "En la Tropa de Andrés, un scout dice que a quien le hace algo hay que devolvérselo, porque «el que la hace, la paga». ¿Qué haría un dirigente que usa el Kit?",
+            "text": "En plena actividad <em>Paz positiva y paz negativa</em>, un scout empuja a otro contra la pared y se ríe: «esto es paz negativa, jefe». ¿Qué hace Andrés?",
             "options": [
-              "Corregirlo en el momento y darle la frase correcta, para que no la repita delante de los más pequeños.",
-              "Tomarlo como material para una actividad: en los dichos se aprende como normal una violencia.",
-              "Tomarlo como ejemplo de violencia directa, la que se ve, y trabajarlo con las frases de los dos murales."
+              "Lo aprovecha como material: deja seguir la escena un momento para que la Tropa vea en vivo qué es la violencia directa.",
+              "Para la actividad y atiende el empujón ahora mismo: la violencia directa se frena primero, y ya habrá tiempo de conversarlo.",
+              "Le pide a la patrulla que decida qué hacer con el empujón: la paz positiva la construyen ellos, no la impone el adulto."
             ],
             "correctIndex": 1
           },
@@ -244,22 +244,22 @@
         "nextLabel": "Continuar a la autoevaluación 🪞",
         "questions": [
           {
-            "text": "A la Jefa de Manada le entusiasma Constructores de Paz. Según el viaje del Kit, ¿qué le toca hacer primero?",
+            "text": "En el Consejo de Roca, los lobatos dicen que sí a Constructores de Paz y quieren empezar ya con las actividades. ¿Qué le toca a su dirigente antes de escoger?",
             "options": [
-              "Escoger ella las dos actividades y llevarlas al Consejo de Roca para que los lobatos las aprueben.",
-              "Contarles en el Consejo de Roca qué es el desafío y preguntarles si quieren asumirlo, y cómo.",
-              "Pasarles primero la autoevaluación, sin contarles aún el desafío, para que nadie llegue influido por el adulto."
-            ],
-            "correctIndex": 1
-          },
-          {
-            "text": "Una Comunidad ya escogió sus tres actividades del Kit, y su dirigente no sabe cómo se reconocerá lo aprendido ni cómo se presentará al Grupo. ¿Dónde lo busca?",
-            "options": [
-              "En el Kit solamente: el desafío trae sus pasos, y mezclarlo con el Modelo lo vuelve un trámite más.",
-              "En ninguno de los dos: los pasos de presentación pública son de los proyectos del Clan, no de un desafío.",
-              "En los siete pasos del Modelo, con el Kit al lado: el desafío pone el tema y el Modelo lo vuelve aprendizaje."
+              "Dejar que escojan ya las que más les gusten: si el Consejo decidió asumir el desafío, frenarlos sería quitarles la decisión.",
+              "Escoger él las dos actividades más seguras y presentarlas como las del desafío, para que nadie se pierda en el Kit.",
+              "Acompañar a cada lobato en su autoevaluación, para que las actividades salgan de lo que cada uno marcó."
             ],
             "correctIndex": 2
+          },
+          {
+            "text": "La Comunidad ya escogió sus tres actividades del Kit. Su dirigente quiere saber cómo se va a reconocer lo que aprendan en su progresión. ¿Dónde lo busca?",
+            "options": [
+              "En la autoevaluación del Kit: la marca de «Actúa» al final es el reconocimiento que va a la progresión.",
+              "En los pasos del Modelo, con el Kit al lado: el reconocimiento en la progresión lo da el Programa, no la hoja del desafío.",
+              "En el Kit, que trae para cada actividad la competencia que trabaja, y eso es lo que se anota en la progresión."
+            ],
+            "correctIndex": 1
           },
           {
             "text": "En el Consejo de Clan, los rovers escogen para el desafío una actividad que su dirigente ve insegura en el lugar donde la quieren hacer. ¿Qué le toca a él?",
@@ -347,7 +347,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Si hiciste el <a href=\"marco-mundo-mejor-ods.html\">Curso 21</a>, conoces los siete pasos del <em>Modelo de Aplicación</em> para convertir un desafío en una oportunidad de aprendizaje. No compiten con el Kit. El propio <em>Modelo</em> pide consultar siempre <em>«los documentos particulares de implementación del desafío»</em>, porque <em>«ahí están los pasos, criterios y materiales»</em> (§16.4). El Kit dice <strong>qué</strong> se trabaja en Constructores de Paz; el <em>Modelo</em>, <strong>cómo</strong> se vuelve aprendizaje dentro del Programa: para quién, con qué criterios, qué competencias, con qué presentación pública."
+          "text": "Si hiciste el <a href=\"marco-mundo-mejor-ods.html\">Curso 21</a>, conoces los siete pasos del <em>Modelo de Aplicación</em> para convertir un desafío en una oportunidad de aprendizaje. No compiten con el Kit. El propio <em>Modelo</em> pide consultar siempre <em>«los documentos particulares de implementación del desafío»</em>, porque <em>«ahí están los pasos, criterios y materiales»</em> (§16.4). El Kit dice <strong>qué</strong> se trabaja en Constructores de Paz; el <em>Modelo</em>, <strong>cómo</strong> se vuelve aprendizaje dentro del Programa: para quién, con qué criterios, qué competencias, con qué presentación pública. Para Andrés, en concreto: el Kit le dice que la Tropa haga tres actividades y un proyecto de servicio; los siete pasos le ayudan a acordar con la Corte de Honor qué competencias educativas se van a trabajar, cómo se va a reconocer lo aprendido y cuándo se lo van a presentar al Grupo."
         }
       ]
     },
@@ -488,13 +488,13 @@
         "nextLabel": "Continuar a la memoria 🤲",
         "questions": [
           {
-            "text": "A la Manada le encantó «Inflando emociones», y su dirigente propone hacer las ocho actividades de la hoja antes de pensar en el proyecto. ¿Qué le dirías?",
+            "text": "La Corte de Honor propone hacer una sola actividad del Kit, larga y a fondo, en vez de tres, porque «así se profundiza más». ¿Qué hace su dirigente?",
             "options": [
-              "Que sí: el Kit pide hacer todas las actividades de la rama antes de pasar al proyecto de servicio.",
-              "Que para el desafío bastan dos a esa edad, escogidas por lo que salió en la autoevaluación, y queda tiempo de actuar.",
-              "Que hagan tres, como la Tropa: el Kit pide el mismo número a todas las ramas, y lo que cambia con la edad es la actividad."
+              "Lo acepta: la decisión es de la Corte de Honor, y profundizar en una actividad vale más que cumplir un número.",
+              "Lo acepta si esa actividad dura lo mismo que durarían las tres juntas: lo que de verdad pide el Kit es el tiempo de trabajo.",
+              "Les recuerda que desde los once años el Kit pide tres, y que cuáles y con qué profundidad lo deciden ellos."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "La Tropa quiere trabajar el conflicto con un juego de roles que no está en el Kit, sobre las peleas en las canchas del barrio. ¿Vale para el desafío?",
@@ -602,13 +602,13 @@
             "correctIndex": 2
           },
           {
-            "text": "La Manada va a hacer «Los mapas», que pide ubicar en el municipio las huellas de la violencia. ¿Cómo la prepara su dirigente?",
+            "text": "Para cuidar a los lobatos, la dirigente de Manada propone hacer <em>Los mapas</em> marcando solo los lugares bonitos del municipio, sin nombrar nunca lo que pasó. ¿Qué le dices?",
             "options": [
-              "Manda una nota a las familias y la hace como viene, con cada lobato ubicando y contando la huella que conoce.",
-              "Avisa antes a las familias y empieza por la resistencia y las iniciativas de la comunidad, sin pedir historias.",
-              "La deja para cuando sean más grandes: con niños de esa edad, cuidar la memoria es no tocarla todavía."
+              "Que está bien así: con niños de esa edad, cuidar la memoria es no tocarla, y el Kit deja adaptar todo lo que haga falta.",
+              "Que mande antes una nota a las familias, y con ese permiso la haga tal como viene, con cada lobato contando su huella.",
+              "Que puede empezar por la resistencia y las iniciativas, pero que el mapa también nombre lo que pasó, sin pedir relatos propios."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           }
         ]
       },
@@ -649,12 +649,8 @@
             "<strong>Pregunta, no sentencies.</strong> El <em>Manual de Implementación</em> pide <em>«preguntas abiertas en lugar de promover posiciones o dar consejos»</em> (p. 6). Sobre el conflicto armado, el adulto no toma partido.",
             "<strong>Dale a la resistencia el mismo lugar que al dolor.</strong> Las dos actividades preguntan también por <em>«la resistencia»</em> y por las iniciativas de la comunidad. Con lobatos, empieza por ahí: el Kit permite adaptar (p. 19), e <em>indagar</em> sobre la memoria no exige que un niño cuente su propio sufrimiento.",
             "<strong>Confidencialidad no es secreto.</strong> Lo que alguien cuenta se cuida y no se repite. Pero si revela una vulneración o un riesgo, <em>«no cabrá la posibilidad de guardar ningún secreto»</em> (Política, p. 21). Una pista que te damos aquí: cuenta tanto lo que le está pasando como lo que cuenta como si nadie lo supiera o nadie lo hubiera ayudado. Tú <strong>reportas</strong> por el botón «Me Pongo A Salvo del Peligro»; el Comité de Gestión de Incidentes analiza y activa las rutas. No investigas ni confrontas, y si dudas, reportas. La Política también obliga a avisar a las autoridades de salud, protección o justicia cuando el caso lo pide (p. 21): si hay un peligro inmediato, esa llamada no espera al botón. La ruta es la del <a href=\"a-salvo-del-peligro-programa.html\">Curso 25</a>.",
-            "<strong>Si alguien se conmueve, no le pidas que explique.</strong> Ofrécele un momento aparte, con otro adulto presente —la práctica 2+1 (Política, p. 26): nunca a solas—, y cierra la actividad con lo que la comunidad construyó, no con el dolor."
+            "<strong>Si alguien se conmueve, no le pidas que explique.</strong> Ofrécele un momento aparte, con otro adulto presente —la práctica 2+1 (Política, p. 26): nunca a solas—, y cierra la actividad con lo que la comunidad construyó, no con el dolor. No eres terapeuta: cuidar, escuchar y saber a quién acudir es lo tuyo."
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Una advertencia más: tu papel no es el de un terapeuta, y ni el Kit ni la Política te lo piden. Cuidar el espacio, escuchar y saber a quién acudir es lo que te toca."
         },
         {
           "type": "paragraph",
@@ -668,7 +664,7 @@
       "emoji": "✊",
       "navLabel": "Tu compromiso",
       "reflection": {
-        "prompt": "Imagina el cierre del desafío en tu unidad: ¿quién sería el «para quién» del proyecto, cómo lo presentarían y cómo lo celebrarían? ¿Qué harías para que la insignia llegue como huella del proceso y no como la meta?"
+        "prompt": "Piensa en el próximo cierre de ciclo de tu unidad: ¿qué necesidad del barrio o del Grupo, que tus protagonistas ya hayan nombrado, podría volverse el proyecto, con quién lo harían y cómo lo celebrarían? ¿Qué harías para que la insignia llegue como huella y no como meta?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 7",
@@ -748,7 +744,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La insignia se obtiene <em>«de acuerdo con su proceso personal y su edad»</em> (<em>Manual de Implementación</em>, p. 16), pero el procedimiento no está escrito: pregunta a la comisión de Mundo Mejor de tu región cómo se solicita. Y si un joven de 11 años o más hizo una contribución significativa a su comunidad, puede ser nominado a <strong>Héroes Mensajeros de la Paz</strong> —nadie se nomina a sí mismo—; la misma comisión te dice cómo."
+          "text": "La insignia se obtiene <em>«de acuerdo con su proceso personal y su edad»</em> (<em>Manual de Implementación</em>, p. 16), pero los pasos para pedirla no están escritos. Lo que sí está escrito: la insignia la reconoce la Comisión Nacional de Mundo Mejor, y no se fabrica por cuenta propia (Manual, p. 67). Pregunta a la comisión de tu región cómo se solicita. Y si un joven de 11 años o más hizo una contribución significativa a su comunidad, puede ser nominado a <strong>Héroes Mensajeros de la Paz</strong> —nadie se nomina a sí mismo—; la misma comisión te dice cómo."
         },
         {
           "type": "paragraph",

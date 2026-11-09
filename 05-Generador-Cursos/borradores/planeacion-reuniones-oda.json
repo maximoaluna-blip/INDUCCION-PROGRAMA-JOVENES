@@ -3,7 +3,7 @@
   "title": "Planeación de Reuniones y Oportunidades de Aprendizaje",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El segundo de los tres cursos operativos. Cómo se decide una reunión antes de que ocurra: el guion de lo que va a pasar, la ficha de para qué, el filtro que deja entrar unas ideas y no otras, y el riesgo escrito antes de que alguien se lastime. La herramienta oficial es el soporte; el tema es la decisión.",
-  "contentVersion": "2026-10-04",
+  "contentVersion": "2026-11-08",
   "icon": "📋",
   "duration": "65 minutos",
   "level": 2,
@@ -86,7 +86,7 @@
             "<strong>Aterrizar</strong> la actividad en el ambiente de referencia de tu unidad, con un paso a paso que otro pueda ejecutar.",
             "<strong>Valorar</strong> el riesgo distinguiendo peligro de riesgo, y escribir medidas de control concretas.",
             "<strong>Cerrar</strong> la actividad con la evaluación de la ficha y el ciclo de cuatro preguntas.",
-            "<strong>Abrir</strong> las dos superficies oficiales del instrumento sabiendo qué hace cada una."
+            "<strong>Elegir</strong> entre las dos superficies oficiales del instrumento según lo que necesitas, y compensar lo que a la interactiva le falta."
           ]
         },
         {
@@ -99,7 +99,7 @@
         },
         {
           "type": "info-box",
-          "text": "🧭 <strong>El hook de este curso.</strong> La <strong>Hoja de Ruta</strong> dice <strong>qué va a pasar</strong>. La <strong>Ficha</strong> dice <strong>para qué</strong>. Con la primera tienes una agenda; con las dos, una oportunidad de aprendizaje."
+          "text": "🧭 <strong>La idea que sostiene este curso.</strong> La <strong>Hoja de Ruta</strong> dice <strong>qué va a pasar</strong>. La <strong>Ficha</strong> dice <strong>para qué</strong>. Con la primera tienes una agenda; con las dos, una oportunidad de aprendizaje."
         },
         {
           "type": "paragraph",
@@ -254,7 +254,7 @@
             "options": [
               "Que está bien para esta reunión, y que empiece a delegar cuando los lobatos tengan más tiempo en la Manada.",
               "Que reparta al menos uno de los momentos con otro adulto del equipo, para no quedarse sola si algo pasa.",
-              "Que esa columna existe también para que aparezcan protagonistas, y el instrumento lo pide explícitamente."
+              "Que esa columna existe también para que aparezcan protagonistas, y el instrumento lo prevé explícitamente."
             ],
             "correctIndex": 2
           },
@@ -268,13 +268,13 @@
             "correctIndex": 0
           },
           {
-            "text": "Un dirigente se niega a llenar la columna «Hora» del guion porque «las reuniones nunca salen a tiempo». ¿Qué le responde lo que dice el instrumento?",
+            "text": "La reunión del sábado va de 3:00 a 5:00. Al llenar el guion, sumas los tiempos de cada fila y te dan 2 horas y 40 minutos. ¿Qué haces?",
             "options": [
-              "Que basta con la hora de inicio y de fin de la reunión; los tiempos de cada momento los fija quien lo conduce.",
-              "Que el instrumento ya avisa que no son estrictos; escribirlos entrena a calcular cuánto dura de verdad lo planeado.",
-              "Que los escriba igual, porque el guion debe cumplirse al minuto para que otro dirigente lo pueda seguir sin él."
+              "Recortar o sacar un momento ahora, en la hoja: para descubrir esto mismo se escriben las horas de cada fila.",
+              "Dejarlo así y avisar a los papás que puede alargarse: el instrumento dice que esos tiempos no son estrictos.",
+              "Borrar las horas de cada fila y dejar solo inicio y fin, para que cada responsable maneje su propio tiempo."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -408,22 +408,22 @@
         "nextLabel": "Continuar al para qué 🎯",
         "questions": [
           {
-            "text": "Un equipo de dirigentes propone una caminata de ocho horas para una Manada, argumentando que así los lobatos «se ponen a prueba de verdad». Según el criterio del Modelo, ¿cómo lo ves?",
+            "text": "La Tropa hizo el mes pasado su primera caminata de 3 km. Ahora la Corte de Honor propone una de 6 km con orientación por mapa. Un dirigente objeta: «es demasiado para ellos». ¿Cómo lo ves?",
             "options": [
-              "Bien planteada: una caminata larga es justo lo que el atributo «Desafiante» le pide a una actividad.",
-              "Mal calibrada: el desafío no es hacerlo difícil por difícil, sino ajustarlo a la edad y a la progresión.",
-              "Mal enfocada: el problema es de seguridad, no de desafío; con hidratación y relevos sería adecuada."
+              "Tiene razón el dirigente: si les va a costar tanto, mejor repetir los 3 km hasta que les salgan fáciles.",
+              "La propuesta va bien calibrada: sube un peldaño sobre lo logrado, y la señal será la mejora de un intento a otro.",
+              "Lo justo es partir la diferencia: 4,5 km, así ni el dirigente ni la Corte de Honor sienten que perdieron."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Al llenar el tablero de ocho preguntas para un proyecto de servicio, la Comunidad no logra responder «¿quién se beneficia y cómo lo mediremos?». ¿Qué corresponde hacer?",
+            "text": "La Comunidad propone pintar un mural en el salón comunal. En el tablero, a «¿quién se beneficia y cómo lo mediremos?» responden: «el barrio; lo sabremos porque se va a ver bonito». ¿Qué haces?",
             "options": [
-              "Seguir con el proyecto y dejar esa casilla vacía: las ocho preguntas son una guía, no un requisito.",
-              "Cambiar el proyecto por otro, porque un servicio sin destinatario claro no es una oportunidad válida.",
-              "Seguir trabajando la idea hasta poder responderla: mientras le falte eso, la propuesta está sin terminar."
+              "Que entre al plan: las ocho casillas del tablero ya tienen respuesta, y eso es lo que el filtro pide.",
+              "Que no entre todavía: «se ve bonito» no dice a quién le sirve ni cómo lo sabrán; la idea sigue sin terminar.",
+              "Que entre, y la utilidad se mida al final con la evaluación cuantitativa, que trae su casilla para «Útil»."
             ],
-            "correctIndex": 2
+            "correctIndex": 1
           },
           {
             "text": "A media actividad, la Tropa resuelve en cinco minutos el reto que debía tomarle media hora. El jefe deja que pasen a lo siguiente del guion y anota: «revisar en la evaluación». ¿Cómo lo ves?",
@@ -542,11 +542,11 @@
             "correctIndex": 2
           },
           {
-            "text": "Una dirigente abre el Excel buscando la hoja con la malla completa de competencias que anuncian sus instrucciones, y no la encuentra. ¿Qué pasa?",
+            "text": "Diana escribe como objetivo de la actividad: «Que los lobatos se diviertan, aprendan nudos, conozcan el parque y trabajen en equipo». ¿Qué le dirías?",
             "options": [
-              "Está repartida en las cinco hojas de consulta por rama del mismo archivo, que juntas traen la malla.",
-              "No viene en el archivo: la malla completa se publica aparte, como el documento Competencias Educativas.",
-              "No está: se retiró del archivo cuando el Modelo reemplazó las competencias por objetivos educativos."
+              "Que lo deje así: es ambicioso pero honesto, y la conducta observable ya se encargará de concretarlo.",
+              "Que elija una sola de esas cosas: el objetivo es un propósito en una frase, no un listado de deseos.",
+              "Que lo pase entero a la columna «Actividad» de la Hoja de Ruta, que es donde se escribe lo que va a pasar."
             ],
             "correctIndex": 1
           }
@@ -678,19 +678,19 @@
             "correctIndex": 1
           },
           {
-            "text": "Al escribir el paso a paso de una actividad, un dirigente pone: «Se hace la fogata y se comparten experiencias». ¿Qué le exige el instrumento que no cumplió?",
+            "text": "Un jefe de Tropa escribe en el paso a paso: «20 min: los guías reparten el mapa a su patrulla. 40 min: búsqueda del tesoro por el parque. 10 min: cierre». Otra jefa lo toma para su Tropa. ¿Qué le va a faltar primero?",
             "options": [
-              "Que indique el ambiente de referencia del ciclo antes de describir cualquier momento de la actividad.",
-              "Que remita a la Hoja de Ruta, donde el guion de la reunión ya describe esa fogata por momentos.",
-              "Que se vea qué sucede, quién interviene y qué elementos se usan, con tiempos aproximados."
+              "Los elementos: no dice qué mapa, qué pistas ni qué tesoro, y sin eso no puede montar la búsqueda.",
+              "Los tiempos: con tramos de 20 y 40 minutos la actividad queda demasiado suelta para poder seguirla.",
+              "El ambiente: si cada tramo no repite el ambiente de referencia del ciclo, el paso a paso no le sirve."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           },
           {
             "text": "Un jefe de Comunidad pone en la Hoja de Ruta del sábado «Parque Simón Bolívar, entrada de la calle 63», y en la Ficha de la actividad, en «Lugar sugerido», escribe «parque con zona arbolada». Un compañero le dice que se contradice. ¿Cómo lo ves?",
             "options": [
-              "Tiene razón el compañero: si la Ficha es del Movimiento, la Hoja de Ruta también debe ir en genérico.",
-              "No se contradice, pero la Ficha mejoraría con el sitio exacto: así otro sabe que el lugar funciona.",
+              "Se contradice: si la Ficha es del Movimiento, la Hoja de Ruta también debe ir en genérico, sin la calle.",
+              "Se contradice a medias: la Ficha mejoraría con el sitio exacto, para que otro sepa que el lugar funciona.",
               "No se contradice: la Hoja de Ruta sitúa esta reunión; la Ficha se escribe para que otro la use en otra ciudad."
             ],
             "correctIndex": 2
@@ -826,13 +826,13 @@
             "correctIndex": 1
           },
           {
-            "text": "Una Comunidad tendrá una reunión en línea con una bióloga invitada que no es del Movimiento. ¿Qué pide la hoja respecto a ella?",
+            "text": "En la matriz de un campamento, la fogata grande de la noche queda con probabilidad 4 y consecuencia 4. ¿Qué hace el equipo?",
             "options": [
-              "Que figure como adulta externa; el curso Estar Seguro en Línea solo se les exige a los dirigentes del grupo.",
-              "Nada adicional: con el acompañamiento parental de los protagonistas, una invitada externa queda cubierta.",
-              "Que haya hecho el curso Estar Seguro en Línea, igual que todos los demás adultos presentes en la reunión."
+              "Mantenerla con un adulto asignado a la fogata toda la noche y un extintor a mano, y seguir con el plan.",
+              "Cambiar la actividad como está planteada: con 16 queda en crítico, y así no se hace aunque haya medidas.",
+              "Bajar la consecuencia a 3, porque habrá botiquín y enfermera, para que quede en alto y se pueda hacer."
             ],
-            "correctIndex": 2
+            "correctIndex": 1
           }
         ]
       }
@@ -854,7 +854,7 @@
         {
           "type": "policy-quote",
           "label": "📋 El instrumento se explica a sí mismo",
-          "source": "Planeación de Reunión y Oportunidades de Aprendizaje (DNPJ-2026-020), comentario del bloque Evaluación en la Ficha de Oportunidad de Aprendizaje.",
+          "source": "Planeación de Reunión y Oportunidades de Aprendizaje (DNPJ-2026-020), comentario del bloque Evaluación en la Ficha de Oportunidad de Aprendizaje (corregimos dos erratas de tecleo del original).",
           "text": "¿La evaluación al inicio? ¡Sí! Aunque la evaluación de una actividad educativa se diligencia una vez finaliza su implementación, hemos destinado el espacio de evaluación al inicio de la misma para que recuerdes que es algo importante; así mismo, en algunos meses, o quizá años, cuando revises esta ficha de actividad, lo primero que encontrarás serán las impresiones que tú, u otros dirigentes, tuvieron al llevar a cabo esta actividad educativa."
         },
         {
@@ -923,13 +923,13 @@
         "nextLabel": "Continuar a tus herramientas 🧰",
         "questions": [
           {
-            "text": "Tu grupo guarda tres años de fichas en una carpeta compartida. Un dirigente nuevo entra a buscar algo para un sábado lluvioso. ¿Qué le resuelve que la evaluación esté arriba?",
+            "text": "Al terminar una salida, la jefa de Tropa puntúa en la Ficha los trece criterios, pero deja vacía la evaluación cualitativa: «los números ya lo dicen todo». ¿Qué pierde quien abra esa ficha dentro de dos años?",
             "options": [
-              "Que lo primero que lea sea si la actividad funcionó, antes de decidir si sigue leyendo.",
-              "Que sepa de entrada qué materiales necesita, que es lo que más cuesta conseguir a última hora.",
-              "Que vea primero el objetivo y la competencia, y así decida si la actividad encaja con su ciclo."
+              "Nada importante: la suma automática de los trece criterios le dice de un vistazo si la actividad valió la pena.",
+              "Las recomendaciones: qué cambiar, cómo funcionaron los materiales, qué haría distinto. Eso no cabe en un número.",
+              "La parte de DURASLID: esos atributos solo se evalúan con texto libre, porque no tienen casilla con puntaje."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
           },
           {
             "text": "Al cerrar una salida, una jefa de Tropa pregunta a las patrullas: «¿les gustó?». Todos dicen que sí y ahí termina. ¿Qué se perdió?",
@@ -999,11 +999,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Ya sabes mirar lo que ocurre en la reunión —Curso 13— y decidir la reunión antes de que ocurra —este—. Falta la pregunta grande: <strong>¿de dónde salen las reuniones?</strong> No de la ocurrencia del miércoles, sino de un proyecto que la unidad eligió y sostiene durante meses. Eso es el <strong>ciclo de programa</strong>, y es el <strong>Curso 15</strong>, el último de los tres operativos, y <strong>ya está disponible</strong>: son unos 50 minutos y con él cierras el Nivel 2."
+          "text": "Ya sabes mirar lo que ocurre en la reunión —Curso 13— y decidir la reunión antes de que ocurra —este—. Falta la pregunta grande: <strong>¿de dónde salen las reuniones?</strong> No de la ocurrencia del miércoles, sino de un proyecto que la unidad eligió y sostiene durante meses. Eso es el <strong>ciclo de programa</strong>, y es el <strong>Curso 15</strong>, el último de los tres operativos, y <strong>ya está disponible</strong>: con él cierras el Nivel 2."
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y en tu rama.</strong> <strong>Familia:</strong> una Hoja de Ruta por reunión y una Ficha por ciclo basta para empezar. <strong>Manada:</strong> una Ficha por actividad grande, y reusa las de los ciclos anteriores. <strong>Tropa:</strong> una Ficha por actividad de patrulla, escritas por los guías con tu revisión. <strong>Comunidad:</strong> cada equipo llena la suya y el Congreso de Comunidad las junta. <strong>Clan:</strong> la ficha es del rover que propone; tú solo apareces en «adultos requeridos» si haces falta."
+          "text": "🌿 <strong>Y en tu rama.</strong> <strong>Familia:</strong> una Hoja de Ruta por reunión y una Ficha por ciclo basta para empezar. <strong>Manada:</strong> una Ficha por actividad grande, y reusa las de los ciclos anteriores. <strong>Tropa:</strong> una Ficha por actividad de patrulla, escritas por los guías con tu revisión. <strong>Comunidad:</strong> cada equipo llena la suya y el Congreso de Comunidad las junta. <strong>Clan:</strong> la ficha es del rover que propone; tú figuras en «adultos requeridos» como el que acompaña: siempre presente, cada vez más discreto."
         },
         {
           "type": "info-box",
@@ -1022,13 +1022,13 @@
         "nextLabel": "Finalizar el curso ⭐",
         "questions": [
           {
-            "text": "Un dirigente prefiere la herramienta interactiva porque le resulta más cómoda que el Excel. ¿Qué tiene que compensar por su cuenta?",
+            "text": "Un jefe de Manada planea con la herramienta interactiva: guion, riesgo, adultos y materiales completos. La actividad central es la misma carrera de relevos de los últimos tres sábados. ¿Qué le señalas?",
             "options": [
-              "El bloque de gestión del riesgo, que la versión interactiva no incorpora en su flujo de trabajo.",
-              "La lista de competencias por rama, que en esa versión hay que escribir siempre a mano.",
-              "El filtro DURASLID, que esa versión no incluye y que decide si la idea entra al plan."
+              "Que la pase por el tablero de ocho preguntas: la interactiva no lo trae, y repetida cuatro veces no desafía.",
+              "Que la copie al Excel antes de usarla, porque la herramienta interactiva no tiene valor oficial en el Grupo.",
+              "Que está lista: si la herramienta no pide DURASLID, es que en reuniones de rutina no hace falta aplicarlo."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           },
           {
             "text": "Diana llenó la Hoja de Ruta del sábado y, entusiasmada, escribió una Ficha para cada uno de los cinco momentos de la reunión. ¿Qué le dirías?",

@@ -3,7 +3,7 @@
   "title": "Bienvenida al Programa de Jóvenes",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El primer paso en la Línea Programa de Jóvenes. En ~27 minutos vas a entender qué es realmente el Programa de Jóvenes (y qué no), desarmar los mitos del dirigente nuevo, ubicar las 5 ramas y la documentación marco, y dar tu primer compromiso concreto. Sin tecnicismos, con ejemplos del día a día de una unidad.",
-  "contentVersion": "2026-10-12",
+  "contentVersion": "2026-11-08",
   "icon": "🎒",
   "duration": "27 minutos",
   "level": 1,
@@ -20,11 +20,15 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~27 minutos.</strong> Al final vas a tener claro qué es el Programa de Jóvenes, por qué te aplica a ti <strong>incluso si nunca fuiste scout</strong>, y cuál es tu primer compromiso."
+          "text": "⏱️ <strong>~27 minutos.</strong> Al final vas a tener claro qué es el Programa de Jóvenes, por qué te aplica a ti <strong>incluso si nunca fuiste scout</strong>, y cuál es tu primer compromiso. Cada lección cierra con un mini-quiz de tres preguntas: para seguir hay que acertar las tres, y puedes intentarlo las veces que quieras."
         },
         {
           "type": "paragraph",
           "text": "Te damos la bienvenida. Si estás aquí es porque vas a acompañar a alguien a crecer — y eso, aunque suene sencillo, es de las cosas más importantes que hace el Movimiento. Detrás de cada lobato, scout, nómada o rover que sonríe en una foto, hay un adulto que escogió estar ahí. Hoy esa persona eres tú."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quizás llegaste esperando que te entregaran un manual: qué hacer cada sábado, paso a paso. Y quizás te preocupa no saber lo suficiente. Te adelantamos la idea que sostiene todo este curso: el Programa de Jóvenes no es un libro que se sigue. Es una alianza que se vive entre quien crece y quien acompaña. Y esa alianza la firmas tú, cada reunión, lo nombres así o no."
         },
         {
           "type": "heading",
@@ -139,16 +143,16 @@
         "nextLabel": "Continuar a los 5 mitos 🧨",
         "questions": [
           {
-            "text": "La definición del Programa que la lección cita de la Política Nacional de Programa de Jóvenes (§5.1) marca entre paréntesis un Qué, un Por qué y un Cómo. ¿Qué pone como el Por qué?",
+            "text": "En el consejo de grupo, un dirigente dice: «El Programa de Jóvenes es la guía de actividades de la rama; si la cumplimos completa, estamos haciendo Programa». ¿Qué le responderías, con lo visto en la lección?",
             "options": [
-              "Para alcanzar el propósito del Movimiento Scout.",
-              "Para vivirse a través del Método Scout en cada unidad.",
-              "Para lograr el desarrollo integral del joven."
+              "Que le falta lo principal: el Programa es lo que el joven vive con su adulto al lado; la guía lo orienta.",
+              "Que le sobra la guía: el Programa lo escriben los jóvenes, y el adulto no necesita mirar ningún documento.",
+              "Que depende de la rama: con los pequeños se sigue la guía completa, y con los mayores ya se va adaptando."
             ],
             "correctIndex": 0
           },
           {
-            "text": "Un subjefe de Tropa recibe a una scout nueva: se aprende su nombre, la presenta a su patrulla y le pide a la guía que la integre en el primer juego. Con la aclaración de la lección sobre las flechas, ¿qué está poniendo en juego?",
+            "text": "Un subjefe de Tropa recibe a una scout nueva: se aprende su nombre, la presenta a su patrulla y le pide a la guía que la integre en el primer juego. ¿Qué está poniendo en juego?",
             "options": [
               "Un elemento del Método: la adaptación pedagógica, que nombra una flecha.",
               "Una forma en que el Método se nota, y no un elemento: la progresión personal.",
@@ -157,13 +161,13 @@
             "correctIndex": 2
           },
           {
-            "text": "Una jefa de Manada sabe que los lobatos llegarán agotados de un evento del colegio. Según los ejemplos de la lección de alguien que ya está haciendo Programa, ¿qué hace?",
+            "text": "Un Viejo Lobo preparó un juego de pistas en el parque, pero ese sábado llueve fuerte y solo llegan cuatro lobatos. ¿Qué hace alguien que entiende el Programa como alianza?",
             "options": [
-              "Ajusta la fecha: suspende la reunión de ese sábado y la repone la otra semana.",
-              "Ajusta la reunión: cambia el orden y deja para después lo más exigente.",
-              "Mantiene el plan como estaba: si lo cambia cada vez, la Manada pierde su rutina."
+              "Juega con los cuatro una versión corta bajo techo y les pregunta qué parte guardar para cuando estén todos.",
+              "Hace el juego tal cual, bajo la lluvia: lo planeado se cumple, y así los lobatos aprenden a ser constantes.",
+              "Llama a las familias para recogerlos y lo deja para el sábado siguiente, cuando llegue la Manada completa."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -198,7 +202,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La guía es una orientación, no una receta. El Modelo de Aplicación 2026 insiste: la alianza es con el grupo concreto que tienes al frente, en su territorio, con sus historias y sus preguntas. La guía te da el norte: lo que se busca en tu rama y cómo funciona ahí el Método. Con los jóvenes lo aterrizan: qué actividad, cuándo, dónde, con quién y para qué aquí."
+          "text": "La guía es una orientación, no una receta. El Modelo de Aplicación 2026 insiste en pensar todo para el grupo concreto que tienes al frente, en su territorio, con sus historias y sus preguntas. La guía te da el norte: lo que se busca en tu rama y cómo funciona ahí el Método. Con los jóvenes lo aterrizan: qué actividad, cuándo, dónde, con quién y para qué aquí."
         },
         {
           "type": "heading",
@@ -207,7 +211,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El Programa no entretiene, <strong>educa</strong>. Una reunión donde los chicos se rieron mucho pero no aprendieron nada, no se conocieron mejor y no avanzaron en ninguna área de crecimiento, fue una linda fiesta, no una reunión scout. El filtro <strong>DURASLID</strong> (desafiante, útil, recompensante, atractiva, segura, lúdica, inclusiva, diversa) está para evitar reuniones que solo cumplan una o dos de las ocho."
+          "text": "El Programa no entretiene, <strong>educa</strong>. Una reunión donde los chicos se rieron mucho pero no aprendieron nada, no se conocieron mejor y no avanzaron en ninguna área de crecimiento, fue una linda fiesta, no una reunión scout. Para eso hay un filtro de ocho cualidades de una buena actividad, el <strong>DURASLID</strong> (desafiante, útil, recompensante, atractiva, segura, lúdica, inclusiva y diversa); lo vas a usar en el Curso 6. Por ahora, quédate con la pregunta: ¿esta actividad, además de divertir, le deja algo al joven?"
         },
         {
           "type": "heading",
@@ -225,7 +229,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Claro que se hace por amor — Baden-Powell lo dijo en 1922, lo verás en el próximo curso. <strong>Y</strong> justo porque se hace por amor, exige más estructura, no menos. La protección del joven (<em>A Salvo del Peligro</em>, la política de protección de la Asociación), la planeación de la reunión, el seguimiento de la progresión, los protocolos de actividad: todo eso es la forma en que el amor se hace responsable. Amar sin cuidar no es amar; es buena intención. Sus módulos oficiales conviene hacerlos pronto: en el <a href=\"mi-compromiso-programa-jovenes.html\">Curso 7</a>, Lección 5, te decimos dónde están."
+          "text": "Claro que se hace por amor — Baden-Powell lo dijo en 1922, lo verás en el próximo curso. <strong>Y</strong> justo porque se hace por amor, exige más estructura, no menos. La protección del joven (<em>A Salvo del Peligro</em>, la política de protección de la Asociación), la planeación de la reunión, el seguimiento de la progresión, los protocolos de actividad: todo eso es la forma en que el amor se hace responsable. Amar sin cuidar no es amar; es buena intención. Los módulos oficiales de A Salvo del Peligro conviene hacerlos pronto: en el <a href=\"mi-compromiso-programa-jovenes.html\">Curso 7</a>, Lección 5, te decimos dónde están."
         },
         {
           "type": "info-box",
@@ -233,20 +237,20 @@
         }
       ],
       "reflection": {
-        "prompt": "¿Cuál de los 5 mitos te resonó más como algo que has pensado o has escuchado en tu unidad? Escríbele tu propia refutación, en una o dos frases, con palabras tuyas."
+        "prompt": "Piensa en la última vez que escuchaste (o pensaste) uno de estos mitos en tu unidad: ¿en qué momento fue —una reunión, un consejo, una salida— y quién lo dijo, por su rol? Escribe qué le responderías ahí mismo, en una o dos frases tuyas."
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",
         "nextLabel": "Continuar a tu Programa en una página 🗺️",
         "questions": [
           {
-            "text": "Una mamá acepta apoyar la Manada pero duda: «Nunca fui scout, no sabría ni por dónde empezar». Al responder el Mito 1, la lección dice que no hace falta haber sido scout y enumera lo que sí se necesita. ¿Qué enumera?",
+            "text": "Una mamá acepta apoyar la Manada pero dice: «Nunca fui scout; mejor sigo ayudando con la logística hasta que sepa algo». Con lo que viste del Mito 1, ¿qué le respondes?",
             "options": [
-              "Querer estar, dejarse formar y tener tiempo.",
-              "Querer estar, dejarse formar y respetar la propuesta.",
-              "Querer estar, dejarse formar y tener paciencia."
+              "Que empiece ya en la Manada junto a un dirigente y se inscriba en su formación: esto se aprende caminando.",
+              "Que siga con la logística y, cuando se haya leído con calma las guías de rama, ya entre a la unidad.",
+              "Que no se preocupe por formarse: con cariño y buena voluntad ya tiene todo lo que la Manada necesita."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "En una Tropa, la patrulla quiere organizar un día de juegos en el parque del barrio. Según el rol del adulto que describe la lección, ¿qué hace su dirigente?",
@@ -320,7 +324,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Tu rol como dirigente está en una de estas ramas. Pero todo el grupo —desde la familia más chiquita hasta el clan— forma un solo recorrido educativo. Lo que un cachorro vive a los 5 años lo prepara para la travesía a los 14, y lo que vivió en la tropa lo sostiene en su partida rover a los 20."
+          "text": "Tu rol como dirigente está en una de estas ramas. Pero todo el grupo —desde la familia más chiquita hasta el clan— forma un solo recorrido educativo. Lo que un cachorro vive a los 5 años lo prepara para su paso a la Comunidad, y lo que vivió en la tropa lo sostiene cuando, ya rover, se despide del Clan."
         },
         {
           "type": "heading",
@@ -339,7 +343,7 @@
         },
         {
           "type": "info-box",
-          "text": "Los puedes consultar todos en <a href=\"https://scout.org.co/biblioteca\" target=\"_blank\" rel=\"noopener\">scout.org.co/biblioteca</a>. No tienes que aprendértelos. Solo saber que existen y dónde encontrarlos cuando los necesites. En los Cursos 5 y 6 los vamos a recorrer juntos."
+          "text": "Los puedes consultar todos en <a href=\"https://scout.org.co/biblioteca\" target=\"_blank\" rel=\"noopener\">scout.org.co/biblioteca</a>. No tienes que aprendértelos. Solo saber que existen y dónde encontrarlos cuando los necesites. En los Cursos 5 y 6 los vamos a recorrer juntos. En el Curso 6 vuelves a este mapa, con la Promesa y la Ley de cada rama."
         },
         {
           "type": "policy-quote",
@@ -374,13 +378,13 @@
             "correctIndex": 2
           },
           {
-            "text": "Una subjefe de Tropa busca la guía de dirigente de su rama. Según la lista de documentación marco de la lección, ¿qué documento le corresponde?",
+            "text": "Una dirigente de Comunidad quiere saber qué busca su rama con los nómadas y cómo funciona ahí el Método. Un compañero le dice que se lea la Política Nacional completa. Con el mapa de documentos de la lección, ¿qué le sugieres?",
             "options": [
-              "Ninguna de 2026: la Tropa sigue usando la Guía de Buenas Prácticas de 2023.",
-              "Una guía propia de su rama: la Guía de Dirigente de Tropa (DNPJ 2026).",
-              "Una guía compartida: la Guía de Dirigente de Comunidad (DNPJ 2026)."
+              "Empezar por la Guía de Dirigente de Comunidad, que aterriza eso para su rama, y volver a la Política si la necesita.",
+              "Empezar por las Herramientas de Seguimiento de la Progresión, porque ahí está explicado cómo funciona cada rama.",
+              "Leerse antes los cuatro documentos completos y tomar notas de todos, para no equivocarse con los nómadas."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -413,7 +417,7 @@
             },
             {
               "title": "Scout B — Cuando el Programa funciona como sistema",
-              "description": "Camilo entró a la Tropa a los 11. Su patrulla decidía qué cocinar, cómo armar el campamento, qué proyecto de servicio harían en el barrio. Su dirigente se sentaba con él cada trimestre y le preguntaba qué quería trabajar. A los 14 hizo su Travesía y pasó a Comunidad. A los 22 entró a estudiar trabajo social “porque en los scouts aprendí que se puede cambiar algo en serio”."
+              "description": "Camilo entró a la Tropa a los 11. Su patrulla decidía qué cocinar, cómo armar el campamento, qué proyecto de servicio harían en el barrio. Su dirigente se sentaba con él cada trimestre y le preguntaba qué quería trabajar. Cerca de los 15 vivió su etapa de transición y pasó a la Comunidad. A los 22 entró a estudiar trabajo social “porque en los scouts aprendí que se puede cambiar algo en serio”."
             },
             {
               "title": "Rover C — Cuando el Programa se hace alianza",
@@ -444,7 +448,7 @@
         },
         {
           "type": "info-box",
-          "text": "En el Curso 6 de esta línea vas a recorrer cómo el Modelo de Aplicación 2026 desdobla estas 6 áreas en competencias terminales e intermedias por rama. Hoy solo guarda el mapa."
+          "text": "En el Curso 6 de esta línea vas a recorrer cómo el Modelo de Aplicación 2026 baja estas 6 áreas a competencias: unas terminales, que son la meta de todo el recorrido scout, y otras intermedias, que son los pasos de cada rama. Hoy solo guarda el mapa."
         }
       ],
       "reflection": {
@@ -459,27 +463,27 @@
             "options": [
               "El área de Afectividad: le cuenta a su patrulla cómo se siente con el error.",
               "El área de Sociabilidad: coopera con su patrulla y cumple su parte.",
-              "El área de Carácter: decide por su cuenta y asume lo que le sale mal."
+              "El área de Carácter: se hace cargo de lo suyo y responde por el resultado."
             ],
             "correctIndex": 2
           },
           {
             "text": "Un Viejo Lobo tiene una lobata de 9 años que va a todas las reuniones, se divierte y nunca ha propuesto nada. ¿Qué le conviene hacer ante todo, según lo que le faltó a Mariana?",
             "options": [
-              "Sentarse con su seisena para pedirle que la anime a participar más en los juegos.",
+              "Ponerle cada sábado una tarea fija en la seisena, para que se acostumbre a participar más.",
               "Sentarse con ella a preguntarle qué le gustaría aprender y qué proyecto escoger.",
-              "Hablar con su familia para que en casa la motive a proponer ideas en la Manada."
+              "Dejarla tranquila: si se divierte y viene a todas las reuniones, el Programa ya le está sirviendo."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Un dirigente con experiencia pregunta cómo baja el Modelo de Aplicación 2026 las seis áreas de crecimiento a cada rama. Según la lección, ¿qué le respondes?",
+            "text": "Un dirigente de Manada dice: «Si los chicos vuelven cada sábado contentos, el Programa está funcionando». Con las tres historias de la lección, ¿qué le respondes?",
             "options": [
-              "Las desdobla en objetivos terminales e intermedios por rama.",
-              "Las desdobla en especialidades e insignias propias de cada rama.",
-              "Las desdobla en competencias terminales e intermedias por rama."
+              "Que volver contentos no basta: Mariana iba feliz cada sábado y se fue sin haber escogido nada propio.",
+              "Que tiene razón: si un niño se divierte cada semana, ya está creciendo en todas sus áreas a la vez.",
+              "Que la diversión estorba: Camilo y Sofía crecieron porque sus reuniones eran serias y muy exigentes."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           }
         ]
       }
@@ -546,11 +550,11 @@
         },
         {
           "type": "info-box",
-          "text": "Bienvenido al equipo de los que acompañan. Lo que viene vale el viaje."
+          "text": "Al principio te dijimos que el Programa no es un libro que se sigue, sino una alianza que firmas cada reunión. Tu compromiso de esta semana es tu primera firma. Bienvenido al equipo de los que acompañan."
         }
       ],
       "reflection": {
-        "prompt": "Sin nombres: ¿qué vas a hacer esta semana, y por qué eso muestra que el Programa es una alianza y no un manual? ¿Con quién —otro dirigente, un protagonista o una familia— y qué señal observable te dirá que se cumplió? El compromiso completo escríbelo en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."
+        "prompt": "Sin nombres: ¿qué idea de este curso te cambió más la forma de ver tu papel en la unidad, y en qué momento de tu próxima reunión crees que se va a notar? (El compromiso concreto —qué, con quién por su rol y la señal— escríbelo solo en el recuadro «Compromiso Personal» junto a tu certificado: ese se queda en tu navegador.)"
       },
       "quiz": {
         "title": "Mini-quiz Lección 6",
@@ -568,18 +572,18 @@
           {
             "text": "Un dirigente de Clan escribe: «Este mes voy a acompañar a cada rover a armar su plan de progresión, con los cinco del Clan. Señal: que los cinco tengan su plan escrito». Según la lección, ¿qué ajuste le sugieres?",
             "options": [
-              "Que lo amarre: una fecha de entrega y la firma de cada familia como señal.",
+              "Que lo cambie: mejor una charla para el Clan sobre por qué importa la progresión.",
               "Que lo achique: un rover, esta semana, y como señal su plan empezado.",
               "Que lo amplíe: un plan común para todo el Clan, con su fecha de entrega."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Una dirigente termina esta bienvenida y quiere saber qué sigue. Según «Lo que viene», ¿de qué trata el Curso 2 de la línea?",
+            "text": "Una dirigente escribió un compromiso chico: dejar que la patrulla escogiera el juego. Llovió, se suspendió la salida y no lo cumplió. ¿Qué le conviene hacer ahora?",
             "options": [
-              "De la Educación por el Amor: la apuesta de Baden-Powell.",
-              "Del Método Scout y sus ocho elementos, uno por uno.",
-              "De las Características Esenciales del Movimiento Scout."
+              "Repetirlo en la próxima reunión, igual de chico, y anotar qué la frenó esta vez para preverlo.",
+              "Cambiarlo por uno más ambicioso para todo el trimestre, y así compensar la semana que se perdió.",
+              "Esperar a terminar el Nivel 1 completo, para comprometerse luego con algo mejor preparado."
             ],
             "correctIndex": 0
           }

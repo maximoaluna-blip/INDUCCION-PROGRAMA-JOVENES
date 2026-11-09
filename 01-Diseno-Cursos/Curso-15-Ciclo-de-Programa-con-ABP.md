@@ -51,7 +51,7 @@ Y el problema es más grande de lo que esa frase sugiere: **no son dos textos, s
 | **d. Presentación pública** | **— no existe** |
 | e. Evaluación y transferencia | Momento 4 — evaluación |
 
-**Ese cuarto momento —el que sobra en la cuenta de las Guías— es exactamente lo que ABP le añade al ciclo de siempre.** (**Cuarto**, no quinto: en el *Modelo* §11.2 el quinto es *evaluación y transferencia*. El diseño lo llamó «quinto» en tres sitios y lo corrigió su auditoría doctrinal, hallazgo **M1**.) No es un trámite extra: el propio *Modelo* titula su §11.2 «El Ciclo de Programa **amalgamado con** ABP». Eso es el hook, la tesis y la razón de ser del curso.
+**Ese cuarto momento —el que le falta a la cuenta de las Guías— es exactamente lo que ABP le añade al ciclo de siempre.** (**Cuarto**, no quinto: en el *Modelo* §11.2 el quinto es *evaluación y transferencia*. El diseño lo llamó «quinto» en tres sitios y lo corrigió su auditoría doctrinal, hallazgo **M1**.) No es un trámite extra: el propio *Modelo* titula su §11.2 «El Ciclo de Programa **amalgamado con** ABP». Eso es el hook, la tesis y la razón de ser del curso.
 
 ### Lo que este curso NO puede decir
 

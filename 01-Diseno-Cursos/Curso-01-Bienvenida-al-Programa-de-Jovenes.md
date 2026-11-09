@@ -66,8 +66,9 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
 
 **Secciones (en orden):**
 
-1. **`info-box`** — Tiempo estimado del curso (~27 min) y promesa concreta: _"Al final vas a tener claro qué es el Programa de Jóvenes, por qué te aplica a ti incluso si nunca fuiste scout, y cuál es tu primer compromiso."_
+1. **`info-box`** — Tiempo estimado del curso (~27 min) y promesa concreta: _"Al final vas a tener claro qué es el Programa de Jóvenes, por qué te aplica a ti incluso si nunca fuiste scout, y cuál es tu primer compromiso. Cada lección cierra con un mini-quiz de tres preguntas: para seguir hay que acertar las tres, y puedes intentarlo las veces que quieras."_
 2. **`paragraph`** — Saludo cálido en segunda persona. Reconocimiento del lugar del dirigente en el Movimiento. Mensaje: detrás de cada lobato, scout, nómada o rover que sonríe en una foto, hay un adulto que escogió estar ahí. Hoy esa persona eres tú.
+2-bis. **`paragraph`** — Hook enunciado (reauditoría pedagógica 08/11/2026, M1): _"Quizás llegaste esperando que te entregaran un manual: qué hacer cada sábado, paso a paso. Y quizás te preocupa no saber lo suficiente. Te adelantamos la idea que sostiene todo este curso: el Programa de Jóvenes no es un libro que se sigue. Es una alianza que se vive entre quien crece y quien acompaña. Y esa alianza la firmas tú, cada reunión, lo nombres así o no."_
 3. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 4. **`list`** — Las 5 ideas centrales que verá (una por lección 2–6):
     - Qué es realmente el Programa de Jóvenes (y qué no es).
@@ -142,16 +143,16 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 3. **`heading` (nivel 3)** — _"Mito 1 — 'Yo no fui scout, no estoy en capacidad de hacer esto'"_
 4. **`paragraph`** — Refutación: el escultismo se aprende caminando, no se hereda. Muchos de los mejores dirigentes nunca fueron protagonistas de niños. Lo que sí necesitas es: querer estar, dejarte formar y respetar la propuesta. El resto se aprende junto a otros dirigentes y al lado de los propios jóvenes. La Política Nacional de Adultos en el Movimiento existe precisamente para formarte paso a paso.
 5. **`heading` (nivel 3)** — _"Mito 2 — 'Hacer Programa es seguir la guía oficial al pie de la letra'"_
-6. **`paragraph`** — Refutación: la guía es una orientación, no una receta. El Modelo de Aplicación 2026 insiste: la alianza es con el grupo concreto que tienes al frente, en su territorio, con sus historias y sus preguntas. La guía te da el norte: lo que se busca en tu rama y cómo funciona ahí el Método. Con los jóvenes lo aterrizan: qué actividad, cuándo, dónde, con quién y para qué aquí.
+6. **`paragraph`** — Refutación: la guía es una orientación, no una receta. El Modelo de Aplicación 2026 insiste en pensar todo para el grupo concreto que tienes al frente, en su territorio, con sus historias y sus preguntas. La guía te da el norte: lo que se busca en tu rama y cómo funciona ahí el Método. Con los jóvenes lo aterrizan: qué actividad, cuándo, dónde, con quién y para qué aquí.
 7. **`heading` (nivel 3)** — _"Mito 3 — 'A los chicos hay que entretenerlos'"_
-8. **`paragraph`** — Refutación: el Programa no entretiene, **educa**. Una reunión donde los chicos se rieron mucho pero no aprendieron nada, no se conocieron mejor, no avanzaron en ninguna área de crecimiento — fue una linda fiesta, no una reunión scout. El filtro **DURASLID** (desafiante, útil, recompensante, atractiva, segura, lúdica, inclusiva, diversa) está para evitar reuniones que solo cumplan una o dos de las ocho.
+8. **`paragraph`** — Refutación: el Programa no entretiene, **educa**. Una reunión donde los chicos se rieron mucho pero no aprendieron nada, no se conocieron mejor, no avanzaron en ninguna área de crecimiento — fue una linda fiesta, no una reunión scout. Para eso hay un filtro de ocho cualidades de una buena actividad, el **DURASLID** (desafiante, útil, recompensante, atractiva, segura, lúdica, inclusiva y diversa); lo vas a usar en el Curso 6. Por ahora, quédate con la pregunta: ¿esta actividad, además de divertir, le deja algo al joven?
 9. **`heading` (nivel 3)** — _"Mito 4 — 'Los jóvenes deciden cuando yo se los permito'"_
 10. **`paragraph`** — Refutación: la PNPJ es radical en esto. El Movimiento Scout es **de los jóvenes, por los jóvenes y con los jóvenes — no solamente para ellos**, apoyado por adultos. No al revés. Tu rol es **apoyar, acompañar y enlazar** —no dirigir—. Si los jóvenes solo deciden lo que tú permites, no estás aplicando el Método, estás aplicando otra cosa que se le parece pero no lo es.
 11. **`heading` (nivel 3)** — _"Mito 5 — 'Esto se hace por amor, así que no necesita estructura'"_
 12. **`paragraph`** — Refutación: claro que se hace por amor — Baden-Powell lo dijo en 1922, lo verás en el próximo curso. **Y** justo porque se hace por amor, exige más estructura, no menos. La protección del joven (A Salvo del Peligro), la planeación de la reunión, el seguimiento de la progresión, los protocolos de actividad — todo eso es la forma en que el amor se hace responsable. Amar sin cuidar no es amar; es buena intención.
 13. **`info-box`** — Cierre: _"Si hubo un mito que reconociste como tuyo: bienvenido al club. Ahora lo importante es que ya tienes con qué responderle a quien lo repita —incluso si esa persona eres tú mismo."_
 
-**Reflexión:** _"¿Cuál de los 5 mitos te resonó más como algo que has pensado o has escuchado en tu unidad? Escríbele tu propia refutación, en una o dos frases, con palabras tuyas."_
+**Reflexión:** _"Piensa en la última vez que escuchaste (o pensaste) uno de estos mitos en tu unidad: ¿en qué momento fue —una reunión, un consejo, una salida— y quién lo dijo, por su rol? Escribe qué le responderías ahí mismo, en una o dos frases tuyas."_
 
 **Quiz (2 preguntas):**
 
@@ -182,17 +183,17 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 3. **`method-grid`** — Las 5 ramas con icono y color distintos:
     - 🐻 **Rama Familia — Cachorros (5–6 años)** — Grupo natural: Camadas. Marco simbólico: La Fantasía; su fondo motivador es el Libro de las Tierras Vírgenes — el mismo de la Manada.
     - 🐺 **Rama Manada — Lobatos (7–10 años)** — Grupo natural: Seisenas. Marco simbólico: La Fantasía — el mismo de la Familia (según las Guías de rama; el Modelo de Aplicación los llama Fantasía y Fantasía Expandida); su fondo motivador es el Libro de las Tierras Vírgenes.
-    - ⚜️ **Rama Tropa — Scouts (11–14 años)** — Grupo natural: Patrullas, con su Guía y su Subguía.
+    - ⚜️ **Rama Tropa — Scouts (11–14 años)** — Grupo natural: Patrullas, con su Guía y su Subguía de Patrulla (jóvenes que la patrulla elige).
     - 🧗 **Rama Comunidad — Nómadas Scout (15–17 años)** — Grupo natural: equipos de Comunidad. Marco simbólico: La aventura hacia la ciudadanía.
     - 🏔️ **Rama Clan — Rovers (18–20 años)** — Grupo natural: equipos de proyectos o clubes Rovers. Marco simbólico: La Ciudadanía Activa.
-4. **`paragraph`** — Aplicación: _"Tu rol como dirigente está en una de estas ramas. Pero todo el grupo —desde la familia más chiquita hasta el clan— forma un solo recorrido educativo. Lo que un cachorro vive a los 5 años lo prepara para la travesía a los 14, y lo que vivió en la tropa lo sostiene en su partida rover a los 20."_
+4. **`paragraph`** — Aplicación: _"Tu rol como dirigente está en una de estas ramas. Pero todo el grupo —desde la familia más chiquita hasta el clan— forma un solo recorrido educativo. Lo que un cachorro vive a los 5 años lo prepara para su paso a la Comunidad, y lo que vivió en la tropa lo sostiene cuando, ya rover, se despide del Clan."_
 5. **`heading` (nivel 3)** — _"La documentación marco que rige todo"_
 6. **`list`** — Las 4 normas/documentos marco vigentes:
     - **Política Nacional de Programa de Jóvenes** (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024) — la norma marco del PJ.
     - **Modelo de Aplicación "El Gran Juego para la Vida"** (DNPJ 2026) — el manual pedagógico que aterriza la política al día a día.
     - **Guías de Dirigente por rama** (Familia, Manada, Tropa, Comunidad y Clan — DNPJ 2026).
     - **Recursos Educativos para Dirigentes — Herramientas de Seguimiento para la Progresión Personal 2.0** (DNPJ) — la caja de herramientas evaluativas que usarán todos los dirigentes.
-7. **`info-box`** — _"Los puedes consultar todos en https://scout.org.co/biblioteca · No tienes que aprendértelos. Solo saber que existen y dónde encontrarlos cuando los necesites. En los Cursos 5 y 6 los vamos a recorrer juntos."_
+7. **`info-box`** — _"Los puedes consultar todos en https://scout.org.co/biblioteca · No tienes que aprendértelos. Solo saber que existen y dónde encontrarlos cuando los necesites. En los Cursos 5 y 6 los vamos a recorrer juntos. En el Curso 6 vuelves a este mapa, con la Promesa y la Ley de cada rama."_
 8. **`policy-quote`** — Cita textual de la PNPJ 2024:
     - `text`: _"[E]stá diseñado “por” y “con” los jóvenes, no simplemente “para” ellos… reconociéndolos como los principales agentes de su desarrollo."_
     - `source`: "Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. N° 617 de 2024), §5.2 — Características del Programa de Jóvenes."
@@ -235,7 +236,7 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 3. **`heading` (nivel 3)** — _"Tres historias reales (con detalles cambiados)"_
 4. **`timeline`** — Tres historias breves:
     - **Lobato A — Cuando el Programa es solo entretenimiento.** Mariana llegó a la Manada a los 8 años. Le encantaban los juegos. Estuvo tres años. Su dirigente nunca planeó una reunión pensando en áreas de crecimiento ni hizo seguimiento a su progresión. A los 11 años se fue. _"Era divertido, pero ya me aburrí"_, dijo. Nunca supo que pudo haber escogido sus propios proyectos.
-    - **Scout B — Cuando el Programa funciona como sistema.** Camilo entró a la Tropa a los 11. Su patrulla decidía qué cocinar, cómo armar el campamento, qué proyecto de servicio harían en el barrio. Su dirigente se sentaba con él cada trimestre y le preguntaba qué quería trabajar. A los 14 hizo su Travesía y pasó a Comunidad. A los 22 entró a estudiar trabajo social _"porque en los scouts aprendí que se puede cambiar algo en serio"_.
+    - **Scout B — Cuando el Programa funciona como sistema.** Camilo entró a la Tropa a los 11. Su patrulla decidía qué cocinar, cómo armar el campamento, qué proyecto de servicio harían en el barrio. Su dirigente se sentaba con él cada trimestre y le preguntaba qué quería trabajar. Cerca de los 15 vivió su etapa de transición y pasó a la Comunidad. A los 22 entró a estudiar trabajo social _"porque en los scouts aprendí que se puede cambiar algo en serio"_.
     - **Rover C — Cuando el Programa se hace alianza.** Sofía entró a Clan a los 18. Su dirigente nunca le dijo qué hacer; le hizo preguntas. Sofía propuso, se equivocó, ajustó, lideró un proyecto de paz con un colegio rural. A los 20 hizo su Partida Rover. Hoy, a los 28, dirige el equipo regional de jóvenes y forma a otros dirigentes. _"Lo que aprendí en el Clan no me lo enseñó nadie — lo viví."_
 5. **`paragraph`** — Síntesis: _"El Programa no es un fin en sí mismo. Es la condición silenciosa para que la experiencia scout transforme la vida del protagonista."_
 6. **`heading` (nivel 3)** — _"Las 6 áreas de crecimiento"_
@@ -246,7 +247,7 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
     - **Afectividad** — que reconozca, exprese y regule sus emociones.
     - **Sociabilidad** — que conviva, coopere, sirva y ejerza ciudadanía.
     - **Espiritualidad** — que se haga preguntas grandes y construya sentido.
-8. **`info-box`** — Anuncio: _"En el Curso 6 de esta línea vas a recorrer cómo el Modelo de Aplicación 2026 desdobla estas 6 áreas en competencias terminales e intermedias por rama. Hoy solo guarda el mapa."_
+8. **`info-box`** — Anuncio: _"En el Curso 6 de esta línea vas a recorrer cómo el Modelo de Aplicación 2026 baja estas 6 áreas a competencias: unas terminales, que son la meta de todo el recorrido scout, y otras intermedias, que son los pasos de cada rama. Hoy solo guarda el mapa."_
 
 **Reflexión:** _"De las tres historias, ¿cuál se parece más a algo que has visto o escuchado en un grupo cercano (no necesariamente el tuyo)? Escribe en una frase qué hizo (o no hizo) el adulto, y qué área de crecimiento se vio afectada."_
 
@@ -294,9 +295,9 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
     - 🧭 **Curso 5** — El Método Scout y sus 8 elementos.
     - 📜 **Curso 6** — La PNPJ y "El Gran Juego para la Vida".
     - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes.
-11. **`info-box`** — Despedida: _"Bienvenido al equipo de los que acompañan. Lo que viene vale el viaje."_
+11. **`info-box`** — Despedida con eco del hook: _"Al principio te dijimos que el Programa no es un libro que se sigue, sino una alianza que firmas cada reunión. Tu compromiso de esta semana es tu primera firma. Bienvenido al equipo de los que acompañan."_
 
-**Reflexión:** _"Sin nombres: ¿con quién vas a dar tu primer paso —otro dirigente, un protagonista o una familia— y qué señal observable te dirá que se cumplió? El compromiso completo escríbelo en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."_
+**Reflexión:** _"Sin nombres: ¿qué idea de este curso te cambió más la forma de ver tu papel en la unidad, y en qué momento de tu próxima reunión crees que se va a notar? (El compromiso concreto —qué, con quién por su rol y la señal— escríbelo solo en el recuadro «Compromiso Personal» junto a tu certificado: ese se queda en tu navegador.)"_
 
 **Compromiso Personal** (`commitmentBox`, se queda en el navegador; corrección de privacidad del 02-oct-2026, ADR-117): _"Escribe tu compromiso de esta semana con la plantilla de la Lección 6: qué vas a hacer en tu unidad, con quién (por su rol) y cuál será la señal de que se cumplió."_ — placeholder _"Esta semana, en mi unidad, voy a … Lo voy a hacer con … Y la señal de que se cumplió será …"_
 
@@ -338,7 +339,7 @@ _(Nota de diseño: P2 se reformuló para no repetir el ejemplo del `method-grid`
 - **L3 (Mito 5) → Curso 2:** la mención de "Baden-Powell lo dijo en 1922" abre la puerta al Curso 2 sobre la Educación por el Amor.
 - **L3 (Mito 4) → Curso 3:** la idea "el Movimiento es de los jóvenes y para los jóvenes" remite al Curso 3 sobre Características Esenciales.
 - **L4 → Curso 5:** la mención de PNPJ + Modelo de Aplicación + Guías por rama anuncia el corazón documental del Curso 5.
-- **L5 → Curso 5:** las 6 áreas de crecimiento se enuncian aquí y se aterrizan en el Curso 5 con sus competencias terminales e intermedias por rama.
+- **L5 → Curso 6:** las 6 áreas de crecimiento se enuncian aquí y se aterrizan en el Curso 6 con sus competencias terminales para todo el recorrido e intermedias para cada rama.
 - **L6 → Curso 6:** el compromiso escrito sirve de input al Plan Personal del Dirigente que construirá el Curso 6 con `plan-builder`.
 
 ### 6.2 Cross-línea con la Línea Política de Adultos

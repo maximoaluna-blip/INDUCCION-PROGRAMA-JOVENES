@@ -21,7 +21,7 @@
 | Audiencia primaria | Dirigentes que acompañan (o van a acompañar) la rama Manada, y Asistentes de la unidad (7–10 años). |
 | Recomendado antes | Ninguno es obligatorio. Para aprovechar mejor el curso: Nivel 1 completo (Cursos 1–6) y, en paralelo, el Curso 25 — A Salvo del Peligro. |
 | Logro final | "Guardián de la Selva" |
-| `contentVersion` | `2026-09-16` |
+| `contentVersion` | `2026-11-08` |
 
 ---
 
@@ -72,13 +72,13 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 **Secciones (en orden):**
 
 1. **`info-box`** — Tiempo estimado (~35 min) y promesa concreta: _"Al final de este curso vas a poder hablar el idioma de la Selva, organizar tu Manada en seisenas sin jerarquías fijas, acompañar la progresión de un lobato por sus seis Sendas, y entender qué significa ser Viejo Lobo: facilitador, no jefe."_
-2. **`paragraph`** — Presentación del protagonista narrativo del curso: _"Vas a conocer a Andrés. Tiene 7 años, acaba de cruzar la Ceremonia de Paso desde la Familia, y en tres años va a hacer su Gran Salto hacia la Tropa. En este curso vas a acompañar su viaje por la Manada — y vas a entender, lección a lección, qué necesita de ti en cada tramo."_
-3. **`paragraph`** — Tensión del hook, adelantada (H4 auditoría pedagógica): _"Es fácil pensar que ser Viejo Lobo es 'dirigir el juego': decidir qué hacen, cómo lo hacen y cuándo. A lo largo de este curso vas a ver por qué esa idea, aunque bienintencionada, le quita a Andrés justamente lo que la Manada existe para darle: la oportunidad de decidir, equivocarse y crecer."_
+2. **`paragraph`** — Presentación del protagonista narrativo del curso: _"Vas a conocer a Andrés. Tiene 7 años, acaba de cruzar la Ceremonia de Paso desde la Familia, y en unos cuatro años va a hacer su Gran Salto hacia la Tropa. En este curso vas a acompañar su viaje por la Manada — y vas a entender, lección a lección, qué necesita de ti en cada tramo."_
+3. **`paragraph`** — Tensión del hook, adelantada (H4 auditoría pedagógica): _"Es fácil pensar que ser Viejo Lobo es 'dirigir el juego': decidir qué hacen, cómo lo hacen y cuándo. A lo largo de este curso vas a ver por qué esa idea, aunque bienintencionada, le quita a Andrés justamente lo que la Manada existe para darle: la oportunidad de decidir, equivocarse y crecer. La idea que te va a acompañar todo el curso cabe en una frase: tú no diriges la Manada; le ofreces el territorio, el símbolo y la confianza, y el rumbo lo marcan ellos."_
 4. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 5. **`list`** — Las 6 ideas centrales que verá (una por lección 2–7):
     - Quién es un lobato de 7 a 10 años y cómo llega a la Manada.
     - El Libro de las Tierras Vírgenes como idioma, no como disfraz.
-    - Las seisenas: cómo se organizan sin líderes fijos.
+    - Las seisenas: cómo se organizan sin líderes fijos y cómo revisar sus actividades con DURASLID.
     - El territorio de la selva y las seis Sendas de la progresión.
     - Qué significa ser Viejo Lobo: facilitador, no jefe.
     - Las ceremonias de la Manada y el Gran Salto hacia la Tropa.
@@ -190,7 +190,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 
 ### 4.5 Lección 4 — 🐺 Las Seisenas: todos aportan, todos crecen (5 min)
 
-**Idea central:** En la Manada de 2026 las seisenas no tienen jefes fijos: el liderazgo rota para que todos vivan guiar y ser guiados.
+**Idea central:** En la Manada de 2026 las seisenas no tienen jefes fijos —el liderazgo rota— y lo que hacen se revisa con un filtro de ocho letras: DURASLID.
 
 **Secciones (en orden):**
 
@@ -200,10 +200,10 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 4. **`paragraph`** — Cuando la Manada se organiza en seisenas —pequeños grupos de aproximadamente seis lobatos— no se fragmenta ni se divide. Adopta una estructura que permite acompañar mejor a cada niño dentro de la experiencia común. La pertenencia real no está en la seisena: está en la Manada. La seisena ayuda a cuidar el bosque; la Manada es el bosque.
 5. **`policy-quote`** — Cita textual sobre el liderazgo en la seisena:
     - `text`: _"En coherencia con esta visión, en la seisena no existen líderes fijos ni jerarquías rígidas entre los niños y las niñas. No se trata de crear pequeñas estructuras de poder, sino de ofrecer oportunidades para que todos desarrollen capacidades. […] Las funciones pueden rotar según la actividad, los intereses o la etapa de progresión."_
-    - `source`: "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 5.2 — Organización, 'Liderazgo: Todos Aportan, Todos Crecen', pp. 26–27."
+    - `source`: "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 5.2 — Organización, 'Liderazgo: Todos Aportan, Todos Crecen', p. 26."
     - `label`: "📋 Ver el criterio oficial sobre liderazgo en la seisena"
 6. **`info-box`** — Reformulación accesible: _"En palabras simples: nadie es 'el líder de la seisena' de forma permanente. Hoy Andrés propone el juego; la próxima semana otro lobato de su seisena reparte las tareas. Todos experimentan guiar y ser guiados."_
-7. **`heading` (nivel 3)** — _"Aprender Haciendo: otro elemento que se vive en la seisena"_
+7. **`heading` (nivel 3)** — _"Lo que la seisena hace: Aprender Haciendo"_
 8. **`paragraph`** — El Aprender Haciendo no es un lema decorativo: es la convicción de que el conocimiento no se recibe pasivamente, sino que se construye en la experiencia, la acción concreta y la reflexión que sigue a cada paso, a cada error y a cada descubrimiento. En la Manada esto se traduce en actividades que Andrés y su seisena viven, se equivocan, y de las que hablan después — no en explicaciones que escuchan sentados.
 9. **`heading` (nivel 3)** — _"El filtro DURASLID"_
 10. **`paragraph`** — Anclaje narrativo (H6 auditoría pedagógica): _"Antes de la próxima aventura de la seisena de Andrés, pásala por estas ocho letras:"_
@@ -335,25 +335,26 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 3. **`heading` (nivel 3)** — _"El círculo: la única formación de la Manada"_
 4. **`paragraph`** — A diferencia de otras ramas, la Manada tiene una sola formación: el círculo, porque representa la unidad y requiere la presencia de todos. No tiene principio ni fin. Se forma en dos pasos: Círculo de Roca y Círculo de Parada — y un detalle que sorprende a muchos dirigentes nuevos: **la Manada nunca se llama con silbato**. El llamado es siempre por voz, reuniendo a los lobatos alrededor de quien convoca.
 5. **`policy-quote`** — Cita textual sobre el llamado sin silbato:
-    - `text`: _"[Los Lobatos se reúnen en] Círculo de Roca alrededor del Dirigente que hace dicho llamado. […] Vale la pena anotar que nunca serán llamados con silbatos […]"_
-    - `source`: "Manual de Presentación y Buen Orden de la Manada (DNPJ), sección sobre el llamado y la formación de Manada."
+    - `text`: _"…proceden a tomar su lugar para formar el Círculo de Roca alrededor del Dirigente que hace dicho llamado. […] nunca serán llamados con silbatos ni mucho menos cuernos o pitos, ya que estos hacen parte de otras ramas."_
+    - `source`: "Manual de Presentación y Buen Orden de la Manada (DNPJ), sección sobre el llamado y la formación de Manada, p. 6."
     - `label`: "📋 Ver el procedimiento oficial del llamado"
-6. **`heading` (nivel 3)** — _"Las ceremonias que marcan el camino"_
-7. **`paragraph`** — Anclaje narrativo (H6 auditoría pedagógica): _"Además de la Ceremonia de Paso que ya vivió Andrés, la Manada marca otros momentos con ceremonias propias:"_
-8. **`list`** — Ceremonias de la Manada (Cap. 6.12):
+6. **`info-box`** — Contraste de términos (H9 auditoría pedagógica 2026-11): _"Ojo con el parecido: el Círculo de Roca es la forma de reunirse; el Consejo de Roca (Lección 6) es el espacio donde los lobatos deciden."_
+7. **`heading` (nivel 3)** — _"Las ceremonias que marcan el camino"_
+8. **`paragraph`** — Anclaje narrativo (H6 auditoría pedagógica): _"Además de la Ceremonia de Paso que ya vivió Andrés, la Manada marca otros momentos con ceremonias propias:"_
+9. **`list`** — Ceremonias de la Manada (Cap. 6.12):
     - **Ceremonia de Paso** — de Familia a Manada (ya vista en la Lección 2).
-    - **Ceremonia de Investidura** — cierra la etapa de «Lobezno»: el niño que no venía de la Familia ingresa oficialmente al Movimiento y a la Manada, y asume su compromiso con símbolos y gestos sencillos.
+    - **Ceremonia de Investidura** — es cuando el lobato hace su Promesa y asume su compromiso con símbolos y gestos sencillos. Para el niño que llegó de fuera, además, cierra su etapa de «Lobezno».
     - **Ceremonia de Progresión Personal** — reconoce el crecimiento y esfuerzo del lobato en sus Sendas, sin comparar con los demás.
     - **El Gran Clamor** — más que una ceremonia en sí, es un elemento ceremonial que refuerza la unidad y da fuerza solemne a momentos como la Investidura y el Gran Salto.
-9. **`heading` (nivel 3)** — _"El Gran Salto: la despedida de Andrés"_
-10. **`paragraph`** — Alrededor de los 10–11 años, cuando el lobato ha recorrido su camino en la Manada, llega el **Gran Salto**: la ceremonia que marca su paso a la siguiente rama, la Tropa. No es solo un trámite administrativo — reconoce el camino recorrido y anima a asumir nuevos retos, cerrando una etapa con gratitud y abriendo otra con ilusión.
-11. **`policy-quote`** — Cita textual del Gran Salto:
+10. **`heading` (nivel 3)** — _"El Gran Salto: la despedida de Andrés"_
+11. **`paragraph`** — Alrededor de los 10–11 años, cuando el lobato ha recorrido su camino en la Manada, llega el **Gran Salto**: la ceremonia que marca su paso a la siguiente rama, la Tropa. No es solo un trámite administrativo — reconoce el camino recorrido y anima a asumir nuevos retos, cerrando una etapa con gratitud y abriendo otra con ilusión.
+12. **`policy-quote`** — Cita textual del Gran Salto:
     - `text`: _"Gran Salto: Marca el paso del Lobato a la siguiente rama. Es una ceremonia cargada de significado, que reconoce el camino recorrido en la Manada y anima a asumir nuevos retos, cerrando una etapa con gratitud y abriendo otra con ilusión."_
     - `source`: "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 6.12 — Ceremonias en la Manada, p. 32."
     - `label`: "📋 Ver la descripción oficial del Gran Salto"
-12. **`info-box`** — Cierre: _"El día que Andrés haga su Gran Salto, la Manada no lo está 'perdiendo'. Le está entregando a la Tropa un scout que ya sabe lo que es pertenecer, esforzarse y ser escuchado. Ese es tu trabajo de tres años, resumido en una ceremonia."_
+13. **`info-box`** — Cierre: _"El día que Andrés haga su Gran Salto, la Manada no lo está 'perdiendo'. Le está entregando a la Tropa un scout que ya sabe lo que es pertenecer, esforzarse y ser escuchado. Ese es tu trabajo de esos años, resumido en una ceremonia."_
 
-**Reflexión:** _"Piensa en el Gran Salto de un lobato próximo a salir de tu Manada (o imagina el de Andrés). ¿Qué te gustaría que ese lobato se lleve, más allá de las insignias? Escríbelo en una frase."_
+**Reflexión:** _"Piensa en el próximo lobato de tu Manada que va a hacer el Gran Salto (sin su nombre: por su edad o su seisena). Escribe un momento concreto de este año que te gustaría reconocerle en su ceremonia —un esfuerzo, una vez que lo escucharon en el Consejo de Roca— y qué vas a hacer de aquí a entonces para que su paso no sea solo un cambio de pañoleta."_
 
 **Quiz (2 preguntas):**
 

@@ -70,8 +70,8 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 
 **Secciones (en orden):**
 
-1. **`info-box`** — Tiempo (~43 min) y promesa: _"Al final vas a poder mirar cualquier reunión scout y decir, con precisión, qué elementos del Método están activos y cuáles no."_
-2. **`paragraph`** — Saludo. Mensaje: este es el curso más largo y más importante del Nivel 1. Tómalo con calma. Cada elemento merece su propio momento.
+1. **`info-box`** — Tiempo (~43 min) y promesa: _"Al final vas a poder mirar varias reuniones de una unidad y decir, con precisión, qué elementos del Método están vivos y cuáles llevan semanas faltando."_
+2. **`paragraph`** — Saludo con hook: _"Te damos la bienvenida. Casi todo dirigente nuevo hace lo mismo: se queda con los elementos del Método que le salen fáciles —el juego, la salida, la Promesa— y deja para después los que le cuestan. Parece razonable. No lo es: el Método Scout no es una lista de ocho técnicas para escoger según el día. Es un sistema. Si una pieza falta semana tras semana, lo que queda ya no es el Método. Tómalo con calma."_
 3. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 4. **`list`** — Las 7 ideas (lecciones 2 a 8):
     - Por qué el Método es un sistema y no una lista.
@@ -93,10 +93,10 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — **Anti-definición**: _"Si abres The Scout Method de la OMMS vas a leer 'sistema de autoeducación progresiva… basado en la interacción de elementos igualmente importantes que funcionan como un sistema cohesivo'. Es exacto: lo aprobó la 41ª Conferencia Scout Mundial en 2017 y la PNPJ 2024 lo adoptó (§4.2, p. 7). Y, si nunca has hecho un curso así, es difícil de digerir en frío. Vamos a llegar a esa frase, pero por el camino aterrizado."_
+2. **`paragraph`** — **Anti-definición**: _"Si abres The Scout Method de la OMMS vas a leer, en inglés, algo así como 'sistema de autoeducación progresiva… basado en la interacción de elementos igualmente importantes que funcionan como un sistema cohesivo'. Es exacto: lo aprobó la 41ª Conferencia Scout Mundial en 2017 y la PNPJ 2024 lo adoptó (§4.2, p. 7). Y, si nunca has hecho un curso así, es difícil de digerir en frío. Vamos a llegar a esa frase, pero por el camino aterrizado."_
 3. **`policy-quote`** — Cita oficial:
     - `text`: _"El Método Scout es un sistema de autoeducación progresiva… basado en la interacción de elementos igualmente importantes que funcionan como un sistema cohesivo."_
-    - `source`: "The Scout Method, OMMS 2019 (Resolución 41 ª Conferencia Scout Mundial 2017-04), p. 14, dos frases unidas — traducción propia del original en inglés. Equivalente vigente en español: Modelo de Aplicación 2026, §3.1, p. 11."
+    - `source`: "The Scout Method, OMMS 2019 (Resolución 41.ª Conferencia Scout Mundial 2017-04), p. 14, dos frases unidas — traducción propia del original en inglés. Equivalente vigente en español: Modelo de Aplicación 2026, §3.1, p. 11."
     - `label`: "📋 Ver la definición oficial"
 4. **`info-box`** — **Reformulación accesible**: _"En palabras simples: el Método Scout es la forma en que el Movimiento educa. Y esa forma no es una lista de técnicas sueltas que tú puedas escoger según el día — es un sistema de 8 piezas que se sostienen mutuamente. Si una de ellas desaparece de tu unidad por semanas, el sistema cojea —y esa combinación equilibrada es lo que hace único al escultismo—. No tienen que verse las ocho en cada reunión, pero sí a lo largo de varias. La definición oficial dice eso mismo, en lenguaje doctrinal."_
 5. **`heading` (nivel 3)** — _"Las palabras clave de la definición"_
@@ -115,9 +115,9 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
     - **Marco Simbólico** — el universo narrativo de cada rama.
     - **Naturaleza** — el entorno educativo privilegiado.
     - **Participación en la Comunidad** — el servicio y la ciudadanía activa.
-9. **`info-box`** — Cita de B-P: _"Para quienes tienen ojos para ver y oídos para oír, el bosque es a la vez un laboratorio, un club y un templo. (B-P, Rovering to Success)"_
+9. **`info-box`** — Puente a la lección siguiente: _"Ahora vamos a recorrerlos en cuatro parejas. Fíjate en cómo cada pareja se sostiene: ninguna funciona sola."_ (la cita de B-P sobre el bosque queda solo en la L6, como `policy-quote`).
 
-**Reflexión:** _"De los 8 elementos, ¿cuáles ya reconoces que se aplican en tu unidad y cuáles te parecen extraños o ausentes?"_
+**Reflexión:** _"Piensa en el último mes de tu unidad (o de la que acompañas). ¿Qué elemento del Método no apareció ni una vez? Describe una actividad concreta de ese mes donde habría cabido, y cómo."_
 
 **Quiz (2 preguntas):**
 
@@ -187,11 +187,12 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
+1-bis. **`paragraph`** — Anclaje: _"Piensa en dos scouts de la misma patrulla que entraron el mismo día. Un año después, uno ya enseña nudos y el otro apenas empieza a animarse a hablar en el consejo. ¿Va atrasado el segundo? No: cada uno va por su propio camino. Eso es la Progresión Personal."_
 2. **`heading` (nivel 3)** — _"Elemento 3 — Progresión Personal"_
 3. **`paragraph`** — _"La PNPJ 2024 lo titula **'Progreso personal'**: es el camino individual de crecimiento del protagonista en las 6 áreas (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad). No es competitiva: cada joven avanza a su ritmo. Se construye con el acompañamiento del **dirigente** (en sus roles de apoyar, acompañar y enlazar), en momentos de conversación y reconocimiento. Se registra en el **Registro de Acompañamiento a la Progresión Personal** (DNPJ-2026-021) y se sostiene con las **Herramientas de Seguimiento 2.0**."_
 4. **`paragraph`** — _"El Modelo de Aplicación 2026 marca **tres niveles** por los que pasa cada competencia educativa, en este orden: **Exploro** (la conozco por primera vez), **Aplico** (la pongo en práctica en situaciones reales), **Profundizo** (ya es parte de mí y la pongo al servicio). No es un examen ni una carrera: en una misma actividad, unos exploran, otros aplican y otros profundizan (p. 25), porque cada joven va a su ritmo."_
 5. **`heading` (nivel 3)** — _"Elemento 4 — Sistema de Equipos"_
-6. **`paragraph`** — _"Los jóvenes no viven el Movimiento en grupo grande; lo viven en **pequeños grupos** donde se sienten conocidos, donde toman decisiones, donde aprenden a liderar entre pares. Cada rama tiene su grupo natural: Camadas (Familia), Seisenas (Manada), Patrullas (Tropa), equipos de Comunidad y de Clan."_
+6. **`paragraph`** — _"En Tropa, Comunidad y Clan, los jóvenes viven el Movimiento sobre todo en **pequeños grupos** donde se sienten conocidos, toman decisiones y aprenden a liderar entre pares. **En Familia y Manada pesa más la unidad completa**: las camadas y las seisenas se arman para ciertas actividades y les ayudan a aprender a escuchar y a turnarse. Cada rama tiene su grupo natural: Camadas (Familia), Seisenas (Manada), Patrullas (Tropa), equipos de Comunidad y de Clan."_
 7. **`method-grid`** — Las 5 ramas y sus grupos naturales (recordatorio del Curso 1):
     - 🐻 Familia → **Camadas**.
     - 🐺 Manada → **Seisenas**.
@@ -201,7 +202,7 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 8. **`paragraph`** — _"En la Tropa, el Sistema de Patrullas es **lo que más claramente distingue al escultismo**: B-P lo llamó 'la característica esencial que diferencia a la educación scout de la que ofrecen todas las demás organizaciones similares' (Orientaciones para la tarea del dirigente scout, 1919, citado en la Guía para dirigentes de la Rama Scout, Oficina Scout Mundial – Región Interamericana, 2ª ed. 2005, p. 59). Una patrulla bien constituida lidera sus propias actividades, planea su comida, organiza su rincón, resuelve sus conflictos. El Jefe de Tropa no manda a las patrullas; trabaja con los Guías de Patrulla."_
 9. **`info-box`** — _"Cuando una unidad opera solo como gran grupo y nunca como pequeños grupos, está rompiendo el Sistema de Equipos. La unidad existe; el Método, no."_
 
-**Reflexión:** _"En tu unidad (o la que acompañas), ¿qué tan bien funciona el pequeño grupo (camada, seisena, patrulla, equipo)? Anota una cosa que ya funciona y una que crees que se puede mejorar."_
+**Reflexión:** _"Recuerda la última actividad de tu unidad en la que el pequeño grupo (camada, seisena, patrulla, equipo) tomó una decisión sin el adulto. ¿Qué decidió? Si no recuerdas ninguna, describe la última vez que un adulto decidió algo que el grupo podía haber decidido."_
 
 **Quiz (2 preguntas):**
 
@@ -238,17 +239,17 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 6. **`heading` (nivel 3)** — _"Elemento 6 — Marco Simbólico"_
 7. **`paragraph`** — _"Es el universo narrativo, los imaginarios y los símbolos propios de cada rama. No es decoración: es el lenguaje con el que la rama vive sus valores. Un lobato no aprende cooperación leyendo un manual; la aprende viviendo el Libro de las Tierras Vírgenes con sus seisenas. Un cachorro aprende fraternidad jugando a ser Hermano de Mowgli."_
 8. **`paragraph`** — Las tres palabras que se confunden: _"**Tres palabras que se confunden todo el tiempo.** El **marco simbólico** es el mundo que la rama habita. El **fondo motivador** es el relato del que saca sus historias. El **ambiente de referencia** es el tono de esas historias."_
-9. **`method-grid`** — Marcos simbólicos por rama (*Modelo* §8.2.2, p. 56):
+9. **`method-grid`** — Marcos simbólicos por rama (*Modelo* §8.2.2, pp. 56–57):
     - 🐻 **Familia (Cachorros)** → **La Fantasía.** Se nutre del *Libro de las Tierras Vírgenes*, sobre todo de *Los Hermanos de Mowgli*, y su tono son los relatos infantiles.
     - 🐺 **Manada (Lobatos)** → **La Fantasía** también, con el mismo relato de fondo. Lo que la distingue es el tono —relatos fantásticos— y los personajes que se reserva.
     - ⚜️ **Tropa (Scouts)** → **La Aventura.**
     - 🧗 **Comunidad (Nómadas Scout)** → **La aventura hacia la ciudadanía**, nutrida por las historias de la humanidad.
     - 🏔️ **Clan (Rovers)** → **La Ciudadanía Activa**, que se vive sirviendo.
 10. **`paragraph`** — _"Familia y Manada comparten el Libro de las Tierras Vírgenes; en Familia se vive sobre todo a través de los Hermanos de Mowgli y los Nombres de Caza."_
-11. **`info-box`** — Discrepancia entre dos fuentes vigentes: _"📝 **Dos documentos vigentes, dos formas de decirlo.** Las Guías de Familia y de Manada dan a las dos ramas el mismo marco, **La Fantasía**. El *Modelo* las distingue: llama a la de Familia **Territorio de la Fantasía** y a la de Manada **Territorio de la Fantasía Expandida**, y nombra los cinco marcos por territorio (§8.2.2, p. 56) — incluido el de la Tropa, que es la única rama sin Guía propia. No lo arreglamos por cuenta propia: lo decimos, como hacemos con el acrónimo DURASLID y con las edades del Rover."_
+11. **`info-box`** — Discrepancia entre dos fuentes vigentes: _"📝 **Dos documentos vigentes, dos formas de decirlo.** Las Guías de Familia y de Manada dan a las dos ramas el mismo marco, **La Fantasía**. El *Modelo* las distingue: llama a la de Familia **Territorio de la Fantasía** y a la de Manada **Territorio de la Fantasía Expandida**, y nombra los cinco marcos por territorio (§8.2.2, pp. 56–57) — incluido el de la Tropa, que es la única rama sin Guía propia. No lo arreglamos por cuenta propia: lo decimos, como hacemos en otros cursos de la línea cuando dos documentos vigentes no coinciden."_
 12. **`info-box`** — _"Un dirigente que ignora o ridiculiza el Marco Simbólico ('eso es de niños'), está cortando el cable principal por el que la rama transmite sus valores. El símbolo es el método. Tómalo en serio aunque te dé pena."_
 
-**Reflexión:** _"¿Qué tan bien usa tu unidad (o la unidad que acompañas) el Marco Simbólico propio de su rama? Anota una práctica simbólica que ya funciona y una que crees que se está perdiendo."_
+**Reflexión:** _"Describe el último momento de una reunión en que se usó el lenguaje o un símbolo propio de la rama (un nombre, una ceremonia, una historia). ¿Cómo reaccionaron los protagonistas? ¿Qué momento de la reunión habría ganado con un toque del marco simbólico?"_
 
 **Quiz (2 preguntas):**
 
@@ -283,7 +284,7 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
     - `label`: "📋 La frase de B-P sobre la naturaleza"
 5. **`paragraph`** — _"La PNPJ 2024 reconoce la Naturaleza como un elemento propio del Método, y es clara: usar la naturaleza 'implica más que actividades realizadas al aire libre… implica el desarrollo de un contacto constructivo con la Naturaleza' (p. 19-20). Y si tu grupo es de ciudad, la PNPJ te da una salida: el elemento también se vive al aire libre en lo que tengas cerca —su ejemplo es hacer pionerismo en una cancha de baloncesto—, siempre que ahí haya algo que aprender (p. 20). Vale la pena preguntarse, honestamente, cuánto de eso está pasando en tu unidad."_
 6. **`heading` (nivel 3)** — _"Elemento 8 — Participación en la Comunidad"_
-7. **`paragraph`** — _"El Movimiento no educa para encerrarse en la unidad. Educa para servir y participar. La Participación en la Comunidad incluye proyectos de servicio en el barrio, articulación con organizaciones locales, ejercicio de ciudadanía en espacios públicos. La PNPJ 2024 lo titula **'Participación comunitaria'**: ayudar a construir un mundo mejor desde la ciudadanía activa, en el **territorio** donde vive: su barrio, su colegio, su comunidad. El Modelo de Aplicación 2026 lo describe como un lugar con cuatro caras: la física (dónde pasa), la simbólica (qué significa), la de las relaciones (con quién) y la transformadora (qué cambia ahí gracias a ellos) — §8.2, p. 53."_
+7. **`paragraph`** — _"El Movimiento no educa para encerrarse en la unidad. Educa para servir y participar. La Participación en la Comunidad incluye proyectos de servicio en el barrio, articulación con organizaciones locales, ejercicio de ciudadanía en espacios públicos. La PNPJ 2024 lo titula **'Participación comunitaria'**: ayudar a construir un mundo mejor desde la ciudadanía activa, en el **territorio** donde vive: su barrio, su colegio, su comunidad. El Modelo de Aplicación 2026 lo describe como un lugar con cuatro caras: la física (dónde pasa), la simbólica (el marco de la rama que le da sentido: para una Comunidad, su aventura hacia la ciudadanía), la de las relaciones (con quién: vecinos, familias, otras organizaciones) y la transformadora (qué cambia ahí gracias a ellos) — §8.2, p. 54."_
 8. **`policy-quote`** — Cita:
     - `text`: _"El servicio no debe verse simplemente como hacer cosas para los demás sino que, a través de la participación, definitivamente implicará hacer cosas con los demás."_
     - `source`: "PNPJ 2024, pp. 22–23."
@@ -317,6 +318,7 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
+1-bis. **`paragraph`** — Anclaje: _"Imagina dos manadas. En una, los lobatos llegan felices, pero nadie sabe qué deberían estar aprendiendo. En la otra, el plan es impecable y los niños llegan como a clase. A las dos les falta algo, y no es lo mismo. Las 4 Dinámicas sirven para ponerle nombre a eso que falta."_
 2. **`paragraph`** — Apertura: _"Los 8 elementos no se aplican uno por uno como una checklist. Se viven simultáneamente. The Scout Method (OMMS 2019, pp. 28-32) las describe como cuatro ingredientes que se necesitan entre sí; en este curso las llamamos **las 4 Dinámicas del Escultismo**. Son la forma en que el Método se hace visible en la vida real de la unidad."_
 3. **`heading` (nivel 3)** — _"Las 4 Dinámicas"_
 4. **`method-grid`** — Las 4 Dinámicas:
@@ -329,7 +331,7 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 7. **`paragraph`** — _"El Modelo de Aplicación 2026 añade un filtro práctico para evaluar la calidad de cada Oportunidad de Aprendizaje: **DURASLID**. Toda actividad debería ser **D**esafiante, **Ú**til, **R**ecompensante, **A**tractiva, **S**egura, **L**údica, **I**nclusiva y **D**iversa. Si una actividad solo cumple 2 o 3 de los 8 atributos, hay algo que ajustar."_
 8. **`info-box`** — _"En el Curso 14 del Nivel 2 —«Planeación de Reuniones y Oportunidades de Aprendizaje»— vas a aprender a planear reuniones aplicando DURASLID con la herramienta oficial Excel DNPJ. Hoy solo guarda el filtro."_
 
-**Reflexión:** _"De las 4 Dinámicas (Competencias Educativas, Oportunidades, Vida en Grupo, Estructura), ¿cuál es la que **mejor** funciona en tu unidad y cuál la que **peor**?"_
+**Reflexión:** _"Elige la Dinámica más floja de tu unidad y escribe la escena de la última reunión que te hace pensar eso. ¿Qué harías distinto en la siguiente?"_
 
 **Quiz (2 preguntas):**
 
@@ -357,17 +359,17 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — Apertura: _"Vas a hacer el ejercicio más importante del Nivel 1. Piensa en tus últimas cuatro reuniones juntas. La PNPJ lo explica con una imagen muy parecida: una instantánea de un día no captura los 8 elementos; un diario en video de varias semanas, sí (p. 8). Vamos a ver qué tan bien integran los 8 elementos."_
-3. **`heading` (nivel 3)** — _"Checklist de los 8 elementos para tus próximas cuatro reuniones"_
+3. **`heading` (nivel 3)** — _"Checklist de los 8 elementos en tus últimas cuatro reuniones"_
 4. **`list`** — 8 preguntas, una por elemento:
     - **Promesa y Ley** — ¿Hay un momento en las cuatro reuniones donde se mencione, se viva o se reconozca la Promesa o algún punto de la Ley?
-    - **Aprender Haciendo** — ¿Los protagonistas van a **hacer** algo, o solo van a **escuchar y mirar**?
+    - **Aprender Haciendo** — ¿Los protagonistas **hicieron** algo, o solo **escucharon y miraron**?
     - **Progresión Personal** — ¿Las cuatro reuniones contemplan observar o registrar avances de algún protagonista en alguna área?
-    - **Sistema de Equipos** — ¿Hay momentos donde el pequeño grupo (camada/seisena/patrulla/equipo) opera por sí mismo, no como gran grupo?
+    - **Sistema de Equipos** — ¿Hay momentos de pequeño grupo (camada o seisena para una actividad; patrulla o equipo con vida propia), no como gran grupo?
     - **Apoyo del Adulto** — ¿El adulto está en rol de Apoyar/Acompañar/Enlazar — o en rol de dirigir y entretener?
     - **Marco Simbólico** — ¿El lenguaje, los símbolos, las ceremonias propias de la rama están presentes?
     - **Naturaleza** — ¿Alguna de las cuatro reuniones busca un contacto con la naturaleza —observar, cuidar, explorar—, aunque sea en un parque o en una plaza con árboles?
     - **Participación en la Comunidad** — ¿Hay algún hilo que vincule las cuatro reuniones con el territorio (familia, barrio, escuela, comunidad)?
-5. **`paragraph`** — _"Si respondiste 'no' o 'no sé' a más de 3 de las 8: tus próximas cuatro reuniones necesitan ajustes. Si fueron entre 1 y 3: escoge uno de esos elementos para tu ajuste. Si respondiste 'sí' a las 8: vas en camino del Método; sigue cuidando que el sistema se mantenga."_
+5. **`paragraph`** — _"Si respondiste "no" o "no sé" a más de 3 de las 8, a tus reuniones les están faltando piezas del sistema: empieza por una. Si fueron entre 1 y 3, escoge uno de esos elementos. Si respondiste "sí" a las 8, vas en camino del Método: escoge el que veas más flojo y cuídalo. En cualquier caso, el ajuste empieza en **tu próxima reunión**, y lo vuelves a mirar dentro de cuatro."_
 6. **`heading` (nivel 3)** — _"Mi ajuste para la próxima reunión"_
 7. **`paragraph`** — Plantilla: _"En mi próxima reunión voy a fortalecer el elemento __________, agregando __________. La señal de que se cumplió será __________."_
 8. **`mission-box`** — _"El Método se aprende aplicándolo. Cada reunión es un ensayo. Si una semana no funciona, ajustas la siguiente. Si una se queda corta en un elemento, lo trabajas en la otra. El sistema es flexible; lo no negociable es seguir integrando los 8."_
@@ -375,7 +377,7 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 10. **`list`** — Mapa:
     - 📜 **Curso 6** — La PNPJ y "El Gran Juego para la Vida": cómo Colombia aterriza el Método al Modelo de Aplicación 2026, las 5 ramas y las 6 áreas de crecimiento.
     - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes: tu compromiso escrito como dirigente.
-11. **`info-box`** — Despedida: _"Bienvenido al equipo de los que aplican el Método con conciencia. Lo que viene vale el viaje."_
+11. **`info-box`** — Despedida: _"Ahora ya lo sabes: no es una lista de ocho técnicas para escoger según el día; es un sistema. Bienvenido al equipo de los que aplican el Método con conciencia."_
 
 **Reflexión:** _"¿Cuántas de las 8 preguntas respondiste con «sí», y qué elemento escogiste fortalecer? Solo el número y el elemento. El ajuste completo escríbelo en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."_
 
@@ -497,4 +499,4 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 
 ---
 
-_Documento de diseño del Curso 4, versión inicial — 28 de mayo de 2026. **Revisión doctrinal del 15 de septiembre de 2026** (`contentVersion` 2026-09-15): se aplicaron las correcciones de la re-auditoría doctrinal — nomenclatura vigente «Competencias Educativas» (Modelo 2026 §3.2, p. 16), citas textuales reancladas a fuente localizable y reencuadre del checklist de la L8 de «una reunión» a «un período» (PNPJ 2024, p. 8). **Segunda vuelta el mismo día** (re-auditoría): «Enlazar» reapuntado hacia fuera del ámbito scout y emparejado con Exploro/Aplico/Profundizo (Modelo 2026 §9.2.1–9.2.3); «competencia» a secas sustituida por «competencia educativa» (GLOSARIO §E-bis / ADR-034); el `label` de la L3 corregido a «la Ley»; marco simbólico de Comunidad según la Guía de Dirigente de Comunidad (PDF 19–21); unidad de tiempo del bloque de la L8 unificada en «cuatro reuniones» (PNPJ 2024, p. 8); y distractores del diseño realineados con el JSON, que es el que compila. Fuente angular: "The Scout Method", OMMS Oficina Scout Mundial 2019 (Resolución 41 ª Conferencia Scout Mundial 2017-04). Validado contra el marco metodológico de la plataforma y la PNPJ 2024 / Modelo de Aplicación 2026. **Tercera revisión doctrinal, 16 de septiembre de 2026** (`contentVersion` 2026-09-16): barrido de marcos simbólicos — la rejilla de la L5 nombra ahora los cinco marcos del *Modelo* §8.2.2, p. 56 (Familia: La Fantasía · Manada: La Fantasía · **Tropa: La Aventura** · Comunidad: La aventura hacia la ciudadanía · Clan: La Ciudadanía Activa), separando marco simbólico de fondo motivador y de ambiente de referencia, con un `info-box` que **cuenta la discrepancia** entre las Guías de Familia (§6.1, p. 35) y de Manada (§6.9, p. 30) y el *Modelo*, sin armonizarla; el quiz de la L5 P2 se rehizo sobre el papel del *Libro de las Tierras Vírgenes* como fondo motivador (el ítem anterior certificaba el error); se restituyó el orden de la cadena de competencias — **terminales** a lo largo de todo el tránsito por el Movimiento, **intermedias** por rama y por edad (*Modelo* §6.3.1, pp. 31-32) —; y la cita de B-P quedó anclada a su documento real, la **Guía para dirigentes de la Rama Scout** (Oficina Scout Mundial – Región Interamericana, 2ª ed., abril 2005), pp. 59 y 166._
+_Documento de diseño del Curso 5, versión inicial — 28 de mayo de 2026. **Revisión doctrinal del 15 de septiembre de 2026** (`contentVersion` 2026-09-15): se aplicaron las correcciones de la re-auditoría doctrinal — nomenclatura vigente «Competencias Educativas» (Modelo 2026 §3.2, p. 16), citas textuales reancladas a fuente localizable y reencuadre del checklist de la L8 de «una reunión» a «un período» (PNPJ 2024, p. 8). **Segunda vuelta el mismo día** (re-auditoría): «Enlazar» reapuntado hacia fuera del ámbito scout y emparejado con Exploro/Aplico/Profundizo (Modelo 2026 §9.2.1–9.2.3); «competencia» a secas sustituida por «competencia educativa» (GLOSARIO §E-bis / ADR-034); el `label` de la L3 corregido a «la Ley»; marco simbólico de Comunidad según la Guía de Dirigente de Comunidad (PDF 19–21); unidad de tiempo del bloque de la L8 unificada en «cuatro reuniones» (PNPJ 2024, p. 8); y distractores del diseño realineados con el JSON, que es el que compila. Fuente angular: "The Scout Method", OMMS Oficina Scout Mundial 2019 (Resolución 41.ª Conferencia Scout Mundial 2017-04). Validado contra el marco metodológico de la plataforma y la PNPJ 2024 / Modelo de Aplicación 2026. **Tercera revisión doctrinal, 16 de septiembre de 2026** (`contentVersion` 2026-09-16): barrido de marcos simbólicos — la rejilla de la L5 nombra ahora los cinco marcos del *Modelo* §8.2.2, p. 56 (Familia: La Fantasía · Manada: La Fantasía · **Tropa: La Aventura** · Comunidad: La aventura hacia la ciudadanía · Clan: La Ciudadanía Activa), separando marco simbólico de fondo motivador y de ambiente de referencia, con un `info-box` que **cuenta la discrepancia** entre las Guías de Familia (§6.1, p. 35) y de Manada (§6.9, p. 30) y el *Modelo*, sin armonizarla; el quiz de la L5 P2 se rehizo sobre el papel del *Libro de las Tierras Vírgenes* como fondo motivador (el ítem anterior certificaba el error); se restituyó el orden de la cadena de competencias — **terminales** a lo largo de todo el tránsito por el Movimiento, **intermedias** por rama y por edad (*Modelo* §6.3.1, pp. 31-32) —; y la cita de B-P quedó anclada a su documento real, la **Guía para dirigentes de la Rama Scout** (Oficina Scout Mundial – Región Interamericana, 2ª ed., abril 2005), pp. 59 y 166._

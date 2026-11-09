@@ -3,7 +3,7 @@
   "title": "Acompañar la Progresión Personal",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Del día que un protagonista llega a tu unidad al día que pasa a la siguiente rama. Cómo recibirlo, dejarlo elegir su camino, ajustar tu papel competencia por competencia, cuidar su ritmo, reconocer lo que aprendió y acompañar su paso — sin que la progresión se vuelva una carrera colectiva. Para todo dirigente de unidad, tenga el cargo que tenga.",
-  "contentVersion": "2026-10-04",
+  "contentVersion": "2026-11-08",
   "icon": "👣",
   "duration": "53 minutos",
   "level": 3,
@@ -81,7 +81,7 @@
           "items": [
             "<strong>Distinguir</strong> las tres etapas de vida en la unidad —adaptación, progresión y transición— y qué te pide cada una.",
             "<strong>Planear</strong> la acogida de quien llega para que su investidura o la renovación de su Promesa culmine una etapa y no sea un trámite.",
-            "<strong>Dejar elegir</strong> a cada protagonista su camino entre las competencias, sin imponerle un orden.",
+            "<strong>Ofrecer</strong> a cada protagonista dos o tres opciones y <strong>acordar</strong> con él su siguiente paso, sin imponerle un orden.",
             "<strong>Ajustar</strong> tu papel competencia por competencia: apoyar, acompañar y enlazar a la misma persona a la vez.",
             "<strong>Sustituir</strong> la comparación por el avance propio de cada uno, y detectar a tiempo lo que no es ritmo sino señal.",
             "<strong>Reconocer</strong> nombrando competencias y evidencias, no acumulando insignias.",
@@ -242,7 +242,7 @@
             "options": [
               "Que en casa le pregunte por lo que vive en su patrulla y por los símbolos que va conociendo.",
               "Que espere a la investidura para involucrarse: en esta etapa le toca al equipo de dirigentes.",
-              "Que la deje en la puerta unas semanas, para que se integre a su patrulla sin apoyarse en ella."
+              "Que la acompañe dentro de las reuniones de su patrulla estas semanas, para explicarle lo que no entiende."
             ],
             "correctIndex": 0
           }
@@ -302,7 +302,7 @@
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y en tu rama, cuánto elige quien lo camina.</strong> La regla es la misma en las cinco; lo que cambia es cuánta elección cabe a cada edad. <strong>Familia:</strong> elegir un juego, proponer una actividad o una regla sencilla ya es elegir. <strong>Manada:</strong> el lobato elige entre distintas actividades que le ofreces. <strong>Tropa:</strong> el scout propone, y su patrulla lo acompaña. <strong>Comunidad:</strong> el nómada diseña su propio camino y te lo presenta. <strong>Clan:</strong> el rover conduce su plan y tú lo acompañas sin fijarle las metas — su Guía lo dice así: el adulto acompañante no debe imponer metas, sino ayudar al joven a descubrirlas."
+          "text": "🌿 <strong>Y en tu rama, cuánto elige quien lo camina.</strong> La regla es la misma en las cinco; lo que cambia es cuánta elección cabe a cada edad. <strong>Familia:</strong> elegir un juego, proponer una actividad o una regla sencilla ya es elegir. <strong>Manada:</strong> el lobato elige entre distintas actividades que le ofreces. <strong>Tropa:</strong> el scout propone, y su patrulla lo acompaña. <strong>Comunidad:</strong> el nómada diseña su propio camino y te lo presenta. <strong>Clan:</strong> el rover conduce su PARCE —su propio plan de progresión— y tú lo acompañas sin fijarle las metas — su Guía lo dice así: el adulto acompañante no debe imponer metas, sino ayudar al joven a descubrirlas."
         }
       ],
       "reflection": {
@@ -403,7 +403,7 @@
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y en tu rama, las fases.</strong> Cada Guía nombra las suyas. <strong>Familia:</strong> son <strong>tres</strong> —Mirada de Raksha, Aullido de Papá Lobo y Fuerza del Cubil—, no las cuatro que menciona el <em>Modelo</em>; en Familia manda su Guía. Además, allí no se trabaja por competencias sino por <strong>cinco dimensiones</strong>, y los niveles se llaman <strong>Reconoce, Expresa y Comparte</strong>. La regla es la misma: el nivel, y tu rol, se miran dimensión por dimensión. <strong>Tropa:</strong> los niveles se llaman <strong>Descubro, Construyo y Conquisto</strong>, y las competencias, territorios. <strong>En las cuatro ramas restantes:</strong> busca sus fases en el capítulo de progresión de tu Guía y en el curso de tu rama. Y así se ve la relación entre las dos cosas: cada Guía define sus fases contando cuántas áreas tiene el protagonista en cada nivel (en Familia cuenta dimensiones; la de Tropa cuenta territorios —o sea, competencias— y, para su fase máxima, las seis Rutas). La fase es un resumen de muchos niveles."
+          "text": "🌿 <strong>Y en tu rama, las fases.</strong> Cada Guía nombra las suyas. <strong>Familia:</strong> son <strong>tres</strong> —Mirada de Raksha, Aullido de Papá Lobo y Fuerza del Cubil—, no las cuatro que menciona el <em>Modelo</em>; en Familia manda su Guía. Además, allí no se trabaja por competencias sino por <strong>cinco dimensiones</strong>, y los niveles se llaman <strong>Reconoce, Expresa y Comparte</strong>. La regla es la misma: el nivel, y tu rol, se miran dimensión por dimensión. <strong>Tropa:</strong> los niveles se llaman <strong>Descubro, Construyo y Conquisto</strong>, y las competencias, territorios. <strong>En Manada, Tropa, Comunidad y Clan:</strong> busca sus fases en el capítulo de progresión de tu Guía y en el curso de tu rama. Y así se ve la relación entre las dos cosas: cada Guía define sus fases contando cuántas áreas tiene el protagonista en cada nivel (en Familia cuenta dimensiones; la de Tropa cuenta territorios —o sea, competencias— y, para su fase máxima, las seis Rutas). La fase es un resumen de muchos niveles."
         }
       ],
       "reflection": {
@@ -490,7 +490,7 @@
         },
         {
           "type": "info-box",
-          "text": "🛡️ <strong>Lo que excede tu papel se remite.</strong> Si lo que notas no es un ritmo distinto sino una señal de que algo le está pasando a un niño o un joven —un cambio brusco, una revelación, una sospecha de riesgo—, no lo resuelves tú solo con una conversación. La conducta que corresponde la enseña <a href=\"https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/02-Plataforma-Web/adulto-garante-entorno-seguro.html\" target=\"_blank\" rel=\"noopener\"><em>El Adulto como Garante: reportar, no investigar</em></a>, de la línea de Políticas Transversales; tu Jefe de Rama y tu Jefe de Grupo tienen que saberlo."
+          "text": "🛡️ <strong>Lo que excede tu papel se remite.</strong> Si lo que notas no es un ritmo distinto sino una señal de que algo le está pasando a un niño o un joven —un cambio brusco, una revelación, una sospecha de riesgo—, no lo resuelves tú solo con una conversación. La conducta que corresponde la enseña <a href=\"https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/02-Plataforma-Web/adulto-garante-entorno-seguro.html\" target=\"_blank\" rel=\"noopener\"><em>El Adulto como Garante: reportar, no investigar</em></a>, de la línea de Políticas Transversales, y el <strong>Curso 25</strong> de esta línea, <em>A Salvo del Peligro aplicado al Programa</em>, la lleva a las actividades de tu unidad. Tu Jefe de Rama y tu Jefe de Grupo tienen que saberlo."
         },
         {
           "type": "paragraph",
@@ -522,7 +522,7 @@
             "options": [
               "Tomarlo como un bajón de ritmo: aflojarle las exigencias de su progresión unas semanas y ver.",
               "Tomarlo como una señal: avisar a su Jefe de Rama y de Grupo, y reportar si hay indicios de riesgo.",
-              "Hablar con su familia y resolverlo con ellos, sin alarmar todavía al resto del equipo."
+              "Preguntarle con detalle qué le pasa y averiguar con sus compañeros, antes de decidir si avisar al equipo."
             ],
             "correctIndex": 1
           },
@@ -569,7 +569,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El <em>Modelo</em> distingue <strong>siete tipos</strong> de reconocimiento, cada uno con su función:"
+          "text": "El <em>Modelo</em> distingue <strong>siete tipos</strong> de reconocimiento, cada uno con su función. No hace falta memorizarlos: sirven para notar cuál estás olvidando."
         },
         {
           "type": "list",
@@ -665,7 +665,7 @@
           "type": "policy-quote",
           "label": "📖 Lo que el Modelo trae de nuevo",
           "source": "Modelo de Aplicación (DNPJ-2026-024), §8.1.3 «Etapa de Transición».",
-          "text": "Uno de los aportes significativos del Modelo de Aplicación… es la incorporación de la Transición como un momento educativo en sí mismo, que conecta las diferentes ramas."
+          "text": "Uno de los aportes significativos del Modelo de Aplicación… es la incorporación de la Transición como un momento educativo en sí mismo, que conecta las diferentes ramas…"
         },
         {
           "type": "heading",
@@ -734,8 +734,19 @@
           "text": "Hernán se sentó con la dirigente de la Tropa y le contó quién era Sofía: su herbario, sus competencias y en qué nivel iba en cada una, lo que todavía le costaba y lo que la entusiasmaba. <strong>Así la Tropa la recibió como alguien que ya venía caminando, no como alguien que empezaba desde cero.</strong> Durante seis meses Sofía compartió actividades con las dos ramas, hasta su Gran Salto. Su mamá estuvo en la ceremonia, y su seisena le preparó un regalo: un herbario nuevo, en blanco."
         },
         {
-          "type": "info-box",
-          "text": "🌿 <strong>Y en tu rama, cómo se llama el paso.</strong> <strong>Familia → Manada:</strong> la etapa <strong>«Cachorro Explorador»</strong>; el paso, al cumplir los 7 años, con hasta tres meses de flexibilidad, solo por razones pedagógicas claras y como excepción, que analizan los Viejos Lobos de Familia y de Manada con el Jefe de Grupo — en Familia manda su Guía. <strong>Manada → Tropa:</strong> la etapa, y la insignia, <strong>«Lobo Solitario»</strong> hacia los diez años y medio, unos seis meses en las dos ramas y la ceremonia del <strong>Gran Salto</strong>. <strong>Tropa → Comunidad:</strong> desde los catorce años y medio, con la insignia de <strong>Viajero del Territorio</strong>. <strong>Comunidad → Clan:</strong> la <strong>Etapa de Transición</strong>, que abre con la insignia de <strong>Ciudadano Scout</strong>, en tres pasos —<strong>Legado, Asentamiento y Ciudadanía</strong>—, entre seis y tres meses antes de los 18. <strong>Clan:</strong> su transición es la partida hacia la vida adulta, según el proyecto de vida de cada rover."
+          "type": "heading",
+          "level": 3,
+          "text": "🌿 Y en tu rama, cómo se llama el paso"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Familia → Manada:</strong> la etapa <strong>«Cachorro Explorador»</strong>; el paso, al cumplir los 7 años, con hasta tres meses de flexibilidad, solo por razones pedagógicas claras y como excepción, que analizan los Viejos Lobos de Familia y de Manada con el Jefe de Grupo — en Familia manda su Guía.",
+            "<strong>Manada → Tropa:</strong> la etapa, y la insignia, <strong>«Lobo Solitario»</strong> hacia los diez años y medio, unos seis meses en las dos ramas y la ceremonia del <strong>Gran Salto</strong>.",
+            "<strong>Tropa → Comunidad:</strong> desde los catorce años y medio, con la insignia de <strong>Viajero del Territorio</strong>.",
+            "<strong>Comunidad → Clan:</strong> la <strong>Etapa de Transición</strong>, que abre con la insignia de <strong>Ciudadano Scout</strong>, en tres pasos —<strong>Legado, Asentamiento y Ciudadanía</strong>—, entre seis y tres meses antes de los 18.",
+            "<strong>Clan:</strong> su transición es la partida hacia la vida adulta, según el proyecto de vida de cada rover."
+          ]
         }
       ],
       "reflection": {
@@ -750,12 +761,12 @@
             "options": [
               "Que empiece a compartir con la Comunidad sin dejar su patrulla, y que dos equipos acompañen el paso.",
               "Que pase a la Comunidad al cierre del ciclo, con todos los de su edad, para no partir el año.",
-              "Que siga en la Tropa sin fecha hasta que él diga que quiere pasar, porque el camino lo elige él."
+              "Que deje ya su patrulla y se integre del todo a la Comunidad, para que no quede dividido entre dos ramas."
             ],
             "correctIndex": 0
           },
           {
-            "text": "Un nómada pasa al Clan. Su despedida en la Comunidad fue emotiva y la ceremonia de paso salió bien, pero en su primer mes los dirigentes del Clan le proponen empezar «desde lo básico». ¿Qué parte de la transición falló?",
+            "text": "Un nómada pasa al Clan. Su despedida en la Comunidad fue emotiva, pero en su primer mes los dirigentes del Clan le proponen empezar «desde lo básico». ¿Qué parte de la transición falló?",
             "options": [
               "La ceremonia de paso, que debió presentarlo mejor ante el Clan que lo recibe.",
               "Su preparación: debió quedarse más tiempo en la Comunidad antes de pasar.",
@@ -767,8 +778,8 @@
             "text": "Una nómada cumple diecisiete años y medio. Le dice a su dirigente que no se siente lista y que prefiere quedarse un año más en la Comunidad. ¿Qué le responde?",
             "options": [
               "Que puede quedarse: la transición no tiene un calendario fijo, y el acompañamiento decide cuándo cruza.",
-              "Que al Clan se entra al cumplir los 18, y que su transición se acompaña desde ahora, a su ritmo.",
-              "Que siga en la Comunidad hasta los 18, y que ese día empiece en el Clan su etapa de transición."
+              "Que al Clan se entra al cumplir los 18: su transición ya empezó, y la van a preparar desde ahora con el equipo del Clan.",
+              "Que pase al Clan ya mismo, si el equipo del Clan la acepta, para que se acostumbre antes de los 18."
             ],
             "correctIndex": 1
           }
@@ -834,7 +845,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El Nivel 3 sigue con el <strong>Curso 18</strong>, el del Comisionado de Programa de Jóvenes, que acompaña desde fuera de la unidad, y con los <strong>Cursos 19 y 20</strong>, pensados para jóvenes en cargos: Consejero Juvenil y la Red de Jóvenes. Cuando se publiquen, los encontrarás en la página de esta línea."
+          "text": "El Nivel 3 sigue con el <strong>Curso 18</strong>, el del Comisionado de Programa de Jóvenes, que acompaña desde fuera de la unidad, y con los <strong>Cursos 19 y 20</strong>, pensados para jóvenes en cargos: Consejero Juvenil y la Red de Jóvenes. Ya están en la página de esta línea."
         },
         {
           "type": "info-box",

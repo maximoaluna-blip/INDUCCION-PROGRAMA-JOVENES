@@ -22,7 +22,7 @@
 
 | Fuente | Qué cubre | Peso |
 |---|---|---|
-| **Guía de Buenas Prácticas para Jefes de Tropa** (DNPJ 2026, **Módulo 1**, 32 pp.) | Edad, presentación y buen orden, elementos de identidad, Sistema de Equipos, progresión y especialidades | **Angular** para lo propio de la rama |
+| **Guía de Buenas Prácticas para Jefes de Tropa** (25-oct-2023, **Módulo 1**, documento de apoyo en revisión, 32 pp.) | Edad, presentación y buen orden, elementos de identidad, Sistema de Equipos, progresión y especialidades | **Angular** para lo propio de la rama |
 | **Modelo de Aplicación 2026** (109 pp.) | Identidad de la rama, marco general | Manda en la estructura de secciones y ramas |
 | **PNPJ 2024** | Promesa y Ley Scout completas | Textos oficiales |
 | ~~Guía para el Dirigente de Tropa **2018**~~ | — | **Referencia histórica. NO se cita como vigente.** |
@@ -55,14 +55,14 @@ La propia Guía de Buenas Prácticas lo dice de sí misma (p. 3): *«una recopil
 | Título | Rama Scouts (Tropa) |
 | Subtítulo | Formación de Adultos Voluntarios — Asociación Scouts de Colombia |
 | Icono | ⚜️ |
-| Duración | **45 minutos** (excede el tope de 40 del CHECKLIST — justificado en el **ADR-046**) |
+| Duración | **48 minutos** (excede el tope de 40 del CHECKLIST — justificado en el **ADR-046**) |
 | Lecciones | 8 (1 intro + 7 de contenido) |
 | Nivel | 2 · `order` 10 · `contentVersion` 2026-09-15 |
 | Audiencia primaria | Jefes y subjefes de Tropa |
 | Recomendado antes | Nivel 1 completo (Cursos 1–7) — **recomendado, no exigido** |
 | Logro final | ⚜️✨ Jefe de Tropa |
 
-**Hilo narrativo:** **Andrés**, el lobato del Curso 8, dio su **Gran Salto** y llega a la Tropa a los 11. A los **catorce y medio** empezará su **paso** hacia la Comunidad — que es donde arrancará el **Curso 11 (Comunidad)**, todavía por construirse. La cadena queda completa: Salomé (Familia) → Andrés (Manada → **Tropa**) → Comunidad.
+**Hilo narrativo:** **Andrés**, el lobato del Curso 8, dio su **Gran Salto** y llega a la Tropa a los 11. A los **catorce y medio** empezará su **paso** hacia la Comunidad — que es donde arrancará el **Curso 11 (Comunidad)**, ya publicado. La cadena queda completa: Salomé (Familia) → Andrés (Manada → **Tropa**) → Comunidad.
 
 ---
 
@@ -107,7 +107,7 @@ El error más común del adulto que pasa de Manada a Tropa es seguir siendo el c
 
 ### 4.2 Lección 1 — 🏕️ Bienvenida a la Tropa (`isIntro: true`)
 
-`info-box` (duración + lo que va a poder hacer) · `paragraph` (Andrés, 11 años, acaba de dar el Gran Salto desde la Manada; a los catorce y medio empieza su paso hacia la Comunidad, cuyo curso todavía está por construirse) · `paragraph` **con el hook textual** y «todo este curso sale de esa frase» · `info-box` anti-definición — la Tropa **no** es «la Manada con niños más grandes», **no** es una unidad militar aunque tenga formaciones y silbatos, **no** es un club de campamentos · `paragraph` (lo que sí es: una unidad con Promesa y Ley completas, gobierno propio y un sistema donde los jóvenes mandan de verdad) · `mission-box` (cada lección termina en algo que probar el sábado, **y cómo funciona el quiz: dos preguntas por lección, hay que acertar las dos, y reintentar no penaliza**).
+`info-box` (duración + lo que va a poder hacer) · `paragraph` (Andrés, 11 años, acaba de dar el Gran Salto desde la Manada; a los catorce y medio empieza su paso hacia la Comunidad, que sigue en el Curso 11) · `paragraph` **con el hook textual** y «todo este curso sale de esa frase» · `info-box` anti-definición — la Tropa **no** es «la Manada con niños más grandes», **no** es una unidad militar aunque tenga formaciones y silbatos, **no** es un club de campamentos · `paragraph` (lo que sí es: una unidad con Promesa y Ley completas, gobierno propio y un sistema donde los jóvenes mandan de verdad) · `mission-box` (cada lección termina en algo que probar el sábado, **y cómo funciona el quiz: dos preguntas por lección, hay que acertar las dos, y reintentar no penaliza**).
 
 ---
 
@@ -151,9 +151,9 @@ El error más común del adulto que pasa de Manada a Tropa es seguir siendo el c
 
 **Idea central:** los símbolos de patrulla no son adorno: son lo que la convierte en un «nosotros».
 
-`info-box` · **`policy-quote`** Guía p. 9 — *«El Espíritu de Patrulla se basa en el sentido de pertenencia y de propiedad que cada Scout sienta por su Propia Patrulla…»* · `paragraph` + **`list` corta** a la vista con los nueve símbolos (Animal de Patrulla, Grito, Lema, Banderín, Canto, Insignia de Patrulla, Libro de Oro, Bordón, Rincón — pp. 9–10) · `paragraph` (**«ninguno lo pone el adulto»** y el estudio serio del animal, p. 9) · **`policy-quote`** plegable con lo que la Guía dice de cada símbolo (pp. 9–10, literal y con elisiones: animal, grito —*«A ningún Scout se le permite usar otra llamada…»*—, lema, banderín, Libro de Oro, rincón, insignia de patrulla) · `heading` «La Tropa también tiene lo suyo» · `paragraph` — **ELEMENTOS DE IDENTIDAD** (Guía, p. 8) en una línea: nombre, bandera, color verde y lema (**lo deciden los Scouts en la Corte de Honor**) · **`policy-quote`** plegable con el texto literal de la p. 8 · `heading` «Los dos órganos de gobierno» · `paragraph` + `info-box` — la Guía (p. 9) nombra el **Consejo de Patrulla** y la **Corte de Honor de la Tropa** como *«dos organismos de gobierno que están basados en la democracia representativa acorde a la necesidad de expresión de esta edad»*. El `info-box` dice primero **lo que sí se sabe** (dónde se eligen los cargos, el libro de actas que firman Guía y Tesorero, las dos decisiones de la Corte de Honor) y después **lo único que falta**: **quién compone cada órgano**. Para ese detalle remite al **Comisionado Regional de Programa de Jóvenes**. **El curso no les inventa reglamento.**
+`info-box` · **`policy-quote`** Guía p. 9 — *«El Espíritu de Patrulla se basa en el sentido de pertenencia y de propiedad que cada Scout sienta por su Propia Patrulla…»* · `paragraph` + **`list` corta** a la vista con los nueve símbolos (Animal de Patrulla, Grito, Lema, Banderín, Canto, Insignia de Patrulla, Libro de Oro, Bordón, Rincón — pp. 9–10) · `paragraph` (**«ninguno lo pone el adulto»** y el estudio serio del animal, p. 9) · **`policy-quote`** plegable con lo que la Guía dice de cada símbolo (pp. 9–10, literal y con elisiones: animal, grito —*«A ningún Scout se le permite usar otra llamada…»*—, lema, banderín, Libro de Oro, rincón, insignia de patrulla) · `heading` «La Tropa también tiene lo suyo» · `paragraph` — **ELEMENTOS DE IDENTIDAD** (Guía, p. 8) en una línea: nombre, bandera, color verde y, si los Scouts así lo deciden en la Corte de Honor, un lema propio (**opcional**, p. 8) · **`policy-quote`** plegable con el texto literal de la p. 8 · `heading` «Los dos órganos de gobierno» · `paragraph` + `info-box` — la Guía (p. 9) nombra el **Consejo de Patrulla** y la **Corte de Honor de la Tropa** como *«dos organismos de gobierno que están basados en la democracia representativa acorde a la necesidad de expresión de esta edad»*. El `info-box` dice primero **lo que sí se sabe** (dónde se eligen los cargos, el libro de actas que firman Guía y Tesorero, las dos decisiones de la Corte de Honor) y después **lo único que falta**: **quién compone cada órgano**. Para ese detalle remite al **Comisionado Regional de Programa de Jóvenes**. **El curso no les inventa reglamento.**
 
-**Reflexión:** ¿tus patrullas tienen rincón propio? Escribe qué necesitarías para que cada una tenga uno el próximo campamento — y con qué cargo de tu equipo de dirigentes lo vas a montar.
+**Reflexión:** ¿tus patrullas tienen rincón propio, o algún símbolo que todavía no hayan construido? Elige uno solo y escribe cómo se lo vas a plantear a los Guías en la próxima Corte de Honor para que cada patrulla lo arme a su manera. Tú pones el espacio, el tiempo y los materiales; ellos deciden cómo queda. Y anota qué vas a hacer si una patrulla lo arma distinto de como tú lo imaginabas. *(Reescrita el 08-11-2026, H2 de la re-auditoría pedagógica: la versión anterior le pedía al adulto montarlo con un cargo de su equipo, contra la tesis de la lección.)*
 
 **Quiz (2):** escenario sobre el animal de patrulla elegido sin conocerlo · escenario sobre un adulto que decide el lema.
 
@@ -163,9 +163,9 @@ El error más común del adulto que pasa de Manada a Tropa es seguir siendo el c
 
 **Idea central:** la formación no es disciplina militar: es el modo de que 30 adolescentes se oigan sin gritar.
 
-`info-box` · `paragraph` (el prejuicio a desarmar: silbatos y formaciones suenan a cuartel) · `heading` «Señales de silbato» · `paragraph` (**Código Morse**: raya = silbido largo, punto = corto y seco) · `list` — ATENCIÓN `_` · LLAMADO A TODA LA TROPA `_. _. _.` · FIRME `_.` · DESCANSAR `._` · GUÍA DE PATRULLA `..._` (Guía, p. 5) · `heading` «Señales de brazo» · `paragraph` (*«generalmente están precedidas de una Señal de Silbato»*; sirven *«para evitar ruidos innecesarios»*) · **`info-box`** — **honestidad sobre la fuente: la Guía no dibuja cuáles son las señales de brazo**, y el curso no se las inventa; remite al Jefe de Grupo o al **Comisionado Regional de Programa de Jóvenes** · `heading` «Las formaciones» · **`policy-quote`** Guía p. 6 — la disposición por patrullas: el **Guía al costado derecho**, los Scouts **en orden de antigüedad**, el **Sub-Guía cierra**, de modo que *«el muchacho que lleva menos tiempo en la Patrulla formará al lado izquierdo del Guía»* · **`info-box`** — el porqué, que es lo que convierte una fila en un gesto de cuidado: *«El Grande Protege al Pequeño»* · `paragraph` (y no es solo para izar bandera: *«Gran parte de la actividad de la Tropa se desarrolla o inicia en una formación»*, p. 5 — ahí se entregan las etapas de progresión y los reconocimientos).
+`info-box` · `paragraph` (el prejuicio a desarmar: silbatos y formaciones suenan a cuartel) · `heading` «Señales de silbato» · `paragraph` (**Código Morse**: raya = silbido largo, punto = corto y seco) · `list` — ATENCIÓN `_` · LLAMADO A TODA LA TROPA `_. _. _.` · FIRME `_.` · DESCANSAR `._` · GUÍA DE PATRULLA `..._` (Guía, p. 5) · `heading` «Señales de brazo» · `paragraph` (*«generalmente están precedidas de una Señal de Silbato»*; sirven *«para evitar ruidos innecesarios»*) · **`info-box`** — **honestidad sobre la fuente: la Guía de 2023 trae dibujadas siete señales de brazo (p. 5) y las formaciones más usadas (p. 6)**; como es documento de apoyo y la Guía de 2026 no las retoma, el curso no las enseña una por una: remite a esa Guía y al Jefe de Grupo para confirmar cuáles usa la Tropa · `heading` «Las formaciones» · **`policy-quote`** Guía p. 6 — la disposición por patrullas: el **Guía al costado derecho**, los Scouts **en orden de antigüedad**, el **Sub-Guía cierra**, de modo que *«el muchacho que lleva menos tiempo en la Patrulla formará al lado izquierdo del Guía»* · **`info-box`** — el porqué, que es lo que convierte una fila en un gesto de cuidado: *«El Grande Protege al Pequeño»* · `paragraph` (y no es solo para izar bandera: *«Gran parte de la actividad de la Tropa se desarrolla o inicia en una formación»*, p. 5 — ahí se entregan las etapas de progresión y los reconocimientos).
 
-**Reflexión:** aprende **una** señal de silbato esta semana y úsala el sábado. Escribe cuál y para qué momento.
+**Reflexión:** aprende **una** señal de silbato esta semana y úsala el sábado. Escribe cuál y para qué momento, y en tu próxima formación fíjate dónde quedó el Scout más nuevo de cada patrulla. Escribe qué viste.
 
 **Quiz (2):** escenario sobre un papá que dice que esto parece militar · escenario sobre un Scout nuevo que se pone al final de la fila — dónde va su puesto y por qué.
 
@@ -181,7 +181,7 @@ El error más común del adulto que pasa de Manada a Tropa es seguir siendo el c
 
 **Reflexión:** un Scout concreto, con nombre. Algo que le hayas visto hacer este mes: ¿en qué **Ruta** cae y en qué **nivel** está? Y **una travesía** que puedas proponerle el próximo mes. Si no sabes por dónde va, esa es la tarea — y no se averigua revisando papeles.
 
-**Quiz (2):** un Scout cree que «terminó» una Ruta con una sola travesía · dos Scouts del mismo mes con insignias distintas, y un papá que pregunta si el segundo va atrasado.
+**Quiz (2):** un Scout cree que «terminó» una Ruta con una sola travesía · un Scout que lleva un año en Vigía del Valle y se siente «el más quedado» de su patrulla: conversar con él sobre lo que vivió y proponerle una travesía (reescrita el 08-11-2026, H4: la correcta anterior calcaba «las insignias dicen por dónde va, no qué tan rápido»).
 
 ---
 
@@ -195,9 +195,11 @@ El error más común del adulto que pasa de Manada a Tropa es seguir siendo el c
 
 **Reflexión / compromiso:** tres cosas cortas — el Scout más cercano a los **catorce y medio**, con nombre; qué vas a hacer esta semana para prepararle el paso (una llamada al dirigente de Comunidad cuenta, y es la más útil); y **una cosa que hayas visto en él** que te diga si ya está listo. *La tercera es la que importa: la edad la sabe cualquiera.*
 
-**Quiz (2):** su Guía propone que se quede a cerrar la Ruta que lleva a medias — ¿qué mira la Guía de Dirigente? · cuál es la insignia que recibe quien empieza el paso · (escenario) a los catorce y siete meses, el dirigente de Comunidad pregunta si lo pasan ya o esperan al cumpleaños: la respuesta es empezar con actividades conjuntas acordadas entre los dos, sin dejar todavía la Tropa.
+**Quiz (2):** su Guía propone que se quede a cerrar la Ruta que lleva a medias — ¿qué mira la Guía de Dirigente? · un Nómada le pregunta a un Scout con la insignia de Viajero del Territorio si ya es de la Comunidad: todavía no, la insignia marca el inicio de la transición (reescrita el 08-11-2026, H6: antes pedía recordar el nombre de la insignia) · (escenario) a los catorce y siete meses, el dirigente de Comunidad pregunta si lo pasan ya o esperan al cumpleaños: la respuesta es empezar con actividades conjuntas acordadas entre los dos, sin dejar todavía la Tropa.
 
 **Logro final:** ⚜️✨ «Jefe de Tropa».
+
+**Compromiso del certificado (`commitmentBox`, desde el 08-11-2026, H8):** «Escoge UNA decisión que hoy tomas tú y que una patrulla podría tomar sola. Escribe cuál es, a qué Guía se la vas a devolver y en qué reunión.» · placeholder «La decisión que voy a devolver es…».
 
 ---
 
@@ -206,7 +208,7 @@ El error más común del adulto que pasa de Manada a Tropa es seguir siendo el c
 | id | Nombre | Emoji | `unlockOnModule` |
 |---|---|---|---|
 | 1 | Dejo de ser el centro | 🧭 | 2 |
-| 2 | Digo la Ley completa | 🤝 | 3 |
+| 2 | Conozco la Ley completa | 🤝 | 3 |
 | 3 | Dejo armar la patrulla | ⚜️ | 4 |
 | 4 | Enciendo el Espíritu | 🔥 | 5 |
 | 5 | Sé por qué formamos | 📯 | 6 |
@@ -218,8 +220,8 @@ El error más común del adulto que pasa de Manada a Tropa es seguir siendo el c
 ## 6. Conexiones cross-course
 
 **Hacia atrás:** Curso 5 (Método Scout — aquí el Sistema de Equipos en su forma más pura) · Curso 6 (las seis áreas de crecimiento, que son donde viven los Desafíos) · **Curso 8 (Manada)** — empalme directo: Andrés da el Gran Salto allá y llega aquí.
-**Hacia adelante:** **Curso 11 (Comunidad)**, todavía por construirse — la Travesía con la que cierra la L8 es donde arrancará ese curso · Cursos 13–15 (operativos).
-**Cross-línea:** Transversales C03 para la conducta ante una revelación (ADR-038) · Curso 25 (A Salvo del Peligro), **todavía por construirse**; recomendado, **no habilitante**.
+**Hacia adelante:** **Curso 11 (Comunidad)**, ya publicado — el paso con el que cierra la L8 es donde arranca ese curso · Cursos 13–15 (operativos).
+**Cross-línea:** Transversales C03 para la conducta ante una revelación (ADR-038) · Curso 25 (A Salvo del Peligro), ya publicado; recomendado, **no habilitante**.
 
 ---
 
@@ -253,7 +255,7 @@ Se completa al medir el JSON. Compromisos de diseño, tomados de lo aprendido en
 
 **El crítico que enseña algo sobre el propio pipeline:** el hook original decía *«en la Manada tú dirigías el juego»*, y el **Curso 8, publicado**, enseña lo contrario — *«si en tu Manada las decisiones importantes las tomas siempre tú, no hay Consejo de Roca: hay una clase con disfraz de lobo»*, y su quiz marca como **correcta** *«voy a preguntar en el Consejo de Roca quién quiere proponer el juego»*. Es la contradicción entre cursos de una misma línea que persigue el **ADR-044**, y esta vez estaba en la frase más visible del curso, repetida en los dos sitios de más peso.
 
-**El alto pedagógico:** el curso prometía en **cuatro sitios** *conducir una formación con señales de brazo*, y la Guía **no lista ninguna** — dice para qué sirven y pasa a las formaciones. Verificado contra el PDF. Se bajó la promesa y se añadió un `info-box` de honestidad sobre la fuente, el mismo dispositivo que la L5 ya usaba. Ahora es una **convención reconocible del curso**: le enseña al adulto qué hacer cuando la doctrina no alcanza.
+**El alto pedagógico:** el curso prometía en **cuatro sitios** *conducir una formación con señales de brazo*, y se creyó que la Guía **no lista ninguna** (verificado solo sobre el texto extraído del PDF). *Corregido el 08-11-2026 (re-auditoría doctrinal, M1):* la Guía de 2023 sí las dibuja — siete señales en la p. 5 y diez formaciones en la p. 6, como imágenes que la extracción de texto no ve. Se bajó la promesa y se añadió un `info-box` de honestidad sobre la fuente, el mismo dispositivo que la L5 ya usaba. Ahora es una **convención reconocible del curso**: le enseña al adulto qué hacer cuando la doctrina no alcanza.
 
 **Deuda registrada, no aplicada:** la **L4** queda en **7,4–7,9 min**, fuera de la banda de 5–7, y la **L7** en el borde. Partirlas exigiría dos quizzes nuevos que ninguna auditoría ha visto — el mismo criterio con el que se resolvió el Curso 9 (**ADR-045**). Si alguna vez se parten, el corte de la L4 va entre las secciones **9** y **10** (`heading` «Los cargos»).
 

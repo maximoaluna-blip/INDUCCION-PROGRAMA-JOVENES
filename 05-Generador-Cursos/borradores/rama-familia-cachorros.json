@@ -3,7 +3,7 @@
   "title": "Rama Cachorros (Familia)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El curso de rama para quienes acompañan la primera infancia. En ~48 minutos vas a acompañar a Salomé, que llega al Cubil a los 5 años, y a entender por qué a esa edad el juego no es el envoltorio del Método Scout: es el Método funcionando a plena potencia.",
-  "contentVersion": "2026-10-12",
+  "contentVersion": "2026-11-08",
   "icon": "🐻",
   "duration": "48 minutos",
   "level": 2,
@@ -113,10 +113,14 @@
         {
           "type": "paragraph",
           "text": "No es un apodo simpático ni un juego de bienvenida. Es la puerta por la que el adulto entra al mundo simbólico donde el Cachorro <strong>ya está viviendo</strong>. Un adulto sin Nombre de Caza le habla a Salomé desde afuera de la Selva."
+        },
+        {
+          "type": "paragraph",
+          "text": "No lo escoges tú: te lo dan Raksha o Papá Lobo, según lo que la Familia necesita (§1.3.2, p. 11 del PDF)."
         }
       ],
       "reflection": {
-        "prompt": "¿Qué Nombre de Caza elegirías, y por qué ese? Y ahora la parte incómoda: de las dos formas que este curso descarta —la del maestro y la del papá—, ¿cuál te va a costar más soltar? Escríbelo sin adornarlo: nadie te va a calificar por esto."
+        "prompt": "¿Qué crees que tu Familia necesita fortalecer —alegría, cuidado, orden…—? Ese es el criterio con el que Raksha o Papá Lobo te van a dar tu Nombre de Caza. Y ahora la parte incómoda: de las dos formas que este curso descarta —la del maestro y la del papá—, ¿cuál te va a costar más soltar? Escríbelo sin adornarlo: nadie te va a calificar por esto."
       },
       "quiz": {
         "title": "Mini-quiz Lección 2",
@@ -127,7 +131,7 @@
             "options": [
               "Se lo abotona él mismo, rápido y sin drama, para que Salomé no se atrase y la actividad arranque a tiempo.",
               "Le muestra una vez cómo se hace, se queda cerca y la deja intentarlo, aunque eso tome más de lo previsto.",
-              "Le pide a otro Cachorro más hábil que se lo abotone, y así de paso se practica la ayuda entre compañeros."
+              "Se queda mirando sin decir nada ni mostrarle cómo, porque si la ayuda en algo ya le está quitando el intento."
             ],
             "correctIndex": 1
           },
@@ -219,7 +223,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El lema de la rama es <strong>\"Siempre Alegres\"</strong>, y la Guía insiste en que <em>\"es mucho más que una frase: es una forma de vivir la experiencia en el Cubil\"</em> (§6.1.1, p. 35 del PDF). El color representativo es el <strong>naranja</strong>, que <em>\"representa una energía vibrante que inspira alegría, entusiasmo y vitalidad\"</em> (§6.1.2, p. 36 del PDF)."
+          "text": "El lema de la rama es <strong>\"Siempre Alegres\"</strong>, y la Guía insiste en que <em>\"es mucho más que una frase: es una forma de vivir la experiencia en el Cubil\"</em> (§6.1.1, p. 35 del PDF). El color representativo es el <strong>naranja</strong>, que <em>\"representa una energía vibrante que inspira alegría, entusiasmo y vitalidad\"</em> (§6.1.2, p. 36 del PDF). Úsalo: cuando un juego sale mal y la Familia se desanima, \"Siempre Alegres\" es la frase que les devuelve el ánimo, la misma alegría ante lo difícil de su Ley."
         }
       ],
       "reflection": {
@@ -230,13 +234,13 @@
         "nextLabel": "Continuar al juego 🎲",
         "questions": [
           {
-            "text": "Un papá te comenta, con buena intención, que la Ley del Cachorro \"está incompleta\" porque la Ley Scout tiene diez artículos. ¿Qué le respondes?",
+            "text": "Un Viejo Lobo, entusiasmado, quiere enseñarles a los Cachorros los diez artículos de la Ley Scout \"para que lleguen adelantados a la Manada\". ¿Qué le dices?",
             "options": [
-              "Que tiene razón, y que por eso en la Familia se van sumando los otros ocho artículos a medida que crecen.",
-              "Que no es una ley distinta ni recortada: es una síntesis que siembra varios valores de la Ley Scout.",
-              "Que la Familia tiene una Ley propia, distinta de la Ley Scout, y que por eso no hay nada que completarle."
+              "Que la Ley del Cachorro ya siembra esos valores en dos frases, y que es mejor que vivan esas dos a que reciten diez.",
+              "Que puede hacerlo si los enseña con canciones y juegos, porque a esta edad todo lo que se juega se aprende bien.",
+              "Que la Ley Scout no se toca antes de la Manada: la del Cachorro es una Ley aparte, sin relación con aquella."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "La mamá de un Cachorro te dice, tres días antes de la Investidura, que en su casa no se habla de Dios y que no quiere que su hija prometa algo que no entiende. ¿Qué haces?",
@@ -309,7 +313,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Los ocho atributos de toda oportunidad de aprendizaje también aplican aquí, aterrizados a la edad (§4.9–4.10, pp. 23–25 del PDF): <strong>D</strong>esafiantes, <strong>Ú</strong>tiles, <strong>R</strong>ecompensantes, <strong>A</strong>tractivas, <strong>S</strong>eguras, <strong>L</strong>údicas, <strong>I</strong>ncluyentes y <strong>D</strong>iversas. Desafiante, a los cinco años, quiere decir al alcance pero no automático."
+          "text": "Los ocho atributos de toda oportunidad de aprendizaje también aplican aquí, aterrizados a la edad (§4.9–4.10, pp. 23–25 del PDF): <strong>D</strong>esafiantes, <strong>Ú</strong>tiles, <strong>R</strong>ecompensantes, <strong>A</strong>tractivas, <strong>S</strong>eguras, <strong>L</strong>údicas, <strong>I</strong>ncluyentes y <strong>D</strong>iversas. Desafiante, a los cinco años, quiere decir al alcance pero no automático. No hace falta que los recuerdes de memoria: si una actividad no es lúdica o no es segura, a esta edad ya sabes que falla."
         },
         {
           "type": "paragraph",
@@ -393,7 +397,7 @@
         },
         {
           "type": "info-box",
-          "text": "<strong>Ojo con traer el molde de la Manada.</strong> Las seisenas son estables; las Camadas no tienen por qué serlo. A los cinco años el grupo natural se rehace seguido, y eso no es desorden: es la edad. Forzar Camadas fijas todo el año es imponerle a la primera infancia una estructura de niños mayores."
+          "text": "<strong>Ojo con traer el molde de la Manada.</strong> Las seisenas son estables; las Camadas no son fijas: se arman para un juego y se deshacen. A los cinco años el grupo natural se rehace seguido, y eso no es desorden: es la edad. Forzar Camadas fijas todo el año es imponerle a la primera infancia una estructura de niños mayores."
         },
         {
           "type": "heading",
@@ -427,7 +431,7 @@
         },
         {
           "type": "paragraph",
-          "text": "No es una asamblea en miniatura. Pedirle a un niño de cinco años que levante la mano y vote es pedirle que participe en el idioma de los adultos. Votar sí cabe, pero con figuras o colores, no con la mano (§5.4). Participar aquí se parece más a dibujar, a jugar una ronda o a escoger con el cuerpo. Salomé no va a decir <em>\"propongo una salida\"</em>: va a dibujar un río y va a decir <em>\"quiero ir allá\"</em>. Eso ya es una propuesta, y tu trabajo es oírla como tal."
+          "text": "No es una asamblea en miniatura. Pedirle a un niño de cinco años que levante la mano y vote es pedirle que participe en el idioma de los adultos. Votar sí cabe, pero con figuras o colores, no con la mano (§5.3, p. 31 del PDF). Participar aquí se parece más a dibujar, a jugar una ronda o a escoger con el cuerpo. Salomé no va a decir <em>\"propongo una salida\"</em>: va a dibujar un río y va a decir <em>\"quiero ir allá\"</em>. Eso ya es una propuesta, y tu trabajo es oírla como tal."
         }
       ],
       "reflection": {
@@ -447,20 +451,20 @@
             "correctIndex": 1
           },
           {
-            "text": "Estás por dirigir el Círculo de Familia y hay otros dos Viejos Lobos contigo. Uno te pregunta dónde se paran ellos. ¿Qué les dices?",
+            "text": "En el Círculo de Familia, un Viejo Lobo nuevo se para detrás de los Cachorros. Otro le dice en voz baja que \"se está escondiendo\". ¿Qué le respondes?",
             "options": [
-              "Que se repartan entre los Cachorros, dentro del círculo, y te ayuden a sostener el orden desde adentro.",
-              "Que se queden detrás del círculo: ahí la Familia se ve reunida y ellos son símbolo de protección.",
-              "Que se pongan a tu lado, en el centro, para que los Cachorros vean a todos los adultos juntos frente a ellos."
+              "Que ahí es donde va: los demás Viejos Lobos se ubican detrás del círculo, como símbolo de protección.",
+              "Que tiene razón: en el Círculo todos los Viejos Lobos van al centro, para que los Cachorros los vean juntos.",
+              "Que da igual dónde se pare: el Círculo es de los Cachorros y el lugar del adulto no significa nada."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "Quieres que la Familia decida a dónde va la próxima salida y lo llevas al Encuentro del Cubil. ¿Cómo lo planteas?",
             "options": [
-              "Les pides que dibujen o muestren con el cuerpo a dónde quieren ir, y oyes cada dibujo como una propuesta.",
-              "Les explicas con calma las ventajas de cada lugar y escoges el que más les gustó por las preguntas que hicieron.",
-              "Lo decides con los demás Viejos Lobos y lo cuentas en el Encuentro, que es para expresar emociones."
+              "Muestras fotos de dos lugares posibles y les pides que se paren junto a la que prefieren; luego cuentas quién quedó en cada lado.",
+              "Les pides que levanten la mano por el lugar que prefieren, porque votar así es la forma en que se aprende a participar.",
+              "Dejas que hablen libremente de lo que quieran, sin proponer opciones, para que la decisión salga del todo de ellos."
             ],
             "correctIndex": 0
           }
@@ -489,7 +493,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Familia y Manada <strong>comparten</strong> el Libro de las Tierras Vírgenes como fondo motivador. Lo propio de la Familia es que se vive sobre todo a través de <strong>Los Hermanos de Mowgli</strong> y de los <strong>Nombres de Caza</strong> que viste en la Lección 2."
+          "text": "Familia y Manada <strong>comparten</strong> el Libro de las Tierras Vírgenes. Lo propio de la Familia es que se vive sobre todo a través de <strong>Los Hermanos de Mowgli</strong> y de los <strong>Nombres de Caza</strong> que viste en la Lección 2."
         },
         {
           "type": "heading",
@@ -504,7 +508,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Se hace <em>\"siempre que haya un motivo para celebrar\"</em>. Parece un detalle menor y no lo es: un grito de alegría con nombre propio le enseña a un niño de cinco años que la alegría compartida se marca, se nombra y se celebra en conjunto. Eso es el lema \"Siempre Alegres\" volviéndose práctica."
+          "text": "Se hace <em>\"siempre que haya un motivo para celebrar\"</em>. Parece un detalle menor y no lo es: un grito de alegría con nombre propio le enseña a un niño de cinco años que la alegría compartida se marca, se nombra y se celebra en conjunto. Eso es el lema \"Siempre Alegres\" volviéndose práctica. Lo dirige Raksha o Papá Lobo (o un Viejo Lobo a quien le den el encargo), y lo gritan los Cachorros que ya tienen su pelaje; los que están llegando miran y siguen en el círculo (§6.4.1, pp. 38–39 del PDF)."
         },
         {
           "type": "heading",
@@ -568,20 +572,20 @@
             "correctIndex": 1
           },
           {
-            "text": "El Grupo arma su calendario y para la Familia solo agenda dos ceremonias delante de todo el Grupo Scout: la Investidura y la de Paso. ¿Qué le señalas?",
+            "text": "Lucía llegó a la Fuerza del Cubil. El Jefe de Grupo propone reconocerlo en la próxima reunión de Familia, dentro del Cubil, \"para no hacer tanto alboroto\". ¿Qué le dices?",
             "options": [
-              "Que está completo: delante del Grupo van esas dos, y todas las demás se hacen dentro del Cubil.",
-              "Que falta la entrega de dentelladas, que también debe hacerse delante de todo el Grupo Scout.",
-              "Que falta la de Fase Máxima de Progresión, cuando un Cachorro llega a la Fuerza del Cubil."
+              "Que esa ceremonia va delante de todo el Grupo Scout: es una de las tres que no se hacen solo en el Cubil.",
+              "Que está bien: dentro del Cubil se entregan las fases de progresión, y la Fuerza del Cubil es una fase más.",
+              "Que está bien, pero con un ¡Eo-Wawa! de toda la Familia, que es como la Selva celebra un logro."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           },
           {
-            "text": "Después de muchos intentos, Salomé logra por fin atarse sola los cordones y mira a su Viejo Lobo con los ojos brillantes. ¿Qué recurso de la Selva encaja con ese momento?",
+            "text": "Después de muchos intentos, Tomás, que ya tiene su pelaje, logra por fin atarse solo los cordones y mira a su Viejo Lobo con los ojos brillantes. ¿Qué recurso de la Selva encaja con ese momento?",
             "options": [
               "Entregas una huella, el símbolo que marca cada logro nuevo en el Cubil.",
-              "Lanzas con toda la Familia un ¡Eo-Wawa!, para celebrar juntos lo que logró.",
-              "Le adelantas la Investidura, porque un logro así muestra que terminó su adaptación."
+              "Con el encargo de Raksha, lanzas con la Familia un ¡Eo-Wawa! por lo que logró.",
+              "Lo dejas pasar sin comentarlo, para que no se acostumbre a esperar una celebración por cada cosa que logra."
             ],
             "correctIndex": 1
           }
@@ -596,7 +600,11 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "<strong>Idea central:</strong> la progresión no es una carrera. Es un camino con tres tramos y cinco huellas."
+          "text": "<strong>Idea central:</strong> la progresión no es una carrera. Es un camino con tres tramos y cinco Dentelladas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Salomé lleva tres meses en el Cubil. Ya corre sin caerse en el juego de persecución, pero cuando pierde se esconde detrás de su mamá y no quiere volver. Su Viejo Lobo nota las dos cosas, y no son la misma: una habla de su cuerpo y la otra de lo que siente. Para no mirar solo lo que salta a la vista, la Guía ordena el crecimiento del Cachorro en cinco campos que llama <strong>Dimensiones</strong>."
         },
         {
           "type": "heading",
@@ -688,7 +696,7 @@
         },
         {
           "type": "info-box",
-          "text": "<strong>Y sí, son insignias.</strong> La Guía dice que <em>\"la insignia de cada dentellada se entrega en el momento en que el Cachorro demuestra el nivel Expresa en la dimensión correspondiente\"</em>, y <strong>recomienda</strong> entregarlas <strong>de a una</strong>, sin acumular varias para el mismo día, <em>\"con el fin de resaltar el logro personal\"</em> (§8.6, p. 58 del PDF). Lo que descarta es la carrera: <em>\"no es un sistema de requisitos acumulativos, sino un proceso gradual\"</em> (p. 56 del PDF)."
+          "text": "<strong>Y sí, son insignias.</strong> La Guía dice que <em>\"la insignia de cada dentellada se entrega en el momento en que el Cachorro demuestra el nivel Expresa en la dimensión correspondiente\"</em>, y <strong>recomienda</strong> entregarlas <strong>de a una</strong>, sin acumular varias para el mismo día, <em>\"con el fin de resaltar el logro personal\"</em> (§8.6, p. 58 del PDF). Lo que descarta es la carrera: <em>\"no es un sistema de requisitos acumulativos, sino un proceso gradual\"</em> (p. 56 del PDF). Cómo llevar el registro de todo esto lo verás en el Curso 13, <em>Seguimiento de la Progresión Personal</em>."
         },
         {
           "type": "heading",
@@ -763,13 +771,13 @@
             "correctIndex": 0
           },
           {
-            "text": "Un dirigente que viene de otra rama busca el área de Afectividad entre las dimensiones de la Familia y no la encuentra. ¿Dónde quedó?",
+            "text": "Mateo comparte sus juguetes con todos, pero cuando pierde en un juego llora y no se deja consolar. Un Viejo Lobo dice que son dos cosas que se siguen en dimensiones distintas. ¿Qué le dices?",
             "options": [
-              "Junto con el Carácter, en la Dimensión Ética: en Familia los afectos se trabajan como normas de convivencia.",
-              "Junto con la Sociabilidad, en la Dimensión Socio-Afectiva: dos áreas que en Familia entran por la misma puerta.",
-              "Junto con la Espiritualidad, en la Dimensión Espiritual: a esta edad el afecto y la gratitud van de la mano."
+              "Que las dos caben en la Socio-Afectiva: allí van juntos los vínculos con los demás y el manejo de sus emociones.",
+              "Que las dos caben en la Ética: compartir y no hacer pataleta son normas básicas de convivencia en el Cubil.",
+              "Que tiene razón: compartir es Socio-Afectiva y aguantar la frustración es Corporal, porque el llanto pasa por el cuerpo."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -801,7 +809,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Sobre el <strong>contacto físico</strong>, la Guía es clara: <em>\"debe evitarse de manera general\"</em>. Si por razón pedagógica o de seguridad hace falta —para evitar un accidente, por ejemplo—, <em>\"se debe advertir previamente al niño, explicándole con claridad qué se hará y por qué\"</em>. Y el afecto se maneja con límites sanos, no se prohíbe (§11.10, p. 79 del PDF)."
+          "text": "Sobre el <strong>contacto físico</strong>, la Guía es clara: <em>\"debe evitarse de manera general\"</em>. Si por razón pedagógica o de seguridad hace falta —para evitar un accidente, por ejemplo—, <em>\"en lo posible, se debe advertir previamente al niño, explicándole con claridad qué se hará y por qué\"</em>. Y el afecto se maneja con límites sanos, no se prohíbe (§11.10, p. 79 del PDF)."
         },
         {
           "type": "paragraph",
@@ -811,7 +819,7 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "🚻 <strong>El baño.</strong> Al baño se acompaña <em>\"únicamente hasta la puerta\"</em>, y nunca a solas: <em>\"en ningún caso un adulto debe permanecer solo con un niño\"</em> (§11.7). Por eso van dos Viejos Lobos, aunque solo un Cachorro necesite ir. <em>\"En ningún caso un Viejo Lobo debe ingresar al baño con el Cachorro\"</em>, ni lo asiste en su higiene ni en acomodarle la ropa (§11.9, pp. 78–79 del PDF).",
+            "🚻 <strong>El baño.</strong> Al baño se acompaña <em>\"únicamente hasta la puerta\"</em>, y nunca a solas: <em>\"en ningún caso un adulto debe permanecer solo con un niño\"</em> (§11.7). Van dos adultos con el Cachorro, o un adulto con dos Cachorros (es la medida de protección 2+1, p. 77 del PDF). Y organízalo de modo que la Familia nunca se quede con un solo adulto mientras tanto. <em>\"En ningún caso un Viejo Lobo debe ingresar al baño con el Cachorro\"</em>, ni lo asiste en su higiene ni en acomodarle la ropa (§11.9, pp. 78–79 del PDF).",
             "👶 <strong>Si el niño no controla esfínteres</strong> o necesita apoyo directo, <em>\"serán exclusivamente los padres o acudientes\"</em> quienes lo hagan. No es tu tarea, y no es descortesía decirlo (§11.9, p. 79 del PDF).",
             "🤝 <strong>La entrega y la recepción.</strong> Tu responsabilidad empieza cuando recibes al Cachorro y termina cuando lo entregas a su padre, madre o acudiente autorizado. Siempre <em>\"visible y explícito\"</em>, en un punto definido, y <em>\"por ningún motivo se permite que el niño se retire solo\"</em> (§11.7 Responsabilidad y Custodia, p. 78 del PDF)."
           ]
@@ -837,7 +845,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Lo que sí te conviene saber desde hoy es que <strong>la ruta existe y tiene nombre</strong>: el botón <strong>\"Me Pongo A Salvo del Peligro\"</strong>, virtual en scout.org.co y en los códigos QR que se ubican en los sitios de reunión. Y si necesitas orientación, el correo <strong>asalvodelpeligro@scout.org.co</strong> (§11.5, p. 77 del PDF). Saber dónde está no te convierte en investigador: te evita improvisar el día que haga falta."
+          "text": "Lo que sí te conviene saber desde hoy es que <strong>la ruta existe y tiene nombre</strong>: el botón <strong>\"Me Pongo A Salvo del Peligro\"</strong>, virtual en scout.org.co y en los códigos QR que se ubican en los sitios de reunión. Y si necesitas orientación, el correo <strong>asalvodelpeligro@scout.org.co</strong> (§11.5, p. 77 del PDF). Saber dónde está no te convierte en investigador: te evita improvisar el día que haga falta. Para salidas con transporte o pernocta, el Curso 25, <em>A Salvo del Peligro aplicado al Programa</em>, tiene el protocolo completo."
         },
         {
           "type": "heading",
@@ -860,7 +868,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tres cosas, cortas y concretas: (1) el Nombre de Caza que vas a usar; (2) UNA cosa que vas a cambiar en tu próxima reunión por lo que viste en este curso; y (3) la próxima salida de tu unidad: cuántos Cachorros van, cuántos adultos hacen falta según la proporción, qué roles cubren y quién —por su cargo— los confirma esta semana. La tercera es la que no se puede dejar para después."
+        "prompt": "Escribe tres cosas, cortas y concretas: (1) tu Nombre de Caza, o, si todavía no lo tienes, qué necesita tu Familia para que Raksha o Papá Lobo te lo den; (2) UNA cosa que vas a cambiar en tu próxima reunión por lo que viste en este curso; y (3) la próxima salida de tu unidad: cuántos Cachorros van, cuántos adultos hacen falta según la proporción, qué roles cubren y quién —por su cargo— los confirma esta semana. La tercera es la que no se puede dejar para después."
       },
       "quiz": {
         "title": "Mini-quiz Lección 8",
@@ -878,18 +886,18 @@
           {
             "text": "Un Cachorro tiene un accidente en plena reunión, se moja la ropa y necesita que lo ayuden a cambiarse. ¿Qué haces?",
             "options": [
-              "Lo ayudas a cambiarse en el baño con la puerta entreabierta y otro Viejo Lobo afuera, como testigo.",
-              "Le pides a un Viejo Lobo de su mismo sexo que lo asista, mientras tú te quedas con el resto de la Familia.",
-              "Le avisas a su padre, madre o acudiente: asistirlo en su higiene y con su ropa les corresponde solo a ellos."
+              "Le avisas a su padre, madre o acudiente: asistirlo en su higiene y con su ropa les corresponde solo a ellos.",
+              "Lo ayudan a cambiarse dos Viejos Lobos juntos, porque con dos adultos presentes ya no hay riesgo de quedarse a solas con él.",
+              "Esperas a que termine la reunión para contárselo a la familia, y así no interrumpes la actividad ni lo expones delante de todos."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           },
           {
             "text": "Termina la reunión. La mamá de Salomé avisa que llegará 20 minutos tarde, y Salomé dice que vive a dos cuadras y que puede irse sola. ¿Qué haces?",
             "options": [
               "Te comunicas con la mamá para que autorice por escrito que Salomé se vaya sola, ya que vive tan cerca.",
               "Te quedas con Salomé y otro Viejo Lobo en el punto de entrega hasta que llegue su mamá o un acudiente autorizado.",
-              "Le encargas a la mamá de otro Cachorro, que vive cerca y conoce a la familia, que la lleve hasta su casa sin consultarlo con la mamá de Salomé."
+              "Le pides a la mamá de otro Cachorro, que vive cerca y conoce a la familia, que la acerque a su casa."
             ],
             "correctIndex": 1
           }

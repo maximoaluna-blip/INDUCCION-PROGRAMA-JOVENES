@@ -2,7 +2,7 @@
 
 **Línea:** Programa de Jóvenes · **Nivel:** 1 (Fundamentación) · **Posición:** Curso 7 de 7 del Nivel 1.
 
-> Cierre de la ruta. Tras la bienvenida, la educación por el amor, las características esenciales, el método y el modelo colombiano, este curso convierte los 6 anteriores en un plan personal firmable. No introduce contenido nuevo: integra todo lo visto en una herramienta accionable para el día a día del dirigente.
+> Cierre de la ruta. Tras la bienvenida, la educación por el amor, las características esenciales, el método y el modelo colombiano, este curso convierte los 6 anteriores en un compromiso firmable con el Programa de Jóvenes. No introduce contenido nuevo: integra todo lo visto en una herramienta accionable para el día a día del dirigente.
 
 ---
 
@@ -68,6 +68,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 1. **`info-box`** — Tiempo (~30 min) y promesa: _"Al final vas a tener un compromiso con el Programa de Jóvenes firmado, descargable en PDF, con compromisos chicos y concretos para el próximo trimestre. Y un par dirigente con quien compartirlo."_
 2. **`paragraph`** — Reconocimiento: _"Llegaste hasta acá. Tomaste 6 cursos. Leíste a Baden-Powell, a la OMMS, a la PNPJ. Te asomaste a los 8 elementos del Método y al Modelo de Aplicación colombiano. Reflexionaste, contestaste quizzes, escribiste compromisos parciales. Hoy todo eso se vuelve plan."_
+2-bis. **`paragraph`** — Hook (añadido el 08-nov-2026, reauditoría pedagógica M3): _"Pasa mucho: terminas un curso con ganas, llega el sábado… y vuelves a hacer la reunión de siempre. No por falta de voluntad, sino porque lo aprendido nunca se volvió plan. Saber sin actuar no transforma. Y actuar sin plan termina en cansancio. Este curso es el puente: convierte lo que aprendiste en lo que vas a hacer, con quién, cuándo y cómo sabrás que se cumplió."_
 3. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 4. **`list`** — Las 5 ideas:
     - Revisión de tu brújula: qué te quedó de los Cursos 1–6.
@@ -147,10 +148,10 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Apertura: _"Tu plan personal arranca con tu rol concreto. Si serves en Manada, no vas a planear como serves en Clan. Si eres asistente, no vas a planear como un jefe de rama. Vamos al detalle."_
+2. **`paragraph`** — Apertura: _"Tu compromiso arranca con tu rol concreto. Si sirves en Manada, no vas a planear como sirves en Clan. Si eres parte del equipo de dirigentes de tu unidad, no vas a planear como un jefe de rama. Vamos al detalle. Si aún no tienes cargo o unidad, piensa en la función que cumples hoy o en una unidad que conozcas."_
 3. **`plan-builder` — Bloque 1 de 4 (rol y rama)**
     - **Campo 1: Ámbito de servicio** — `select` con opciones [unidad: Familia, Manada, Tropa, Comunidad, Clan] o [otro ámbito: equipo de programa del grupo, comisión de PJ regional, comisión de PJ nacional, Red de Jóvenes]. Las cuatro últimas **no son ramas**.
-    - **Campo 2: Cargo actual o esperado** — `select` con opciones [Asistente, Subjefe de Rama, Jefe de Rama, Consejero Juvenil, Comisionado de PJ, Coordinador RDJ, Otro].
+    - **Campo 2: Cargo actual o esperado** — `select` con opciones [dirigente del equipo de la unidad, Subjefe de Rama, Jefe de Rama, Consejero Juvenil, Comisionado de PJ, Coordinador RDJ, Otro].
     - **Campo 3: Grupo Scout o ámbito** — `text` (nombre del grupo, región).
     - **Campo 4: Cantidad de protagonistas que acompaño / acompañaré** — `number`.
 4. **`heading` (nivel 3)** — _"Mis áreas prioritarias del trimestre"_
@@ -165,7 +166,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
     - **Campo 8: Rol prioritario** — `radio` con [Apoyar, Acompañar, Enlazar].
     - **Campo 9: Razón** — `textarea`.
 
-**Reflexión:** _"Escribe en una frase: ¿cómo conecta tu rol prioritario del trimestre con las 2 áreas que elegiste?"_
+**Reflexión:** _"Anota, sin nombres: dónde sirves (tu unidad o tu otro ámbito), tu cargo, a cuántos protagonistas acompañas, y el rol del Modelo que vas a fortalecer este trimestre y por qué. Cierra con una frase: ¿cómo conecta ese rol con las 2 áreas de crecimiento que elegiste?"_
 
 **Quiz (2 preguntas):**
 
@@ -192,7 +193,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Apertura: _"Esta es la lección donde el plan se vuelve acción. Vas a planear concretamente: una reunión que vas a tener esta o la próxima semana, y un proyecto que tu unidad va a vivir en el próximo trimestre."_
+2. **`paragraph`** — Apertura: _"Aquí está el puente entre saber y actuar: esta es la lección donde el plan se vuelve acción. Vas a planear concretamente: una reunión que vas a tener esta o la próxima semana, y un proyecto que tu unidad va a vivir en el próximo trimestre."_
 3. **`heading` (nivel 3)** — _"Mi próxima reunión: los 8 elementos en acción"_
 4. **`plan-builder` — Bloque 4 de 4 (reunión y proyecto)**
     - **Campo 10: Fecha de la próxima reunión** — `date`.
@@ -201,7 +202,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
     - **Campo 13: ¿Cómo voy a fortalecerlo? (1-2 líneas)** — `textarea`.
     - **Campo 14: ¿Cuál de los 8 criterios DURASLID está en riesgo y necesita atención?** — `select` con los 8 (Desafiante, Útil, Recompensante, Atractiva, Segura, Lúdica, Inclusiva, Diversa).
 5. **`heading` (nivel 3)** — _"Mi proyecto del trimestre"_
-6. **`paragraph`** — _"Un proyecto scout no es una actividad larga. Empieza con una pregunta que sale de mirar el entorno — ¿qué duele?, ¿qué falta?, ¿qué queremos mejorar? — y avanza en cinco momentos (así los cuenta el Modelo de Aplicación): **miran** su realidad, **planean** juntos qué van a hacer y para quién, lo **hacen** por tramos, lo **muestran** a quien va dirigido, y al final **evalúan** qué se llevan. Lo más importante: la pregunta la formulan los protagonistas contigo. Tu rol es Apoyar, Acompañar y Enlazar."_
+6. **`paragraph`** — _"Un proyecto scout no es una actividad larga. Empieza con una pregunta que sale de mirar el entorno — ¿qué duele?, ¿qué falta?, ¿qué queremos mejorar? — y avanza en cinco momentos (así los cuenta el Modelo de Aplicación): **miran** su realidad, **planean** juntos qué van a hacer y para quién, lo **hacen** por tramos, lo **muestran** a quien va dirigido, y al final **evalúan** qué se llevan (son los mismos que viste en el Curso 6: diagnóstico participativo, planificación, ejecución, presentación, y evaluación y transferencia). Lo más importante: la pregunta la formulan los protagonistas contigo. Tu rol es Apoyar, Acompañar y Enlazar."_
 7. **`plan-builder` — Bloque 4 continúa**
     - **Campo 15: Nombre tentativo del proyecto del trimestre** — `text`.
     - **Campo 16: ¿De dónde surgió la idea? (¿de los protagonistas o del adulto?)** — `radio` con [Surgió de los protagonistas, Surgió del adulto y voy a abrirla a votación, Aún no surgió — la próxima reunión la abrimos].
@@ -209,7 +210,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
     - **Campo 18: ¿Cómo se conecta con el territorio (barrio, comunidad, escuela)?** — `textarea`.
 8. **`info-box`** — _"Si te quedaste atascado en algún campo, está bien. Marca 'por definir' y vuelve más tarde. El plan se construye, no se improvisa."_
 
-**Reflexión:** _"Imagina que tu plan se cumple al 80%. Al final del trimestre, ¿qué se va a notar en tu unidad que hoy no se nota? Sé concreto."_
+**Reflexión:** _"Tu próxima reunión: fecha, foco, el elemento del Método que vas a fortalecer y cómo, y el criterio DURASLID que está en riesgo. Tu proyecto: nombre tentativo, de dónde salió la idea, las 2 áreas que toca y cómo se conecta con tu territorio. Lo que no tengas, márcalo «por definir». Y una frase final: si el plan se cumple al 80 %, ¿qué se va a notar en tu unidad que hoy no se nota?"_
 
 **Quiz (2 preguntas):**
 
@@ -240,11 +241,11 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 3. **`heading` (nivel 3)** — _"Tu curso de rama del Nivel 2 (Cursos 8–12)"_
 4. **`paragraph`** — _"Cada dirigente toma el curso de su rama. Abajo está la lista: busca la tuya y anota cuál vas a tomar primero."_
 5. **`list`** — Recordatorio de los 5 cursos por rama:
-    - 🐻 **Curso 9** — Rama Familia (Cachorros, 5-6 años).
-    - 🐺 **Curso 8** — Rama Manada (Lobatos, 7-10 años).
+    - 🐻 **Curso 9** — Rama Cachorros (Familia, 5-6 años).
+    - 🐺 **Curso 8** — Rama Lobatos (Manada, 7-10 años).
     - ⚜️ **Curso 10** — Rama Scouts (Tropa, 11-14 años).
-    - 🧗 **Curso 11** — Rama Comunidad (Nómadas Scout, 15-17 años).
-    - 🏔️ **Curso 12** — Rama Clan (Rovers, 18-20 años).
+    - 🧗 **Curso 11** — Rama Nómadas Scout (Comunidad, 15-17 años).
+    - 🏔️ **Curso 12** — Rama Rovers (Clan, 18-20 años).
 6. **`heading` (nivel 3)** — _"Los 3 cursos pedagógicos operativos (Cursos 13, 14, 15)"_
 7. **`paragraph`** — _"Se recomiendan a todos los dirigentes de unidad. Este es el orden que sugerimos, según tu rol:"_
 8. **`list`** — Orden sugerido:
@@ -310,7 +311,7 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
     - **Inmediato**: el módulo oficial A Salvo del Peligro de la ASC, que no lo reemplaza ningún curso nuestro.
     - **Próximo mes**: tu curso de rama del Nivel 2 + un curso pedagógico operativo (13, 14 o 15).
     - **Próximos meses**: el resto del Nivel 2; el Nivel 3, con el Curso 17 en cuanto acompañes la progresión de tus protagonistas y los demás cuando ejerzas el cargo; y los demás cursos del Nivel 4.
-12. **`info-box`** — Despedida: _"Bienvenida, bienvenido al equipo de quienes tienen plan. El Movimiento te necesitaba. Tu unidad también. Buen camino."_
+12. **`info-box`** — Despedida: _"Bienvenida, bienvenido al equipo de quienes tienen plan. Ya no te vas solo con lo que sabes: te vas con lo que vas a hacer, con quién y cuándo. El Movimiento te necesitaba. Tu unidad también. Buen camino."_
 
 **Reflexión:** _"Sin nombres ni iniciales: ¿qué rol tiene tu par dirigente, en qué ámbito lo conoces y cada cuánto revisarán juntos el plan? Tu promesa personal escríbela en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."_
 
@@ -360,13 +361,13 @@ Este hook se enuncia en la lección 1 y se ejecuta en el `plan-builder` que atra
 
 - **L5 → Cursos 8–12 (rama)**: recomendación automática según la rama declarada en L3.
 - **L5 → Cursos 13, 14, 15 (pedagógicos)**: orden recomendado según rol.
-- **L5 + L6 → módulo oficial A Salvo del Peligro de la ASC**: lo que no se deja para después. El **Curso 25** (A Salvo del Peligro aplicado al Programa) **aún no está construido** y, cuando lo esté, **no** será habilitante (ADR-019) ni sustituirá al oficial.
+- **L5 + L6 → módulo oficial A Salvo del Peligro de la ASC**: lo que no se deja para después. El **Curso 25** (A Salvo del Peligro aplicado al Programa) está publicado desde el 27-sep-2026 (ADR-100); **no** es habilitante (ADR-019) ni sustituye al oficial.
 - **L6 → par dirigente**: vínculo informal de acompañamiento entre niveles.
 
 ### 6.3 Cross-línea
 
 - **Con Política de Adultos Curso 5 (Plan Personal de Desarrollo)**: el compromiso de este curso se lee al lado del Plan Personal de Desarrollo de Política de Adultos en el dashboard.
-- **Con DI Curso 6 (Mi Aporte al Desarrollo Institucional)**: paralelismo de estructura: ambas líneas cierran su Nivel 1 con un plan personal.
+- **Con DI Curso 6 (Mi Aporte al Desarrollo Institucional)**: paralelismo de estructura: ambas líneas cierran su Nivel 1 con un compromiso escrito.
 
 ---
 

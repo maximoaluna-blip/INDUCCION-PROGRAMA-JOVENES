@@ -3,7 +3,7 @@
   "title": "Ciclo de Programa con ABP",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El último del Nivel 2, y el tercero de los cursos operativos. De dónde salen las reuniones que ya sabes planear: de un proyecto que tu unidad eligió y sostiene durante meses. Y por qué tu Guía de rama cuenta cuatro momentos donde el Modelo cuenta cinco.",
-  "contentVersion": "2026-10-04",
+  "contentVersion": "2026-11-08",
   "icon": "🎯",
   "duration": "53 minutos",
   "level": 2,
@@ -63,6 +63,10 @@
   "certificate": {
     "courseName": "CICLO DE PROGRAMA CON ABP",
     "description": "ha completado el Curso 15 de la Línea Programa de Jóvenes — Ciclo de Programa con ABP, con el que cierra el Nivel 2, reconociendo los cinco momentos del ciclo amalgamado con el Aprendizaje Basado en Proyectos y por qué la mayoría de las Guías de Rama cuenta cuatro, formulando con su unidad una pregunta guía nacida de una necesidad real, nombrando destinatario y criterios de éxito antes de empezar, trabajando por tramos con reflexión en cada hito, preparando la presentación pública como un acto de ciudadanía, cerrando con evidencias y transferencia, y eligiendo el ritmo que su unidad pueda sostener con calidad."
+  },
+  "commitmentBox": {
+    "prompt": "Tu compromiso de cierre es el de la Lección 8, y solo ese: la pregunta guía que llevarás al próximo consejo de unidad —de las que empiezan por qué duele o qué falta, no por «hagamos»— y el destinatario al que puedas llamar por teléfono. Escríbelos aquí, con la fecha de ese consejo.",
+    "placeholder": "Pregunta guía: ¿…?  ·  Destinatario: …  ·  Consejo del: …"
   },
   "modules": [
     {
@@ -148,12 +152,12 @@
             "<strong>Planificación con ABP</strong> — el resto del Momento 1 y todo el Momento 2: elegir y organizar.",
             "<strong>Ejecución iterativa</strong> — el Momento 3: realizar.",
             "<strong>Presentación pública</strong> — <strong>este no está en tu Guía.</strong>",
-            "<strong>Evaluación y transferencia</strong> — el Momento 4: evaluar. <em>(En Manada la numeración corre distinto: su Momento 3 es organizar y preparar, y el 4 junta desarrollar y evaluar.)</em>"
+            "<strong>Evaluación y transferencia</strong> — el Momento 4: evaluar. <em>(En Manada la cuenta corre distinto: su Fase 3 es organizar y preparar, y la 4 junta desarrollar y evaluar.)</em>"
           ]
         },
         {
           "type": "paragraph",
-          "text": "Ahí está el orden. <strong>Ese cuarto momento —el que sobra en la cuenta de tu Guía— es exactamente lo que el ABP le añade al ciclo de siempre</strong>, y por eso el <em>Modelo</em> titula el apartado donde lo explica (§11.2) <strong>«El Ciclo de Programa amalgamado con ABP»</strong>, y no «el ciclo <em>o</em> ABP». Ninguna Guía está mal: describen el ciclo scout de toda la vida. El <em>Modelo</em> describe ese mismo ciclo <strong>después</strong> de fundirlo con una metodología que le pide una cosa más."
+          "text": "Ahí está el orden. <strong>Ese cuarto momento —el que le falta a la cuenta de tu Guía— es exactamente lo que el ABP le añade al ciclo de siempre</strong>, y por eso el <em>Modelo</em> titula el apartado donde lo explica (§11.2) <strong>«El Ciclo de Programa amalgamado con ABP»</strong>, y no «el ciclo <em>o</em> ABP». Ninguna Guía está mal: describen el ciclo scout de toda la vida. El <em>Modelo</em> describe ese mismo ciclo <strong>después</strong> de fundirlo con una metodología que le pide una cosa más."
         },
         {
           "type": "info-box",
@@ -363,13 +367,13 @@
         "nextLabel": "Continuar a la ejecución 🔁",
         "questions": [
           {
-            "text": "El proyecto ya tiene pregunta y entusiasmo, pero cuando preguntas quién recibirá el resultado nadie sabe contestar. ¿Qué haces?",
+            "text": "El consejo ya tiene pregunta guía y, al buscar destinatario, un rover dice: «el barrio». ¿Qué haces?",
             "options": [
-              "Seguir con el plan y nombrarlo en el primer hito, cuando el proyecto ya muestre a quién le sirve.",
-              "Seguir con el plan y dejar el destinatario para cuando se prepare la presentación pública.",
-              "Seguir solo cuando lo tengan: sin destinatario no hay criterios de éxito, ni nada que evaluar."
+              "Pedirles que lo aprieten hasta alguien a quien se pueda llamar: la junta, el colegio, una tienda.",
+              "Aceptarlo: el barrio es un destinatario amplio y así ningún vecino queda por fuera del proyecto.",
+              "Nombrarlo tú esta misma noche, para que el consejo no pierda otra semana discutiendo el destinatario."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           },
           {
             "text": "Antes del sábado pasan el plan por DURASLID y cumple tres de los ocho atributos. El consejo está entusiasmado. ¿Qué haces?",
@@ -446,7 +450,7 @@
             "options": [
               "Le dejo la fecha final, pero con más tiempo, para que recoja cada tramo con todo el detalle.",
               "Le pongo dos o tres fechas antes del final, cada una con la pregunta con que cierra.",
-              "Le pongo un formulario más completo en esa única fecha, para que no se escape nada."
+              "Le pongo una evaluación al final de cada reunión, para no dejar escapar ningún aprendizaje."
             ],
             "correctIndex": 1
           },
@@ -460,11 +464,11 @@
             "correctIndex": 2
           },
           {
-            "text": "Cierra el segundo tramo y quieres saber cómo va la progresión de cada protagonista. Piensas armar una ficha de observación aparte. ¿Qué haces?",
+            "text": "En el cierre del segundo tramo, una scout cuenta cómo convenció a la tienda de recibir los residuos. ¿Qué haces con eso?",
             "options": [
-              "Usar el cierre de este hito para recoger evidencias observables, sin un instrumento nuevo.",
-              "Esperar al final del ciclo: la progresión se acredita al cerrarlo, con el producto ya hecho.",
-              "Usar la ficha aparte, pero al final, para no cargar con evaluación los cierres de tramo."
+              "Anotarlo como evidencia observable —qué hizo, dónde y con qué señal— en esa misma ronda de cierre.",
+              "Dar ya por lograda esa competencia educativa, porque lo demostró delante de toda su patrulla.",
+              "Pedirle que lo cuente en la presentación pública, que es donde el ciclo junta todas las evidencias."
             ],
             "correctIndex": 0
           }
@@ -523,7 +527,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Vuelve a la actividad más grande que tu unidad hizo el año pasado. ¿Cómo terminó? Escríbelo en una línea. Y después contesta: <strong>¿quién que no fuera del Grupo se enteró de que eso existió?</strong> Si la respuesta es «nadie» o «las familias», escribe ahora quién <em>debería</em> haberse enterado, y qué habría cambiado para los protagonistas tener que explicárselo. Y una última, mirando adelante: para el proyecto que tienes por delante, <strong>escribe en una línea cómo va a terminar</strong> — quién lo recibe, dónde, y qué van a tener que explicar los protagonistas ahí. Con esas tres cosas la presentación pública ya está preparada; lo demás es logística y sillas."
+        "prompt": "Vuelve a la actividad más grande que tu unidad hizo el año pasado. ¿Cómo terminó? Escríbelo en una línea. Y después contesta: <strong>¿quién que no fuera del Grupo se enteró de que eso existió?</strong> Y una última, mirando adelante: para el proyecto que tienes por delante, <strong>escribe en una línea cómo va a terminar</strong> — quién lo recibe, dónde, y qué van a tener que explicar los protagonistas ahí. Con esas tres cosas la presentación pública ya está preparada; lo demás es logística y sillas."
       },
       "quiz": {
         "title": "Mini-quiz Lección 5",
@@ -548,13 +552,13 @@
             "correctIndex": 1
           },
           {
-            "text": "Al planear el ciclo, el consejo dice: «la presentación la vemos al final, cuando sepamos qué nos salió». ¿Qué le adviertes?",
+            "text": "Al planear, el consejo de la Tropa decide que el mapa se entregará a la junta y que lo presentarán los guías. ¿Qué dejas amarrado desde ya?",
             "options": [
-              "Que tienen razón: la forma depende del producto, y el producto todavía no existe.",
-              "Que conviene fijar ya el formato —feria, demostración o entrega— y lo demás al final.",
-              "Que quiénes se involucran en ella, y cómo, se define desde el inicio y no al final."
+              "Que la junta conozca la fecha y quién lo recibe, y que cada patrulla sepa qué decisión le toca explicar.",
+              "Que los guías ensayen desde ahora un discurso cerrado, para que delante de la junta no improvisen.",
+              "Que vayan todas las familias del Grupo, porque sin un público grande no alcanza a ser ciudadanía."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           }
         ]
       }
@@ -651,7 +655,7 @@
             "text": "El consejo prepara un formulario de veinte preguntas para que las familias evalúen el ciclo al final. ¿Qué falla?",
             "options": [
               "Que el formulario debería ir dirigido a los protagonistas y no a las familias del grupo.",
-              "Que la evaluación se vuelve decorativa: se cierra con papel al final y sin conversación.",
+              "Que se evalúa una sola vez, al final y por escrito, cuando ya nadie puede corregir nada del ciclo.",
               "Que las familias no tienen elementos para evaluar un ciclo que no vivieron desde dentro."
             ],
             "correctIndex": 1
@@ -739,11 +743,11 @@
         "nextLabel": "Continuar a los desaciertos ⚠️",
         "questions": [
           {
-            "text": "Tu unidad viene de un año difícil y el consejo quiere un proyecto anual ambicioso. ¿Qué ritmo propondrías?",
+            "text": "Tu Tropa venía de un año flojo y eligió un microciclo de seis semanas. Va muy bien, y a mitad de camino quieren volverlo anual. ¿Qué haces?",
             "options": [
-              "Un macrociclo anual: un año entero da margen para corregir lo que vaya saliendo mal.",
-              "Un microciclo de pocas semanas, para conseguir una victoria temprana que se pueda sostener.",
-              "Dos mesociclos seguidos, de modo que el año quede cubierto sin depender de un solo proyecto."
+              "Volverlo anual de una vez: si va bien, frenar el entusiasmo sería desperdiciar la victoria lograda.",
+              "Cerrar el micro como se planeó, celebrarlo y decidir el próximo ciclo con lo que les enseñó este.",
+              "Adelantar el cierre dos semanas, para asegurar la victoria temprana antes de que algo se tuerza."
             ],
             "correctIndex": 1
           },
@@ -757,13 +761,13 @@
             "correctIndex": 0
           },
           {
-            "text": "En una Comunidad, el equipo de dirigentes quiere dejar fijado ya que el próximo ciclo dure cuatro meses. ¿Qué dice la Guía de Comunidad?",
+            "text": "Una dirigente de Comunidad llega al consejo con el próximo ciclo ya fijado: cuatro meses. ¿Qué le propones?",
             "options": [
-              "Que la fija siempre el equipo de dirigentes de la unidad, entre tres y seis meses.",
-              "Que no fija ninguna: el plazo lo pone el proyecto, y tu trabajo es que exista uno.",
-              "Que suelen decidirla los jóvenes, en su organismo de gobierno, entre tres y seis meses."
+              "Llevar la duración al Congreso de Comunidad como pregunta abierta, con el rango de tres a seis meses a la vista.",
+              "Mantenerla: cuatro meses cae dentro del rango que da la Guía, así que la fecha ya cumple con lo que pide.",
+              "Dejar la duración en blanco y que el proyecto la vaya marcando sobre la marcha, como se hace en el Clan."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           }
         ]
       }
@@ -882,9 +886,9 @@
           {
             "text": "La Manada propone recuperar toda la quebrada y reforestar sus dos orillas en un trimestre. Todos están entusiasmados. ¿Qué corresponde?",
             "options": [
-              "Respetar la propuesta tal cual: si la eligieron ellos, el adulto acompaña y no recorta el sueño.",
-              "Ajustar con ellos el tamaño: elegir el tramo de quebrada que de verdad puedan cuidar en el trimestre.",
-              "Ajustar solo la duración y pasarlo a macrociclo, para que la meta tenga el año que pide."
+              "Dejar que lo intenten tal cual y que el tropiezo les enseñe: equivocarse también educa a un lobato.",
+              "Preguntarles qué tramo de la quebrada podrían cuidar de verdad hasta diciembre, y empezar por ese.",
+              "Llevarles tú un proyecto más pequeño ya armado, para que no se les vaya el trimestre en ajustes."
             ],
             "correctIndex": 1
           }

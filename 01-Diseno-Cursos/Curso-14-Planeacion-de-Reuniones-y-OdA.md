@@ -74,7 +74,7 @@ Al terminar, el adulto podrá:
 5. **Aterrizar una actividad en el ambiente de referencia** de su unidad y escribir un paso a paso que otra persona pueda ejecutar.
 6. **Valorar el riesgo** de una actividad distinguiendo peligro de riesgo, calculando el nivel con probabilidad × consecuencia y escribiendo medidas de control concretas.
 7. **Cerrar la actividad** con la evaluación de la Ficha y el ciclo de cuatro preguntas, y dejar registrada una novedad que le sirva a quien la use después.
-8. **Abrir las dos superficies oficiales** del instrumento sabiendo qué hace cada una y dónde se descargan.
+8. **Elegir** entre las dos superficies oficiales del instrumento según lo que necesitas, y compensar lo que a la interactiva le falta.
 
 ---
 

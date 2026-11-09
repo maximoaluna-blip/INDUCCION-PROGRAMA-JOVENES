@@ -3,7 +3,7 @@
   "title": "La PNPJ y \"El Gran Juego para la Vida\"",
   "subtitle": "El Programa de Jóvenes aterrizado a Colombia",
   "description": "El Curso 6 de la Línea Programa de Jóvenes. En ~38 minutos vas a aterrizar todo lo aprendido al contexto colombiano: la Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. 617 de 2024) y su Modelo de Aplicación \"El Gran Juego para la Vida\" (DNPJ 2026). Vas a recorrer las 5 ramas, las 6 áreas de crecimiento, las 3 etapas × 3 momentos y las herramientas operativas, y a construir tu mapa personal del Modelo.",
-  "contentVersion": "2026-10-04",
+  "contentVersion": "2026-11-08",
   "icon": "📜",
   "duration": "38 minutos",
   "level": 1,
@@ -20,7 +20,11 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~38 minutos.</strong> Al final vas a poder abrir el Modelo de Aplicación 2026 y entender qué dice cada capítulo, sin perderte."
+          "text": "⏱️ <strong>~38 minutos.</strong> Al final vas a saber en qué parte del Modelo buscar cada cosa: ramas, áreas, etapas y herramientas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Seguro te ha pasado: alguien en el consejo dice «eso no es lo que dice el Modelo», y nadie sabe en qué página buscar. El Modelo tiene 109 páginas y casi siempre se queda en la carpeta. La PNPJ no inventó el Movimiento: lo tradujo a Colombia. Hoy vas a armar el mapa para encontrar cada cosa en minutos."
         },
         {
           "type": "paragraph",
@@ -65,7 +69,7 @@
         },
         {
           "type": "policy-quote",
-          "label": "📋 Ver el propósito textual",
+          "label": "📋 Ver uno de sus propósitos, textual",
           "source": "PNPJ (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024), §1 Propósito de la Política, págs. 3-4.",
           "text": "Adaptar la Política Mundial e Interamericana de Programa de Jóvenes a la realidad de Colombia, con el fin de asegurar la aplicación de los conceptos al contexto país."
         },
@@ -99,7 +103,7 @@
         }
       ],
       "reflection": {
-        "prompt": "De las 4 novedades de la PNPJ, ¿cuál te parece más importante o más necesaria para el Programa de Jóvenes en Colombia hoy? ¿Por qué?"
+        "prompt": "Recuerda la última vez que en tu unidad se tomó una decisión de programa «porque siempre se ha hecho así». ¿Cuál de las 4 novedades de la PNPJ habría cambiado esa decisión, y cómo?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 2",
@@ -115,22 +119,22 @@
             "correctIndex": 2
           },
           {
-            "text": "Dos dirigentes discuten: uno sostiene que la PNPJ y «El Gran Juego para la Vida» son el mismo documento con dos nombres. ¿Qué le precisarías?",
+            "text": "Un dirigente comenta: «Desde que salió El Gran Juego para la Vida en 2026, la PNPJ quedó atrás». ¿Qué le precisarías?",
             "options": [
-              "Que no: el Modelo es el acuerdo del Consejo Scout Nacional y la PNPJ, el manual que lo desarrolla.",
-              "Que no: la PNPJ es el acuerdo del Consejo Scout Nacional y el Modelo, el manual que la desarrolla.",
-              "Que no: la PNPJ es el manual de la DNPJ y el Modelo, el acuerdo que la vuelve norma en Colombia."
+              "Que sí: el Modelo es de 2026 y, por ser más reciente, reemplazó a la PNPJ de 2024.",
+              "Que no: la PNPJ sigue siendo la norma, y el Modelo la baja a ejemplos y plantillas.",
+              "Que no: el Modelo es solo el resumen de bolsillo de la PNPJ, para usarlo a diario."
             ],
             "correctIndex": 1
           },
           {
-            "text": "¿Sobre qué base construyó la PNPJ sus competencias?",
+            "text": "En una reunión de Grupo, un dirigente afirma que las competencias de la PNPJ salieron de los cuatro objetivos de B-P de 1922, «porque todo viene de ahí». ¿Qué le precisarías?",
             "options": [
-              "Los cinco ámbitos de desarrollo que propuso la OMMS en 2019.",
-              "Los cuatro pilares de la educación de la UNESCO.",
-              "Los cuatro objetivos de Baden-Powell de 1922."
+              "Que la PNPJ las apoya en los cuatro pilares de la educación de la UNESCO.",
+              "Que la PNPJ las apoya en los cinco ámbitos de desarrollo de la OMMS de 2019.",
+              "Que la PNPJ las apoya en los ocho elementos del Método Scout actualizado."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -183,7 +187,7 @@
             },
             {
               "title": "🏔️ Clan — Rovers (18–20 años)",
-              "description": "Grupo natural: equipos de Clan. Marco simbólico: La Ciudadanía Activa. Promesa y Ley Scout. Eventos rituales: Vigilia, Peregrinaje, Partida, Cena Rover.",
+              "description": "Grupo natural: equipos de proyecto y clubes, que cada Rover elige. Marco simbólico: La Ciudadanía Activa. Promesa y Ley Scout. Ceremonias: entrega de insignias del PARCE, Vigilia, Peregrinaje, Partida y Cena Rover.",
               "color": "#ede7f6",
               "borderColor": "#5e35b1"
             }
@@ -232,9 +236,9 @@
           {
             "text": "Una dirigente nueva de Tropa quiere preparar el marco simbólico y pregunta cuál es el libro que sirve de fondo motivador a su rama. Según esta lección, ¿qué le responderías?",
             "options": [
-              "Que su fondo motivador es Escultismo para Muchachos, como en las demás ramas.",
-              "Que su fondo motivador es el Libro de las Tierras Vírgenes, como en Manada.",
-              "Que su fondo motivador no aplica: es la única rama cuya Guía lo dice expresamente."
+              "Que no tiene uno fijo: cada Tropa escoge el libro que le guste a la patrulla.",
+              "Que es el Libro de las Tierras Vírgenes, el mismo de Familia y Manada.",
+              "Que no aplica: su Guía dice que la rama no tiene, y su marco es La Aventura."
             ],
             "correctIndex": 2
           },
@@ -330,7 +334,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Ejemplo: en <strong>Corporalidad</strong>, un cachorro de 6 años trabaja en fortalecer sus habilidades motoras finas y gruesas; un lobato de 9 años, en afianzar hábitos de higiene; un scout de 13 años trabaja en reconocer y valorar su cuerpo; un rover de 19, en sostener su propio proyecto de salud integral. Y todos caminan hacia las mismas competencias terminales del área, como la de llegar al final del camino scout tomando con responsabilidad decisiones libres e informadas sobre su salud sexual y reproductiva. Misma área, distintos niveles."
+          "text": "Ejemplo: en <strong>Corporalidad</strong>, un cachorro de 6 años trabaja en fortalecer sus habilidades motoras finas y gruesas; un lobato de 9 años, en afianzar hábitos de higiene; un scout de 13 años, en entender los cambios de la pubertad y respetar su cuerpo y el de los demás; un rover de 19, en sostener su propio proyecto de salud integral. Y todos caminan hacia las mismas competencias terminales del área, como la de llegar al final del camino scout tomando con responsabilidad decisiones libres e informadas sobre su salud sexual y reproductiva. Misma área, distintos niveles."
         },
         {
           "type": "heading",
@@ -356,11 +360,11 @@
           {
             "text": "En la Manada, una dirigente trabaja con su seisena para que los lobatos reconozcan cuándo están bravos y aprendan a calmarse antes de explotar. ¿Qué área trabaja sobre todo?",
             "options": [
-              "El área de la Afectividad.",
-              "El área de la Creatividad.",
-              "El área de la Espiritualidad."
+              "El área del Carácter: la voluntad para dominarse y decidir bien.",
+              "El área de la Sociabilidad: convivir sin pelear con la seisena.",
+              "El área de la Afectividad: reconocer y regular lo que se siente."
             ],
-            "correctIndex": 0
+            "correctIndex": 2
           },
           {
             "text": "Un Jefe de Tropa dice: «Las competencias terminales son las que el scout debe lograr al salir de la Tropa; las voy a buscar en mi Guía». ¿Qué le corregirías?",
@@ -372,13 +376,13 @@
             "correctIndex": 0
           },
           {
-            "text": "Una dirigente de Manada quiere seguir la progresión de su seisena y piensa usar en cada reunión todas las técnicas del banco de las Herramientas 2.0, «para no dejar nada por fuera». ¿Qué le dirías?",
+            "text": "En el campamento, una dirigente de Manada ve que un lobato resolvió solo una pelea dentro de su seisena. Quiere que eso cuente para su progresión. ¿Qué hace?",
             "options": [
-              "Que no hace falta: basta con la autoevaluación tipo semáforo, la técnica oficial.",
-              "Que está bien: el banco se usa completo para que la observación del avance sea más justa.",
-              "Que no hace falta: que escoja la que le sirva a esa actividad, y si acaso una más."
+              "Le pone una prueba al regresar, para confirmar que de verdad sabe resolver conflictos.",
+              "Lo anota ese mismo día en el anecdotario: qué pasó, en qué actividad y qué hizo él.",
+              "Lo guarda para el cierre del trimestre y lo revisa en la autoevaluación tipo semáforo."
             ],
-            "correctIndex": 2
+            "correctIndex": 1
           }
         ]
       }
@@ -477,9 +481,9 @@
           {
             "text": "Andrés ya está en la etapa de Transición de su rama, y esta semana tuvo su primer contacto con los primeros auxilios. Respecto a esa habilidad, ¿en qué momento de aprendizaje está?",
             "options": [
-              "En Profundizo: quien está en Transición ya profundiza lo que trabaja.",
-              "En Exploro: el momento se mide por competencia, no por la etapa.",
-              "En Aplico: en Transición ya no se empieza de cero, sino con apoyo."
+              "En Profundizo, porque ya lleva tiempo en la rama y está por pasar.",
+              "En Exploro, porque es la primera vez que trabaja esa habilidad.",
+              "En Aplico, porque en Transición ya recibe la habilidad con apoyo."
             ],
             "correctIndex": 1
           },
@@ -528,7 +532,7 @@
           "items": [
             {
               "title": "🛟 Apoyar",
-              "description": "Preparar las condiciones, asegurar los recursos, sostener la planeación.",
+              "description": "Cuando el protagonista se acerca por primera vez a algo: le preparas una escena segura, le explicas para qué sirve, lo animas y le ayudas con los primeros tropiezos.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
@@ -557,7 +561,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Toda oportunidad de aprendizaje debería pasar el filtro DURASLID: <strong>D</strong>esafiante (que invite a estirarse), <strong>U</strong>til (que sirva para algo real), <strong>R</strong>ecompensante (que genere satisfacción), <strong>A</strong>tractiva (que despierte ganas), <strong>S</strong>egura (sin riesgo innecesario), <strong>L</strong>údica (con elemento de juego), <strong>I</strong>nclusiva (que todos puedan participar), <strong>D</strong>iversa (con pluralidad de formas, voces y enfoques). Si una actividad solo cumple 2 o 3 de los 8 atributos, hay algo que ajustar."
+          "text": "Toda oportunidad de aprendizaje debería pasar el filtro DURASLID: <strong>D</strong>esafiante (que invite a estirarse), <strong>U</strong>til (que sirva para algo real), <strong>R</strong>ecompensante (que genere satisfacción), <strong>A</strong>tractiva (que despierte ganas), <strong>S</strong>egura (sin riesgo innecesario), <strong>L</strong>údica (con elemento de juego), <strong>I</strong>nclusiva (que todos puedan participar), <strong>D</strong>iversa (con pluralidad de formas, voces y enfoques). Si una actividad solo cumple 2 o 3 de los 8 atributos, hay algo que ajustar. Ejemplo: un juego de pistas en el parque es Lúdico, Atractivo y Seguro; si además lo arman los propios scouts para el barrio, gana Útil y Desafiante."
         },
         {
           "type": "heading",
@@ -575,15 +579,15 @@
         },
         {
           "type": "paragraph",
-          "text": "El <strong>territorio</strong> no es solo el espacio físico donde está el grupo. Es el conjunto de relaciones sociales, culturales y comunitarias que rodean al protagonista. El Modelo pide que el Programa <strong>se ancle al territorio</strong>: que los proyectos sirvan al barrio, que los marcos simbólicos dialoguen con la cultura local, que la unidad sea reconocida como actor de su comunidad."
+          "text": "El <strong>territorio</strong> no es solo el espacio físico donde está el grupo. Es el conjunto de relaciones sociales, culturales y comunitarias que rodean al protagonista. El Modelo pide que el Programa <strong>se ancle al territorio</strong>: que los proyectos sirvan al barrio, que los marcos simbólicos dialoguen con la cultura local, que la unidad sea reconocida como actor de su comunidad. Ejemplo: una Comunidad junto a un río contaminado no «sale a la naturaleza»: trabaja con la junta de acción comunal en ese río."
         },
         {
           "type": "info-box",
-          "text": "En los cursos del Nivel 2 (13 — Seguimiento, 14 — Planeación, 15 — Ciclo con ABP) vas a dominar estas herramientas en detalle. Hoy guarda el inventario."
+          "text": "En los cursos del Nivel 2 (13 — Seguimiento, 14 — Planeación, 15 — Ciclo con ABP) vas a dominar estas herramientas en detalle. Hoy guarda el inventario. Antes de tu próxima reunión, pasa una sola actividad por DURASLID y anota qué atributo le faltaba."
         }
       ],
       "reflection": {
-        "prompt": "De las 4 herramientas (3 roles, DURASLID, ABP, territorio), ¿cuál te parece más urgente fortalecer en tu unidad? ¿Por qué?"
+        "prompt": "Elige la última actividad que hizo tu unidad. Pásala por DURASLID: ¿qué atributo le faltó? ¿Qué cambiarías para la próxima, y cuál de los 3 roles te tocaba ejercer ahí?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 6",
@@ -608,13 +612,13 @@
             "correctIndex": 2
           },
           {
-            "text": "Un Jefe de Unidad pregunta si, con los 3 roles del Modelo, su cargo pasa a llamarse «Acompañante de Unidad». Según la lección, ¿qué le responderías?",
+            "text": "Un Jefe de Tropa planea una caminata de 15 km. Es segura, útil y retadora, pero dos scouts con asma no van a poder seguir el ritmo y la ruta es la misma de los últimos tres meses. Con el filtro DURASLID en la mano, ¿qué hace?",
             "options": [
-              "Que sí: el Modelo 2026 renombra los cargos de rama según el rol que ejercen.",
-              "Que no: los roles describen su manera de trabajar; el cargo conserva su nombre.",
-              "Que no del todo: conserva el cargo, pero en registros oficiales firma «Acompañante»."
+              "La ajusta: le faltan Inclusiva y Diversa, así que suma otra ruta y otros roles.",
+              "La mantiene: ya cumple lo esencial, Segura y Útil, y lo demás es un plus opcional.",
+              "La cancela: si no pasa los 8 atributos completos, la actividad no se puede hacer."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -640,7 +644,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Completa esta plantilla con tus propios datos: <em>\"Sirvo (o serviré) en la <strong>rama __________</strong> (Familia/Manada/Tropa/Comunidad/Clan). Su grupo natural se llama <strong>__________</strong> (Camadas/Seisenas/Patrullas/equipos). Su marco simbólico es <strong>__________</strong> (La Fantasía —el Modelo distingue Fantasía, Familia, de Fantasía Expandida, Manada— / La Aventura / La aventura hacia la ciudadanía / La Ciudadanía Activa). Los protagonistas que acompaño están entre las edades de <strong>__________ a __________ años</strong>. De las <strong>6 áreas de crecimiento</strong>, en este trimestre voy a poner especial cuidado en: <strong>__________ y __________</strong>. Mi rol principal en esta rama es: <strong>Apoyar / Acompañar / Enlazar</strong> (subraya el que más te toca).\"</em>"
+          "text": "Completa esta plantilla con tus propios datos: <em>\"Sirvo (o serviré) en la <strong>rama __________</strong> (Familia/Manada/Tropa/Comunidad/Clan). Su grupo natural se llama <strong>__________</strong> (Camadas/Seisenas/Patrullas/equipos). Su marco simbólico es <strong>__________</strong> (La Fantasía —el Modelo distingue Fantasía, Familia, de Fantasía Expandida, Manada— / La Aventura / La aventura hacia la ciudadanía / La Ciudadanía Activa). Los protagonistas que acompaño están entre las edades de <strong>__________ a __________ años</strong>. De las <strong>6 áreas de crecimiento</strong>, en este trimestre voy a poner especial cuidado en: <strong>__________ y __________</strong>. Ahora mismo, el rol que más me toca es <strong>__________</strong> (Apoyar / Acompañar / Enlazar), porque la mayoría de mis protagonistas están <strong>__________</strong> (explorando / aplicando / profundizando) en <strong>__________</strong> (una competencia o habilidad concreta).\"</em>"
         },
         {
           "type": "mission-box",
@@ -663,7 +667,7 @@
         },
         {
           "type": "info-box",
-          "text": "Ya sabes qué dice Colombia. Te queda un curso para cerrar el Nivel 1. Buen camino."
+          "text": "Ya no necesitas recitar la PNPJ: tienes el mapa para encontrar lo que dice, el día que te lo pregunten en el consejo. Te queda un curso para cerrar el Nivel 1. Buen camino."
         }
       ],
       "reflection": {
@@ -678,7 +682,7 @@
             "options": [
               "Que sí: en Manada se empieza por el cuerpo, y las demás áreas se suman con la edad.",
               "Que no: las seis áreas valen desde Manada; con la edad crece lo que se pide en cada una.",
-              "Que no: en Manada se trabajan las seis, con las mismas competencias intermedias del Clan."
+              "Que no: en Manada se trabajan solo cuatro de las seis, las más concretas."
             ],
             "correctIndex": 1
           },
@@ -692,13 +696,13 @@
             "correctIndex": 1
           },
           {
-            "text": "Una dirigente terminó su mapa y quiere tenerlo a mano para planear el próximo campamento. Según la lección, ¿dónde lo guarda?",
+            "text": "En su mapa, un dirigente de Comunidad anotó «Enlazar». Pero casi todo su equipo está empezando a hacer presupuestos de proyecto, algo que nunca había hecho. ¿Qué le dirías?",
             "options": [
-              "En la reflexión de la lección, que se guarda solo en su navegador.",
-              "En el recuadro «Compromiso Personal», que se queda en su navegador.",
-              "En el certificado del curso, que ella imprime junto con todo su mapa."
+              "Que se quede en Enlazar: en Comunidad, por la edad, el rol del dirigente es siempre ese.",
+              "Que ejerza los tres roles a la vez con todos, para que nadie quede sin acompañamiento.",
+              "Que para esa competencia le toca Apoyar: el rol sigue al momento del protagonista."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           }
         ]
       }

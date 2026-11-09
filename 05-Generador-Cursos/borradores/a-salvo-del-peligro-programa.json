@@ -3,7 +3,7 @@
   "title": "A Salvo del Peligro aplicado al Programa",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Cómo el Método Scout hace segura a tu unidad: los once puntos en que la Política Nacional A Salvo del Peligro se articula con el Programa de Jóvenes, aplicados a un campamento real — la cultura de escucha, la práctica 2+1 al planear, la vida en línea, los datos de los protagonistas y el mecanismo de reporte. Para todo dirigente de unidad, de cualquier rama. No reemplaza los módulos oficiales de A Salvo del Peligro.",
-  "contentVersion": "2026-10-04",
+  "contentVersion": "2026-11-08",
   "icon": "🛡️",
   "duration": "58 minutos",
   "level": 4,
@@ -219,8 +219,8 @@
             "text": "Decides llevar al Consejo de Patrulla el apodo que todos le dicen a un scout de doce años, que siempre es el primero en reírse. ¿Qué haces antes del Consejo?",
             "options": [
               "Llevarlo al Consejo sin hablar antes con nadie, y plantearlo en general para no señalar a ningún scout en particular.",
-              "Hablar antes con los de la patrulla que lo inventaron, para que en el Consejo le pidan disculpas delante de todos.",
-              "Hablar antes con él, a la vista de otro adulto, para que no se entere en pleno Consejo de que el tema va a salir."
+              "Hablar antes con los de la patrulla que lo inventaron, a la vista de otro adulto, para que en el Consejo le pidan disculpas delante de todos.",
+              "Hablar antes con él, con otro adulto presente, para que no se entere en pleno Consejo de que el tema va a salir."
             ],
             "correctIndex": 2
           }
@@ -291,7 +291,7 @@
           "type": "list",
           "ordered": true,
           "items": [
-            "<strong>Nombrar lo que se normalizó.</strong> Sin escándalo y sin señalar a nadie: «esto lo hemos dejado pasar, y no deberíamos». Y antes, una conversación con quien lo recibe —a la vista de otro adulto—, para que no se entere en público.",
+            "<strong>Nombrar lo que se normalizó.</strong> Sin escándalo y sin señalar a nadie: «esto lo hemos dejado pasar, y no deberíamos». Y antes, una conversación con quien lo recibe, con otro adulto presente, para que no se entere en público.",
             "<strong>Llevarlo al espacio de la unidad</strong> donde ellos deciden, con la Ley y la Promesa en la mano, para que el acuerdo sea suyo.",
             "<strong>Enseñar que contar está bien:</strong> que decirle a un adulto que algo no anda bien no es traicionar a nadie, y que existe una puerta para hacerlo (Lección 6)."
           ]
@@ -321,18 +321,18 @@
           {
             "text": "Al revisar el horario de la caminata del domingo, notas que si alguien se lastima, el plan dice: «lo baja al puesto de salud el dirigente que tenga carro». ¿Qué ajuste le pide esta lección al plan?",
             "options": [
-              "Decidir que al herido lo baje el dirigente de primeros auxilios, que sabe atenderlo si empeora en el camino.",
-              "Decidir ya quién acompaña a ese dirigente en el carro, para que en la urgencia nadie viaje a solas con el herido.",
-              "Dejarlo así, y pedirle al dirigente que comparta su ubicación con el grupo de dirigentes mientras baja con el herido."
+              "Anotar en el plan que al herido lo baja el dirigente de primeros auxilios, que sabe atenderlo si empeora en el camino.",
+              "Anotar en el plan quién sube en el carro con el conductor y el herido, para que esa decisión no se tome en el camino.",
+              "Anotar en el plan que el conductor comparta su ubicación en vivo con el grupo de dirigentes mientras baja con el herido."
             ],
             "correctIndex": 1
           },
           {
             "text": "Al final de cada reunión de Tropa en la sede, casi siempre queda un scout esperando a que lo recojan, cuando los demás dirigentes ya se fueron. ¿Qué decisión pide esta lección?",
             "options": [
-              "Que lo acompañe el dirigente de turno, con la puerta de la sede abierta y a la vista de la gente que pasa por la calle.",
-              "Que dos adultos se queden en la sede hasta entregar al último scout, y dejarlo acordado desde la planeación.",
-              "Que el dirigente de turno lo lleve a su casa en su carro, con permiso de la familia, para que no espere solo en la sede."
+              "Acordar desde la planeación que el último scout espere con dos compañeros de su patrulla hasta que llegue su familia.",
+              "Acordar desde la planeación que dos dirigentes se turnan cada sábado para quedarse hasta entregar al último scout.",
+              "Acordar desde la planeación que quien no haya sido recogido a las cinco lo lleve a su casa el dirigente de turno, con permiso firmado."
             ],
             "correctIndex": 1
           },
@@ -360,7 +360,7 @@
           "type": "policy-quote",
           "label": "📕 La práctica, en una línea",
           "source": "Política Nacional a Salvo del Peligro (diciembre de 2025), «Articulación con el Programa de Jóvenes», ítem 2, p. 26.",
-          "text": "Consiste en asegurar que siempre haya al menos tres personas presentes durante las actividades, interacciones o acompañamientos: dos personas adultas responsables y una persona menor de edad, o una persona adulta y dos menores, tanto en comunicaciones entre adultos - adultos, adultos - jóvenes, jóvenes - jóvenes."
+          "text": "Consiste en asegurar que siempre haya al menos tres personas presentes durante las actividades, interacciones o acompañamientos: dos personas adultas responsables y una persona menor de edad, o una persona adulta y dos menores, tanto en comunicaciones entre adultos - adultos, adultos - jóvenes, jóvenes - jóvenes"
         },
         {
           "type": "paragraph",
@@ -598,7 +598,7 @@
             "text": "En la reunión de dirigentes, uno cuenta —con cariño— lo que la familia de un scout le confió sobre sus dificultades en el colegio, «para que todos lo tengamos en cuenta». ¿Qué le dice esta lección?",
             "options": [
               "Que es información de desarrollo: la necesita quien acompaña a ese scout, no todo el equipo, por mucho cariño que le tengan.",
-              "Que lo que confía una familia se guarda entre ella y ese dirigente, aunque después él note en las reuniones algo que le preocupe del scout.",
+              "Que lo que confía una familia se guarda solo entre ella y ese dirigente: ni siquiera el Jefe de Unidad tendría que saberlo.",
               "Que hizo bien: en un equipo de dirigentes que se tiene confianza, compartirlo ayuda a que todos traten mejor al scout."
             ],
             "correctIndex": 0
@@ -606,9 +606,9 @@
           {
             "text": "Revisando las fichas antes de una salida de Manada, ves que la de un lobato es de hace dos años y anota un medicamento diario. ¿Qué haces?",
             "options": [
-              "Pedirle al lobato en la salida que te diga si todavía lo toma, y llevar la ficha así, porque el medicamento está anotado.",
-              "Pedirle a la familia que la actualice antes de salir: una ficha vieja puede llevar a darle lo que ya no toma.",
-              "Actualizarla tú con lo que te cuente el lobato en la próxima reunión, y avisarle después a la familia."
+              "Llevarla así: el medicamento está anotado y, si el lobato ya no lo toma, la familia lo habría avisado.",
+              "Pedirle a la familia que la revise y la actualice antes de salir, y llevar la ficha nueva en la carpeta de primeros auxilios.",
+              "Dejar al lobato sin ir a esta salida hasta que la familia traiga una ficha nueva firmada por un médico."
             ],
             "correctIndex": 1
           }
@@ -704,9 +704,9 @@
           {
             "text": "En la Tropa vas a dedicar cinco minutos a contarles a los scouts qué pueden hacer si algo en la unidad no les gusta o los hace sentir mal. ¿Qué mensaje les das?",
             "options": [
-              "Que se lo cuenten primero a su Guía de Patrulla, que conoce a la patrulla y decide si hace falta usar el botón.",
-              "Que pueden contárselo a un adulto de confianza, y que existe el botón, que también pueden usar ellos sin permiso.",
-              "Que pueden contárselo a un adulto de confianza, y que ese adulto decide si hace falta usar el botón."
+              "Que pueden contármelo a mí a cualquier hora, y que yo me encargo de usar el botón por ellos si hace falta.",
+              "Que pueden contárselo a un adulto de confianza o usar ellos mismos el botón, y les muestras dónde está el QR en la sede.",
+              "Que, si es algo serio, mejor usen el botón directamente antes que contárselo a un dirigente, para que nadie lo filtre."
             ],
             "correctIndex": 1
           },
@@ -722,9 +722,9 @@
           {
             "text": "Un scout le cuenta a su dirigente algo que le pasó con un adulto del Grupo. El Jefe de Grupo dice: «Tráiganmelo a mí; hablo con las partes y miro si amerita reportarlo». ¿Qué responde esta lección?",
             "options": [
-              "Que puede hacerlo si escucha a las partes con otro adulto presente y deja un acta firmada para enviarla a la Comisión A Salvo del Peligro.",
-              "Que mejor lo estudie el Consejo de Grupo, que es colegiado y no deja la decisión en manos de una sola persona.",
-              "Que no le toca a nadie del Grupo: el dirigente reporta por la ruta sin hablar antes con las partes, y decide el Comité de Gestión de Incidentes."
+              "Que hable con las partes el Jefe de Grupo, con otro adulto presente, y reporte después por el botón con lo que haya averiguado.",
+              "Que el dirigente espere a que el scout se lo cuente también a su familia, para que sea ella quien decida si reporta.",
+              "Que el dirigente que lo escuchó reporta por la ruta sin hablar antes con las partes, y que el Jefe de Grupo no decide si se reporta."
             ],
             "correctIndex": 2
           }
@@ -818,11 +818,11 @@
         "nextLabel": "Ver mi certificado 🛡️",
         "questions": [
           {
-            "text": "Al terminar de planear un campamento, un dirigente propone: «Ahora hagamos la parte de seguridad». ¿Qué le respondes?",
+            "text": "Al planear el campamento, el equipo arma el juego nocturno del sábado: dos patrullas se esconden en el bosque y las otras las buscan con linternas. ¿Qué te pide este curso en ese momento?",
             "options": [
-              "Que la seguridad la lleve un encargado, que al final revise el horario y decida quién acompaña a quién.",
-              "Que está bien, si la parte de seguridad se hace antes de salir y la firman el Jefe de Unidad y el Jefe de Grupo.",
-              "Que la seguridad se piense al decidir cada parte —horario, canales, fichas—, no como una lista al final."
+              "Cambiarlo por un juego dentro del campamento y a la vista de todos, porque de noche en el bosque no se puede cuidar a nadie.",
+              "Dejar el juego como está y llevarlo a la matriz de la Ficha cuando el horario completo esté listo, con el resto de riesgos.",
+              "Revisar ahí mismo quién acompaña a cada grupo durante el juego, también al scout que se pierda o se lastime, y dejarlo en el plan."
             ],
             "correctIndex": 2
           },

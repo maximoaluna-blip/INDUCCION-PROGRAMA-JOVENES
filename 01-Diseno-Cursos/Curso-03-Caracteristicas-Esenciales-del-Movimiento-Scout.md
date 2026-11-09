@@ -67,7 +67,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 **Secciones (en orden):**
 
 1. **`info-box`** — Tiempo (~33 min) y promesa: _"Al final vas a poder explicarle a alguien externo qué es el Movimiento Scout en menos de un minuto, sin recurrir a uniformes ni a campamentos."_
-2. **`paragraph`** — Saludo. Mensaje: muchos dirigentes operan el Movimiento durante años sin haber leído nunca el documento que lo define. Este curso es la lectura básica, traducida.
+2. **`paragraph`** — Saludo con escena de apertura: _"Te damos la bienvenida. Imagina la reunión de padres: una mamá te pregunta «¿y esto en qué se diferencia de un club deportivo o de una academia?». Muchos dirigentes con años en el Movimiento responden «acampamos y usamos pañoleta». No es falta de compromiso: casi nadie ha leído el documento que define al Movimiento. Este curso es esa lectura básica, traducida."_
 3. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 4. **`list`** — Las 5 ideas:
     - El Propósito: qué busca el Movimiento.
@@ -75,7 +75,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - Los 6 elementos que distinguen al Movimiento de cualquier otra cosa.
     - La alianza joven-adulto que define tu rol.
     - Tu propia formulación de qué es el Movimiento en una sola frase.
-5. **`mission-box`** — _"Toma estas lecciones como si fueras un periodista cuidadoso: estás recogiendo la definición exacta. Cuando alguien te pregunte 'qué es eso de los scouts', tendrás algo claro que decir."_
+5. **`mission-box`** — _"Toma estas lecciones como alguien que va a tener que explicarlas: no se trata de memorizar la definición, sino de entenderla tan bien que la puedas decir con tus palabras cuando alguien te pregunte 'qué es eso de los scouts'."_
 
 **Reflexión:** ninguna.
 **Quiz:** ninguno.
@@ -97,17 +97,24 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - `label`: "📋 Ver el Propósito textual"
 4. **`heading` (nivel 3)** — _"Lo que dice esto, en partes"_
 5. **`method-grid`** — Los componentes del Propósito desglosados:
-    - 🎯 **Contribuir al desarrollo** — no formar, no instruir, no entrenar: **contribuir**. El Movimiento es uno más en la vida del joven (familia, escuela, comunidad, fe). Aporta lo que le corresponde, no reemplaza nada.
+    - 🎯 **Contribuir al desarrollo** — no formar, no instruir, no entrenar: **contribuir**. El Movimiento es uno más en la vida del joven (familia, escuela, comunidad, fe). Aporta lo que le corresponde, no reemplaza nada. Es lo que viste en el Curso 3: el Movimiento es educación no formal, y convive con la escuela y la familia; no las reemplaza.
     - 🌱 **De los jóvenes** — el Movimiento existe para ellos. No para los adultos que lo gestionan ni para los logos institucionales.
     - 🌐 **5 ámbitos integrados** — Físico (cuerpo), Intelectual (pensar), Emocional (sentir), Social (convivir), Espiritual (sentido). Ningún ámbito por separado: la persona entera.
     - 👤 **Como individuos** — que cada uno descubra quién es y qué puede.
     - 🤝 **Como ciudadanos responsables** — que aporten al bien común.
     - 🌍 **Comunidad local, nacional e internacional** — que sirvan en su barrio **y** se reconozcan parte de una hermandad mundial.
 6. **`heading` (nivel 3)** — _"De los 5 ámbitos OMMS a las 6 áreas de Colombia"_
-7. **`paragraph`** — _"En el Curso 1 viste que Colombia trabaja con **6 áreas de crecimiento** (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad). No contradicen los 5 ámbitos de la OMMS: cinco se corresponden una a una — físico→Corporalidad, intelectual→Creatividad, emocional→Afectividad, social→Sociabilidad, espiritual→Espiritualidad. La sexta, **Carácter** —la voluntad y las decisiones éticas, eso de «qué clase de persona decido ser»—, el Propósito no la nombra, pero la PNPJ la cuenta entre las áreas de crecimiento del Movimiento."_
+7. **`paragraph`** — _"En el Curso 1 viste que Colombia trabaja con **6 áreas de crecimiento**. No contradicen los 5 ámbitos de la OMMS: cinco se corresponden una a una y la sexta la suma la PNPJ."_
+7-bis. **`list`** — La correspondencia:
+    - Físico → Corporalidad
+    - Intelectual → Creatividad
+    - Emocional → Afectividad
+    - Social → Sociabilidad
+    - Espiritual → Espiritualidad
+    - **Carácter** → el Propósito no la nombra; la PNPJ la cuenta entre las áreas de crecimiento del Movimiento (la voluntad, las decisiones éticas: «qué clase de persona decido ser»)
 8. **`info-box`** — _"Cuando alguien te pregunte 'para qué sirven los scouts', responde con esto: contribuyen al desarrollo integral del joven —cuerpo, mente, emociones, vínculos y sentido— para que sea persona, ciudadano y miembro del mundo. Punto."_
 
-**Reflexión:** _"De los 5 ámbitos del Propósito (físico, intelectual, emocional, social, espiritual), ¿cuál crees que el escultismo colombiano hace **mejor** y cuál hace **peor**? Sé honesto."_
+**Reflexión:** _"Piensa en la última actividad de tu unidad (o en una que hayas visto, si aún no tienes unidad). Descríbela en dos líneas: ¿qué ámbitos del Propósito trabajó de verdad y cuál quedó por fuera? ¿Qué le agregarías para tocar el que faltó?"_
 
 **Quiz (2 preguntas):**
 
@@ -148,10 +155,10 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 7. **`list`** — Una práctica concreta por Principio:
     - **Deber con Dios** — en la unidad, abrir y cerrar espacios de reflexión, respetar las creencias del protagonista y de la familia, ofrecer momentos de silencio en campamento.
     - **Deber con los otros** — proyectos de servicio comunitario, mediación de conflictos en la patrulla, gestos de hermandad con otros grupos del país y del mundo.
-    - **Deber con uno mismo** — conversaciones personales periódicas con su dirigente, autoevaluación de la progresión, decisión propia sobre qué área de crecimiento trabajar.
+    - **Deber con uno mismo** — conversaciones personales periódicas con su dirigente, autoevaluación de la progresión, decidir él mismo qué quiere fortalecer en su progresión.
 8. **`info-box`** — _"Cuando dudes si una práctica es scout o no, hazte 3 preguntas: ¿cuida el deber con Dios (el sentido), con los otros (la fraternidad), con uno mismo (el crecimiento)? Si alguna sale en no, ahí hay algo que revisar."_
 
-**Reflexión:** _"¿Cuál de los 3 Principios crees que se trabaja menos en tu unidad o en las unidades que conoces? ¿Por qué?"_
+**Reflexión:** _"Elige una actividad reciente de tu unidad. ¿Cuál de los 3 Principios no apareció en ella? Escribe una cosa pequeña que agregarías la próxima vez para que aparezca."_
 
 **Quiz (2 preguntas):**
 
@@ -200,7 +207,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - Una organización dependiente de un partido político no es escultismo, aunque se llame "scouts" (rompe **independiente** y **no político**).
 8. **`info-box`** — _"En Colombia, la ASC es Movimiento, para jóvenes, voluntaria, abierta a todos, no política y independiente. Cuando una de las 6 se afloja en una región o un grupo, hay que volver a apretarla — sin acusar, sin avergonzar, simplemente recordándola."_
 
-**Reflexión:** _"De los 6 elementos, ¿cuál crees que **más se afloja** en algún espacio scout que conoces (no solo el tuyo)? ¿Por qué crees que pasa?"_
+**Reflexión:** _"Piensa en una decisión concreta que se tomó en tu unidad o grupo en los últimos meses (un horario, una cuota, un cupo, una salida). Cuéntala por cargos, sin nombres: ¿cuál de los 6 elementos estaba en juego? ¿Se cuidó o se aflojó?"_
 
 **Quiz (2 preguntas):**
 
@@ -241,7 +248,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - ℹ️ **Apoyo informativo** — dar la información que el joven necesita para decidir, sin decidir por él.
     - ✅ **Apoyo evaluativo (la PNPJ lo llama valorativo: es lo mismo)** — ayudar al joven a mirar su propio proceso y a celebrarlo o ajustarlo.
 8. **`heading` (nivel 3)** — _"Primum non nocere"_
-9. **`paragraph`** — _"Es una frase latina que significa **'lo primero, no hacer daño'**. La OMMS la usa en la p. 33 para decir algo incómodo y necesario: antes de poner a un adulto frente a jóvenes hay que mirar que tenga la madurez y el equilibrio para estar ahí, que se forme, que su nombramiento tenga fecha de vencimiento y que alguien lo acompañe y lo evalúe mientras sirve. La protección del joven es lo primero. Por eso, en esta línea, **el Curso 25 (A Salvo del Peligro) es de adopción inmediata**: ningún curso te bloquea el acceso a otro, pero ese no conviene dejarlo para después."_
+9. **`paragraph`** — _"Es una frase latina que significa **'lo primero, no hacer daño'**. La OMMS la usa en la p. 33 para decir algo incómodo y necesario: antes de poner a un adulto frente a jóvenes hay que mirar que tenga la madurez y el equilibrio para estar ahí, que se forme, que su nombramiento tenga fecha de vencimiento y que alguien lo acompañe y lo evalúe mientras sirve. La protección del joven es lo primero. Por eso hay algo que no conviene dejar para después: **los módulos oficiales de A Salvo del Peligro**, que son los que la Asociación exige y que ningún curso de esta plataforma reemplaza. Aquí ningún curso te bloquea el acceso a otro — pero esos, hazlos ya: en el [Curso 7](mi-compromiso-programa-jovenes.html), Lección 5, te decimos dónde están los cuatro módulos."_
 10. **`info-box`** — _"Esta lección es probablemente la más importante del Nivel 1. Si te quedas con una sola idea de los 7 cursos, que sea esta: tu trabajo no es dirigir al joven. Es apoyarlo para que él se desarrolle. La diferencia parece pequeña; en la práctica, lo cambia todo."_
 
 **Reflexión:** _"Recuerda una situación reciente donde tomaste una decisión 'en nombre' de un joven o de un grupo de jóvenes (no por una emergencia, simplemente porque te parecía más rápido). Escribe brevemente: ¿qué pasó? ¿Qué hubiera pasado si lo hubieran decidido ellos?"_
@@ -281,13 +288,13 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - **¿Cuida los 3 Principios** (deber con Dios, con los otros, con uno mismo)?
     - **¿Respeta los 6 elementos que definen** al Movimiento (movimiento, para jóvenes, voluntario, abierto, no político, independiente)? Ojo: no son los 8 del Método, que ves en el Curso 5.
     - **¿Coloca al joven como sujeto activo** y al adulto como apoyo, no como jefe?
-8. **`info-box`** — _"Si respondes 'sí' a las 4, es escultismo. Si respondes 'no' a alguna, no necesariamente está mal — pero no es escultismo. Eso no la descalifica como actividad: solo significa que para esa actividad necesitas otro marco, no este."_
+8. **`info-box`** — _"Si respondes 'sí' a las 4, vas por buen camino: tu actividad tiene el qué y el para qué del Movimiento. El cómo lo pone el Método Scout, que ves en el Curso 5. Si respondes 'no' a alguna, no necesariamente está mal, pero no es escultismo. Eso no la descalifica como actividad: solo significa que para esa actividad necesitas otro marco, no este."_
 9. **`heading` (nivel 3)** — _"Lo que viene"_
 10. **`list`** — Mapa de los siguientes cursos:
     - 🧭 **Curso 5** — El Método Scout y sus 8 elementos: la herramienta práctica con la que aterrizas el Propósito y los Principios a una reunión real.
     - 📜 **Curso 6** — La PNPJ y "El Gran Juego para la Vida": cómo Colombia aterriza todo esto en su Modelo de Aplicación 2026.
     - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes.
-11. **`info-box`** — Despedida: _"Bienvenido al equipo de los que pueden explicar lo que hacen. Lo que viene vale el viaje."_
+11. **`info-box`** — Despedida: _"¿Te acuerdas de la mamá de la reunión de padres? Ya tienes qué responderle: tu frase, y una idea que lo resume todo: un Movimiento de jóvenes, apoyado por adultos. Bienvenido al equipo de los que pueden explicar lo que hacen."_
 
 **Reflexión:** _"Escribe tu frase de una línea (paso 4). Si quieres tenerla a mano, cópiala también en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."_
 
@@ -331,7 +338,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 - **L2 (Propósito) → Curso 6:** los 5 ámbitos OMMS son la base de las 6 áreas PNPJ que el Curso 6 desarrolla con sus competencias terminales e intermedias.
 - **L3 (Principios) → Curso 5:** los 3 Principios se aterrizan en el primer elemento del Método (Promesa y Ley) que el Curso 5 desarrolla.
 - **L5 (alianza joven-adulto) → Curso 5:** la alianza se concreta en el elemento **Apoyo del Adulto** del Método.
-- **L5 (Primum non nocere) → Curso 25 (A Salvo del Peligro):** anuncia el Curso 25, que es de **adopción inmediata** — no habilitante (ADR-019).
+- **L5 (Primum non nocere) → módulos oficiales de A Salvo del Peligro (vía Curso 7, L5):** pide hacerlos ya; ningún curso de la plataforma los reemplaza — no habilitante (ADR-019).
 
 ### 6.2 Hacia atrás
 

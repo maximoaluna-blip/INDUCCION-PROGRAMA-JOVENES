@@ -3,7 +3,7 @@
   "title": "Características Esenciales del Movimiento Scout",
   "subtitle": "El \"qué\" del Movimiento según la OMMS (Kuala Lumpur, 2019)",
   "description": "El Curso 4 de la Línea Programa de Jóvenes entrega la identidad doctrinal del Movimiento: su Propósito, sus 3 Principios y los 6 elementos que lo distinguen de cualquier otra propuesta para jóvenes. Al final vas a poder explicarle a alguien externo qué es el Movimiento Scout en menos de un minuto, sin recurrir a uniformes ni a campamentos.",
-  "contentVersion": "2026-10-04",
+  "contentVersion": "2026-11-08",
   "icon": "🌟",
   "duration": "33 minutos",
   "level": 1,
@@ -24,7 +24,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Te damos la bienvenida. Muchos dirigentes operan el Movimiento durante años sin haber leído nunca el documento que lo define. Este curso es esa lectura básica, traducida."
+          "text": "Te damos la bienvenida. Imagina la reunión de padres: una mamá te pregunta «¿y esto en qué se diferencia de un club deportivo o de una academia?». Muchos dirigentes con años en el Movimiento responden «acampamos y usamos pañoleta». No es falta de compromiso: casi nadie ha leído el documento que define al Movimiento. Este curso es esa lectura básica, traducida."
         },
         {
           "type": "heading",
@@ -44,7 +44,7 @@
         },
         {
           "type": "mission-box",
-          "text": "Toma estas lecciones como si fueras un periodista cuidadoso: estás recogiendo la definición exacta. Cuando alguien te pregunte 'qué es eso de los scouts', tendrás algo claro que decir."
+          "text": "Toma estas lecciones como alguien que va a tener que explicarlas: no se trata de memorizar la definición, sino de entenderla tan bien que la puedas decir con tus palabras cuando alguien te pregunte 'qué es eso de los scouts'."
         }
       ]
     },
@@ -78,7 +78,7 @@
           "items": [
             {
               "title": "🎯 Contribuir al desarrollo",
-              "description": "No formar, no instruir, no entrenar: <strong>contribuir</strong>. El Movimiento es uno más en la vida del joven (familia, escuela, comunidad, fe). Aporta lo que le corresponde, no reemplaza nada.",
+              "description": "No formar, no instruir, no entrenar: <strong>contribuir</strong>. El Movimiento es uno más en la vida del joven (familia, escuela, comunidad, fe). Aporta lo que le corresponde, no reemplaza nada. Es lo que viste en el Curso 3: el Movimiento es educación no formal, y convive con la escuela y la familia; no las reemplaza.",
               "color": "#fce4ec",
               "borderColor": "#e91e63"
             },
@@ -121,7 +121,19 @@
         },
         {
           "type": "paragraph",
-          "text": "En el Curso 1 viste que Colombia trabaja con <strong>6 áreas de crecimiento</strong> (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad). No contradicen los 5 ámbitos de la OMMS: cinco se corresponden una a una — físico→Corporalidad, intelectual→Creatividad, emocional→Afectividad, social→Sociabilidad, espiritual→Espiritualidad. La sexta, <strong>Carácter</strong> —la voluntad y las decisiones éticas, eso de «qué clase de persona decido ser»—, el Propósito no la nombra, pero la PNPJ la cuenta entre las áreas de crecimiento del Movimiento."
+          "text": "En el Curso 1 viste que Colombia trabaja con <strong>6 áreas de crecimiento</strong>. No contradicen los 5 ámbitos de la OMMS: cinco se corresponden una a una y la sexta la suma la PNPJ."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Físico → Corporalidad",
+            "Intelectual → Creatividad",
+            "Emocional → Afectividad",
+            "Social → Sociabilidad",
+            "Espiritual → Espiritualidad",
+            "<strong>Carácter</strong> → el Propósito no la nombra; la PNPJ la cuenta entre las áreas de crecimiento del Movimiento (la voluntad, las decisiones éticas: «qué clase de persona decido ser»)"
+          ]
         },
         {
           "type": "info-box",
@@ -129,7 +141,7 @@
         }
       ],
       "reflection": {
-        "prompt": "De los 5 ámbitos del Propósito (físico, intelectual, emocional, social, espiritual), ¿cuál crees que el escultismo colombiano hace mejor y cuál hace peor? Sé honesto."
+        "prompt": "Piensa en la última actividad de tu unidad (o en una que hayas visto, si aún no tienes unidad). Descríbela en dos líneas: ¿qué ámbitos del Propósito trabajó de verdad y cuál quedó por fuera? ¿Qué le agregarías para tocar el que faltó?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 2",
@@ -145,13 +157,13 @@
             "correctIndex": 1
           },
           {
-            "text": "El Propósito no se queda en los 5 ámbitos: también dice en qué papeles de su vida busca que el joven realice sus posibilidades. Según el texto citado en la lección, ¿cuáles son?",
+            "text": "Un dirigente revisa su plan del trimestre con los 5 ámbitos del Propósito y le salen todos cubiertos. Su par le dice: «Con las áreas de crecimiento de Colombia todavía te falta una». ¿Cuál es y por qué no aparecía?",
             "options": [
-              "Como individuo, como estudiante responsable y como miembro de su familia, su barrio y su parroquia.",
-              "Como hijo de familia, como ciudadano responsable y como miembro de su patrulla, su grupo y su región.",
-              "Como individuo, como ciudadano responsable y como miembro de comunidades locales, nacionales e internacionales."
+              "Carácter: la voluntad y las decisiones éticas; el Propósito no la nombra, pero la PNPJ la cuenta.",
+              "Espiritualidad: el Propósito la deja por fuera, porque el Movimiento no le impone ninguna religión.",
+              "Creatividad: el ámbito intelectual cubre lo que ya hace la escuela, pero no lo que el joven inventa."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           },
           {
             "text": "Un dirigente armaba solo torneos deportivos y excursiones. Al revisarlo, propone repartir el año: un trimestre para lo físico, otro para lo intelectual, otro para lo emocional, y así. Según el Propósito, ¿qué le dirías?",
@@ -224,7 +236,7 @@
           "items": [
             "<strong>Deber con Dios</strong> — en la unidad, abrir y cerrar espacios de reflexión, respetar las creencias del protagonista y de la familia, ofrecer momentos de silencio en campamento.",
             "<strong>Deber con los otros</strong> — proyectos de servicio comunitario, mediación de conflictos en la patrulla, gestos de hermandad con otros grupos del país y del mundo.",
-            "<strong>Deber con uno mismo</strong> — conversaciones personales periódicas con su dirigente, autoevaluación de la progresión, decisión propia sobre qué área de crecimiento trabajar."
+            "<strong>Deber con uno mismo</strong> — conversaciones personales periódicas con su dirigente, autoevaluación de la progresión, decidir él mismo qué quiere fortalecer en su progresión."
           ]
         },
         {
@@ -233,7 +245,7 @@
         }
       ],
       "reflection": {
-        "prompt": "¿Cuál de los 3 Principios crees que se trabaja menos en tu unidad o en las unidades que conoces? ¿Por qué?"
+        "prompt": "Elige una actividad reciente de tu unidad. ¿Cuál de los 3 Principios no apareció en ella? Escribe una cosa pequeña que agregarías la próxima vez para que aparezca."
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",
@@ -253,18 +265,18 @@
             "options": [
               "El deber con uno mismo, que abarca el propio crecimiento y el cuidado del entorno donde se vive.",
               "El deber con los otros, que abarca la comunidad, el país, la paz entre los pueblos y la naturaleza.",
-              "El deber con Dios, que abarca la vida espiritual y los momentos de silencio en la naturaleza."
+              "El deber con Dios, que abarca el cuidado de la creación y el sentido que el joven le da a su servicio."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Según la definición de la OMMS 2019 (p. 22), los Principios representan tres cosas para todos los miembros del Movimiento. ¿Cuáles?",
+            "text": "En la reunión de padres, una mamá comenta: «Lo de los Principios suena bonito, pero es para los chicos; a los dirigentes no les aplica». ¿Qué le respondes?",
             "options": [
-              "Un ideal, una visión de la sociedad y un código de conducta.",
-              "Un ideal, una visión de la sociedad y una estructura de gobierno.",
-              "Un ideal, una visión de la sociedad y un método educativo."
+              "Que en parte tiene razón: los Principios orientan el programa de los jóvenes, y el adulto los enseña.",
+              "Que son un código de conducta para todos los miembros, así que el adulto también responde por ellos.",
+              "Que a los adultos les aplican mientras estén en actividades con jóvenes, como parte de su cargo."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
           }
         ]
       }
@@ -357,18 +369,18 @@
         }
       ],
       "reflection": {
-        "prompt": "De los 6 elementos, ¿cuál crees que más se afloja en algún espacio scout que conoces (no solo el tuyo)? ¿Por qué crees que pasa?"
+        "prompt": "Piensa en una decisión concreta que se tomó en tu unidad o grupo en los últimos meses (un horario, una cuota, un cupo, una salida). Cuéntala por cargos, sin nombres: ¿cuál de los 6 elementos estaba en juego? ¿Se cuidó o se aflojó?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 4",
         "nextLabel": "Continuar a la alianza joven-adulto 👥",
         "questions": [
           {
-            "text": "Una empresa del barrio ofrece donarle carpas al grupo. Según cómo la lección explica el elemento «independiente», ¿qué debe cuidar el grupo?",
+            "text": "La empresa que donó las carpas pide, como agradecimiento, que la tropa desfile con camisetas de su marca y reparta volantes de su producto. Los jóvenes están felices con las carpas. Según el elemento «independiente», ¿qué hace el dirigente?",
             "options": [
-              "Que conviene rechazar la donación, para no quedar en deuda con la empresa ni con sus intereses.",
-              "Que puede recibirla si a cambio el grupo participa en todos los eventos que la empresa organice.",
-              "Que puede recibir el apoyo, siempre que la empresa no pase a dirigir lo que hace el grupo."
+              "Lo pone a votación de la tropa: si los jóvenes aceptan desfilar con la marca, la decisión es de ellos.",
+              "Devuelve las carpas: aceptar cosas de una empresa siempre deja al grupo en deuda con sus intereses.",
+              "Agradece la donación y dice que no al desfile ni a los volantes: el apoyo no compra el programa."
             ],
             "correctIndex": 2
           },
@@ -382,11 +394,11 @@
             "correctIndex": 1
           },
           {
-            "text": "Los dirigentes quieren pasar la reunión al sábado en la noche porque así les cuadra con el trabajo; cuatro jóvenes viven lejos y de noche no tienen transporte. Según la lección, ¿con qué elemento se mira esa decisión?",
+            "text": "La patrulla vota no recibir a un chico nuevo que usa silla de ruedas, porque «los atrasaría en las caminatas». Según los 6 elementos, ¿qué hace el dirigente?",
             "options": [
-              "Con «voluntario»: cada joven decide si asiste o no, así que el horario lo fijan quienes sostienen la unidad.",
-              "Con «para jóvenes»: el horario se mide por lo que les sirve a ellos, no por la comodidad de quien los acompaña.",
-              "Con «Movimiento»: lo que sostiene a los dirigentes sostiene también la causa compartida."
+              "Respeta la votación: el Movimiento es de los jóvenes, y la patrulla decide con quién quiere caminar.",
+              "Interviene: un voto no puede cerrar la puerta, y «abierto a todos» está por encima de la mayoría.",
+              "Le recomienda a la familia otro grupo con más experiencia en discapacidad, para no forzar a la patrulla."
             ],
             "correctIndex": 1
           }
@@ -496,11 +508,11 @@
             "correctIndex": 1
           },
           {
-            "text": "La lección cita la frase que, según las Características Esenciales de la OMMS (p. 28), resume el Movimiento. ¿Cuál es?",
+            "text": "Para agilizar, el consejo de grupo propone que los dirigentes armen el programa del año y se lo presenten a las patrullas ya listo. Un dirigente nuevo pregunta qué diría la frase eje de la OMMS. ¿Qué le respondes?",
             "options": [
-              "Un movimiento de adultos que organiza actividades para los jóvenes.",
-              "Un Movimiento de jóvenes y para los jóvenes, apoyado por adultos.",
-              "Un movimiento para los jóvenes, dirigido por adultos que deciden en su nombre."
+              "Que está bien si después las patrullas lo votan en su consejo: aprobar lo que preparó el adulto ya es decidir.",
+              "Que así lo gestionan los adultos en nombre de los jóvenes: que las patrullas propongan y decidan, con su apoyo.",
+              "Que los adultos no deberían tocar el programa del año: si el Movimiento es de los jóvenes, el consejo sobra."
             ],
             "correctIndex": 1
           }
@@ -551,7 +563,7 @@
         },
         {
           "type": "info-box",
-          "text": "Si respondes 'sí' a las 4, es escultismo. Si respondes 'no' a alguna, no necesariamente está mal — pero no es escultismo. Eso no la descalifica como actividad: solo significa que para esa actividad necesitas otro marco, no este."
+          "text": "Si respondes 'sí' a las 4, vas por buen camino: tu actividad tiene el qué y el para qué del Movimiento. El cómo lo pone el Método Scout, que ves en el Curso 5. Si respondes 'no' a alguna, no necesariamente está mal, pero no es escultismo. Eso no la descalifica como actividad: solo significa que para esa actividad necesitas otro marco, no este."
         },
         {
           "type": "heading",
@@ -569,7 +581,7 @@
         },
         {
           "type": "info-box",
-          "text": "Bienvenido al equipo de los que pueden explicar lo que hacen. Lo que viene vale el viaje."
+          "text": "¿Te acuerdas de la mamá de la reunión de padres? Ya tienes qué responderle: tu frase, y una idea que lo resume todo: un Movimiento de jóvenes, apoyado por adultos. Bienvenido al equipo de los que pueden explicar lo que hacen."
         }
       ],
       "reflection": {
@@ -583,7 +595,7 @@
             "text": "Un grupo colabora con el colegio en una jornada de salud: los jóvenes reparten volantes que diseñaron y decidieron los adultos. Al pasarla por el test de pertenencia, falla en «joven sujeto activo». Según la lección, ¿qué le aconsejas al grupo?",
             "options": [
               "Que la haga igual, pero sin contarla como actividad scout: para esa jornada usa otro marco.",
-              "Que la ajuste: con que los jóvenes escojan el color de los volantes, ya son sujeto activo.",
+              "Que la ajuste: con que los jóvenes entreguen los volantes y hablen con la gente, ya son sujeto activo.",
               "Que la cuente como scout: cumple 3 de 4 criterios y el servicio también es un Principio."
             ],
             "correctIndex": 0
@@ -598,13 +610,13 @@
             "correctIndex": 2
           },
           {
-            "text": "En la plantilla de la L6 para definir el Movimiento en una frase, ¿qué va en el espacio «basado en ____»?",
+            "text": "Un dirigente escribe: «El Movimiento Scout es una hermandad que existe para que los jóvenes crezcan, basado en que es voluntario y abierto a todos, y se distingue porque es independiente». Al revisarla con él, ¿qué ajuste le sugieres?",
             "options": [
-              "Los 6 elementos: movimiento, para jóvenes, voluntario, abierto, no político e independiente.",
-              "El Propósito: el desarrollo integral del joven en 5 ámbitos.",
-              "Los 3 Principios: deber con Dios, con los otros y con uno mismo."
+              "Que en «basado en» ponga los 3 Principios: voluntario y abierto son elementos y van en «se distingue».",
+              "Que en «existe para» ponga los 8 elementos del Método, porque el Propósito se cumple al aplicarlos.",
+              "Que está completa: lo importante es que sea suya, y la plantilla admite las ideas en cualquier orden."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           }
         ]
       }
