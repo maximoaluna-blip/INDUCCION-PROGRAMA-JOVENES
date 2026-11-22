@@ -3,7 +3,7 @@
   "title": "Constructores de Paz: el kit de acción en tu unidad",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Cómo se lleva a tu unidad el desafío Constructores de Paz, de Mensajeros de la Paz: la diferencia entre paz negativa y paz positiva, el viaje en tres etapas —toma conciencia, comparte, actúa—, la autoevaluación y las actividades del Kit según la rama, cómo trabajar la memoria histórica sin revictimizar y cómo cerrar con un proyecto de servicio, reconocimiento y celebración. La paz no es que no haya pelea: se construye cada día. Para dirigentes de Manada, Tropa, Comunidad y Clan.",
-  "contentVersion": "2026-11-08",
+  "contentVersion": "2026-11-22",
   "icon": "🕊️",
   "duration": "53 minutos",
   "level": 4,
@@ -77,7 +77,7 @@
         {
           "type": "course-objectives",
           "items": [
-            "<strong>Explicar</strong> qué es Constructores de Paz, por qué responde a la realidad colombiana y dónde vive dentro de Scouts por los ODS.",
+            "<strong>Reconocer</strong> qué es Constructores de Paz, por qué responde a la realidad colombiana y dónde vive dentro de Scouts por los ODS.",
             "<strong>Distinguir</strong> la paz negativa de la paz positiva, y ver el conflicto como una oportunidad de aprender.",
             "<strong>Acompañar</strong> el viaje del desafío —toma conciencia, comparte, actúa— acordándolo con los protagonistas.",
             "<strong>Usar</strong> la autoevaluación del Kit según la rama, sin confundirla con el registro de la progresión.",
@@ -156,11 +156,11 @@
           {
             "text": "En plena actividad <em>Paz positiva y paz negativa</em>, un scout empuja a otro contra la pared y se ríe: «esto es paz negativa, jefe». ¿Qué hace Andrés?",
             "options": [
+              "Para la actividad, frena el empujón y mira cómo está quien lo recibió; la conversación sobre lo que pasó queda para después.",
               "Lo aprovecha como material: deja seguir la escena un momento para que la Tropa vea en vivo qué es la violencia directa.",
-              "Para la actividad y atiende el empujón ahora mismo: la violencia directa se frena primero, y ya habrá tiempo de conversarlo.",
-              "Le pide a la patrulla que decida qué hacer con el empujón: la paz positiva la construyen ellos, no la impone el adulto."
+              "Para la actividad y, ahí mismo, pone a la Tropa a conversar sobre el empujón: es el ejemplo más vivo de violencia directa."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "En la Manada, cada vez que se reparte el material de un juego, los lobatos mayores se quedan con lo mejor y a los nuevos les toca lo que sobra. Nadie se queja ni pelea. ¿Qué haría un dirigente que usa el Kit?",
@@ -214,7 +214,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El Kit habla de violencias <em>«estructurales, directas o culturales»</em> (p. 5), pero no las define. Una forma sencilla de mirarlas, que te proponemos en este curso: la <strong>directa</strong> es la que se ve —el empujón, la amenaza, el golpe—; la <strong>cultural</strong>, la que aprendimos como normal; la <strong>estructural</strong>, la que está en cómo se reparte lo que todos necesitamos. Dos actividades del Kit sirven para mirar las dos últimas: los refranes de <em>Nuestras creencias acerca del conflicto</em> —<em>«No hay mejor defensa que un buen ataque»</em>, <em>«El fin justifica los medios»</em> (p. 61)— y el cuento del reparto desigual de la Manada: si el mundo tuviera 100 habitantes, unos pocos tendrían la mayor parte (p. 25). Mirar las tres ayuda a no reducir la paz a que nadie se pegue."
+          "text": "El Kit habla de violencias <em>«estructurales, directas o culturales»</em> (p. 5), pero no las define. Una forma sencilla de mirarlas, que te proponemos en este curso: la <strong>directa</strong> es la que se ve —el empujón, la amenaza, el golpe—; la <strong>cultural</strong>, la que aprendimos como normal; la <strong>estructural</strong>, la que está en cómo se reparte lo que todos necesitamos. Dos actividades del Kit sirven para mirar las dos últimas: los refranes de <em>Nuestras creencias acerca del conflicto</em> —<em>«No hay mejor defensa que un buen ataque»</em>, <em>«El fin justifica los medios»</em> (p. 61)— y el cuento del reparto desigual de la Manada: si el mundo tuviera 100 habitantes, unos pocos tendrían la mayor parte (p. 25). Mirar las tres ayuda a no reducir la paz a que nadie se pegue. Y ojo: si la violencia directa pasa delante de ti, primero se frena y se cuida a quien la recibió; después, si sirve, se vuelve tema de conversación."
         },
         {
           "type": "heading",
@@ -244,11 +244,11 @@
         "nextLabel": "Continuar a la autoevaluación 🪞",
         "questions": [
           {
-            "text": "En el Consejo de Roca, los lobatos dicen que sí a Constructores de Paz y quieren empezar ya con las actividades. ¿Qué le toca a su dirigente antes de escoger?",
+            "text": "En el Consejo de Roca, los lobatos dicen que sí a Constructores de Paz y quieren empezar ya. ¿Qué hace ahora su dirigente?",
             "options": [
-              "Dejar que escojan ya las que más les gusten: si el Consejo decidió asumir el desafío, frenarlos sería quitarles la decisión.",
+              "Pedirles que primero imaginen el proyecto de servicio que quieren hacer, y escoger después las actividades que lleven a él.",
               "Escoger él las dos actividades más seguras y presentarlas como las del desafío, para que nadie se pierda en el Kit.",
-              "Acompañar a cada lobato en su autoevaluación, para que las actividades salgan de lo que cada uno marcó."
+              "Acompañar a cada lobato en su autoevaluación del Kit, para que las actividades salgan de lo que cada uno marcó en ella."
             ],
             "correctIndex": 2
           },
@@ -256,10 +256,10 @@
             "text": "La Comunidad ya escogió sus tres actividades del Kit. Su dirigente quiere saber cómo se va a reconocer lo que aprendan en su progresión. ¿Dónde lo busca?",
             "options": [
               "En la autoevaluación del Kit: la marca de «Actúa» al final es el reconocimiento que va a la progresión.",
-              "En los pasos del Modelo, con el Kit al lado: el reconocimiento en la progresión lo da el Programa, no la hoja del desafío.",
-              "En el Kit, que trae para cada actividad la competencia que trabaja, y eso es lo que se anota en la progresión."
+              "En la insignia del desafío: cuando la Comisión la reconoce, esa insignia es lo que queda como su progresión.",
+              "En los siete pasos del Modelo: ahí se mapean las competencias y se acreditan en el portafolio de progresión."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "En el Consejo de Clan, los rovers escogen para el desafío una actividad que su dirigente ve insegura en el lugar donde la quieren hacer. ¿Qué le toca a él?",
@@ -347,7 +347,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Si hiciste el <a href=\"marco-mundo-mejor-ods.html\">Curso 21</a>, conoces los siete pasos del <em>Modelo de Aplicación</em> para convertir un desafío en una oportunidad de aprendizaje. No compiten con el Kit. El propio <em>Modelo</em> pide consultar siempre <em>«los documentos particulares de implementación del desafío»</em>, porque <em>«ahí están los pasos, criterios y materiales»</em> (§16.4). El Kit dice <strong>qué</strong> se trabaja en Constructores de Paz; el <em>Modelo</em>, <strong>cómo</strong> se vuelve aprendizaje dentro del Programa: para quién, con qué criterios, qué competencias, con qué presentación pública. Para Andrés, en concreto: el Kit le dice que la Tropa haga tres actividades y un proyecto de servicio; los siete pasos le ayudan a acordar con la Corte de Honor qué competencias educativas se van a trabajar, cómo se va a reconocer lo aprendido y cuándo se lo van a presentar al Grupo."
+          "text": "Si hiciste el <a href=\"marco-mundo-mejor-ods.html\">Curso 21</a>, conoces los siete pasos del <em>Modelo de Aplicación</em> para convertir un desafío en una oportunidad de aprendizaje. No compiten con el Kit. El propio <em>Modelo</em> pide consultar siempre <em>«los documentos particulares de implementación del desafío»</em>, porque <em>«ahí están los pasos, criterios y materiales»</em> (§16.4). El Kit dice <strong>qué</strong> se trabaja en Constructores de Paz; el <em>Modelo</em>, <strong>cómo</strong> se vuelve aprendizaje dentro del Programa: para quién, con qué criterios, qué competencias, con qué presentación pública. Para Andrés, en concreto: el Kit le dice que la Tropa haga tres actividades y un proyecto de servicio; los siete pasos le ayudan a acordar con la Corte de Honor qué competencias educativas se van a trabajar, cómo se acredita lo aprendido en la progresión —una vía distinta de la insignia (§16.3)— y ante quiénes lo van a presentar: el Grupo y la gente a la que sirvió el proyecto."
         }
       ]
     },
@@ -367,10 +367,10 @@
             "text": "Un scout de 12 años no entiende varias frases de la autoevaluación del Kit. ¿Qué hace su dirigente?",
             "options": [
               "La llena por él con lo que ha observado en las reuniones, que es más confiable que lo que el scout diga de sí.",
-              "Lo ayuda a leer cada frase y a pensar su respuesta, pero la marca y la decisión sobre sus objetivos son del scout.",
-              "Lo deja para cuando cumpla quince: el Kit indica que antes de esa edad no se hace solo ni por escrito."
+              "Lo ayuda a leer cada frase y, como tiene menos de quince años, revisa sus marcas y corrige las que no le cuadren.",
+              "Lo ayuda a leer cada frase y a pensar su respuesta, pero la marca y la decisión sobre sus objetivos son del scout."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "Un Rover marca «Actúa» en casi todas las frases de su autoevaluación. ¿Cómo lee eso su dirigente?",
@@ -490,11 +490,11 @@
           {
             "text": "La Corte de Honor propone hacer una sola actividad del Kit, larga y a fondo, en vez de tres, porque «así se profundiza más». ¿Qué hace su dirigente?",
             "options": [
-              "Lo acepta: la decisión es de la Corte de Honor, y profundizar en una actividad vale más que cumplir un número.",
-              "Lo acepta si esa actividad dura lo mismo que durarían las tres juntas: lo que de verdad pide el Kit es el tiempo de trabajo.",
-              "Les recuerda que desde los once años el Kit pide tres, y que cuáles y con qué profundidad lo deciden ellos."
+              "Les recuerda que desde los once años el Kit pide tres, y que cuáles y con qué profundidad lo deciden ellos.",
+              "Les recuerda que en la Tropa el Kit pide dos, así que a la actividad larga le pueden sumar una más corta.",
+              "Lo acepta: la decisión es de la Corte de Honor, y profundizar en una actividad vale más que cumplir un número."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           },
           {
             "text": "La Tropa quiere trabajar el conflicto con un juego de roles que no está en el Kit, sobre las peleas en las canchas del barrio. ¿Vale para el desafío?",
@@ -509,10 +509,10 @@
             "text": "Un dirigente de Tropa va a usar «Dejar salir todo» tal como viene, porque «si está en el Kit, ya está probada». ¿Qué le falta?",
             "options": [
               "Prepararla él con tiempo y dejarla lista, para que los scouts la encuentren adaptada y solo tengan que jugarla.",
-              "Nada de fondo: las actividades del Kit ya pasaron por el filtro de seguridad e inclusión antes de publicarse.",
-              "Prepararla con los scouts: traducir lo que viene de la escuela y pasarla por DURASLID, que no viene de fábrica."
+              "Prepararla con los scouts: traducir lo que viene de la escuela y pasarla por DURASLID, que no viene de fábrica.",
+              "Revisar solo que alcancen los materiales: el filtro DURASLID es para las actividades propias, no para las del Kit."
             ],
-            "correctIndex": 2
+            "correctIndex": 1
           }
         ]
       },
@@ -604,18 +604,18 @@
           {
             "text": "Para cuidar a los lobatos, la dirigente de Manada propone hacer <em>Los mapas</em> marcando solo los lugares bonitos del municipio, sin nombrar nunca lo que pasó. ¿Qué le dices?",
             "options": [
-              "Que está bien así: con niños de esa edad, cuidar la memoria es no tocarla, y el Kit deja adaptar todo lo que haga falta.",
-              "Que mande antes una nota a las familias, y con ese permiso la haga tal como viene, con cada lobato contando su huella.",
-              "Que puede empezar por la resistencia y las iniciativas, pero que el mapa también nombre lo que pasó, sin pedir relatos propios."
+              "Que empiece por la resistencia y las iniciativas, pero que el mapa también nombre lo que pasó, sin pedir relatos propios.",
+              "Que empiece por las huellas de la violencia, como las pide el Kit, y deje la resistencia y las iniciativas para el cierre.",
+              "Que está bien así: con niños de esa edad, cuidar la memoria es no tocarla, y el Kit deja adaptar todo lo que haga falta."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           }
         ]
       },
       "sections": [
         {
           "type": "paragraph",
-          "text": "La memoria histórica atraviesa el Kit: aparece en las cuatro autoevaluaciones, de la Manada al Clan —los rovers, por ejemplo, se comprometen con ella <em>«como herramienta para la tolerancia»</em> (p. 18)—, y dos actividades la trabajan de frente, las dos adaptadas de un material del Centro de Memoria Histórica: <em>Los mapas</em> para Manada y <em>Líneas de tiempo</em> para Tropa."
+          "text": "La memoria histórica atraviesa el Kit: está en las cuatro autoevaluaciones —los rovers, por ejemplo, se comprometen con ella <em>«como herramienta para la tolerancia»</em> (p. 18)—, y dos actividades, adaptadas de un material del Centro de Memoria Histórica, la trabajan de frente: <em>Los mapas</em> para Manada y <em>Líneas de tiempo</em> para Tropa."
         },
         {
           "type": "info-box",
@@ -628,7 +628,7 @@
         },
         {
           "type": "paragraph",
-          "text": "<em>Los mapas</em> pide a niños de 6 a 10 años ubicar en un mapa de su municipio <em>«las huellas de la violencia y el sufrimiento»</em> y contar <em>«cuál es esa huella y su historia»</em> (p. 52); <em>Líneas de tiempo</em> pregunta qué pérdidas personales, familiares y comunitarias dejó lo que pasó (p. 58). Entre tus protagonistas puede haber quien vivió el conflicto de cerca. El Kit no trae advertencias para eso, y no encontramos en los documentos de la Asociación una orientación sobre cómo trabajar esa memoria con niños. Lo que sigue lo arma este curso con lo que sí está escrito."
+          "text": "<em>Los mapas</em> pide a niños de 6 a 10 años ubicar en un mapa de su municipio <em>«las huellas de la violencia y el sufrimiento»</em> y contar <em>«cuál es esa huella y su historia»</em> (p. 52); <em>Líneas de tiempo</em> pregunta qué pérdidas dejó lo que pasó (p. 58). Entre tus protagonistas puede haber quien lo vivió de cerca. El Kit no trae advertencias para eso, y no encontramos en los documentos de la Asociación una orientación sobre cómo trabajar esa memoria con niños: lo que sigue lo arma este curso con lo que sí está escrito."
         },
         {
           "type": "policy-quote",
@@ -638,23 +638,23 @@
         },
         {
           "type": "paragraph",
-          "text": "En palabras simples: se puede hacer daño de dos maneras en una actividad de memoria. Empujando a alguien a revivir lo que le pasó, o quitándole importancia cuando lo cuenta. Por eso estos seis cuidados:"
+          "text": "En palabras simples: en una actividad de memoria se hace daño de dos maneras. Empujando a alguien a revivir lo que le pasó, o quitándole importancia cuando lo cuenta. De ahí, seis cuidados:"
         },
         {
           "type": "list",
           "ordered": true,
           "items": [
             "<strong>Avisa antes.</strong> Cuéntales a las familias qué se va a trabajar y cómo: el <em>Modelo</em> pone el consentimiento informado dentro de lo que hace segura una actividad (p. 71).",
-            "<strong>Nadie está obligado a contar.</strong> El propio Kit lo hace así en otras actividades: habla quien lo desee, los demás escuchan <em>«sin hacer valoraciones»</em> y cada uno cuenta a <em>«alguien en quien confíe»</em> (p. 45); se comparte <em>«solamente si algunos participantes desean compartir sus reflexiones»</em> (p. 62).",
+            "<strong>Nadie está obligado a contar.</strong> El propio Kit lo hace así en otras actividades: habla quien lo desee, los demás escuchan <em>«sin hacer valoraciones»</em> (p. 45) y se comparte <em>«solamente si algunos participantes desean compartir sus reflexiones»</em> (p. 62).",
             "<strong>Pregunta, no sentencies.</strong> El <em>Manual de Implementación</em> pide <em>«preguntas abiertas en lugar de promover posiciones o dar consejos»</em> (p. 6). Sobre el conflicto armado, el adulto no toma partido.",
             "<strong>Dale a la resistencia el mismo lugar que al dolor.</strong> Las dos actividades preguntan también por <em>«la resistencia»</em> y por las iniciativas de la comunidad. Con lobatos, empieza por ahí: el Kit permite adaptar (p. 19), e <em>indagar</em> sobre la memoria no exige que un niño cuente su propio sufrimiento.",
-            "<strong>Confidencialidad no es secreto.</strong> Lo que alguien cuenta se cuida y no se repite. Pero si revela una vulneración o un riesgo, <em>«no cabrá la posibilidad de guardar ningún secreto»</em> (Política, p. 21). Una pista que te damos aquí: cuenta tanto lo que le está pasando como lo que cuenta como si nadie lo supiera o nadie lo hubiera ayudado. Tú <strong>reportas</strong> por el botón «Me Pongo A Salvo del Peligro»; el Comité de Gestión de Incidentes analiza y activa las rutas. No investigas ni confrontas, y si dudas, reportas. La Política también obliga a avisar a las autoridades de salud, protección o justicia cuando el caso lo pide (p. 21): si hay un peligro inmediato, esa llamada no espera al botón. La ruta es la del <a href=\"a-salvo-del-peligro-programa.html\">Curso 25</a>.",
+            "<strong>Confidencialidad no es secreto.</strong> Lo que alguien cuenta se cuida y no se repite. Pero si revela una vulneración o un riesgo, <em>«no cabrá la posibilidad de guardar ningún secreto»</em> (Política, p. 21). Una pista nuestra para saber si es el caso: le está pasando ahora, o pasó y, por lo que cuenta, nadie lo supo o nadie lo atendió. Tú <strong>reportas</strong> por el botón «Me Pongo A Salvo del Peligro»; el Comité de Gestión de Incidentes analiza y activa las rutas. No investigas ni confrontas, y si dudas, reportas. La Política también obliga a avisar a las autoridades de salud, protección o justicia cuando el caso lo pide (p. 21): si hay un peligro inmediato, esa llamada no espera al botón. La ruta es la del <a href=\"a-salvo-del-peligro-programa.html\">Curso 25</a>.",
             "<strong>Si alguien se conmueve, no le pidas que explique.</strong> Ofrécele un momento aparte, con otro adulto presente —la práctica 2+1 (Política, p. 26): nunca a solas—, y cierra la actividad con lo que la comunidad construyó, no con el dolor. No eres terapeuta: cuidar, escuchar y saber a quién acudir es lo tuyo."
           ]
         },
         {
           "type": "paragraph",
-          "text": "Andrés prepara la línea de tiempo con estos cuidados: manda una nota a las familias, empieza por los hitos del municipio —la fiesta patronal, la carretera, la escuela nueva— y deja claro que cada uno cuenta lo que quiera. A mitad de la actividad, un scout dice que su familia llegó desplazada, y se queda callado. Andrés le agradece, no le pregunta más frente a la Tropa y le dice que, si algún día quiere contar algo, puede hacerlo cuando quiera y con quien él escoja; si es con Andrés, será con otro adulto presente, como siempre. Lo dijo por decisión propia y como la historia de su familia: no cuenta nada que le esté pasando ni da señales de estar solo con eso. Si Andrés notara algo, o dudara, sabe el camino: reportar y dejar que el Comité decida."
+          "text": "Andrés prepara la línea de tiempo con estos cuidados: avisa a las familias, empieza por los hitos del municipio —la fiesta patronal, la carretera, la escuela nueva— y deja claro que cada uno cuenta lo que quiera. A mitad de la actividad, un scout dice que su familia llegó desplazada, y se calla. Andrés le agradece, no le pregunta más frente a la Tropa y le dice que, si algún día quiere contar algo, puede hacerlo con quien escoja; si es con Andrés, habrá otro adulto presente. Lo contó por decisión propia, como historia de su familia, y nada indica que le esté pasando algo ahora ni que esté solo con eso. Si Andrés notara algo, o dudara, reportaría y dejaría decidir al Comité."
         }
       ]
     },
@@ -684,7 +684,7 @@
             "options": [
               "Que ahí es cuando más sirve cerrar: mirar qué falló, volver a marcar la hoja del comienzo y reconocer lo puesto.",
               "Que tiene razón: se celebra cuando el proyecto logra su meta, y conviene repetirlo antes de reconocer a nadie.",
-              "Que se puede celebrar, pero sin volver a la autoevaluación: ya la hicieron al comienzo y mostraría lo mismo."
+              "Que se salten solo la evaluación: lo que importa es lo vivido, y evaluar un proyecto de paz lo vuelve un trámite."
             ],
             "correctIndex": 0
           },
@@ -702,7 +702,7 @@
       "sections": [
         {
           "type": "paragraph",
-          "text": "Después de las tres actividades, la Tropa vuelve a lo que la inquietaba desde el principio. Cuando la línea de tiempo llegó al presente, apareció algo que nadie esperaba: los partidos en las canchas del barrio terminan en pelea casi todos los fines de semana, y no solo entre scouts. Ahí está el proyecto."
+          "text": "Después de las tres actividades, la Tropa vuelve a lo que la inquietaba. Cuando la línea de tiempo llegó al presente, apareció algo que nadie esperaba: los partidos en las canchas del barrio terminan en pelea casi cada fin de semana, y no solo entre scouts. Ahí está el proyecto."
         },
         {
           "type": "info-box",
@@ -744,23 +744,23 @@
         },
         {
           "type": "paragraph",
-          "text": "La insignia se obtiene <em>«de acuerdo con su proceso personal y su edad»</em> (<em>Manual de Implementación</em>, p. 16), pero los pasos para pedirla no están escritos. Lo que sí está escrito: la insignia la reconoce la Comisión Nacional de Mundo Mejor, y no se fabrica por cuenta propia (Manual, p. 67). Pregunta a la comisión de tu región cómo se solicita. Y si un joven de 11 años o más hizo una contribución significativa a su comunidad, puede ser nominado a <strong>Héroes Mensajeros de la Paz</strong> —nadie se nomina a sí mismo—; la misma comisión te dice cómo."
+          "text": "La insignia se obtiene <em>«de acuerdo con su proceso personal y su edad»</em> (<em>Manual de Implementación</em>, p. 16) y la reconoce la Comisión Nacional de Mundo Mejor: no se fabrica por cuenta propia (p. 67). Cómo se pide, y cómo nominar a <strong>Héroes Mensajeros de la Paz</strong> a un joven de 11 años o más con una contribución significativa a su comunidad —nadie se nomina a sí mismo—, te lo dice la comisión de tu región."
         },
         {
           "type": "paragraph",
-          "text": "La tarde de juegos sale bien a medias: llueve, llegan menos niños de los esperados y un partido casi termina en discusión, pero los niños lo resuelven con las reglas que acordaron, y la junta pide repetirla. En la evaluación, la frase del conflicto como oportunidad ya casi no está en «Tomar conciencia». Y el Guía del «estamos en paz» se ríe: «Eso no era paz, jefe. Era que no nos hablábamos»."
+          "text": "La tarde de juegos sale bien a medias: llueve, llegan menos niños de los esperados y un partido casi termina en discusión, pero los niños lo resuelven con las reglas que acordaron, y la junta pide repetirla. En la evaluación, la frase del conflicto como oportunidad ya casi no está en «Tomar conciencia», y el Guía del «estamos en paz» se ríe: «Eso no era paz, jefe. Era que no nos hablábamos»."
         },
         {
           "type": "info-box",
-          "text": "🕊️ <strong>Por eso este curso se sostiene en una frase:</strong> la paz no es que no haya pelea: se construye cada día. La charla sobre el conflicto armado no estaba mal; estaba al principio. Llegó después, convertida en una línea de tiempo que la Tropa armó con cuidado, cuando ya sabía por experiencia propia qué significa construir paz."
+          "text": "🕊️ <strong>Por eso este curso se sostiene en una frase:</strong> la paz no es que no haya pelea: se construye cada día. La charla sobre el conflicto armado no estaba mal; estaba al principio. Llegó después, hecha línea de tiempo, cuando la Tropa ya sabía qué significa construir paz."
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y en tu rama.</strong> <strong>Familia:</strong> lo que viste en la Lección 4. <strong>Manada:</strong> el desafío se presenta y se decide en el Consejo de Roca; dos actividades, y la memoria desde las iniciativas de la comunidad. <strong>Tropa:</strong> en los Consejos de Patrulla y la Corte de Honor; tres actividades. <strong>Comunidad:</strong> en el Congreso de Comunidad; hojas de 15–18 y la <em>Propuesta de proyecto</em>. <strong>Clan:</strong> en el Consejo de Clan; tu Guía habla de acciones <em>«que contribuyan a la reconciliación»</em>, y Héroes Mensajeros de la Paz y Scouts del Mundo son el horizonte."
+          "text": "🌿 <strong>Y en tu rama.</strong> <strong>Familia:</strong> lo que viste en la Lección 4. <strong>Manada:</strong> el desafío se presenta y se decide en el Consejo de Roca; dos actividades, y la memoria desde las iniciativas de la comunidad. <strong>Tropa:</strong> en los Consejos de Patrulla y la Corte de Honor; tres actividades. <strong>Comunidad:</strong> en el Congreso de Comunidad; hojas de 15–18 y la <em>Propuesta de proyecto</em>. <strong>Clan:</strong> en el Consejo de Clan; tu Guía vincula Scouts por los ODS con el PARCE (§11.3) y describe este desafío con acciones <em>«que contribuyan a la reconciliación»</em> (p. 63), así que el proyecto puede vivir en el PARCE de cada rover; y Héroes Mensajeros de la Paz y Scouts del Mundo son el horizonte."
         },
         {
           "type": "info-box",
-          "text": "🔁 <strong>Las cuatro preguntas, sobre este curso.</strong> <strong>Vivir:</strong> seguiste a una Tropa del silencio a una tarde de juegos. <strong>Mirar:</strong> ¿qué conflicto de tu unidad está «en paz» solo porque nadie habla de él? <strong>Comprender:</strong> ¿qué te saltarías empezando por la charla? <strong>Proyectar:</strong> ¿cómo presentarás el desafío para que lo decidan ellos? Son los pasos del <em>Modelo de Aplicación de Bolsillo</em>."
+          "text": "🔁 <strong>Para llevarte una pregunta:</strong> ¿qué conflicto de tu unidad está «en paz» solo porque nadie habla de él? Por ahí puede empezar el desafío."
         },
         {
           "type": "heading",
@@ -773,7 +773,7 @@
         },
         {
           "type": "mission-box",
-          "text": "🎯 <strong>Tu tarea para este ciclo.</strong> Presenta Constructores de Paz en el espacio donde tu unidad decide, como una invitación y no como un anuncio. Antes de proponer actividades, pregúntales cómo resuelven hoy sus conflictos, y que cada uno haga su autoevaluación. Las actividades y el proyecto los escogen ellos; tú cuidas que sean seguros, a su medida y en el número que pide el Kit. Anota en el Compromiso Personal, junto a tu certificado, cuándo, en qué espacio y con qué pregunta lo presentarás."
+          "text": "🎯 <strong>Tu tarea para este ciclo.</strong> Presenta Constructores de Paz en el espacio donde tu unidad decide, como una invitación y no como un anuncio. Antes de proponer actividades, pregúntales cómo resuelven hoy sus conflictos, y que cada uno haga su autoevaluación. Ellos escogen las actividades y el proyecto; tú cuidas que sean seguros, a su medida y en el número que pide el Kit. Anota en el Compromiso Personal, junto a tu certificado, cuándo, en qué espacio y con qué pregunta lo presentarás."
         }
       ]
     }

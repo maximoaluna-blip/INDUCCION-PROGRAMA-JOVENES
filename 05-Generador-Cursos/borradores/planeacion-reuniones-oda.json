@@ -3,7 +3,7 @@
   "title": "Planeación de Reuniones y Oportunidades de Aprendizaje",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El segundo de los tres cursos operativos. Cómo se decide una reunión antes de que ocurra: el guion de lo que va a pasar, la ficha de para qué, el filtro que deja entrar unas ideas y no otras, y el riesgo escrito antes de que alguien se lastime. La herramienta oficial es el soporte; el tema es la decisión.",
-  "contentVersion": "2026-11-08",
+  "contentVersion": "2026-11-22",
   "icon": "📋",
   "duration": "65 minutos",
   "level": 2,
@@ -239,7 +239,7 @@
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y en tu rama.</strong> <strong>Familia:</strong> un cachorro entrega los materiales de su camada o dirige la canción de apertura, con el adulto al lado. <strong>Manada:</strong> la seisena se encarga de un momento completo, y lo anuncia el lobato al que le toque ese día — en la seisena los papeles rotan. <strong>Tropa:</strong> la patrulla conduce un bloque del guion y su guía responde por el tiempo. <strong>Comunidad:</strong> un equipo aparece en la columna con dos o tres filas seguidas, no con una. <strong>Clan:</strong> la hoja la escriben ellos y tú apareces como responsable de un momento, si acaso."
+          "text": "🌿 <strong>Y en tu rama.</strong> <strong>Familia:</strong> un cachorro entrega los materiales de su camada o dirige la canción de apertura, con el adulto al lado. <strong>Manada:</strong> la seisena se encarga de un momento completo, y lo anuncia el lobato al que le toque ese día — en la seisena los papeles rotan. <strong>Tropa:</strong> la patrulla conduce un bloque del guion y su guía responde por el tiempo. <strong>Comunidad:</strong> un equipo aparece en la columna con dos o tres filas seguidas, no con una. <strong>Clan:</strong> la hoja la escriben ellos; tú casi nunca conduces un momento, pero estás en todos."
         }
       ],
       "reflection": {
@@ -259,13 +259,13 @@
             "correctIndex": 2
           },
           {
-            "text": "Un dirigente escribe en su Hoja de Ruta: «4:00 — Juego». Nada más. Al sábado siguiente no puede ir y le pasa la hoja a otro. ¿Qué falló?",
+            "text": "Un dirigente escribe en su Hoja de Ruta: «4:00 — Juego — Tomás — pelota y conos». ¿Qué le falta a esa fila para que otro adulto pueda conducirla?",
             "options": [
-              "Falta la descripción: sin ella la fila no le sirve a quien no estuvo en la conversación.",
-              "Falta la competencia educativa que el juego trabaja, que es lo que esa columna debería contener.",
-              "Falta el ambiente de referencia del juego, que cada fila del guion debe repetir para tener sentido."
+              "Le falta la hora de cierre: sin ella, quien reciba la hoja no sabe cuánto debe durar el juego.",
+              "La descripción: «Juego» no dice cuál ni cómo, y otro adulto no podría conducirlo solo con esa fila.",
+              "Nada: con hora, responsable y materiales la fila está completa, y Tomás sabe qué juego tiene preparado."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
           },
           {
             "text": "La reunión del sábado va de 3:00 a 5:00. Al llenar el guion, sumas los tiempos de cada fila y te dan 2 horas y 40 minutos. ¿Qué haces?",
@@ -408,10 +408,10 @@
         "nextLabel": "Continuar al para qué 🎯",
         "questions": [
           {
-            "text": "La Tropa hizo el mes pasado su primera caminata de 3 km. Ahora la Corte de Honor propone una de 6 km con orientación por mapa. Un dirigente objeta: «es demasiado para ellos». ¿Cómo lo ves?",
+            "text": "La Tropa hizo el mes pasado su primera caminata de 3 km y la terminó con holgura. Ahora la Corte de Honor propone una de 6 km con orientación por mapa. Un dirigente objeta: «es demasiado para ellos». ¿Cómo lo ves?",
             "options": [
               "Tiene razón el dirigente: si les va a costar tanto, mejor repetir los 3 km hasta que les salgan fáciles.",
-              "La propuesta va bien calibrada: sube un peldaño sobre lo logrado, y la señal será la mejora de un intento a otro.",
+              "Va bien calibrada: sube un peldaño sobre lo logrado, y la señal será la mejora de un intento a otro.",
               "Lo justo es partir la diferencia: 4,5 km, así ni el dirigente ni la Corte de Honor sienten que perdieron."
             ],
             "correctIndex": 1
@@ -421,7 +421,7 @@
             "options": [
               "Que entre al plan: las ocho casillas del tablero ya tienen respuesta, y eso es lo que el filtro pide.",
               "Que no entre todavía: «se ve bonito» no dice a quién le sirve ni cómo lo sabrán; la idea sigue sin terminar.",
-              "Que entre, y la utilidad se mida al final con la evaluación cuantitativa, que trae su casilla para «Útil»."
+              "Que la cambien por algo con un destinatario más claro, como limpiar el parque, que sí se cuenta en bolsas."
             ],
             "correctIndex": 1
           },
@@ -430,7 +430,7 @@
             "options": [
               "Le faltó ajustar ahí mismo: subir un peldaño el reto también es aplicar el filtro, mientras se facilita.",
               "Bien hecho: cambiar un reto en marcha desordena el guion; el filtro se corrige al evaluar la actividad.",
-              "Le faltó ajustar ahí mismo: dividir la tarea entre los de cada patrulla para que dure lo previsto."
+              "Debió alargarlo ahí mismo: repartir la tarea entre más patrullas para que durara lo que decía el guion."
             ],
             "correctIndex": 0
           }
@@ -526,8 +526,8 @@
           {
             "text": "Un dirigente escribe como conducta observable de su actividad: «Los scouts demuestran liderazgo». ¿Qué opinas de esa conducta observable?",
             "options": [
-              "Le falta el área de crecimiento asociada, que es lo que convierte una conducta en observable.",
-              "Le faltan el contexto y la señal verificable: así escrita no le dice qué mirar el sábado.",
+              "Sobra pedir contexto; basta con añadirle una señal, porque «liderazgo» ya dice en qué fijarse.",
+              "Está incompleta: sin contexto ni señal verificable, no le dice a nadie qué mirar el sábado.",
               "No le falta nada: nombra un sujeto y una conducta, que es justo lo que pide ese campo."
             ],
             "correctIndex": 1
@@ -542,11 +542,11 @@
             "correctIndex": 2
           },
           {
-            "text": "Diana escribe como objetivo de la actividad: «Que los lobatos se diviertan, aprendan nudos, conozcan el parque y trabajen en equipo». ¿Qué le dirías?",
+            "text": "Diana escribe en «Objetivo de la actividad»: «Juego de la camilla en el parque, de 3:30 a 4:15, con cuerdas y palos». ¿Qué le dirías?",
             "options": [
-              "Que lo deje así: es ambicioso pero honesto, y la conducta observable ya se encargará de concretarlo.",
-              "Que elija una sola de esas cosas: el objetivo es un propósito en una frase, no un listado de deseos.",
-              "Que lo pase entero a la columna «Actividad» de la Hoja de Ruta, que es donde se escribe lo que va a pasar."
+              "Que está bien: con lugar, horario y materiales, cualquier dirigente puede repetir la actividad sin ella.",
+              "Que lo cambie: eso dice qué va a pasar, y va en la Hoja de Ruta; el objetivo es para qué, en una frase.",
+              "Que lo conserve y le sume al final una frase de para qué, así el campo deja constancia de las dos cosas."
             ],
             "correctIndex": 1
           }
@@ -633,7 +633,7 @@
             },
             {
               "title": "Clan",
-              "description": "Su Guía <strong>no lo declara como capa de la rama</strong>: usa el término una sola vez, para la temática de una actividad concreta. Donde la fuente no alcanza, no lo inventamos — el Clan elige su temática por ciclo, sin un registro prescrito.",
+              "description": "Su Guía <strong>no lo declara como capa de la rama</strong>: usa el término una sola vez, para la temática de una actividad concreta. Donde la fuente no alcanza, no lo inventamos — si el Clan elige una temática, la eligen ellos, sin un registro prescrito.",
               "color": "#eceff1",
               "borderColor": "#607d8b"
             }
@@ -658,7 +658,7 @@
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y en tu rama.</strong> <strong>Familia:</strong> el ambiente lo sostiene el adulto con voz y objetos; los cachorros lo habitan. <strong>Manada:</strong> el ambiente da nombres — a las seisenas, a los lugares, a los momentos. <strong>Tropa:</strong> la patrulla puede proponer el ambiente del ciclo y suele proponerlo mejor que tú. <strong>Comunidad:</strong> el ambiente conecta con lo que están investigando o transformando. <strong>Clan:</strong> lo eligen ellos para la ocasión, y a veces deciden no tener uno."
+          "text": "🌿 <strong>Y en tu rama.</strong> <strong>Familia:</strong> el ambiente lo sostiene el adulto con voz y objetos; los cachorros lo habitan. <strong>Manada:</strong> el ambiente da nombres — a las seisenas, a los lugares, a los momentos. <strong>Tropa:</strong> la patrulla puede proponer el ambiente del ciclo y suele proponerlo mejor que tú. <strong>Comunidad:</strong> el ambiente conecta con lo que están investigando o transformando. <strong>Clan:</strong> su Guía no le fija un ambiente; si eligen una temática, la eligen ellos."
         }
       ],
       "reflection": {
@@ -687,13 +687,13 @@
             "correctIndex": 0
           },
           {
-            "text": "Un jefe de Comunidad pone en la Hoja de Ruta del sábado «Parque Simón Bolívar, entrada de la calle 63», y en la Ficha de la actividad, en «Lugar sugerido», escribe «parque con zona arbolada». Un compañero le dice que se contradice. ¿Cómo lo ves?",
+            "text": "Un jefe de Comunidad va a llevar a su unidad al Parque Simón Bolívar, entrada de la calle 63, y además quiere dejar la actividad en una Ficha. ¿Qué escribe en cada sitio?",
             "options": [
-              "Se contradice: si la Ficha es del Movimiento, la Hoja de Ruta también debe ir en genérico, sin la calle.",
-              "Se contradice a medias: la Ficha mejoraría con el sitio exacto, para que otro sepa que el lugar funciona.",
-              "No se contradice: la Hoja de Ruta sitúa esta reunión; la Ficha se escribe para que otro la use en otra ciudad."
+              "En la Hoja de Ruta, la entrada de la calle 63; en «Lugar sugerido» de la Ficha, «parque con zona arbolada».",
+              "Lo mismo en las dos, «parque con zona arbolada»: lo del Movimiento no se ata a una dirección de una ciudad.",
+              "Las dos cosas en ambas hojas, el parque genérico y la calle 63, para que sirvan aquí y en cualquier ciudad."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           }
         ]
       }
@@ -719,7 +719,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El propio instrumento usa el ejemplo de Diana para explicar la diferencia, y conviene aprenderlo con esas dos palabras porque toda la matriz depende de distinguirlas."
+          "text": "El propio instrumento usa el ejemplo de Diana para explicar la diferencia, y toda la matriz depende de distinguir estas dos palabras."
         },
         {
           "type": "method-grid",
@@ -743,10 +743,6 @@
           "label": "📕 «Peligro» y «Riesgo», dos de las cinco palabras clave de la Política",
           "source": "Política Nacional a Salvo del Peligro «Haré todo cuanto de mí dependa» (Acuerdo C.S.N. 657 del 3-dic-2025), p. 14 del PDF, sección «No olvides estas palabras claves».",
           "text": "Peligro. Se entiende por peligro a cualquier acto o situación con el potencial de generar daño, sea lesión, enfermedad, deterioro a la propiedad, al medio ambiente o la combinación de estos. Riesgo. La posibilidad de que un evento o situación afecte negativamente la integridad física, emocional, social, patrimonial o reputacional de los niños, niñas, jóvenes, adultos y de la organización, como resultado de la exposición a un peligro."
-        },
-        {
-          "type": "paragraph",
-          "text": "El instrumento y la Política dicen lo mismo con otras palabras, y eso es buena señal: no es una convención del Excel, es doctrina."
         },
         {
           "type": "heading",
@@ -785,15 +781,15 @@
         },
         {
           "type": "info-box",
-          "text": "🔴 <strong>El botón no es un objeto.</strong> El mecanismo oficial de reporte se llama <strong>«Me Pongo A Salvo del Peligro»</strong> —así lo nombra la Política Nacional A Salvo del Peligro vigente; la hoja que vas a llenar todavía lo llama «Botón A Salvo del Peligro», y el nombre que manda es el de la Política—. Y lo importante no es tenerlo impreso: el instrumento insiste en que <em>el «Botón» es el mecanismo de reporte conocido por todos, no solo un elemento físico</em>. Dedica un minuto al inicio de la reunión a recordar qué es y cómo se usa. Un recordatorio constante afianza el autocuidado; un cartel que nadie sabe leer no sirve de nada."
+          "text": "🔴 <strong>El botón no es un objeto.</strong> El mecanismo oficial de reporte se llama <strong>«Me Pongo A Salvo del Peligro»</strong>, como lo nombra la Política Nacional A Salvo del Peligro vigente; la hoja todavía lo llama «Botón A Salvo del Peligro», y manda el nombre de la Política. El instrumento insiste en que <em>el «Botón» es el mecanismo de reporte conocido por todos, no solo un elemento físico</em>: dedica un minuto al inicio de la reunión a recordar qué es y cómo se usa."
         },
         {
           "type": "info-box",
-          "text": "💻 <strong>Si la reunión es en línea</strong>, el bloque se amplía con cuatro verificaciones: que los protagonistas tengan acompañamiento parental según su edad, que <strong>todos los adultos</strong> presentes —sean o no del Movimiento— hayan hecho el curso <em>Estar Seguro en Línea</em>, que los protagonistas también lo hayan hecho, y qué estrategias de salvaguarda se tomaron. Entre ellas, la <strong>práctica 2+1</strong> de la Política, una medida de protección: nunca un adulto a solas con un protagonista, tampoco en comunicaciones. La hoja trae los enlaces a los cursos y al formulario de reporte: no hay que buscarlos."
+          "text": "💻 <strong>Si la reunión es en línea</strong>, el bloque suma cuatro verificaciones: acompañamiento parental según la edad, que <strong>todos los adultos</strong> presentes —sean o no del Movimiento— y los protagonistas hayan hecho el curso <em>Estar Seguro en Línea</em>, y qué estrategias de salvaguarda se tomaron, como la <strong>práctica 2+1</strong> de la Política: nunca un adulto a solas con un protagonista, tampoco en comunicaciones. La hoja trae los enlaces a los cursos y al formulario de reporte."
         },
         {
           "type": "paragraph",
-          "text": "Y aquí paramos, a propósito. Este curso te enseña a <strong>preparar</strong> el entorno seguro de una reunión: que el mecanismo exista, que todos sepan usarlo, que los riesgos estén escritos. <strong>Qué hacer cuando un protagonista te revela un daño no es de este curso</strong> — se enseña completo en la línea Políticas Transversales, en <a href=\"https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/02-Plataforma-Web/adulto-garante-entorno-seguro.html\" target=\"_blank\" rel=\"noopener\"><em>El Adulto como Garante: reportar, no investigar</em></a>. Enlazamos allá y no lo reexplicamos, para que esa conducta tenga una sola fuente en toda la plataforma. El <strong>Curso 25</strong> trabaja la otra cara: una unidad donde alguien se atreve a contar y donde todos saben por dónde se reporta."
+          "text": "Y aquí paramos, a propósito. Este curso te enseña a <strong>preparar</strong> el entorno seguro de una reunión. <strong>Qué hacer cuando un protagonista te revela un daño no es de este curso</strong>: se enseña completo en la línea Políticas Transversales, en <a href=\"https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/02-Plataforma-Web/adulto-garante-entorno-seguro.html\" target=\"_blank\" rel=\"noopener\"><em>El Adulto como Garante: reportar, no investigar</em></a>, y no lo reexplicamos para que esa conducta tenga una sola fuente. El <strong>Curso 25</strong> trabaja la otra cara: una unidad donde alguien se atreve a contar y donde todos saben por dónde se reporta."
         },
         {
           "type": "info-box",
@@ -821,7 +817,7 @@
             "options": [
               "Falta que el cartel diga «Botón A Salvo del Peligro», como lo nombra la hoja del chequeo.",
               "Está bien: lo que pide el chequeo es que todos sepan qué es el mecanismo y cómo usarlo.",
-              "Está bien a medias: falta que cada protagonista lleve su copia impresa del formulario."
+              "A medias: cada protagonista debería llevar su propia copia impresa del formulario."
             ],
             "correctIndex": 1
           },
@@ -944,7 +940,7 @@
             "text": "En la evaluación cualitativa de una Ficha, un dirigente de Tropa anota qué conducta nueva mostró cada scout durante la actividad. ¿Cómo lo ves?",
             "options": [
               "Está bien: la evaluación cualitativa es justo el sitio para dejar lo que mostró cada scout.",
-              "Fuera de lugar en ese campo: va en Novedades, que es donde la Ficha guarda lo inesperado.",
+              "Debe pasarlo a Novedades, que es donde la Ficha guarda lo inesperado de la jornada.",
               "Fuera de lugar: la Ficha evalúa la actividad; lo de cada protagonista va al registro del Curso 13."
             ],
             "correctIndex": 2
@@ -1033,7 +1029,7 @@
           {
             "text": "Diana llenó la Hoja de Ruta del sábado y, entusiasmada, escribió una Ficha para cada uno de los cinco momentos de la reunión. ¿Qué le dirías?",
             "options": [
-              "Que se quede con una sola: la de la actividad con más peso educativo, y deje las otras cuatro.",
+              "Que se quede con una, o como mucho dos: las de más peso educativo, y deje las otras sin ficha.",
               "Que está bien, porque así el ciclo de programa queda documentado completo desde el arranque.",
               "Que reparta las cinco fichas entre los dirigentes de su equipo, para que nadie cargue con todas."
             ],

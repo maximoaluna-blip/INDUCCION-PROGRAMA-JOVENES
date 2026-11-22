@@ -3,7 +3,7 @@
   "title": "Acompañar la Progresión Personal",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Del día que un protagonista llega a tu unidad al día que pasa a la siguiente rama. Cómo recibirlo, dejarlo elegir su camino, ajustar tu papel competencia por competencia, cuidar su ritmo, reconocer lo que aprendió y acompañar su paso — sin que la progresión se vuelva una carrera colectiva. Para todo dirigente de unidad, tenga el cargo que tenga.",
-  "contentVersion": "2026-11-08",
+  "contentVersion": "2026-11-22",
   "icon": "👣",
   "duration": "53 minutos",
   "level": 3,
@@ -81,7 +81,7 @@
           "items": [
             "<strong>Distinguir</strong> las tres etapas de vida en la unidad —adaptación, progresión y transición— y qué te pide cada una.",
             "<strong>Planear</strong> la acogida de quien llega para que su investidura o la renovación de su Promesa culmine una etapa y no sea un trámite.",
-            "<strong>Ofrecer</strong> a cada protagonista dos o tres opciones y <strong>acordar</strong> con él su siguiente paso, sin imponerle un orden.",
+            "<strong>Ofrecer</strong> a cada protagonista opciones —o escuchar las que él trae— y <strong>acordar</strong> con él su siguiente paso, sin imponerle un orden.",
             "<strong>Ajustar</strong> tu papel competencia por competencia: apoyar, acompañar y enlazar a la misma persona a la vez.",
             "<strong>Sustituir</strong> la comparación por el avance propio de cada uno, y detectar a tiempo lo que no es ritmo sino señal.",
             "<strong>Reconocer</strong> nombrando competencias y evidencias, no acumulando insignias.",
@@ -240,11 +240,11 @@
           {
             "text": "Una scout nueva en la Tropa llega cada sábado sin entender las palabras de su patrulla, y su mamá pregunta cómo puede ayudarla en estas primeras semanas. ¿Qué le propones?",
             "options": [
-              "Que en casa le pregunte por lo que vive en su patrulla y por los símbolos que va conociendo.",
               "Que espere a la investidura para involucrarse: en esta etapa le toca al equipo de dirigentes.",
-              "Que la acompañe dentro de las reuniones de su patrulla estas semanas, para explicarle lo que no entiende."
+              "Que le enseñe en casa la Ley y las palabras de su patrulla antes de cada sábado, para que no se pierda.",
+              "Que en casa le pregunte por lo que vive en su patrulla y por los símbolos que va conociendo."
             ],
-            "correctIndex": 0
+            "correctIndex": 2
           }
         ]
       }
@@ -317,7 +317,7 @@
             "options": [
               "Le pide que primero cierre lo que trabaja su patrulla, y que la radio espere al otro semestre.",
               "Le ayuda a ver qué territorios de su rama toca la radio y le ofrece dos o tres formas de empezar.",
-              "Lo deja arrancar con la radio y espera a que él pida ayuda: el camino lo elige él, no el dirigente."
+              "Le pide que la proponga a su patrulla y, si no la eligen, que se sume a lo que elijan los demás."
             ],
             "correctIndex": 1
           },
@@ -399,11 +399,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Hay otra palabra que se cruza aquí. Las <strong>fases de progresión</strong> son los hitos de la rama, cada uno con su nombre propio, que marcan un avance del conjunto y se celebran con un reconocimiento. Los <strong>niveles</strong> —Exploro, Aplico, Profundizo— se ven competencia por competencia. Una persona tiene <strong>una</strong> fase en su rama y <strong>muchos</strong> niveles a la vez, uno en cada competencia que trabaja. Si en algún documento lees «fase» junto a Exploro, Aplico o Profundizo, se refiere al nivel. Y el <em>Modelo</em> da un paso más: un área queda en un nivel cuando la mayoría de sus competencias está en él."
+          "text": "Hay otra palabra que se cruza aquí. Las <strong>fases de progresión</strong> son los hitos de la rama, cada uno con su nombre propio, que marcan un avance del conjunto y se celebran con un reconocimiento. Los <strong>niveles</strong> —Exploro, Aplico, Profundizo— se ven competencia por competencia. Una persona tiene <strong>una</strong> fase en su rama y <strong>muchos</strong> niveles a la vez, uno en cada competencia que trabaja. Si en algún documento lees «fase» junto a Exploro, Aplico o Profundizo, se refiere al nivel."
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y en tu rama, las fases.</strong> Cada Guía nombra las suyas. <strong>Familia:</strong> son <strong>tres</strong> —Mirada de Raksha, Aullido de Papá Lobo y Fuerza del Cubil—, no las cuatro que menciona el <em>Modelo</em>; en Familia manda su Guía. Además, allí no se trabaja por competencias sino por <strong>cinco dimensiones</strong>, y los niveles se llaman <strong>Reconoce, Expresa y Comparte</strong>. La regla es la misma: el nivel, y tu rol, se miran dimensión por dimensión. <strong>Tropa:</strong> los niveles se llaman <strong>Descubro, Construyo y Conquisto</strong>, y las competencias, territorios. <strong>En Manada, Tropa, Comunidad y Clan:</strong> busca sus fases en el capítulo de progresión de tu Guía y en el curso de tu rama. Y así se ve la relación entre las dos cosas: cada Guía define sus fases contando cuántas áreas tiene el protagonista en cada nivel (en Familia cuenta dimensiones; la de Tropa cuenta territorios —o sea, competencias— y, para su fase máxima, las seis Rutas). La fase es un resumen de muchos niveles."
+          "text": "🌿 <strong>Y en tu rama, las fases.</strong> Cada Guía nombra las suyas. <strong>Familia:</strong> son <strong>tres</strong> —Mirada de Raksha, Aullido de Papá Lobo y Fuerza del Cubil—, no las cuatro que menciona el <em>Modelo</em>; en Familia manda su Guía. Además, allí no se trabaja por competencias sino por <strong>cinco dimensiones</strong>, y los niveles se llaman <strong>Reconoce, Expresa y Comparte</strong>. La regla es la misma: el nivel, y tu rol, se miran dimensión por dimensión. <strong>Tropa:</strong> los niveles se llaman <strong>Descubro, Construyo y Conquisto</strong>, y las competencias, territorios. <strong>En Manada, Tropa, Comunidad y Clan:</strong> busca sus fases en el capítulo de progresión de tu Guía y en el curso de tu rama. La fase es un resumen de muchos niveles: por eso, saber la fase de alguien no te dice qué rol te toca en cada competencia."
         }
       ],
       "reflection": {
@@ -432,13 +432,13 @@
             "correctIndex": 0
           },
           {
-            "text": "Un scout ya organiza con su patrulla la cocina en cada salida: arma el menú y reparte las tareas, y a veces se le quema el arroz. ¿Qué te toca a ti en esa competencia?",
+            "text": "Una scout se ofrece por primera vez a armar el menú de la salida de su patrulla: nunca ha cocinado para nadie y no sabe por dónde empezar. ¿Qué te toca a ti en esa competencia?",
             "options": [
-              "Te toca enlazarlo: como ya lo hace en cada salida, conectarlo con un cocinero o con un curso externo.",
-              "Te toca apoyarlo: explicarle el propósito de cada salida y ayudarle con los primeros obstáculos.",
-              "Te toca acompañarlo: observar, preguntarle y darle retroalimentación, dejando que él lleve el proceso."
+              "Te toca enlazarla: como se ofreció por iniciativa propia, conectarla con un cocinero o un curso externo.",
+              "Te toca apoyarla: facilitarle recursos y oportunidades para empezar, sin imponerle ritmos ni resultados.",
+              "Te toca acompañarla: observarla, preguntarle y darle retroalimentación mientras ella lleva el proceso."
             ],
-            "correctIndex": 2
+            "correctIndex": 1
           }
         ]
       }
@@ -498,7 +498,7 @@
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y en tu rama, el ritmo.</strong> <strong>Familia:</strong> su Guía lo pone en el centro — el Viejo Lobo es <em>«garante del ritmo personal»</em>, y en la primera infancia esperar el turno o controlar los impulsos todavía están en desarrollo. <strong>Manada:</strong> <em>«cada niño crece a su propio ritmo»</em>, repite su Guía al hablar de los pasos entre ramas. <strong>Tropa:</strong> su Guía habla de <em>«educar desde la comprensión del ritmo individual, no desde la prisa institucional»</em>. <strong>Comunidad y Clan:</strong> el ritmo se acuerda con el propio joven, y eso es parte del acompañamiento."
+          "text": "🌿 <strong>Y en tu rama, el ritmo.</strong> <strong>Familia:</strong> su Guía lo pone en el centro — el Viejo Lobo es <em>«garante del ritmo personal»</em>, y en la primera infancia esperar el turno o controlar los impulsos todavía están en desarrollo. <strong>Manada:</strong> <em>«cada niño crece a su propio ritmo»</em>, repite su Guía al hablar de los pasos entre ramas. <strong>Tropa:</strong> su Guía habla de <em>«educar desde la comprensión del ritmo individual, no desde la prisa institucional»</em>. <strong>Comunidad:</strong> su Guía quiere que cada nómada desarrolle sus competencias <em>«según su ritmo y momento de vida»</em>. <strong>Clan:</strong> su Guía pide acompañar al rover <em>«desde la confianza y el respeto por su autonomía»</em>; con los mayores, el ritmo se acuerda con el propio joven."
         }
       ],
       "reflection": {
@@ -522,7 +522,7 @@
             "options": [
               "Tomarlo como un bajón de ritmo: aflojarle las exigencias de su progresión unas semanas y ver.",
               "Tomarlo como una señal: avisar a su Jefe de Rama y de Grupo, y reportar si hay indicios de riesgo.",
-              "Preguntarle con detalle qué le pasa y averiguar con sus compañeros, antes de decidir si avisar al equipo."
+              "Tomarlo como algo que hay que entender primero: preguntarle a fondo y averiguar con sus compañeros."
             ],
             "correctIndex": 1
           },
@@ -761,7 +761,7 @@
             "options": [
               "Que empiece a compartir con la Comunidad sin dejar su patrulla, y que dos equipos acompañen el paso.",
               "Que pase a la Comunidad al cierre del ciclo, con todos los de su edad, para no partir el año.",
-              "Que deje ya su patrulla y se integre del todo a la Comunidad, para que no quede dividido entre dos ramas."
+              "Que hagan ya su ceremonia de paso y después conozca la Comunidad: el símbolo es lo que da sentido."
             ],
             "correctIndex": 0
           },
@@ -778,7 +778,7 @@
             "text": "Una nómada cumple diecisiete años y medio. Le dice a su dirigente que no se siente lista y que prefiere quedarse un año más en la Comunidad. ¿Qué le responde?",
             "options": [
               "Que puede quedarse: la transición no tiene un calendario fijo, y el acompañamiento decide cuándo cruza.",
-              "Que al Clan se entra al cumplir los 18: su transición ya empezó, y la van a preparar desde ahora con el equipo del Clan.",
+              "Que al Clan se entra a los 18: su transición ya empezó, y la preparan desde ahora con el equipo del Clan.",
               "Que pase al Clan ya mismo, si el equipo del Clan la acepta, para que se acostumbre antes de los 18."
             ],
             "correctIndex": 1
@@ -866,11 +866,11 @@
           {
             "text": "Un rover le cuenta a su dirigente que está muy angustiado por la presión de su familia sobre qué estudiar. ¿Qué respuesta respeta los límites del rol?",
             "options": [
-              "Escucharlo, validar lo que siente y ayudarlo a pensar qué quiere, sin diagnosticarlo.",
               "Explicarle que su angustia viene de la relación con sus padres y cómo debe manejarla.",
-              "Escucharlo un momento y remitirlo de inmediato a un profesional: la angustia excede tu papel."
+              "Decirle que a su edad es normal y aconsejarle la carrera que mejor le va según lo que hace.",
+              "Escucharlo, validar lo que siente y ayudarlo a pensar qué quiere, sin diagnosticarlo."
             ],
-            "correctIndex": 0
+            "correctIndex": 2
           },
           {
             "text": "Al pasar una scout a la Comunidad, su dirigente de Tropa prepara lo que le va a contar al nuevo equipo. ¿Qué es lo que corresponde compartir?",
@@ -885,8 +885,8 @@
             "text": "Un nómada presenta el proyecto que diseñó para el próximo ciclo. A su dirigente le parece que se queda corto y que podría proponerse metas más exigentes. ¿Qué hace?",
             "options": [
               "Le reescribe las metas con él delante, explicándole por qué, para que aprenda a exigirse más.",
-              "Le da su mirada con algunas preguntas, y deja que él decida si ajusta sus metas o no.",
-              "Le aprueba el proyecto tal como está, sin comentarios, para no influir en un camino que es suyo."
+              "Le hace dos o tres preguntas sobre su proyecto y lo deja decidir, aunque le siga pareciendo corto.",
+              "Le aprueba el proyecto, pero le pide a su equipo que le sugiera subir las metas en la próxima reunión."
             ],
             "correctIndex": 1
           }

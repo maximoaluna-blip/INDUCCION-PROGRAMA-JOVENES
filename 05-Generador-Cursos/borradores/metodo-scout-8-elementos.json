@@ -3,7 +3,7 @@
   "title": "El Método Scout y sus 8 elementos",
   "subtitle": "El \"cómo\" del Movimiento — un sistema, no una lista",
   "description": "El curso más largo y más importante del Nivel 1. En ~43 minutos vas a entender el Método Scout como un sistema de autoeducación progresiva basado en 8 elementos interdependientes — no una lista de técnicas que se eligen a gusto. Vas a recorrer los 8 elementos en 4 parejas, ver las 4 dinámicas que hacen visible el Método en tu unidad y salir con un plan concreto para integrar el Método en tu próxima reunión.",
-  "contentVersion": "2026-11-08",
+  "contentVersion": "2026-11-22",
   "icon": "🧭",
   "duration": "43 minutos",
   "level": 1,
@@ -24,7 +24,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Te damos la bienvenida. Casi todo dirigente nuevo hace lo mismo: se queda con los elementos del Método que le salen fáciles —el juego, la salida, la Promesa— y deja para después los que le cuestan. Parece razonable. No lo es: el Método Scout no es una lista de ocho técnicas para escoger según el día. Es un sistema. Si una pieza falta semana tras semana, lo que queda ya no es el Método. Tómalo con calma."
+          "text": "Te damos la bienvenida. Casi todo dirigente nuevo hace lo mismo: se queda con lo que le sale fácil —el juego, la salida, la Promesa— y deja para después lo que le cuesta. Parece razonable. No lo es: el Método Scout no es una lista de ocho técnicas para escoger según el día. Es un sistema. Si una pieza falta semana tras semana, lo que queda ya no es el Método. Tómalo con calma."
         },
         {
           "type": "heading",
@@ -149,7 +149,7 @@
             "text": "En su primera reunión, la patrulla no se pone de acuerdo sobre qué juego hacer y le pide a la dirigente nueva que decida. ¿Qué hace alguien que entendió «autoeducación»?",
             "options": [
               "Proponerles un juego que ella conozca bien y pedirles que lo evalúen al final, para que aprendan.",
-              "Esperar a un lado sin decir nada, aunque se pierda la reunión: intervenir sería decidir.",
+              "Decirles que se pongan de acuerdo entre ellos y apartarse hasta que hayan elegido un juego.",
               "Ayudarles a poner dos o tres criterios para elegir, y que la decisión la tome la patrulla."
             ],
             "correctIndex": 2
@@ -157,8 +157,8 @@
           {
             "text": "Una jefa de Manada revisa el trimestre: hubo Promesas, juegos en seisenas y una salida al parque, pero ni un solo momento de Marco Simbólico, porque «a los lobatos de ahora eso les da pena». ¿Qué haría alguien que entendió que el Método es un sistema?",
             "options": [
-              "Programar para el próximo mes dos o tres momentos de La Fantasía, porque ese elemento lleva semanas faltando.",
-              "Programar el Marco Simbólico en todas las actividades de cada reunión, para compensar las semanas en que faltó.",
+              "Programar para el próximo mes dos o tres momentos de Marco Simbólico, porque ese elemento lleva semanas faltando.",
+              "Preguntarles a los lobatos si quieren Marco Simbólico y hacer lo que decidan, porque eso es autoeducación.",
               "Dejarlo así mientras los otros siete sigan fuertes: si ninguno vale más que otro, este tampoco hace falta."
             ],
             "correctIndex": 0
@@ -175,6 +175,10 @@
         {
           "type": "info-box",
           "text": "<strong>Idea central:</strong> La ética y la práctica."
+        },
+        {
+          "type": "paragraph",
+          "text": "Piensa en una promesa que hayas hecho porque quisiste y en una regla que cumples porque toca. ¿Cuál de las dos te pesa más cuando nadie te ve? De esa diferencia trata esta pareja."
         },
         {
           "type": "heading",
@@ -216,7 +220,7 @@
         },
         {
           "type": "info-box",
-          "text": "Si el dirigente hace por el joven, el joven no aprende. Esa es la regla. Tu trabajo es preparar el escenario para que él intente, no resolver lo que él puede resolver."
+          "text": "Si el dirigente hace por el joven, el joven no aprende. Esa es la regla. Pero dejar hacer no es desaparecer: una pregunta a tiempo («¿qué se les ocurre?») prepara el escenario sin resolverle. Tu trabajo es preparar el escenario para que él intente, no resolver lo que él puede resolver."
         }
       ],
       "reflection": {
@@ -247,9 +251,9 @@
           {
             "text": "En el campamento, la patrulla Halcones cocina sola por primera vez. A media tarde ves que nadie ha prendido el fogón y que la leña está mojada. Según Aprender Haciendo, ¿qué haces?",
             "options": [
-              "Te acercas al Guía, le preguntas cómo piensan resolver lo de la leña y les dejas el fogón a ellos.",
-              "Te mantienes lejos toda la tarde: si intervienes, aunque sea con una pregunta, ya no aprenden.",
-              "Te pones a prender el fogón mientras ellos miran, para que aprendan viendo cómo se hace."
+              "Te acercas al Guía y le preguntas qué se les ocurre con la leña mojada; el fogón sigue siendo de ellos.",
+              "Te acercas al Guía y le explicas paso a paso cómo se prende un fogón con leña mojada, para que lo haga él.",
+              "Te acercas al Guía y le consigues leña seca de otra patrulla, para que puedan seguir con su propio menú."
             ],
             "correctIndex": 0
           }
@@ -277,7 +281,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La PNPJ 2024 lo titula <strong>'Progreso personal'</strong>: es el camino individual de crecimiento del protagonista en las 6 áreas (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad). No es competitiva: cada joven avanza a su ritmo. Se construye con el acompañamiento del <strong>dirigente</strong> (en sus roles de apoyar, acompañar y enlazar), en momentos de conversación y reconocimiento. Se registra en el <strong>Registro de Acompañamiento a la Progresión Personal</strong> (DNPJ-2026-021) y se sostiene con las <strong>Herramientas de Seguimiento 2.0</strong>."
+          "text": "La PNPJ 2024 lo titula <strong>'Progreso personal'</strong>: es el camino individual de crecimiento del protagonista en las 6 áreas (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad). No es competitiva: cada joven avanza a su ritmo. Se construye con el acompañamiento del <strong>dirigente</strong> —en la próxima lección verás cómo—, en momentos de conversación y reconocimiento, y se deja por escrito en los registros de seguimiento que verás en el Curso 13."
         },
         {
           "type": "paragraph",
@@ -290,7 +294,7 @@
         },
         {
           "type": "paragraph",
-          "text": "En Tropa, Comunidad y Clan, los jóvenes viven el Movimiento sobre todo en <strong>pequeños grupos</strong> donde se sienten conocidos, toman decisiones y aprenden a liderar entre pares. <strong>En Familia y Manada pesa más la unidad completa</strong>: las camadas y las seisenas se arman para ciertas actividades y les ayudan a aprender a escuchar y a turnarse. Cada rama tiene su grupo natural: Camadas (Familia), Seisenas (Manada), Patrullas (Tropa), equipos de Comunidad y de Clan."
+          "text": "En Tropa, Comunidad y Clan, los jóvenes viven el Movimiento sobre todo en <strong>pequeños grupos</strong> donde se sienten conocidos, toman decisiones y aprenden a liderar entre pares. <strong>En Familia y Manada pesa más la unidad completa</strong>: las camadas y las seisenas se arman para ciertas actividades (en Familia, para facilitar el juego; en la Manada, además, para aprender a escuchar a los demás y a turnarse las funciones). Cada rama tiene su grupo natural: Camadas (Familia), Seisenas (Manada), Patrullas (Tropa), equipos de Comunidad y de Clan."
         },
         {
           "type": "method-grid",
@@ -333,18 +337,18 @@
         },
         {
           "type": "info-box",
-          "text": "Cuando una unidad opera solo como gran grupo y nunca como pequeños grupos, está rompiendo el Sistema de Equipos. La unidad existe; el Método, no."
+          "text": "Cuando una Tropa, una Comunidad o un Clan funcionan solo como gran grupo y nunca como pequeños grupos, están rompiendo el Sistema de Equipos. La unidad existe; el Método, no."
         }
       ],
       "reflection": {
-        "prompt": "Recuerda la última actividad de tu unidad en la que el pequeño grupo (camada, seisena, patrulla, equipo) tomó una decisión sin el adulto. ¿Qué decidió? Si no recuerdas ninguna, describe la última vez que un adulto decidió algo que el grupo podía haber decidido."
+        "prompt": "Recuerda la última actividad en la que el pequeño grupo (seisena, patrulla, equipo; en Familia, la camada de ese juego) decidió algo por su cuenta, con el adulto cerca pero sin decidir por ellos. ¿Qué decidió? Si no recuerdas ninguna, describe la última vez que un adulto decidió algo que el grupo podía haber decidido."
       },
       "quiz": {
         "title": "Mini-quiz Lección 4",
         "nextLabel": "Continuar a los elementos 5 y 6 💗",
         "questions": [
           {
-            "text": "Un scout que aprendió amarres el año pasado ahora, por iniciativa propia, se los enseña a los nuevos de su patrulla en cada salida. ¿En qué nivel de esa competencia lo ubica el Modelo 2026?",
+            "text": "Un scout que aprendió amarres el año pasado ahora, por iniciativa propia, se los enseña a los nuevos de su patrulla en cada salida. ¿En qué nivel de esa competencia educativa lo ubica el Modelo 2026?",
             "options": [
               "En Aplico, porque está usando la competencia en situaciones reales con su patrulla.",
               "En Profundizo, porque la competencia ya es suya y ahora la pone al servicio de otros.",
@@ -353,13 +357,13 @@
             "correctIndex": 1
           },
           {
-            "text": "El Guía de los Zorros te cuenta que su patrulla ya probó dos veces repartirse el material del campamento, y las dos veces se les quedó la carpa. ¿Qué haces, según el Sistema de Equipos?",
+            "text": "El Guía de los Zorros te cuenta que la patrulla decidió repartirse el material de un modo que a ti te parece más lento que el tuyo. Ya lo probaron en dos salidas y no se les ha quedado nada. ¿Qué haces, según el Sistema de Equipos?",
             "options": [
-              "Le propones revisar juntos cómo hicieron el reparto y pensar un sistema que decida la patrulla.",
-              "Le dices que sigan intentando sin tu ayuda: la patrulla tiene que equivocarse sola hasta que le salga.",
-              "Le pides la lista de los Zorros y tú la revisas antes de cada salida, para que ya no se les quede nada."
+              "Le muestras al Guía tu forma de repartir, para que la compare con la suya y elija la mejor.",
+              "Respetas el reparto que decidieron: a ellos les funciona y esa decisión le toca a la patrulla.",
+              "Le propones al Guía probar tu forma en la próxima salida y, si no les sirve, volver a la suya."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
           },
           {
             "text": "En la misma salida, Ana se orienta con brújula por primera vez y Luis ya la usa solo en cada campamento. ¿Qué cabe esperar?",
@@ -390,7 +394,7 @@
         },
         {
           "type": "paragraph",
-          "text": "En el Curso 4 viste la frase eje del Movimiento (Características Esenciales, OMMS 2019, p. 28): de jóvenes, para jóvenes, <strong>apoyado por adultos</strong>. Aquí ese 'apoyo' se vuelve elemento metodológico. Las Características Esenciales (p. 19) nombran <strong>4 tipos de apoyo del adulto</strong>: educativo, emocional, informativo y evaluativo (la PNPJ a este último lo llama «valorativo»: es el mismo)."
+          "text": "En el Curso 4 viste la frase eje del Movimiento (Características Esenciales, OMMS 2019, p. 28): de jóvenes, para jóvenes, <strong>apoyado por adultos</strong>. Aquí ese 'apoyo' se vuelve elemento del Método."
         },
         {
           "type": "paragraph",
@@ -456,7 +460,7 @@
         },
         {
           "type": "info-box",
-          "text": "📝 <strong>Dos documentos vigentes, dos formas de decirlo.</strong> Las Guías de Familia y de Manada dan a las dos ramas el mismo marco, <strong>La Fantasía</strong>. El <em>Modelo</em> las distingue: llama a la de Familia <strong>Territorio de la Fantasía</strong> y a la de Manada <strong>Territorio de la Fantasía Expandida</strong>, y nombra los cinco marcos por territorio (§8.2.2, pp. 56–57). El de la <strong>Tropa es La Aventura</strong>, y su <strong>Guía de Dirigente</strong> le dedica un capítulo entero. No lo arreglamos por cuenta propia: lo decimos, como hacemos en otros cursos de la línea cuando dos documentos vigentes no coinciden."
+          "text": "📝 <strong>Dos documentos vigentes, dos formas de decirlo.</strong> Las Guías de Familia y de Manada dan a las dos ramas el mismo marco, <strong>La Fantasía</strong>; el <em>Modelo</em> las distingue como <strong>Territorio de la Fantasía</strong> y <strong>Territorio de la Fantasía Expandida</strong> (§8.2.2, pp. 56–57). Te contamos la diferencia en vez de arreglarla por nuestra cuenta."
         },
         {
           "type": "info-box",
@@ -473,11 +477,11 @@
           {
             "text": "Una lobata nunca ha preparado un refrigerio y el sábado le toca a su seisena. ¿Qué haces antes de la reunión?",
             "options": [
-              "Preparar con la seisena la receta y el reparto de tareas, dejar todo listo y quedarte cerca el sábado.",
-              "Dejar que la seisena se las arregle sin receta ni ingredientes: así lo aprende de verdad, a su modo.",
-              "Preparar tú el refrigerio esta vez, para que vea cómo se hace y lo repita en la próxima reunión."
+              "Contarle a la seisena cómo preparabas tú los refrigerios y dejar que el sábado lo intenten a su modo.",
+              "Revisar con la seisena la receta y el reparto de tareas, y el sábado quedarte cerca mientras cocinan.",
+              "Armar tú la receta y el reparto de tareas, y el sábado decirle a cada lobato lo que le toca hacer."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
           },
           {
             "text": "Una rover del Clan ya domina los primeros auxilios y quiere ir más lejos. ¿Cuál de estas acciones es Enlazar, según el Modelo?",
@@ -511,6 +515,10 @@
           "text": "<strong>Idea central:</strong> El laboratorio y el servicio."
         },
         {
+          "type": "paragraph",
+          "text": "Piensa en la primera vez que dormiste lejos de casa: un campamento, si fuiste scout, o un paseo, una finca, una salida del colegio. Lo que aprendiste ahí —a cuidar lo poco que llevabas, a depender de los otros— no te lo enseñó nadie en un salón."
+        },
+        {
           "type": "heading",
           "level": 3,
           "text": "Elemento 7 — Naturaleza"
@@ -536,7 +544,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El Movimiento no educa para encerrarse en la unidad. Educa para servir y participar. La Participación en la Comunidad incluye proyectos de servicio en el barrio, articulación con organizaciones locales, ejercicio de ciudadanía en espacios públicos. La PNPJ 2024 lo titula <strong>'Participación comunitaria'</strong>: ayudar a construir un mundo mejor desde la ciudadanía activa, en el <strong>territorio</strong> donde vive: su barrio, su colegio, su comunidad. El Modelo de Aplicación 2026 lo describe como un lugar con cuatro caras: la física (dónde pasa), la simbólica (el marco de la rama que le da sentido: para una Comunidad, su aventura hacia la ciudadanía), la de las relaciones (con quién: vecinos, familias, otras organizaciones) y la transformadora (qué cambia ahí gracias a ellos) — §8.2, p. 54."
+          "text": "El Movimiento no educa para encerrarse en la unidad. Educa para servir y participar. La Participación en la Comunidad incluye proyectos de servicio en el barrio, articulación con organizaciones locales, ejercicio de ciudadanía en espacios públicos. La PNPJ 2024 lo titula <strong>'Participación comunitaria'</strong>: ayudar a construir un mundo mejor desde la ciudadanía activa, en el <strong>territorio</strong> donde vive: su barrio, su colegio, su comunidad. El Modelo de Aplicación 2026 lo describe como un lugar con cuatro caras: la física (dónde pasa), la simbólica (el marco de la rama que le da sentido: para una Comunidad, su aventura hacia la ciudadanía), la de las relaciones (con quién: vecinos, familias, otras organizaciones) y la transformadora (qué cambia ahí gracias a ellos) — §8.2, p. 54. Servir CON no es solo poner las manos: es un esfuerzo colectivo, que se decide y se planea junto con la gente del lugar (PNPJ 2024, p. 22)."
         },
         {
           "type": "policy-quote",
@@ -568,9 +576,9 @@
           {
             "text": "El Clan quiere pintar el salón comunal con pintura que donó una ferretería. La Junta de Acción Comunal les dice que el salón está bien y que lo que les preocupa es el parque, que se volvió un basurero. ¿Qué lo acerca más a la Participación en la Comunidad?",
             "options": [
-              "Sentarse con la Junta a mirar qué necesita el parque y planear con ellos una jornada allí.",
-              "Pintar el salón de todos modos, porque ya tienen la pintura donada y es un servicio que se ve.",
-              "Sentarse con la Junta y dejar que ella decida y organice todo; el Clan solo pone las manos."
+              "Sentarse con la Junta a mirar qué necesita el parque y planear con ella, paso a paso, una jornada allí.",
+              "Proponerle a la Junta la jornada en el parque que el Clan ya diseñó, y pedirle que convoque a los vecinos.",
+              "Pintar el salón como estaba previsto e invitar a la Junta y a los vecinos a pintar junto con el Clan."
             ],
             "correctIndex": 0
           },
@@ -579,7 +587,7 @@
             "options": [
               "La física, porque el proyecto pasa en la cancha que la Comunidad ya conoce.",
               "La simbólica, porque le dan al proyecto el sentido que trae el marco de su rama.",
-              "La de las relaciones, porque buscan sumar a los vecinos como aliados del proyecto."
+              "La transformadora, porque con el proyecto buscan cambiar algo en la vieja cancha."
             ],
             "correctIndex": 1
           }
@@ -676,19 +684,19 @@
             "text": "Una dirigente de Tropa quiere saber qué debería lograr en Sociabilidad un scout de 12 años. ¿Qué competencias busca, y dónde?",
             "options": [
               "Las terminales, que trae la Guía de Dirigente de Tropa para cada edad de la rama.",
-              "Las intermedias, que trae la Guía de Dirigente de Tropa partidas por rama y por edad.",
-              "Las del Registro de Acompañamiento, que anota lo que cada scout ya logró en el área."
+              "Las del registro de seguimiento, que anota lo que cada scout ya logró en el área.",
+              "Las intermedias, que trae la Guía de Dirigente de Tropa partidas por rama y por edad."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "Las Panteras proponen otra vez su carrera de observación por el barrio: les encanta, es segura y juegan todos, también los nuevos; ya la hicieron dos veces este trimestre exactamente igual. Pasada por DURASLID, ¿qué conviene ajustar?",
             "options": [
-              "Mantenerla: tiene seguridad, juego y gusto, que es lo que más pesa.",
               "Cambiarle el reto, porque a la patrulla ya no le exige nada nuevo.",
+              "Mantenerla: tiene seguridad, juego y gusto, que es lo que más pesa.",
               "Cambiarle el premio, para que vuelva a ser recompensante para todos."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -701,7 +709,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "<strong>Idea central:</strong> Planear una reunión real integrando todo."
+          "text": "<strong>Idea central:</strong> Mirar cuatro reuniones y ajustar la próxima."
         },
         {
           "type": "paragraph",
@@ -716,14 +724,14 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "<strong>Promesa y Ley</strong> — ¿Hay un momento en las cuatro reuniones donde se mencione, se viva o se reconozca la Promesa o algún punto de la Ley?",
+            "<strong>Promesa y Ley</strong> — ¿Hubo en las cuatro reuniones un momento donde se mencionara, se viviera o se reconociera la Promesa o algún punto de la Ley?",
             "<strong>Aprender Haciendo</strong> — ¿Los protagonistas <strong>hicieron</strong> algo, o solo <strong>escucharon y miraron</strong>?",
-            "<strong>Progresión Personal</strong> — ¿Las cuatro reuniones contemplan observar o registrar avances de algún protagonista en alguna área?",
-            "<strong>Sistema de Equipos</strong> — ¿Hay momentos de pequeño grupo (camada o seisena para una actividad; patrulla o equipo con vida propia), no como gran grupo?",
-            "<strong>Apoyo del Adulto</strong> — ¿El adulto está en rol de Apoyar/Acompañar/Enlazar — o en rol de dirigir y entretener?",
-            "<strong>Marco Simbólico</strong> — ¿El lenguaje, los símbolos, las ceremonias propias de la rama están presentes?",
-            "<strong>Naturaleza</strong> — ¿Alguna de las cuatro reuniones busca un contacto con la naturaleza —observar, cuidar, explorar—, aunque sea en un parque o en una plaza con árboles?",
-            "<strong>Participación en la Comunidad</strong> — ¿Hay algún hilo que vincule las cuatro reuniones con el territorio (familia, barrio, escuela, comunidad)?"
+            "<strong>Progresión Personal</strong> — ¿En las cuatro reuniones se observó o se registró el avance de algún protagonista en alguna área?",
+            "<strong>Sistema de Equipos</strong> — ¿Hubo momentos de pequeño grupo (camada o seisena para una actividad; patrulla o equipo con vida propia), y no solo de gran grupo?",
+            "<strong>Apoyo del Adulto</strong> — ¿El adulto estuvo en rol de Apoyar/Acompañar/Enlazar — o en rol de dirigir y entretener?",
+            "<strong>Marco Simbólico</strong> — ¿Estuvieron presentes el lenguaje, los símbolos y las ceremonias propias de la rama?",
+            "<strong>Naturaleza</strong> — ¿Alguna de las cuatro reuniones tuvo contacto con la naturaleza —observar, cuidar, explorar—, aunque fuera en un parque o en una plaza con árboles?",
+            "<strong>Participación en la Comunidad</strong> — ¿Hubo algún hilo que vinculara las cuatro reuniones con el territorio (familia, barrio, escuela, comunidad)?"
           ]
         },
         {
@@ -789,11 +797,11 @@
           {
             "text": "Tu compromiso fue fortalecer Naturaleza. Dos sábados después, la salida al parque se cayó por lluvia y nadie la reprogramó. ¿Qué propone la lección?",
             "options": [
-              "Reprogramar la salida para la reunión que sigue y fijar la señal que te dirá si funcionó.",
-              "Reprogramar desde cero el plan de las cuatro reuniones, porque el sistema ya se cayó.",
-              "Esperar a que pase la temporada de lluvias y retomar Naturaleza cuando el clima ayude."
+              "Cambiar de compromiso y fortalecer otro elemento, porque Naturaleza no te está funcionando.",
+              "Dejar la salida para cuando mejore el clima y, mientras tanto, hablar de naturaleza en el salón.",
+              "Reprogramar la salida para la reunión que sigue y fijar la señal que te dirá si funcionó."
             ],
-            "correctIndex": 0
+            "correctIndex": 2
           }
         ]
       }

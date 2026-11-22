@@ -3,7 +3,7 @@
   "title": "A Salvo del Peligro aplicado al Programa",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Cómo el Método Scout hace segura a tu unidad: los once puntos en que la Política Nacional A Salvo del Peligro se articula con el Programa de Jóvenes, aplicados a un campamento real — la cultura de escucha, la práctica 2+1 al planear, la vida en línea, los datos de los protagonistas y el mecanismo de reporte. Para todo dirigente de unidad, de cualquier rama. No reemplaza los módulos oficiales de A Salvo del Peligro.",
-  "contentVersion": "2026-11-08",
+  "contentVersion": "2026-11-22",
   "icon": "🛡️",
   "duration": "58 minutos",
   "level": 4,
@@ -200,17 +200,17 @@
           {
             "text": "En la Manada, cada vez que un lobato pierde en un juego, el resto le canta la misma cancioncita de burla. Es tradición, todos se ríen y nadie ha llorado nunca. ¿Qué te pide esta lección?",
             "options": [
-              "Verla como una costumbre que nadie decidió y que enseña que perder da vergüenza, y llevarla al Consejo de Roca.",
-              "Verla como una tradición que une a la Manada, y dejarla mientras nadie la cante con mala intención.",
-              "Cambiarla tú por una canción de aplauso para el que pierde, y explicarles en la formación por qué la otra ya no va."
+              "Llevarla al Consejo de Roca y que los lobatos la revisen a la luz de su Ley, para que lo que se decida sobre la canción sea de ellos.",
+              "Llevarla al Consejo de Roca con una canción nueva ya ensayada, para que los lobatos vean desde el principio cómo debería sonar.",
+              "Llevarla al Consejo de Roca la primera vez que un lobato diga que le molesta; mientras nadie se queje, es parte del juego."
             ],
             "correctIndex": 0
           },
           {
             "text": "Una nómada le cuenta a su dirigente que una compañera de su equipo lleva semanas sin hablar y que eso le preocupa. ¿Qué respuesta construye la cultura que pide la Política?",
             "options": [
-              "Recordarle que no hable de la vida de sus compañeras, para que en el equipo no se instale la cultura del chisme y la sospecha.",
-              "Pedirle que averigüe con discreción qué le pasa a su compañera, y que después te lo cuente.",
+              "Recordarle que no hable de la vida de sus compañeras, para que en el equipo no se instale la cultura del chisme.",
+              "Pedirle que averigüe con discreción qué le pasa, y después contárselo tú a otro dirigente para no quedarte solo con eso.",
               "Decirle que hizo bien, y acercarte a la compañera para ofrecerle escucha, sin interrogarla ni quedarte a solas."
             ],
             "correctIndex": 2
@@ -219,7 +219,7 @@
             "text": "Decides llevar al Consejo de Patrulla el apodo que todos le dicen a un scout de doce años, que siempre es el primero en reírse. ¿Qué haces antes del Consejo?",
             "options": [
               "Llevarlo al Consejo sin hablar antes con nadie, y plantearlo en general para no señalar a ningún scout en particular.",
-              "Hablar antes con los de la patrulla que lo inventaron, a la vista de otro adulto, para que en el Consejo le pidan disculpas delante de todos.",
+              "Hablar antes con los de la patrulla que lo inventaron, con otro adulto presente, para que en el Consejo le pidan disculpas delante de todos.",
               "Hablar antes con él, con otro adulto presente, para que no se entere en pleno Consejo de que el tema va a salir."
             ],
             "correctIndex": 2
@@ -291,7 +291,7 @@
           "type": "list",
           "ordered": true,
           "items": [
-            "<strong>Nombrar lo que se normalizó.</strong> Sin escándalo y sin señalar a nadie: «esto lo hemos dejado pasar, y no deberíamos». Y antes, una conversación con quien lo recibe, con otro adulto presente, para que no se entere en público.",
+            "<strong>Nombrar lo que se normalizó.</strong> Sin escándalo y sin señalar a nadie: «esto lo hemos dejado pasar, y no deberíamos». Y antes, con otro adulto presente, una conversación con quien lo recibe, para que no le llegue por sorpresa delante de todos.",
             "<strong>Llevarlo al espacio de la unidad</strong> donde ellos deciden, con la Ley y la Promesa en la mano, para que el acuerdo sea suyo.",
             "<strong>Enseñar que contar está bien:</strong> que decirle a un adulto que algo no anda bien no es traicionar a nadie, y que existe una puerta para hacerlo (Lección 6)."
           ]
@@ -332,7 +332,7 @@
             "options": [
               "Acordar desde la planeación que el último scout espere con dos compañeros de su patrulla hasta que llegue su familia.",
               "Acordar desde la planeación que dos dirigentes se turnan cada sábado para quedarse hasta entregar al último scout.",
-              "Acordar desde la planeación que quien no haya sido recogido a las cinco lo lleve a su casa el dirigente de turno, con permiso firmado."
+              "Acordar desde la planeación que el dirigente de turno espere con él en la entrada, y que otro dirigente lo llame cada diez minutos para saber cómo van."
             ],
             "correctIndex": 1
           },
@@ -419,7 +419,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La <em>Guía de Dirigente de Tropa</em> ordena todo eso en seis elementos de gestión del riesgo —identificar, evaluar, prevenir, tener planes de emergencia, formar y aprender de la experiencia—, y los dos primeros ya los sabes hacer: es la matriz de la Ficha de Oportunidad de Aprendizaje, del <a href=\"planeacion-reuniones-oda.html\">Curso 14</a>. Lo que este curso le añade es que en la lista de riesgos no van solo el río y la fogata: van también <strong>los minutos del horario en que la práctica 2+1 se podría romper</strong>."
+          "text": "La <em>Guía de Dirigente de Tropa</em> ordena todo eso en seis elementos de gestión del riesgo, y los dos primeros —identificar y evaluar— ya los sabes hacer: es la matriz de la Ficha de Oportunidad de Aprendizaje, del <a href=\"planeacion-reuniones-oda.html\">Curso 14</a>. Lo que este curso le añade es que en la lista de riesgos no van solo el río y la fogata: van también <strong>los minutos del horario en que la práctica 2+1 se podría romper</strong>."
         },
         {
           "type": "heading",
@@ -428,7 +428,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Algunos cursos de esta línea te dijeron que lo que aplica a salidas, transporte y pernoctas estaría aquí. Te debemos una precisión. Para el <strong>transporte terrestre sí hay protocolo nacional</strong>: el <em>Protocolo Nacional de Transporte</em> (CNGR-022-1, mayo de 2025), que se declara <em>«de obligatorio cumplimiento en todos los niveles de la Asociación Scouts de Colombia»</em>, y lo enseña paso a paso el curso <a href=\"https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/02-Plataforma-Web/actividades-seguras-y-datos.html\" target=\"_blank\" rel=\"noopener\"><em>Actividades seguras</em></a>, en Políticas Transversales. Para la <strong>pernocta y las actividades acuáticas</strong>, en cambio, entre los documentos oficiales que sostienen esta plataforma no hay protocolo nacional: ni la Política ni su Manual Operativo lo traen. Si tu Grupo o tu Región tienen uno, ese es el que aplicas; la <em>Guía de Dirigente de Comunidad</em>, de hecho, pide seguir los protocolos de gestión del riesgo nacionales, regionales y locales que existan: pregunta cuáles aplican en los tuyos. Y para todos esos momentos tienes con qué pensar: la práctica 2+1, los seis elementos de la gestión del riesgo y la matriz del Curso 14."
+          "text": "Algunos cursos de esta línea te dijeron que todo eso estaría aquí; te debemos una precisión. Para el <strong>transporte terrestre sí hay protocolo nacional</strong>, de obligatorio cumplimiento: el <em>Protocolo Nacional de Transporte</em> (CNGR-022-1, mayo de 2025), que enseña paso a paso el curso <a href=\"https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/02-Plataforma-Web/actividades-seguras-y-datos.html\" target=\"_blank\" rel=\"noopener\"><em>Actividades seguras</em></a>, en Políticas Transversales. Para la <strong>pernocta y las actividades acuáticas</strong>, en cambio, no hay protocolo nacional entre los documentos oficiales que sostienen esta plataforma: pregunta cuál aplican tu Grupo y tu Región, y piensa con la práctica 2+1, la gestión del riesgo y la matriz del Curso 14."
         },
         {
           "type": "paragraph",
@@ -449,7 +449,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Para la <strong>actividad acuática</strong>: pasa por la matriz como cualquier otra, con la probabilidad y la consecuencia que de verdad tiene, y pregunta en tu Grupo y en tu Región qué protocolo aplican. Y para lo que no tenga protocolo, la <em>Guía de Dirigente de Clan</em> da una pista que sirve a todas las ramas: al planear un peregrinaje, buscar el apoyo de un dirigente del Grupo o de la Región con conocimientos en gestión del riesgo."
+          "text": "Para la <strong>actividad acuática</strong>: pasa por la matriz como cualquier otra, con la probabilidad y la consecuencia que de verdad tiene. Y para lo que no tenga protocolo, la <em>Guía de Dirigente de Clan</em> da una pista que sirve a todas las ramas: al planear un peregrinaje, buscar el apoyo de un dirigente del Grupo o de la Región con conocimientos en gestión del riesgo."
         },
         {
           "type": "info-box",
@@ -470,18 +470,18 @@
         "nextLabel": "Continuar a los datos 🩺",
         "questions": [
           {
-            "text": "Después del campamento, el equipo quiere subir las fotos a la red social del Grupo. En una aparece un scout cuya familia todavía no ha firmado la autorización que pide el Grupo para las fotos. ¿Qué haces?",
+            "text": "La familia de un scout firmó la autorización de imágenes que pide el Grupo. Al elegir las fotos del campamento, él te pide que no suban una en la que sale llorando. ¿Qué haces?",
             "options": [
-              "Publicarla si el scout está de acuerdo, porque la imagen es suya y es él quien decide dónde aparece.",
-              "Publicarla solo cuando la familia firme la autorización; las otras fotos que eligió la patrulla, sí.",
-              "Publicarla en la cuenta del Grupo configurada como privada, para que solo la vean seguidores aprobados."
+              "Dejarla fuera de lo que se publica: en la unidad las fotos se eligen con la patrulla y con quien sale en ellas, y él ya dijo que no.",
+              "Subirla, porque la familia firmó la autorización de imágenes del Grupo, y esa firma es la que cuenta para decidir qué se publica.",
+              "Dejarla para la cuenta privada del Grupo, donde solo la ven las familias de la unidad, y no subirla a la red social abierta."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "Un dirigente de Comunidad propone abrir un canal de mensajes solo para él y los nómadas, «para estar más cerca de ellos». ¿Qué le dirías?",
             "options": [
-              "Que escriba a los nómadas por el canal de la Comunidad, donde también están otro dirigente y las familias.",
+              "Que escriba a los nómadas por el canal de la Comunidad, el que el Grupo conoce y donde también están las familias.",
               "Que sí, siempre que él sea el único adulto administrador del canal y revise todo lo que se publica ahí.",
               "Que lo abra si en él solo se tratan temas de la unidad, y nunca asuntos personales de los nómadas ni de sus familias."
             ],
@@ -491,8 +491,8 @@
             "text": "La patrulla Halcones abre su propio grupo de mensajes para el campamento. ¿Qué haces para trabajar con ellos el cuidado en línea?",
             "options": [
               "Pedirles que no abran ese grupo, y dejar toda la comunicación de la patrulla solo para las reuniones y el campamento.",
-              "Pedirles que acuerden en Consejo de Patrulla qué fotos se reenvían y a quién se cuenta si algo incomoda, y repasarlo al volver.",
-              "Autorizar el grupo solo si nadie publica fotos de nadie, ni siquiera de sí mismo, mientras dure el campamento y al volver."
+              "Pedirles que en Consejo de Patrulla acuerden qué no se reenvía sin preguntar y a quién se cuenta algo que incomode, y repasarlo al volver.",
+              "Darles en el Consejo de Patrulla una charla sobre las señales del grooming, para que cada uno sepa detectar si un compañero está en riesgo."
             ],
             "correctIndex": 1
           }
@@ -597,18 +597,18 @@
           {
             "text": "En la reunión de dirigentes, uno cuenta —con cariño— lo que la familia de un scout le confió sobre sus dificultades en el colegio, «para que todos lo tengamos en cuenta». ¿Qué le dice esta lección?",
             "options": [
-              "Que es información de desarrollo: la necesita quien acompaña a ese scout, no todo el equipo, por mucho cariño que le tengan.",
-              "Que lo que confía una familia se guarda solo entre ella y ese dirigente: ni siquiera el Jefe de Unidad tendría que saberlo.",
-              "Que hizo bien: en un equipo de dirigentes que se tiene confianza, compartirlo ayuda a que todos traten mejor al scout."
+              "Que eso es información de su desarrollo y se cuida como su ficha médica: la necesita quien acompaña a ese scout, no todo el equipo.",
+              "Que eso no es información protegida: la Política cuida los datos médicos y dietéticos, y lo del colegio se puede comentar con cuidado.",
+              "Que hizo bien en contarlo, pero que eso se anota en el grupo de mensajes de los dirigentes, para que quede escrito y nadie lo olvide."
             ],
             "correctIndex": 0
           },
           {
             "text": "Revisando las fichas antes de una salida de Manada, ves que la de un lobato es de hace dos años y anota un medicamento diario. ¿Qué haces?",
             "options": [
-              "Llevarla así: el medicamento está anotado y, si el lobato ya no lo toma, la familia lo habría avisado.",
+              "Llevarla así: el medicamento está anotado y, si el lobato ya no lo toma, la familia lo habría avisado al inscribirlo este año.",
               "Pedirle a la familia que la revise y la actualice antes de salir, y llevar la ficha nueva en la carpeta de primeros auxilios.",
-              "Dejar al lobato sin ir a esta salida hasta que la familia traiga una ficha nueva firmada por un médico."
+              "Dejar al lobato sin ir a esta salida hasta que la familia traiga una ficha nueva, diligenciada y firmada por su médico tratante."
             ],
             "correctIndex": 1
           }
@@ -705,8 +705,8 @@
             "text": "En la Tropa vas a dedicar cinco minutos a contarles a los scouts qué pueden hacer si algo en la unidad no les gusta o los hace sentir mal. ¿Qué mensaje les das?",
             "options": [
               "Que pueden contármelo a mí a cualquier hora, y que yo me encargo de usar el botón por ellos si hace falta.",
-              "Que pueden contárselo a un adulto de confianza o usar ellos mismos el botón, y les muestras dónde está el QR en la sede.",
-              "Que, si es algo serio, mejor usen el botón directamente antes que contárselo a un dirigente, para que nadie lo filtre."
+              "Que pueden contarle a un adulto en quien confíen o usar ellos mismos el botón, y les muestras dónde encontrarlo.",
+              "Que, si es algo serio, mejor usen el botón directamente antes que contárselo a un dirigente, para que ningún adulto lo filtre."
             ],
             "correctIndex": 1
           },
@@ -714,8 +714,8 @@
             "text": "En la Familia, un dirigente quiere explicarles a los cachorros el formulario del botón, con el QR en la mano. ¿Qué le sugieres?",
             "options": [
               "Que a ellos les diga que pueden contarle a un adulto de confianza si algo no les gusta, y el formulario se lo explique a sus familias.",
-              "Que lo haga y lo practiquen juntos en la reunión: entre más pequeños aprendan a usar el botón, más protegidos van a estar.",
-              "Que no les hable del tema: a esa edad basta con que los dirigentes estén pendientes y que las familias sepan dónde está el botón."
+              "Que lo haga y lo practiquen juntos en la reunión: entre más pequeños aprendan a usar el botón solos, más protegidos van a estar.",
+              "Que les diga que, si algo no les gusta, se lo cuenten a él como su adulto de confianza, y que él decide si hace falta avisar a las familias."
             ],
             "correctIndex": 0
           },
@@ -723,7 +723,7 @@
             "text": "Un scout le cuenta a su dirigente algo que le pasó con un adulto del Grupo. El Jefe de Grupo dice: «Tráiganmelo a mí; hablo con las partes y miro si amerita reportarlo». ¿Qué responde esta lección?",
             "options": [
               "Que hable con las partes el Jefe de Grupo, con otro adulto presente, y reporte después por el botón con lo que haya averiguado.",
-              "Que el dirigente espere a que el scout se lo cuente también a su familia, para que sea ella quien decida si reporta.",
+              "Que el dirigente espere a que el scout se lo cuente también a su familia, para que sea ella quien decida si se reporta y por dónde.",
               "Que el dirigente que lo escuchó reporta por la ruta sin hablar antes con las partes, y que el Jefe de Grupo no decide si se reporta."
             ],
             "correctIndex": 2
@@ -820,27 +820,27 @@
           {
             "text": "Al planear el campamento, el equipo arma el juego nocturno del sábado: dos patrullas se esconden en el bosque y las otras las buscan con linternas. ¿Qué te pide este curso en ese momento?",
             "options": [
-              "Cambiarlo por un juego dentro del campamento y a la vista de todos, porque de noche en el bosque no se puede cuidar a nadie.",
-              "Dejar el juego como está y llevarlo a la matriz de la Ficha cuando el horario completo esté listo, con el resto de riesgos.",
+              "Cambiarlo por un juego dentro del campamento y a la vista de todos, porque de noche y en el bosque no se puede cuidar bien a nadie.",
+              "Dejar el juego como está y llevarlo a la matriz de la Ficha cuando el horario completo esté listo, junto con el resto de los riesgos.",
               "Revisar ahí mismo quién acompaña a cada grupo durante el juego, también al scout que se pierda o se lastime, y dejarlo en el plan."
             ],
             "correctIndex": 2
           },
           {
-            "text": "Para que la Tropa esté más segura, un dirigente propone suspender este año las salidas con pernocta. ¿Qué responde mejor a este curso?",
+            "text": "Para que la Tropa esté más segura, un dirigente propone suspender este año las salidas con pernocta. ¿Qué le respondes, según este curso?",
             "options": [
-              "Que la pernocta se planea con la práctica 2+1 y la gestión del riesgo, porque proteger con el Método no es quitar salidas.",
-              "Que tiene razón mientras la Asociación no publique un protocolo nacional de pernocta para las unidades.",
-              "Que en vez de suspenderlas se le pida a cada familia firmar una autorización que libere al Grupo de toda responsabilidad."
+              "Mantener las pernoctas y llevarlas al plan: quién duerme dónde, quién hace el turno de noche y con quién, y sus riesgos en la matriz.",
+              "Mantener las pernoctas, y pedirle a cada familia que firme una autorización que libere al Grupo de responsabilidad por lo que pase de noche.",
+              "Mantener las pernoctas, y que el turno de noche lo haga cada dirigente por su cuenta, por horas, para que todos alcancen a dormir algo."
             ],
             "correctIndex": 0
           },
           {
             "text": "En la evaluación del campamento, alguien concluye: «Aquí no hubo riesgo de protección: conocemos a todos los adultos y nadie tiene malas intenciones». ¿Qué propones?",
             "options": [
-              "Dejarlo así, porque todos los adultos que fueron tienen al día los módulos de A Salvo del Peligro, y eso es lo que pide la Asociación.",
+              "Dejarlo así, porque todos los adultos que fueron tienen al día los módulos de A Salvo del Peligro, y eso es justo lo que pide la Asociación.",
               "Revisar el campamento con las causas de la Política: qué minuto quedó sin segundo adulto, qué se dejó pasar y si todos sabían por dónde reportar.",
-              "Revisar solo la matriz de la Ficha: si el río y la fogata quedaron en riesgo bajo y sus medidas se cumplieron, la protección estuvo cubierta."
+              "Revisar la matriz de la Ficha: si el río y la fogata quedaron en riesgo bajo y se cumplieron sus medidas, la protección de todos estuvo cubierta."
             ],
             "correctIndex": 1
           }
@@ -905,7 +905,7 @@
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y en tu rama, la pregunta que más pesa.</strong> <strong>Familia y Manada:</strong> la del plan — en Familia, custodia de entrada y salida, dos adultos siempre, el baño hasta la puerta y el contacto avisado (§11.7–11.10); en Manada, preparar antes de cada experiencia materiales, espacios, permisos y responsabilidades (§11.1.3). <strong>Tropa:</strong> la de los datos — fichas, autorizaciones y contactos de emergencia (§12.2.1), además de los seis elementos de la gestión del riesgo (§13.2.1). <strong>Comunidad:</strong> la del plan — su Guía pide gestionar el riesgo, con las prácticas de A Salvo del Peligro, al realizar cada oportunidad de aprendizaje. <strong>Clan:</strong> la del plan y la de los datos — la vigilia y el peregrinaje, con la salud y el clima en los dos y las rutas de urgencia en el peregrinaje."
+          "text": "🌿 <strong>Y en tu rama, la pregunta que más pesa.</strong> <strong>Familia y Manada:</strong> la del plan — en Familia, custodia de entrada y salida, dos adultos siempre, el baño hasta la puerta y el contacto avisado; en Manada, preparar antes de cada experiencia materiales, espacios, permisos y responsabilidades. <strong>Tropa:</strong> la de los datos — fichas, autorizaciones y contactos de emergencia, además de los seis elementos de la gestión del riesgo. <strong>Comunidad:</strong> la del plan — su Guía pide gestionar el riesgo, con las prácticas de A Salvo del Peligro, al realizar cada oportunidad de aprendizaje. <strong>Clan:</strong> la del plan y la de los datos — la vigilia y el peregrinaje, con la salud y el clima en los dos y las rutas de urgencia en el peregrinaje."
         },
         {
           "type": "heading",

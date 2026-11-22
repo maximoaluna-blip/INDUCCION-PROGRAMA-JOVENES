@@ -28,7 +28,7 @@
 
 Al completar este curso, el adulto:
 
-1. **Define** el Método Scout como un sistema de autoeducación progresiva basado en la interacción de 8 elementos interdependientes (no una lista de técnicas separadas).
+1. **Explica** por qué el Método Scout funciona como un sistema de autoeducación progresiva basado en la interacción de 8 elementos interdependientes (no una lista de técnicas separadas).
 2. **Identifica y describe** cada uno de los 8 elementos: Promesa y Ley, Aprender Haciendo, Progresión Personal, Sistema de Equipos, Apoyo del Adulto, Marco Simbólico, Naturaleza, Participación en la Comunidad.
 3. **Reconoce** cómo los 8 elementos se manifiestan en una reunión, un campamento o un proyecto reales.
 4. **Distingue** una práctica scout (que combina los 8 elementos) de una práctica que solo usa algunos (campismo sin progresión, club juvenil sin marco simbólico, etc.).
@@ -51,27 +51,27 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 
 | # | Lección | Duración | Idea central | Logro al completar |
 |---|---|---|---|---|
-| 1 | 👋 Bienvenida | 3 min | Vas a aprender el sistema con el que el Movimiento educa. | Empecé el camino |
-| 2 | 🧭 El Método como sistema | 5 min | 8 elementos interdependientes, no una lista. | Veo el sistema |
-| 3 | 📜 Elementos 1–2: Promesa, Ley y Aprender Haciendo | 6 min | La ética y la práctica. | Ética + práctica |
-| 4 | 🌱 Elementos 3–4: Progresión Personal y Sistema de Equipos | 6 min | Crecimiento individual y vida de pequeño grupo. | Crezco con otros |
-| 5 | 💗 Elementos 5–6: Apoyo del Adulto y Marco Simbólico | 6 min | El acompañante y el imaginario. | Apoyo + imaginación |
-| 6 | 🌳 Elementos 7–8: Naturaleza y Participación en la Comunidad | 6 min | El laboratorio y el servicio. | Naturaleza + ciudadanía |
-| 7 | 🎯 Las 4 Dinámicas del Escultismo en acción | 4 min | Cómo se ven los 8 elementos juntos. | Veo el método en vivo |
-| 8 | ✍️ Mi próxima reunión con los 8 elementos | 4 min | Planear una reunión real integrando todo. | Practicante del Método (final) |
+| 1 | 👋 Bienvenida | ~1,5 min | Vas a aprender el sistema con el que el Movimiento educa. | Empecé el camino |
+| 2 | 🧭 El Método como sistema | ~6,5 min | 8 elementos interdependientes, no una lista. | Veo el sistema |
+| 3 | 📜 Elementos 1–2: Promesa, Ley y Aprender Haciendo | ~6 min | La ética y la práctica. | Ética + práctica |
+| 4 | 🌱 Elementos 3–4: Progresión Personal y Sistema de Equipos | ~6,5 min | Crecimiento individual y vida de pequeño grupo. | Crezco con otros |
+| 5 | 💗 Elementos 5–6: Apoyo del Adulto y Marco Simbólico | ~7 min | El acompañante y el imaginario. | Apoyo + imaginación |
+| 6 | 🌳 Elementos 7–8: Naturaleza y Participación en la Comunidad | ~7 min | El laboratorio y el servicio. | Naturaleza + ciudadanía |
+| 7 | 🎯 Las 4 Dinámicas del Escultismo en acción | ~5,5 min | Cómo se ven los 8 elementos juntos. | Veo el método en vivo |
+| 8 | ✍️ Mi próxima reunión con los 8 elementos | ~7 min | Mirar cuatro reuniones y ajustar la próxima. | Practicante del Método (final) |
 
-**Total estimado: ~43 min** (medido tras las auditorías), por encima del rango (justificado por la centralidad del contenido).
+**Total estimado: ~43 min** (medido tras las auditorías), por encima del rango (justificado por la centralidad del contenido). Las duraciones por lección son una estimación por volumen (≈114 palabras/min, el ritmo del informe pedagógico del 08/11/2026) hecha el 22/11/2026 sobre el JSON; incluyen etiquetas y fuentes de las citas plegables, por eso suman más que el total publicado. El total se vuelve a medir tras el build (ADR-047).
 
 ---
 
-### 4.2 Lección 1 — 👋 Bienvenida (3 min, isIntro: true)
+### 4.2 Lección 1 — 👋 Bienvenida (~1,5 min, isIntro: true)
 
 **Idea central:** Vas a aprender el sistema con el que el Movimiento educa.
 
 **Secciones (en orden):**
 
 1. **`info-box`** — Tiempo (~43 min) y promesa: _"Al final vas a poder mirar varias reuniones de una unidad y decir, con precisión, qué elementos del Método están vivos y cuáles llevan semanas faltando."_
-2. **`paragraph`** — Saludo con hook: _"Te damos la bienvenida. Casi todo dirigente nuevo hace lo mismo: se queda con los elementos del Método que le salen fáciles —el juego, la salida, la Promesa— y deja para después los que le cuestan. Parece razonable. No lo es: el Método Scout no es una lista de ocho técnicas para escoger según el día. Es un sistema. Si una pieza falta semana tras semana, lo que queda ya no es el Método. Tómalo con calma."_
+2. **`paragraph`** — Saludo con hook: _"Te damos la bienvenida. Casi todo dirigente nuevo hace lo mismo: se queda con lo que le sale fácil —el juego, la salida, la Promesa— y deja para después lo que le cuesta. Parece razonable. No lo es: el Método Scout no es una lista de ocho técnicas para escoger según el día. Es un sistema. Si una pieza falta semana tras semana, lo que queda ya no es el Método. Tómalo con calma."_
 3. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 4. **`list`** — Las 7 ideas (lecciones 2 a 8):
     - Por qué el Método es un sistema y no una lista.
@@ -86,7 +86,7 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 
 ---
 
-### 4.3 Lección 2 — 🧭 El Método como sistema (5 min)
+### 4.3 Lección 2 — 🧭 El Método como sistema (~6,5 min)
 
 **Idea central:** 8 elementos interdependientes, no una lista.
 
@@ -119,31 +119,38 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 
 **Reflexión:** _"Piensa en el último mes de tu unidad (o de la que acompañas). ¿Qué elemento del Método no apareció ni una vez? Describe una actividad concreta de ese mes donde habría cabido, y cómo."_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas, igual al JSON):**
 
-> **P1.** Un dirigente nuevo te dice: "Este año en mi tropa trabajo a fondo Naturaleza y Aprender Haciendo, y dejo Marco Simbólico para más adelante; cada rama escoge lo suyo". Según lo que viste, ¿qué le respondes?
+> **P1.** Un dirigente te dice: «Cuando la reunión se alarga, siempre recorto el trabajo por patrullas; lo que no puede faltar es la Promesa y la Ley». Según la definición que viste, ¿qué le respondes?
 >
-> a) _Bien pensado: cada rama puede elegir los elementos que mejor le caen a su edad y a su realidad._
-> b) _Cuidado: el Método es un sistema, no un menú — sin un elemento ya no es completo._  ✅
-> c) _Da igual el orden, mientras al final del año hayas alcanzado a tocar los 8 alguna vez._
+> a) _Que hace bien: la Promesa y la Ley son fundamentales para el Método, y lo demás puede esperar a otra reunión._
+> b) _Que sí son fundamentales, pero los ocho pesan igual: si uno falta semana tras semana, el sistema cojea._  ✅
+> c) _Que mejor recorte la Promesa y la Ley, porque los equipos son lo que más distingue al escultismo._
 
-> **P2.** "Igualmente importantes" en la definición del Método significa que…
+> **P2.** En su primera reunión, la patrulla no se pone de acuerdo sobre qué juego hacer y le pide a la dirigente nueva que decida. ¿Qué hace alguien que entendió «autoeducación»?
 >
-> a) _Solo se aplica el elemento que más se ajusta a la rama._
-> b) _Ningún elemento vale más que los otros; el sistema requiere los 8._  ✅
-> c) _Cada rama elige cuál de los 8 trabajar cada año._
+> a) _Proponerles un juego que ella conozca bien y pedirles que lo evalúen al final, para que aprendan._
+> b) _Decirles que se pongan de acuerdo entre ellos y apartarse hasta que hayan elegido un juego._
+> c) _Ayudarles a poner dos o tres criterios para elegir, y que la decisión la tome la patrulla._  ✅
+
+> **P3.** Una jefa de Manada revisa el trimestre: hubo Promesas, juegos en seisenas y una salida al parque, pero ni un solo momento de Marco Simbólico, porque «a los lobatos de ahora eso les da pena». ¿Qué haría alguien que entendió que el Método es un sistema?
+>
+> a) _Programar para el próximo mes dos o tres momentos de Marco Simbólico, porque ese elemento lleva semanas faltando._  ✅
+> b) _Preguntarles a los lobatos si quieren Marco Simbólico y hacer lo que decidan, porque eso es autoeducación._
+> c) _Dejarlo así mientras los otros siete sigan fuertes: si ninguno vale más que otro, este tampoco hace falta._
 
 **Logro:** "Veo el sistema".
 
 ---
 
-### 4.4 Lección 3 — 📜 Elementos 1–2: Promesa, Ley y Aprender Haciendo (6 min)
+### 4.4 Lección 3 — 📜 Elementos 1–2: Promesa, Ley y Aprender Haciendo (~6 min)
 
 **Idea central:** La ética y la práctica.
 
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
+1-bis. **`paragraph`** — Anclaje: _"Piensa en una promesa que hayas hecho porque quisiste y en una regla que cumples porque toca. ¿Cuál de las dos te pesa más cuando nadie te ve? De esa diferencia trata esta pareja."_
 2. **`heading` (nivel 3)** — _"Elemento 1 — Promesa y Ley"_
 3. **`paragraph`** — _"La Promesa es la decisión voluntaria del joven de adherirse al código de vida del Movimiento. La Ley es ese código, formulado en términos positivos y progresivos según la rama. Promesa y Ley son **una pareja**: la Promesa sin Ley es palabra vacía; la Ley sin Promesa es regla externa."_
 4. **`policy-quote`** — Cita textual del artículo 1 de la Ley Scout:
@@ -158,29 +165,35 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
     - `text`: _"El método de instrucción en el Escultismo consiste en crear en el muchacho el deseo de aprender por sí mismo."_
     - `source`: "Baden-Powell, citado en la PNPJ 2024, p. 11."
     - `label`: "📋 La cita de Aprender Haciendo"
-10. **`info-box`** — _"Si el dirigente hace por el joven, el joven no aprende. Esa es la regla. Tu trabajo es preparar el escenario para que él intente, no resolver lo que él puede resolver."_
+10. **`info-box`** — _"Si el dirigente hace por el joven, el joven no aprende. Esa es la regla. Pero dejar hacer no es desaparecer: una pregunta a tiempo («¿qué se les ocurre?») prepara el escenario sin resolverle. Tu trabajo es preparar el escenario para que él intente, no resolver lo que él puede resolver."_
 
-**Reflexión:** _"Recuerda una situación reciente donde, por la prisa o por evitar el error, **hiciste por** un protagonista lo que él hubiera podido hacer solo o con apoyo. Escribe brevemente: ¿qué pasó? ¿Qué hubieras hecho distinto sabiendo lo que sabes ahora?"_
+**Reflexión:** _"Recuerda una situación reciente donde, por la prisa o por evitar el error, **hiciste por** un protagonista —o viste a otro adulto hacerlo, en una unidad que conozcas— lo que él hubiera podido hacer solo o con apoyo. Escribe brevemente: ¿qué pasó? ¿Qué hubieras hecho distinto sabiendo lo que sabes ahora?"_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas, igual al JSON):**
 
-> **P1.** La Promesa y la Ley son una pareja porque…
+> **P1.** En una tropa, la Ley Scout está pegada en la pared y el Jefe la usa para poner sanciones, pero varios scouts llevan un año sin hacer su Promesa ni hablar de ella. Según la pareja Promesa–Ley, ¿qué está pasando?
 >
-> a) _Siempre se dicen una después de la otra en todas las ceremonias de la unidad._
-> b) _La Promesa sin Ley es palabra vacía; la Ley sin Promesa es regla externa._  ✅
-> c) _La Ley se les enseña a los Lobatos y la Promesa a los Scouts._
+> a) _La Promesa se está volviendo palabra vacía, porque a la Ley le falta explicación en la tropa._
+> b) _La Ley está funcionando como una regla externa: se impone desde afuera, sin que nadie la asuma._  ✅
+> c) _La Ley se está aplicando bien; la Promesa puede esperar a que cada scout la pida._
 
-> **P2.** El sábado, un lobato lleva 10 minutos peleando con un nudo que le queda flojo. Según Aprender Haciendo, ¿qué haces?
+> **P2.** Se acerca el campamento de Promesas. Un lobato dice que todavía no quiere prometer, y su seisenero insiste en que «todos la hacen ese día». Según la lección, ¿qué debe primar?
 >
-> a) _Se lo amarras tú bien hecho para que no se frustre y seguir con la actividad._
-> b) _Le muestras una vez completo y le pides que te copie el movimiento._
-> c) _Le das una pista pequeña y lo dejas seguir intentando, aunque tarde._  ✅
+> a) _Que prometa ese día con su seisena: el Sistema de Equipos también educa en el compromiso._
+> b) _Que prometa ya y lo vaya entendiendo después: la Ley se asume poco a poco, con la práctica._
+> c) _Que prometa solo cuando quiera: el joven dice «yo prometo», no «cumplo porque me obligan»._  ✅
+
+> **P3.** En el campamento, la patrulla Halcones cocina sola por primera vez. A media tarde ves que nadie ha prendido el fogón y que la leña está mojada. Según Aprender Haciendo, ¿qué haces?
+>
+> a) _Te acercas al Guía y le preguntas qué se les ocurre con la leña mojada; el fogón sigue siendo de ellos._  ✅
+> b) _Te acercas al Guía y le explicas paso a paso cómo se prende un fogón con leña mojada, para que lo haga él._
+> c) _Te acercas al Guía y le consigues leña seca de otra patrulla, para que puedan seguir con su propio menú._
 
 **Logro:** "Ética + práctica".
 
 ---
 
-### 4.5 Lección 4 — 🌱 Elementos 3–4: Progresión Personal y Sistema de Equipos (6 min)
+### 4.5 Lección 4 — 🌱 Elementos 3–4: Progresión Personal y Sistema de Equipos (~6,5 min)
 
 **Idea central:** Crecimiento individual y vida de pequeño grupo.
 
@@ -189,10 +202,10 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 1. **`info-box`** — Idea central de la lección.
 1-bis. **`paragraph`** — Anclaje: _"Piensa en dos scouts de la misma patrulla que entraron el mismo día. Un año después, uno ya enseña nudos y el otro apenas empieza a animarse a hablar en el consejo. ¿Va atrasado el segundo? No: cada uno va por su propio camino. Eso es la Progresión Personal."_
 2. **`heading` (nivel 3)** — _"Elemento 3 — Progresión Personal"_
-3. **`paragraph`** — _"La PNPJ 2024 lo titula **'Progreso personal'**: es el camino individual de crecimiento del protagonista en las 6 áreas (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad). No es competitiva: cada joven avanza a su ritmo. Se construye con el acompañamiento del **dirigente** (en sus roles de apoyar, acompañar y enlazar), en momentos de conversación y reconocimiento. Se registra en el **Registro de Acompañamiento a la Progresión Personal** (DNPJ-2026-021) y se sostiene con las **Herramientas de Seguimiento 2.0**."_
+3. **`paragraph`** — _"La PNPJ 2024 lo titula **'Progreso personal'**: es el camino individual de crecimiento del protagonista en las 6 áreas (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad). No es competitiva: cada joven avanza a su ritmo. Se construye con el acompañamiento del **dirigente** —en la próxima lección verás cómo—, en momentos de conversación y reconocimiento, y se deja por escrito en los registros de seguimiento que verás en el Curso 13."_
 4. **`paragraph`** — _"El Modelo de Aplicación 2026 marca **tres niveles** por los que pasa cada competencia educativa, en este orden: **Exploro** (la conozco por primera vez), **Aplico** (la pongo en práctica en situaciones reales), **Profundizo** (ya es parte de mí y la pongo al servicio). No es un examen ni una carrera: en una misma actividad, unos exploran, otros aplican y otros profundizan (p. 25), porque cada joven va a su ritmo."_
 5. **`heading` (nivel 3)** — _"Elemento 4 — Sistema de Equipos"_
-6. **`paragraph`** — _"En Tropa, Comunidad y Clan, los jóvenes viven el Movimiento sobre todo en **pequeños grupos** donde se sienten conocidos, toman decisiones y aprenden a liderar entre pares. **En Familia y Manada pesa más la unidad completa**: las camadas y las seisenas se arman para ciertas actividades y les ayudan a aprender a escuchar y a turnarse. Cada rama tiene su grupo natural: Camadas (Familia), Seisenas (Manada), Patrullas (Tropa), equipos de Comunidad y de Clan."_
+6. **`paragraph`** — _"En Tropa, Comunidad y Clan, los jóvenes viven el Movimiento sobre todo en **pequeños grupos** donde se sienten conocidos, toman decisiones y aprenden a liderar entre pares. **En Familia y Manada pesa más la unidad completa**: las camadas y las seisenas se arman para ciertas actividades (en Familia, para facilitar el juego; en la Manada, además, para aprender a escuchar a los demás y a turnarse las funciones). Cada rama tiene su grupo natural: Camadas (Familia), Seisenas (Manada), Patrullas (Tropa), equipos de Comunidad y de Clan."_
 7. **`method-grid`** — Las 5 ramas y sus grupos naturales (recordatorio del Curso 1):
     - 🐻 Familia → **Camadas**.
     - 🐺 Manada → **Seisenas**.
@@ -200,29 +213,35 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
     - 🧗 Comunidad → equipos.
     - 🏔️ Clan → equipos rover.
 8. **`paragraph`** — _"En la Tropa, el Sistema de Patrullas es **lo que más claramente distingue al escultismo**: B-P lo llamó 'la característica esencial que diferencia a la educación scout de la que ofrecen todas las demás organizaciones similares' (Orientaciones para la tarea del dirigente scout, 1919, citado en la Guía para dirigentes de la Rama Scout, Oficina Scout Mundial – Región Interamericana, 2ª ed. 2005, p. 59). Una patrulla bien constituida lidera sus propias actividades, planea su comida, organiza su rincón, resuelve sus conflictos. El Jefe de Tropa no manda a las patrullas; trabaja con los Guías de Patrulla."_
-9. **`info-box`** — _"Cuando una unidad opera solo como gran grupo y nunca como pequeños grupos, está rompiendo el Sistema de Equipos. La unidad existe; el Método, no."_
+9. **`info-box`** — _"Cuando una Tropa, una Comunidad o un Clan funcionan solo como gran grupo y nunca como pequeños grupos, están rompiendo el Sistema de Equipos. La unidad existe; el Método, no."_
 
-**Reflexión:** _"Recuerda la última actividad de tu unidad en la que el pequeño grupo (camada, seisena, patrulla, equipo) tomó una decisión sin el adulto. ¿Qué decidió? Si no recuerdas ninguna, describe la última vez que un adulto decidió algo que el grupo podía haber decidido."_
+**Reflexión:** _"Recuerda la última actividad en la que el pequeño grupo (seisena, patrulla, equipo; en Familia, la camada de ese juego) decidió algo por su cuenta, con el adulto cerca pero sin decidir por ellos. ¿Qué decidió? Si no recuerdas ninguna, describe la última vez que un adulto decidió algo que el grupo podía haber decidido."_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas, igual al JSON):**
 
-> **P1.** La Progresión Personal en el Método Scout…
+> **P1.** Un scout que aprendió amarres el año pasado ahora, por iniciativa propia, se los enseña a los nuevos de su patrulla en cada salida. ¿En qué nivel de esa competencia educativa lo ubica el Modelo 2026?
 >
-> a) _Es una competencia interna donde se reconoce públicamente al que más avanza._
-> b) _Es el camino individual de cada protagonista, a su ritmo, en las 6 áreas._  ✅
-> c) _Es la suma de las insignias que un joven va obteniendo en su rama._
+> a) _En Aplico, porque está usando la competencia en situaciones reales con su patrulla._
+> b) _En Profundizo, porque la competencia ya es suya y ahora la pone al servicio de otros._  ✅
+> c) _En Exploro, porque enseñar es algo que hace por primera vez, aunque sepa amarres._
 
-> **P2.** Una manada hace toda la reunión junta, en círculo grande, dirigida por la vieja loba; las seisenas no operan solas en ningún momento. ¿Qué elemento del Método está roto?
+> **P2.** El Guía de los Zorros te cuenta que la patrulla decidió repartirse el material de un modo que a ti te parece más lento que el tuyo. Ya lo probaron en dos salidas y no se les ha quedado nada. ¿Qué haces, según el Sistema de Equipos?
 >
-> a) _Ninguno: trabajar todos juntos en gran grupo es lo normal y lo esperado en la Manada._
-> b) _El Sistema de Equipos: la seisena no está decidiendo nada por sí misma._  ✅
-> c) _La Progresión Personal, porque en esa reunión no se entregaron insignias._
+> a) _Le muestras al Guía tu forma de repartir, para que la compare con la suya y elija la mejor._
+> b) _Respetas el reparto que decidieron: a ellos les funciona y esa decisión le toca a la patrulla._  ✅
+> c) _Le propones al Guía probar tu forma en la próxima salida y, si no les sirve, volver a la suya._
+
+> **P3.** En la misma salida, Ana se orienta con brújula por primera vez y Luis ya la usa solo en cada campamento. ¿Qué cabe esperar?
+>
+> a) _Que Ana esté en Exploro y Luis en Aplico, aunque compartan la misma salida._  ✅
+> b) _Que Ana quede en Aplico, porque ya usó la brújula en una situación real de campo._
+> c) _Que Luis pase a Profundizo, porque ya domina la brújula y la vuelve a usar._
 
 **Logro:** "Crezco con otros".
 
 ---
 
-### 4.6 Lección 5 — 💗 Elementos 5–6: Apoyo del Adulto y Marco Simbólico (6 min)
+### 4.6 Lección 5 — 💗 Elementos 5–6: Apoyo del Adulto y Marco Simbólico (~7 min)
 
 **Idea central:** El acompañante y el imaginario.
 
@@ -230,14 +249,14 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 
 1. **`info-box`** — Idea central de la lección.
 2. **`heading` (nivel 3)** — _"Elemento 5 — Apoyo del Adulto"_
-3. **`paragraph`** — _"En el Curso 4 viste la frase eje del Movimiento (Características Esenciales, OMMS 2019, p. 28): de jóvenes, para jóvenes, **apoyado por adultos**. Aquí ese 'apoyo' se vuelve elemento metodológico. Las Características Esenciales (p. 19) nombran **4 tipos de apoyo del adulto**: educativo, emocional, informativo y evaluativo (la PNPJ a este último lo llama «valorativo»: es el mismo)."_
+3. **`paragraph`** — _"En el Curso 4 viste la frase eje del Movimiento (Características Esenciales, OMMS 2019, p. 28): de jóvenes, para jóvenes, **apoyado por adultos**. Aquí ese 'apoyo' se vuelve elemento del Método."_ (Los 4 tipos de apoyo de las Características Esenciales, p. 19, quedan en el Curso 4: decisión del 22/11/2026 por carga cognitiva.)
 4. **`paragraph`** — _"El Modelo de Aplicación 2026 lo resume en tres palabras: **Apoyar** (preparar), **Acompañar** (sostener), **Enlazar** (proyectar). Apoyar es dejar la escena lista para que el joven se atreva. Acompañar es estar cerca mientras practica, sin resolverle. Enlazar es abrirle puertas **fuera del grupo** —gente que sabe, organizaciones del barrio, proyectos más grandes— cuando ya está listo para profundizar. El Modelo empareja cada uno con los tres niveles que viste en la Lección 4: Apoyar va con Exploro, Acompañar con Aplico y Enlazar con Profundizo (§9.2)."_
 5. **`policy-quote`** — Cita de B-P sobre el rol:
     - `text`: _"Hacer las veces de hermano mayor, esto es, considerar las cosas desde el punto de vista de los jóvenes, guiarlos por el buen sendero, transmitirles entusiasmo."_
     - `source`: "B-P, Orientaciones para la tarea del dirigente scout (1919), citado en la Guía para dirigentes de la Rama Scout, Oficina Scout Mundial – Región Interamericana, 2ª ed. 2005, p. 166."
     - `label`: "📋 El rol del adulto según B-P"
 6. **`heading` (nivel 3)** — _"Elemento 6 — Marco Simbólico"_
-7. **`paragraph`** — _"Es el universo narrativo, los imaginarios y los símbolos propios de cada rama. No es decoración: es el lenguaje con el que la rama vive sus valores. Un lobato no aprende cooperación leyendo un manual; la aprende viviendo el Libro de las Tierras Vírgenes con sus seisenas. Un cachorro aprende fraternidad jugando a ser Hermano de Mowgli."_
+7. **`paragraph`** — _"Es el universo narrativo, los imaginarios y los símbolos propios de cada rama. No es decoración: es el lenguaje con el que la rama vive sus valores. Un lobato no aprende cooperación leyendo un manual; la aprende viviendo, dentro de La Fantasía, las historias del Libro de las Tierras Vírgenes con sus seisenas. Un cachorro aprende fraternidad jugando a ser Hermano de Mowgli."_
 8. **`paragraph`** — Las tres palabras que se confunden: _"**Tres palabras que se confunden todo el tiempo.** El **marco simbólico** es el mundo que la rama habita. El **fondo motivador** es el relato del que saca sus historias. El **ambiente de referencia** es el tono de esas historias."_
 9. **`method-grid`** — Marcos simbólicos por rama (*Modelo* §8.2.2, pp. 56–57):
     - 🐻 **Familia (Cachorros)** → **La Fantasía.** Se nutre del *Libro de las Tierras Vírgenes*, sobre todo de *Los Hermanos de Mowgli*, y su tono son los relatos infantiles.
@@ -246,36 +265,43 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
     - 🧗 **Comunidad (Nómadas Scout)** → **La aventura hacia la ciudadanía**, nutrida por las historias de la humanidad.
     - 🏔️ **Clan (Rovers)** → **La Ciudadanía Activa**, que se vive sirviendo.
 10. **`paragraph`** — _"Familia y Manada comparten el Libro de las Tierras Vírgenes; en Familia se vive sobre todo a través de los Hermanos de Mowgli y los Nombres de Caza."_
-11. **`info-box`** — Discrepancia entre dos fuentes vigentes: _"📝 **Dos documentos vigentes, dos formas de decirlo.** Las Guías de Familia y de Manada dan a las dos ramas el mismo marco, **La Fantasía**. El *Modelo* las distingue: llama a la de Familia **Territorio de la Fantasía** y a la de Manada **Territorio de la Fantasía Expandida**, y nombra los cinco marcos por territorio (§8.2.2, pp. 56–57) — incluido el de la Tropa, que es la única rama sin Guía propia. No lo arreglamos por cuenta propia: lo decimos, como hacemos en otros cursos de la línea cuando dos documentos vigentes no coinciden."_
+11. **`info-box`** — Discrepancia entre dos fuentes vigentes: _"📝 **Dos documentos vigentes, dos formas de decirlo.** Las Guías de Familia y de Manada dan a las dos ramas el mismo marco, **La Fantasía**; el *Modelo* las distingue como **Territorio de la Fantasía** y **Territorio de la Fantasía Expandida** (§8.2.2, pp. 56–57). Te contamos la diferencia en vez de arreglarla por nuestra cuenta."_
 12. **`info-box`** — _"Un dirigente que ignora o ridiculiza el Marco Simbólico ('eso es de niños'), está cortando el cable principal por el que la rama transmite sus valores. El símbolo es el método. Tómalo en serio aunque te dé pena."_
 
 **Reflexión:** _"Describe el último momento de una reunión en que se usó el lenguaje o un símbolo propio de la rama (un nombre, una ceremonia, una historia). ¿Cómo reaccionaron los protagonistas? ¿Qué momento de la reunión habría ganado con un toque del marco simbólico?"_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas, igual al JSON):**
 
-> **P1.** En tu reunión, una patrulla tiene que organizar su rincón. ¿Cuál de estas acciones encaja con el rol de Apoyar (preparar las condiciones para que el joven actúe), y no con dirigir?
+> **P1.** Una lobata nunca ha preparado un refrigerio y el sábado le toca a su seisena. ¿Qué haces antes de la reunión?
 >
-> a) _Les organizas tú el rincón antes de la reunión, para que quede bien y no perder tiempo._
-> b) _Les dejas listos los materiales y el espacio, y los dejas decidir cómo lo arman._  ✅
-> c) _Les dices paso a paso dónde va cada cosa y en qué orden, mientras ellos miran._
+> a) _Contarle a la seisena cómo preparabas tú los refrigerios y dejar que el sábado lo intenten a su modo._
+> b) _Revisar con la seisena la receta y el reparto de tareas, y el sábado quedarte cerca mientras cocinan._  ✅
+> c) _Armar tú la receta y el reparto de tareas, y el sábado decirle a cada lobato lo que le toca hacer._
 
-> **P2.** En la Manada, ¿qué papel cumple el Libro de las Tierras Vírgenes?
+> **P2.** Una rover del Clan ya domina los primeros auxilios y quiere ir más lejos. ¿Cuál de estas acciones es Enlazar, según el Modelo?
 >
-> a) _Es el marco simbólico de la rama: el mundo entero que la Manada habita._
-> b) _Es el fondo motivador: el relato del que la Manada saca sus historias._  ✅
-> c) _Es decoración para las ceremonias y para el rincón de la seisena._
+> a) _Proponerle ser la responsable de primeros auxilios del Clan y que les enseñe a los demás._
+> b) _Proponerle practicar en cada reunión del Clan mientras tú le das retroalimentación._
+> c) _Proponerle formarse con una brigada de salud del barrio y servir allí junto con ellos._  ✅
+
+> **P3.** Un dirigente de Manada sigue usando el Libro de las Tierras Vírgenes, pero cuenta las historias de Mowgli como cuentos infantiles para dormir, con voz suave y finales tiernos, y los lobatos se aburren. Según las tres palabras que se confunden, ¿qué tocó?
+>
+> a) _El fondo motivador: al contarlas de otra forma, cambió el relato del que salen las historias._
+> b) _El marco simbólico: los lobatos ya no sienten que viven en el mundo de La Fantasía._
+> c) _El ambiente de referencia: el relato sigue siendo el mismo; lo que cambió es el tono._  ✅
 
 **Logro:** "Apoyo + imaginación".
 
 ---
 
-### 4.7 Lección 6 — 🌳 Elementos 7–8: Naturaleza y Participación en la Comunidad (6 min)
+### 4.7 Lección 6 — 🌳 Elementos 7–8: Naturaleza y Participación en la Comunidad (~7 min)
 
 **Idea central:** El laboratorio y el servicio.
 
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
+1-bis. **`paragraph`** — Anclaje: _"Piensa en la primera vez que dormiste lejos de casa: un campamento, si fuiste scout, o un paseo, una finca, una salida del colegio. Lo que aprendiste ahí —a cuidar lo poco que llevabas, a depender de los otros— no te lo enseñó nadie en un salón."_
 2. **`heading` (nivel 3)** — _"Elemento 7 — Naturaleza"_
 3. **`paragraph`** — _"La Naturaleza es el entorno educativo privilegiado del Movimiento. No es decoración del fin de semana ni un lujo de los grupos urbanos. Es el espacio donde los otros 7 elementos cobran intensidad: en la naturaleza, la patrulla se vuelve indispensable; la Promesa toma cuerpo; el Aprender Haciendo se vuelve necesidad; el Marco Simbólico encuentra su escenario natural."_
 4. **`policy-quote`** — La cita célebre de B-P:
@@ -284,7 +310,7 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
     - `label`: "📋 La frase de B-P sobre la naturaleza"
 5. **`paragraph`** — _"La PNPJ 2024 reconoce la Naturaleza como un elemento propio del Método, y es clara: usar la naturaleza 'implica más que actividades realizadas al aire libre… implica el desarrollo de un contacto constructivo con la Naturaleza' (p. 19-20). Y si tu grupo es de ciudad, la PNPJ te da una salida: el elemento también se vive al aire libre en lo que tengas cerca —su ejemplo es hacer pionerismo en una cancha de baloncesto—, siempre que ahí haya algo que aprender (p. 20). Vale la pena preguntarse, honestamente, cuánto de eso está pasando en tu unidad."_
 6. **`heading` (nivel 3)** — _"Elemento 8 — Participación en la Comunidad"_
-7. **`paragraph`** — _"El Movimiento no educa para encerrarse en la unidad. Educa para servir y participar. La Participación en la Comunidad incluye proyectos de servicio en el barrio, articulación con organizaciones locales, ejercicio de ciudadanía en espacios públicos. La PNPJ 2024 lo titula **'Participación comunitaria'**: ayudar a construir un mundo mejor desde la ciudadanía activa, en el **territorio** donde vive: su barrio, su colegio, su comunidad. El Modelo de Aplicación 2026 lo describe como un lugar con cuatro caras: la física (dónde pasa), la simbólica (el marco de la rama que le da sentido: para una Comunidad, su aventura hacia la ciudadanía), la de las relaciones (con quién: vecinos, familias, otras organizaciones) y la transformadora (qué cambia ahí gracias a ellos) — §8.2, p. 54."_
+7. **`paragraph`** — _"El Movimiento no educa para encerrarse en la unidad. Educa para servir y participar. La Participación en la Comunidad incluye proyectos de servicio en el barrio, articulación con organizaciones locales, ejercicio de ciudadanía en espacios públicos. La PNPJ 2024 lo titula **'Participación comunitaria'**: ayudar a construir un mundo mejor desde la ciudadanía activa, en el **territorio** donde vive: su barrio, su colegio, su comunidad. El Modelo de Aplicación 2026 lo describe como un lugar con cuatro caras: la física (dónde pasa), la simbólica (el marco de la rama que le da sentido: para una Comunidad, su aventura hacia la ciudadanía), la de las relaciones (con quién: vecinos, familias, otras organizaciones) y la transformadora (qué cambia ahí gracias a ellos) — §8.2, p. 54. Servir CON no es solo poner las manos: es un esfuerzo colectivo, que se decide y se planea junto con la gente del lugar (PNPJ 2024, p. 22)."_
 8. **`policy-quote`** — Cita:
     - `text`: _"El servicio no debe verse simplemente como hacer cosas para los demás sino que, a través de la participación, definitivamente implicará hacer cosas con los demás."_
     - `source`: "PNPJ 2024, pp. 22–23."
@@ -293,25 +319,31 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 
 **Reflexión:** _"En el último año, tu unidad ¿cuánto tiempo pasó en naturaleza real (campo, monte, río, bosque)? ¿Y cuántos proyectos hicieron CON la comunidad, no solo PARA la comunidad? Sé honesto."_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas, igual al JSON):**
 
-> **P1.** Según B-P, el bosque es para los Scouts…
+> **P1.** Una tropa acampa en una finca con río y monte, pero pasa casi todo el fin de semana jugando fútbol en la cancha y viendo películas en el salón. ¿Cumple el elemento Naturaleza?
 >
-> a) _Un lugar de entretenimiento de fin de semana._
-> b) _Un laboratorio, un club y un templo a la vez._  ✅
-> c) _Un escenario opcional según la región del grupo._
+> a) _Sí: basta con llevar a la tropa a un entorno natural, lejos de la ciudad y del salón del grupo._
+> b) _No: cada actividad del campamento tiene que hacerse dentro del monte, nunca en la cancha._
+> c) _No basta: pide más que estar al aire libre, un contacto constructivo con la naturaleza._  ✅
 
-> **P2.** La Participación en la Comunidad, según The Scout Method OMMS 2019, no consiste solo en…
+> **P2.** El Clan quiere pintar el salón comunal con pintura que donó una ferretería. La Junta de Acción Comunal les dice que el salón está bien y que lo que les preocupa es el parque, que se volvió un basurero. ¿Qué lo acerca más a la Participación en la Comunidad?
 >
-> a) _Hacer cosas PARA los demás; consiste en hacer cosas CON los demás (implicación)._  ✅
-> b) _Realizar campañas anuales de recolección y donaciones para las causas sociales del municipio._
-> c) _Asistir a los eventos comunitarios cuando llega una invitación al grupo._
+> a) _Sentarse con la Junta a mirar qué necesita el parque y planear con ella, paso a paso, una jornada allí._  ✅
+> b) _Proponerle a la Junta la jornada en el parque que el Clan ya diseñó, y pedirle que convoque a los vecinos._
+> c) _Pintar el salón como estaba previsto e invitar a la Junta y a los vecinos a pintar junto con el Clan._
+
+> **P3.** Antes de su proyecto en la vieja cancha, la Comunidad lo bautiza como una etapa de su «aventura hacia la ciudadanía» y lo cuenta con las historias de la humanidad que vienen trabajando. ¿Qué cara del territorio están trabajando?
+>
+> a) _La física, porque el proyecto pasa en la cancha que la Comunidad ya conoce._
+> b) _La simbólica, porque le dan al proyecto el sentido que trae el marco de su rama._  ✅
+> c) _La transformadora, porque con el proyecto buscan cambiar algo en la vieja cancha._
 
 **Logro:** "Naturaleza + ciudadanía".
 
 ---
 
-### 4.8 Lección 7 — 🎯 Las 4 Dinámicas del Escultismo en acción (4 min)
+### 4.8 Lección 7 — 🎯 Las 4 Dinámicas del Escultismo en acción (~5,5 min)
 
 **Idea central:** Cómo se ven los 8 elementos juntos.
 
@@ -333,45 +365,51 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 
 **Reflexión:** _"Elige la Dinámica más floja de tu unidad y escribe la escena de la última reunión que te hace pensar eso. ¿Qué harías distinto en la siguiente?"_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas, igual al JSON):**
 
-> **P1.** Cuando miras tu unidad completa, ¿qué cuatro cosas tienen que estar funcionando a la vez?
+> **P1.** En una manada todos se quieren: hay juegos, acogida y alegría, pero ningún dirigente sabe decir qué debería estar aprendiendo un lobato este año. ¿Qué Dinámica está floja?
 >
-> a) _Promesa, Ley, Sistema de Equipos y Naturaleza, que son cuatro de los ocho elementos del Método Scout y los más antiguos del Movimiento._
-> b) _Las competencias educativas, las oportunidades de aprendizaje, la vida en grupo, y la estructura y el funcionamiento de la unidad._  ✅
-> c) _Apoyar, Acompañar, Enlazar y Evaluar, que describen las tareas del dirigente cuando acompaña el crecimiento de su unidad._
+> a) _Las Oportunidades de Aprendizaje: faltan actividades pensadas con un propósito._
+> b) _Las Competencias Educativas: falta el norte hacia el que crece cada protagonista._  ✅
+> c) _La Estructura y Funcionamiento: falta un consejo que planee el año y luego lo evalúe._
 
-> **P2.** Diseñaste una actividad muy divertida y segura, pero los chicos no aprenden nada nuevo con ella ni los reta. Pasada por el filtro DURASLID, ¿qué falla?
+> **P2.** Una dirigente de Tropa quiere saber qué debería lograr en Sociabilidad un scout de 12 años. ¿Qué competencias busca, y dónde?
 >
-> a) _Nada: si la actividad resulta lúdica y segura, con eso ya cumple con todo lo que se le pide._
-> b) _Le faltan atributos como Desafiante y Útil; DURASLID pide los 8, no solo diversión._  ✅
-> c) _Falla solo si no es Inclusiva; los demás atributos de DURASLID son opcionales._
+> a) _Las terminales, que trae la Guía de Dirigente de Tropa para cada edad de la rama._
+> b) _Las del registro de seguimiento, que anota lo que cada scout ya logró en el área._
+> c) _Las intermedias, que trae la Guía de Dirigente de Tropa partidas por rama y por edad._  ✅
+
+> **P3.** Las Panteras proponen otra vez su carrera de observación por el barrio: les encanta, es segura y juegan todos, también los nuevos; ya la hicieron dos veces este trimestre exactamente igual. Pasada por DURASLID, ¿qué conviene ajustar?
+>
+> a) _Cambiarle el reto, porque a la patrulla ya no le exige nada nuevo._  ✅
+> b) _Mantenerla: tiene seguridad, juego y gusto, que es lo que más pesa._
+> c) _Cambiarle el premio, para que vuelva a ser recompensante para todos._
 
 **Logro:** "Veo el método en vivo".
 
 ---
 
-### 4.9 Lección 8 — ✍️ Mi próxima reunión con los 8 elementos (4 min)
+### 4.9 Lección 8 — ✍️ Mi próxima reunión con los 8 elementos (~7 min)
 
-**Idea central:** Planear una reunión real integrando todo.
+**Idea central:** Mirar cuatro reuniones y ajustar la próxima.
 
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Apertura: _"Vas a hacer el ejercicio más importante del Nivel 1. Piensa en tus últimas cuatro reuniones juntas. La PNPJ lo explica con una imagen muy parecida: una instantánea de un día no captura los 8 elementos; un diario en video de varias semanas, sí (p. 8). Vamos a ver qué tan bien integran los 8 elementos."_
+2. **`paragraph`** — Apertura: _"Vas a hacer el ejercicio más importante del Nivel 1. Piensa en tus últimas cuatro reuniones juntas (si aún no tienes cargo o unidad, piensa en las de la unidad que apoyas hoy o en las de una que conozcas). La PNPJ lo explica con una imagen muy parecida: una instantánea de un día no captura los 8 elementos; un diario en video de varias semanas, sí (p. 8). Vamos a ver qué tan bien integran los 8 elementos."_
 3. **`heading` (nivel 3)** — _"Checklist de los 8 elementos en tus últimas cuatro reuniones"_
-4. **`list`** — 8 preguntas, una por elemento:
-    - **Promesa y Ley** — ¿Hay un momento en las cuatro reuniones donde se mencione, se viva o se reconozca la Promesa o algún punto de la Ley?
+4. **`list`** — 8 preguntas, una por elemento (en pasado: diagnóstico hacia atrás, ajuste hacia adelante):
+    - **Promesa y Ley** — ¿Hubo en las cuatro reuniones un momento donde se mencionara, se viviera o se reconociera la Promesa o algún punto de la Ley?
     - **Aprender Haciendo** — ¿Los protagonistas **hicieron** algo, o solo **escucharon y miraron**?
-    - **Progresión Personal** — ¿Las cuatro reuniones contemplan observar o registrar avances de algún protagonista en alguna área?
-    - **Sistema de Equipos** — ¿Hay momentos de pequeño grupo (camada o seisena para una actividad; patrulla o equipo con vida propia), no como gran grupo?
-    - **Apoyo del Adulto** — ¿El adulto está en rol de Apoyar/Acompañar/Enlazar — o en rol de dirigir y entretener?
-    - **Marco Simbólico** — ¿El lenguaje, los símbolos, las ceremonias propias de la rama están presentes?
-    - **Naturaleza** — ¿Alguna de las cuatro reuniones busca un contacto con la naturaleza —observar, cuidar, explorar—, aunque sea en un parque o en una plaza con árboles?
-    - **Participación en la Comunidad** — ¿Hay algún hilo que vincule las cuatro reuniones con el territorio (familia, barrio, escuela, comunidad)?
+    - **Progresión Personal** — ¿En las cuatro reuniones se observó o se registró el avance de algún protagonista en alguna área?
+    - **Sistema de Equipos** — ¿Hubo momentos de pequeño grupo (camada o seisena para una actividad; patrulla o equipo con vida propia), y no solo de gran grupo?
+    - **Apoyo del Adulto** — ¿El adulto estuvo en rol de Apoyar/Acompañar/Enlazar — o en rol de dirigir y entretener?
+    - **Marco Simbólico** — ¿Estuvieron presentes el lenguaje, los símbolos y las ceremonias propias de la rama?
+    - **Naturaleza** — ¿Alguna de las cuatro reuniones tuvo contacto con la naturaleza —observar, cuidar, explorar—, aunque fuera en un parque o en una plaza con árboles?
+    - **Participación en la Comunidad** — ¿Hubo algún hilo que vinculara las cuatro reuniones con el territorio (familia, barrio, escuela, comunidad)?
 5. **`paragraph`** — _"Si respondiste "no" o "no sé" a más de 3 de las 8, a tus reuniones les están faltando piezas del sistema: empieza por una. Si fueron entre 1 y 3, escoge uno de esos elementos. Si respondiste "sí" a las 8, vas en camino del Método: escoge el que veas más flojo y cuídalo. En cualquier caso, el ajuste empieza en **tu próxima reunión**, y lo vuelves a mirar dentro de cuatro."_
 6. **`heading` (nivel 3)** — _"Mi ajuste para la próxima reunión"_
-7. **`paragraph`** — Plantilla: _"En mi próxima reunión voy a fortalecer el elemento __________, agregando __________. La señal de que se cumplió será __________."_
+7. **`paragraph`** — Plantilla (en el recuadro «Compromiso Personal»): _"En mi próxima reunión voy a fortalecer el elemento __________, agregando __________. La señal de que se cumplió será __________."_
 8. **`mission-box`** — _"El Método se aprende aplicándolo. Cada reunión es un ensayo. Si una semana no funciona, ajustas la siguiente. Si una se queda corta en un elemento, lo trabajas en la otra. El sistema es flexible; lo no negociable es seguir integrando los 8."_
 9. **`heading` (nivel 3)** — _"Lo que viene"_
 10. **`list`** — Mapa:
@@ -379,23 +417,29 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
     - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes: tu compromiso escrito como dirigente.
 11. **`info-box`** — Despedida: _"Ahora ya lo sabes: no es una lista de ocho técnicas para escoger según el día; es un sistema. Bienvenido al equipo de los que aplican el Método con conciencia."_
 
-**Reflexión:** _"¿Cuántas de las 8 preguntas respondiste con «sí», y qué elemento escogiste fortalecer? Solo el número y el elemento. El ajuste completo escríbelo en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."_
+**Reflexión:** _"¿Cuántas de las 8 preguntas respondiste con «sí», y qué elemento escogiste fortalecer? Como el Método es un sistema, di también qué otro elemento crees que se va a mover cuando fortalezcas ese, y por qué. El ajuste completo escríbelo en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."_
 
 **Compromiso Personal** (`commitmentBox`, se queda en el navegador; corrección de privacidad del 02-oct-2026, ADR-117): _"Escribe tu ajuste para la próxima reunión: el elemento que vas a fortalecer, qué vas a agregar y cuál será la señal de que se cumplió."_ — placeholder _"En mi próxima reunión voy a fortalecer el elemento …, agregando … La señal será …"_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas, igual al JSON):**
 
-> **P1.** Si en un trimestre tu unidad solo trabajó 3 de los 8 elementos del Método, lo más correcto es…
+> **P1.** Un dirigente revisa la reunión del sábado y encuentra activos solo 5 de los 8 elementos. Concluye que su unidad «no aplica el Método». Según la lección, ¿qué le respondes?
 >
-> a) _Está perfecto; cada rama elige los elementos que más le sirven._
-> b) _Hay que ajustar la planeación para volver a integrar el sistema completo._  ✅
-> c) _Cambiar de método y aplicar uno escolar._
+> a) _Que tiene razón: si en esa reunión falta un elemento, el sistema ya no está completo._
+> b) _Que una reunión es solo una instantánea: los 8 se miran a lo largo de varias semanas._  ✅
+> c) _Que revise solo los elementos de su rama: no todos los 8 aplican a cada edad._
 
-> **P2.** El Método se aprende…
+> **P2.** Al pasar el checklist por sus últimas cuatro reuniones, una dirigente responde «sí» en 4 elementos y «no sé» en los otros 4. Concluye que va bien porque no marcó ningún «no». ¿Qué dice la lección?
 >
-> a) _Estudiando manuales hasta saberlo de memoria antes de aplicarlo._
-> b) _Aplicándolo, ajustando reunión a reunión, sin perder el sistema completo._  ✅
-> c) _Esperando a tener experiencia para empezar a usarlo._
+> a) _Que con la mitad de los elementos en «sí» ya va en camino del Método, y sigue cuidándolo._
+> b) _Que «no sé» cuenta igual que «no»: con más de 3 así, sus reuniones necesitan ajustes._  ✅
+> c) _Que «no sé» no cuenta en contra: solo los «no» piden ajustar las reuniones._
+
+> **P3.** Tu compromiso fue fortalecer Naturaleza. Dos sábados después, la salida al parque se cayó por lluvia y nadie la reprogramó. ¿Qué propone la lección?
+>
+> a) _Cambiar de compromiso y fortalecer otro elemento, porque Naturaleza no te está funcionando._
+> b) _Dejar la salida para cuando mejore el clima y, mientras tanto, hablar de naturaleza en el salón._
+> c) _Reprogramar la salida para la reunión que sigue y fijar la señal que te dirá si funcionó._  ✅
 
 **Logro al completar:** "Practicante del Método" (logro final, `unlockOnModule: -1`).
 
@@ -475,12 +519,12 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 | Criterio | Cumplimiento |
 |---|---|
 | Curso entre 20 y 40 min | ⚠️ ~43 min (por encima del rango, justificado por centralidad) |
-| Lecciones de 3–8 min | ✅ rango 3–6 min |
+| Lecciones de 3–8 min | ✅ rango ~5,5–7 min (más la intro) |
 | Lenguaje conversacional, tutea | ✅ |
 | Citas oficiales plegables | ✅ 6 citas (OMMS 2019, PNPJ 2024, Guía para dirigentes de la Rama Scout y B-P) |
-| Patrón 6.2 — Anti-definición + reformulación accesible (fórmula literal "Si abres…") | ✅ aplicado explícitamente en L2 antes y después de la cita oficial de OMMS, por la densidad doctrinal de la definición. |
+| Patrón 6.2 — Anti-definición + reformulación accesible (fórmula literal "Si abres…") | ✅ aplicado explícitamente en L2 antes y después de la cita oficial de OMMS, por la densidad doctrinal de la definición; anclajes en la experiencia del adulto en L3, L4, L6 y L7. |
 | Reflexión personal por lección | ✅ excepto intro |
-| Mini-quiz por lección | ✅ 2 por lección |
+| Mini-quiz por lección | ✅ 3 por lección (21 preguntas, todas de escenario) |
 | 4–6 logros + 1 final | ⚠️ 7 + 1 final (excepción documentada por número de lecciones; se mantiene < 10) |
 | L1 `isIntro: true` sin quiz | ✅ |
 | Conexión cross-course | ✅ con Cursos 1, 2, 4, 6, 7, 8–12, 14, 25 y DI 8 |
@@ -499,4 +543,4 @@ Este hook se enuncia en la lección 2 y se repite cada vez que se introduce un n
 
 ---
 
-_Documento de diseño del Curso 5, versión inicial — 28 de mayo de 2026. **Revisión doctrinal del 15 de septiembre de 2026** (`contentVersion` 2026-09-15): se aplicaron las correcciones de la re-auditoría doctrinal — nomenclatura vigente «Competencias Educativas» (Modelo 2026 §3.2, p. 16), citas textuales reancladas a fuente localizable y reencuadre del checklist de la L8 de «una reunión» a «un período» (PNPJ 2024, p. 8). **Segunda vuelta el mismo día** (re-auditoría): «Enlazar» reapuntado hacia fuera del ámbito scout y emparejado con Exploro/Aplico/Profundizo (Modelo 2026 §9.2.1–9.2.3); «competencia» a secas sustituida por «competencia educativa» (GLOSARIO §E-bis / ADR-034); el `label` de la L3 corregido a «la Ley»; marco simbólico de Comunidad según la Guía de Dirigente de Comunidad (PDF 19–21); unidad de tiempo del bloque de la L8 unificada en «cuatro reuniones» (PNPJ 2024, p. 8); y distractores del diseño realineados con el JSON, que es el que compila. Fuente angular: "The Scout Method", OMMS Oficina Scout Mundial 2019 (Resolución 41.ª Conferencia Scout Mundial 2017-04). Validado contra el marco metodológico de la plataforma y la PNPJ 2024 / Modelo de Aplicación 2026. **Tercera revisión doctrinal, 16 de septiembre de 2026** (`contentVersion` 2026-09-16): barrido de marcos simbólicos — la rejilla de la L5 nombra ahora los cinco marcos del *Modelo* §8.2.2, p. 56 (Familia: La Fantasía · Manada: La Fantasía · **Tropa: La Aventura** · Comunidad: La aventura hacia la ciudadanía · Clan: La Ciudadanía Activa), separando marco simbólico de fondo motivador y de ambiente de referencia, con un `info-box` que **cuenta la discrepancia** entre las Guías de Familia (§6.1, p. 35) y de Manada (§6.9, p. 30) y el *Modelo*, sin armonizarla; el quiz de la L5 P2 se rehizo sobre el papel del *Libro de las Tierras Vírgenes* como fondo motivador (el ítem anterior certificaba el error); se restituyó el orden de la cadena de competencias — **terminales** a lo largo de todo el tránsito por el Movimiento, **intermedias** por rama y por edad (*Modelo* §6.3.1, pp. 31-32) —; y la cita de B-P quedó anclada a su documento real, la **Guía para dirigentes de la Rama Scout** (Oficina Scout Mundial – Región Interamericana, 2ª ed., abril 2005), pp. 59 y 166._
+_Documento de diseño del Curso 5, versión inicial — 28 de mayo de 2026. **Revisión doctrinal del 15 de septiembre de 2026** (`contentVersion` 2026-09-15): se aplicaron las correcciones de la re-auditoría doctrinal — nomenclatura vigente «Competencias Educativas» (Modelo 2026 §3.2, p. 16), citas textuales reancladas a fuente localizable y reencuadre del checklist de la L8 de «una reunión» a «un período» (PNPJ 2024, p. 8). **Segunda vuelta el mismo día** (re-auditoría): «Enlazar» reapuntado hacia fuera del ámbito scout y emparejado con Exploro/Aplico/Profundizo (Modelo 2026 §9.2.1–9.2.3); «competencia» a secas sustituida por «competencia educativa» (GLOSARIO §E-bis / ADR-034); el `label` de la L3 corregido a «la Ley»; marco simbólico de Comunidad según la Guía de Dirigente de Comunidad (PDF 19–21); unidad de tiempo del bloque de la L8 unificada en «cuatro reuniones» (PNPJ 2024, p. 8); y distractores del diseño realineados con el JSON, que es el que compila. Fuente angular: "The Scout Method", OMMS Oficina Scout Mundial 2019 (Resolución 41.ª Conferencia Scout Mundial 2017-04). Validado contra el marco metodológico de la plataforma y la PNPJ 2024 / Modelo de Aplicación 2026. **Tercera revisión doctrinal, 16 de septiembre de 2026** (`contentVersion` 2026-09-16): barrido de marcos simbólicos — la rejilla de la L5 nombra ahora los cinco marcos del *Modelo* §8.2.2, p. 56 (Familia: La Fantasía · Manada: La Fantasía · **Tropa: La Aventura** · Comunidad: La aventura hacia la ciudadanía · Clan: La Ciudadanía Activa), separando marco simbólico de fondo motivador y de ambiente de referencia, con un `info-box` que **cuenta la discrepancia** entre las Guías de Familia (§6.1, p. 35) y de Manada (§6.9, p. 30) y el *Modelo*, sin armonizarla; el quiz de la L5 P2 se rehizo sobre el papel del *Libro de las Tierras Vírgenes* como fondo motivador (el ítem anterior certificaba el error); se restituyó el orden de la cadena de competencias — **terminales** a lo largo de todo el tránsito por el Movimiento, **intermedias** por rama y por edad (*Modelo* §6.3.1, pp. 31-32) —; y la cita de B-P quedó anclada a su documento real, la **Guía para dirigentes de la Rama Scout** (Oficina Scout Mundial – Región Interamericana, 2ª ed., abril 2005), pp. 59 y 166. **Corrección del 08/11/2026** (`contentVersion` 2026-11-08): re-auditorías doctrinal y pedagógica de noviembre — grupo natural de Familia y Manada (Guía de Familia §5.2.2, p. 29; Guía de Manada §5.2, pp. 26–27), componentes del territorio (*Modelo* §8.2, p. 54), hook y eco del curso, anclajes de la L4 y la L7, reflexiones de caso concreto y unidad de tiempo de la L8; quizzes de 3 preguntas por lección. **Decisiones del 22/11/2026** (`contentVersion` 2026-11-22, decisor con autoridad delegada): quizzes reescritos para romper la pista del término medio (L2 P2–P3, L3 P3, L4 P2, L5 P1, L6 P2, L8 P3), correctas de la L7 redistribuidas y la L6 P3 con un distractor del territorio; anclajes de la L3 y la L6 (este último sin dar por hecho que el adulto fue scout); «el juego» ya no figura como elemento en la L1; la L4 sin códigos de documentos ni roles adelantados, con la reflexión y la caja acotadas por rama (Guía de Familia p. 29); la L5 aligerada (los 4 tipos de apoyo quedan en el Curso 4) y su caja de discrepancia en dos frases; el «con» de la L6 incluye decidir y planear (PNPJ 2024, p. 22); ítems del checklist de la L8 en pasado; OA1 con «Explica»; quizzes, duraciones y §9 de este diseño sincronizados con el JSON, que es el que compila._

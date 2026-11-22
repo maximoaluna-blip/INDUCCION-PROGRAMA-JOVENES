@@ -55,7 +55,7 @@ El plan titula este curso *«Asistente y acompañamiento de la progresión perso
 | Módulos | 8 (1 de registro + **7 de contenido**) |
 | Destinatario | **Todo dirigente de unidad** de las cinco ramas: Jefe, Subjefe y cualquier adulto del equipo |
 | Recomendado antes | El **Curso 13** (seguimiento) y el curso de tu rama. Ninguno bloquea (ADR-019) |
-| `contentVersion` | la del JSON (2026-10-04 al re-auditar el 08-11-2026) |
+| `contentVersion` | la del JSON (**2026-11-22**, tras las decisiones del 22-11-2026) |
 
 ---
 
@@ -63,7 +63,7 @@ El plan titula este curso *«Asistente y acompañamiento de la progresión perso
 
 1. **Distinguir** las tres etapas de vida en la unidad —adaptación, progresión, transición— y qué pide cada una del adulto.
 2. **Planear** la acogida de quien llega para que su investidura o la renovación de su Promesa culmine una etapa y no sea un trámite.
-3. **Ofrecer** a cada protagonista dos o tres opciones y **acordar** con él su siguiente paso, sin imponerle un orden.
+3. **Ofrecer** a cada protagonista opciones —o escuchar las que él trae— y **acordar** con él su siguiente paso, sin imponerle un orden.
 4. **Ajustar tu rol por competencia**, no por persona: apoyar, acompañar y enlazar a la misma persona a la vez.
 5. **Sustituir** la comparación por el avance propio de cada uno, y detectar a tiempo lo que no es ritmo sino señal.
 6. **Reconocer** nombrando competencias y evidencias, no coleccionando insignias.
@@ -138,6 +138,7 @@ La primera mitad es **literal del *Modelo*** (Cap. 12, p. 85: *«la unidad avanz
 
 1. **Diseño** commiteado antes de los scripts.
 2. **Hecho el 27-sep-2026:** JSON y build · **doctrinal** (1.ª: 0 críticos, 2 mayores, 14 menores, 3 no verificables — los dos mayores: Familia trabaja por **cinco dimensiones** con niveles Reconoce/Expresa/Comparte, y el *Manual* **sí** tiene «asistentes», pero administrativos; re-auditoría: 3 menores, uno de ellos **introducido por el texto que el propio auditor propuso**) · **pedagógica** (1.ª: 3 altos, 6 medios, 5 bajos, 86 %; re-auditoría: APTO CON MEJORAS MENORES, **100 %**) · **reflexiones sin nombres** (decisión del dueño) · duración medida: **50 min** · publicado con sus colaterales (punteros de «Asistente» en los Cursos 1, 7 y 15 y en el plan).
+3. **Decisiones del 22-11-2026 (decisor con autoridad delegada):** objetivo 3 con «o escuchar las que él trae» (Comunidad y Clan traen su propuesta). L4: fuera la regla de área («más de la mitad», *Modelo* p. 49) y el conteo de fases de la caja de rama, que la lección no usa; la caja cierra con «saber la fase de alguien no te dice qué rol te toca en cada competencia» (ancla L4 Q2). L5, caja de rama: Comunidad y Clan anclados en sus Guías (Comunidad p. 9, «según su ritmo y momento de vida»; Clan §8.6 p. 41, «respeto por su autonomía»). Quizzes: se rompe la correcta como punto medio en L2 Q3, L3 Q1, L4 Q3 (la correcta pasa a ser Apoyar), L7 Q1, L8 Q1 y L8 Q3; L5 Q2 con arranque común; L7 Q3 sin fuga de longitud. `correctIndex` 7/7/7. Falta medir la regla ciega con dos lectores nuevos (ADR-148) y recompilar.
 ---
 
 _Documento de diseño v1.0 — 27 de septiembre de 2026._

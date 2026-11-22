@@ -3,7 +3,7 @@
   "title": "Comisionado de Programa de Jóvenes",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Para quien acompaña el Programa desde fuera de la unidad: comisionados regionales de Programa de Jóvenes y de rama, y miembros de comisiones. Dónde está tu cargo en la estructura, qué es la animación territorial, cómo se conduce una comisión de voluntarios, qué se cuida y qué se remite, y cómo se rinde cuentas — sin volverte el Jefe de Rama de todas las unidades.",
-  "contentVersion": "2026-11-08",
+  "contentVersion": "2026-11-22",
   "icon": "🗺️",
   "duration": "53 minutos",
   "level": 3,
@@ -148,12 +148,9 @@
             "Si tu cargo es regional, <strong>te nombra el Jefe Scout Regional</strong>, previo aval de la Dirección Nacional de Programa de Jóvenes (si eres comisionado de rama, el aval es el de la comisión nacional de tu rama). A los comisionados nacionales de rama los nombra el Director Nacional, con aval del Jefe Scout Nacional.",
             "<strong>Respondes</strong> al Consejo Scout Regional, al Jefe Scout Regional, a la Dirección Nacional de Programa de Jóvenes y a los comisionados nacionales de rama en lo de su rama.",
             "<strong>No integras el Consejo Scout Regional.</strong> Lo dice tu ficha, y lo dice el <em>Reglamento Nacional</em> para todos los niveles: <em>«Los adultos que ejerzan cargos operativos en las ramas de los grupos, en las regiones o en la nación no podrán integrar los Consejos de su respectivo nivel»</em>.",
-            "<strong>No puedes tener a la vez</strong> un cargo de dirección o liderazgo en la nación y otro en la región; ser parte de un equipo no cuenta, y tener además un cargo en tu Grupo está permitido."
+            "<strong>No puedes tener a la vez</strong> un cargo de dirección o liderazgo en la nación y otro en la región; ser parte de un equipo no cuenta, y tener además un cargo en tu Grupo está permitido.",
+            "Si tu cargo es nacional, el <em>Reglamento</em> lo hace <strong>voluntario</strong>, sin remuneración, con un periodo de <strong>máximo dos años</strong> sujeto a la evaluación de desempeño: prepáralo desde el primer día para que otro lo reciba."
           ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Si eres director o comisionado nacional, el <em>Reglamento</em> añade dos cosas: es un <strong>cargo voluntario</strong>, sin remuneración, y su periodo es de <strong>máximo dos años</strong>, sujeto a la evaluación de desempeño. Un cargo con fecha de salida se prepara desde el primer día para que otro lo reciba."
         },
         {
           "type": "paragraph",
@@ -225,11 +222,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Si eres comisionado regional de una rama, tu ficha se parece: cuatro de estas cinco funciones, acotadas a tu rama. No trae la tercera, la de los adultos de la comisión, y la de Mundo Mejor cambia el crecimiento por los programas de su marco. La del Comisionado Regional de Lobatos, por ejemplo, tiene a su cargo <em>«la coordinación, supervisión y ejecución del Programa de Jóvenes en la rama Lobatos de la Región»</em>. La ficha dice «ejecución»: es la del plan y los eventos de la región, no la de cada unidad. A ti también te nombra el Jefe Scout Regional, en tu caso con el aval de la comisión nacional de tu rama. Y respondes también al Comisionado Regional de Programa de Jóvenes."
+          "text": "Si eres comisionado regional de una rama, tu ficha se parece: cuatro de estas cinco funciones, acotadas a tu rama. No trae la tercera, la de los adultos de la comisión. La del Comisionado Regional de Lobatos, por ejemplo, tiene a su cargo <em>«la coordinación, supervisión y ejecución del Programa de Jóvenes en la rama Lobatos de la Región»</em>. La ficha dice «ejecución»: es la del plan y los eventos de la región, no la de cada unidad. A ti también te nombra el Jefe Scout Regional, en tu caso con el aval de la comisión nacional de tu rama. Y respondes también al Comisionado Regional de Programa de Jóvenes."
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y en tu rama, dos cosas que el <em>Manual</em> de 2020 no dice como hoy.</strong> Sus comisionados de rama son de <strong>Lobatos, Scout, Caminantes, Rover</strong> y del programa <strong>Mundo Mejor</strong>. <strong>«Caminantes» es el nombre viejo de la rama que hoy se llama Nómadas Scout</strong>, la de la Comunidad. Y el <em>Manual</em> es de 2020 y <strong>no tiene ficha de comisionado para la Familia de Cachorros, ni en la región ni en la nación</strong>. Si acompañas Familias en tu región, tu referencia de contenido es su Guía, igual que para sus dirigentes."
+          "text": "🌿 <strong>Y en tu rama, dos cosas que el <em>Manual</em> de 2020 no dice como hoy.</strong> Sus comisionados de rama son de <strong>Lobatos, Scout, Caminantes, Rover</strong> y del programa <strong>Mundo Mejor</strong>. <strong>«Caminantes» es el nombre viejo de la rama que hoy se llama Nómadas Scout</strong>, la de la Comunidad. Y el <em>Manual</em> es de 2020 y <strong>no tiene ficha de comisionado para la Familia de Cachorros, ni en la región ni en la nación</strong>. Si acompañas Familias en tu región, tu referencia de contenido es su Guía, igual que para sus dirigentes. Y si eres comisionado de Mundo Mejor, tu ficha cambia la función del crecimiento por los programas del marco Mundo Mejor."
         }
       ],
       "reflection": {
@@ -252,7 +249,7 @@
             "text": "Un comisionado regional de la rama Scout quiere sumar a su equipo un adulto con experiencia en formación, y piensa apoyarse para eso en la tercera función, la de los adultos de la comisión. ¿Qué le recuerda su ficha?",
             "options": [
               "Que puede hacerlo: las cinco funciones son las mismas para todos los comisionados, acotadas a su rama.",
-              "Que primero pida el aval de la comisión nacional de su rama, como el que recibió para su nombramiento.",
+              "Que lo proponga directamente al Jefe Scout Regional, que es quien nombra a los miembros de las comisiones regionales.",
               "Que su ficha de rama no trae esa función: lo plantea al Comisionado Regional de Programa, a quien responde."
             ],
             "correctIndex": 2
@@ -260,11 +257,11 @@
           {
             "text": "En un encuentro regional, varios grupos llegan con pendones que alteran el logo de la Asociación. Un miembro de tu comisión dice que eso no es asunto de Programa. Según tus funciones, ¿dónde cae?",
             "options": [
-              "Bajo la quinta, la del crecimiento, porque los pendones son la cara de los grupos ante quienes quieren entrar.",
               "Bajo la segunda, la de hacer cumplir las normas de la Asociación, que incluye el cuidado de la marca.",
+              "Bajo la quinta, la del crecimiento, porque los pendones son la cara de los grupos ante quienes quieren entrar.",
               "Bajo ninguna de tus cinco: la marca la cuida el área de Comunicaciones, y a ti solo te toca avisarle del caso."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -354,13 +351,13 @@
             "correctIndex": 1
           },
           {
-            "text": "Un comisionado regional nota que un grupo lleva dos años sin aplicar el ciclo de programa en ninguna de sus unidades. Su Jefe de Grupo le dice: «Eso lo decide cada unidad». ¿Qué hace el comisionado?",
+            "text": "Un Jefe de Grupo te reconoce que sus unidades llevan un año sin aplicar el ciclo de programa. Te pide que no lo pongas en la evaluación de este semestre: «Ya lo estamos arreglando, no nos hagas quedar mal». ¿Qué haces?",
             "options": [
-              "Lo respeta: acompañar no es imponer, y cómo aplica el Programa cada unidad lo decide su Grupo.",
-              "Lo anota en la evaluación del grupo, se lo dice al Jefe de Grupo y acuerdan cuándo revisarlo juntos.",
-              "Convoca él a los Jefes de las unidades para corregir el ciclo, y después le cuenta al Jefe de Grupo."
+              "Lo registras en la evaluación del grupo, y le explicas que evaluar cómo se aplica es parte de tu función.",
+              "Lo dejas fuera de este informe y acuerdas con él revisarlo juntos el próximo trimestre, como te pidió.",
+              "Se lo trasladas al Jefe Scout Regional, para que sea él quien decida si el caso entra o no en la evaluación."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "Una comisionada regional termina con su comisión el plan de animación territorial y lo envía a la Dirección Nacional «para su conocimiento». ¿Qué le faltó?",
@@ -399,7 +396,7 @@
             "<strong>Acompañar y guiar</strong> el desarrollo de las competencias de los adultos que están en tu equipo.",
             "<strong>Detectar las necesidades</strong> de la comisión para incorporar adultos con los perfiles requeridos.",
             "<strong>Crear los equipos de trabajo</strong> que consideres necesarios para cumplir lo que te encomienden el Consejo Scout Regional y el Jefe Scout Regional.",
-            "<strong>Mantener la comunicación</strong> con los comisionados a tu cargo, los coordinadores de distrito, los Jefes de Grupo y los Jefes de Rama."
+            "<strong>Mantener la comunicación</strong> con quienes ya viste en la Lección 3 —los comisionados a tu cargo, los coordinadores de distrito, los Jefes de Grupo y los Jefes de Rama—, y por escrito, porque tu comisión no se ve cada sábado."
           ]
         },
         {
@@ -438,11 +435,11 @@
           {
             "text": "A tu comisión le falta alguien con experiencia en Clan. Un miembro propone que la comisión diseñe su propia convocatoria e inducción, porque el proceso de Adultos «tarda mucho». ¿Qué te pide la lección?",
             "options": [
-              "Que la comisión lo diseñe, si lo acuerda: tu ficha te deja crear los equipos de trabajo que necesites.",
               "Que detectes el perfil y pidas incorporarlo, aplicando con tu equipo el ciclo de la Política de Adultos.",
-              "Que esperes a que la Jefatura te asigne a alguien: tu ficha te pide acompañar adultos, no incorporarlos."
+              "Que la comisión lo diseñe, si lo acuerda: tu ficha te deja crear los equipos de trabajo que necesites.",
+              "Que la comisión convoque esta vez, por la urgencia, y que el adulto pase después por el proceso de Adultos."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "Repartiste los grupos de la región entre los miembros de tu comisión. Uno de ellos lleva tres meses sin que nadie lo acompañe, y el Jefe Scout Regional te pregunta por él. ¿Qué le respondes?",
@@ -537,13 +534,13 @@
             "correctIndex": 2
           },
           {
-            "text": "La región le encarga a un grupo anfitrión un campamento regional de Tropas dentro de seis semanas. El grupo ya tiene el lugar, el menú y el transporte. ¿Qué te toca pedir antes de confirmar la fecha?",
+            "text": "Faltan cuatro días para un campamento regional de Tropas. Te enteras de que el plan A Salvo del Peligro no lo hizo la Comisión Nacional ASP: el grupo anfitrión armó uno propio, muy completo. ¿Qué haces?",
             "options": [
-              "Nada más: el grupo anfitrión responde por su evento, y a la región le toca difundirlo y animar.",
-              "Que el plan A Salvo del Peligro lo haga la Comisión Nacional ASP, y que el equipo de servicio tenga su curso.",
-              "Ir tú al lugar el fin de semana anterior y revisar en persona cada riesgo del terreno con el grupo."
+              "Aceptas el plan del grupo por esta vez, y pides que el del próximo evento lo arme la Comisión Nacional ASP.",
+              "Revisas tú el plan del grupo punto por punto con su Jefe, y lo apruebas si cubre los riesgos del terreno.",
+              "Le pides a la Comisión Nacional ASP el plan de ese evento, y no confirmas el campamento hasta tenerlo."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           }
         ]
       }
@@ -617,13 +614,13 @@
             "correctIndex": 0
           },
           {
-            "text": "En una región, las Tropas pierden un tercio de sus scouts entre un año y el siguiente. ¿Qué le toca al Comisionado Regional de Programa de Jóvenes?",
+            "text": "En el Consejo Scout Regional se presenta el dato: las Tropas de la región pierden un tercio de sus scouts cada año. El comisionado de crecimiento, de Desarrollo Institucional, dice que él se encarga y que Programa puede seguir con lo suyo. ¿Qué haces?",
             "options": [
-              "Revisar el dato en su informe y pedir a cada grupo que busque sus causas, porque la salida ocurre en sus unidades.",
-              "Remitirlo al área de Desarrollo Institucional, que es la que lleva el crecimiento y las alianzas de la región.",
-              "Revisar con esos grupos cómo aplican el Programa en sus Tropas, y llevar al plan regional acciones de crecimiento."
+              "Se lo agradeces y le ofreces tu apoyo si lo necesita: el crecimiento es su área, y no conviene duplicar.",
+              "Pides que el dato entre al plan operativo regional, con acciones de Programa en esas Tropas y su seguimiento.",
+              "Le pides a cada Jefe de Grupo con Tropa que te mande por escrito sus causas antes del próximo Consejo."
             ],
-            "correctIndex": 2
+            "correctIndex": 1
           },
           {
             "text": "Un comisionado regional escribe solo, en vacaciones, «el plan del Programa de Jóvenes» de la región, y quiere llevarlo al Consejo Scout Regional como un plan aparte del plan operativo. ¿Qué le aconsejas?",
@@ -662,7 +659,13 @@
         },
         {
           "type": "paragraph",
-          "text": "El <em>Reglamento Nacional</em> sitúa a la Dirección dentro de la Jefatura: el Jefe Scout Nacional dirige la organización <em>«desde las Direcciones de Programa de Jóvenes, Adultos en el Movimiento, Comunicaciones y Desarrollo Institucional»</em>."
+          "text": "La Dirección no está por fuera de la Jefatura: el Jefe Scout Nacional dirige desde ella."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 La Dirección, dentro de la Jefatura",
+          "source": "Reglamento Nacional (Acuerdo CSN 684, 2026), Art. 126 «Jefe Scout Nacional - Función operativa», p. 39 del PDF.",
+          "text": "Desde su función operativa, dirige y orienta la Organización Nacional Scout desde las Direcciones de Programa de Jóvenes, Adultos en el Movimiento, Comunicaciones y Desarrollo Institucional, las cuales dependen funcional, administrativa y operativamente de él, responsable de dirigir, coordinar y garantizar la implementación del Plan Estratégico Nacional de la Asociación Scouts de Colombia, asegurando su correcta articulación con el Proyecto Educativo y las políticas institucionales."
         },
         {
           "type": "info-box",
@@ -724,10 +727,10 @@
             "text": "Llegan a tu región orientaciones para las Tropas, firmadas por la Comisionada Nacional de la rama Scout. Un comisionado de tu equipo dice que no hay que atenderlas: tu ficha dice que respondes a un «Comisionado Nacional de Programa de Jóvenes», y ella no lo es. ¿Qué le respondes?",
             "options": [
               "Que tiene razón: mientras la Dirección Nacional no las avale, esas orientaciones no obligan a la región.",
-              "Que se atienden: los comisionados nacionales de rama cuentan a los regionales entre quienes les responden.",
-              "Que se atienden, pero que él mismo las aplique en cada Tropa para que no se pierdan por el camino."
+              "Que las mande a las Tropas como sugerencia, sin exigirlas, hasta que se aclare el nombre del cargo.",
+              "Que se atienden: la ficha de ella cuenta a los comisionados regionales entre quienes le responden."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           }
         ]
       }
@@ -765,7 +768,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Y seis competencias específicas: <strong>Asesoría personal</strong>, <strong>Garante del debido proceso</strong>, <strong>Seguridad y control de actividades</strong>, <strong>Generación de contenido</strong>, <strong>Dirección del proyecto educativo</strong> y <strong>Administración y gestión estratégica</strong>. Varias ya las viste en acción en este curso. Una Jefa de Tropa necesita Trabajo en Equipo en grado 4; una comisionada, además, <strong>Adaptabilidad al Cambio</strong> en grado 4: <em>«Evalúa y proyecta el cambio»</em>. Es la que más le costó a Liliana —empezando por aquel primer sábado en que se levantó para ir a una Tropa que ya no era suya—, y la que más usó."
+          "text": "Y seis competencias específicas: <strong>Asesoría personal</strong>, <strong>Garante del debido proceso</strong>, <strong>Seguridad y control de actividades</strong>, <strong>Generación de contenido</strong>, <strong>Dirección del proyecto educativo</strong> y <strong>Administración y gestión estratégica</strong>. Varias ya las viste en acción en este curso. Una Jefa de Tropa necesita Trabajo en Equipo en grado 4; una comisionada, además, <strong>Adaptabilidad al Cambio</strong> en grado 4: <em>«Evalúa y proyecta el cambio»</em>. Es la que más le costó a Liliana —empezando por aquel primer sábado en que se levantó para ir a una Tropa que ya no era suya—, y la que más usó. Las competencias no se traen completas al cargo: se crecen en él. Elige una, busca este mes una situación en que la necesites y revísala después con quien te acompaña."
         },
         {
           "type": "info-box",
@@ -790,11 +793,11 @@
           {
             "text": "Un comisionado recién nombrado hace su autodiagnóstico y queda lejos del grado 4 en Adaptabilidad al Cambio. ¿Qué le aconsejas para este mes?",
             "options": [
-              "Que no se preocupe por los grados: el perfil orienta, y lo que cuenta es la experiencia de su unidad.",
-              "Que se inscriba en una formación y espere a terminarla antes de tomar decisiones grandes del cargo.",
-              "Que elija una situación de este mes en que la necesite, y la revise después con quien lo acompaña."
+              "Que la trabaje en el cargo: una situación concreta de este mes, revisada después con quien lo acompaña.",
+              "Que haga primero una formación en esa competencia, y deje para después las decisiones grandes del cargo.",
+              "Que se apoye en las competencias en que ya está alto, que son las que el cargo le pide cada día."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           },
           {
             "text": "Una comisionada recién nombrada tiene poco tiempo. ¿Cuál de estas tareas de su primer mes cumple mejor la idea central del curso?",

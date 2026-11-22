@@ -3,7 +3,7 @@
 > **Línea:** Programa de Jóvenes · **Nivel 4 — Transversales** · Curso **25** de 25 — **el primero del Nivel 4** (Hito D del plan: se construye antes que el 21–24 por su valor, no por ser habilitante, que no lo es — ADR-019)
 > **`courseId`:** `a-salvo-del-peligro-programa`
 > **Diseño pedagógico:** Claude Code, con autonomía de punta a punta renovada por el dueño el 27-sep-2026 para todo el Nivel 4.
-> **Estado:** construido y publicado (JSON `contentVersion` 2026-10-04); re-auditoría doctrinal del 08/11/2026: APTO. ADR: **100**.
+> **Estado:** construido y publicado; JSON `contentVersion` 2026-11-22 (vuelta del decisor sobre los pendientes de la re-auditoría del 08/11/2026, sin recompilar). Re-auditoría doctrinal del 08/11/2026: APTO. ADR: **100**.
 
 El alcance lo fijó el **ADR-038** con la regla de la propia Política: *¿el sujeto de la frase es el joven y la unidad, o el adulto y la institución?* Este curso enseña **cómo el Método Scout hace seguro el entorno de la unidad**. Lo que el adulto hace ante una revelación, su posición de garante, el límite de su rol y las señales de abuso son de la línea **Políticas Transversales**, y aquí **se enlazan sin reexplicarse**.
 
@@ -46,7 +46,7 @@ El alcance lo fijó el **ADR-038** con la regla de la propia Política: *¿el su
 | Título | A Salvo del Peligro aplicado al Programa |
 | Icono | 🛡️ |
 | Nivel / orden | 4 — Transversales · Curso **25** |
-| Duración | **55 min** (medida después de las auditorías, ADR-047: 7.332 palabras, como el Curso 16) |
+| Duración | **58 min** en el JSON (la primera medida, 55 min con 7.332 palabras, quedó atrás con las correcciones; se vuelve a medir al cerrar las vueltas, ADR-047) |
 | Destinatario | Todo dirigente de unidad, de cualquier rama |
 | Recomendado antes | Curso 14 (Planeación de Reuniones) y, de Políticas Transversales, el Curso 03 (El Adulto como Garante) |
 | Logro final | Mi unidad, a salvo |
@@ -96,5 +96,7 @@ Cada lección cierra con reflexión (sin nombres ni confidencias, por rol o situ
 - Ledger, trazabilidad, glosario (lo que el curso estrena), plan (§6: estado del 25), README/CLAUDE de la línea, `generar-estado.py`, bitácora. **ADR-100.**
 
 ---
+
+_Documento de diseño v1.2 — 22 de noviembre de 2026. La v1.2 recoge la vuelta del decisor (autoridad delegada del 22-nov-2026) sobre la re-auditoría del 08/11/2026: una pregunta por quiz sin «punto medio» entre exceso y defecto (L2 P1, L4 P1 con enunciado nuevo, L4 P3, L5 P2, L6 P2 y L7 P2), el segundo adulto también en distractores (L2 P2, L2 P3, L3 P2) y fuera de la correcta de L4 P2, el botón sin dar por hecho el QR en la sede de la Tropa (L6 P1), la fuga de longitud de L5–L7 emparejada alargando distractores, la lista «Nombrar lo que se normalizó» reordenada para no calcar la correcta de L2 P3, la Lección 3 recortada (párrafo de protocolos y el inventario de los seis elementos) sin partirla, y la caja «Y en tu rama» de la L7 sin referencias de sección. El JSON manda._
 
 _Documento de diseño v1.1 — 27 de septiembre de 2026. La v1.1 recoge la primera vuelta de auditorías: quizzes reescritos contra la fuga del «punto medio» (C1 pedagógico), la cita de los seis elementos resumida en prosa, la Guía de Clan atribuida al peregrinaje, «la práctica 2+1» y no «2+1» a secas, y el traslado sin excepción por urgencia. El JSON manda._

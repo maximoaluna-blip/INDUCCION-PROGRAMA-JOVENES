@@ -3,7 +3,7 @@
   "title": "Mi Compromiso con el Programa de Jóvenes",
   "subtitle": "Tu compromiso con el Programa de Jóvenes — cierre del Nivel 1",
   "description": "El cierre del Nivel 1 de la Línea Programa de Jóvenes. En ~33 minutos vas a convertir los Cursos 1 a 6 en un compromiso firmable con el Programa de Jóvenes: revisas tu brújula, defines tu rol, rama y áreas prioritarias, planeas tu próxima reunión y tu proyecto del trimestre, trazas tu ruta de formación y firmas tu promesa personal. No hay contenido nuevo: integras lo que ya tienes en algo accionable.",
-  "contentVersion": "2026-11-08",
+  "contentVersion": "2026-11-22",
   "icon": "🗺️",
   "duration": "33 minutos",
   "level": 1,
@@ -20,7 +20,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~33 minutos.</strong> Al final vas a tener tu compromiso con el Programa de Jóvenes firmado, descargable en PDF, con compromisos chicos y concretos para el próximo trimestre. Y un par dirigente con quien compartirlo."
+          "text": "⏱️ <strong>~33 minutos.</strong> Al final vas a tener tus áreas de crecimiento del trimestre en un PDF, tu próxima reunión y tu proyecto escritos en tus reflexiones, y tu promesa personal en el recuadro de tu certificado: compromisos chicos y concretos para el próximo trimestre. Y un par dirigente con quien compartirlos."
         },
         {
           "type": "paragraph",
@@ -42,7 +42,7 @@
             "Revisión de tu brújula: qué te quedó de los Cursos 1–6.",
             "Definición de tu rol, rama y áreas prioritarias del trimestre.",
             "Tu próxima reunión y tu proyecto del trimestre, planeados con los 8 elementos del Método.",
-            "Tu ruta de formación: qué cursos del Nivel 2 y del Nivel 4 vas a tomar primero.",
+            "Tu ruta de formación: qué cursos de los Niveles 2, 3 y 4 vas a tomar y cuándo.",
             "Tu par dirigente y tu promesa personal."
           ]
         },
@@ -99,11 +99,11 @@
           {
             "text": "Al releer su brújula, un dirigente de Tropa ve que en el Curso 2 se comprometió a dejar de premiar al «mejor scout» del mes, y no lo cumplió. ¿Qué hace con eso en esta lección?",
             "options": [
-              "Lo anota en la segunda pregunta como práctica por ajustar: es materia prima para su plan.",
               "Lo deja por fuera: la brújula recoge lo que le resonó, y un compromiso incumplido no suma.",
-              "Copia tal cual el compromiso del Curso 2 en la reflexión, para no perder su versión original."
+              "Copia tal cual el compromiso del Curso 2 en la reflexión, para no perder su versión original.",
+              "Lo anota en la segunda pregunta como práctica por ajustar: es materia prima para su plan."
             ],
-            "correctIndex": 0
+            "correctIndex": 2
           },
           {
             "text": "A la segunda pregunta («qué práctica estoy haciendo mal o ausente») responden tres dirigentes de Manada. ¿Cuál deja materia prima útil para su plan?",
@@ -156,7 +156,7 @@
         },
         {
           "type": "paragraph",
-          "text": "De las 6 áreas de crecimiento (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad), elige <strong>2 áreas</strong> donde quieras poner foco este trimestre. No las que más amas; las que más necesita tu unidad ahora."
+          "text": "De las 6 áreas de crecimiento (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad), elige <strong>2 áreas</strong> donde quieras poner foco este trimestre. No las que más amas; las que más necesita tu unidad ahora. Con ellas armas aquí tu primer PDF: el de tus áreas del trimestre."
         },
         {
           "type": "plan-builder",
@@ -193,13 +193,13 @@
             "placeholderPlazo": "Ej: antes de la última reunión del trimestre (pon la fecha)",
             "placeholderRecursos": "Ej: proponerlo en el consejo de unidad, pedirles ideas a los protagonistas, mirar la Guía de mi rama…",
             "placeholderCompromiso": "Ej: Me comprometo a revisar estas dos áreas en cada reunión, a contarle a mi par dirigente cómo van cada mes, y a no rendirme cuando me cueste…",
-            "botonGenerar": "📄 Armar mi compromiso del trimestre",
+            "botonGenerar": "📄 Armar mis áreas del trimestre",
             "minimo": 2,
             "avisoMinimo": "⚠️ La lección te pide elegir 2 áreas de crecimiento. Marca 2 y completa sus campos antes de armar tu compromiso.",
             "avisoCampos": "⚠️ Hay campos vacíos. Completa meta, plazo y recursos en todas las áreas seleccionadas.",
-            "titulo": "📋 Mi compromiso con el Programa de Jóvenes",
+            "titulo": "📋 Mis áreas de crecimiento del trimestre",
             "subtituloPrioridades": "Las áreas de crecimiento que elegí para este trimestre",
-            "cierre": "Imprime este plan, fírmalo y consérvalo como tu compromiso personal."
+            "cierre": "Imprime tus áreas, fírmalas y guárdalas junto a tu promesa: son parte de tu compromiso con el Programa de Jóvenes."
           }
         },
         {
@@ -209,7 +209,7 @@
         },
         {
           "type": "paragraph",
-          "text": "De los 3 roles del Modelo de Aplicación (Apoyar, Acompañar, Enlazar), ¿cuál vas a fortalecer este trimestre? El que más te haga falta, no el que ya manejas bien, sin dejar de ejercer el que tus protagonistas necesitan según su etapa. Anota tu elección y por qué en tu reflexión."
+          "text": "De los 3 roles del Modelo de Aplicación (Apoyar, Acompañar, Enlazar), ¿cuál vas a fortalecer este trimestre? El que más te haga falta, no el que ya manejas bien, sin dejar de ejercer el que tus protagonistas necesitan según su etapa: quien se acerca por primera vez a algo necesita sobre todo que lo apoyes; quien ya lo aplica, que lo acompañes; y quien lo profundiza, que lo enlaces. Anota tu elección y por qué en tu reflexión."
         }
       ],
       "reflection": {
@@ -231,20 +231,20 @@
           {
             "text": "A una jefa de Comunidad le salen bien Acompañar y Enlazar, pero le cuesta Apoyar. Este trimestre entran seis nómadas nuevos que van a vivir todo por primera vez. Según la lección, ¿qué rol fija como prioritario?",
             "options": [
-              "Apoyar, y deja Acompañar y Enlazar para el próximo trimestre: no se puede con todo a la vez.",
-              "Apoyar, sin dejar de acompañar a los antiguos: es el que le falta y el que piden los que llegan.",
-              "Acompañar, que ya domina: con seis nómadas nuevos no es momento de ensayar lo que le cuesta."
+              "Acompañar: con seis recién llegados, lo primero es seguir de cerca la progresión de cada uno.",
+              "Enlazar: lo que más engancha a quien entra es abrirle la puerta a la región y a otros grupos.",
+              "Apoyar: lo necesita quien vive todo por primera vez, y es justo el que ella menos ejercita."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "Un adulto sirve en la comisión regional de Programa de Jóvenes y no tiene unidad a cargo. Según la lección, ¿cómo llena «Mi rol y mi rama»?",
             "options": [
+              "Anota la comisión regional como su otro ámbito, con el cargo que tiene y los protagonistas que acompaña.",
               "Anota la unidad más cercana de su grupo, porque el plan de este curso se arma sobre una unidad.",
-              "Anota la comisión regional como su otro ámbito y en cargo pone «ninguno», porque no tiene una unidad a su cargo.",
-              "Anota la comisión regional como su otro ámbito, con el cargo que tiene y los protagonistas que acompaña."
+              "Anota la comisión regional como su otro ámbito y en cargo pone «ninguno», porque no tiene una unidad a su cargo."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           }
         ]
       }
@@ -270,7 +270,7 @@
         },
         {
           "type": "paragraph",
-          "text": "En tu reflexión, fija tu próxima reunión: la <strong>fecha</strong>; el <strong>tema o foco principal</strong>; el <strong>elemento del Método</strong> que vas a fortalecer especialmente y <strong>cómo</strong> lo vas a fortalecer (1-2 líneas); y cuál de los 8 criterios <strong>DURASLID</strong> (Desafiante, Útil, Recompensante, Atractiva, Segura, Lúdica, Inclusiva, Diversa) está en riesgo y necesita atención."
+          "text": "En tu reflexión, fija tu próxima reunión: la <strong>fecha</strong>; el <strong>tema o foco principal</strong>; el <strong>elemento del Método</strong> que vas a fortalecer especialmente y <strong>cómo</strong> lo vas a fortalecer (1-2 líneas); y cuál de los 8 criterios <strong>DURASLID</strong> (Desafiante, Útil, Recompensante, Atractiva, Segura, Lúdica, Inclusiva, Diversa) está en riesgo y necesita atención. Dos de ellos se confunden a menudo: una experiencia es <strong>útil</strong> cuando sirve a alguien y para algo, y deja hábitos que se llevan a casa; es <strong>recompensante</strong> cuando deja sensación de logro y sentido, que no se reduce a un premio."
         },
         {
           "type": "heading",
@@ -316,20 +316,20 @@
             "correctIndex": 2
           },
           {
-            "text": "En su última reunión, los nómadas de una Comunidad jugaron con ganas, pero al salir ninguno supo decir para qué les sirvió fuera del grupo. Para la próxima, ¿qué criterio DURASLID anota la subjefe como en riesgo?",
+            "text": "En su última reunión, los nómadas de una Comunidad jugaron con ganas, pero al salir ninguno supo decir qué se llevaba para su colegio, su casa o su barrio. Para la próxima, ¿qué criterio DURASLID anota la subjefe como en riesgo?",
             "options": [
-              "Útil: lo vivido no se conectó con algo que les sirva en su vida fuera de la reunión.",
               "Recompensante: faltó un premio al final que le diera sentido a lo que hicieron.",
+              "Útil: lo que vivieron se quedó en la reunión y no tocó su vida de todos los días.",
               "Atractiva: la actividad no les llamó la atención lo suficiente como para recordarla."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
           }
         ]
       }
     },
     {
       "id": 5,
-      "title": "📚 Mi ruta de formación: Niveles 2 y 4",
+      "title": "📚 Mi ruta de formación: lo que sigue",
       "emoji": "📚",
       "navLabel": "Ruta de formación",
       "sections": [
@@ -378,6 +378,15 @@
             "<strong>Si no lo eres y lo tuyo es acompañar la progresión personal</strong> (uno-a-uno con los protagonistas) → empieza por el <strong>Curso 13 (Seguimiento de la Progresión)</strong>.",
             "<strong>Si entras nuevo y aún no tienes una función clara</strong> → en el orden que más le sirva a tu unidad."
           ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cuando ejerzas un cargo: el Nivel 3 (Cursos 16–20)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si acompañas la progresión de tus protagonistas, el <strong>Curso 17 (Acompañar la Progresión Personal)</strong> te sirve desde ya. Y si eres Jefe de Rama, Comisionado de Programa de Jóvenes, Consejero Juvenil o coordinas la Red de Jóvenes, tu curso de cargo está en el Nivel 3: el <strong>Curso 16 (Jefe de Rama)</strong>, el <strong>18 (Comisionado de Programa de Jóvenes)</strong>, el <strong>19 (Consejero Juvenil)</strong> y el <strong>20 (Red de Jóvenes)</strong>. Tómalo cuando ejerzas el cargo."
         },
         {
           "type": "heading",
@@ -435,18 +444,18 @@
           {
             "text": "Una dirigente cerró el Nivel 1 y quiere empezar este mes el Curso 10 y el Kit HeForShe. Aún no hace A Salvo del Peligro. ¿Qué le dices?",
             "options": [
-              "Que arranque ya con los dos y agende esta semana los módulos de A Salvo del Peligro.",
               "Que arranque ya con los dos y deje A Salvo del Peligro para cuando cierre el Nivel 2.",
-              "Que haga antes A Salvo del Peligro: sin esos certificados no se le abre el Nivel 2."
+              "Que arranque ya con los dos y agende esta semana los módulos de A Salvo del Peligro.",
+              "Que arranque ya con los dos y espere a que su jefe inmediato le asigne A Salvo del Peligro."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
           }
         ]
       }
     },
     {
       "id": 6,
-      "title": "🤝 Mi par dirigente + Promesa personal",
+      "title": "🤝 Mi par dirigente + promesa personal",
       "emoji": "🤝",
       "navLabel": "Par y promesa",
       "sections": [
@@ -518,29 +527,29 @@
         "nextLabel": "Obtener mi certificado 🎓",
         "questions": [
           {
-            "text": "Un Jefe de Tropa quiere un par dirigente con quien revisar su plan cada mes. ¿Cuál de estas elecciones se aleja de lo que describe la lección?",
+            "text": "Un Jefe de Tropa busca un par dirigente con quien revisar su plan cada mes. ¿Cuál encaja con lo que describe la lección?",
             "options": [
-              "Su Jefe de Grupo, porque así alguien con autoridad se asegura de que cumpla el plan.",
-              "Su compañera de un curso de formación, jefa de Tropa en otro grupo de la región.",
-              "Un subjefe de Manada de su mismo grupo, con quien ya comparte las reuniones de los sábados."
+              "El guía de patrulla más antiguo de su Tropa, que la vive desde dentro y le dice cómo va.",
+              "Un amigo de toda la vida, ajeno al Movimiento, que lo escucha sin juzgar y le pregunta cada mes.",
+              "Una subjefa de Manada de su mismo grupo, para contarle cada mes cómo va y ajustar juntos."
             ],
-            "correctIndex": 0
+            "correctIndex": 2
           },
           {
             "text": "En la reflexión, un dirigente escribe: «Mi par es Carolina R., jefa de Manada del Grupo 12; le comparto el plan el sábado y nos vemos cada mes». ¿Qué le ajustas según la lección?",
             "options": [
-              "Que quite nombre e inicial y deje rol y ámbito: jefa de Manada de otro grupo.",
               "Que pase a revisiones semanales: cada mes es muy poco para sostener un plan nuevo.",
+              "Que quite nombre e inicial y deje rol y ámbito: jefa de Manada de otro grupo.",
               "Que busque un par de su mismo grupo: alguien de otro grupo no ve su unidad."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
           },
           {
-            "text": "Una dirigente terminó su promesa y prefiere guardársela «porque es algo íntimo». Según la lección, ¿qué le sugieres?",
+            "text": "Una dirigente terminó su promesa y su plan, y prefiere guardarse los dos «porque son algo íntimo». Según la lección, ¿qué le sugieres?",
             "options": [
-              "Que la escriba en el recuadro de su certificado y le comparta el plan a su par: lo compartido se sostiene.",
-              "Que suba la foto firmada: así queda registrada en la plataforma y su Jefe de Grupo puede verla.",
-              "Que la deje así: la promesa es personal y en el Nivel 1 compartir el plan es solo opcional."
+              "Que deje la promesa en el recuadro del certificado, que es solo suyo, y comparta el plan con su par.",
+              "Que le lea la promesa a su par y se guarde el plan, porque es lo más personal de los dos.",
+              "Que se guarde las dos cosas por ahora y busque a su par solo si un día el plan se le atasca."
             ],
             "correctIndex": 0
           }

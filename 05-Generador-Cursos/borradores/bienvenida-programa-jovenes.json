@@ -3,7 +3,7 @@
   "title": "Bienvenida al Programa de Jóvenes",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El primer paso en la Línea Programa de Jóvenes. En ~27 minutos vas a entender qué es realmente el Programa de Jóvenes (y qué no), desarmar los mitos del dirigente nuevo, ubicar las 5 ramas y la documentación marco, y dar tu primer compromiso concreto. Sin tecnicismos, con ejemplos del día a día de una unidad.",
-  "contentVersion": "2026-11-08",
+  "contentVersion": "2026-11-22",
   "icon": "🎒",
   "duration": "27 minutos",
   "level": 1,
@@ -76,15 +76,11 @@
           "text": "Mira tu propia unidad y vas a ver Programa por todos lados"
         },
         {
-          "type": "paragraph",
-          "text": "Una aclaración antes de mirarlos: cinco de estas flechas nombran elementos del Método Scout (los ocho llegan en el Curso 5). La otra —adaptación pedagógica— no es un elemento: es una forma en que el Método se nota en la unidad."
-        },
-        {
           "type": "method-grid",
           "items": [
             {
               "title": "La jefa de Manada",
-              "description": "Cambia el orden de la reunión porque los lobatos llegaron cansados. <em>→ adaptación pedagógica</em>",
+              "description": "Cambia el orden de la reunión porque los lobatos llegaron cansados. <em>→ adaptar la reunión a su grupo</em>",
               "color": "#fce4ec",
               "borderColor": "#e91e63"
             },
@@ -125,6 +121,10 @@
           "text": "Ninguno de estos adultos está pensando “estoy aplicando el Método Scout”. Pero todos lo están haciendo. Y todos, de alguna forma, están firmando esa alianza educativa con el joven que tienen al frente."
         },
         {
+          "type": "paragraph",
+          "text": "Un detalle para cuando llegues al Curso 5, donde vas a ver los ocho elementos del Método Scout: cinco de estas flechas nombran elementos del Método. La de la jefa de Manada —adaptar la reunión a su grupo— no es un elemento: es una forma en que el Método se nota en la unidad."
+        },
+        {
           "type": "policy-quote",
           "label": "📋 Ver lo que dice la política textualmente",
           "source": "Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024), §5.1 — Definición del Programa de Jóvenes.",
@@ -152,22 +152,22 @@
             "correctIndex": 0
           },
           {
-            "text": "Un subjefe de Tropa recibe a una scout nueva: se aprende su nombre, la presenta a su patrulla y le pide a la guía que la integre en el primer juego. ¿Qué está poniendo en juego?",
+            "text": "Un subjefe de Tropa recibe a una scout nueva: se aprende su nombre, la presenta a su patrulla y le pide a la guía que la integre en el primer juego. Según las flechas de la lección, ¿qué elemento del Método Scout está poniendo en juego?",
             "options": [
-              "Un elemento del Método: la adaptación pedagógica, que nombra una flecha.",
-              "Una forma en que el Método se nota, y no un elemento: la progresión personal.",
-              "Un elemento del Método: el sistema de equipos, que nombra una de las flechas."
+              "El apoyo del adulto: es él, el subjefe, quien la recibe primero y se aprende su nombre.",
+              "La progresión personal: desde el primer día empieza a acompañar su camino en la Tropa.",
+              "El sistema de equipos: deja que su patrulla y la guía sean las que la reciben y la integran."
             ],
             "correctIndex": 2
           },
           {
-            "text": "Un Viejo Lobo preparó un juego de pistas en el parque, pero ese sábado llueve fuerte y solo llegan cuatro lobatos. ¿Qué hace alguien que entiende el Programa como alianza?",
+            "text": "Un Viejo Lobo preparó un juego de pistas en el parque, pero ese sábado llueve fuerte y solo llegan cuatro lobatos. Con lo visto en la lección, ¿qué le conviene hacer?",
             "options": [
-              "Juega con los cuatro una versión corta bajo techo y les pregunta qué parte guardar para cuando estén todos.",
               "Hace el juego tal cual, bajo la lluvia: lo planeado se cumple, y así los lobatos aprenden a ser constantes.",
-              "Llama a las familias para recogerlos y lo deja para el sábado siguiente, cuando llegue la Manada completa."
+              "Juega con los cuatro una versión corta bajo techo y les pregunta qué parte guardar para cuando estén todos.",
+              "Hace bajo techo una versión corta que él mismo ajusta sin consultarles, para no perder lo que preparó."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
           }
         ]
       }
@@ -220,7 +220,13 @@
         },
         {
           "type": "paragraph",
-          "text": "La PNPJ es radical en esto: dice que el Programa está diseñado <strong>«“por” y “con” los jóvenes, no simplemente “para” ellos»</strong> (§5.2). Tu rol es apoyar, acompañar y enlazar —no dirigir—. Si los jóvenes solo deciden lo que tú permites, no estás aplicando el Método: estás aplicando otra cosa que se le parece pero no lo es."
+          "text": "La PNPJ es radical en esto: el Programa se hace por y con los jóvenes, no solo para ellos (la cita textual, aquí abajo). Tu rol es apoyar, acompañar y enlazar —no dirigir—. Si los jóvenes solo deciden lo que tú permites, no estás aplicando el Método: estás aplicando otra cosa que se le parece pero no lo es."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver el corazón de la política",
+          "source": "Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. N° 617 de 2024), §5.2 — Características del Programa de Jóvenes.",
+          "text": "[E]stá diseñado “por” y “con” los jóvenes, no simplemente “para” ellos… reconociéndolos como los principales agentes de su desarrollo."
         },
         {
           "type": "heading",
@@ -246,29 +252,29 @@
           {
             "text": "Una mamá acepta apoyar la Manada pero dice: «Nunca fui scout; mejor sigo ayudando con la logística hasta que sepa algo». Con lo que viste del Mito 1, ¿qué le respondes?",
             "options": [
-              "Que empiece ya en la Manada junto a un dirigente y se inscriba en su formación: esto se aprende caminando.",
-              "Que siga con la logística y, cuando se haya leído con calma las guías de rama, ya entre a la unidad.",
-              "Que no se preocupe por formarse: con cariño y buena voluntad ya tiene todo lo que la Manada necesita."
+              "Que entre ya y se apoye en los papás del grupo que fueron scouts de niños: ellos saben cómo es esto.",
+              "Que no se preocupe por formarse: con cariño y buena voluntad ya tiene todo lo que la Manada necesita.",
+              "Que entre ya a la Manada junto a un dirigente y se inscriba en su formación: esto se aprende caminando."
             ],
-            "correctIndex": 0
+            "correctIndex": 2
           },
           {
             "text": "En una Tropa, la patrulla quiere organizar un día de juegos en el parque del barrio. Según el rol del adulto que describe la lección, ¿qué hace su dirigente?",
             "options": [
-              "Les deja todo a ellos: no opina ni interviene en nada, para no dirigir sus decisiones.",
-              "Les pregunta qué quieren lograr, les ayuda a conseguir el permiso del parque y se queda cerca.",
-              "Les va diciendo paso a paso cómo hacerlo mejor, para que todo les salga bien desde el comienzo."
+              "Deja que lo decidan y lo armen ellos; él los apoya con el permiso del parque y se queda cerca.",
+              "Les propone tres juegos ya probados para que la patrulla escoja uno, y así el día no se les cae.",
+              "Les pide esperar al campamento del trimestre, donde un día de juegos encaja mejor en el plan de la Tropa."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
-            "text": "Un subjefe de Tropa nuevo abre la guía de su rama esperando encontrar resuelto el próximo campamento: actividades, fechas y lugar. Según lo que la lección responde al Mito 2, ¿qué sí le trae la guía?",
+            "text": "Un subjefe de Tropa nuevo abre la guía de su rama esperando encontrar resuelto el próximo campamento: actividades, fechas y lugar. Con lo que la lección responde al Mito 2, ¿qué hace con la guía?",
             "options": [
-              "El con quién de cada actividad: qué aliados o invitados conviene sumar.",
-              "El para qué de cada actividad en ese grupo y ese territorio.",
-              "El norte: lo que se busca en la rama y cómo funciona ahí el Método."
+              "Toma de la guía las actividades que propone y deja que los scouts escojan solo la fecha y el lugar.",
+              "La usa para saber qué se busca en la Tropa; actividades, fecha y lugar los decide con los scouts.",
+              "Le pide al jefe de grupo un campamento ya probado en otro grupo, para no improvisar el primero."
             ],
-            "correctIndex": 2
+            "correctIndex": 1
           }
         ]
       }
@@ -304,7 +310,7 @@
             },
             {
               "title": "⚜️ Rama Scouts — Tropa (11–14 años)",
-              "description": "Grupo natural: Patrullas, con su Guía y su Subguía de Patrulla (jóvenes que la patrulla elige). Marco simbólico: La Aventura.",
+              "description": "Grupo natural: Patrullas, con su Guía, que la patrulla elige, y su Subguía, que lo apoya y lo reemplaza cuando hace falta. Marco simbólico: La Aventura.",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             },
@@ -337,19 +343,13 @@
           "items": [
             "<strong>Política Nacional de Programa de Jóvenes</strong> (Acuerdo C.S.N. N° 617 del 11 de diciembre de 2024) — la norma marco del PJ.",
             "<strong>Modelo de Aplicación “El Gran Juego para la Vida”</strong> (DNPJ 2026) — el manual pedagógico que aterriza la política al día a día.",
-            "<strong>Guías de Dirigente por rama</strong> (Familia, Manada, Tropa, Comunidad y Clan — DNPJ 2026).",
+            "<strong>Guías de Dirigente por rama</strong> (Familia, Manada, Tropa, Comunidad y Clan — DNPJ 2026) — lo que busca cada rama y cómo funciona ahí el Método.",
             "<strong>Recursos Educativos para Dirigentes — Herramientas de Seguimiento para la Progresión Personal 2.0</strong> (DNPJ) — la caja de herramientas evaluativas que usarán todos los dirigentes."
           ]
         },
         {
           "type": "info-box",
           "text": "Los puedes consultar todos en <a href=\"https://scout.org.co/biblioteca\" target=\"_blank\" rel=\"noopener\">scout.org.co/biblioteca</a>. No tienes que aprendértelos. Solo saber que existen y dónde encontrarlos cuando los necesites. En los Cursos 5 y 6 los vamos a recorrer juntos. En el Curso 6 vuelves a este mapa, con la Promesa y la Ley de cada rama."
-        },
-        {
-          "type": "policy-quote",
-          "label": "📋 Ver el corazón de la política",
-          "source": "Política Nacional de Programa de Jóvenes (Acuerdo C.S.N. N° 617 de 2024), §5.2 — Características del Programa de Jóvenes.",
-          "text": "[E]stá diseñado “por” y “con” los jóvenes, no simplemente “para” ellos… reconociéndolos como los principales agentes de su desarrollo."
         }
       ],
       "reflection": {
@@ -380,11 +380,11 @@
           {
             "text": "Una dirigente de Comunidad quiere saber qué busca su rama con los nómadas y cómo funciona ahí el Método. Un compañero le dice que se lea la Política Nacional completa. Con el mapa de documentos de la lección, ¿qué le sugieres?",
             "options": [
-              "Empezar por la Guía de Dirigente de Comunidad, que aterriza eso para su rama, y volver a la Política si la necesita.",
-              "Empezar por las Herramientas de Seguimiento de la Progresión, porque ahí está explicado cómo funciona cada rama.",
-              "Leerse antes los cuatro documentos completos y tomar notas de todos, para no equivocarse con los nómadas."
+              "Empezar por el Modelo de Aplicación, que aterriza la política al día a día, y dejar la Guía para después.",
+              "Leerse antes los cuatro documentos completos y tomar notas de todos, para no equivocarse con los nómadas.",
+              "Empezar por la Guía de Dirigente de Comunidad, que lo aterriza para su rama, y volver a la Política si hace falta."
             ],
-            "correctIndex": 0
+            "correctIndex": 2
           }
         ]
       }
@@ -406,7 +406,7 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "Tres historias reales (con detalles cambiados)"
+          "text": "Tres historias para ver la diferencia"
         },
         {
           "type": "timeline",
@@ -468,10 +468,10 @@
             "correctIndex": 2
           },
           {
-            "text": "Un Viejo Lobo tiene una lobata de 9 años que va a todas las reuniones, se divierte y nunca ha propuesto nada. ¿Qué le conviene hacer ante todo, según lo que le faltó a Mariana?",
+            "text": "Un Viejo Lobo tiene una lobata de 9 años que va a todas las reuniones, se divierte y nunca ha propuesto nada. Con lo que hacía el dirigente de Camilo, ¿qué le conviene hacer ante todo?",
             "options": [
-              "Ponerle cada sábado una tarea fija en la seisena, para que se acostumbre a participar más.",
-              "Sentarse con ella a preguntarle qué le gustaría aprender y qué proyecto escoger.",
+              "Armarle él un proyecto llamativo para la seisena, para que ella se anime a participar en algo nuevo.",
+              "Sentarse con ella a preguntarle qué le gustaría aprender y dejar que escoja su propio proyecto.",
               "Dejarla tranquila: si se divierte y viene a todas las reuniones, el Programa ya le está sirviendo."
             ],
             "correctIndex": 1
@@ -479,11 +479,11 @@
           {
             "text": "Un dirigente de Manada dice: «Si los chicos vuelven cada sábado contentos, el Programa está funcionando». Con las tres historias de la lección, ¿qué le respondes?",
             "options": [
-              "Que volver contentos no basta: Mariana iba feliz cada sábado y se fue sin haber escogido nada propio.",
               "Que tiene razón: si un niño se divierte cada semana, ya está creciendo en todas sus áreas a la vez.",
-              "Que la diversión estorba: Camilo y Sofía crecieron porque sus reuniones eran serias y muy exigentes."
+              "Que depende de la rama: en la Manada basta con que vuelvan contentos; en la Tropa ya hay que pedir más.",
+              "Que volver contentos no basta: Mariana iba feliz cada sábado y se fue sin haber escogido nada propio."
             ],
-            "correctIndex": 0
+            "correctIndex": 2
           }
         ]
       }
@@ -529,7 +529,7 @@
         },
         {
           "type": "mission-box",
-          "text": "No prometas grande. Promete chico. La diferencia entre un dirigente que transforma y uno que se quema son cien promesas chicas cumplidas, no una grande olvidada."
+          "text": "No prometas grande. Promete chico. La diferencia entre un dirigente que transforma y uno que se quema son cien promesas chicas cumplidas, no una grande olvidada. Y si una semana no se pudo, no lo agrandes para compensar: repítelo igual de chico y fíjate qué te frenó."
         },
         {
           "type": "heading",
@@ -581,11 +581,11 @@
           {
             "text": "Una dirigente escribió un compromiso chico: dejar que la patrulla escogiera el juego. Llovió, se suspendió la salida y no lo cumplió. ¿Qué le conviene hacer ahora?",
             "options": [
-              "Repetirlo en la próxima reunión, igual de chico, y anotar qué la frenó esta vez para preverlo.",
               "Cambiarlo por uno más ambicioso para todo el trimestre, y así compensar la semana que se perdió.",
-              "Esperar a terminar el Nivel 1 completo, para comprometerse luego con algo mejor preparado."
+              "Repetirlo en la próxima reunión, igual de chico, y anotar qué la frenó esta vez para preverlo.",
+              "Cambiarlo por otro igual de chico pero sin la patrulla, para no depender de nadie la próxima vez."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
           }
         ]
       }

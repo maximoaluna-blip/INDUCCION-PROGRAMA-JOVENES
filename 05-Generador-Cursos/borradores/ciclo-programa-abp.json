@@ -3,7 +3,7 @@
   "title": "Ciclo de Programa con ABP",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El último del Nivel 2, y el tercero de los cursos operativos. De dónde salen las reuniones que ya sabes planear: de un proyecto que tu unidad eligió y sostiene durante meses. Y por qué tu Guía de rama cuenta cuatro momentos donde el Modelo cuenta cinco.",
-  "contentVersion": "2026-11-08",
+  "contentVersion": "2026-11-22",
   "icon": "🎯",
   "duration": "53 minutos",
   "level": 2,
@@ -125,7 +125,7 @@
             },
             {
               "title": "Cuatro de las cinco Guías",
-              "description": "<strong>Cuatro momentos</strong> en Familia, Manada, Tropa y Comunidad. Familia y Comunidad los numeran; Manada dice <em>«comprender la realidad, decidir juntos qué vivir, organizarlo con intención y, finalmente, experimentar y evaluar»</em>; Tropa, <em>«conocer la realidad, planificar, realizar y evaluar»</em>. <strong>La de Clan no los enumera</strong>: cuenta la historia del ciclo, no sus pasos.",
+              "description": "<strong>Cuatro momentos</strong> en Familia, Manada, Tropa y Comunidad. Familia y Comunidad los numeran; Manada dice <em>«comprender la realidad, decidir juntos qué vivir, organizarlo con intención y, finalmente, experimentar y evaluar»</em>; Tropa, <em>«conocer la realidad, planificar, realizar y evaluar»</em>. <strong>La de Clan no los enumera</strong>: define el ciclo por «fases sucesivas», sin contarlas ni darles nombre de momento.",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             }
@@ -133,7 +133,7 @@
         },
         {
           "type": "info-box",
-          "text": "📄 <strong>Y hay un séptimo, que cuenta distinto a propósito.</strong> El <em>Modelo de Aplicación de Bolsillo</em> —el resumen de 14 páginas— dedica su Capítulo 11 al mismo asunto y <strong>no enumera momentos</strong>: dice que <em>«planear, hacer, celebrar, revisar y volver a proyectar no son momentos aislados, sino un movimiento continuo»</em>, y lo ordena en pasos, no en momentos. Fíjate en una cosa: <strong>«celebrar» está ahí, en medio</strong>: apunta al mismo hueco que las Guías dejan, aunque el <em>Modelo</em> le pide más que una fiesta."
+          "text": "📄 <strong>Y hay un séptimo, que cuenta distinto a propósito.</strong> El <em>Modelo de Aplicación de Bolsillo</em> no enumera momentos: dice que <em>«planear, hacer, celebrar, revisar y volver a proyectar no son momentos aislados, sino un movimiento continuo»</em>, y ese «celebrar», en medio, apunta al mismo hueco que dejan las Guías."
         },
         {
           "type": "heading",
@@ -152,12 +152,12 @@
             "<strong>Planificación con ABP</strong> — el resto del Momento 1 y todo el Momento 2: elegir y organizar.",
             "<strong>Ejecución iterativa</strong> — el Momento 3: realizar.",
             "<strong>Presentación pública</strong> — <strong>este no está en tu Guía.</strong>",
-            "<strong>Evaluación y transferencia</strong> — el Momento 4: evaluar. <em>(En Manada la cuenta corre distinto: su Fase 3 es organizar y preparar, y la 4 junta desarrollar y evaluar.)</em>"
+            "<strong>Evaluación y transferencia</strong> — el Momento 4: evaluar."
           ]
         },
         {
           "type": "paragraph",
-          "text": "Ahí está el orden. <strong>Ese cuarto momento —el que le falta a la cuenta de tu Guía— es exactamente lo que el ABP le añade al ciclo de siempre</strong>, y por eso el <em>Modelo</em> titula el apartado donde lo explica (§11.2) <strong>«El Ciclo de Programa amalgamado con ABP»</strong>, y no «el ciclo <em>o</em> ABP». Ninguna Guía está mal: describen el ciclo scout de toda la vida. El <em>Modelo</em> describe ese mismo ciclo <strong>después</strong> de fundirlo con una metodología que le pide una cosa más."
+          "text": "En Manada la cuenta corre distinto —su Fase 3 es organizar y preparar, y la 4 junta desarrollar y evaluar—, pero el momento que falta es el mismo. Ahí está el orden. <strong>Ese cuarto momento —el que le falta a la cuenta de tu Guía— es exactamente lo que el ABP le añade al ciclo de siempre</strong>, y por eso el <em>Modelo</em> titula el apartado donde lo explica (§11.2) <strong>«El Ciclo de Programa amalgamado con ABP»</strong>, y no «el ciclo <em>o</em> ABP». Ninguna Guía está mal: describen el ciclo scout de toda la vida. El <em>Modelo</em> describe ese mismo ciclo <strong>después</strong> de fundirlo con una metodología que le pide una cosa más."
         },
         {
           "type": "info-box",
@@ -227,7 +227,7 @@
         },
         {
           "type": "info-box",
-          "text": "🔗 <strong>Y esto no viene a reemplazar nada.</strong> Míralo donde más se nota: el <strong>sistema de equipos</strong> encuentra por fin un proyecto que lo necesita de verdad —no un reparto de tareas inventado—, y la <strong>progresión personal</strong> se alimenta de lo que los protagonistas hacen en él, no de lo que suponemos de ellos. Con los demás elementos del Método pasa igual. El ABP no compite con el Método Scout: le da un sitio donde ocurrir."
+          "text": "🔗 <strong>Y esto no viene a reemplazar nada:</strong> el <strong>sistema de equipos</strong> encuentra por fin un proyecto que lo necesita de verdad, y la <strong>progresión personal</strong> se alimenta de lo que los protagonistas hacen en él."
         },
         {
           "type": "heading",
@@ -274,7 +274,7 @@
         "nextLabel": "Continuar al destinatario 🎯",
         "questions": [
           {
-            "text": "La unidad tiene su pregunta guía, va a hacer un mapa de la quebrada, guardará fotos de cada salida y lo mostrará en la feria del barrio. Nadie sabe todavía quién va a usar el mapa. ¿Qué le falta de lo que el Modelo pide a un ABP?",
+            "text": "La unidad tiene su pregunta guía, va a hacer un mapa de la quebrada, guardará fotos de cada salida y lo mostrará en la feria del barrio, a quien pase por el puesto. ¿Qué le falta de lo que el Modelo pide a un ABP?",
             "options": [
               "Un destinatario: alguien concreto que reciba el mapa, lo use y pueda decir después si le sirvió.",
               "Duración: con un solo mapa no alcanza a ser un proyecto, porque un proyecto se mide en meses.",
@@ -294,9 +294,9 @@
           {
             "text": "Al diagnosticar la Manada, el equipo de dirigentes define «cuidar el entorno» como énfasis del ciclo. Uno de ellos dice: «listo, ya tenemos proyecto». ¿Qué le respondes?",
             "options": [
-              "Que el énfasis llega después: en Manada se define al documentar el ciclo, con el proyecto ya elegido.",
-              "Que el énfasis no es el proyecto: es la intención educativa con la que ahora van a elegir el proyecto.",
-              "Que casi: a ese énfasis solo le falta un destinatario para que el consejo pueda arrancar el proyecto."
+              "Que todavía no: primero hay que fijar la duración del ciclo, y con ella el proyecto se define solo.",
+              "Que todavía no: el énfasis es la intención educativa con la que ahora van a elegir el proyecto.",
+              "Que todavía no: falta que el Consejo de Roca lo vote, y con eso el énfasis ya queda como proyecto."
             ],
             "correctIndex": 1
           }
@@ -342,7 +342,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El <em>Modelo</em> cierra este momento con una frase corta: <strong>«se verifica la presencia de DURASLID»</strong>. Es el mismo filtro que viste en el <strong>Curso 14</strong>, y si entraste directo aquí, en una línea: son los <strong>ocho atributos</strong> que el <em>Modelo</em> le pide a una oportunidad de aprendizaje — <strong>D</strong>esafiantes, <strong>Ú</strong>tiles, <strong>R</strong>ecompensantes, <strong>A</strong>tractivas, <strong>S</strong>eguras, <strong>L</strong>údicas, <strong>I</strong>nclusivas y <strong>D</strong>iversas. DURASLID se pone <strong>tres veces</strong> —cuando diseñas, cuando facilitas y cuando cierras—, y este es el primero de los tres: el que casi nadie usa. Si el proyecto no cumple la mayoría de los ocho <em>ahora</em>, el <em>Modelo</em> recomienda ajustarlo antes de ejecutarlo. En septiembre todavía se puede; en noviembre ya no. <em>Si eres de Clan, fíjate: tu Guía, al desplegar la sigla, pone «Lúdicas» antes que «Seguras», y una vez la escribe</em> <strong>DURALSID</strong><em>. Son los mismos ocho.</em>"
+          "text": "El <em>Modelo</em> cierra este momento con una frase corta: <strong>«se verifica la presencia de DURASLID»</strong>. Es el mismo filtro que viste en el <strong>Curso 14</strong>, y si entraste directo aquí, en una línea: son los <strong>ocho atributos</strong> que el <em>Modelo</em> le pide a una oportunidad de aprendizaje — <strong>D</strong>esafiantes, <strong>Ú</strong>tiles, <strong>R</strong>ecompensantes, <strong>A</strong>tractivas, <strong>S</strong>eguras, <strong>L</strong>údicas, <strong>I</strong>nclusivas y <strong>D</strong>iversas. DURASLID se pone <strong>tres veces</strong> —cuando diseñas, cuando facilitas y cuando cierras—, y este es el primero de los tres: el que casi nadie usa. Si el proyecto no cumple la mayoría de los ocho <em>ahora</em>, el <em>Modelo</em> recomienda ajustarlo antes de ejecutarlo. En septiembre todavía se puede; en noviembre ya no."
         },
         {
           "type": "policy-quote",
@@ -356,7 +356,7 @@
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y en tu rama.</strong> <strong>Familia:</strong> los criterios de éxito caben en dos frases y se dicen en voz alta, no se escriben. <strong>Manada:</strong> la seisena asume un rol del proyecto, y el adulto sostiene el calendario. <strong>Tropa:</strong> cada patrulla se lleva una parte con su propio responsable; el guía responde por ella. <strong>Comunidad:</strong> los equipos negocian entre ellos el reparto y lo llevan al Congreso. <strong>Clan:</strong> el plan lo escriben los rovers y tú apareces donde haga falta una firma o una puerta que solo un adulto puede abrir."
+          "text": "🌿 <strong>Y en tu rama.</strong> <strong>Familia:</strong> los criterios de éxito caben en dos frases y se dicen en voz alta, no se escriben. <strong>Manada:</strong> la seisena asume un rol del proyecto, y el adulto sostiene el calendario. <strong>Tropa:</strong> cada patrulla se lleva una parte con su propio responsable; el guía responde por ella. <strong>Comunidad:</strong> los equipos negocian entre ellos el reparto y lo llevan al Congreso. <strong>Clan:</strong> el plan lo escriben los rovers y tú apareces donde haga falta una firma o una puerta que solo un adulto puede abrir. Y al pasarlo por el filtro, fíjate: tu Guía, al desplegar la sigla, pone «Lúdicas» antes que «Seguras», y una vez la escribe <strong>DURALSID</strong>. Son los mismos ocho."
         }
       ],
       "reflection": {
@@ -367,11 +367,11 @@
         "nextLabel": "Continuar a la ejecución 🔁",
         "questions": [
           {
-            "text": "El consejo ya tiene pregunta guía y, al buscar destinatario, un rover dice: «el barrio». ¿Qué haces?",
+            "text": "El consejo ya tiene pregunta guía y, al buscar destinatario, un guía de patrulla dice: «el barrio». ¿Qué haces?",
             "options": [
               "Pedirles que lo aprieten hasta alguien a quien se pueda llamar: la junta, el colegio, una tienda.",
-              "Aceptarlo: el barrio es un destinatario amplio y así ningún vecino queda por fuera del proyecto.",
-              "Nombrarlo tú esta misma noche, para que el consejo no pierda otra semana discutiendo el destinatario."
+              "Pedirles que lo aprieten a «los vecinos de la quebrada», que ya es más concreto que el barrio entero.",
+              "Aceptarlo por ahora y concretarlo al final, cuando se vea quién se interesó de verdad por el proyecto."
             ],
             "correctIndex": 0
           },
@@ -387,11 +387,11 @@
           {
             "text": "La Tropa quiere entregar su mapa a la junta de acción comunal, pero nadie en la unidad conoce a nadie en la junta. ¿Cuál es tu aporte aquí?",
             "options": [
-              "Dejar que los guías busquen el contacto solos: abrir esa puerta también es parte de su aprendizaje.",
-              "Abrir tú la puerta con la junta, y dejar que el proyecto y la entrega sigan siendo de la Tropa.",
-              "Abrir tú la puerta y presentar tú el mapa, para que la junta tome en serio el trabajo de la unidad."
+              "Abrir tú la puerta con la junta y llevar tú la conversación, para que los guías aprendan viéndote.",
+              "Abrir tú la puerta con la junta cuando el mapa esté listo, para no comprometer a la unidad antes de tiempo.",
+              "Abrir tú la puerta con la junta, y dejar que el proyecto y la entrega sigan siendo de la Tropa."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           }
         ]
       }
@@ -448,9 +448,9 @@
           {
             "text": "El plan del ciclo tiene una sola fecha de evaluación: la última, en cuatro meses. ¿Qué le cambias antes de aprobarlo?",
             "options": [
-              "Le dejo la fecha final, pero con más tiempo, para que recoja cada tramo con todo el detalle.",
+              "Le pongo una sola revisión a mitad de camino, para no cargar al consejo con más reuniones.",
               "Le pongo dos o tres fechas antes del final, cada una con la pregunta con que cierra.",
-              "Le pongo una evaluación al final de cada reunión, para no dejar escapar ningún aprendizaje."
+              "Le pongo dos o tres fechas antes del final, para que el equipo de dirigentes revise el avance."
             ],
             "correctIndex": 1
           },
@@ -527,7 +527,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Vuelve a la actividad más grande que tu unidad hizo el año pasado. ¿Cómo terminó? Escríbelo en una línea. Y después contesta: <strong>¿quién que no fuera del Grupo se enteró de que eso existió?</strong> Y una última, mirando adelante: para el proyecto que tienes por delante, <strong>escribe en una línea cómo va a terminar</strong> — quién lo recibe, dónde, y qué van a tener que explicar los protagonistas ahí. Con esas tres cosas la presentación pública ya está preparada; lo demás es logística y sillas."
+        "prompt": "Vuelve a la actividad más grande que tu unidad hizo el año pasado y contesta: <strong>¿quién que no fuera del Grupo se enteró de que eso existió?</strong> Y después, mirando adelante: para el proyecto que tienes por delante, <strong>escribe en una línea cómo va a terminar</strong> — quién lo recibe, dónde, y qué van a tener que explicar los protagonistas ahí. Con esa línea la presentación pública ya está preparada; lo demás es logística y sillas."
       },
       "quiz": {
         "title": "Mini-quiz Lección 5",
@@ -583,11 +583,13 @@
         },
         {
           "type": "info-box",
-          "text": "🔁 <strong>Y aquí vuelve DURASLID, por tercera vez.</strong> Si eres de <strong>Comunidad</strong>, tu Guía lo pide con todas sus letras justo en este momento: <em>«se evalúan las oportunidades de aprendizaje con los criterios DURASLID»</em>. Si eres de <strong>Familia</strong>, la tuya lo pide dos veces: al organizar el plan del ciclo y otra vez aquí, con la misma frase. Es el mismo filtro en dos de sus tres momentos."
+          "text": "🎒 <strong>«¿Qué te llevas a casa, a la escuela, a tu equipo?»</strong> Es literal del <em>Modelo</em>. Y no es retórica: se responde, se anota y se revisa. Un proyecto sobre una quebrada que no cambia nada en cómo esos chicos tiran la basura el martes siguiente fue una actividad muy bonita."
         },
         {
-          "type": "info-box",
-          "text": "🎒 <strong>«¿Qué te llevas a casa, a la escuela, a tu equipo?»</strong> Es literal del <em>Modelo</em>. Y no es retórica: se responde, se anota y se revisa. Un proyecto sobre una quebrada que no cambia nada en cómo esos chicos tiran la basura el martes siguiente fue una actividad muy bonita."
+          "type": "policy-quote",
+          "label": "📖 El último momento, textual",
+          "source": "Modelo de Aplicación de la Política Nacional de Programa de Jóvenes «El Gran Juego para la Vida» (DNPJ), §11.2e, p. 77 del PDF.",
+          "text": "Se cosechan evidencias observables sobre proceso, producto y competencias movilizadas y se verifican acciones de transferencia: ¿qué te llevas a casa, a la escuela, a tu equipo? Aquí tú abres puertas para la continuidad y orientas la ruta de avance."
         },
         {
           "type": "heading",
@@ -632,6 +634,10 @@
         },
         {
           "type": "info-box",
+          "text": "🔁 <strong>Y aquí vuelve DURASLID, por tercera vez.</strong> Si eres de <strong>Comunidad</strong>, tu Guía lo pide con todas sus letras justo en este momento: <em>«se evalúan las oportunidades de aprendizaje con los criterios DURASLID»</em>. Si eres de <strong>Familia</strong>, la tuya lo pide dos veces: al organizar el plan del ciclo y otra vez aquí, con la misma frase. Es el mismo filtro en dos de sus tres momentos."
+        },
+        {
+          "type": "info-box",
           "text": "🌿 <strong>Y en tu rama.</strong> <strong>Familia:</strong> la transferencia se acuerda con una acción de casa, y se le cuenta a la familia para que la sostenga. <strong>Manada:</strong> un compromiso concreto por seisena, revisado un par de semanas después. <strong>Tropa:</strong> cada patrulla escribe qué hará distinto en la siguiente salida. <strong>Comunidad:</strong> la transferencia ya admite que se la midan entre ellos. <strong>Clan:</strong> la pregunta es más dura — qué cambia en su proyecto de vida, no solo en su próximo sábado."
         }
       ],
@@ -654,9 +660,9 @@
           {
             "text": "El consejo prepara un formulario de veinte preguntas para que las familias evalúen el ciclo al final. ¿Qué falla?",
             "options": [
-              "Que el formulario debería ir dirigido a los protagonistas y no a las familias del grupo.",
+              "Que el formulario debería ir dirigido a los protagonistas, que fueron quienes vivieron el ciclo.",
               "Que se evalúa una sola vez, al final y por escrito, cuando ya nadie puede corregir nada del ciclo.",
-              "Que las familias no tienen elementos para evaluar un ciclo que no vivieron desde dentro."
+              "Que veinte preguntas cansan: con cinco bien elegidas la familia respondería más y con más cuidado."
             ],
             "correctIndex": 1
           },
@@ -718,6 +724,12 @@
           "text": "Y la regla para elegir es de una línea: <strong>«elige el ritmo que puedes sostener con calidad»</strong>. No el que suena mejor el día en que se decide."
         },
         {
+          "type": "policy-quote",
+          "label": "📖 La regla para elegir, textual",
+          "source": "Modelo de Aplicación de la Política Nacional de Programa de Jóvenes «El Gran Juego para la Vida» (DNPJ), §11.4, p. 79 del PDF.",
+          "text": "Elige el ritmo que puedes sostener con calidad. No hay obligación de sincronizar progresión personal con el calendario del ciclo: el ciclo multiplica oportunidades; la progresión acredita evidencias a ritmos distintos."
+        },
+        {
           "type": "heading",
           "level": 3,
           "text": "Lo que dice tu Guía"
@@ -745,11 +757,11 @@
           {
             "text": "Tu Tropa venía de un año flojo y eligió un microciclo de seis semanas. Va muy bien, y a mitad de camino quieren volverlo anual. ¿Qué haces?",
             "options": [
-              "Volverlo anual de una vez: si va bien, frenar el entusiasmo sería desperdiciar la victoria lograda.",
-              "Cerrar el micro como se planeó, celebrarlo y decidir el próximo ciclo con lo que les enseñó este.",
-              "Adelantar el cierre dos semanas, para asegurar la victoria temprana antes de que algo se tuerza."
+              "Volverlo anual solo si el consejo lo vota hoy por mayoría, para que la decisión siga siendo de ellos.",
+              "Cerrar el micro como se planeó y empalmar enseguida un macrociclo, para no enfriar el entusiasmo.",
+              "Cerrar el micro como se planeó, celebrarlo y decidir el próximo ciclo con lo que les enseñó este."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "En la reunión de dirigentes de tu unidad alguien propone que todos los ciclos duren lo mismo que una fase de progresión, «así todo cuadra». ¿Qué le dices?",
@@ -761,10 +773,10 @@
             "correctIndex": 0
           },
           {
-            "text": "Una dirigente de Comunidad llega al consejo con el próximo ciclo ya fijado: cuatro meses. ¿Qué le propones?",
+            "text": "Una dirigente de Comunidad llega a la reunión del equipo de dirigentes con el próximo ciclo ya fijado: cuatro meses. ¿Qué le propones?",
             "options": [
               "Llevar la duración al Congreso de Comunidad como pregunta abierta, con el rango de tres a seis meses a la vista.",
-              "Mantenerla: cuatro meses cae dentro del rango que da la Guía, así que la fecha ya cumple con lo que pide.",
+              "Mantenerla: cuatro meses cae dentro del rango de tres a seis meses que da la Guía, así que ya cumple con lo que pide.",
               "Dejar la duración en blanco y que el proyecto la vaya marcando sobre la marcha, como se hace en el Clan."
             ],
             "correctIndex": 0
@@ -828,7 +840,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Y vale la pena mirar atrás un momento. En el <strong>Curso 5</strong> viste las <strong>4 Dinámicas del Escultismo</strong> — <strong>Competencias Educativas</strong>, <strong>Oportunidades de Aprendizaje</strong>, <strong>Vida en Grupo</strong> y <strong>Estructura y Funcionamiento</strong> — y te dijimos que se viven a la vez, no una por una. Un ciclo de programa con ABP es, probablemente, el sitio donde más claro se ve: la pregunta guía apunta a <strong>competencias educativas</strong>, el proyecto genera <strong>oportunidades</strong>, los equipos son la <strong>vida en grupo</strong>, y los consejos y el reparto de roles son la <strong>estructura</strong>. No hay que activarlas: hay que dejar que el ciclo las pida."
+          "text": "Y vale la pena mirar atrás un momento: en el <strong>Curso 5</strong> viste que las <strong>4 Dinámicas del Escultismo</strong> se viven a la vez, y un ciclo con ABP es donde más claro se ve — la pregunta guía apunta a <strong>Competencias Educativas</strong>, el proyecto genera <strong>Oportunidades de Aprendizaje</strong>, los equipos son la <strong>Vida en Grupo</strong>, y los consejos y el reparto de roles son la <strong>Estructura y Funcionamiento</strong>. No hay que activarlas: hay que dejar que el ciclo las pida."
         },
         {
           "type": "policy-quote",
@@ -847,7 +859,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Con este curso cierras el <strong>Nivel 2</strong>: conoces tu rama, sabes mirar la progresión de tus protagonistas, sabes decidir una reunión y sabes de dónde salen las reuniones. Lo que sigue es el <strong>Nivel 3</strong>, que ya no va por rama sino <strong>por el cargo que ejerces</strong> — jefe de rama, comisionado, consejero juvenil, y coordinador y comunicador de la Red de Jóvenes—, y ya lo abrieron el <strong>Curso 16, Jefe de Rama</strong>, y el <strong>Curso 17, Acompañar la Progresión Personal</strong>, que es para todo dirigente de unidad. Y conviene pronto el <a href=\"a-salvo-del-peligro-programa.html\"><strong>Curso 25, A Salvo del Peligro aplicado al Programa</strong></a>, del Nivel 4: cómo el Método hace segura a tu unidad. Ya está disponible en la página de esta línea."
+          "text": "Con este curso cierras el <strong>Nivel 2</strong>: conoces tu rama, sabes mirar la progresión de tus protagonistas, sabes decidir una reunión y sabes de dónde salen las reuniones. Lo que sigue es el <strong>Nivel 3</strong>, que ya no va por rama sino <strong>por el cargo que ejerces</strong>, y ya está completo: empieza por el <strong>Curso 17, Acompañar la Progresión Personal</strong>, que es para todo dirigente de unidad, y sigue por el de tu cargo. Y conviene pronto el <a href=\"a-salvo-del-peligro-programa.html\"><strong>Curso 25, A Salvo del Peligro aplicado al Programa</strong></a>, del Nivel 4: cómo el Método hace segura a tu unidad. Todos están disponibles en la página de esta línea."
         },
         {
           "type": "info-box",
@@ -886,9 +898,9 @@
           {
             "text": "La Manada propone recuperar toda la quebrada y reforestar sus dos orillas en un trimestre. Todos están entusiasmados. ¿Qué corresponde?",
             "options": [
-              "Dejar que lo intenten tal cual y que el tropiezo les enseñe: equivocarse también educa a un lobato.",
+              "Preguntarles cuánto tiempo necesitan para la quebrada entera, y volver el ciclo anual para que quepa.",
               "Preguntarles qué tramo de la quebrada podrían cuidar de verdad hasta diciembre, y empezar por ese.",
-              "Llevarles tú un proyecto más pequeño ya armado, para que no se les vaya el trimestre en ajustes."
+              "Preguntarles qué tramo pueden cuidar, y dejar las dos orillas como meta del trimestre para no apagarlos."
             ],
             "correctIndex": 1
           }

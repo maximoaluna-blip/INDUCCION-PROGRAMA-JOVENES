@@ -3,7 +3,7 @@
   "title": "Rama Rovers (Clan)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El último curso de rama, y el único cuyos protagonistas son mayores de edad. Vas a acompañar a Sebastián desde el día que llega al Clan hasta su Partida Rover, y a entender el cambio que define esta rama: aquí tu trabajo es volverte innecesario.",
-  "contentVersion": "2026-11-08",
+  "contentVersion": "2026-11-22",
   "icon": "🏔️",
   "duration": "71 minutos",
   "level": 2,
@@ -156,11 +156,11 @@
           {
             "text": "El Clan lleva tres semanas sin reunirse porque nadie convocó. Tú tienes el grupo de WhatsApp y podrías escribir ahora mismo. ¿Qué haces?",
             "options": [
-              "Le mandas tú la convocatoria al grupo: tres semanas sin reunirse ya es demasiado.",
-              "Le escribes al presidente del Comité de Clan y le preguntas qué va a hacer él con esas tres semanas.",
-              "Escribes tú en el grupo que llevan tres semanas sin verse, sin convocar: solo un recordatorio para que ellos decidan."
+              "Le escribes al presidente del Comité de Clan con fecha y lugar ya propuestos, para que solo tenga que reenviarlo.",
+              "Escribes tú en el grupo que llevan tres semanas sin verse, sin convocar: solo un recordatorio para que ellos decidan.",
+              "Le escribes al presidente del Comité de Clan y le preguntas qué piensa hacer él con esas tres semanas sin reunirse."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "Camilo cumplió 20 años en marzo y alcanzó la fase de Rover Transformador. El Clan quiere trabajar con calma su insignia máxima BP y presentar la solicitud a comienzos del año entrante. ¿Qué les dices?",
@@ -175,10 +175,10 @@
             "text": "El Consejo de Clan eligió para el semestre una huerta comunitaria en un lote del barrio del que nadie ha averiguado quién es el dueño. Tú preferías un proyecto de memoria histórica. ¿Qué haces?",
             "options": [
               "Lo acompañas como está: el proyecto es del Clan, y si el lote trae problemas, eso también será parte de lo que aprendan.",
-              "Preguntas en el Consejo quién va a confirmar de quién es el lote antes de sembrar, y tu proyecto no lo vuelves a mencionar.",
-              "Les propones juntar las dos ideas en una huerta que recupere la memoria del barrio, para que nadie quede por fuera."
+              "Les pides que siembren en otro lote, uno que tú conozcas y sepas de quién es, para no poner en riesgo el proyecto.",
+              "Preguntas en el Consejo quién va a confirmar de quién es el lote antes de sembrar, y tu proyecto no lo vuelves a mencionar."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           }
         ]
       }
@@ -251,7 +251,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Hay algo que solo pasa en esta rama: aquí la Promesa casi nunca es la primera. Sebastián ya la hizo en la Tropa y la renovó en la Comunidad. Lo que ocurre en el Clan es una <strong>renovación</strong> — y la Guía explica por qué no es repetir: <em>«Nunca una promesa se pronuncia ante las mismas personas, en el mismo lugar o por las mismas razones»</em>."
+          "text": "Y en el Clan pasa algo propio: para quien llega como Ciudadano Scout, como Sebastián, la Promesa ya no es la primera. Lo que ocurre aquí es una <strong>renovación</strong> —la investidura queda para quien llega como aspirante—, y la Guía explica por qué no es repetir: <em>«Nunca una promesa se pronuncia ante las mismas personas, en el mismo lugar o por las mismas razones»</em>."
         },
         {
           "type": "info-box",
@@ -259,7 +259,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Piensa en la última vez que un Rover —o un joven de tu unidad— te falló en algo que había prometido. Escoge un artículo de la Ley del Rover — el que más te cueste a ti, no el más bonito. Escríbelo convertido en pregunta, en segunda persona, como se la harías a un Rover de diecinueve años que trabaja y estudia. Después contéstala tú, por escrito. Si la respuesta te incomoda, la pregunta está bien hecha."
+        "prompt": "Escoge un artículo de la Ley del Rover — el que más te cueste a ti, no el más bonito. Escríbelo convertido en pregunta, en segunda persona, como se la harías a un Rover de diecinueve años que trabaja y estudia, para abrir la conversación después de algo que salió mal. Después contéstala tú, por escrito. Si la respuesta te incomoda, la pregunta está bien hecha."
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",
@@ -269,10 +269,10 @@
             "text": "Dos Rovers dejaron tirado un proyecto de servicio a mitad de camino y la comunidad del barrio quedó esperando. ¿Cómo lo llevas al Consejo de Clan?",
             "options": [
               "Les recuerdas el artículo tercero de la Ley y les pides que asuman públicamente que fallaron a quien confió en ellos.",
-              "Les abres la conversación con dos preguntas: qué aprendimos y cómo actuaríamos distinto la próxima vez.",
-              "Lo dejas pasar por esta vez y hablas con ellos aparte, para no exponerlos delante de todo el Clan."
+              "Lo dejas pasar por esta vez y hablas con ellos aparte, para no exponerlos delante de todo el Clan.",
+              "Les abres la conversación con dos preguntas: qué aprendimos y cómo actuaríamos distinto la próxima vez."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "Valentina llega al Clan desde la Comunidad y te dice que no quiere volver a decir «con la gracia de Dios» en su renovación. ¿Qué haces?",
@@ -367,27 +367,8 @@
           "text": "<strong>«Individuos asociados»</strong> es la expresión que hay que retener. En la Manada el niño pertenece a una seisena; en la Tropa, a una patrulla; en la Comunidad, a un Equipo. Aquí nadie lo ubica en un equipo fijo: <strong>cada Rover decide a qué equipos pertenecer</strong>. Los <strong>clubes Rovers y equipos de proyecto</strong> son transitorios, los arma quien tiene la idea, pueden incluir Rovers de otros clanes, de otras regiones e incluso <strong>jóvenes que no son scouts</strong>, y se deshacen cuando el objetivo se cumple."
         },
         {
-          "type": "heading",
-          "level": 3,
-          "text": "Los clubes Rovers tienen reglas escritas"
-        },
-        {
-          "type": "paragraph",
-          "text": "Un club es un grupo de interés que <strong>crean y lideran los propios Rovers</strong>, y su tema puede ser cualquiera que sea legal y coherente con la propuesta educativa: un deporte, un arte, un oficio. Que sea transitorio no quiere decir que no tenga reglas: mientras existe, las cumple. La Guía (p. 46) remite para eso al <em>Equipo de Bolsillo – Rover</em> (2025), donde la Comisión Nacional Rover las puso por escrito:"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Un <strong>reglamento propio</strong>, construido y aprobado por sus integrantes y <strong>validado por la Comisión Regional Rover</strong> (p. 9).",
-            "Un <strong>coordinador que rota cada trimestre</strong>, para que el liderazgo pase por todos (p. 9).",
-            "El <strong>registro</strong> del club ante la Comisión Rover de la región, que así puede apoyarlo y promoverlo (p. 10).",
-            "Para que cuente en la progresión: <strong>al menos tres meses</strong> de participación activa, <strong>evidencias</strong> (fotos, videos, actas) y una <strong>actividad</strong> en la que el Rover ponga lo aprendido al servicio de otros (p. 12)."
-          ]
-        },
-        {
           "type": "info-box",
-          "text": "🧭 <strong>Tu parte también está escrita.</strong> El dirigente de Clan <strong>acompaña</strong> la creación y el desarrollo del club y es quien <strong>valida</strong> la participación del Rover en su progresión, con las evidencias y la actividad a la vista (pp. 10 y 12). Que el club lo armen ellos no te deja por fuera: te deja de acompañante y validador, no de organizador."
+          "text": "🧭 <strong>Los clubes Rovers son transitorios, pero tienen reglas escritas.</strong> La Guía (p. 46) remite al <em>Equipo de Bolsillo – Rover</em> (Comisión Nacional Rover, 2025, pp. 9-12), que pide un <strong>reglamento propio</strong> validado por la Comisión Regional Rover, un <strong>coordinador que rota cada trimestre</strong> y el <strong>registro</strong> del club ante la Comisión Rover de la región. Para que cuente en la progresión: <strong>al menos tres meses</strong> de participación activa, <strong>evidencias</strong> y una <strong>actividad</strong> al servicio de otros. Tú no lo organizas: lo <strong>acompañas</strong> y <strong>validas</strong> esa participación."
         },
         {
           "type": "heading",
@@ -472,7 +453,7 @@
         },
         {
           "type": "info-box",
-          "text": "📝 <strong>Dos palabras en el mismo capítulo, y no las juntamos nosotros.</strong> El <strong>§6.1</strong> dice que el marco simbólico de la rama es la <strong>Ciudadanía Activa</strong>, y unos párrafos después aparece la <strong>Ciudadanía Global</strong>. En la edición anterior de la Guía todo decía «Activa»; la vigente la cambió en <strong>tres sitios</strong>: al hablar del servicio (§6.2), al hablar de los símbolos (§6.4) y al hablar de la salida del Movimiento (§8.15). <strong>El marco de la rama no cambió</strong> — eso está en el §6.1 y sigue diciendo Activa. Lo decimos porque vas a leerlo y conviene que no te desconcierte."
+          "text": "📝 <strong>Dos palabras en el mismo capítulo, y no las juntamos nosotros.</strong> El <strong>§6.1</strong> dice que el marco simbólico de la rama es la <strong>Ciudadanía Activa</strong>, y la <strong>Ciudadanía Global</strong> aparece en <strong>tres sitios</strong>: al hablar del servicio (§6.2), de los símbolos (§6.4) y de la salida del Movimiento (§8.15). <strong>El marco de la rama es el del §6.1, y dice Activa.</strong> Lo decimos porque vas a leer las dos y conviene que no te desconcierte."
         },
         {
           "type": "heading",
@@ -525,7 +506,7 @@
         },
         {
           "type": "info-box",
-          "text": "🏕️ <strong>Tres cosas se entregan siempre ante el Grupo Scout.</strong> Las insignias del PARCE pueden entregarse en el contexto que el Clan elija, pero <strong>la investidura, la insignia máxima BP - Ciudadano Global y los estímulos</strong> se entregan necesariamente <strong>en presencia del Grupo</strong>. La razón que da la Guía: la incidencia de los Rovers como ejemplo en la comunidad scout. <em>Si al leer el capítulo 8 encuentras que las insignias de progresión pueden entregarse en cualquier escenario, es cierto para Rover Ciudadano, Participativo y Transformador. Para la venera BP mandan el §6.5 y el §8.12, que piden el Grupo.</em>"
+          "text": "🏕️ <strong>Tres cosas se entregan siempre ante el Grupo Scout.</strong> Las insignias del PARCE pueden entregarse en el contexto que el Clan elija, pero <strong>la investidura, la insignia máxima BP - Ciudadano Global y los estímulos</strong> se entregan necesariamente <strong>en presencia del Grupo</strong>. La razón que da la Guía: la incidencia de los Rovers como ejemplo en la comunidad scout. <em>Si en el capítulo 8 lees que las insignias de progresión pueden entregarse en cualquier escenario, vale para RC, RP y RT; para la venera BP mandan el §6.5 y el §8.12, que piden el Grupo.</em>"
         }
       ],
       "reflection": {
@@ -649,7 +630,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La Guía pide además que los proyectos se formulen <em>«con metas SMART, alianzas comunitarias y auto-evaluaciones por competencias»</em>, de modo que <em>«cada campamento o salida deja huella medible en personas y territorio»</em>. No tienes que conocerte los trece desafíos: te basta saber por cuál de las cuatro puertas entra el proyecto que tu Clan ya tiene en la cabeza. Si tu Clan quiere el mapa completo, con los pasos para convertir un desafío en un proyecto, está en el <strong>Curso 21</strong>."
+          "text": "La Guía pide además que los proyectos se formulen <em>«con metas SMART, alianzas comunitarias y auto-evaluaciones por competencias»</em>, de modo que <em>«cada campamento o salida deja huella medible en personas y territorio»</em>. No tienes que conocerte los trece desafíos: te basta saber por cuál de las cuatro puertas entra el proyecto que tu Clan ya tiene en la cabeza. Si tu Clan quiere el mapa completo, con los pasos para convertir un desafío en un proyecto, está en el <strong>Curso 21</strong>. Y no es una actividad aparte: la Guía pone los ODS dentro del capítulo del PARCE, porque con sus desafíos el Rover desarrolla competencias, que es justo lo que sigue la próxima lección."
         }
       ],
       "reflection": {
@@ -681,10 +662,10 @@
             "text": "El Clan planea una travesía de tres días por el páramo y te pide que armes tú el análisis de riesgos, «porque eres el que sabe». ¿Qué haces?",
             "options": [
               "Lo armas tú esta vez y se lo explicas, porque en un páramo la seguridad no se les delega a los Rovers todavía.",
-              "Lo arman ellos, porque gestionar riesgos es parte de lo que aprenden; tú lo revisas y respondes de que sea seguro.",
-              "Lo arman ellos con un dirigente de la Región experto en gestión del riesgo, y tú te quedas fuera del plan."
+              "Lo arman ellos con un dirigente de la Región experto en gestión del riesgo, y tú te quedas fuera del plan.",
+              "Lo arman ellos, porque gestionar riesgos es parte de lo que aprenden; tú lo revisas y respondes de que sea seguro."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           }
         ]
       }
@@ -705,7 +686,7 @@
         },
         {
           "type": "info-box",
-          "text": "🔁 <strong>Si vienes del Curso 11, lo conoces con otro nombre.</strong> Allí la Guía de Comunidad le decía al Nómada que preguntara <em>«¿cómo funciona el Plan de Progresión Personal Rover?»</em>. Es <strong>esto</strong>. El nombre PARCE es reciente: sale del <strong>foro nacional de jóvenes de 2025</strong>, y vino justamente a acabar con una confusión anterior — la progresión Rover se llamaba «plan de desarrollo personal (PDP)», demasiado parecido al «plan personal de desarrollo (PPD)» de los adultos."
+          "text": "🔁 <strong>Si vienes del Curso 11, lo conoces con otro nombre.</strong> Allí la Guía de Comunidad le decía al Nómada que preguntara <em>«¿Cómo funciona el Plan de Progresión Personal Rover?»</em>. Es <strong>esto</strong>. El nombre PARCE es reciente: sale del <strong>foro nacional de jóvenes de 2025</strong>, y vino justamente a acabar con una confusión anterior — la progresión Rover se llamaba «plan de desarrollo personal (PDP)», demasiado parecido al «plan personal de desarrollo (PPD)» de los adultos."
         },
         {
           "type": "heading",
@@ -742,7 +723,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Antes de los números, quédate con el destino, que es lo único que no se mueve: <strong>las seis áreas de crecimiento en los tres niveles, con al menos la mitad de sus competencias en cada nivel</strong>. Los topes de cada fase te van a importar mucho; las cuentas parciales, menos — y ahora cierran solas."
+          "text": "Antes de los números, quédate con el destino, que es lo único que no se mueve: <strong>las seis áreas de crecimiento en los tres niveles, con al menos la mitad de sus competencias en cada nivel</strong>. Los topes de cada fase te van a importar mucho; las cuentas de cada fase, menos: están en las tarjetas para que las consultes cuando las necesites."
         },
         {
           "type": "method-grid",
@@ -818,11 +799,11 @@
             "correctIndex": 1
           },
           {
-            "text": "Un Rover ya tiene su área de Sociabilidad en nivel de profundización y quiere llevar más lejos su proyecto de innovación social. ¿Qué te toca a ti?",
+            "text": "Una Rover tiene Sociabilidad en profundización y quiere convertir su proyecto de innovación social en algo que siga funcionando cuando ella salga del Clan. ¿Qué te toca a ti?",
             "options": [
               "Proponerle un desafío mayor y darle retroalimentación mientras lo ejecuta.",
-              "Conectarlo con los Rovers nuevos como su tutor, que es lo que consolida una competencia educativa.",
-              "Conectarlo con la fundación del barrio que trabaja ese tema: en ese nivel le abres puertas afuera."
+              "Conectarla con los Rovers nuevos como su tutora, que es lo que consolida una competencia educativa.",
+              "Conectarla con la fundación del barrio que trabaja ese tema: en ese nivel le abres puertas afuera."
             ],
             "correctIndex": 2
           },
@@ -888,6 +869,10 @@
         },
         {
           "type": "info-box",
+          "text": "📝 <strong>Nota de lectura.</strong> Una página después de la lista de lo prohibido, la Guía admite en la vigilia <em>«retos, siempre y cuando sean razonables, seguros y funcionales a la experiencia»</em>, como un tiempo en total silencio o una bitácora a horas fijas. No se contradice: lo que prohíbe son las pruebas y los retos que puedan afectar física o psicológicamente al Rover; lo que admite son los que sirven a su introspección. Un ayuno o un golpe nunca entran en la segunda lista."
+        },
+        {
+          "type": "info-box",
           "text": "⚠️ <strong>El riesgo que la Guía nombra con todas sus letras.</strong> El contenido de una vigilia es privado, y quien aún no la ha hecho no conoce las de los demás. Eso puede degenerar en algo feo, y la Guía lo prohíbe expresamente: no se pueden generar <em>«contextos de exclusión»</em> ni <em>«grupos con denominación especial, tradiciones falaces o sobredimensionadas para separar a los que hayan hecho vigilia contra los que no»</em>. Si en tu Clan hay un «nosotros» y un «ellos» por esto, eso no es tradición: es un problema."
         },
         {
@@ -928,29 +913,29 @@
           {
             "text": "En tu grupo la vigilia siempre incluye doce horas sin comer «para que valga». Un dirigente veterano lo defiende como tradición del Clan. ¿Qué haces?",
             "options": [
-              "Propones acortarlo a seis horas y ofrecer agua, para conservar la tradición sin llegar al extremo.",
+              "Lo dejas como opción libre: quien quiera ayunar en su vigilia lo hace, y quien no, no.",
               "Lo planteas en el equipo de dirigentes: la Guía prohíbe los ayunos en cualquier ceremonia.",
-              "Lo dejas este año y lo cambias con el próximo grupo, que llegará sin esa costumbre."
+              "Propones cambiar el ayuno por una noche entera en vela, igual para todos, que la Guía sí contempla."
             ],
             "correctIndex": 1
           },
           {
             "text": "Sebastián pide pasar su vigilia completamente solo: que nadie se le acerque en toda la noche, «porque es mi momento». ¿Qué haces?",
             "options": [
-              "Lo respetas del todo: la vigilia es suya y su contenido es privado, así que lo esperas en la sede hasta que amanezca.",
-              "Acuerdas con él cómo vas a acercarte cada tanto, o escribirle, para ver que esté bien, sin preguntarle qué está escribiendo.",
-              "Le propones que lo acompañe un Rover que ya hizo la suya, para que no pase la noche solo y alguien lo ayude a centrarse."
+              "Le propones partir la noche: la primera mitad solo y sin nadie cerca, y desde la medianoche te quedas a unos metros.",
+              "Le propones que lo acompañe un Rover que ya hizo la suya, para que no pase la noche solo y alguien lo ayude a centrarse.",
+              "Acuerdas con él cómo vas a acercarte cada tanto, o escribirle, para ver que esté bien, sin preguntarle qué está escribiendo."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "En tu Clan los que ya hicieron vigilia se llaman «los del fuego» y tienen una fogata propia a la que no van los demás. Dicen que así cuidan la intimidad de lo vivido. ¿Qué haces?",
             "options": [
-              "La respetas: el contenido de una vigilia es privado, y esa fogata protege lo que cada uno vivió en la suya.",
               "La desarmas con el Clan: la Guía prohíbe grupos con nombre especial que separen a quienes hicieron vigilia.",
+              "La respetas: el contenido de una vigilia es privado, y esa fogata protege lo que cada uno vivió en la suya.",
               "La mantienes, pero les pides que inviten a los nuevos una vez al año, para que nadie se sienta por fuera."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -1039,10 +1024,10 @@
             "text": "El Jefe de Grupo quiere que la Partida de Camilo termine con una formación en «Y», para que él elija delante de todos si sigue como adulto. ¿Qué le dices?",
             "options": [
               "Que es un momento potente, pero que conviene avisarle a Camilo antes para que llegue con la decisión tomada.",
-              "Que la Guía no la contempla: siga o no como adulto, Camilo no deja de ser Scout, y eso no se somete a público.",
-              "Que la Partida se haga igual, y la pregunta se la haga el Clan después, en la Cena Rover, entre los más cercanos."
+              "Que la Partida se haga igual, y la pregunta se la haga el Clan después, en la Cena Rover, entre los más cercanos.",
+              "Que la Guía no la contempla: siga o no como adulto, Camilo no deja de ser Scout, y eso no se somete a público."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "Ese mismo día el Clan quiere aprovechar para entregarle a Camilo la insignia de Rover Transformador, que se le quedó pendiente. ¿Qué haces?",
@@ -1163,8 +1148,8 @@
           {
             "text": "Un Rover te cuenta algo que parece una situación de abuso fuera del Grupo Scout. ¿Qué te toca a ti?",
             "options": [
-              "Activar la ruta cuando hayas averiguado lo suficiente para saber si es cierto.",
-              "Activar la ruta de reporte «Me Pongo A Salvo del Peligro» sin ponerte a investigar.",
+              "Reportar por esa ruta cuando hayas averiguado lo suficiente para saber si es cierto.",
+              "Reportar por «Me Pongo A Salvo del Peligro», sin ponerte a investigar lo que pasó.",
               "Llevarlo al equipo de dirigentes del Grupo para decidir entre todos cuál es el paso siguiente."
             ],
             "correctIndex": 1

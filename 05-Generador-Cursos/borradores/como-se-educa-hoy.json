@@ -3,7 +3,7 @@
   "title": "Cómo se Educa Hoy",
   "subtitle": "Conceptos clave de la educación — la base de todo lo que sigue",
   "description": "El Curso 3 de la Línea Programa de Jóvenes, y un paréntesis necesario antes de entrar de lleno a lo scout. En ~33 minutos vas a entender qué es educar, los cuatro pilares de la educación (UNESCO), cómo aprenden de verdad las personas, dónde se aprende (educación formal, no formal e informal) y por qué el aprender haciendo funciona. No es teoría por la teoría: es la base que hace que el Método Scout, las ramas y el Modelo —que vienen después— se entiendan como la aplicación de estas ideas.",
-  "contentVersion": "2026-11-08",
+  "contentVersion": "2026-11-22",
   "icon": "🎓",
   "duration": "33 minutos",
   "level": 1,
@@ -24,7 +24,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Preparaste la reunión con cariño, explicaste todo clarito… y a la semana nadie se acuerda de nada. No es falta de ganas: es que casi nadie nos enseña el oficio. Tú no vas a dar clase: vas a <strong>diseñar experiencias para que otros aprendan</strong>. Este curso te da la base —qué es educar, cómo se aprende y dónde— y desde el próximo la vas a ver aplicada en todo lo scout."
+          "text": "Preparaste la reunión con cariño, explicaste todo clarito… y a la semana nadie se acuerda de nada: la reunión no prendió. No es falta de ganas: es que casi nadie nos enseña el oficio. Tú no vas a dar clase: vas a <strong>diseñar experiencias para que otros aprendan</strong>. Este curso te da la base —qué es educar, cómo se aprende y dónde— y desde el próximo la vas a ver aplicada en todo lo scout."
         },
         {
           "type": "heading",
@@ -44,7 +44,7 @@
         },
         {
           "type": "mission-box",
-          "text": "Estos conceptos no son scouts: son de la educación en general. Pero guárdalos bien, porque desde el próximo curso vas a empezar a reconocerlos por todos lados: el Método, las ramas, el Modelo… todo es esto, aplicado."
+          "text": "En el Curso 2 viste por qué educamos; aquí ves cómo se educa. Estos conceptos no son scouts: son de la educación en general. Pero guárdalos bien, porque desde el próximo curso vas a empezar a reconocerlos por todos lados: el Método, las ramas, el Modelo… todo es esto, aplicado."
         }
       ]
     },
@@ -109,9 +109,9 @@
           {
             "text": "Al cerrar el año, un dirigente hace su balance: «Cada chico creció mucho en lo personal: está más seguro, más hábil y más maduro. Con eso cumplimos». Mirando la definición de educación que adopta el Movimiento, ¿qué le falta revisar?",
             "options": [
-              "Si además de crecer aprendieron contenidos concretos, porque sin conocimientos el crecimiento personal no cuenta como educación.",
-              "Si ese crecimiento quedó registrado: la definición habla de un desarrollo demostrable.",
-              "Si cada uno creció también como miembro de la sociedad, y no solo como individuo."
+              "Si además aprendieron contenidos concretos: sin conocimientos, el crecimiento personal no cuenta como educación.",
+              "Si cada chico siente que avanzó: en la definición, el que juzga su crecimiento es la propia persona.",
+              "Si su Unidad le aportó algo a su barrio este año: crecer solo como individuo es la mitad de la definición."
             ],
             "correctIndex": 2
           },
@@ -127,9 +127,9 @@
           {
             "text": "Preocupado por la transformación digital, un dirigente prepara para sus jóvenes una charla muy completa sobre redes sociales y riesgos en internet. ¿Qué cambio concreto le propones, según los retos de hoy que cuenta la lección?",
             "options": [
-              "Que reparta casos reales de chicos de su edad y que cada patrulla decida qué haría y por qué.",
-              "Que cancele la charla: en temas digitales, cualquier dato que traiga un adulto ya llega desactualizado.",
-              "Que la extienda a tres reuniones para cubrir cada riesgo con más detalle y ejemplos."
+              "Que cambie la charla por casos reales de chicos de su edad y que cada patrulla decida qué haría y por qué.",
+              "Que conserve la charla y al final abra unos minutos de preguntas, para que los jóvenes también participen.",
+              "Que la extienda a tres reuniones para cubrir cada riesgo con más detalle y con más ejemplos."
             ],
             "correctIndex": 0
           }
@@ -148,7 +148,7 @@
         },
         {
           "type": "paragraph",
-          "text": "En 1996, una comisión internacional le entregó a la UNESCO un informe famoso —<em>“La educación encierra un tesoro”</em>, dirigido por Jacques Delors— que resumió la educación en <strong>cuatro pilares</strong>. No son cuatro materias: son cuatro tipos de aprendizaje que toda persona necesita, y que se sostienen entre sí. El Movimiento Scout los adoptó como base."
+          "text": "En 1996, la Comisión Internacional sobre la Educación para el Siglo XXI, presidida por Jacques Delors, le entregó a la UNESCO un informe famoso —<em>“La educación encierra un tesoro”</em>— que resumió la educación en <strong>cuatro pilares</strong>. No son cuatro materias: son cuatro tipos de aprendizaje que toda persona necesita, y que se sostienen entre sí. El Movimiento Scout los adoptó como base."
         },
         {
           "type": "policy-quote",
@@ -196,7 +196,7 @@
         },
         {
           "type": "info-box",
-          "text": "Pista para más adelante: la política colombiana se apoya en estos mismos cuatro pilares — pero no para nombrar las <strong>6 áreas de crecimiento</strong> (esas las vas a ver en el Curso 6), sino para sostener las <strong>competencias educativas</strong>, que es lo que cada joven va logrando dentro de cada área. Dicho fácil: las áreas son las seis caras de la persona; lo que se logra en cada cara son las competencias, y ahí es donde entran estos cuatro pilares."
+          "text": "Pista para más adelante: la política colombiana apoya en estos mismos cuatro pilares las <strong>competencias educativas</strong>, que es lo que cada joven va logrando dentro de cada una de las <strong>6 áreas de crecimiento</strong> (esas las vas a ver en el Curso 6). Dicho fácil: las áreas son las seis caras de la persona; lo que se logra en cada cara son las competencias, y ahí es donde entran estos cuatro pilares."
         }
       ],
       "reflection": {
@@ -207,11 +207,11 @@
         "nextLabel": "Continuar a cómo aprendemos 🧩",
         "questions": [
           {
-            "text": "En una excursión se le daña la estufa a una patrulla, y sus integrantes improvisan con lo que tienen a mano para resolver el imprevisto y poder cocinar. Según cómo describe la lección cada pilar, ¿cuál se está trabajando más directamente?",
+            "text": "En una excursión se le daña la estufa a una patrulla, y sus integrantes improvisan con lo que tienen a mano para poder cocinar. Según cómo describe la lección cada pilar, ¿cuál se está trabajando más directamente?",
             "options": [
               "Aprender a vivir juntos, porque el hacer se reserva a las habilidades de un oficio.",
-              "Aprender a hacer, porque ese pilar va más allá de la técnica: incluye enfrentar situaciones imprevistas.",
-              "Aprender a conocer, porque resolver un imprevisto pide profundizar en una técnica concreta."
+              "Aprender a hacer: ese pilar incluye enfrentar situaciones, no solo dominar una técnica.",
+              "Aprender a conocer, porque resolver un problema pide profundizar en una técnica concreta."
             ],
             "correctIndex": 1
           },
@@ -291,7 +291,7 @@
             "options": [
               "Darles aún más libertad: si el joven está al centro, el adulto no debe opinar del resultado.",
               "Decirles desde el inicio qué esperaba y darles señales reales de cómo iban, a tiempo.",
-              "Cuidar su motivación: decirles que no era lo esperado los habría desanimado."
+              "Revisar con ellos el avance solo al final de la segunda semana, para no interrumpirlos antes."
             ],
             "correctIndex": 1
           },
@@ -307,8 +307,8 @@
           {
             "text": "Un dirigente tiene 20 minutos para trabajar orientación. Planea entregar brújula y mapa a cada patrulla, con un recorrido corto de dificultad creciente. A los cinco minutos, dos patrullas están perdidas. Según los 7 principios, ¿qué hace?",
             "options": [
-              "Pasa por esas patrullas y les da una pista para que sigan ellas, sin detener a las demás.",
-              "Nada hasta el final: si el joven está al centro, el adulto observa y no interviene mientras hacen.",
+              "Les cambia a esas dos patrullas el recorrido por uno más corto, a su medida, y las demás siguen con el suyo.",
+              "Les da a todas las patrullas, también a las que van bien, la misma pista, para que nadie se quede atrás.",
               "Detiene el juego, reúne a todos y explica bien el uso de la brújula antes de volver a salir."
             ],
             "correctIndex": 0
@@ -401,9 +401,9 @@
           {
             "text": "Una mamá le pide al dirigente que, como su hijo va mal en matemáticas, usen parte de las reuniones para ponerlo al día con las tareas del colegio. ¿Qué le respondes?",
             "options": [
-              "Que el grupo no hace refuerzo escolar, y le cuentas lo que su hijo sí va a vivir allí: equipo, retos y servicio.",
+              "Que las reuniones no son refuerzo escolar, y le cuentas lo que su hijo sí va a vivir allí: equipo, retos y servicio.",
               "Que lo incluyes en el programa: si el grupo educa de forma intencional y planeada, puede asumir lo que el colegio no logra.",
-              "Que lo saque un tiempo hasta que suba las notas: el colegio va primero y el grupo es solo un complemento."
+              "Que lo apoyas solo en los ratos libres de algunas reuniones: así el grupo sigue siendo un complemento del colegio."
             ],
             "correctIndex": 0
           }
@@ -449,7 +449,7 @@
           "ordered": false,
           "items": [
             "🌟 <strong>Curso 4 — Características Esenciales:</strong> qué es exactamente el Movimiento Scout (su identidad), construida sobre esta propuesta educativa.",
-            "🧭 <strong>Curso 5 — El Método Scout:</strong> el “sistema” de 8 elementos con el que el escultismo pone en práctica estas ideas: el aprender haciendo, el trabajo en equipos pequeños, el reto y el acompañamiento del adulto.",
+            "🧭 <strong>Curso 5 — El Método Scout:</strong> el “sistema” de 8 elementos con el que el escultismo pone en práctica estas ideas: el aprender haciendo, el trabajo en equipos pequeños, la progresión personal y el apoyo del adulto.",
             "📜 <strong>Curso 6 — La PNPJ y el Modelo colombiano:</strong> cómo Colombia organiza todo esto en ramas, áreas de crecimiento y herramientas.",
             "🗺️ <strong>Curso 7 — Mi Compromiso:</strong> tu plan de dirigente, escrito y firmado por ti."
           ]
@@ -478,11 +478,11 @@
           {
             "text": "Tras una caminata que salió muy bien, la patrulla quiere pasar directo a lo siguiente: «Si todo salió bien, no hay nada que reflexionar». Según la lección, ¿qué les respondes?",
             "options": [
-              "Que pasen a lo siguiente, pero el dirigente anota lo que salió bien para repetirlo en la próxima.",
-              "Que hagan una ronda larga en la que cada uno diga lo que sintió en cada tramo de la caminata.",
-              "Que la reflexión también pregunta qué salió bien y qué cambiarían: es lo que cierra la experiencia."
+              "Que no pasan a lo siguiente hasta decir qué salió bien y por qué: así lo repiten a propósito.",
+              "Que pasen, y que quien quiera comentar algo lo diga mientras caminan hacia la siguiente actividad.",
+              "Que el dirigente les cuente lo que él vio que salió bien, para no quitarles tiempo de juego."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           },
           {
             "text": "Tras un proyecto de servicio en un hogar de ancianos, un dirigente evalúa solo si sus jóvenes aprendieron a organizar la logística. Según lo que la cita de la OMMS dice que se adquiere con la práctica, ¿qué está dejando sin mirar?",

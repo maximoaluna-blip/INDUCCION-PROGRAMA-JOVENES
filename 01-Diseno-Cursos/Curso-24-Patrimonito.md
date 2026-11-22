@@ -46,11 +46,11 @@ Hilo: **el Clan de Camila, en Pasto**. Un rover quiere un mural del Carnaval «u
 |---|---|---|
 | 1 | 🏛️ Lo que recibimos, vivimos y dejamos | Hook; qué es; UNESCO; 15 años; qué NO es. |
 | 2 | 🌍 Qué cuenta como patrimonio | Cultural, natural, inmaterial, mixto; VUE; lista de Colombia (2021); prácticas lesivas; patrimonio natural y el elemento Naturaleza. |
-| 3 | 🧭 Tres rutas y un viaje | Promoción, Difusión, Conservación; tres etapas; autoevaluación (competencias del desafío, no Exploro). |
+| 3 | 🧭 Tres rutas y un viaje | Promoción, Difusión, Conservación; tres etapas; autoevaluación (primero la tabla propia, después la comparación con el Curso 22; marcar «al comienzo» no es razón para esperar). |
 | 4 | 📋 Los pasos del reconocimiento | Los siete pasos; solo UNESCO; Scouts del Mundo; porte. |
 | 5 | 🤝 Con la comunidad, no sobre ella | Comparte; mapeo social; de quién es el inmaterial; PEMP/PMA/PES; arqueológico = ICANH. |
-| 6 | 🧳 Horas de servicio, con seguridad | Curso 25; protocolos; Comunidad menores vs Clan mayores de edad; publicar con autorización. |
-| 7 | 🏅 Comparte, evalúa y reconoce | Actúa; solicitud; cobro del hook; Y en tu rama (*Modelo* p. 99); cierre del Nivel 4; misión. |
+| 6 | 🧳 Horas de servicio, con seguridad | Curso 25; protocolos; Comunidad menores vs Clan mayores de edad; requisito del curso oficial A Salvo del Peligro (*Manual de Implementación* p. 6); publicar con autorización. |
+| 7 | 🏅 Comparte, evalúa y reconoce | Actúa; solicitud; cobro del hook; Y en tu rama en tarjetas (*Modelo* p. 99); cierre del Nivel 4; misión (con el ciclo Vivir · Mirar · Comprender · Proyectar en una línea). |
 
 ## 4. Colaterales
 
@@ -59,3 +59,5 @@ Catálogo (orden 24), workflow, portal y panel (25); el 21, el 22 y el 23 enlaza
 ---
 
 _Documento de diseño v1.1 — 28 de septiembre de 2026. La v1.1 recoge dos vueltas de auditoría: la autoevaluación de Patrimonito tiene **las etapas como filas y las marcas como columnas** (al revés que Constructores de Paz; la pregunta calcada del 22 era falsa aquí); el ejemplo resuelto recorre los pasos (Descubrimiento, herramientas, inscripción, horas, evaluación, solicitud); la difusión se lleva lejos del lugar de origen; los rovers deciden y acuerdan con las artesanas; el consentimiento de fotos de menores lo dan **sus familias**; la tentativa es una puerta que abre el Kit, no un sitio declarado; el Kit permite más de una ruta («y/o»); duración 38 min (alineada con el JSON el 04-oct-2026). El JSON manda._
+
+_Decisiones del 22-nov-2026 (decisor, autoridad delegada; `contentVersion` 2026-11-22): «Para quién es» sube en L1, tras la explicación de la idea del hook; L3 parte el párrafo de la autoevaluación (la tabla primero, la comparación con el Curso 22 después, franja 15–18 / 18–21 literal); el requisito de A Salvo del Peligro pasa de L7 a L6; «Y en tu rama» pasa a tres tarjetas y «Las cuatro preguntas» se reduce a una línea de la misión; L4 P1 pregunta por una iglesia declarada Bien de Interés Cultural que no está en la lista UNESCO (Kit p. 20); en L2 P1, L3 P2 y L7 P3 la correcta deja de ser el punto medio (tajante o el dirigente que interviene) y las posiciones quedan 6 · 6 · 6; L7 P3 ya no dice «los de 15 años o más»._

@@ -2,8 +2,8 @@
   "courseId": "rama-comunidad-nomadas",
   "title": "Rama Nómadas Scout (Comunidad)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
-  "description": "El curso de rama para quienes acompañan la adolescencia tardía. Vas a reencontrarte con Andrés, que llega desde la Tropa al final de su Etapa de Transición, y a entender el cambio que define esta rama: en la Comunidad las decisiones de los jóvenes salen de la unidad y aterrizan en el territorio.",
-  "contentVersion": "2026-11-08",
+  "description": "El curso de rama para quienes acompañan la adolescencia tardía. Vas a reencontrarte con Andrés, que a los catorce y medio empieza su Etapa de Transición desde la Tropa, y a entender el cambio que define esta rama: en la Comunidad las decisiones de los jóvenes salen de la unidad y aterrizan en el territorio.",
+  "contentVersion": "2026-11-22",
   "icon": "🧗",
   "duration": "63 minutos",
   "level": 2,
@@ -45,7 +45,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Y llega distinto. En la Tropa aprendió a decidir dentro de su patrulla: el Consejo de Patrulla, la Corte de Honor de la Tropa, el menú del campamento. Aprendió que su voz pesaba entre los suyos. Lo que va a descubrir aquí es que esa misma voz puede salir del Grupo Scout — y que cuando sale, alguien afuera responde."
+          "text": "Y Andrés llega distinto. En la Tropa aprendió a decidir dentro de su patrulla: el Consejo de Patrulla, la Corte de Honor de la Tropa, el menú del campamento. Aprendió que su voz pesaba entre los suyos. Lo que va a descubrir aquí es que esa misma voz puede salir del Grupo Scout — y que cuando sale, alguien afuera responde."
         },
         {
           "type": "info-box",
@@ -201,11 +201,11 @@
           {
             "text": "El Congreso decide que el campamento del ciclo será en una vereda donde nunca han estado y no en la finca de siempre, que tú conoces bien. Es viable y seguro, pero a ti te gustaba más la finca. ¿Qué haces?",
             "options": [
-              "Lo apoyas y les dejas la gestión con la vereda; tu parte es revisar con ellos permisos, transporte y riesgos.",
               "Les pides que lo piensen una semana más y lo voten otra vez, ahora escuchando tus argumentos sobre la finca.",
-              "Lo apoyas y te haces a un lado del todo: la gestión, los permisos y los riesgos quedan en sus manos, sin ti."
+              "Lo apoyas, pero propones hacer antes una salida corta a la finca, para que comparen antes de elegir la vereda.",
+              "Lo apoyas y les dejas la gestión con la vereda; tu parte es revisar con ellos permisos, transporte y riesgos."
             ],
-            "correctIndex": 0
+            "correctIndex": 2
           }
         ]
       }
@@ -453,11 +453,11 @@
           {
             "text": "En el Congreso de Comunidad los Nómadas están decidiendo el proyecto del ciclo. La opción que va ganando te parece poco viable. ¿Qué haces?",
             "options": [
-              "Pides la palabra al principio, das tu razón en dos frases y aceptas lo que la Comunidad decida.",
-              "Pides la palabra al principio y propones que la votación espere a que opine el Jefe de Grupo.",
-              "Pides la palabra al final, cuando ya hablaron todos, para resumir lo dicho y dar tu análisis."
+              "Esperas a que hablen todos los Nómadas, para no influir, y al final das tu razón en dos frases.",
+              "Pides la palabra al principio, das tu razón en dos frases y dejas que la discusión siga entre ellos.",
+              "Pides la palabra al principio y propones que la votación espere a que opine el Jefe de Grupo."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
           },
           {
             "text": "El Equipo Tuareg quiere dedicar sus próximas dos reuniones a preparar algo suyo, y además propone que el proyecto del ciclo de toda la Comunidad sea el caño del barrio. ¿Dónde va cada decisión?",
@@ -471,11 +471,11 @@
           {
             "text": "Al empezar el ciclo vas a reorganizar los Equipos. Un dirigente propone repartir a los jóvenes para que cada Equipo tenga a alguien bueno en cocina, otro en primeros auxilios y otro en redes. ¿Qué le respondes?",
             "options": [
-              "Que primero se arman por afinidad, conversándolo con la Comunidad, y después se ajusta si alguno queda muy desparejo.",
-              "Que tiene sentido: con los talentos repartidos los Equipos rinden parejo y ninguno queda en desventaja en las actividades.",
-              "Que los Equipos los arman ellos: cada joven escoge con quién estar y el adulto no interviene en la conformación."
+              "Que esa mezcla de talentos sirve si la aprueba el Congreso: así los Equipos quedan parejos y los decide la Comunidad.",
+              "Que esa mezcla de talentos sirve para los Equipos, y que los Grupos de Trabajo se arman con quien cada uno quiera estar.",
+              "Que esa mezcla de talentos sirve para un Grupo de Trabajo; los Equipos se arman primero por afinidad y luego se ajustan."
             ],
-            "correctIndex": 0
+            "correctIndex": 2
           }
         ]
       }
@@ -591,20 +591,20 @@
           {
             "text": "Preparas la primera fogata del ciclo y quieres que los Nómadas sientan qué es la hermandad en la Comunidad. ¿Cómo la planeas?",
             "options": [
-              "La abres con una charla corta sobre qué es la hermandad, y después cantan, para que lleguen con el sentido claro.",
-              "La armas alrededor de un relato de un pueblo nómada y abres un momento para que quien quiera diga qué se lleva.",
-              "La haces sin relato ni momento de palabra: si el marco se vive, cualquier cosa que se diga en la fogata sobra."
+              "La armas alrededor de la historia del primer campamento de Baden-Powell, que es el relato de la rama.",
+              "La armas alrededor de un relato de un pueblo nómada y al final explicas tú qué enseña sobre la hermandad.",
+              "La armas alrededor de un relato de un pueblo nómada y abres un momento para que quien quiera diga qué se lleva."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "Tomás quiere que la Comunidad reparta volantes de la candidata a la alcaldía que apoya su familia: «la rama es de ciudadanía», dice. ¿Qué le respondes?",
             "options": [
-              "Que sí, si el Congreso lo aprueba y se invita también a las otras campañas, para que sea equilibrado.",
               "Que no: la ciudadanía de la rama es participar en lo común, no tomar partido ni hacer propaganda.",
-              "Que no: el Movimiento es apartidista, así que en la Comunidad no se tocan temas de política ni de elecciones."
+              "Que sí, si el Congreso lo aprueba y se invita también a las otras campañas, para que sea equilibrado.",
+              "Que no por ahora: primero el Congreso tiene que discutirlo y, si hay consenso, se reparten como Comunidad."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -626,11 +626,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La naturaleza no es el escenario de las actividades: es un entorno de aprendizaje. Y la Guía se adelanta a la objeción del dirigente urbano: «puede expresarse también en contextos urbanos, porque no se trata solo del bosque ideal, sino de aprender a habitar el entorno con ojos atentos y con ética del cuidado». Para los Nómadas implica además conocer su contexto, salir de la rutina y tener un espacio para sí mismos en interacción con otros."
-        },
-        {
-          "type": "paragraph",
-          "text": "Lo que se prioriza a esta edad es <strong>la máxima independencia del joven</strong>: habilidades físicas, técnicas para la aventura mayor —campismo, pionerismo, primeros auxilios, navegación—, resolución de problemas complejos y capacidad de adaptación, incluido el uso de nuevas tecnologías."
+          "text": "La naturaleza no es el escenario de las actividades: es un entorno de aprendizaje, y la Guía se adelanta a la objeción del dirigente urbano: «puede expresarse también en contextos urbanos». A esta edad se prioriza <strong>la máxima independencia del joven</strong>: técnicas para la aventura mayor —campismo, pionerismo, primeros auxilios, navegación—, resolver problemas complejos y adaptarse, incluido el uso de nuevas tecnologías."
         },
         {
           "type": "heading",
@@ -639,15 +635,15 @@
         },
         {
           "type": "paragraph",
-          "text": "La Guía separa dos cosas que solemos confundir: la <strong>Oportunidad de Aprendizaje</strong> es la acción externa —la actividad, el proyecto, el rol—; la <strong>experiencia</strong> es lo interno y personal que cada joven saca de ella. Y avisa que «la acción por sí sola no basta»: el aprendizaje ocurre cuando el joven se detiene, mira lo que hizo y le da significado. Esa pausa es tu trabajo, y a los quince tiene una ventaja: la metacognición ya está bien establecida, así que puedes preguntarles directamente cómo pensaron algo."
+          "text": "La Guía separa la <strong>Oportunidad de Aprendizaje</strong> —la acción externa: la actividad, el proyecto, el rol— de la <strong>experiencia</strong>, lo interno y personal que cada joven saca de ella. Y avisa que «la acción por sí sola no basta»: el aprendizaje ocurre cuando el joven se detiene y le da significado a lo que hizo. Esa pausa es tu trabajo, y a los quince tiene una ventaja: puedes preguntarles directamente cómo pensaron algo."
         },
         {
           "type": "info-box",
-          "text": "📏 <strong>DURASLID: el estándar de calidad.</strong> Una buena Oportunidad de Aprendizaje es <strong>D</strong>esafiante (activa lo que aún no logra solo), <strong>Ú</strong>til (entiende para qué le sirve), <strong>R</strong>ecompensante (aunque la recompensa sea emocional), <strong>A</strong>tractiva, <strong>S</strong>egura (el riesgo se prevé y se mitiga), <strong>L</strong>údica, <strong>I</strong>ncluyente (nadie queda fuera) y <strong>D</strong>iversa (entran más identidades a la conversación). No te aprendas las ocho letras. Al terminar la próxima actividad, siéntate con un Equipo y hazles solo dos: <em>¿esto fue desafiante o ya lo sabían hacer?</em> y <em>¿quedó alguien afuera?</em> Con esas dos ya estás evaluando."
+          "text": "📏 <strong>DURASLID: el estándar de calidad.</strong> Una buena Oportunidad de Aprendizaje es <strong>D</strong>esafiante (activa lo que aún no logra solo), <strong>Ú</strong>til, <strong>R</strong>ecompensante, <strong>A</strong>tractiva, <strong>S</strong>egura (el riesgo se prevé y se mitiga), <strong>L</strong>údica, <strong>I</strong>ncluyente (nadie queda fuera) y <strong>D</strong>iversa. No te aprendas las ocho letras. Al terminar la próxima actividad, hazle a un Equipo solo dos preguntas: <em>¿esto fue desafiante o ya lo sabían hacer?</em> y <em>¿quedó alguien afuera?</em> Con esas dos ya estás evaluando."
         },
         {
           "type": "paragraph",
-          "text": "Para Nómadas, la Guía pide además que las actividades sean complejas y cooperativas, y que ellos participen «en todo el ciclo de vida de la actividad, desde la concepción hasta la evaluación», no solo como consumidores. El nivel más alto de participación son los <strong>proyectos</strong>: de mediano o largo plazo, con roles de liderazgo reales. De eso trata el resto de esta lección."
+          "text": "Para Nómadas, la Guía pide actividades complejas y cooperativas, en las que ellos participen «en todo el ciclo de vida de la actividad, desde la concepción hasta la evaluación». El nivel más alto de participación son los <strong>proyectos</strong>, de mediano o largo plazo y con liderazgo real: de eso trata el resto de la lección."
         },
         {
           "type": "heading",
@@ -663,19 +659,19 @@
           "items": [
             {
               "title": "🕊️ Mensajeros de Paz",
-              "description": "La puerta cuando el proyecto es de convivencia: el conflicto del colegio, la memoria del barrio, la equidad. Dentro viven Constructores de Paz, Patrimonito, HeForShe, los Diálogos por la Paz y el Diálogo Interreligioso.",
+              "description": "La puerta cuando el proyecto es de convivencia: el conflicto del colegio, la memoria del barrio, la equidad. Ahí viven Constructores de Paz, Patrimonito, HeForShe, los Diálogos por la Paz y el Diálogo Interreligioso.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
             {
               "title": "🌱 Tribu Tierra",
-              "description": "La puerta cuando el proyecto es del entorno: el caño, los residuos del salón, la energía, el agua. Dentro viven Plastic Tide Turners, Campeones por la Naturaleza, Scouts Go Solar y YUNGA.",
+              "description": "La puerta cuando el proyecto es del entorno: el caño, los residuos del salón, la energía, el agua. Ahí viven Plastic Tide Turners, Campeones por la Naturaleza, Scouts Go Solar y YUNGA.",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             },
             {
               "title": "🏅 Scouts del Mundo · Héroes Mensajeros de la Paz",
-              "description": "Los dos reconocimientos mundiales. No se buscan: se alcanzan cuando ya hay un proyecto sostenido detrás. Por eso van al final y no al principio.",
+              "description": "Los dos reconocimientos mundiales que la Guía nombra dentro del marco. Cada uno tiene sus propios requisitos; por ahora basta con saber que existen.",
               "color": "#fff8e1",
               "borderColor": "#f9a825"
             }
@@ -736,11 +732,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Los ámbitos de participación no se acaban en tu Comunidad. Están los <strong>espacios institucionales</strong> —foros juveniles, consejos de distintos niveles— donde los Nómadas inciden en las políticas de la Asociación. Su Guía nombra también la <strong>Red de Jóvenes</strong>: ojo con eso, porque su Reglamento pide <strong>ser Rover</strong> para entrar, así que a tus Nómadas les toca cuando lleguen al Clan. Y la Guía es tajante sobre tu papel ahí: «el rol del Dirigente es el de acompañamiento, no el de participación activa y deberíamos limitarnos a orientar sin interferir o cuando sea requerido»."
+          "text": "Los ámbitos de participación no se acaban en tu Comunidad: están los <strong>espacios institucionales</strong> —foros juveniles, consejos de distintos niveles—. La <strong>Red de Jóvenes</strong>, que su Guía también nombra, pide en su Reglamento <strong>ser Rover</strong>: a tus Nómadas les toca en el Clan. Y sobre tu papel ahí la Guía es tajante: «el rol del Dirigente es el de acompañamiento, no el de participación activa y deberíamos limitarnos a orientar sin interferir o cuando sea requerido»."
         },
         {
           "type": "paragraph",
-          "text": "Y están las formas en que ya se expresan sin pedirte permiso: el activismo digital, el voluntariado en otras organizaciones, el consumo consciente. Tu trabajo, dice la Guía, es «conocer, caracterizar y acompañar a los protagonistas a que integren estas expresiones al programa». No a que las dejen afuera."
+          "text": "Y están las formas en que ya se expresan sin pedirte permiso —el activismo digital, el voluntariado en otras organizaciones, el consumo consciente—. Tu trabajo, dice la Guía, es «conocer, caracterizar y acompañar a los protagonistas a que integren estas expresiones al programa»."
         }
       ],
       "reflection": {
@@ -754,16 +750,16 @@
             "text": "Tu Comunidad quiere «ayudar al ancianato del barrio» y ya organizó una jornada de pintura para el sábado siguiente. ¿Qué haces?",
             "options": [
               "Los dejas avanzar: la iniciativa salió de ellos y la jornada de pintura ya está organizada para el sábado siguiente.",
-              "Les propones ir esta semana a preguntar al ancianato qué necesitan, y decidir después con esa información.",
-              "Les pides asociar la jornada a un ODS y preparar indicadores, para que quede bien documentada."
+              "Les ayudas a conseguir más pintura y voluntarios, para que la jornada del sábado salga mejor.",
+              "Les propones ir esta semana a preguntar al ancianato qué necesitan, y decidir después con esa información."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "Camila, de tu Comunidad, fue elegida al foro juvenil regional. Vas como acompañante y, en plena sesión, el moderador te pregunta directamente cómo funciona el Congreso en tu Grupo. ¿Qué haces?",
             "options": [
               "Respondes lo que te preguntaron, en dos frases, y le devuelves la palabra a Camila y a los demás jóvenes.",
-              "Le pides a Camila que responda ella aunque la pregunta era para ti, para que el espacio siga siendo de ellos.",
+              "Respondes con detalle, ya que la pregunta era para ti, y luego le pides a Camila que complete lo que falte.",
               "Respondes y aprovechas para presentar la propuesta de la Comunidad, porque Camila apenas está empezando."
             ],
             "correctIndex": 0
@@ -771,11 +767,11 @@
           {
             "text": "La Comunidad terminó la jornada de limpieza del caño con los vecinos. Salió bien y todos quieren irse ya. ¿Qué haces antes de cerrar?",
             "options": [
-              "Les tomas la foto con los vecinos y anuncias la próxima fecha, para no perder el impulso que traen de la jornada.",
               "Les pides cinco minutos, con los vecinos que se queden, para contar qué hicieron, qué les costó y si alguien quedó afuera.",
+              "Les pides cinco minutos, solo entre los Nómadas, para contar qué hicieron; a los vecinos les agradeces y los despides.",
               "Los dejas ir porque están cansados y llenas tú el formato de evaluación con lo que viste, para que quede registrada."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -817,7 +813,7 @@
         },
         {
           "type": "info-box",
-          "text": "⚠️ <strong>Si lees la Guía, vas a encontrar una errata.</strong> En la tabla del perfil de egreso el sexto bloque aparece titulado otra vez «Rumbo del Puente — Sociabilidad», pero sus competencias son de Espiritualidad. El nombre correcto es el de la lista de insignias: <strong>Rumbo del Fuego</strong>. Lo decimos para que no dudes cuando lo veas."
+          "text": "⚠️ <strong>Si lees la Guía, vas a encontrar una errata.</strong> En la tabla del perfil de egreso el sexto bloque vuelve a titularse «Rumbo del Puente — Sociabilidad», pero sus competencias son de Espiritualidad. El nombre correcto es el de la lista de insignias: <strong>Rumbo del Fuego</strong>."
         },
         {
           "type": "heading",
@@ -857,7 +853,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Antes de la aritmética, un puente con lo que Andrés ya vivió. Andrés ya conoce esta lógica: en la Tropa sus cuatro fases también se leían mirando sus seis Rutas juntas. Aquí es igual, con una diferencia: en la Tropa se contaban territorios y aquí se cuentan <strong>Rumbos enteros</strong>. Por eso un Nómada puede subir de fase sin haber «terminado» nada en particular: lo que cambió fue el mapa completo, no una casilla. <strong>Eso no quiere decir que las cuatro fases estén sueltas: suben, y cada insignia de fase reconoce una etapa ya cumplida. Lo que no hay es una casilla que cerrar para pasar a la siguiente.</strong>"
+          "text": "Andrés ya conoce esta lógica: en la Tropa sus cuatro fases también se leían mirando sus seis Rutas juntas. La diferencia es que allá se contaban territorios y aquí se cuentan <strong>Rumbos enteros</strong>. Las fases suben, y cada insignia de fase reconoce una etapa ya cumplida; lo que no hay es una casilla que cerrar para pasar a la siguiente, porque lo que cambia es el mapa completo."
         },
         {
           "type": "heading",
@@ -893,11 +889,11 @@
         },
         {
           "type": "paragraph",
-          "text": "El reconocimiento tiene <strong>tres dimensiones</strong>: el <em>de sí mismo</em> —el joven se reconoce en su propia historia—, el <em>entre pares</em> —se validan mutuamente, y esa es la base ética de la convivencia— y el <em>institucional</em> —condecoraciones y distinciones reglamentadas—. Los tres cuentan, y el segundo es el que más se descuida."
+          "text": "El reconocimiento tiene <strong>tres dimensiones</strong>: el <em>de sí mismo</em>, el <em>entre pares</em> —la base ética de la convivencia, y la que más se descuida— y el <em>institucional</em>. La Guía pide reconocimientos <strong>sencillos, breves, personales y significativos</strong>, que resalten «el esfuerzo, la constancia y el crecimiento personal, más que los resultados comparativos entre unos y otros». Además de las ceremonias sirven las formas pequeñas: una palabra de aliento, una carta, una responsabilidad nueva que confirme la confianza."
         },
         {
-          "type": "paragraph",
-          "text": "La Guía pide que los reconocimientos sean <strong>sencillos, breves, personales y significativos</strong>, y que resalten «el esfuerzo, la constancia y el crecimiento personal, más que los resultados comparativos entre unos y otros». Además de las ceremonias, sirven las formas pequeñas: palabras de aliento, una carta, una responsabilidad nueva que confirme la confianza, una conversación corta."
+          "type": "info-box",
+          "text": "🧰 <strong>Las cinco herramientas de la rama.</strong> <em>Cartografía Nómada</em> (el <strong>Plan de Progresión Personal</strong> de cada joven) · <em>Carta de Navegación</em> (la memoria de la Comunidad, a cargo del Navegante) · <em>Hoja de Travesía</em> (planear y evaluar una actividad) · <em>Atlas de Travesías</em> (planear y evaluar el ciclo completo) · <em>Diario de Ruta</em> (seguimiento de las competencias educativas, individual y colectivo; digital o físico). La quinta no aparece en el índice de la Guía, pero sí en su capítulo 12."
         }
       ],
       "reflection": {
@@ -954,7 +950,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Andrés llegó a tu Comunidad con catorce y medio. Eso es correcto, aunque la sección se declare de 15 a 17: la <strong>Guía de Dirigente de Tropa</strong> inicia el paso <em>«durante los últimos 6 meses en la Tropa… es decir, a los 14 años y medio»</em>, y la de Comunidad sitúa la ventana entre los 14 años y 6 meses y los 15. <strong>Vas a tener Nómadas de catorce, y no es un error.</strong>"
+          "text": "A los catorce y medio Andrés empezó su <strong>Etapa de Transición</strong>: seguía en la Tropa, pero ya venía a actividades con tu Comunidad. La <strong>Guía de Dirigente de Tropa</strong> abre ese proceso <em>«durante los últimos 6 meses en la Tropa… es decir, a los 14 años y medio»</em>, y la de Comunidad lo sitúa entre los 14 años y 6 meses y los 15. <strong>Vas a ver en tus actividades a jóvenes de catorce y medio que todavía son de la Tropa, y no es un error.</strong> El paso llega cuando el joven está listo, y a más tardar a los quince."
         },
         {
           "type": "policy-quote",
@@ -964,11 +960,11 @@
         },
         {
           "type": "info-box",
-          "text": "🔀 <strong>Es una sola insignia, y se llama Viajero del Territorio.</strong> Se entrega al comenzar la Etapa de Transición, para que tú puedas enlazar la adaptación: <strong>abre</strong>, no cierra. Si encuentras por ahí una «Insignia de Paso» entregada al final de la Tropa, viene de un documento de apoyo de <strong>2023</strong> que la propia Asociación anunció que iba a actualizar — y la <strong>Guía de Dirigente de Tropa</strong> no la menciona ni una vez."
+          "text": "🔀 <strong>Es una sola insignia: Viajero del Territorio.</strong> Se entrega al comenzar la Etapa de Transición y <strong>abre</strong>, no cierra. Si encuentras una «Insignia de Paso» entregada al final de la Tropa, viene de un documento de apoyo de <strong>2023</strong> que la Asociación anunció que iba a actualizar; la <strong>Guía de Dirigente de Tropa</strong> no la menciona."
         },
         {
           "type": "paragraph",
-          "text": "El proceso puede empezar en los últimos seis meses del joven en la Tropa, invitándolo a actividades conjuntas donde conozca la dinámica, los rumbos y la organización de la Comunidad. La Guía advierte del riesgo: el tránsito debe acompañarse «para que no implique pérdida de motivación ni ruptura emocional con el grupo de origen». Y pide una ceremonia de paso «sin solemnidades vacías, sino con significado profundo»."
+          "text": "En esas actividades conjuntas conoce la dinámica, los rumbos y la organización de la Comunidad, y el Dirigente de Tropa lo ayuda a ver cuándo está listo. La Guía pide acompañar el tránsito «para que no implique pérdida de motivación ni ruptura emocional con el grupo de origen», y cerrarlo con una ceremonia de paso «sin solemnidades vacías, sino con significado profundo»."
         },
         {
           "type": "heading",
@@ -983,18 +979,18 @@
           "type": "list",
           "ordered": true,
           "items": [
-            "<strong>Legado</strong> — se autoevalúa con honestidad en las áreas de crecimiento, mirando el impacto que el Movimiento tuvo en él y el que él tuvo en su rama. Se sugiere materializarlo en una creación propia que le deja a su Comunidad.",
-            "<strong>Asentamiento</strong> — se acerca al Clan de Rovers y conoce la importancia de la canoa como símbolo. Las preguntas clave: ¿qué es un Rover?, ¿cómo funciona su Plan de Progresión Personal?, ¿qué espero lograr en el Clan?",
+            "<strong>Legado</strong> — se autoevalúa con honestidad en las áreas de crecimiento: el impacto que el Movimiento tuvo en él y el que él tuvo en su rama. Se sugiere materializarlo en una creación propia que le deja a su Comunidad.",
+            "<strong>Asentamiento</strong> — se acerca al Clan de Rovers y a la canoa como símbolo. Las preguntas clave: ¿qué es un Rover?, ¿cómo funciona su Plan de Progresión Personal?, ¿qué espero lograr en el Clan?",
             "<strong>Ciudadanía</strong> — ya participó de actividades con el Clan; ahora <strong>escoge autónomamente</strong> en qué rama participa durante este paso."
           ]
         },
         {
           "type": "info-box",
-          "text": "📜 <strong>La distinción Ciudadano Scout — no es la insignia del comienzo.</strong> Se llaman igual, pero la insignia que recibió al empezar abre la transición, y esta distinción la cierra. Al terminar la transición se entrega por <strong>resolución oficial de la Comisión Nacional de Nómadas Scout</strong>, con un pin que solicita su Dirigente de Comunidad. Ese trámite es tuyo: si no lo pides, no llega. Y una regla dura: ningún integrante de la rama puede ser mayor de edad."
+          "text": "📜 <strong>La distinción Ciudadano Scout no es la insignia del comienzo.</strong> Se llaman igual, pero la insignia abre la transición y la distinción la cierra: al terminar se entrega por <strong>resolución oficial de la Comisión Nacional de Nómadas Scout</strong>, con un pin que solicita su Dirigente de Comunidad. Ese trámite es tuyo: si no lo pides, no llega. Y una regla dura: ningún integrante de la rama puede ser mayor de edad."
         },
         {
           "type": "info-box",
-          "text": "🛶 <strong>Y al otro lado de la orilla.</strong> Qué es un Clan, qué significa la canoa y cómo funciona la progresión de un Rover —que allá se llama <strong>PARCE</strong>— es materia del <strong>Curso 12 (Rama Rovers · Clan)</strong>, que ya puedes hacer. Y hay algo que no espera al curso: pídele al Jefe de Clan de tu Grupo que venga a una reunión de tu Comunidad antes de que tu primer Nómada cumpla los dieciocho. El Asentamiento se hace con gente, no con folletos."
+          "text": "🛶 <strong>Y al otro lado de la orilla.</strong> Qué es un Clan, qué significa la canoa y cómo funciona la progresión de un Rover —que allá se llama <strong>PARCE</strong>— lo enseña el <strong>Curso 12 (Rama Rovers · Clan)</strong>, ya disponible. Lo que no espera al curso: pídele al Jefe de Clan de tu Grupo que venga a una reunión de tu Comunidad antes de que tu primer Nómada cumpla los dieciocho. El Asentamiento se hace con gente, no con folletos."
         },
         {
           "type": "heading",
@@ -1009,11 +1005,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El ciclo dura <strong>de tres a seis meses</strong> y normalmente lo deciden los propios jóvenes a través de su organismo de gobierno. Cómo se conduce paso a paso —el énfasis del ciclo, cómo se encadenan sus momentos, la evaluación con criterios DURASLID— es materia del <strong>Curso 15 (Ciclo de Programa con ABP)</strong>, que sirve a todas las ramas y <strong>ya está disponible</strong>. Y si en el Curso 6 te quedó el ciclo del Modelo con <strong>cinco</strong> momentos y en tu Guía de Comunidad lo ves en <strong>cuatro</strong>, no te lo estás inventando: son dos textos vigentes que lo cuentan distinto, y ahí es donde el Curso 15 pone orden. Lo que sí es propio de tu Comunidad son sus herramientas."
-        },
-        {
-          "type": "info-box",
-          "text": "🧰 <strong>Las cinco herramientas de la rama.</strong> <em>Cartografía Nómada</em> (el <strong>Plan de Progresión Personal</strong> de cada joven) · <em>Carta de Navegación</em> (la memoria de la Comunidad, a cargo del Navegante) · <em>Hoja de Travesía</em> (planear y evaluar una actividad) · <em>Atlas de Travesías</em> (planear y evaluar el ciclo completo) · <em>Diario de Ruta</em> (seguimiento de las competencias educativas, individual y colectivo; digital o físico). La quinta no aparece en el índice de la Guía, pero sí en su capítulo 12."
+          "text": "El ciclo dura <strong>de tres a seis meses</strong> y normalmente lo deciden los propios jóvenes a través de su organismo de gobierno. Cómo se conduce lo enseña el <strong>Curso 15 (Ciclo de Programa con ABP)</strong>, ya disponible, que además pone orden entre los <strong>cuatro</strong> momentos de tu Guía y los <strong>cinco</strong> del Modelo que viste en el Curso 6: son dos textos vigentes que lo cuentan distinto."
         },
         {
           "type": "heading",
@@ -1029,14 +1021,8 @@
           "text": "🔗 <strong>Y lo que no es de este curso.</strong> Qué hacer —y qué <strong>no</strong>— cuando un Nómada te revela un daño lo enseña la línea <strong>Políticas Transversales</strong>, en <a href=\"https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/02-Plataforma-Web/adulto-garante-entorno-seguro.html\" target=\"_blank\" rel=\"noopener\"><em>El Adulto como Garante: reportar, no investigar</em></a>. Este curso enlaza allá y no lo reexplica, para que esa conducta tenga una sola fuente en toda la plataforma. La ruta de reporte ya existe y se llama <strong>«Me Pongo A Salvo del Peligro»</strong>, y se usa desde <a href=\"https://forms.gle/PPgbS1U4ip5t5Q1PA\" target=\"_blank\" rel=\"noopener\">forms.gle/PPgbS1U4ip5t5Q1PA</a>. Lo que aplica al planear salidas y pernoctas lo trabaja el <strong>Curso 25</strong>, ya disponible."
         },
         {
-          "type": "policy-quote",
-          "label": "📋 De quién es el Movimiento",
-          "source": "Guía para el Dirigente de Comunidad de Nómadas Scout (DNPJ 2026), cap. 10, p. 42.",
-          "text": "Jamás debemos perder de vista que el Movimiento es de jóvenes, apoyado por adultos; no es un Movimiento para jóvenes dirigido por adultos."
-        },
-        {
           "type": "mission-box",
-          "text": "🎯 <strong>Tu primer paso como Dirigente de Comunidad.</strong> No intentes cambiar la Comunidad entera el sábado: escoge una sola cosa de este curso y pruébala en la próxima reunión. ¿Cuál? La que empuje una decisión hacia afuera — una llamada que hagan ellos, una visita al barrio, una pregunta a alguien que no sea scout. <strong>Escríbela en el recuadro «Compromiso Personal» que te aparece con el certificado: ese se queda en tu navegador.</strong> Tu compromiso, hoy, es esa sola cosa. Ponle fecha. Y si dudas por dónde seguir, vuelve a la frase con la que abrimos: en la Tropa aprendieron a decidir entre ellos; en la Comunidad deciden hacia afuera — y de eso se entera el barrio."
+          "text": "🎯 <strong>Tu primer paso como Dirigente de Comunidad.</strong> No intentes cambiar la Comunidad entera: escoge una sola cosa de este curso y pruébala en la próxima reunión, la que empuje una decisión hacia afuera — una llamada que hagan ellos, una visita al barrio, una pregunta a alguien que no sea scout. <strong>Escríbela en el recuadro «Compromiso Personal» que te aparece con el certificado: ese se queda en tu navegador.</strong> Ponle fecha. Y si dudas, vuelve a la frase del comienzo: en la Tropa aprendieron a decidir entre ellos; en la Comunidad deciden hacia afuera — y de eso se entera el barrio."
         }
       ],
       "reflection": {
@@ -1047,11 +1033,11 @@
         "nextLabel": "Ir al certificado 🎓",
         "questions": [
           {
-            "text": "Llega a tu Comunidad un Scout de 14 años y medio. Un dirigente del Grupo dice que no debería estar ahí porque la rama es de 15 a 17. ¿Qué haces?",
+            "text": "Lucas tiene catorce años y medio, empezó su Etapa de Transición y ya viene a algunas actividades de tu Comunidad. Un dirigente del Grupo dice que no debería estar ahí porque la rama es de 15 a 17. ¿Qué le respondes?",
             "options": [
-              "Lo recibes: llegar antes de los quince es lo previsto entre las dos guías, no una excepción que haya que autorizar.",
-              "Lo recibes como invitado a las actividades, pero lo dejas inscrito en la Tropa hasta el día que cumpla quince.",
-              "Lo recibes y le pides al Jefe de Grupo que autorice por escrito el ingreso anticipado, porque la sección es de 15 a 17."
+              "Que está bien que venga: sigue en la Tropa y viene a actividades conjuntas, y el paso llega a más tardar a los quince.",
+              "Que está bien que venga: la transición empieza a los catorce y medio, y desde ese día ya es un Nómada más de un Equipo.",
+              "Que está bien que venga si el Jefe de Grupo autoriza por escrito su ingreso anticipado, porque la sección es de 15 a 17."
             ],
             "correctIndex": 0
           },

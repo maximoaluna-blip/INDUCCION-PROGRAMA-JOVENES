@@ -28,8 +28,8 @@ Al completar este curso, el adulto:
 
 1. **Sitúa** históricamente el informe de Baden-Powell en Ginebra (1 de agosto de 1922, 3er Congreso Internacional sobre Moral y Educación, Instituto Jean-Jacques Rousseau, antecedente de la Oficina Internacional de Educación de UNESCO).
 2. **Distingue** las prácticas educativas "por el temor" de las prácticas "por el amor" tanto en el siglo XX como en su propia experiencia.
-3. **Reconoce** los 4 objetivos de la instrucción que B-P propuso (carácter e inteligencia, habilidad manual, hábito de servir al prójimo, salud y vigor físico) como antecedente directo de las 6 áreas de crecimiento de hoy.
-4. **Identifica** los rasgos de la autoeducación voluntaria (deseo de conocer, fraternidad universal, abolición de diferencias de clase, igualdad de oportunidades) que siguen vigentes en el Movimiento Scout de hoy.
+3. **Reconoce** los 4 objetivos de la instrucción que B-P propuso (carácter e inteligencia, habilidad manual, hábito de servir al prójimo, salud y vigor físico) como un antecedente que se parece a las 6 áreas de crecimiento de hoy (parecido, no filiación documentada: GLOSARIO §E).
+4. **Identifica** las cuatro ideas que sostienen la educación por el amor (autoeducación voluntaria, fraternidad universal, deseo de conocer y servicio al prójimo) y cómo se ven en una reunión de hoy.
 5. **Detecta** prácticas escolares o familiares contemporáneas que reproducen "la educación por el temor" sin notarlo.
 6. **Formula** un compromiso de práctica pedagógica "por el amor" para su unidad o rol.
 
@@ -52,8 +52,8 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 | 1 | 👋 Bienvenida | 3 min | Antes de aprender el Método, recibe la brújula que lo guía. | Listo para escuchar a B-P |
 | 2 | 🕰️ Ginebra, 1 de agosto de 1922 | 5 min | El día que B-P propuso cambiar el temor por el amor. | Conozco el contexto |
 | 3 | 😨 La educación por el temor (lo que B-P combatió) | 5 min | Castigo, recompensa, vanidad, competencia: lo viejo. | Veo el contraste |
-| 4 | 💗 La educación por el amor (la apuesta de B-P) | 6 min | Autoeducación voluntaria, fraternidad universal, deseo de conocer. | Entiendo la apuesta |
-| 5 | 🎯 Los 4 objetivos de la instrucción | 5 min | Carácter, habilidad manual, servir al prójimo, salud: un antecedente que recuerda las 6 áreas. | Veo la raíz de las áreas |
+| 4 | 💗 La educación por el amor (la apuesta de B-P) | 6 min | Autoeducación voluntaria, fraternidad universal, deseo de conocer y servicio: las cuatro ideas. | Entiendo la apuesta |
+| 5 | 🎯 Los 4 objetivos de la instrucción | 5 min | Carácter, habilidad manual, servir al prójimo, salud: un antecedente que recuerda las 6 áreas. | Veo el parecido con las áreas |
 | 6 | ✍️ Mi pedagogía: ¿por el temor o por el amor? | 3 min | Auto-revisión + un compromiso de práctica. | Educador por el Amor (final) |
 
 **Total estimado: ~33 min**, dentro del rango óptimo del marco metodológico.
@@ -98,7 +98,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - **1919–1922** — Europa sale de la guerra, pero el militarismo y las pedagogías autoritarias siguen muy vivos.
     - **1 de agosto de 1922** — B-P toma la palabra en Ginebra y propone cambiar el motor de la educación: el amor en lugar del temor.
 5. **`heading` (nivel 3)** — _"Lo que B-P fue a decir"_
-6. **`paragraph`** — _"Su informe se llamó **'La educación por el amor en sustitución de la educación por el temor'**. No fue a hablar de uniformes ni de campamentos —aunque los menciona—: fue a hablar de pedagogía. De cómo se educa a un joven sin convertirlo en un soldado dócil ni en un alumno que solo recibe lo que le dicen. Habló de **autoeducación voluntaria, fraternidad universal y deseo de conocer**. Lo escucharon educadores de todo el mundo. La OMMS lo reeditó en 2007, en el año centenario del Movimiento, para que ningún dirigente lo olvide."_
+6. **`paragraph`** — _"Su informe se llamó **'La educación por el amor en sustitución de la educación por el temor'**. No fue a hablar de uniformes ni de campamentos —aunque los menciona—: fue a hablar de pedagogía. De cómo se educa a un joven sin convertirlo en un soldado dócil ni en un alumno que solo recibe lo que le dicen. Habló de **autoeducación voluntaria, fraternidad universal, deseo de conocer y servicio al prójimo**. Lo escucharon educadores de todo el mundo. La Organización Mundial del Movimiento Scout (OMMS) lo reeditó en 2007, en el año centenario del Movimiento, para que ningún dirigente lo olvide."_
 7. **`policy-quote`** — Cita textual del comienzo del informe:
     - `text`: _"Los fuertes se servirán del miedo como un arma para aterrorizar a los débiles."_
     - `source`: "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 5)."
@@ -107,19 +107,25 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 **Reflexión:** _"En tu propia formación escolar (primaria, secundaria), ¿qué pesó más: el miedo al castigo o el deseo de aprender? Escribe en 2–3 frases una experiencia concreta que te marcó (positiva o negativa)."_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas, sincronizado con el JSON el 22/11/2026; el motor baraja las opciones):**
 
-> **P1.** El informe de B-P en Ginebra 1922 se titula "La educación por el amor en sustitución de la educación por el temor". Más allá del título, ¿qué estaba proponiendo con esa frase?
+> **P1.** En una Manada los lobatos llegan puntuales porque el primer juego es su favorito y nadie quiere perdérselo; si alguien llega tarde, no pasa nada más. Un dirigente nuevo dice que eso es educar por el temor, porque «pierden algo si llegan tarde». ¿Qué le respondes?
 >
-> a) _Reemplazar los castigos por premios más atractivos para el joven._
-> b) _Cambiar el motor de la educación: dejar de mover al joven con miedo y empezar a moverlo con el deseo de aprender y de servir._  ✅
-> c) _Sustituir la formación militar por formación deportiva al aire libre._
+> a) _Que tiene razón: perderse lo que les gusta es un castigo; mejor esperar a que lleguen todos._
+> b) _Que no: aquí el motor es el deseo de jugar, no el miedo a una sanción que un adulto les impone._  ✅
+> c) _Que no: mientras no haya gritos ni castigo físico, la puntualidad no tiene que ver con el temor._
 
-> **P2.** B-P pronunció este informe en…
+> **P2.** Una jefa de Tropa presume: «Mi Tropa es la más disciplinada del Grupo: obedecen a la primera y nadie discute una orden». Con lo que la lección dice que B-P fue a decir en Ginebra, ¿qué le señalas?
 >
-> a) _Un congreso militar en Londres, ante oficiales del Ejército._
-> b) _Un congreso de moral y educación en Ginebra (antecedente de UNESCO)._  ✅
-> c) _Una asamblea Scout en Brownsea._
+> a) _Que su Tropa va bien: si obedecen sin gritos ni castigos, ya se están educando por el amor._
+> b) _Que la meta es otra: B-P quería que el joven creciera por su propio interés, no porque se lo impongan._  ✅
+> c) _Que la obediencia es buena si la sostiene con puntos y reconocimientos semanales a la mejor patrulla._
+
+> **P3.** En una reunión de padres, un papá dice que el escultismo es «un club de campamento con disciplina militar, porque lo fundó un general». Con lo que viste del informe de 1922, ¿qué le respondes?
+>
+> a) _Que B-P llevó a un congreso de educadores una propuesta pedagógica: cambiar el miedo por el deseo de aprender._  ✅
+> b) _Que tiene algo de razón: B-P propuso en Ginebra una disciplina militar más suave, adaptada a los niños._
+> c) _Que B-P fue a Ginebra a mostrar sus campamentos y uniformes; la parte pedagógica la añadieron otros después._
 
 **Logro:** "Conozco el contexto".
 
@@ -140,6 +146,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - 👁️ **La vanidad** — _"Mira lo bueno que soy."_ Educar para que el otro quede impresionado, no para que el propio joven crezca.
     - ⚔️ **La competencia** — _"Tú contra ellos."_ Comparar permanentemente a un joven con otro, generar ganadores y perdedores donde todos podrían crecer.
 5. **`paragraph`** — _"Cuando estos 4 motores manejan una unidad, una familia o un aula, los chicos aprenden a hacer lo correcto **mientras alguien los mira**. Aprenden a sobrevivir, no a crecer."_
+5b. **`info-box`** — _"**¿Y las insignias?** Por sí solas no son la recompensa que criticó Baden-Powell. El reconocimiento —insignias incluidas— tiene sentido cuando ilumina avances reales, sin volverse presión ni etiqueta (*Modelo de Aplicación* 2026, p. 14). Se vuelven recompensa cuando el premio reemplaza la razón de hacerlo: «si cumples, te doy algo»."_
 6. **`heading` (nivel 3)** — _"Lo que B-P le criticó al método antiguo"_
 7. **`policy-quote`** — Cita de B-P:
     - `text`: _"El Método antiguo pecó por la base, porque desarrollaba en el alumno el miedo al castigo, el deseo de recompensa, la vanidad y el espíritu de competencia, en vez de desarrollar las necesidades inherentes al niño, de expansión y manifestación."_
@@ -156,19 +163,25 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 **Reflexión:** _"¿Cuál de los 4 motores (castigo, recompensa, vanidad, competencia) se te cuela más en tu práctica como dirigente, maestro, padre o jefe? Describe el tipo de momento en que aparece (al corregir, antes de una actividad, en una ceremonia…) y la frase que sueles usar, sin nombres ni datos de nadie. Esta reflexión la puede leer el equipo de formación."_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas, sincronizado con el JSON el 22/11/2026; el motor baraja las opciones):**
 
-> **P1.** Según esta lección, ¿cuál es el problema principal de educar con recompensas externas ("si cumples, te doy algo")?
+> **P1.** En la ceremonia de insignias, un jefe de Manada anuncia: «El lobato que más insignias gane este mes será el primero en escoger juego cada sábado». Con lo que dice la lección, ¿qué le propones?
 >
-> a) _Que el premio enseña al joven a hacer lo correcto solo mientras lo miran, sin construir un sentido interno._  ✅
-> b) _Ninguno: premiar siempre es buena idea porque refuerza la conducta deseada._
-> c) _Que el problema no es la recompensa sino su tamaño: con un premio mayor y más seguido sí funciona._
+> a) _Que quite esa regla y entregue cada insignia contando qué avance concreto reconoce en ese lobato._  ✅
+> b) _Que cambie el premio por un aplauso de toda la Manada al que más insignias gane, sin privilegios de juego._
+> c) _Que mantenga la regla y premie también al que menos tenga, para que ninguno se sienta por debajo._
 
-> **P2.** Un dirigente avergüenza públicamente a un lobato que no se sabe la promesa. Está aplicando…
+> **P2.** Para el día de familias, una jefa de Tropa elige solo a los tres scouts que mejor tocan guitarra y les repite: «Que la Tropa se vea bien, que se note el trabajo de los jefes». ¿Qué motor de la educación por el temor está alimentando?
 >
-> a) _Educación por el amor — está mostrándole la importancia._
-> b) _Educación por el temor — usa la humillación como motor._  ✅
-> c) _Una técnica neutra del Método Scout._
+> a) _La recompensa: el aplauso de los papás será el premio externo que los mueve a ensayar._
+> b) _La vanidad: les enseña a hacer las cosas para lucirse ante otros, no para crecer ellos._  ✅
+> c) _La competencia: los pone a compararse con las otras unidades para quedar como la mejor._
+
+> **P3.** En el campamento, la patrulla Halcones deja su rincón impecable los días que hay revisión con anotación de faltas, y desordenado los días que no la hay. Según la lección, ¿qué está mostrando?
+>
+> a) _Que a la patrulla le falta un sistema: con un turno fijo de revisión, el rincón quedaría ordenado._
+> b) _Que a la patrulla la mueve la competencia: ordena para no quedar por debajo de las demás._
+> c) _Que a la patrulla la mueve el miedo al castigo: cumple mientras alguien la mira, pero no está creciendo._  ✅
 
 **Logro:** "Veo el contraste".
 
@@ -176,19 +189,19 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 ### 4.5 Lección 4 — 💗 La educación por el amor (la apuesta de B-P) (6 min)
 
-**Idea central:** Autoeducación voluntaria, fraternidad universal, deseo de conocer.
+**Idea central:** Autoeducación voluntaria, fraternidad universal, deseo de conocer y servicio: las cuatro ideas que sostienen la apuesta de B-P.
 
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — Apertura: _"Si la educación por el temor se sostiene en el castigo, la recompensa, la vanidad y la competencia, ¿en qué se sostiene la educación por el amor? B-P no hizo una lista con ese nombre, pero su informe vuelve una y otra vez sobre cuatro ideas."_
-2b. **`paragraph`** — Ancla concreta: _"Piensa en un lobato que se pasa la tarde intentando prender fuego con pedernal, sin que nadie se lo pida, y el sábado siguiente vuelve a intentarlo. Nadie le prometió un premio ni lo amenazó. Lo que lo mueve es lo que B-P puso en el centro."_
+2b. **`paragraph`** — Ancla concreta: _"Piensa en un lobato que, en un campamento de la Manada y a la vista de sus dirigentes, se pasa la tarde intentando prender fuego con pedernal sin que nadie se lo pida, y el sábado siguiente vuelve a intentarlo. Nadie le prometió un premio ni lo amenazó. Lo que lo mueve es lo que B-P puso en el centro."_
 3. **`heading` (nivel 3)** — _"Las 4 ideas que sostienen la educación por el amor"_
 4. **`method-grid`** — las 4 ideas con icono y color (cálidos, vivos):
     - 🤝 **Autoeducación voluntaria** — En palabras sencillas: el joven aprende porque quiere, no porque le obligan. La obligación produce obediencia; el deseo produce aprendizaje.
     - 🌍 **Fraternidad universal** — Somos hermanos más allá del país, la clase social o de si eres niño o niña. El Movimiento existe para tender puentes, no para construir muros.
     - 🔍 **Despertar el deseo de conocer** — No meterle ideas en la cabeza al niño, sino despertarle la curiosidad y mostrarle el camino. La pregunta vale más que la respuesta.
-    - 🙋 **Servir al prójimo como hábito** — Aprender haciendo —la idea del educador Edmundo Holmes que B-P hizo suya— y, además, haciendo el bien. El servicio no es una actividad ocasional; es la columna vertebral del carácter.
+    - 🙋 **Servir al prójimo como hábito** — Hacer el bien a otros no como actividad ocasional sino como costumbre: el servicio es la columna vertebral del carácter. Por eso vuelve en la próxima lección como uno de los 4 objetivos de la instrucción. (La frase de Holmes, «aprender haciendo», queda para el cierre de la L6.)
 5. **`policy-quote`** — Cita central de B-P:
     - `text`: _"La educación, tal como la entiendo, no consiste en introducir en el cerebro del niño una cierta dosis de conocimiento, sino en despertarle el deseo de conocer e indicarle el modo de estudiar."_
     - `source`: "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 8)."
@@ -205,19 +218,25 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 **Reflexión:** _"Piensa en la última reunión que preparaste o viviste. ¿Arrancó con 'qué les voy a hacer hacer' o con 'qué quieren descubrir'? Elige una actividad concreta de esa reunión (sin nombrar a nadie) y escribe cómo la cambiarías con una de las 4 ideas."_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas, sincronizado con el JSON el 22/11/2026; el motor baraja las opciones):**
 
-> **P1.** Un dirigente nuevo te dice: "Yo enseño bien porque mis chicos se saben de memoria la Ley y la Promesa." Según la educación por el amor que propuso B-P, ¿qué le falta a esa idea?
+> **P1.** Para planear «por el amor», una jefa de Tropa les pregunta a los scouts qué quieren hacer este mes. Todos piden solo fútbol. ¿Qué hace?
 >
-> a) _Nada: memorizar la Ley y la Promesa es exactamente lo que B-P pedía._
-> b) _Que saber de memoria no es lo mismo que despertar el deseo de conocer: el chico repite, pero no necesariamente quiere ni entiende._  ✅
-> c) _Que primero deben aprenderse el himno y los nudos antes que la Ley._
+> a) _Acepta fútbol todo el mes: si la decisión es de ellos, cambiarla sería volver a imponerles algo._
+> b) _Parte del fútbol y les propone retos —organizar un torneo, arbitrar, cuidar la cancha— que ellos ajustan._  ✅
+> c) _Les explica que el fútbol no es una actividad scout y les presenta el plan del mes que ya traía armado._
 
-> **P2.** ¿Cuál es la diferencia entre planear una reunión "por el temor" y una "por el amor", según esta lección?
+> **P2.** Los scouts de una Tropa cumplen todas las tareas de progresión sin quejarse, y su jefe dice que eso prueba que aprenden. ¿Qué le preguntarías para saberlo?
 >
-> a) _La primera es más corta, la segunda es más larga._
-> b) _La primera empieza preguntando "¿qué les voy a hacer hacer?", la segunda "¿qué quieren ellos descubrir?"._  ✅
-> c) _La primera la planea el dirigente; la segunda, los padres._
+> a) _Si alguno ha avanzado en algo sin que nadie se lo pidiera, o ha propuesto una tarea nueva._  ✅
+> b) _Si las tareas están bien graduadas por edad, para que nadie se frustre ni se aburra al cumplirlas._
+> c) _Si alguno las cumple sin premios ni castigos de por medio, solo porque él se lo pide con cariño._
+
+> **P3.** En una caminata, un lobato pregunta por qué unas hojas son amarillas y otras verdes. Su dirigente sabe la respuesta. Con la cita central de B-P en esta lección, ¿qué hace?
+>
+> a) _Le da la respuesta completa con un juego, para que el dato se le quede grabado mejor._
+> b) _Le pide que lo averigüe solo en su casa, para no quitarle el gusto de descubrirlo._
+> c) _Le devuelve la pregunta y le muestra cómo averiguarlo: mirar, comparar y preguntar._  ✅
 
 **Logro:** "Entiendo la apuesta".
 
@@ -242,7 +261,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - `source`: "Baden-Powell, Ginebra 1922 (reedición OMMS 2007, p. 10). Se omiten las glosas de 1922 que acompañan a cada objetivo."
     - `label`: "📋 Ver los 4 objetivos textuales"
 6. **`heading` (nivel 3)** — _"De 4 objetivos (1922) a 6 áreas (hoy)"_
-7. **`paragraph`** — _"Esos 4 objetivos se parecen mucho a lo que hoy la ASC llama las **6 áreas de crecimiento**: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad y Espiritualidad. Así las nombra el **Modelo de Aplicación 2026**; la PNPJ 2024 ya hablaba de seis, con otros nombres (desarrollo físico, intelectual, social, emocional, espiritual y del carácter). En la rama Cachorros (Familia) se trabajan como cinco dimensiones, porque Afectividad y Sociabilidad van juntas en una sola. Los nombres cambian; la idea de educar a la persona entera es la misma."_
+7. **`paragraph`** — _"Esos 4 objetivos se parecen mucho a lo que hoy la ASC llama las **6 áreas de crecimiento**: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad y Espiritualidad. Así las nombra el **Modelo de Aplicación 2026**; la PNPJ 2024 ya hablaba de seis, con otros nombres. En la rama Cachorros (Familia) se trabajan como cinco dimensiones, porque Afectividad y Sociabilidad van juntas en una sola. Los nombres cambian; la idea de educar a la persona entera es la misma."_
 8. **`heading` (nivel 3)** — _"Lo que esto significa para tu rol"_
 9. **`list`** — 4 implicaciones prácticas:
     - Cuando planeas una reunión, **revisa qué objetivos y áreas toca** y que no se quede en uno solo.
@@ -253,21 +272,27 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 **Reflexión:** _"Toma la última reunión de tu unidad (o una que conozcas) y anota qué área tocó cada actividad. ¿Cuál de las seis (cinco dimensiones en Familia) quedó sin tocar, y qué actividad pequeña la habría incluido?"_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas, sincronizado con el JSON el 22/11/2026; el motor baraja las opciones):**
 
-> **P1.** Estás planeando una salida y solo incluiste juegos físicos y deporte. Mirando los 4 objetivos que B-P propuso en 1922, ¿qué te están avisando que falta equilibrar?
+> **P1.** Estás planeando una salida de la Manada y solo incluiste juegos físicos y deporte. Con lo que la lección dice de los 4 objetivos de B-P, ¿qué concluyes?
 >
-> a) _Nada: con salud y vigor físico ya cubriste lo esencial._
-> b) _Que tocaste sobre todo la salud y el vigor físico, pero dejaste fuera el carácter, la habilidad manual y el servicio al prójimo._  ✅
-> c) _Que B-P pedía concentrarse en un solo objetivo por salida para no dispersar._
+> a) _Que le faltan objetivos: B-P los quería integrados en cada sesión, no repartidos en varias._  ✅
+> b) _Que la reparta: salud en esta salida y los otros tres objetivos en las siguientes, uno por salida._
+> c) _Que ya cubre dos: el deporte también forma el carácter, y con eso la salida basta._
 
-> **P2.** Según este curso, ¿qué relación hay entre los 4 objetivos de 1922 y las 6 áreas de hoy?
+> **P2.** Al revisar la progresión, un dirigente nota que en su Manada nadie tiene avances anotados en Espiritualidad desde hace meses. ¿Qué es lo más útil que hace?
 >
-> a) _Son listas distintas, no se relacionan._
-> b) _Apuntan a lo mismo: educar a la persona entera, no solo una parte de ella._  ✅
-> c) _La PNPJ 2024 reemplaza completamente lo que B-P dijo._
+> a) _Planea la próxima reunión para que, además de lo que ya hacen, toque también esa área._  ✅
+> b) _Dedica el próximo trimestre solo a Espiritualidad, hasta que todos los lobatos se nivelen._
+> c) _Les pide a las familias que trabajen Espiritualidad en casa y él sigue con el plan de siempre._
 
-**Logro:** "Veo la raíz de las áreas".
+> **P3.** Una jefa de Tropa organiza una gran jornada de servicio cada diciembre y dice que con eso cubre el objetivo de servir al prójimo. Con lo que B-P pedía, ¿qué le propones?
+>
+> a) _Que conserve diciembre y sume un servicio chico y fijo: cada patrulla, una tarea para otros cada mes._  ✅
+> b) _Que suprima la jornada: un servicio con fecha es un evento, y B-P pedía un hábito, no eventos._
+> c) _Que conserve diciembre y le sume otra gran jornada a mitad de año, para que el servicio no quede en una fecha._
+
+**Logro:** "Veo el parecido con las áreas".
 
 ---
 
@@ -297,23 +322,29 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - 🗺️ **Curso 7** — Mi Compromiso con el Programa de Jóvenes: ahí vas a recuperar el compromiso que escribes hoy, así que guárdalo (se queda solo en este navegador).
 10. **`info-box`** — Despedida con eco del dolor de apertura: _"Al empezar te dijimos que muchos dirigentes saben armar una reunión pero olvidan por qué la arman. Ya tienes el porqué: educar no es meterle conocimiento a un niño, sino despertarle el deseo de conocer y mostrarle cómo. Y cuando dudes, recuerda la idea que B-P hizo suya en Ginebra, del educador Edmundo Holmes: 'Aprender haciendo y contribuyendo a la formación del propio yo y no recibiendo pasivamente las ideas de otros; ese es el principio.' Buen camino."_
 
-**Reflexión:** _"De los cuatro motores antiguos —castigo, recompensa, vanidad o competencia—, ¿cuál se te coló más en tu auto-revisión? Solo el motor, sin situaciones ni personas. El compromiso completo escríbelo en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."_
+**Reflexión:** _"De los cuatro motores antiguos —castigo, recompensa, vanidad o competencia—, ¿cuál se te coló más en tu auto-revisión, y qué práctica por el amor vas a probar en su lugar? No cuentes la situación ni nombres a nadie: basta con el motor y la práctica. El compromiso completo escríbelo en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."_
 
 **Compromiso Personal** (`commitmentBox`, se queda en el navegador; corrección de privacidad del 02-oct-2026, ADR-117): _"Escribe tu compromiso pedagógico de esta semana con la plantilla de la Lección 6: qué práctica vas a reemplazar, por cuál, y cuál será la señal."_ — placeholder _"Esta semana voy a reemplazar la práctica … por la práctica … La señal de que se cumplió será …"_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas, sincronizado con el JSON el 22/11/2026; el motor baraja las opciones):**
 
-> **P1.** Una dirigente que toma este curso reconoce que suele decir _"el primero que termine la fogata gana un dulce"_. Está reproduciendo…
+> **P1.** Una dirigente reconoce en su auto-revisión que suele decirle a su Tropa: «la primera patrulla que arme la fogata gana un dulce». ¿Cuál de estos compromisos completa bien la plantilla de la lección?
 >
-> a) _La educación por el amor — está incentivando el esfuerzo._
-> b) _La educación por el temor — usa recompensa externa y competencia._  ✅
-> c) _Una práctica neutra que no aplica al escultismo._
+> a) _Esta semana voy a ser menos competitiva con la Tropa y al final revisaré cómo me fue._
+> b) _Voy a reemplazar el dulce por un aplauso a la primera patrulla; señal: se esfuerzan igual._
+> c) _Voy a reemplazar la carrera por armarla entre todos; señal: nadie pregunta quién ganó._  ✅
 
-> **P2.** Según el cierre del curso, la frase que B-P hizo suya _"Aprender haciendo y contribuyendo a la formación del propio yo"_ apunta a…
+> **P2.** Antes del primer campamento, un subjefe de Tropa quiere darles a los scouts una charla de dos horas sobre cómo armar las carpas, «para que no se equivoquen». Con la frase de Edmundo Holmes que B-P hizo suya y que cierra el curso, ¿qué le propones?
 >
-> a) _Que el joven es un recipiente vacío al que hay que llenar._
-> b) _Que el joven es un sujeto activo de su propia formación, no pasivo._  ✅
-> c) _Que el joven debe ser instruido por los adultos antes de poder hacer._
+> a) _Que la arme él primero frente a ellos, despacio, para que vean cómo queda bien hecha._
+> b) _Que la armen ellos por patrullas, con él cerca, en vez de oír la explicación sentados._  ✅
+> c) _Que mantenga la charla y al final les haga una prueba, para asegurar que la entendieron._
+
+> **P3.** Un subjefe escribe: «Esta semana voy a reemplazar los gritos por hablar con calma». Le falta la señal. ¿Cuál completa mejor la plantilla?
+>
+> a) _La señal será que el sábado termino la reunión sin haber alzado la voz ni una vez._  ✅
+> b) _La señal será que la Tropa me tenga más cariño y más confianza que antes._
+> c) _La señal será que los scouts me obedezcan a la primera, sin tener que repetirles._
 
 **Logro al completar:** "Educador por el Amor" (logro final del curso, `unlockOnModule: -1`).
 
@@ -327,7 +358,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 | `achievement-2` | Conozco el contexto | 🕰️ | Al completar Lección 2 |
 | `achievement-3` | Veo el contraste | 😨 | Al completar Lección 3 |
 | `achievement-4` | Entiendo la apuesta | 💗 | Al completar Lección 4 |
-| `achievement-5` | Veo la raíz de las áreas | 🎯 | Al completar Lección 5 |
+| `achievement-5` | Veo el parecido con las áreas | 🎯 | Al completar Lección 5 |
 | `achievement-final` | Educador por el Amor | 💗✨ | Al completar el curso (`unlockOnModule: -1`) |
 
 ---
@@ -394,7 +425,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 | Lenguaje conversacional, tutea | ✅ |
 | Citas oficiales plegables (`policy-quote`) | ✅ 5 citas a Baden-Powell |
 | Reflexión personal por lección | ✅ excepto intro |
-| Mini-quiz 1–3 preguntas, 70 % | ✅ 2 preguntas por lección |
+| Mini-quiz 1–3 preguntas, 70 % | ✅ 3 preguntas por lección |
 | 4–6 logros + 1 final | ✅ 5 + 1 |
 | Lección 1 marcada `isIntro: true` sin quiz | ✅ |
 | Conexión cross-course | ✅ con Cursos 1, 4, 5, 6, 7 y cross-línea |
@@ -414,3 +445,5 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 ---
 
 _Documento de diseño del Curso 2, versión inicial — 28 de mayo de 2026. Fuente angular: "La Educación por el Amor en sustitución de la Educación por el Temor", informe de Baden-Powell, Ginebra, 1 de agosto de 1922 (reedición OMMS 2007). Validado contra el marco metodológico de la plataforma._
+
+_Sincronizado con el JSON (`contentVersion` 2026-11-22) el 22/11/2026 por el decisor: quizzes de 3 preguntas, info-box de insignias en la L3, cuatro ideas en la L4 (tarjeta 4 sin la atribución a Holmes), PNPJ sin la lista de nombres en la L5, logro 5 «Veo el parecido con las áreas», objetivos 3 y 4 ajustados a lo que el curso enseña._

@@ -24,14 +24,14 @@
 
 ## 2. Objetivos del curso
 
-Al completar este curso, el adulto:
+Al completar este curso, el adulto será capaz de:
 
-1. **Enuncia con sus palabras** el Propósito del Movimiento Scout según las Características Esenciales OMMS 2019.
-2. **Distingue** los 3 Principios (Deber con Dios, Deber con los otros, Deber con uno mismo) y los traduce a su contexto personal y de unidad.
-3. **Identifica** los 6 elementos que definen al Movimiento (movimiento, para jóvenes, voluntario, abierto a todos, no político, independiente) y reconoce cuándo cada uno se transgrede en la práctica.
-4. **Relaciona** los 5 ámbitos de desarrollo (físico, intelectual, emocional, social, espiritual) que el Propósito enuncia con las 6 áreas de crecimiento de la PNPJ 2024.
-5. **Reconoce** la frase eje "Movimiento de jóvenes y para los jóvenes, apoyado por adultos" como criterio para evaluar la propia práctica.
-6. **Aplica** el principio de voluntariedad y el principio de no-adoctrinamiento como límites éticos del trabajo del dirigente.
+1. **Enunciar con sus palabras** el Propósito del Movimiento Scout según las Características Esenciales OMMS 2019.
+2. **Distinguir** los 3 Principios (Deber con Dios, Deber con los otros, Deber con uno mismo) y traducirlos a su contexto personal y de unidad.
+3. **Identificar** los 6 elementos que definen al Movimiento (movimiento, para jóvenes, voluntario, abierto a todos, no político, independiente) y reconocer cuándo cada uno se transgrede en la práctica.
+4. **Relacionar** los 5 ámbitos de desarrollo (físico, intelectual, emocional, social, espiritual) que el Propósito enuncia con las 6 áreas de crecimiento de la PNPJ 2024.
+5. **Evaluar** una decisión propia o de su unidad con la frase eje "de jóvenes y para los jóvenes, apoyado por adultos".
+6. **Aplicar** el principio de voluntariedad y el principio de no-adoctrinamiento como límites éticos del trabajo del dirigente.
 
 ---
 
@@ -39,7 +39,7 @@ Al completar este curso, el adulto:
 
 > **"Es un Movimiento de jóvenes y para los jóvenes, apoyado por adultos; no es un movimiento juvenil, gestionado en nombre de los jóvenes por adultos." (Características Esenciales, OMMS 2019, p. 28)**
 
-Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es marcar la diferencia entre el escultismo y otras propuestas para jóvenes que se les parecen pero invierten esta relación.
+Este hook se enuncia en la lección 5 y atraviesa todo el curso. Su función es marcar la diferencia entre el escultismo y otras propuestas para jóvenes que se les parecen pero invierten esta relación.
 
 ---
 
@@ -67,7 +67,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 **Secciones (en orden):**
 
 1. **`info-box`** — Tiempo (~33 min) y promesa: _"Al final vas a poder explicarle a alguien externo qué es el Movimiento Scout en menos de un minuto, sin recurrir a uniformes ni a campamentos."_
-2. **`paragraph`** — Saludo con escena de apertura: _"Te damos la bienvenida. Imagina la reunión de padres: una mamá te pregunta «¿y esto en qué se diferencia de un club deportivo o de una academia?». Muchos dirigentes con años en el Movimiento responden «acampamos y usamos pañoleta». No es falta de compromiso: casi nadie ha leído el documento que define al Movimiento. Este curso es esa lectura básica, traducida."_
+2. **`paragraph`** — Saludo con escena de apertura: _"Te damos la bienvenida. Imagina la reunión de padres: una mamá te pregunta «¿y esto en qué se diferencia de un club deportivo o de una academia?». Muchos dirigentes con años en el Movimiento responden «acampamos y usamos pañoleta». No es falta de compromiso: muchos no han leído el documento que define al Movimiento. Este curso es esa lectura básica, traducida."_
 3. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 4. **`list`** — Las 5 ideas:
     - El Propósito: qué busca el Movimiento.
@@ -90,7 +90,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Apertura: _"Antes de hablar de cómo se hace algo, conviene saber **para qué se hace**. El Movimiento Scout tiene un solo Propósito, y viene de su documento fundacional: la Constitución de la OMMS. El texto que vas a leer es ese Propósito, tal como lo recoge el documento de la OMMS de 2019 que estamos usando."_
+2. **`paragraph`** — Apertura: _"Antes de hablar de cómo se hace algo, conviene saber **para qué se hace**. El Movimiento Scout tiene un solo Propósito, y viene de la Constitución de la OMMS. El texto que vas a leer es ese Propósito, tal como lo recoge el documento de la OMMS de 2019 que estamos usando."_
 3. **`policy-quote`** — Cita textual del Propósito:
     - `text`: _"El Movimiento Scout tiene como objetivo contribuir al desarrollo de los jóvenes ayudándoles a realizar plenamente sus posibilidades **físicas, intelectuales, emocionales, sociales y espirituales**, como **individuos**, como **ciudadanos responsables** y como miembros de **comunidades locales, nacionales e internacionales**."_
     - `source`: "Características Esenciales del Movimiento Scout, OMMS 2019, p. 8. (Constitución de la OMMS, recogida en Características Esenciales…, p. 8)"
@@ -116,19 +116,25 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 **Reflexión:** _"Piensa en la última actividad de tu unidad (o en una que hayas visto, si aún no tienes unidad). Descríbela en dos líneas: ¿qué ámbitos del Propósito trabajó de verdad y cuál quedó por fuera? ¿Qué le agregarías para tocar el que faltó?"_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas; sincronizado con el JSON el 22/11/2026, ADR-073):**
 
-> **P1.** Según el Propósito OMMS 2019, el Movimiento Scout busca **contribuir** al desarrollo del joven, no…
+> **P1.** Una mamá le dice al dirigente: «Como mi hijo pasa los sábados con ustedes, prefiero que el grupo se encargue de formarlo; en la casa no nos alcanza el tiempo». Según el Propósito, ¿qué le responde?
 >
-> a) _Formarlo enteramente — solo aporta lo que le corresponde, junto a la familia, la escuela y la comunidad._  ✅
-> b) _Hacerlo feliz — eso es solo un efecto secundario._
-> c) _Convertirlo en líder — eso es para otros movimientos._
+> a) _Que la formación quede a cargo del grupo los sábados, y la casa se ocupe de lo que alcance entre semana._
+> b) _Que no puede: el grupo contribuye al desarrollo de su hijo, pero no reemplaza a la familia ni a la escuela._  ✅
+> c) _Que el grupo carga con una parte mayor mientras la familia tiene poco tiempo, y después se la devuelve._
 
-> **P2.** Un dirigente arma solo torneos deportivos y excursiones físicas, semana tras semana. Según el Propósito OMMS, ¿qué problema tiene?
+> **P2.** Un dirigente revisa su plan del trimestre con los 5 ámbitos del Propósito y le salen todos cubiertos. Su par le dice: «Con las áreas de crecimiento de Colombia todavía te falta una». ¿Cuál es y por qué no aparecía?
 >
-> a) _Ninguno: lo físico es lo más importante del escultismo._
-> b) _Descuida los otros ámbitos: el Propósito busca los 5 integrados (físico, intelectual, emocional, social, espiritual), no uno solo._  ✅
-> c) _Debería hacer solo actividades espirituales para compensar._
+> a) _Carácter, porque la suma la PNPJ: la voluntad y las decisiones éticas no están en el Propósito._  ✅
+> b) _Espiritualidad: el Propósito la deja por fuera para no imponerle al joven ninguna religión._
+> c) _Creatividad: el Propósito habla de lo intelectual, que es pensar, y crear es otra cosa distinta._
+
+> **P3.** Un dirigente armaba solo torneos deportivos y excursiones. Al revisarlo, propone repartir el año: un trimestre para lo físico, otro para lo intelectual, otro para lo emocional, y así. Según el Propósito, ¿qué le dirías?
+>
+> a) _Que así sigue separando los ámbitos: el Propósito los busca integrados en la persona, no por turnos._  ✅
+> b) _Que el plan queda bien, porque repartir los 5 ámbitos en el año asegura que ninguno se quede sin tiempo._
+> c) _Que no cambie nada: un buen torneo, si es seguro y divertido, trabaja por sí solo a la persona entera._
 
 **Logro:** "Tengo el Propósito".
 
@@ -141,10 +147,10 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Apertura: _"Si el Propósito dice **para qué existe** el Movimiento, los Principios dicen **sobre qué se sostiene**. Son tres relaciones que el escultismo cuida en todo joven y todo adulto que entra: con la vida espiritual, con los demás y con uno mismo."_
+2. **`paragraph`** — Apertura: _"Si el Propósito dice **para qué existe** el Movimiento, los Principios dicen **sobre qué se sostiene**. Si tomaste el Curso 2, ya conoces lo que B-P propuso en 1922: educar por el amor y no por el temor. Los Principios no reemplazan esa idea: son otra pieza del mismo Movimiento. Son tres relaciones que el escultismo cuida en todo joven y todo adulto que entra: con la vida espiritual, con los demás y con uno mismo."_
 3. **`heading` (nivel 3)** — _"Los 3 Principios según OMMS 2019"_
 4. **`method-grid`** — Los 3 Principios:
-    - 🙏 **Deber con Dios** — Adhesión a principios espirituales, fidelidad a la religión que los expresa y aceptación de los deberes que de ella derivan (*The Scout Method*, WOSM 2019, p. 10). **El Movimiento no impone una religión específica**; reconoce que la dimensión espiritual es parte del desarrollo integral, y respeta la fe (o búsqueda) de cada quien. En Colombia, la PNPJ lo dice así: reconocer que la espiritualidad y la fe importan en la vida del joven, y respetar las creencias de cada quien (PNPJ 2024, §4.3).
+    - 🙏 **Deber con Dios** — Adhesión a principios espirituales, fidelidad a la religión que los expresa y aceptación de los deberes que de ella derivan (*The Scout Method*, OMMS 2019, p. 10). **El Movimiento no impone una religión específica**; reconoce que la dimensión espiritual es parte del desarrollo integral, y respeta la fe (o búsqueda) de cada quien. En Colombia, la PNPJ lo dice así: reconocer que la espiritualidad y la fe importan en la vida del joven, y respetar las creencias de cada quien (PNPJ 2024, §4.3).
     - 🤝 **Deber con los otros** — Responsabilidad hacia su comunidad y su país, hacia la paz y la cooperación entre los pueblos, y hacia la naturaleza. El servicio no es ocasional: es ética.
     - 👤 **Deber con uno mismo** — Responsabilidad por el propio desarrollo. El joven (y el adulto) son protagonistas activos de su crecimiento — no objetos pasivos de la formación de otros.
 5. **`policy-quote`** — Cita textual:
@@ -160,19 +166,25 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 **Reflexión:** _"Elige una actividad reciente de tu unidad. ¿Cuál de los 3 Principios no apareció en ella? Escribe una cosa pequeña que agregarías la próxima vez para que aparezca."_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas; sincronizado con el JSON el 22/11/2026, ADR-073):**
 
-> **P1.** El "Deber con Dios" del escultismo significa que el Movimiento…
+> **P1.** En un campamento hay jóvenes de varias creencias y uno que dice no tener ninguna. Los dirigentes discuten qué hacer con el momento espiritual de la noche. Según el Deber con Dios, tal como lo presenta la lección, ¿qué conviene?
 >
-> a) _Impone una religión específica a todos sus miembros._
-> b) _Reconoce la dimensión espiritual del desarrollo y respeta la fe o búsqueda de cada quien._  ✅
-> c) _Excluye a quienes no profesan una religión._
+> a) _Suprimirlo en este campamento, porque con tantas creencias distintas la fe es asunto de cada familia._
+> b) _Hacerlo aparte, solo con los que tienen religión, mientras el resto prepara el fogón de la noche._
+> c) _Mantenerlo para todos como silencio o reflexión, que cada uno vive desde su fe o desde su búsqueda._  ✅
 
-> **P2.** Un dirigente quiere saber si su nueva actividad 'noche de talentos' es realmente scout. Según esta lección, ¿cómo lo decide?
+> **P2.** La patrulla propone limpiar la quebrada del barrio como proyecto del ciclo. Según cómo la OMMS 2019 define los 3 Principios, ¿cuál trabaja principalmente ese proyecto?
 >
-> a) _Consultando al Comisionado Nacional de Programa de Jóvenes._
-> b) _Preguntándose si la actividad cuida los 3 Principios: deber con Dios (el sentido), con los otros (la fraternidad) y con uno mismo (el crecimiento)._  ✅
-> c) _Revisando si aparece en la guía oficial de la rama._
+> a) _El deber con uno mismo, que abarca el propio crecimiento y el cuidado del entorno donde se vive._
+> b) _El deber con los otros, que abarca la comunidad, el país, la paz entre los pueblos y la naturaleza._  ✅
+> c) _El deber con Dios, que abarca el cuidado de la creación y el sentido que el joven le da a su servicio._
+
+> **P3.** En la reunión de padres, una mamá comenta: «Lo de los Principios suena bonito, pero es para los chicos; a los dirigentes no les aplica». ¿Qué le respondes?
+>
+> a) _Que en parte tiene razón: los Principios orientan el programa de los jóvenes, y el adulto los enseña._
+> b) _Que son un código de conducta para todos los miembros, así que el adulto también responde por ellos._  ✅
+> c) _Que a los adultos les aplican mientras estén en actividades con jóvenes, como parte de su cargo._
 
 **Logro:** "Conozco los Principios".
 
@@ -191,7 +203,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - 🚶 **Un Movimiento** — Un movimiento es un conjunto de personas con una misma causa y método, no una empresa ni una agencia. Crece por contagio, no por mercadeo. Tiene normas, pero su fuerza es la convicción compartida.
     - 🌱 **Para jóvenes** — El Movimiento existe para sus protagonistas. No para los adultos que lo gestionan, no para los logos, no para los recuerdos. Cuando una decisión beneficia al adulto pero perjudica al joven, no es scout.
     - 🆓 **Voluntario** — Nadie está obligado a entrar ni a quedarse. El adulto que castiga, presiona o chantajea para mantener a un joven en la unidad rompe este elemento.
-    - 🌍 **Abierto a todos** — Sin distinción de origen, raza, credo, género, condición social, capacidad o cualquier otra característica. En la ASC, coeducación y no-discriminación son innegociables.
+    - 🌍 **Abierto a todos** — Sin distinción de origen, raza, credo, género, condición social, capacidad o cualquier otra característica. En la ASC, coeducación y no-discriminación son innegociables. Entrar o no lo decide el joven que llega: nadie más decide si es «adecuado» para el Movimiento.
     - 🏛️ **No político** — El Movimiento no toma partido por candidatos ni partidos. Educa para la ciudadanía responsable, pero no instrumentaliza al joven para un proyecto partidista.
     - 🕊️ **Independiente** — De gobiernos, de iglesias, de empresas. Puede dialogar con todos, recibir apoyo de todos, pero ninguno lo dirige.
 5. **`policy-quote`** — Cita de la voluntariedad:
@@ -200,8 +212,8 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
     - `label`: "📋 Ver la cita de voluntariedad"
 6. **`heading` (nivel 3)** — _"Lo que NO es escultismo, aunque se le parezca"_
 7. **`list`** — 5 ejemplos:
-    - Un campamento militar con uniformes y disciplina no es scout (rompe **para jóvenes**: es un movimiento de jóvenes apoyado por adultos, y ahí se obedece, no se decide).
-    - Una academia deportiva con insignias por logros no es scout (rompe **para jóvenes** si se vuelve trofeo del coach).
+    - Un campamento militar con uniformes y disciplina no es scout (rompe **para jóvenes**: el Movimiento es de jóvenes, apoyado por adultos, y ahí se obedece, no se decide).
+    - Una academia deportiva donde los logros de los chicos sirven sobre todo para lucir al club no es scout (rompe **para jóvenes**).
     - Un grupo parroquial donde solo entran miembros de la fe local, o uno que excluye a niñas o a menores con discapacidad, no es escultismo, aunque se le parezca (rompe **abierto a todos**).
     - Una actividad a la que el colegio obliga a ir no es escultismo (rompe **voluntario**).
     - Una organización dependiente de un partido político no es escultismo, aunque se llame "scouts" (rompe **independiente** y **no político**).
@@ -209,19 +221,25 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 **Reflexión:** _"Piensa en una decisión concreta que se tomó en tu unidad o grupo en los últimos meses (un horario, una cuota, un cupo, una salida). Cuéntala por cargos, sin nombres: ¿cuál de los 6 elementos estaba en juego? ¿Se cuidó o se aflojó?"_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas; sincronizado con el JSON el 22/11/2026, ADR-073):**
 
-> **P1.** Un grupo scout decide que solo aceptará jóvenes de una sola comunidad religiosa. ¿Qué elemento rompe?
+> **P1.** La empresa que donó las carpas pide, como agradecimiento, que la tropa desfile con camisetas de su marca y reparta volantes de su producto. Los jóvenes están felices con las carpas. Según el elemento «independiente», ¿qué hace el dirigente?
 >
-> a) _Voluntario._
-> b) _Abierto a todos._  ✅
-> c) _Independiente._
+> a) _Acepta el desfile por esta vez: negarse después de recibir las carpas sería una falta de gratitud._
+> b) _Negocia con la empresa: la tropa desfila con las camisetas, pero no reparte los volantes del producto._
+> c) _Agradece la donación y dice que no al desfile ni a los volantes: el apoyo no compra el programa._  ✅
 
-> **P2.** Un dirigente lleva a su unidad a apoyar la campaña de un candidato político. ¿Qué elemento(s) rompe?
+> **P2.** Una joven de la tropa lleva tres sábados sin venir y sin avisar. El dirigente duda si buscarla. Según el elemento «voluntario», ¿qué le corresponde?
 >
-> a) _Para jóvenes y voluntario._
-> b) _No político e independiente._  ✅
-> c) _Movimiento y abierto a todos._
+> a) _Esperar a que ella vuelva o avise por su cuenta: buscarla sería presionar a quien ya eligió no venir._
+> b) _Contactarla a través de su familia: preguntar cómo está no la obliga a nada; insistirle para que vuelva, sí._  ✅
+> c) _Pedirle a su patrulla que le escriba y le insista hasta que vuelva: así la presión no viene del adulto._
+
+> **P3.** La patrulla vota no recibir a un chico nuevo que usa silla de ruedas, porque «los atrasaría en las caminatas». Según los 6 elementos, ¿qué hace el dirigente?
+>
+> a) _Acepta lo que decidió la patrulla y habla aparte con el chico para buscarle cupo en otra patrulla._
+> b) _Interviene: entrar lo decide el joven que llega, y ni un voto de la patrulla le cierra la puerta._  ✅
+> c) _Le recomienda a la familia otro grupo con más experiencia en discapacidad, para no forzar a la patrulla._
 
 **Logro:** "Sé qué es y qué no es".
 
@@ -234,38 +252,44 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Apertura: _"Hasta ahora vimos qué es el Movimiento. Ahora vamos al corazón de tu rol. Las Características Esenciales OMMS 2019 son enfáticas en algo que conviene grabar."_
+2. **`paragraph`** — Apertura: _"Hasta ahora vimos qué es el Movimiento. Ahora vamos al corazón de tu rol. Las Características Esenciales OMMS 2019 son enfáticas en algo que conviene grabar. En el Curso 1 viste cómo lo dice la PNPJ: “por” y “con” los jóvenes, no simplemente “para” ellos. La OMMS lo dice con otras palabras, y la idea es la misma: el Movimiento es de los jóvenes, y el adulto lo apoya; no lo gestiona en su nombre. Estas son sus palabras:"_
 3. **`policy-quote`** — La cita del hook:
     - `text`: _"Es un Movimiento de jóvenes y para los jóvenes, apoyado por adultos; no es un movimiento juvenil, gestionado en nombre de los jóvenes por adultos."_
     - `source`: "Características Esenciales del Movimiento Scout, OMMS 2019, p. 28."
     - `label`: "📋 La frase eje del Movimiento"
 4. **`heading` (nivel 3)** — _"Lo que esto significa para tu rol"_
 5. **`paragraph`** — _"El adulto no es el jefe del joven. Es su aliado. Puede que tu nombramiento diga «Jefe de Tropa» o «Jefe de Rama» — son los nombres reales de los cargos en la ASC, y están bien. Lo que cambia es qué haces con el cargo. La OMMS lo dice así: el adulto está ahí para **apoyar, guiar, orientar y facilitar** (p. 19). Fíjate en el verbo que no aparece: **mandar**. Guías el camino, no ordenas el paso. Estás cuando hace falta y no estorbas cuando no."_
-6. **`heading` (nivel 3)** — _"Los 4 tipos de apoyo del adulto"_
-7. **`method-grid`** — 4 tipos según OMMS 2019, p. 19:
-    - 📚 **Apoyo educativo** — facilitar oportunidades de aprendizaje, sugerir desafíos, sostener el ciclo de programa.
-    - 💗 **Apoyo emocional** — acompañar al protagonista en sus momentos de duda, frustración o alegría.
-    - ℹ️ **Apoyo informativo** — dar la información que el joven necesita para decidir, sin decidir por él.
-    - ✅ **Apoyo evaluativo (la PNPJ lo llama valorativo: es lo mismo)** — ayudar al joven a mirar su propio proceso y a celebrarlo o ajustarlo.
+6. **`heading` (nivel 3)** — _"Los 4 tipos de apoyo del adulto, en un mismo caso"_
+7. **`method-grid`** — 4 tipos según OMMS 2019, p. 19, aterrizados en un solo caso (el proyecto de servicio de la patrulla; decisión del 22/11/2026, M3):
+    - 📚 **Apoyo educativo** — Facilitar oportunidades de aprendizaje y sugerir desafíos. En el proyecto de servicio de la patrulla: les propones averiguar qué necesita de verdad el barrio.
+    - 💗 **Apoyo emocional** — Acompañar con empatía y confianza en la duda, la frustración o la alegría. En el proyecto: estás ahí si los vecinos no responden como esperaban.
+    - ℹ️ **Apoyo informativo** — Dar la información que el joven necesita para decidir, sin decidir por él. En el proyecto: les cuentas qué materiales y permisos hacen falta; el proyecto lo eligen ellos.
+    - ✅ **Apoyo evaluativo (la PNPJ lo llama valorativo: es lo mismo)** — Ayudar al joven a mirar su propio proceso y a celebrarlo o ajustarlo. Al terminar el proyecto: les ayudas a ver qué salió bien y qué harían distinto.
 8. **`heading` (nivel 3)** — _"Primum non nocere"_
 9. **`paragraph`** — _"Es una frase latina que significa **'lo primero, no hacer daño'**. La OMMS la usa en la p. 33 para decir algo incómodo y necesario: antes de poner a un adulto frente a jóvenes hay que mirar que tenga la madurez y el equilibrio para estar ahí, que se forme, que su nombramiento tenga fecha de vencimiento y que alguien lo acompañe y lo evalúe mientras sirve. La protección del joven es lo primero. Por eso hay algo que no conviene dejar para después: **los módulos oficiales de A Salvo del Peligro**, que son los que la Asociación exige y que ningún curso de esta plataforma reemplaza. Aquí ningún curso te bloquea el acceso a otro — pero esos, hazlos ya: en el [Curso 7](mi-compromiso-programa-jovenes.html), Lección 5, te decimos dónde están los cuatro módulos."_
 10. **`info-box`** — _"Esta lección es probablemente la más importante del Nivel 1. Si te quedas con una sola idea de los 7 cursos, que sea esta: tu trabajo no es dirigir al joven. Es apoyarlo para que él se desarrolle. La diferencia parece pequeña; en la práctica, lo cambia todo."_
 
-**Reflexión:** _"Recuerda una situación reciente donde tomaste una decisión 'en nombre' de un joven o de un grupo de jóvenes (no por una emergencia, simplemente porque te parecía más rápido). Escribe brevemente: ¿qué pasó? ¿Qué hubiera pasado si lo hubieran decidido ellos?"_
+**Reflexión:** _"Recuerda una situación reciente donde tomaste una decisión (o viste a otro adulto tomarla) 'en nombre' de un joven o de un grupo de jóvenes (no por una emergencia, simplemente porque te parecía más rápido). Escribe brevemente: ¿qué pasó? ¿Qué hubiera pasado si lo hubieran decidido ellos?"_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas; sincronizado con el JSON el 22/11/2026, ADR-073):**
 
-> **P1.** En una reunión de equipo, otro dirigente dice: 'el grupo es nuestro, nosotros decidimos qué hacen los chicos'. Según la frase eje OMMS 2019, ¿qué le respondes?
+> **P1.** Una tropa elige para su campamento un lugar sin riesgos para su seguridad, pero a seis horas de viaje: de los dos días, casi todo se iría en carretera. El dirigente lo nota; los jóvenes, no. Según la lección, ¿qué le toca hacer?
 >
-> a) _Tiene razón: los adultos gestionan el Movimiento en nombre de los jóvenes._
-> b) _Que es al revés: el Movimiento es de los jóvenes y para los jóvenes; el adulto apoya, no gestiona en su nombre._  ✅
-> c) _Que eso depende de la rama: en las menores sí decide el adulto._
+> a) _Cambiar él el lugar, porque la logística del campamento es tarea del adulto responsable._
+> b) _Conseguir él un lugar más cercano y presentárselo a la tropa como la mejor opción para este campamento._
+> c) _Contarles lo que ve y dejar que la tropa resuelva: el Movimiento es de los jóvenes._  ✅
 
-> **P2.** Por "Primum non nocere" (lo primero, no hacer daño), antes de poner a un adulto frente a jóvenes el Movimiento mira su madurez y su equilibrio, lo forma, le pone fecha de vencimiento al nombramiento y lo acompaña y lo evalúa mientras sirve. ¿Qué prioriza esto?
+> **P2.** En la reunión de tropa los jóvenes votan que un papá que llegó hace dos semanas, y con quien nadie del grupo ha hablado todavía, los acompañe solo en la caminata del domingo. Según Primum non nocere, ¿qué hace el dirigente?
 >
-> a) _Que la formación del adulto importa más que su madurez y su equilibrio personal._
-> b) _Que la protección del joven está antes que la comodidad o la antigüedad del adulto._  ✅
-> c) _Que ningún adulto puede tener contacto con jóvenes._
+> a) _Aceptar lo que decidió la tropa: elegir quién los acompaña en una salida también les toca a ellos._
+> b) _Decirles que esta vez no: antes de dejar a un adulto con jóvenes hay que conocerlo, formarlo y acompañarlo._  ✅
+> c) _Dejarlo ir si la familia del papá responde por él: ellos lo conocen mejor que cualquier dirigente del grupo._
+
+> **P3.** Para agilizar, los dirigentes de la unidad proponen armar ellos el programa del próximo ciclo y presentárselo a las patrullas ya listo. Un dirigente nuevo pregunta qué diría la frase eje de la OMMS. ¿Qué le respondes?
+>
+> a) _Que está bien si después las patrullas lo aprueban en el consejo de unidad: al aprobarlo, la decisión es de ellas._
+> b) _Que así lo gestionan los adultos en nombre de los jóvenes: que las patrullas propongan y decidan, con su apoyo._  ✅
+> c) _Que lo acepte solo por este ciclo, para no perder tiempo, y que en el siguiente las patrullas vuelvan a proponer._
 
 **Logro:** "Sé cuál es mi rol".
 
@@ -300,19 +324,25 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 **Compromiso Personal** (`commitmentBox`, se queda en el navegador; corrección de privacidad del 02-oct-2026, ADR-117): _"Copia aquí tu definición de una frase, para tenerla a mano cuando alguien te pregunte qué es el Movimiento Scout:"_ — placeholder _"El Movimiento Scout es …, que existe para …, basado en … y se distingue porque es …"_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas; sincronizado con el JSON el 22/11/2026, ADR-073):**
 
-> **P1.** Según el "test de pertenencia" de la L6, ¿cuándo una actividad **no es** escultismo aunque se le parezca?
+> **P1.** Un grupo colabora con el colegio en una jornada de salud: los jóvenes reparten volantes que diseñaron y decidieron los adultos. Al pasarla por el test de pertenencia, falla en «joven sujeto activo». Según la lección, ¿qué le aconsejas al grupo?
 >
-> a) _Cuando no usa uniforme._
-> b) _Cuando rompe alguno de los 4 criterios (5 ámbitos, 3 Principios, 6 elementos, joven sujeto activo)._  ✅
-> c) _Cuando no incluye un campamento._
+> a) _Que la haga igual, pero sin contarla como actividad scout: para esa jornada usa otro marco._  ✅
+> b) _Que la ajuste: si los jóvenes entregan los volantes y hablan con la gente, eso los hace sujeto activo._
+> c) _Que la cuente como scout: 3 de 4 criterios bastan, y el servicio también es un Principio._
 
-> **P2.** Una dirigente decide cada actividad de la unidad y los jóvenes solo ejecutan. Según las Características Esenciales, está…
+> **P2.** Un dirigente aplica el test de pertenencia y, en la pregunta de los elementos, revisa si la actividad tuvo vida en la naturaleza, marco simbólico y trabajo en equipos. ¿Qué le dirías?
 >
-> a) _Aplicando el Método correctamente, porque para eso es la adulta responsable._
-> b) _Rompiendo la alianza joven-adulto: el joven debe ser sujeto activo, no objeto pasivo._  ✅
-> c) _Haciendo lo que hacía el dirigente que la formó a ella._
+> a) _Que le faltan elementos: esa pregunta del test pide revisar los 8 del Método, no solo tres._
+> b) _Que va bien: esos tres son los elementos que más pesan para decidir si algo es scout._
+> c) _Que está mirando el Método, porque esa pregunta pide los 6 elementos que definen al Movimiento._  ✅
+
+> **P3.** Un dirigente escribe: «El Movimiento Scout es una hermandad que existe para que los jóvenes crezcan, basado en los deberes con Dios, con los otros y consigo mismo, y se distingue porque trabaja en patrullas y vive al aire libre». Al revisarla con él, ¿qué ajuste le sugieres?
+>
+> a) _Que en «se distingue» ponga los 6 elementos del Movimiento: patrullas y aire libre son del Método._  ✅
+> b) _Que en «existe para» ponga los 8 elementos del Método: el Propósito se cumple al aplicarlos._
+> c) _Que está completa: es su definición, y en «se distingue» cabe lo que a él más le resuene._
 
 **Logro al completar:** "Conozco mi Movimiento" (logro final del curso, `unlockOnModule: -1`).
 
@@ -391,7 +421,7 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 | Citas oficiales plegables | ✅ 4 citas OMMS 2019 |
 | Patrón 6.2 — Anti-definición + reformulación accesible | ✅ **variante narrativa**. Cada lección doctrinal abre con una pregunta o contexto que prepara al lector antes de la cita (ej. L2: _"Antes de hablar de cómo se hace algo, conviene saber para qué se hace"_) y cierra con un `info-box` que aterriza la idea a la práctica (ej. L4: _"Cuando dudes si una práctica es scout o no, hazte 3 preguntas..."_). La fórmula literal "Si abres…" se reserva para cursos con citas más densas (ver Curso 05 L2). |
 | Reflexión personal por lección | ✅ excepto intro |
-| Mini-quiz por lección | ✅ 2 por lección |
+| Mini-quiz por lección | ✅ 3 por lección |
 | 4–6 logros + 1 final | ✅ 5 + 1 |
 | L1 `isIntro: true` sin quiz | ✅ |
 | Conexión cross-course | ✅ con Cursos 1, 2, 5, 6, 25 y cross-línea |
@@ -410,4 +440,4 @@ Este hook se enuncia en la lección 4 y atraviesa todo el curso. Su función es 
 
 ---
 
-_Documento de diseño del Curso 4, versión inicial — 28 de mayo de 2026. Fuente angular: "Características Esenciales del Movimiento Scout", Organización Mundial del Movimiento Scout, Oficina Scout Mundial, Kuala Lumpur, noviembre 2019. Validado contra el marco metodológico de la plataforma._
+_Documento de diseño del Curso 4, versión inicial — 28 de mayo de 2026; quizzes, L5 y objetivos sincronizados con el JSON el 22/11/2026 (contentVersion 2026-11-22). Nota: el archivo se llama Curso-03 por razones históricas, pero es el Curso 4 (orden 4); renombrarlo queda para el orquestador. Fuente angular: "Características Esenciales del Movimiento Scout", Organización Mundial del Movimiento Scout, Oficina Scout Mundial, Kuala Lumpur, noviembre 2019. Validado contra el marco metodológico de la plataforma._

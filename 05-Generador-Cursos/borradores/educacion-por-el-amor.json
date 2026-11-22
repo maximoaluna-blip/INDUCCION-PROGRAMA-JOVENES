@@ -3,7 +3,7 @@
   "title": "La Educación por el Amor",
   "subtitle": "La apuesta de Baden-Powell en Ginebra, 1922",
   "description": "El segundo curso de la Línea Programa de Jóvenes y la brújula ética del Programa. En ~33 minutos vas a distinguir la educación por el temor de la educación por el amor en escenas de tu unidad, relacionar los 4 objetivos de la instrucción con las 6 áreas de crecimiento y formular tu propio compromiso de práctica.",
-  "contentVersion": "2026-11-08",
+  "contentVersion": "2026-11-22",
   "icon": "💗",
   "duration": "33 minutos",
   "level": 1,
@@ -95,7 +95,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Su informe se llamó <strong>“La educación por el amor en sustitución de la educación por el temor”</strong>. No fue a hablar de uniformes ni de campamentos —aunque los menciona—: fue a hablar de pedagogía. De cómo se educa a un joven sin convertirlo en un soldado dócil ni en un alumno que solo recibe lo que le dicen. Habló de <strong>autoeducación voluntaria, fraternidad universal y deseo de conocer</strong>. Lo escucharon educadores de todo el mundo. La Organización Mundial del Movimiento Scout (OMMS) lo reeditó en 2007, en el año centenario del Movimiento, para que ningún dirigente lo olvide."
+          "text": "Su informe se llamó <strong>“La educación por el amor en sustitución de la educación por el temor”</strong>. No fue a hablar de uniformes ni de campamentos —aunque los menciona—: fue a hablar de pedagogía. De cómo se educa a un joven sin convertirlo en un soldado dócil ni en un alumno que solo recibe lo que le dicen. Habló de <strong>autoeducación voluntaria, fraternidad universal, deseo de conocer y servicio al prójimo</strong>. Lo escucharon educadores de todo el mundo. La Organización Mundial del Movimiento Scout (OMMS) lo reeditó en 2007, en el año centenario del Movimiento, para que ningún dirigente lo olvide."
         },
         {
           "type": "policy-quote",
@@ -138,7 +138,7 @@
             "options": [
               "Que B-P llevó a un congreso de educadores una propuesta pedagógica: cambiar el miedo por el deseo de aprender.",
               "Que tiene algo de razón: B-P propuso en Ginebra una disciplina militar más suave, adaptada a los niños.",
-              "Que eso fue al principio: el escultismo nació como recreo al aire libre y la pedagogía llegó mucho después."
+              "Que B-P fue a Ginebra a mostrar sus campamentos y uniformes; la parte pedagógica la añadieron otros después."
             ],
             "correctIndex": 0
           }
@@ -244,7 +244,7 @@
             "text": "En la ceremonia de insignias, un jefe de Manada anuncia: «El lobato que más insignias gane este mes será el primero en escoger juego cada sábado». Con lo que dice la lección, ¿qué le propones?",
             "options": [
               "Que quite esa regla y entregue cada insignia contando qué avance concreto reconoce en ese lobato.",
-              "Que suspenda las insignias este año: mientras existan, los lobatos van a compararse entre ellos.",
+              "Que cambie el premio por un aplauso de toda la Manada al que más insignias gane, sin privilegios de juego.",
               "Que mantenga la regla y premie también al que menos tenga, para que ninguno se sienta por debajo."
             ],
             "correctIndex": 0
@@ -263,7 +263,7 @@
             "options": [
               "Que a la patrulla le falta un sistema: con un turno fijo de revisión, el rincón quedaría ordenado.",
               "Que a la patrulla la mueve la competencia: ordena para no quedar por debajo de las demás.",
-              "Que a la patrulla la mueve el temor: cumple mientras alguien la mira, pero no está creciendo."
+              "Que a la patrulla la mueve el miedo al castigo: cumple mientras alguien la mira, pero no está creciendo."
             ],
             "correctIndex": 2
           }
@@ -278,7 +278,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "<strong>Idea central:</strong> autoeducación voluntaria, fraternidad universal, deseo de conocer."
+          "text": "<strong>Idea central:</strong> autoeducación voluntaria, fraternidad universal, deseo de conocer y servicio: las cuatro ideas que sostienen la apuesta de B-P."
         },
         {
           "type": "paragraph",
@@ -286,7 +286,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Piensa en un lobato que se pasa la tarde intentando prender fuego con pedernal, sin que nadie se lo pida, y el sábado siguiente vuelve a intentarlo. Nadie le prometió un premio ni lo amenazó. Lo que lo mueve es lo que B-P puso en el centro."
+          "text": "Piensa en un lobato que, en un campamento de la Manada y a la vista de sus dirigentes, se pasa la tarde intentando prender fuego con pedernal sin que nadie se lo pida, y el sábado siguiente vuelve a intentarlo. Nadie le prometió un premio ni lo amenazó. Lo que lo mueve es lo que B-P puso en el centro."
         },
         {
           "type": "heading",
@@ -316,7 +316,7 @@
             },
             {
               "title": "🙋 Servir al prójimo como hábito",
-              "description": "Aprender haciendo —la idea del educador Edmundo Holmes que B-P hizo suya— y, además, haciendo el bien. El servicio no es una actividad ocasional; es la columna vertebral del carácter.",
+              "description": "Hacer el bien a otros no como actividad ocasional sino como costumbre: el servicio es la columna vertebral del carácter. Por eso vuelve en la próxima lección como uno de los 4 objetivos de la instrucción.",
               "color": "#ffebee",
               "borderColor": "#d81b60"
             }
@@ -455,7 +455,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Esos 4 objetivos se parecen mucho a lo que hoy la ASC llama las <strong>6 áreas de crecimiento</strong>: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad y Espiritualidad. Así las nombra el <strong>Modelo de Aplicación 2026</strong>; la PNPJ 2024 ya hablaba de seis, con otros nombres (desarrollo físico, intelectual, social, emocional, espiritual y del carácter). En la rama Cachorros (Familia) se trabajan como cinco dimensiones, porque Afectividad y Sociabilidad van juntas en una sola. Los nombres cambian; la idea de educar a la persona entera es la misma."
+          "text": "Esos 4 objetivos se parecen mucho a lo que hoy la ASC llama las <strong>6 áreas de crecimiento</strong>: Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad y Espiritualidad. Así las nombra el <strong>Modelo de Aplicación 2026</strong>; la PNPJ 2024 ya hablaba de seis, con otros nombres. En la rama Cachorros (Familia) se trabajan como cinco dimensiones, porque Afectividad y Sociabilidad van juntas en una sola. Los nombres cambian; la idea de educar a la persona entera es la misma."
         },
         {
           "type": "heading",
@@ -498,7 +498,7 @@
             "options": [
               "Planea la próxima reunión para que, además de lo que ya hacen, toque también esa área.",
               "Dedica el próximo trimestre solo a Espiritualidad, hasta que todos los lobatos se nivelen.",
-              "Lo deja así: si nadie avanza ahí, es que a esa edad esa área todavía no les toca."
+              "Les pide a las familias que trabajen Espiritualidad en casa y él sigue con el plan de siempre."
             ],
             "correctIndex": 0
           },
@@ -507,7 +507,7 @@
             "options": [
               "Que conserve diciembre y sume un servicio chico y fijo: cada patrulla, una tarea para otros cada mes.",
               "Que suprima la jornada: un servicio con fecha es un evento, y B-P pedía un hábito, no eventos.",
-              "Que la jornada basta si al final cada scout anota en su progresión cuántas horas sirvió."
+              "Que conserve diciembre y le sume otra gran jornada a mitad de año, para que el servicio no quede en una fecha."
             ],
             "correctIndex": 0
           }
@@ -636,7 +636,7 @@
     },
     {
       "id": "achievement-5",
-      "name": "Veo la raíz de las áreas",
+      "name": "Veo el parecido con las áreas",
       "emoji": "🎯",
       "unlockOnModule": 5
     },

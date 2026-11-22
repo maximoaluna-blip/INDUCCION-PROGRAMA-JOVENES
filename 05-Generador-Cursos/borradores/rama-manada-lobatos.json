@@ -3,7 +3,7 @@
   "title": "Rama Lobatos (Manada)",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El primer curso de rama del Nivel 2 de la Línea Programa de Jóvenes. En ~38 minutos vas a acompañar a Andrés, un lobato de 7 años, desde su llegada a la Manada hasta su Gran Salto hacia la Tropa: el marco simbólico de La Fantasía y su fondo motivador, El Libro de las Tierras Vírgenes, las seisenas sin jefes fijos, las seis Sendas de la progresión y tu rol como Viejo Lobo — facilitador, no jefe.",
-  "contentVersion": "2026-11-08",
+  "contentVersion": "2026-11-22",
   "icon": "🐺",
   "duration": "38 minutos",
   "level": 2,
@@ -28,7 +28,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Es fácil pensar que ser Viejo Lobo es 'dirigir el juego': decidir qué hacen, cómo lo hacen y cuándo. A lo largo de este curso vas a ver por qué esa idea, aunque bienintencionada, le quita a Andrés justamente lo que la Manada existe para darle: la oportunidad de decidir, equivocarse y crecer. La idea que te va a acompañar todo el curso cabe en una frase: tú no diriges la Manada; le ofreces el territorio, el símbolo y la confianza, y el rumbo lo marcan ellos."
+          "text": "Es fácil pensar que ser Viejo Lobo es 'dirigir el juego': decidir qué hacen, cómo lo hacen y cuándo. En este curso vas a ver por qué esa idea le quita a Andrés lo que la Manada existe para darle: la oportunidad de decidir, equivocarse y crecer. La frase que te va a acompañar: tú no mandas en la Manada; le ofreces el territorio, el símbolo, la confianza y unos límites claros, y el rumbo lo marcan ellos."
         },
         {
           "type": "heading",
@@ -41,7 +41,7 @@
           "items": [
             "Quién es un lobato de 7 a 10 años y cómo llega a la Manada.",
             "El Libro de las Tierras Vírgenes como idioma, no como disfraz.",
-            "Las seisenas: cómo se organizan sin líderes fijos y cómo revisar sus actividades con DURASLID.",
+            "Las seisenas: cómo se organizan sin líderes fijos, y DURASLID, el filtro con que se revisa todo lo que hace la Manada.",
             "El territorio de la selva y las seis Sendas de la progresión.",
             "Qué significa ser Viejo Lobo: facilitador, no jefe.",
             "Las ceremonias de la Manada y el Gran Salto hacia la Tropa."
@@ -117,7 +117,7 @@
         },
         {
           "type": "info-box",
-          "text": "Hay dos formas de entrar a la Manada, y conviene no confundirlas. Si el niño viene de la Familia de Cachorros, entra por la <strong>Ceremonia de Paso de Familia a Manada</strong>. Si llega de fuera y nunca fue Cachorro, vive primero la etapa de <strong>«Lobezno»</strong>: unas semanas para conocer la Manada, el juego, la Ley y la Promesa, y decidir por sí mismo si quiere pertenecer. Esa etapa se cierra con su <strong>Investidura</strong>. En los dos casos hay un ritual — lo que no puede pasar es que entre sin ninguno."
+          "text": "Hay dos formas de entrar a la Manada, y conviene no confundirlas. Si el niño viene de la Familia de Cachorros, entra por la <strong>Ceremonia de Paso de Familia a Manada</strong>. Si llega de fuera y nunca fue Cachorro, vive primero la etapa de <strong>«Lobezno»</strong>: un tiempo para conocer la Manada, el juego, la Ley y la Promesa, y decidir por sí mismo si quiere pertenecer. Esa etapa se cierra con su <strong>Investidura</strong>. Y venga de donde venga, todo lobato hace su Promesa en una Ceremonia de Investidura (la verás en la Lección 7). En los dos casos hay un ritual de entrada — lo que no puede pasar es que entre sin ninguno."
         }
       ],
       "reflection": {
@@ -128,7 +128,7 @@
         "nextLabel": "Continuar al idioma de la Selva 📖",
         "questions": [
           {
-            "text": "Sofía, de 7 años, viene de la Familia de Cachorros de tu mismo Grupo. Una dirigente propone dejarla unas semanas de «Lobezno» antes de recibirla. ¿Qué le respondes?",
+            "text": "Sofía, de 7 años, viene de la Familia de Cachorros de tu mismo Grupo. Una dirigente propone dejarla un tiempo de «Lobezno» antes de recibirla. ¿Qué le respondes?",
             "options": [
               "Que la etapa de «Lobezno» es para todo niño nuevo que llega a la Manada, venga o no de la Familia de Cachorros.",
               "Que ella no pasa por esa etapa: entra por la Ceremonia de Paso, presentada a Akela por el Jefe de Grupo.",
@@ -170,6 +170,10 @@
         {
           "type": "paragraph",
           "text": "Cuando Andrés dice que Akela lo va a acompañar en su próxima aventura, no está fingiendo un juego de disfraces. Está usando el único idioma que a los 7 años le permite entender ideas grandes como la lealtad o el cuidado mutuo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Piénsalo con una reunión cualquiera: la Manada juega a que Bagheera la guía de noche por la selva. El aire de «hagamos como si…» que envuelve todo es la primera capa; que sea Bagheera, y no otro personaje, viene del libro; y la aventura de esa noche es el relato."
         },
         {
           "type": "info-box",
@@ -214,22 +218,8 @@
           "text": "Personajes como Mowgli, Baloo, Bagheera y Akela enseñan a través de sus acciones, no de discursos. Los niños no memorizan una moraleja: la viven jugando a ser lobos."
         },
         {
-          "type": "heading",
-          "level": 3,
-          "text": "Otros elementos simbólicos que sostienen la Selva"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "<strong>La Flor Roja</strong> — símbolo del crecimiento y el paso a nuevas etapas.",
-            "<strong>El Cubil</strong> — el espacio simbólico de la Manada: seguridad, protección, encuentro.",
-            "<strong>El Saludo</strong> — expresión de respeto y pertenencia entre lobatos."
-          ]
-        },
-        {
           "type": "paragraph",
-          "text": "La Manada tiene además otros símbolos propios —el Libro de Oro, el Himno, un referente espiritual como San Francisco de Asís— que vas a ir conociendo con la práctica; no hace falta memorizarlos hoy."
+          "text": "Además están <strong>la Flor Roja</strong> (el crecimiento y el paso a nuevas etapas), <strong>el Cubil</strong> (el espacio seguro de encuentro de la Manada) y <strong>el Saludo</strong> (respeto y pertenencia entre lobatos); y otros —el Libro de Oro, el Himno, un referente espiritual como San Francisco de Asís— que irás conociendo con la práctica. No hace falta memorizarlos hoy."
         },
         {
           "type": "heading",
@@ -268,7 +258,7 @@
             "text": "Una dirigente de la Familia de Cachorros te dice: «Ustedes en Manada tienen otro marco simbólico, el Libro de las Tierras Vírgenes; nosotros usamos La Fantasía». Según la lección, ¿qué le respondes?",
             "options": [
               "Que tiene razón: cada rama tiene su marco, y el de la Manada es el Libro de las Tierras Vírgenes.",
-              "Que es al revés: el Libro es el marco de las dos ramas y La Fantasía es su ambiente de referencia.",
+              "Que es al revés: las dos comparten el Libro como marco, y La Fantasía es solo el ambiente de la Familia.",
               "Que las dos comparten La Fantasía como marco y el Libro como fondo; cambian los relatos y personajes."
             ],
             "correctIndex": 2
@@ -276,11 +266,11 @@
           {
             "text": "Mateo, un «Lobezno» a punto de su Investidura, le mintió ayer a su seisena y te pregunta si todavía puede hacer la Promesa el domingo. Según la lección, ¿qué le dices?",
             "options": [
+              "Que la haga solo si antes le pide perdón a su seisena delante de la Manada, para que la Promesa valga.",
               "Que la aplace hasta cumplir la Ley unas semanas seguidas, para que su Promesa tenga peso de verdad.",
-              "Que la haga: prometer es comprometerse a hacer siempre lo mejor cada día, no haber sido perfecto.",
-              "Que la haga igual, porque es un gesto simbólico de la Selva y no lo compromete a algo concreto."
+              "Que la haga: prometer es comprometerse a hacer siempre lo mejor cada día, no haber sido perfecto."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "Quieres que tu Manada viva el punto 2 de la Ley («Dice siempre la verdad»). Según la lección, ¿cuál de estas propuestas usa mejor el marco simbólico?",
@@ -302,7 +292,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "<strong>Idea central:</strong> en la Manada de 2026 las seisenas no tienen jefes fijos —el liderazgo rota— y lo que hacen se revisa con un filtro de ocho letras: DURASLID."
+          "text": "<strong>Idea central:</strong> en la Manada de 2026 las seisenas no tienen jefes fijos —el liderazgo rota— y todo lo que hace la Manada, también en seisenas, se revisa con un filtro de ocho letras: DURASLID."
         },
         {
           "type": "paragraph",
@@ -330,7 +320,7 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "Lo que la seisena hace: Aprender Haciendo"
+          "text": "Aprender Haciendo, también en la seisena"
         },
         {
           "type": "paragraph",
@@ -392,11 +382,11 @@
           {
             "text": "Una dirigente quiere que las seisenas compitan todo el año por puntos, con gritos propios y sin mezclarse nunca, «para que cada lobato sienta que su seisena es su casa». Según la lección, ¿qué le dices?",
             "options": [
-              "Que mezcle a veces las seisenas: el lobato es de la Manada entera y la seisena solo lo acompaña.",
               "Que va bien: la seisena es donde el lobato pertenece de verdad, y la Manada es el marco que las reúne.",
-              "Que está bien si cada lobato rota de función dentro de su seisena, para que nadie mande siempre."
+              "Que cambie los puntos por un premio al lobato que más aporte a su seisena, para que nadie se quede quieto.",
+              "Que mezcle a veces las seisenas: el lobato es de la Manada entera y la seisena solo lo acompaña."
             ],
-            "correctIndex": 0
+            "correctIndex": 2
           }
         ]
       }
@@ -422,7 +412,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Un lobato que se adentra en el bosque, siente el crujir de las hojas o el olor a tierra húmeda después de la lluvia, está honrando el origen del escultismo. La naturaleza enseña exploración, autocuidado, vida en grupo y conciencia ambiental — habilidades que ninguna explicación en salón reemplaza."
+          "text": "Un lobato que se adentra en el bosque, siente el crujir de las hojas o el olor a tierra húmeda después de la lluvia, está honrando el origen del escultismo. La naturaleza enseña exploración, autocuidado, vida en grupo y conciencia ambiental — habilidades que ninguna explicación en salón reemplaza. Y no hace falta un día perfecto: un lobato que ha caminado bajo la lluvia o ayudado a un compañero cansado vive lecciones que difícilmente olvida."
         },
         {
           "type": "heading",
@@ -482,7 +472,7 @@
         },
         {
           "type": "info-box",
-          "text": "En palabras simples: cada vez que Andrés supera un reto en una de las seis Sendas —no necesariamente al mismo ritmo en todas— avanza en su territorio de la selva. La insignia máxima de la rama se llama Plenitud de la Selva. Cuando un lobato llega al nivel de Profundización en las seis áreas, alcanza además la fase máxima: Lobo Cazador de la Selva."
+          "text": "En palabras simples: cada vez que Andrés supera un reto en una de las seis Sendas —no necesariamente al mismo ritmo en todas— avanza en su territorio de la selva. La insignia máxima de la rama se llama Plenitud de la Selva. Cuando un lobato llega al nivel de Profundización —el más alto de los tres niveles de cada área— en las seis áreas, alcanza además la fase máxima: Lobo Cazador de la Selva."
         },
         {
           "type": "info-box",
@@ -499,29 +489,29 @@
           {
             "text": "Andrés avanzó mucho en la Senda del rastreador y casi nada en la del corazón. Su dirigente propone no reconocerle el avance del rastreador hasta que nivele la otra, «para que crezca parejo». ¿Qué le dices?",
             "options": [
+              "Que lo reconozca ya: cada lobato lleva su propio paso, y una Senda puede ir delante de otra.",
               "Que tiene sentido: la progresión es integral y una Senda no debe adelantarse a las demás.",
-              "Que lo reconozca ya: cada lobato avanza a su ritmo y no necesariamente igual en todas las Sendas.",
               "Que lo reconozca, pero en la ceremonia de fin de año y junto con el resto de los lobatos de la Manada."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "Este mes anotaste dos avances de Andrés: ya hace la caminata sin quedarse atrás y ahora le cuenta a la Manada cuando algo lo pone triste. Tu compañero los registró los dos en la Senda del rastreador. ¿Qué le dices?",
             "options": [
               "Que está bien así: los dos se notaron en salidas, y la del rastreador recoge lo que pasa afuera.",
-              "Que los dos van en la Senda del corazón, porque en ambos Andrés venció algo que le costaba.",
-              "Que la caminata está bien ahí, pero lo de contar su tristeza va en la Senda del corazón."
+              "Que la caminata está bien ahí, pero lo de contar su tristeza va en la Senda del corazón: es afectividad.",
+              "Que la caminata está bien ahí, pero lo de contar su tristeza va en la Senda de la unidad: es con la Manada."
             ],
-            "correctIndex": 2
+            "correctIndex": 1
           },
           {
-            "text": "Se anuncia lluvia fuerte para el sábado de la salida al parque. Un dirigente propone cambiarla por una charla en el salón sobre el bosque. ¿Qué le dices?",
+            "text": "Para el sábado de la salida al parque de siempre se anuncia llovizna, sin tormenta ni alerta. Un dirigente propone cambiarla por una charla en el salón sobre el bosque. ¿Qué le dices?",
             "options": [
-              "Que reprogramen la salida para otro sábado: una charla en el salón no reemplaza lo que se aprende afuera.",
               "Que hagan la charla: con fotos y relatos de la Selva el bosque se puede enseñar igual de bien adentro.",
-              "Que salgan igual con la lluvia: la naturaleza enseña justamente cuando se pone incómoda y difícil."
+              "Que la pasen a un sábado seco: una salida con lluvia se aprovecha poco y los lobatos se distraen.",
+              "Que salgan con impermeable: caminar bajo la llovizna también enseña, y el parque es seguro y conocido."
             ],
-            "correctIndex": 0
+            "correctIndex": 2
           }
         ]
       }
@@ -597,11 +587,11 @@
           {
             "text": "En pleno juego, un lobato le pega una y otra vez a un compañero de su seisena. Según la lección, ¿qué hace el Viejo Lobo?",
             "options": [
-              "Detiene el juego y lo regaña delante de todos, para que al resto de la Manada le quede bien claro el límite.",
-              "Deja que la seisena lo resuelva sola, porque los conflictos son normales y parte del aprendizaje.",
-              "Detiene el juego, protege al compañero y, con voz tranquila, le recuerda la norma y aplica la consecuencia acordada."
+              "Detiene el juego, protege al compañero, le recuerda la norma que ya conocen y aplica la consecuencia acordada.",
+              "Detiene el juego, protege al compañero y hace que el lobato pida perdón frente a toda la Manada reunida.",
+              "Detiene el juego, protege al compañero y lo saca el resto de la tarde, aunque nadie les dijo antes la norma."
             ],
-            "correctIndex": 2
+            "correctIndex": 0
           },
           {
             "text": "Un Viejo Lobo entusiasta le entrega al Consejo de Roca el presupuesto del semestre y la logística del campamento: transporte y permisos. Según la lección, ¿qué pasa?",
@@ -706,11 +696,11 @@
           {
             "text": "Una dirigente prepara la Ceremonia de Progresión: va a nombrar, uno por uno, el reto que cada lobato superó este año en sus Sendas. ¿Qué le dices?",
             "options": [
+              "Que no nombre retos: que entregue a todos la misma insignia, para que ninguno se sienta menos que otro.",
               "Que mejor lo haga a solas con cada uno, porque nombrarlos delante de la Manada ya es compararlos.",
-              "Que va bien: reconoce el esfuerzo de cada lobato en su propio camino, sin ponerlo frente a otro.",
-              "Que le sume un reconocimiento al que más retos superó, para que los demás tengan a quién seguir."
+              "Que va bien: reconoce el esfuerzo de cada lobato en su propio camino, sin ponerlo frente a otro."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "En un Grupo, los lobatos que cumplen 11 años pasan a la Tropa en la primera reunión del año, con un cambio de pañoleta y un aviso a sus familias. Según la lección, ¿qué falta?",
@@ -768,7 +758,7 @@
         },
         {
           "type": "info-box",
-          "text": "Tú no diriges la Manada. Le ofreces el territorio, el símbolo y la confianza — y el rumbo lo marcan ellos. Bienvenido, Viejo Lobo."
+          "text": "Tú no mandas en la Manada. Le ofreces el territorio, el símbolo, la confianza y unos límites claros — y el rumbo lo marcan ellos. Bienvenido, Viejo Lobo."
         }
       ],
       "reflection": {
@@ -790,20 +780,20 @@
           {
             "text": "Un compañero escribe su compromiso: «En mi próxima reunión de Manada voy a dejar que los lobatos decidan todo». Según el curso, ¿qué le sugieres?",
             "options": [
-              "Que lo deje así: dejarles todo a ellos es justo lo que pide ser facilitador y no jefe.",
               "Que elija una cosa que hoy decide él, como el juego de cierre, y se la pase a los lobatos.",
-              "Que le agregue cómo les explicará antes su criterio, para que decidan bien y sin presión."
+              "Que lo deje así: dejarles todo a ellos es justo lo que pide ser facilitador y no jefe.",
+              "Que lo deje igual y le sume una señal: que los lobatos salgan más contentos que de costumbre."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "Un papá le dice al nuevo Viejo Lobo: «Usted es el que manda aquí, así que decida usted qué hacen hoy». Según el curso, ¿qué le responde?",
             "options": [
               "Que en la Manada nadie manda: los lobatos dirigen la reunión y él solo vigila que estén seguros.",
-              "Que él decide en las reuniones de cada semana y los lobatos deciden las salidas en el Consejo de Roca.",
-              "Que él ofrece las condiciones y sostiene límites claros, pero el rumbo de la reunión lo marcan ellos."
+              "Que él cuida las normas y la seguridad, y dentro de eso los lobatos proponen qué juegan hoy.",
+              "Que no manda nadie: hoy todo lo decide el Consejo de Roca, incluso qué es seguro y qué no."
             ],
-            "correctIndex": 2
+            "correctIndex": 1
           }
         ]
       }

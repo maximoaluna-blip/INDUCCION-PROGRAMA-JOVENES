@@ -3,7 +3,7 @@
   "title": "Patrimonito: el patrimonio de la humanidad en tu unidad",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Cómo se acompaña el desafío Patrimonito, de Mensajeros de la Paz, que se hace desde los 15 años y en alianza con la UNESCO: qué cuenta como patrimonio —cultural, natural e inmaterial—, las tres rutas del desafío, los pasos de la insignia con Scouts del Mundo y las horas de servicio en el sitio, cómo trabajar con la comunidad que vive el patrimonio y cómo hacerlo seguro. El patrimonio no es lo viejo: es lo que recibimos, vivimos y dejamos. Para dirigentes de Comunidad y Clan, y con un camino para las demás ramas.",
-  "contentVersion": "2026-11-08",
+  "contentVersion": "2026-11-22",
   "icon": "🏛️",
   "duration": "38 minutos",
   "level": 4,
@@ -98,6 +98,10 @@
           "text": "La idea viene de cómo el propio Kit define el patrimonio cultural: <em>«el legado del pasado, nuestro activo en el presente y la herencia que les dejaremos a las futuras generaciones»</em> (p. 12, citando al Ministerio de Cultura). Desarma dos ideas de la escena. La primera, que el patrimonio son los edificios antiguos: también lo son una música, una fiesta o un saber artesanal. La segunda, que el desafío es una jornada: Patrimonito reconoce un <strong>proyecto</strong>."
         },
         {
+          "type": "info-box",
+          "text": "📍 <strong>Para quién es:</strong> dirigentes de Comunidad y de Clan, que son quienes acompañan el desafío. Las escenas siguen a un Clan. Si tu unidad es la Familia, la Manada o la Tropa, el desafío no es para tus protagonistas todavía, pero la Lección 7 te dice cómo trabajar el patrimonio cercano en tu rama."
+        },
+        {
           "type": "heading",
           "level": 3,
           "text": "Qué es Patrimonito"
@@ -124,10 +128,6 @@
             "<strong>No es el curso de Scouts del Mundo.</strong> Ese reconocimiento lo presentó el <a href=\"marco-mundo-mejor-ods.html\">Curso 21</a>; aquí se ve solo en lo que toca a Patrimonito.",
             "<strong>No es el curso de la seguridad.</strong> Cómo se hace segura una salida está en el <a href=\"a-salvo-del-peligro-programa.html\">Curso 25</a>; aquí se aplica a las horas de servicio en el sitio."
           ]
-        },
-        {
-          "type": "info-box",
-          "text": "📍 <strong>Para quién es:</strong> dirigentes de Comunidad y de Clan, que son quienes acompañan el desafío. Las escenas siguen a un Clan. Si tu unidad es la Familia, la Manada o la Tropa, el desafío no es para tus protagonistas todavía, pero la Lección 7 te dice cómo trabajar el patrimonio cercano en tu rama."
         }
       ]
     },
@@ -147,10 +147,10 @@
             "text": "Después de oír que «el patrimonio no es lo viejo», un rover propone: «entonces el partido de microfútbol de los domingos en el barrio también vale para el desafío». ¿Qué le dices?",
             "options": [
               "«Sí cuenta: si la comunidad lo vive y lo transmite, es patrimonio inmaterial y entra al desafío como cualquier otro.»",
-              "«Puede ser patrimonio cercano del barrio, pero el desafío se hace sobre lo que reconoce la UNESCO, y el partido no está.»",
-              "«No cuenta: a un juego de barrio le falta la antigüedad que la UNESCO pide para darle valor universal excepcional.»"
+              "«Puede contar si lo documentan bien: con un registro de su historia, la comisión lo puede aceptar como patrimonio vivo.»",
+              "«No para el desafío: Patrimonito se hace donde la UNESCO reconoció algo, y el partido del barrio no está en esa lista.»"
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
             "text": "Una nómada propone para el desafío una práctica tradicional de su región en la que se hace sufrir a animales: «es tradición, así que es patrimonio». ¿Qué le respondes con el Kit?",
@@ -260,11 +260,11 @@
           {
             "text": "Una rover termina su autoevaluación con «Estoy al comienzo de la exploración» en todas las frases y dice que mejor espera un año, porque «todavía no está lista para el desafío». ¿Qué hace su dirigente?",
             "options": [
+              "«Le dice que esa hoja es justo para eso: se llena antes de empezar, y la ayuda a escoger ya por qué frase arrancar.»",
               "«Respeta que espere: la marca la pone ella, y si se ve al comienzo en todo, el dirigente no debe insistirle más.»",
-              "«Le muestra que marcar “al comienzo” es lo normal antes de empezar, y la ayuda a ver por qué frase quiere arrancar.»",
-              "«Le cambia las marcas a “en exploración” donde la ha visto trabajar, para que la hoja muestre lo que de verdad sabe.»"
+              "«La anima a empezar, pero si en un mes sigue al comienzo en todo, acuerdan que espere al próximo año el desafío.»"
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "Un Jefe de Clan que ya acompañó Constructores de Paz abre con una rover la autoevaluación de Patrimonito y le dice: «marca Actúa si ya hiciste algo». ¿Qué le corriges?",
@@ -320,7 +320,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Está en las pp. 11 y 12: una tabla por ruta, la misma para jóvenes de 15 a 18 y de 18 a 21 años. Ojo, porque cambia respecto del Curso 22: en Constructores de Paz las marcas llevan el nombre de las etapas; aquí, como en la tabla de HeForShe, <strong>Toma conciencia, Comparte y Actúa son las etapas, no las marcas</strong>. Cada etapa tiene su frase y, al lado, tres casillas: <em>«Estoy al comienzo de la exploración»</em>, <em>«Estoy en exploración»</em> y <em>«He terminado mi exploración»</em>, más dos columnas para escribir los logros personales y las actividades. Como en los otros kits, dice dónde está el joven <strong>en el desafío</strong>, no su nivel en una competencia educativa: sus frases son las competencias del desafío. Y la marca la pone él."
+          "text": "Está en las pp. 11 y 12: una tabla por ruta, la misma para jóvenes de 15 a 18 y de 18 a 21 años. Imagínala así: <strong>en cada fila, una etapa</strong> —Toma conciencia, Comparte, Actúa— con su frase; <strong>al lado, tres casillas</strong>: <em>«Estoy al comienzo de la exploración»</em>, <em>«Estoy en exploración»</em> y <em>«He terminado mi exploración»</em>, más dos columnas para escribir los logros personales y las actividades. Como en los otros kits, dice dónde está el joven <strong>en el desafío</strong>, no su nivel en una competencia educativa: sus frases son las competencias del desafío. Y la marca la pone él. Si marca «al comienzo» en todo, no es razón para esperar: la tabla es para eso, para empezar desde donde está."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si acompañaste Constructores de Paz (Curso 22), ojo: allá las marcas llevan el nombre de las etapas; aquí, como en la tabla de HeForShe, <strong>Toma conciencia, Comparte y Actúa son las etapas, no las marcas</strong>."
         },
         {
           "type": "paragraph",
@@ -341,13 +345,13 @@
         "nextLabel": "Continuar a la comunidad 🤝",
         "questions": [
           {
-            "text": "Un Clan de otra ciudad duda entre un parque muy querido del barrio, que no está en ninguna lista, y una música tradicional de su región que sí está en la lista del Kit. ¿Qué les dirías?",
+            "text": "Un Clan propone hacer el proyecto en una iglesia de su ciudad que está declarada Bien de Interés Cultural, pero que no aparece en la lista UNESCO del Kit. ¿Qué les dices?",
             "options": [
-              "Que cualquiera: la UNESCO pide proyectos donde una comunidad reconoce su patrimonio, esté o no en la lista.",
-              "Que sirve la música: el proyecto va donde la UNESCO reconoció algo, y el parque puede ser otro servicio del Clan.",
-              "Que escojan el parque: el desafío exige un lugar físico, y en una música no hay un sitio donde cumplir las horas."
+              "«Que como servicio del Clan vale, pero para Patrimonito busquen en la lista del Kit algo de su región.»",
+              "«Que sirve: esa declaratoria nacional pesa igual, porque la Lista Tentativa también la arma Colombia.»",
+              "«Que primero la postulen a la UNESCO con la alcaldía: ese trámite de postulación cuenta como conservación.»"
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
             "text": "Una rover terminó su proyecto y sus horas, y ya lo compartió y lo evaluó con la comunidad. Su Jefe de Clan quiere entregarle la insignia el sábado. ¿Qué falta?",
@@ -540,7 +544,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Como viste en el <a href=\"a-salvo-del-peligro-programa.html\">Curso 25</a>, para el transporte por carretera rige el <em>Protocolo Nacional de Transporte</em>, de cumplimiento obligatorio: pídeselo a tu Jefe de Grupo antes del primer viaje; lo enseña paso a paso el curso <a href=\"https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/02-Plataforma-Web/actividades-seguras-y-datos.html\" target=\"_blank\" rel=\"noopener\"><em>Actividades seguras</em></a>, en Políticas Transversales. Para la pernocta no hay protocolo nacional entre los documentos oficiales que sostienen esta plataforma: si tu Grupo o tu Región tienen uno, ese es el que aplicas. Y lo que rige siempre, haya o no protocolo, es la práctica 2+1 al planear salidas, pernoctas y traslados, que el Curso 25 enseña. Y una diferencia que importa: en el Clan tus protagonistas son mayores de edad; en la Comunidad son menores, y eso cambia qué permisos pides y a quién."
+          "text": "Como viste en el <a href=\"a-salvo-del-peligro-programa.html\">Curso 25</a>, para el transporte por carretera rige el <em>Protocolo Nacional de Transporte</em>, de cumplimiento obligatorio: pídeselo a tu Jefe de Grupo antes del primer viaje; lo enseña paso a paso el curso <a href=\"https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/02-Plataforma-Web/actividades-seguras-y-datos.html\" target=\"_blank\" rel=\"noopener\"><em>Actividades seguras</em></a>, en Políticas Transversales. Para la pernocta no hay protocolo nacional entre los documentos oficiales que sostienen esta plataforma: si tu Grupo o tu Región tienen uno, ese es el que aplicas. Y lo que rige siempre, haya o no protocolo, es la práctica 2+1 al planear salidas, pernoctas y traslados, que el Curso 25 enseña. Y una diferencia que importa: en el Clan tus protagonistas son mayores de edad; en la Comunidad son menores, y eso cambia qué permisos pides y a quién. Y antes de acompañar estas horas, recuerda la condición del <em>Manual de Implementación</em>: haber completado el curso oficial A Salvo del Peligro (p. 6); el Curso 25 no lo reemplaza."
         },
         {
           "type": "heading",
@@ -588,11 +592,11 @@
             "correctIndex": 2
           },
           {
-            "text": "En el Congreso de Comunidad, los nómadas votan que todos los de 15 años o más harán Patrimonito este año, y todos por difusión, «porque es la ruta más fácil». ¿Qué hace su dirigente?",
+            "text": "En el Congreso de Comunidad, los nómadas votan que todos harán Patrimonito este año, y todos por difusión, «porque es la ruta más fácil». ¿Qué hace su dirigente?",
             "options": [
               "«Lo deja así: lo decidió el Congreso de Comunidad, y el adulto no corrige lo que los jóvenes votan entre ellos.»",
-              "«Celebra la idea, pero cada nómada decide si lo asume y escoge su ruta desde su propia autoevaluación.»",
-              "«Les pide que cada uno recorra las tres rutas, una por etapa, para que nadie se quede solo con la más fácil.»"
+              "«Les dice que eso no lo decide la mayoría: cada nómada decide si lo asume, y su ruta sale de su autoevaluación.»",
+              "«Celebra la idea y propone votar también las rutas por etapa, para que todos pasen por las tres y nadie elija la fácil.»"
             ],
             "correctIndex": 1
           }
@@ -620,12 +624,32 @@
           "text": "🏛️ <strong>Por eso este curso se sostiene en una frase:</strong> el patrimonio no es lo viejo: es lo que recibimos, lo que vivimos hoy y lo que vamos a dejar. El Barniz lo muestra entero: las artesanas lo recibieron de quienes les enseñaron, lo viven cada día en el taller, y lo que el Clan ayudó a dejar son tres aprendices y un registro hecho con ellas. Al mural de un sábado le faltaban la comunidad, el tiempo y los pasos del reconocimiento. A la capilla, estar en la lista: cuidarla sigue valiendo, pero como servicio del Clan, no como Patrimonito."
         },
         {
-          "type": "info-box",
-          "text": "🌿 <strong>Y en tu rama.</strong> El desafío es desde los 15 años, pero el patrimonio cercano se puede trabajar en cualquier rama como parte de su programa: el <em>Modelo de Aplicación</em> nombra, entre los programas de Mensajeros de la Paz, el rescate de historias barriales, el patrimonio natural y cultural y las rutas de memoria viva (p. 99). <strong>Familia y Manada:</strong> sin insignia, con una canción, un juego o una comida que las familias recuerden. <strong>Tropa:</strong> sin insignia, una ruta de memoria viva por el barrio. <strong>Comunidad:</strong> tus nómadas ya tienen la edad del desafío; se presenta en el Congreso de Comunidad y cada nómada decide si lo asume, con la autoevaluación del Kit y, como son menores de edad, con los permisos de la Lección 6. <strong>Clan:</strong> se presenta en el Consejo de Clan y cada rover decide si lo asume; tu Guía dice que el desafío invita a <em>«valorar, proteger y promover el patrimonio cultural y natural como base de la identidad, la memoria colectiva y la convivencia entre generaciones»</em> (p. 62)."
+          "type": "heading",
+          "level": 3,
+          "text": "Y en tu rama"
         },
         {
-          "type": "info-box",
-          "text": "🔁 <strong>Las cuatro preguntas, sobre este curso.</strong> <strong>Vivir:</strong> seguiste a un Clan del mural de un sábado a un proyecto de meses con las artesanas. <strong>Mirar:</strong> ¿qué patrimonio cercano conocen poco tus protagonistas? <strong>Comprender:</strong> ¿qué le faltaría a una jornada para ser un proyecto? <strong>Proyectar:</strong> ¿a quién de esa comunidad le preguntarán primero? Son los pasos del <em>Modelo de Aplicación de Bolsillo</em>."
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🌱 Familia, Manada y Tropa",
+              "description": "El desafío es desde los 15 años, pero el patrimonio cercano cabe en su programa: el <em>Modelo de Aplicación</em> nombra, entre los programas de Mensajeros de la Paz, el rescate de historias barriales, el patrimonio natural y cultural y las rutas de memoria viva (p. 99). Sin insignia: en Familia y Manada, una canción, un juego o una comida que las familias recuerden; en la Tropa, una ruta de memoria viva por el barrio.",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "🧭 Comunidad",
+              "description": "Tus nómadas ya tienen la edad del desafío. Se presenta en el Congreso de Comunidad y cada nómada decide si lo asume, con la autoevaluación del Kit y, como son menores de edad, con los permisos de la Lección 6.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🏕️ Clan",
+              "description": "Se presenta en el Consejo de Clan y cada rover decide si lo asume. Tu Guía dice que el desafío invita a <em>«valorar, proteger y promover el patrimonio cultural y natural como base de la identidad, la memoria colectiva y la convivencia entre generaciones»</em> (p. 62).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            }
+          ]
         },
         {
           "type": "heading",
@@ -634,11 +658,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Con este curso se completa el Nivel 4 de la línea: el marco de Scouts por los ODS en el <a href=\"marco-mundo-mejor-ods.html\">Curso 21</a>, tres desafíos de Mensajeros de la Paz —<a href=\"kit-constructores-paz.html\">Constructores de Paz</a>, <a href=\"kit-heforshe-genero.html\">HeForShe</a> y Patrimonito— y la seguridad en el <a href=\"a-salvo-del-peligro-programa.html\">Curso 25</a>. Y recuerda la condición del <em>Manual de Implementación</em> para acompañar sus actividades: haber completado el curso oficial A Salvo del Peligro (p. 6); el Curso 25 no lo reemplaza."
+          "text": "Con este curso se completa el Nivel 4 de la línea: el marco de Scouts por los ODS en el <a href=\"marco-mundo-mejor-ods.html\">Curso 21</a>, tres desafíos de Mensajeros de la Paz —<a href=\"kit-constructores-paz.html\">Constructores de Paz</a>, <a href=\"kit-heforshe-genero.html\">HeForShe</a> y Patrimonito— y la seguridad en el <a href=\"a-salvo-del-peligro-programa.html\">Curso 25</a>."
         },
         {
           "type": "mission-box",
-          "text": "🎯 <strong>Tu tarea para este ciclo.</strong> Con tus protagonistas, busquen un patrimonio cercano —una fiesta, un saber, un lugar— y antes de proponer nada, pregúntenle a alguien de la comunidad que lo vive qué necesita. Si en tu unidad hay jóvenes de 15 años o más interesados en el desafío, revisa con ellos la lista del Kit y averigua con la comisión de Mundo Mejor cuándo es el próximo Descubrimiento. Anota en el Compromiso Personal, junto a tu certificado, qué patrimonio van a explorar y a quién le preguntarán."
+          "text": "🎯 <strong>Tu tarea para este ciclo.</strong> Con tus protagonistas, busquen un patrimonio cercano —una fiesta, un saber, un lugar— y antes de proponer nada, pregúntenle a alguien de la comunidad que lo vive qué necesita. Si en tu unidad hay jóvenes de 15 años o más interesados en el desafío, revisa con ellos la lista del Kit y averigua con la comisión de Mundo Mejor cuándo es el próximo Descubrimiento. Anota en el Compromiso Personal, junto a tu certificado, qué patrimonio van a explorar y a quién le preguntarán. Es el ciclo del <em>Modelo de Aplicación de Bolsillo</em>: viviste el caso del Clan; ahora les toca mirar, comprender y proyectar con su comunidad."
         }
       ]
     }

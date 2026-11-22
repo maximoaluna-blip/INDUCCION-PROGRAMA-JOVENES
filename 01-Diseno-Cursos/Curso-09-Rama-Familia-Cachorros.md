@@ -22,11 +22,11 @@
 | Título | Rama Cachorros (Familia) |
 | Subtítulo | Formación de Adultos Voluntarios — Asociación Scouts de Colombia |
 | Icono | 🐻 |
-| Duración | **45 minutos** (excede el tope de 40 del CHECKLIST — justificado en el **ADR-045**) |
-| Lecciones | 8 (1 intro + 7 de contenido) |
+| Duración | **52 minutos** (derivada de la banda por lección, ADR-069; el tope de 40 y la excepción del ADR-045 quedaron superados). Medida el 22-nov-2026 tras partir la L7: 7.614 palabras con el mismo contador que daba 7.033 para los 48 min anteriores |
+| Lecciones | 9 (1 intro + 8 de contenido). La L7 se partió en dos el 22-nov-2026 (decisor, ADR-069) |
 | Nivel | 2 — Profundización por rama y práctica pedagógica |
 | `order` | 9 |
-| `contentVersion` | 2026-09-15 |
+| `contentVersion` | 2026-11-22 |
 | Audiencia primaria | Dirigentes de Familia (Viejos Lobos de Familia) y quienes abren una unidad nueva |
 | Recomendado antes | Nivel 1 completo (Cursos 1–7). **Recomendado, no exigido** (ADR-019) |
 | Recomendado en paralelo | Curso 25 (A Salvo del Peligro aplicado al Programa) — de adopción inmediata |
@@ -58,6 +58,8 @@ Al terminar, el adulto podrá:
 
 > **Dónde vive el hook (desde la auditoría pedagógica, H3).** Ya no vive solo en este diseño: se **enuncia textualmente** en el tercer `paragraph` de la L1 y se **cierra con eco** en el `mission-box` de la L8, que remite a él para escoger el primer paso. Antes aparecía cero veces en el JSON, así que el estudiante nunca lo leía.
 
+> **Atribución del hook (22-nov-2026, decisor, m5).** La L1 decía que la Guía afirmaba la frase «con todas las letras», y la Guía no la contiene. Ahora la L1 cita lo que la Guía sí dice —los niños aprenden *«tocando, experimentando, imitando, preguntando y jugando»* (§4.1, p. 21) y el marco simbólico se vive a través del *«aprender jugando»* (§6.1, p. 35)— y presenta la frase como síntesis del curso, no de la Guía. La frase y su eco en la última lección no cambian.
+
 El error más común del adulto que llega a Familia es tratarla como "Manada pero más pequeños": bajar el nivel, simplificar el juego, esperar a que crezcan para empezar a educar en serio. La Guía desmonta eso desde el capítulo cuatro: en la primera infancia el juego **es** la forma del elemento *Aprender Haciendo*, no un envoltorio para hacerlo pasar. Y lo conecta con las **actividades rectoras** que el Ministerio de Educación fija para la primera infancia en Colombia — juego, arte, literatura y exploración del medio.
 
 ---
@@ -74,10 +76,11 @@ El error más común del adulto que llega a Familia es tratarla como "Manada per
 | 4 | 🎲 El juego: así se aprende a los cinco años | 5 | Aprender Haciendo en primera infancia + actividades rectoras + DURASLID |
 | 5 | 🐾 Camadas, Círculo de Familia y Encuentro del Cubil | 5 | **Sistema de Familia**: las Camadas son ratos, no estructura |
 | 6 | 📖 Los Hermanos de Mowgli y el Eo-Wawa | 5 | Marco simbólico = **la Fantasía**; Familia y Manada comparten el Libro de las Tierras Vírgenes. Tres ceremonias |
-| 7 | 🌱 Cómo crece un Cachorro | 6 | Cinco Dimensiones, tres fases, cinco Dentelladas, especialidades, etapas |
-| 8 | 🛡️ Un Cubil seguro y tu primer paso | 5 | Dos adultos y 1:5, baño y custodia, padres aliados, Intención→Decisión→Acción |
+| 7 | 🌱 Cómo crece un Cachorro | 6 | Cinco Dimensiones, Etapa de Adaptación, tres fases y los verbos del adulto |
+| 8 | 🏅 Dentelladas, especialidades y paso a la Manada | 7 | Cinco Dentelladas, especialidades, Etapa de Transición y perfil de egreso |
+| 9 | 🛡️ Un Cubil seguro y tu primer paso | 7 | Dos adultos y 1:5, baño y custodia, padres aliados, Intención→Decisión→Acción |
 
-**Total: 45 minutos.** *(Medido, no estimado: **5.752 palabras** contando cuerpo, reflexiones y quizzes. A 45 min eso son **128 palabras/minuto declarado** — todavía menos generoso que Manada, publicado con 35 min y 4.135 palabras (118), y que Método Scout, con 40 min y 3.522 (88). Excede el tope de 40 del CHECKLIST; la excepción está justificada en el ADR-045.)* *(Medido sobre el texto real del JSON, no estimado: ~5.400 palabras ≈ 34 min de lectura pura más reflexiones y quizzes. La L7 sola pasa de 1.100 palabras. Para calibrar: Manada, publicado con «35 minutos», tiene 3.898 palabras.)*
+**Total: 52 minutos (22-nov-2026).** La L7 se partió en el `heading` «Las cinco Dentelladas» porque estaba en ~11 min, fuera de la banda de 3–8 min por lección (ADR-069). Las cifras que siguen son históricas. **Antes: 45 minutos.** *(Medido, no estimado: **5.752 palabras** contando cuerpo, reflexiones y quizzes. A 45 min eso son **128 palabras/minuto declarado** — todavía menos generoso que Manada, publicado con 35 min y 4.135 palabras (118), y que Método Scout, con 40 min y 3.522 (88). Excede el tope de 40 del CHECKLIST; la excepción está justificada en el ADR-045.)* *(Medido sobre el texto real del JSON, no estimado: ~5.400 palabras ≈ 34 min de lectura pura más reflexiones y quizzes. La L7 sola pasa de 1.100 palabras. Para calibrar: Manada, publicado con «35 minutos», tiene 3.898 palabras.)*
 
 ---
 
@@ -85,9 +88,9 @@ El error más común del adulto que llega a Familia es tratarla como "Manada per
 
 **Idea central:** este no es un curso sobre cuidar niños pequeños; es sobre educarlos.
 
-1. **`info-box`** — ⏱️ ~45 minutos, con lo que el adulto va a poder hacer al final. Sobre el Círculo de Familia promete **«saber cómo se arma y qué significa»** — que es lo que el curso entrega — en vez de «conducir» (auditoría pedagógica, H6-B).
+1. **`info-box`** — ⏱️ ~52 minutos, con lo que el adulto va a poder hacer al final. Sobre el Círculo de Familia promete **«saber cómo se arma y qué significa»** — que es lo que el curso entrega — en vez de «conducir» (auditoría pedagógica, H6-B).
 2. **`paragraph`** — Salomé, 5 años, primer día en el Cubil; dentro de dos años cruza hacia la Manada, que es donde arranca el Curso 8.
-3. **`paragraph`** — El malentendido a desarmar: *«a los cinco años todavía no se puede hacer escultismo de verdad; toca esperar a que crezcan»*. **Cierra enunciando el hook con todas sus letras** y diciendo que todo el curso sale de esa frase (H3).
+3. **`paragraph`** — El malentendido a desarmar: *«a los cinco años todavía no se puede hacer escultismo de verdad; toca esperar a que crezcan»*. Cita lo que la Guía sí dice (§4.1, p. 21; §6.1, p. 35) y **cierra enunciando el hook como frase del curso**, no de la Guía (H3; atribución corregida el 22-nov-2026, m5).
 4. **`info-box`** — Anti-definición: **no** es una guardería con pañoleta, **no** es «la antesala de la Manada», **no** es un servicio para que los papás dejen a los niños.
 5. **`paragraph`** — Lo que sí es: **una unidad** del Grupo Scout con Promesa, Ley, saludo, lema, marco simbólico, sistema de equipos, órgano de participación y progresión propios. *(«Unidad», no «sección»: la tabla de §6.1, p. 35, separa Sección = franja 5-6 años · Rama = Cachorros · Unidad = Familia.)*
 6. **`mission-box`** — Cómo usar el curso: cada lección termina en algo que probar el sábado.
@@ -102,9 +105,9 @@ El error más común del adulto que llega a Familia es tratarla como "Manada per
 
 `info-box` (idea central) · `heading` «El protagonista de programa de la Familia» · `paragraph` (5 y 6 años; la primera infancia tiene lógica propia) · `heading` «El Viejo Lobo de Familia» · **`policy-quote`** §1.2, p. 8 — *«Su papel no corresponde al de un docente tradicional ni al de una figura parental, sino al de un adulto mediador que facilita experiencias significativas de aprendizaje…»* · `paragraph` (qué descarta esa frase: ni explicar y evaluar, ni proteger y resolver) · **`method-grid` de 3**: 👩‍🏫 El maestro · 🤱 El papá · 🐺 El Viejo Lobo · `heading` «Los Nombres de Caza» · `paragraph` con la definición de §1.3, p. 10 · `paragraph` (no es un apodo: es la puerta al mundo simbólico donde el Cachorro ya vive).
 
-**Reflexión:** qué crees que tu Familia necesita fortalecer —el criterio con el que Raksha o Papá Lobo te van a dar tu Nombre de Caza (no lo escoges tú, §1.3.2, p. 11)—; y de las dos formas que el curso descarta —maestro y papá—, cuál te va a costar más soltar.
+**Reflexión:** qué crees que tu Familia necesita fortalecer —el criterio con el que Raksha o Papá Lobo te van a dar tu Nombre de Caza (no lo escoges tú, §1.3.2, p. 11)—; y de las dos formas que el curso descarta —maestro y papá—, cuál te va a costar más soltar; y, sin nombres, una vez en que un niño se frustró contigo cerca: qué hiciste y qué harías ahora como mediador (22-nov-2026, B1).
 
-**Quiz (2):** P1 — Salomé no logra abotonarse el pelaje ✅ *le muestra una vez, se queda cerca y la deja intentarlo*. P2 — «los Nombres de Caza son una bobada simpática» ✅ *sin ese nombre les habla a los Cachorros desde fuera del cuento que ellos ya están jugando* (reescrita el 04-oct-2026, auditoría pedagógica M1: la anterior calcaba la lección).
+**Quiz (3):** P1 — Salomé no logra abotonarse el pelaje ✅ *le muestra una vez, se queda cerca y la deja intentarlo*; los dos distractores le quitan el intento (abotonárselo / dejarlo para la casa), así la correcta ya no es el punto medio entre rescatar y abandonar (22-nov-2026). P3 — el Viejo Lobo que explica diez minutos cómo germina una semilla ✅ *hizo de maestro*. P2 — «los Nombres de Caza son una bobada simpática» ✅ *sin ese nombre les habla a los Cachorros desde fuera del cuento que ellos ya están jugando* (reescrita el 04-oct-2026, auditoría pedagógica M1: la anterior calcaba la lección).
 
 **Logro:** 🧒 "Me paro como mediador".
 
@@ -118,7 +121,7 @@ El error más común del adulto que llega a Familia es tratarla como "Manada per
 
 **Reflexión:** explicarle a Salomé, de 5 años, qué quiere decir «El Cachorro cuida la naturaleza» — sin usar «medio ambiente».
 
-**Quiz (2):** P1 — un Viejo Lobo quiere enseñarles a los Cachorros los diez artículos de la Ley Scout «para que lleguen adelantados a la Manada» ✅ *la Ley del Cachorro ya siembra esos valores en dos frases: mejor que vivan esas dos a que reciten diez* (reescrita el 08-nov-2026, re-auditoría pedagógica H1: la anterior, «la Ley está incompleta», se resolvía por convergencia). P2 — la mamá de una Cachorra dice, tres días antes de la Investidura, que en su casa no se habla de Dios ✅ *le ofreces la segunda fórmula oficial —la que dice amar la vida— y acuerdas con ella cuál usará su hija*.
+**Quiz (3):** P3 — llueve en la salida ✅ *El Cachorro es alegre, como buen ánimo justo cuando las cosas se ponen difíciles*. P1 — un Viejo Lobo quiere enseñarles a los Cachorros los diez artículos de la Ley Scout «para que lleguen adelantados a la Manada» ✅ *la Ley del Cachorro ya siembra varios de esos valores en dos frases: mejor que vivan esas dos a que reciten diez* («varios de», 22-nov-2026, m-N2: la Guía dice «la base de varias expresiones de la Ley Scout», p. 17) (reescrita el 08-nov-2026, re-auditoría pedagógica H1: la anterior, «la Ley está incompleta», se resolvía por convergencia). P2 — la mamá de una Cachorra dice, tres días antes de la Investidura, que en su casa no se habla de Dios ✅ *le ofreces la segunda fórmula oficial —la que dice amar la vida— y acuerdas con ella cuál usará su hija*.
 
 > **Nota sobre P2 (auditoría pedagógica, H2).** La versión anterior preguntaba qué ocurre en la Ceremonia de Investidura (*«recibe su pelaje y realiza su Promesa»*) — contenido que **no está en esta lección** sino en el `method-grid` de la L6, tres lecciones después, y que además estrenaba la palabra «pelaje» sin haberla explicado nunca (H13). La pregunta nueva evalúa lo que la L3 **sí** enseña a fondo, la segunda fórmula de la Promesa, y convierte el ítem en una decisión real ante una familia.
 
@@ -134,7 +137,7 @@ El error más común del adulto que llega a Familia es tratarla como "Manada per
 
 **Reflexión:** la última reunión de tu unidad — ¿el juego era el método o el premio? Rediseñarla.
 
-**Quiz (2):** P1 — actividad sobre cuidar la naturaleza ✅ *salida a buscar «tesoros de la selva»*. P2 — un plan de sábado con juego, dibujo y salida al parque: ¿cuál de las cuatro actividades rectoras falta? ✅ *la literatura: no hay cuento ni relato que le dé sentido y escenario a lo que van a jugar*.
+**Quiz (3):** P1 — tres ideas para el sábado: ¿cuál se cae si le quitas el juego? ✅ *la búsqueda en que cada pista aparece solo si la Camada imita al animal*. P3 — Desafiante en un juego de equilibrio ✅ *banca baja con un vaso: casi todos lo logran, pero tras varios intentos*; desde el 22-nov-2026 los dos distractores fallan por fáciles (cuerda que todos logran al primer intento / banca dándose la mano para que nadie falle), así la correcta es el extremo exigente y no el punto medio entre «muy fácil» y «muy difícil» (H1 residual). P2 — un plan de sábado con juego, dibujo y salida al parque: ¿cuál de las cuatro actividades rectoras falta? ✅ *la literatura: no hay cuento ni relato que le dé sentido y escenario a lo que van a jugar*.
 
 > **Nota sobre P2 (auditoría pedagógica, H5).** Antes pedía **recitar** la lista de las cuatro actividades rectoras, con la respuesta calcada del cuerpo de la lección (solape jac=0,88). Ahora pide **usarlas** para auditar un plan concreto. El argumento de la correcta reformula la propia lista de la lección, así que no introduce doctrina nueva.
 
@@ -150,7 +153,7 @@ El error más común del adulto que llega a Familia es tratarla como "Manada per
 
 **Reflexión:** cómo preguntarle a tu unidad qué quiere hacer, sin levantar la mano y votar.
 
-**Quiz (2):** P1 — Camadas fijas todo el año ✅ *son grupos voluntarios que pueden tener distintos integrantes*. P2 — un Viejo Lobo nuevo se para detrás de los Cachorros en el Círculo y otro dice que «se está escondiendo» ✅ *ahí es donde va: los demás Viejos Lobos se ubican detrás del círculo, como símbolo de protección* (reescrita el 08-nov-2026, re-auditoría pedagógica M3: la anterior era recuerdo con envoltorio). P3 — decidir la próxima salida en el Encuentro del Cubil ✅ *muestras fotos de dos lugares y les pides que se paren junto a la que prefieren* (votar con figuras o con el cuerpo, no con la mano; H1).
+**Quiz (3):** P1 — nombrar un Cachorro responsable en cada Camada ✅ *las Camadas se rehacen seguido y nadie las dirige*. P2 — un Viejo Lobo nuevo se para detrás de los Cachorros en el Círculo y otro dice que «se está escondiendo» ✅ *está donde le toca: el que dirige se queda en el centro, y los demás rodean a la Familia por fuera para cuidarla* (reescrita el 08-nov-2026, M3; parafraseada el 22-nov-2026, N1: la versión anterior calcaba la lección con un run de 9 tokens). P3 — decidir la próxima salida en el Encuentro del Cubil ✅ *muestras fotos de dos lugares y les pides que se paren junto a la que prefieren: así votan con el cuerpo* (recortada el 22-nov-2026, N3; los dos distractores ahora fallan por el lado del adulto —votar a mano alzada / decidir tú—, así la correcta no queda en medio).
 
 > **Nota sobre P2 (auditoría pedagógica, H5 y H11).** La versión anterior **describía** la escena pero no pedía decidir —por eso inflaba el recuento de escenarios en 1— y repetía seis tokens seguidos del cuerpo de la lección. La nueva pone al adulto a responderle a un compañero, y su tercer distractor («que aprovechen para alistar material») ya no queda descolgado del enunciado.
 
@@ -166,15 +169,22 @@ El error más común del adulto que llega a Familia es tratarla como "Manada per
 
 **Reflexión:** escribir una instrucción cotidiana de tu unidad dicha en el idioma de la Selva.
 
-**Quiz (2):** P1 — «el marco simbólico está bien para ambientar» ✅ *no ambienta la actividad: es el lenguaje en el que ocurre*. P2 — el Eo-Wawa ✅ *el grito de felicidad de los Cachorros*.
+**Quiz (3):** P1 — recoger el material ✅ *contarles que la Selva necesita el Cubil en orden antes del anochecer*. P2 — Lucía llegó a la Fuerza del Cubil y el Jefe de Grupo propone reconocerlo dentro del Cubil ✅ *esa ceremonia va delante de todo el Grupo Scout* (el distractor C empieza ahora «Que lo haga en el Cubil…» para no compartir apertura con B, 22-nov-2026). P3 — Tomás logra atarse los cordones ✅ *Raksha o Papá Lobo, o el Viejo Lobo al que le den el encargo, dirige con la Familia un ¡Eo-Wawa!* (22-nov-2026, N2 y M2: el enunciado ya no dice «que ya tiene su pelaje» ni la correcta «con el encargo de Raksha», que la telegrafiaban; el distractor de adelantar la Investidura salió; la regla del pelaje queda en el cuerpo, §6.4.1, pp. 38–39).
+
+`paragraph` de las ceremonias dentro del Cubil: «Las vas a ver en las dos lecciones que siguen» (antes «en la próxima»: las fases están en la L7 y las Dentelladas en la L8).
 
 **Logro:** 📖 "Hablo el idioma de la Selva".
 
 ---
 
-### 4.8 Lección 7 — 🌱 Cómo crece un Cachorro (6 min)
+### 4.8 Lecciones 7 y 8 — 🌱 Cómo crece un Cachorro (6 min) · 🏅 Dentelladas, especialidades y paso a la Manada (7 min)
 
-**Idea central:** la progresión no es una carrera. Es un camino con tres tramos y cinco Dentelladas.
+> **Partida el 22-nov-2026 (decisor, M1/H4, ADR-069).** La antigua L7 tenía 28 secciones y ~1.195 palabras de cuerpo, ~11 min, fuera de la banda de 3–8 min por lección. Se partió en el `heading` «Las cinco Dentelladas», el corte que proponían los dos informes. **L7** = de la `info-box` hasta el `paragraph` de los tres verbos del adulto (14 secciones). **L8** = una `info-box` de idea central nueva + un `paragraph` de anclaje nuevo con Salomé (consuela a un compañero: Socio-Afectiva en nivel Expresa) + todo lo que iba desde «Las cinco Dentelladas» hasta el `info-box` del Curso 8 (16 secciones). No se cambió ninguna cita, cifra ni página del texto movido. La descripción de secciones de abajo es la de la lección entera antes del corte; manda el JSON.
+>
+> - **L7 · Idea central:** la progresión no es una carrera. Es un camino que se mira en cinco Dimensiones y se recorre en tres fases. **Reflexión:** la de siempre (una dimensión en la que no te has fijado). **Quiz (3), nuevo salvo P3:** P1 — Salomé lleva tres semanas y su Viejo Lobo no la evalúa todavía ✅ *tiene razón: Etapa de Adaptación, unos dos meses para integrarse y no para evaluar* (§8.6, p. 57). P2 — Valeria acaba de recibir su pelaje, Mirada de Raksha ✅ *Apoyar: seguridad, retos breves y alcanzables, valorar el esfuerzo más que el resultado* (§8.11, p. 64); la correcta es el primer verbo de la escala y los distractores se adelantan (Acompañar, Enlazar). P3 — Mateo ✅ *las dos caben en la Socio-Afectiva*. **Logro:** 🌱 «Acompaño su crecimiento».
+> - **L8 · Idea central:** las Dentelladas y las especialidades hacen visible el crecimiento sin volverlo carrera, y el paso a la Manada es el mismo viaje que sigue. **Reflexión nueva:** una especialidad que podría salir de lo que le encanta a un Cachorro (sin nombre), con la fórmula SABE 2 · DEMUESTRA 2 · COMPARTE 1, y cómo la reconocerías delante de los demás. **Quiz (3):** P1 — reescrita: un Viejo Lobo entrega la Dentellada de Felicidad el día en que Salomé expresa esa dimensión y otro le reclama ✅ *el primero hizo bien: se entrega de a una* (p. 58); quien propone tiene razón, para romper la pista «quien propone se equivoca» (H1 residual). P2 — Tomás y su especialidad de plantas ✅ *falta que comparta; tu papel es enlazar y reconocerlo delante de los demás*. P3 — nueva: el paso a la Manada de Martín ✅ *preparar la Ceremonia de Paso para cuando cumpla los 7* (§8.15, p. 68); los distractores son un aplazamiento sin razón pedagógica y uno que pasa el máximo de tres meses, así la correcta es el extremo y no el punto medio. **Logro nuevo:** 🏅 «Celebro cada Dentellada» (`unlockOnModule: 8`).
+
+**Idea central (de la lección antes de partirla):** la progresión no es una carrera. Es un camino con tres tramos y cinco Dentelladas.
 
 `info-box` · `paragraph` **de anclaje con Salomé** (tres meses en el Cubil: corre sin caerse pero se esconde cuando pierde; dos cosas distintas, cuerpo y lo que siente, que llevan a las cinco Dimensiones — añadido el 08-nov-2026, re-auditoría pedagógica M2) · `heading` «Las cinco Dimensiones» · **`policy-quote`** §8.5, p. 54 — la definición de Dimensión · **`list` de 5** (una línea cada una): Corporal · Cognitiva · Ética · Socio-Afectiva · Espiritual · `paragraph` (por qué en el Curso 6 eran seis áreas y aquí cinco dimensiones) · **`list` del mapeo** (p. 55): Corporalidad→Corporal · Creatividad→Cognitiva · Carácter→Ética · **Sociabilidad + Afectividad→Socio-Afectiva** · Espiritualidad→Espiritual · `paragraph` (es el mismo sistema en el lenguaje de la primera infancia) · `heading` **«El camino del Cachorro»** · `paragraph` (Etapa de Adaptación, **~2 meses**: conocer, explorar y sentirse parte, no evaluar; termina con la Investidura) · **`policy-quote`** §8.6, p. 57 — a qué está orientada esa etapa · `paragraph` (tres fases; *«estas fases no representan grados rígidos ni comparaciones entre compañeros»*) · **`list` de 3**, una línea cada una: 👁️ **Mirada de Raksha** → Reconoce · 🐺 **Aullido de Papá Lobo** → Expresa · 🐾 **Fuerza del Cubil** → Comparte · `paragraph` (tres fases, tres verbos — §8.6, p. 56 y §8.7, pp. 59–60 — y a cada verbo del niño le corresponde uno tuyo: **Apoyar** en Reconoce, **Acompañar** en Expresa, **Enlazar** en Comparte) · `heading` «Las cinco Dentelladas» · `paragraph` (una línea: 💧 Agua · 🌱 Tierra · 🔥 Fuego · 😊 Felicidad · 🌬️ Aire, con su dimensión) · **`policy-quote`** §8.7, p. 59 — lo que simboliza cada Dentellada, **literal** · `info-box` **«Y sí, son insignias»** (la Guía **recomienda** entregarlas de a una; lo que niega es otra cosa: *«no es un sistema de requisitos acumulativos»*, p. 56) · `heading` **«¿Y cómo se pasa de una fase a la otra?»** · `paragraph` (Dentelladas **y especialidades**: una para el Aullido de Papá Lobo, tres para la Fuerza del Cubil — §8.6, p. 58) · `paragraph` (la fórmula: **SABE** 2 · **DEMUESTRA** 2 · **COMPARTE** 1; *«4 a 6 semanas»*, *«no necesita trámites complejos»*; sale del interés del niño — §8.10, pp. 63–64) · `info-box` 🎖️ (las especialidades **no llevan insignia**: *«no cuentan con insignias físicas; sin embargo, es fundamental reconocer y valorar los logros»*; ahí está **Enlazar** en esta rama) · `heading` «El paso a la Manada» · `paragraph` (Etapa de Transición, **Cachorro Explorador**; el paso, idealmente, al cumplir los 7 años, con la flexibilidad *«máxima de hasta tres meses»* y solo con razones pedagógicas claras, §8.15, p. 68 — tres meses es el margen, no una puerta abierta) · **`policy-quote`** único «Lo que dice la Guía del paso a la Manada», §8.15, pp. 67–68 — dos citas literales: el paso no es una ruptura (p. 67) y *«Idealmente, el paso a la Manada debe realizarse al cumplir los 7 años…»* con su flexibilidad de tres meses (p. 68); desde el 04-oct-2026 fusiona los dos plegables anteriores (H3 de la auditoría pedagógica) · `paragraph` (una línea del perfil de egreso, §8.3, p. 53) · **`policy-quote`** §8.3, p. 53 (perfil de egreso) · `info-box` 🐺 (aquí Salomé cruza la Ceremonia de Paso; del otro lado empieza el Curso 8 con Andrés).
 
@@ -182,7 +192,7 @@ El error más común del adulto que llega a Familia es tratarla como "Manada per
 
 > **Nota sobre la reflexión (auditoría pedagógica, H8).** Era la única de las siete que **no hacía ensayar**: diagnosticaba y se detenía, dejando al adulto con una omisión nombrada en absoluto (*«nunca»*) y ninguna acción. Y presuponía una unidad ya observada «este trimestre», cuando parte de la audiencia son quienes **abren** una Familia nueva. La versión nueva quita el absoluto, abre la puerta a quien no tiene unidad y termina en un ensayo del tamaño de una reunión.
 
-**Quiz (2):** P1 — el Viejo Lobo que lleva la cuenta de insignias **y las compara** ✅ *la progresión se acompaña por dimensiones y ritmos propios, no como una carrera*. P2 — la Etapa de Adaptación ✅ *dos meses*.
+**Quiz (histórico, sustituido; ver arriba los de L7 y L8):** P1 — el Viejo Lobo que lleva la cuenta de insignias **y las compara** ✅ *la progresión se acompaña por dimensiones y ritmos propios, no como una carrera*. P2 — la Etapa de Adaptación ✅ *dos meses*.
 
 > **Nota sobre P1:** el fallo que la pregunta señala es **la comparación**, no el registro. Llevar registro es legítimo (§8.9, p. 62); comparar está desaconsejado en tres lugares distintos de la Guía (§8.6 p. 57, §8.12 p. 66, §8.13 p. 67). Por eso la pregunta sigue siendo correcta después de que la lección enseñe que las Dentelladas sí son insignias.
 >
@@ -194,17 +204,21 @@ El error más común del adulto que llega a Familia es tratarla como "Manada per
 
 ---
 
-### 4.9 Lección 8 — 🛡️ Un Cubil seguro y tu primer paso (5 min)
+### 4.9 Lección 9 — 🛡️ Un Cubil seguro y tu primer paso (7 min) — antes Lección 8
 
 **Idea central:** con niños de cinco años, la regla de los dos adultos no es un trámite. Es parte de la actividad.
 
-`info-box` · `heading` «Las reglas que no se negocian» · **`policy-quote`** **§11.7 Presencia Mínima de Adultos**, p. 78 — *«siempre deben estar presentes al menos dos adultos… un adulto por cada cinco Cachorros; en ningún caso un adulto debe permanecer solo con un niño o con la Familia»* *(la Guía numera **dos** secciones distintas como §11.7 en esa misma página, por eso la cita lleva el nombre)* · `paragraph` (los tres propósitos: protege a los menores, protege a los Viejos Lobos, garantiza transparencia) · `paragraph` (contacto físico: *«debe evitarse de manera general»*; *«en lo posible, se debe advertir previamente al niño»*, §11.10, p. 79) · `paragraph` · **`list` de 3**: 🚻 el baño (*«únicamente hasta la puerta»*, y nunca un adulto a solas con un niño: dos adultos con el Cachorro o un adulto con dos Cachorros —medida 2+1, p. 77—, sin dejar a la Familia con un solo adulto; nunca entrar) · 👶 esfínteres (*«exclusivamente los padres o acudientes»*) · 🤝 entrega y recepción (*«por ningún motivo se permite que el niño se retire solo»*) — §11.9, pp. 78–79 y §11.7 *Responsabilidad y Custodia*, p. 78 · `heading` «Los padres, aliados» · **`policy-quote`** §1.4, p. 11 · `paragraph` (aliado no es codirigente: *«no está orientada a dirigir, corregir o intervenir en la dinámica pedagógica»*) · `info-box` 🔗 **dónde sigue esto** (la conducta ante una revelación la enseña Transversales, Curso 03 — ADR-038; **cierra avisando que esa línea todavía se está construyendo y que la ruta de reporte de aquí abajo ya existe y ya se puede usar** — H9) · `paragraph` (la ruta existe y tiene nombre: botón **«Me Pongo A Salvo del Peligro»** y `asalvodelpeligro@scout.org.co`, §11.5, p. 77) · `heading` «¿Vas a abrir una Familia?» · `paragraph` (DNPJ-2026-065: Intención, Decisión y Acción, en una línea, y la Decisión enlazada con la lección: ¿hay adultos idóneos y condiciones seguras? — p. 2) · **`policy-quote`** DNPJ-2026-065, p. 2 — los tres momentos, **literal** · `mission-box` 🎯 (tu primer paso: una sola cosa el sábado, **con el eco del hook** y la invitación a escoger «la cosa que haga que el sábado se juegue más» — H3).
+`info-box` · `heading` «Las reglas que no se negocian» · **`policy-quote`** **§11.7 Presencia Mínima de Adultos**, p. 78 — *«siempre deben estar presentes al menos dos adultos… un adulto por cada cinco Cachorros; en ningún caso un adulto debe permanecer solo con un niño o con la Familia»* *(la Guía numera **dos** secciones distintas como §11.7 en esa misma página, por eso la cita lleva el nombre)* · `paragraph` (los tres propósitos: protege a los menores, protege a los Viejos Lobos, garantiza transparencia) · `paragraph` (contacto físico: *«debe evitarse de manera general»*; *«en lo posible, se debe advertir previamente al niño»*, §11.10, p. 79) · `paragraph` · **`list` de 3**: 🚻 el baño (*«únicamente hasta la puerta»*, y nunca un adulto a solas con un niño: dos adultos con el Cachorro o un adulto con dos Cachorros —medida 2+1, p. 77—, sin dejar a la Familia con un solo adulto; nunca entrar) · 👶 esfínteres (*«exclusivamente los padres o acudientes»*) · 🤝 entrega y recepción (*«por ningún motivo se permite que el niño se retire solo»*) — §11.9, pp. 78–79 y §11.7 *Responsabilidad y Custodia*, p. 78 · `heading` «Los padres, aliados» · **`policy-quote`** §1.4, p. 11 · `paragraph` (aliado no es codirigente: *«no está orientada a dirigir, corregir o intervenir en la dinámica pedagógica»*) · `info-box` 🔗 **dónde sigue esto** (la conducta ante una revelación la enseña Transversales, Curso 03 — ADR-038; **cierra avisando que esa línea todavía se está construyendo y que la ruta de reporte de aquí abajo ya existe y ya se puede usar** — H9) · `paragraph` (la ruta existe y tiene nombre: botón **«Me Pongo A Salvo del Peligro»** y `asalvodelpeligro@scout.org.co`, §11.5, p. 77) · `heading` «¿Vas a abrir una Familia?» · `paragraph` (DNPJ-2026-065: Intención, Decisión y Acción, en una línea, y la Decisión enlazada con la lección: ¿hay adultos idóneos y condiciones seguras? — p. 2) · **`policy-quote`** DNPJ-2026-065, p. 2 — los tres momentos, **literal** · `mission-box` 🎯 (tu primer paso: **remite a la reflexión de abajo** para escribir la única cosa que cambia el sábado y da el criterio para escogerla —que se juegue más, sin salirse de las reglas de la lección—, **con el eco del hook** — H3; reescrito el 22-nov-2026, B4, para no pedir tres veces lo mismo).
+
+> **Ítem del baño, releído a mano el 22-nov-2026 (M3).** «Van dos adultos con el Cachorro, o un adulto con dos Cachorros (2+1, p. 77). Y organízalo de modo que la Familia nunca se quede con un solo adulto mientras tanto.» Coincide con la nota al pie del 2+1 (p. 77: *«dos personas adultas responsables y una persona menor de edad, o una persona adulta y dos menores»*) y con §11.7, p. 78 (*«en ningún caso un adulto debe permanecer solo con un niño o con la Familia»*); el acompañamiento llega *«únicamente hasta la puerta»* (§11.9, p. 78). Sin cambio.
 
 **Reflexión / compromiso:** tres cosas cortas — tu Nombre de Caza (o, si todavía no lo tienes, qué necesita tu Familia para que Raksha o Papá Lobo te lo den), UNA cosa que vas a cambiar en la próxima reunión, y **la próxima salida de tu unidad: cuántos Cachorros van, cuántos adultos hacen falta según la proporción, qué roles cubren y quién —por su cargo— los confirma esta semana** (sin nombres: ADR-087; así está en el JSON).
 
 > **Nota sobre el punto 3 (auditoría pedagógica, H6-A).** La L1 promete *«planear una actividad que cumpla las reglas de entorno seguro»* — un verbo de ejecución — y lo que el punto 3 pedía antes era reconocimiento (*«cómo vas a verificar…»*). Ahora pide el plan real, con nombres y fecha, que es lo prometido. *(Queda para el auditor doctrinal confirmar que pedir «cuántos adultos según la proporción» para una salida concreta no exige matices —transporte, pernocta— que este curso remite al Curso 25.)*
 
-**Quiz (2):** P1 — salida con 13 Cachorros ✅ *tres adultos, porque la proporción es de uno por cada cinco*. P2 — Salomé corre a abrazar a su Viejo Lobo **delante de todos** ✅ *responder al abrazo con naturalidad y en corto, ahí mismo, donde el otro Viejo Lobo y las familias los ven*.
+**Quiz (3, vigente desde el 22-nov-2026):** P1 — salida con 13 Cachorros ✅ *tres adultos: uno por cada cinco, y con trece ya no alcanzan dos*; los distractores (cinco y siete) fallan por exceso, así la correcta es el extremo inferior y no el punto medio. P2 — un Cachorro se moja la ropa ✅ *avisas a su padre, madre o acudiente: asistirlo en su higiene y con su ropa les corresponde solo a ellos* (§11.9, p. 79); distractores: dos Viejos Lobos lo cambian (el 2+1 leído por exceso) / otro papá o mamá lo cambia; la correcta es el extremo más restrictivo. **No se añadió** la conducta que proponía el auditor («lo acompañas con otro Viejo Lobo sin entrar al baño»): es una conducta de seguridad nueva que el cuerpo no enseña y no hace falta para responder (H1, 22-nov-2026). P3 — la mamá de Salomé llega 20 minutos tarde ✅ *te quedas con Salomé y otro Viejo Lobo en el punto de entrega*.
+
+**Quiz histórico (sustituido):** P1 — salida con 13 Cachorros ✅ *tres adultos, porque la proporción es de uno por cada cinco*. P2 — Salomé corre a abrazar a su Viejo Lobo **delante de todos** ✅ *responder al abrazo con naturalidad y en corto, ahí mismo, donde el otro Viejo Lobo y las familias los ven*.
 
 > **Nota sobre P2 (auditoría pedagógica, H1 — el hallazgo más grave del informe).** La correcta anterior —*«agacharse a su altura… sin cargarla ni levantarla… siempre a la vista»*— introducía **tres especificaciones que el cuerpo de la L8 nunca enseña**. El adulto podía descartar la prohibición total, pero entre las otras dos opciones no tenía con qué decidir: el motor lo marcaba en rojo sin explicar, en la última pregunta del curso y sobre contacto físico con niños de cinco años. Justo el material donde §7.2 pide lo contrario.
 >
@@ -226,7 +240,10 @@ El error más común del adulto que llega a Familia es tratarla como "Manada per
 | `achievement-4` | Sostengo el Círculo | 🐾 | 5 |
 | `achievement-5` | Hablo el idioma de la Selva | 📖 | 6 |
 | `achievement-6` | Acompaño su crecimiento | 🌱 | 7 |
-| `achievement-7` | Viejo Lobo de Familia | 🐻✨ | -1 |
+| `achievement-7` | Celebro cada Dentellada | 🏅 | 8 |
+| `achievement-8` | Viejo Lobo de Familia | 🐻✨ | -1 |
+
+`totalContentModules: 8` (desde el 22-nov-2026; antes 7).
 
 ---
 
@@ -278,7 +295,7 @@ Ninguno en la v1. Si más adelante se consigue material de la DNPJ, los candidat
 
 | Criterio | Cómo lo cumple |
 |---|---|
-| **Microlearning** | 8 lecciones de 3–6 min. La más larga (L7) queda en la banda de 5–7 min, así que no hace falta partirla. ⚠️ **La auditoría pedagógica discute esta fila** (H4 y H12): mide la L7 en ~1.126 palabras / 32 secciones y estima ~11 min, y el curso entero en ~46 min al ritmo implícito de Manada. **Decisión humana pendiente — ver §10.** |
+| **Microlearning** | **9 lecciones de 3–7 min** desde el 22-nov-2026: la L7 (~11 min) se partió en dos, y con eso todas quedan en la banda de 3–8 min (ADR-069). Las dos más cargadas (L8 y L9) llevan citas largas plegadas en `policy-quote`. |
 | **Anti-definición antes de la definición** | L1 dice qué **no** es la Familia; L3 desmonta «la Ley está incompleta»; L4, «el juego es el premio»; L6, «el marco simbólico ambienta»; L7, «la progresión es una carrera». |
 | **Aprendizaje de adultos (Knowles)** | Cada lección cierra en algo aplicable el sábado siguiente; las reflexiones piden un caso propio. |
 | **Auto-eficacia (Bandura)** | Las reflexiones hacen **ensayar** la conducta (la instrucción en idioma de Selva, la pregunta sin votación, el plan de adultos de la próxima salida), no juzgarla. Desde la auditoría pedagógica son **6 de 7**: la de la L7 dejó de diagnosticar y pide ahora una cosa concreta que mirar la próxima reunión (H8). |
@@ -334,6 +351,24 @@ Ninguno en la v1. Si más adelante se consigue material de la DNPJ, los candidat
 | **H4** | **Partir la L7** — el informe propone el corte entre las secciones 12 y 13 de la numeración vieja, es decir **justo antes del `heading` «Las cinco Dentelladas»**. ⚠️ Los índices del informe (0–12 / 13–25) **ya no sirven**: al aplicar la mitigación la lección pasó de 26 a 32 secciones y ese `heading` es ahora la **[16]**. | Es estructural: lleva el curso a **9 módulos** y **16 preguntas**, y con eso a ~44 min, por encima del tope de 40 del CHECKLIST. Lo decide Máximo. **La mitigación sí se aplicó** (las cuatro citas a `policy-quote`), y es independiente de esta decisión. |
 | **H12** | **La duración declarada.** Va junto con H4. | El cuerpo es 47 % mayor que el de Manada pero declara solo 14 % más tiempo; al ritmo implícito de Manada son ~46 min y la L7 sola ~11, no 6. El auditor sugiere **45 min** si se parte la L7, o subir la L7 a 8 min y el curso a 45 si no. **`duration` se dejó en «40 minutos»**, y ni la `description` ni el `info-box` de la L1 se tocaron en lo que respecta al tiempo. |
 | **Motor** | El umbral del 70 % de `engine.core.js`. | Con 2 preguntas por quiz el motor anuncia *«Puntuación: 50%. Necesitas 70% para continuar»* — un 70 % que en la práctica es 100 %. **Afecta a las tres líneas y a los 19 cursos publicados**, así que no se toca desde un curso: se trata aparte, en `_MOTOR/`. |
+
+> **H4 y H12 cerrados el 22-nov-2026** por el decisor con la autoridad delegada: la L7 se partió (ver §4.8) y la duración se declara en 52 minutos, derivada de la banda por lección (ADR-069). La fila «Motor» sigue siendo asunto de `_MOTOR/`, no de este curso.
+
+### 10.3 Decisiones del 22-nov-2026 (decisor, re-auditorías del 08-nov-2026)
+
+- **M1/H4:** L7 partida en L7 y L8; 9 módulos, `totalContentModules` 8, logro nuevo, 52 min. Las tres preguntas nuevas (L7·P1, L7·P2, L8·P3) y la reflexión nueva de la L8 no las ha visto ninguna auditoría: van a la próxima re-auditoría.
+- **M2 y N2:** L6·P3 sin el dato que telegrafiaba la correcta; el distractor de la Investidura adelantada ya no está.
+- **M3:** ítem del baño releído a mano contra p. 77, §11.7 y §11.9: sin cambio.
+- **m5:** hook atribuido como frase del curso, con lo que la Guía sí dice (§4.1, p. 21; §6.1, p. 35).
+- **m7/B5:** este diseño puesto al día en ficha, mapa, quizzes de 3 preguntas, logros y estado. Las tablas de §7 y §9-bis siguen siendo históricas (manda el JSON).
+- **H1 L8·P2 (ahora L9·P2):** no se añade la conducta nueva del auditor; distractores rehechos para que la correcta sea el extremo restrictivo.
+- **H1 L4·P3:** los dos distractores fallan por fáciles; la correcta deja de ser el punto medio.
+- **B1:** la propuesta original (elegir tu Nombre de Caza) se descarta por doctrina (§1.3.2, p. 11); se cerró la segunda mitad de la reflexión con una situación concreta, sin nombres.
+- **B4:** `mission-box` final reescrito (ver §4.9).
+- **m-N2:** L3·P1 «varios de esos valores».
+- **N1, N3:** L5·P2 parafraseada, L5·P3 recortada.
+- **Patrón del punto medio (ADR-148):** se rompió en L2·P1, L4·P3, L5·P3, L9·P1 y L9·P2, y las preguntas nuevas lo evitan. La correcta cae ahora en extremos distintos de su escala, sin ser extremo de longitud (margen < 12) ni oveja negra.
+- **contentVersion** 2026-11-22.
 
 ### 10.2 Para el auditor doctrinal (abierto por la auditoría pedagógica)
 

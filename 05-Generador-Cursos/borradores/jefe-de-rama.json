@@ -3,7 +3,7 @@
   "title": "Jefe de Rama",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El primero del Nivel 3, el de los cursos por cargo. Qué te pide tu nombramiento cuando dice Jefe de Manada, de Tropa, de Comunidad o de Clan: coordinar a un equipo de adultos, recibir al que llega, rendir cuentas al Jefe de Grupo, tener a las familias adentro y dejar una unidad que funcione aunque tú faltes.",
-  "contentVersion": "2026-11-08",
+  "contentVersion": "2026-11-22",
   "icon": "🧭",
   "duration": "58 minutos",
   "level": 3,
@@ -179,7 +179,7 @@
       "sections": [
         {
           "type": "paragraph",
-          "text": "Julián imprimió la ficha de su cargo. Son ocho páginas. Seis funciones, cada una con su lista de tareas, siete competencias esenciales con sus conductas y cinco competencias específicas —<strong>las tuyas como adulto</strong>, no las competencias educativas de los jóvenes—. <strong>La leyó entera y no supo por dónde empezar el sábado.</strong>"
+          "text": "Julián imprimió la ficha de su cargo. Son ocho páginas. Seis funciones, cada una con su lista de tareas, siete competencias esenciales con sus conductas y cinco competencias específicas —<strong>las suyas como adulto</strong>, no las competencias educativas de los jóvenes—. <strong>La leyó entera y no supo por dónde empezar el sábado.</strong>"
         },
         {
           "type": "info-box",
@@ -273,7 +273,7 @@
             "options": [
               "No aceptar: coordinar al equipo es solo suyo, así que la convocatoria la manda él.",
               "Aceptar: ella puede hacer esas tareas, y él sigue a cargo de que el equipo funcione.",
-              "Aceptar, y dejarle también la reunión de Jefes de Rama, ya que ella lleva los acuerdos."
+              "Aceptar solo el acta: la convocatoria lleva el nombre del Jefe, así que esa la manda él."
             ],
             "correctIndex": 1
           },
@@ -368,10 +368,6 @@
           ]
         },
         {
-          "type": "info-box",
-          "text": "🧩 <strong>La competencia que el Manual te pide más alto.</strong> De las siete competencias esenciales de tu ficha, <strong>solo una está en grado 4</strong>: <strong>Trabajo en Equipo</strong>. Planeamiento Estratégico, por ejemplo, está en grado 2. Entre sus conductas: <em>«Observa patrones de interacción dentro del equipo y se anticipa a los conflictos para prevenirlos»</em> y <em>«Plantea abiertamente los conflictos para optimizar la calidad de las decisiones»</em>. El <em>Manual</em> te pide más como coordinador de adultos que como planificador."
-        },
-        {
           "type": "paragraph",
           "text": "Ese mismo mes, Julián convocó la primera reunión del equipo sin scouts delante. Salieron con cuatro tareas con nombre —ninguna a su nombre— y un acta de media página que escribió el Subjefe. El sábado siguiente, por primera vez, nadie lo buscó en la puerta para preguntarle qué hacer."
         },
@@ -388,11 +384,11 @@
         "nextLabel": "Continuar al que llega 🌱",
         "questions": [
           {
-            "text": "Faltan diez minutos para empezar. El Subjefe que tenía el juego de apertura avisa que no llega, y nadie más lo preparó. ¿Qué hace Julián?",
+            "text": "Faltan diez minutos para empezar. El Subjefe que tenía el juego de apertura avisa que no llega, y nadie más lo preparó. ¿Qué hace Julián, hoy y después?",
             "options": [
               "Lo dirige él hoy, y en la próxima reunión del equipo le ponen un suplente fijo a esa tarea.",
-              "Se lo pasa a los guías de patrulla para que lo improvisen: así ejercen protagonismo y no depende de él.",
-              "Empieza sin juego y lo anota en el acta: si lo cubre él, el equipo no aprende a repartir."
+              "Les pide a los guías que lo dirijan ellos hoy, y el lunes le recuerda al Subjefe que avise antes.",
+              "Pasa a la siguiente actividad y deja el juego para el otro sábado: la tarea era del Subjefe."
             ],
             "correctIndex": 0
           },
@@ -647,7 +643,7 @@
             "options": [
               "Responder él por ese gasto: responder por las actuaciones de la rama es parte de su cargo.",
               "Pasarle la palabra a la rover: ella es la voz del Clan en el Consejo y la pregunta es del Clan.",
-              "Responder él y, de paso, contar también lo que el Clan propone para el año, para ganar tiempo."
+              "Pedir que lo dejen para la próxima sesión: el gasto lo decidió el Clan y primero lo consulta con ellos."
             ],
             "correctIndex": 0
           },
@@ -849,7 +845,7 @@
             "options": [
               "Tiene razón: mientras ella siga, la Manada funciona, y la carpeta se arma al entregar.",
               "No: si mañana faltara, lo que solo ella sabe se iría con ella; eso se deja cada ciclo.",
-              "No: debería elegir ya a quien la reemplace y empezar a entregarle la Manada este año."
+              "En parte: que pase hoy las fichas de salud, y la historia y los contactos los entregue al irse."
             ],
             "correctIndex": 1
           },
@@ -898,7 +894,7 @@
           "items": [
             {
               "title": "Grado 4",
-              "description": "<strong>Trabajo en Equipo.</strong> La única en el grado más alto de tu ficha: <em>«Evalúa los resultados del equipo y estimula su mejoramiento»</em>.",
+              "description": "<strong>Trabajo en Equipo.</strong> La única en el grado más alto de tu ficha. Su criterio: <em>«Evalúa los resultados del equipo y estimula su mejoramiento»</em>. Entre sus conductas: <em>«Observa patrones de interacción dentro del equipo y se anticipa a los conflictos para prevenirlos»</em> y <em>«Plantea abiertamente los conflictos para optimizar la calidad de las decisiones y la efectividad del equipo»</em>. El <em>Manual</em> te pide más como coordinador de adultos que como planificador.",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             },
@@ -948,7 +944,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Mira las dos competencias que este curso te mostró con sus conductas: Trabajo en Equipo (grado 4 en tu ficha) y Planeamiento Estratégico (grado 2). Para cada una, relee la conducta que citamos y escribe un momento de tu último mes en que la ejerciste, o en que te faltó. Si no encuentras ninguno, esa es tu brecha. Si quieres medirte con la escala completa de grados, el curso <a href=\"https://maximoaluna-blip.github.io/INDUCCION-ADULTOS/02-Plataforma-Web/competencias-esenciales.html\" target=\"_blank\" rel=\"noopener\"><em>Las 7 Competencias Esenciales</em></a> de Política de Adultos te la da."
+        "prompt": "Mira las dos competencias que este curso te mostró con sus conductas: Trabajo en Equipo (grado 4 en tu ficha) y Planeamiento Estratégico (grado 2). Para cada una, relee la conducta que citamos y escribe un momento de tu último mes en que la ejerciste, o en que te faltó. Si no encuentras ninguno, ahí puede estar tu brecha: la distancia entre lo que hoy haces y el grado que pide tu ficha. Si quieres medirte con la escala completa de grados, el curso <a href=\"https://maximoaluna-blip.github.io/INDUCCION-ADULTOS/02-Plataforma-Web/competencias-esenciales.html\" target=\"_blank\" rel=\"noopener\"><em>Las 7 Competencias Esenciales</em></a> de Política de Adultos te la da."
       },
       "quiz": {
         "title": "Mini-quiz Lección 8",
@@ -966,7 +962,7 @@
           {
             "text": "Julián le enseñó a Natalia a llamar a las familias: hicieron juntos las primeras llamadas y ya lleva un mes haciéndolas sola. Una mamá llama a Julián para quejarse de que ya no habla con él. ¿Qué hace Julián?",
             "options": [
-              "Hablar él con la mamá y retomar las llamadas a esa familia: el cambio de contacto no funcionó.",
+              "No llamarla él: pedirle a Natalia que la llame esa misma tarde y que después le cuente cómo le fue.",
               "Hablar él con la mamá, presentarle a Natalia como su contacto y revisar con ella qué pasó.",
               "Pasarle la queja a Natalia para que la resuelva ella sola: esa tarea ya dejó de ser de él."
             ],

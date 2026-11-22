@@ -4,6 +4,8 @@
 
 > Vertical slice del Nivel 2. Elegido como primer curso de rama por tener el material fuente más completo (Guía de Dirigente de Manada 2026, 69 pp. + Manual de Presentación y Buen Orden de la Manada) y por ser la rama-patrón ya auditada en la app complementaria PROGRAMA SCOUT. Se replica el patrón a los Cursos 7, 9, 10 y 11 (las otras 4 ramas).
 >
+> **El JSON manda (ADR-073).** El 22/11/2026 este diseño se sincronizó con `borradores/rama-manada-lobatos.json` (contentVersion 2026-11-22): quizzes completos, duración, textos corregidos y numeración de cursos. Si vuelven a diferir, vale el JSON.
+>
 > **Sin cursos habilitantes** (decisión 11-jul-2026, `CLAUDE.md` §5.3, `DECISIONES.md` ADR-019): este curso no bloquea ni está bloqueado por ningún otro. El Nivel 1 y el Curso 25 (A Salvo del Peligro) se recomiendan en la ficha, no se exigen técnicamente.
 
 ---
@@ -16,12 +18,12 @@
 | Título | Rama Lobatos (Manada) |
 | Subtítulo | Formación de Adultos Voluntarios — Asociación Scouts de Colombia |
 | Icono | 🐺 |
-| Duración | ~35 min |
+| Duración | ~38 min |
 | Lecciones de contenido | 7 + intro + certificado (8 en total) |
 | Audiencia primaria | Dirigentes que acompañan (o van a acompañar) la rama Manada, y Asistentes de la unidad (7–10 años). |
 | Recomendado antes | Ninguno es obligatorio. Para aprovechar mejor el curso: Nivel 1 completo (Cursos 1–6) y, en paralelo, el Curso 25 — A Salvo del Peligro. |
 | Logro final | "Guardián de la Selva" |
-| `contentVersion` | `2026-11-08` |
+| `contentVersion` | `2026-11-22` |
 
 ---
 
@@ -30,17 +32,19 @@
 Al completar este curso, el dirigente:
 
 1. **Reconoce** las características propias del niño y la niña de 7 a 10 años (cuerpo en movimiento, mente curiosa, corazón sensible, fantasía como lenguaje) y por qué determinan todo el diseño de la rama.
-2. **Recita y explica** la Ley y la Promesa de la Manada en el lenguaje sencillo en que están escritas, y las conecta con los Principios y Virtudes que las sostienen.
+2. **Distingue** la Ley y la Promesa de la Manada como compromisos que se viven jugando, y **propone** una actividad que haga vivir uno de sus puntos sin moraleja.
 3. **Usa el fondo motivador** —El Libro de las Tierras Vírgenes, dentro del marco simbólico de La Fantasía (*Guía de Manada* §6.9, p. 30)— (Akela, Baloo, Bagheera, la Flor Roja, el Cubil) como lenguaje pedagógico principal, no como decoración.
 4. **Aplica DURASLID** al diseño de una actividad y organiza la Manada en seisenas sin caer en jerarquías fijas ni "seiseneros" permanentes.
 5. **Ubica** la Naturaleza y la Progresión Personal (territorio de la selva, seis Sendas) en el acompañamiento cotidiano de un lobato concreto.
-6. **Adopta** el rol de Viejo Lobo — facilitador, no jefe — y reconoce el Consejo de Roca, las ceremonias de la Manada y el Gran Salto como los momentos donde ese rol se hace visible.
+6. **Decide**, en situaciones de la Manada, cuándo facilitar y cuándo poner un límite como Viejo Lobo —facilitador, no jefe—, reconoce el Consejo de Roca, las ceremonias y el Gran Salto como los momentos donde ese rol se hace visible, y **formula** un compromiso observable.
 
 ---
 
 ## 3. Hook pedagógico (la idea poderosa que sostiene el curso)
 
-> **"Tú no diriges la Manada. Le ofreces el territorio, el símbolo y la confianza — y el rumbo lo marcan ellos."**
+> **"Tú no mandas en la Manada. Le ofreces el territorio, el símbolo, la confianza y unos límites claros — y el rumbo lo marcan ellos."**
+>
+> _(22/11/2026: «no diriges» pasó a «no mandas» y se sumaron «unos límites claros», para que la frase guía no contradiga la L6 y la L8: Guía §9.2, p. 54, y §10.1.3, p. 58.)_
 
 Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo ofrece las condiciones, pero el rumbo lo marcan ellos. En este contexto, el error deja de ser un fracaso para convertirse en una fuente valiosa de aprendizaje."* (p. 19). Se enuncia explícitamente en la Lección 6 y se referencia en las Lecciones 2, 4 y 8. Su función es contradecir el supuesto de que el dirigente de Manada es quien "pone orden y dirige el juego", y reemplazarlo por la idea de que su trabajo es sostener las condiciones (símbolo, seguridad, cariño) para que el lobato decida, se equivoque y crezca.
 
@@ -61,7 +65,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 | 7 | 🌙 Ceremonias, el Círculo de Roca y el Gran Salto | 4 min | Las ceremonias de la Manada —incluida su despedida, el Gran Salto— sostienen el marco simbólico con solemnidad y alegría a la vez. | Sostengo el Círculo de Roca |
 | 8 | ✍️ Tu primer paso como Viejo Lobo | 3 min | Saber sin actuar no transforma; el primer paso es chico, concreto y tuyo. | Guardián de la Selva (final) |
 
-**Total estimado: ~35 min.** Excede levemente el rango óptimo de 20–30 min de un curso estándar (ver Curso 1), justificado —igual que el Curso 4 del Nivel 1— por la centralidad del contenido: es el primer curso de rama del Nivel 2 y cubre los 8 elementos del Método aplicados a una rama completa, más grupo natural, marco simbólico y transiciones de entrada/salida. Documentado como excepción en la sección 9.
+**Total medido en el JSON: ~38 min** (los minutos por lección son estimados de diseño). Excede levemente el rango óptimo de 20–30 min de un curso estándar (ver Curso 1), justificado —igual que el Curso 4 del Nivel 1— por la centralidad del contenido: es el primer curso de rama del Nivel 2 y cubre los 8 elementos del Método aplicados a una rama completa, más grupo natural, marco simbólico y transiciones de entrada/salida. Documentado como excepción en la sección 9.
 
 ---
 
@@ -71,14 +75,14 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 
 **Secciones (en orden):**
 
-1. **`info-box`** — Tiempo estimado (~35 min) y promesa concreta: _"Al final de este curso vas a poder hablar el idioma de la Selva, organizar tu Manada en seisenas sin jerarquías fijas, acompañar la progresión de un lobato por sus seis Sendas, y entender qué significa ser Viejo Lobo: facilitador, no jefe."_
+1. **`info-box`** — Tiempo estimado (~38 min) y promesa concreta: _"Al final de este curso vas a poder hablar el idioma de la Selva, organizar tu Manada en seisenas sin jerarquías fijas, acompañar la progresión de un lobato por sus seis Sendas, y entender qué significa ser Viejo Lobo: facilitador, no jefe."_
 2. **`paragraph`** — Presentación del protagonista narrativo del curso: _"Vas a conocer a Andrés. Tiene 7 años, acaba de cruzar la Ceremonia de Paso desde la Familia, y en unos cuatro años va a hacer su Gran Salto hacia la Tropa. En este curso vas a acompañar su viaje por la Manada — y vas a entender, lección a lección, qué necesita de ti en cada tramo."_
-3. **`paragraph`** — Tensión del hook, adelantada (H4 auditoría pedagógica): _"Es fácil pensar que ser Viejo Lobo es 'dirigir el juego': decidir qué hacen, cómo lo hacen y cuándo. A lo largo de este curso vas a ver por qué esa idea, aunque bienintencionada, le quita a Andrés justamente lo que la Manada existe para darle: la oportunidad de decidir, equivocarse y crecer. La idea que te va a acompañar todo el curso cabe en una frase: tú no diriges la Manada; le ofreces el territorio, el símbolo y la confianza, y el rumbo lo marcan ellos."_
+3. **`paragraph`** — Tensión del hook, adelantada (H4 auditoría pedagógica): _"Es fácil pensar que ser Viejo Lobo es 'dirigir el juego': decidir qué hacen, cómo lo hacen y cuándo. En este curso vas a ver por qué esa idea le quita a Andrés lo que la Manada existe para darle: la oportunidad de decidir, equivocarse y crecer. La frase que te va a acompañar: tú no mandas en la Manada; le ofreces el territorio, el símbolo, la confianza y unos límites claros, y el rumbo lo marcan ellos."_
 4. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 5. **`list`** — Las 6 ideas centrales que verá (una por lección 2–7):
     - Quién es un lobato de 7 a 10 años y cómo llega a la Manada.
     - El Libro de las Tierras Vírgenes como idioma, no como disfraz.
-    - Las seisenas: cómo se organizan sin líderes fijos y cómo revisar sus actividades con DURASLID.
+    - Las seisenas: cómo se organizan sin líderes fijos, y DURASLID, el filtro con que se revisa todo lo que hace la Manada.
     - El territorio de la selva y las seis Sendas de la progresión.
     - Qué significa ser Viejo Lobo: facilitador, no jefe.
     - Las ceremonias de la Manada y el Gran Salto hacia la Tropa.
@@ -112,23 +116,29 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
     - `text`: _"Ceremonia de Paso de Familia a Manada: Es el momento en que un cachorro pasa a la manada, es presentado a Akela por el Jefe de Grupo y acogido afectuosamente en la Manada."_
     - `source`: "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 6.12 — Ceremonias en la Manada, p. 32."
     - `label`: "📋 Ver la ceremonia de entrada textual"
-8. **`info-box`** — Las dos puertas de entrada (Guía de Dirigente de Manada, Cap. 6.12 p. 32 y Cap. 8.7.4 p. 53): _"Hay dos formas de entrar a la Manada, y conviene no confundirlas. Si el niño viene de la Familia de Cachorros, entra por la **Ceremonia de Paso de Familia a Manada**. Si llega de fuera y nunca fue Cachorro, vive primero la etapa de **«Lobezno»**: unas semanas para conocer la Manada, el juego, la Ley y la Promesa, y decidir por sí mismo si quiere pertenecer. Esa etapa se cierra con su **Investidura**. En los dos casos hay un ritual — lo que no puede pasar es que entre sin ninguno."_
+8. **`info-box`** — Las dos puertas de entrada (Guía de Dirigente de Manada, Cap. 6.12 p. 32 y Cap. 8.7.4 p. 53): _"Hay dos formas de entrar a la Manada, y conviene no confundirlas. Si el niño viene de la Familia de Cachorros, entra por la **Ceremonia de Paso de Familia a Manada**. Si llega de fuera y nunca fue Cachorro, vive primero la etapa de **«Lobezno»**: un tiempo para conocer la Manada, el juego, la Ley y la Promesa, y decidir por sí mismo si quiere pertenecer. Esa etapa se cierra con su **Investidura**. Y venga de donde venga, todo lobato hace su Promesa en una Ceremonia de Investidura (la verás en la Lección 7). En los dos casos hay un ritual de entrada — lo que no puede pasar es que entre sin ninguno."_
 
 **Reflexión:** _"Piensa en cómo llegó a tu Manada el último lobato nuevo (o cómo imaginas que debería llegar). ¿Hubo un momento reconocible de bienvenida, o simplemente 'empezó a venir'? Escribe qué harías igual y qué cambiarías."_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas, sincronizado con el JSON el 22/11/2026):**
 
-> **P1.** Un lobato lleva 10 minutos sentado escuchando una explicación sobre el escultismo y empieza a inquietarse. Según esta lección, ¿qué está pasando?
+> **P1.** Sofía, de 7 años, viene de la Familia de Cachorros de tu mismo Grupo. Una dirigente propone dejarla un tiempo de «Lobezno» antes de recibirla. ¿Qué le respondes?
 >
-> a) _Es un lobato indisciplinado que necesita aprender a poner atención._
-> b) _Su cuerpo necesita movimiento para aprender — la quietud prolongada no es su vía natural de aprendizaje._  ✅
-> c) _Necesita que le expliquen otra vez el tema, de forma más abstracta y con muchos más detalles._
+> a) _Que la etapa de «Lobezno» es para todo niño nuevo que llega a la Manada, venga o no de la Familia de Cachorros._
+> b) _Que ella no pasa por esa etapa: entra por la Ceremonia de Paso, presentada a Akela por el Jefe de Grupo._  ✅
+> c) _Que ella sí vive esa etapa, pero se cierra con la Ceremonia de Paso y no con una Investidura._
 
 > **P2.** Llega a tu Manada Tomás, de 8 años. Nunca fue Cachorro: es su primer contacto con el escultismo. Su papá pregunta cuándo es la ceremonia. ¿Qué le explicas?
 >
 > a) _Que primero vive la etapa de «Lobezno» y que esa se cierra con su Investidura._  ✅
 > b) _Que la Ceremonia de Paso se hace apenas complete un mes de asistencia seguida._
-> c) _Que las ceremonias son para los que vienen de Familia; él se integra sin rito._
+> c) _Que, como no viene de Familia, hace directamente su Investidura en la próxima reunión de Manada._
+
+> **P3.** Vas a recibir a tres lobatos nuevos. Un dirigente propone abrir la reunión con diez minutos sentados explicando qué es el escultismo, «para que después el juego tenga sentido». ¿Qué le respondes según la lección?
+>
+> a) _Que la explicación sirve si es concreta y no abstracta, y el juego queda como premio a la atención._
+> b) _Que es mejor empezar por la Ley de la Manada, que está en lenguaje sencillo y es más concreta._
+> c) _Que el aullido y el juego con la Manada ya son su primera lección: la charla puede esperar._  ✅
 
 **Logro:** "Acompaño su llegada".
 
@@ -142,6 +152,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — Apertura (Variante B, preparación previa a la cita): _"Cuando Andrés dice que Akela lo va a acompañar en su próxima aventura, no está fingiendo un juego de disfraces. Está usando el único idioma que a los 7 años le permite entender ideas grandes como la lealtad o el cuidado mutuo."_
+2-bis. **`paragraph`** — Anclaje de las tres capas (H3, 22/11/2026; ejemplo cotejado con la Guía §6.9, p. 30: marco = la fantasía que envuelve la vida de la Manada; fondo = las historias del Libro; ambiente = los relatos que dan sentido a las experiencias): _"Piénsalo con una reunión cualquiera: la Manada juega a que Bagheera la guía de noche por la selva. El aire de «hagamos como si…» que envuelve todo es la primera capa; que sea Bagheera, y no otro personaje, viene del libro; y la aventura de esa noche es el relato."_
 3. **`info-box`** — Las tres capas del marco simbólico (Guía de Dirigente de Manada, Cap. 6.9, p. 30): _"En palabras simples: hay tres capas y vale la pena no mezclarlas. Según la Guía de Manada, el **marco simbólico** de la Manada es **La Fantasía** — el aire que envuelve todo lo que pasa aquí. El **fondo motivador** es **El Libro de las Tierras Vírgenes**: las historias de donde salen Akela, Baloo y Bagheera. Y el **ambiente de referencia** son los **relatos fantásticos** que le dan sentido a cada aventura. La Familia de Cachorros comparte contigo el marco y el libro; lo que cambia es el tipo de relato y los personajes que cada rama se reserva."_
 4. **`heading` (nivel 3)** — _"Los personajes que enseñan sin dar discursos"_
 5. **`method-grid`** — Personajes y elementos del marco simbólico (Guía de Dirigente de Manada, Cap. 6):
@@ -150,12 +161,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
     - 🐆 **Bagheera** — la astucia y la valentía serena.
     - 🧒 **Mowgli** — el niño que aprende de la Selva y se convierte en parte de ella.
 6. **`paragraph`** — Función pedagógica: _"Personajes como Mowgli, Baloo, Bagheera y Akela enseñan a través de sus acciones, no de discursos. Los niños no memorizan una moraleja: la viven jugando a ser lobos."_ (Guía de Dirigente de Manada, Cap. 6.10, p. 30)
-7. **`heading` (nivel 3)** — _"Otros elementos simbólicos que sostienen la Selva"_
-8. **`list`** — Elementos simbólicos (Cap. 6.11), acotada a 3 ítems para no sobrecargar (H3 auditoría pedagógica):
-    - **La Flor Roja** — símbolo del crecimiento y el paso a nuevas etapas.
-    - **El Cubil** — el espacio simbólico de la Manada: seguridad, protección, encuentro.
-    - **El Saludo** — expresión de respeto y pertenencia entre lobatos.
-9. **`paragraph`** — _"La Manada tiene además otros símbolos propios —el Libro de Oro, el Himno, un referente espiritual como San Francisco de Asís— que vas a ir conociendo con la práctica; no hace falta memorizarlos hoy."_
+7. **`paragraph`** — Otros elementos simbólicos (Cap. 6.11), fundidos en un solo párrafo el 22/11/2026 (H3: antes eran heading + lista de 3 + párrafo): _"Además están **la Flor Roja** (el crecimiento y el paso a nuevas etapas), **el Cubil** (el espacio seguro de encuentro de la Manada) y **el Saludo** (respeto y pertenencia entre lobatos); y otros —el Libro de Oro, el Himno, un referente espiritual como San Francisco de Asís— que irás conociendo con la práctica. No hace falta memorizarlos hoy."_
 10. **`heading` (nivel 3)** — _"La Ley y la Promesa se viven dentro de ese lenguaje"_
 11. **`paragraph`** — La Ley de la Manada se inspira en la sociedad de lobos del Pueblo Libre de Seeonee, del Libro de las Tierras Vírgenes, donde la manada vive unida por el respeto, el orden y el cuidado mutuo bajo la guía de Akela. Está escrita en lenguaje sencillo, cercano a niños de 7 a 10 años.
 12. **`policy-quote`** — Cita textual de la Ley de la Manada:
@@ -170,19 +176,25 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 
 **Reflexión:** _"Elige uno de los siete puntos de la Ley de la Manada. Escribe un ejemplo concreto —con un lobato real o imaginado, en una situación real de tu unidad— donde ese punto de la Ley se vivió (o pudo haberse vivido) sin que nadie lo nombrara así."_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas, sincronizado con el JSON el 22/11/2026):**
 
-> **P1.** Un dirigente nuevo piensa: _"lo de Akela y la Selva es un disfraz simpático, pero lo importante es enseñarles las normas de convivencia directamente."_ Según esta lección, ¿qué le falta a esa idea?
+> **P1.** Una dirigente de la Familia de Cachorros te dice: «Ustedes en Manada tienen otro marco simbólico, el Libro de las Tierras Vírgenes; nosotros usamos La Fantasía». Según la lección, ¿qué le respondes?
 >
-> a) _Nada: los símbolos son un adorno opcional, las normas se pueden enseñar igual sin ellos._
-> b) _Le falta entender que el marco simbólico ES el idioma con el que un niño de 7 años comprende ideas como la lealtad o el respeto — no es decoración, es el vehículo pedagógico._  ✅
-> c) _Le falta agregar más personajes de la Selva, pero el enfoque directo sigue siendo mejor._
+> a) _Que tiene razón: cada rama tiene su marco, y el de la Manada es el Libro de las Tierras Vírgenes._
+> b) _Que es al revés: las dos comparten el Libro como marco, y La Fantasía es solo el ambiente de la Familia._
+> c) _Que las dos comparten La Fantasía como marco y el Libro como fondo; cambian los relatos y personajes._  ✅
 
-> **P2.** La Promesa de la Manada dice "prometo hacer siempre lo mejor". Un lobato falla en cumplir la Ley un día y se siente culpable. Según esta lección, ¿qué le dirías?
+> **P2.** Mateo, un «Lobezno» a punto de su Investidura, le mintió ayer a su seisena y te pregunta si todavía puede hacer la Promesa el domingo. Según la lección, ¿qué le dices?
 >
-> a) _Que la Promesa exige perfección y que, si falló, debe esforzarse el doble para no volver a repetir ese error delante de su seisena._
-> b) _Que la Promesa es un compromiso de intentarlo cada día, no de lograrlo siempre a la perfección — el esfuerzo cuenta, no la perfección._  ✅
-> c) _Que mejor no haga la Promesa hasta que esté seguro de poder cumplirla siempre._
+> a) _Que la haga solo si antes le pide perdón a su seisena delante de la Manada, para que la Promesa valga._
+> b) _Que la aplace hasta cumplir la Ley unas semanas seguidas, para que su Promesa tenga peso de verdad._
+> c) _Que la haga: prometer es comprometerse a hacer siempre lo mejor cada día, no haber sido perfecto._  ✅
+
+> **P3.** Quieres que tu Manada viva el punto 2 de la Ley («Dice siempre la verdad»). Según la lección, ¿cuál de estas propuestas usa mejor el marco simbólico?
+>
+> a) _Proponer un relato de Mowgli y cerrar con Akela explicando la moraleja, para que no quede ninguna duda._
+> b) _Proponer un juego de la Selva donde los personajes actúan y la verdad se vive jugando, sin moraleja al final._  ✅
+> c) _Leer el punto 2 de la Ley en el Círculo y pedir que cada seisena lo repita hasta que lo sepa de memoria._
 
 **Logro:** "Hablo el idioma de la Selva".
 
@@ -190,7 +202,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 
 ### 4.5 Lección 4 — 🐺 Las Seisenas: todos aportan, todos crecen (5 min)
 
-**Idea central:** En la Manada de 2026 las seisenas no tienen jefes fijos —el liderazgo rota— y lo que hacen se revisa con un filtro de ocho letras: DURASLID.
+**Idea central:** En la Manada de 2026 las seisenas no tienen jefes fijos —el liderazgo rota— y todo lo que hace la Manada, también en seisenas, se revisa con un filtro de ocho letras: DURASLID.
 
 **Secciones (en orden):**
 
@@ -203,7 +215,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
     - `source`: "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 5.2 — Organización, 'Liderazgo: Todos Aportan, Todos Crecen', p. 26."
     - `label`: "📋 Ver el criterio oficial sobre liderazgo en la seisena"
 6. **`info-box`** — Reformulación accesible: _"En palabras simples: nadie es 'el líder de la seisena' de forma permanente. Hoy Andrés propone el juego; la próxima semana otro lobato de su seisena reparte las tareas. Todos experimentan guiar y ser guiados."_
-7. **`heading` (nivel 3)** — _"Lo que la seisena hace: Aprender Haciendo"_
+7. **`heading` (nivel 3)** — _"Aprender Haciendo, también en la seisena"_
 8. **`paragraph`** — El Aprender Haciendo no es un lema decorativo: es la convicción de que el conocimiento no se recibe pasivamente, sino que se construye en la experiencia, la acción concreta y la reflexión que sigue a cada paso, a cada error y a cada descubrimiento. En la Manada esto se traduce en actividades que Andrés y su seisena viven, se equivocan, y de las que hablan después — no en explicaciones que escuchan sentados.
 9. **`heading` (nivel 3)** — _"El filtro DURASLID"_
 10. **`paragraph`** — Anclaje narrativo (H6 auditoría pedagógica): _"Antes de la próxima aventura de la seisena de Andrés, pásala por estas ocho letras:"_
@@ -220,19 +232,25 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 
 **Reflexión:** _"Piensa en la última vez que organizaste (o viste organizar) subgrupos en tu Manada. ¿Había un lobato fijo 'a cargo', o las funciones rotaban? Escribe cómo aplicarías el criterio 'todos aportan, todos crecen' la próxima vez."_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas, sincronizado con el JSON el 22/11/2026):**
 
-> **P1.** Un dirigente nombra a un lobato como "seisenero" fijo para todo el año, responsable de decidir por su seisena. Según esta lección, ¿qué le dirías?
+> **P1.** En el juego de pistas de hoy, una seisena le pide a Valeria que reparta las tareas, porque es la que mejor conoce el juego. ¿Qué haces?
 >
-> a) _Que está bien: alguien necesita tener autoridad sobre el grupo para que funcione._
-> b) _Que la Guía 2026 es explícita en que no debe haber líderes fijos ni jerarquías rígidas en la seisena — las funciones deben rotar para que todos vivan guiar y ser guiados._  ✅
-> c) _Que el error fue no dejar que los lobatos votaran quién sería el seisenero._
+> a) _Les pides que voten quién reparte, para que lo decida toda la seisena y no solo la que más sabe._
+> b) _La dejas repartir hoy: que ella guíe esta vez es la rotación, y la próxima le toca otra función a otro._  ✅
+> c) _Repartes tú las tareas esta vez, para que Valeria no termine siendo la jefa fija de la seisena._
 
-> **P2.** Una dirigente diseña una actividad muy divertida, pero al analizarla nota que no le exige nada nuevo a los lobatos y no les deja ninguna habilidad. Según el filtro DURASLID, ¿qué le falta?
+> **P2.** Hace dos meses que cada reunión es el mismo juego de pistas, en el mismo salón, por seisenas y con la misma mecánica. A los lobatos aún les encanta y cada semana las pistas son más difíciles. Según DURASLID, ¿qué haces?
 >
-> a) _Nada: si la actividad es lúdica y segura, ya cumple con lo esencial del filtro y no hace falta cambiarle nada._
-> b) _Le falta ser Desafiante y Útil — la diversión sola no basta, la actividad debe exigir algo y dejar un aprendizaje real._  ✅
-> c) _Le falta que sea más larga en duración._
+> a) _Lo reviso por Diversa: mantengo las pistas, pero cambio el escenario y el modo de jugarlas._  ✅
+> b) _Lo reviso por Atractiva: tarde o temprano dejará de gustarles, así que lo cambio por otra actividad._
+> c) _Lo reviso por Desafiante: si siempre es igual no les exige, así que subo la dificultad de las pistas._
+
+> **P3.** Una dirigente quiere que las seisenas compitan todo el año por puntos, con gritos propios y sin mezclarse nunca, «para que cada lobato sienta que su seisena es su casa». Según la lección, ¿qué le dices?
+>
+> a) _Que va bien: la seisena es donde el lobato pertenece de verdad, y la Manada es el marco que las reúne._
+> b) _Que cambie los puntos por un premio al lobato que más aporte a su seisena, para que nadie se quede quieto._
+> c) _Que mezcle a veces las seisenas: el lobato es de la Manada entera y la seisena solo lo acompaña._  ✅
 
 **Logro:** "Todos aportan, todos crecen".
 
@@ -247,7 +265,7 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — Apertura (Variante B): _"El escultismo nació al aire libre, entre árboles y colinas, como una forma de aprender de la vida en la vida misma. En la Manada, la naturaleza no es un escenario de fondo: es maestra, refugio y espejo."_ (Guía de Dirigente de Manada, Cap. 7.1)
 3. **`heading` (nivel 3)** — _"Por qué el aire libre es esencial en la Manada"_
-4. **`paragraph`** — Un lobato que se adentra en el bosque, siente el crujir de las hojas o el olor a tierra húmeda después de la lluvia, está honrando el origen del escultismo. La naturaleza enseña exploración, autocuidado, vida en grupo y conciencia ambiental — habilidades que ninguna explicación en salón reemplaza.
+4. **`paragraph`** — Un lobato que se adentra en el bosque, siente el crujir de las hojas o el olor a tierra húmeda después de la lluvia, está honrando el origen del escultismo. La naturaleza enseña exploración, autocuidado, vida en grupo y conciencia ambiental — habilidades que ninguna explicación en salón reemplaza. Y no hace falta un día perfecto: un lobato que ha caminado bajo la lluvia o ayudado a un compañero cansado vive lecciones que difícilmente olvida (Guía §7.2.3, p. 34).
 5. **`heading` (nivel 3)** — _"El territorio de la selva: cómo se traza la progresión de Andrés"_
 6. **`paragraph`** — La progresión personal en la Manada se representa como un territorio a recorrer: la selva. No es una carrera de insignias, es un mapa del crecimiento de cada lobato en las seis áreas de crecimiento, traducidas a un lenguaje que Andrés entiende.
 7. **`method-grid`** — Las 6 Sendas de la progresión (una por área de crecimiento):
@@ -261,24 +279,30 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
     - `text`: _"Las sendas serán los siguientes: Corporalidad - Senda del rastreador; Creatividad - Senda de la imaginación; Afectividad - Senda del corazón; Carácter - Senda del buen lobo; Sociabilidad: - Senda de la unidad; Espiritualidad - Senda del eco del bosque."_
     - `source`: "Guía de Dirigente de Manada (Scouts de Colombia, 2026), Cap. 8.3 — El Esquema de Progresión en la Manada, p. 45."
     - `label`: "📋 Ver el esquema oficial de las seis Sendas"
-9. **`info-box`** — Reformulación accesible: _"En palabras simples: cada vez que Andrés supera un reto en una de las seis Sendas —no necesariamente al mismo ritmo en todas— avanza en su territorio de la selva. La insignia máxima de la rama se llama Plenitud de la Selva. Cuando un lobato llega al nivel de Profundización en las seis áreas, alcanza además la fase máxima: Lobo Cazador de la Selva."_
+9. **`info-box`** — Reformulación accesible: _"En palabras simples: cada vez que Andrés supera un reto en una de las seis Sendas —no necesariamente al mismo ritmo en todas— avanza en su territorio de la selva. La insignia máxima de la rama se llama Plenitud de la Selva. Cuando un lobato llega al nivel de Profundización —el más alto de los tres niveles de cada área— en las seis áreas, alcanza además la fase máxima: Lobo Cazador de la Selva."_
 10. **`info-box`** — Cierre operativo: _"En el Curso 13 del Nivel 2 (Seguimiento de la Progresión Personal) vas a aprender las técnicas concretas para observar y registrar este avance. Hoy solo guarda el mapa: seis Sendas, un ritmo propio para cada lobato."_
 
 **Reflexión:** _"Piensa en Andrés (o en un lobato real que acompañes). ¿En qué Senda dirías que está avanzando más rápido ahora mismo? ¿Y en cuál necesita más de tu acompañamiento? Nómbralas y escribe por qué."_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas, sincronizado con el JSON el 22/11/2026):**
 
-> **P1.** Una dirigente le da a un lobato todas sus insignias de progresión al mismo tiempo, al final del año, "para que no se sienta atrasado frente a los demás". Según esta lección, ¿qué está haciendo mal?
+> **P1.** Andrés avanzó mucho en la Senda del rastreador y casi nada en la del corazón. Su dirigente propone no reconocerle el avance del rastreador hasta que nivele la otra, «para que crezca parejo». ¿Qué le dices?
 >
-> a) _Nada: lo importante es que todos terminen con las mismas insignias._
-> b) _Está tratando la progresión como una carrera colectiva, cuando cada lobato avanza por las seis Sendas a su propio ritmo — las insignias deben iluminar avances reales, no repartirse por igual._  ✅
-> c) _El error fue no avisarles con tiempo que recibirían las insignias._
+> a) _Que lo reconozca ya: cada lobato lleva su propio paso, y una Senda puede ir delante de otra._  ✅
+> b) _Que tiene sentido: la progresión es integral y una Senda no debe adelantarse a las demás._
+> c) _Que lo reconozca, pero en la ceremonia de fin de año y junto con el resto de los lobatos de la Manada._
 
-> **P2.** Un lobato que antes se aislaba empieza a compartir sus ideas con su seisena y a escuchar a los demás. ¿En qué Senda avanzó, sobre todo?
+> **P2.** Este mes anotaste dos avances de Andrés: ya hace la caminata sin quedarse atrás y ahora le cuenta a la Manada cuando algo lo pone triste. Tu compañero los registró los dos en la Senda del rastreador. ¿Qué le dices?
 >
-> a) _Senda del rastreador, porque implica moverse en grupo._
-> b) _Senda de la unidad, porque es la que corresponde a la Sociabilidad._  ✅
-> c) _Senda del eco del bosque, porque toda relación humana es espiritual._
+> a) _Que está bien así: los dos se notaron en salidas, y la del rastreador recoge lo que pasa afuera._
+> b) _Que la caminata está bien ahí, pero lo de contar su tristeza va en la Senda del corazón: es afectividad._  ✅
+> c) _Que la caminata está bien ahí, pero lo de contar su tristeza va en la Senda de la unidad: es con la Manada._
+
+> **P3.** Para el sábado de la salida al parque de siempre se anuncia llovizna, sin tormenta ni alerta. Un dirigente propone cambiarla por una charla en el salón sobre el bosque. ¿Qué le dices?
+>
+> a) _Que hagan la charla: con fotos y relatos de la Selva el bosque se puede enseñar igual de bien adentro._
+> b) _Que la pasen a un sábado seco: una salida con lluvia se aprovecha poco y los lobatos se distraen._
+> c) _Que salgan con impermeable: caminar bajo la llovizna también enseña, y el parque es seguro y conocido._  ✅
 
 **Logro:** "Trazo las Sendas".
 
@@ -306,19 +330,25 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 
 **Reflexión:** _"Recuerda una decisión reciente en tu Manada que tomaste tú solo, por rapidez o por costumbre, y que pudo haberse llevado al Consejo de Roca. ¿Qué hubiera cambiado si los lobatos hubieran participado en decidirla?"_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas, sincronizado con el JSON el 22/11/2026):**
 
-> **P1.** Un lobato comete un error organizando un juego con su seisena y todo sale mal. El Viejo Lobo interviene de inmediato y reorganiza todo él mismo "para que no se pierda tiempo". Según esta lección, ¿qué está haciendo?
+> **P1.** Una seisena organiza un juego, las reglas quedan confusas y el juego se desarma. Nadie corre peligro. Según la lección, ¿qué hace el Viejo Lobo?
 >
-> a) _Lo correcto: un buen dirigente evita que los errores afecten la actividad._
-> b) _Está quitándole al lobato la oportunidad de aprender del error — el rol del Viejo Lobo es ofrecer condiciones, no decidir por ellos; el error es fuente de aprendizaje, no un fracaso a evitar._  ✅
-> c) _Está bien, siempre que después le explique qué hizo mal._
+> a) _Detiene el juego y les dicta las reglas correctas, para que no pierdan la tarde en un juego que no funciona._
+> b) _Deja que el juego se desarme y, después, conversa con la seisena sobre qué pasó y qué cambiarían._  ✅
+> c) _Deja que sigan un rato y luego lo reorganiza él, explicándoles con calma qué falló y por qué._
 
-> **P2.** Un Grupo scout dice tener "Consejo de Roca" en su Manada, pero en la práctica el dirigente ya decidió todo antes de la reunión y solo lo anuncia. Según esta lección, ¿qué le falta a ese Consejo de Roca?
+> **P2.** En pleno juego, un lobato le pega una y otra vez a un compañero de su seisena. Según la lección, ¿qué hace el Viejo Lobo?
 >
-> a) _Nada, siempre es más eficiente que el adulto decida y luego informe._
-> b) _Le falta ser real: el Consejo de Roca debe ser un espacio donde los lobatos opinan, proponen y deciden de verdad según su edad — no un anuncio disfrazado de consulta._  ✅
-> c) _Le falta que se haga con más frecuencia, aunque el formato esté bien._
+> a) _Detiene el juego, protege al compañero, le recuerda la norma que ya conocen y aplica la consecuencia acordada._  ✅
+> b) _Detiene el juego, protege al compañero y hace que el lobato pida perdón frente a toda la Manada reunida._
+> c) _Detiene el juego, protege al compañero y lo saca el resto de la tarde, aunque nadie les dijo antes la norma._
+
+> **P3.** Un Viejo Lobo entusiasta le entrega al Consejo de Roca el presupuesto del semestre y la logística del campamento: transporte y permisos. Según la lección, ¿qué pasa?
+>
+> a) _Va demasiado lejos: en el Consejo deciden según su edad; presupuesto y permisos son tareas de adultos._  ✅
+> b) _Está bien: si en el Consejo de Roca deciden de verdad, también deben decidir presupuesto y logística._
+> c) _Va bien, mientras el Viejo Lobo revise cada decisión antes de aplicarla, para cuidar la seguridad._
 
 **Logro:** "Soy Viejo Lobo".
 
@@ -356,19 +386,25 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 
 **Reflexión:** _"Piensa en el próximo lobato de tu Manada que va a hacer el Gran Salto (sin su nombre: por su edad o su seisena). Escribe un momento concreto de este año que te gustaría reconocerle en su ceremonia —un esfuerzo, una vez que lo escucharon en el Consejo de Roca— y qué vas a hacer de aquí a entonces para que su paso no sea solo un cambio de pañoleta."_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas, sincronizado con el JSON el 22/11/2026):**
 
-> **P1.** Un dirigente nuevo, acostumbrado a otras ramas, empieza a llamar a la Manada con un silbato para formar el Círculo de Roca. Según esta lección, ¿qué corrección le harías?
+> **P1.** Termina el juego libre y necesitas reunir a la Manada en el Círculo de Roca. ¿Qué haces?
 >
-> a) _Ninguna: el silbato es un método universal en el escultismo y funciona igual en cualquier rama, también en la Manada de cualquier Grupo._
-> b) _Que en la Manada el llamado nunca se hace con silbato — se convoca por voz, en coherencia con el tono cálido y cercano de la rama._  ✅
-> c) _Que solo debe usar el silbato en las ceremonias, no en las reuniones normales._
+> a) _Esperas a que terminen el juego solos, para no cortar lo que decidieron._
+> b) _Das un toque corto de silbato, que al aire libre se oye mejor que la voz._
+> c) _Los llamas con la voz, y los lobatos forman el círculo a tu alrededor._  ✅
 
-> **P2.** Un Grupo trata el Gran Salto de un lobato como un simple trámite: le entregan el papel de traslado a Tropa sin ceremonia. Según esta lección, ¿qué se están perdiendo?
+> **P2.** Una dirigente prepara la Ceremonia de Progresión: va a nombrar, uno por uno, el reto que cada lobato superó este año en sus Sendas. ¿Qué le dices?
 >
-> a) _Nada grave, mientras el lobato efectivamente pase a la Tropa._
-> b) _Se pierden el momento de reconocer el camino recorrido y cerrar una etapa con gratitud — el Gran Salto es una ceremonia cargada de significado, no un trámite administrativo._  ✅
-> c) _Solo se pierde tiempo con la ceremonia completa; mejor pasar rápido a la Tropa._
+> a) _Que no nombre retos: que entregue a todos la misma insignia, para que ninguno se sienta menos que otro._
+> b) _Que mejor lo haga a solas con cada uno, porque nombrarlos delante de la Manada ya es compararlos._
+> c) _Que va bien: reconoce el esfuerzo de cada lobato en su propio camino, sin ponerlo frente a otro._  ✅
+
+> **P3.** En un Grupo, los lobatos que cumplen 11 años pasan a la Tropa en la primera reunión del año, con un cambio de pañoleta y un aviso a sus familias. Según la lección, ¿qué falta?
+>
+> a) _Una despedida que le reconozca a cada lobato lo que vivió en la Manada antes de dar el paso._  ✅
+> b) _El Gran Clamor: la ceremonia propia con la que la Manada despide a los lobatos que pasan a la Tropa._
+> c) _Nada de fondo: el paso de rama ya queda marcado con el cambio de pañoleta y el aviso._
 
 **Logro:** "Sostengo el Círculo de Roca".
 
@@ -387,29 +423,35 @@ Parafrasea directamente a la Guía de Dirigente de Manada 2026: *"El Viejo Lobo 
 5. **`mission-box`** — _"No prometas reorganizar toda la Manada. Promete una sola decisión que hoy tomas tú y que la próxima semana la tome —o la proponga— un lobato."_
 6. **`heading` (nivel 3)** — _"Lo que viene"_
 7. **`list`** — Anuncio de los próximos cursos disponibles del Nivel 2:
-    - 🛠️ **Curso 13** — Seguimiento de la Progresión Personal: las técnicas para observar y registrar el avance por las Sendas. *(En camino — te avisamos cuando esté listo.)*
-    - 📋 **Curso 14** — Planeación de Reuniones y Oportunidades de Aprendizaje: cómo diseñar la próxima reunión con DURASLID y los 8 elementos. *(En camino — te avisamos cuando esté listo.)*
-    - 🎯 **Curso 15** — Ciclo de Programa con ABP: cómo la Manada decide y ejecuta sus propios proyectos. *(En camino — te avisamos cuando esté listo.)*
+    - 🛠️ **Curso 13** — Seguimiento de la Progresión Personal: las técnicas para observar y registrar el avance por las Sendas. *(Ya está disponible.)*
+    - 📋 **Curso 14** — Planeación de Reuniones y Oportunidades de Aprendizaje: cómo diseñar la próxima reunión con DURASLID y los 8 elementos. *(Ya está disponible.)*
+    - 🎯 **Curso 15** — Ciclo de Programa con ABP: cómo la Manada decide y ejecuta sus propios proyectos. *(Ya está disponible.)*
     - 🐻⚜️🧗🏔️ **Cursos 9, 10, 11 y 12** — las guías de las otras 4 ramas: Familia (9), Tropa (10), Comunidad (11) y Clan (12), si acompañas o vas a acompañar más de una. *(Las cuatro ya están publicadas.)*
-8. **`info-box`** — Despedida: _"Tú no diriges la Manada. Le ofreces el territorio, el símbolo y la confianza — y el rumbo lo marcan ellos. Bienvenido, Viejo Lobo."_
+8. **`info-box`** — Despedida: _"Tú no mandas en la Manada. Le ofreces el territorio, el símbolo, la confianza y unos límites claros — y el rumbo lo marcan ellos. Bienvenido, Viejo Lobo."_
 
 **Reflexión:** _"Sin nombres: ¿qué tipo de decisión vas a dejar de tomar tú —un juego, una regla, una salida…— y a quién se la pasas: al Consejo de Roca o a una seisena? El compromiso completo escríbelo en el recuadro «Compromiso Personal» que aparece junto a tu certificado: ese se queda en tu navegador."_
 
 **Compromiso Personal** (`commitmentBox`, se queda en el navegador; corrección de privacidad del 02-oct-2026, ADR-117): _"Escribe tu primer paso como Viejo Lobo con la plantilla de la Lección 8: qué vas a hacer en la próxima reunión de Manada y cuál será la señal de que se cumplió."_ — placeholder _"En mi próxima reunión de Manada voy a … La señal de que se cumplió será …"_
 
-**Quiz (2 preguntas):**
+**Quiz (3 preguntas, sincronizado con el JSON el 22/11/2026):**
 
-> **P1.** Un Viejo Lobo nota que su Manada no tiene ningún ritual de rotación en las seisenas. ¿Cuál de estos sería un buen primer paso "chico, concreto y tuyo"?
+> **P1.** ¿Cuál de estos compromisos cumple mejor la plantilla del curso: chico, de facilitador y con una señal observable?
 >
-> a) _"Voy a rediseñar todo el sistema de seisenas de mi Manada este mes."_
-> b) _"La próxima reunión, antes de empezar el juego, voy a preguntar en el Consejo de Roca quién quiere proponerlo esta vez — y lo anoto para que la próxima semana le toque a otro."_  ✅
-> c) _"Voy a explicarles en la próxima reunión por qué la rotación es importante."_
+> a) _Voy a reorganizar todas las seisenas para que roten funciones desde ya; la señal: un cuadro de turnos._
+> b) _Voy a escuchar más a los lobatos en la próxima reunión; la señal: sentir que participaron más que antes._
+> c) _Voy a llevar al Consejo de Roca la elección del próximo juego; la señal: que un lobato lo proponga._  ✅
 
-> **P2.** Un padre de familia le dice al nuevo Viejo Lobo: "Usted es el que manda aquí, así que decida usted qué hacen hoy." Según lo que viste en este curso, ¿qué le respondes?
+> **P2.** Un compañero escribe su compromiso: «En mi próxima reunión de Manada voy a dejar que los lobatos decidan todo». Según el curso, ¿qué le sugieres?
 >
-> a) _"Tiene razón, yo decido todo para que la reunión salga bien."_
-> b) _"Mi trabajo es ofrecerles el territorio, el símbolo y la confianza — hoy el rumbo del juego lo eligen ellos, yo los acompaño."_  ✅
-> c) _"Mejor que decida usted, ya que es el papá."_
+> a) _Que elija una cosa que hoy decide él, como el juego de cierre, y se la pase a los lobatos._  ✅
+> b) _Que lo deje así: dejarles todo a ellos es justo lo que pide ser facilitador y no jefe._
+> c) _Que lo deje igual y le sume una señal: que los lobatos salgan más contentos que de costumbre._
+
+> **P3.** Un papá le dice al nuevo Viejo Lobo: «Usted es el que manda aquí, así que decida usted qué hacen hoy». Según el curso, ¿qué le responde?
+>
+> a) _Que en la Manada nadie manda: los lobatos dirigen la reunión y él solo vigila que estén seguros._
+> b) _Que él cuida las normas y la seguridad, y dentro de eso los lobatos proponen qué juegan hoy._  ✅
+> c) _Que no manda nadie: hoy todo lo decide el Consejo de Roca, incluso qué es seguro y qué no._
 
 **Logro al completar:** "Guardián de la Selva" (logro final del curso, `unlockOnModule: -1`).
 
@@ -435,22 +477,22 @@ _Excepción documentada (8 lecciones → 7+1 logros, igual que el Curso 04 del N
 
 ### 6.1 Hacia atrás (dentro de la Línea PJ)
 
-- **L2 (Ceremonia de Paso) ← Curso 6:** retoma el compromiso escrito en el Curso 7 (*Mi Compromiso con el Programa de Jóvenes*), ahora aterrizado a la rama concreta que el adulto declaró.
+- **L2 (Ceremonia de Paso) ← Curso 6:** retoma el compromiso escrito en el Curso 6 (*Mi Compromiso con el Programa de Jóvenes*), ahora aterrizado a la rama concreta que el adulto declaró.
 - **L4 (DURASLID) ← Curso 1 (Mito 3):** el Curso 1 introdujo DURASLID como filtro contra "hay que entretenerlos"; aquí se aplica en profundidad.
 - **L5 (seis Sendas) ← Curso 1 (L5) y Curso 5:** el Curso 1 presentó panorámicamente las 6 áreas de crecimiento; el Curso 5 las aterrizó al Modelo de Aplicación; aquí se convierten en las seis Sendas concretas de la Manada.
 - **Recomendado, no prerrequisito ← Curso 25 (A Salvo del Peligro):** cuando se construya, se recomienda en la ficha del curso; no bloquea el acceso (ver `CLAUDE.md` §5.3, ADR-019).
 
 ### 6.2 Hacia adelante (dentro del Nivel 2)
 
-- **L5 → Curso 12 (Seguimiento de la Progresión Personal):** anuncia explícitamente las técnicas de observación y registro de las Sendas.
-- **L4 → Curso 13 (Planeación de Reuniones y OdA):** anuncia el diseño de reuniones con DURASLID y los 8 elementos.
-- **L8 → Curso 14 (Ciclo de Programa con ABP):** el Consejo de Roca y la participación real de los lobatos anticipan cómo la Manada decide su propio ciclo de programa.
-- **L8 → Cursos 7, 9, 10, 11:** anuncia las guías de las otras 4 ramas para dirigentes que acompañan más de una.
+- **L5 → Curso 13 (Seguimiento de la Progresión Personal):** anuncia explícitamente las técnicas de observación y registro de las Sendas.
+- **L4 → Curso 14 (Planeación de Reuniones y OdA):** anuncia el diseño de reuniones con DURASLID y los 8 elementos.
+- **L8 → Curso 15 (Ciclo de Programa con ABP):** el Consejo de Roca y la participación real de los lobatos anticipan cómo la Manada decide su propio ciclo de programa.
+- **L8 → Cursos 9, 10, 11 y 12:** anuncia las guías de las otras 4 ramas para dirigentes que acompañan más de una.
 - **Curso 25 (A Salvo del Peligro):** cuando se construya, debe referenciar el ciclo de programa y las ceremonias de este curso como contexto de aplicación (transporte, pernoctas, protocolo de actividades en la Manada).
 
 ### 6.3 Cross-línea
 
-- El personaje narrativo Andrés puede referenciarse en el futuro Curso 15 (Jefe de Rama) como caso de seguimiento longitudinal.
+- El personaje narrativo Andrés puede referenciarse en el Curso 16 (Jefe de Rama) como caso de seguimiento longitudinal.
 - El "Consejo de Roca" conecta conceptualmente con el Curso 8 de Desarrollo Institucional (Plan de Grupo): ambos enseñan toma de decisiones colectiva, a escalas distintas.
 
 ---
@@ -487,17 +529,17 @@ _Excepción documentada (8 lecciones → 7+1 logros, igual que el Curso 04 del N
 
 | Criterio del MARCO-METODOLOGICO-PEDAGOGICO | Cumplimiento |
 |---|---|
-| Curso entre 20 y 40 min | ✅ ~35 min (excepción documentada por centralidad, igual que Curso 04) |
+| Curso entre 20 y 40 min | ✅ ~38 min (excepción documentada por centralidad, igual que Curso 04) |
 | Lecciones de 3–8 min, óptimo 5–7 | ✅ rango 3–5 min |
 | Cada lección termina independiente | ✅ |
 | Lenguaje conversacional, tutea | ✅ |
 | Citas oficiales plegables (`policy-quote`) | ✅ 8 citas distribuidas en L2, L3 (×2), L4, L5, L6, L7 (×2) — dentro del límite de máximo 2 por lección para citas contrastantes |
 | Reflexión personal por lección | ✅ excepto intro, todas fuerzan un caso concreto (Andrés o un lobato real) |
-| Mini-quiz 2 preguntas, con distractor = idea vieja | ✅ en las 7 lecciones de contenido |
+| Mini-quiz de 3 preguntas, con distractor = idea vieja | ✅ en las 7 lecciones de contenido; desde el 22/11/2026 la correcta no cae siempre en el punto medio entre exceso y defecto (ADR-148) |
 | 4–6 logros + 1 final | ⚠️ Excepción documentada: 7 + 1 (igual justificación que Curso 04) |
 | Lección 1 marcada `isIntro: true` sin quiz | ✅ |
 | Patrón 6.2 (anti-definición + reformulación) | **Variante B (narrativa/contextual)** en todas las lecciones con cita — el contenido es más narrativo-doctrinal que técnico-burocrático (Ley y Promesa están redactadas para niños de 7 años, no requieren "traducción" adicional); cada cita se antecede de contexto narrativo con Andrés y se cierra con reformulación accesible. |
-| Conexión cross-course | ✅ hacia atrás (Cursos 1, 5, 6) y hacia adelante (Cursos 12, 13, 14, y resto de ramas) |
+| Conexión cross-course | ✅ hacia atrás (Cursos 1, 5, 6) y hacia adelante (Cursos 13, 14, 15, y resto de ramas) |
 | Las 3 exigencias propias de PJ (DURASLID, educación por el amor, alianza joven-adulto) | ✅ DURASLID explícito en L4; "firmeza con ternura" y "el error como aprendizaje, no fracaso" en L6 encarnan la educación por el amor; Consejo de Roca en L6 encarna la alianza joven-adulto |
 | Riesgo "leer la guía en voz alta" (sección 8.3 de CREAR-CURSO.md) | ✅ mitigado con protagonista narrativo (Andrés) que hila las 8 lecciones |
 | Riesgo "marco simbólico como decoración" | ✅ mitigado: L3 dedica la lección completa a tratarlo como idioma pedagógico, no ornamento, con cita explícita advirtiendo este error |

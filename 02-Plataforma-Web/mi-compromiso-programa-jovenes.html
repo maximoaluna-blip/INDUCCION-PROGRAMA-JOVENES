@@ -1038,7 +1038,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                 <h2>👋 👋 Bienvenida <span id="welcomeName"></span></h2>
                 <div class="badge">Lección 1 de 6</div>
 
-                <div class="info-box">⏱️ <strong>~33 minutos.</strong> Al final vas a tener tu compromiso con el Programa de Jóvenes firmado, descargable en PDF, con compromisos chicos y concretos para el próximo trimestre. Y un par dirigente con quien compartirlo.</div>
+                <div class="info-box">⏱️ <strong>~33 minutos.</strong> Al final vas a tener tus áreas de crecimiento del trimestre en un PDF, tu próxima reunión y tu proyecto escritos en tus reflexiones, y tu promesa personal en el recuadro de tu certificado: compromisos chicos y concretos para el próximo trimestre. Y un par dirigente con quien compartirlos.</div>
 
                 <p>Llegaste hasta acá. Tomaste 6 cursos. Leíste a Baden-Powell, a la OMMS, a la PNPJ. Te asomaste a los 8 elementos del Método y al Modelo de Aplicación colombiano. Reflexionaste, contestaste quizzes, escribiste compromisos parciales. Hoy todo eso se vuelve plan.</p>
 
@@ -1050,7 +1050,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                     <li>Revisión de tu brújula: qué te quedó de los Cursos 1–6.</li>
                     <li>Definición de tu rol, rama y áreas prioritarias del trimestre.</li>
                     <li>Tu próxima reunión y tu proyecto del trimestre, planeados con los 8 elementos del Método.</li>
-                    <li>Tu ruta de formación: qué cursos del Nivel 2 y del Nivel 4 vas a tomar primero.</li>
+                    <li>Tu ruta de formación: qué cursos de los Niveles 2, 3 y 4 vas a tomar y cuándo.</li>
                     <li>Tu par dirigente y tu promesa personal.</li>
                 </ul>
 
@@ -1108,15 +1108,15 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <h4>1. Al releer su brújula, un dirigente de Tropa ve que en el Curso 2 se comprometió a dejar de premiar al «mejor scout» del mes, y no lo cumplió. ¿Qué hace con eso en esta lección?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q10">
-                            Lo anota en la segunda pregunta como práctica por ajustar: es materia prima para su plan.
+                            Lo deja por fuera: la brújula recoge lo que le resonó, y un compromiso incumplido no suma.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q10">
-                            Lo deja por fuera: la brújula recoge lo que le resonó, y un compromiso incumplido no suma.
+                            Copia tal cual el compromiso del Curso 2 en la reflexión, para no perder su versión original.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q10">
-                            Copia tal cual el compromiso del Curso 2 en la reflexión, para no perder su versión original.
+                            Lo anota en la segunda pregunta como práctica por ajustar: es materia prima para su plan.
                         </label>
                     </div>
 
@@ -1172,10 +1172,10 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
                 <h3>Mis áreas prioritarias del trimestre</h3>
 
-                <p>De las 6 áreas de crecimiento (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad), elige <strong>2 áreas</strong> donde quieras poner foco este trimestre. No las que más amas; las que más necesita tu unidad ahora.</p>
+                <p>De las 6 áreas de crecimiento (Corporalidad, Creatividad, Carácter, Afectividad, Sociabilidad, Espiritualidad), elige <strong>2 áreas</strong> donde quieras poner foco este trimestre. No las que más amas; las que más necesita tu unidad ahora. Con ellas armas aquí tu primer PDF: el de tus áreas del trimestre.</p>
 
                 <div class="plan-builder" id="pb-pj-areas-prioritarias" data-minimo="2">
-                    <script type="application/json" id="pb-labels-pj-areas-prioritarias">{"minimo":2,"avisoMinimo":"⚠️ La lección te pide elegir 2 áreas de crecimiento. Marca 2 y completa sus campos antes de armar tu compromiso.","avisoCampos":"⚠️ Hay campos vacíos. Completa meta, plazo y recursos en todas las áreas seleccionadas.","titulo":"📋 Mi compromiso con el Programa de Jóvenes","subtituloPrioridades":"Las áreas de crecimiento que elegí para este trimestre","cierre":"Imprime este plan, fírmalo y consérvalo como tu compromiso personal."}</script>
+                    <script type="application/json" id="pb-labels-pj-areas-prioritarias">{"minimo":2,"avisoMinimo":"⚠️ La lección te pide elegir 2 áreas de crecimiento. Marca 2 y completa sus campos antes de armar tu compromiso.","avisoCampos":"⚠️ Hay campos vacíos. Completa meta, plazo y recursos en todas las áreas seleccionadas.","titulo":"📋 Mis áreas de crecimiento del trimestre","subtituloPrioridades":"Las áreas de crecimiento que elegí para este trimestre","cierre":"Imprime tus áreas, fírmalas y guárdalas junto a tu promesa: son parte de tu compromiso con el Programa de Jóvenes."}</script>
                     <p class="pb-intro">Selecciona las <strong>2 áreas de crecimiento</strong> donde quieras poner foco este trimestre — no las que más amas: las que más necesita tu unidad ahora. Si marcas más de 2, el plan las incluye todas, pero la idea es no dispersarte.</p>
                     <div class="pb-competences"><div class="pb-competence" data-competence="corporalidad">
                     <label class="pb-comp-header">
@@ -1267,14 +1267,14 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <textarea id="pb-commitment-pj-areas-prioritarias" class="pb-commitment" aria-label="Mi compromiso personal con este plan" placeholder="Ej: Me comprometo a revisar estas dos áreas en cada reunión, a contarle a mi par dirigente cómo van cada mes, y a no rendirme cuando me cueste…" onchange="savePlanCommitment('pj-areas-prioritarias', this.value)"></textarea>
                     </div>
                     <div class="pb-actions">
-                        <button type="button" class="btn-primary" onclick="generatePlan('pj-areas-prioritarias')">📄 Armar mi compromiso del trimestre</button>
+                        <button type="button" class="btn-primary" onclick="generatePlan('pj-areas-prioritarias')">📄 Armar mis áreas del trimestre</button>
                     </div>
                     <div id="pb-output-pj-areas-prioritarias" class="pb-output hidden"></div>
                 </div>
 
                 <h3>Mi rol principal del trimestre</h3>
 
-                <p>De los 3 roles del Modelo de Aplicación (Apoyar, Acompañar, Enlazar), ¿cuál vas a fortalecer este trimestre? El que más te haga falta, no el que ya manejas bien, sin dejar de ejercer el que tus protagonistas necesitan según su etapa. Anota tu elección y por qué en tu reflexión.</p>
+                <p>De los 3 roles del Modelo de Aplicación (Apoyar, Acompañar, Enlazar), ¿cuál vas a fortalecer este trimestre? El que más te haga falta, no el que ya manejas bien, sin dejar de ejercer el que tus protagonistas necesitan según su etapa: quien se acerca por primera vez a algo necesita sobre todo que lo apoyes; quien ya lo aplica, que lo acompañes; y quien lo profundiza, que lo enlaces. Anota tu elección y por qué en tu reflexión.</p>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
@@ -1304,15 +1304,15 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <h4>2. A una jefa de Comunidad le salen bien Acompañar y Enlazar, pero le cuesta Apoyar. Este trimestre entran seis nómadas nuevos que van a vivir todo por primera vez. Según la lección, ¿qué rol fija como prioritario?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q21">
-                            Apoyar, y deja Acompañar y Enlazar para el próximo trimestre: no se puede con todo a la vez.
+                            Acompañar: con seis recién llegados, lo primero es seguir de cerca la progresión de cada uno.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q21">
-                            Apoyar, sin dejar de acompañar a los antiguos: es el que le falta y el que piden los que llegan.
+                            Enlazar: lo que más engancha a quien entra es abrirle la puerta a la región y a otros grupos.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q21">
-                            Acompañar, que ya domina: con seis nómadas nuevos no es momento de ensayar lo que le cuesta.
+                            Apoyar: lo necesita quien vive todo por primera vez, y es justo el que ella menos ejercita.
                         </label>
                     </div>
 
@@ -1320,15 +1320,15 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <h4>3. Un adulto sirve en la comisión regional de Programa de Jóvenes y no tiene unidad a cargo. Según la lección, ¿cómo llena «Mi rol y mi rama»?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q22">
-                            Anota la unidad más cercana de su grupo, porque el plan de este curso se arma sobre una unidad.
+                            Anota la comisión regional como su otro ámbito, con el cargo que tiene y los protagonistas que acompaña.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q22">
-                            Anota la comisión regional como su otro ámbito y en cargo pone «ninguno», porque no tiene una unidad a su cargo.
+                            Anota la unidad más cercana de su grupo, porque el plan de este curso se arma sobre una unidad.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q22">
-                            Anota la comisión regional como su otro ámbito, con el cargo que tiene y los protagonistas que acompaña.
+                            Anota la comisión regional como su otro ámbito y en cargo pone «ninguno», porque no tiene una unidad a su cargo.
                         </label>
                     </div>
 
@@ -1348,7 +1348,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
                 <h3>Mi próxima reunión: los 8 elementos en acción</h3>
 
-                <p>En tu reflexión, fija tu próxima reunión: la <strong>fecha</strong>; el <strong>tema o foco principal</strong>; el <strong>elemento del Método</strong> que vas a fortalecer especialmente y <strong>cómo</strong> lo vas a fortalecer (1-2 líneas); y cuál de los 8 criterios <strong>DURASLID</strong> (Desafiante, Útil, Recompensante, Atractiva, Segura, Lúdica, Inclusiva, Diversa) está en riesgo y necesita atención.</p>
+                <p>En tu reflexión, fija tu próxima reunión: la <strong>fecha</strong>; el <strong>tema o foco principal</strong>; el <strong>elemento del Método</strong> que vas a fortalecer especialmente y <strong>cómo</strong> lo vas a fortalecer (1-2 líneas); y cuál de los 8 criterios <strong>DURASLID</strong> (Desafiante, Útil, Recompensante, Atractiva, Segura, Lúdica, Inclusiva, Diversa) está en riesgo y necesita atención. Dos de ellos se confunden a menudo: una experiencia es <strong>útil</strong> cuando sirve a alguien y para algo, y deja hábitos que se llevan a casa; es <strong>recompensante</strong> cuando deja sensación de logro y sentido, que no se reduce a un premio.</p>
 
                 <h3>Mi proyecto del trimestre</h3>
 
@@ -1399,14 +1399,14 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                     </div>
 
                     <div class="question">
-                        <h4>3. En su última reunión, los nómadas de una Comunidad jugaron con ganas, pero al salir ninguno supo decir para qué les sirvió fuera del grupo. Para la próxima, ¿qué criterio DURASLID anota la subjefe como en riesgo?</h4>
+                        <h4>3. En su última reunión, los nómadas de una Comunidad jugaron con ganas, pero al salir ninguno supo decir qué se llevaba para su colegio, su casa o su barrio. Para la próxima, ¿qué criterio DURASLID anota la subjefe como en riesgo?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q32">
-                            Útil: lo vivido no se conectó con algo que les sirva en su vida fuera de la reunión.
+                            Recompensante: faltó un premio al final que le diera sentido a lo que hicieron.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q32">
-                            Recompensante: faltó un premio al final que le diera sentido a lo que hicieron.
+                            Útil: lo que vivieron se quedó en la reunión y no tocó su vida de todos los días.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q32">
@@ -1419,9 +1419,9 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                 </div>
             </div>
 
-            <!-- MÓDULO 5: 📚 MI RUTA DE FORMACIÓN: NIVELES 2 Y 4 -->
+            <!-- MÓDULO 5: 📚 MI RUTA DE FORMACIÓN: LO QUE SIGUE -->
             <div class="module" id="module-5">
-                <h2>📚 📚 Mi ruta de formación: Niveles 2 y 4</h2>
+                <h2>📚 📚 Mi ruta de formación: lo que sigue</h2>
                 <div class="badge">Lección 5 de 6</div>
 
                 <div class="info-box"><strong>Idea central:</strong> selecciono cursos según rama y rol.</div>
@@ -1449,6 +1449,10 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                     <li><strong>Si no lo eres y lo tuyo es acompañar la progresión personal</strong> (uno-a-uno con los protagonistas) → empieza por el <strong>Curso 13 (Seguimiento de la Progresión)</strong>.</li>
                     <li><strong>Si entras nuevo y aún no tienes una función clara</strong> → en el orden que más le sirva a tu unidad.</li>
                 </ul>
+
+                <h3>Cuando ejerzas un cargo: el Nivel 3 (Cursos 16–20)</h3>
+
+                <p>Si acompañas la progresión de tus protagonistas, el <strong>Curso 17 (Acompañar la Progresión Personal)</strong> te sirve desde ya. Y si eres Jefe de Rama, Comisionado de Programa de Jóvenes, Consejero Juvenil o coordinas la Red de Jóvenes, tu curso de cargo está en el Nivel 3: el <strong>Curso 16 (Jefe de Rama)</strong>, el <strong>18 (Comisionado de Programa de Jóvenes)</strong>, el <strong>19 (Consejero Juvenil)</strong> y el <strong>20 (Red de Jóvenes)</strong>. Tómalo cuando ejerzas el cargo.</p>
 
                 <h3>A Salvo del Peligro: los módulos oficiales, cuanto antes</h3>
 
@@ -1509,15 +1513,15 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <h4>3. Una dirigente cerró el Nivel 1 y quiere empezar este mes el Curso 10 y el Kit HeForShe. Aún no hace A Salvo del Peligro. ¿Qué le dices?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q42">
-                            Que arranque ya con los dos y agende esta semana los módulos de A Salvo del Peligro.
+                            Que arranque ya con los dos y deje A Salvo del Peligro para cuando cierre el Nivel 2.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q42">
-                            Que arranque ya con los dos y deje A Salvo del Peligro para cuando cierre el Nivel 2.
+                            Que arranque ya con los dos y agende esta semana los módulos de A Salvo del Peligro.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q42">
-                            Que haga antes A Salvo del Peligro: sin esos certificados no se le abre el Nivel 2.
+                            Que arranque ya con los dos y espere a que su jefe inmediato le asigne A Salvo del Peligro.
                         </label>
                     </div>
 
@@ -1528,7 +1532,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
 
             <!-- MÓDULO 6: 🤝 MI PAR DIRIGENTE + PROMESA PERSONAL -->
             <div class="module" id="module-6">
-                <h2>🤝 🤝 Mi par dirigente + Promesa personal</h2>
+                <h2>🤝 🤝 Mi par dirigente + promesa personal</h2>
                 <div class="badge">Lección 6 de 6</div>
 
                 <div class="info-box"><strong>Idea central:</strong> comparto el plan con un par + firmo mi promesa.</div>
@@ -1579,18 +1583,18 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                     <h3>🧪 Mini-quiz Lección 6</h3>
 
                     <div class="question">
-                        <h4>1. Un Jefe de Tropa quiere un par dirigente con quien revisar su plan cada mes. ¿Cuál de estas elecciones se aleja de lo que describe la lección?</h4>
+                        <h4>1. Un Jefe de Tropa busca un par dirigente con quien revisar su plan cada mes. ¿Cuál encaja con lo que describe la lección?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q50">
-                            Su Jefe de Grupo, porque así alguien con autoridad se asegura de que cumpla el plan.
+                            El guía de patrulla más antiguo de su Tropa, que la vive desde dentro y le dice cómo va.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q50">
-                            Su compañera de un curso de formación, jefa de Tropa en otro grupo de la región.
+                            Un amigo de toda la vida, ajeno al Movimiento, que lo escucha sin juzgar y le pregunta cada mes.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q50">
-                            Un subjefe de Manada de su mismo grupo, con quien ya comparte las reuniones de los sábados.
+                            Una subjefa de Manada de su mismo grupo, para contarle cada mes cómo va y ajustar juntos.
                         </label>
                     </div>
 
@@ -1598,11 +1602,11 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                         <h4>2. En la reflexión, un dirigente escribe: «Mi par es Carolina R., jefa de Manada del Grupo 12; le comparto el plan el sábado y nos vemos cada mes». ¿Qué le ajustas según la lección?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q51">
-                            Que quite nombre e inicial y deje rol y ámbito: jefa de Manada de otro grupo.
+                            Que pase a revisiones semanales: cada mes es muy poco para sostener un plan nuevo.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q51">
-                            Que pase a revisiones semanales: cada mes es muy poco para sostener un plan nuevo.
+                            Que quite nombre e inicial y deje rol y ámbito: jefa de Manada de otro grupo.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q51">
@@ -1611,18 +1615,18 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
                     </div>
 
                     <div class="question">
-                        <h4>3. Una dirigente terminó su promesa y prefiere guardársela «porque es algo íntimo». Según la lección, ¿qué le sugieres?</h4>
+                        <h4>3. Una dirigente terminó su promesa y su plan, y prefiere guardarse los dos «porque son algo íntimo». Según la lección, ¿qué le sugieres?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q52">
-                            Que la escriba en el recuadro de su certificado y le comparta el plan a su par: lo compartido se sostiene.
+                            Que deje la promesa en el recuadro del certificado, que es solo suyo, y comparta el plan con su par.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q52">
-                            Que suba la foto firmada: así queda registrada en la plataforma y su Jefe de Grupo puede verla.
+                            Que le lea la promesa a su par y se guarde el plan, porque es lo más personal de los dos.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q52">
-                            Que la deje así: la promesa es personal y en el Nivel 1 compartir el plan es solo opcional.
+                            Que se guarde las dos cosas por ahora y busque a su par solo si un día el plan se le atasca.
                         </label>
                     </div>
 
@@ -1736,7 +1740,7 @@ html[data-theme="dark"] .module a:hover { color: #adc8fb; }
     };
 
     // --- Respuestas correctas (indice base 0) ---
-    var QUIZ_ANSWERS = {"2":[0,1,1],"3":[0,1,2],"4":[0,2,0],"5":[0,2,0],"6":[0,0,0]};
+    var QUIZ_ANSWERS = {"2":[2,1,1],"3":[0,2,0],"4":[0,2,1],"5":[0,2,1],"6":[2,1,0]};
 
 // ============================================
 // engine.linea.js — EXTENSIÓN de la línea Programa de Jóvenes
@@ -1962,6 +1966,8 @@ function confirmarCodigoRecuperacion() {
 }
 
 function aplicarAvanceRecuperado_(data, email, msgDiv) {
+    // Solo las filas de ESTE curso, la llave de sesion y el certificado ya emitido (engine.core.js).
+    if (typeof prepararRecuperado_ === 'function') data = prepararRecuperado_(data, email);
     // El Apps Script devuelve: { success: true, data: { registration, modules, quizzes, certificates } }
     var isFound = (data && data.found) || (data && data.success && data.data);
 
@@ -3328,6 +3334,213 @@ setInterval(function () {
     }
     saveProgress();
 }, 60000);
+
+
+// ============================================================================
+// SESION RECORDADA Y AVANCE ENTRE CURSOS (22-nov-2026)
+// ============================================================================
+// Hasta hoy el avance recuperado quedaba solo en el curso donde se pedia: al abrir
+// otro curso habia que pedir otro codigo (el dueno recupero curso por curso).
+// Ahora, tras un codigo valido, el backend entrega una llave de sesion que se guarda
+// en este navegador. Todos los cursos viven en el mismo dominio, asi que cualquier
+// curso que se abra sin avance local la usa para traer el suyo sin pedir codigo.
+// La llave la valida el backend (hoja Sesiones, solo el hash); "Cerrar sesion" en el
+// portal la revoca.
+var CLAVE_SESION_ASC = 'ascSesion';
+
+function leerSesionAsc_() {
+    try {
+        var s = JSON.parse(localStorage.getItem(CLAVE_SESION_ASC) || 'null');
+        if (s && s.email && /^[0-9a-f]{64}$/.test(s.llave || '')) return s;
+    } catch (e) {}
+    return null;
+}
+
+function guardarSesionAsc_(email, llave) {
+    if (!email || !/^[0-9a-f]{64}$/.test(llave || '')) return;
+    guardarLocal(CLAVE_SESION_ASC, JSON.stringify({ email: String(email).toLowerCase(), llave: llave, desde: new Date().toISOString() }));
+}
+
+function borrarSesionAsc_() {
+    try { localStorage.removeItem(CLAVE_SESION_ASC); } catch (e) {}
+}
+
+// Se llama al principio de aplicarAvanceRecuperado_ en cada linea. Hace tres cosas
+// que antes faltaban en las cuatro lineas (Rover ya filtraba):
+//  1. guarda la llave de sesion si el backend la mando;
+//  2. deja SOLO las filas de este curso: el backend devuelve las de todos, y los
+//     modulos de otro curso marcaban como hechos modulos de este;
+//  3. si este curso ya tiene certificado emitido, lo reabre con su mismo codigo.
+function prepararRecuperado_(data, email) {
+    if (!data || !data.success || !data.data) return data;
+    var d = data.data;
+    if (d.session) guardarSesionAsc_(email || (d.registration && d.registration.email), d.session);
+    var deEsteCurso = function (x) { return x && x.course === COURSE_CONFIG.courseId; };
+    d.modules = (d.modules || []).filter(deEsteCurso);
+    d.quizzes = (d.quizzes || []).filter(deEsteCurso);
+    var cert = (d.certificates || []).filter(deEsteCurso)[0];
+    if (cert && cert.certificateCode) {
+        try {
+            var clave = 'certificate_issued_' + COURSE_CONFIG.courseId;
+            if (!localStorage.getItem(clave)) {
+                guardarLocal(clave, JSON.stringify({
+                    name: (d.registration && d.registration.fullName) || '',
+                    code: cert.certificateCode, date: cert.completionDate || '',
+                    score: cert.score, course: COURSE_CONFIG.courseId }));
+            }
+        } catch (e) {}
+    }
+    // Perfil reutilizable para los demas cursos (autollenado del registro).
+    if (d.registration && d.registration.fullName && typeof saveGlobalUserProfile === 'function') {
+        saveGlobalUserProfile({ fullName: d.registration.fullName, age: d.registration.age,
+            group: d.registration.group, region: d.registration.region,
+            email: d.registration.email || email, motivation: '' });
+    }
+    return data;
+}
+
+// Al abrir un curso sin avance local y con sesion: se trae el avance sin codigo.
+// Si la persona ya esta inscrita en ESTE curso (o tiene modulos en el), se aplica;
+// si no, solo se autollena el registro: abrir un curso no es inscribirse en el.
+function autoRecuperarConSesion_() {
+    if (typeof userProfile !== 'undefined' && userProfile && userProfile.fullName) return;
+    if (!COURSE_CONFIG.googleScriptUrl) return;
+    var ses = leerSesionAsc_();
+    if (!ses) return;
+    var url = COURSE_CONFIG.googleScriptUrl +
+        '?action=recover&v=2&email=' + encodeURIComponent(ses.email) +
+        '&course=' + encodeURIComponent(COURSE_CONFIG.courseId) +
+        '&session=' + encodeURIComponent(ses.llave);
+    fetch(url, { redirect: 'follow' })
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+            if (!data || !data.success || !data.data) {
+                if (data && data.data && data.data.sessionError) borrarSesionAsc_();
+                return;
+            }
+            // Mientras tanto la persona pudo registrarse a mano: no se pisa.
+            if (typeof userProfile !== 'undefined' && userProfile && userProfile.fullName) return;
+            var d = data.data;
+            var tieneAqui = d.registeredInCourse === true ||
+                (d.modules || []).some(function (m) { return m && m.course === COURSE_CONFIG.courseId; });
+            if (tieneAqui && typeof aplicarAvanceRecuperado_ === 'function') {
+                var msg = document.getElementById('recoveryMessage') || document.createElement('div');
+                aplicarAvanceRecuperado_(data, ses.email, msg);
+            } else {
+                prepararRecuperado_(data, ses.email);
+                if (typeof prefillFromGlobalProfile === 'function') prefillFromGlobalProfile();
+            }
+        })
+        .catch(function () { /* sin red: se sigue como siempre */ });
+}
+
+window.addEventListener('DOMContentLoaded', function () {
+    // Despues de loadProgress() de la linea, que corre en su propio DOMContentLoaded.
+    setTimeout(autoRecuperarConSesion_, 0);
+    setTimeout(montarBotonRetro_, 0);
+});
+
+// ============================================================================
+// OBSERVACIONES, RECOMENDACIONES Y FELICITACIONES (22-nov-2026)
+// ============================================================================
+// Boton en la barra superior de cada curso, junto a "Volver a Cursos" (no flotante:
+// uno fijo taparia botones del curso). ANONIMO por defecto: el correo solo viaja si
+// la persona marca que quiere respuesta. Va con text/plain para que el navegador no
+// haga preflight (Apps Script no lo contesta) y la respuesta se pueda leer.
+function montarBotonRetro_() {
+    if (document.getElementById('retroBtn') || !COURSE_CONFIG.googleScriptUrl) return;
+    var barra = document.querySelector('.top-bar-inner');
+    if (!barra) return;
+    var volver = barra.querySelector('.back-link');
+    var btn = document.createElement('button');
+    btn.id = 'retroBtn';
+    btn.type = 'button';
+    btn.setAttribute('aria-label', 'Enviar una observación, recomendación o felicitación');
+    btn.textContent = '💬 Tu opinión';
+    // Mismo aspecto que a.back-link (styles.css de cada linea), sin su clase: las
+    // pruebas buscan .back-link como enlace unico.
+    btn.style.cssText = 'border:0;background:transparent;cursor:pointer;padding:0;' +
+        'color:' + (volver ? getComputedStyle(volver).color : '#ffe675') + ';font-size:0.85em;font-weight:600;font-family:inherit;';
+    btn.onclick = abrirRetro_;
+    // Los dos enlaces juntos a la derecha, como estaba "Volver a Cursos" solo.
+    var grupo = document.createElement('span');
+    grupo.style.cssText = 'display:flex;gap:12px;align-items:center;flex-wrap:wrap;justify-content:flex-end;';
+    if (volver) { barra.insertBefore(grupo, volver); grupo.appendChild(btn); grupo.appendChild(volver); }
+    else { grupo.appendChild(btn); barra.appendChild(grupo); }
+}
+
+function abrirRetro_() {
+    if (document.getElementById('retroModal')) return;
+    var m = document.createElement('div');
+    m.id = 'retroModal';
+    m.setAttribute('role', 'dialog');
+    m.setAttribute('aria-modal', 'true');
+    m.setAttribute('aria-labelledby', 'retroTitulo');
+    m.style.cssText = 'position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;padding:16px;';
+    m.innerHTML =
+        '<div style="background:#fff;color:#222;max-width:480px;width:100%;border-radius:12px;padding:20px;max-height:90vh;overflow:auto;">' +
+        '<h2 id="retroTitulo" style="margin:0 0 8px;font-size:1.2rem;">Tu opinión nos ayuda a mejorar</h2>' +
+        '<p style="margin:0 0 12px;font-size:.9rem;color:#555;">Es anónima: no enviamos tu nombre ni tu correo, salvo que pidas respuesta. No escribas nombres de otras personas.</p>' +
+        '<fieldset style="border:0;padding:0;margin:0 0 12px;"><legend style="font-weight:600;margin-bottom:6px;">¿Qué quieres dejarnos?</legend>' +
+        '<label style="display:block;margin:4px 0;"><input type="radio" name="retroTipo" value="observacion" checked> Una observación</label>' +
+        '<label style="display:block;margin:4px 0;"><input type="radio" name="retroTipo" value="recomendacion"> Una recomendación</label>' +
+        '<label style="display:block;margin:4px 0;"><input type="radio" name="retroTipo" value="felicitacion"> Una felicitación</label></fieldset>' +
+        '<label for="retroTexto" style="font-weight:600;">Tu mensaje</label>' +
+        '<textarea id="retroTexto" maxlength="2000" rows="5" style="width:100%;box-sizing:border-box;margin:6px 0 12px;padding:8px;font:inherit;"></textarea>' +
+        '<label style="display:block;margin-bottom:6px;"><input type="checkbox" id="retroQuiere"> Quiero que me respondan</label>' +
+        '<div id="retroContactoBox" style="display:none;"><label for="retroContacto">Correo para responderte</label>' +
+        '<input type="email" id="retroContacto" style="width:100%;box-sizing:border-box;margin:6px 0 4px;padding:8px;font:inherit;">' +
+        '<p style="font-size:.8rem;color:#555;margin:0 0 8px;">Solo lo usamos para responder este mensaje (Ley 1581 de 2012).</p></div>' +
+        '<p id="retroEstado" role="status" style="min-height:1.2em;font-size:.9rem;margin:8px 0;"></p>' +
+        '<div style="display:flex;gap:8px;justify-content:flex-end;">' +
+        '<button type="button" id="retroCancelar" class="btn btn-secondary">Cerrar</button>' +
+        '<button type="button" id="retroEnviar" class="btn">Enviar</button></div></div>';
+    document.body.appendChild(m);
+    var cerrar = function () { m.remove(); var b = document.getElementById('retroBtn'); if (b) b.focus(); };
+    document.getElementById('retroCancelar').onclick = cerrar;
+    m.addEventListener('keydown', function (e) { if (e.key === 'Escape') cerrar(); });
+    m.addEventListener('click', function (e) { if (e.target === m) cerrar(); });
+    var quiere = document.getElementById('retroQuiere');
+    quiere.onchange = function () {
+        document.getElementById('retroContactoBox').style.display = quiere.checked ? 'block' : 'none';
+        if (quiere.checked) {
+            var c = document.getElementById('retroContacto');
+            var ses = leerSesionAsc_();
+            if (!c.value) c.value = (typeof userProfile !== 'undefined' && userProfile && userProfile.email) || (ses && ses.email) || '';
+        }
+    };
+    document.getElementById('retroEnviar').onclick = enviarRetro_;
+    document.getElementById('retroTexto').focus();
+}
+
+function enviarRetro_() {
+    var estado = document.getElementById('retroEstado');
+    var tipoEl = document.querySelector('input[name="retroTipo"]:checked');
+    var texto = (document.getElementById('retroTexto').value || '').trim();
+    var quiere = document.getElementById('retroQuiere').checked;
+    var contacto = (document.getElementById('retroContacto').value || '').trim();
+    if (texto.length < 5) { estado.textContent = '⚠️ Escribe tu mensaje.'; return; }
+    if (quiere && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(contacto)) { estado.textContent = '⚠️ Escribe un correo válido para responderte.'; return; }
+    var boton = document.getElementById('retroEnviar');
+    boton.disabled = true;
+    estado.textContent = 'Enviando…';
+    var cuerpo = { action: 'feedback', token: 'ADULTOS_ASC_2026', tipo: tipoEl ? tipoEl.value : 'observacion',
+        texto: texto, quiereRespuesta: quiere, contacto: quiere ? contacto : '',
+        linea: COURSE_CONFIG.lineName || '', curso: COURSE_CONFIG.courseId };
+    fetch(COURSE_CONFIG.googleScriptUrl, { method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify(cuerpo) })
+        .then(function (r) { return r.json(); })
+        .then(function (res) {
+            if (res && res.success) {
+                estado.textContent = '✅ ¡Gracias! Recibimos tu mensaje.';
+                document.getElementById('retroTexto').value = '';
+                setTimeout(function () { var m = document.getElementById('retroModal'); if (m) m.remove(); }, 1800);
+            } else {
+                estado.textContent = '⚠️ ' + ((res && res.error) || 'No pudimos enviarlo. Intenta de nuevo.');
+                boton.disabled = false;
+            }
+        })
+        .catch(function () { estado.textContent = '⚠️ Sin conexión. Intenta de nuevo.'; boton.disabled = false; });
+}
 
     </script>
     <script src="../assets/theme-toggle.js"></script>

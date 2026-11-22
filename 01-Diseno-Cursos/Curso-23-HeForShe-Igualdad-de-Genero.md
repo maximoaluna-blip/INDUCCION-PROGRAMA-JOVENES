@@ -58,12 +58,12 @@ Hilo: **la Comunidad de Paula**; en el campamento el reparto de tareas «salió 
 | # | Lección | Contenido |
 |---|---|---|
 | 1 | 🤝 No es un tema de mujeres | Hook; qué es HeForShe; acuerdo 2017; Mensajeros de la Paz; qué NO es el curso (incluida la decisión de alcance). |
-| 2 | ⚖️ Igualdad, estereotipos y lo que HeForShe les pide a ellos | Definiciones del Kit; DDHH; liderazgo femenino bajo; mensajes p. 82; micromachismos (p. 69); «masculinidades invasivas» (Modelo p. 99). |
+| 2 | ⚖️ Igualdad, estereotipos y lo que HeForShe les pide a ellos | Abre volviendo a las fotos de Paula (lo que nadie decidió) antes de las definiciones; definiciones del Kit; DDHH; liderazgo femenino bajo; mensajes p. 82; micromachismos (p. 69); «masculinidades invasivas» (Modelo p. 99). |
 | 3 | 🏕️ Coeducación: donde se juega todos los días | Modelo Cap. 14 (requisito); Características Esenciales p. 14; tres lugares donde mirar; Paula al Congreso con las fotos. |
 | 4 | 🧭 El viaje del desafío | Cinco pasos (Manual p. 31); A/B y tres fases (Kit p. 14); autoevaluación del Kit (sin apoyarse en el 22, ADR-019); requisitos del adulto (discrepancia). |
 | 5 | 🗺️ Lo que el Kit propone para cada rama | Competencias A/B por rama; edades; «caminantes»; **los temas delicados**: nombrados, con tres cuidados. |
 | 6 | 🛡️ Casos, no historias propias | Relatos que pide el Kit; caso hipotético (p. 35); cuatro pasos si alguien cuenta lo suyo (Política p. 21, botón, Comité, autoridades); rutas de atención del Clan; publicar con autorización. |
-| 7 | 🏅 Actúa, reconoce y sigue | Ceremonia; tres reconocimientos (desafío, Emisor/a, Embajador/a); cobro del hook; Y en tu rama; cuatro preguntas; qué sigue (24); misión. |
+| 7 | 🏅 Actúa, reconoce y sigue | Ceremonia; tres reconocimientos (desafío, Emisor/a, Embajador/a); cobro del hook; Y en tu rama (en Clan, el vínculo con el PARCE, Guía de Clan 2026 §11.3); cuatro preguntas; qué sigue (24); misión. |
 
 ## 4. Colaterales
 
@@ -74,3 +74,5 @@ Catálogo (orden 23), workflow E2E, portal y panel (24); el 22 anuncia el 23; gl
 _Documento de diseño v1.1 — 28 de septiembre de 2026. La v1.1 recoge tres vueltas de auditoría: el «solo» de la frase eje; el desafío se **presenta** en el órgano de la rama pero lo **asume cada protagonista**; la L6 remite a *El Adulto como Garante* (el Curso 25 no enseña qué hacer ante una revelación), informar a las autoridades «cuando el caso lo pide» y reportar aunque lo que le pasa ocurra fuera del Grupo; la insignia y la p. 67 del Manual; la L2 evalúa los micromachismos y la L7 «la insignia no es la meta»; objetivos medibles; duración 40 min. El JSON manda._
 
 _Re-auditoría pedagógica del 08/11/2026 (`docs/reauditoria-2026-11/PJ/kit-heforshe-genero-pedagogica.md`), aplicada en el JSON: distractores de L3·Q1, L4·Q1, L4·Q3 y L5·Q3 con actitudes distintas; correctas de L2·Q2, L3·Q3 y L6·Q2 sin eco de la lección; L4 y L5 ya no se apoyan en el Curso 22; reflexiones de L3 y L7 concretas; el objetivo 5 partido en dos (adaptar / reportar)._
+
+_Decisiones del 22/11/2026 (decisor con autoridad delegada; contentVersion 2026-11-22), aplicadas en el JSON: L2 abre con el ejemplo antes de las definiciones (el párrafo nuevo reemplaza «Paula no quiere dar una charla…»); L7·Q3 nueva, en la Corte de Honor, órgano de guías y dirigentes (Guía de Dirigente de Tropa 2026, p. 28), sin copiar la misión; reflexión de L7 con la ceremonia al terminar el desafío (Manual p. 31, paso 5); distractor C de L7·Q1 con la confusión club/proyecto y comisión regional/nacional (Manual pp. 36–37); para romper la correcta como punto medio entre exceso y defecto, distractores laterales en L2·Q1, L4·Q1, L5·Q1 y L6·Q2; longitudes emparejadas en L2·Q2, L3·Q3 y L6·Q2; L4·Q3 sin la fórmula en el enunciado ni el eco en la correcta. Se conservan «Las cuatro preguntas» (patrón de los kits del Nivel 4) y el texto por rama de «Y en tu rama»._

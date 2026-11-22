@@ -3,7 +3,7 @@
   "title": "Seguimiento de la Progresión Personal",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "El primero de los tres cursos operativos, y el que sirve a las cinco ramas a la vez. Cómo mirar con intención, registrar lo justo y acordar un paso siguiente, sin que el seguimiento se convierta en papeleo. Los instrumentos oficiales llegan al final, y a propósito.",
-  "contentVersion": "2026-11-08",
+  "contentVersion": "2026-11-22",
   "icon": "🛠️",
   "duration": "64 minutos",
   "level": 2,
@@ -223,8 +223,8 @@
             "text": "Una jefa de Comunidad eligió para convivencia una sola conducta observable este ciclo, y piensa mirarla una vez, el último día. ¿Qué le ajustarías?",
             "options": [
               "Que sume una o dos conductas más y las mire en dos o tres momentos del ciclo: con una sola mirada no se ve progreso.",
-              "Que lo deje así: mientras menos se observa, más se sostiene, y una sola mirada al cierre del ciclo ya cuenta como seguimiento.",
-              "Que cambie esa conducta por un rasgo amplio, como «es buena compañera», que abarca toda la convivencia de una sola vez."
+              "Que cada mes la cambie por otra conducta de convivencia, para cubrir más terreno con el mismo esfuerzo del ciclo.",
+              "Que la mantenga, y el último día la mire con una lista de cotejo, para que el dato del ciclo salga comparable."
             ],
             "correctIndex": 0
           },
@@ -486,11 +486,11 @@
           {
             "text": "La Manada de Andrés lleva dos meses con el «mínimo mínimo» y ya le sale sin esfuerzo. ¿Qué le recomiendas ahora?",
             "options": [
-              "Que sume una herramienta del kit de su rama, como la lista de cotejo de seisena, y la sostenga otro mes.",
-              "Que no toque nada: si el mínimo funciona, sumarle cualquier herramienta es el primer paso para abandonarlo.",
-              "Que cambie el anecdótico por una bitácora que lleven los lobatos, para que registren ellos su propio avance."
+              "Que pase de una vez al kit completo de Manada, con sus cuatro herramientas: el equipo ya probó que puede.",
+              "Que cambie el anecdótico por una bitácora que lleven los lobatos, para que registren ellos su propio avance.",
+              "Que sume una herramienta del kit de su rama, como la lista de cotejo de seisena, y la sostenga otro mes."
             ],
-            "correctIndex": 0
+            "correctIndex": 2
           },
           {
             "text": "Un guía de patrulla propone usar el Libro de Oro de la patrulla para anotar los acuerdos y los roles de cada reunión. ¿Qué le respondes?",
@@ -625,7 +625,7 @@
         },
         {
           "type": "info-box",
-          "text": "🗂️ <strong>Pocas evidencias, bien elegidas.</strong> Por ciclo: tres o cuatro en Cachorros y Lobatos (foto y frase); cinco o seis en Scouts; seis a ocho por proyecto en Nómadas Scout; y en Rovers, máximo ocho por proyecto, seleccionadas y con reflexión de transferencia; y en el portafolio del kit, no más de tres por ciclo. Son techos, no metas: el kit de tu rama casi siempre pide menos. Una carpeta sin límite deja de ser portafolio y se vuelve archivo."
+          "text": "🗂️ <strong>Pocas evidencias, bien elegidas.</strong> Por ciclo: tres o cuatro en Cachorros y Lobatos (foto y frase); cinco o seis en Scouts; seis u ocho por proyecto en Nómadas Scout. En Rovers hay dos cifras que miden cosas distintas: un proyecto puede reunir hasta ocho, seleccionadas y con reflexión de transferencia, pero al portafolio del ciclo pasan como máximo tres, con contexto y reflexión breve. Son techos, no metas: el kit de tu rama casi siempre pide menos. Una carpeta sin límite deja de ser portafolio y se vuelve archivo."
         },
         {
           "type": "info-box",
@@ -642,8 +642,8 @@
           {
             "text": "Una Comunidad pasó seis semanas montando una huerta en el patio del colegio vecino y el viernes se la entrega al comité de padres. ¿Con qué cierra la jefa esa experiencia?",
             "options": [
-              "Con una lista de cotejo de la parte técnica, una foto del montaje y la revisión del acuerdo la semana siguiente.",
-              "Con la huerta entregada como evidencia, lo que diga quien la recibe y una pregunta de transferencia.",
+              "Con una lista de cotejo de la parte técnica, una foto del montaje y una revisión la semana siguiente.",
+              "Con la huerta entregada como evidencia, lo que diga de ella quien la recibe y una pregunta de transferencia.",
               "Con un registro de hábitos de las seis semanas y una señal simple de avance por cada nómada del equipo."
             ],
             "correctIndex": 1
@@ -660,11 +660,11 @@
           {
             "text": "En el campamento, un dirigente de Tropa decidió mirar cómo asumen los roles y lleva su libreta. A media tarde, dos scouts discuten por la carpa y lo arreglan solos. ¿Qué le ajustarías?",
             "options": [
-              "Que anote además una línea de conflicto–resolución cuando dos scouts discuten por la carpa y lo arreglan.",
               "Que guarde la libreta durante el campamento: registrar mientras pasa la actividad la vuelve un examen.",
-              "Que anote todo, pero de una sola patrulla por día, para que el registro de cada una quede completo."
+              "Que deje los roles para otro día y pase su foco a la convivencia, que es lo que de verdad se vio esa tarde.",
+              "Que sume una línea breve sobre cómo resolvieron el desacuerdo, aunque hoy su foco fueran los roles."
             ],
-            "correctIndex": 0
+            "correctIndex": 2
           }
         ]
       }
@@ -1057,7 +1057,7 @@
         },
         {
           "type": "info-box",
-          "text": "🏕️ <strong>Y en tu rama.</strong> En Familia y Manada casi todo lo escribe el dirigente y las familias están cerca: una nota mal puesta llega a casa. En Tropa la bitácora la escriben los propios scouts, y ahí hay que enseñar a escribir hechos y no apodos. En Comunidad y Clan el protagonista lleva su propia bitácora: lo que tú guardes sobre él, guárdalo sabiendo que él tiene derecho a leerlo."
+          "text": "🏕️ <strong>Y en tu rama.</strong> En Familia y Manada casi todo lo escribe el dirigente y las familias están cerca: una nota mal puesta llega a casa. En Tropa la bitácora la escriben los propios scouts, y ahí hay que enseñar a escribir hechos y no apodos. En Comunidad y Clan el protagonista lleva su propia bitácora y escribe sobre sí mismo. En todas las ramas vale la misma prueba: escribe como si el protagonista y su familia fueran a leerlo."
         }
       ],
       "reflection": {
@@ -1071,7 +1071,7 @@
             "text": "Durante una salida, un scout le cuenta a Marcela algo delicado de su situación familiar. Ella ya activó la ruta institucional. Esa noche, ¿qué escribe sobre él en la bitácora de seguimiento?",
             "options": [
               "Lo educativo que sí vio en la salida, como el rol que asumió en la patrulla, y nada de lo que él le contó.",
-              "Nada sobre ese scout por un tiempo: después de una revelación, cualquier nota sobre él lo deja más expuesto.",
+              "Lo educativo de la salida y, en una hoja aparte de la misma carpeta, lo que él contó, por si vuelve a pasar.",
               "Una línea neutra, «situación familiar difícil», sin detalles, para que el resto del equipo lo tenga presente."
             ],
             "correctIndex": 0
@@ -1149,7 +1149,11 @@
         },
         {
           "type": "info-box",
-          "text": "📌 <strong>Ojo con los nombres de las hojas.</strong> El Archivo Base rotula por <strong>rama</strong> (Cachorros, Lobatos, Scouts, Nómadas Scout, Rovers) y el Registro rotula por <strong>unidad</strong> (Familia, Manada, Tropa, Comunidad, Clan). Los dos están bien: son las dos caras de la misma distinción que viste en el curso de tu rama. Y si eres de <strong>Familia</strong>, ojo con la palabra «dimensión». En tu Guía las dimensiones son cinco —Corporal, Cognitiva, Ética, Socio-Afectiva y Espiritual—, y el Registro usa esas mismas cinco: por eso <strong>junta Afectividad y Sociabilidad</strong>. El Archivo Base, en cambio, llama «Dimensión» a cada una de sus veintidós casillas, repartidas en las seis áreas. Ninguno está mal: usa el Archivo Base para decidir qué mirar y el Registro para anotar."
+          "text": "📌 <strong>Ojo con los nombres de las hojas.</strong> El Archivo Base rotula por <strong>rama</strong> (Cachorros, Lobatos, Scouts, Nómadas Scout, Rovers) y el Registro rotula por <strong>unidad</strong> (Familia, Manada, Tropa, Comunidad, Clan). Los dos están bien: son las dos caras de la misma distinción que viste en el curso de tu rama."
+        },
+        {
+          "type": "info-box",
+          "text": "🏡 <strong>Si acompañas Familia</strong>, ojo con la palabra «dimensión». En tu Guía las dimensiones son cinco —Corporal, Cognitiva, Ética, Socio-Afectiva y Espiritual—, y el Registro las agrupa igual, en cinco, aunque con los nombres de las áreas: Corporalidad, Creatividad, Carácter, Socioafectividad y Espiritualidad. Por eso <strong>junta Afectividad y Sociabilidad</strong>. El Archivo Base, en cambio, llama «Dimensión» a cada una de sus veintidós casillas, repartidas en las seis áreas. Ninguno está mal: usa el Archivo Base para decidir qué mirar y el Registro para anotar."
         },
         {
           "type": "heading",
@@ -1175,7 +1179,7 @@
         },
         {
           "type": "info-box",
-          "text": "🏕️ <strong>Y en tu rama.</strong> Abre primero la hoja con el nombre de tu <strong>rama</strong> en el Archivo Base —Cachorros, Lobatos, Scouts, Nómadas Scout o Rovers— y después la hoja con el nombre de tu <strong>unidad</strong> en el Registro: Familia, Manada, Tropa, Comunidad o Clan. Son dos nombres para los mismos chicos, y son las dos únicas hojas que necesitas hoy. El resto del archivo no es para ti esta semana."
+          "text": "🏕️ <strong>Y en tu rama.</strong> Abre primero la hoja de tu <strong>rama</strong> en el Archivo Base y después la de tu <strong>unidad</strong> en el Registro. Son dos nombres para los mismos chicos, y son las dos únicas hojas que necesitas hoy. El resto del archivo no es para ti esta semana."
         },
         {
           "type": "heading",
@@ -1220,18 +1224,18 @@
             "options": [
               "Que marque uno solo: los tres niveles se recorren en orden, y una experiencia se registra en uno.",
               "Que está bien: son el antes, el durante y el después de la actividad, y cada uno tiene su casilla.",
-              "Que deje la casilla vacía hasta el cierre del ciclo, y entonces marque el nivel más alto que alcanzó."
+              "Que marque solo Profundiza: si tocó los tres, el nivel que cuenta es el más alto que alcanzó."
             ],
             "correctIndex": 0
           },
           {
             "text": "Una jefa de Clan llenó el Registro para un rover en ocho minutos, sin poner nada de más. ¿Qué hace la semana siguiente?",
             "options": [
-              "Elige una herramienta del kit del Clan, como la rúbrica de transferencia, y la sostiene un mes con ese rover.",
               "Llena el Registro para los otros trece rovers ese mismo fin de semana, ahora que ya le cogió el tiro al formato.",
-              "Espera al cierre del ciclo para volver a abrir el Registro, porque antes no habrá nada nuevo que anotar en él."
+              "Elige una herramienta del kit del Clan, como la rúbrica de transferencia, y la sostiene un mes con ese rover.",
+              "Abre para ese rover las cuatro herramientas del kit del Clan a la vez, ya que el Registro le salió tan rápido."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
           }
         ]
       }

@@ -3,7 +3,7 @@
   "title": "Características Esenciales del Movimiento Scout",
   "subtitle": "El \"qué\" del Movimiento según la OMMS (Kuala Lumpur, 2019)",
   "description": "El Curso 4 de la Línea Programa de Jóvenes entrega la identidad doctrinal del Movimiento: su Propósito, sus 3 Principios y los 6 elementos que lo distinguen de cualquier otra propuesta para jóvenes. Al final vas a poder explicarle a alguien externo qué es el Movimiento Scout en menos de un minuto, sin recurrir a uniformes ni a campamentos.",
-  "contentVersion": "2026-11-08",
+  "contentVersion": "2026-11-22",
   "icon": "🌟",
   "duration": "33 minutos",
   "level": 1,
@@ -24,7 +24,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Te damos la bienvenida. Imagina la reunión de padres: una mamá te pregunta «¿y esto en qué se diferencia de un club deportivo o de una academia?». Muchos dirigentes con años en el Movimiento responden «acampamos y usamos pañoleta». No es falta de compromiso: casi nadie ha leído el documento que define al Movimiento. Este curso es esa lectura básica, traducida."
+          "text": "Te damos la bienvenida. Imagina la reunión de padres: una mamá te pregunta «¿y esto en qué se diferencia de un club deportivo o de una academia?». Muchos dirigentes con años en el Movimiento responden «acampamos y usamos pañoleta». No es falta de compromiso: muchos no han leído el documento que define al Movimiento. Este curso es esa lectura básica, traducida."
         },
         {
           "type": "heading",
@@ -60,7 +60,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Antes de hablar de cómo se hace algo, conviene saber <strong>para qué se hace</strong>. El Movimiento Scout tiene un solo Propósito, y viene de su documento fundacional: la Constitución de la OMMS. El texto que vas a leer es ese Propósito, tal como lo recoge el documento de la OMMS de 2019 que estamos usando."
+          "text": "Antes de hablar de cómo se hace algo, conviene saber <strong>para qué se hace</strong>. El Movimiento Scout tiene un solo Propósito, y viene de la Constitución de la OMMS. El texto que vas a leer es ese Propósito, tal como lo recoge el documento de la OMMS de 2019 que estamos usando."
         },
         {
           "type": "policy-quote",
@@ -150,27 +150,27 @@
           {
             "text": "Una mamá le dice al dirigente: «Como mi hijo pasa los sábados con ustedes, prefiero que el grupo se encargue de formarlo; en la casa no nos alcanza el tiempo». Según el Propósito, ¿qué le responde?",
             "options": [
-              "Que el grupo puede asumir esa formación, porque el Propósito pide trabajar a la persona entera en sus 5 ámbitos integrados.",
-              "Que el grupo aporta su parte al desarrollo de su hijo, junto a la familia y la escuela, sin reemplazar a ninguna.",
-              "Que el grupo se ocupa del cuerpo, los vínculos y el sentido, y que lo intelectual le corresponde a la escuela."
+              "Que la formación quede a cargo del grupo los sábados, y la casa se ocupe de lo que alcance entre semana.",
+              "Que no puede: el grupo contribuye al desarrollo de su hijo, pero no reemplaza a la familia ni a la escuela.",
+              "Que el grupo carga con una parte mayor mientras la familia tiene poco tiempo, y después se la devuelve."
             ],
             "correctIndex": 1
           },
           {
             "text": "Un dirigente revisa su plan del trimestre con los 5 ámbitos del Propósito y le salen todos cubiertos. Su par le dice: «Con las áreas de crecimiento de Colombia todavía te falta una». ¿Cuál es y por qué no aparecía?",
             "options": [
-              "Carácter: la voluntad y las decisiones éticas; el Propósito no la nombra, pero la PNPJ la cuenta.",
-              "Espiritualidad: el Propósito la deja por fuera, porque el Movimiento no le impone ninguna religión.",
-              "Creatividad: el ámbito intelectual cubre lo que ya hace la escuela, pero no lo que el joven inventa."
+              "Carácter, porque la suma la PNPJ: la voluntad y las decisiones éticas no están en el Propósito.",
+              "Espiritualidad: el Propósito la deja por fuera para no imponerle al joven ninguna religión.",
+              "Creatividad: el Propósito habla de lo intelectual, que es pensar, y crear es otra cosa distinta."
             ],
             "correctIndex": 0
           },
           {
             "text": "Un dirigente armaba solo torneos deportivos y excursiones. Al revisarlo, propone repartir el año: un trimestre para lo físico, otro para lo intelectual, otro para lo emocional, y así. Según el Propósito, ¿qué le dirías?",
             "options": [
-              "Que sigue separando los ámbitos, y el Propósito busca los 5 integrados en la persona entera.",
-              "Que ya cumple el Propósito, porque cubre los 5 ámbitos a lo largo del año sin descuidar ninguno.",
-              "Que no hacía falta cambiar si los jóvenes eligieron los torneos: que ellos decidan ya cumple el Propósito."
+              "Que así sigue separando los ámbitos: el Propósito los busca integrados en la persona, no por turnos.",
+              "Que el plan queda bien, porque repartir los 5 ámbitos en el año asegura que ninguno se quede sin tiempo.",
+              "Que no cambie nada: un buen torneo, si es seguro y divertido, trabaja por sí solo a la persona entera."
             ],
             "correctIndex": 0
           }
@@ -189,7 +189,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Si el Propósito dice <strong>para qué existe</strong> el Movimiento, los Principios dicen <strong>sobre qué se sostiene</strong>. Son tres relaciones que el escultismo cuida en todo joven y todo adulto que entra: con la vida espiritual, con los demás y con uno mismo."
+          "text": "Si el Propósito dice <strong>para qué existe</strong> el Movimiento, los Principios dicen <strong>sobre qué se sostiene</strong>. Si tomaste el Curso 2, ya conoces lo que B-P propuso en 1922: educar por el amor y no por el temor. Los Principios no reemplazan esa idea: son otra pieza del mismo Movimiento. Son tres relaciones que el escultismo cuida en todo joven y todo adulto que entra: con la vida espiritual, con los demás y con uno mismo."
         },
         {
           "type": "heading",
@@ -254,9 +254,9 @@
           {
             "text": "En un campamento hay jóvenes de varias creencias y uno que dice no tener ninguna. Los dirigentes discuten qué hacer con el momento espiritual de la noche. Según el Deber con Dios, tal como lo presenta la lección, ¿qué conviene?",
             "options": [
-              "Suprimir el momento espiritual del campamento, para no incomodar a ninguna de las familias del grupo.",
-              "Mantener el momento con una oración común que la patrulla escoja por votación entre todos.",
-              "Mantener el momento como silencio o reflexión que cada joven vive desde su fe o su búsqueda."
+              "Suprimirlo en este campamento, porque con tantas creencias distintas la fe es asunto de cada familia.",
+              "Hacerlo aparte, solo con los que tienen religión, mientras el resto prepara el fogón de la noche.",
+              "Mantenerlo para todos como silencio o reflexión, que cada uno vive desde su fe o desde su búsqueda."
             ],
             "correctIndex": 2
           },
@@ -323,7 +323,7 @@
             },
             {
               "title": "🌍 Abierto a todos",
-              "description": "Sin distinción de origen, raza, credo, género, condición social, capacidad o cualquier otra característica. En la ASC, coeducación y no-discriminación son innegociables.",
+              "description": "Sin distinción de origen, raza, credo, género, condición social, capacidad o cualquier otra característica. En la ASC, coeducación y no-discriminación son innegociables. Entrar o no lo decide el joven que llega: nadie más decide si es «adecuado» para el Movimiento.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
@@ -378,8 +378,8 @@
           {
             "text": "La empresa que donó las carpas pide, como agradecimiento, que la tropa desfile con camisetas de su marca y reparta volantes de su producto. Los jóvenes están felices con las carpas. Según el elemento «independiente», ¿qué hace el dirigente?",
             "options": [
-              "Lo pone a votación de la tropa: si los jóvenes aceptan desfilar con la marca, la decisión es de ellos.",
-              "Devuelve las carpas: aceptar cosas de una empresa siempre deja al grupo en deuda con sus intereses.",
+              "Acepta el desfile por esta vez: negarse después de recibir las carpas sería una falta de gratitud.",
+              "Negocia con la empresa: la tropa desfila con las camisetas, pero no reparte los volantes del producto.",
               "Agradece la donación y dice que no al desfile ni a los volantes: el apoyo no compra el programa."
             ],
             "correctIndex": 2
@@ -396,8 +396,8 @@
           {
             "text": "La patrulla vota no recibir a un chico nuevo que usa silla de ruedas, porque «los atrasaría en las caminatas». Según los 6 elementos, ¿qué hace el dirigente?",
             "options": [
-              "Respeta la votación: el Movimiento es de los jóvenes, y la patrulla decide con quién quiere caminar.",
-              "Interviene: un voto no puede cerrar la puerta, y «abierto a todos» está por encima de la mayoría.",
+              "Acepta lo que decidió la patrulla y habla aparte con el chico para buscarle cupo en otra patrulla.",
+              "Interviene: entrar lo decide el joven que llega, y ni un voto de la patrulla le cierra la puerta.",
               "Le recomienda a la familia otro grupo con más experiencia en discapacidad, para no forzar a la patrulla."
             ],
             "correctIndex": 1
@@ -437,32 +437,32 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "Los 4 tipos de apoyo del adulto"
+          "text": "Los 4 tipos de apoyo del adulto, en un mismo caso"
         },
         {
           "type": "method-grid",
           "items": [
             {
               "title": "📚 Apoyo educativo",
-              "description": "Facilitar oportunidades de aprendizaje, sugerir desafíos, sostener el ciclo de programa.",
+              "description": "Facilitar oportunidades de aprendizaje y sugerir desafíos. En el proyecto de servicio de la patrulla: les propones averiguar qué necesita de verdad el barrio.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
             {
               "title": "💗 Apoyo emocional",
-              "description": "Acompañar al protagonista en sus momentos de duda, frustración o alegría.",
+              "description": "Acompañar con empatía y confianza en la duda, la frustración o la alegría. En el proyecto: estás ahí si los vecinos no responden como esperaban.",
               "color": "#fce4ec",
               "borderColor": "#e91e63"
             },
             {
               "title": "ℹ️ Apoyo informativo",
-              "description": "Dar la información que el joven necesita para decidir, sin decidir por él.",
+              "description": "Dar la información que el joven necesita para decidir, sin decidir por él. En el proyecto: les cuentas qué materiales y permisos hacen falta; el proyecto lo eligen ellos.",
               "color": "#fff3e0",
               "borderColor": "#fb8c00"
             },
             {
               "title": "✅ Apoyo evaluativo (la PNPJ lo llama <strong>valorativo</strong>: es lo mismo)",
-              "description": "Ayudar al joven a mirar su propio proceso y a celebrarlo o ajustarlo.",
+              "description": "Ayudar al joven a mirar su propio proceso y a celebrarlo o ajustarlo. Al terminar el proyecto: les ayudas a ver qué salió bien y qué harían distinto.",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             }
@@ -492,27 +492,27 @@
           {
             "text": "Una tropa elige para su campamento un lugar sin riesgos para su seguridad, pero a seis horas de viaje: de los dos días, casi todo se iría en carretera. El dirigente lo nota; los jóvenes, no. Según la lección, ¿qué le toca hacer?",
             "options": [
-              "No decirles nada: si el Movimiento es de los jóvenes, el adulto no opina sobre sus decisiones.",
               "Cambiar él el lugar, porque la logística del campamento es tarea del adulto responsable.",
-              "No decidir por ellos: contarles lo que ve y dejar que la tropa resuelva si cambia el lugar."
+              "Conseguir él un lugar más cercano y presentárselo a la tropa como la mejor opción para este campamento.",
+              "Contarles lo que ve y dejar que la tropa resuelva: el Movimiento es de los jóvenes."
             ],
             "correctIndex": 2
           },
           {
             "text": "En la reunión de tropa los jóvenes votan que un papá que llegó hace dos semanas, y con quien nadie del grupo ha hablado todavía, los acompañe solo en la caminata del domingo. Según Primum non nocere, ¿qué hace el dirigente?",
             "options": [
-              "Respetar la votación: el Movimiento es de los jóvenes, y elegir quién los acompaña también les toca a ellos.",
+              "Aceptar lo que decidió la tropa: elegir quién los acompaña en una salida también les toca a ellos.",
               "Decirles que esta vez no: antes de dejar a un adulto con jóvenes hay que conocerlo, formarlo y acompañarlo.",
-              "Aceptar si la familia del papá responde por él, porque ellos lo conocen mejor que nadie en el grupo."
+              "Dejarlo ir si la familia del papá responde por él: ellos lo conocen mejor que cualquier dirigente del grupo."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Para agilizar, el consejo de grupo propone que los dirigentes armen el programa del año y se lo presenten a las patrullas ya listo. Un dirigente nuevo pregunta qué diría la frase eje de la OMMS. ¿Qué le respondes?",
+            "text": "Para agilizar, los dirigentes de la unidad proponen armar ellos el programa del próximo ciclo y presentárselo a las patrullas ya listo. Un dirigente nuevo pregunta qué diría la frase eje de la OMMS. ¿Qué le respondes?",
             "options": [
-              "Que está bien si después las patrullas lo votan en su consejo: aprobar lo que preparó el adulto ya es decidir.",
+              "Que está bien si después las patrullas lo aprueban en el consejo de unidad: al aprobarlo, la decisión es de ellas.",
               "Que así lo gestionan los adultos en nombre de los jóvenes: que las patrullas propongan y decidan, con su apoyo.",
-              "Que los adultos no deberían tocar el programa del año: si el Movimiento es de los jóvenes, el consejo sobra."
+              "Que lo acepte solo por este ciclo, para no perder tiempo, y que en el siguiente las patrullas vuelvan a proponer."
             ],
             "correctIndex": 1
           }
@@ -595,8 +595,8 @@
             "text": "Un grupo colabora con el colegio en una jornada de salud: los jóvenes reparten volantes que diseñaron y decidieron los adultos. Al pasarla por el test de pertenencia, falla en «joven sujeto activo». Según la lección, ¿qué le aconsejas al grupo?",
             "options": [
               "Que la haga igual, pero sin contarla como actividad scout: para esa jornada usa otro marco.",
-              "Que la ajuste: con que los jóvenes entreguen los volantes y hablen con la gente, ya son sujeto activo.",
-              "Que la cuente como scout: cumple 3 de 4 criterios y el servicio también es un Principio."
+              "Que la ajuste: si los jóvenes entregan los volantes y hablan con la gente, eso los hace sujeto activo.",
+              "Que la cuente como scout: 3 de 4 criterios bastan, y el servicio también es un Principio."
             ],
             "correctIndex": 0
           },
@@ -605,16 +605,16 @@
             "options": [
               "Que le faltan elementos: esa pregunta del test pide revisar los 8 del Método, no solo tres.",
               "Que va bien: esos tres son los elementos que más pesan para decidir si algo es scout.",
-              "Que está mirando el Método; esa pregunta pide los 6 elementos que definen al Movimiento."
+              "Que está mirando el Método, porque esa pregunta pide los 6 elementos que definen al Movimiento."
             ],
             "correctIndex": 2
           },
           {
-            "text": "Un dirigente escribe: «El Movimiento Scout es una hermandad que existe para que los jóvenes crezcan, basado en que es voluntario y abierto a todos, y se distingue porque es independiente». Al revisarla con él, ¿qué ajuste le sugieres?",
+            "text": "Un dirigente escribe: «El Movimiento Scout es una hermandad que existe para que los jóvenes crezcan, basado en los deberes con Dios, con los otros y consigo mismo, y se distingue porque trabaja en patrullas y vive al aire libre». Al revisarla con él, ¿qué ajuste le sugieres?",
             "options": [
-              "Que en «basado en» ponga los 3 Principios: voluntario y abierto son elementos y van en «se distingue».",
-              "Que en «existe para» ponga los 8 elementos del Método, porque el Propósito se cumple al aplicarlos.",
-              "Que está completa: lo importante es que sea suya, y la plantilla admite las ideas en cualquier orden."
+              "Que en «se distingue» ponga los 6 elementos del Movimiento: patrullas y aire libre son del Método.",
+              "Que en «existe para» ponga los 8 elementos del Método: el Propósito se cumple al aplicarlos.",
+              "Que está completa: es su definición, y en «se distingue» cabe lo que a él más le resuene."
             ],
             "correctIndex": 0
           }

@@ -3,7 +3,7 @@
   "title": "HeForShe: igualdad de género en tu unidad",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Cómo se lleva a tu unidad el desafío HeForShe, de Mensajeros de la Paz: qué es la igualdad de género y qué les pide HeForShe a los hombres y a los niños, la coeducación en la vida diaria de la unidad, el viaje del desafío y sus actividades por rama, cómo trabajar las violencias basadas en género con casos y no con historias propias, y a dónde lleva: la insignia, el taller y la acción HeForShe. No es solo un tema de mujeres: es asunto de todos. Para dirigentes de Manada, Tropa, Comunidad y Clan.",
-  "contentVersion": "2026-11-08",
+  "contentVersion": "2026-11-22",
   "icon": "🤝",
   "duration": "43 minutos",
   "level": 4,
@@ -149,14 +149,14 @@
             "options": [
               "Que las scouts frenen ese micromachismo y respondan al chiste: el comentario va contra ellas, así que les toca a ellas.",
               "Que los chicos lo reconozcan como un micromachismo y acuerden con las chicas qué frases va a dejar la patrulla.",
-              "Que el dirigente pare el juego y dé ahí mismo una charla sobre igualdad a toda la Tropa, para que nadie lo repita."
+              "Que el scout que gritó le pida perdón al del pase: la burla fue contra él, y con la disculpa entre los dos se cierra el asunto."
             ],
             "correctIndex": 1
           },
           {
             "text": "Una dirigente de Tropa dice: «Aquí hay igualdad: a nadie se le prohíbe nada, y cualquier scout puede ser guía de patrulla». Hace tres años que todos los guías son chicos. ¿Qué le falta mirar, según la lección?",
             "options": [
-              "Si las scouts tienen la misma información y el mismo plazo para postularse: con eso hay igualdad y el resto es su elección.",
+              "Si las scouts tienen la misma información y el mismo plazo para postularse: con eso ya hay igualdad, y lo demás es elección de cada una.",
               "Por qué ninguna scout se postula ni sale elegida: qué se piensa en la Tropa sobre quién sirve para guiar y cómo pesa eso en los votos.",
               "Si conviene que el dirigente nombre guía a una scout el próximo año, para equilibrar sin esperar a la elección de la patrulla."
             ],
@@ -176,7 +176,7 @@
       "sections": [
         {
           "type": "paragraph",
-          "text": "Paula no quiere dar una charla sin tener claras las palabras. El Kit las trae, en sus notas al pie, y conviene tenerlas a mano porque se usan mal con facilidad."
+          "text": "Vuelve a las fotos de Paula: nadie prohibió que los nómadas cocinaran, y aun así ninguno cocinó. Eso que nadie decidió pero todos dieron por hecho tiene nombre en el Kit, que en sus notas al pie trae dos palabras que conviene tener claras, porque se usan mal con facilidad."
         },
         {
           "type": "info-box",
@@ -258,8 +258,8 @@
             "text": "En una Manada, los turnos de los lobatos ya rotan. En el equipo de dirigentes, en cambio, las dirigentes preparan siempre la comida del campamento y los dirigentes dirigen los juegos grandes. ¿Qué diría la lección?",
             "options": [
               "Que el equipo de dirigentes también rote: los lobatos aprenden de quién cocina y quién dirige entre los adultos, no solo de sus turnos.",
-              "Que no pesa: la coeducación es un requisito del Programa para los niños, y el reparto entre adultos es asunto del equipo.",
-              "Que lo compense una actividad del Kit sobre roles, como Cocinando ando, para que los lobatos discutan el reparto."
+              "Que no pesa: la coeducación es un requisito del Programa para los niños, y cómo se reparten las tareas entre adultos es asunto del equipo.",
+              "Que lo compense con una actividad del Kit sobre roles, como Cocinando ando, para que los lobatos discutan en la Manada quién hace qué."
             ],
             "correctIndex": 0
           }
@@ -318,7 +318,7 @@
           {
             "text": "Un dirigente de Clan quiere que todo su Clan haga HeForShe este año y ya escogió las seis actividades para todos. ¿Qué diría el Kit?",
             "options": [
-              "Que está bien si escoge solo las dos obligatorias de Toma conciencia, porque el resto no necesita ningún acuerdo previo.",
+              "Que está bien si antes lo vota el Consejo de Clan: si la mayoría acepta, todo el Clan hace el desafío con esas seis.",
               "Que cada rover decide si lo asume, porque el desafío es de cada uno, y acuerda con él sus seis actividades.",
               "Que no le toca escoger nada: cada rover arma solo sus seis actividades y el dirigente firma la hoja al terminar."
             ],
@@ -334,10 +334,10 @@
             "correctIndex": 2
           },
           {
-            "text": "Un scout acordó su ruta: en la parte A, Toma conciencia y dos actividades de Actúa; en la parte B, una de cada fase. Son seis. ¿Le alcanza para la insignia?",
+            "text": "Un scout acordó su ruta: en la parte A, Toma conciencia y dos actividades de Actúa; en la parte B, Toma conciencia, Comparte y Actúa. Son seis. ¿Le alcanza para la insignia?",
             "options": [
               "Le alcanza: suma las seis e incluye la de Toma conciencia en cada parte, que es lo único obligatorio de la ruta.",
-              "Le falta una: pide una actividad de cada fase en cada parte, y en la parte A no tiene ninguna de Comparte.",
+              "Le falta una: en la parte A tiene dos de Actúa y ninguna de Comparte, y cada parte debe cubrir sus tres fases.",
               "Le falta una: las dos de Toma conciencia obligatorias van juntas en la parte A, y ahí solo tiene una."
             ],
             "correctIndex": 1
@@ -426,7 +426,7 @@
             "options": [
               "Que la ajuste a la edad con la Guía y, para no dividir al Grupo, la presente como un juego de convivencia sin nombrar el tema.",
               "Que la ajuste a la edad con la Guía, la explique antes a las familias y cuente con su visto bueno, y pregunte sin opinar.",
-              "Que la trabaje con su postura clara desde el inicio, para que los lobatos tengan un referente adulto firme en lo que divide."
+              "Que la ajuste a la edad con la Guía y pida el visto bueno del Consejo de Grupo, que es el que decide qué temas se tratan en la Manada."
             ],
             "correctIndex": 1
           },
@@ -542,7 +542,7 @@
             "options": [
               "La lleva aparte con otro dirigente, le pide que cuente todo con fechas y detalles para que el reporte salga completo, y reporta.",
               "La aparta con otro dirigente, oye solo lo que ella quiera contar, le dice que eso no puede quedar entre ellos y lo reporta por el botón.",
-              "La deja decidir: es mayor de edad y es su vida privada, así que solo usa el botón si ella misma se lo pide más adelante."
+              "La aparta con otro dirigente, oye lo que ella quiera contar y se lo pasa al Jefe de Grupo, para que él decida si se reporta y por dónde."
             ],
             "correctIndex": 1
           },
@@ -606,7 +606,7 @@
       "emoji": "🏅",
       "navLabel": "Tu compromiso",
       "reflection": {
-        "prompt": "Elige la tarea de tu unidad que vas a revisar en este ciclo, por rol y sin nombres. ¿Quiénes recibirían la acción de tus protagonistas, en la unidad y en sus casas? Escribe en dos líneas cómo sería la ceremonia en tu próxima reunión."
+        "prompt": "Elige la tarea de tu unidad que vas a revisar en este ciclo, por rol y sin nombres. ¿Quiénes recibirían la acción de tus protagonistas, en la unidad y en sus casas? Y cuando terminen el desafío, ¿cómo sería en dos líneas su ceremonia?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 7",
@@ -617,7 +617,7 @@
             "options": [
               "Todavía no: quien coordine el club debe haber hecho el taller, y tras ocho meses con impacto se pide a la comisión regional.",
               "Sí: la insignia del desafío ya lo acredita, y su Jefe de Clan le entrega la de Embajador cuando presente el club al Grupo.",
-              "Todavía no: basta con haber hecho el taller y sostener el club un mes; luego la pide él mismo a su Jefe de Clan."
+              "Todavía no: el club, como el proyecto, no pide el taller, pero sí ocho meses; luego su Jefe de Clan lo pide a la Comisión Nacional."
             ],
             "correctIndex": 0
           },
@@ -631,11 +631,11 @@
             "correctIndex": 2
           },
           {
-            "text": "Un Jefe de Tropa terminó este curso y quiere empezar con HeForShe el próximo sábado. ¿Por dónde empieza?",
+            "text": "En la primera Corte de Honor después del curso, los guías proponen rotar la cocina del campamento, pero uno insiste en que «las chicas lo hacen mejor» y no llegan a un acuerdo. ¿Qué hace el Jefe de Tropa?",
             "options": [
-              "Presentando a toda la Tropa la hoja de su rama, para que cada scout haga las seis actividades y nadie se quede sin la insignia.",
-              "Mirando con la Tropa, en los Consejos de Patrulla y la Corte de Honor, quién hace qué tarea y por qué, antes del desafío.",
-              "Preparando una charla sobre igualdad para las scouts, que son las que más viven la desigualdad en la Tropa, y luego el desafío."
+              "Les pide a las guías de patrulla que le respondan ellas a ese guía, porque son las chicas las que viven la desigualdad en la Tropa.",
+              "Pone sobre la mesa lo del último campamento: pregunta quién cocinó y quién lo decidió, y rota también las tareas de los dirigentes.",
+              "Lo decide él por sorteo y deja a ese guía sin voto en la reunión, para que la Tropa vea que los estereotipos tienen consecuencias."
             ],
             "correctIndex": 1
           }
@@ -684,7 +684,7 @@
         },
         {
           "type": "info-box",
-          "text": "🌿 <strong>Y en tu rama.</strong> Lo de todos —turnos, cargos, quién habla— se revisa en el órgano de tu rama; el desafío lo asume cada protagonista y lo acuerda contigo. <strong>Familia:</strong> no hay hoja en el Kit, pero la coeducación vale igual: juegos, tareas y cargos sin «de niñas» ni «de niños». <strong>Manada:</strong> el reparto se mira en el Consejo de Roca; ahí se presenta el desafío, y cada lobato o lobata decide si lo asume; te sugerimos empezar por la parte A. <strong>Tropa:</strong> en los Consejos de Patrulla y la Corte de Honor; mira también los nombres y gritos de patrulla. <strong>Comunidad:</strong> en el Congreso de Comunidad; el campamento es tu mejor espejo. <strong>Clan:</strong> en el Consejo de Clan; tu Guía dice que el desafío promueve la igualdad de género y la corresponsabilidad, y el taller y la acción HeForShe son el horizonte."
+          "text": "🌿 <strong>Y en tu rama.</strong> Lo de todos —turnos, cargos, quién habla— se revisa en el órgano de tu rama; el desafío lo asume cada protagonista y lo acuerda contigo. <strong>Familia:</strong> no hay hoja en el Kit, pero la coeducación vale igual: juegos, tareas y cargos sin «de niñas» ni «de niños». <strong>Manada:</strong> el reparto se mira en el Consejo de Roca; ahí se presenta el desafío, y cada lobato o lobata decide si lo asume; te sugerimos empezar por la parte A. <strong>Tropa:</strong> en los Consejos de Patrulla y la Corte de Honor; mira también los nombres y gritos de patrulla. <strong>Comunidad:</strong> en el Congreso de Comunidad; el campamento es tu mejor espejo. <strong>Clan:</strong> en el Consejo de Clan; tu Guía dice que el desafío promueve la igualdad de género y la corresponsabilidad, y el taller y la acción HeForShe son el horizonte. Y si un rover asume el desafío, puede entrar en su PARCE: tu Guía vincula los desafíos de Scouts por los ODS con él."
         },
         {
           "type": "info-box",
