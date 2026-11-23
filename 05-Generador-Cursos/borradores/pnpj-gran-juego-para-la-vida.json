@@ -110,31 +110,34 @@
         "nextLabel": "Continuar a las 5 ramas 🐺",
         "questions": [
           {
-            "text": "Un dirigente dice: «Si la PNPJ de 2024 es la norma vigente, la Política Interamericana ya no pinta nada en Colombia». ¿Qué le responderías?",
+            "text": "En el consejo de Grupo, alguien pregunta quién aprobó la PNPJ y para qué se hizo, si ya existían políticas internacionales. ¿Qué le respondes según la lección?",
             "options": [
-              "Que la Interamericana sigue mandando aquí, y la PNPJ es apenas una guía de apoyo.",
-              "Que las dos son normas paralelas, y cada Grupo escoge cuál de ellas seguir.",
-              "Que la PNPJ existe para adaptar la Interamericana a la realidad de Colombia."
+              "Que la aprobó la Asamblea Scout Nacional, para adaptar a Colombia la Política Mundial e Interamericana.",
+              "Que la aprobó el Consejo Scout Nacional, para adaptar a Colombia la Política Mundial e Interamericana.",
+              "Que la aprobó la Asamblea Scout Nacional, para adaptar a Colombia el Método Scout de la OMMS."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "El 11 de diciembre de 2024, el Consejo Scout Nacional aprobó el Acuerdo C.S.N. N° 617. Ese acuerdo es lo que hoy conocemos como Política Nacional de Programa de Jóvenes (PNPJ)."
           },
           {
-            "text": "Un dirigente comenta: «Desde que salió El Gran Juego para la Vida en 2026, la PNPJ quedó atrás». ¿Qué le precisarías?",
+            "text": "Un dirigente prepara una charla para su Grupo sobre la PNPJ y El Gran Juego para la Vida: cuál de los dos es la norma vigente y cuál trae el territorio como concepto integrador. ¿Qué debe decir?",
             "options": [
-              "Que el Modelo de 2026 es ahora la norma, porque es el documento más reciente.",
-              "Que la PNPJ sigue siendo la norma, y el Modelo la baja a ejemplos y plantillas.",
-              "Que la norma pasó al Modelo de Bolsillo, que resume a los otros dos para el día a día."
+              "Que la norma vigente es la PNPJ, y que el territorio como concepto integrador lo trae la PNPJ.",
+              "Que la norma vigente es el Modelo, y que el territorio como concepto integrador lo trae la PNPJ.",
+              "Que la norma vigente es la PNPJ, y que el territorio como concepto integrador lo trae el Modelo."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "lo que la política dice de forma normativa, el Modelo de Aplicación lo desarrolla con ejemplos, plantillas y rutas concretas. Es además el documento que trae el territorio como concepto integrador"
           },
           {
-            "text": "En una reunión de Grupo, un dirigente afirma que las competencias de la PNPJ salieron de los cuatro objetivos de B-P de 1922, «porque todo viene de ahí». ¿Qué le precisarías?",
+            "text": "En una reunión de Grupo, un dirigente afirma que las competencias de la PNPJ se apoyan en los objetivos que propuso B-P en 1922, «porque todo viene de ahí». ¿Qué le precisarías?",
             "options": [
               "Que la PNPJ las apoya en los cuatro pilares de la educación de la UNESCO.",
-              "Que la PNPJ las apoya en los cinco ámbitos de desarrollo de la OMMS de 2019.",
-              "Que la PNPJ las apoya en los ocho elementos del Método Scout actualizado."
+              "Que la PNPJ las apoya en los cuatro pilares de la educación de la OMMS.",
+              "Que la PNPJ las apoya en los cinco ámbitos de desarrollo de la OMMS."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "adoptó los cuatro pilares de la educación de la UNESCO como base de sus competencias educativas"
           }
         ]
       }
@@ -234,31 +237,34 @@
         "nextLabel": "Continuar a las 6 áreas 🌱",
         "questions": [
           {
-            "text": "Una dirigente nueva de Tropa quiere preparar el marco simbólico y pregunta cuál es el libro que sirve de fondo motivador a su rama. Según esta lección, ¿qué le responderías?",
+            "text": "Una dirigente nueva de Tropa quiere montar el marco simbólico de su rama con un libro como fondo motivador, como hace la Manada con Kipling. Según esta lección, ¿qué le respondes?",
             "options": [
-              "Que no tiene uno fijo: cada Tropa escoge el libro que le guste a la patrulla.",
-              "Que es el Libro de las Tierras Vírgenes, el mismo de Familia y Manada.",
-              "Que no aplica: su Guía dice que la rama no tiene, y su marco es La Aventura."
+              "Que su Guía le da como fondo motivador el Libro de las Tierras Vírgenes, y como marco simbólico La Aventura.",
+              "Que su Guía le da como fondo motivador el Libro de las Tierras Vírgenes, y como marco La aventura hacia la ciudadanía.",
+              "Que su Guía dice que el fondo motivador no aplica para la Tropa, y que su marco simbólico es La Aventura."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "Su fondo motivador, dice esa Guía, no aplica para la rama: es la única cuya Guía lo dice expresamente."
           },
           {
-            "text": "Un dirigente de Familia propone usar con los cachorros los mismos relatos fantásticos de la Manada, «porque el libro es el mismo». Según esta lección, ¿qué le precisarías?",
+            "text": "Una dirigente pasa de la Manada a la Familia y quiere saber qué conserva de lo que hacía con los lobatos cuando les cuente el marco a los cachorros. Según sus Guías, ¿qué le explicas?",
             "options": [
-              "Que el libro no es el mismo: Familia tiene su propio fondo motivador, pensado para su edad.",
-              "Que el libro sí es el mismo, pero el ambiente de referencia de Familia son los relatos infantiles.",
-              "Que el libro sí es el mismo, y por eso el ambiente de referencia también es igual en las dos."
+              "Que comparten el marco y el libro; lo que cambia de una rama a otra es el tipo de relato.",
+              "Que comparten el libro y el relato; lo que cambia de una rama a otra es el marco simbólico.",
+              "Que comparten el marco y el relato; lo que cambia de una rama a otra es el libro de fondo."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "Según sus Guías, Familia y Manada juegan en el mismo mundo y con el mismo libro. Lo que cambia es el tipo de relato"
           },
           {
-            "text": "Mariana cumple 15 y pasa de la Tropa a la Comunidad. Su nuevo dirigente prepara la acogida. ¿Qué cambio de fondo conviene anticiparle?",
+            "text": "Mariana, de la Tropa, cumple 15 años. Su dirigente prepara con ella la transición a la rama siguiente. ¿Qué le anticipa según la lección?",
             "options": [
-              "Que pasa a organizarse en patrulla, con más autonomía que en su rama anterior.",
-              "Que el trabajo por proyectos pasa a ser el centro de la vida de su unidad.",
-              "Que pasa a articularse con la Red de Jóvenes y a tomar más decisiones."
+              "Que pasa al Clan, donde el trabajo por proyectos será el centro de la vida de su unidad.",
+              "Que pasa a la Comunidad, donde el trabajo por proyectos será el centro de la vida de su unidad.",
+              "Que pasa al Clan, donde tomará más decisiones y se articulará con la Red de Jóvenes."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "14 → 15: Tropa → Comunidad — el paso a la adolescencia tardía, donde el trabajo por proyectos pasa a ser el centro de la vida de la Comunidad."
           }
         ]
       }
@@ -364,31 +370,34 @@
         "nextLabel": "Continuar a etapas y momentos ⏳",
         "questions": [
           {
-            "text": "En la Manada, una dirigente trabaja con su seisena para que los lobatos noten cuándo un compañero está triste o se siente dejado de lado, y se acerquen a preguntarle qué le pasa. ¿Qué área trabaja sobre todo?",
+            "text": "En la Tropa, una dirigente prepara con las patrullas un taller sobre igualdad de género. En su planeación, ¿en qué área de crecimiento lo anota?",
             "options": [
-              "El área del Carácter: conocerse a sí mismo y manejar lo que uno siente.",
-              "El área de la Afectividad: ponerse en el lugar del otro y cuidar el vínculo.",
-              "El área de la Sociabilidad: cooperar para sacar adelante las tareas de la seisena."
+              "En Sociabilidad, el área que en el Modelo recoge la igualdad de género.",
+              "En Afectividad, el área que en el Modelo recoge la igualdad de género.",
+              "En Carácter, el área que en el Modelo recoge la igualdad de género."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Entender y gestionar las emociones y construir relaciones afectivas sanas: empatía, autoestima, responsabilidad afectiva, igualdad de género."
           },
           {
-            "text": "Un Jefe de Tropa dice: «Las competencias terminales son las que el scout debe lograr al salir de la Tropa; las voy a buscar en mi Guía». ¿Qué le corregirías?",
+            "text": "Un Jefe de Tropa nuevo pregunta qué son las competencias terminales y dónde encuentra las intermedias de su rama. ¿Qué le respondes?",
             "options": [
-              "Que las terminales son para todo el camino scout; en su Guía están las intermedias.",
-              "Que las terminales sí son las de salida de la Tropa, pero vienen en el Modelo 2026.",
-              "Que las terminales son para todo el camino, y las intermedias son iguales en cada rama."
+              "Que las terminales son para todo el camino scout, y que las intermedias de su rama están en su Guía de Dirigente.",
+              "Que las terminales son para la salida de cada rama, y que las intermedias de su rama están en su Guía de Dirigente.",
+              "Que las terminales son para la salida de cada rama, y que las intermedias de su rama están en el Modelo de 2026."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "lo que el joven debería poder hacer al terminar todo su camino scout, no al salir de una rama."
           },
           {
-            "text": "En el campamento, una dirigente de Manada ve que un lobato resolvió solo una pelea dentro de su seisena. Quiere que eso cuente para su progresión. ¿Qué hace?",
+            "text": "En el campamento, una dirigente de Manada ve que un lobato resolvió solo una pelea dentro de su seisena. Quiere registrarlo en el área donde el Modelo ubica la resolución de conflictos. ¿Qué hace?",
             "options": [
-              "Espera a ver si lo repite en otras dos salidas antes de anotar nada en su registro.",
-              "Lo guarda para el cierre del trimestre y le pide que se evalúe con el semáforo.",
-              "Lo anota en el anecdotario como mini escena: qué pasó, qué hizo él y cómo acabó."
+              "Lo anota en un anecdotario para el área de Sociabilidad: qué pasó, qué hizo él y qué resultado tuvo.",
+              "Lo anota en un semáforo para el área de Sociabilidad: qué pasó, qué hizo él y qué resultado tuvo.",
+              "Lo anota en un anecdotario para el área de Carácter: qué pasó, qué hizo él y qué resultado tuvo."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "Decidir, asumir, construir autonomía: autoconocimiento, resiliencia, resolución de conflictos, cultura de paz, criterio propio."
           }
         ]
       }
@@ -485,31 +494,34 @@
         "nextLabel": "Continuar a las herramientas 🛠️",
         "questions": [
           {
-            "text": "Andrés ya está en la etapa de Transición de su rama, y esta semana tuvo su primer contacto con los primeros auxilios. Respecto a esa habilidad, ¿en qué momento de aprendizaje está?",
+            "text": "Andrés está en la etapa de Transición de su rama y esta semana tuvo su primer contacto con los primeros auxilios. En el registro, ¿qué momento de aprendizaje le anota su dirigente en esa habilidad?",
             "options": [
-              "En Profundizo, porque ya lleva tiempo en la rama y está por pasar.",
-              "En Exploro, porque es la primera vez que trabaja esa habilidad.",
-              "En Aplico, porque en Transición ya recibe la habilidad con apoyo."
+              "Exploro: las secuencias no son rígidas, y el momento se mira en cada competencia concreta.",
+              "Aplico: las secuencias no son rígidas, y en Transición cada habilidad nueva se recibe con apoyo.",
+              "Profundizo: las secuencias no son rígidas, y el momento lo fija la etapa que vive en su rama."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "Primer contacto con un contenido, una habilidad, un valor. Curiosidad, ensayo, descubrimiento."
           },
           {
-            "text": "Tomás tiene 14 años y lleva casi cuatro en la Tropa. Esta temporada les enseña nudos a los nuevos de su patrulla y ya prepara con su dirigente el paso a la Comunidad. ¿En qué etapa está?",
+            "text": "Camila acaba de pasar de la Manada a la Tropa y es su primera semana en la patrulla. ¿En qué etapa de vida en la unidad está, y qué necesita de su dirigente?",
             "options": [
-              "En la etapa de Transición.",
-              "En la etapa de Progresión.",
-              "En la etapa de Adaptación."
+              "En Transición: necesita acogida, vínculo y claridad sobre el marco simbólico de su nueva rama.",
+              "En Transición: necesita ritos de paso y cerrar los ciclos que vivió en su rama anterior.",
+              "En Adaptación: necesita acogida, vínculo y claridad sobre el marco simbólico de su nueva rama."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "El protagonista llega a la rama. Conoce, se conoce, se hace parte. Necesita acogida, vínculo, claridad de marco simbólico."
           },
           {
-            "text": "Después de una excursión, una dirigente de Tropa quiere que la patrulla saque aprendizaje de lo que vivió. Tiene a mano el ciclo Vivir → Mirar → Comprender → Proyectar del Modelo de Bolsillo. ¿Qué hace?",
+            "text": "Después de una excursión, un dirigente quiere usar con la patrulla el ciclo Vivir → Mirar → Comprender → Proyectar. Un compañero le dice que es la versión corta de Exploro, Aplico y Profundizo. ¿Qué le aclaras?",
             "options": [
-              "Lo usa en la reunión siguiente: ya vivieron la excursión; ahora miran, comprenden y proyectan.",
-              "Lo guarda para fin de año, cuando la patrulla cierre su etapa de Progresión y pase a la siguiente.",
-              "Usa mejor Exploro, Aplico y Profundizo, que es la versión completa de ese mismo ciclo."
+              "Que es otro ciclo, para convertir una experiencia en aprendizaje; cabe en una reunión y lo trae la PNPJ de 2024.",
+              "Que es otro ciclo, para convertir una experiencia en aprendizaje; cabe en una reunión y lo trae el Modelo de Bolsillo.",
+              "Que sí es su versión corta, para seguir una competencia en el año; cabe en una reunión y lo trae la PNPJ de 2024."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "El Modelo de Aplicación de Bolsillo (14 páginas) trae además un ciclo distinto y muy útil: Vivir → Mirar → Comprender → Proyectar."
           }
         ]
       }
@@ -606,31 +618,34 @@
         "nextLabel": "Continuar a mi mapa del Modelo ✍️",
         "questions": [
           {
-            "text": "Sara ya domina la orientación con brújula sin ayuda y la está llevando a contextos nuevos. Según la lección, ¿qué rol del dirigente corresponde sobre todo a ese momento?",
+            "text": "Sara está en el momento Aplico con la orientación por brújula. Según cómo cruza el Modelo los roles con los momentos, ¿qué rol le toca sobre todo a su dirigente?",
             "options": [
-              "El de Acompañar: estar presente en su proceso, pero sin reemplazarla.",
-              "El de Enlazar: abrirle puertas con gente y experiencias de fuera.",
-              "El de Apoyar: animarla y ayudarla con los primeros tropiezos."
+              "El de Apoyar: prepararle una escena segura y animarla en los tropiezos mientras practica.",
+              "El de Enlazar: conectarla con personas y experiencias de fuera mientras practica.",
+              "El de Acompañar: estar presente en su proceso, sin reemplazarla mientras practica."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "Apoyas cuando exploran, acompañas cuando aplican, enlazas cuando profundizan."
           },
           {
-            "text": "Un equipo de Comunidad llega con la idea ya decidida: pintar un mural. Según cómo integra el Modelo el ABP, ¿por dónde deberían empezar?",
+            "text": "Un equipo de Comunidad ya ejecutó su proyecto: pintó un mural con la junta de acción comunal. Según los cinco momentos con que el Modelo integra el ABP, ¿qué viene ahora?",
             "options": [
-              "Empezar por planificar el proyecto con tareas, fechas y responsables.",
-              "Empezar por ejecutar un primer paso y ajustar sobre la marcha.",
-              "Empezar por un diagnóstico participativo de qué quieren cambiar."
+              "Evaluar y transferir lo aprendido, y luego presentarlo en público ante el barrio.",
+              "Presentarlo en público, y luego evaluar y transferir lo aprendido a la vida diaria.",
+              "Presentarlo en público, y luego pasar por DURASLID lo aprendido para la vida diaria."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "lo presenta en público; y al final evalúa y transfiere lo aprendido a la vida diaria."
           },
           {
-            "text": "Un Jefe de Tropa planea una caminata de 15 km. Es segura, útil y retadora, pero dos scouts con asma no van a poder seguir el ritmo. Con el filtro DURASLID en la mano, ¿qué ajuste hace primero?",
+            "text": "Una patrulla convierte el juego de pistas en el parque, que ya era Lúdico, Atractivo y Seguro, en uno que arman los propios scouts para los niños del barrio. Según el ejemplo de la lección, ¿qué atributos de DURASLID gana?",
             "options": [
-              "Le sube los kilómetros a la ruta para que rete más: le faltaba ser Desafiante.",
-              "Agrega un juego de pistas al final del recorrido: le faltaba ser Lúdica.",
-              "Prepara un tramo más corto para quien lo necesite: le faltaba ser Inclusiva."
+              "Gana Útil y Desafiante, porque lo arman los propios scouts para el barrio.",
+              "Gana Inclusiva y Desafiante, porque lo arman los propios scouts para el barrio.",
+              "Gana Inclusiva y Diversa, porque lo arman los propios scouts para el barrio."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "un juego de pistas en el parque es Lúdico, Atractivo y Seguro; si además lo arman los propios scouts para el barrio, gana Útil y Desafiante."
           }
         ]
       }
@@ -690,31 +705,34 @@
         "nextLabel": "Obtener mi certificado 🎓",
         "questions": [
           {
-            "text": "En su mapa, una dirigente de Manada anota Corporalidad y Afectividad para el trimestre. Un compañero le dice: «Con lobatos de 7 años solo se trabaja el cuerpo; las otras áreas llegan en Tropa». ¿Qué hace la dirigente con su mapa?",
+            "text": "Un dirigente nuevo termina este curso y pregunta si con el Curso 25 de la plataforma ya cumple la formación de A Salvo del Peligro. ¿Qué le respondes según la lección?",
             "options": [
-              "Lo cambia a solo Corporalidad, y suma las otras áreas cuando la seisena crezca.",
-              "Lo deja como está: las seis áreas valen desde Manada, a la medida de la edad.",
-              "Cambia Afectividad por Creatividad, que a los 7 años es un área más concreta."
+              "Que ningún curso de la plataforma reemplaza los módulos oficiales; dónde encontrarlos lo dice el Curso 25, Lección 1.",
+              "Que ningún curso de la plataforma reemplaza los módulos oficiales; dónde encontrarlos lo dice el Curso 7, Lección 5.",
+              "Que ningún curso de la plataforma reemplaza los módulos oficiales; dónde encontrarlos lo dice el Curso 13, Lección 5."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Lo que no espera son los módulos oficiales de A Salvo del Peligro, que ningún curso nuestro reemplaza; dónde encontrarlos, en el Curso 7, Lección 5."
           },
           {
-            "text": "Un Jefe de Tropa llena su mapa así: rama Tropa; grupo natural, Patrullas; marco simbólico, La aventura hacia la ciudadanía; edades, de 11 a 14 años. ¿Qué dato debería corregir?",
+            "text": "Una dirigente de Clan completa su mapa. De sus ocho rovers, seis están aplicando la planeación de proyectos y dos ya la profundizan. Según la plantilla del mapa, ¿qué rol anota como el que más le toca?",
             "options": [
-              "El grupo natural: en la Tropa se trabaja por equipos, no por Patrullas.",
-              "El marco simbólico: el de la Tropa es La Aventura; ese es de Comunidad.",
-              "Las edades: la Tropa recibe a los scouts de los 11 a los 15 años."
+              "Anota Acompañar, porque la plantilla pide el rol según lo que hace la mayoría de sus protagonistas.",
+              "Anota Enlazar, porque la plantilla pide el rol según lo que hacen los más avanzados de sus protagonistas.",
+              "Anota Enlazar, porque la plantilla pide el rol según lo que hace la mayoría de sus protagonistas."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "el rol que más me toca es __________ (Apoyar / Acompañar / Enlazar), porque la mayoría de mis protagonistas están __________ (explorando / aplicando / profundizando)"
           },
           {
-            "text": "En su mapa, un dirigente de Comunidad anotó «Enlazar». Pero casi todos sus nómadas están empezando a hacer presupuestos de proyecto, algo que nunca habían hecho. ¿Qué le dirías?",
+            "text": "En su mapa, un dirigente de Comunidad escribió «Enlazar» porque sus nómadas son mayores. Pero casi todos están explorando por primera vez los presupuestos de proyecto. Según la plantilla del mapa, ¿qué rol le toca anotar?",
             "options": [
-              "Que se quede en Enlazar: por la edad, en Comunidad los nómadas ya profundizan casi todo.",
-              "Que pase a Acompañar: como llevan años en el Movimiento, ya están en el momento Aplico.",
-              "Que para esa competencia le toca Apoyar: el rol sigue al momento de cada protagonista."
+              "Acompañar, porque el rol se anota según lo que la mayoría está explorando, aplicando o profundizando.",
+              "Enlazar, porque el rol se anota según lo que la mayoría está explorando, aplicando o profundizando.",
+              "Apoyar, porque el rol se anota según lo que la mayoría está explorando, aplicando o profundizando."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "el rol que más me toca es __________ (Apoyar / Acompañar / Enlazar), porque la mayoría de mis protagonistas están __________ (explorando / aplicando / profundizando)"
           }
         ]
       }

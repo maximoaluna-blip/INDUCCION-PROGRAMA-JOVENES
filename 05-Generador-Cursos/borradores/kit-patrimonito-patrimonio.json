@@ -144,31 +144,34 @@
         "nextLabel": "Continuar a las rutas 🧭",
         "questions": [
           {
-            "text": "Después de oír que «el patrimonio no es lo viejo», un rover propone: «entonces el partido de microfútbol de los domingos en el barrio también vale para el desafío». ¿Qué le dices?",
+            "text": "Un rover encuentra en la lista del Kit un sitio de Colombia que está en la Lista Tentativa: Colombia lo postuló, pero la UNESCO aún no lo declara. Quiere hacer ahí su proyecto. ¿Qué le dices?",
             "options": [
-              "«Sí cuenta: si la comunidad lo vive y lo transmite, es patrimonio inmaterial y entra al desafío como cualquier otro.»",
-              "«Puede contar si lo documentan bien: con un registro de su historia, la comisión lo puede aceptar como patrimonio vivo.»",
-              "«No para el desafío: Patrimonito se hace donde la UNESCO reconoció algo, y el partido del barrio no está en esa lista.»"
+              "Que puede hacerlo como Descubrimiento: los sitios de la Lista Tentativa se exploran, y el proyecto va en uno inscrito.",
+              "Que puede hacerlo como proyecto: los sitios de la Lista Tentativa también sirven, aunque todavía no estén declarados.",
+              "Que puede hacerlo como servicio del Clan: los sitios de la Lista Tentativa cuentan para Patrimonito cuando se declaren."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "quince sitios de la Lista Tentativa, que Colombia postuló y aún no están declarados, donde el Kit también permite hacer proyectos"
           },
           {
             "text": "Una nómada propone para el desafío una práctica tradicional de su región en la que se hace sufrir a animales: «es tradición, así que es patrimonio». ¿Qué le respondes con el Kit?",
             "options": [
-              "Que puede ser tradición y aun así no ameritar la salvaguardia especial: el daño a los animales también pesa.",
-              "Que toda práctica que una comunidad transmite es patrimonio inmaterial, y la UNESCO no mira lo que contiene.",
-              "Que si su Congreso de Comunidad la vota como patrimonio, cuenta para el desafío igual que otra tradición."
+              "Que, por el daño a los animales, el Kit no la reconoce como cultural, y por eso no puede ser patrimonio de nadie.",
+              "Que, por el daño a los animales, entra solo si su comunidad la transforma y la UNESCO la vuelve a inscribir.",
+              "Que, por el daño a los animales, no amerita la salvaguardia especial, aunque su carácter cultural sea incuestionable."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "cuyo carácter cultural es incuestionable, pero que por sus implicaciones lesivas contra personas o animales no ameritan el nivel especial de salvaguardia"
           },
           {
-            "text": "Un rover encuentra en la página de la UNESCO una manifestación de su región inscrita en 2023, que no aparece en la lista del Kit, y quiere hacer ahí su proyecto. ¿Qué le dices?",
+            "text": "Una rover oye que una manifestación de su región fue inscrita por la UNESCO hace poco, pero no la encuentra en la lista del Kit. Quiere hacer ahí su proyecto. ¿Qué le dices?",
             "options": [
-              "Que no sirve: para el desafío cuenta la lista que trae el Kit, que es la que conoce la comisión de Mundo Mejor.",
-              "Que puede servir: la lista del Kit es de 2021, y por eso se comprueba en la UNESCO antes de escoger.",
-              "Que entra por la Lista Tentativa: lo que la UNESCO inscribió después del Kit cuenta como un sitio postulado."
+              "Que lo comprueben en la página de la UNESCO: la lista del Kit es de 2021, y una inscripción nueva puede servir.",
+              "Que lo consulten con la comisión de Mundo Mejor: la lista del Kit es de 2021, y ella decide si lo nuevo sirve.",
+              "Que lo postulen por la Lista Tentativa: la lista del Kit es de 2021, y lo nuevo entra allí como sitio postulado."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "La lista es de 2021: antes de escoger, comprueba en la UNESCO si hubo inscripciones nuevas."
           }
         ]
       },
@@ -249,31 +252,34 @@
         "nextLabel": "Continuar a los pasos 📋",
         "questions": [
           {
-            "text": "El rover del mural quiere que el Carnaval se conozca en otros países, con una serie de videos cortos en varios idiomas. ¿En qué ruta del Kit cae su idea?",
+            "text": "Una rover del equipo del Barniz quiere pensar con las artesanas cómo el taller puede generar sus propios recursos sin que el oficio pierda su valor. ¿En qué ruta del Kit cae su idea?",
             "options": [
-              "Cae en conservación: todo lo que ayuda a que el Carnaval siga vivo sirve para mantener su permanencia e integridad.",
-              "Cae en difusión: lo que busca es que el Carnaval se conozca lejos de Pasto, más allá del lugar donde nació.",
-              "Cae en promoción: cualquier video sobre un patrimonio impulsa su desarrollo, y este también lo hace."
+              "En conservación: busca que el oficio del Barniz se mantenga en el tiempo y conserve su integridad.",
+              "En promoción: busca impulsar el desarrollo del oficio del Barniz, para que se sostenga por sí mismo.",
+              "En difusión: busca que el oficio del Barniz llegue a compradores lejos del lugar donde nació."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Pensar, por ejemplo, cómo un patrimonio puede generar sus propios recursos sin perder su valor."
           },
           {
-            "text": "Una rover termina su autoevaluación con «Estoy al comienzo de la exploración» en todas las frases y dice que mejor espera un año, porque «todavía no está lista para el desafío». ¿Qué hace su dirigente?",
+            "text": "Un Jefe de Clan acompaña en la ruta de difusión a un rover de 20 años y a una nómada de 16. Busca en el Kit la tabla de autoevaluación que le sirve a cada uno. ¿Qué encuentra?",
             "options": [
-              "«Le dice que esa hoja es justo para eso: se llena antes de empezar, y la ayuda a escoger ya por qué frase arrancar.»",
-              "«Respeta que espere: la marca la pone ella, y si se ve al comienzo en todo, el dirigente no debe insistirle más.»",
-              "«La anima a empezar, pero si en un mes sigue al comienzo en todo, acuerdan que espere al próximo año el desafío.»"
+              "Una tabla de difusión para cada edad: el Kit trae una para jóvenes de 15 a 18 años y otra para los de 18 a 21.",
+              "Una tabla común a las tres rutas: el Kit trae una sola, para jóvenes de 15 a 21, y cada uno marca allí su ruta.",
+              "Una misma tabla de difusión para los dos: el Kit trae una por ruta, igual para jóvenes de 15 a 18 y de 18 a 21."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Está en las pp. 11 y 12: una tabla por ruta, la misma para jóvenes de 15 a 18 y de 18 a 21 años."
           },
           {
-            "text": "Un Jefe de Clan que ya acompañó Constructores de Paz abre con una rover la autoevaluación de Patrimonito y le dice: «marca Actúa si ya hiciste algo». ¿Qué le corriges?",
+            "text": "Un Jefe de Clan que ya acompañó Constructores de Paz abre con una rover la tabla de autoevaluación de Patrimonito. ¿Cómo le explica que se llena?",
             "options": [
-              "Que aquí Actúa es una etapa con su frase; al lado, la rover marca si está al comienzo, en exploración o terminó.",
-              "Que la marca no la pone la rover: la pone el dirigente después de verla trabajar en las actividades del desafío.",
-              "Que la autoevaluación mide su nivel en una competencia educativa, no lo que ya hizo dentro del desafío."
+              "Que aquí Actúa es una etapa con su frase; al lado, ella marca si está al comienzo, en exploración o si terminó.",
+              "Que aquí Actúa es una de las marcas; al lado de cada frase, ella elige entre Toma conciencia, Comparte o Actúa.",
+              "Que aquí Actúa es una de las marcas; al lado de cada competencia, ella elige su nivel: básico, medio o alto."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "aquí, como en la tabla de HeForShe, Toma conciencia, Comparte y Actúa son las etapas, no las marcas"
           }
         ]
       },
@@ -345,31 +351,34 @@
         "nextLabel": "Continuar a la comunidad 🤝",
         "questions": [
           {
-            "text": "Un Clan propone hacer el proyecto en una iglesia de su ciudad que está declarada Bien de Interés Cultural, pero que no aparece en la lista UNESCO del Kit. ¿Qué les dices?",
+            "text": "El equipo del Barniz ya eligió su patrimonio y quiere escribir a la comisión de Mundo Mejor para recibir las herramientas del proyecto. Según los pasos del Kit, ¿qué debió hacer antes?",
             "options": [
-              "«Que como servicio del Clan vale, pero para Patrimonito busquen en la lista del Kit algo de su región.»",
-              "«Que sirve: esa declaratoria nacional pesa igual, porque la Lista Tentativa también la arma Colombia.»",
-              "«Que primero la postulen a la UNESCO con la alcaldía: ese trámite de postulación cuenta como conservación.»"
+              "Inscribir la iniciativa en la plataforma de registro scout, que según el Kit es el paso previo a contactar a la comisión.",
+              "Participar en un Descubrimiento Scouts del Mundo – Patrimonito, que según el Kit es el primero de los siete pasos.",
+              "Formular el proyecto con objetivos SMART, que según el Kit es el paso previo a contactar a la comisión de Mundo Mejor."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "Antes de ir al taller, el equipo escribe a la comisión de Mundo Mejor para preguntar por el próximo Descubrimiento: es el primer paso, y sin él no hay reconocimiento."
           },
           {
-            "text": "Una rover terminó su proyecto y sus horas, y ya lo compartió y lo evaluó con la comunidad. Su Jefe de Clan quiere entregarle la insignia el sábado. ¿Qué falta?",
+            "text": "Una rover terminó su proyecto y sus horas, y ya lo compartió y lo evaluó con la comunidad. Su Jefe de Clan quiere entregarle la insignia el sábado. ¿Qué paso falta, según el Kit?",
             "options": [
-              "Pedir el reconocimiento a la comisión de Mundo Mejor, con sus dos autoevaluaciones y las evidencias del proyecto.",
-              "Esperar a que la comisión la contacte: revisa los proyectos inscritos en la plataforma y otorga el reconocimiento.",
-              "Presentarlo al Consejo de Clan para que lo apruebe: el reconocimiento de un desafío lo deciden los propios rovers."
+              "Pedirlo a la comisión de Mundo Mejor, nacional o de su Región, con la autoevaluación inicial y final y las evidencias.",
+              "Pedirlo a la comisión de Mundo Mejor, de su Grupo o de su Región, con la autoevaluación inicial y final y las evidencias.",
+              "Pedirlo a la comisión de Mundo Mejor, nacional o de su Grupo, con la autoevaluación inicial y final y las evidencias."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "Solicita el reconocimiento a la comisión de Mundo Mejor, nacional o de tu Región, con la autoevaluación inicial y final y el proyecto formulado con las evidencias de su ejecución."
           },
           {
-            "text": "Un equipo de cuatro rovers arma su calendario: «son 80 horas entre todos, así que con 20 cada uno basta». ¿Qué les dices?",
+            "text": "Un rover lleva 60 horas de servicio voluntario en el taller del Barniz, y su equipo ya terminó el proyecto. ¿Qué le dices de sus horas?",
             "options": [
-              "Que las horas no pesan si el proyecto quedó bien: la comisión revisa las evidencias, no el tiempo de servicio.",
-              "Que sí: el Kit cuenta las horas por equipo, porque el proyecto de servicio lo ejecuta el equipo entero.",
-              "Que no lo den por hecho: el Kit le habla a cada joven, y cómo se cuentan en equipo lo confirman con la comisión."
+              "Que el Kit pide 100 horas en el sitio: le faltan 40 en el taller antes de pedir el reconocimiento.",
+              "Que el Kit pide 60 horas en el sitio: ya las tiene, y puede pedir el reconocimiento con su equipo.",
+              "Que el Kit pide 80 horas en el sitio: le faltan 20 en el taller antes de pedir el reconocimiento."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "Ejecuta el proyecto y 80 horas de servicio voluntario en el sitio."
           }
         ]
       },
@@ -429,29 +438,32 @@
           {
             "text": "Unos nómadas encuentran fragmentos de cerámica antigua en una salida y proponen «rescatarlos» para exhibirlos en la sede, como proyecto de conservación. ¿Qué es lo correcto?",
             "options": [
-              "Recogerlos y entregarlos a la comunidad del lugar: el patrimonio es de quienes lo viven, y ellos lo cuidarán.",
-              "Dejarlos donde están y avisar a la autoridad: lo arqueológico es de la nación, y está a cargo del ICANH.",
-              "Dejarlos guardados en la sede si nadie los reclama: el patrimonio es de todos, y exhibirlos allí lo difunde."
+              "Dejarlos donde están y avisar: son del municipio, y están a cargo de la Secretaría de Cultura de la alcaldía.",
+              "Dejarlos donde están y avisar: son de la nación, y están a cargo del Instituto Colombiano de Antropología e Historia.",
+              "Dejarlos donde están y avisar: son de la humanidad, y están a cargo de la comisión de patrimonio de la UNESCO."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "«pertenece a la nación y es inalienable, imprescriptible e inembargable», y está a cargo del Instituto Colombiano de Antropología e Historia"
           },
           {
-            "text": "Los maestros de una escuela de marimba aceptan el video de arreglos modernos que propusieron los nómadas, pero cuentan de pasada que este año se les fue la mitad de los alumnos. ¿Qué hace el dirigente?",
+            "text": "El equipo de la marimba ya identificó con los maestros el problema —se les van los alumnos— y exploró soluciones con otras personas. Según el orden de la etapa Comparte del Kit, ¿qué sigue?",
             "options": [
-              "«Sigue con el video: los maestros ya lo aprobaron, y el patrimonio es de quienes lo practican, no del dirigente.»",
-              "«Deja que los nómadas lo resuelvan solos: el proyecto es de ellos, y si el adulto opina, deja de ser su proyecto.»",
-              "«Pregunta a los maestros si el proyecto debería ir hacia los alumnos, y ayuda a los nómadas a decidirlo con ellos.»"
+              "Hacer una lluvia de ideas con los maestros y los alumnos, y después revisar si la idea es viable y sostenible.",
+              "Acordar con los maestros la solución, con un plan de acción y objetivos SMART, y después la lluvia de ideas.",
+              "Presentar a los maestros los resultados, y después hacer con ellos la lluvia de ideas para ver si es viable."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "explorar soluciones con otras personas; hacer una lluvia de ideas con los miembros de la comunidad; revisar si es viable y sostenible"
           },
           {
-            "text": "Un Clan quiere hacer un proyecto de conservación en el centro histórico de Mompox y ya tiene la idea: pintar las fachadas de una calle. ¿Qué hace antes de proponerla?",
+            "text": "Un Clan quiere hacer un proyecto de conservación en el centro histórico de Mompox y ya tiene la idea: pintar las fachadas de una calle. Según el curso, ¿qué averigua antes de proponerla?",
             "options": [
-              "Proponerla a la alcaldía como donación: si la pintura la pone el Clan, no hace falta otro permiso ni consultar a nadie.",
-              "Llevar la idea a una lluvia de ideas con los vecinos, para que escojan junto con el Clan los colores.",
-              "Averiguar con la comunidad y con quien gestiona el sitio qué necesita y qué plan de manejo tiene hoy para él."
+              "Qué colores tenían las fachadas en su origen, para que la idea respete la historia del sitio declarado.",
+              "Qué negocios y oficios genera la calle, para que la idea no afecte la vida económica del sitio declarado.",
+              "Qué entidad gestiona el centro histórico y cuál es su plan de manejo, para que la idea encaje en el sitio declarado."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "Los patrimonios declarados tienen quién los gestiona y, casi siempre, un plan de manejo"
           }
         ]
       },
@@ -507,29 +519,32 @@
           {
             "text": "Una nómada de 16 años quiere hacer parte de sus horas en un sitio del Kit que queda a dos días de viaje, con pernocta. ¿Con qué lo planea su dirigente?",
             "options": [
-              "Con el protocolo nacional de pernocta y el de transporte, el permiso de su familia y la práctica 2+1 en cada traslado.",
-              "Con un sitio más cercano: sin protocolo nacional de pernocta, una menor no puede hacer horas fuera.",
-              "Con el Protocolo Nacional de Transporte, el de pernocta de su Grupo o Región, el permiso familiar y el 2+1."
+              "Con el Protocolo Nacional de Transporte, el de pernocta del Grupo o la Región, el permiso familiar y el 2+1.",
+              "Con el Protocolo Nacional de Transporte, el Protocolo Nacional de Pernocta, el permiso familiar y el 2+1.",
+              "Con el Protocolo Nacional de Transporte, el de pernocta del sitio que la recibe, el permiso familiar y el 2+1."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "Para la pernocta no hay protocolo nacional entre los documentos oficiales que sostienen esta plataforma: si tu Grupo o tu Región tienen uno, ese es el que aplicas."
           },
           {
             "text": "El equipo del Barniz quiere publicar el paso a paso del oficio, con fotos de las artesanas y de aprendices menores de edad. Las artesanas ya firmaron su autorización. ¿Qué falta?",
             "options": [
-              "Nada más: las artesanas, como portadoras del saber y dueñas del taller, autorizan también por sus aprendices.",
-              "La autorización de las familias de los aprendices menores, y acordar con las artesanas qué parte del oficio se muestra.",
-              "La autorización de las familias de los aprendices menores; qué parte del oficio se muestra lo deciden los rovers."
+              "La autorización de las familias de los aprendices menores, y acordar con la comisión qué parte del oficio se muestra.",
+              "La autorización de las familias de los aprendices menores, y acordar con los aprendices qué parte del oficio se muestra.",
+              "La autorización de las familias de los aprendices menores, y acordar con las artesanas qué parte del oficio se muestra."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "En un saber artesanal, pregunta también qué parte del oficio la comunidad quiere mostrar."
           },
           {
-            "text": "Un rover de 19 años va a hacer sus horas en un sitio del Kit fuera de su ciudad, con su equipo de rovers. Comparado con el viaje de una nómada, ¿qué cambia?",
+            "text": "La mamá de un rover, recién llegada como dirigente, se ofrece a acompañar las horas de servicio del equipo. Ya hizo el Curso 25 de esta plataforma. ¿Qué le dices?",
             "options": [
-              "Que es mayor de edad: no necesita el permiso de su familia, y el viaje sigue el Protocolo Nacional de Transporte.",
-              "Nada: en una actividad scout se le pide el permiso de la familia a todo joven, sea rover o nómada de la unidad.",
-              "Que, como es mayor de edad, viaja por su cuenta: el protocolo de transporte se aplica cuando en el viaje van menores."
+              "Que puede acompañarlas cuando complete el Curso 21, que es el que pide el Manual para el servicio de Scouts del Mundo.",
+              "Que puede acompañarlas cuando complete el curso oficial A Salvo del Peligro, que el Curso 25 no reemplaza.",
+              "Que puede acompañarlas cuando aplique la práctica 2+1 del Curso 25, que es lo que pide el Manual para estas horas."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "recuerda la condición del Manual de Implementación: haber completado el curso oficial A Salvo del Peligro (p. 6); el Curso 25 no lo reemplaza"
           }
         ]
       },
@@ -574,31 +589,34 @@
         "nextLabel": "Ver mi certificado 🏛️",
         "questions": [
           {
-            "text": "Un dirigente de Tropa quiere que su Tropa «haga Patrimonito» este año, con insignia incluida. ¿Qué le dirías?",
+            "text": "Un dirigente de Tropa quiere que sus scouts «hagan Patrimonito» este año, con insignia incluida. ¿Qué le dirías?",
             "options": [
-              "Que la Tropa puede vivir el desafío con un proyecto cercano, y la insignia llega cuando cada scout tenga los 15 años.",
-              "Que el desafío empieza a los 15, pero la Tropa puede trabajar una fiesta, un saber o un lugar cercano, sin insignia.",
-              "Que la Tropa puede trabajar el patrimonio natural cercano, pero el cultural y el inmaterial son de ramas mayores."
+              "Que el desafío es desde los 15 años; en la Tropa, el curso propone una ruta de memoria viva por el barrio, sin insignia.",
+              "Que el desafío es desde los 15 años; en la Tropa, el curso propone una canción o un juego que recuerden las familias.",
+              "Que el desafío es desde los 15 años; en la Tropa, el curso propone un Descubrimiento de Scouts del Mundo adaptado."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "Sin insignia: en Familia y Manada, una canción, un juego o una comida que las familias recuerden; en la Tropa, una ruta de memoria viva por el barrio."
           },
           {
-            "text": "Un Clan terminó un proyecto de difusión sobre las músicas de marimba y propone cerrarlo con una foto en la sede y pedir la insignia. ¿Qué le falta al cierre, según el Kit?",
+            "text": "Un Clan terminó un proyecto de difusión sobre las músicas de marimba y propone cerrarlo con una foto en la sede y pedir la insignia. ¿Cómo se cierra, según la etapa Actúa del Kit?",
             "options": [
-              "Nada: la evaluación ya se hizo durante el proyecto, y la celebración llega el día en que llegue la insignia.",
-              "Evaluar en la solicitud a la comisión, con las evidencias; celebrar con los maestros queda para cuando llegue la insignia.",
-              "Evaluar el impacto con los maestros y sus alumnos, compartirlo en la plataforma y celebrarlo con ellos."
+              "Evaluando el impacto con los maestros y alumnos, compartiéndolo en el Consejo de Clan y celebrándolo con la insignia.",
+              "Evaluando el impacto con los maestros y alumnos, compartiéndolo en la página de la UNESCO y celebrándolo con ellos.",
+              "Evaluando el impacto con los maestros y alumnos, compartiéndolo en la plataforma de registro scout y celebrándolo con ellos."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "informar y compartir en la plataforma de registro scout; y celebrar y reconocer el trabajo con compañeros, beneficiarios y socios"
           },
           {
-            "text": "En el Congreso de Comunidad, los nómadas votan que todos harán Patrimonito este año, y todos por difusión, «porque es la ruta más fácil». ¿Qué hace su dirigente?",
+            "text": "Un dirigente de Comunidad quiere presentar Patrimonito a sus nómadas, que ya tienen la edad del desafío. Según el curso, ¿dónde lo presenta y quién decide si se asume?",
             "options": [
-              "«Lo deja así: lo decidió el Congreso de Comunidad, y el adulto no corrige lo que los jóvenes votan entre ellos.»",
-              "«Les dice que eso no lo decide la mayoría: cada nómada decide si lo asume, y su ruta sale de su autoevaluación.»",
-              "«Celebra la idea y propone votar también las rutas por etapa, para que todos pasen por las tres y nadie elija la fácil.»"
+              "En el Consejo de Comunidad, y allí cada nómada decide si lo asume, con la autoevaluación del Kit.",
+              "En el Congreso de Comunidad, y allí cada nómada decide si lo asume, con la autoevaluación del Kit.",
+              "En la Asamblea de Comunidad, y allí cada nómada decide si lo asume, con la autoevaluación del Kit."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Se presenta en el Congreso de Comunidad y cada nómada decide si lo asume"
           }
         ]
       },

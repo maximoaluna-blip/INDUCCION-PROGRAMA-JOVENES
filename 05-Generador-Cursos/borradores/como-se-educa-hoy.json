@@ -107,31 +107,34 @@
         "nextLabel": "Continuar a los 4 pilares 🏛️",
         "questions": [
           {
-            "text": "Al cerrar el año, un dirigente hace su balance: «Cada chico creció mucho en lo personal: está más seguro, más hábil y más maduro. Con eso cumplimos». Mirando la definición de educación que adopta el Movimiento, ¿qué le falta revisar?",
+            "text": "Para un taller con padres, un dirigente quiere enumerar los retos del mundo de hoy que, según la lección, obligan a educar más allá del aula. ¿Qué lista usa?",
             "options": [
-              "Si además aprendieron contenidos concretos: sin conocimientos, el crecimiento personal no cuenta como educación.",
-              "Si cada chico siente que avanzó: en la definición, el que juzga su crecimiento es la propia persona.",
-              "Si su Unidad le aportó algo a su barrio este año: crecer solo como individuo es la mitad de la definición."
+              "La pobreza, la crisis ambiental, los conflictos y la transformación digital.",
+              "La desigualdad, la crisis ambiental, los conflictos y la transformación digital.",
+              "La pobreza, la crisis ambiental, la migración y la transformación digital."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "El mundo cambia rápido y se vuelve complejo: desigualdad, crisis ambiental, conflictos, transformación digital."
           },
           {
-            "text": "En una reunión de padres, alguien resume: «Educar es acompañar a la persona entera, y eso se hace en la niñez y la juventud; de adulto, cada uno ya es como es». Comparada con «la idea de hoy» que presenta la lección, ¿en qué acierta y en qué falla?",
+            "text": "Preocupado por la transformación digital, un dirigente rediseña su charla sobre redes sociales para que responda a los retos de hoy que cuenta la lección. ¿Qué debe buscar que la actividad despierte en sus jóvenes?",
             "options": [
-              "Acierta en la persona entera; falla en el tiempo, porque educar dura toda la vida.",
-              "Acierta en el tiempo, que es la etapa de formación; falla en olvidar que educar es transmitir contenidos.",
-              "Acierta en la persona entera; falla en el tiempo, porque se educa sobre todo en la escuela."
+              "Que despierte el pensamiento crítico, la empatía y la capacidad de innovar y emprender.",
+              "Que despierte el pensamiento crítico, la empatía y la capacidad de convivir y decidir.",
+              "Que despierte el pensamiento crítico, la creatividad y la capacidad de convivir y decidir."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "hace falta una educación que despierte el pensamiento crítico, la creatividad y la capacidad de convivir y decidir"
           },
           {
-            "text": "Preocupado por la transformación digital, un dirigente prepara para sus jóvenes una charla muy completa sobre redes sociales y riesgos en internet. ¿Qué cambio concreto le propones, según los retos de hoy que cuenta la lección?",
+            "text": "Un dirigente quiere citar en un taller la definición de educación que adopta el Movimiento, la de «un proceso de por vida». Según la lección, ¿de dónde la toma?",
             "options": [
-              "Que cambie la charla por casos reales de chicos de su edad y que cada patrulla decida qué haría y por qué.",
-              "Que conserve la charla y al final abra unos minutos de preguntas, para que los jóvenes también participen.",
-              "Que la extienda a tres reuniones para cubrir cada riesgo con más detalle y con más ejemplos."
+              "De Características Esenciales del Movimiento Scout (OMMS, 2019), en línea con el enfoque de la UNESCO.",
+              "De la Constitución de la OMMS, en su versión vigente, en línea con el enfoque de la UNESCO y de la OCDE.",
+              "Del informe «La educación encierra un tesoro» (UNESCO, 1996), en línea con el enfoque de la OMMS."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "Características Esenciales del Movimiento Scout (OMMS, 2019), p. 9 — definición de la OMMS, en línea con el enfoque de la UNESCO."
           }
         ]
       }
@@ -207,31 +210,34 @@
         "nextLabel": "Continuar a cómo aprendemos 🧩",
         "questions": [
           {
-            "text": "En una excursión se le daña la estufa a una patrulla, y sus integrantes improvisan con lo que tienen a mano para poder cocinar. Según cómo describe la lección cada pilar, ¿cuál se está trabajando más directamente?",
+            "text": "En una reunión de padres, una dirigente presenta los cuatro pilares de la educación y alguien le pregunta de dónde salen. Según la lección, ¿qué le responde?",
             "options": [
-              "Aprender a vivir juntos, porque el hacer se reserva a las habilidades de un oficio.",
-              "Aprender a hacer: ese pilar incluye enfrentar situaciones, no solo dominar una técnica.",
-              "Aprender a conocer, porque resolver un problema pide profundizar en una técnica concreta."
+              "De un informe entregado a la UNESCO en 1996, por la comisión que presidió Jacques Delors.",
+              "De un informe entregado a la OCDE en 2010, por la comisión que presidió Jacques Delors.",
+              "De un informe entregado a la UNESCO en 2019, por la comisión que presidió Jacques Delors."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "En 1996, la Comisión Internacional sobre la Educación para el Siglo XXI, presidida por Jacques Delors, le entregó a la UNESCO un informe famoso"
           },
           {
-            "text": "Una dirigente revisa su próxima reunión: un taller de primeros auxilios donde cada joven practica vendajes por su cuenta, con una tarjeta de instrucciones. ¿Qué le aconsejas, mirando los cuatro pilares juntos?",
+            "text": "Una patrulla elige a su vocero con debate y voto. La dirigente quiere aprovecharlo para trabajar el pilar «aprender a vivir juntos». Según la lección, ¿qué valores debe cuidar que se sostengan?",
             "options": [
-              "Que los vendajes se practiquen en parejas, atendiendo a un compañero, para que también convivan y decidan.",
-              "Que primero dé una charla completa de anatomía: sin el conocer bien puesto, los otros pilares no arrancan.",
-              "Que la deje así: es una actividad de hacer, y cada reunión basta con que trabaje bien un solo pilar."
+              "Los de la ciudadanía, el respeto mutuo, la paz y la equidad.",
+              "Los de la democracia, el respeto mutuo, la paz y la justicia.",
+              "Los de la ciudadanía, la tolerancia, la paz y la equidad."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "Comprender al otro, apreciar que dependemos unos de otros, y sostener los valores de la democracia, el respeto mutuo, la paz y la justicia."
           },
           {
-            "text": "Una dirigente quiere que sus jóvenes, ante cualquier tema nuevo, sepan dónde buscar, cómo comprobar lo que encuentran y cómo seguir solos. Según la descripción de los pilares en la lección, ¿cuál está trabajando sobre todo?",
+            "text": "Un dirigente nuevo dice: «Los cuatro pilares son las cuatro áreas de crecimiento del Modelo colombiano». Según la pista que da la lección, ¿qué le precisas?",
             "options": [
-              "Aprender a conocer, porque ese pilar pone en el centro el aprender a aprender toda la vida.",
-              "Aprender a ser, porque seguir aprendiendo es actuar con autonomía, juicio y responsabilidad.",
-              "Aprender a hacer, porque buscar y comprobar información es enfrentar situaciones reales."
+              "Que las áreas son ocho, y lo que se logra en cada una son las competencias, apoyadas en los pilares.",
+              "Que las áreas son ocho, y lo que se logra en cada una son los objetivos, apoyados en los pilares.",
+              "Que las áreas son seis, y lo que se logra en cada una son las competencias, apoyadas en los pilares."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "las áreas son las seis caras de la persona; lo que se logra en cada cara son las competencias, y ahí es donde entran estos cuatro pilares"
           }
         ]
       }
@@ -287,31 +293,34 @@
         "nextLabel": "Continuar a dónde se aprende 🏫",
         "questions": [
           {
-            "text": "Durante dos semanas una patrulla prepara un juego para la Manada. Su dirigente, por no quitarles protagonismo, solo les dice «vamos bien». El día del juego descubren que no era lo que él esperaba. ¿Qué debió hacer distinto?",
+            "text": "Un dirigente revisa su próxima actividad con la lista textual de los 7 principios y se detiene en el número 6. ¿Qué le agrega a la actividad para cumplir ese principio?",
             "options": [
-              "Darles aún más libertad: si el joven está al centro, el adulto no debe opinar del resultado.",
-              "Decirles desde el inicio qué esperaba y darles señales reales de cómo iban, a tiempo.",
-              "Revisar con ellos el avance solo al final de la segunda semana, para no interrumpirlos antes."
+              "Una variante más exigente para quienes van rápido, para que el reto quede en su punto justo.",
+              "Un cierre con un servicio en el barrio, para que lo aprendido se conecte con la comunidad.",
+              "Un aviso de lo que espera desde el inicio y señales de cómo van, para que sepan en qué andan."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "6. La evaluación formativa y la claridad de las expectativas promueven el aprendizaje."
           },
           {
-            "text": "Un dirigente arma una reunión de nudos: los jóvenes eligieron el tema, trabajan en patrulla, están motivados, el reto les queda justo y él les va diciendo cómo van. Al final, cada uno sabe hacer seis nudos sobre una cuerda en la mesa, y ahí se acaba la actividad. Según los 7 principios, ¿qué le falta?",
+            "text": "Revisando los 7 principios con otros dirigentes, uno señala lo que la lección hace notar que NO aparece en la lista, y que cambia cómo se planea. ¿Qué dice?",
             "options": [
-              "Que les explique mejor cada nudo antes de practicar: una buena explicación va primero.",
-              "Que usen los nudos en algo real —un montaje, un servicio— fuera de la reunión.",
-              "Que cada uno trabaje solo, a su ritmo: en grupo las diferencias se pierden."
+              "Que no aparece «explicar muy bien»: aprender es, sobre todo, que el que aprende esté activo.",
+              "Que no aparece «dar buen ejemplo»: aprender es, sobre todo, que el que aprende esté activo.",
+              "Que no aparece «premiar el esfuerzo»: aprender es, sobre todo, que el que aprende esté activo."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "Mira lo que NO aparece en la lista: “explicar muy bien”. Aprender no es, sobre todo, que alguien explique bien"
           },
           {
-            "text": "Un dirigente tiene 20 minutos para trabajar orientación. Planea entregar brújula y mapa a cada patrulla, con un recorrido corto de dificultad creciente. A los cinco minutos, dos patrullas están perdidas. Según los 7 principios, ¿qué hace?",
+            "text": "Un dirigente comparte en su Grupo los 7 principios y le preguntan de dónde salen. Según la lección, ¿qué responde?",
             "options": [
-              "Les cambia a esas dos patrullas el recorrido por uno más corto, a su medida, y las demás siguen con el suyo.",
-              "Les da a todas las patrullas, también a las que van bien, la misma pista, para que nadie se quede atrás.",
-              "Detiene el juego, reúne a todos y explica bien el uso de la brújula antes de volver a salir."
+              "Que los recoge la UNESCO en «The Nature of Learning» (2010), y la OMMS los cita en Características Esenciales.",
+              "Que los recoge la OCDE en «The Nature of Learning» (2010), y la OMMS los cita en Características Esenciales.",
+              "Que los recoge la UNESCO en «The Nature of Learning» (1996), y la OMMS los cita en Características Esenciales."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "Características Esenciales del Movimiento Scout (OMMS, 2019), p. 11 — citando «The Nature of Learning», OCDE (2010)."
           }
         ]
       }
@@ -381,31 +390,34 @@
         "nextLabel": "Continuar a aprender haciendo 🔨",
         "questions": [
           {
-            "text": "Una empresa organiza para sus empleados un curso de primeros auxilios, con programa, instructor y fechas. Según la clasificación de la lección, ¿qué tipo de educación es?",
+            "text": "Un papá se sienta cada sábado, a propósito, a enseñarle a su hija a cocinar en casa. Según la clasificación de la lección, ¿qué tipo de educación es?",
             "options": [
-              "Formal: la organiza una institución con programa e instructor, tal como lo haría un colegio.",
-              "Informal: ocurre en el lugar de trabajo, y la lección pone el trabajo entre lo informal.",
-              "No formal: es intencional y la organiza una institución, pero fuera del sistema escolar."
+              "Es no formal: es a propósito, y la ofrece la familia por fuera del sistema escolar.",
+              "Es formal: es a propósito, y la ofrece la familia con la misma seriedad que una escuela.",
+              "Es informal: es a propósito, pero no la organiza ninguna institución, solo la familia."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "Es a propósito —un papá que se sienta a enseñarle a su hija—, pero no lo organiza ninguna institución: no hay colegio ni título detrás."
           },
           {
-            "text": "Un colegio empieza a usar proyectos, juego y trabajo en equipo en sus clases. Un dirigente concluye: «Entonces ese colegio ya es educación no formal». Según la lección, ¿qué le precisas?",
+            "text": "Una alcaldía arma un programa de trabajo juvenil, con talleres planeados fuera del colegio. Según la lección, ¿en qué tipo de educación cae y junto a qué más?",
             "options": [
-              "Que sigue siendo formal: sigue dentro del sistema escolar; lo que adopta son métodos no formales.",
-              "Que tiene razón: lo que define el tipo de educación es el método con que se aprende, no la institución.",
-              "Que pasa a ser informal: al aprender jugando, el aprendizaje sale de lo planificado por la institución."
+              "En la no formal, junto al Movimiento Scout y la formación permanente.",
+              "En la no formal, junto al Movimiento Scout y la educación de adultos.",
+              "En la no formal, junto al Movimiento Scout y la educación a distancia."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "Aquí vive el Movimiento Scout, junto al trabajo juvenil y la formación permanente."
           },
           {
-            "text": "Una mamá le pide al dirigente que, como su hijo va mal en matemáticas, usen parte de las reuniones para ponerlo al día con las tareas del colegio. ¿Qué le respondes?",
+            "text": "Una mamá le pide al dirigente que, como su hijo va mal en matemáticas, usen parte de las reuniones para ponerlo al día con las tareas del colegio. Le explicas con respeto que no, apoyándote en un documento. Según la lección, ¿cuál le citas?",
             "options": [
-              "Que las reuniones no son refuerzo escolar, y le cuentas lo que su hijo sí va a vivir allí: equipo, retos y servicio.",
-              "Que lo incluyes en el programa: si el grupo educa de forma intencional y planeada, puede asumir lo que el colegio no logra.",
-              "Que lo apoyas solo en los ratos libres de algunas reuniones: así el grupo sigue siendo un complemento del colegio."
+              "Las Características Esenciales de la OMMS, que definen el escultismo como «una educación no formal, complementaria a la familia y a la escuela».",
+              "El Modelo de Aplicación colombiano, que define el escultismo como «una educación no formal, complementaria a la familia y a la escuela».",
+              "La Política Nacional de Programa de Jóvenes, que define el escultismo como «una educación no formal, complementaria a la familia y a la escuela»."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "El Modelo de Aplicación colombiano (lo verás en el Curso 6) lo dice así: el escultismo ofrece «una educación no formal, complementaria a la familia y a la escuela» (p. 9)."
           }
         ]
       }
@@ -467,31 +479,34 @@
         "nextLabel": "Obtener mi certificado 🎓",
         "questions": [
           {
-            "text": "En un campamento, un dirigente ve que la patrulla está armando mal la carpa y, para que no pierdan tiempo, se pone a armarla él mismo; luego conversan sobre lo que pasó. Según el enfoque experiencial que cita la lección, ¿qué se perdió?",
+            "text": "Una dirigente diseña una actividad siguiendo la secuencia que describe la cita de la OMMS sobre el aprendizaje activo. ¿Qué secuencia debe dejar que vivan sus jóvenes?",
             "options": [
-              "La oportunidad de hacerlo y equivocarse ellos: el error, junto con la reflexión, es parte de aprender haciendo.",
-              "Nada importante: si después conversan sobre lo que pasó, eso compensa con creces que él lo hiciera por ellos.",
-              "Solo un rato de práctica: armar una carpa es pura técnica, que se aprende repitiendo y no pide reflexión."
+              "Actuar, experimentar, reflexionar y descubrir.",
+              "Actuar, cometer errores, reflexionar y descubrir.",
+              "Actuar, experimentar, compartir y descubrir."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "que llevan a los jóvenes a actuar, cometer errores, reflexionar y descubrir"
           },
           {
-            "text": "Tras una caminata que salió muy bien, la patrulla quiere pasar directo a lo siguiente: «Si todo salió bien, no hay nada que reflexionar». Según la lección, ¿qué les respondes?",
+            "text": "Tras una caminata, la patrulla se sienta a cerrar la experiencia para que de verdad se convierta en aprendizaje. Según la lección, ¿con qué tres preguntas?",
             "options": [
-              "Que no pasan a lo siguiente hasta decir qué salió bien y por qué: así lo repiten a propósito.",
-              "Que pasen, y que quien quiera comentar algo lo diga mientras caminan hacia la siguiente actividad.",
-              "Que el dirigente les cuente lo que él vio que salió bien, para no quitarles tiempo de juego."
+              "Que cierren con tres preguntas: ¿qué hiciste?, ¿qué salió bien?, ¿qué cambiarías?",
+              "Que cierren con tres preguntas: ¿qué hiciste?, ¿qué sentiste?, ¿qué aprendiste?",
+              "Que cierren con tres preguntas: ¿qué hiciste?, ¿qué sentiste?, ¿qué cambiarías?"
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "La experiencia educa cuando se cierra con reflexión: ¿qué hiciste?, ¿qué salió bien?, ¿qué cambiarías?"
           },
           {
-            "text": "Tras un proyecto de servicio en un hogar de ancianos, un dirigente evalúa solo si sus jóvenes aprendieron a organizar la logística. Según lo que la cita de la OMMS dice que se adquiere con la práctica, ¿qué está dejando sin mirar?",
+            "text": "Tras un proyecto de servicio en un hogar de ancianos, un dirigente quiere evaluar las competencias que, según la cita de la OMMS, se adquieren con la práctica. ¿Qué cuatro mira?",
             "options": [
-              "Las actitudes y los valores que el servicio movió en ellos: el trato, el respeto, el compromiso.",
-              "Los cuatro pilares completos, que la OMMS usa como lista de lo que se gana en cada actividad.",
-              "Nada: en un servicio lo que se adquiere es práctica, y la práctica se mide en habilidades."
+              "Los conocimientos, las conductas, las actitudes y los valores.",
+              "Los conocimientos, las conductas, las actitudes y los hábitos.",
+              "Los conocimientos, las habilidades, las actitudes y los valores."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "la adquisición de nuevas competencias (conocimientos, habilidades, actitudes y valores) se logra mediante la práctica de diversas actividades"
           }
         ]
       }

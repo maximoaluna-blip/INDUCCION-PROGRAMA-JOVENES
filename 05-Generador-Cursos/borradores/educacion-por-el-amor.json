@@ -116,31 +116,34 @@
         "nextLabel": "Continuar a la educación por el temor 😨",
         "questions": [
           {
-            "text": "En una Manada los lobatos llegan puntuales porque el primer juego es su favorito y nadie quiere perdérselo; si alguien llega tarde, no pasa nada más. Un dirigente nuevo dice que eso es educar por el temor, porque «pierden algo si llegan tarde». ¿Qué le respondes?",
+            "text": "Una jefa de Tropa presume: «Mi Tropa es la más disciplinada del Grupo: obedecen a la primera y nadie discute una orden». Con lo que la lección dice que B-P fue a decir en Ginebra, ¿qué le recuerdas?",
             "options": [
-              "Que tiene razón: perderse lo que les gusta es un castigo; mejor esperar a que lleguen todos.",
-              "Que no: aquí el motor es el deseo de jugar, no el miedo a una sanción que un adulto les impone.",
-              "Que no: mientras no haya gritos ni castigo físico, la puntualidad no tiene que ver con el temor."
+              "Que B-P buscaba el amor en lugar del temor: que obedezcan a la primera, pero ya sin miedo al castigo.",
+              "Que B-P buscaba no convertir al joven en un soldado dócil ni en un alumno que solo recibe lo que le dicen.",
+              "Que B-P buscaba la autoeducación voluntaria: que cada scout acepte la orden porque se la explicaron."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "De cómo se educa a un joven sin convertirlo en un soldado dócil ni en un alumno que solo recibe lo que le dicen."
           },
           {
-            "text": "Una jefa de Tropa presume: «Mi Tropa es la más disciplinada del Grupo: obedecen a la primera y nadie discute una orden». Con lo que la lección dice que B-P fue a decir en Ginebra, ¿qué le señalas?",
+            "text": "En una reunión de padres, un papá dice que el escultismo es «un club de campamento con disciplina militar, porque lo fundó un militar». Con lo que viste del informe de 1922, ¿qué le respondes?",
             "options": [
-              "Que su Tropa va bien: si obedecen sin gritos ni castigos, ya se están educando por el amor.",
-              "Que la meta es otra: B-P quería que el joven creciera por su propio interés, no porque se lo impongan.",
-              "Que la obediencia es buena si la sostiene con puntos y reconocimientos semanales a la mejor patrulla."
+              "Que en Ginebra habló de pedagogía, y aunque menciona los campamentos, su tema fue cómo educar.",
+              "Que en Ginebra habló de pedagogía y no mencionó campamentos ni uniformes: eso lo añadieron otros.",
+              "Que en Ginebra habló de pedagogía a partir de los campamentos, que eran el centro de su informe."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "No fue a hablar de uniformes ni de campamentos —aunque los menciona—: fue a hablar de pedagogía."
           },
           {
-            "text": "En una reunión de padres, un papá dice que el escultismo es «un club de campamento con disciplina militar, porque lo fundó un general». Con lo que viste del informe de 1922, ¿qué le respondes?",
+            "text": "Un dirigente resume para su Consejo de Grupo de qué habló B-P en su informe de Ginebra. ¿Cuál resumen coincide con la lección?",
             "options": [
-              "Que B-P llevó a un congreso de educadores una propuesta pedagógica: cambiar el miedo por el deseo de aprender.",
-              "Que tiene algo de razón: B-P propuso en Ginebra una disciplina militar más suave, adaptada a los niños.",
-              "Que B-P fue a Ginebra a mostrar sus campamentos y uniformes; la parte pedagógica la añadieron otros después."
+              "Habló de autoeducación voluntaria, vida al aire libre, juego en patrulla y servicio al prójimo.",
+              "Habló de autoeducación voluntaria, vida al aire libre, deseo de conocer y servicio al prójimo.",
+              "Habló de autoeducación voluntaria, fraternidad universal, deseo de conocer y servicio al prójimo."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Habló de autoeducación voluntaria, fraternidad universal, deseo de conocer y servicio al prójimo"
           }
         ]
       }
@@ -241,31 +244,34 @@
         "nextLabel": "Continuar a la educación por el amor 💗",
         "questions": [
           {
-            "text": "En la ceremonia de insignias, un jefe de Manada anuncia: «El lobato que más insignias gane este mes será el primero en escoger juego cada sábado». Con lo que dice la lección, ¿qué le propones?",
+            "text": "En la ceremonia de insignias, un jefe de Manada anuncia: «El lobato que más insignias gane este mes será el primero en escoger juego cada sábado». Con lo que dice la lección sobre las insignias, ¿qué le propones?",
             "options": [
-              "Que quite esa regla y entregue cada insignia contando qué avance concreto reconoce en ese lobato.",
-              "Que cambie el premio por un aplauso de toda la Manada al que más insignias gane, sin privilegios de juego.",
-              "Que mantenga la regla y premie también al que menos tenga, para que ninguno se sienta por debajo."
+              "Que entregue cada insignia contando qué avance real reconoce en ese lobato, sin privilegio de juego.",
+              "Que entregue cada insignia contando cuánto se esforzó ese lobato, sin privilegio de juego.",
+              "Que entregue cada insignia con un aplauso de toda la Manada, en lugar del privilegio de escoger juego."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "El reconocimiento —insignias incluidas— tiene sentido cuando ilumina avances reales, sin volverse presión ni etiqueta"
           },
           {
-            "text": "Para el día de familias, una jefa de Tropa elige solo a los tres scouts que mejor tocan guitarra y les repite: «Que la Tropa se vea bien, que se note el trabajo de los jefes». ¿Qué motor de la educación por el temor está alimentando?",
+            "text": "Para el día de familias, una jefa de Tropa elige solo a los tres scouts que mejor tocan guitarra y les dice: «El sábado nos van a ver todos los papás del Grupo». ¿Qué motor de la educación por el temor está operando?",
             "options": [
-              "La recompensa: el aplauso de los papás será el premio externo que los mueve a ensayar.",
-              "La vanidad: les enseña a hacer las cosas para lucirse ante otros, no para crecer ellos.",
-              "La competencia: los pone a compararse con las otras unidades para quedar como la mejor."
+              "La competencia: pone a la Tropa a medirse con las otras unidades para quedar como la mejor.",
+              "La vanidad: educa para que otros queden impresionados, no para que el propio joven crezca.",
+              "La recompensa: tocar ante los papás es el premio externo que reemplaza el sentido de hacerlo."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Educar para que el otro quede impresionado, no para que el propio joven crezca."
           },
           {
-            "text": "En el campamento, la patrulla Halcones deja su rincón impecable los días que hay revisión con anotación de faltas, y desordenado los días que no la hay. Según la lección, ¿qué está mostrando?",
+            "text": "En el campamento, la patrulla Halcones deja su rincón impecable los días de revisión, en los que el jefe le anota una falta si su rincón está desordenado, y desordenado los días sin revisión. ¿Qué motor la está moviendo?",
             "options": [
-              "Que a la patrulla le falta un sistema: con un turno fijo de revisión, el rincón quedaría ordenado.",
-              "Que a la patrulla la mueve la competencia: ordena para no quedar por debajo de las demás.",
-              "Que a la patrulla la mueve el miedo al castigo: cumple mientras alguien la mira, pero no está creciendo."
+              "Es la recompensa: ordena mientras alguien la mira, para ganarse algo que le prometieron.",
+              "Es la competencia: ordena mientras alguien la mira, para no quedar por debajo de las otras.",
+              "Es el castigo: ordena mientras alguien la mira, para que no le vaya mal en la revisión."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "“Si no cumples, te va mal.” Físico (palmadas, ejercicios forzados) o simbólico (humillación pública, exclusión)."
           }
         ]
       }
@@ -365,31 +371,34 @@
         "nextLabel": "Continuar a los 4 objetivos de la instrucción 🎯",
         "questions": [
           {
-            "text": "Para planear «por el amor», una jefa de Tropa les pregunta a los scouts qué quieren hacer este mes. Todos piden solo fútbol. ¿Qué hace?",
+            "text": "Para planear «por el amor», una jefa de Tropa les pregunta a los scouts qué quieren hacer este mes. Todos piden fútbol. Con lo que dice la lección sobre cómo empieza una reunión «por el amor», ¿qué hace?",
             "options": [
-              "Acepta fútbol todo el mes: si la decisión es de ellos, cambiarla sería volver a imponerles algo.",
-              "Parte del fútbol y les propone retos —organizar un torneo, arbitrar, cuidar la cancha— que ellos ajustan.",
-              "Les explica que el fútbol no es una actividad scout y les presenta el plan del mes que ya traía armado."
+              "Parte del fútbol y les pregunta qué quieren descubrir o construir con él, como una cancha para la Tropa.",
+              "Parte del fútbol y les pregunta qué quieren aprender o mejorar con él, como una cancha para la Tropa.",
+              "Parte del fútbol y les pregunta qué quieren lograr o demostrar con él, como una cancha para la Tropa."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "Una reunión “por el amor” empieza con otra: “¿qué quieren ellos descubrir o construir hoy?”. Una se planifica para que los chicos cumplan."
           },
           {
-            "text": "Los scouts de una Tropa cumplen todas las tareas de progresión sin quejarse, y su jefe dice que eso prueba que aprenden. ¿Qué le preguntarías para saberlo?",
+            "text": "Los scouts de una Tropa cumplen todas las tareas de progresión sin quejarse, y su jefe dice que eso prueba que aprenden. Con lo que la lección dice de la autoeducación voluntaria, ¿qué le preguntarías?",
             "options": [
-              "Si alguno ha avanzado en algo sin que nadie se lo pidiera, o ha propuesto una tarea nueva.",
-              "Si las tareas están bien graduadas por edad, para que nadie se frustre ni se aburra al cumplirlas.",
-              "Si alguno las cumple sin premios ni castigos de por medio, solo porque él se lo pide con cariño."
+              "Si alguno las cumple porque se lo piden con cariño: el afecto, y no la obligación, produce aprendizaje.",
+              "Si alguno avanza sin que se lo pidan, porque quiere: el deseo, y no la obligación, produce aprendizaje.",
+              "Si alguno las cumple con alegría y sin quejas: el buen ánimo, y no la obligación, produce aprendizaje."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "el joven aprende porque quiere, no porque le obligan. La obligación produce obediencia; el deseo produce aprendizaje."
           },
           {
-            "text": "En una caminata, un lobato pregunta por qué unas hojas son amarillas y otras verdes. Su dirigente sabe la respuesta. Con la cita central de B-P en esta lección, ¿qué hace?",
+            "text": "En una caminata, un lobato pregunta por qué unas hojas son amarillas y otras verdes; su dirigente sabe la respuesta. Con la cita central de B-P en esta lección, ¿qué hace?",
             "options": [
-              "Le da la respuesta completa con un juego, para que el dato se le quede grabado mejor.",
-              "Le pide que lo averigüe solo en su casa, para no quitarle el gusto de descubrirlo.",
-              "Le devuelve la pregunta y le muestra cómo averiguarlo: mirar, comparar y preguntar."
+              "Le despierta las ganas de saber con otra pregunta y lo deja explorar libre, para que lo descubra él solo.",
+              "Le despierta las ganas de saber con otra pregunta, le da la respuesta y lo invita a comprobarla él mismo.",
+              "Le despierta las ganas de saber con otra pregunta y le indica cómo averiguarlo él mismo: mirar y comparar."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "no consiste en introducir en el cerebro del niño una cierta dosis de conocimiento, sino en despertarle el deseo de conocer e indicarle el modo de estudiar"
           }
         ]
       }
@@ -485,31 +494,34 @@
         "nextLabel": "Continuar a tu revisión pedagógica ✍️",
         "questions": [
           {
-            "text": "Estás planeando una salida de la Manada y solo incluiste juegos físicos y deporte. Con lo que la lección dice de los 4 objetivos de B-P, ¿qué concluyes?",
+            "text": "Estás planeando una salida de la Manada y solo incluiste juegos físicos y deporte. Con lo que la lección dice de los 4 objetivos de B-P, ¿qué haces?",
             "options": [
-              "Que le faltan objetivos: B-P los quería integrados en cada sesión, no repartidos en varias.",
-              "Que la reparta: salud en esta salida y los otros tres objetivos en las siguientes, uno por salida.",
-              "Que ya cubre dos: el deporte también forma el carácter, y con eso la salida basta."
+              "La completas en esta misma salida: B-P pedía los cuatro objetivos integrados en cada sesión.",
+              "La equilibras a lo largo del mes: B-P pedía los cuatro objetivos repartidos entre las sesiones.",
+              "La equilibras a lo largo del año: B-P pedía los cuatro objetivos presentes en el plan anual."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "En cada una de las sesiones la instrucción es orientada con vista a cuatro objetivos principales"
           },
           {
-            "text": "Al revisar la progresión, un dirigente nota que en su Manada nadie tiene avances anotados en Espiritualidad desde hace meses. ¿Qué es lo más útil que hace?",
+            "text": "Al revisar la progresión, un dirigente de Tropa quiere dejar de juzgar a cada scout solo por cómo se porta en la formación del sábado. Con lo que la lección pide para tu rol, ¿qué le sugieres?",
             "options": [
-              "Planea la próxima reunión para que, además de lo que ya hacen, toque también esa área.",
-              "Dedica el próximo trimestre solo a Espiritualidad, hasta que todos los lobatos se nivelen.",
-              "Les pide a las familias que trabajen Espiritualidad en casa y él sigue con el plan de siempre."
+              "Que lo observe en formación, juegos y salidas, y anote cómo se porta con los demás, que es lo que más muestra.",
+              "Que lo observe en formación, juegos y salidas, y anote las áreas en que avanza, dejando para después las más lentas.",
+              "Que lo observe en formación, juegos y salidas, y anote avances en todas las áreas, aunque unas crezcan más despacio."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Cuando registras la progresión, anota avances en todas las áreas (en Familia, en las cinco dimensiones), aunque algunas crezcan más despacio."
           },
           {
-            "text": "Una jefa de Tropa organiza una gran jornada de servicio cada diciembre y dice que con eso cubre el objetivo de servir al prójimo. Con lo que B-P pedía, ¿qué le propones?",
+            "text": "Una jefa de Tropa organiza una gran jornada de servicio cada diciembre y dice que con eso cubre el objetivo de servir al prójimo. Con lo que la lección dice de ese objetivo, ¿qué le explicas que pedía B-P?",
             "options": [
-              "Que conserve diciembre y sume un servicio chico y fijo: cada patrulla, una tarea para otros cada mes.",
-              "Que suprima la jornada: un servicio con fecha es un evento, y B-P pedía un hábito, no eventos.",
-              "Que conserve diciembre y le sume otra gran jornada a mitad de año, para que el servicio no quede en una fecha."
+              "Que sus scouts sirvan cumpliendo una cuota que la Tropa les exige: eso es lo que B-P pedía.",
+              "Que sus scouts sirvan en una gran jornada anual bien preparada: eso es lo que B-P pedía.",
+              "Que sus scouts sirvan porque servir ya es su manera de ser: eso es lo que B-P pedía."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "No servir por obligación o por evento; servir como forma de ser."
           }
         ]
       }
@@ -579,31 +591,34 @@
         "nextLabel": "Obtener mi certificado 🎓",
         "questions": [
           {
-            "text": "Una dirigente reconoce en su auto-revisión que suele decirle a su Tropa: «la primera patrulla que arme la fogata gana un dulce». ¿Cuál de estos compromisos completa bien la plantilla de la lección?",
+            "text": "En su auto-revisión, una dirigente reconoce que suele decirle a su Tropa: «la primera patrulla que arme la fogata gana». ¿Cuál de estos compromisos reemplaza de verdad el motor que está usando?",
             "options": [
-              "Esta semana voy a ser menos competitiva con la Tropa y al final revisaré cómo me fue.",
-              "Voy a reemplazar el dulce por un aplauso a la primera patrulla; señal: se esfuerzan igual.",
-              "Voy a reemplazar la carrera por armarla entre todos; señal: nadie pregunta quién ganó."
+              "Voy a reemplazar la carrera entre patrullas por un premio a la que mejor colabore; señal: se ayudan más entre ellas.",
+              "Voy a reemplazar la carrera entre patrullas por armar la fogata entre todas; señal: nadie pregunta quién ganó.",
+              "Voy a reemplazar la carrera entre patrullas por una muestra de fogatas para los papás; señal: nos felicitan."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "“¿En qué situación generé competencia donde podía haber generado colaboración?”"
           },
           {
-            "text": "Antes del primer campamento, un subjefe de Tropa quiere darles a los scouts una charla de dos horas sobre cómo armar las carpas, «para que no se equivoquen». Con la frase de Edmundo Holmes que B-P hizo suya y que cierra el curso, ¿qué le propones?",
+            "text": "Antes del primer campamento, un subjefe de Tropa quiere enseñar a armar las carpas «para que no se equivoquen». Con la frase de Edmundo Holmes que B-P hizo suya y que cierra el curso, ¿qué le propones?",
             "options": [
-              "Que la arme él primero frente a ellos, despacio, para que vean cómo queda bien hecha.",
-              "Que la armen ellos por patrullas, con él cerca, en vez de oír la explicación sentados.",
-              "Que mantenga la charla y al final les haga una prueba, para asegurar que la entendieron."
+              "Que las armen ellos por patrullas, con él cerca, y después conversen qué aprendieron al hacerlo.",
+              "Que les muestre él cómo se arma una, despacio, y después conversen qué aprendieron al verlo.",
+              "Que les dé una charla corta y amena, con dibujos, y después conversen qué aprendieron al oírla."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "Aprender haciendo y contribuyendo a la formación del propio yo y no recibiendo pasivamente las ideas de otros; ese es el principio."
           },
           {
-            "text": "Un subjefe escribe: «Esta semana voy a reemplazar los gritos por hablar con calma». Le falta la señal. ¿Cuál completa mejor la plantilla?",
+            "text": "Una dirigente terminó su auto-revisión y quiere dejar escrito su compromiso pedagógico de la semana. Según la lección, ¿dónde lo escribe y quién lo ve?",
             "options": [
-              "La señal será que el sábado termino la reunión sin haber alzado la voz ni una vez.",
-              "La señal será que la Tropa me tenga más cariño y más confianza que antes.",
-              "La señal será que los scouts me obedezcan a la primera, sin tener que repetirles."
+              "En la reflexión final de la lección; se guarda en tu perfil de la plataforma.",
+              "En el recuadro «Compromiso Personal» del certificado; queda en tu navegador.",
+              "En el recuadro «Compromiso Personal» del certificado; se guarda en tu perfil."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "Completa esta plantilla en el recuadro «Compromiso Personal» que aparece junto a tu certificado —ese se queda en tu navegador—"
           }
         ]
       }

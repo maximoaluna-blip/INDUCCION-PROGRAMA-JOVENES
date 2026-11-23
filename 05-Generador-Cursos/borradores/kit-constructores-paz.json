@@ -145,31 +145,34 @@
         "nextLabel": "Continuar al viaje 🧭",
         "questions": [
           {
-            "text": "En la Manada, dos lobatos se pelean por un balón. Su dirigente los separa, le da la razón a uno y les pide no volver a jugar juntos. Ya no hay gritos. ¿Qué clase de paz quedó?",
+            "text": "En la Corte de Honor, un Guía dice de la otra patrulla: «Estamos en paz: no nos peleamos, pero tampoco nos hablamos». Si esa frase saliera de la caja en la actividad Paz positiva y paz negativa, ¿dónde la pegaría la Tropa?",
             "options": [
-              "Paz positiva: el conflicto terminó pronto, y un adulto decidió con justicia quién tenía la razón y cómo seguir.",
-              "Paz negativa: se acabó la pelea, pero nadie trabajó el conflicto, y los lobatos no aprendieron a resolverlo.",
-              "Una paz justa: separarlos protegió los derechos de los dos, y eso es lo que el Kit llama paz positiva."
+              "En el mural de la paz positiva, cerca de «Yo tengo la posibilidad de elegir cómo resuelvo mis conflictos».",
+              "En el mural de la paz negativa, cerca de «Estoy tranquilo y en paz, no me peleo con mis compañeros».",
+              "En el mural de la paz positiva, cerca de «Entiendo que todos tenemos los mismos derechos»."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "La frase del Guía de Andrés está, casi palabra por palabra, en el mural de la paz negativa."
           },
           {
-            "text": "En plena actividad <em>Paz positiva y paz negativa</em>, un scout empuja a otro contra la pared y se ríe: «esto es paz negativa, jefe». ¿Qué hace Andrés?",
+            "text": "Andrés quiere cerrar la actividad Paz positiva y paz negativa leyendo la frase de la autoevaluación del Kit para Tropa que, según el curso, resume la lección. ¿Cuál lee?",
             "options": [
-              "Para la actividad, frena el empujón y mira cómo está quien lo recibió; la conversación sobre lo que pasó queda para después.",
-              "Lo aprovecha como material: deja seguir la escena un momento para que la Tropa vea en vivo qué es la violencia directa.",
-              "Para la actividad y, ahí mismo, pone a la Tropa a conversar sobre el empujón: es el ejemplo más vivo de violencia directa."
+              "«Los conflictos son parte de las relaciones, y tenerlos no significa que dejemos de ser amigos».",
+              "«Yo tengo la posibilidad de elegir cómo resuelvo mis conflictos y cómo construyo la paz».",
+              "«Reconozco el conflicto como una oportunidad para aprender y fortalecer nuestras relaciones»."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "La autoevaluación del Kit para Tropa trae una frase que resume la lección: «Reconozco el conflicto como una oportunidad para aprender y fortalecer nuestras relaciones»"
           },
           {
-            "text": "En la Manada, cada vez que se reparte el material de un juego, los lobatos mayores se quedan con lo mejor y a los nuevos les toca lo que sobra. Nadie se queja ni pelea. ¿Qué haría un dirigente que usa el Kit?",
+            "text": "En la Manada, al repartir el material de un juego, los mayores se quedan con lo mejor y a los nuevos les toca lo que sobra: así se reparte lo que todos necesitan para jugar. Con la forma de mirar que propone el curso, ¿qué violencia es esa y con qué actividad del Kit se miraría?",
             "options": [
-              "Dejarlo así por ahora: si nadie se queja ni pelea, no hay un conflicto que trabajar, y abrirlo sería crear uno.",
-              "Parar el juego y hacer que los mayores cedan lo mejor a los nuevos: la paz positiva pide justicia, y no puede esperar.",
-              "Llevarlo a la Manada con el cuento del reparto de los 100 habitantes, y que ellos propongan cómo repartir."
+              "La estructural, y se miraría con el cuento de la Manada: si el mundo tuviera 100 habitantes.",
+              "La cultural, y se miraría con el cuento de la Manada: si el mundo tuviera 100 habitantes.",
+              "La cultural, y se miraría con los refranes de Nuestras creencias acerca del conflicto."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "la estructural, la que está en cómo se reparte lo que todos necesitamos."
           }
         ]
       },
@@ -244,31 +247,34 @@
         "nextLabel": "Continuar a la autoevaluación 🪞",
         "questions": [
           {
-            "text": "En el Consejo de Roca, los lobatos dicen que sí a Constructores de Paz y quieren empezar ya. ¿Qué hace ahora su dirigente?",
+            "text": "La Tropa ya hizo su autoevaluación. Ahora, con sus Guías, los scouts van a decidir el tema del proyecto de servicio y diseñar su plan de acción. ¿En qué etapa del Kit queda ese paso?",
             "options": [
-              "Pedirles que primero imaginen el proyecto de servicio que quieren hacer, y escoger después las actividades que lleven a él.",
-              "Escoger él las dos actividades más seguras y presentarlas como las del desafío, para que nadie se pierda en el Kit.",
-              "Acompañar a cada lobato en su autoevaluación del Kit, para que las actividades salgan de lo que cada uno marcó en ella."
+              "En Actúa, la tercera etapa, donde también se forman equipos con la comunidad, el grupo y los aliados.",
+              "En Toma conciencia, la primera etapa, donde también se identifican necesidades de la propia comunidad.",
+              "En Comparte, la segunda etapa, donde también se identifican problemas con la comunidad y los aliados."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "identificar problemas con amigos, comunidad y aliados, decidir el tema del proyecto de servicio y diseñar su plan de acción."
           },
           {
-            "text": "La Comunidad ya escogió sus tres actividades del Kit. Su dirigente quiere saber cómo se va a reconocer lo que aprendan en su progresión. ¿Dónde lo busca?",
+            "text": "La Corte de Honor ya escogió sus tres actividades y quiere saber cómo se va a acreditar lo aprendido en la progresión de cada scout. Según el curso, ¿con qué lo acuerda Andrés?",
             "options": [
-              "En la autoevaluación del Kit: la marca de «Actúa» al final es el reconocimiento que va a la progresión.",
-              "En la insignia del desafío: cuando la Comisión la reconoce, esa insignia es lo que queda como su progresión.",
-              "En los siete pasos del Modelo: ahí se mapean las competencias y se acreditan en el portafolio de progresión."
+              "Con los siete pasos del Modelo de Aplicación, que son una vía distinta de la insignia del desafío.",
+              "Con la autoevaluación del Kit al final del viaje, que es una vía distinta de la insignia del desafío.",
+              "Con la insignia del desafío que reconoce la Comisión, que es la vía que el Kit fija para la progresión."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "los siete pasos le ayudan a acordar con la Corte de Honor qué competencias educativas se van a trabajar, cómo se acredita lo aprendido en la progresión"
           },
           {
-            "text": "En el Consejo de Clan, los rovers escogen para el desafío una actividad que su dirigente ve insegura en el lugar donde la quieren hacer. ¿Qué le toca a él?",
+            "text": "En el Consejo de Clan, los rovers van a acordar su viaje en el desafío. Según el curso, ¿cuál es la parte de su dirigente en ese acuerdo?",
             "options": [
-              "Decirles qué riesgo ve y no dejarla así: buscar con ellos cómo hacerla segura o con qué reemplazarla.",
-              "Respetar lo que voten: son mayores de edad, y el acuerdo del Consejo pesa más que la opinión del adulto.",
-              "Cambiarla él por otra del Kit sin abrir el debate: en seguridad decide el adulto, y discutirlo es perder tiempo."
+              "Traer el Kit leído, cuidar que lo escogido sea seguro y a su medida, y decidir con ellos cuántas harán.",
+              "Traer el Kit leído, cuidar que lo escogido sea seguro y a su medida, y recordar cuántas actividades pide.",
+              "Traer el Kit leído, cuidar que lo escogido sea seguro y a su medida, y proponerles el tema del proyecto."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "Traer el Kit leído, cuidar que lo que se escoja sea seguro y a la medida de la edad, y recordar cuántas actividades pide el Kit."
           }
         ]
       },
@@ -364,31 +370,34 @@
         "nextLabel": "Continuar a las actividades 🛠️",
         "questions": [
           {
-            "text": "Un scout de 12 años no entiende varias frases de la autoevaluación del Kit. ¿Qué hace su dirigente?",
+            "text": "Una nómada de 16 años y un scout de 12 tienen dudas al llenar su autoevaluación. ¿A quién le pide el Kit, en su propio texto, que pida ayuda a su educador para llenarla?",
             "options": [
-              "La llena por él con lo que ha observado en las reuniones, que es más confiable que lo que el scout diga de sí.",
-              "Lo ayuda a leer cada frase y, como tiene menos de quince años, revisa sus marcas y corrige las que no le cuadren.",
-              "Lo ayuda a leer cada frase y a pensar su respuesta, pero la marca y la decisión sobre sus objetivos son del scout."
+              "El Kit se lo pide al scout de 12, porque habla de quien tenga menos de 15 años; la marca, igual, es de cada joven.",
+              "El Kit se lo pide a los dos, porque habla de quien tenga menos de 18 años; la marca, igual, es de cada joven.",
+              "El Kit no se lo pide a ninguno, porque habla de quien tenga menos de 11 años; la marca, igual, es de cada joven."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "El Kit dice: «Si tienes menos de 15 años pide ayuda a tu educador para llenar el formulario»"
           },
           {
-            "text": "Un Rover marca «Actúa» en casi todas las frases de su autoevaluación. ¿Cómo lee eso su dirigente?",
+            "text": "Un scout de la Tropa marca «Comparte» en una frase de su autoevaluación. ¿Qué dice esa marca, según el Kit?",
             "options": [
-              "Como un punto de partida para conversar: en el Kit, «Actúa» dice que cree haber terminado esa exploración.",
-              "Como que ya alcanzó el nivel Profundizo en esas competencias, y así lo anota en su registro de progresión.",
-              "Como un error de llenado: la autoevaluación se hace al inicio, y al inicio ningún joven puede estar en «Actúa»."
+              "Que ya compartió esa frase con su patrulla; es una marca para conversar, no un nivel del Modelo.",
+              "Que está al comienzo de su exploración; es una marca para conversar, no un nivel del Modelo.",
+              "Que está explorando esa frase todavía; es una marca para conversar, no un nivel del Modelo."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Ojo con una trampa de palabras: «Comparte» dice «estoy explorando», y eso no es el nivel Exploro."
           },
           {
-            "text": "La Manada empezó Constructores de Paz y la dirigente de Familia no quiere que sus cachorros, de cinco y seis años, se queden por fuera. ¿Por dónde empieza?",
+            "text": "La Manada empezó Constructores de Paz y la dirigente de Familia quiere que sus cachorros, de cinco y seis años, también tengan su parte. Según el curso, ¿por dónde empieza?",
             "options": [
-              "Esperar a que pasen a la Manada: Scouts por los ODS no tiene nada previsto para la Familia.",
-              "Usar el documento propio de su rama que cita su Guía, Scouts por los ODS para las Familias de Cachorros.",
-              "Adaptar las actividades más sencillas de la Manada, sin la autoevaluación, que el Kit pide desde los siete."
+              "Por Mensajeros de la Paz para las Familias de Cachorros, que cita su Guía; si no lo encuentra, por la comisión regional de Mundo Mejor.",
+              "Por Scouts por los ODS para las Familias de Cachorros, que cita su Guía; si no lo encuentra, por la comisión regional de Mundo Mejor.",
+              "Por la hoja de 6–10 del Kit, la de la Manada, adaptada a su edad; si tiene dudas, por la comisión regional de Mundo Mejor."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Tu Guía del Dirigente de Familia (p. 49) remite a un documento propio, Scouts por los ODS para las Familias de Cachorros"
           }
         ]
       },
@@ -488,31 +497,34 @@
         "nextLabel": "Continuar a la memoria 🤲",
         "questions": [
           {
-            "text": "La Corte de Honor propone hacer una sola actividad del Kit, larga y a fondo, en vez de tres, porque «así se profundiza más». ¿Qué hace su dirigente?",
+            "text": "La Manada, con lobatos de 7 a 10 años, asume el desafío y el Consejo de Roca quiere saber cuántas actividades del Kit le tocan. ¿Qué dice el Kit?",
             "options": [
-              "Les recuerda que desde los once años el Kit pide tres, y que cuáles y con qué profundidad lo deciden ellos.",
-              "Les recuerda que en la Tropa el Kit pide dos, así que a la actividad larga le pueden sumar una más corta.",
-              "Lo acepta: la decisión es de la Corte de Honor, y profundizar en una actividad vale más que cumplir un número."
+              "Tres actividades, una por cada etapa del viaje; cuáles, lo deciden ellos en el Consejo de Roca.",
+              "Cuatro actividades, las de un área de su hoja; cuáles, lo deciden ellos en el Consejo de Roca.",
+              "Dos actividades, como pide el Kit hasta los 10 años; cuáles, lo deciden ellos en el Consejo de Roca."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Y fija cuántas: dos actividades para 7 a 10 años y tres de 11 años en adelante (p. 9)."
           },
           {
-            "text": "La Tropa quiere trabajar el conflicto con un juego de roles que no está en el Kit, sobre las peleas en las canchas del barrio. ¿Vale para el desafío?",
+            "text": "La Tropa quiere trabajar el conflicto con un juego de roles que no está en el Kit, sobre las peleas en las canchas del barrio. Según el Kit, ¿cuándo vale para el desafío?",
             "options": [
-              "No: para el desafío cuentan las actividades publicadas en el Kit, las que traen la competencia que trabajan.",
-              "Sí, si trabaja una frase de la autoevaluación, como la del conflicto: el Kit acepta actividades propias.",
-              "Sí, pero como actividad extra: para el desafío hay que hacer antes las del grupo de edad que trae el Kit."
+              "Si se enmarca en las competencias del desafío, que son las frases de la autoevaluación del Kit.",
+              "Si se enmarca en las competencias educativas del Modelo de Aplicación que la Tropa ya trabaja.",
+              "Si se enmarca en uno de los temas de la hoja de la Tropa, como La dinámica del conflicto."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "las competencias del desafío, que son las frases de su autoevaluación, no las competencias educativas del Modelo"
           },
           {
-            "text": "Un dirigente de Tropa va a usar «Dejar salir todo» tal como viene, porque «si está en el Kit, ya está probada». ¿Qué le falta?",
+            "text": "Un dirigente de Tropa va a usar «Dejar salir todo» tal como viene, porque «si está en el Kit, ya es segura». El curso le pide pasarla antes por el filtro DURASLID. ¿Qué revisa con él?",
             "options": [
-              "Prepararla él con tiempo y dejarla lista, para que los scouts la encuentren adaptada y solo tengan que jugarla.",
-              "Prepararla con los scouts: traducir lo que viene de la escuela y pasarla por DURASLID, que no viene de fábrica.",
-              "Revisar solo que alcancen los materiales: el filtro DURASLID es para las actividades propias, no para las del Kit."
+              "Que sea divertida, útil, realista, alcanzable, segura, lúdica, inclusiva y dinámica.",
+              "Que sea desafiante, útil, recompensante, atractiva, segura, lúdica, inclusiva y diversa.",
+              "Que sea desafiante, útil, retadora, atractiva, sencilla, libre, innovadora y diversa."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Desafiante, útil, recompensante, atractiva, segura, lúdica, inclusiva y diversa, como viste en el Curso 14."
           }
         ]
       },
@@ -584,31 +596,34 @@
         "nextLabel": "Continuar a la acción ✊",
         "questions": [
           {
-            "text": "En una línea de tiempo, una nómada dice que su familia tuvo que irse de su pueblo en esos años, y su equipo empieza a pedirle que cuente más. ¿Qué hace su dirigente?",
+            "text": "En una línea de tiempo, una nómada dice que su familia tuvo que irse de su pueblo, y su equipo empieza a pedirle que cuente más. Su dirigente para las preguntas y le da las gracias. ¿Qué le dice después?",
             "options": [
-              "Deja que el equipo pregunte: mencionarlo fue decisión de ella, y ese relato es justo la memoria que la actividad busca.",
-              "Para con suavidad las preguntas del equipo, le da las gracias y le deja claro que seguir o no es decisión de ella.",
-              "Para la actividad y la lleva aparte, con otro adulto presente, para que cuente su historia sin el equipo delante."
+              "Que si algún día quiere contar algo, lo haga con quien escoja; si es con él, estará su equipo presente.",
+              "Que si algún día quiere contar algo, lo haga con quien escoja; si es con él, estará su familia presente.",
+              "Que si algún día quiere contar algo, lo haga con quien escoja; si es con él, habrá otro adulto presente."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "le dice que, si algún día quiere contar algo, puede hacerlo con quien escoja; si es con Andrés, habrá otro adulto presente."
           },
           {
-            "text": "Después de una reunión, una scout le cuenta a su dirigente que en su casa le están haciendo daño, y le pide que no se lo diga a nadie. ¿Qué es lo correcto?",
+            "text": "Después de una reunión, una scout le cuenta a su dirigente que en su casa le están haciendo daño, y le pide que no se lo diga a nadie. No hay un peligro inmediato. ¿Qué hace su dirigente?",
             "options": [
-              "Guardar el secreto que ella pidió: romperlo traicionaría la confianza que la actividad ayudó a construir.",
-              "Averiguar antes, con cuidado, qué pasa con la familia, para no reportar algo que resulte ser un malentendido.",
-              "Decirle con delicadeza que no puede prometerle silencio, y reportar por el botón: el Comité define los pasos."
+              "Le dice que no puede guardar ese secreto y reporta por el botón; el Comité de Gestión de Incidentes activa las rutas.",
+              "Le dice que no puede guardar ese secreto y reporta por el botón; el Consejo de Grupo analiza y activa las rutas.",
+              "Le dice que no puede guardar ese secreto y reporta por el botón; la Jefatura de Grupo analiza y activa las rutas."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "Tú reportas por el botón «Me Pongo A Salvo del Peligro»; el Comité de Gestión de Incidentes analiza y activa las rutas."
           },
           {
-            "text": "Para cuidar a los lobatos, la dirigente de Manada propone hacer <em>Los mapas</em> marcando solo los lugares bonitos del municipio, sin nombrar nunca lo que pasó. ¿Qué le dices?",
+            "text": "La dirigente de Manada va a hacer Los mapas, que pide ubicar «las huellas de la violencia y el sufrimiento» del municipio. Según el curso, ¿por dónde empieza con los lobatos?",
             "options": [
-              "Que empiece por la resistencia y las iniciativas, pero que el mapa también nombre lo que pasó, sin pedir relatos propios.",
-              "Que empiece por las huellas de la violencia, como las pide el Kit, y deje la resistencia y las iniciativas para el cierre.",
-              "Que está bien así: con niños de esa edad, cuidar la memoria es no tocarla, y el Kit deja adaptar todo lo que haga falta."
+              "Por las huellas de la violencia, como las pide el Kit, sin pedir a ningún lobato que cuente su propio sufrimiento.",
+              "Por la resistencia y las iniciativas de la comunidad, sin pedir a ningún lobato que cuente su propio sufrimiento.",
+              "Por los lugares bonitos del municipio, sin nombrar lo que pasó ni pedir a ningún lobato su propio sufrimiento."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "Dale a la resistencia el mismo lugar que al dolor. Las dos actividades preguntan también por «la resistencia» y por las iniciativas de la comunidad. Con lobatos, empieza por ahí"
           }
         ]
       },
@@ -671,31 +686,34 @@
         "nextLabel": "Ver mi certificado 🕊️",
         "questions": [
           {
-            "text": "Un Clan quiere que su proyecto de paz tenga objetivos SMART, como pide el Kit. ¿Cuál de estas metas lo cumple?",
+            "text": "Al diseñar el plan del proyecto, un rover dice que la R de los objetivos SMART es de «relevantes». Según el Kit, tal como lo resume el curso, ¿qué piden los objetivos SMART?",
             "options": [
-              "Hacer el sábado 14, con la junta comunal, una jornada en la cancha para que los niños del barrio no peleen más.",
-              "Hacer con la biblioteca del barrio, en la primera quincena de marzo, dos talleres sobre la rabia para veinte niños.",
-              "Lograr que los estudiantes del colegio vecino resuelvan sus conflictos sin violencia, con acciones de todo el Clan."
+              "Que sean específicos, medibles, alcanzables, realistas y con tiempo.",
+              "Que sean específicos, medibles, alcanzables, relevantes y con tiempo.",
+              "Que sean específicos, medibles, acordados, relevantes y con tiempo."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "Diseñar el plan con objetivos SMART —específicos, medibles, alcanzables, realistas y con tiempo— y formar equipos con los actores clave."
           },
           {
-            "text": "Una Comunidad cerró su proyecto con la mitad de los asistentes que esperaba, y un nómada propone saltarse la evaluación y la celebración «porque no salió bien». ¿Qué le respondes?",
+            "text": "Una Comunidad cerró su proyecto con la mitad de los asistentes que esperaba, y un nómada propone saltarse el cierre «porque no salió bien». Según el Kit, ¿qué partes tiene el último momento del viaje?",
             "options": [
-              "Que ahí es cuando más sirve cerrar: mirar qué falló, volver a marcar la hoja del comienzo y reconocer lo puesto.",
-              "Que tiene razón: se celebra cuando el proyecto logra su meta, y conviene repetirlo antes de reconocer a nadie.",
-              "Que se salten solo la evaluación: lo que importa es lo vivido, y evaluar un proyecto de paz lo vuelve un trámite."
+              "Pedir la insignia a la Comisión Nacional de Mundo Mejor, evaluar los resultados, reconocer el esfuerzo y celebrar.",
+              "Presentar el proyecto ante el Grupo y la comunidad, evaluar los resultados, reconocer el esfuerzo y celebrar.",
+              "Volver a marcar la autoevaluación del comienzo, evaluar los resultados, reconocer el esfuerzo y celebrar."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "la autoevaluación de las habilidades, conocimientos y actitudes desarrolladas —la misma hoja del comienzo—, la evaluación de los resultados del proyecto, el reconocimiento del progreso y del esfuerzo, y la celebración"
           },
           {
-            "text": "Un rover de 19 años lideró el proyecto de su Clan, y sus compañeros creen que merece ser Héroe Mensajero de la Paz. ¿Qué les dices?",
+            "text": "Una lobata de 10 años encabezó con su Manada una campaña que cambió algo en su barrio, y su dirigente quiere nominarla a Héroes Mensajeros de la Paz. ¿Qué le dices?",
             "options": [
-              "Que él mismo se postule, con el aval del Consejo de Clan: quien lideró el proyecto es quien lo presenta.",
-              "Que no se puede: Héroes Mensajeros de la Paz es para menores de 18, y a su edad lo que sigue es Scouts del Mundo.",
-              "Que pueden nominarlo ellos —él no puede hacerlo por sí mismo— y que la comisión de Mundo Mejor dice cómo."
+              "Que aún no puede: la nominación es para jóvenes de 15 años o más, y la comisión de su región dice cómo.",
+              "Que aún no puede: la nominación es para jóvenes de 11 años o más, y la comisión de su región dice cómo.",
+              "Que sí puede: la nominación es para jóvenes de 7 años o más, y la comisión de su región dice cómo."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "cómo nominar a Héroes Mensajeros de la Paz a un joven de 11 años o más con una contribución significativa a su comunidad"
           }
         ]
       },

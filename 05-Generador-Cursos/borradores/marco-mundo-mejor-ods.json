@@ -144,31 +144,34 @@
         "nextLabel": "Continuar al mapa 🗺️",
         "questions": [
           {
-            "text": "Un dirigente de Tropa propone dedicar la reunión a una presentación sobre los 17 ODS, para «que los scouts sepan de qué se trata». ¿Qué le diría la Educación para el Desarrollo Sostenible?",
+            "text": "En pleno desafío, la patrulla negocia con la junta del barrio dónde van a quedar las canecas, y llegan a un acuerdo. Según la EDS, ¿en qué dominio de aprendizaje cae eso?",
             "options": [
-              "Que la charla puede servir, pero sola no basta: la EDS busca también lo socioemocional y lo que los scouts hacen.",
-              "Que es un buen comienzo: la EDS arranca por lo cognitivo, y lo demás llega cuando ya se saben los 17 objetivos.",
-              "Que la charla ya cubre lo cognitivo y lo socioemocional: solo le falta cerrar con una acción para tocar lo conductual."
+              "En el conductual, que es uno de los dos que una charla sobre los ODS no alcanza.",
+              "En el cognitivo, que es el único de los tres que una charla sobre los ODS sí alcanza.",
+              "En el socioemocional, que es uno de los dos que una charla sobre los ODS no alcanza."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Colaborar, negociar, comunicarse, y la autorreflexión, los valores y las actitudes que mueven a actuar."
           },
           {
             "text": "Antes de un juego en la sede, una lobata pregunta qué son «esos cuadritos de colores» que vio en el colegio: los íconos de los ODS. ¿Qué hace Luisa?",
             "options": [
-              "Le contesta ahí mismo, en dos frases y señalando la cartelera, y sigue con el juego que ya tenía planeado para esa tarde.",
-              "Le pide guardar la pregunta para el cierre del desafío: primero se lee el barrio, y el enlace con el mundo viene después.",
-              "Cambia el plan y dedica la reunión a los 17 objetivos: si la pregunta salió de una lobata, la charla ya no es una cátedra."
+              "Le contesta ahí mismo y en corto, señalando la cartelera, y sigue con el juego que tenía planeado.",
+              "Le dice que es una gran pregunta y que la van a responder todos juntos al cierre, frente a la cartelera.",
+              "Le contesta ahí mismo y en corto, y le propone que la Manada explore hoy junta qué significan los íconos."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "Y si un protagonista te pregunta por los ODS, contéstale ahí mismo y en corto: lo que se queda corto no es responder, es convertir la respuesta en la reunión."
           },
           {
-            "text": "Al evaluar un desafío de la Manada, Luisa quiere saber si la Manada avanzó hacia la «ciudadanía activa global» que describe el Manual. ¿Qué observación lo muestra mejor?",
+            "text": "En el Consejo de Roca, un lobato le dio su palabra a su seisena de no volver a botar envolturas, y una semana después la mantiene. ¿Qué rasgo de la ciudadanía activa global del Manual muestra mejor?",
             "options": [
-              "Que los lobatos ya saben nombrar varios de los 17 objetivos y explican con sus palabras qué busca la Agenda 2030.",
-              "Que un lobato siguió con cuidado, de principio a fin, cada una de las instrucciones que la Jefa dio en la jornada.",
-              "Que un lobato propuso por su cuenta guardar las envolturas en el bolsillo y cumplió lo que le prometió a su seisena."
+              "El rasgo «sensible culturalmente», tal como lo describe la lista de la ciudadanía activa global.",
+              "El rasgo «comprometido», tal como lo describe la lista de la ciudadanía activa global.",
+              "El rasgo «solidario», tal como lo describe la lista de la ciudadanía activa global."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "responsable, capaz de adoptar y completar las responsabilidades adquiridas, comprometido, hace y mantener su palabra"
           }
         ]
       },
@@ -260,31 +263,34 @@
         "nextLabel": "Continuar al barrio 🔎",
         "questions": [
           {
-            "text": "Un Clan nota que varios compañeros del colegio pasan los exámenes con angustia, se encierran y no saben con quién hablar. Quieren hacer algo. ¿En qué iniciativa lo ubicas?",
+            "text": "Una Comunidad quiere trabajar la salvaguarda: que los niños de su Grupo sepan a quién acudir si algo los hace sentir en peligro. ¿En qué iniciativa de Scouts por los ODS lo enmarca?",
             "options": [
-              "En Messengers of Peace: es un asunto del colegio y de sus compañeros, y lo comunitario suele entrar por esa puerta.",
-              "En Earth Tribe: el bienestar depende del entorno donde se estudia y se vive, y el entorno es la puerta de esa iniciativa.",
-              "En Health Allies: su puerta incluye la salud mental, y lo que el Clan vio es eso, aunque nadie lo haya llamado así."
+              "En Salud y Bienestar, y lo trabaja con su Grupo según la Política A Salvo del Peligro.",
+              "En Paz e Involucramiento Comunitario, y lo trabaja con su Grupo según la Política A Salvo del Peligro.",
+              "En Habilidades para la Vida, y lo trabaja con su Grupo según la Política A Salvo del Peligro."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "La salvaguarda, por ejemplo, está en Health Allies: una vez más, la protección no es un anexo, es parte del programa."
           },
           {
-            "text": "Una dirigente busca en la biblioteca de la Asociación la guía del desafío «Constructores de Mentes», de Health Allies, y no la encuentra. ¿Qué es lo correcto?",
+            "text": "Una dirigente que quiere trabajar el desafío Nutrición de Health Allies encuentra en la biblioteca la «Insignia de la Nutrición» y piensa usarla como guía. ¿Qué le dices?",
             "options": [
-              "Armar el desafío con la Insignia de la Nutrición, que sí está en la biblioteca: es del mismo Health Allies.",
-              "Escribir a la comisión de Mundo Mejor de su región: no estar en la biblioteca no quiere decir que no exista.",
-              "Preguntar a otro Grupo que ya lo hizo y armarlo con sus materiales, para pedir después la insignia oficial."
+              "Que esa insignia es del desafío Nutrición, dentro de Health Allies, y que le sirve como guía del desafío.",
+              "Que esa insignia es de Constructores de Mentes, dentro de Health Allies; la de Nutrición no está publicada.",
+              "Que esa insignia es de YUNGA, dentro de Tribu Tierra; la guía del desafío Nutrición no está publicada."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "en la biblioteca sí hay una Insignia de la Nutrición, pero es de YUNGA, dentro de Tribu Tierra; no es la guía del desafío Nutrición de Health Allies."
           },
           {
-            "text": "Una Jefa de Tropa ya trabaja con su unidad el desafío Mareas Plásticas con el kit de la biblioteca. Otro dirigente le dice que pare, porque «el mapa de Scouts por los ODS cambió». ¿Qué hace ella?",
+            "text": "Una Jefa de Manada nota que su Guía de rama trae una sola iniciativa de Scouts por los ODS, mientras el Modelo 2026 ordena el mapa en cuatro. ¿Cómo lo entiende?",
             "options": [
-              "Sigue adelante: Mareas Plásticas está en el mapa de Tribu Tierra y su kit está publicado; el mapa creció, no borró desafíos.",
-              "Hace una pausa y le escribe a la comisión de Mundo Mejor: ante una duda sobre el catálogo, lo seguro es preguntar antes de actuar.",
-              "Sigue, pero le pide a la Tropa que también trabaje un desafío de Health Allies, para no quedarse solo con una iniciativa."
+              "Que su Guía trae la que el Modelo le asigna a la Manada, y las otras ramas reciben las demás.",
+              "Que su Guía escoge la que conviene a la edad de los lobatos, como hacen las otras Guías de rama.",
+              "Que su Guía se quedó atrás frente al Modelo, y que con los lobatos conviene trabajar las cuatro."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "las Guías de rama escogen las que convienen a su edad —la de Comunidad propone dos, la de Manada una—"
           }
         ]
       },
@@ -367,31 +373,34 @@
         "nextLabel": "Continuar al desafío 🛠️",
         "questions": [
           {
-            "text": "Una Tropa llega diciendo que quiere trabajar el cambio climático porque lo vio en las noticias. ¿Qué hace el dirigente?",
+            "text": "Una Tropa ya leyó lo de la quebrada, lo enlazó con Tribu Tierra y armó tres sábados de actividades concretas, viables y seguras. Según la ruta del Bolsillo, ¿qué paso sigue?",
             "options": [
-              "Les dice que sí y les pide que, para el sábado, cada uno traiga anotado un lugar de su camino al colegio donde crea que se nota.",
-              "Les propone dejar el clima para otro momento y empezar por lo que ven cerca de la sede: el tema salió de un noticiero, no del barrio.",
-              "Acepta el tema y prepara para el sábado una presentación corta sobre el ODS 13, para que la Tropa llegue a la discusión con bases."
+              "Cerrar el proceso con una lectura del impacto, el reconocimiento y las nuevas proyecciones.",
+              "Identificar qué aprendizajes, actitudes y competencias se están poniendo en juego.",
+              "Presentar lo planeado a la junta del barrio y recoger sus impresiones antes de empezar."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "Identificar qué aprendizajes, actitudes y competencias se están poniendo en juego."
           },
           {
-            "text": "Después de una jornada de limpieza de una quebrada, un dirigente escribe en la cartelera del grupo: «¡Salvamos el planeta!». ¿Qué le advierte el Modelo de Bolsillo?",
+            "text": "Al terminar el desafío del parque, Luisa vuelve a sacar la cartelera de los 17 objetivos que había guardado. ¿Qué les pide marcar a los lobatos?",
             "options": [
-              "Que la jornada no cuenta como desafío ODS: lo que vale es un proyecto de incidencia sostenido, no una limpieza puntual.",
-              "Que no sobredimensione: la jornada vale por lo que aprendieron e hicieron allí, no por un titular más grande que ella.",
-              "Que lo cambie por un dato: cuántos kilos de basura sacaron, que eso sí muestra el impacto real de la jornada."
+              "Qué objetivo quieren trabajar en el próximo desafío, cada uno según lo que vivió.",
+              "Qué objetivos dejaron cumplidos con el desafío, cada uno según lo que vivió.",
+              "Qué objetivo se conecta con lo que hicieron en el parque, cada uno según lo que vivió."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "los lobatos van a marcar en ella, cuando terminen, con cuál de esos objetivos conectó lo que hicieron en el parque."
           },
           {
-            "text": "Una Tropa termina de reforestar una ladera cerca de su sede, y el dirigente quiere que los scouts vean cómo eso se enlaza con los ODS. ¿Qué le propone el Modelo?",
+            "text": "Una Tropa termina de reforestar una ladera cerca de su sede, y el dirigente prepara la frase con la que va a enlazar la jornada con los ODS. ¿Cuál se ajusta al Modelo?",
             "options": [
-              "Una sesión corta sobre el ODS 15 en la reunión siguiente, para que lo que vivieron en la ladera quede ordenado en conceptos.",
-              "Al cerrar, una frase que conecte la ladera con el objetivo de los ecosistemas terrestres, sin convertir el enlace en una clase.",
-              "Dejar el enlace para el informe que la unidad presenta a la región: en la actividad, los scouts solo deben vivir la experiencia."
+              "«Con lo que hicimos hoy en la ladera ayudamos a frenar el cambio climático del planeta».",
+              "«Lo que hicimos hoy en la ladera conecta con cuidar los ecosistemas terrestres».",
+              "«Lo que hicimos hoy en la ladera cumple el ODS 15 y sus metas para el año 2030»."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "enlazar con los ODS «sin convertirlo en cátedra», con una frase en el momento justo —«esta acción conecta con reducir residuos»—, no con una clase."
           }
         ]
       },
@@ -462,31 +471,34 @@
         "nextLabel": "Continuar al reconocimiento 🏅",
         "questions": [
           {
-            "text": "La Manada de Luisa ya decidió que va a trabajar en el parque. Según los siete pasos del Modelo, ¿qué conviene definir primero?",
+            "text": "La Manada de Luisa ya sabe para quién es su trabajo en el parque. Al acordar los criterios de calidad, la lista llega a siete. ¿Qué le recuerdan los siete pasos del Modelo?",
             "options": [
-              "Qué actividades van a hacer el sábado: con el parque ya elegido, lo urgente es que la jornada quede armada.",
-              "Para quién es el proyecto de la Manada y qué le van a entregar: sin destinatario real, el desafío se vacía.",
-              "Con cuál de los 17 ODS conecta: es el marco, y ponerlo primero asegura que las actividades queden alineadas."
+              "Que la dejen en entre dos y cuatro criterios, simples y que se puedan revisar a la vista de todos.",
+              "Que la dejen en entre tres y cinco criterios, simples y que se puedan revisar a la vista de todos.",
+              "Que la dejen en entre cuatro y seis criterios, simples y que se puedan revisar a la vista de todos."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "Acuerda criterios de calidad simples (2–4) y revisables públicamente."
           },
           {
-            "text": "Al cerrar el desafío de los plásticos, la Manada de Luisa quiere anotar en el portafolio de cada lobato las doce competencias educativas que «tocaron» en el parque. ¿Qué le sugieren los siete pasos?",
+            "text": "Al cerrar el desafío, Luisa va a ubicar en Exploro, Aplico o Profundizo las dos competencias que la Manada eligió al planear. ¿Cómo lo hace?",
             "options": [
-              "Que anote las doce: cuantas más competencias queden en el portafolio, más completo se ve el trabajo de la Manada.",
-              "Que anote las que tocaron, pero todas en Exploro: en un primer desafío ningún lobato llega todavía a Aplico.",
-              "Que anote las pocas que eligieron al planear, cada una en el nivel que mostró cada lobato en el desafío."
+              "Ubica cada una en el nivel que corresponde a cada lobato, según el tramo y la evidencia de cada uno.",
+              "Ubica cada una en el nivel que cada lobato elige para sí, después de contar en el Consejo qué aprendió.",
+              "Ubica cada una en el mismo nivel para toda la Manada, el que corresponde al tramo de edad de los lobatos."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "una o dos de la malla de la Manada, en el nivel que corresponda a cada lobato"
           },
           {
-            "text": "Una Tropa instaló puntos de reciclaje en su colegio, y el dirigente pensaba mostrar el resultado en la ceremonia anual del Grupo. El rector no puede ir; ofrece recibir a la Tropa y a sus dos dirigentes diez minutos en el colegio el viernes. ¿Qué le recuerda el paso seis?",
+            "text": "Una Tropa ya presentó sus puntos de reciclaje al colegio y recogió lo que opinaron. El dirigente solicita la insignia del desafío y lo da por cerrado. Según el paso siete, ¿qué le falta?",
             "options": [
-              "Que acepten los diez minutos: dos o tres scouts le cuentan al rector lo que hicieron, y la Tropa anota lo que él les responda.",
-              "Que aplacen el cierre hasta que el rector pueda ir a la ceremonia: sin él en la presentación completa, el paso queda a medias.",
-              "Que lo muestren en la ceremonia y le manden al rector un resumen escrito: lo que pide el paso seis es que alguien lo vea."
+              "Anotar en el portafolio de la Tropa el desafío cumplido y la insignia que solicitaron.",
+              "Anotar en el portafolio de cada scout las fotos del desafío y la fecha de la presentación.",
+              "Anotar en el portafolio de cada scout la acreditación de las competencias que trabajó."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Registra: solicitud y entrega de insignias o distingos, y acreditación de competencias en el portafolio de progresión del Protagonista de Programa."
           }
         ]
       },
@@ -554,31 +566,34 @@
         "nextLabel": "Continuar al cierre ✅",
         "questions": [
           {
-            "text": "Una familia ofrece mandar a bordar las insignias de un desafío en un taller del barrio, para que toda la Manada las tenga el día de la ceremonia. ¿Qué le respondes?",
+            "text": "La Manada cerró el desafío y una familia se ofrece a comprar las insignias a la Asociación para la ceremonia. ¿Desde cuándo pueden portarlas los lobatos?",
             "options": [
-              "Que se agradece, pero esas insignias no se encargan a un taller del barrio: llegan por la Asociación o por quien ella autorice.",
-              "Que está bien si el taller las borda iguales a las de la Asociación: la insignia es la huella, y esa huella ya se ganó.",
-              "Que mejor las compren todas ya a la Asociación, para tenerlas listas el día de la ceremonia aunque falte el reconocimiento."
+              "Desde que la Comisión Nacional los reconozca oficialmente, con su resolución y su registro.",
+              "Desde que el Consejo de Grupo los reconozca oficialmente, con su acta y su registro.",
+              "Desde que la comisión regional de Mundo Mejor los reconozca, con su acta y su registro."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "Y las porta solo quien fue reconocido oficialmente por la Comisión Nacional, con su resolución y registro."
           },
           {
-            "text": "La Manada de Luisa ya presentó su trabajo a la junta, y cada lobato contó en el Consejo de Roca qué aprendió. Un dirigente sugiere no pedir la insignia «para que no piensen que lo hicieron por eso». ¿Qué conviene?",
+            "text": "Terminada la jornada del parque, un papá le pregunta a Luisa cuándo van a solicitar «la insignia de los plásticos». ¿Qué le responde ella?",
             "options": [
-              "Solicitarla ya: el proceso está hecho y cada lobato puede contar qué aprendió; la insignia es justo la huella que nombra eso.",
-              "No pedirla: si la insignia no es la meta del desafío, lo coherente es cerrarlo sin ella y dejar que el aprendizaje hable solo.",
-              "Pedirla dentro de unos meses, cuando la jornada ya no esté fresca, para que nadie la asocie con el trabajo del parque."
+              "Que cuando la Manada cierre la jornada en el parque y cada lobato pueda contar qué aprendió.",
+              "Que cuando la Manada presente a la junta lo que hizo y la junta ponga las canecas propuestas.",
+              "Que cuando la Manada presente a la junta lo que hizo y cada lobato pueda contar qué aprendió."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Cuando la Manada le presente a la junta lo que hizo y cada lobato pueda contar qué aprendió. Ahí la solicitamos."
           },
           {
-            "text": "Un Rover de 19 años coordinó hace tres años un proyecto con su barrio y quiere postularse él mismo a Héroes Mensajeros de la Paz. ¿Qué le dices?",
+            "text": "Una Scout de 13 años lideró con su patrulla, el año pasado, un proyecto con su barrio ya registrado en scout.org, y su dirigente quiere nominarla. ¿A qué reconocimiento mundial puede aspirar?",
             "options": [
-              "No cabe así: no se admite que uno se nomine a sí mismo, y el proyecto tendría que ser de los últimos 24 meses.",
-              "Sí cabe si otra persona del Clan firma la nominación: el proyecto es suyo y cumple el rango de 11 a 26 años.",
-              "No cabe todavía: le falta registrar el proyecto en scout.org, y hecho eso ya puede postularse él mismo."
+              "A Scouts del Mundo, que va de 11 a 26 años; Héroes Mensajeros de la Paz empieza a los 15.",
+              "A Héroes Mensajeros de la Paz, que va de 11 a 26 años; Scouts del Mundo empieza a los 15.",
+              "A Héroes Mensajeros de la Paz, que va de 13 a 26 años; Scouts del Mundo empieza a los 18."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "Para jóvenes de 11 a 26 años, individuos o equipos, que hicieron una contribución significativa a su comunidad."
           }
         ]
       },
@@ -664,31 +679,34 @@
         "nextLabel": "Ver mi certificado 🌍",
         "questions": [
           {
-            "text": "En el Consejo de Roca, los lobatos escogen algo que a Luisa le parece pequeño: en el baño de la sede nunca hay jabón y casi nadie se lava las manos. ¿Qué hace Luisa?",
+            "text": "Un Jefe de Comunidad quiere empezar por lo que su Guía de rama propone sobre Scouts por los ODS. ¿Qué va a encontrar allí?",
             "options": [
-              "Lo toma: es lo que ellos ven, y con un para quién, criterios y una presentación ante quien cuida la sede puede ser un desafío.",
-              "Lo toma, pero sin enlazarlo con ningún ODS: si lo enlaza, le estaría poniendo un discurso grandilocuente a una cosa tan pequeña.",
-              "Les propone sumarlo al trabajo del parque, que luce más, para que el asunto del baño tenga peso de desafío ante la junta."
+              "Dos iniciativas, Tribu Tierra y Health Allies, y los dos reconocimientos mundiales.",
+              "Dos iniciativas, Mensajeros de la Paz y Tribu Tierra, y los dos reconocimientos mundiales.",
+              "Dos iniciativas, Health Allies y Mensajeros de la Paz, y los dos reconocimientos mundiales."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "Comunidad: tu Guía trabaja dos iniciativas, Mensajeros de la Paz y Tribu Tierra, y los dos reconocimientos mundiales."
           },
           {
-            "text": "La Manada escogió trabajar en el camino oscuro que va de la sede al colegio. Para ganar tiempo, la Jefa llega a la siguiente reunión con los criterios de calidad ya escritos. ¿Qué le sugieres?",
+            "text": "La Manada ya escogió trabajar en el camino oscuro de la sede al colegio. Antes de la siguiente reunión, la Jefa piensa qué llevar preparado ella. ¿Qué le sugieres?",
             "options": [
-              "Que traiga lo suyo —a quién podría servir y cómo hacerlo seguro— y acuerde los criterios con los lobatos.",
-              "Que está bien: a esa edad los criterios los redacta el adulto, y la Manada solo los aprueba en el Consejo de Roca.",
-              "Que los guarde para la presentación pública: los criterios se revisan al terminar, no se acuerdan al comienzo."
+              "Que lleve cómo hacerlo seguro y los criterios de calidad; a quién podría servir lo recorren juntos.",
+              "Que lleve solo cómo hacerlo seguro, que es lo del adulto; a quién servir y los criterios, juntos.",
+              "Que lleve a quién podría servir y cómo hacerlo seguro; los criterios y lo demás los recorren juntos."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Tú llega con lo que te toca como adulto: a quién podría servir y cómo se haría segura."
           },
           {
             "text": "Un dirigente nuevo terminó el Curso 25 de esta plataforma y quiere acompañar la jornada de un desafío de su unidad. Según el Manual de Implementación, ¿le basta?",
             "options": [
-              "Le basta: el Curso 25 es A Salvo del Peligro aplicado al Programa, y cubre lo que pide el Manual.",
-              "Todavía no: el Manual pide el curso oficial de A Salvo del Peligro; el de esta plataforma no lo sustituye.",
-              "Le alcanza si va con otro adulto: el requisito del Manual es para quien dirige la jornada, no para quien acompaña."
+              "Sí le basta: el Manual pide un curso de A Salvo del Peligro, y el Curso 25 lo aplica directo al Programa.",
+              "No le basta: el Manual pide el curso oficial de A Salvo del Peligro, y el Curso 25 ayuda a llevarlo a la unidad.",
+              "No le basta: el Manual pide el Curso 7 de esta plataforma, y el Curso 25 ayuda a llevarlo a la unidad."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "para acompañar cualquiera de sus actividades hay que haber completado el curso oficial de A Salvo del Peligro"
           }
         ]
       },

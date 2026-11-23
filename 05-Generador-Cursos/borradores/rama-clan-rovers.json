@@ -154,31 +154,34 @@
         "nextLabel": "Continuar a la Ley y la Promesa 🤝",
         "questions": [
           {
-            "text": "El Clan lleva tres semanas sin reunirse porque nadie convocó. Tú tienes el grupo de WhatsApp y podrías escribir ahora mismo. ¿Qué haces?",
+            "text": "El Clan lleva tres semanas sin reunirse porque nadie convocó. Tú tienes el grupo de WhatsApp y te preguntas qué te toca en esta rama. ¿Qué haces?",
             "options": [
-              "Le escribes al presidente del Comité de Clan con fecha y lugar ya propuestos, para que solo tenga que reenviarlo.",
-              "Escribes tú en el grupo que llevan tres semanas sin verse, sin convocar: solo un recordatorio para que ellos decidan.",
-              "Le escribes al presidente del Comité de Clan y le preguntas qué piensa hacer él con esas tres semanas sin reunirse."
+              "No convocas ni les recuerdas nada: en esta rama tu medida es cuánto pasa sin que lo empujes, y esperas a que te busquen.",
+              "No convocas, pero sí les recuerdas la fecha: en esta rama tu presencia es permanente, aunque tu participación se desvanezca.",
+              "Convocas tú esta única vez, con fecha y lugar: en esta rama eres garante del proceso, y un Clan parado es un proceso caído."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "Convocar tú, proponer tú, recordar tú. A los diecinueve, un adulto al que hay que recordarle las cosas deja de venir."
           },
           {
-            "text": "Camilo cumplió 20 años en marzo y alcanzó la fase de Rover Transformador. El Clan quiere trabajar con calma su insignia máxima BP y presentar la solicitud a comienzos del año entrante. ¿Qué les dices?",
+            "text": "Camilo cumplió 20 años en marzo y ya está en la fase de Rover Transformador. El Clan quiere trabajar con calma su insignia máxima BP y presentar la solicitud a comienzos del año entrante. ¿Qué les dices?",
             "options": [
-              "Cuentas hasta marzo, cuando cumpla 21: es el tope para tramitar la insignia máxima.",
-              "Cuentas ocho meses desde marzo: la solicitud no puede pasar de noviembre.",
-              "Lo dejas al ritmo del Clan: el PARCE es personalizado y no hay fecha que corra."
+              "Que la presenten antes de marzo: el tope de la solicitud son los 21 años cumplidos.",
+              "Que la presenten antes de mayo: el tope de la solicitud son los 21 años y 2 meses.",
+              "Que la presenten antes de noviembre: el tope de la solicitud son los 20 años y 8 meses."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "Insignia máxima (BP): se entrega solo a quien tenga «una edad no superior a los 20 años y 8 meses al momento de la solicitud»"
           },
           {
             "text": "El Consejo de Clan eligió para el semestre una huerta comunitaria en un lote del barrio del que nadie ha averiguado quién es el dueño. Tú preferías un proyecto de memoria histórica. ¿Qué haces?",
             "options": [
-              "Lo acompañas como está: el proyecto es del Clan, y si el lote trae problemas, eso también será parte de lo que aprendan.",
-              "Les pides que siembren en otro lote, uno que tú conozcas y sepas de quién es, para no poner en riesgo el proyecto.",
-              "Preguntas en el Consejo quién va a confirmar de quién es el lote antes de sembrar, y tu proyecto no lo vuelves a mencionar."
+              "Acompañas la huerta y pides que antes midan si el lote sí da cosecha: como garante respondes de que el proyecto salga bien y deje algo hecho.",
+              "Acompañas la huerta y pides que antes confirmen de quién es el lote: como garante respondes de que el proceso sea seguro y coherente con el marco.",
+              "Acompañas la huerta y pides que antes la vuelvan a votar con calma: como garante respondes de que el Clan acierte en lo que decide."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "Respondes de que el proceso siga siendo scout, seguro y coherente con el marco institucional. No respondes de que el proyecto salga bien, de que el Clan acierte"
           }
         ]
       }
@@ -268,29 +271,32 @@
           {
             "text": "Dos Rovers dejaron tirado un proyecto de servicio a mitad de camino y la comunidad del barrio quedó esperando. ¿Cómo lo llevas al Consejo de Clan?",
             "options": [
-              "Les recuerdas el artículo tercero de la Ley y les pides que asuman públicamente que fallaron a quien confió en ellos.",
-              "Lo dejas pasar por esta vez y hablas con ellos aparte, para no exponerlos delante de todo el Clan.",
-              "Les abres la conversación con dos preguntas: qué aprendimos y cómo actuaríamos distinto la próxima vez."
+              "Abres con dos preguntas para todos: qué artículo de la Ley dejamos de lado y cómo podríamos repararlo con el barrio.",
+              "Abres con dos preguntas para todos: qué aprendimos de esta experiencia y cómo podríamos actuar distinto la próxima vez.",
+              "Abres con dos preguntas para todos: qué le prometimos a esa comunidad y cómo podríamos cumplírselo esta vez."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "«Cuando algo no sale bien, no se usa para juzgar, sino para conversar, para reflexionar juntos: ¿Qué aprendimos de esta experiencia?, ¿Cómo podríamos actuar distinto la próxima vez?»"
           },
           {
-            "text": "Valentina llega al Clan desde la Comunidad y te dice que no quiere volver a decir «con la gracia de Dios» en su renovación. ¿Qué haces?",
+            "text": "Valentina llega al Clan desde la Comunidad y te dice que en su renovación no quiere volver a decir «con la gracia de Dios». ¿Qué le ofreces?",
             "options": [
-              "Le ofreces la segunda fórmula oficial, que dice «para con mi espiritualidad», y renueva con el resto.",
-              "Le explicas que la renovación repite la fórmula con la que se hizo la Promesa por primera vez en la Tropa.",
-              "Le propones que aplace la renovación hasta que tenga más claro qué quiere decir esa parte de la fórmula."
+              "La fórmula alternativa, también oficial, que dice «mis deberes para conmigo, para con los demás y para con mi espiritualidad».",
+              "La fórmula alternativa, también oficial, que dice «mis deberes para conmigo, para con los demás y para con la patria».",
+              "La fórmula alternativa, también oficial, que dice «mis deberes para con mi conciencia, con los demás y con mi país»."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "donde una dice «con la gracia de Dios» y «mis deberes para con Dios y con la patria», la otra dice «mis deberes para conmigo, para con los demás y para con mi espiritualidad»"
           },
           {
             "text": "Un Rover te pregunta, algo preocupado, si estás conforme con cómo está cumpliendo su Promesa este semestre. ¿Qué le respondes?",
             "options": [
-              "Que ese juicio es solo suyo, y le propones convertir un artículo de la Ley en una pregunta sobre su semana.",
-              "Que ese juicio es solo suyo, y das la conversación por cerrada para no meterte en su proceso personal.",
-              "Que le das tu opinión con franqueza, porque a los diecinueve años un adulto merece que le hablen claro."
+              "Que ese juicio lo hacen juntos, y le propones convertir un artículo de la Ley en una pregunta para revisar contigo.",
+              "Que ese juicio es del equipo de dirigentes, y le propones convertir un artículo de la Ley en una pregunta para ellos.",
+              "Que ese juicio es solo suyo, y le propones convertir un artículo de la Ley en una pregunta sobre su semana."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "«Nadie más que el propio jóven será quien, en su diario vivir, reflexione sobre el cumplimiento de su Promesa.» Tu papel no es evaluarla."
           }
         ]
       }
@@ -392,31 +398,34 @@
         "nextLabel": "Continuar a la Ciudadanía Activa ⚜️",
         "questions": [
           {
-            "text": "En el Consejo de Clan se está votando el proyecto del semestre y tú ves un riesgo de seguridad que nadie ha mencionado. ¿Qué haces?",
+            "text": "En el Consejo de Clan se va a votar el proyecto del semestre y tú ves un riesgo de seguridad que nadie ha mencionado. ¿Qué haces?",
             "options": [
-              "Lo dices en el momento, porque como garante del proceso respondes de que la actividad sea segura.",
-              "Lo anotas y lo hablas después con el presidente, para no interferir en una votación que es de ellos.",
-              "Votas en contra explicando tu razón, que para eso también eres parte del Consejo de Clan."
+              "Pides la palabra y expones el riesgo, y después votan todos los Rovers inscritos, contigo entre quienes votan.",
+              "Pides la palabra y expones el riesgo, y después vota el Comité de Clan, que decide en nombre de los Rovers.",
+              "Pides la palabra y expones el riesgo, y después votan todos los Rovers inscritos, sin ti entre quienes votan."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Lo integran todos los Rovers inscritos al Clan. Compáralo con lo que ya sabes: en la Comunidad el Congreso decidía y tú tenías voz sin voto. Aquí la Guía ni siquiera necesita aclararlo"
           },
           {
-            "text": "El Comité de Clan te avisa que el Consejo va a planear las actividades del semestre y que no hace falta que vayas: «un Clan se gobierna solo». ¿Qué les dices?",
+            "text": "El Consejo de Clan tiene tres temas para su próxima sesión, y el Comité te pide que vayas solo al que, según la Guía, el Consejo trabaja junto con el Jefe. ¿A cuál vas?",
             "options": [
-              "Que perfecto: si el Consejo es el que decide, que planee sin ti es justo lo que buscas en esta rama.",
-              "Que vas: entre sus funciones, el Consejo planifica y evalúa las actividades junto con el Jefe.",
-              "Que vas, y que llevas tú un plan de base para que lo voten y no tengan que arrancar de cero."
+              "Al de definir los objetivos del año para todo el Clan.",
+              "Al de planificar y evaluar las actividades del semestre.",
+              "Al de establecer y evaluar los proyectos del Clan."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Planificar y evaluar las actividades junto con el Jefe."
           },
           {
             "text": "Andrés, Rover de 19 años, quiere postularse al Consejo Municipal de Juventudes de su ciudad y te pregunta si eso tiene algo que ver con el Clan. ¿Qué le dices?",
             "options": [
-              "Que es valioso, porque es ciudadanía activa de verdad, y tu papel es enlazarlo con quien conozca ese proceso.",
-              "Que es valioso, pero queda fuera del Movimiento; su espacio de incidencia como Rover es la Red de Jóvenes.",
-              "Que es valioso, y que lo acompañas tú en la campaña para que la viva como un proyecto más del Clan."
+              "Que sí: es ciudadanía activa de verdad, tu papel es de enlace, y ese Consejo es del Sistema Nacional de Juventudes.",
+              "Que sí: es ciudadanía activa de verdad, tu papel es de acompañante, y ese Consejo es del Sistema Nacional de Juventudes.",
+              "Que sí: es ciudadanía activa de verdad, tu papel es de acompañante, y ese Consejo es de la Red de Jóvenes scout."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "No es una actividad scout: es ciudadanía activa de verdad, que es exactamente el marco simbólico de esta rama. Tu papel ahí es de enlace, no de acompañante."
           }
         ]
       }
@@ -517,31 +526,34 @@
         "nextLabel": "Continuar al territorio 🌍",
         "questions": [
           {
-            "text": "Un dirigente nuevo llega a tu Clan y te propone abrir el año con «la semana de Saulo de Tarso, que es nuestro marco simbólico». ¿Qué le propones en cambio?",
+            "text": "Un dirigente nuevo te propone abrir el año con «la semana de Saulo de Tarso, que es nuestro marco simbólico». ¿Qué le aclaras?",
             "options": [
-              "Una semana de servicio en el barrio: el marco es la Ciudadanía Activa, y se materializa sirviendo.",
-              "Una semana sobre los símbolos —canoa, cuerno, horquilla—, que es lo que de verdad identifica al Clan.",
-              "La misma semana, conservando a Saulo como marco pero sumando otros referentes para que nadie quede fuera."
+              "Que Saulo es un referente, no el marco: el marco simbólico es el ejercicio de la Ciudadanía Global, y se materializa en el servicio.",
+              "Que Saulo es un referente, no el marco: el marco simbólico es el ejercicio de la Ciudadanía Activa, y se materializa en el servicio.",
+              "Que Saulo es un referente, no el marco: el marco simbólico es el servicio, y se materializa en el ejercicio de la ciudadanía."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "El marco simbólico para la rama Rover es el ejercicio de la Ciudadanía Activa."
           },
           {
             "text": "Lucía, que no es creyente, va a ser investida y le pide al Clan no decir la Oración Rover en su ceremonia, «porque yo no rezo». ¿Qué le sugieres al Clan?",
             "options": [
-              "Que la omitan en su caso: si es una oración, nadie tiene por qué decirla en contra de sus creencias.",
-              "Que le cuenten que la Oración Rover es un ritual no religioso, y que con eso a la vista decida ella.",
-              "Que la cambien por la fórmula alternativa de la Promesa, la que dice «para con mi espiritualidad»."
+              "Que le cuenten que la Oración Rover tiene una versión laica que trae la Guía de Clan, y que con eso decida ella.",
+              "Que le cuenten que la Oración Rover es opcional en las investiduras según la Guía, y que con eso decida ella.",
+              "Que le cuenten que la Oración Rover es un ritual no religioso con sentido de trascendencia, y que con eso decida ella."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "La Oración Rover — un ritual no religioso con sentido de trascendencia."
           },
           {
-            "text": "El Clan prepara la investidura de tres Rovers y la quiere de dos horas, con luces, video y un discurso de cada dirigente, «para que se sienta grande». ¿Qué les sugieres?",
+            "text": "El Clan prepara la investidura de dos Rovers y la quiere sencilla y breve, como piden los criterios SABER, «en la intimidad del Clan, allá en la montaña». ¿Qué les sugieres?",
             "options": [
-              "Que la recorten: la Guía pide ceremonias sencillas y breves, que no sean un espectáculo, sin perder lo elevado.",
-              "Que la mantengan si es auténtica: lo que la Guía pide es que la ceremonia sea sincera y que deje huella.",
-              "Que la partan en dos: una investidura breve en el Clan y la celebración grande después, ante el Grupo."
+              "Que la hagan sencilla y breve, como pide SABER, pero ante el Grupo Scout, que es donde se entrega una investidura.",
+              "Que la hagan sencilla y breve, como pide SABER, y en la montaña con el Clan, que es donde el Clan elija entregarla.",
+              "Que la hagan sencilla y breve, como pide SABER, y ante el Clan y sus familias, que son quienes la acompañaron."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "la investidura, la insignia máxima BP - Ciudadano Global y los estímulos se entregan necesariamente en presencia del Grupo"
           }
         ]
       }
@@ -641,31 +653,34 @@
         "nextLabel": "Continuar al PARCE 🛶",
         "questions": [
           {
-            "text": "Tu Clan lleva tres sábados haciendo juegos de salón porque «es lo que alcanza el tiempo». Dejaron de venir dos Rovers — y son los dos que nunca faltaban, los que llevaban el proyecto del barrio. ¿Qué revisas primero?",
+            "text": "Dos Rovers que llevaban el proyecto del barrio dejan de venir: dicen que en el Clan ya no hay expediciones exigentes ni proyectos comunitarios que coordinar, solo juegos de salón. ¿Qué criterio de DURASLID les está fallando?",
             "options": [
-              "El horario de las reuniones, porque a esa edad el trabajo y la universidad compiten por el sábado.",
-              "Si las actividades son desafiantes: a los veinte, lo que no exige autonomía ni deja algo hecho se abandona.",
-              "Si esos dos Rovers siguen comprometidos, hablando con cada uno para entender qué los fue alejando."
+              "El útil, que en Rovers la Guía aterriza en expediciones de alta exigencia y proyectos comunitarios.",
+              "El recompensante, que en Rovers la Guía aterriza en expediciones de alta exigencia y proyectos comunitarios.",
+              "El desafiante, que en Rovers la Guía aterriza en expediciones de alta exigencia y proyectos comunitarios."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "desafiante significa «expediciones de alta exigencia, la coordinación de proyectos comunitarios o la gestión de iniciativas sostenibles con impacto real»"
           },
           {
-            "text": "El Clan quiere hacer un proyecto sobre el manejo de basuras en su barrio y te preguntan por dónde empezar en Scouts por los ODS.",
+            "text": "El Clan quiere un proyecto sobre igualdad de género con los colegios del barrio, usando el desafío HeForShe. ¿Por cuál iniciativa de Scouts por los ODS entra?",
             "options": [
-              "Por Tribu Tierra, que es la iniciativa del entorno, y dentro de ella por Plastic Tide Turners.",
-              "Por Mensajeros de la Paz, porque el trabajo con la comunidad del barrio es convivencia antes que ambiente.",
-              "Por LifeLeaders, porque lo primero que necesitan es liderazgo e innovación para sostener el proyecto."
+              "Por Mensajeros de la Paz, la de convivencia, que es la que incluye el desafío HeForShe.",
+              "Por LifeLeaders, la de liderazgo consciente, que es la que incluye el desafío HeForShe.",
+              "Por HealthAllies, la de bienestar integral, que es la que incluye el desafío HeForShe."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "Cinco desafíos: Diálogos por la Paz, Patrimonito, HeForShe, Diálogo Interreligioso y Constructores de Paz. La puerta cuando el proyecto es de convivencia."
           },
           {
-            "text": "El Clan planea una travesía de tres días por el páramo y te pide que armes tú el análisis de riesgos, «porque eres el que sabe». ¿Qué haces?",
+            "text": "El Clan planea una travesía de tres días por el páramo y te pide que armes tú el análisis de riesgos, «porque eres el que sabe». ¿Qué les respondes?",
             "options": [
-              "Lo armas tú esta vez y se lo explicas, porque en un páramo la seguridad no se les delega a los Rovers todavía.",
-              "Lo arman ellos con un dirigente de la Región experto en gestión del riesgo, y tú te quedas fuera del plan.",
-              "Lo arman ellos, porque gestionar riesgos es parte de lo que aprenden; tú lo revisas y respondes de que sea seguro."
+              "Que lo armas tú con ellos, porque gestionar riesgos es parte de su aula viva, y así respondes de que el plan sea seguro.",
+              "Que lo armen ellos, porque gestionar riesgos es parte de su aula viva, y tú revisas ese plan y respondes de que sea seguro.",
+              "Que lo arme con ellos un experto de la Región, porque gestionar riesgos es parte de su aula viva, y él responde de eso."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "A los diecinueve años, la salida la planean ellos — y tú revisas ese plan y respondes de que sea seguro."
           }
         ]
       }
@@ -790,31 +805,34 @@
         "nextLabel": "Continuar a la vigilia 🔥",
         "questions": [
           {
-            "text": "Mariana lleva cuatro meses en el Clan, va rápido y ya cumple lo del Rover Participativo. Su dirigente propone entregarle el RC y el RP el mismo sábado. ¿Qué le respondes?",
+            "text": "Mariana lleva cuatro meses en el Clan, va rápido y ya cumple lo del Rover Participativo. Su dirigente propone entregarle el RC y el RP el mismo sábado. ¿Qué le propones?",
             "options": [
-              "Que adelante si lo cumple: el PARCE es personalizado y no hay por qué frenarla.",
-              "Que no: no se entregan insignias acumuladas ni dos en menos de cinco meses.",
-              "Que lo lleve al Consejo de Clan, que es quien valida los avances de progresión."
+              "Que le entreguen ahora el RC y el RP cuando pasen cinco meses, que es el lapso mínimo entre dos insignias.",
+              "Que le entreguen ahora el RC y el RP cuando pasen tres meses, que es el lapso mínimo entre dos insignias.",
+              "Que le entreguen ahora el RC y el RP cuando pasen siete meses, que es el lapso mínimo entre dos insignias."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "no se considera adecuado la entrega de insignias de manera acumulada, ni tampoco la entrega de más de una insignia de progresión en un lapso de tiempo inferior a los 5 meses."
           },
           {
-            "text": "Una Rover tiene Sociabilidad en profundización y quiere convertir su proyecto de innovación social en algo que siga funcionando cuando ella salga del Clan. ¿Qué te toca a ti?",
+            "text": "Una Rover trabaja su área de Sociabilidad en el nivel de profundización, con un proyecto de innovación social. ¿Qué te toca a ti en ese nivel?",
             "options": [
-              "Proponerle un desafío mayor y darle retroalimentación mientras lo ejecuta.",
-              "Conectarla con los Rovers nuevos como su tutora, que es lo que consolida una competencia educativa.",
-              "Conectarla con la fundación del barrio que trabaja ese tema: en ese nivel le abres puertas afuera."
+              "Acompañarla: observar su proyecto de cerca, retroalimentarla y ayudarla a decidir cada paso.",
+              "Apoyarla: estar disponible como recurso cuando ella te pregunte, porque el proceso es suyo.",
+              "Enlazarla: conectarla con expertos e instituciones de afuera que tú conoces y ella todavía no."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "Presencia proactiva hacia afuera: conectas con expertos, instituciones y espacios que tú conoces y él no."
           },
           {
-            "text": "Laura entra al Clan a los 19 años y medio. Con su dirigente reconoce competencias educativas que ya trae de su voluntariado y queda ubicada en Rover Participativo. ¿Qué ceremonia le toca?",
+            "text": "Laura entra al Clan a los 19 años y medio. Con su dirigente reconoce competencias educativas que ya trae de su voluntariado y queda ubicada en Rover Participativo. ¿Qué recibe en su ceremonia?",
             "options": [
-              "Solo la renovación de promesa o la investidura, con su registro en la matriz; ni el RC ni el RP se le entregan.",
-              "Primero la del RC y cinco meses después la del RP, para no entregarle dos insignias de manera acumulada.",
-              "La entrega de la horquilla y del RP juntas, porque la horquilla no está condicionada a ningún requisito."
+              "Solo la insignia de RP, la del nivel en que queda, con la renovación y su registro en la matriz.",
+              "Solo la renovación de promesa o la investidura, sin insignias, y su registro en la matriz desde RP.",
+              "Solo la horquilla del RC, que marca su adhesión, con la renovación y su registro en la matriz."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "no se le entrega ninguna de esas insignias —ni las que se saltó ni la del nivel en que queda—: solo se hace la renovación de promesa o la investidura"
           }
         ]
       }
@@ -911,31 +929,34 @@
         "nextLabel": "Continuar a la Partida 🌄",
         "questions": [
           {
-            "text": "En tu grupo la vigilia siempre incluye doce horas sin comer «para que valga». Un dirigente veterano lo defiende como tradición del Clan. ¿Qué haces?",
+            "text": "En tu grupo la vigilia siempre incluye doce horas sin comer «para que valga». Un dirigente veterano lo defiende como tradición del Clan. ¿Qué propones?",
             "options": [
-              "Lo dejas como opción libre: quien quiera ayunar en su vigilia lo hace, y quien no, no.",
-              "Lo planteas en el equipo de dirigentes: la Guía prohíbe los ayunos en cualquier ceremonia.",
-              "Propones cambiar el ayuno por una noche entera en vela, igual para todos, que la Guía sí contempla."
+              "Cambiarlo por un ayuno corto y voluntario: la Guía prohíbe los ayunos largos y admite retos razonables al servicio de la introspección.",
+              "Cambiarlo por un tiempo en total silencio: la Guía prohíbe los ayunos y admite retos razonables al servicio de la introspección.",
+              "Cambiarlo por una noche en vela para todos: la Guía prohíbe los ayunos y admite retos razonables al servicio de la introspección."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Una página después de la lista de lo prohibido, la Guía admite en la vigilia «retos, siempre y cuando sean razonables, seguros y funcionales a la experiencia», como un tiempo en total silencio o una bitácora a horas fijas."
           },
           {
-            "text": "Sebastián pide pasar su vigilia completamente solo: que nadie se le acerque en toda la noche, «porque es mi momento». ¿Qué haces?",
+            "text": "Sebastián pide pasar su vigilia sin que nadie se le acerque en toda la noche, «porque es mi momento». ¿Qué acuerdas con él?",
             "options": [
-              "Le propones partir la noche: la primera mitad solo y sin nadie cerca, y desde la medianoche te quedas a unos metros.",
-              "Le propones que lo acompañe un Rover que ya hizo la suya, para que no pase la noche solo y alguien lo ayude a centrarse.",
-              "Acuerdas con él cómo vas a acercarte cada tanto, o escribirle, para ver que esté bien, sin preguntarle qué está escribiendo."
+              "Que estarás presente toda la noche, acercándote cada tanto o por mensaje, y que lo que escriba es solo suyo.",
+              "Que estarás presente al inicio y al cierre, acercándote solo esas dos veces, y que lo que escriba es solo suyo.",
+              "Que estarás presente al inicio y al cierre, acercándote solo esas dos veces, y que lo que escriba lo conversan."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "Tú estás presente todo el tiempo, acercándote cada tanto o por mensaje, para verificar que las actividades avanzan y que el ánimo y la salud están bien."
           },
           {
             "text": "En tu Clan los que ya hicieron vigilia se llaman «los del fuego» y tienen una fogata propia a la que no van los demás. Dicen que así cuidan la intimidad de lo vivido. ¿Qué haces?",
             "options": [
-              "La desarmas con el Clan: la Guía prohíbe grupos con nombre especial que separen a quienes hicieron vigilia.",
-              "La respetas: el contenido de una vigilia es privado, y esa fogata protege lo que cada uno vivió en la suya.",
-              "La mantienes, pero les pides que inviten a los nuevos una vez al año, para que nadie se sienta por fuera."
+              "Lo llevas al Clan para que la abran a todos: la Guía prohíbe usar la vigilia para excluir, no que el grupo tenga un nombre propio.",
+              "Lo llevas al Clan para que la cuiden así: la Guía pide que el contenido de una vigilia sea privado, y esa fogata guarda lo vivido.",
+              "Lo llevas al Clan para que la disuelvan: la Guía prohíbe grupos con denominación especial que separen a quienes hicieron vigilia."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "no se pueden generar «contextos de exclusión» ni «grupos con denominación especial, tradiciones falaces o sobredimensionadas para separar a los que hayan hecho vigilia contra los que no»"
           }
         ]
       }
@@ -1023,29 +1044,32 @@
           {
             "text": "El Jefe de Grupo quiere que la Partida de Camilo termine con una formación en «Y», para que él elija delante de todos si sigue como adulto. ¿Qué le dices?",
             "options": [
-              "Que es un momento potente, pero que conviene avisarle a Camilo antes para que llegue con la decisión tomada.",
-              "Que la Partida se haga igual, y la pregunta se la haga el Clan después, en la Cena Rover, entre los más cercanos.",
-              "Que la Guía no la contempla: siga o no como adulto, Camilo no deja de ser Scout, y eso no se somete a público."
+              "Que no haya momento público para escoger: la Guía veta la «Y» porque esa decisión se conversa después con el Jefe de Grupo.",
+              "Que el momento para escoger sea en la Cena Rover: la Guía veta la «Y» en la Partida porque ahí se elige entre los cercanos.",
+              "Que no haya momento público para escoger: la Guía veta la «Y» porque, siga o no como adulto, Camilo no dejará de ser Scout."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "«El o la Rover que hace la partida siga o no como adulto en el movimiento, no dejará de ser Scout dentro o fuera de la Organización»"
           },
           {
-            "text": "Ese mismo día el Clan quiere aprovechar para entregarle a Camilo la insignia de Rover Transformador, que se le quedó pendiente. ¿Qué haces?",
+            "text": "El Clan quiere aprovechar la Partida de Camilo para entregarle la insignia de Rover Transformador, que se le quedó pendiente. ¿Qué les propones?",
             "options": [
-              "Lo apruebas: está todo el Grupo reunido y es ocasión de reconocerlo.",
-              "Lo pasas a otra fecha: ese día la ceremonia es de Camilo y de nada más.",
-              "Le preguntas a Camilo qué prefiere, porque la ceremonia se diseña con la participación de quien parte."
+              "Que se la entreguen esa mañana, ante el Grupo: la Partida es de Grupo, y ese día está reunido para reconocerlo.",
+              "Que se la entreguen en otra fecha, ante el Grupo: la Partida es exclusiva, y ese día no se entregan otras insignias.",
+              "Que se la entreguen esa tarde, en el Clan: la Partida es de Grupo, y las insignias del PARCE van donde el Clan elija."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Es una ceremonia de Grupo, y exclusiva: no se entregan otras insignias ni reconocimientos ese día."
           },
           {
-            "text": "El Clan organiza la Cena Rover del distrito y alguien propone un brindis con vino, «si aquí todos somos mayores de edad». ¿Qué les dices?",
+            "text": "Para la Cena Rover del distrito acordaron no tener alcohol, pero alguien propone un rincón aparte para fumar cigarrillo, «porque es legal y aquí todos somos mayores de edad». ¿Qué les dices?",
             "options": [
-              "Que puede haber brindis si es moderado, porque en el Clan todos los participantes ya son adultos.",
-              "Que sí, pero solo en la mesa de los dirigentes, que no son protagonistas de programa.",
-              "Que no: la Cena Rover es un espacio sin alcohol ni otras sustancias, aunque todos sean mayores de edad."
+              "Que la Guía pide una Cena libre de sustancias psicoactivas, legales o ilegales, y el cigarrillo es una de ellas.",
+              "Que la Guía pide una Cena libre de alcohol y de sustancias ilegales, y un rincón aparte para el cigarrillo cabe.",
+              "Que la Guía pide una Cena libre de sustancias ante menores de edad, y en una Cena solo de Rovers eso no aplica."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "debe ser un espacio libre de sustancias psicoactivas, legales o ilegales."
           }
         ]
       }
@@ -1137,31 +1161,34 @@
         "nextLabel": "Ir al certificado 🎓",
         "questions": [
           {
-            "text": "Abres el Clan en tres semanas. Te alcanza el tiempo para dejar listas dos cosas, no más. ¿Cuáles?",
+            "text": "Abres el Clan en tres semanas y te alcanza el tiempo para dejar listas tres herramientas, no más. ¿Cuáles?",
             "options": [
-              "El cronograma del semestre y la planeación de las primeras cuatro reuniones.",
-              "Las fichas médicas completas y las autorizaciones de afiliación de cada Rover.",
-              "El directorio de Rovers y familias y el cronograma del semestre, para saber a quién llamar y cuándo."
+              "El directorio de Rovers y familias, las fichas médicas completas y la autorización de afiliación de cada uno.",
+              "El directorio de Rovers y familias, las fichas médicas completas y los contactos de emergencia para salidas.",
+              "El directorio de Rovers y familias, el cronograma del Clan y los contactos de emergencia para las salidas."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "Directorio de Rovers y familias · fichas médicas completas y bien diligenciadas · autorización de afiliación."
           },
           {
             "text": "Un Rover te cuenta algo que parece una situación de abuso fuera del Grupo Scout. ¿Qué te toca a ti?",
             "options": [
-              "Reportar por esa ruta cuando hayas averiguado lo suficiente para saber si es cierto.",
-              "Reportar por «Me Pongo A Salvo del Peligro», sin ponerte a investigar lo que pasó.",
-              "Llevarlo al equipo de dirigentes del Grupo para decidir entre todos cuál es el paso siguiente."
+              "Reportarlo por «Me Pongo A Salvo del Peligro» tras confirmar los hechos con él, porque esa ruta pide datos.",
+              "Reportarlo por «Me Pongo A Salvo del Peligro» tras averiguar con su familia, porque esa ruta pide contexto.",
+              "Reportarlo por «Me Pongo A Salvo del Peligro» sin investigar tú lo que pasó, porque esa ruta ya existe."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "Qué hacer —y qué no— cuando un Rover te revela un daño lo enseña la línea Políticas Transversales, en El Adulto como Garante: reportar, no investigar."
           },
           {
-            "text": "El Clan ya identificó los peligros del río, los evaluó, puso medidas y tiene el plan de emergencia. Es jueves y salen el sábado; dos de los cuatro adultos que acompañan nunca han ido a una salida así y no conocen el plan. ¿Qué haces?",
+            "text": "Para la salida al río, el Clan ya identificó los peligros, los evaluó, puso medidas de prevención y mitigación y tiene su plan de emergencia. Según los cinco pasos de gestión del riesgo, ¿qué falta antes del sábado?",
             "options": [
-              "Aplazas la salida un mes, para que el Clan rehaga el plan con esos dos adultos desde el primer paso.",
-              "Sales el sábado, y esos dos adultos se quedan en el campamento base, lejos del río, donde el plan no les toca.",
-              "Sales el sábado, y el viernes te sientas con esos dos adultos a repasar los peligros del río y el plan."
+              "Socializar el plan con las familias de los Rovers, para que la salida quede lista antes del sábado.",
+              "Formar en seguridad a los adultos y Rovers que van, para que la salida quede lista antes del sábado.",
+              "Validar el plan con un experto en riesgo de la Región, para que la salida quede lista antes del sábado."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "poner medidas de prevención y mitigación, tener un plan de emergencia, y formar en seguridad a adultos y Rovers."
           }
         ]
       }

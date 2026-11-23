@@ -145,31 +145,34 @@
         "nextLabel": "Continuar a la coeducación 🏕️",
         "questions": [
           {
-            "text": "En un juego de la Tropa, un scout falla un pase y otro le grita «¡juegas como niña!». Todos se ríen, también varias scouts. ¿Qué propondría HeForShe?",
-            "options": [
-              "Que las scouts frenen ese micromachismo y respondan al chiste: el comentario va contra ellas, así que les toca a ellas.",
-              "Que los chicos lo reconozcan como un micromachismo y acuerden con las chicas qué frases va a dejar la patrulla.",
-              "Que el scout que gritó le pida perdón al del pase: la burla fue contra él, y con la disculpa entre los dos se cierra el asunto."
-            ],
-            "correctIndex": 1
-          },
-          {
             "text": "Una dirigente de Tropa dice: «Aquí hay igualdad: a nadie se le prohíbe nada, y cualquier scout puede ser guía de patrulla». Hace tres años que todos los guías son chicos. ¿Qué le falta mirar, según la lección?",
             "options": [
-              "Si las scouts tienen la misma información y el mismo plazo para postularse: con eso ya hay igualdad, y lo demás es elección de cada una.",
-              "Por qué ninguna scout se postula ni sale elegida: qué se piensa en la Tropa sobre quién sirve para guiar y cómo pesa eso en los votos.",
-              "Si conviene que el dirigente nombre guía a una scout el próximo año, para equilibrar sin esperar a la elección de la patrulla."
+              "Lo que se da por hecho: el Kit lo llama equidad de género, lo que cada scout necesita para postularse.",
+              "Lo que se da por hecho: el Kit lo llama estereotipos de género, las ideas de quién sirve para qué.",
+              "Lo que se da por hecho: el Kit lo llama brecha de liderazgo, los cargos que tiene cada género."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Son las ideas de quién sirve para qué: ellas para cuidar, ellos para mandar o cargar."
           },
           {
-            "text": "En una reunión del Clan, un rover pregunta: «Si HeForShe es para que las mujeres ganen espacio, ¿a nosotros qué nos toca, hacernos a un lado?». ¿Qué le respondería quien leyó el Kit?",
+            "text": "En el Clan, un rover pregunta: «Si HeForShe es por la igualdad de las mujeres, ¿qué papel nos da a nosotros?». ¿Qué le responde quien leyó el Kit?",
             "options": [
-              "Que le toca apoyar desde fuera: firmar la campaña y difundirla, porque el cambio de fondo lo deben conducir las rovers.",
-              "Que le toca ceder su turno de palabra y sus cargos a las rovers del Clan hasta que la participación quede pareja.",
-              "Que le toca mirar cómo le habla a sus compañeras y qué deja pasar en el Clan: el cambio también es suyo, no solo de ellas."
+              "Que HeForShe implica a hombres y niños como aliados y voceros de la causa, junto a ellas.",
+              "Que HeForShe implica a hombres y niños como acompañantes y difusores de la causa, junto a ellas.",
+              "Que HeForShe implica a hombres y niños como defensores y partícipes de la causa, junto a ellas."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "HeForShe es un movimiento solidario a favor de la igualdad de género que implica a hombres y niños como defensores y partícipes de la causa."
+          },
+          {
+            "text": "El Consejo de Clan quiere hacer la actividad del Kit sobre micromachismos. ¿Con qué propone el Kit que termine?",
+            "options": [
+              "Con que cada rover identifique los micromachismos y haga una lista de los que va a dejar él mismo.",
+              "Con que el Clan identifique los micromachismos y acuerde en su Consejo una lista de los que va a dejar.",
+              "Con que cada rover identifique los micromachismos y haga una lista de los que va a señalar si los oye."
+            ],
+            "correctIndex": 0,
+            "evidencia": "identificar los micromachismos —en palabras de este curso, los comentarios, chistes y costumbres pequeñas que tratan a las mujeres como menos— y hacer una lista de los que cada uno va a dejar (p. 69)."
           }
         ]
       },
@@ -237,31 +240,34 @@
         "nextLabel": "Continuar al viaje 🧭",
         "questions": [
           {
-            "text": "En su Congreso, la Comunidad acordó rotar los turnos de cocina y leña del próximo campamento, sin mirar quién es chico o chica. Un dirigente del Grupo dice que eso «no es HeForShe, es logística». ¿Qué le responde Paula?",
+            "text": "En su Congreso, la Comunidad acordó rotar los turnos de cocina y leña del campamento sin mirar quién es chico o chica. Un dirigente dice que eso «es logística», y que la coeducación es un tema optativo para cuando haya tiempo. ¿Qué le responde quien leyó la lección?",
             "options": [
-              "Que el dirigente acierta: es logística, y la coeducación queda para cuando se haga una actividad del Kit sobre roles.",
-              "Que es coeducación solo si el dirigente arma parejas mixtas fijas para cada turno, para que nadie vuelva a la costumbre.",
-              "Que es coeducación: repartir las tareas sin mirar si es chico o chica educa, aunque esa actividad no esté en el Kit."
+              "Que rotar los turnos es coeducación, y el Modelo la pone como elemento del Método Scout, no como tema optativo.",
+              "Que rotar los turnos es coeducación, y el Modelo la pone como eje del Marco de Mundo Mejor, no como tema optativo.",
+              "Que rotar los turnos es coeducación, y el Modelo la pone como requisito metodológico del Programa, no como tema optativo."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "La coeducación, en este sentido, es un requisito metodológico del Programa de Jóvenes"
           },
           {
-            "text": "Una Tropa tiene patrullas solo de chicos y otras solo de chicas, porque así lo decidieron los scouts. Una dirigente nueva quiere mezclarlas ya, «porque la coeducación es requisito». ¿Qué le dirías?",
+            "text": "Una Tropa tiene patrullas solo de chicos y otras solo de chicas, porque así lo decidieron los scouts. Una dirigente nueva quiere mezclarlas ya, «porque la coeducación es requisito». ¿Qué le dirías, según la lección?",
             "options": [
-              "Que tiene razón a medias: el requisito no obliga a mezclar patrullas; pide respeto, iguales oportunidades y tiempo en común.",
-              "Que tiene razón: el requisito obliga a que cada patrulla tenga chicos y chicas, en igual número, desde este mes.",
-              "Que no hace falta revisar nada: si los scouts decidieron separarse con respeto, el requisito de coeducación ya se cumple."
+              "Que el enfoque coeducativo pide respeto mutuo, iguales oportunidades y patrullas mixtas en cada campamento.",
+              "Que el enfoque coeducativo pide respeto mutuo, iguales oportunidades y vivir juntos lo suficiente para convivir.",
+              "Que el enfoque coeducativo pide respeto mutuo, iguales oportunidades y un Consejo de Patrulla siempre mixto."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "Lo que pide es respeto mutuo, iguales oportunidades y vivir juntos lo suficiente para aprender a convivir."
           },
           {
-            "text": "En una Manada, los turnos de los lobatos ya rotan. En el equipo de dirigentes, en cambio, las dirigentes preparan siempre la comida del campamento y los dirigentes dirigen los juegos grandes. ¿Qué diría la lección?",
+            "text": "Una Manada ya revisó dos de los tres lugares que la lección propone mirar: los turnos y las tareas, y los cargos y la palabra. ¿Cuál le falta?",
             "options": [
-              "Que el equipo de dirigentes también rote: los lobatos aprenden de quién cocina y quién dirige entre los adultos, no solo de sus turnos.",
-              "Que no pesa: la coeducación es un requisito del Programa para los niños, y cómo se reparten las tareas entre adultos es asunto del equipo.",
-              "Que lo compense con una actividad del Kit sobre roles, como Cocinando ando, para que los lobatos discutan en la Manada quién hace qué."
+              "Las familias: lo que los lobatos ven en sus casas sobre quién cocina, quién cuida y quién decide.",
+              "Los adultos: lo que los lobatos ven en el equipo de dirigentes sobre quién dirige, quién cocina y quién decide.",
+              "Los juegos: lo que los lobatos viven en la Manada sobre quién gana, quién manda y quién anima."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "Los adultos. Lo que los protagonistas ven en el equipo de dirigentes enseña más que cualquier actividad: quién dirige, quién prepara la comida, quién decide."
           }
         ]
       },
@@ -316,31 +322,34 @@
         "nextLabel": "Continuar a las ramas 🗺️",
         "questions": [
           {
-            "text": "Un dirigente de Clan quiere que todo su Clan haga HeForShe este año y ya escogió las seis actividades para todos. ¿Qué diría el Kit?",
+            "text": "Un dirigente de Clan quiere que todo su Clan haga HeForShe este año y ya escogió las mismas seis actividades para todos. ¿Qué diría la lección?",
             "options": [
-              "Que está bien si antes lo vota el Consejo de Clan: si la mayoría acepta, todo el Clan hace el desafío con esas seis.",
-              "Que cada rover decide si lo asume, porque el desafío es de cada uno, y acuerda con él sus seis actividades.",
-              "Que no le toca escoger nada: cada rover arma solo sus seis actividades y el dirigente firma la hoja al terminar."
+              "Que cada rover decide si lo asume y acuerda sus seis actividades con el Consejo de Clan, a la vista de otros.",
+              "Que cada rover decide si lo asume y acuerda sus seis actividades con su dirigente, a la vista de otros.",
+              "Que cada rover decide si lo asume y acuerda sus seis actividades con los rovers del desafío, a la vista de otros."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Cada protagonista se interesa, acuerda con su dirigente al menos seis actividades, las vive, se evalúa con otros y celebra."
           },
           {
-            "text": "Una lobata terminó sus seis actividades y su autoevaluación. ¿Qué falta, según el Manual de Implementación, antes de la insignia?",
+            "text": "Una lobata terminó sus seis actividades, hizo su autoevaluación y compartió sus acciones. Según el Manual de Implementación, ¿qué paso sigue antes de la ceremonia?",
             "options": [
-              "Que su dirigente revise la hoja y, si está completa, le entregue la insignia en la siguiente reunión, sin más pasos.",
-              "Que la comisión regional de Mundo Mejor revise lo que recibieron sus compañeros y califique las actividades con nota.",
-              "Que mire con su Manada y con las personas que recibieron lo que hizo qué aprendió, y que su dirigente lo celebre."
+              "Evaluar sus competencias con su Manada, con quienes recibieron sus acciones y con los adultos.",
+              "Evaluar sus competencias con su Manada, con quienes hicieron el desafío con ella y con los adultos.",
+              "Evaluar sus competencias con su Manada, con quienes la acompañaron en su casa y con los adultos."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "Evalúa sus competencias con las personas de su rama, con quienes recibieron sus acciones y con los adultos."
           },
           {
             "text": "Un scout acordó su ruta: en la parte A, Toma conciencia y dos actividades de Actúa; en la parte B, Toma conciencia, Comparte y Actúa. Son seis. ¿Le alcanza para la insignia?",
             "options": [
-              "Le alcanza: suma las seis e incluye la de Toma conciencia en cada parte, que es lo único obligatorio de la ruta.",
-              "Le falta una: en la parte A tiene dos de Actúa y ninguna de Comparte, y cada parte debe cubrir sus tres fases.",
-              "Le falta una: las dos de Toma conciencia obligatorias van juntas en la parte A, y ahí solo tiene una."
+              "Según el Kit, le alcanza: suma seis e incluye la Toma conciencia de cada parte, que es lo único obligatorio.",
+              "Según el Kit, no le alcanza: las dos de Toma conciencia van juntas en la parte A, y ahí solo tiene una.",
+              "Según el Kit, no le alcanza: en la parte A le falta Comparte, porque cada parte cubre sus tres fases."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "Para la insignia basta «una actividad de cada fase del lado A y una actividad de cada fase para el lado B» (Kit, p. 14): seis en total."
           }
         ]
       },
@@ -422,31 +431,34 @@
         "nextLabel": "Continuar a las violencias 🛡️",
         "questions": [
           {
-            "text": "Un dirigente de Manada quiere trabajar con los lobatos una actividad del Kit sobre un tema en el que algunas familias del Grupo tienen reservas. ¿Qué le recomiendas?",
+            "text": "Un dirigente de Manada va a trabajar una actividad del Kit sobre un tema en el que algunas familias del Grupo tienen reservas. Ya la adecuó a la edad con la Guía y les contó a las familias. ¿Qué más cuida, según la lección?",
             "options": [
-              "Que la ajuste a la edad con la Guía y, para no dividir al Grupo, la presente como un juego de convivencia sin nombrar el tema.",
-              "Que la ajuste a la edad con la Guía, la explique antes a las familias y cuente con su visto bueno, y pregunte sin opinar.",
-              "Que la ajuste a la edad con la Guía y pida el visto bueno del Consejo de Grupo, que es el que decide qué temas se tratan en la Manada."
+              "Contar con el consentimiento de las familias y, en la actividad, presentar con respeto la posición del Movimiento.",
+              "Contar con el consentimiento de las familias y, en la actividad, no imponer posiciones: preguntar en vez de opinar.",
+              "Contar con el consentimiento de las familias y, en la actividad, pedir la opinión de cada familia para equilibrar."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "No impongas posiciones, como piden el Kit (p. 7) y el Manual (p. 29)."
           },
           {
-            "text": "En la Tropa, una scout propone para la fase Actúa una campaña propia en el colegio contra los chistes machistas, que no está en el Kit. ¿Vale?",
+            "text": "En la Tropa, una scout quiere hacer para la fase Actúa una campaña propia en el colegio contra los chistes machistas, que no está en el Kit. ¿Puede contar para la insignia?",
             "options": [
-              "Sí, si responde a la competencia del desafío en Actúa: salvo Toma conciencia, las demás fases admiten propuestas propias.",
-              "No: para la insignia, de Toma conciencia a Actúa, todo sale del banco del Kit, y esa campaña no aparece en él.",
-              "Sí, pero solo como actividad extra que no cuenta para las seis: las de Actúa las define la comisión regional de Mundo Mejor."
+              "Sí, si la aprueba la Corte de Honor y cumple la competencia del desafío en Actúa.",
+              "Sí, si la crea con su dirigente y cumple la competencia del desafío en Actúa.",
+              "Sí, si la inscribe ante la comisión regional y cumple la competencia del desafío en Actúa."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "fuera de Toma conciencia, el Kit deja crear actividades con el adulto, siempre que cumplan la competencia del desafío (pp. 13–14)."
           },
           {
             "text": "Una dirigente de Familia quiere que sus cachorros vivan el desafío y busca en el Kit la hoja de su rama. Dos de ellos ya cumplieron 7 años. ¿Qué hace, según la lección?",
             "options": [
-              "Usa con ellos la hoja de Manada, porque el Kit abre el desafío desde los 7 años y la edad es la que define la hoja.",
-              "Deja el tema para cuando pasen a la Manada: si el Kit no trae hoja para cachorros, en la Familia no hay nada que trabajar.",
-              "Trabaja la coeducación en la vida diaria de la Familia: no hay hoja para cachorros, y se guía por la rama, no por la edad."
+              "Usa la hoja de Manada con los de 7 años: el Kit pide la hoja de la rama siguiente, y se guía por la rama.",
+              "Trabaja la parte A de la Manada con toda la Familia: el Kit la sugiere para empezar, y se guía por la rama.",
+              "Trabaja la coeducación en el día a día de la Familia: el Kit no trae hoja para cachorros, y se guía por la rama."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "Si tu unidad es la Familia, el Kit no tiene hoja para los cachorros"
           }
         ]
       },
@@ -529,31 +541,34 @@
         "nextLabel": "Continuar al cierre 🏅",
         "questions": [
           {
-            "text": "Una actividad del Kit pide a los lobatos contar situaciones en las que se hayan sentido violentados por su género. ¿Cómo la adaptaría un dirigente que hizo este curso?",
+            "text": "Un dirigente quiere trabajar las violencias basadas en género sin que ningún protagonista cuente lo suyo, y busca en el Kit una actividad con un caso inventado. ¿Qué encuentra, y para qué rama?",
             "options": [
-              "Hacerla con una historia inventada que la Manada analice junta, en vez del relato: así nadie tiene que exponer lo propio.",
-              "Hacerla tal cual, pero en parejas y no ante toda la Manada, para que cada lobato cuente su caso con más calma y confianza.",
-              "Pedir que cada lobato lo escriba en una hoja que el dirigente lee después, así nadie queda expuesto ante el grupo."
+              "En el Clan: una simulación de juicio con jurado que analiza un caso de violencia de género, aclarado como hipotético.",
+              "En la Tropa: una simulación de Corte de Honor que analiza un caso de violencia de género, aclarado como hipotético.",
+              "En la Comunidad: una simulación de Congreso que analiza un caso de violencia de género, aclarado como hipotético."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "En la Tropa propone simular una Corte de Honor que analiza un caso de violencia basada en género, y aclara: «este caso es hipotético» (p. 35)."
           },
           {
-            "text": "En el Clan, una rover dice durante una actividad que su pareja la controla y le revisa el celular. ¿Qué hace su dirigente?",
+            "text": "En el Clan, una rover de 20 años cuenta en una actividad que su pareja la controla y le revisa el celular, y pide que no salga de ahí. Su dirigente la escucha aparte, con otro dirigente presente. ¿Qué hace después?",
             "options": [
-              "La lleva aparte con otro dirigente, le pide que cuente todo con fechas y detalles para que el reporte salga completo, y reporta.",
-              "La aparta con otro dirigente, oye solo lo que ella quiera contar, le dice que eso no puede quedar entre ellos y lo reporta por el botón.",
-              "La aparta con otro dirigente, oye lo que ella quiera contar y se lo pasa al Jefe de Grupo, para que él decida si se reporta y por dónde."
+              "Le dice que no puede guardarlo en secreto aunque sea mayor de edad, y lo reporta por el botón.",
+              "Le dice que lo cuida en reserva porque ya es mayor de edad, y le comparte las rutas de atención.",
+              "Le dice que no puede guardarlo en secreto aunque sea mayor de edad, y lo lleva al Jefe de Grupo."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "Lo que alguien cuenta se cuida y no se repite, pero si revela una vulneración o un riesgo, se reporta. Vale también si es mayor de edad."
           },
           {
             "text": "La Comunidad hizo una campaña HeForShe en su barrio y quiere publicar en redes fotos de los nómadas con los vecinos que participaron. ¿Qué cuida el dirigente antes de publicar?",
             "options": [
-              "Que los vecinos den su permiso de palabra al tomar la foto; con los nómadas basta, porque la campaña fue una actividad del Grupo.",
-              "Que cada persona que aparece lo autorice y quede evidencia; con los nómadas menores, además, el consentimiento de sus familias.",
-              "Que él mismo autorice por toda la Comunidad, porque la publicación sale a nombre del Grupo y él responde por ella."
+              "Que cada persona que aparece lo autorice y quede evidencia; con los nómadas menores, además, el consentimiento.",
+              "Que cada persona que aparece lo autorice de palabra; con los nómadas menores, además, que quede evidencia.",
+              "Que el Grupo lo autorice por todos y quede evidencia; con los nómadas menores, además, el consentimiento."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "«pedir autorización a las personas para mostrarlas en videos o imágenes, y que quede evidencia de esta autorización» (p. 43)"
           }
         ]
       },
@@ -613,31 +628,34 @@
         "nextLabel": "Ver mi certificado 🤝",
         "questions": [
           {
-            "text": "Un rover que terminó el desafío propone un club HeForShe en su universidad y pregunta si con eso ya es Embajador. ¿Qué le dices?",
+            "text": "Un rover terminó el desafío, aún no ha hecho el taller HeForShe y quiere abrir un club HeForShe en su universidad para ser Embajador. ¿Qué le dices?",
             "options": [
-              "Todavía no: quien coordine el club debe haber hecho el taller, y tras ocho meses con impacto se pide a la comisión regional.",
-              "Sí: la insignia del desafío ya lo acredita, y su Jefe de Clan le entrega la de Embajador cuando presente el club al Grupo.",
-              "Todavía no: el club, como el proyecto, no pide el taller, pero sí ocho meses; luego su Jefe de Clan lo pide a la Comisión Nacional."
+              "Que el club pide el taller previo y ocho meses con impacto, y luego se solicita a la comisión regional de Mundo Mejor.",
+              "Que el club pide el taller previo y ocho meses con impacto, y luego se solicita a la Comisión Nacional de Programa.",
+              "Que el club pide el taller previo y ocho meses con impacto, y luego se solicita al Consejo de Grupo de su Clan."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "durante al menos ocho meses. Se solicita a la comisión regional de Mundo Mejor o, en su defecto, a la de Programa de Jóvenes. El club y la campaña piden haber hecho el taller"
           },
           {
-            "text": "Una de las nómadas de Paula rotó las tareas de su casa durante un mes, y nadie cambió nada. Lo contó en el Congreso y lo evaluó con la Comunidad y con su familia. Su mamá pregunta si entonces su hija se queda sin insignia. ¿Qué le responde Paula?",
+            "text": "Una de las nómadas de Paula rotó las tareas de su casa durante un mes, y nadie cambió nada. Lo contó en el Congreso y lo evaluó con la Comunidad y con su familia. Su mamá pregunta si su hija se queda sin insignia. ¿Qué le responde Paula?",
             "options": [
-              "Que todavía no: la acción busca un cambio real en la casa, y mientras las tareas no se repartan la ruta no está completa.",
-              "Que lo decide la comisión regional de Mundo Mejor, que revisa el impacto de cada acción antes de entregar la insignia.",
-              "Que sí la tiene: se evalúa lo que su hija aprendió y compartió con quienes recibieron su acción, no si la familia cambió."
+              "Que no se queda sin ella: se evalúa lo que aprendió, no si la casa cambió, y se la entrega la comisión regional.",
+              "Que no se queda sin ella: se evalúa lo que aprendió, no si la casa cambió, y se la entrega su dirigente en ceremonia.",
+              "Que no se queda sin ella: se evalúa lo que aprendió, no si la casa cambió, y se la entrega el Jefe de Grupo."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "La entrega el dirigente en la ceremonia (Manual, p. 31); para portarla hace falta el reconocimiento oficial de la Comisión Nacional"
           },
           {
-            "text": "En la primera Corte de Honor después del curso, los guías proponen rotar la cocina del campamento, pero uno insiste en que «las chicas lo hacen mejor» y no llegan a un acuerdo. ¿Qué hace el Jefe de Tropa?",
+            "text": "En la Tropa, los guías quieren rotar la cocina del campamento, pero uno insiste en que «las chicas lo hacen mejor». El Jefe de Tropa les propone mirar juntos quién cocinó en el último campamento y por qué. ¿Y después?",
             "options": [
-              "Les pide a las guías de patrulla que le respondan ellas a ese guía, porque son las chicas las que viven la desigualdad en la Tropa.",
-              "Pone sobre la mesa lo del último campamento: pregunta quién cocinó y quién lo decidió, y rota también las tareas de los dirigentes.",
-              "Lo decide él por sorteo y deja a ese guía sin voto en la reunión, para que la Tropa vea que los estereotipos tienen consecuencias."
+              "Que lo decidan en la Corte de Honor, el espacio donde la Tropa revisa lo de todos, sin imponer su opinión.",
+              "Que lo decida él por sorteo, para que la Tropa no se divida en ese espacio, sin imponer su opinión.",
+              "Que lo decidan las guías de patrulla, que viven la desigualdad en la Tropa, sin imponer su opinión."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "Tropa: en los Consejos de Patrulla y la Corte de Honor; mira también los nombres y gritos de patrulla."
           }
         ]
       },

@@ -274,31 +274,34 @@
         "nextLabel": "Continuar al destinatario 🎯",
         "questions": [
           {
-            "text": "La unidad tiene su pregunta guía, va a hacer un mapa de la quebrada, guardará fotos de cada salida y lo mostrará en la feria del barrio, a quien pase por el puesto. ¿Qué le falta de lo que el Modelo pide a un ABP?",
+            "text": "Un dirigente nuevo pregunta por qué gastar una reunión entera formulando la pregunta guía, en vez de planear ya las actividades. Según la cita del Modelo, ¿qué le respondes?",
             "options": [
-              "Un destinatario: alguien concreto que reciba el mapa, lo use y pueda decir después si le sirvió.",
-              "Duración: con un solo mapa no alcanza a ser un proyecto, porque un proyecto se mide en meses.",
-              "Que la idea del mapa salga de los jóvenes: con eso, una acción en el barrio ya es un proyecto."
+              "Que esa formulación ayuda a visualizar los aprendizajes que posiblemente se lograrán en el proyecto.",
+              "Que esa formulación ayuda a visualizar las oportunidades que posiblemente se abrirán en el proyecto.",
+              "Que esa formulación ayuda a visualizar las competencias que posiblemente se movilizarán en el proyecto."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Esta formulación ayuda a visualizar las competencias que posiblemente se movilizarán. Si las preguntas son potentes, el proyecto respirará."
           },
           {
-            "text": "Un dirigente propone al consejo la pregunta guía «¿cómo hacemos una jornada ambiental?». ¿Qué problema tiene?",
+            "text": "El consejo de unidad tiene tres propuestas de pregunta guía para el ciclo de la quebrada, y a todos les entusiasman. ¿Cuál todavía no sirve, porque ya trae la respuesta puesta?",
             "options": [
-              "Que la propone un adulto: la pregunta guía la formulan los protagonistas solos, sin el dirigente.",
-              "Que es cerrada: debería admitir varias respuestas, por ejemplo «¿qué jornada ambiental hacemos?».",
-              "Que ya trae la respuesta puesta: no pregunta qué duele, qué falta ni a quién servirá lo que hagan."
+              "«¿Cómo hacemos una jornada de limpieza para que la quebrada deje de ensuciarse?»",
+              "«¿Por qué la quebrada se ensucia cada dos semanas, y quién vive de eso río abajo?»",
+              "«¿Qué falta en el barrio para que la quebrada deje de ensuciarse cada dos semanas?»"
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "Vuelve al consejo de la quebrada. «Hagamos una jornada de limpieza» no es una pregunta: es una respuesta que nadie pidió."
           },
           {
-            "text": "Al diagnosticar la Manada, el equipo de dirigentes define «cuidar el entorno» como énfasis del ciclo. Uno de ellos dice: «listo, ya tenemos proyecto». ¿Qué le respondes?",
+            "text": "Al diagnosticar, el equipo de dirigentes define «cuidar el entorno» como énfasis del ciclo. Uno de ellos dice: «listo, ya tenemos proyecto». ¿Qué le respondes?",
             "options": [
-              "Que todavía no: primero hay que fijar la duración del ciclo, y con ella el proyecto se define solo.",
-              "Que todavía no: el énfasis es la intención educativa con la que ahora van a elegir el proyecto.",
-              "Que todavía no: falta que el Consejo de Roca lo vote, y con eso el énfasis ya queda como proyecto."
+              "Que todavía no: el énfasis es la pregunta guía con la que ahora se formula el proyecto.",
+              "Que todavía no: el énfasis es la intención educativa con la que ahora se elige el proyecto.",
+              "Que todavía no: el énfasis es el producto con el que ahora se define el proyecto."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "El énfasis no es el proyecto; es la intención educativa con la que se elige el proyecto."
           }
         ]
       }
@@ -367,31 +370,34 @@
         "nextLabel": "Continuar a la ejecución 🔁",
         "questions": [
           {
-            "text": "El consejo ya tiene pregunta guía y, al buscar destinatario, un guía de patrulla dice: «el barrio». ¿Qué haces?",
+            "text": "Una unidad empieza a planear sin haber nombrado destinatario: «ya veremos a quién le sirve». Según la lección, ¿qué es lo que no va a poder hacer?",
             "options": [
-              "Pedirles que lo aprieten hasta alguien a quien se pueda llamar: la junta, el colegio, una tienda.",
-              "Pedirles que lo aprieten a «los vecinos de la quebrada», que ya es más concreto que el barrio entero.",
-              "Aceptarlo por ahora y concretarlo al final, cuando se vea quién se interesó de verdad por el proyecto."
+              "Asignar los roles, porque no habrá nadie a quien entregarle cada parte del producto.",
+              "Acordar criterios de éxito, porque no habrá nadie a quien preguntarle si le sirvió.",
+              "Pasar el filtro DURASLID, porque no habrá nadie para quien el proyecto sea útil."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "un proyecto sin destinatario no tiene criterios posibles, porque no hay nadie a quien preguntarle si le sirvió."
           },
           {
-            "text": "Antes del sábado pasan el plan por DURASLID y cumple tres de los ocho atributos. El consejo está entusiasmado. ¿Qué haces?",
+            "text": "Antes del primer sábado, el consejo pasa el plan por DURASLID: cumple seis de los ocho atributos y le faltan «Lúdicas» y «Diversas». ¿Qué le dices al consejo?",
             "options": [
-              "Arrancar después de ajustarlo: si no cumple la mayoría de los ocho, se corrige antes de ejecutar.",
-              "Arrancar y anotar los cinco que faltan, para revisarlos al cerrar, que es cuando DURASLID se aplica.",
-              "Arrancar si entre los tres que cumple está «Seguras», que es el único de los ocho que no admite espera."
+              "Que le faltan dos: el Modelo pide los ocho completos para pasarlo a ejecución.",
+              "Que le falta uno: el Modelo pide siete de los ocho para pasarlo a ejecución.",
+              "Que cumple con seis: el Modelo pide la mayoría de los ocho para pasarlo a ejecución."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Si el proyecto no cumple la mayoría de los ocho ahora, el Modelo recomienda ajustarlo antes de ejecutarlo."
           },
           {
             "text": "La Tropa quiere entregar su mapa a la junta de acción comunal, pero nadie en la unidad conoce a nadie en la junta. ¿Cuál es tu aporte aquí?",
             "options": [
-              "Abrir tú la puerta con la junta y llevar tú la conversación, para que los guías aprendan viéndote.",
-              "Abrir tú la puerta con la junta cuando el mapa esté listo, para no comprometer a la unidad antes de tiempo.",
-              "Abrir tú la puerta con la junta, y dejar que el proyecto y la entrega sigan siendo de la Tropa."
+              "Que hables tú con la junta y abras la puerta, y que el mapa y la entrega sigan siendo de la Tropa.",
+              "Que los guías llamen a la junta con el número que les das, y que el mapa y la entrega sigan siendo de la Tropa.",
+              "Que un padre de familia hable con la junta y abra la puerta, y que el mapa y la entrega sigan siendo de la Tropa."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "generar alianzas —hablar con la junta de acción comunal, con el colegio, con la alcaldía menor— es algo que un adolescente no puede hacer solo y tú sí."
           }
         ]
       }
@@ -446,31 +452,34 @@
         "nextLabel": "Continuar a la presentación 📣",
         "questions": [
           {
-            "text": "El plan del ciclo tiene una sola fecha de evaluación: la última, en cuatro meses. ¿Qué le cambias antes de aprobarlo?",
+            "text": "El plan del ciclo tiene una sola fecha de evaluación: la última, dentro de cuatro meses. Le añades dos fechas intermedias. ¿Para qué es cada una?",
             "options": [
-              "Le pongo una sola revisión a mitad de camino, para no cargar al consejo con más reuniones.",
-              "Le pongo dos o tres fechas antes del final, cada una con la pregunta con que cierra.",
-              "Le pongo dos o tres fechas antes del final, para que el equipo de dirigentes revise el avance."
+              "Para un cierre de reflexión que celebre lo logrado y anime lo siguiente.",
+              "Para un cierre de reflexión que mida lo avanzado y fije lo siguiente.",
+              "Para un cierre de reflexión que capture lo aprendido y ajuste lo siguiente."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "Y cada hito cierra con un espacio de reflexión para capturar lo aprendido y ajustar lo siguiente."
           },
           {
-            "text": "Semana siete. Dos equipos llevan media hora trabados en si el afiche va a color o en blanco y negro, y el sábado se acaba. ¿Qué haces?",
+            "text": "Semana siete. Dos equipos llevan media hora trabados en si el mapa va en cartulina o en el celular, y el sábado se acaba. No vas a decidir tú. ¿Qué les preguntas?",
             "options": [
-              "Decidir tú y seguir: el proyecto no puede pararse por un afiche a estas alturas.",
-              "Devolverles el asunto al consejo de unidad, para que lo resuelvan por votación.",
-              "Devolverles una pregunta: quién va a leer ese afiche y dónde va a estar pegado."
+              "Les preguntas quién va a usar ese mapa, y en qué lugar lo va a mirar.",
+              "Les preguntas qué prefiere cada equipo, y por qué razón lo prefiere.",
+              "Les preguntas qué opción cuesta menos, y quién la va a conseguir."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "tu trabajo no es zanjar la discusión, es hacer la pregunta que la desatasca — «¿quién va a usar ese mapa, y dónde lo va a mirar?»"
           },
           {
-            "text": "En el cierre del segundo tramo, una scout cuenta cómo convenció a la tienda de recibir los residuos. ¿Qué haces con eso?",
+            "text": "En el cierre del segundo tramo, una scout cuenta cómo convenció a la tienda de recibir los residuos. Decides anotarlo ahí mismo. ¿Cómo lo escribes?",
             "options": [
-              "Anotarlo como evidencia observable —qué hizo, dónde y con qué señal— en esa misma ronda de cierre.",
-              "Dar ya por lograda esa competencia educativa, porque lo demostró delante de toda su patrulla.",
-              "Pedirle que lo cuente en la presentación pública, que es donde el ciclo junta todas las evidencias."
+              "Como evidencia observable de ese cierre, escrita con objetivo, indicador y meta.",
+              "Como evidencia observable de ese cierre, escrita con verbo, contexto y señal.",
+              "Como evidencia observable de ese cierre, escrita con conducta, nivel y frecuencia."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "Cada hito que cierras con reflexión es una oportunidad de recoger evidencias observables — las mismas que allí aprendiste a escribir con verbo, contexto y señal."
           }
         ]
       }
@@ -534,31 +543,34 @@
         "nextLabel": "Continuar al cierre 🎒",
         "questions": [
           {
-            "text": "La unidad quiere cerrar el proyecto con un acto para las familias, con fotos y aplausos. ¿Qué le falta para ser una presentación pública del ciclo?",
+            "text": "Tres unidades hicieron un mapa de la quebrada y lo entregan a la junta de acción comunal. Según la cita del Modelo, ¿cuál hace del cierre un acto de ciudadanía y no un show?",
             "options": [
-              "Que esté el destinatario, y que los jóvenes expliquen por qué decidieron lo que decidieron.",
-              "Que se haga en un lugar abierto, como el parque del barrio, para que lo vea más gente.",
-              "Que se entreguen las insignias de progresión que los protagonistas ganaron en el ciclo."
+              "La que invita a la junta a recibir el mapa y a oír qué aprendió cada uno en el tramo de arriba.",
+              "La que invita a la junta a recibir el mapa y a oír por qué decidieron empezar por el tramo de arriba.",
+              "La que invita a la junta a recibir el mapa y a oír cuánto esfuerzo les costó el tramo de arriba."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "El foco está en servir y en explicar por qué se tomaron ciertas decisiones. Es un acto de ciudadanía, no un show."
           },
           {
-            "text": "Un dirigente de Tropa te dice que su Guía no menciona ninguna presentación pública, así que no la hará. ¿Qué le respondes?",
+            "text": "Tu Tropa va a entregar su mapa a la junta de acción comunal. Según lo que la lección dice para Tropa, ¿quién presenta?",
             "options": [
-              "Que tiene razón: si su Guía no la pide, su rama trabaja el ciclo con los cuatro momentos.",
-              "Que ese momento es justo lo que el ABP añade, y por eso el Modelo cuenta cinco y su Guía cuatro.",
-              "Que las Guías de rama quedaron desactualizadas y que la DNPJ las va a corregir pronto."
+              "Los guías presentan el mapa y responden las preguntas de la junta de acción comunal.",
+              "Cada patrulla presenta su parte y responde las preguntas de la junta de acción comunal.",
+              "El dirigente presenta el mapa y los guías responden las preguntas de la junta de acción comunal."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "Tropa: los guías presentan y responden preguntas — es su primera rendición de cuentas ante un adulto que no los conoce."
           },
           {
-            "text": "Al planear, el consejo de la Tropa decide que el mapa se entregará a la junta y que lo presentarán los guías. ¿Qué dejas amarrado desde ya?",
+            "text": "Un dirigente de Tropa te dice que su Guía de rama no menciona ninguna presentación pública y te pregunta por qué el Modelo sí la pide. ¿Qué le respondes?",
             "options": [
-              "Que la junta conozca la fecha y quién lo recibe, y que cada patrulla sepa qué decisión le toca explicar.",
-              "Que los guías ensayen desde ahora un discurso cerrado, para que delante de la junta no improvisen.",
-              "Que vayan todas las familias del Grupo, porque sin un público grande no alcanza a ser ciudadanía."
+              "Que su Guía la incluye dentro del Momento 4, al evaluar, aunque no le dé un nombre aparte.",
+              "Que su Guía es anterior al Modelo, y la DNPJ la actualizará pronto con un quinto momento.",
+              "Que su Guía describe el ciclo de programa de siempre, y el ABP le añade rendir cuentas en público."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "el ABP pide una cosa que el ciclo solo no pedía: rendir cuentas en público ante quien recibe el resultado. Por eso son cuatro allá y cinco aquí."
           }
         ]
       }
@@ -649,31 +661,34 @@
         "nextLabel": "Continuar al ritmo ⏱️",
         "questions": [
           {
-            "text": "Termina el proyecto de la quebrada. ¿Qué convierte la evaluación en transferencia?",
+            "text": "Quieres que la ronda de cierre del ciclo verifique la transferencia, como pide el Modelo. ¿Qué pregunta haces?",
             "options": [
-              "Registrar las evidencias del proceso, del producto y de las competencias movilizadas.",
-              "Preguntar si se cumplieron los criterios de éxito que el consejo acordó al planear.",
-              "Preguntar qué se llevan a casa, a la escuela o al equipo, y acordar algo concreto."
+              "«¿Qué aprendiste en este proyecto que antes no sabías?», y anotas lo que responde cada uno.",
+              "«¿Qué harías distinto si empezáramos el proyecto otra vez?», y anotas lo que responde cada uno.",
+              "«¿Qué te llevas a casa, a la escuela, a tu equipo?», y anotas lo que responde cada uno."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "se verifican acciones de transferencia: ¿qué te llevas a casa, a la escuela, a tu equipo?"
           },
           {
-            "text": "El consejo prepara un formulario de veinte preguntas para que las familias evalúen el ciclo al final. ¿Qué falla?",
+            "text": "El consejo había preparado un formulario largo para evaluar el ciclo al final. Lo descartan y quieren aplicar la corrección que el Modelo propone para la evaluación decorativa. ¿Con qué lo reemplazan?",
             "options": [
-              "Que el formulario debería ir dirigido a los protagonistas, que fueron quienes vivieron el ciclo.",
-              "Que se evalúa una sola vez, al final y por escrito, cuando ya nadie puede corregir nada del ciclo.",
-              "Que veinte preguntas cansan: con cinco bien elegidas la familia respondería más y con más cuidado."
+              "Con una ronda de reflexión colectiva y personal al final, con evidencias simples.",
+              "Con cierres de reflexión colectiva y personal en cada hito, con evidencias simples.",
+              "Con una entrevista de reflexión con cada familia al final, con evidencias simples."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Y la corrección que propone es exactamente lo de la lección anterior: cierres de reflexión colectiva y personal en cada hito, con evidencias simples y claras."
           },
           {
-            "text": "Al cerrar, tu unidad responde con claridad qué hizo, qué aprendió y qué hará ahora, pero se enreda al decir para quién lo hizo. ¿Dónde se perdió el ciclo?",
+            "text": "Al cerrar, tu unidad repasa las cuatro preguntas del cierre en el orden del Modelo y se queda en blanco en la segunda. ¿Qué le faltó al ciclo?",
             "options": [
-              "En la planificación: el proyecto arrancó sin nombrar quién iba a recibir el resultado.",
-              "En la transferencia: faltó preguntar qué se lleva cada quien a su casa y a su equipo.",
-              "En la evaluación: faltaron evidencias del producto, que es lo que dice para quién fue."
+              "Le faltó destinatario: no quedó claro a quién servía lo que hicieron.",
+              "Le faltó transferencia: no quedó claro qué hará cada uno de ahora en adelante.",
+              "Le faltó evidencia: no quedó claro qué aprendió cada uno en el ciclo."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "Si falta la segunda, faltó destinatario. Si falta la cuarta, faltó transferencia."
           }
         ]
       }
@@ -755,31 +770,34 @@
         "nextLabel": "Continuar a los desaciertos ⚠️",
         "questions": [
           {
-            "text": "Tu Tropa venía de un año flojo y eligió un microciclo de seis semanas. Va muy bien, y a mitad de camino quieren volverlo anual. ¿Qué haces?",
+            "text": "Tu Tropa viene de un año flojo y el consejo quiere arrancar este año con fuerza. Según lo que el Modelo dice de cada ritmo, ¿cuál propones para el primer ciclo?",
             "options": [
-              "Volverlo anual solo si el consejo lo vota hoy por mayoría, para que la decisión siga siendo de ellos.",
-              "Cerrar el micro como se planeó y empalmar enseguida un macrociclo, para no enfriar el entusiasmo.",
-              "Cerrar el micro como se planeó, celebrarlo y decidir el próximo ciclo con lo que les enseñó este."
+              "Un microciclo, que el Modelo recomienda para arrancar con victorias tempranas.",
+              "Un mesociclo, que el Modelo recomienda para arrancar con seguimiento continuo.",
+              "Un macrociclo, que el Modelo recomienda para arrancar dando identidad al año."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "Un producto cercano y tangible. Ideal para edades tempranas o para arrancar con victorias tempranas — que es lo que necesita una unidad que viene de un año flojo."
           },
           {
-            "text": "En la reunión de dirigentes de tu unidad alguien propone que todos los ciclos duren lo mismo que una fase de progresión, «así todo cuadra». ¿Qué le dices?",
+            "text": "En la reunión de dirigentes alguien propone que cada ciclo dure lo mismo que una fase de progresión, «así todo cuadra». ¿Qué le dices?",
             "options": [
-              "Que forzarlos a coincidir empobrece los dos: uno abre oportunidades y el otro acredita.",
-              "Que es buena idea: si coinciden, la progresión se puede acreditar al cerrar cada ciclo.",
-              "Que funcionaría en las ramas menores, donde los ciclos son cortos y más previsibles."
+              "Que el Modelo los hace coincidir: el ciclo ofrece oportunidades y la progresión las acredita al cerrarlo.",
+              "Que el Modelo los deja ir a su paso: el ciclo multiplica oportunidades y la progresión acredita evidencias.",
+              "Que el Modelo los hace coincidir en el macrociclo: el año ordena las oportunidades y la progresión."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "No hay obligación de sincronizar progresión personal con el calendario del ciclo: el ciclo multiplica oportunidades; la progresión acredita evidencias a ritmos distintos."
           },
           {
-            "text": "Una dirigente de Comunidad llega a la reunión del equipo de dirigentes con el próximo ciclo ya fijado: cuatro meses. ¿Qué le propones?",
+            "text": "Tu Manada va a trabajar su próximo ciclo en un trimestre. Según lo que la lección dice para Manada, ¿qué condición hace que ese trimestre dé resultado?",
             "options": [
-              "Llevar la duración al Congreso de Comunidad como pregunta abierta, con el rango de tres a seis meses a la vista.",
-              "Mantenerla: cuatro meses cae dentro del rango de tres a seis meses que da la Guía, así que ya cumple con lo que pide.",
-              "Dejar la duración en blanco y que el proyecto la vaya marcando sobre la marcha, como se hace en el Clan."
+              "Que tenga un cierre cada semana, para que no queden reuniones sueltas con un nombre bonito.",
+              "Que tenga un cierre al terminar, para que no queden reuniones sueltas con un nombre bonito.",
+              "Que tenga un cierre cada mes, para que no queden reuniones sueltas con un nombre bonito."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Manada: el trimestre da, pero solo si hay un cierre al mes; sin eso son doce reuniones sueltas con un nombre bonito."
           }
         ]
       }
@@ -878,31 +896,34 @@
         "nextLabel": "Finalizar el curso ⭐",
         "questions": [
           {
-            "text": "Tres meses de ciclo y el equipo adulto está agotado: todo lo han hecho ellos. Llega el consejo de unidad y hay que decidir el ciclo siguiente. ¿Qué propones?",
+            "text": "En tu Manada todo el ciclo lo han hecho los dirigentes, que están agotados. Para el siguiente, quieres prevenir ese desacierto como lo dice la lección para tu rama. ¿Qué propones?",
             "options": [
-              "Que los tres dirigentes se turnen el ciclo por tramos y los otros dos descansen mientras tanto.",
-              "Que el ciclo se recorte a la mitad, para que el mismo trabajo quepa en menos semanas.",
-              "Que la seisena, la patrulla o el equipo lleven cada uno un tramo del ciclo y respondan por él."
+              "Que cada seisena lleve un tramo del ciclo, y que la Asamblea de Manada lo revise.",
+              "Que cada seisena lleve un tramo del ciclo, y que el Consejo de Roca lo revise.",
+              "Que cada seisena lleve un tramo del ciclo, y que el equipo de dirigentes lo revise."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "Manada: cada seisena lleva un tramo, y el Consejo de Roca lo revisa."
           },
           {
-            "text": "El consejo evaluó el ciclo con los protagonistas, anotó qué se lleva cada quien y guardó las evidencias. Pero a la junta de acción comunal nunca se le entregó el mapa, y nadie volvió a hablar del asunto. ¿Qué desacierto se les instaló?",
+            "text": "La Tropa entregó el mapa y explicó sus decisiones, pero no hubo celebración. Para el próximo ciclo quieren evitar el desacierto de la falta de reconocimiento. ¿Qué acuerdan desde ya?",
             "options": [
-              "El de falta de reconocimiento: nadie entregó nada al destinatario ni reconoció a cada uno.",
-              "El de evaluación decorativa: se cerró con un formulario largo en vez de conversar en cada hito.",
-              "El de cansancio del equipo adulto: la carga recayó en los dirigentes y no quedó energía."
+              "Reconocer solo el papel de la junta que recibió el mapa, definido desde el inicio del ciclo.",
+              "Reconocer solo el papel de cada patrulla que hizo el mapa, definido desde el inicio del ciclo.",
+              "Reconocer el papel de cada patrulla y de la junta que recibió el mapa, definido desde el inicio."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Sin celebración final real, el proyecto pierde sentido para quien lo hizo y para quien lo recibió. Corrección: definir desde el inicio quiénes se involucran y reconocer el papel de cada uno."
           },
           {
-            "text": "La Manada propone recuperar toda la quebrada y reforestar sus dos orillas en un trimestre. Todos están entusiasmados. ¿Qué corresponde?",
+            "text": "La Manada propone recuperar toda la quebrada y reforestar sus dos orillas en un trimestre. Todos están entusiasmados. Para no caer en la sobreambición, ¿qué corresponde?",
             "options": [
-              "Preguntarles cuánto tiempo necesitan para la quebrada entera, y volver el ciclo anual para que quepa.",
-              "Preguntarles qué tramo de la quebrada podrían cuidar de verdad hasta diciembre, y empezar por ese.",
-              "Preguntarles qué tramo pueden cuidar, y dejar las dos orillas como meta del trimestre para no apagarlos."
+              "Ajustarlo a un tramo que puedan cuidar de verdad, y dejar el resto para otro ciclo.",
+              "Mantenerlo entero y repartir las dos orillas entre las seisenas, para que quepa.",
+              "Ajustarlo sumando familias y junta, para que las dos orillas quepan en el trimestre."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "La meta entusiasma pero excede los recursos, el tiempo o la edad. Corrección: ajustar complejidad y duración — mejor un proyecto posible y digno que una promesa incumplida."
           }
         ]
       }

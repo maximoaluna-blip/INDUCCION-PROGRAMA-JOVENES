@@ -143,31 +143,34 @@
         "nextLabel": "Continuar a los 5 mitos 🧨",
         "questions": [
           {
-            "text": "En el consejo de grupo, un dirigente dice: «El Programa de Jóvenes es la guía de actividades de la rama; si la cumplimos completa, estamos haciendo Programa». ¿Qué le responderías, con lo visto en la lección?",
+            "text": "En el consejo de grupo, un dirigente dice: «El Programa de Jóvenes es la guía de actividades de la rama». Con lo que la lección dice del Programa «en palabras simples», ¿qué le respondes?",
             "options": [
-              "Que le falta lo principal: el Programa es lo que el joven vive con su adulto al lado; la guía lo orienta.",
-              "Que le sobra la guía: el Programa lo escriben los jóvenes, y el adulto no necesita mirar ningún documento.",
-              "Que depende de la rama: con los pequeños se sigue la guía completa, y con los mayores ya se va adaptando."
+              "Que, en palabras simples, es la alianza educativa entre los dirigentes y las familias.",
+              "Que, en palabras simples, es la alianza educativa entre quien crece y quien acompaña.",
+              "Que, en palabras simples, es la alianza educativa entre cada joven y su patrulla."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "En palabras simples: el Programa de Jóvenes es la alianza educativa entre quien crece y quien acompaña."
           },
           {
-            "text": "Un subjefe de Tropa recibe a una scout nueva: se aprende su nombre, la presenta a su patrulla y le pide a la guía que la integre en el primer juego. Según las flechas de la lección, ¿qué elemento del Método Scout está poniendo en juego?",
+            "text": "Un Viejo Lobo nuevo se acuerda del nombre del lobato que acaba de llegar, le pregunta cómo le fue en el colegio y se lo presenta a su seisena para que se sienta parte. Según la flecha de esa tarjeta en la lección, ¿qué elemento del Método Scout pone en juego?",
             "options": [
-              "El apoyo del adulto: es él, el subjefe, quien la recibe primero y se aprende su nombre.",
-              "La progresión personal: desde el primer día empieza a acompañar su camino en la Tropa.",
-              "El sistema de equipos: deja que su patrulla y la guía sean las que la reciben y la integran."
+              "El sistema de equipos.",
+              "El apoyo del adulto.",
+              "La progresión personal."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "Se acuerda del nombre del lobato nuevo, le pregunta cómo le fue en el colegio y se lo presenta a su seisena para que se sienta parte. → sistema de equipos"
           },
           {
-            "text": "Un Viejo Lobo preparó un juego de pistas en el parque, pero ese sábado llueve fuerte y solo llegan cuatro lobatos. Con lo visto en la lección, ¿qué le conviene hacer?",
+            "text": "En el consejo de grupo repasan tres acciones de las tarjetas de la lección. Según la nota que la lección agrega a las flechas, ¿cuál de ellas no nombra un elemento del Método Scout, sino una forma en que el Método se nota en la unidad?",
             "options": [
-              "Hace el juego tal cual, bajo la lluvia: lo planeado se cumple, y así los lobatos aprenden a ser constantes.",
-              "Juega con los cuatro una versión corta bajo techo y les pregunta qué parte guardar para cuando estén todos.",
-              "Hace bajo techo una versión corta que él mismo ajusta sin consultarles, para no perder lo que preparó."
+              "La del subjefe que deja que la patrulla cocine sola aunque tarde el doble.",
+              "La del dirigente que no le dice al rover cómo planear y solo le hace preguntas.",
+              "La de la jefa que cambia el orden de la reunión porque llegaron cansados."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "La de la jefa de Manada —adaptar la reunión a su grupo— no es un elemento: es una forma en que el Método se nota en la unidad."
           }
         ]
       }
@@ -250,31 +253,34 @@
         "nextLabel": "Continuar a tu Programa en una página 🗺️",
         "questions": [
           {
-            "text": "Una mamá acepta apoyar la Manada pero dice: «Nunca fui scout; mejor sigo ayudando con la logística hasta que sepa algo». Con lo que viste del Mito 1, ¿qué le respondes?",
+            "text": "Una mamá que nunca fue scout le pregunta al jefe de grupo qué le hace falta para empezar a apoyar la Manada. Según la respuesta de la lección al Mito 1, ¿qué le dice?",
             "options": [
-              "Que entre ya y se apoye en los papás del grupo que fueron scouts de niños: ellos saben cómo es esto.",
-              "Que no se preocupe por formarse: con cariño y buena voluntad ya tiene todo lo que la Manada necesita.",
-              "Que entre ya a la Manada junto a un dirigente y se inscriba en su formación: esto se aprende caminando."
+              "Que necesita querer estar, dejarse formar y respetar la propuesta; lo demás se aprende.",
+              "Que necesita querer estar, dejarse formar y conocer a los niños; lo demás se aprende.",
+              "Que necesita querer estar, conocer a los niños y respetar la propuesta; lo demás se aprende."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "Lo que sí necesitas es: querer estar, dejarte formar y respetar la propuesta. El resto se aprende junto a otros dirigentes y al lado de los propios jóvenes."
           },
           {
-            "text": "En una Tropa, la patrulla quiere organizar un día de juegos en el parque del barrio. Según el rol del adulto que describe la lección, ¿qué hace su dirigente?",
+            "text": "La patrulla de una Tropa decidió organizar un día de juegos en el parque del barrio, y su dirigente nuevo pregunta cuál es su papel. Según la respuesta de la lección al Mito 4, ¿qué le respondes?",
             "options": [
-              "Deja que lo decidan y lo armen ellos; él los apoya con el permiso del parque y se queda cerca.",
-              "Les propone tres juegos ya probados para que la patrulla escoja uno, y así el día no se les cae.",
-              "Les pide esperar al campamento del trimestre, donde un día de juegos encaja mejor en el plan de la Tropa."
+              "Que su rol es apoyar, acompañar y aprobar; no dirigir.",
+              "Que su rol es apoyar, aprobar y enlazar; no dirigir.",
+              "Que su rol es apoyar, acompañar y enlazar; no dirigir."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Tu rol es apoyar, acompañar y enlazar —no dirigir—. Si los jóvenes solo deciden lo que tú permites, no estás aplicando el Método"
           },
           {
-            "text": "Un subjefe de Tropa nuevo abre la guía de su rama esperando encontrar resuelto el próximo campamento: actividades, fechas y lugar. Con lo que la lección responde al Mito 2, ¿qué hace con la guía?",
+            "text": "Un subjefe de Tropa nuevo abre la guía de su rama esperando encontrar resuelto el próximo campamento. Según la respuesta de la lección al Mito 2, ¿qué toma de la guía y qué aterriza con los scouts?",
             "options": [
-              "Toma de la guía las actividades que propone y deja que los scouts escojan solo la fecha y el lugar.",
-              "La usa para saber qué se busca en la Tropa; actividades, fecha y lugar los decide con los scouts.",
-              "Le pide al jefe de grupo un campamento ya probado en otro grupo, para no improvisar el primero."
+              "De la guía, lo que se busca y para qué; con los scouts, qué actividad, cuándo, dónde y con quién.",
+              "De la guía, lo que se busca; con los scouts, qué actividad, cuándo, dónde, con quién y para qué.",
+              "De la guía, lo que se busca y qué actividad; con los scouts, cuándo, dónde, con quién y para qué."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "La guía te da el norte: lo que se busca en tu rama y cómo funciona ahí el Método. Con los jóvenes lo aterrizan: qué actividad, cuándo, dónde, con quién y para qué aquí."
           }
         ]
       }
@@ -360,31 +366,34 @@
         "nextLabel": "Continuar a por qué importa 💡",
         "questions": [
           {
-            "text": "Un papá va a empezar a apoyar a un grupo de jóvenes de 17 años. Según las tarjetas de ramas de la lección, ¿en qué rama están y con qué marco simbólico se va a encontrar?",
+            "text": "En un campamento de grupo, un papá nuevo ve a jóvenes de 17 años que trabajan en equipos y oye que viven «la aventura hacia la ciudadanía». Le comenta a otro papá que esa es la rama Rovers. Según las tarjetas de la lección, ¿qué le corriges?",
             "options": [
-              "En la rama Rovers (Clan), con el marco de la Ciudadanía Activa de los Rovers.",
-              "En la rama Nómadas Scout (Comunidad), con la aventura hacia la ciudadanía.",
-              "En la rama Scouts (Tropa), con el marco de La Aventura y sus patrullas."
+              "Que esa es la rama Scouts (Tropa); el Clan vive la aventura hacia la ciudadanía.",
+              "Que esa sí es la rama Rovers (Clan); la Comunidad vive la Ciudadanía Activa.",
+              "Que esa es la rama Nómadas Scout (Comunidad); el Clan vive la Ciudadanía Activa."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "Grupo natural: equipos de Comunidad. Marco simbólico: La aventura hacia la ciudadanía."
           },
           {
             "text": "Un Viejo Lobo deja de acompañar la Manada y pasa a acompañar la Familia de Cachorros. Según las tarjetas de la lección, ¿qué cambia entre una rama y otra en grupo natural y fondo motivador?",
             "options": [
-              "Cambia el fondo motivador: la Familia tiene un relato propio, distinto del de la Manada.",
-              "No cambia el grupo natural: en la Familia los cachorros también se organizan en Seisenas.",
-              "Cambia el grupo natural, de Seisenas a Camadas; el fondo motivador sigue siendo el mismo."
+              "Cambia el grupo natural, de Seisenas a Camadas, y el fondo motivador sigue siendo el mismo.",
+              "Cambia el fondo motivador, por un relato propio, y el grupo natural sigue siendo de Seisenas.",
+              "Cambian los dos: el grupo natural pasa a Camadas y el fondo motivador, a un relato propio."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "Grupo natural: Camadas. Marco simbólico: La Fantasía; su fondo motivador es el Libro de las Tierras Vírgenes — el mismo de la Manada."
           },
           {
-            "text": "Una dirigente de Comunidad quiere saber qué busca su rama con los nómadas y cómo funciona ahí el Método. Un compañero le dice que se lea la Política Nacional completa. Con el mapa de documentos de la lección, ¿qué le sugieres?",
+            "text": "Una dirigente de Comunidad busca el documento que aterriza la Política Nacional al día a día de la unidad. Con la lista de documentación marco de la lección, ¿cuál le señalas?",
             "options": [
-              "Empezar por el Modelo de Aplicación, que aterriza la política al día a día, y dejar la Guía para después.",
-              "Leerse antes los cuatro documentos completos y tomar notas de todos, para no equivocarse con los nómadas.",
-              "Empezar por la Guía de Dirigente de Comunidad, que lo aterriza para su rama, y volver a la Política si hace falta."
+              "Le señalas la Guía de Dirigente de su rama, la de Comunidad.",
+              "Le señalas el Modelo de Aplicación «El Gran Juego para la Vida».",
+              "Le señalas las Herramientas de Seguimiento de la Progresión."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "Modelo de Aplicación “El Gran Juego para la Vida” (DNPJ 2026) — el manual pedagógico que aterriza la política al día a día."
           }
         ]
       }
@@ -459,31 +468,34 @@
         "nextLabel": "Continuar a tu primer compromiso ✍️",
         "questions": [
           {
-            "text": "Un scout de 13 años decide por su cuenta preparar su parte del menú del campamento; le queda salado y, en vez de culpar a otro, dice «me equivoqué yo» y propone cómo arreglarlo. Según la lista de la lección, ¿qué área de crecimiento muestra ante todo?",
+            "text": "La patrulla de un scout de 14 años lleva un proyecto de servicio a su barrio y lo presenta en la junta de acción comunal. Según la lista de las seis áreas de crecimiento de la lección, ¿en qué área cae ante todo?",
             "options": [
-              "El área de Afectividad: le cuenta a su patrulla cómo se siente con el error.",
-              "El área de Sociabilidad: coopera con su patrulla y cumple su parte.",
-              "El área de Carácter: se hace cargo de lo suyo y responde por el resultado."
+              "En el área de Ciudadanía.",
+              "En el área de Sociabilidad.",
+              "En el área de Servicio."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "Sociabilidad — que conviva, coopere, sirva y ejerza ciudadanía."
           },
           {
-            "text": "Un Viejo Lobo tiene una lobata de 9 años que va a todas las reuniones, se divierte y nunca ha propuesto nada. Con lo que hacía el dirigente de Camilo, ¿qué le conviene hacer ante todo?",
+            "text": "Un Viejo Lobo tiene una lobata de 9 años que va a todas las reuniones, se divierte y nunca ha propuesto nada. Si hace lo que hacía el dirigente de Camilo en su historia, ¿qué hace?",
             "options": [
-              "Armarle él un proyecto llamativo para la seisena, para que ella se anime a participar en algo nuevo.",
-              "Sentarse con ella a preguntarle qué le gustaría aprender y dejar que escoja su propio proyecto.",
-              "Dejarla tranquila: si se divierte y viene a todas las reuniones, el Programa ya le está sirviendo."
+              "En la reunión, se sienta con ella cada año a preguntarle qué quiere trabajar.",
+              "En la reunión, se sienta con su seisena cada año a preguntar qué quieren trabajar.",
+              "En la reunión, se sienta con ella cada trimestre a preguntarle qué quiere trabajar."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "Su dirigente se sentaba con él cada trimestre y le preguntaba qué quería trabajar."
           },
           {
-            "text": "Un dirigente de Manada dice: «Si los chicos vuelven cada sábado contentos, el Programa está funcionando». Con las tres historias de la lección, ¿qué le respondes?",
+            "text": "Un dirigente de grupo dice: «Si los chicos vuelven cada sábado contentos, el Programa está funcionando». Con las tres historias de la lección, ¿qué caso le cuentas para responderle?",
             "options": [
-              "Que tiene razón: si un niño se divierte cada semana, ya está creciendo en todas sus áreas a la vez.",
-              "Que depende de la rama: en la Manada basta con que vuelvan contentos; en la Tropa ya hay que pedir más.",
-              "Que volver contentos no basta: Mariana iba feliz cada sábado y se fue sin haber escogido nada propio."
+              "El de Mariana: se divertía, nadie hizo seguimiento a su progresión y a los 11 años se fue.",
+              "El de Camilo: se divertía, nadie hizo seguimiento a su progresión y a los 13 años se fue.",
+              "El de Sofía: se divertía, nadie hizo seguimiento a su progresión y a los 19 años se fue."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "Su dirigente nunca planeó una reunión pensando en áreas de crecimiento ni hizo seguimiento a su progresión. A los 11 años se fue."
           }
         ]
       }
@@ -563,29 +575,32 @@
           {
             "text": "Tres dirigentes llenan la plantilla del compromiso. Las tres hacen lo mismo; cambian en con quién y en la señal. ¿Cuál la llena como pide la lección?",
             "options": [
-              "Esta semana dejaré que la patrulla escoja el juego, con el guía de patrulla. Señal: que ellos lo dirijan.",
               "Esta semana dejaré que la patrulla escoja el juego, con Tomás, el guía. Señal: que ellos lo dirijan.",
-              "Esta semana dejaré que la patrulla escoja el juego, con el guía. Señal: mi intención de escucharlos más."
+              "Esta semana dejaré que la patrulla escoja el juego, con el guía. Señal: mi intención de escucharlos más.",
+              "Esta semana dejaré que la patrulla escoja el juego, con el guía de patrulla. Señal: que ellos lo dirijan."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Lo voy a hacer con ______ (otro dirigente, un protagonista, una familia: por su rol, no por su nombre). Y la señal de que se cumplió será ______ (algo observable, no una intención)."
           },
           {
-            "text": "Un dirigente de Clan escribe: «Este mes voy a acompañar a cada rover a armar su plan de progresión, con los cinco del Clan. Señal: que los cinco tengan su plan escrito». Según la lección, ¿qué ajuste le sugieres?",
+            "text": "Una dirigente escribió un compromiso chico: dejar que la patrulla escogiera el juego. Llovió, se suspendió la salida y no lo cumplió. Según la lección, ¿qué le conviene hacer ahora?",
             "options": [
-              "Que lo cambie: mejor una charla para el Clan sobre por qué importa la progresión.",
-              "Que lo achique: un rover, esta semana, y como señal su plan empezado.",
-              "Que lo amplíe: un plan común para todo el Clan, con su fecha de entrega."
+              "Repetirlo igual de chico y fijarse quién podía ayudarla.",
+              "Repetirlo igual de chico y fijarse qué la frenó.",
+              "Repetirlo igual de chico y fijarse qué sí le salió bien."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Y si una semana no se pudo, no lo agrandes para compensar: repítelo igual de chico y fíjate qué te frenó."
           },
           {
-            "text": "Una dirigente escribió un compromiso chico: dejar que la patrulla escogiera el juego. Llovió, se suspendió la salida y no lo cumplió. ¿Qué le conviene hacer ahora?",
+            "text": "Un subjefe de Tropa acompaña a una patrulla de scouts de 11 años. Al hacer el ejercicio del dibujo que propone la lección, ¿cómo dibuja a su protagonista?",
             "options": [
-              "Cambiarlo por uno más ambicioso para todo el trimestre, y así compensar la semana que se perdió.",
-              "Repetirlo en la próxima reunión, igual de chico, y anotar qué la frenó esta vez para preverlo.",
-              "Cambiarlo por otro igual de chico pero sin la patrulla, para no depender de nadie la próxima vez."
+              "Con unos 14 años, como lo imagina si vivió un Programa de calidad con él al lado.",
+              "Con unos 12 años, como lo imagina si vivió un Programa de calidad con él al lado.",
+              "Con unos 16 años, como lo imagina si vivió un Programa de calidad con él al lado."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "cómo te imaginas a un protagonista de tu rama dentro de tres años, si vivió un Programa de calidad contigo al lado."
           }
         ]
       }

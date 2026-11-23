@@ -385,6 +385,8 @@ Lo que viene después (tipo de sección visual, colores, IDs, layout) lo monta C
 
 Las 3 preguntas de cada lección **no son evaluación** — son ancla del concepto (con 3, el 70 % del motor exige acertar las tres; con 4 dejaría fallar una). Al menos 2 son escenarios de aplicación y como máximo 1 pregunta un detalle. La regla ciega (ADR-132) se mide y se registra, pero no se persigue con trampas (decisión del dueño, 04-oct-2026). Cada distractor debería ser plausible: idealmente, **uno de los distractores debe ser la idea vieja que el curso está tratando de desarmar**.
 
+**Desde el ADR-162 (22-nov-2026) cada pregunta lleva `evidencia`**: el fragmento literal de su lección que la contesta. El build avisa «⚠️ Respaldo» si falta o deja de ser literal. **Al editar el texto de una lección, correr `python 05-Generador-Cursos/quiz/revisar.py <curso>`**: una frase retocada rompe la evidencia sin que nada falle. La receta (tres opciones iguales salvo el dato de la lección, distractores tan pedagógicos como la correcta) y la medición con dos lectores están en `05-Generador-Cursos/quiz/LEEME.md`.
+
 Ejemplo del Curso 01 de PJ:
 
 > _"Un dirigente se sienta 20 minutos con un scout a preguntarle qué le gustaría aprender este trimestre. Según esta lección, ¿está haciendo Programa de Jóvenes?"_

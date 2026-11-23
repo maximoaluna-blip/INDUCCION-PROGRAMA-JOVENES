@@ -250,31 +250,34 @@
         "nextLabel": "Continuar al filtro 🎚️",
         "questions": [
           {
-            "text": "Diana llena la Hoja de Ruta del sábado y deja la columna «Responsable» con su nombre en los seis momentos, porque es la jefa y le parece más seguro. ¿Qué le dirías?",
+            "text": "Diana, jefa de Manada, dejó su nombre en la columna «Responsable» de los seis momentos. Quieres que uno lo conduzcan los lobatos. ¿Cómo lo propones, según la lección?",
             "options": [
-              "Que está bien para esta reunión, y que empiece a delegar cuando los lobatos tengan más tiempo en la Manada.",
-              "Que reparta al menos uno de los momentos con otro adulto del equipo, para no quedarse sola si algo pasa.",
-              "Que esa columna existe también para que aparezcan protagonistas, y el instrumento lo prevé explícitamente."
+              "Que una seisena se encargue de un momento completo y lo anuncie el lobato que la seisena elija.",
+              "Que una seisena se encargue de un momento completo y lo anuncie el lobato al que le toque ese día.",
+              "Que una seisena se encargue de un momento completo y lo anuncie su seisenero, que la representa."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "Manada: la seisena se encarga de un momento completo, y lo anuncia el lobato al que le toque ese día"
           },
           {
-            "text": "Un dirigente escribe en su Hoja de Ruta: «4:00 — Juego — Tomás — pelota y conos». ¿Qué le falta a esa fila para que otro adulto pueda conducirla?",
+            "text": "Un dirigente nuevo busca la lista de chequeo de entorno seguro para la reunión del sábado. ¿Dónde la encuentra y cuándo la responde?",
             "options": [
-              "Le falta la hora de cierre: sin ella, quien reciba la hoja no sabe cuánto debe durar el juego.",
-              "La descripción: «Juego» no dice cuál ni cómo, y otro adulto no podría conducirlo solo con esa fila.",
-              "Nada: con hora, responsable y materiales la fila está completa, y Tomás sabe qué juego tiene preparado."
+              "En la Hoja de Ruta, en su segundo bloque, y la responde antes de salir hacia la reunión.",
+              "En la Ficha, junto a la matriz de riesgo, y la responde antes de salir hacia la reunión.",
+              "En la Hoja de Ruta, en su segundo bloque, y la responde al cerrar la reunión con su equipo."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "Por ahora quédate con dónde están: en esta hoja, no en la Ficha, y se responden antes de salir."
           },
           {
-            "text": "La reunión del sábado va de 3:00 a 5:00. Al llenar el guion, sumas los tiempos de cada fila y te dan 2 horas y 40 minutos. ¿Qué haces?",
+            "text": "La Manada va a necesitar el sábado 20 la carpa grande del Grupo y diez linternas. ¿Cómo te ayuda la Hoja de Ruta con eso?",
             "options": [
-              "Recortar o sacar un momento ahora, en la hoja: para descubrir esto mismo se escriben las horas de cada fila.",
-              "Dejarlo así y avisar a los papás que puede alargarse: el instrumento dice que esos tiempos no son estrictos.",
-              "Borrar las horas de cada fila y dejar solo inicio y fin, para que cada responsable maneje su propio tiempo."
+              "Las anotas en Materiales, en su momento, y con eso las pides con previsión al Consejo de Padres.",
+              "Las anotas en Materiales, en su momento, y con eso las pides con previsión a la Asamblea de Grupo.",
+              "Las anotas en Materiales, en su momento, y con eso las pides con previsión al Consejo de Grupo."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Se revisa antes de la reunión, y sirve además para pedirle al Consejo de Grupo con previsión en vez de el viernes por la noche."
           }
         ]
       }
@@ -408,31 +411,34 @@
         "nextLabel": "Continuar al para qué 🎯",
         "questions": [
           {
-            "text": "La Tropa hizo el mes pasado su primera caminata de 3 km y la terminó con holgura. Ahora la Corte de Honor propone una de 6 km con orientación por mapa. Un dirigente objeta: «es demasiado para ellos». ¿Cómo lo ves?",
+            "text": "La Tropa terminó con holgura su primera caminata de 3 km, y la Corte de Honor propone una de 6 km con mapa. Para saber después si el reto quedó bien calibrado, ¿en qué te fijas?",
             "options": [
-              "Tiene razón el dirigente: si les va a costar tanto, mejor repetir los 3 km hasta que les salgan fáciles.",
-              "Va bien calibrada: sube un peldaño sobre lo logrado, y la señal será la mejora de un intento a otro.",
-              "Lo justo es partir la diferencia: 4,5 km, así ni el dirigente ni la Corte de Honor sienten que perdieron."
+              "En la mejora visible entre el primer intento y el segundo, más que en cuánto les costó.",
+              "En que todos la terminen sin que nadie abandone, más que en cuánto les costó.",
+              "En lo que cada patrulla diga del reto al cerrar, más que en cuánto les costó."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "La señal de que acertaste no es que sufran, es la mejora visible entre el primer intento y el segundo."
           },
           {
-            "text": "La Comunidad propone pintar un mural en el salón comunal. En el tablero, a «¿quién se beneficia y cómo lo mediremos?» responden: «el barrio; lo sabremos porque se va a ver bonito». ¿Qué haces?",
+            "text": "A media actividad, las patrullas de la Tropa se ven saturadas: el reto tiene demasiadas piezas a la vez. ¿Cómo aplicas ahí el filtro, según la lección?",
             "options": [
-              "Que entre al plan: las ocho casillas del tablero ya tienen respuesta, y eso es lo que el filtro pide.",
-              "Que no entre todavía: «se ve bonito» no dice a quién le sirve ni cómo lo sabrán; la idea sigue sin terminar.",
-              "Que la cambien por algo con un destinatario más claro, como limpiar el parque, que sí se cuenta en bolsas."
+              "Ajustas en el momento: bajas un peldaño el reto, y al cerrar lo evalúas con los ocho criterios.",
+              "Ajustas en el momento: das más tiempo al reto, y al cerrar lo evalúas con los ocho criterios.",
+              "Ajustas en el momento: divides la tarea, y al cerrar lo evalúas con los mismos ocho criterios."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "si el reto quedó corto, subes un peldaño; si hay saturación, divides la tarea"
           },
           {
-            "text": "A media actividad, la Tropa resuelve en cinco minutos el reto que debía tomarle media hora. El jefe deja que pasen a lo siguiente del guion y anota: «revisar en la evaluación». ¿Cómo lo ves?",
+            "text": "Al puntuar la tabla de evaluación de la Ficha, un dirigente nota que uno de los ocho atributos de DURASLID no tiene casilla. ¿Cuál es y qué hace con él?",
             "options": [
-              "Le faltó ajustar ahí mismo: subir un peldaño el reto también es aplicar el filtro, mientras se facilita.",
-              "Bien hecho: cambiar un reto en marcha desordena el guion; el filtro se corrige al evaluar la actividad.",
-              "Debió alargarlo ahí mismo: repartir la tarea entre más patrullas para que durara lo que decía el guion."
+              "Lúdica: la responde igual, aunque no tenga casilla en la tabla de la Ficha.",
+              "Diversa: la responde igual, aunque no tenga casilla en la tabla de la Ficha.",
+              "Inclusiva: la responde igual, aunque no tenga casilla en la tabla de la Ficha."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "Falta «Diversa», que el Modelo sí enuncia en su Capítulo 10 y en su glosario."
           }
         ]
       }
@@ -524,31 +530,34 @@
         "nextLabel": "Continuar al ambiente 🎭",
         "questions": [
           {
-            "text": "Un dirigente escribe como conducta observable de su actividad: «Los scouts demuestran liderazgo». ¿Qué opinas de esa conducta observable?",
+            "text": "Un jefe de Tropa escribe como conducta observable: «Reparte los roles en su patrulla, durante el armado de la carpa, sin que un adulto se lo pida». ¿Qué le ajustas?",
             "options": [
-              "Sobra pedir contexto; basta con añadirle una señal, porque «liderazgo» ya dice en qué fijarse.",
-              "Está incompleta: sin contexto ni señal verificable, no le dice a nadie qué mirar el sábado.",
-              "No le falta nada: nombra un sujeto y una conducta, que es justo lo que pide ese campo."
+              "Que la deje en singular, porque en Tropa se observa al scout tanto como a la patrulla.",
+              "Que la escriba en plural, porque en Tropa se observa solo a la patrulla y no al scout.",
+              "Que la escriba en plural, porque en Tropa se observa a la patrulla tanto como al scout."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "Tropa: la conducta observable se escribe en plural, porque la unidad de observación es la patrulla tanto como el scout."
           },
           {
-            "text": "Diana llena la Ficha y marca las seis áreas de crecimiento, porque su actividad «las toca todas de alguna manera». ¿Qué le dirías?",
+            "text": "Una dirigente de Familia abre el desplegable de competencias de la Ficha y ve solo cinco, una por área y ninguna en Sociabilidad. ¿Qué le dices?",
             "options": [
-              "Que está bien mientras pueda justificar cada área con algo concreto de la actividad que planeó.",
-              "Que la Ficha solo admite marcar dos áreas y el archivo le va a rechazar las otras cuatro que marcó.",
-              "Que el foco se elige, no se declara: una o dos competencias, o no estará mirando ninguna."
+              "Que está completo: la malla oficial para 5 a 6 años trae justo esas cinco, como el Registro.",
+              "Que está incompleto: la malla oficial para 5 a 6 años trae veintidós, como el Archivo Base.",
+              "Que está incompleto: le falta abrir aparte «Competencias Educativas», que trae las veintidós."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "No está incompleto por error: la malla oficial para la franja de 5 a 6 años trae exactamente eso, y el Registro de progresión coincide."
           },
           {
-            "text": "Diana escribe en «Objetivo de la actividad»: «Juego de la camilla en el parque, de 3:30 a 4:15, con cuerdas y palos». ¿Qué le dirías?",
+            "text": "Un jefe de Manada abre el desplegable y encuentra veintidós competencias para la actividad del sábado. ¿Qué le recomiendas?",
             "options": [
-              "Que está bien: con lugar, horario y materiales, cualquier dirigente puede repetir la actividad sin ella.",
-              "Que lo cambie: eso dice qué va a pasar, y va en la Hoja de Ruta; el objetivo es para qué, en una frase.",
-              "Que lo conserve y le sume al final una frase de para qué, así el campo deja constancia de las dos cosas."
+              "Que elija una o dos como foco, empezando por el área que más les guste a los lobatos.",
+              "Que elija una o dos como foco, empezando por el área que su Manada tenga floja.",
+              "Que elija tres o cuatro como foco, empezando por el área que su Manada tenga floja."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Manada: veintidós competencias; empieza por el área que tu Manada tenga floja, no por la que te guste."
           }
         ]
       }
@@ -669,31 +678,34 @@
         "nextLabel": "Continuar al riesgo 🦺",
         "questions": [
           {
-            "text": "Un dirigente de Tropa dice en la reunión de dirigentes: «este ciclo vamos a cambiar el marco simbólico, porque la aventura ya nos aburrió». ¿Qué le dirías?",
+            "text": "Un dirigente de Manada escribe en la casilla «Ambiente de referencia» de la Ficha: «El Libro de las Tierras Vírgenes». ¿Qué le dices?",
             "options": [
-              "Que adelante: el marco simbólico se renueva en cada ciclo, igual que el ambiente y por las mismas razones.",
-              "Que el marco viene con la rama y no se elige; lo que su unidad cambia en cada ciclo es el ambiente.",
-              "Que eso lo decide el Consejo de Grupo, aunque el marco sí pueda cambiarse de un ciclo al otro."
+              "Que ese libro es el marco simbólico, una capa que no se elige; el ambiente lo eligen ustedes por ciclo.",
+              "Que ese libro es el fondo motivador, una capa que no se elige; el ambiente lo eligen ustedes por ciclo.",
+              "Que ese libro es el ambiente de referencia, y que ustedes pueden volver a elegirlo en cada ciclo."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "el Libro de las Tierras Vírgenes no es el ambiente de referencia, es el fondo motivador — la capa que no se elige."
           },
           {
-            "text": "Un jefe de Tropa escribe en el paso a paso: «20 min: los guías reparten el mapa a su patrulla. 40 min: búsqueda del tesoro por el parque. 10 min: cierre». Otra jefa lo toma para su Tropa. ¿Qué le va a faltar primero?",
+            "text": "Un jefe recién llegado a la Comunidad va a proponer con los jóvenes el ambiente de referencia del próximo ciclo. ¿De dónde sale, según la lección?",
             "options": [
-              "Los elementos: no dice qué mapa, qué pistas ni qué tesoro, y sin eso no puede montar la búsqueda.",
-              "Los tiempos: con tramos de 20 y 40 minutos la actividad queda demasiado suelta para poder seguirla.",
-              "El ambiente: si cada tramo no repite el ambiente de referencia del ciclo, el paso a paso no le sirve."
+              "De la Ciudadanía Activa, en particular la de los pueblos nómadas, como material del relato.",
+              "De historias de aventuras, leyendas o videojuegos, que su Guía deja abiertas a propósito.",
+              "De las Historias de la Humanidad, en particular los pueblos nómadas, como material del relato."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Las Historias de la Humanidad, y en particular los pueblos nómadas. Cuidado: ese es el material del relato, no el marco simbólico de la rama."
           },
           {
-            "text": "Un jefe de Comunidad va a llevar a su unidad al Parque Simón Bolívar, entrada de la calle 63, y además quiere dejar la actividad en una Ficha. ¿Qué escribe en cada sitio?",
+            "text": "En el paso a paso de una Ficha, un tramo dice: «20 min: búsqueda del tesoro por el parque, con mapa, pistas y un cofre». ¿Qué le falta según el instrumento?",
             "options": [
-              "En la Hoja de Ruta, la entrada de la calle 63; en «Lugar sugerido» de la Ficha, «parque con zona arbolada».",
-              "Lo mismo en las dos, «parque con zona arbolada»: lo del Movimiento no se ata a una dirección de una ciudad.",
-              "Las dos cosas en ambas hojas, el parque genérico y la calle 63, para que sirvan aquí y en cualquier ciudad."
+              "Quién interviene: ya dice qué sucede y qué elementos se usan, pero no quién participa.",
+              "Para qué se hace: ya dice qué sucede y qué elementos se usan, pero no su propósito.",
+              "El ambiente del ciclo: ya dice qué sucede y qué elementos se usan, pero no su relato."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "que la narración evidencie qué sucede, quién interviene y qué elementos se usan"
           }
         ]
       }
@@ -804,31 +816,34 @@
         "nextLabel": "Continuar al cierre 🔁",
         "questions": [
           {
-            "text": "En la matriz de una salida al río, un dirigente escribe: peligro «corriente fuerte», riesgo «ahogamiento», probabilidad 3, consecuencia 5, y en medidas de control: «estar pendientes de los chicos». ¿Qué hay que corregir primero?",
+            "text": "En la matriz de una fogata de campamento, el riesgo es una quemadura grave y la probabilidad quedó en 3. ¿Cómo sigue la matriz?",
             "options": [
-              "La medida: «estar pendientes» es una intención, y nadie puede verificar después si se cumplió.",
-              "La consecuencia: con chalecos salvavidas bien puestos el ahogamiento deja de ser fatal y baja a 3.",
-              "Nada urgente: 15 queda en la banda media, así que basta con anotar esa medida y continuar."
+              "Consecuencia 5, como dice la referencia: da 15, alto, y se rediseña o se refuerza el control antes.",
+              "Consecuencia 3, como dice la referencia: da 9, medio, y la medida tiene que quedar asignada a alguien.",
+              "Consecuencia 4, como dice la referencia: da 12, alto, y se rediseña o se refuerza el control antes."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "el instrumento pone como referencia que una quemadura grave se califica con 4"
           },
           {
-            "text": "Al revisar la Hoja de Ruta, una jefa marca que el mecanismo de reporte está listo: imprimió el formulario, lo pegó en la cartelera y dedicó el primer minuto de la reunión a explicar a todos qué es y cómo se usa. ¿Cómo lo ves?",
+            "text": "Una jefa prepara el cartel del mecanismo oficial de reporte para la cartelera de la sede. ¿Con qué nombre lo escribe?",
             "options": [
-              "Falta que el cartel diga «Botón A Salvo del Peligro», como lo nombra la hoja del chequeo.",
-              "Está bien: lo que pide el chequeo es que todos sepan qué es el mecanismo y cómo usarlo.",
-              "A medias: cada protagonista debería llevar su propia copia impresa del formulario."
+              "«Botón A Salvo del Peligro», y dedica un minuto al inicio a recordar cómo se usa.",
+              "«Me Pongo A Salvo del Peligro», y dedica un minuto al inicio a recordar cómo se usa.",
+              "«Haré todo cuanto de mí dependa», y dedica un minuto al inicio a recordar cómo se usa."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "El mecanismo oficial de reporte se llama «Me Pongo A Salvo del Peligro», como lo nombra la Política Nacional A Salvo del Peligro vigente"
           },
           {
-            "text": "En la matriz de un campamento, la fogata grande de la noche queda con probabilidad 4 y consecuencia 4. ¿Qué hace el equipo?",
+            "text": "La Comunidad tendrá una reunión en línea con una nutricionista invitada que no es del Movimiento. Según el bloque de entorno seguro, ¿quién debe haber hecho el curso Estar Seguro en Línea?",
             "options": [
-              "Mantenerla con un adulto asignado a la fogata toda la noche y un extintor a mano, y seguir con el plan.",
-              "Cambiar la actividad como está planteada: con 16 queda en crítico, y así no se hace aunque haya medidas.",
-              "Bajar la consecuencia a 3, porque habrá botiquín y enfermera, para que quede en alto y se pueda hacer."
+              "Todos los adultos presentes, sean o no del Movimiento, y también los protagonistas.",
+              "Los dirigentes del Grupo presentes, aunque no la invitada, y también los protagonistas.",
+              "Todos los adultos presentes, sean o no del Movimiento, aunque no los protagonistas."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "que todos los adultos presentes —sean o no del Movimiento— y los protagonistas hayan hecho el curso Estar Seguro en Línea"
           }
         ]
       }
@@ -919,31 +934,34 @@
         "nextLabel": "Continuar a tus herramientas 🧰",
         "questions": [
           {
-            "text": "Al terminar una salida, la jefa de Tropa puntúa en la Ficha los trece criterios, pero deja vacía la evaluación cualitativa: «los números ya lo dicen todo». ¿Qué pierde quien abra esa ficha dentro de dos años?",
+            "text": "En una salida, dos patrullas tuvieron un conflicto por el material y lo resolvieron hablando con sus guías. Al llenar la Ficha, ¿dónde lo dejas escrito?",
             "options": [
-              "Nada importante: la suma automática de los trece criterios le dice de un vistazo si la actividad valió la pena.",
-              "Las recomendaciones: qué cambiar, cómo funcionaron los materiales, qué haría distinto. Eso no cabe en un número.",
-              "La parte de DURASLID: esos atributos solo se evalúan con texto libre, porque no tienen casilla con puntaje."
+              "En Coordinación y Logística, criterio donde va lo inesperado y cómo se manejó el material.",
+              "En Novedades, el espacio donde va lo inesperado y si hubo conflictos y cómo se manejaron.",
+              "En A Salvo del Peligro, criterio donde va lo inesperado y si hubo conflictos en la salida."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Lo inesperado, lo que no estaba en tu plan, los hallazgos — y si se dieron conflictos y cómo fueron manejados"
           },
           {
-            "text": "Al cerrar una salida, una jefa de Tropa pregunta a las patrullas: «¿les gustó?». Todos dicen que sí y ahí termina. ¿Qué se perdió?",
+            "text": "En el cierre de una salida, las patrullas ya respondieron «¿qué hicimos?» y «¿qué salió bien y qué no?». ¿Qué pregunta sigue en el ciclo que pide el Modelo?",
             "options": [
-              "La parte del ciclo que faltó: las otras tres preguntas, con lo que aprendieron y qué harán distinto.",
-              "La oportunidad de puntuar los trece criterios de la evaluación cuantitativa con las patrullas.",
-              "El registro escrito de la respuesta, que debía quedar en el campo de novedades de la ficha."
+              "«¿Qué cambiaremos en la próxima salida o semana?», que es Proyectar; luego, Comprender.",
+              "«¿Cómo nos sentimos durante toda la salida?», que es Comprender; luego, Proyectar.",
+              "«¿Qué aprendimos sobre el tema, el equipo y nosotros?», que es Comprender; luego, Proyectar."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Comprensión — Comprender. ¿Qué aprendimos sobre el tema, sobre el equipo y sobre nosotros?"
           },
           {
-            "text": "En la evaluación cualitativa de una Ficha, un dirigente de Tropa anota qué conducta nueva mostró cada scout durante la actividad. ¿Cómo lo ves?",
+            "text": "Al evaluar la Ficha, un dirigente quiere dejar anotado que Juana condujo por primera vez un momento de la actividad. ¿Dónde va eso?",
             "options": [
-              "Está bien: la evaluación cualitativa es justo el sitio para dejar lo que mostró cada scout.",
-              "Debe pasarlo a Novedades, que es donde la Ficha guarda lo inesperado de la jornada.",
-              "Fuera de lugar: la Ficha evalúa la actividad; lo de cada protagonista va al registro del Curso 13."
+              "En el registro del protagonista del Curso 13, porque la Ficha evalúa la actividad.",
+              "En la evaluación cualitativa de la Ficha, porque ahí va cómo se desarrolló todo.",
+              "En Seguimiento de Competencias de la Ficha, porque es un avance de la protagonista."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "Lo que registras en el Curso 13 es el protagonista: qué mostró Juana que no mostraba antes."
           }
         ]
       }
@@ -1018,31 +1036,34 @@
         "nextLabel": "Finalizar el curso ⭐",
         "questions": [
           {
-            "text": "Un jefe de Manada planea con la herramienta interactiva: guion, riesgo, adultos y materiales completos. La actividad central es la misma carrera de relevos de los últimos tres sábados. ¿Qué le señalas?",
+            "text": "Un jefe de Manada planea con la herramienta interactiva «Planeación de Reuniones Scout». ¿Qué tiene que poner él mismo, porque la herramienta no lo trae?",
             "options": [
-              "Que la pase por el tablero de ocho preguntas: la interactiva no lo trae, y repetida cuatro veces no desafía.",
-              "Que la copie al Excel antes de usarla, porque la herramienta interactiva no tiene valor oficial en el Grupo.",
-              "Que está lista: si la herramienta no pide DURASLID, es que en reuniones de rutina no hace falta aplicarlo."
+              "El bloque de materiales de la reunión: la interactiva no lo trae por ninguna parte.",
+              "La matriz de riesgo de cada actividad: la interactiva no la trae por ninguna parte.",
+              "El tablero de ocho preguntas de DURASLID: la interactiva no lo trae por ninguna parte."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "La herramienta interactiva no trae DURASLID por ninguna parte."
           },
           {
-            "text": "Diana llenó la Hoja de Ruta del sábado y, entusiasmada, escribió una Ficha para cada uno de los cinco momentos de la reunión. ¿Qué le dirías?",
+            "text": "En la Comunidad, tres equipos proponen cada uno una actividad para el ciclo. ¿Cómo se manejan sus Fichas, según la lección?",
             "options": [
-              "Que se quede con una, o como mucho dos: las de más peso educativo, y deje las otras sin ficha.",
-              "Que está bien, porque así el ciclo de programa queda documentado completo desde el arranque.",
-              "Que reparta las cinco fichas entre los dirigentes de su equipo, para que nadie cargue con todas."
+              "Cada equipo llena la suya, y luego el Congreso de Comunidad las junta.",
+              "Cada equipo llena la suya, y luego el dirigente las junta con su revisión.",
+              "Cada equipo llena la suya, y luego el Consejo de Grupo las junta todas."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "Comunidad: cada equipo llena la suya y el Congreso de Comunidad las junta."
           },
           {
-            "text": "El miércoles, un dirigente nuevo te muestra su planeación del sábado: la Hoja de Ruta completa, con el entorno seguro revisado y el guion con horas, responsables y materiales. Te pregunta si ya puede dar la reunión por planeada. ¿Qué le respondes?",
+            "text": "Al llenar la Ficha, la lista de competencias de un desplegable sale vacía. ¿Qué hace el dirigente?",
             "options": [
-              "Que sí: con responsables y materiales por momento, la reunión ya tiene lo que necesita para salir bien.",
-              "Que tiene el qué va a pasar; le falta, al menos para la actividad principal, una Ficha que diga para qué.",
-              "Que le falta la evaluación, que va arriba en la Hoja de Ruta y es lo que separa una reunión de una agenda."
+              "La escribe a mano, tomándola de la hoja «Pautas de Uso», que trae las listas de todas las ramas.",
+              "La escribe a mano, tomándola de la hoja de su rama o del documento «Competencias Educativas».",
+              "La escribe a mano, tomándola de la herramienta interactiva, que trae las listas ya cargadas."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "si una lista sale vacía, escribe el valor a mano desde la hoja de tu rama o desde el documento de Competencias Educativas."
           }
         ]
       }

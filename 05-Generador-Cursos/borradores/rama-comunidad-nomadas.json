@@ -181,31 +181,34 @@
         "nextLabel": "Continuar a la Ley y la Promesa 🤝",
         "questions": [
           {
-            "text": "En una reunión, Valeria dice delante de toda la Comunidad que la salida que tú propusiste «es la misma de siempre y da pereza». Varios asienten. ¿Qué haces?",
+            "text": "En una reunión, Valeria dice delante de toda la Comunidad que la salida que propusiste «es la misma de siempre y da pereza». Un dirigente te dice que es lo normal a esa edad. Según la Guía, ¿qué puede salir de ese cuestionamiento?",
             "options": [
-              "Le explicas ahí mismo por qué elegiste esa salida, para que el grupo vea que hubo razones detrás.",
-              "Le devuelves la pregunta ahí mismo: qué propone ella, y lo llevas a decisión del grupo.",
-              "Sostienes la propuesta porque ya está organizada, y prometes que la próxima la eligen ellos."
+              "Distancia de su familia o cercanía con sus pares, y tu primera respuesta pesa en cuál de las dos aparece.",
+              "Resistencia activa o legitimación de tu autoridad, y tu primera respuesta pesa en cuál de las dos aparece.",
+              "Búsqueda de autonomía o de pertenencia al grupo, y tu primera respuesta pesa en cuál de las dos aparece."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Cuestionan el orden establecido — y eso deriva en resistencia activa o en legitimar, total o parcialmente, a las figuras de autoridad de su contexto."
           },
           {
-            "text": "Tu Comunidad tiene cuatro Equipos y solo dos adultos, contándote. ¿Qué es lo que esa cifra te está diciendo, según el Modelo?",
+            "text": "Tu Comunidad tiene cuatro Equipos y solo dos adultos, contándote. ¿Cuántos adultos recomienda el Modelo de Aplicación para esa Comunidad?",
             "options": [
-              "Que conviene fusionar Equipos hasta tener dos, para que cada uno quede con su adulto y nadie se quede sin acompañamiento.",
-              "Que es un asunto de reparto: alcanza si te organizas para rotar entre los cuatro Equipos a lo largo del ciclo de programa.",
-              "Que te van a faltar manos justo para lo que define a esta rama: acompañar proyectos y enlazar con el territorio."
+              "Cuatro: uno por cada Equipo, y uno de ellos es el Jefe de Unidad, por el trabajo por proyectos y el enlace con el territorio.",
+              "Tres: uno por cada dos Equipos, más el Jefe de Unidad, por el trabajo por proyectos y el enlace con el territorio.",
+              "Cinco: uno por cada Equipo, más el Jefe de Unidad, por el trabajo por proyectos y el enlace con el territorio."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "en la Comunidad se recomienda un adulto por cada equipo de Nómadas Scout, más el Jefe de Unidad"
           },
           {
-            "text": "El Congreso decide que el campamento del ciclo será en una vereda donde nunca han estado y no en la finca de siempre, que tú conoces bien. Es viable y seguro, pero a ti te gustaba más la finca. ¿Qué haces?",
+            "text": "El Congreso decide que el campamento del ciclo será en una vereda nueva y no en la finca de siempre, que tú conoces bien. Es viable y seguro, pero a ti te gustaba más la finca. ¿Qué haces?",
             "options": [
-              "Les pides que lo piensen una semana más y lo voten otra vez, ahora escuchando tus argumentos sobre la finca.",
-              "Lo apoyas, pero propones hacer antes una salida corta a la finca, para que comparen antes de elegir la vereda.",
-              "Lo apoyas y les dejas la gestión con la vereda; tu parte es revisar con ellos permisos, transporte y riesgos."
+              "Lo apoyas y la vereda se ejecuta tal como la decidieron; tu parte es revisar con ellos permisos, transporte y riesgos.",
+              "Lo apoyas y la vereda pasa al Consejo de Grupo para que la ratifique; tu parte es revisar permisos, transporte y riesgos.",
+              "Lo apoyas y la vereda se ejecuta tras una visita previa a la finca; tu parte es revisar con ellos permisos y riesgos."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "Participación real significa que la decisión puede salir distinta de lo que tú habrías hecho, y que igual se ejecuta."
           }
         ]
       }
@@ -285,31 +288,34 @@
         "nextLabel": "Continuar a los Equipos 👥",
         "questions": [
           {
-            "text": "Faltan dos semanas para la Investidura y Samuel te dice que no quiere decir «con la gracia de Dios» porque no cree en eso, pero que sí quiere hacer su Promesa. ¿Qué haces?",
+            "text": "Faltan dos semanas para la Investidura y Samuel te dice que no quiere decir «con la gracia de Dios» porque no cree en eso, pero que sí quiere hacer su Promesa. Le ofreces la fórmula alternativa oficial. ¿Cuáles son los deberes que nombra?",
             "options": [
-              "Le ofreces la segunda fórmula oficial, que dice «para con mi espiritualidad», y hace su Promesa como todos.",
-              "Hablas con su familia para entender el contexto y deciden juntos si conviene aplazar.",
-              "Le explicas que la tradicional es la fórmula del Movimiento y lo invitas a entender «Dios» en sentido amplio."
+              "«…cumplir mis deberes para con mi conciencia, para con los demás y para con la Patria».",
+              "«…cumplir mis deberes para conmigo, para con mi conciencia y para con la Patria».",
+              "«…cumplir mis deberes para conmigo, para con los demás y para con mi espiritualidad»."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "cumplir mis deberes para conmigo, para con los demás y para con mi espiritualidad, ayudando a mi prójimo en toda circunstancia"
           },
           {
             "text": "Un dirigente de tu equipo propone entregar la Promesa solo a quienes hayan completado la fase de progresión y asistido a los dos campamentos del año. ¿Qué le respondes?",
             "options": [
-              "Que mejor no: si la Promesa se gana con requisitos, a los quince se lee como un trato y deja de ser libre.",
-              "Que sí, siempre que los requisitos se anuncien al empezar el ciclo y valgan igual para todos los Nómadas.",
-              "Que mejor no: esos requisitos los fija el Congreso de Comunidad, que es la máxima instancia de la unidad."
+              "Que mejor no: la Guía la presenta como un punto de partida, y pide que se asuma de manera libre y no condicionada.",
+              "Que mejor no: la Guía la presenta como un punto de llegada, y pide que se asuma de manera libre y no condicionada.",
+              "Que mejor no: la Guía la presenta como la meta de la fase, y pide que se asuma de manera libre y no condicionada."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "La Guía dice que la Promesa es «un punto de partida», no una meta."
           },
           {
-            "text": "Tres meses después de su Promesa, Juliana incumple un compromiso con su Equipo. Otro dirigente propone revisar con ella si está cumpliendo su Promesa. ¿Qué le respondes?",
+            "text": "Tres meses después de su Promesa, Juliana incumple un compromiso con su Equipo. Otro dirigente propone revisar si está cumpliendo su Promesa. ¿Qué le respondes?",
             "options": [
-              "Que no la revisen los adultos: que lo haga su Consejo de Equipo, para que la evalúen sus pares.",
-              "Que sí, pero con ella, su familia y otro dirigente, para que la revisión no se lea como una sanción ante el Equipo.",
-              "Que no: si cumple su Promesa lo juzga ella misma. Con Juliana hablas del compromiso con su Equipo y de cómo reponerlo."
+              "Que no la revisen ustedes: el cumplimiento de su Promesa lo juzga su Consejo de Equipo; con ella hablan del compromiso.",
+              "Que no la revisen ustedes: el cumplimiento de su Promesa lo juzga ella misma; con ella hablan del compromiso con su Equipo.",
+              "Que no la revisen ustedes: el cumplimiento de su Promesa lo juzga el Congreso de Comunidad; con ella hablan del compromiso."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "«Nadie más que el propio adolescente será quién, en su diario vivir, juzgue el cumplimiento de la Promesa». Tu papel no es evaluarla."
           }
         ]
       }
@@ -453,29 +459,32 @@
           {
             "text": "En el Congreso de Comunidad los Nómadas están decidiendo el proyecto del ciclo. La opción que va ganando te parece poco viable. ¿Qué haces?",
             "options": [
-              "Esperas a que hablen todos los Nómadas, para no influir, y al final das tu razón en dos frases.",
-              "Pides la palabra al principio, das tu razón en dos frases y dejas que la discusión siga entre ellos.",
-              "Pides la palabra al principio y propones que la votación espere a que opine el Jefe de Grupo."
+              "Pides la palabra al principio, das tu razón en dos frases y no votas: en el Congreso tienes voz, pero no voto.",
+              "Pides la palabra al final, das tu razón en dos frases y no votas: en el Congreso tienes voz, pero no voto.",
+              "Pides la palabra al final, das tu razón en dos frases y votas de último: en el Congreso tienes voz y voto."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "hablar de último y largo equivale a votar. Si la Comunidad va a decidir algo que no te convence, di tu razón temprano, breve, y déjala ir."
           },
           {
             "text": "El Equipo Tuareg quiere dedicar sus próximas dos reuniones a preparar algo suyo, y además propone que el proyecto del ciclo de toda la Comunidad sea el caño del barrio. ¿Dónde va cada decisión?",
             "options": [
-              "Lo de sus dos reuniones, en su Consejo de Equipo; el proyecto de todos, al Congreso de Comunidad.",
-              "Las dos cosas al Congreso: es la máxima instancia y le toca todo lo que afecte a la unidad.",
-              "Lo de sus reuniones y también el proyecto, en su Consejo de Equipo; el Congreso solo ratifica lo que acuerden."
+              "Lo de sus reuniones, en su Grupo de Trabajo; el proyecto del ciclo, en el Grupo de Trabajo de Proyectos.",
+              "Lo de sus reuniones, con su Coordinador de Equipo; el proyecto del ciclo, en el Grupo de Trabajo de Programa.",
+              "Lo de sus reuniones, en su Consejo de Equipo; el proyecto del ciclo, en el Congreso de Comunidad."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Ahí el Equipo planea, ejecuta y evalúa sus actividades y se reparte roles."
           },
           {
-            "text": "Al empezar el ciclo vas a reorganizar los Equipos. Un dirigente propone repartir a los jóvenes para que cada Equipo tenga a alguien bueno en cocina, otro en primeros auxilios y otro en redes. ¿Qué le respondes?",
+            "text": "Al empezar el ciclo vas a reorganizar los Equipos. Un dirigente propone repartir a los jóvenes para que cada grupo tenga a alguien bueno en cocina, otro en primeros auxilios y otro en redes. ¿Qué le respondes?",
             "options": [
-              "Que esa mezcla de talentos sirve si la aprueba el Congreso: así los Equipos quedan parejos y los decide la Comunidad.",
-              "Que esa mezcla de talentos sirve para los Equipos, y que los Grupos de Trabajo se arman con quien cada uno quiera estar.",
-              "Que esa mezcla de talentos sirve para un Grupo de Trabajo; los Equipos se arman primero por afinidad y luego se ajustan."
+              "Que esa mezcla de talentos sirve para los Equipos; los Grupos de Trabajo se arman por afinidad e intereses, de 3 a 6.",
+              "Que esa mezcla de talentos sirve para un Grupo de Trabajo; los Equipos se arman por afinidad e intereses, de 3 a 6.",
+              "Que esa mezcla de talentos sirve para los Equipos; los Grupos de Trabajo se arman por afinidad e intereses, de 6 a 8."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "No se arman por amistad, sino sobre todo por intereses o habilidades, pueden mezclar gente de varios Equipos y se disuelven cuando cumplen su objetivo"
           }
         ]
       }
@@ -580,31 +589,34 @@
         "nextLabel": "Continuar al territorio 🌍",
         "questions": [
           {
-            "text": "Un dirigente nuevo te dice: «entonces el marco simbólico de la Comunidad son los pueblos nómadas, ¿no?». ¿Cómo lo corriges?",
+            "text": "Un dirigente nuevo te pregunta cuál es el marco simbólico de la Comunidad y de dónde salen los relatos que se usan en las actividades. ¿Qué le respondes?",
             "options": [
-              "Le dices que el marco es «la aventura hacia la ciudadanía»; los pueblos nómadas son el ambiente de referencia del que salen los relatos.",
-              "Le dices que en esta rama el marco simbólico no está definido y que cada Comunidad construye el suyo con los jóvenes en Congreso.",
-              "Le dices que son los pueblos nómadas pero entendidos en sentido amplio, incluyendo cualquier historia de viaje que sirva para inspirar al grupo."
+              "Que el marco es «Historias de la Humanidad», y los relatos salen de su ambiente de referencia: los pueblos nómadas.",
+              "Que el marco es «La aventura hacia la ciudadanía», y los relatos salen de su ambiente de referencia: los pueblos nómadas.",
+              "Que el marco es «Historias de la Humanidad», y los relatos salen de su referente de inspiración: la aventura y la ciudadanía."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "El marco simbólico es «La aventura hacia la ciudadanía». Su ambiente de referencia —el material del que se saca el relato— son las Historias de la Humanidad"
           },
           {
-            "text": "Preparas la primera fogata del ciclo y quieres que los Nómadas sientan qué es la hermandad en la Comunidad. ¿Cómo la planeas?",
+            "text": "Preparas la primera fogata del ciclo alrededor del relato de un pueblo nómada, y quieres que los Nómadas vivan qué es la hermandad en la Comunidad. ¿Cómo cierras?",
             "options": [
-              "La armas alrededor de la historia del primer campamento de Baden-Powell, que es el relato de la rama.",
-              "La armas alrededor de un relato de un pueblo nómada y al final explicas tú qué enseña sobre la hermandad.",
-              "La armas alrededor de un relato de un pueblo nómada y abres un momento para que quien quiera diga qué se lleva."
+              "Al cierre tomas tú la palabra para que ellos sepan qué descubrieron sobre la hermandad en el relato.",
+              "Al inicio tomas tú la palabra para que ellos sepan qué van a descubrir sobre la hermandad en el relato.",
+              "Al cierre abres un momento para que ellos digan qué descubrieron sobre la hermandad, sin explicarlo tú."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "no es necesario explicarle al joven la importancia de la reflexión durante una caminata ni definir con palabras el significado de la hermandad alrededor de una fogata."
           },
           {
             "text": "Tomás quiere que la Comunidad reparta volantes de la candidata a la alcaldía que apoya su familia: «la rama es de ciudadanía», dice. ¿Qué le respondes?",
             "options": [
-              "Que no: la ciudadanía de la rama es participar en lo común, no tomar partido ni hacer propaganda.",
-              "Que sí, si el Congreso lo aprueba y se invita también a las otras campañas, para que sea equilibrado.",
-              "Que no por ahora: primero el Congreso tiene que discutirlo y, si hay consenso, se reparten como Comunidad."
+              "Que no: en la Guía «comunidad política» no se refiere a partidos ni a militancia, y la rama no hace propaganda.",
+              "Que sí, como Grupo de Trabajo: «comunidad política» incluye las campañas, si se invita a todas por igual.",
+              "Que sí, si el Congreso lo aprueba: «comunidad política» incluye las campañas, si se invita a todas por igual."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "La Guía lo aclara expresamente: no se refiere a partidos, ideologías electorales ni militancia."
           }
         ]
       }
@@ -747,31 +759,34 @@
         "nextLabel": "Continuar a la progresión 🎖️",
         "questions": [
           {
-            "text": "Tu Comunidad quiere «ayudar al ancianato del barrio» y ya organizó una jornada de pintura para el sábado siguiente. ¿Qué haces?",
+            "text": "Tu Comunidad quiere «ayudar al ancianato del barrio» y ya organizó una jornada de pintura para el sábado. Les propones volver a un momento de la travesía. ¿A cuál?",
             "options": [
-              "Los dejas avanzar: la iniciativa salió de ellos y la jornada de pintura ya está organizada para el sábado siguiente.",
-              "Les ayudas a conseguir más pintura y voluntarios, para que la jornada del sábado salga mejor.",
-              "Les propones ir esta semana a preguntar al ancianato qué necesitan, y decidir después con esa información."
+              "A «Leer los signos del camino»: observar y dialogar con el ancianato antes de decidir qué van a hacer allá.",
+              "A «Trazar la ruta»: observar y dialogar con el ancianato antes de decidir qué van a hacer allá con ellos.",
+              "A «Reconocer el territorio»: observar y dialogar con el ancianato antes de decidir qué van a hacer allá."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "Reconocer el territorio — observar, dialogar con la comunidad, mapear problemáticas."
           },
           {
-            "text": "Camila, de tu Comunidad, fue elegida al foro juvenil regional. Vas como acompañante y, en plena sesión, el moderador te pregunta directamente cómo funciona el Congreso en tu Grupo. ¿Qué haces?",
+            "text": "Camila, de tu Comunidad, fue elegida al foro juvenil regional y vas como acompañante. El moderador le pregunta a ella cómo funciona el Congreso en tu Grupo, y su respuesta te parece incompleta. Nadie te ha pedido la palabra. ¿Qué haces?",
             "options": [
-              "Respondes lo que te preguntaron, en dos frases, y le devuelves la palabra a Camila y a los demás jóvenes.",
-              "Respondes con detalle, ya que la pregunta era para ti, y luego le pides a Camila que complete lo que falte.",
-              "Respondes y aprovechas para presentar la propuesta de la Comunidad, porque Camila apenas está empezando."
+              "No intervienes en la sesión: tu rol ahí es acompañar, y orientas a Camila solo cuando ella o el foro te lo pidan.",
+              "Pides la palabra en la sesión: tu rol ahí es acompañar, y completas en dos frases lo que a Camila le faltó decir.",
+              "Le pasas una nota en la sesión: tu rol ahí es acompañar, y le anotas a Camila lo que le faltó para que lo diga."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "«el rol del Dirigente es el de acompañamiento, no el de participación activa y deberíamos limitarnos a orientar sin interferir o cuando sea requerido»"
           },
           {
-            "text": "La Comunidad terminó la jornada de limpieza del caño con los vecinos. Salió bien y todos quieren irse ya. ¿Qué haces antes de cerrar?",
+            "text": "La Comunidad terminó la jornada de limpieza del caño con los vecinos. Salió bien y todos quieren irse ya. Antes de cerrar pides cinco minutos con los Nómadas. ¿Qué dos preguntas les haces?",
             "options": [
-              "Les pides cinco minutos, con los vecinos que se queden, para contar qué hicieron, qué les costó y si alguien quedó afuera.",
-              "Les pides cinco minutos, solo entre los Nómadas, para contar qué hicieron; a los vecinos les agradeces y los despides.",
-              "Los dejas ir porque están cansados y llenas tú el formato de evaluación con lo que viste, para que quede registrada."
+              "¿Esto fue útil para el barrio o solo para ustedes? y ¿quedó alguien afuera?",
+              "¿Esto fue desafiante o ya lo sabían hacer? y ¿quedó alguien afuera?",
+              "¿Esto fue útil para el barrio o solo para ustedes? y ¿lo repetirían?"
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "hazle a un Equipo solo dos preguntas: ¿esto fue desafiante o ya lo sabían hacer? y ¿quedó alguien afuera?"
           }
         ]
       }
@@ -906,29 +921,32 @@
           {
             "text": "Mariana lleva dos años en la Comunidad y ya lidera los proyectos de servicio; su insignia de Sociabilidad está en rojo coral. Te pide ayuda para el próximo. ¿Qué haces?",
             "options": [
-              "Le propones un desafío más exigente que el anterior y le das retroalimentación semanal mientras lo ejecuta con su Equipo.",
-              "La pones a acompañar a los Nómadas nuevos, que es la mejor forma de consolidar lo que ya sabe hacer bien.",
-              "La contactas con la fundación del barrio que trabaja ese tema, para que aprenda de gente que vive de eso."
+              "Te toca enlazarla: la conectas con la fundación del barrio que trabaja ese tema, y ella sigue liderando.",
+              "Te toca acompañarla: le propones un reto mayor, la observas y le das retroalimentación mientras lidera.",
+              "Te toca apoyarla: le explicas el propósito del reto y la ayudas con sus primeros obstáculos mientras lidera."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "Se especializa y lidera; es la fase vocacional. Tú ENLAZAS: lo conectas con mentores, instituciones, redes y experiencias fuera del Movimiento."
           },
           {
-            "text": "Daniel te muestra sus insignias de Rumbo: tres Rumbos en amarillo mostaza y tres en mandarina cálido. Te pregunta qué sigue para él.",
+            "text": "Daniel te muestra sus insignias de Rumbo: tres en amarillo mostaza y tres en mandarina cálido. Te pregunta en qué fase está y qué sigue.",
             "options": [
-              "Que ya alcanzó Pionero de la Montaña, y que lo que sigue es llevar un Rumbo a rojo coral.",
-              "Que le falta para Caminante de los Bosques: primero hay que cerrar del todo las áreas que tiene en amarillo mostaza.",
-              "Que ya alcanzó Visionario de los Ríos: tiene la mitad de sus Rumbos fuera de la Exploración."
+              "Que ya es Caminante de los Bosques, y lo que sigue es Pionero de la Montaña: 3 en Aplicación y 3 en Profundización.",
+              "Que ya es Pionero de la Montaña, y lo que sigue es Visionario de los Ríos: 3 en Aplicación y 3 en Profundización.",
+              "Que ya es Visionario de los Ríos, y lo que sigue es Líder del Sol: las 6 áreas de crecimiento en Profundización."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "Nómada Pionero de la Montaña — 3 áreas en Exploración y 3 en Aplicación."
           },
           {
             "text": "Lucía alcanzó Aplicación en Creatividad a mitad del ciclo. Un dirigente propone guardarle la insignia para el campamento de Grupo de diciembre, «para que tenga público». ¿Qué le dices?",
             "options": [
-              "Que sí: las insignias de Rumbo se reconocen desde el nivel grupal, y por eso se entregan ante el Grupo reunido.",
-              "Que no hace falta esperar: puede ser en una ceremonia de su Equipo, firmada por el Jefe de Grupo y el Jefe de Unidad.",
-              "Que no hace falta esperar: el dirigente que acompaña a su Equipo la firma y se la entrega en la próxima reunión."
+              "Que sí conviene esperar: debe entregarse en una ceremonia de Grupo, firmada por el Jefe de Grupo y el Jefe de Unidad.",
+              "Que sí conviene esperar: debe entregarse en una ceremonia de Grupo, firmada por la Comisión Nacional de Nómadas Scout.",
+              "Que no hace falta esperar: puede entregarse en una ceremonia de Equipo, firmada por el Jefe de Grupo y el Jefe de Unidad."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "Todas las insignias de Rumbos y de Fases se reconocen desde el nivel grupal, con la firma del Jefe de Grupo y el Jefe de Unidad. Se pueden entregar en ceremonia de Equipo"
           }
         ]
       }
@@ -1035,29 +1053,32 @@
           {
             "text": "Lucas tiene catorce años y medio, empezó su Etapa de Transición y ya viene a algunas actividades de tu Comunidad. Un dirigente del Grupo dice que no debería estar ahí porque la rama es de 15 a 17. ¿Qué le respondes?",
             "options": [
-              "Que está bien que venga: sigue en la Tropa y viene a actividades conjuntas, y el paso llega a más tardar a los quince.",
-              "Que está bien que venga: la transición empieza a los catorce y medio, y desde ese día ya es un Nómada más de un Equipo.",
-              "Que está bien que venga si el Jefe de Grupo autoriza por escrito su ingreso anticipado, porque la sección es de 15 a 17."
+              "Que está bien: sigue en la Tropa, ya recibió su insignia de Ciudadano Scout y el paso llega a más tardar a los quince.",
+              "Que está bien: sigue en la Tropa, ya recibió su insignia de Ciudadano Scout y el paso llega a más tardar a los dieciséis.",
+              "Que está bien: sigue en la Tropa, ya recibió su insignia de Viajero del Territorio y el paso llega a más tardar a los quince."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Al momento de comenzar su Etapa de Transición se le debe entregar al protagonista su insignia de Viajero del Territorio"
           },
           {
-            "text": "Sebastián cumple 18 en cinco meses y ya recibió su insignia de Ciudadano Scout. ¿Por dónde arranca su transición?",
+            "text": "Sebastián cumple 18 en cinco meses, ya recibió su insignia de Ciudadano Scout y está en el paso del Asentamiento. ¿Qué le toca hacer en ese paso?",
             "options": [
-              "Empezar a participar en las actividades del Clan de Rovers para ir conociendo su dinámica antes de decidir.",
-              "Que tú solicites el pin y tramites ante la Comisión Nacional la resolución de Ciudadano Scout que lo reconoce.",
-              "Empezar por autoevaluarse en las áreas de crecimiento y dejarle algo propio a su Comunidad: el paso del Legado."
+              "Acercarse al Clan de Rovers y a la canoa como símbolo, y preguntarse qué es ser un Rover.",
+              "Autoevaluarse en sus áreas de crecimiento y dejarle a su Comunidad una creación propia.",
+              "Escoger por su cuenta en qué rama participa, tras haber vivido actividades con el Clan."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "Asentamiento — se acerca al Clan de Rovers y a la canoa como símbolo."
           },
           {
-            "text": "Al final de la reunión, Martín, de 16 años, te pide hablar a solas de un problema que tiene con su Equipo. ¿Qué haces?",
+            "text": "Al final de la reunión, Martín, de 16 años, te pide una conversación personal sobre un problema que tiene con su Equipo. ¿Cómo la organizas?",
             "options": [
-              "Le dices que sí y la tienen en un lugar público, como la cafetería de la esquina, para que no sea a puerta cerrada.",
-              "Le propones hablarlo por videollamada esa noche, con la cámara encendida y avisando antes a sus padres.",
-              "Le dices que sí y la tienen con otro dirigente presente, en un espacio a la vista del resto de la Comunidad."
+              "Le dices que sí, con un adulto del Movimiento y su Coordinador de Equipo, en un espacio a la vista de la Comunidad.",
+              "Le dices que sí, con al menos dos adultos del Movimiento presentes, en un espacio a la vista de la Comunidad.",
+              "Le dices que sí, con un adulto del Movimiento y uno de sus padres, en un espacio a la vista de la Comunidad."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "si necesitas una conversación personalizada con un Protagonista de Programa, «al menos dos adultos en el movimiento deberán estar presentes»."
           }
         ]
       }

@@ -269,31 +269,34 @@
         "nextLabel": "Continuar al equipo 👥",
         "questions": [
           {
-            "text": "Julián tendrá menos tiempo este trimestre. Su Subjefa le ofrece encargarse de mandar la convocatoria de la reunión del equipo y de llevar el acta. ¿Qué le conviene responder?",
+            "text": "Julián tendrá menos tiempo este trimestre. Su Subjefa se ofrece a explicarle al equipo las normas nuevas que mandó el Grupo, y Julián acepta. ¿De qué función del cargo sigue respondiendo él?",
             "options": [
-              "No aceptar: coordinar al equipo es solo suyo, así que la convocatoria la manda él.",
-              "Aceptar: ella puede hacer esas tareas, y él sigue a cargo de que el equipo funcione.",
-              "Aceptar solo el acta: la convocatoria lleva el nombre del Jefe, así que esa la manda él."
+              "De coordinar al Equipo de Dirigentes, que incluye informarle al equipo las normas nuevas.",
+              "De garantizar el cumplimiento de reglamentos, que incluye informarle al equipo las normas nuevas.",
+              "De apoyar la gestión de los adultos, que incluye informarle al equipo las normas nuevas."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Garantizar el cumplimiento de las políticas, reglamentos, normas y procedimientos vigentes. Incluye informar las normas a tu equipo"
           },
           {
-            "text": "Una dirigente nueva lee en la ficha del cargo «malla de objetivos educativos» y pregunta si en su unidad tienen que volver a ese sistema. ¿Qué le respondes?",
+            "text": "Una dirigente nueva lee en su ficha que debe usar «la malla» para diseñar actividades, y pregunta cómo se cumple hoy esa conducta. ¿Qué le respondes?",
             "options": [
-              "Que sí: el Manual está vigente y su vocabulario manda sobre el del Modelo de Aplicación.",
-              "Que no: la tarea de la ficha se cumple hoy con las competencias educativas del Modelo.",
-              "Que depende de la rama: en las ramas menores se sigue usando la malla del Manual."
+              "Con las competencias educativas del Modelo; el resto de la ficha se cumple igual.",
+              "Con las competencias esenciales del Modelo; el resto de la ficha se cumple igual.",
+              "Con las competencias específicas del Modelo; el resto de la ficha se cumple igual."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "El cambio de verdad es uno: donde la ficha dice malla de objetivos educativos, hoy trabajas con competencias educativas."
           },
           {
             "text": "Julián y su Subjefe se reparten el año. El Subjefe le dice: «Tú y yo tenemos la misma ficha, solo que tú firmas». Con las dos fichas en la mano, ¿qué le corrige Julián?",
             "options": [
-              "Que comparten las actividades; coordinar al equipo y representar a la rama son solo del Jefe.",
-              "Que comparten la coordinación del equipo; diseñar y evaluar las actividades es solo del Jefe.",
-              "Que comparten casi todo; cuidar las normas y el vínculo con las familias es solo del Jefe."
+              "Comparten las actividades; solo del Jefe son representar a la rama y cuidar a las familias.",
+              "Comparten las actividades; solo del Jefe son coordinar al equipo y apoyar a los otros adultos.",
+              "Comparten las actividades; solo del Jefe son coordinar al equipo y representar a la unidad."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Lo que el Subjefe no tiene es coordinar al equipo y representar a la unidad: eso es solo tuyo."
           }
         ]
       }
@@ -384,31 +387,34 @@
         "nextLabel": "Continuar al que llega 🌱",
         "questions": [
           {
-            "text": "Faltan diez minutos para empezar. El Subjefe que tenía el juego de apertura avisa que no llega, y nadie más lo preparó. ¿Qué hace Julián, hoy y después?",
+            "text": "Una Familia tiene 12 cachorros y dos adultos, que nunca la dejan sola. El Jefe de Familia revisa si su unidad tiene los adultos que necesita. ¿Qué concluye?",
             "options": [
-              "Lo dirige él hoy, y en la próxima reunión del equipo le ponen un suplente fijo a esa tarea.",
-              "Les pide a los guías que lo dirijan ellos hoy, y el lunes le recuerda al Subjefe que avise antes.",
-              "Pasa a la siguiente actividad y deja el juego para el otro sábado: la tarea era del Subjefe."
+              "Le alcanza con dos: el Modelo pide un adulto por cada seis, y en su rama manda el Modelo.",
+              "Le faltan dos: su Guía pide un adulto por cada tres cachorros, y en su rama manda la Guía.",
+              "Le falta uno: su Guía pide un adulto por cada cinco cachorros, y en su rama manda la Guía."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Familia: tu referencia es la Guía de Familia — al menos dos adultos siempre presentes y un adulto por cada cinco cachorros"
           },
           {
-            "text": "Una Comunidad tiene cuatro equipos, un Jefe de Unidad y un solo dirigente más. El Jefe cubre lo que falta y todo funciona. ¿Qué le toca hacer como Jefe?",
+            "text": "Una Comunidad tiene cuatro equipos, el Jefe de Unidad y un solo dirigente más. El Jefe cubre lo que falta y todo funciona. Hecha la cuenta de su rama, ¿qué concluye y qué hace?",
             "options": [
-              "Seguir cubriendo: si la unidad funciona, la proporción es solo una recomendación del Modelo.",
-              "Llevarlo al Jefe de Grupo: con la proporción corta el riesgo es recargar a un solo dirigente.",
-              "Llevarlo al Congreso: que fusionen dos equipos, para tener un adulto por equipo sin sumar dirigentes."
+              "Le faltan tres adultos para su rama, y se lo plantea al Jefe de Grupo.",
+              "Le faltan dos adultos para su rama, y se lo plantea al Jefe de Grupo.",
+              "Le falta un adulto para su rama, y se lo plantea al Jefe de Grupo."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "Comunidad: un adulto por cada equipo, más el Jefe de Unidad."
           },
           {
-            "text": "Un Jefe de Tropa dice: «No necesitamos reunión aparte de los dirigentes; en la Corte de Honor, guías y dirigentes ya coordinamos todo». ¿Qué le falta?",
+            "text": "En la Tropa hay que decidir qué dirigente llevará este ciclo el registro de progresión. El Jefe propone resolverlo en la próxima Corte de Honor. ¿Dónde se decide, según la lección?",
             "options": [
-              "Nada: la Guía de Tropa dice que en la Corte de Honor se coordina la vida de tropa con los guías.",
-              "La reunión del equipo adulto, aparte, donde se reparten las tareas con nombre y se deja acta.",
-              "Que el Subjefe vaya a la Corte de Honor, para que los acuerdos de los adultos queden en el acta de los guías."
+              "En la Corte de Honor, donde guías y dirigentes coordinan y dejan acta con responsables.",
+              "En la reunión aparte del equipo adulto, donde se reparten tareas y queda acta con responsables.",
+              "En la reunión de Jefes de Rama, donde el Jefe de Grupo reparte y deja acta con responsables."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "No es la reunión de la unidad con los adultos presentes: es otra, aparte, donde el equipo decide, reparte y revisa."
           }
         ]
       }
@@ -515,29 +521,32 @@
           {
             "text": "Julián quiere sumar a Natalia como Subjefa de la Tropa y le pregunta al equipo cómo se hace. ¿Qué es lo correcto?",
             "options": [
-              "Nombrarla él mismo, porque como Jefe de Rama es quien responde por el equipo de la unidad.",
-              "Proponerla al Jefe de Grupo, que es quien nombra al Jefe y al Subjefe de Rama.",
-              "Proponerla al Consejo de Grupo, que la nombra porque es ante quien responde la unidad."
+              "Proponerla al Jefe de Grupo, que según el Manual nombra al Jefe y al Subjefe de Rama.",
+              "Proponerla al Consejo de Grupo, que según el Manual nombra al Jefe y al Subjefe de Rama.",
+              "Proponerla al Comisionado de Programa, que según el Manual nombra al Jefe y al Subjefe."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "Al Subjefe y al Jefe de Rama los nombra el Jefe de Grupo — así lo dicen sus fichas en el Manual."
           },
           {
-            "text": "Natalia lleva seis semanas en la Tropa. Viene todos los sábados, pero no ha hecho los módulos de A Salvo del Peligro ni ha elegido asesor. ¿Qué le toca a Julián?",
+            "text": "Natalia ya eligió su asesor personal y está construyendo su Plan Personal de Desarrollo. Julián repasa con ella la lista de la Guía. Del paso «No caminar solo», ¿qué le falta?",
             "options": [
-              "Hablarlo ya: A Salvo del Peligro va antes de empezar con jóvenes, y elegir asesor es parte de integrarla.",
-              "Esperar a la reflexión de los tres meses: hasta entonces, que siga viniendo como ha venido cada sábado.",
-              "Asignarse como su asesor personal, porque es el Jefe de la unidad a la que llegó Natalia hace seis semanas."
+              "Le falta el curso de inducción de Universidad Scout.",
+              "Le falta firmar su Compromiso de Acuerdo Mutuo.",
+              "Le falta la valoración inicial de sus competencias."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "Elegir un asesor personal, hacer su valoración inicial de competencias y construir su Plan Personal de Desarrollo."
           },
           {
-            "text": "El Jefe de Grupo firmó el nombramiento de Natalia. Julián piensa: «Si no la nombré yo, integrarla no es asunto mío». ¿Qué le diría su ficha?",
+            "text": "Natalia entra como Subjefa de la Tropa. La Guía dice que en sus primeros tres meses su jefe inmediato estará pendiente de ella. ¿Quién hace ese seguimiento?",
             "options": [
-              "Que tiene razón: integrar al que llega le toca a quien firmó su nombramiento, el Jefe de Grupo.",
-              "Que le toca si Natalia lo elige como asesor personal; si no, ese trabajo es de su asesor.",
-              "Que sí es asunto suyo: acompañar e integrar a los dirigentes de la rama es función de su cargo."
+              "El que acuerden Julián y el asesor de Natalia: a un Subjefe ninguna norma le fija jefe inmediato.",
+              "El que acuerden Julián y el Jefe de Grupo: a un Subjefe ninguna norma le fija jefe inmediato.",
+              "El que acuerden Julián y el Consejo de Grupo: a un Subjefe ninguna norma le fija jefe inmediato."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "Para un Subjefe ninguna norma lo fija, porque responde al Jefe de Grupo y también a ti, así que acuerden con el Jefe de Grupo quién hace ese seguimiento."
           }
         ]
       }
@@ -630,31 +639,34 @@
         "nextLabel": "Continuar hacia las familias 👨‍👩‍👧",
         "questions": [
           {
-            "text": "Tres Jefes de Rama leen esto en la reunión con el Jefe de Grupo. ¿Cuál es un informe por ciclo que le sirve para decidir algo?",
+            "text": "Julián lleva este informe a la reunión de Jefes de Rama: «Hicimos diez reuniones y dos salidas; la patrulla Halcones terminó su proyecto, con fotos; el próximo ciclo cambiamos el horario». Según las Guías de Manada y de Familia, ¿qué le falta?",
             "options": [
-              "«Todo bien, los chicos contentos; la asistencia fue buena y el equipo está muy comprometido.»",
-              "«Hicimos 10 de las 12 reuniones previstas; los jóvenes pidieron más salidas: el próximo ciclo trae dos.»",
-              "«Hicimos las doce reuniones; adjunto la lista de asistencia y las fotos de cada actividad del ciclo.»"
+              "La asistencia: cuántos jóvenes vinieron a cada reunión del ciclo.",
+              "Lo planificado: qué se había propuesto la unidad en este ciclo.",
+              "El gasto: cuánto costó cada actividad y cada salida del ciclo."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Lo planificado — qué se propuso la unidad en este ciclo."
           },
           {
-            "text": "En la sesión del Consejo de Grupo, con la rover del Clan presente, un consejero le pregunta directamente al dirigente de Clan por qué el Clan gastó más de lo previsto en su último proyecto. ¿Qué le corresponde a él?",
+            "text": "En el Consejo de Grupo, un consejero propone que el dirigente de Clan escoja este año al rover que representará al Clan en ese Consejo. ¿Qué le responde el dirigente?",
             "options": [
-              "Responder él por ese gasto: responder por las actuaciones de la rama es parte de su cargo.",
-              "Pasarle la palabra a la rover: ella es la voz del Clan en el Consejo y la pregunta es del Clan.",
-              "Pedir que lo dejen para la próxima sesión: el gasto lo decidió el Clan y primero lo consulta con ellos."
+              "Que lo elige cada año el Comité de Clan; a él le toca que llegue preparado.",
+              "Que lo elige cada año el Consejo de Grupo; a él le toca que llegue preparado.",
+              "Que lo elige cada año el Consejo de Clan; a él le toca que llegue preparado."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "según su Guía, el Consejo de Clan elige cada año al Rover que será miembro del Consejo de Grupo"
           },
           {
             "text": "El Consejo de Grupo ofrece el transporte del campamento de la Tropa y un consejero pide que el Consejo elija también el destino. Julián va a la sesión. ¿Qué lleva?",
             "options": [
               "Lo que acordó la Corte de Honor sobre el destino, y la petición de transporte para ese plan.",
-              "Tres destinos posibles, para que el Consejo elija el que mejor pueda apoyar con transporte.",
-              "Lo que decida el Jefe de Grupo, que es quien supervisa el plan de rama de la Tropa."
+              "Lo que acordó el Consejo de Roca sobre el destino, y la petición de transporte para ese plan.",
+              "Lo que acordó el Congreso de Tropa sobre el destino, y la petición de transporte para ese plan."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "Manada: lo que decidió el Consejo de Roca. Tropa: lo que acordó la Corte de Honor."
           }
         ]
       }
@@ -736,31 +748,34 @@
         "nextLabel": "Continuar a la memoria 📚",
         "questions": [
           {
-            "text": "Una lobata deja de venir y, a la semana, su papá escribe por el chat: «Ya no va a seguir, gracias por todo». ¿Qué le pide el Manual al Jefe de Manada?",
+            "text": "Una lobata deja de venir y, a la semana, su papá escribe por el chat: «Ya no va a seguir, gracias por todo». ¿Qué le pide el Manual al equipo de la Manada?",
             "options": [
-              "Llamar al papá para agradecerle y darla de baja en el registro esa misma semana.",
-              "Llamar a la familia para escuchar por qué se va y dejarle la puerta abierta a la niña.",
-              "Pedirles a sus amigos de la Manada que la convenzan de volver antes de la próxima salida."
+              "Hablar con la niña y su familia, para escuchar qué afectó su permanencia en la Manada.",
+              "Hablar con la niña y su familia, para escuchar qué haría falta para que siga en la Manada.",
+              "Hablar con la niña y su familia, para escuchar qué actividad la animaría a volver a la Manada."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "El Manual no te pide que evites que los jóvenes se vayan: te pide que cuando se vayan, alguien haya hablado con ellos y con su familia."
           },
           {
-            "text": "Un Jefe de Manada propone que las familias asistan a todas las ceremonias y aporten los refrigerios «para que se sientan parte». ¿Qué le diría el Modelo?",
+            "text": "Un Jefe de Manada propone que las familias asistan a todas las ceremonias y aporten los refrigerios «para que se sientan parte». Según lo que la lección dice de su rama, ¿qué le conviene pedirles más bien?",
             "options": [
-              "Que es la forma recomendada, porque presencia y recursos son el aporte principal de la familia.",
-              "Que eso la deja como público y proveedora; pídele una acción educativa sencilla con su hijo.",
-              "Que los rote entre las familias de cada seisena, para no cargar siempre a las mismas."
+              "Que continúen en casa lo que el niño vivió el sábado, sin repetírselo.",
+              "Que conversen en casa sobre la cacería o el juego del sábado.",
+              "Que sepan qué proyecto sostiene su hijo y a quién le sirve."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Manada: una conversación sobre la cacería o el juego del sábado vale más que la asistencia a la ceremonia."
           },
           {
-            "text": "Antes del primer campamento, Julián tiene tiempo para una sola tarea con las familias: arrancar un boletín mensual o poner al día el directorio, las fichas de salud y las autorizaciones. ¿Por cuál empieza?",
+            "text": "Antes del primer campamento, Julián pone al día el directorio de familias, las fichas de salud y las autorizaciones. El Subjefe le pregunta de qué función del cargo es esa tarea. ¿Qué le responde?",
             "options": [
-              "Por el boletín: la quinta función le pide vías de comunicación efectivas con las familias.",
-              "Por el directorio, pero solo los teléfonos: fichas y autorizaciones las recoge el Grupo al inscribir.",
-              "Por el directorio y las fichas: cuidan a cada joven, y eso es de la primera función del cargo."
+              "De la quinta: mantener la comunicación con las familias, que son quienes dan esos datos.",
+              "De la tercera: informar a los padres sobre las normas de seguridad, que esos datos respaldan.",
+              "De la primera: velar por la integridad de cada joven, que es lo que esos datos protegen."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "Que existan y estén al día es parte de la primera función —velar por la integridad de cada joven—."
           }
         ]
       }
@@ -841,31 +856,34 @@
         "nextLabel": "Continuar a tu perfil 🧩",
         "questions": [
           {
-            "text": "Carolina lleva ocho años como Jefa de Manada y no piensa irse. Las fichas, los contactos y la historia de la Manada viven en su teléfono y en su cabeza, y todo funciona. Dice que armará la carpeta «cuando llegue el momento de entregar». ¿Tiene razón?",
+            "text": "Carolina lleva ocho años como Jefa de Manada. Las fichas, los contactos y la historia de la Manada viven en su teléfono y en su cabeza. Según la lección, ¿quién debería custodiar la memoria de la Manada?",
             "options": [
-              "Tiene razón: mientras ella siga, la Manada funciona, y la carpeta se arma al entregar.",
-              "No: si mañana faltara, lo que solo ella sabe se iría con ella; eso se deja cada ciclo.",
-              "En parte: que pase hoy las fichas de salud, y la historia y los contactos los entregue al irse."
+              "La custodia el Consejo de Roca, y los niños la reconocen en los símbolos y las ceremonias.",
+              "La custodia el Jefe de Grupo, y los niños la reconocen en los símbolos y las ceremonias.",
+              "La custodian los Viejos Lobos, y los niños la reconocen en los símbolos y las ceremonias."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "Familia y Manada: la memoria la custodian los Viejos Lobos, pero los niños la reconocen en los símbolos y las ceremonias"
           },
           {
-            "text": "Julián ordena lo que hay de la Tropa: el álbum del campamento de 2019, las actas de la Corte de Honor, la lista de guías de patrulla de cada año y la planificación del último ciclo. El Subjefe pregunta qué de todo eso necesitaría el próximo Jefe el primer día. ¿Qué le responde?",
+            "text": "Julián ordena lo que hay de la Tropa y encuentra la lista de los guías de patrulla de cada año. El Subjefe pregunta dónde va. ¿Qué le responde Julián?",
             "options": [
-              "Las actas y la planificación, que son el archivo; el álbum y los guías son la memoria.",
-              "El álbum y la lista de guías, porque son lo que le da identidad a la Tropa que recibe.",
-              "Las cuatro por igual: memoria y archivo son dos nombres de la misma carpeta de la unidad."
+              "A la memoria, que da identidad: la Guía pone ahí los cambios de guías y de dirigentes.",
+              "Al archivo, que da continuidad: la Guía pone ahí los cambios de guías y de dirigentes.",
+              "A las actas del equipo, aparte: la Guía pone ahí los cambios de guías y de dirigentes."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "Lo que da identidad: fotografías de campamentos, historias significativas, logros, eventos destacados y los cambios de guías y dirigentes."
           },
           {
-            "text": "Al cerrar el campamento, el Subjefe propone anotar solo «salió bien, repetir», porque todo el equipo estuvo ahí y se acuerda. ¿Qué le responde Julián?",
+            "text": "Al cerrar el campamento, el Subjefe propone anotar solo «salió bien, repetir», porque todo el equipo estuvo ahí y se acuerda. ¿Qué recomienda registrar la Guía de Tropa después de cada ciclo o campamento?",
             "options": [
-              "Basta con eso: el registro es para este equipo, y al que llegue se le cuenta en el traspaso.",
-              "Escribirlo para quien no estuvo: qué funcionó, qué mejorar y qué recomiendan para después.",
-              "Escribirlo en el informe al Jefe de Grupo, que es donde se guarda lo aprendido en la unidad."
+              "Lo que funcionó, lo que puede mejorar, la participación de los jóvenes y lo que costó cada actividad.",
+              "Lo que funcionó, lo que puede mejorar, la participación de los jóvenes y recomendaciones para el futuro.",
+              "Lo planificado, lo ejecutado, los resultados y las mejoras, como en el informe para el Jefe de Grupo."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "lo que funcionó, lo que puede mejorar, observaciones sobre la participación de los jóvenes y recomendaciones para el futuro"
           }
         ]
       }
@@ -951,31 +969,34 @@
         "nextLabel": "Ver mi certificado ⭐",
         "questions": [
           {
-            "text": "Julián se ubica frente a su ficha: en Planeamiento Estratégico se ve en grado 3 y en Trabajo en Equipo, en grado 2. ¿Dónde está la brecha que más le conviene trabajar?",
+            "text": "Julián se ubica frente a las dos competencias que el curso le mostró: se ve en grado 3 en Trabajo en Equipo y en grado 3 en Planeamiento Estratégico. ¿Dónde tiene brecha frente a su ficha?",
             "options": [
-              "En Planeamiento Estratégico: un Jefe que planifica la unidad debería tenerla en grado 4.",
-              "En Trabajo en Equipo: la pide en grado 4, y en planeación ya supera el 2 que le piden.",
-              "En las dos por igual: la ficha pide las siete competencias esenciales en el mismo grado."
+              "En Planeamiento Estratégico: su ficha la pide en grado 4, y Trabajo en Equipo en grado 2.",
+              "En Trabajo en Equipo: su ficha la pide en grado 4, y Planeamiento Estratégico en grado 2.",
+              "En las dos: su ficha pide grado 4 en Trabajo en Equipo y en Planeamiento Estratégico."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "El Manual te pide más como coordinador de adultos que como planificador."
           },
           {
-            "text": "Julián le enseñó a Natalia a llamar a las familias: hicieron juntos las primeras llamadas y ya lleva un mes haciéndolas sola. Una mamá llama a Julián para quejarse de que ya no habla con él. ¿Qué hace Julián?",
+            "text": "Julián va a pasarle a Natalia las llamadas a las familias, que hoy solo hace él. Según la tarea de cierre del curso, ¿cómo lo hace?",
             "options": [
-              "No llamarla él: pedirle a Natalia que la llame esa misma tarde y que después le cuente cómo le fue.",
-              "Hablar él con la mamá, presentarle a Natalia como su contacto y revisar con ella qué pasó.",
-              "Pasarle la queja a Natalia para que la resuelva ella sola: esa tarea ya dejó de ser de él."
+              "La hace con ella un ciclo, después se la enseña y luego la suelta; sigue respondiendo él.",
+              "Se la enseña, la deja hacerla sola una vez y luego la revisan; sigue respondiendo él.",
+              "Se la enseña, la hace con ella una vez y después la suelta; sigue respondiendo él."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "No la delegues de golpe: enséñala, hazla con ella una vez y después suéltala."
           },
           {
-            "text": "A la Manada de Laura llega un dirigente que trabajó cinco años en la Tropa. Sus actividades son buenas, pero las plantea como las planteaba allá. ¿Qué conversación le debe Laura primero?",
+            "text": "A la Comunidad de Laura llega un dirigente que trabajó cinco años en la Tropa. Sus actividades son buenas, pero las plantea como las planteaba allá. ¿Qué conversación le debe Laura primero?",
             "options": [
-              "La de las funciones: la ficha de Manada no le pide lo mismo que le pedía la de Tropa.",
-              "La de la edad: el marco de Tropa le sirve si ajusta las actividades a los lobatos.",
-              "La del marco simbólico: la conducta de la ficha es igual, pero aquí es La Fantasía."
+              "La del marco simbólico: en Comunidad es La aventura hacia la ciudadanía, no el de Tropa.",
+              "La del marco simbólico: en Comunidad es La Ciudadanía Activa, no el de la Tropa.",
+              "La del marco simbólico: en Comunidad es La Aventura, el mismo de la Tropa."
             ],
-            "correctIndex": 2
+            "correctIndex": 0,
+            "evidencia": "Tropa: La Aventura. Comunidad: La aventura hacia la ciudadanía. Clan: La Ciudadanía Activa."
           }
         ]
       }

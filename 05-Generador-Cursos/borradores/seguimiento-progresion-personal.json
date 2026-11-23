@@ -211,31 +211,34 @@
         "nextLabel": "Continuar al banco de técnicas 🧰",
         "questions": [
           {
-            "text": "Un dirigente de Manada anota sobre una lobata: «Valeria tiene mucho liderazgo en su seisena». ¿Qué problema tiene esa nota?",
+            "text": "Un dirigente de Manada se propone observar en una lobata, este ciclo, que «tome decisiones plenamente autónomas en su seisena». ¿Qué le señalas, según la lección?",
             "options": [
-              "Es una meta demasiado grande para su edad: a los ocho años el paso siguiente tiene que ser más pequeño.",
-              "Es un rasgo general: no dice qué hizo Valeria, así que no se puede conversar ni acordar un paso.",
-              "Le falta la fecha y el lugar, que son los dos datos que exige el registro de seguimiento de la rama."
+              "Que cae en escribir un rasgo general de la persona, uno de los tres errores que nombra la lección.",
+              "Que cae en poner una meta demasiado grande para la edad, uno de los tres errores que nombra la lección.",
+              "Que cae en mezclar demasiadas cosas en una frase, uno de los tres errores que nombra la lección."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "«Gestiona sus emociones siempre», «toma decisiones plenamente autónomas». El paso siguiente casi siempre es más pequeño y más realista que eso."
           },
           {
-            "text": "Una jefa de Comunidad eligió para convivencia una sola conducta observable este ciclo, y piensa mirarla una vez, el último día. ¿Qué le ajustarías?",
+            "text": "Una jefa de Comunidad quiere hacer seguimiento a la competencia de convivencia este ciclo y pregunta cuánto mirar para ver progreso real. ¿Qué le respondes?",
             "options": [
-              "Que sume una o dos conductas más y las mire en dos o tres momentos del ciclo: con una sola mirada no se ve progreso.",
-              "Que cada mes la cambie por otra conducta de convivencia, para cubrir más terreno con el mismo esfuerzo del ciclo.",
-              "Que la mantenga, y el último día la mire con una lista de cotejo, para que el dato del ciclo salga comparable."
+              "Que mire dos o tres conductas de convivencia y haga dos o tres observaciones en el ciclo.",
+              "Que mire tres o cuatro conductas de convivencia y haga dos o tres observaciones en el ciclo.",
+              "Que mire tres o cuatro conductas de convivencia y haga tres o cuatro observaciones en el ciclo."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "El Modelo recomienda elegir dos o tres conductas observables por competencia, y la fuente de este curso pide dos o tres observaciones por ciclo de programa para ver progreso real."
           },
           {
-            "text": "Un jefe de Tropa revisa tres notas de su cuaderno sobre el mismo scout. ¿Cuál le sirve, tal como está, para conversar con él y acordar un paso siguiente?",
+            "text": "Marcela le explica a un dirigente nuevo cómo convertir «Juan es responsable» en una conducta observable. Según la fuente, ¿qué tres piezas suele tener esa frase?",
             "options": [
-              "En la reunión del sábado se mostró muy responsable con su rol y fue el más comprometido de toda la patrulla.",
-              "Al cierre propone acuerdos, los recuerda, reparte los roles, cuida el material y anima a los nuevos.",
-              "En la salida del sábado, cuando cambió el plan, propuso repartir otra vez las tareas y la patrulla lo siguió."
+              "Un verbo claro, un contexto y una evidencia que se pueda guardar.",
+              "Un verbo claro, un contexto y una meta que se pueda alcanzar.",
+              "Un verbo claro, un contexto y una señal que se pueda verificar."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "Una conducta observable suele tener tres piezas: un verbo claro, un contexto y una señal verificable."
           }
         ]
       }
@@ -357,31 +360,34 @@
         "nextLabel": "Continuar al kit de tu rama 🎒",
         "questions": [
           {
-            "text": "Un jefe de Tropa quiere empezar a hacer seguimiento y decide aplicar todas las técnicas del banco durante el próximo campamento. ¿Qué le dirías?",
+            "text": "Un jefe de Tropa abre el banco de técnicas y quiere aplicarlas todas en el próximo campamento. ¿Qué le dices sobre cómo elegir?",
             "options": [
-              "Que las aplique todas una vez y después se quede con las que mejor le hayan funcionado en el campamento.",
-              "Que el banco es para elegir con criterio: una o dos, sostenidas, rinden más que todas a la vez.",
-              "Que arranque por las de instrumentos simples, que son las que dan un dato comparable entre patrullas."
+              "Que no las use todas: elija una o dos, buscándolas por el tipo de actividad que prepara.",
+              "Que no las use todas: elija una o dos, buscándolas por el propósito que persigue con ellas.",
+              "Que no las use todas: elija una o dos, buscándolas por la competencia que quiere mirar."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Están agrupadas por propósito, que es como se eligen."
           },
           {
-            "text": "Marcela ya eligió qué mirar en el juego de pistas (cómo se reparten los roles) y lleva un registro anecdótico. Termina el juego. ¿Qué le falta para que la receta quede completa?",
+            "text": "Para el juego de pistas, Marcela mirará cómo se reparten los roles, lo registrará con un anecdótico y con una lista de cotejo, y cerrará preguntando «¿qué ajustamos para la próxima?». ¿Qué le cambia la receta?",
             "options": [
-              "Cerrar el juego con una pregunta a cada patrulla y acordar con ellos un paso para la próxima reunión.",
-              "Nada más: con la conducta elegida y el anecdótico escrito, el seguimiento de ese sábado ya quedó completo.",
-              "Pasar esa misma noche el anecdótico a la carpeta del Grupo, para que el registro del sábado no se pierda."
+              "Nada en la conducta ni en el cierre; sí en las técnicas: la receta pide una sola.",
+              "Nada en las técnicas ni en el cierre; sí en la conducta: la receta pide dos o tres.",
+              "Nada en la conducta ni en las técnicas; sí en el cierre: la receta pide dos preguntas."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "Elige una técnica para recoger evidencia. Una sola."
           },
           {
-            "text": "Un jefe de Comunidad acordó el sábado con un equipo que cada uno avisaría si no podía cumplir su parte del proyecto. Este trimestre solo tiene tiempo para sostener una cosa. ¿Qué hace en la reunión siguiente para que eso ya cuente como seguimiento?",
+            "text": "Un jefe de Comunidad, con muy poco tiempo este trimestre, solo puede sostener una práctica de seguimiento. ¿Cuál es la que, según la fuente, ya sería seguimiento de verdad?",
             "options": [
-              "Nada todavía: los acuerdos se revisan al cierre del ciclo, cuando ya hay datos suficientes para valorarlos.",
-              "Les pasa una lista de cotejo de cinco ítems sobre el acuerdo, para que la marquen y quede en la carpeta.",
-              "Abre preguntando cómo les fue con lo de avisar y, con lo que digan, ajustan juntos el acuerdo."
+              "Solo llevar un registro anecdótico cada quince días de los hechos más significativos, con constancia.",
+              "Solo hacer una coevaluación guiada por tres preguntas al cierre de cada ciclo de programa, con constancia.",
+              "Solo recordar el acuerdo en la reunión siguiente, ver si se sostuvo y ajustarlo con ellos, con constancia."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "Recordar el acuerdo en la reunión siguiente, ver si se sostuvo y ajustar. Dice la fuente que si una unidad hiciera solo eso con constancia, ya estaría haciendo seguimiento de verdad."
           }
         ]
       }
@@ -475,31 +481,34 @@
         "nextLabel": "Continuar a los tres momentos ⏱️",
         "questions": [
           {
-            "text": "Una jefa de Familia quiere seguir el hábito de lavarse las manos en sus cachorros de cinco años. ¿Qué herramienta del kit de su rama encaja mejor?",
+            "text": "Un jefe de Manada quiere seguir cómo sus lobatos asumen los roles de seisena. ¿Qué herramienta del kit de su rama encaja?",
             "options": [
-              "Una coevaluación 2+1 al cierre: cada cachorro dice dos cosas que otro hizo bien y una por mejorar.",
-              "Un calendario de hábitos con stickers, que se ve de una mirada y se sostiene unos días seguidos.",
-              "Un registro de catorce días en una bitácora personal, que cada cachorro marca al llegar a la reunión."
+              "Una rúbrica ligera de tres criterios para los roles de seisena, revisada cada mes.",
+              "Una lista de cotejo de tres a cinco ítems para los roles de seisena, revisada cada mes.",
+              "Una rúbrica por rol de tres a cinco criterios para los roles de seisena, revisada cada mes."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Lista de cotejo de tres a cinco ítems para roles o hábitos de seisena"
           },
           {
-            "text": "La Manada de Andrés lleva dos meses con el «mínimo mínimo» y ya le sale sin esfuerzo. ¿Qué le recomiendas ahora?",
+            "text": "Un equipo de Manada desbordado arrancó con el «mínimo mínimo». A las tres semanas, un dirigente quiere sumar ya la lista de cotejo de seisena. ¿Qué le recuerdas?",
             "options": [
-              "Que pase de una vez al kit completo de Manada, con sus cuatro herramientas: el equipo ya probó que puede.",
-              "Que cambie el anecdótico por una bitácora que lleven los lobatos, para que registren ellos su propio avance.",
-              "Que sume una herramienta del kit de su rama, como la lista de cotejo de seisena, y la sostenga otro mes."
+              "Que espere: el mínimo mínimo va solo durante un ciclo de programa, y después lo demás se integra solo.",
+              "Que espere: el mínimo mínimo va solo durante un mes, y cuando se vuelve hábito lo demás se integra solo.",
+              "Que la sume: el mínimo mínimo va solo durante dos semanas, y después lo demás se integra solo."
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "La fuente tiene una recomendación transversal para unidades que están arrancando o equipos de dirigentes desbordados. Durante un mes, solo esto:"
           },
           {
-            "text": "Un guía de patrulla propone usar el Libro de Oro de la patrulla para anotar los acuerdos y los roles de cada reunión. ¿Qué le respondes?",
+            "text": "Un guía de patrulla propone anotar los acuerdos y los roles de cada reunión en el Libro de Oro de la patrulla. ¿Qué le respondes?",
             "options": [
-              "Que para eso está la bitácora: el Libro de Oro es un símbolo que recuerda, no el instrumento que registra.",
-              "Que lo usen solo para los acuerdos importantes: el Libro de Oro guarda lo que de verdad vale la pena recordar.",
-              "Que anoten en la bitácora y pasen a limpio al Libro de Oro, al cierre de cada mes, los acuerdos y los roles."
+              "Que no: el Libro de Oro, que cuida el guía de patrulla, es un símbolo; los acuerdos van en la bitácora.",
+              "Que no: el Libro de Oro, que cuida el jefe de Tropa, es un símbolo; los acuerdos van en la bitácora.",
+              "Que no: el Libro de Oro, que cuida el Guardián de Leyenda, es un símbolo; los acuerdos van en la bitácora."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "En Tropa, por tradición, cada patrulla lleva el suyo y lo cuida el Guardián de Leyenda"
           }
         ]
       }
@@ -640,31 +649,34 @@
         "nextLabel": "Continuar a la retroalimentación 💬",
         "questions": [
           {
-            "text": "Una Comunidad pasó seis semanas montando una huerta en el patio del colegio vecino y el viernes se la entrega al comité de padres. ¿Con qué cierra la jefa esa experiencia?",
+            "text": "Un nómada quiere aprender a tener listos su morral y su horario antes de cada salida. ¿Qué técnica le propone la jefa, según el tipo de experiencia?",
             "options": [
-              "Con una lista de cotejo de la parte técnica, una foto del montaje y una revisión la semana siguiente.",
-              "Con la huerta entregada como evidencia, lo que diga de ella quien la recibe y una pregunta de transferencia.",
-              "Con un registro de hábitos de las seis semanas y una señal simple de avance por cada nómada del equipo."
+              "Un registro de hábitos de catorce a veintiún días, una señal simple de avance y una conversación breve.",
+              "Un registro de hábitos de siete a catorce días, una señal simple de avance y una conversación breve.",
+              "Un registro de hábitos de veintiuno a treinta días, una señal simple de avance y una conversación breve."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Autocuidado, actividad física, organización. → Registro de hábitos de siete a catorce días + una señal simple de avance + conversación breve."
           },
           {
-            "text": "Un dirigente dice que hace seguimiento, pero se sienta a escribirlo todo el último domingo del mes. ¿Dónde está el problema, según la fuente?",
+            "text": "Un dirigente hace todo su seguimiento el último domingo del mes, y cada vez le cuesta saber qué escribir. ¿Qué momento le falta, según la lección?",
             "options": [
-              "En que no eligió antes qué mirar, así que durante la actividad no había nada en foco que registrar.",
-              "En que el registro mensual queda muy espaciado: lo sostenible es un registro anecdótico en cada reunión.",
-              "En que debería delegar ese registro en los propios protagonistas, que son quienes viven la experiencia."
+              "Le falta el antes, que es el momento más barato y el que más rinde: decidir qué mirar.",
+              "Le falta el durante, que es el momento más barato y el que más rinde: anotar en el acto.",
+              "Le falta el después, que es el momento más barato y el que más rinde: cerrar preguntando."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "Es el momento más barato y el que más rinde."
           },
           {
-            "text": "En el campamento, un dirigente de Tropa decidió mirar cómo asumen los roles y lleva su libreta. A media tarde, dos scouts discuten por la carpa y lo arreglan solos. ¿Qué le ajustarías?",
+            "text": "En el campamento, un dirigente de Tropa tiene en foco cómo asumen los roles. A media tarde, dos scouts discuten por la carpa y lo resuelven solos. ¿Con qué lo registra?",
             "options": [
-              "Que guarde la libreta durante el campamento: registrar mientras pasa la actividad la vuelve un examen.",
-              "Que deje los roles para otro día y pase su foco a la convivencia, que es lo que de verdad se vio esa tarde.",
-              "Que sume una línea breve sobre cómo resolvieron el desacuerdo, aunque hoy su foco fueran los roles."
+              "Con una rúbrica ligera de tres criterios sobre el acuerdo, aunque su foco del día fueran los roles.",
+              "Con una rúbrica por rol para los dos scouts, aunque su foco del día fueran los roles.",
+              "Con un registro breve de conflicto–resolución, aunque su foco del día fueran los roles."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "En convivencia, un registro breve de conflicto–resolución ayuda a sostener los acuerdos."
           }
         ]
       }
@@ -783,31 +795,34 @@
         "nextLabel": "Continuar a lo que pasa afuera 🚪",
         "questions": [
           {
-            "text": "Un rover sostiene con rigor su rol en un proyecto y ya lo hace con criterio propio. ¿Hacia dónde apunta la devolución en ese momento?",
+            "text": "Un rover sostiene con rigor su rol en un proyecto y ya lo aplica con criterio propio. ¿Hacia dónde mira la devolución que le das?",
             "options": [
-              "Hacia la consistencia: reconocer el avance y preguntarle qué le ayudaría a sostenerlo en el tiempo.",
-              "Hacia el intento: animarlo a seguir probando y darle una pista concreta para la próxima vez.",
-              "Hacia la transferencia: preguntarle dónde más podría usar eso, fuera de la unidad, en lo que ya hace afuera."
+              "La devolución mira la consistencia: «¿Qué te ayudaría a sostenerlo en el tiempo?»",
+              "La devolución mira la transferencia: «¿Dónde más podrías usarlo fuera de la Unidad?»",
+              "La devolución mira el intento: «Para la próxima, probemos con este paso primero.»"
             ],
-            "correctIndex": 2
+            "correctIndex": 1,
+            "evidencia": "La devolución mira transferencia e impacto. «Lo estás aplicando con criterio. ¿Dónde más podrías usarlo fuera de la Unidad?»"
           },
           {
-            "text": "Marcela quiere reescribir «Juan, siempre te desconectas cuando algo no sale» con la estructura de la lección. ¿Qué versión la sigue?",
+            "text": "Marcela quiere reescribir «Juan, siempre te desconectas cuando algo no sale» con la estructura Vi – Logró – Próximo paso. ¿Qué versión la sigue completa?",
             "options": [
-              "Juan, el sábado te saliste del juego cuando falló el nudo. Sé que te frustra perder. La próxima, intenta no tomártelo tan a pecho.",
-              "Juan, el sábado te saliste del juego cuando falló el nudo y la patrulla quedó sin cronometrista. La próxima, pide una pausa corta.",
-              "Juan, el sábado la patrulla terminó sin cronometrista y eso nos retrasó a todos. En esta patrulla cuidamos que nadie quede atrás."
+              "Vi que el sábado te saliste del juego cuando falló el nudo. La patrulla quedó sin cronometrista. La próxima, pide una pausa corta.",
+              "Vi que el sábado te saliste del juego cuando falló el nudo. Sé que te frustra mucho perder. La próxima, pide una pausa corta.",
+              "Vi que el sábado te saliste del juego cuando falló el nudo. La patrulla quedó sin cronometrista. Aquí cuidamos que nadie quede atrás."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "Logró — el efecto: en el equipo, en la seguridad, en el resultado, en la convivencia."
           },
           {
-            "text": "Tras una salida, dos nómadas dejaron tirado y mojado el material del grupo. La jefa de Comunidad les dice: «Dejaron el material mojado. Eso daña lo que es de todos. Aquí cuidamos lo común». ¿Qué le falta para que el límite funcione?",
+            "text": "Tras una salida, dos nómadas dejaron mojado el material. La jefa les dice: «Dejaron el material mojado. Eso daña lo que es de todos. Lo que esperamos ahora es que lo sequen y lo guarden». ¿Qué parte de la fórmula le faltó?",
             "options": [
-              "Una pregunta para que expliquen por qué lo dejaron así, y entender antes de pedirles nada.",
-              "Una consecuencia clara: sin una sanción acordada, el límite se queda en sermón y no se cumple.",
-              "Una acción concreta que se espera ahora, como secarlo y guardarlo antes de irse a casa."
+              "Le faltó el impacto: decir a quién afecta, como «eso deja sin carpas a la otra patrulla».",
+              "Le faltó la reparación: decir cómo se repara, como «una disculpa clara a su equipo».",
+              "Le faltó el marco: decir qué se cuida aquí, como «en esta Comunidad cuidamos el material»."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "Escuché burlas cuando alguien se equivocó. Eso baja la confianza y rompe el equipo. En la patrulla cuidamos el respeto."
           }
         ]
       }
@@ -928,31 +943,34 @@
         "nextLabel": "Continuar a lo que no se registra 🔐",
         "questions": [
           {
-            "text": "Una nómada cuenta que tuvo una discusión fuerte en su casa y que esta vez no gritó. ¿Cómo lo acompañas sin invadir?",
+            "text": "Una nómada empieza a contarte algo de su casa. Tú le dices: «Si quieres compartir, cuéntame, sin entrar en detalles que no quieras». ¿Cuál de los tres cuidados te faltó?",
             "options": [
-              "Le reconoces el cambio y le preguntas qué hizo distinto esta vez y cómo podría sostenerlo.",
-              "Le preguntas qué originó la discusión, para entender el contexto antes de sacar el aprendizaje.",
-              "Le propones contarlo en el cierre con su equipo, para que lo vivido le sirva de aprendizaje a todos."
+              "Te faltó ofrecer elección, como «si te nace contarlo, aquí estoy para oírte».",
+              "Te faltó delimitar el propósito, como «para ver qué aprendizaje te deja».",
+              "Te faltó cuidar la privacidad, como «solo lo que tú quieras que se sepa»."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "Delimita el propósito — «para ver qué aprendizaje te deja», «para pensar un próximo paso»."
           },
           {
-            "text": "Una lobata cuenta que en el colegio defendió a una compañera, se quedó sin recreo y aun así lo volvería a hacer. Ahí se ve convivencia, autocuidado, criterio y hasta comunicación. ¿Qué haces con eso?",
+            "text": "Una lobata cuenta que en el colegio defendió a una compañera, se quedó sin recreo y lo volvería a hacer. Ahí se ve convivencia, autocuidado, criterio y comunicación. ¿Qué haces?",
             "options": [
-              "Nombras las cuatro competencias que se ven, para que ella reconozca todo lo que puso en juego.",
-              "Nombras una sola competencia educativa y eliges una conducta observable como foco; lo demás, otra vez.",
-              "Esperas a que algo así aparezca dentro de una actividad de la Manada para conectarlo con la progresión."
+              "Eliges una competencia principal, a lo sumo dos si hace falta, y luego una conducta observable como foco.",
+              "Eliges dos competencias principales, a lo sumo tres si hace falta, y luego una conducta observable como foco.",
+              "Eliges una competencia principal, a lo sumo tres si hace falta, y luego una conducta observable como foco."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "Una principal; a lo sumo dos, y solo si de verdad hace falta. Después eliges una conducta observable como foco."
           },
           {
-            "text": "Un rover cuenta que perdió una entrevista de trabajo por llegar tarde. Ya dijo qué pasó y cómo se sintió. ¿Qué paso del ciclo sigue ahora?",
+            "text": "Un rover cuenta que perdió una entrevista de trabajo por llegar tarde. Ya dijo qué pasó y qué sintió. ¿Qué paso del ciclo sigue ahora?",
             "options": [
-              "Que diga dónde lo va a usar la próxima vez: ese es el paso que viene después de lo que sintió.",
-              "Que ubique el nivel en que está, Aplico, porque ya está aplicando a su vida lo que vivió afuera.",
-              "Que nombre la idea que se lleva, aunque sea sencilla: «cuando no planeo el trayecto, llego tarde»."
+              "Sigue Proyectar, la experimentación activa: que diga dónde lo va a usar la próxima vez.",
+              "Sigue Aplico, el nivel de la progresión: que diga cómo lo va a llevar a su vida diaria.",
+              "Sigue Comprender, la conceptualización: que diga qué idea o criterio se lleva de esto."
             ],
-            "correctIndex": 2
+            "correctIndex": 2,
+            "evidencia": "Conceptualización (Comprender) — qué idea o criterio se lleva. No tiene que sonar académico"
           }
         ]
       }
@@ -1068,31 +1086,34 @@
         "nextLabel": "Continuar a tus instrumentos 📄",
         "questions": [
           {
-            "text": "Durante una salida, un scout le cuenta a Marcela algo delicado de su situación familiar. Ella ya activó la ruta institucional. Esa noche, ¿qué escribe sobre él en la bitácora de seguimiento?",
+            "text": "Durante una salida, un scout le cuenta a Marcela algo delicado de su situación familiar. Ella ya activó la ruta institucional. Esa noche, ¿qué escribe en la carpeta de seguimiento?",
             "options": [
-              "Lo educativo que sí vio en la salida, como el rol que asumió en la patrulla, y nada de lo que él le contó.",
-              "Lo educativo de la salida y, en una hoja aparte de la misma carpeta, lo que él contó, por si vuelve a pasar.",
-              "Una línea neutra, «situación familiar difícil», sin detalles, para que el resto del equipo lo tenga presente."
+              "Lo educativo que vio en la salida y, sobre lo que él contó, nada: eso no va en el instrumento.",
+              "Lo educativo que vio en la salida y, sobre lo que él contó, «situación familiar difícil».",
+              "Lo educativo que vio en la salida y, sobre lo que él contó, solo la fecha en que activó la ruta."
             ],
-            "correctIndex": 0
+            "correctIndex": 0,
+            "evidencia": "Se evita lo íntimo o sensible: detalles de salud, situaciones familiares, historias personales delicadas, diagnósticos. El instrumento pedagógico no es el lugar para guardar eso."
           },
           {
-            "text": "En el equipo de una Tropa, cada dirigente guarda notas de los scouts en su celular y las pasa por el chat cuando hace falta. Uno de ellos se va del Grupo. ¿Qué arreglan primero?",
+            "text": "En una Tropa, cada dirigente guarda notas de los scouts en su celular y las pasa por el chat. Uno se va del Grupo y deciden ordenar el registro. ¿Qué hacen?",
             "options": [
-              "Le piden al que se va que reenvíe sus notas al chat, para que nadie pierda la historia de cada scout.",
-              "Acuerdan quién anota, quién puede leer y cuánto se guarda, y llevan las notas a un solo lugar cerrado.",
-              "Hacen un formato común para que todos anoten igual, y lo siguen compartiendo por el chat del equipo."
+              "Lo llevan a una carpeta digital con acceso restringido a los dirigentes y las familias, y acuerdan quién registra, quién lee y cuánto se guarda.",
+              "Lo llevan a una carpeta digital con acceso restringido al jefe de Grupo y su Consejo, y acuerdan quién registra, quién lee y cuánto se guarda.",
+              "Lo llevan a una carpeta digital con acceso restringido al equipo adulto responsable, y acuerdan quién registra, quién lee y cuánto se guarda."
             ],
-            "correctIndex": 1
+            "correctIndex": 2,
+            "evidencia": "o una carpeta digital con acceso restringido al equipo adulto responsable"
           },
           {
-            "text": "Una jefa de Manada escribe sus notas después de la reunión. ¿Cuál de estas cabe en el registro de seguimiento?",
+            "text": "Una jefa de Manada quiere usar fotos de las actividades como evidencia del ciclo. Además de los tres cuidados de toda foto, ¿qué pide la lección para su rama?",
             "options": [
-              "En el juego de pistas pidió turno dos veces y esperó sin interrumpir; acordamos repetirlo el sábado.",
-              "En la seisena es muy respetuoso con todos; conviene reforzárselo dándole tareas de responsabilidad.",
-              "Estuvo distraído; la mamá contó que está en terapia por ansiedad, y lo tendremos en cuenta en juegos."
+              "Un cuidado todavía mayor: solo fotos de grupo, sin primeros planos de ningún lobato.",
+              "Un cuidado todavía mayor: evidencias simples, sin sobreexposición de los lobatos.",
+              "Un cuidado todavía mayor: solo fotos del producto, sin las caras de los lobatos."
             ],
-            "correctIndex": 0
+            "correctIndex": 1,
+            "evidencia": "En Cachorros y Lobatos, donde las familias están más presentes, el cuidado es todavía mayor: evidencias simples, sin sobreexposición."
           }
         ]
       }
@@ -1211,31 +1232,34 @@
         "nextLabel": "Ver mi certificado 🎓",
         "questions": [
           {
-            "text": "Marcela no sabe por dónde empezar para trabajar convivencia en su Tropa. ¿Qué instrumento le resuelve eso?",
+            "text": "Marcela no sabe qué mirar en convivencia en su Tropa ni con qué herramienta hacerlo. ¿Qué instrumento abre primero?",
             "options": [
-              "El Registro de Acompañamiento, en su hoja de síntesis de avance por áreas de crecimiento.",
-              "El Archivo Base, que trae las conductas observables y las herramientas de cada nivel por rama.",
-              "La herramienta web, que genera el informe de la rama y lo exporta en PDF para el consejo."
+              "El Archivo Base de Oportunidades de Aprendizaje, en su hoja de los Scouts.",
+              "El Registro de Acompañamiento a la Progresión Personal, en su hoja de la Tropa.",
+              "La herramienta web de Registro y Acompañamiento, en el perfil de la Tropa."
             ],
-            "correctIndex": 1
+            "correctIndex": 0,
+            "evidencia": "Responde «¿qué miro, y con qué?». Una hoja por rama, y dentro las seis áreas con sus competencias educativas."
           },
           {
-            "text": "Un jefe de Tropa vio a un scout ponerse una meta física y llevar su seguimiento por primera vez. En el Registro marca Explora, Aplica y Profundiza, porque «tocó un poco de cada uno». ¿Qué le dices?",
+            "text": "Un jefe de Tropa registra una experiencia de un scout y duda en qué casillas de nivel marcarla, porque «tocó un poco de cada uno». ¿Qué le dices?",
             "options": [
-              "Que marque uno solo: los tres niveles se recorren en orden, y una experiencia se registra en uno.",
-              "Que está bien: son el antes, el durante y el después de la actividad, y cada uno tiene su casilla.",
-              "Que marque solo Profundiza: si tocó los tres, el nivel que cuenta es el más alto que alcanzó."
+              "Que marque una sola: los tres niveles son el antes, el durante y el después, y la experiencia va en el último.",
+              "Que marque las que tocó: los tres niveles se recorren en orden, y una misma experiencia va en cada uno que toque.",
+              "Que marque una sola: los tres niveles se recorren en orden, y una misma experiencia se registra en uno solo."
             ],
-            "correctIndex": 0
+            "correctIndex": 2,
+            "evidencia": "se recorren en orden a lo largo del camino de una competencia educativa, y una misma experiencia se registra en uno solo"
           },
           {
-            "text": "Una jefa de Clan llenó el Registro para un rover en ocho minutos, sin poner nada de más. ¿Qué hace la semana siguiente?",
+            "text": "Una jefa de Clan llenó el Registro para un rover en ocho minutos, sin poner nada de más. ¿Qué hace después, según la lección?",
             "options": [
-              "Llena el Registro para los otros trece rovers ese mismo fin de semana, ahora que ya le cogió el tiro al formato.",
-              "Elige una herramienta del kit del Clan, como la rúbrica de transferencia, y la sostiene un mes con ese rover.",
-              "Abre para ese rover las cuatro herramientas del kit del Clan a la vez, ya que el Registro le salió tan rápido."
+              "Elige una herramienta del kit del Clan, como la rúbrica de transferencia, y la sostiene un ciclo completo.",
+              "Elige una herramienta del kit del Clan, como la rúbrica de transferencia, y la sostiene durante un mes.",
+              "Elige dos herramientas del kit del Clan, como la rúbrica de transferencia y el 360°, y las sostiene un ciclo."
             ],
-            "correctIndex": 1
+            "correctIndex": 1,
+            "evidencia": "Después elige una herramienta del kit de tu rama y sostenla un mes. Una sola. Si al mes sigue en pie, ya tienes seguimiento."
           }
         ]
       }
